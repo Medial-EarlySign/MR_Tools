@@ -1,0 +1,5 @@
+members_type	int
+init_string	string
+duplicate	int
+tag	string
+processors	vector_32<FeatureProcessor>

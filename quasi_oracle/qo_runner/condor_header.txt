@@ -1,0 +1,6 @@
+universe = vanilla
+rank = memory
+request_memory = 16000
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+getenv = True

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+     <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+     <link rel="stylesheet" href="{{ url_for('static',     filename='css/template.css') }}">
+    <title>Distribution</title>
+     <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #943552;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #f1aecb;
+        }
+
+        .active {
+          background-color: #f1aecb;
+        }
+</style>
+ </head>
+ <body>
+    <header>
+      <!-- Tabs Above -->
+        <div class='container'>
+            <h1 class="logo">Repository Viewer</h1>
+            <ul id="myTab-tabs-above" class="nav nav-tabs" role="tablist">
+                <li><a id="home-tab-tabs-above" href="{{ url_for('index') }}" data-toggle="tab"></i>Main</a></li>
+                <li><a id="years-tab-tabs-above" href="{{ url_for('by_year') }}" data-toggle="tab"></i>Years</a></li>
+                <li><a id="gender-tab-tabs-above" href="{{ url_for('by_gender') }}" data-toggle="tab"></i>Gender</a></li>
+                <li><a id="age-tab-tabs-above" href="{{ url_for('by_age') }}" data-toggle="tab"></i>Age</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    {% block content %}
+    {% endblock %}
+
+ </body>
+</html>

@@ -1,0 +1,138 @@
+1361.00	Teetotaller
+1361.11	Non drinker alcohol
+1361.12	Non-drinker alcohol
+1362.00	Trivial drinker - <1u/day
+1362.11	Drinks rarely
+1362.12	Drinks occasionally
+1363.00	Light drinker - 1-2u/day
+1364.00	Moderate drinker - 3-6u/day
+1365.00	Heavy drinker - 7-9u/day
+1366.00	Very heavy drinker - >9u/day
+1367.00	Stopped drinking alcohol
+1368.00	Alcohol consumption unknown
+1369.00	Suspect alcohol abuse - denied
+136..00	Alcohol consumption
+136a.00	Increasing risk drinking
+136A.00	Ex-trivial drinker (<1u/day)
+136b.00	Feels should cut down drinking
+136B.00	Ex-light drinker - (1-2u/day)
+136c.00	Higher risk drinking
+136C.00	Ex-moderate drinker - (3-6u/d)
+136d.00	Lower risk drinking
+136D.00	Ex-heavy drinker - (7-9u/day)
+136E.00	Ex-very heavy drinker-(>9u/d)
+136e.00	Declines to state current alcohol consumption
+136F.00	Spirit drinker
+136G.00	Beer drinker
+136H.00	Drinks beer and spirits
+136I.00	Drinks wine
+136J.00	Social drinker
+136K.00	Alcohol intake above recommended sensible limits
+136L.00	Alcohol intake within recommended sensible limits
+136M.00	Current non drinker
+136N.00	Light drinker
+136O.00	Moderate drinker
+136P.00	Heavy drinker
+136Q.00	Very heavy drinker
+136R.00	Binge drinker
+136S.00	Hazardous alcohol use
+136T.00	Harmful alcohol use
+136V.00	Alcohol units per week
+136W.00	Alcohol misuse
+136X.00	Alcohol units consumed on heaviest drinking day
+136Z.00	Alcohol consumption NOS
+1B1c.00	alcohol induced hallucinations
+66e0.00	alcohol abuse monitoring
+7P22100	delivery of rehabilitation for alcohol addiction
+8BA8.00	alcohol detoxification
+8CAv.00	advised to contact primary care alcohol worker
+8G32.00	aversion therapy - alcoholism
+8H35.00	admitted to alcohol detoxification centre
+8HkG.00	referral to specialist alcohol treatment service
+8IAF.00	brief intervention for excessive alcohol consumptn declined
+8IAJ.00	declined referral to specialist alcohol treatment service
+8IAt.00	extended interven for excessive alcohol consumption declined
+9k1B.00	extended intervention for excessive alcohol consumptn complt
+9NN2.00	under care of community alcohol team
+C150500	alcohol-induced pseudo-cushing's syndrome
+E01..00	alcoholic psychoses
+E010.00	alcohol withdrawal delirium
+E011000	korsakov's alcoholic psychosis
+E011100	korsakov's alcoholic psychosis with peripheral neuritis
+E011200	Wernicke-Korsakov syndrome
+E011z00	alcohol amnestic syndrome nos
+E012.00	other alcoholic dementia
+E012000	chronic alcoholic brain syndrome
+E012.11	alcoholic dementia nos
+E013.00	alcohol withdrawal hallucinosis
+E014.00	pathological alcohol intoxication
+E015.00	alcoholic paranoia
+E01y.00	other alcoholic psychosis
+E01y000	alcohol withdrawal syndrome
+E01yz00	other alcoholic psychosis nos
+E01z.00	alcoholic psychosis nos
+E23..00	alcohol dependence syndrome
+E230.00	acute alcoholic intoxication in alcoholism
+E230000	acute alcoholic intoxication; unspecified; in alcoholism
+E230100	continuous acute alcoholic intoxication in alcoholism
+E230.11	alcohol dependence with acute alcoholic intoxication
+E230200	episodic acute alcoholic intoxication in alcoholism
+E230300	acute alcoholic intoxication in remission; in alcoholism
+E230z00	acute alcoholic intoxication in alcoholism nos
+E231.00	chronic alcoholism
+E231000	unspecified chronic alcoholism
+E23..11	alcoholism
+E231100	continuous chronic alcoholism
+E231200	episodic chronic alcoholism
+E231300	chronic alcoholism in remission
+E231z00	chronic alcoholism nos
+E23z.00	alcohol dependence syndrome nos
+E250300	nondependent alcohol abuse in remission
+Eu10.00	[x]mental and behavioural disorders due to use of alcohol
+Eu10100	[x]mental and behav dis due to use of alcohol: harmful use
+Eu10200	[x]mental and behav dis due to use alcohol: dependence syndr
+Eu10211	[x]alcohol addiction
+Eu10212	[x]chronic alcoholism
+Eu10300	[x]mental and behav dis due to use alcohol: withdrawal state
+Eu10400	[X]Men & behav dis due alcohl: withdrawl state with delirium
+Eu10411	[x]delirium tremens; alcohol induced
+Eu10500	[x]mental & behav dis due to use alcohol: psychotic disorder
+Eu10511	[x]alcoholic hallucinosis
+Eu10512	[x]alcoholic jealousy
+Eu10513	[x]alcoholic paranoia
+Eu10514	[x]alcoholic psychosis nos
+Eu10600	[x]mental and behav dis due to use alcohol: amnesic syndrome
+Eu10611	[x]korsakov's psychosis; alcohol induced
+Eu10700	[X]Men & behav dis due alcoh: resid & late-onset psychot dis
+Eu10711	[x]alcoholic dementia nos
+Eu10712	[x]chronic alcoholic brain syndrome
+Eu10800	[x]alcohol withdrawal-induced seizure
+Eu10y00	[x]men & behav dis due to use alcohol: oth men & behav dis
+Eu10z00	[x]ment & behav dis due use alcohol: unsp ment & behav dis
+F11x000	cerebral degeneration due to alcoholism
+F11x011	alcoholic encephalopathy
+F144000	cerebellar ataxia due to alcoholism
+F25B.00	alcohol-induced epilepsy
+F375.00	alcoholic polyneuropathy
+F394100	alcoholic myopathy
+G555.00	alcoholic cardiomyopathy
+G852300	oesophageal varices in alcoholic cirrhosis of the liver
+J610.00	alcoholic fatty liver
+J611.00	acute alcoholic hepatitis
+J612.00	alcoholic cirrhosis of liver
+J612000	alcoholic fibrosis and sclerosis of liver
+J613.00	alcoholic liver damage unspecified
+J613000	alcoholic hepatic failure
+J617.00	alcoholic hepatitis
+J617000	chronic alcoholic hepatitis
+J671000	alcohol-induced chronic pancreatitis
+SLH3.00	alcohol deterrent poisoning
+SM00100	denatured alcohol causing toxic effect
+U60H300	[x]alcohol deterrents caus adverse effects in therapeut use
+U60H311	[x] adverse reaction to alcohol deterrents
+Z191.00	alcohol detoxification
+Z191100	alcohol withdrawal regime
+Z191211	alcohol reduction programme
+ZR1E.11	ads - alcohol dependence scale
+ZV11300	[v]personal history of alcoholism
+1462.00	H/O: alcoholism

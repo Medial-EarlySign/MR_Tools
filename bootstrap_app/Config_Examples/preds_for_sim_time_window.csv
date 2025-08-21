@@ -1,0 +1,15 @@
+pid	date	outcome	outcome_date	prediction	comment
+5000003	19980101	0	20170106	0.00	some NEG samples, distant past of our patient 
+5000003	19990101	0	20170106	0.00	
+5000003	20000101	0	20170106	0.00	
+5000003	20010101	0	20170106	0.00	
+5000003	20020101	0	20170106	0.00	
+5000003	20030101	0	20170106	0.00	
+5000003	20040101	0	20170106	0.00	
+5000003	20050101	0	20170106	0.00	
+5000003	20060101	0	20170106	0.00	
+5000003	20070101	0	20170106	0.00	
+5000003	20080101	1	20090601	0.02	a POS sample, but from before the 1-year window, sim_time_window is expected to turn it to a NEG
+5000003	20090101	1	20090601	0.99	a POS sample which falls inside the 1-year window
+5000003	20100101	1	20090601	0.03	a POS sample which falls after the 1-year window, sim_time_window is expected to censor it
+5000003	20170101	0	20170106	0.50	another NEG sample, but this one is too close to the enddate and should be censored

@@ -1,0 +1,166 @@
+code	description	count
+Sickle Cell	Sickle Cell	1
+Note:	Note:	769
+MCV	MCV	64859
+IGRE	IGRE	1
+Neut Segs and Bands-Mayo	Neut Segs and Bands-Mayo	30
+RBC Distribution Width	RBC Distribution Width	2169
+Hypogranular Neutrophils	Hypogranular Neutrophils	6
+Neutro Absolute	Neutro Absolute	55196
+Mono per	Mono %	35260
+Dohle Bodies	Dohle Bodies	481
+Eosinophil Nasal	Eosinophil Nasal	2
+Differential Comment	Differential Comment	805
+Mid per	Mid %	159
+Pathology Consult	Pathology Consult	14
+Hemoglobin POC Result	Hemoglobin POC Result	4
+Myelocytes-Mayo	Myelocytes-Mayo	4
+Baso per	Baso %	33097
+Hgb	Hgb	72262
+Cells Counted	Cells Counted	4
+Mono Auto	Mono Auto	1119
+Manual Diff Eos #	Manual Diff Eos #	25
+Plasma Cell Prolif Final Dx-Mayo	Plasma Cell Prolif Final Dx-Mayo	1
+WBC	WBC	65393
+CBC w/Manual Differential	CBC w/Manual Differential	7
+Neutro Manual	Neutro Manual	3801
+Platelet	Platelet	65268
+Hemoglobin-POC	Hemoglobin-POC	10
+Baso Auto	Baso Auto	1119
+Schistocyte	Schistocyte	305
+Platelet Comment	Platelet Comment	286
+Rouleaux	Rouleaux	68
+Corrected WBC	Corrected WBC	12
+Basophilic Stippling	Basophilic Stippling	168
+Poikilocytosis	Poikilocytosis	1138
+HEMOGLOBIN	HEMOGLOBIN	1116
+Band per	Band %	28
+MDiff Site	MDiff Site	70
+Normocytic	Normocytic	239
+Platelet Est.	Platelet Est.	1340
+Hgb-POC3	Hgb-POC3	29
+Lymph Auto	Lymph Auto	1119
+Hemoglobin IStat POC	Hemoglobin IStat POC	71
+Monotyp PC/Ttl Events-Mayo	Monotyp PC/Ttl Events-Mayo	2
+Neutro Absolute Man	Neutro Absolute Man	84
+POIKILOCYTOSIS	POIKILOCYTOSIS	37
+Stomatocyte	Stomatocyte	13
+Other Cells	Other Cells	19
+Granulo Absolut	Granulo Absolut	3778
+Eos Manual	Eos Manual	2304
+Hgb POC	Hgb POC	17
+MCHC	MCHC	30217
+Differential?	Differential?	9562
+RBC Inclusions	RBC Inclusions	1
+RBC Morphology	RBC Morphology	2109
+Nucleated RBC	Nucleated RBC	295
+Eos Absolute	Eos Absolute	48367
+Monotyp PC DNA Idx-Mayo	Monotyp PC DNA Idx-Mayo	1
+Hematocrit POC	Hematocrit POC	71
+Dimorphic RBC	Dimorphic RBC	9
+Segmented Neut #	Segmented Neut #	83
+Baso Manual	Baso Manual	1650
+Hypersegmentation	Hypersegmentation	65
+Morphology Other	Morphology Other	39
+Manual Diff Seg #	Manual Diff Seg #	25
+Hgb-POC	Hgb-POC	3
+Toxic Changes Man Diff	Toxic Changes Man Diff	60
+Elliptocytes-Mayo	Elliptocytes-Mayo	20
+Howell Jolly bodies	Howell Jolly bodies	3
+Polytyp PC/Ttl Events-Mayo	Polytyp PC/Ttl Events-Mayo	1
+Monotyp PC DNA Ploidy-Mayo	Monotyp PC DNA Ploidy-Mayo	1
+Manual Diff ANC	Manual Diff ANC	858
+Band Neut #	Band Neut #	50
+Target Cell	Target Cell	254
+Hypochromasia	Hypochromasia	599
+Toxic Neutrophils	Toxic Neutrophils	39
+Agglutinated RBC	Agglutinated RBC	3
+POLYCHROMASIA	POLYCHROMASIA	325
+Microcytosis	Microcytosis	8
+Microcytic	Microcytic	828
+Monotyp Plsma Cell-Mayo	Monotyp Plsma Cell-Mayo	2
+Differential Scan	Differential Scan	9
+Spherocytes-Mayo	Spherocytes-Mayo	1
+Elliptocyte	Elliptocyte	504
+Bands Absolute	Bands Absolute	28
+RBC	RBC	64893
+Large Platelets	Large Platelets	288
+Periph Morph	Periph Morph	165
+Eos Auto	Eos Auto	1119
+MYELOCYTES	MYELOCYTES	36
+Atypical Lymphocytes	Atypical Lymphocytes	42
+Hypogranular Platelets	Hypogranular Platelets	6
+Mono Manual	Mono Manual	3840
+Baso Absolute	Baso Absolute	48360
+Lymph Absolute	Lymph Absolute	50272
+MPV	MPV	27053
+Blasts Manual	Blasts Manual	187
+Platelet Clumps	Platelet Clumps	18
+WBC Morphology	WBC Morphology	96
+Plasma Cell	Plasma Cell	5
+Spherocyte	Spherocyte	66
+React/Atyp Lymphocytes	React/Atyp Lymphocytes	159
+Platelet Appear	Platelet Appear	1
+Basophils-Mayo	Basophils-Mayo	264
+Howell Jolly Body	Howell Jolly Body	61
+NRBC Manual	NRBC Manual	128
+Differential Type	Differential Type	3954
+Macrocytosis	Macrocytosis	31
+Smear?	Smear?	62
+Neutro per	Neutro %	31019
+Hct-POC	Hct-POC	3
+Manual Diff Lymph #	Manual Diff Lymph #	25
+Platelet Estimate	Platelet Estimate	3618
+Pelger-Huet	Pelger-Huet	1
+Lymph per	Lymph %	35380
+Neutro Auto	Neutro Auto	1119
+Eosinophil Ct	Eosinophil Ct	49
+Microcytes-Mayo	Microcytes-Mayo	6
+Degmacyte	Degmacyte	8
+MCH	MCH	30184
+Eos per	Eos %	33130
+Metamyelo-Mayo	Metamyelo-Mayo	2
+Manual Diff Mono #	Manual Diff Mono #	25
+Hct	Hct	67185
+Ovalocyte	Ovalocyte	518
+Vacuolated PMN	Vacuolated PMN	3
+Metamyelocyte	Metamyelocyte	57
+Dacrocyte	Dacrocyte	450
+Macrocytic	Macrocytic	1152
+Morph Eval Rev By-Mayo	Morph Eval Rev By-Mayo	30
+Gran per	Gran %	4628
+Manual Diff Baso #	Manual Diff Baso #	24
+Mid Absolute	Mid Absolute	123
+Echinocytes	Echinocytes	121
+Polychromasia	Polychromasia	449
+Platelet Morphology	Platelet Morphology	1059
+Eos Manual.	Eos Manual.	510
+CBC Comment	CBC Comment	624
+Anisocytosis	Anisocytosis	2669
+Lymphocytes-Mayo	Lymphocytes-Mayo	754
+Promyelo Manual	Promyelo Manual	153
+Morph Rev	Morph Rev	91
+Smudge Cells	Smudge Cells	61
+Toxic Gran	Toxic Gran	198
+Monocytes-Mayo	Monocytes-Mayo	30
+Morph Eval Intp-Mayo	Morph Eval Intp-Mayo	40
+Platelet Size	Platelet Size	107
+Acanthocyte	Acanthocyte	264
+Mono Absolute	Mono Absolute	50066
+Helmet Cells	Helmet Cells	1
+WBC Est.	WBC Est.	413
+Meta Man	Meta Man	706
+Polytyp PC/All Plasma Cells-Mayo	Polytyp PC/All Plasma Cells-Mayo	1
+Auer Rods	Auer Rods	1
+RDW	RDW	62647
+Mono Manual.	Mono Manual.	164
+Schistocytes-Mayo	Schistocytes-Mayo	1
+Monotyp PC S-Phase-Mayo	Monotyp PC S-Phase-Mayo	2
+RBC Morph-Mayo	RBC Morph-Mayo	47
+Hematocrit	Hematocrit	135
+Band Man	Band Man	2000
+Giant Platelets	Giant Platelets	4
+Hct-POC3	Hct-POC3	29
+Total Cells	Total Cells	1255
+Myelo Man	Myelo Man	499
+Lymph Manual	Lymph Manual	3430

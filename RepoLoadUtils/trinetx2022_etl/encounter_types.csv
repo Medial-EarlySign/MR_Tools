@@ -1,0 +1,10 @@
+type,desc,inpatient
+AMB,Ambulatory,0
+EMER,Emergency,1
+HH,Home_Health,0
+IMP,Inpatient,1
+NONAC,Non_Accute_Inpatient,1
+PRENC,Pre_Admission,0
+SS,Short_Stay,1
+VR,Virtual,0
+UNKNOWN,Unknown,-1

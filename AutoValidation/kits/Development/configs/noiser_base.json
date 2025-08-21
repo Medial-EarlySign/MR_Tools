@@ -1,0 +1,15 @@
+{ "pre_processors" : [
+  {
+    "action_type":"rp_set",
+    "members":[
+	    {
+          "rp_type":"noiser",
+		  "truncation":"2",
+		  "time_noise":"_TIME_NOISE_",
+		  "value_noise":"_VALUE_NOISE_",
+		  "drop_probability":"_DROP_NOISE_",
+		  "signal": ["RBC","MPV","Hemoglobin","Hematocrit","MCV","MCH","MCHC-M","Platelets","Neutrophils%","Lymphocytes%","Monocytes%", "WBC","Eosinophils#","Eosinophils%","Basophils%","Basophils#","Neutrophils#","Lymphocytes#","Monocytes#", "RDW"]
+        }    
+		]
+  }
+] }

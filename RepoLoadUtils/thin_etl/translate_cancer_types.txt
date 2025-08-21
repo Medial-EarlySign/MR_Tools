@@ -1,0 +1,11 @@
+status_in	type_in	organ_in	status_out	type_out	organ_out
+cancer	crc	.*rectum.*	Digestive Organs	Digestive Organs	Rectum
+cancer	crc	.*	Digestive Organs	Digestive Organs	Colon
+cancer	oeso	.*	Digestive Organs	Digestive Organs	Esophagus
+cancer	stom	.*	Digestive Organs	Digestive Organs	Stomach
+cancer	liver	.*	Digestive Organs	Digestive Organs	Liver+intrahepatic bile
+cancer	lung	.*	Respiratory system	Lung and Bronchus	Unspecified
+cancer	pancreas	.*	Digestive Organs	Digestive Organs	Pancreas
+cancer	bladder	.*	Urinary Organs	Urinary Organs	Bladder
+cancer	prostate	.*	Male genital organs	Prostate	Prostate
+cancer	ovary	.*	Female genital organs	Ovary	Ovary

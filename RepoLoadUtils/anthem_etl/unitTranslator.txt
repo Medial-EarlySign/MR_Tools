@@ -1,0 +1,306 @@
+signal	unit	muliplier	addition	Round	rndf
+ALT	U/L	1	0	1	
+ALT	UNITS	1	0	1	
+ALT	IU/L	1	0	1	
+ALT	1	1	0	1	
+ALT	u/l	1	0	1	
+ALT	UNK	1	0	1	
+ALT	unit/L	1	0	1	
+ALT	NA	1	0	1	
+ALT	units/L	1	0	1	
+Glucose	mg/dL	1	0	1	
+Glucose	MG/DL	1	0	1	
+Glucose	1	1	0	1	
+Glucose	UNK	1	0	1	
+Glucose	mg/dl	1	0	1	
+Glucose	0	1	0	1	
+Glucose	NA	1	0	1	
+Glucose	MEQ/L	1	0	1	
+Glucose	ABN	1	0	1	
+HbA1C	%	1	0	0.1	
+HbA1C	% of total Hgb	1	0	0.1	
+HbA1C	PERCENT	1	0	0.1	
+HbA1C	% TOTAL HGB	1	0	0.1	
+HbA1C	% OF TOTAL HGB	1	0	0.1	
+HbA1C	%T.Hgb	1	0	0.1	
+HbA1C	1	1	0	0.1	
+HbA1C	UNK	1	0	0.1	
+HbA1C	%HB	1	0	0.1	
+HbA1C	NA	1	0	0.1	
+Triglycerides	mg/dL	1	0	1	
+Triglycerides	MG/DL	1	0	1	
+Triglycerides	1	1	0	1	
+Triglycerides	UNK	1	0	1	
+Triglycerides	NA	1	0	1	
+WBC	X10E3/UL	1	0	0.1	
+WBC	Thous/mcL	1	0	0.1	
+WBC	Thousand/uL	1	0	0.1	
+WBC	THOUS/MCL	1	0	0.1	
+WBC	x10(3)/uL	1	0	0.1	
+WBC	K/MM3	1	0	0.1	
+WBC	1	1	0	0.1	
+WBC	k/mm3	1	0	0.1	
+WBC	k/uL	1	0	0.1	
+WBC	K/CUMM	1	0	0.1	
+WBC	K/UL	1	0	0.1	
+WBC	T/CMM	1	0	0.1	
+WBC	K/uL	1	0	0.1	
+WBC	K/CMM	1	0	0.1	
+WBC	K/mm3	1	0	0.1	
+WBC	10S3/uL	1	0	0.1	
+WBC	K/cmm	1	0	0.1	
+WBC	UNK	1	0	0.1	
+WBC	/CUMM	1	0	0.1	
+WBC	10*3/uL	1	0	0.1	
+WBC	thous/uL	1	0	0.1	
+WBC	TH/UL	1	0	0.1	
+WBC	10E9/L	1	0	0.1	
+WBC	0	1	0	0.1	
+WBC	X10*9/L	1	0	0.1	
+WBC	MM3	1	0	0.1	
+WBC	10-3/UL	1	0	0.1	
+WBC	K/ul	1	0	0.1	
+WBC	x10e9/L	1	0	0.1	
+WBC	1000/ul	1	0	0.1	
+WBC	NA	1	0	0.1	
+WBC	X 10(3)/UL	1	0	0.1	
+WBC	/cumm	1	0	0.1	
+WBC	/MM3	1	0	0.1	
+WBC	TH/CMM	1	0	0.1	
+WBC	Thou/uL	1	0	0.1	
+WBC	THOUSAND	1	0	0.1	
+WBC	X 10	1	0	0.1	
+WBC	Thousand	1	0	0.1	
+HDL	unitsid	1	0	1	
+HDL	UNK	1	0	1	
+HDL	MG/DL	1	0	1	
+HDL	mg/dL	1	0	1	
+HDL	1	1	0	1	
+HDL	NA	1	0	1	
+ALP	IUnit/L	1	0	1	
+ALP	U/L	1	0	1	
+ALP	UNITS	1	0	1	
+ALP	MG/G CREAT	1	0	1	
+ALP	1	1	0	1	
+ALP	IU/L	1	0	1	
+ALP	Units/L	1	0	1	
+ALP	u/l	1	0	1	
+ALP	UNK	1	0	1	
+ALP	unit/L	1	0	1	
+ALP	NA	1	0	1	
+AST	IUnit/L	1	0	1	
+AST	unit/L	1	0	1	
+AST	Units/Liter	1	0	1	
+AST	NA	1	0	1	
+AST	UNK	1	0	1	
+AST	IU/L	1	0	1	
+AST	U/L	1	0	1	
+AST	UNITS	1	0	1	
+AST	u/l	1	0	1	
+AST	1	1	0	1	
+Albumin	NA	1	0	0.1	
+Albumin	GM/DL	1	0	0.1	
+Albumin	1	1	0	0.1	
+Albumin	G/DL	1	0	0.1	
+Albumin	mcg T4/dL	1	0	0.1	
+Albumin	UNK	1	0	0.1	
+Albumin	0	1	0	0.1	
+Basophils%	1	1	0	0.1	
+Basophils%	Cells/mcL	1	0	0.1	
+Basophils%	ug/L	1	0	0.1	
+Basophils%	%	1	0	0.1	
+Basophils%	UNK	1	0	0.1	
+Basophils%	PERCENT	1	0	0.1	
+Basophils%	NA	1	0	0.1	
+Bilirubin	0	1	0	0.1	
+Bilirubin	UNK	1	0	0.1	
+Bilirubin	mg/dl	1	0	0.1	
+Bilirubin	MG/DL	1	0	0.1	
+Bilirubin	mg/dL	1	0	0.1	
+Bilirubin	NA	1	0	0.1	
+Bilirubin	1	1	0	0.1	
+CPK	NA	1	0	1	
+CPK	u/l	1	0	1	
+CPK	UNK	1	0	1	
+CPK	0	1	0	1	
+CPK	IUnit/L	1	0	1	
+CPK	unit/L	1	0	1	
+CPK	UNITS/L	1	0	1	
+CPK	U/L	1	0	1	
+CPK	UNITS	1	0	1	
+CPK	1	1	0	1	
+CPK	IU/L	1	0	1	
+Cholesterol	UNK	1	0	1	
+Cholesterol	NA	1	0	1	
+Cholesterol	1	1	0	1	
+Cholesterol	MG/DL	1	0	1	
+Cholesterol	mg/dL	1	0	1	
+Cholesterol	1	0	1	
+Creatinine	UNK	1	0	0.1	
+Creatinine	0	1	0	0.1	
+Creatinine	NA	1	0	0.1	
+Creatinine	MG/DL	1	0	0.1	
+Creatinine	mg/dL	1	0	0.1	
+Creatinine	1	1	0	0.1	
+D_Dimer	MG/L FEU	1	0	0.01	
+D_Dimer	mg/L FEU	1	0	0.01	
+D_Dimer	UNK	1	0	0.01	
+D_Dimer	0	1	0	0.01	
+D_Dimer	ng/mL	1	0	0.01	
+D_Dimer	ug/mL FEU	1	0	0.01	
+D_Dimer	UG/ML FEU	1	0	0.01	
+D_Dimer	NA	1	0	0.01	
+D_Dimer	ng/mL FEU	1	0	0.01	
+D_Dimer	MCG/ML FEU	1	0	0.01	
+D_Dimer	1	1	0	0.01	
+D_Dimer	mcg/mL FEU	1	0	0.01	
+D_Dimer	mcg/mL	1	0	0.01	
+Eosinophils#	1000 cells/uL	1	0	0.01	0.01
+Eosinophils%	%	1	0	0.1	
+Eosinophils%	UNK	1	0	0.1	
+Eosinophils%	1	1	0	0.1	
+Eosinophils%	PERCENT	1	0	0.1	
+Eosinophils%	1000 cells/uL	1	0	0.1	
+Eosinophils%	NA	1	0	0.1	
+Hemoglobin	gm/dl	1	0	0.1	
+Hemoglobin	g/dl	1	0	0.1	
+Hemoglobin	UNK	1	0	0.1	
+Hemoglobin	0	1	0	0.1	
+Hemoglobin	G/DL	1	0	0.1	
+Hemoglobin	GM/DL	1	0	0.1	
+Hemoglobin	Gram/dL	1	0	0.1	
+Hemoglobin	GM/L	1	0	0.1	
+Hemoglobin	g/dL	1	0	0.1	
+Hemoglobin	gm/dL	1	0	0.1	
+Hemoglobin	1	1	0	0.1	
+Hemoglobin	g/ul	1	0	0.1	
+Hemoglobin	NA	1	0	0.1	
+INR	ratio	1	0	0.1	
+INR	RATIO	1	0	0.1	
+INR	Ratio	1	0	0.1	
+INR	1	1	0	0.1	
+INR	UNK	1	0	0.1	
+INR	0	1	0	0.1	
+INR	NA	1	0	0.1	
+INR	THERAPY	1	0	0.1
+LDL	MG/DL (CALC)	1	0	1	54062
+LDL	MG/DL	1	0	1	149929
+LDL	mg/dL (calc)	1	0	1	143560
+LDL	mg/dL	1	0	1	6323132
+LDL	mg/dl	1	0	1	13
+LDL	UNK	1	0	1	916
+LDL	ng/dL	1	0	1	1
+LDL	1	1	0	1	10481
+LDL	NA	1	0	1	74
+LDL	ng/mL	1	0	1	1
+LPA	MG/DL	1	0	0.1	
+LPA	nmol/L	1	0	0.1	
+LPA	mg/dL	1	0	0.1	
+LPA	1	1	0	0.1	
+LPA	NMOL/L	1	0	0.1	
+LPA	NA	1	0	0.1	
+LPA	UNK	1	0	0.1	
+LPA	0	1	0	0.1	
+Lipase	IU/L	1	0	1	
+Lipase	Units/L	1	0	1	
+Lipase	u/l	1	0	1	
+Lipase	UNK	1	0	1	
+Lipase	0	1	0	1	
+Lipase	NA	1	0	1	
+Lipase	IUnit/L	1	0	1
+Lipase	UNITS/L	1	0	1	
+Lipase	U/L	1	0	1	
+Lipase	UNITS	1	0	1	
+Lipase	units/L	1	0	1	
+Lipase	Units/Liter	1	0	1	
+Lipase	unit/L	1	0	1	
+Lipase	1	1	0	1	
+Lymphocytes#	1	1	0	1	
+Lymphocytes%	Cells/uL	1	0	0.1	
+Lymphocytes%	%	1	0	0.1	
+Lymphocytes%	UNK	1	0	0.1	
+Lymphocytes%	Cells/mcL	1	0	0.1	
+Lymphocytes%	PERCENT	1	0	0.1	
+Lymphocytes%	NA	1	0	0.1	
+MicroAlbumin_over_Creatinine	MCG/MG	1	0	0.1	
+MicroAlbumin_over_Creatinine	MG/G	1	0	0.1	
+MicroAlbumin_over_Creatinine	MG/G CREAT	1	0	0.1	
+MicroAlbumin_over_Creatinine	UNK	1	0	0.1	
+MicroAlbumin_over_Creatinine	mg/gcreat	1	0	0.1	
+Monocytes%	1	1	0	0.1	
+Monocytes%	PERCENT	1	0	0.1	
+Monocytes%	NA	1	0	0.1	
+Monocytes%	Cells/mcL	1	0	0.1	
+Monocytes%	%	1	0	0.1	
+Monocytes%	UNK	1	0	0.1	
+Na	NA	1	0	1	
+Na	MMOL/L	1	0	1	
+Na	mEq/L	1	0	1	
+Na	MEQ/L	1	0	1	
+Na	1	1	0	1	
+Na	mEQ/L	1	0	1	
+Na	mmol/L	1	0	1	
+Na	UNK	1	0	1	
+Na	0	1	0	1	
+Neutrophils#	1000 cells/uL	1	0	0.1	
+Neutrophils%	1	1	0	0.1	
+Neutrophils%	%	1	0	0.1	
+Neutrophils%	UNK	1	0	0.1	
+Neutrophils%	Cells/mcL	1	0	0.1	
+Neutrophils%	PERCENT	1	0	0.1	
+Neutrophils%	NA	1	0	0.1	
+PSA	NG/ML	1	0	0.1	
+PSA	1	1	0	0.1	
+PSA	UNK	1	0	0.1	
+PSA	0	1	0	0.1	
+PSA	Nanogram/mL	1	0	0.1	
+PSA	ng/dL	1	0	0.1	
+PSA	ng/mL	1	0	0.1	
+PSA	ug/L	1	0	0.1	
+PSA	ng/ml	1	0	0.1	
+PSA	NA	1	0	0.1	
+PSA_Free	NG/ML	1	0	0.1	
+PSA_Free	1	1	0	0.1	
+PSA_Free	UNK	1	0	0.1	
+PSA_Free	IU/L	1	0	0.1	
+PSA_Free	ng/mL	1	0	0.1	
+Platlets	Thousand/uL	1	0	1	
+Potassium	1	1	0	0.1	
+Potassium	mEQ/L	1	0	0.1	
+Potassium	mEq/L	1	0	0.1	
+Potassium	mmoL/L	1	0	0.1	
+Potassium	MEQ/L	1	0	0.1	
+Potassium	mmol/L	1	0	0.1	
+Potassium	meq/L	1	0	0.1	
+Potassium	mMol/L	1	0	0.1	
+Potassium	UNK	1	0	0.1	
+Potassium	0	1	0	0.1	
+Potassium	MMOL/L	1	0	0.1	
+Potassium	NA	1	0	0.1	
+Testosterone	NG/DL	1	0	0.1	
+Testosterone	pg/mL	1	0	0.1	
+Testosterone	ng/dL	1	0	0.1	
+Testosterone	UNK	1	0	0.1	
+Testosterone	0	1	0	0.1	
+Testosterone	1	1	0	0.1	
+Testosterone	NA	1	0	0.1	
+Testosterone_free	pg/mL	1	0	0.1	
+Testosterone_free	1	1	0	0.1	
+Testosterone_free	NG/DL	1	0	0.1	
+Testosterone_free	UNK	1	0	0.1	
+Testosterone_free	0	1	0	0.1	
+Testosterone_free	ng/dL	1	0	0.1	
+Testosterone_free	PG/ML	1	0	0.1	
+Testosterone_free	NA	1	0	0.1	
+Uric_Acid	mg/dL	1	0	0.1	
+Uric_Acid	1	1	0	0.1	
+Uric_Acid	MMOL/MOL CR	1	0	0.1	
+Uric_Acid	MG/DL	1	0	0.1	
+Uric_Acid	UNK	1	0	0.1	
+Uric_Acid	0	1	0	0.1	
+Uric_Acid	mg/dl	1	0	0.1	
+Uric_Acid	NA	1	0	0.1	
+Urine_MicroAlbumin	mg/dL	1	0	0.1	182962
+Urine_MicroAlbumin	MG/DL	1	0	0.1	241
+Urine_MicroAlbumin	UG/ML	1	0	0.1	271354
+Urine_MicroAlbumin	1	1	0	0.1	19620

@@ -1,0 +1,49 @@
+G_7B00. 7B00.00Transplantation of kidney                                   
+G_7B000 7B00000Autotransplant of kidney                                    
+G_7B001 7B00100Transplantation of kidney from live donor                   
+G_7B001 7B00111Allotransplantation of kidney from live donor               
+G_7B002 7B00200Transplantation of kidney from cadaver                      
+G_7B002 7B00211Allotransplantation of kidney from cadaver                  
+G_7B003 7B00300Allotransplantation of kidney from cadaver, heart-beating   
+G_7B004 7B00400Allotransplantation kidney from cadaver, heart non-beating  
+G_7B005 7B00500Allotransplantation of kidney from cadaver NEC              
+G_7B00y 7B00y00Other specified transplantation of kidney                   
+G_7B00z 7B00z00Transplantation of kidney NOS                               
+G_7B019 7B01900Excision of rejected transplanted kidney                    
+G_7B0F. 7B0F.00Interventions associated with transplantation of kidney     
+G_7B0F1 7B0F100Pre-transplantation of kidney work-up, recipient            
+G_7B0F2 7B0F200Pre-transplantation of kidney work-up, live donor           
+G_7B0F3 7B0F300Post-transplantation of kidney examination, recipient       
+G_7B0F4 7B0F400Post-transplantation of kidney examination, live donor      
+G_7B0Fy 7B0Fy00OS interventions associated with transplantation of kidney  
+G_7B0Fz 7B0Fz00Interventions associated with transplantation of kidney NOS 
+G_SP083 SP08300Kidney transplant failure and rejection                     
+G_SP08a SP08a00Thrombosis of vein of transplanted kidney                   
+G_SP08P SP08P00Stenosis of vein of transplanted kidney                     
+G_SP08Q SP08Q00Aneurysm of artery of transplanted kidney                   
+G_SP08S SP08S00Aneurysm of vein of transplanted kidney                     
+G_SP08X SP08X00Rupture of artery of transplanted kidney                    
+G_SP08Y SP08Y00Rupture of vein of transplanted kidney                      
+G_SP08Z SP08Z00Thrombosis of artery of transplanted kidney                 
+G_TB001 TB00100Kidney transplant with complication, without blame          
+G_ZV420 ZV42000[V]Kidney transplanted                                      
+G_7B002 7B00212Cadaveric renal transplant                                  
+G_7B006 7B00600Xenograft renal transplant                                  
+G_7B063 7B06300Exploration of renal transplant                             
+G_SP08C SP08C00Accelerated rejection of renal transplant                   
+G_SP08D SP08D00Acute-on-chronic rejection of renal transplant              
+G_SP08E SP08E00Acute rejection of renal transplant - grade I               
+G_SP08F SP08F00Acute rejection of renal transplant - grade II              
+G_SP08G SP08G00Acute rejection of renal transplant - grade III             
+G_SP08H SP08H00Acute rejection of renal transplant                         
+G_SP08J SP08J00Chronic rejection of renal transplant                       
+G_SP08K SP08K00Chronic rejection of renal transplant - grade 1             
+G_SP08L SP08L00Chronic rejection of renal transplant - grade II            
+G_SP08M SP08M00Chronic rejection of renal transplant - grade III           
+G_SP08N SP08N00Unexplained episode of renal transplant dysfunction         
+G_SP08T SP08T00Urological complication of renal transplant                 
+G_SP08V SP08V00Very mild acute rejection of renal transplant               
+G_SP08W SP08W00Vascular complication of renal transplant                   
+G_8L50. 8L50.00	renal transplant planned
+G_K0B5. K0B5.00	renal tubulo-interstitial disordrs in transplant rejectn
+G_Kyu1C Kyu1C00	[x]renal tubulo-interstitial disorders/transplant rejection

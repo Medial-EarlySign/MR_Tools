@@ -1,0 +1,74 @@
+6611.00Last hospital in-patient
+13F8100Long stay hospital inpatient
+13FS.00Long stay hospital inpatient
+6A1..00Patient reviewed at hospital
+6A1..11Reviewed at hospital
+8B3S000Post hospital discharge medication reconciliation with pt
+8B3S100Post hospital dischrge med reconciliation with medical
+8H2..00Emergency hospital admission
+8H2Z.00Admit hospital emergency NOS
+8H3..00Non-urgent hospital admission
+8H32.00Night hospital care
+8H3Z.00Other hospital admission NOS
+8HG..11Death in hospital
+8Hd..00Admission to hospital
+8Hd0.00Admission to community hospital
+8HE9.00Discharged from community hospital
+8HF..12Transferred from hospital
+8H7a.00Refer to hospital
+8I51.00Patient refuses day hospital
+8I54.00Patient refuses hospital admit
+8HCZ.00Refer to hospital casualty NOS
+8HE..00Discharged from hospital
+8HE7.00Discharged from hospital within 6 hours of delivery
+8HG..00Died in hospital
+8I58.00Ambulance transport to hospital declined
+9144.00Patient in hospital
+9451.00Death notif. from hospital
+9495.00Patient died in hospital
+9498.00Dead on arrival at hospital
+949B.00Patient died in community hospital
+9EV2.00Medical report received from hospital
+9N1B.00Seen in hospital ward
+ZLG6400Discharge to tertiary referral hospital
+13F8.00Hospital patient
+13F8.11Hospital inpatient
+8Hd4.00Hospital re-admission
+8IAQ.00Hospital admission declined
+8IAR.11Hospital referral declined
+9b0L.00Hospital inpatient report
+945Z.00Hospital death disch. NOS
+945..00Hospital death discharge notif
+94D..00Hospital notified of death
+9b0K.00Hospital admission note
+7929400Insertion_of_coronary_artery_stent
+792E.00Percutaneous_coronary_intervention
+8H2Q.00Admit_cardiology_emergency
+9N19.00Seen_in_hospital_casualty
+8HE2.00Discharged_from_inpatient_care
+55...12Angiogram
+792..00Coronary_artery_operations
+93A..00Discharge_summary
+9b0B.00Discharge_summary_report
+22J..12Death
+7928Transluminal_balloon_angioplasty_of_coronary_artery
+793G.00Perc_translumin_balloon_angioplasty_stenting_coronary_artery
+9ND8.00I/patient_disch_summary_rec'vd
+7939.11Cardiac_catheterisation
+9491Patient_died_at_home
+9N19.11Patient_seen_in_casualty_dept.
+22J..13Died
+8H21.00Admit_medical_emergency_unsp.
+G575.00Cardiac_arrest
+ZLF2.00Discharge_from_hospital
+8HJA.11Casualty_self-referral
+5543Coronary_arteriograph.abnormal
+7939Catheterisation_of_heart
+7929500Insertion_of_drug-eluting_coronary_artery_stent
+G340.11Triple_vessel_disease_of_the_heart
+94...00Death_administration
+554..11Coronary_arteriography
+7928.11Percutaneous_balloon_coronary_angioplasty
+9b0A.00Discharge_report
+9N9..00Ambulance_request_for_patient
+7928.00Transluminal_balloon_angioplasty_of_coronary_artery

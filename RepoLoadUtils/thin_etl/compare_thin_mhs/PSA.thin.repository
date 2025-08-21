@@ -1,0 +1,162 @@
+PSA :: All :: With Values :: 593350 / 14446692 =  0.04 :: 593350 / 593350 =  1.00
+PSA :: Males :: With Values :: 591961 / 6889335 =  0.09 :: 591961 / 593350 =  1.00
+PSA :: Females :: With Values ::   1389 / 7557357 =  0.00 ::   1389 / 593350 =  0.00
+PSA :: General :: No. of Values :: All 1712457 Male 1710909 Female   1548
+PSA :: General :: No. of different days Values :: All 1710219 Male 1708673 Female   1546
+PSA :: General :: Avg #values per person (all) :: All  0.12 Male  0.25 Female  0.00
+PSA :: General :: Avg #values per person (>0)  :: All  2.88 Male  2.89 Female  1.11
+PSA :: General :: Avg dist between tests       :: All  497.1 Male  497.1 Female  493.8
+PSA :: Counts :: Age Group 20 - 25 :: All ::    163 0.000
+PSA :: Counts :: Age Group 25 - 30 :: All ::    387 0.000
+PSA :: Counts :: Age Group 30 - 35 :: All ::    902 0.001
+PSA :: Counts :: Age Group 35 - 40 :: All ::   1821 0.001
+PSA :: Counts :: Age Group 40 - 45 :: All ::   4929 0.003
+PSA :: Counts :: Age Group 45 - 50 :: All ::   9483 0.006
+PSA :: Counts :: Age Group 50 - 55 :: All ::  18627 0.011
+PSA :: Counts :: Age Group 55 - 60 :: All ::  28804 0.017
+PSA :: Counts :: Age Group 60 - 65 :: All ::  43574 0.025
+PSA :: Counts :: Age Group 65 - 70 :: All ::  55532 0.032
+PSA :: Counts :: Age Group 70 - 75 :: All ::  56910 0.033
+PSA :: Counts :: Age Group 75 - 80 :: All ::  52311 0.031
+PSA :: Counts :: Age Group 80 - 85 :: All ::  39514 0.023
+PSA :: Counts :: Age Group 85 - 90 :: All ::  22721 0.013
+PSA :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+PSA :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+PSA :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+PSA :: Counts :: Age Group 20 - 25 :: Males ::    153 0.000
+PSA :: Counts :: Age Group 25 - 30 :: Males ::    376 0.000
+PSA :: Counts :: Age Group 30 - 35 :: Males ::    888 0.001
+PSA :: Counts :: Age Group 35 - 40 :: Males ::   1808 0.001
+PSA :: Counts :: Age Group 40 - 45 :: Males ::   4907 0.003
+PSA :: Counts :: Age Group 45 - 50 :: Males ::   9448 0.006
+PSA :: Counts :: Age Group 50 - 55 :: Males ::  18598 0.011
+PSA :: Counts :: Age Group 55 - 60 :: Males ::  28787 0.017
+PSA :: Counts :: Age Group 60 - 65 :: Males ::  43548 0.025
+PSA :: Counts :: Age Group 65 - 70 :: Males ::  55504 0.032
+PSA :: Counts :: Age Group 70 - 75 :: Males ::  56889 0.033
+PSA :: Counts :: Age Group 75 - 80 :: Males ::  52278 0.031
+PSA :: Counts :: Age Group 80 - 85 :: Males ::  39500 0.023
+PSA :: Counts :: Age Group 85 - 90 :: Males ::  22697 0.013
+PSA :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+PSA :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+PSA :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+PSA :: Counts :: Age Group 20 - 25 :: Females ::     10 0.006
+PSA :: Counts :: Age Group 25 - 30 :: Females ::     11 0.007
+PSA :: Counts :: Age Group 30 - 35 :: Females ::     14 0.009
+PSA :: Counts :: Age Group 35 - 40 :: Females ::     13 0.008
+PSA :: Counts :: Age Group 40 - 45 :: Females ::     22 0.014
+PSA :: Counts :: Age Group 45 - 50 :: Females ::     35 0.023
+PSA :: Counts :: Age Group 50 - 55 :: Females ::     29 0.019
+PSA :: Counts :: Age Group 55 - 60 :: Females ::     17 0.011
+PSA :: Counts :: Age Group 60 - 65 :: Females ::     26 0.017
+PSA :: Counts :: Age Group 65 - 70 :: Females ::     28 0.018
+PSA :: Counts :: Age Group 70 - 75 :: Females ::     21 0.014
+PSA :: Counts :: Age Group 75 - 80 :: Females ::     33 0.021
+PSA :: Counts :: Age Group 80 - 85 :: Females ::     14 0.009
+PSA :: Counts :: Age Group 85 - 90 :: Females ::     24 0.016
+PSA :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+PSA :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+PSA :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+PSA :: Stats :: Age Group 20 - 25 :: All ::  N 1116 non-zeros 1103 Median   0.60 Mean   0.77 Std   0.92 Max  10.90
+PSA :: Stats :: Age Group 25 - 30 :: All ::  N 2503 non-zeros 2484 Median   0.60 Mean   0.78 Std   0.68 Max   9.70
+PSA :: Stats :: Age Group 30 - 35 :: All ::  N 5466 non-zeros 5447 Median   0.70 Mean   0.82 Std   0.81 Max  12.10
+PSA :: Stats :: Age Group 35 - 40 :: All ::  N 11667 non-zeros 11635 Median   0.70 Mean   0.84 Std   0.80 Max  12.70
+PSA :: Stats :: Age Group 40 - 45 :: All ::  N 27224 non-zeros 27185 Median   0.70 Mean   0.92 Std   0.96 Max  15.10
+PSA :: Stats :: Age Group 45 - 50 :: All ::  N 47217 non-zeros 47147 Median   0.80 Mean   1.07 Std   1.22 Max  18.90
+PSA :: Stats :: Age Group 50 - 55 :: All ::  N 78416 non-zeros 78272 Median   0.90 Mean   1.33 Std   1.71 Max  26.80
+PSA :: Stats :: Age Group 55 - 60 :: All ::  N 103358 non-zeros 103040 Median   1.10 Mean   1.80 Std   2.54 Max  39.80
+PSA :: Stats :: Age Group 60 - 65 :: All ::  N 124535 non-zeros 123900 Median   1.30 Mean   2.34 Std   3.46 Max  54.10
+PSA :: Stats :: Age Group 65 - 70 :: All ::  N 127952 non-zeros 126980 Median   1.60 Mean   2.92 Std   4.76 Max  74.20
+PSA :: Stats :: Age Group 70 - 75 :: All ::  N 113435 non-zeros 112447 Median   1.90 Mean   3.72 Std   7.04 Max 109.00
+PSA :: Stats :: Age Group 75 - 80 :: All ::  N 94085 non-zeros 93256 Median   2.20 Mean   4.97 Std  11.52 Max 177.00
+PSA :: Stats :: Age Group 80 - 85 :: All ::  N 65181 non-zeros 64669 Median   2.60 Mean   7.13 Std  19.17 Max 294.10
+PSA :: Stats :: Age Group 85 - 90 :: All ::  N 33730 non-zeros 33455 Median   3.10 Mean  11.95 Std  40.51 Max 616.00
+PSA :: Stats :: Age Group 90 - 95 :: All ::  N 10498 non-zeros 10414 Median   3.50 Mean  18.18 Std  67.59 Max 1000.00
+PSA :: Stats :: Age Group 95 - 100 :: All ::  N 1523 non-zeros 1507 Median   3.80 Mean  19.53 Std  62.57 Max 736.40
+PSA :: General :: All     :: outliers ratio 0.007032
+PSA :: General :: All     :: N 579399 non-zeros 576712 Median   1.20 Mean   2.95 Std   6.48 Max 100.00
+PSA :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.30  10.00  31.00  86.10
+PSA :: General :: All     :: quartiles ::   0.10   0.70   1.20   2.80 
+PSA :: General :: Males   :: outliers ratio 0.006991
+PSA :: General :: Males   :: N 578137 non-zeros 575610 Median   1.20 Mean   2.96 Std   6.50 Max 100.20
+PSA :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.30  10.00  31.20  86.50
+PSA :: General :: Males   :: quartiles ::   0.10   0.70   1.20   2.80 
+PSA :: General :: Females :: outliers ratio 0.005405
+PSA :: General :: Females :: N 1288 non-zeros 1015 Median   0.10 Mean   2.09 Std   8.50 Max 124.00
+PSA :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.10  12.00  45.20 111.00
+PSA :: General :: Females :: quartiles ::   0.10   0.10   0.10   1.10 
+PSA :: Rounding ::  0.00 r  0.00 pct
+PSA :: Rounding ::  0.01 r  0.08 pct
+PSA :: Rounding ::  0.10 r  0.82 pct
+PSA :: Rounding ::  1.00 r  0.10 pct
+PSA :: Rounding :: 10.00 r  0.00 pct
+PSA :: Rounding :: 100.00 r  0.00 pct
+PSA :: Rounding :: 1000.00 r  0.00 pct
+PSA :: Rounding :: most popular rounding for vals:  0.10
+PSA :: Stats year :: 2000 :: All :: N 21177 non-zeros 21125 Median   1.80 Mean   5.24 Std  13.58 Max 208.80
+PSA :: Stats year :: 2001 :: All :: N 31212 non-zeros 31139 Median   1.70 Mean   4.73 Std  11.59 Max 178.20
+PSA :: Stats year :: 2002 :: All :: N 40254 non-zeros 40166 Median   1.70 Mean   4.59 Std  11.17 Max 172.00
+PSA :: Stats year :: 2003 :: All :: N 52211 non-zeros 52034 Median   1.60 Mean   4.30 Std   9.74 Max 150.00
+PSA :: Stats year :: 2004 :: All :: N 68475 non-zeros 68177 Median   1.60 Mean   4.02 Std   8.84 Max 136.10
+PSA :: Stats year :: 2005 :: All :: N 76174 non-zeros 75791 Median   1.50 Mean   3.79 Std   8.31 Max 128.10
+PSA :: Stats year :: 2006 :: All :: N 82724 non-zeros 82259 Median   1.50 Mean   3.82 Std   8.16 Max 126.00
+PSA :: Stats year :: 2007 :: All :: N 90575 non-zeros 89970 Median   1.50 Mean   3.65 Std   7.38 Max 114.20
+PSA :: Stats year :: 2008 :: All :: N 104799 non-zeros 104104 Median   1.50 Mean   3.53 Std   7.38 Max 113.30
+PSA :: Stats year :: 2009 :: All :: N 112492 non-zeros 111683 Median   1.40 Mean   3.36 Std   6.81 Max 105.30
+PSA :: Stats year :: 2010 :: All :: N 106101 non-zeros 105268 Median   1.40 Mean   3.37 Std   6.70 Max 103.70
+PSA :: Stats year :: 2011 :: All :: N 109279 non-zeros 108179 Median   1.40 Mean   3.39 Std   6.96 Max 107.70
+PSA :: Stats year :: 2012 :: All :: N 108658 non-zeros 107333 Median   1.40 Mean   3.38 Std   6.73 Max 104.20
+PSA :: Stats year :: 2013 :: All :: N 112014 non-zeros 110545 Median   1.40 Mean   3.30 Std   6.55 Max 101.20
+PSA :: Stats year :: 2014 :: All :: N 100744 non-zeros 99312 Median   1.40 Mean   3.26 Std   6.45 Max 100.00
+PSA :: Stats year :: 2015 :: All :: N 82602 non-zeros 81292 Median   1.40 Mean   3.22 Std   6.23 Max  96.60
+PSA :: Stats year :: 2016 :: All :: N 3340 non-zeros 3278 Median   1.60 Mean   4.00 Std   7.88 Max 121.40
+PSA :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+PSA :: Stats year :: 2000 :: Males   :: N 21152 non-zeros 21099 Median   1.80 Mean   5.23 Std  13.62 Max 208.20
+PSA :: Stats year :: 2001 :: Males   :: N 31178 non-zeros 31103 Median   1.70 Mean   4.74 Std  11.72 Max 180.00
+PSA :: Stats year :: 2002 :: Males   :: N 40200 non-zeros 40116 Median   1.70 Mean   4.58 Std  11.18 Max 172.00
+PSA :: Stats year :: 2003 :: Males   :: N 52125 non-zeros 51968 Median   1.60 Mean   4.29 Std   9.67 Max 149.00
+PSA :: Stats year :: 2004 :: Males   :: N 68415 non-zeros 68128 Median   1.60 Mean   4.05 Std   8.91 Max 137.20
+PSA :: Stats year :: 2005 :: Males   :: N 76071 non-zeros 75708 Median   1.50 Mean   3.75 Std   8.07 Max 124.70
+PSA :: Stats year :: 2006 :: Males   :: N 82594 non-zeros 82155 Median   1.50 Mean   3.80 Std   7.97 Max 123.00
+PSA :: Stats year :: 2007 :: Males   :: N 90477 non-zeros 89900 Median   1.50 Mean   3.68 Std   7.54 Max 115.70
+PSA :: Stats year :: 2008 :: Males   :: N 104688 non-zeros 104013 Median   1.50 Mean   3.54 Std   7.46 Max 115.00
+PSA :: Stats year :: 2009 :: Males   :: N 112335 non-zeros 111566 Median   1.40 Mean   3.36 Std   6.78 Max 105.00
+PSA :: Stats year :: 2010 :: Males   :: N 106009 non-zeros 105188 Median   1.40 Mean   3.39 Std   6.83 Max 105.70
+PSA :: Stats year :: 2011 :: Males   :: N 109135 non-zeros 108042 Median   1.40 Mean   3.39 Std   6.96 Max 107.60
+PSA :: Stats year :: 2012 :: Males   :: N 108578 non-zeros 107256 Median   1.50 Mean   3.39 Std   6.77 Max 104.80
+PSA :: Stats year :: 2013 :: Males   :: N 111914 non-zeros 110463 Median   1.40 Mean   3.29 Std   6.49 Max 100.40
+PSA :: Stats year :: 2014 :: Males   :: N 100652 non-zeros 99242 Median   1.40 Mean   3.25 Std   6.37 Max  98.20
+PSA :: Stats year :: 2015 :: Males   :: N 82528 non-zeros 81251 Median   1.40 Mean   3.21 Std   6.17 Max  95.60
+PSA :: Stats year :: 2016 :: Males   :: N 3340 non-zeros 3278 Median   1.60 Mean   4.00 Std   7.89 Max 121.40
+PSA :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+PSA :: Stats year :: 2000 :: Females :: N 23 non-zeros 23 Median   1.50 Mean   5.03 Std   7.98 Max  34.90
+PSA :: Stats year :: 2001 :: Females :: N 36 non-zeros 36 Median   0.60 Mean   2.60 Std   5.38 Max  30.00
+PSA :: Stats year :: 2002 :: Females :: N 57 non-zeros 52 Median   1.30 Mean   6.20 Std  16.71 Max 111.00
+PSA :: Stats year :: 2003 :: Females :: N 81 non-zeros 56 Median   0.10 Mean   1.51 Std   3.75 Max  25.00
+PSA :: Stats year :: 2004 :: Females :: N 74 non-zeros 62 Median   0.10 Mean   3.03 Std  17.48 Max 151.00
+PSA :: Stats year :: 2005 :: Females :: N 91 non-zeros 75 Median   0.10 Mean  13.21 Std 112.13 Max 1076.00
+PSA :: Stats year :: 2006 :: Females :: N 102 non-zeros 85 Median   0.10 Mean  12.91 Std  96.64 Max 975.50
+PSA :: Stats year :: 2007 :: Females :: N 109 non-zeros 77 Median   0.10 Mean   1.83 Std   5.78 Max  32.00
+PSA :: Stats year :: 2008 :: Females :: N 129 non-zeros 104 Median   0.10 Mean   2.63 Std  10.56 Max  82.00
+PSA :: Stats year :: 2009 :: Females :: N 151 non-zeros 125 Median   0.10 Mean   9.02 Std  81.59 Max 999.00
+PSA :: Stats year :: 2010 :: Females :: N 99 non-zeros 82 Median   0.10 Mean   1.57 Std   5.43 Max  45.20
+PSA :: Stats year :: 2011 :: Females :: N 121 non-zeros 92 Median   0.10 Mean   0.89 Std   2.21 Max  12.20
+PSA :: Stats year :: 2012 :: Females :: N 86 non-zeros 64 Median   0.10 Mean   3.15 Std  19.62 Max 182.00
+PSA :: Stats year :: 2013 :: Females :: N 87 non-zeros 60 Median   0.10 Mean   4.82 Std  26.85 Max 246.00
+PSA :: Stats year :: 2014 :: Females :: N 80 non-zeros 62 Median   0.10 Mean   9.00 Std  61.26 Max 549.00
+PSA :: Stats year :: 2015 :: Females :: N 67 non-zeros 57 Median   0.10 Mean   0.90 Std   3.29 Max  25.00
+PSA :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+PSA :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+PSA :: Stats month 1 :: All :: N 82761 non-zeros 81964 Median   1.50 Mean   4.18 Std  10.46 Max 161.00
+PSA :: Stats month 2 :: All :: N 77767 non-zeros 77134 Median   1.40 Mean   4.01 Std  10.03 Max 154.40
+PSA :: Stats month 3 :: All :: N 84530 non-zeros 83782 Median   1.40 Mean   3.89 Std   9.16 Max 141.00
+PSA :: Stats month 4 :: All :: N 79262 non-zeros 78488 Median   1.40 Mean   3.96 Std   9.55 Max 147.00
+PSA :: Stats month 5 :: All :: N 80250 non-zeros 79502 Median   1.40 Mean   3.92 Std   9.47 Max 146.00
+PSA :: Stats month 6 :: All :: N 81806 non-zeros 81028 Median   1.50 Mean   4.03 Std   9.97 Max 153.60
+PSA :: Stats month 7 :: All :: N 82383 non-zeros 81621 Median   1.50 Mean   4.04 Std   9.82 Max 150.40
+PSA :: Stats month 8 :: All :: N 76343 non-zeros 75614 Median   1.50 Mean   4.06 Std   9.84 Max 151.40
+PSA :: Stats month 9 :: All :: N 82536 non-zeros 81787 Median   1.50 Mean   3.96 Std   9.02 Max 139.00
+PSA :: Stats month 10 :: All :: N 87854 non-zeros 87035 Median   1.50 Mean   3.92 Std   9.29 Max 143.00
+PSA :: Stats month 11 :: All :: N 86813 non-zeros 86038 Median   1.50 Mean   3.95 Std   9.57 Max 147.10
+PSA :: Stats month 12 :: All :: N 71578 non-zeros 70916 Median   1.50 Mean   4.16 Std  10.42 Max 160.10
+

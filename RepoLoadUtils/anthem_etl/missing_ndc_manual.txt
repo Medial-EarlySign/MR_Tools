@@ -1,0 +1,8 @@
+code	desc	labeler name	dosage	active ingredients	form
+68180-0514	Lisinopril	Lupin Pharmaceuticals, Inc.	10 mg/1	Lisinopril	TABLET
+68180-0515	Lisinopril	Lupin Pharmaceuticals, Inc.	20 mg/1	Lisinopril	TABLET
+00527-1342	Levothyroxine Sodium	Lannett Company, Inc.	.05 mg/1 LEVOTHYROXINE Sodium	TABLET
+31722-0222	Gabapentin	Camber Pharmaceuticals Inc.	300 mg/1	Gabapentin	CAPSULE
+50111-0990	ERGOCALCIFEROL	Pliva Inc.	1.25 mg/1	ERGOCALCIFEROL	CAPSULE
+31722-0238	Amlodipine Besylate	Camber Pharmaceuticals, Inc.	5 mg/1	AMLODIPINE Besylate	TABLET
+00591-2612	Hydrocodone Bitartrate and Acetaminophen	Actavis Pharma, Inc.	325 mg/1	Acetaminophen	TABLET

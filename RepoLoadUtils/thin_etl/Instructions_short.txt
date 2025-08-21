@@ -1,0 +1,16 @@
+Name	Unit	Resolution	Ignore	Factors	FinalFactor
+T3	nmol/L	0.1
+T4	nmol/L	1		0.128
+Testosterone	nmol/L	0.1
+TSH	mU/L	0.01	mL,pmol/L		
+TotalProtein	g/L	1	10*9/L,IU/L,mmol/L
+Transferin	g/L	0.1
+Triglycerides	mmol/L	0.1			88.5
+Urate	mmol/L	0.01		0.001	16.8
+Urea	mmol/L	0.1			6	
+UrineAlbumin	mg/L	1	g/L,mg/mmol
+UrineAlbumin_over_Creatinine	mg/mmol	0.1	g(creat,mg/L,mg/mmol(creat,mg/mmol(creat),mmol/L,mmol/mmol(creat),ratio
+UrineCreatinine	mmol/L	0.1
+UrineTotalProtein	g/L	0.01	NA
+VitaminD	nmol/L	1
+WBC	10*9/L	0.1	10*6/L,mm

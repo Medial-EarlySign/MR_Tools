@@ -1,0 +1,37 @@
+MODE	3
+SAFE_MODE	1
+SIGNAL	rambam.signals
+OUTDIR	/server/Work/CancerData/Repositories/Rambam/rambam_aug2018/
+RELATIVE	1
+TIMEUNIT	6
+
+DATA	rambam_train
+DATA	rambam_demographics
+DATA	rambam_stays
+DATA	rambam_diagnoses
+DATA	rambam_drugs
+DATA	rambam_drugs_rate
+DATA	rambam_admission_type
+DATA	rambam_admissions
+DATA	rambam_procedures
+DATA	rambam_microbiology
+DATA	lab_signals
+
+DICTIONARY	dicts/dict.diagnosiscode
+DICTIONARY	dicts/dict.diagnosistype
+DICTIONARY	dicts/dict.procedurecode
+DICTIONARY	dicts/dict.proceduretype
+DICTIONARY	dicts/dict.admtype
+DICTIONARY	dicts/dict.departmentcode
+DICTIONARY	dicts/dict.emr
+DICTIONARY	dicts/dict.mrfcode
+DICTIONARY	dicts/dict.microbiology
+DICTIONARY	dicts/dict.atc_defs
+DICTIONARY	dicts/dict.atc_sets
+DICTIONARY	dicts/dict.icd10_defs
+DICTIONARY	dicts/dict.icd10_sets
+
+#FORCE_SIGNAL	GENDER,BYEAR
+CONFIG	rambam.repository
+CODES	code_to_signal
+

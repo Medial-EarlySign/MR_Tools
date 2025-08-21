@@ -1,0 +1,11 @@
+MODE	3
+SAFE_MODE	1
+SIGNAL	canada.signals
+DIR	/server/Work/Users/Ido/canada_122017_loading/
+OUTDIR	/server/Work/Users/Ido/canada_122017_loading//repo/
+
+DATA	CVD_MI
+DATA	CVD_IschemicStroke
+DATA	CVD_HemorhagicStroke
+DATA	CVD_HeartFailure
+LOAD_ONLY	CVD_MI,CVD_IschemicStroke,CVD_HemorhagicStroke,CVD_HeartFailure

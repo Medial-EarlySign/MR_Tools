@@ -1,0 +1,162 @@
+Fibrinogen :: All :: With Values ::   9468 / 1279479 =  0.01 ::   9468 /   9468 =  1.00
+Fibrinogen :: Males :: With Values ::   2738 / 622859 =  0.00 ::   2738 /   9468 =  0.29
+Fibrinogen :: Females :: With Values ::   6730 / 656620 =  0.01 ::   6730 /   9468 =  0.71
+Fibrinogen :: General :: No. of Values :: All  13584 Male   4024 Female   9560
+Fibrinogen :: General :: No. of different days Values :: All  13581 Male   4023 Female   9558
+Fibrinogen :: General :: Avg #values per person (all) :: All  0.01 Male  0.01 Female  0.01
+Fibrinogen :: General :: Avg #values per person (>0)  :: All  1.43 Male  1.47 Female  1.42
+Fibrinogen :: General :: Avg dist between tests       :: All  338.7 Male  328.8 Female  343.1
+Fibrinogen :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Fibrinogen :: Counts :: Age Group 25 - 30 :: All ::      5 0.000
+Fibrinogen :: Counts :: Age Group 30 - 35 :: All ::    145 0.011
+Fibrinogen :: Counts :: Age Group 35 - 40 :: All ::    378 0.028
+Fibrinogen :: Counts :: Age Group 40 - 45 :: All ::    474 0.035
+Fibrinogen :: Counts :: Age Group 45 - 50 :: All ::    307 0.023
+Fibrinogen :: Counts :: Age Group 50 - 55 :: All ::    297 0.022
+Fibrinogen :: Counts :: Age Group 55 - 60 :: All ::    247 0.018
+Fibrinogen :: Counts :: Age Group 60 - 65 :: All ::    249 0.018
+Fibrinogen :: Counts :: Age Group 65 - 70 :: All ::    169 0.012
+Fibrinogen :: Counts :: Age Group 70 - 75 :: All ::    150 0.011
+Fibrinogen :: Counts :: Age Group 75 - 80 :: All ::    130 0.010
+Fibrinogen :: Counts :: Age Group 80 - 85 :: All ::    103 0.008
+Fibrinogen :: Counts :: Age Group 85 - 90 :: All ::     41 0.003
+Fibrinogen :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Fibrinogen :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Fibrinogen :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Fibrinogen :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Fibrinogen :: Counts :: Age Group 25 - 30 :: Males ::      0 0.000
+Fibrinogen :: Counts :: Age Group 30 - 35 :: Males ::     33 0.008
+Fibrinogen :: Counts :: Age Group 35 - 40 :: Males ::     57 0.014
+Fibrinogen :: Counts :: Age Group 40 - 45 :: Males ::    108 0.027
+Fibrinogen :: Counts :: Age Group 45 - 50 :: Males ::    106 0.026
+Fibrinogen :: Counts :: Age Group 50 - 55 :: Males ::     95 0.024
+Fibrinogen :: Counts :: Age Group 55 - 60 :: Males ::     91 0.023
+Fibrinogen :: Counts :: Age Group 60 - 65 :: Males ::    101 0.025
+Fibrinogen :: Counts :: Age Group 65 - 70 :: Males ::     74 0.018
+Fibrinogen :: Counts :: Age Group 70 - 75 :: Males ::     52 0.013
+Fibrinogen :: Counts :: Age Group 75 - 80 :: Males ::     38 0.009
+Fibrinogen :: Counts :: Age Group 80 - 85 :: Males ::     28 0.007
+Fibrinogen :: Counts :: Age Group 85 - 90 :: Males ::     14 0.003
+Fibrinogen :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Fibrinogen :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Fibrinogen :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Fibrinogen :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Fibrinogen :: Counts :: Age Group 25 - 30 :: Females ::      5 0.001
+Fibrinogen :: Counts :: Age Group 30 - 35 :: Females ::    112 0.012
+Fibrinogen :: Counts :: Age Group 35 - 40 :: Females ::    321 0.034
+Fibrinogen :: Counts :: Age Group 40 - 45 :: Females ::    366 0.038
+Fibrinogen :: Counts :: Age Group 45 - 50 :: Females ::    201 0.021
+Fibrinogen :: Counts :: Age Group 50 - 55 :: Females ::    202 0.021
+Fibrinogen :: Counts :: Age Group 55 - 60 :: Females ::    156 0.016
+Fibrinogen :: Counts :: Age Group 60 - 65 :: Females ::    148 0.015
+Fibrinogen :: Counts :: Age Group 65 - 70 :: Females ::     95 0.010
+Fibrinogen :: Counts :: Age Group 70 - 75 :: Females ::     98 0.010
+Fibrinogen :: Counts :: Age Group 75 - 80 :: Females ::     92 0.010
+Fibrinogen :: Counts :: Age Group 80 - 85 :: Females ::     75 0.008
+Fibrinogen :: Counts :: Age Group 85 - 90 :: Females ::     27 0.003
+Fibrinogen :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Fibrinogen :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Fibrinogen :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Fibrinogen :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats :: Age Group 25 - 30 :: All ::  N 220 non-zeros 199 Median 322.00 Mean 322.61 Std 143.21 Max 722.60
+Fibrinogen :: Stats :: Age Group 30 - 35 :: All ::  N 1104 non-zeros 1059 Median 313.00 Mean 318.32 Std 108.46 Max 861.00
+Fibrinogen :: Stats :: Age Group 35 - 40 :: All ::  N 1885 non-zeros 1853 Median 320.00 Mean 327.95 Std  99.68 Max 829.00
+Fibrinogen :: Stats :: Age Group 40 - 45 :: All ::  N 1698 non-zeros 1671 Median 318.00 Mean 326.48 Std  92.51 Max 707.00
+Fibrinogen :: Stats :: Age Group 45 - 50 :: All ::  N 1230 non-zeros 1196 Median 322.00 Mean 329.39 Std 104.93 Max 835.00
+Fibrinogen :: Stats :: Age Group 50 - 55 :: All ::  N 1014 non-zeros 987 Median 330.00 Mean 333.70 Std 103.73 Max 850.10
+Fibrinogen :: Stats :: Age Group 55 - 60 :: All ::  N 876 non-zeros 861 Median 332.00 Mean 344.24 Std 107.67 Max 1068.00
+Fibrinogen :: Stats :: Age Group 60 - 65 :: All ::  N 710 non-zeros 694 Median 349.00 Mean 353.35 Std 106.81 Max 803.00
+Fibrinogen :: Stats :: Age Group 65 - 70 :: All ::  N 515 non-zeros 500 Median 351.00 Mean 355.09 Std 119.06 Max 779.00
+Fibrinogen :: Stats :: Age Group 70 - 75 :: All ::  N 379 non-zeros 368 Median 356.00 Mean 356.29 Std 107.77 Max 761.00
+Fibrinogen :: Stats :: Age Group 75 - 80 :: All ::  N 268 non-zeros 256 Median 349.00 Mean 355.35 Std 130.00 Max 860.00
+Fibrinogen :: Stats :: Age Group 80 - 85 :: All ::  N 168 non-zeros 161 Median 358.00 Mean 354.62 Std 119.08 Max 885.00
+Fibrinogen :: Stats :: Age Group 85 - 90 :: All ::  N 61 non-zeros 60 Median 366.40 Mean 370.99 Std  96.99 Max 587.00
+Fibrinogen :: Stats :: Age Group 90 - 95 :: All ::  N 27 non-zeros 23 Median 360.00 Mean 351.19 Std 168.60 Max 712.00
+Fibrinogen :: Stats :: Age Group 95 - 100 :: All ::  N 9 non-zeros 9 Median 400.00 Mean 521.56 Std 201.34 Max 813.00
+Fibrinogen :: General :: All     :: outliers ratio 0.000000
+Fibrinogen :: General :: All     :: N 9468 non-zeros 9209 Median 328.00 Mean 333.55 Std 106.97 Max 1068.00
+Fibrinogen :: General :: All     :: distribution 0.001,0.01,0.05 ::  92.00 179.00 224.00 500.00 656.00 829.00
+Fibrinogen :: General :: All     :: quartiles ::  92.00 281.40 329.80 387.00 
+Fibrinogen :: General :: Males   :: outliers ratio 0.000000
+Fibrinogen :: General :: Males   :: N 2738 non-zeros 2660 Median 318.50 Mean 331.03 Std 117.79 Max 1068.00
+Fibrinogen :: General :: Males   :: distribution 0.001,0.01,0.05 ::  76.00 155.00 214.90 533.20 713.00 934.00
+Fibrinogen :: General :: Males   :: quartiles ::  76.00 274.00 321.70 383.00 
+Fibrinogen :: General :: Females :: outliers ratio 0.000000
+Fibrinogen :: General :: Females :: N 6730 non-zeros 6551 Median 329.80 Mean 333.63 Std 101.33 Max 944.00
+Fibrinogen :: General :: Females :: distribution 0.001,0.01,0.05 ::  90.00 184.00 226.00 487.00 614.00 813.00
+Fibrinogen :: General :: Females :: quartiles ::  90.00 285.00 332.20 389.70 
+Fibrinogen :: Rounding ::  0.00 r  0.00 pct
+Fibrinogen :: Rounding ::  0.01 r  0.04 pct
+Fibrinogen :: Rounding ::  0.10 r  0.18 pct
+Fibrinogen :: Rounding ::  1.00 r  0.69 pct
+Fibrinogen :: Rounding :: 10.00 r  0.08 pct
+Fibrinogen :: Rounding :: 100.00 r  0.01 pct
+Fibrinogen :: Rounding :: 1000.00 r  0.00 pct
+Fibrinogen :: Rounding :: most popular rounding for vals:  1.00
+Fibrinogen :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats year :: 2001 :: All :: N 535 non-zeros 375 Median 295.70 Mean 255.10 Std 192.21 Max 818.00
+Fibrinogen :: Stats year :: 2002 :: All :: N 410 non-zeros 381 Median 325.40 Mean 327.04 Std 133.88 Max 821.10
+Fibrinogen :: Stats year :: 2003 :: All :: N 459 non-zeros 448 Median 330.00 Mean 345.21 Std 117.66 Max 1068.00
+Fibrinogen :: Stats year :: 2004 :: All :: N 654 non-zeros 642 Median 329.00 Mean 342.11 Std 116.43 Max 974.00
+Fibrinogen :: Stats year :: 2005 :: All :: N 883 non-zeros 876 Median 314.00 Mean 325.90 Std  97.91 Max 807.00
+Fibrinogen :: Stats year :: 2006 :: All :: N 967 non-zeros 957 Median 327.00 Mean 335.52 Std  99.86 Max 796.00
+Fibrinogen :: Stats year :: 2007 :: All :: N 896 non-zeros 892 Median 329.80 Mean 343.68 Std  96.23 Max 885.00
+Fibrinogen :: Stats year :: 2008 :: All :: N 734 non-zeros 727 Median 326.90 Mean 337.45 Std  93.51 Max 999.00
+Fibrinogen :: Stats year :: 2009 :: All :: N 951 non-zeros 947 Median 331.00 Mean 340.97 Std  92.87 Max 850.10
+Fibrinogen :: Stats year :: 2010 :: All :: N 927 non-zeros 921 Median 328.00 Mean 335.47 Std  89.27 Max 737.00
+Fibrinogen :: Stats year :: 2011 :: All :: N 770 non-zeros 766 Median 338.00 Mean 343.29 Std  87.87 Max 729.00
+Fibrinogen :: Stats year :: 2012 :: All :: N 782 non-zeros 776 Median 334.00 Mean 344.32 Std  95.05 Max 829.00
+Fibrinogen :: Stats year :: 2013 :: All :: N 812 non-zeros 808 Median 341.00 Mean 348.60 Std  90.02 Max 761.00
+Fibrinogen :: Stats year :: 2014 :: All :: N 832 non-zeros 829 Median 327.00 Mean 342.90 Std  98.84 Max 1336.00
+Fibrinogen :: Stats year :: 2015 :: All :: N 722 non-zeros 715 Median 357.00 Mean 364.08 Std  98.57 Max 805.00
+Fibrinogen :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats year :: 2001 :: Males   :: N 160 non-zeros 110 Median 284.00 Mean 260.18 Std 209.27 Max 818.00
+Fibrinogen :: Stats year :: 2002 :: Males   :: N 125 non-zeros 114 Median 300.40 Mean 300.32 Std 151.47 Max 821.10
+Fibrinogen :: Stats year :: 2003 :: Males   :: N 153 non-zeros 150 Median 328.00 Mean 344.60 Std 118.17 Max 1068.00
+Fibrinogen :: Stats year :: 2004 :: Males   :: N 204 non-zeros 203 Median 318.00 Mean 341.51 Std 132.34 Max 974.00
+Fibrinogen :: Stats year :: 2005 :: Males   :: N 242 non-zeros 240 Median 294.00 Mean 313.30 Std 100.37 Max 807.00
+Fibrinogen :: Stats year :: 2006 :: Males   :: N 247 non-zeros 242 Median 317.00 Mean 326.97 Std 107.13 Max 699.00
+Fibrinogen :: Stats year :: 2007 :: Males   :: N 250 non-zeros 250 Median 323.30 Mean 344.46 Std 101.60 Max 723.00
+Fibrinogen :: Stats year :: 2008 :: Males   :: N 212 non-zeros 210 Median 318.00 Mean 338.47 Std 104.93 Max 787.00
+Fibrinogen :: Stats year :: 2009 :: Males   :: N 278 non-zeros 277 Median 321.20 Mean 339.07 Std 103.84 Max 850.10
+Fibrinogen :: Stats year :: 2010 :: Males   :: N 248 non-zeros 245 Median 325.00 Mean 340.06 Std 107.00 Max 737.00
+Fibrinogen :: Stats year :: 2011 :: Males   :: N 234 non-zeros 233 Median 328.00 Mean 335.64 Std  87.68 Max 656.00
+Fibrinogen :: Stats year :: 2012 :: Males   :: N 235 non-zeros 233 Median 325.00 Mean 346.13 Std 111.93 Max 729.00
+Fibrinogen :: Stats year :: 2013 :: Males   :: N 231 non-zeros 229 Median 334.00 Mean 344.29 Std  99.75 Max 696.00
+Fibrinogen :: Stats year :: 2014 :: Males   :: N 250 non-zeros 250 Median 328.00 Mean 347.94 Std  96.98 Max 767.00
+Fibrinogen :: Stats year :: 2015 :: Males   :: N 240 non-zeros 238 Median 344.00 Mean 365.63 Std 105.70 Max 779.00
+Fibrinogen :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats year :: 2001 :: Females :: N 375 non-zeros 261 Median 295.70 Mean 249.39 Std 185.39 Max 722.60
+Fibrinogen :: Stats year :: 2002 :: Females :: N 285 non-zeros 269 Median 342.40 Mean 338.72 Std 119.13 Max 615.00
+Fibrinogen :: Stats year :: 2003 :: Females :: N 306 non-zeros 297 Median 333.00 Mean 343.80 Std 118.58 Max 835.00
+Fibrinogen :: Stats year :: 2004 :: Females :: N 450 non-zeros 441 Median 334.00 Mean 344.64 Std 105.41 Max 819.00
+Fibrinogen :: Stats year :: 2005 :: Females :: N 641 non-zeros 636 Median 321.00 Mean 330.63 Std  95.72 Max 787.00
+Fibrinogen :: Stats year :: 2006 :: Females :: N 720 non-zeros 714 Median 332.00 Mean 338.04 Std  96.77 Max 796.00
+Fibrinogen :: Stats year :: 2007 :: Females :: N 646 non-zeros 643 Median 333.00 Mean 342.87 Std  92.63 Max 885.00
+Fibrinogen :: Stats year :: 2008 :: Females :: N 522 non-zeros 516 Median 327.00 Mean 335.79 Std  85.79 Max 712.00
+Fibrinogen :: Stats year :: 2009 :: Females :: N 673 non-zeros 671 Median 335.40 Mean 343.52 Std  88.71 Max 848.00
+Fibrinogen :: Stats year :: 2010 :: Females :: N 679 non-zeros 674 Median 330.00 Mean 334.14 Std  87.44 Max 944.00
+Fibrinogen :: Stats year :: 2011 :: Females :: N 536 non-zeros 532 Median 344.00 Mean 347.47 Std  90.02 Max 729.00
+Fibrinogen :: Stats year :: 2012 :: Females :: N 547 non-zeros 542 Median 340.00 Mean 342.15 Std  87.12 Max 829.00
+Fibrinogen :: Stats year :: 2013 :: Females :: N 581 non-zeros 581 Median 346.00 Mean 351.80 Std  82.46 Max 761.00
+Fibrinogen :: Stats year :: 2014 :: Females :: N 582 non-zeros 579 Median 328.00 Mean 338.82 Std  90.65 Max 813.00
+Fibrinogen :: Stats year :: 2015 :: Females :: N 482 non-zeros 477 Median 359.00 Mean 362.94 Std  92.32 Max 805.00
+Fibrinogen :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fibrinogen :: Stats month 1 :: All :: N 947 non-zeros 923 Median 332.10 Mean 333.80 Std 103.81 Max 829.00
+Fibrinogen :: Stats month 2 :: All :: N 892 non-zeros 863 Median 336.00 Mean 342.34 Std 113.36 Max 861.00
+Fibrinogen :: Stats month 3 :: All :: N 966 non-zeros 934 Median 332.00 Mean 335.38 Std 111.47 Max 974.00
+Fibrinogen :: Stats month 4 :: All :: N 854 non-zeros 830 Median 333.50 Mean 342.53 Std 111.32 Max 794.00
+Fibrinogen :: Stats month 5 :: All :: N 1042 non-zeros 1008 Median 318.30 Mean 326.78 Std 109.82 Max 885.00
+Fibrinogen :: Stats month 6 :: All :: N 1038 non-zeros 1016 Median 323.00 Mean 332.05 Std 101.42 Max 737.00
+Fibrinogen :: Stats month 7 :: All :: N 1003 non-zeros 980 Median 330.90 Mean 337.77 Std 107.99 Max 999.00
+Fibrinogen :: Stats month 8 :: All :: N 965 non-zeros 943 Median 326.00 Mean 330.82 Std 101.69 Max 807.00
+Fibrinogen :: Stats month 9 :: All :: N 792 non-zeros 783 Median 328.00 Mean 336.98 Std  96.89 Max 819.00
+Fibrinogen :: Stats month 10 :: All :: N 837 non-zeros 812 Median 333.00 Mean 338.02 Std 108.57 Max 791.00
+Fibrinogen :: Stats month 11 :: All :: N 927 non-zeros 912 Median 336.00 Mean 340.87 Std  97.63 Max 850.10
+Fibrinogen :: Stats month 12 :: All :: N 840 non-zeros 823 Median 334.00 Mean 343.02 Std 111.69 Max 1068.00
+

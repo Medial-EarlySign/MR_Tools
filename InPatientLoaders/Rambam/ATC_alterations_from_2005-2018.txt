@@ -1,0 +1,171 @@
+Previous ATC code	Substance name	New ATC code	Year changed
+A01AD02 27)	benzydamine	R02AX03	2018
+A03AE02	tegaserod	A06AX06	2013
+A03AE04	prucalopride	A06AX05	2013
+A10BX04	exenatide	A10BJ01	2017
+A10BX07	liraglutide	A10BJ02	2017
+A10BX09	dapagliflozin	A10BK01	2017
+A10BX10	lixisenatide	A10BJ03	2017
+A10BX11	canagliflozin	A10BK02	2017
+A10BX12	empagliflozin	A10BK03	2017
+A10BX13	albiglutide	A10BJ04	2017
+A10BX14	dulaglutide	A10BJ05	2017
+A11CC07	paricalcitol	H05BX02	2010
+A12AA12	calcium acetate 11)	V03AE07	2016
+B01AC14	anagrelide	L01XX35	2006
+B01AX06	rivaroxaban	B01AF01	2013
+B02AB03 5)	c1-inhibitor, plasma derived	B06AC01	2012
+B02BC10	fibrinogen, human	B02BC30 6)	2014
+B02BD09	nonacog alfa	B02BD04 12)	2017
+B02BD12	trenonacog alfa	B02BD04 12)	2017
+B03AB06	ferric citrate	V03AE08	2016
+B03AC01	ferric oxide polymaltose complexes	B03AC 7)	2014
+B03AC02	saccharated iron oxide	B03AC 7)	2014
+B03AC03	iron-sorbitol-citric acid complex	B03AC 7)	2014
+B03AC05	ferric sorbitol gluconic acid complex	B03AC 7)	2014
+B03AC06	ferric oxide dextran complexes	B03AC 7)	2014
+B03AC07	ferric sodium gluconate complex	B03AC 7)	2014
+B06AA11	bromelains	D03BA03	2014
+C01EB12	tedisamil	C01BD06	2009
+C01EB19	icatibant	B06AC02	2012
+C04AX13	piribedil	N04BC08	2006
+C07AA57	sotalol and acetylsalicylic acid  14)	C07FX02	2017
+C07AB52	metoprolol and acetylsalicylic acid  15)	C07FX03	2017
+C07AB57	bisoprolol and acetylsalicylic acid 16)	C07FX04	2017
+C07FA05	propranolol and other combinations 17)	C07FX01	2017
+C07FB02 18)	metoprolol and felodipine	C07FB02	2017
+C07FB02 18)	metoprolol and amlodipine	C07FB13	2017
+C10AA51	simvastatin, combinations	C10BX01	2006
+C10AA52	lovastatin, combinations	C10BA01	2006
+C10AA53	pravastatin, combinations	C10BX02	2006
+C10AA55	atorvastatin, combinations	C10BX03	2006
+C10AX04	benfluorex	A10BX06	2009
+D03AX07	glyceryl trinitrate	C05AE01	2008
+D03AX08	isosorbide dinitrate	C05AE02	2008
+D11AX14	tacrolimus	D11AH01	2010
+D11AX15	pimecrolimus	D11AH02	2010
+D11AX17	cromoglicic acid	D11AH03	2010
+D11AX19	alitretinoin	D11AH04	2012
+G03AC03	levonorgestrel	G03AD01 3)	2011
+G03DC05	tibolone	G03CX01	2008
+G04BE05	phentolamine	V03AB36	2011
+H01BA06	argipressin	H01BA01 28)	2018
+H01CA03	histrelin	L02AE05	2013
+J01DA01	cefalexin	J01DB01	2005
+J01DA02	cefaloridine	J01DB02	2005
+J01DA03	cefalotin	J01DB03	2005
+J01DA04	cefazolin	J01DB04	2005
+J01DA05	cefoxitin	J01DC01	2005
+J01DA06	cefuroxime	J01DC02	2005
+J01DA07	cefamandole	J01DC03	2005
+J01DA08	cefaclor	J01DC04	2005
+J01DA09	cefadroxil	J01DB05	2005
+J01DA10	cefotaxime	J01DD01	2005
+J01DA11	ceftazidime	J01DD02	2005
+J01DA12	cefsulodin	J01DD03	2005
+J01DA13	ceftriaxone	J01DD04	2005
+J01DA14	cefotetan	J01DC05	2005
+J01DA15	cefazedone	J01DB06	2005
+J01DA16	cefmenoxime	J01DD05	2005
+J01DA17	cefonicid	J01DC06	2005
+J01DA18	latamoxef	J01DD06	2005
+J01DA19	cefotiam	J01DC07	2005
+J01DA21	cefatrizine	J01DB07	2005
+J01DA22	ceftizoxime	J01DD07	2005
+J01DA23	cefixime	J01DD08	2005
+J01DA24	cefepime	J01DE01	2005
+J01DA25	cefodizime	J01DD09	2005
+J01DA26	cefetamet	J01DD10	2005
+J01DA27	cefpiramide	J01DD11	2005
+J01DA30	cefapirin	J01DB08	2005
+J01DA31	cefradine	J01DB09	2005
+J01DA32	cefoperazone	J01DD12	2005
+J01DA33	cefpodoxime	J01DD13	2005
+J01DA34	cefacetrile	J01DB10	2005
+J01DA35	cefroxadine	J01DB11	2005
+J01DA36	ceftezole	J01DB12	2005
+J01DA37	cefpirome	J01DE02	2005
+J01DA38	loracarbef	J01DC08	2005
+J01DA39	ceftibuten	J01DD14	2005
+J01DA40	cefmetazole	J01DC09	2005
+J01DA41	cefprozil	J01DC10	2005
+J01DA42	cefdinir	J01DD15	2005
+J01DA63	ceftriaxone, combinations	J01DD54	2005
+J01DD54 29)	ceftriaxone, combinations	J01DD63	2018
+J05AB04	ribavirin	J05AP01	2018
+J05AB54	ribavirin, combinations	L03AB60 1)	2007
+J05AE06	lopinavir and ritonavir	J05AR10	2013
+J05AE11	telaprevir	J05AP02	2018
+J05AE12	boceprevir	J05AP03	2018
+J05AE13	faldaprevir	J05AP04	2018
+J05AE14	simeprevir	J05AP05	2018
+J05AE15	asunaprevir	J05AP06	2018
+J05AF30	combinations	J05AR 2)	2007
+J05AX14	daclatasvir	J05AP07	2018
+J05AX15	sofosbuvir	J05AP08	2018
+J05AX16	dasabuvir	J05AP09	2018
+J05AX65	sofosbuvir and ledipasvir	J05AP51	2018
+J05AX66	dasabuvir, ombitasvir, paritaprevir and ritonavir	J05AP52	2018
+J05AX67	ombitasvir, paritaprevir and ritonavir	J05AP53	2018
+J05AX68	elbasvir and grazoprevir	J05AP54	2018
+J05AX69	sofosbuvir and velpatasvir	J05AP55	2018
+L01BA01 13)	methotrexate	L04AX03	2017
+L01XC04	alemtuzumab	L04AA34	2015
+L01XD02	verteporfin	S01LA01	2007
+L01XX28	imatinib	L01XE01	2007
+L01XX31	gefitinib	L01XE02	2007
+L01XX34	erlotinib	L01XE03	2007
+L04AA01	ciclosporin	L04AD01	2008
+L04AA05	tacrolimus	L04AD02	2008
+L04AA08	daclizumab	L04AC01	2008
+L04AA09	basiliximab	L04AC02	2008
+L04AA11	etanercept	L04AB01	2008
+L04AA12	infliximab	L04AB02	2008
+L04AA14	anakinra	L04AC03	2008
+L04AA16	afelimomab	L04AB03	2008
+L04AA17	adalimumab	L04AB04	2008
+L04AC06	mepolizumab	R03DX09	2017
+M01AE51 19)	dihydrocodeine and other non-opioid analgesics	N02AJ03	2017
+M01AE51 19)	codeine and ibuprofen	N02AJ08	2017
+N01AB03	methoxyflurane	N02BG09	2009
+N01AX01	droperidol	N05AD08 (existing code)	2013
+N02AA09	diamorphine	N07BC06	2013
+N02AA55 21)	oxycodone and paracetamol	N02AJ17	2017
+N02AA55 21)	oxycodone and acetylsalicylic acid	N02AJ18	2017
+N02AA55 21)	oxycodone and ibuprofen	N02AJ19	2017
+N02AA55 22)	dihydrocodeine and paracetamol	N02AJ01	2017
+N02AA58 22)	dihydrocodeine and acetylsalicylic acid 	N02AJ02	2017
+N02AA58 22)	dihydrocodeine and other non-opioid analgesics	N02AJ03	2017
+N02AA59 23)	codeine and paracetamol	N02AJ06	2017
+N02AA59 23)	codeine and acetylsalicylic acid	N02AJ07	2017
+N02AA59 23)	codeine and ibuprofen	N02AJ08	2017
+N02AA59 23)	codeine and other non-opioid analgesics	N02AJ09	2017
+N02AX52 20)	tramadol and paracetamol	N02AJ13	2017
+N02BA51 24)	codeine and acetylsalicylic acid	N02AJ07	2017
+N02BA51 24)	oxycodone and acetylsalicylic acid	N02AJ18	2017
+N02BE51 24)	dihydrocodeine and paracetamol	N02AJ01	2017
+N02BE51 25)	codeine and paracetamol	N02AJ06	2017
+N02BE51 25)	codeine and other non-opioid analgesics	N02AJ09	2017
+N02BE51 25)	oxycodone and paracetamol	N02AJ17	2017
+N05AK01	tetrabenazine	N07XX06	2008
+N05AX09	clotiapine	N05AH06	2010
+N05CM17	melatonin	N05CH01	2008
+N07BA02	bupropion	N06AX12	2009
+P01BE52	artemether and lumefantrine 26)	P01BF01	2011
+R03AK03	fenoterol and ipratropium bromide 8)	R03AL01	2014
+R03AK04 9)	salbutamol and ipratropium bromide	R03AL02	2014
+R03AK07 10)	formoterol and beclometasone	R03AK08	2014
+R03AK07 10)	formoterol and mometasone	R03AK09	2014
+R03CA02	ephedrine	C01CA26 4)	2011
+R05CB12	tiopronin	G04BX16	2017
+S01AX11	ofloxacin	S01AE01	2013
+S01AX12	norfloxacin	S01AE02	2013
+S01AX13	ciprofloxacin	S01AE03	2013
+S01AX17	lomefloxacin	S01AE04	2013
+S01AX19	levofloxacin	S01AE05	2013
+S01AX21	gatifloxacin	S01AE06	2013
+S01AX22	moxifloxacin	S01AE07	2013
+S01AX23	besifloxacin	S01AE08	2013
+S01XA16	anecortave	S01LA02	2007
+S01XA17	pegaptanib	S01LA03	2007
+V09AX02	fludeoxyglucose [18F]	V09IX04	2005

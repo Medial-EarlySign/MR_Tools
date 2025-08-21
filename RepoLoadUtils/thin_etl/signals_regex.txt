@@ -1,0 +1,345 @@
+==Creatinine - DONE
+1001400019 - OK
+44JF.00 - OK
+44J3.00 - OK
+
+44JD.00 - OK
+
+== Sodium - OK
+44[hI]..00.*1001400032
+
+
+==== Potassium - OK
+
+44I4.00 - OK
+44h8.00 - OK
+44h0.00 - OK
+
+=== Hemoglobin - OK
+423[4-9.ZB]\.(00|11).*(1001400027|1001400329|1001400153) - OK
+424..00 - OK
+
+=== WBC- Done
+42H.... - 
+
+=== Platelets- Done
+42P..00 - 
+
+=== MCV - OK
+1001400048 - OK
+42A..00 - OK
+
+=== ALP - OK
+44F[.3DZ1].00  -OK
+44CU.00 - OK
+
+=== RBC -  OK
+426[^6].00 - OK
+
+=== Hematocrit - OK
+1001400213  - OK
+425..(00|11)  - OK
+
+=== NeutNum - OK
+42J[^5].00.*(1001400053|1001400027) - OK
+
+=== LymphNum - OK
+42M[1-5.].00.*1001400058 -  OK
+
+=== Albumin - OK
+44M[4i].00.*(1001400002|1001400043) - OK
+
+=== MonNum - OK
+42N[^567].00.*1001400050 - OK
+
+=== EosNum - OK
+42K..00.*1001400022 - OK
+
+=== MCH - OK
+428..(00|11).*(1001400044|1001400153) -  OK
+
+=== Bilirubin - OK
+44E.[^0]00.*1001400009 - OK
+
+=== Urea - OK
+44J..(00|11)
+1001400051|1001400153
+
+=== BasNum - OK
+42L..00.*1001400215 - OK
+
+=== ALT - OK
+44G[.3AB].(00|11).*1001400006 - OK
+
+=== Cholesterol - OK
+44OE.00 - OK
+cholesterol.*44P[.1-4ZK].00.*(1001400017|1001400153) - OK
+
+=== GFR - OK
+451[EG].00.*1001400326 - OK
+
+===  Glucose - OK
+glucose.*44[fg][1.].00.*(1001400153|1001400139) - OK
+44U..(00|11) - OK
+(Glucometer|glucose|sugar).*44T[239A5KJ.].(00|11) - OK
+4Q80.00 - OK
+
+=== MCHC - OK
+429..00.*1001400046 - OK
+
+=== TSH - OK
+442[WAX.K-T].(00|12).*1001400049 - OK
+
+=== TotalProtein - OK
+protein.*44M[1-3AV.6-9Z].00.*(1001400153|1001400043) - OK
+
+=== HDL -  OK
+cholesterol.*44P[5B].00 - OK
+cholesterol.*44d[A3].00 - OK
+
+=== Triglycerides
+triglyceride.*44Q[1-4Z.].00 - OK
+triglyceride.*44e..00 - OK
+
+=== Cholesterol/HDL - OK
+44P[FG].00 - OK
+Cholesterol.*44l[FG2].00 - OK
+
+=== LDL
+44P[6ID].00 - OK
+LDL.*44d[B5].00 - OK
+
+=== INR - TODO
+42Q[E5v8].00
+
+=== GGT - OK
+44G[479].00 - OK
+
+=== HbA1C - OK
+42W[.1-5Z].(00|11|12) - OK
+44TB[.01]00 - OK
+HbA1.*42c[.0-3].00 - OK
+
+=== Globulin - OK
+44M[5P].00.*(1001400248|1001400153) - OK
+
+=== FreeT4 - OK
+442[V7c].00  -OK
+
+=== Erythrocyte - OK
+
+=== Calcium - OK
+44h[47].00 - OK
+44I8.00.*(1001400010|1001400012) - OK
+
+=== CorrectedCalcium - OK
+44IC.(00|11).*1001400012 - OK
+44h9.00 - OK
+
+=== CRP - OK
+44C[SC].00 - OK
+
+=== Chloride - OK
+44I6.00 - OK
+44i1.00 - OK
+44h2.00 - OK
+1001400016 - OK
+
+=== PFR -  TODO
+3395.(00|11|12|13)
+339[ogAB].00
+66YX.00 - OK
+
+=== AST - OK
+ast.*44H[B5C].(00|11) - OK
+
+=== InorganicPhosphate - OK
+44I9.00 - OK
+44i2.00 - OK
+44h5.00 - OK
+
+=== Ferritin - OK
+42R4.(00|11) - OK
+42d4.00 - OK
+
+=== Bicarbonate -OK
+44I7.00 - OK
+44i0.00 -OK
+44h3.00 - OK
+
+=== MPV - OK
+42Z5.00 - OK
+
+=== B12 - OK
+42T[.1-9Z].00.*(1001400153|1001400008) - OK
+44L[ec].00 - OK
+
+=== Folate - OK
+42U..(00|11) - OK
+
+=== UrineCreatinine - OK
+46M[78].00  -OK
+46MD.00 - no
+
+=== UrineAlbumin/Creatinine - OK
+44J7.00
+46TC.00
+
+== PSA - OK
+43Z2.(00|11) - OK
+
+== NRBC - OK
+4266.00 - OK
+
+=== BasPerc - OK
+42b3.00  - OK
+
+=== LymphPerc - OK
+42b1.00 - OK
+
+== MonPerc -OK
+42b2.00 - OK
+
+=== TEMP - OK
+2E3[.1-5Z].(00|11) - OK
+2E27.00 - OK
+
+=== EosPerc - OK
+42b9.00 - OK
+
+=== NeutPerc - ok
+42b0.00 - oK
+
+=== Urine_Microalbumin - OK
+46W..00 - OK
+
+=== PlasmaViscosity - OK
+42B[.1-5]\.00  - OK
+
+=== LUC - OK
+42ZD.00 - OK
+
+=== UrineAlbumin - OK
+
+=== Urate - OK
+44K..(00|11) - OK
+
+=== FSH - OK
+443[ih].00 - OK
+4434.(00|11) - OK
+
+=== CreatinineKinase - OK
+44H[G4E].00 - OK
+
+== LuteinisingHormone - OK
+443[e3f].(00|11|12|13).*1001400037 - OK
+
+== RandomGlucose - OK
+44T1.00 - OK
+44[gf]0.00 - OK
+
+=== Iron - OK
+42R[.1-3Z67].(00|11) - OK
+42d2.00 - OK
+
+=== Rheumatoid_Factor - OK
+43F..00 - OK
+
+=== T4 - OK
+T4.*442[6ab].00 - OK
+
+=== NonHDLCholesterol - OK
+44PL.00 - OK
+
+=== UrineTotalProtein - OK
+46N[1-3z.]\.00 - OK
+
+=== Prolactin - OK
+443[j5].00 - OK
+
+=== Serum_Oestradiol - OK
+4465.00 - OK
+
+
+=== PDW - OK
+42P5.00 - OK
+
+=== Testosterone-  OK
+4473.00 - OK
+
+=== Amylase - OK
+44C[N4T].00 - OK
+
+=== PTT - OK
+42Q[u6wt].00 - OK
+42j9.00 - OK
+
+=== CA125-  OK
+125.*44a[601].00 - OK
+
+=== Transferin - OK
+44CB.00 - OK
+
+=== VitaminD - OK
+44LA.00 - OK
+44Lg.00 - OK
+
+=== HDL/LDL - OK
+44PA.00 - OK
+
+=== Urine_Protein_Creatinine - OK
+44lD.00 - Ok
+
+=== Urine_Epithelial_Cell - OK
+4KH0.00 - OK
+
+=== Lithium - OK
+44W8.(00|11) - OK
+
+=== Progesterone - OK
+4463.00.*(1001400153|1001400068) - OK
+
+=== LDH - OK
+44H[FAD6].(00|11) - OK
+
+=== Transferrin_Saturation_Index- OK
+42d1.00 - OK
+
+=== CO2 - OK
+44hA.00 - OK
+
+=== Fibrinogen - OK
+42Q[n9].00 - OK
+
+=== Plateletcrit - OK
+42P9.00 - Ok
+
+=== Magnesium - OK
+magnesium.*44L[D2H].(00|11).*(1001400249|1001400276|1001400153) - OK
+
+=== FreeT3 - OK
+4425.00.*(1001400034|1001400153) - OK
+
+=== TIBC - OK
+42R5.00 - OK
+
+=== Urine_Dipstick_pH - OK
+46A9.00 - OK
+
+=== HDL/nonHDL - OK
+44P8.00 - OK
+
+== Sex_Hormone_Binding_Globulin - OK
+44CD.00 - OK
+
+=== Reticulocyte - OK
+42X[.01].00 - OK
+
+=== AnionGap - OK
+44I[AB].00 - OK
+
+=== Digoxin
+Digoxin
+
+===
+339O.00

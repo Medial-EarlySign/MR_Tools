@@ -1,0 +1,162 @@
+Progesterone :: All :: With Values :: 140784 / 14446692 =  0.01 :: 140784 / 140784 =  1.00
+Progesterone :: Males :: With Values ::    860 / 6889335 =  0.00 ::    860 / 140784 =  0.01
+Progesterone :: Females :: With Values :: 139924 / 7557357 =  0.02 :: 139924 / 140784 =  0.99
+Progesterone :: General :: No. of Values :: All 212775 Male    981 Female 211794
+Progesterone :: General :: No. of different days Values :: All 210725 Male    977 Female 209748
+Progesterone :: General :: Avg #values per person (all) :: All  0.01 Male  0.00 Female  0.03
+Progesterone :: General :: Avg #values per person (>0)  :: All  1.50 Male  1.14 Female  1.50
+Progesterone :: General :: Avg dist between tests       :: All  354.9 Male  268.8 Female  355.0
+Progesterone :: Counts :: Age Group 20 - 25 :: All ::   2877 0.014
+Progesterone :: Counts :: Age Group 25 - 30 :: All ::   6235 0.029
+Progesterone :: Counts :: Age Group 30 - 35 :: All ::  10825 0.051
+Progesterone :: Counts :: Age Group 35 - 40 :: All ::  10137 0.048
+Progesterone :: Counts :: Age Group 40 - 45 :: All ::   6706 0.032
+Progesterone :: Counts :: Age Group 45 - 50 :: All ::   3341 0.016
+Progesterone :: Counts :: Age Group 50 - 55 :: All ::   1621 0.008
+Progesterone :: Counts :: Age Group 55 - 60 :: All ::    441 0.002
+Progesterone :: Counts :: Age Group 60 - 65 :: All ::    123 0.001
+Progesterone :: Counts :: Age Group 65 - 70 :: All ::     68 0.000
+Progesterone :: Counts :: Age Group 70 - 75 :: All ::     33 0.000
+Progesterone :: Counts :: Age Group 75 - 80 :: All ::     15 0.000
+Progesterone :: Counts :: Age Group 80 - 85 :: All ::     19 0.000
+Progesterone :: Counts :: Age Group 85 - 90 :: All ::      7 0.000
+Progesterone :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Progesterone :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Progesterone :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Progesterone :: Counts :: Age Group 20 - 25 :: Males ::     12 0.012
+Progesterone :: Counts :: Age Group 25 - 30 :: Males ::     15 0.015
+Progesterone :: Counts :: Age Group 30 - 35 :: Males ::     11 0.011
+Progesterone :: Counts :: Age Group 35 - 40 :: Males ::     11 0.011
+Progesterone :: Counts :: Age Group 40 - 45 :: Males ::     18 0.018
+Progesterone :: Counts :: Age Group 45 - 50 :: Males ::     19 0.019
+Progesterone :: Counts :: Age Group 50 - 55 :: Males ::     21 0.021
+Progesterone :: Counts :: Age Group 55 - 60 :: Males ::     24 0.024
+Progesterone :: Counts :: Age Group 60 - 65 :: Males ::     18 0.018
+Progesterone :: Counts :: Age Group 65 - 70 :: Males ::     11 0.011
+Progesterone :: Counts :: Age Group 70 - 75 :: Males ::      8 0.008
+Progesterone :: Counts :: Age Group 75 - 80 :: Males ::      4 0.004
+Progesterone :: Counts :: Age Group 80 - 85 :: Males ::      7 0.007
+Progesterone :: Counts :: Age Group 85 - 90 :: Males ::      5 0.005
+Progesterone :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Progesterone :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Progesterone :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Progesterone :: Counts :: Age Group 20 - 25 :: Females ::   2865 0.014
+Progesterone :: Counts :: Age Group 25 - 30 :: Females ::   6220 0.029
+Progesterone :: Counts :: Age Group 30 - 35 :: Females ::  10814 0.051
+Progesterone :: Counts :: Age Group 35 - 40 :: Females ::  10126 0.048
+Progesterone :: Counts :: Age Group 40 - 45 :: Females ::   6688 0.032
+Progesterone :: Counts :: Age Group 45 - 50 :: Females ::   3322 0.016
+Progesterone :: Counts :: Age Group 50 - 55 :: Females ::   1600 0.008
+Progesterone :: Counts :: Age Group 55 - 60 :: Females ::    417 0.002
+Progesterone :: Counts :: Age Group 60 - 65 :: Females ::    105 0.000
+Progesterone :: Counts :: Age Group 65 - 70 :: Females ::     57 0.000
+Progesterone :: Counts :: Age Group 70 - 75 :: Females ::     25 0.000
+Progesterone :: Counts :: Age Group 75 - 80 :: Females ::     11 0.000
+Progesterone :: Counts :: Age Group 80 - 85 :: Females ::     12 0.000
+Progesterone :: Counts :: Age Group 85 - 90 :: Females ::      2 0.000
+Progesterone :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Progesterone :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Progesterone :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Progesterone :: Stats :: Age Group 20 - 25 :: All ::  N 14539 non-zeros 14527 Median   4.00 Mean  16.28 Std  21.49 Max 254.20
+Progesterone :: Stats :: Age Group 25 - 30 :: All ::  N 26179 non-zeros 26154 Median  13.40 Mean  22.49 Std  24.66 Max 294.30
+Progesterone :: Stats :: Age Group 30 - 35 :: All ::  N 34438 non-zeros 34412 Median  25.00 Mean  27.74 Std  25.72 Max 301.40
+Progesterone :: Stats :: Age Group 35 - 40 :: All ::  N 28788 non-zeros 28770 Median  25.60 Mean  27.82 Std  25.51 Max 399.90
+Progesterone :: Stats :: Age Group 40 - 45 :: All ::  N 18760 non-zeros 18740 Median   9.40 Mean  20.14 Std  23.83 Max 248.60
+Progesterone :: Stats :: Age Group 45 - 50 :: All ::  N 9997 non-zeros 9974 Median   2.00 Mean   9.43 Std  15.97 Max 219.00
+Progesterone :: Stats :: Age Group 50 - 55 :: All ::  N 4543 non-zeros 4528 Median   1.20 Mean   4.22 Std   9.52 Max 107.00
+Progesterone :: Stats :: Age Group 55 - 60 :: All ::  N 1154 non-zeros 1147 Median   1.00 Mean   1.92 Std   4.14 Max  54.00
+Progesterone :: Stats :: Age Group 60 - 65 :: All ::  N 425 non-zeros 423 Median   1.00 Mean   1.46 Std   2.98 Max  37.50
+Progesterone :: Stats :: Age Group 65 - 70 :: All ::  N 213 non-zeros 211 Median   1.00 Mean   1.45 Std   2.92 Max  33.40
+Progesterone :: Stats :: Age Group 70 - 75 :: All ::  N 112 non-zeros 112 Median   1.00 Mean   2.31 Std   7.42 Max  52.00
+Progesterone :: Stats :: Age Group 75 - 80 :: All ::  N 60 non-zeros 60 Median   1.00 Mean   4.89 Std  27.47 Max 215.70
+Progesterone :: Stats :: Age Group 80 - 85 :: All ::  N 47 non-zeros 47 Median   1.00 Mean   2.07 Std   5.56 Max  38.90
+Progesterone :: Stats :: Age Group 85 - 90 :: All ::  N 16 non-zeros 16 Median   1.00 Mean   1.01 Std   0.47 Max   2.00
+Progesterone :: Stats :: Age Group 90 - 95 :: All ::  N 2 non-zeros 2 Median   0.70 Mean   0.85 Std   0.15 Max   1.00
+Progesterone :: Stats :: Age Group 95 - 100 :: All ::  N 3 non-zeros 3 Median   1.00 Mean  23.67 Std  31.35 Max  68.00
+Progesterone :: General :: All     :: outliers ratio 0.000078
+Progesterone :: General :: All     :: N 128465 non-zeros 128317 Median  13.00 Mean  22.06 Std  24.50 Max 351.00
+Progesterone :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.40   0.90  66.20  97.10 177.40
+Progesterone :: General :: All     :: quartiles ::   0.10   2.00  13.00  37.40 
+Progesterone :: General :: Males   :: outliers ratio 0.001368
+Progesterone :: General :: Males   :: N 730 non-zeros 729 Median   1.40 Mean   2.69 Std   6.20 Max  73.60
+Progesterone :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.30   0.50   5.90  35.50  73.60
+Progesterone :: General :: Males   :: quartiles ::   0.10   1.00   1.50   2.20 
+Progesterone :: General :: Females :: outliers ratio 0.000063
+Progesterone :: General :: Females :: N 127736 non-zeros 127594 Median  13.50 Mean  22.24 Std  24.48 Max 351.00
+Progesterone :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.40   0.90  66.30  97.00 177.30
+Progesterone :: General :: Females :: quartiles ::   0.10   2.00  13.60  37.80 
+Progesterone :: Rounding ::  0.00 r  0.00 pct
+Progesterone :: Rounding ::  0.01 r  0.08 pct
+Progesterone :: Rounding ::  0.10 r  0.47 pct
+Progesterone :: Rounding ::  1.00 r  0.42 pct
+Progesterone :: Rounding :: 10.00 r  0.03 pct
+Progesterone :: Rounding :: 100.00 r  0.00 pct
+Progesterone :: Rounding :: 1000.00 r  0.00 pct
+Progesterone :: Rounding :: most popular rounding for vals:  0.10
+Progesterone :: Stats year :: 2000 :: All :: N 2974 non-zeros 2969 Median  19.70 Mean  24.81 Std  25.30 Max 351.00
+Progesterone :: Stats year :: 2001 :: All :: N 4032 non-zeros 4020 Median  21.00 Mean  26.01 Std  26.13 Max 317.00
+Progesterone :: Stats year :: 2002 :: All :: N 4959 non-zeros 4943 Median  19.10 Mean  24.84 Std  24.73 Max 190.80
+Progesterone :: Stats year :: 2003 :: All :: N 6260 non-zeros 6250 Median  19.00 Mean  25.26 Std  25.92 Max 302.00
+Progesterone :: Stats year :: 2004 :: All :: N 7979 non-zeros 7964 Median  16.60 Mean  23.59 Std  24.54 Max 264.20
+Progesterone :: Stats year :: 2005 :: All :: N 9201 non-zeros 9186 Median  14.00 Mean  22.70 Std  24.55 Max 266.00
+Progesterone :: Stats year :: 2006 :: All :: N 10275 non-zeros 10260 Median  13.40 Mean  22.43 Std  24.37 Max 215.70
+Progesterone :: Stats year :: 2007 :: All :: N 10845 non-zeros 10832 Median  13.50 Mean  22.92 Std  25.31 Max 254.00
+Progesterone :: Stats year :: 2008 :: All :: N 11963 non-zeros 11951 Median  11.90 Mean  23.00 Std  26.20 Max 294.30
+Progesterone :: Stats year :: 2009 :: All :: N 12825 non-zeros 12817 Median  10.00 Mean  22.08 Std  25.51 Max 279.10
+Progesterone :: Stats year :: 2010 :: All :: N 12839 non-zeros 12831 Median  11.00 Mean  21.39 Std  24.75 Max 344.70
+Progesterone :: Stats year :: 2011 :: All :: N 13331 non-zeros 13327 Median  11.80 Mean  20.93 Std  23.70 Max 299.80
+Progesterone :: Stats year :: 2012 :: All :: N 13305 non-zeros 13298 Median  11.80 Mean  21.07 Std  24.65 Max 306.00
+Progesterone :: Stats year :: 2013 :: All :: N 12907 non-zeros 12898 Median   9.20 Mean  20.45 Std  24.22 Max 329.10
+Progesterone :: Stats year :: 2014 :: All :: N 11185 non-zeros 11178 Median  10.00 Mean  20.46 Std  24.37 Max 331.00
+Progesterone :: Stats year :: 2015 :: All :: N 9069 non-zeros 9058 Median  11.00 Mean  20.38 Std  23.30 Max 234.50
+Progesterone :: Stats year :: 2016 :: All :: N 235 non-zeros 235 Median   3.50 Mean  15.66 Std  19.41 Max  99.80
+Progesterone :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Progesterone :: Stats year :: 2000 :: Males   :: N 4 non-zeros 4 Median   2.20 Mean   3.72 Std   2.77 Max   8.40
+Progesterone :: Stats year :: 2001 :: Males   :: N 7 non-zeros 7 Median   1.20 Mean   1.93 Std   1.28 Max   4.80
+Progesterone :: Stats year :: 2002 :: Males   :: N 17 non-zeros 17 Median   2.20 Mean   4.42 Std   6.01 Max  25.00
+Progesterone :: Stats year :: 2003 :: Males   :: N 20 non-zeros 20 Median   2.00 Mean   3.48 Std   5.53 Max  27.20
+Progesterone :: Stats year :: 2004 :: Males   :: N 24 non-zeros 24 Median   2.10 Mean   5.43 Std   9.70 Max  38.90
+Progesterone :: Stats year :: 2005 :: Males   :: N 13 non-zeros 13 Median   1.50 Mean   6.14 Std   9.96 Max  37.50
+Progesterone :: Stats year :: 2006 :: Males   :: N 48 non-zeros 48 Median   2.00 Mean   4.29 Std   9.00 Max  48.00
+Progesterone :: Stats year :: 2007 :: Males   :: N 39 non-zeros 39 Median   2.00 Mean   5.77 Std  20.13 Max 129.00
+Progesterone :: Stats year :: 2008 :: Males   :: N 64 non-zeros 64 Median   1.50 Mean   2.54 Std   4.53 Max  26.40
+Progesterone :: Stats year :: 2009 :: Males   :: N 79 non-zeros 79 Median   1.20 Mean   3.34 Std   8.99 Max  68.00
+Progesterone :: Stats year :: 2010 :: Males   :: N 69 non-zeros 69 Median   1.00 Mean   1.70 Std   2.47 Max  20.00
+Progesterone :: Stats year :: 2011 :: Males   :: N 88 non-zeros 88 Median   1.40 Mean   1.55 Std   0.94 Max   3.70
+Progesterone :: Stats year :: 2012 :: Males   :: N 71 non-zeros 71 Median   1.40 Mean   2.26 Std   3.13 Max  23.00
+Progesterone :: Stats year :: 2013 :: Males   :: N 102 non-zeros 102 Median   1.00 Mean   1.44 Std   1.14 Max   7.40
+Progesterone :: Stats year :: 2014 :: Males   :: N 70 non-zeros 70 Median   1.30 Mean   3.28 Std   9.59 Max  73.60
+Progesterone :: Stats year :: 2015 :: Males   :: N 64 non-zeros 63 Median   1.40 Mean   2.89 Std   7.10 Max  52.60
+Progesterone :: Stats year :: 2016 :: Males   :: N 1 non-zeros 1 Median   0.00 Mean   0.40 Std   1.00 Max   0.40
+Progesterone :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Progesterone :: Stats year :: 2000 :: Females :: N 2970 non-zeros 2965 Median  20.00 Mean  25.19 Std  25.56 Max 351.00
+Progesterone :: Stats year :: 2001 :: Females :: N 4024 non-zeros 4012 Median  21.30 Mean  26.07 Std  25.50 Max 249.00
+Progesterone :: Stats year :: 2002 :: Females :: N 4942 non-zeros 4925 Median  19.30 Mean  25.02 Std  24.89 Max 190.80
+Progesterone :: Stats year :: 2003 :: Females :: N 6240 non-zeros 6230 Median  19.20 Mean  25.34 Std  25.88 Max 207.00
+Progesterone :: Stats year :: 2004 :: Females :: N 7955 non-zeros 7942 Median  16.90 Mean  23.66 Std  24.57 Max 264.20
+Progesterone :: Stats year :: 2005 :: Females :: N 9188 non-zeros 9173 Median  14.00 Mean  22.80 Std  24.85 Max 266.00
+Progesterone :: Stats year :: 2006 :: Females :: N 10227 non-zeros 10215 Median  14.00 Mean  22.59 Std  24.45 Max 215.70
+Progesterone :: Stats year :: 2007 :: Females :: N 10806 non-zeros 10792 Median  13.80 Mean  22.88 Std  25.04 Max 254.00
+Progesterone :: Stats year :: 2008 :: Females :: N 11899 non-zeros 11887 Median  12.00 Mean  23.05 Std  26.15 Max 294.30
+Progesterone :: Stats year :: 2009 :: Females :: N 12746 non-zeros 12738 Median  10.20 Mean  22.19 Std  25.44 Max 279.10
+Progesterone :: Stats year :: 2010 :: Females :: N 12771 non-zeros 12764 Median  11.20 Mean  21.66 Std  25.39 Max 344.70
+Progesterone :: Stats year :: 2011 :: Females :: N 13243 non-zeros 13238 Median  11.80 Mean  20.94 Std  23.80 Max 300.40
+Progesterone :: Stats year :: 2012 :: Females :: N 13234 non-zeros 13227 Median  12.00 Mean  21.20 Std  25.09 Max 337.50
+Progesterone :: Stats year :: 2013 :: Females :: N 12806 non-zeros 12797 Median   9.70 Mean  20.53 Std  24.17 Max 329.10
+Progesterone :: Stats year :: 2014 :: Females :: N 11115 non-zeros 11108 Median  10.10 Mean  20.59 Std  24.32 Max 232.00
+Progesterone :: Stats year :: 2015 :: Females :: N 9005 non-zeros 8995 Median  11.80 Mean  20.52 Std  23.32 Max 238.90
+Progesterone :: Stats year :: 2016 :: Females :: N 234 non-zeros 234 Median   3.60 Mean  15.70 Std  19.42 Max  99.80
+Progesterone :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Progesterone :: Stats month 1 :: All :: N 11553 non-zeros 11538 Median  12.60 Mean  22.54 Std  25.54 Max 279.10
+Progesterone :: Stats month 2 :: All :: N 12811 non-zeros 12797 Median  15.20 Mean  23.50 Std  25.74 Max 344.70
+Progesterone :: Stats month 3 :: All :: N 13893 non-zeros 13885 Median  16.50 Mean  23.61 Std  25.58 Max 296.80
+Progesterone :: Stats month 4 :: All :: N 12512 non-zeros 12501 Median  13.60 Mean  22.46 Std  25.10 Max 254.20
+Progesterone :: Stats month 5 :: All :: N 12842 non-zeros 12829 Median  14.50 Mean  22.77 Std  25.26 Max 297.50
+Progesterone :: Stats month 6 :: All :: N 12870 non-zeros 12862 Median  13.80 Mean  22.44 Std  25.73 Max 365.60
+Progesterone :: Stats month 7 :: All :: N 13344 non-zeros 13328 Median  13.40 Mean  22.04 Std  24.49 Max 263.80
+Progesterone :: Stats month 8 :: All :: N 12863 non-zeros 12843 Median  13.80 Mean  22.35 Std  25.42 Max 234.70
+Progesterone :: Stats month 9 :: All :: N 13656 non-zeros 13639 Median  12.00 Mean  21.84 Std  25.23 Max 306.00
+Progesterone :: Stats month 10 :: All :: N 13960 non-zeros 13942 Median  15.00 Mean  23.23 Std  25.71 Max 288.00
+Progesterone :: Stats month 11 :: All :: N 13199 non-zeros 13187 Median  15.10 Mean  23.37 Std  26.18 Max 399.90
+Progesterone :: Stats month 12 :: All :: N 10125 non-zeros 10118 Median  16.70 Mean  24.03 Std  25.88 Max 329.10
+

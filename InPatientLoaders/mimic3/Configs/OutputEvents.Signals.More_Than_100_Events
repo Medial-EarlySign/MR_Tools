@@ -1,0 +1,225 @@
+46712	CALCIUM-DIALYSIS  carevue outputevents Free Form Intake 13	VALUE	CalciumDialysisOut
+40909	cardiac output  carevue outputevents 159	VALUE	CardiacOutput
+226632	Cath Lab Cath Lab metavision outputevents Output mL Numeric 536	VALUE	UrineProduction
+40580	Cath Lab Output  carevue outputevents Free Form Intake 180	VALUE	UrineProduction
+40097	Cerebral Drain L Ventricular Drain  carevue outputevents 7719	VALUE	CerebralDrain
+41866	Cerebral Drain Other  carevue outputevents 786	VALUE	CerebralDrain
+44719	cerebral drain right  carevue outputevents 178	VALUE	CerebralDrain
+40058	Cerebral Drain R Ventricular Drain  carevue outputevents 17494	VALUE	CerebralDrain
+40537	Cerebral Drain Subdural  carevue outputevents 824	VALUE	CerebralDrain
+226608	Cerebral Subdural #1 Cerebral Subdural #1 metavision outputevents Drains mL Numeric 446	VALUE	CerebralDrain
+226606	Cerebral Ventricular #1 Cerebral Ventricular #1 metavision outputevents Drains mL Numeric 26915	VALUE	CerebralDrain
+226607	Cerebral Ventricular #2 Cerebral Ventricular #2 metavision outputevents Drains mL Numeric 1729	VALUE	CerebralDrain
+226588	Chest Tube #1 Chest Tube #1 metavision outputevents Output mL Numeric 81090	VALUE	ChestTube
+226589	Chest Tube #2 Chest Tube #2 metavision outputevents Output mL Numeric 12830	VALUE	ChestTube
+40076	Chest Tubes CTICU CT 1  carevue outputevents 152688	VALUE	ChestTube
+41707	Chest Tubes CTICU CT 2  carevue outputevents 11172	VALUE	ChestTube
+40048	Chest Tubes Left Pleural 1  carevue outputevents 24005	VALUE	ChestTube
+40090	Chest Tubes Left Pleural 2  carevue outputevents 4358	VALUE	ChestTube
+40091	Chest Tubes Mediastinal  carevue outputevents 8232	VALUE	ChestTube
+40084	Chest Tubes Other  carevue outputevents 2207	VALUE	ChestTube
+40049	Chest Tubes Right Pleural 1  carevue outputevents 25293	VALUE	ChestTube
+40050	Chest Tubes Right Pleural 2  carevue outputevents 5340	VALUE	ChestTube
+46715	Citrate - dialysis  carevue outputevents Free Form Intake 46	VALUE	DialysisOut
+226561	Condom Cath Condom Cath metavision outputevents Output mL Numeric 5757	VALUE	UrineProduction
+43687	crystalloid/dialysis  carevue outputevents Free Form Intake 3	VALUE	DialysisOut
+41623	dialysate out  carevue outputevents 63	VALUE	DialysisOut
+46230	Dialysis 1.5% IN  carevue outputevents Free Form Intake 45	VALUE	DialysisOut
+44193	Dialysis.  carevue outputevents 3	VALUE	DialysisOut
+40690	DIALYSIS  carevue outputevents 34	VALUE	DialysisOut
+40745	Dialysis  carevue outputevents 35	VALUE	DialysisOut
+40624	dialysis  carevue outputevents 88	VALUE	DialysisOut
+44027	dialysis fluid off  carevue outputevents 1	VALUE	DialysisOut
+44857	dialysis- fluid off  carevue outputevents 2	VALUE	DialysisOut
+44845	Dialysis fluids  carevue outputevents Free Form Intake 3	VALUE	DialysisOut
+46232	dialysis flush  carevue outputevents Free Form Intake 2	VALUE	DialysisOut
+41034	dialysis in  carevue outputevents Free Form Intake 18	VALUE	DialysisOut
+45479	Dialysis In  carevue outputevents Free Form Intake 3	VALUE	DialysisOut
+44286	Dialysis indwelling  carevue outputevents Free Form Intake 20	VALUE	DialysisOut
+43941	dialysis/intake  carevue outputevents Free Form Intake 2	VALUE	DialysisOut
+43115	dialysis net  carevue outputevents 4	VALUE	DialysisOut
+44085	DIALYSIS OFF  carevue outputevents 1	VALUE	DialysisOut
+42289	dialysis off  carevue outputevents 2	VALUE	DialysisOut
+40613	DIALYSIS OUT  carevue outputevents 12	VALUE	DialysisOut
+40507	Dialysis out  carevue outputevents 27	VALUE	DialysisOut
+40426	dialysis out  carevue outputevents 33	VALUE	DialysisOut
+41374	Dialysis Out  carevue outputevents 39	VALUE	DialysisOut
+41750	dialysis  out  carevue outputevents 4	VALUE	DialysisOut
+41842	Dialysis Output.  carevue outputevents 2	VALUE	DialysisOut
+40425	dialysis output  carevue outputevents 23	VALUE	DialysisOut
+42536	Dialysis output  carevue outputevents 66	VALUE	DialysisOut
+42388	DIALYSIS OUTPUT  carevue outputevents 9	VALUE	DialysisOut
+46741	dialysis removed  carevue outputevents 1	VALUE	DialysisOut
+44901	Dialysis Removed  carevue outputevents 2	VALUE	DialysisOut
+43052	DIALYSIS REMOVED  carevue outputevents 3	VALUE	DialysisOut
+43016	DIALYSIS TOTAL OUT  carevue outputevents 3	VALUE	DialysisOut
+41713	dialyslate out  carevue outputevents 3	VALUE	DialysisOut
+41112	Dialysys out  carevue outputevents 1	VALUE	DialysisOut
+227701	Drainage Bag Drainage Bag metavision outputevents Drains mL Numeric 4628	VALUE	DrainOut
+42287	drain irrigant  carevue outputevents Free Form Intake 197	VALUE	DrainOut
+40070	Drain Out #1 Hemovac  carevue outputevents 2113	VALUE	DrainOut
+40071	Drain Out #1 Jackson Pratt  carevue outputevents 28856	VALUE	DrainOut
+40614	Drain Out #1 Jejunostomy Tube  carevue outputevents 244	VALUE	DrainOut
+40703	Drain Out #1 JP Lateral  carevue outputevents 3285	VALUE	DrainOut
+40926	Drain Out #1 JP Medial  carevue outputevents 8441	VALUE	DrainOut
+41184	Drain Out #1 Lt Nephrostomy  carevue outputevents 439	VALUE	DrainOut
+41867	Drain Out #1 Lumbar  carevue outputevents 3748	VALUE	DrainOut
+40294	Drain Out #1 Other  carevue outputevents 7623	VALUE	DrainOut
+40077	Drain Out #1 Pericardial  carevue outputevents 1950	VALUE	DrainOut
+40075	Drain Out #1 Pigtail  carevue outputevents 2793	VALUE	DrainOut
+41868	Drain Out #1 Rt Nephrostomy  carevue outputevents 231	VALUE	DrainOut
+40554	Drain Out #1 Sump  carevue outputevents 453	VALUE	DrainOut
+40066	Drain Out #1 Tap  carevue outputevents 424	VALUE	DrainOut
+40093	Drain Out #1 T Tube  carevue outputevents 1607	VALUE	DrainOut
+40089	Drain Out #1 Wound Vac  carevue outputevents 2152	VALUE	WoundVac
+41698	Drain Out #2 Hemovac  carevue outputevents 382	VALUE	DrainOut
+40072	Drain Out #2 Jackson Pratt  carevue outputevents 11180	VALUE	DrainOut
+41683	Drain Out #2 JP Lateral  carevue outputevents 6034	VALUE	DrainOut
+42871	Drain Out #2 JP Medial  carevue outputevents 1487	VALUE	DrainOut
+40729	Drain Out #2 Lumbar  carevue outputevents 216	VALUE	DrainOut
+40080	Drain Out #2 Other  carevue outputevents 2027	VALUE	DrainOut
+40086	Drain Out #2 Pigtail  carevue outputevents 1406	VALUE	DrainOut
+40538	Drain Out #2 Sump  carevue outputevents 104	VALUE	DrainOut
+40292	Drain Out #2 T Tube  carevue outputevents 674	VALUE	DrainOut
+40095	Drain Out #2 Wound Vac  carevue outputevents 536	VALUE	WoundVac
+40088	Drain Out #3 Jackson Pratt  carevue outputevents 4528	VALUE	DrainOut
+42945	Drain Out #3 JP Lateral  carevue outputevents 312	VALUE	DrainOut
+42983	Drain Out #3 Lumbar  carevue outputevents 103	VALUE	DrainOut
+40648	Drain Out #3 Other  carevue outputevents 1063	VALUE	DrainOut
+42278	Drain Out #3 Pigtail  carevue outputevents 605	VALUE	DrainOut
+42367	Drain Out #3 Sump  carevue outputevents 244	VALUE	DrainOut
+41898	Drain Out #3 T Tube  carevue outputevents 2092	VALUE	DrainOut
+42405	Drain Out #3 Wound Vac  carevue outputevents 433	VALUE	WoundVac
+40092	Drain Out #4 Jackson Pratt  carevue outputevents 2025	VALUE	DrainOut
+40287	Drain Out #4 Other  carevue outputevents 500	VALUE	DrainOut
+40290	Drain Out #4 Pigtail  carevue outputevents 346	VALUE	DrainOut
+42788	Drain Out #4 T Tube  carevue outputevents 117	VALUE	DrainOut
+42738	Drain Out #4 Wound Vac  carevue outputevents 169	VALUE	WoundVac
+41213	Drain Out #5 Jackson Pratt  carevue outputevents 216	VALUE	DrainOut
+40083	Drain Out #5 Other  carevue outputevents 190	VALUE	DrainOut
+42279	Drain Out #5 Pigtail  carevue outputevents 188	VALUE	DrainOut
+42582	Drain Out #5 T Tube  carevue outputevents 240	VALUE	DrainOut
+42780	Drain Out #5 Wound Vac  carevue outputevents 141	VALUE	WoundVac
+226571	Emesis Emesis metavision outputevents Output mL Numeric 3152	VALUE	Emesis
+226580	Fecal Bag Fecal Bag metavision outputevents Output mL Numeric 3669	VALUE	StoolOut
+44943	fluid removed dialys  carevue outputevents 1	VALUE	DialysisOut
+226559	Foley Foley metavision outputevents Output mL Numeric 1185610	VALUE	UrineProduction
+40652	Gastric Blakemore  carevue outputevents 112	VALUE	GastricOut
+40067	Gastric Emesis  carevue outputevents 5646	VALUE	Emesis
+40051	Gastric Gastric Tube  carevue outputevents 7621	VALUE	GastricOut
+40331	Gastric Jejunostomy Tube  carevue outputevents 1574	VALUE	GastricOut
+40052	Gastric Nasogastric  carevue outputevents 24696	VALUE	GastricOut
+40059	Gastric Oral Gastric  carevue outputevents 21970	VALUE	GastricOut
+40406	Gastric Other  carevue outputevents 441	VALUE	GastricOut
+226573	Gastric Tube Gastric Tube metavision outputevents Output mL Numeric 3476	VALUE	GastricOut
+227489	GU Irrigant/Urine Volume Out GU Irrigant/Urine Volume Out metavision outputevents Output mL Numeric 3175	VALUE	UrineProduction
+42928	HEMODIALYSIS.  carevue outputevents 1	VALUE	HemoDialysisOut
+41527	HEMODIALYSIS  carevue outputevents 25	VALUE	HemoDialysisOut
+42524	HemoDialysis  carevue outputevents 3	VALUE	HemoDialysisOut
+40881	Hemodialysis  carevue outputevents 62	VALUE	HemoDialysisOut
+44567	Hemodialysis.  carevue outputevents 8	VALUE	HemoDialysisOut
+40386	hemodialysis  carevue outputevents 84	VALUE	HemoDialysisOut
+43098	hemodialysis crystal  carevue outputevents Free Form Intake 2	VALUE	HemoDialysisOut
+42868	hemodialysis off  carevue outputevents 2	VALUE	HemoDialysisOut
+42972	HEMODIALYSIS OFF  carevue outputevents 3	VALUE	HemoDialysisOut
+44199	HEMODIALYSIS O/P  carevue outputevents 5	VALUE	HemoDialysisOut
+46464	Hemodialysis OUT  carevue outputevents 1	VALUE	HemoDialysisOut
+41417	Hemodialysis Out  carevue outputevents 16	VALUE	HemoDialysisOut
+41016	hemodialysis out  carevue outputevents 22	VALUE	HemoDialysisOut
+41250	HEMODIALYSIS OUT  carevue outputevents 22	VALUE	HemoDialysisOut
+44216	Hemodialysis out  carevue outputevents 23	VALUE	HemoDialysisOut
+45828	Hemo dialysis out  carevue outputevents 3	VALUE	HemoDialysisOut
+41829	HEMODIALYSIS OUTPUT  carevue outputevents 1	VALUE	HemoDialysisOut
+41500	hemodialysis output  carevue outputevents 8	VALUE	HemoDialysisOut
+41635	Hemodialysis removal  carevue outputevents 4	VALUE	HemoDialysisOut
+42464	hemodialysis ultrafe  carevue outputevents 3	VALUE	HemoDialysisOut
+226604	Hemovac #1 Hemovac #1 metavision outputevents Drains mL Numeric 1490	VALUE	DrainOut
+226605	Hemovac #2 Hemovac #2 metavision outputevents Drains mL Numeric 215	VALUE	DrainOut
+226584	Ileoconduit Ileoconduit metavision outputevents Output mL Numeric 2668	VALUE	UrineProduction
+226599	Jackson Pratt #1 Jackson Pratt #1 metavision outputevents Drains mL Numeric 21659	VALUE	DrainOut
+226600	Jackson Pratt #2 Jackson Pratt #2 metavision outputevents Drains mL Numeric 7273	VALUE	DrainOut
+226601	Jackson Pratt #3 Jackson Pratt #3 metavision outputevents Drains mL Numeric 2798	VALUE	DrainOut
+226602	Jackson Pratt #4 Jackson Pratt #4 metavision outputevents Drains mL Numeric 1059	VALUE	DrainOut
+226574	Jejunostomy Jejunostomy metavision outputevents Output mL Numeric 432	VALUE	DrainOut
+226598	JP Lateral JP Lateral metavision outputevents Drains mL Numeric 5406	VALUE	DrainOut
+226597	JP Medial JP Medial metavision outputevents Drains mL Numeric 6364	VALUE	DrainOut
+46713	KCL-10 MEQ-DIALYSIS  carevue outputevents Free Form Intake 12	VALUE	DialysisOut
+226565	L Nephrostomy L Nephrostomy metavision outputevents Output mL Numeric 1179	VALUE	UrineProduction
+226590	L Pleural #1 L Pleural #1 metavision outputevents Output mL Numeric 3929	VALUE	ChestTube
+226591	L Pleural #2 L Pleural #2 metavision outputevents Output mL Numeric 460	VALUE	ChestTube
+40403	thoracentesis  carevue outputevents 118	VALUE	ChestTube
+44201	lumbar drain  carevue outputevents 572	VALUE	DrainOut
+226610	Lumbar Lumbar metavision outputevents Drains mL Numeric 2890	VALUE	DrainOut
+226592	Mediastinal Mediastinal metavision outputevents Output mL Numeric 5267	VALUE	ChestTube
+226575	Nasogastric Nasogastric metavision outputevents Output mL Numeric 10981	VALUE	GastricOut
+44002	NSS VIA PIGTAIL TUBE  carevue outputevents Free Form Intake 114	VALUE	DrainOut
+226576	Oral Gastric Oral Gastric metavision outputevents Output mL Numeric 9326	VALUE	GastricOut
+226626	OR EBL OR EBL metavision outputevents Output mL Numeric 3530	VALUE	EstimatedBloodLoss
+40064	OR Out EBL  carevue outputevents 6830	VALUE	EstimatedBloodLoss
+40061	OR Out OR Urine  carevue outputevents 7190	VALUE	UrineProduction
+40065	OR Out PACU Urine  carevue outputevents 7669	VALUE	UrineProduction
+226627	OR Urine OR Urine metavision outputevents Output mL Numeric 5918	VALUE	UrineProduction
+226582	Ostomy (output) Ostomy (output) metavision outputevents Output mL Numeric 6066	VALUE	StoolOut
+226628	PACU Drains PACU Drains metavision outputevents Output mL Numeric 189	VALUE	DrainOut
+40491	PACU Out EBL  carevue outputevents 108	VALUE	EstimatedBloodLoss
+40073	PACU Out PACU Drains  carevue outputevents 345	VALUE	DrainOut
+40074	PACU Out PACU NG  carevue outputevents 263	VALUE	GastricOut
+40288	PACU Out PACU Urine  carevue outputevents 1130	VALUE	UrineProduction
+226631	PACU Urine PACU Urine metavision outputevents Output mL Numeric 488	VALUE	UrineProduction
+40470	paracentesis  carevue outputevents 215	VALUE	DrainOut
+40789	PD dialysate out  carevue outputevents 48	VALUE	DialysisOut
+41069	PD Dialysate Output  carevue outputevents 4	VALUE	DialysisOut
+226612	Pericardial Pericardial metavision outputevents Drains mL Numeric 869	VALUE	DrainOut
+40910	PERITONEAL DIALYSIS  carevue outputevents 2	VALUE	PeritonealDialysisOut
+46394	Peritoneal dialysis  carevue outputevents 6	VALUE	PeritonealDialysisOut
+44843	peritoneal dialysis  carevue outputevents Free Form Intake 33	VALUE	PeritonealDialysisOut
+226619	Pigtail #1 Pigtail #1 metavision outputevents Drains mL Numeric 2724	VALUE	DrainOut
+226620	Pigtail #2 Pigtail #2 metavision outputevents Drains mL Numeric 750	VALUE	DrainOut
+40060	Pre-Admission Output Pre-Admission Output  carevue outputevents 6955	VALUE	PreAdmissionOutput
+226633	Pre-Admission Pre-Admission metavision outputevents Output mL Numeric 5972	VALUE	PreAdmissionOutput
+226583	Rectal Tube Rectal Tube metavision outputevents Output mL Numeric 1659	VALUE	StoolOut
+226564	R Nephrostomy R Nephrostomy metavision outputevents Output mL Numeric 1455	VALUE	UrineProduction
+226593	R Pleural #1 R Pleural #1 metavision outputevents Output mL Numeric 3872	VALUE	ChestTube
+226595	R Pleural #2 R Pleural #2 metavision outputevents Output mL Numeric 393	VALUE	ChestTube
+40087	Stool Out Colostomy  carevue outputevents 4643	VALUE	StoolOut
+40053	Stool Out Fecal Bag  carevue outputevents 4876	VALUE	StoolOut
+40063	Stool Out Ileostomy  carevue outputevents 6978	VALUE	StoolOut
+40388	Stool Out (non-specific)  carevue outputevents 1316	VALUE	StoolOut
+40289	Stool Out Ostomy  carevue outputevents 862	VALUE	StoolOut
+40068	Stool Out Other  carevue outputevents 595	VALUE	StoolOut
+40367	Stool Out Rectal Tube  carevue outputevents 4502	VALUE	StoolOut
+40054	Stool Out Stool  carevue outputevents 81720	VALUE	StoolOut
+226579	Stool Stool metavision outputevents Output mL Numeric 7382	VALUE	StoolOut
+226567	Straight Cath Straight Cath metavision outputevents Output mL Numeric 462	VALUE	UrineProduction
+226617	Sump #1 Sump #1 metavision outputevents Drains mL Numeric 440	VALUE	DrainOut
+226563	Suprapubic Suprapubic metavision outputevents Output mL Numeric 2499	VALUE	UrineProduction
+226625	Tap Tap metavision outputevents Drains mL Numeric 491	VALUE	DrainOut
+227511	TF Residual Output TF Residual Output metavision outputevents Output mL Numeric 3049	VALUE	TFResidualOut
+227510	TF Residual TF Residual metavision outputevents Output mL Numeric 25807	VALUE	TFResidualOut
+226603	T Tube T Tube metavision outputevents Drains mL Numeric 1439	VALUE	DrainOut
+40286	Ultrafiltrate Ultrafiltrate  carevue outputevents 62380	VALUE	UltrafiltrateOut
+40094	Urine Out Condom Cath  carevue outputevents 9989	VALUE	UrineProduction
+40055	Urine Out Foley  carevue outputevents 1913558	VALUE	UrineProduction
+40473	Urine Out IleoConduit  carevue outputevents 4808	VALUE	UrineProduction
+40085	Urine Out Incontinent  carevue outputevents 2890	VALUE	UrineProduction
+40056	Urine Out Lt Nephrostomy  carevue outputevents 2726	VALUE	UrineProduction
+40405	Urine Out Other  carevue outputevents 1827	VALUE	UrineProduction
+40057	Urine Out Rt Nephrostomy  carevue outputevents 2797	VALUE	UrineProduction
+40428	Urine Out Straight Cath  carevue outputevents 722	VALUE	UrineProduction
+40715	Urine Out Suprapubic  carevue outputevents 6913	VALUE	UrineProduction
+40096	Urine Out Ureteral Stent #1  carevue outputevents 418	VALUE	UrineProduction
+40069	Urine Out Void  carevue outputevents 69336	VALUE	UrineProduction
+226560	Void Void metavision outputevents Output mL Numeric 62944	VALUE	UrineProduction
+226613	Wound Vac #1 Wound Vac #1 metavision outputevents Drains mL Numeric 3126	VALUE	WoundVac
+226614	Wound Vac #2 Wound Vac #2 metavision outputevents Drains mL Numeric 327	VALUE	WoundVac
+226623	Penrose #1 Penrose #1 metavision outputevents Drains mL Numeric 162	VALUE	DrainOut
+43171	URINE CC/KG/HR  carevue outputevents 314	VALUE	UrineProduction
+43174	Stool .  carevue outputevents 1287	VALUE	StoolOut
+43175	Urine .  carevue outputevents 108982	VALUE	UrineProduction
+43176	Blood Out Lab  carevue outputevents 11471	VALUE	BloodLoss
+43177	Chest Tubes Chest Tube  carevue outputevents 383	VALUE	ChestTube
+43178	Repogle Tube OGT  carevue outputevents 695	VALUE	DrainOut
+43373	urine cc/kg/hr  carevue outputevents 122	VALUE	UrineProduction
+43409	Ostomies Colostomy  carevue outputevents 218	VALUE	UrineProduction
+43246	Repogle Tube NG  carevue outputevents 2861	VALUE	DrainOut
+43433	Ostomies Ileostomy  carevue outputevents 1248	VALUE	UrineProduction

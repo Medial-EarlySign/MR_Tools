@@ -1,0 +1,22 @@
+#created by Alon
+#Astama - codes. guideline is those codes - without astma_stop_codes. Patients with codes for asthma AND no later code for Asthma resolved (Read V2: 21262 or 212G., CTV3: 21262) AND EITHER a record of prescription for inhaled or systemic steroids in the 12 months before the vaccination date AND/OR a code for asthma emergency admission (Read V2: 8H2P., CTV3: 8H2P.)
+173A.
+H3120
+H33..
+H330.
+H3300
+H3301
+H330z
+H331.
+H3310
+H3311
+H331z
+H332.
+H334.
+H335.
+H33z.
+H33z0
+H33z1
+H33z2
+H33zz
+H3B..

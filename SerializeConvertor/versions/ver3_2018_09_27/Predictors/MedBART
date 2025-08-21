@@ -1,0 +1,4 @@
+ntrees	int
+iter_count	int
+burn_count	int
+restart_count	int

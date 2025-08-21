@@ -1,0 +1,23 @@
+GENERIC_SIGNAL_TYPE	my_SVal	V(f)
+GENERIC_SIGNAL_TYPE	my_SDateVal	T(i),V(f)
+GENERIC_SIGNAL_TYPE	my_STimeStamp	T(l)
+GENERIC_SIGNAL_TYPE	my_DateFloat2	T(i),V(f,f)
+GENERIC_SIGNAL_TYPE	my_DateRangeVal2	T(i,i),V(f,f)
+GENERIC_SIGNAL_TYPE	my_DateShort2	T(i),V(s,s)
+GENERIC_SIGNAL_TYPE	my_DateRangeVal	T(i,i),V(f)
+GENERIC_SIGNAL_TYPE	my_DateVal2	T(i),V(f,us),p,p
+GENERIC_SIGNAL_TYPE	my_Date4Ints	T(i),V(i,i,i,i)
+GENERIC_SIGNAL_TYPE	my_Date4Shorts	T(i),V(s,s,s,s)
+# SIGNAL <name> <signal id> <signal type num> <description> <is_categorical_per_val_channel> <unit_per_val_channel separated by '|' char>
+#===============================================================================
+
+#===============================================================================
+# Demographic   100-199
+#===============================================================================
+SIGNAL	GENDER	100	16:my_SVal	Male=1,Female=2	1
+SIGNAL	BYEAR	101	16:my_SVal	general comment	0
+SIGNAL	BDATE	102	16:my_SVal	general comment	0
+
+#===============================================================================
+# Labs   200-1000
+#===============================================================================

@@ -1,0 +1,9 @@
+SECTION	CVD_MI
+
+DEF	1	CVD_MI_Confirmed_Event
+DEF	2	CVD_MI_Untimed_Event
+DEF	3	CVD_MI_History
+
+DEF	40060	CVD_Untimed_Event_Or_History
+SET	CVD_Untimed_Event_Or_History	CVD_MI_Untimed_Event
+SET	CVD_Untimed_Event_Or_History	CVD_MI_History

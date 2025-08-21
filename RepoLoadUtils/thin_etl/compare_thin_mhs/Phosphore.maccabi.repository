@@ -1,0 +1,162 @@
+Phosphore :: All :: With Values :: 582509 / 1279479 =  0.46 :: 582509 / 582509 =  1.00
+Phosphore :: Males :: With Values :: 254558 / 622859 =  0.41 :: 254558 / 582509 =  0.44
+Phosphore :: Females :: With Values :: 327951 / 656620 =  0.50 :: 327951 / 582509 =  0.56
+Phosphore :: General :: No. of Values :: All 2546900 Male 1043629 Female 1503271
+Phosphore :: General :: No. of different days Values :: All 2546547 Male 1043463 Female 1503084
+Phosphore :: General :: Avg #values per person (all) :: All  1.99 Male  1.68 Female  2.29
+Phosphore :: General :: Avg #values per person (>0)  :: All  4.37 Male  4.10 Female  4.58
+Phosphore :: General :: Avg dist between tests       :: All  477.6 Male  473.4 Female  480.4
+Phosphore :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Phosphore :: Counts :: Age Group 25 - 30 :: All ::    716 0.000
+Phosphore :: Counts :: Age Group 30 - 35 :: All ::  18396 0.007
+Phosphore :: Counts :: Age Group 35 - 40 :: All ::  29807 0.012
+Phosphore :: Counts :: Age Group 40 - 45 :: All ::  42929 0.017
+Phosphore :: Counts :: Age Group 45 - 50 :: All ::  45661 0.018
+Phosphore :: Counts :: Age Group 50 - 55 :: All ::  52691 0.021
+Phosphore :: Counts :: Age Group 55 - 60 :: All ::  59844 0.023
+Phosphore :: Counts :: Age Group 60 - 65 :: All ::  53477 0.021
+Phosphore :: Counts :: Age Group 65 - 70 :: All ::  53271 0.021
+Phosphore :: Counts :: Age Group 70 - 75 :: All ::  43538 0.017
+Phosphore :: Counts :: Age Group 75 - 80 :: All ::  40216 0.016
+Phosphore :: Counts :: Age Group 80 - 85 :: All ::  32380 0.013
+Phosphore :: Counts :: Age Group 85 - 90 :: All ::  21616 0.008
+Phosphore :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Phosphore :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Phosphore :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Phosphore :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Phosphore :: Counts :: Age Group 25 - 30 :: Males ::    204 0.000
+Phosphore :: Counts :: Age Group 30 - 35 :: Males ::   6316 0.006
+Phosphore :: Counts :: Age Group 35 - 40 :: Males ::  11154 0.011
+Phosphore :: Counts :: Age Group 40 - 45 :: Males ::  17003 0.016
+Phosphore :: Counts :: Age Group 45 - 50 :: Males ::  18650 0.018
+Phosphore :: Counts :: Age Group 50 - 55 :: Males ::  21791 0.021
+Phosphore :: Counts :: Age Group 55 - 60 :: Males ::  24246 0.023
+Phosphore :: Counts :: Age Group 60 - 65 :: Males ::  22520 0.022
+Phosphore :: Counts :: Age Group 65 - 70 :: Males ::  23115 0.022
+Phosphore :: Counts :: Age Group 70 - 75 :: Males ::  19698 0.019
+Phosphore :: Counts :: Age Group 75 - 80 :: Males ::  17352 0.017
+Phosphore :: Counts :: Age Group 80 - 85 :: Males ::  13275 0.013
+Phosphore :: Counts :: Age Group 85 - 90 :: Males ::   8169 0.008
+Phosphore :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Phosphore :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Phosphore :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Phosphore :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Phosphore :: Counts :: Age Group 25 - 30 :: Females ::    512 0.000
+Phosphore :: Counts :: Age Group 30 - 35 :: Females ::  12080 0.008
+Phosphore :: Counts :: Age Group 35 - 40 :: Females ::  18653 0.012
+Phosphore :: Counts :: Age Group 40 - 45 :: Females ::  25926 0.017
+Phosphore :: Counts :: Age Group 45 - 50 :: Females ::  27011 0.018
+Phosphore :: Counts :: Age Group 50 - 55 :: Females ::  30900 0.021
+Phosphore :: Counts :: Age Group 55 - 60 :: Females ::  35598 0.024
+Phosphore :: Counts :: Age Group 60 - 65 :: Females ::  30957 0.021
+Phosphore :: Counts :: Age Group 65 - 70 :: Females ::  30156 0.020
+Phosphore :: Counts :: Age Group 70 - 75 :: Females ::  23840 0.016
+Phosphore :: Counts :: Age Group 75 - 80 :: Females ::  22864 0.015
+Phosphore :: Counts :: Age Group 80 - 85 :: Females ::  19105 0.013
+Phosphore :: Counts :: Age Group 85 - 90 :: Females ::  13447 0.009
+Phosphore :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Phosphore :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Phosphore :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Phosphore :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats :: Age Group 25 - 30 :: All ::  N 25583 non-zeros 25555 Median   3.70 Mean   3.68 Std   0.52 Max   7.00
+Phosphore :: Stats :: Age Group 30 - 35 :: All ::  N 72005 non-zeros 71931 Median   3.60 Mean   3.62 Std   0.52 Max  10.20
+Phosphore :: Stats :: Age Group 35 - 40 :: All ::  N 101099 non-zeros 100985 Median   3.60 Mean   3.57 Std   0.51 Max   8.50
+Phosphore :: Stats :: Age Group 40 - 45 :: All ::  N 120419 non-zeros 120296 Median   3.50 Mean   3.53 Std   0.51 Max  10.40
+Phosphore :: Stats :: Age Group 45 - 50 :: All ::  N 120415 non-zeros 120252 Median   3.50 Mean   3.53 Std   0.53 Max  11.00
+Phosphore :: Stats :: Age Group 50 - 55 :: All ::  N 124336 non-zeros 124178 Median   3.60 Mean   3.58 Std   0.55 Max  11.60
+Phosphore :: Stats :: Age Group 55 - 60 :: All ::  N 113099 non-zeros 112956 Median   3.60 Mean   3.59 Std   0.56 Max  11.70
+Phosphore :: Stats :: Age Group 60 - 65 :: All ::  N 97474 non-zeros 97383 Median   3.60 Mean   3.57 Std   0.55 Max  11.20
+Phosphore :: Stats :: Age Group 65 - 70 :: All ::  N 82754 non-zeros 82669 Median   3.50 Mean   3.55 Std   0.56 Max  11.10
+Phosphore :: Stats :: Age Group 70 - 75 :: All ::  N 63601 non-zeros 63507 Median   3.50 Mean   3.55 Std   0.57 Max  12.10
+Phosphore :: Stats :: Age Group 75 - 80 :: All ::  N 52780 non-zeros 52700 Median   3.50 Mean   3.55 Std   0.58 Max  12.00
+Phosphore :: Stats :: Age Group 80 - 85 :: All ::  N 36022 non-zeros 35945 Median   3.50 Mean   3.55 Std   0.59 Max  12.10
+Phosphore :: Stats :: Age Group 85 - 90 :: All ::  N 21742 non-zeros 21682 Median   3.50 Mean   3.54 Std   0.60 Max  11.50
+Phosphore :: Stats :: Age Group 90 - 95 :: All ::  N 9619 non-zeros 9590 Median   3.50 Mean   3.53 Std   0.61 Max   8.40
+Phosphore :: Stats :: Age Group 95 - 100 :: All ::  N 2497 non-zeros 2486 Median   3.50 Mean   3.54 Std   0.69 Max  13.80
+Phosphore :: General :: All     :: outliers ratio 0.000010
+Phosphore :: General :: All     :: N 582408 non-zeros 581597 Median   3.60 Mean   3.56 Std   0.55 Max  11.40
+Phosphore :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.90   2.40   2.70   4.40   4.90   6.00
+Phosphore :: General :: All     :: quartiles ::   1.90   3.20   3.60   3.90 
+Phosphore :: General :: Males   :: outliers ratio 0.000020
+Phosphore :: General :: Males   :: N 254524 non-zeros 254059 Median   3.40 Mean   3.41 Std   0.55 Max  11.50
+Phosphore :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.80   2.30   2.60   4.30   4.80   6.20
+Phosphore :: General :: Males   :: quartiles ::   1.80   3.10   3.40   3.70 
+Phosphore :: General :: Females :: outliers ratio 0.000012
+Phosphore :: General :: Females :: N 327881 non-zeros 327531 Median   3.70 Mean   3.67 Std   0.51 Max  11.30
+Phosphore :: General :: Females :: distribution 0.001,0.01,0.05 ::   2.00   2.50   2.90   4.50   4.90   5.90
+Phosphore :: General :: Females :: quartiles ::   2.00   3.40   3.70   4.00 
+Phosphore :: Rounding ::  0.00 r  0.00 pct
+Phosphore :: Rounding ::  0.01 r  0.11 pct
+Phosphore :: Rounding ::  0.10 r  0.78 pct
+Phosphore :: Rounding ::  1.00 r  0.10 pct
+Phosphore :: Rounding :: 10.00 r  0.00 pct
+Phosphore :: Rounding :: 100.00 r  0.00 pct
+Phosphore :: Rounding :: 1000.00 r  0.00 pct
+Phosphore :: Rounding :: most popular rounding for vals:  0.10
+Phosphore :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats year :: 2001 :: All :: N 157777 non-zeros 157612 Median   3.50 Mean   3.51 Std   0.53 Max  11.30
+Phosphore :: Stats year :: 2002 :: All :: N 166523 non-zeros 166395 Median   3.50 Mean   3.53 Std   0.52 Max  10.40
+Phosphore :: Stats year :: 2003 :: All :: N 167306 non-zeros 167119 Median   3.50 Mean   3.54 Std   0.54 Max  11.10
+Phosphore :: Stats year :: 2004 :: All :: N 173732 non-zeros 173492 Median   3.50 Mean   3.54 Std   0.54 Max  11.40
+Phosphore :: Stats year :: 2005 :: All :: N 155714 non-zeros 155502 Median   3.50 Mean   3.53 Std   0.54 Max  10.20
+Phosphore :: Stats year :: 2006 :: All :: N 97397 non-zeros 97289 Median   3.70 Mean   3.66 Std   0.56 Max  12.00
+Phosphore :: Stats year :: 2007 :: All :: N 94745 non-zeros 94653 Median   3.70 Mean   3.67 Std   0.56 Max  10.70
+Phosphore :: Stats year :: 2008 :: All :: N 97248 non-zeros 97144 Median   3.60 Mean   3.58 Std   0.54 Max  11.50
+Phosphore :: Stats year :: 2009 :: All :: N 104695 non-zeros 104588 Median   3.60 Mean   3.58 Std   0.54 Max  10.90
+Phosphore :: Stats year :: 2010 :: All :: N 102754 non-zeros 102621 Median   3.60 Mean   3.60 Std   0.55 Max  11.00
+Phosphore :: Stats year :: 2011 :: All :: N 101501 non-zeros 101375 Median   3.60 Mean   3.62 Std   0.55 Max  10.00
+Phosphore :: Stats year :: 2012 :: All :: N 102783 non-zeros 102661 Median   3.60 Mean   3.60 Std   0.56 Max  11.90
+Phosphore :: Stats year :: 2013 :: All :: N 102070 non-zeros 101937 Median   3.60 Mean   3.56 Std   0.56 Max  11.70
+Phosphore :: Stats year :: 2014 :: All :: N 102946 non-zeros 102833 Median   3.60 Mean   3.56 Std   0.56 Max  10.30
+Phosphore :: Stats year :: 2015 :: All :: N 89662 non-zeros 89523 Median   3.50 Mean   3.55 Std   0.56 Max  10.50
+Phosphore :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats year :: 2001 :: Males   :: N 62665 non-zeros 62603 Median   3.30 Mean   3.35 Std   0.53 Max  11.10
+Phosphore :: Stats year :: 2002 :: Males   :: N 67491 non-zeros 67421 Median   3.40 Mean   3.37 Std   0.52 Max  10.20
+Phosphore :: Stats year :: 2003 :: Males   :: N 68388 non-zeros 68282 Median   3.40 Mean   3.37 Std   0.53 Max  11.10
+Phosphore :: Stats year :: 2004 :: Males   :: N 71048 non-zeros 70892 Median   3.40 Mean   3.37 Std   0.54 Max  10.00
+Phosphore :: Stats year :: 2005 :: Males   :: N 64470 non-zeros 64339 Median   3.30 Mean   3.36 Std   0.53 Max  10.00
+Phosphore :: Stats year :: 2006 :: Males   :: N 40167 non-zeros 40121 Median   3.50 Mean   3.49 Std   0.56 Max  11.00
+Phosphore :: Stats year :: 2007 :: Males   :: N 38909 non-zeros 38855 Median   3.50 Mean   3.50 Std   0.56 Max  10.20
+Phosphore :: Stats year :: 2008 :: Males   :: N 39492 non-zeros 39451 Median   3.40 Mean   3.41 Std   0.54 Max  11.50
+Phosphore :: Stats year :: 2009 :: Males   :: N 41996 non-zeros 41942 Median   3.40 Mean   3.40 Std   0.54 Max  10.90
+Phosphore :: Stats year :: 2010 :: Males   :: N 41843 non-zeros 41784 Median   3.40 Mean   3.43 Std   0.55 Max  11.00
+Phosphore :: Stats year :: 2011 :: Males   :: N 41357 non-zeros 41286 Median   3.40 Mean   3.45 Std   0.55 Max  11.20
+Phosphore :: Stats year :: 2012 :: Males   :: N 42093 non-zeros 42034 Median   3.40 Mean   3.43 Std   0.56 Max  10.80
+Phosphore :: Stats year :: 2013 :: Males   :: N 42444 non-zeros 42384 Median   3.40 Mean   3.39 Std   0.56 Max   9.60
+Phosphore :: Stats year :: 2014 :: Males   :: N 42634 non-zeros 42580 Median   3.40 Mean   3.38 Std   0.56 Max  11.50
+Phosphore :: Stats year :: 2015 :: Males   :: N 36917 non-zeros 36844 Median   3.30 Mean   3.37 Std   0.57 Max  10.10
+Phosphore :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats year :: 2001 :: Females :: N 95112 non-zeros 95010 Median   3.60 Mean   3.63 Std   0.50 Max   9.70
+Phosphore :: Stats year :: 2002 :: Females :: N 99032 non-zeros 98964 Median   3.60 Mean   3.64 Std   0.49 Max  10.40
+Phosphore :: Stats year :: 2003 :: Females :: N 98917 non-zeros 98838 Median   3.60 Mean   3.66 Std   0.51 Max  11.00
+Phosphore :: Stats year :: 2004 :: Females :: N 102683 non-zeros 102590 Median   3.70 Mean   3.67 Std   0.50 Max  10.30
+Phosphore :: Stats year :: 2005 :: Females :: N 91244 non-zeros 91168 Median   3.60 Mean   3.65 Std   0.51 Max  10.20
+Phosphore :: Stats year :: 2006 :: Females :: N 57229 non-zeros 57183 Median   3.80 Mean   3.78 Std   0.53 Max   8.80
+Phosphore :: Stats year :: 2007 :: Females :: N 55836 non-zeros 55796 Median   3.80 Mean   3.79 Std   0.52 Max   9.40
+Phosphore :: Stats year :: 2008 :: Females :: N 57755 non-zeros 57700 Median   3.70 Mean   3.70 Std   0.51 Max   9.40
+Phosphore :: Stats year :: 2009 :: Females :: N 62699 non-zeros 62643 Median   3.70 Mean   3.69 Std   0.51 Max  10.90
+Phosphore :: Stats year :: 2010 :: Females :: N 60911 non-zeros 60861 Median   3.70 Mean   3.73 Std   0.52 Max  11.00
+Phosphore :: Stats year :: 2011 :: Females :: N 60144 non-zeros 60087 Median   3.70 Mean   3.74 Std   0.52 Max  11.40
+Phosphore :: Stats year :: 2012 :: Females :: N 60685 non-zeros 60623 Median   3.70 Mean   3.72 Std   0.52 Max  11.00
+Phosphore :: Stats year :: 2013 :: Females :: N 59627 non-zeros 59566 Median   3.70 Mean   3.69 Std   0.52 Max  11.30
+Phosphore :: Stats year :: 2014 :: Females :: N 60314 non-zeros 60248 Median   3.70 Mean   3.68 Std   0.52 Max   9.10
+Phosphore :: Stats year :: 2015 :: Females :: N 52745 non-zeros 52684 Median   3.70 Mean   3.67 Std   0.53 Max  10.00
+Phosphore :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Phosphore :: Stats month 1 :: All :: N 109323 non-zeros 109139 Median   3.60 Mean   3.58 Std   0.57 Max  11.80
+Phosphore :: Stats month 2 :: All :: N 104117 non-zeros 103963 Median   3.60 Mean   3.58 Std   0.57 Max  10.90
+Phosphore :: Stats month 3 :: All :: N 107659 non-zeros 107513 Median   3.60 Mean   3.58 Std   0.57 Max  12.10
+Phosphore :: Stats month 4 :: All :: N 98056 non-zeros 97916 Median   3.60 Mean   3.60 Std   0.58 Max  11.50
+Phosphore :: Stats month 5 :: All :: N 117348 non-zeros 117197 Median   3.60 Mean   3.59 Std   0.57 Max  11.90
+Phosphore :: Stats month 6 :: All :: N 113327 non-zeros 113148 Median   3.60 Mean   3.59 Std   0.57 Max  10.10
+Phosphore :: Stats month 7 :: All :: N 117238 non-zeros 117063 Median   3.60 Mean   3.59 Std   0.57 Max  12.00
+Phosphore :: Stats month 8 :: All :: N 110843 non-zeros 110659 Median   3.60 Mean   3.58 Std   0.58 Max  10.20
+Phosphore :: Stats month 9 :: All :: N 93257 non-zeros 93132 Median   3.60 Mean   3.56 Std   0.57 Max  12.10
+Phosphore :: Stats month 10 :: All :: N 110185 non-zeros 110032 Median   3.50 Mean   3.55 Std   0.56 Max  11.30
+Phosphore :: Stats month 11 :: All :: N 104582 non-zeros 104410 Median   3.60 Mean   3.57 Std   0.56 Max  10.00
+Phosphore :: Stats month 12 :: All :: N 98427 non-zeros 98269 Median   3.60 Mean   3.58 Std   0.56 Max  11.60
+

@@ -1,0 +1,61 @@
+#created by Alon
+#Influenza_due_to_Influenza_A_virus_subtype_H1N1	H2A..00
+#Flu_like_illness	H27z.11
+#Influenza_like_illness	H27z.12
+#Influenza_A_virus_H1N1_subtype_detected	4J3L.00
+
+#Influenza_A_virus_H1N1_subtype_detected	4J3L.00 small cout 168
+#Influenza_A_(H1N1)_swine_flu	H2A..11	empty
+#Influenza_A_virus_H1N1_subtype_not_detected	small count 66
+#Influenza_A_virus_H1N1_subtype_contact	small count 20
+#Influenza_A_virus_H1N1_subtype_close_contact	small count 23
+#Influenza_A_virus_subtype_H1N1_serology	small count 3
+#Suspected_influenza_A_virus_subtype_H1N1_infection	small amount 329. history
+#Possible_influenza_A_virus_H1N1_subtype	small amount 138. history
+#8CAR.11	Advice_given_about_swine_flu	empty  not appears
+#8CAR011	Advice_given_about_swine_flu_by_telephone	empty not appears
+#Hyu0400	[X]Flu+oth_respiratory_manifestations,'flu_virus_identified	small amount
+#Hyu0500	[X]Influenza+other_manifestations,influenza_virus_identified	small amount
+#Hyu0600	[X]Influenza+oth_respiratory_manifestatns,virus_not_identifd	small amount
+#Hyu0700	[X]Influenza+other_manifestations,_virus_not_identified	small amount
+#Local_flu_response_centre_notified?
+
+H27z.11
+H27..00
+H06z011
+H2A..11
+H06z000
+H26..00
+H061.00
+H06z100
+H2y..00
+H2z..00
+16L..00
+H06z111
+1J72.11
+H2...00
+H2A..00
+H062.00
+H21..00
+H27z.00
+H25..00
+1W0..00
+H0...00
+H060.00
+H20..00
+H260.00
+H260000
+H261.00
+H27z.12
+H28..00
+H5yy.11
+1J72.00
+H20z.00
+H22..00
+H22z.00
+H23..00
+H270000
+H270100
+H27y.00
+H30..00
+H301.00

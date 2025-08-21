@@ -1,0 +1,162 @@
+Bilirubin :: All :: With Values :: 4391406 / 14446692 =  0.30 :: 4391406 / 4391406 =  1.00
+Bilirubin :: Males :: With Values :: 1950703 / 6889335 =  0.28 :: 1950703 / 4391406 =  0.44
+Bilirubin :: Females :: With Values :: 2440703 / 7557357 =  0.32 :: 2440703 / 4391406 =  0.56
+Bilirubin :: General :: No. of Values :: All 20631998 Male 9210129 Female 11421869
+Bilirubin :: General :: No. of different days Values :: All 20616863 Male 9202208 Female 11414655
+Bilirubin :: General :: Avg #values per person (all) :: All  1.43 Male  1.34 Female  1.51
+Bilirubin :: General :: Avg #values per person (>0)  :: All  4.69 Male  4.72 Female  4.68
+Bilirubin :: General :: Avg dist between tests       :: All  379.5 Male  371.8 Female  385.7
+Bilirubin :: Counts :: Age Group 20 - 25 :: All ::  88301 0.004
+Bilirubin :: Counts :: Age Group 25 - 30 :: All :: 104825 0.005
+Bilirubin :: Counts :: Age Group 30 - 35 :: All :: 129001 0.006
+Bilirubin :: Counts :: Age Group 35 - 40 :: All :: 158208 0.008
+Bilirubin :: Counts :: Age Group 40 - 45 :: All :: 216910 0.011
+Bilirubin :: Counts :: Age Group 45 - 50 :: All :: 273302 0.013
+Bilirubin :: Counts :: Age Group 50 - 55 :: All :: 326741 0.016
+Bilirubin :: Counts :: Age Group 55 - 60 :: All :: 370038 0.018
+Bilirubin :: Counts :: Age Group 60 - 65 :: All :: 431967 0.021
+Bilirubin :: Counts :: Age Group 65 - 70 :: All :: 472404 0.023
+Bilirubin :: Counts :: Age Group 70 - 75 :: All :: 444432 0.022
+Bilirubin :: Counts :: Age Group 75 - 80 :: All :: 405390 0.020
+Bilirubin :: Counts :: Age Group 80 - 85 :: All :: 321246 0.016
+Bilirubin :: Counts :: Age Group 85 - 90 :: All :: 205611 0.010
+Bilirubin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Bilirubin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Bilirubin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Bilirubin :: Counts :: Age Group 20 - 25 :: Males ::  28828 0.003
+Bilirubin :: Counts :: Age Group 25 - 30 :: Males ::  34835 0.004
+Bilirubin :: Counts :: Age Group 30 - 35 :: Males ::  47013 0.005
+Bilirubin :: Counts :: Age Group 35 - 40 :: Males ::  63077 0.007
+Bilirubin :: Counts :: Age Group 40 - 45 :: Males ::  92468 0.010
+Bilirubin :: Counts :: Age Group 45 - 50 :: Males :: 122493 0.013
+Bilirubin :: Counts :: Age Group 50 - 55 :: Males :: 152958 0.017
+Bilirubin :: Counts :: Age Group 55 - 60 :: Males :: 178103 0.019
+Bilirubin :: Counts :: Age Group 60 - 65 :: Males :: 212958 0.023
+Bilirubin :: Counts :: Age Group 65 - 70 :: Males :: 233699 0.025
+Bilirubin :: Counts :: Age Group 70 - 75 :: Males :: 214947 0.023
+Bilirubin :: Counts :: Age Group 75 - 80 :: Males :: 185011 0.020
+Bilirubin :: Counts :: Age Group 80 - 85 :: Males :: 137277 0.015
+Bilirubin :: Counts :: Age Group 85 - 90 :: Males ::  78653 0.009
+Bilirubin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Bilirubin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Bilirubin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Bilirubin :: Counts :: Age Group 20 - 25 :: Females ::  59473 0.005
+Bilirubin :: Counts :: Age Group 25 - 30 :: Females ::  69990 0.006
+Bilirubin :: Counts :: Age Group 30 - 35 :: Females ::  81988 0.007
+Bilirubin :: Counts :: Age Group 35 - 40 :: Females ::  95131 0.008
+Bilirubin :: Counts :: Age Group 40 - 45 :: Females :: 124442 0.011
+Bilirubin :: Counts :: Age Group 45 - 50 :: Females :: 150809 0.013
+Bilirubin :: Counts :: Age Group 50 - 55 :: Females :: 173783 0.015
+Bilirubin :: Counts :: Age Group 55 - 60 :: Females :: 191935 0.017
+Bilirubin :: Counts :: Age Group 60 - 65 :: Females :: 219009 0.019
+Bilirubin :: Counts :: Age Group 65 - 70 :: Females :: 238705 0.021
+Bilirubin :: Counts :: Age Group 70 - 75 :: Females :: 229485 0.020
+Bilirubin :: Counts :: Age Group 75 - 80 :: Females :: 220379 0.019
+Bilirubin :: Counts :: Age Group 80 - 85 :: Females :: 183969 0.016
+Bilirubin :: Counts :: Age Group 85 - 90 :: Females :: 126958 0.011
+Bilirubin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Bilirubin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Bilirubin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Bilirubin :: Stats :: Age Group 20 - 25 :: All ::  N 303497 non-zeros 303443 Median   9.00 Mean  10.74 Std   6.69 Max 111.00
+Bilirubin :: Stats :: Age Group 25 - 30 :: All ::  N 346731 non-zeros 346652 Median   9.00 Mean  10.58 Std   6.41 Max 106.00
+Bilirubin :: Stats :: Age Group 30 - 35 :: All ::  N 396346 non-zeros 396256 Median   9.00 Mean  10.50 Std   6.20 Max 103.00
+Bilirubin :: Stats :: Age Group 35 - 40 :: All ::  N 456068 non-zeros 455959 Median   9.00 Mean  10.54 Std   6.11 Max 102.00
+Bilirubin :: Stats :: Age Group 40 - 45 :: All ::  N 552730 non-zeros 552607 Median   9.00 Mean  10.57 Std   6.08 Max 101.00
+Bilirubin :: Stats :: Age Group 45 - 50 :: All ::  N 608994 non-zeros 608867 Median   9.00 Mean  10.45 Std   5.95 Max  99.00
+Bilirubin :: Stats :: Age Group 50 - 55 :: All ::  N 635940 non-zeros 635820 Median   9.00 Mean  10.49 Std   5.93 Max  99.00
+Bilirubin :: Stats :: Age Group 55 - 60 :: All ::  N 656671 non-zeros 656544 Median   9.00 Mean  10.62 Std   5.88 Max  98.00
+Bilirubin :: Stats :: Age Group 60 - 65 :: All ::  N 668414 non-zeros 668285 Median  10.00 Mean  10.76 Std   5.85 Max  98.00
+Bilirubin :: Stats :: Age Group 65 - 70 :: All ::  N 637634 non-zeros 637512 Median  10.00 Mean  10.91 Std   5.92 Max  99.00
+Bilirubin :: Stats :: Age Group 70 - 75 :: All ::  N 558500 non-zeros 558392 Median  10.00 Mean  10.96 Std   5.97 Max 100.00
+Bilirubin :: Stats :: Age Group 75 - 80 :: All ::  N 482576 non-zeros 482467 Median  10.00 Mean  10.93 Std   6.06 Max 101.00
+Bilirubin :: Stats :: Age Group 80 - 85 :: All ::  N 378696 non-zeros 378611 Median  10.00 Mean  10.84 Std   6.19 Max 103.00
+Bilirubin :: Stats :: Age Group 85 - 90 :: All ::  N 238806 non-zeros 238751 Median   9.00 Mean  10.66 Std   6.31 Max 105.00
+Bilirubin :: Stats :: Age Group 90 - 95 :: All ::  N 105497 non-zeros 105481 Median   9.00 Mean  10.40 Std   6.39 Max 106.00
+Bilirubin :: Stats :: Age Group 95 - 100 :: All ::  N 25569 non-zeros 25564 Median   9.00 Mean  10.12 Std   6.55 Max 108.00
+Bilirubin :: General :: All     :: outliers ratio 0.001220
+Bilirubin :: General :: All     :: N 4047673 non-zeros 4046866 Median   9.00 Mean  10.71 Std   6.25 Max 104.00
+Bilirubin :: General :: All     :: distribution 0.001,0.01,0.05 ::   2.00   3.00   4.00  21.00  33.00  66.00
+Bilirubin :: General :: All     :: quartiles ::   2.00   7.00   9.00  13.00 
+Bilirubin :: General :: Males   :: outliers ratio 0.001308
+Bilirubin :: General :: Males   :: N 1802421 non-zeros 1802083 Median  11.00 Mean  12.17 Std   7.03 Max 117.00
+Bilirubin :: General :: Males   :: distribution 0.001,0.01,0.05 ::   2.00   4.00   5.00  24.00  38.00  77.00
+Bilirubin :: General :: Males   :: quartiles ::   2.00   8.00  11.00  14.00 
+Bilirubin :: General :: Females :: outliers ratio 0.001188
+Bilirubin :: General :: Females :: N 2245166 non-zeros 2244729 Median   8.00 Mean   9.54 Std   5.32 Max  89.00
+Bilirubin :: General :: Females :: distribution 0.001,0.01,0.05 ::   2.00   3.00   4.00  19.00  29.00  55.00
+Bilirubin :: General :: Females :: quartiles ::   2.00   6.00   8.00  11.00 
+Bilirubin :: Rounding ::  0.00 r  0.00 pct
+Bilirubin :: Rounding ::  0.01 r  0.00 pct
+Bilirubin :: Rounding ::  0.10 r  0.00 pct
+Bilirubin :: Rounding ::  1.00 r  0.90 pct
+Bilirubin :: Rounding :: 10.00 r  0.10 pct
+Bilirubin :: Rounding :: 100.00 r  0.00 pct
+Bilirubin :: Rounding :: 1000.00 r  0.00 pct
+Bilirubin :: Rounding :: most popular rounding for vals:  1.00
+Bilirubin :: Stats year :: 2000 :: All :: N 145092 non-zeros 144760 Median  10.00 Mean  11.45 Std   6.58 Max 110.00
+Bilirubin :: Stats year :: 2001 :: All :: N 236325 non-zeros 236182 Median  10.00 Mean  10.88 Std   6.52 Max 108.00
+Bilirubin :: Stats year :: 2002 :: All :: N 339051 non-zeros 338891 Median  10.00 Mean  10.87 Std   6.39 Max 106.00
+Bilirubin :: Stats year :: 2003 :: All :: N 509380 non-zeros 508982 Median  10.00 Mean  10.91 Std   6.15 Max 103.00
+Bilirubin :: Stats year :: 2004 :: All :: N 700793 non-zeros 700512 Median  10.00 Mean  11.04 Std   6.03 Max 101.00
+Bilirubin :: Stats year :: 2005 :: All :: N 825258 non-zeros 825088 Median  10.00 Mean  11.07 Std   6.02 Max 101.00
+Bilirubin :: Stats year :: 2006 :: All :: N 923557 non-zeros 923406 Median  10.00 Mean  10.99 Std   6.05 Max 101.00
+Bilirubin :: Stats year :: 2007 :: All :: N 995768 non-zeros 995590 Median  10.00 Mean  10.94 Std   6.06 Max 101.00
+Bilirubin :: Stats year :: 2008 :: All :: N 1059869 non-zeros 1059796 Median  10.00 Mean  10.98 Std   6.00 Max 100.00
+Bilirubin :: Stats year :: 2009 :: All :: N 1097868 non-zeros 1097824 Median   9.00 Mean  10.47 Std   5.83 Max  97.00
+Bilirubin :: Stats year :: 2010 :: All :: N 1109675 non-zeros 1109620 Median   9.00 Mean  10.37 Std   5.73 Max  96.00
+Bilirubin :: Stats year :: 2011 :: All :: N 1151236 non-zeros 1151202 Median   9.00 Mean  10.47 Std   5.80 Max  97.00
+Bilirubin :: Stats year :: 2012 :: All :: N 1168478 non-zeros 1168457 Median   9.00 Mean  10.59 Std   5.80 Max  97.00
+Bilirubin :: Stats year :: 2013 :: All :: N 1148222 non-zeros 1148200 Median   9.00 Mean  10.60 Std   5.87 Max  98.00
+Bilirubin :: Stats year :: 2014 :: All :: N 1061793 non-zeros 1061786 Median   9.00 Mean  10.36 Std   5.83 Max  97.00
+Bilirubin :: Stats year :: 2015 :: All :: N 922971 non-zeros 922958 Median   9.00 Mean  10.11 Std   5.71 Max  95.00
+Bilirubin :: Stats year :: 2016 :: All :: N 43722 non-zeros 43722 Median   9.00 Mean  10.16 Std   5.99 Max  98.00
+Bilirubin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Bilirubin :: Stats year :: 2000 :: Males   :: N 63366 non-zeros 63214 Median  12.00 Mean  13.04 Std   7.64 Max 127.00
+Bilirubin :: Stats year :: 2001 :: Males   :: N 104725 non-zeros 104659 Median  11.00 Mean  12.52 Std   7.58 Max 126.00
+Bilirubin :: Stats year :: 2002 :: Males   :: N 152024 non-zeros 151947 Median  11.00 Mean  12.45 Std   7.28 Max 121.00
+Bilirubin :: Stats year :: 2003 :: Males   :: N 230050 non-zeros 229867 Median  11.00 Mean  12.44 Std   6.83 Max 114.00
+Bilirubin :: Stats year :: 2004 :: Males   :: N 318226 non-zeros 318096 Median  11.00 Mean  12.55 Std   6.73 Max 113.00
+Bilirubin :: Stats year :: 2005 :: Males   :: N 374532 non-zeros 374458 Median  11.00 Mean  12.58 Std   6.71 Max 113.00
+Bilirubin :: Stats year :: 2006 :: Males   :: N 420720 non-zeros 420664 Median  11.00 Mean  12.50 Std   6.75 Max 113.00
+Bilirubin :: Stats year :: 2007 :: Males   :: N 454691 non-zeros 454618 Median  11.00 Mean  12.40 Std   6.69 Max 112.00
+Bilirubin :: Stats year :: 2008 :: Males   :: N 483121 non-zeros 483086 Median  11.00 Mean  12.43 Std   6.65 Max 112.00
+Bilirubin :: Stats year :: 2009 :: Males   :: N 499151 non-zeros 499126 Median  11.00 Mean  11.87 Std   6.45 Max 108.00
+Bilirubin :: Stats year :: 2010 :: Males   :: N 505021 non-zeros 504996 Median  10.00 Mean  11.75 Std   6.34 Max 106.00
+Bilirubin :: Stats year :: 2011 :: Males   :: N 521556 non-zeros 521540 Median  11.00 Mean  11.86 Std   6.41 Max 108.00
+Bilirubin :: Stats year :: 2012 :: Males   :: N 529106 non-zeros 529093 Median  11.00 Mean  11.96 Std   6.42 Max 108.00
+Bilirubin :: Stats year :: 2013 :: Males   :: N 518933 non-zeros 518925 Median  11.00 Mean  11.97 Std   6.50 Max 109.00
+Bilirubin :: Stats year :: 2014 :: Males   :: N 474253 non-zeros 474251 Median  10.00 Mean  11.73 Std   6.42 Max 108.00
+Bilirubin :: Stats year :: 2015 :: Males   :: N 411166 non-zeros 411166 Median  10.00 Mean  11.47 Std   6.35 Max 106.00
+Bilirubin :: Stats year :: 2016 :: Males   :: N 19559 non-zeros 19559 Median  10.00 Mean  11.52 Std   6.58 Max 104.00
+Bilirubin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Bilirubin :: Stats year :: 2000 :: Females :: N 81730 non-zeros 81553 Median   9.00 Mean  10.24 Std   5.52 Max  93.00
+Bilirubin :: Stats year :: 2001 :: Females :: N 131607 non-zeros 131531 Median   9.00 Mean   9.58 Std   5.34 Max  88.00
+Bilirubin :: Stats year :: 2002 :: Females :: N 187022 non-zeros 186930 Median   9.00 Mean   9.59 Std   5.32 Max  89.00
+Bilirubin :: Stats year :: 2003 :: Females :: N 279313 non-zeros 279106 Median   9.00 Mean   9.65 Std   5.21 Max  87.00
+Bilirubin :: Stats year :: 2004 :: Females :: N 382557 non-zeros 382400 Median   9.00 Mean   9.77 Std   5.08 Max  86.00
+Bilirubin :: Stats year :: 2005 :: Females :: N 450716 non-zeros 450609 Median   9.00 Mean   9.81 Std   5.06 Max  85.00
+Bilirubin :: Stats year :: 2006 :: Females :: N 502795 non-zeros 502702 Median   9.00 Mean   9.73 Std   5.09 Max  86.00
+Bilirubin :: Stats year :: 2007 :: Females :: N 541074 non-zeros 540971 Median   9.00 Mean   9.70 Std   5.12 Max  86.00
+Bilirubin :: Stats year :: 2008 :: Females :: N 576746 non-zeros 576705 Median   9.00 Mean   9.77 Std   5.10 Max  86.00
+Bilirubin :: Stats year :: 2009 :: Females :: N 598724 non-zeros 598696 Median   8.00 Mean   9.31 Std   4.99 Max  84.00
+Bilirubin :: Stats year :: 2010 :: Females :: N 604629 non-zeros 604593 Median   8.00 Mean   9.22 Std   4.88 Max  82.00
+Bilirubin :: Stats year :: 2011 :: Females :: N 629614 non-zeros 629597 Median   8.00 Mean   9.32 Std   4.94 Max  83.00
+Bilirubin :: Stats year :: 2012 :: Females :: N 639397 non-zeros 639384 Median   8.00 Mean   9.46 Std   4.98 Max  84.00
+Bilirubin :: Stats year :: 2013 :: Females :: N 629277 non-zeros 629265 Median   8.00 Mean   9.46 Std   5.01 Max  84.00
+Bilirubin :: Stats year :: 2014 :: Females :: N 587507 non-zeros 587501 Median   8.00 Mean   9.24 Std   5.01 Max  84.00
+Bilirubin :: Stats year :: 2015 :: Females :: N 511776 non-zeros 511764 Median   8.00 Mean   9.01 Std   4.87 Max  82.00
+Bilirubin :: Stats year :: 2016 :: Females :: N 24160 non-zeros 24160 Median   8.00 Mean   9.05 Std   5.12 Max  84.00
+Bilirubin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Bilirubin :: Stats month 1 :: All :: N 793050 non-zeros 792880 Median   9.00 Mean  10.54 Std   6.23 Max 104.00
+Bilirubin :: Stats month 2 :: All :: N 751918 non-zeros 751829 Median   9.00 Mean  10.48 Std   6.14 Max 102.00
+Bilirubin :: Stats month 3 :: All :: N 804723 non-zeros 804621 Median   9.00 Mean  10.50 Std   6.18 Max 103.00
+Bilirubin :: Stats month 4 :: All :: N 739828 non-zeros 739750 Median   9.00 Mean  10.52 Std   6.25 Max 104.00
+Bilirubin :: Stats month 5 :: All :: N 759294 non-zeros 759217 Median   9.00 Mean  10.58 Std   6.30 Max 105.00
+Bilirubin :: Stats month 6 :: All :: N 782563 non-zeros 782469 Median   9.00 Mean  10.67 Std   6.34 Max 105.00
+Bilirubin :: Stats month 7 :: All :: N 795388 non-zeros 795296 Median   9.00 Mean  10.78 Std   6.39 Max 106.00
+Bilirubin :: Stats month 8 :: All :: N 750057 non-zeros 749990 Median   9.00 Mean  10.81 Std   6.43 Max 107.00
+Bilirubin :: Stats month 9 :: All :: N 793020 non-zeros 792939 Median   9.00 Mean  10.74 Std   6.38 Max 106.00
+Bilirubin :: Stats month 10 :: All :: N 818820 non-zeros 818719 Median   9.00 Mean  10.64 Std   6.25 Max 104.00
+Bilirubin :: Stats month 11 :: All :: N 792650 non-zeros 792506 Median   9.00 Mean  10.64 Std   6.28 Max 104.00
+Bilirubin :: Stats month 12 :: All :: N 664971 non-zeros 664838 Median   9.00 Mean  10.53 Std   6.27 Max 104.00
+

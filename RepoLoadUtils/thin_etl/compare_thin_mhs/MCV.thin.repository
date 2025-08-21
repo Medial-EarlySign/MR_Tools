@@ -1,0 +1,162 @@
+MCV :: All :: With Values :: 4951667 / 14446692 =  0.34 :: 4951667 / 4951667 =  1.00
+MCV :: Males :: With Values :: 2048347 / 6889335 =  0.30 :: 2048347 / 4951667 =  0.41
+MCV :: Females :: With Values :: 2903320 / 7557357 =  0.38 :: 2903320 / 4951667 =  0.59
+MCV :: General :: No. of Values :: All 23122161 Male 8637015 Female 14485146
+MCV :: General :: No. of different days Values :: All 23061249 Male 8615999 Female 14445250
+MCV :: General :: Avg #values per person (all) :: All  1.60 Male  1.25 Female  1.91
+MCV :: General :: Avg #values per person (>0)  :: All  4.66 Male  4.21 Female  4.98
+MCV :: General :: Avg dist between tests       :: All  395.5 Male  409.3 Female  387.7
+MCV :: Counts :: Age Group 20 - 25 :: All :: 164662 0.007
+MCV :: Counts :: Age Group 25 - 30 :: All :: 200143 0.009
+MCV :: Counts :: Age Group 30 - 35 :: All :: 248581 0.011
+MCV :: Counts :: Age Group 35 - 40 :: All :: 258577 0.011
+MCV :: Counts :: Age Group 40 - 45 :: All :: 277124 0.012
+MCV :: Counts :: Age Group 45 - 50 :: All :: 312847 0.014
+MCV :: Counts :: Age Group 50 - 55 :: All :: 341719 0.015
+MCV :: Counts :: Age Group 55 - 60 :: All :: 351595 0.015
+MCV :: Counts :: Age Group 60 - 65 :: All :: 385661 0.017
+MCV :: Counts :: Age Group 65 - 70 :: All :: 416809 0.018
+MCV :: Counts :: Age Group 70 - 75 :: All :: 404314 0.017
+MCV :: Counts :: Age Group 75 - 80 :: All :: 395775 0.017
+MCV :: Counts :: Age Group 80 - 85 :: All :: 344626 0.015
+MCV :: Counts :: Age Group 85 - 90 :: All :: 240199 0.010
+MCV :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+MCV :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+MCV :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+MCV :: Counts :: Age Group 20 - 25 :: Males ::  36264 0.004
+MCV :: Counts :: Age Group 25 - 30 :: Males ::  41066 0.005
+MCV :: Counts :: Age Group 30 - 35 :: Males ::  52422 0.006
+MCV :: Counts :: Age Group 35 - 40 :: Males ::  65884 0.008
+MCV :: Counts :: Age Group 40 - 45 :: Males ::  90061 0.010
+MCV :: Counts :: Age Group 45 - 50 :: Males :: 111596 0.013
+MCV :: Counts :: Age Group 50 - 55 :: Males :: 132477 0.015
+MCV :: Counts :: Age Group 55 - 60 :: Males :: 150080 0.017
+MCV :: Counts :: Age Group 60 - 65 :: Males :: 174202 0.020
+MCV :: Counts :: Age Group 65 - 70 :: Males :: 191860 0.022
+MCV :: Counts :: Age Group 70 - 75 :: Males :: 184152 0.021
+MCV :: Counts :: Age Group 75 - 80 :: Males :: 172670 0.020
+MCV :: Counts :: Age Group 80 - 85 :: Males :: 141681 0.016
+MCV :: Counts :: Age Group 85 - 90 :: Males ::  89678 0.010
+MCV :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+MCV :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+MCV :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+MCV :: Counts :: Age Group 20 - 25 :: Females :: 128398 0.009
+MCV :: Counts :: Age Group 25 - 30 :: Females :: 159077 0.011
+MCV :: Counts :: Age Group 30 - 35 :: Females :: 196159 0.014
+MCV :: Counts :: Age Group 35 - 40 :: Females :: 192693 0.013
+MCV :: Counts :: Age Group 40 - 45 :: Females :: 187063 0.013
+MCV :: Counts :: Age Group 45 - 50 :: Females :: 201251 0.014
+MCV :: Counts :: Age Group 50 - 55 :: Females :: 209242 0.014
+MCV :: Counts :: Age Group 55 - 60 :: Females :: 201515 0.014
+MCV :: Counts :: Age Group 60 - 65 :: Females :: 211459 0.015
+MCV :: Counts :: Age Group 65 - 70 :: Females :: 224949 0.016
+MCV :: Counts :: Age Group 70 - 75 :: Females :: 220162 0.015
+MCV :: Counts :: Age Group 75 - 80 :: Females :: 223105 0.015
+MCV :: Counts :: Age Group 80 - 85 :: Females :: 202945 0.014
+MCV :: Counts :: Age Group 85 - 90 :: Females :: 150521 0.010
+MCV :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+MCV :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+MCV :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+MCV :: Stats :: Age Group 20 - 25 :: All ::  N 448308 non-zeros 448308 Median  89.00 Mean  88.75 Std   5.36 Max 169.00
+MCV :: Stats :: Age Group 25 - 30 :: All ::  N 511442 non-zeros 511442 Median  89.00 Mean  89.10 Std   5.52 Max 151.00
+MCV :: Stats :: Age Group 30 - 35 :: All ::  N 566182 non-zeros 566182 Median  90.00 Mean  89.35 Std   5.66 Max 154.00
+MCV :: Stats :: Age Group 35 - 40 :: All ::  N 581062 non-zeros 580930 Median  90.00 Mean  89.59 Std   6.00 Max 175.00
+MCV :: Stats :: Age Group 40 - 45 :: All ::  N 626834 non-zeros 626724 Median  90.00 Mean  89.91 Std   6.17 Max 176.00
+MCV :: Stats :: Age Group 45 - 50 :: All ::  N 655312 non-zeros 655192 Median  90.00 Mean  90.19 Std   6.22 Max 153.00
+MCV :: Stats :: Age Group 50 - 55 :: All ::  N 652607 non-zeros 652607 Median  91.00 Mean  90.58 Std   5.74 Max 173.00
+MCV :: Stats :: Age Group 55 - 60 :: All ::  N 644143 non-zeros 644143 Median  91.00 Mean  90.91 Std   5.43 Max 150.00
+MCV :: Stats :: Age Group 60 - 65 :: All ::  N 635751 non-zeros 635751 Median  91.00 Mean  91.05 Std   5.43 Max 171.00
+MCV :: Stats :: Age Group 65 - 70 :: All ::  N 599607 non-zeros 599607 Median  91.00 Mean  91.12 Std   5.55 Max 148.00
+MCV :: Stats :: Age Group 70 - 75 :: All ::  N 530866 non-zeros 530866 Median  91.00 Mean  91.12 Std   5.75 Max 152.00
+MCV :: Stats :: Age Group 75 - 80 :: All ::  N 474056 non-zeros 473930 Median  91.00 Mean  91.14 Std   6.17 Max 170.00
+MCV :: Stats :: Age Group 80 - 85 :: All ::  N 383241 non-zeros 383154 Median  91.00 Mean  91.22 Std   6.42 Max 169.00
+MCV :: Stats :: Age Group 85 - 90 :: All ::  N 250004 non-zeros 249943 Median  92.00 Mean  91.35 Std   6.67 Max 185.00
+MCV :: Stats :: Age Group 90 - 95 :: All ::  N 115008 non-zeros 114981 Median  92.00 Mean  91.54 Std   6.92 Max 146.00
+MCV :: Stats :: Age Group 95 - 100 :: All ::  N 29004 non-zeros 28999 Median  92.00 Mean  91.69 Std   7.12 Max 169.00
+MCV :: General :: All     :: outliers ratio 0.000217
+MCV :: General :: All     :: N 4443027 non-zeros 4443027 Median  90.00 Mean  90.28 Std   5.90 Max 176.00
+MCV :: General :: All     :: distribution 0.001,0.01,0.05 ::  61.00  72.00  81.00  99.00 105.00 116.00
+MCV :: General :: All     :: quartiles ::  61.00  87.00  90.00  94.00 
+MCV :: General :: Males   :: outliers ratio 0.000224
+MCV :: General :: Males   :: N 1837247 non-zeros 1837247 Median  90.00 Mean  90.60 Std   5.62 Max 171.00
+MCV :: General :: Males   :: distribution 0.001,0.01,0.05 ::  62.00  75.00  82.00  99.00 105.00 116.00
+MCV :: General :: Males   :: quartiles ::  62.00  87.00  90.00  94.00 
+MCV :: General :: Females :: outliers ratio 0.000038
+MCV :: General :: Females :: N 2606234 non-zeros 2605737 Median  90.00 Mean  90.05 Std   6.19 Max 180.00
+MCV :: General :: Females :: distribution 0.001,0.01,0.05 ::  60.00  71.00  80.00  99.00 104.00 115.00
+MCV :: General :: Females :: quartiles ::  60.00  87.00  90.00  94.00 
+MCV :: Rounding ::  0.00 r  0.00 pct
+MCV :: Rounding ::  0.01 r  0.00 pct
+MCV :: Rounding ::  0.10 r  0.00 pct
+MCV :: Rounding ::  1.00 r  0.88 pct
+MCV :: Rounding :: 10.00 r  0.10 pct
+MCV :: Rounding :: 100.00 r  0.01 pct
+MCV :: Rounding :: 1000.00 r  0.00 pct
+MCV :: Rounding :: most popular rounding for vals:  1.00
+MCV :: Stats year :: 2000 :: All :: N 237711 non-zeros 237085 Median  91.00 Mean  90.31 Std   7.85 Max 197.00
+MCV :: Stats year :: 2001 :: All :: N 340195 non-zeros 339851 Median  91.00 Mean  90.56 Std   6.82 Max 191.00
+MCV :: Stats year :: 2002 :: All :: N 436440 non-zeros 436258 Median  90.00 Mean  90.28 Std   6.35 Max 175.00
+MCV :: Stats year :: 2003 :: All :: N 598413 non-zeros 598299 Median  91.00 Mean  90.37 Std   6.08 Max 152.00
+MCV :: Stats year :: 2004 :: All :: N 758889 non-zeros 758889 Median  91.00 Mean  90.61 Std   5.87 Max 148.00
+MCV :: Stats year :: 2005 :: All :: N 843135 non-zeros 843135 Median  91.00 Mean  90.69 Std   5.85 Max 153.00
+MCV :: Stats year :: 2006 :: All :: N 908977 non-zeros 908977 Median  90.00 Mean  90.21 Std   5.86 Max 146.00
+MCV :: Stats year :: 2007 :: All :: N 972714 non-zeros 972714 Median  90.00 Mean  90.20 Std   5.87 Max 170.00
+MCV :: Stats year :: 2008 :: All :: N 1042315 non-zeros 1042315 Median  90.00 Mean  89.80 Std   5.76 Max 174.00
+MCV :: Stats year :: 2009 :: All :: N 1089338 non-zeros 1089338 Median  90.00 Mean  90.07 Std   5.80 Max 153.00
+MCV :: Stats year :: 2010 :: All :: N 1107799 non-zeros 1107799 Median  91.00 Mean  90.45 Std   5.83 Max 169.00
+MCV :: Stats year :: 2011 :: All :: N 1153962 non-zeros 1153962 Median  91.00 Mean  90.66 Std   5.87 Max 176.00
+MCV :: Stats year :: 2012 :: All :: N 1178858 non-zeros 1178858 Median  91.00 Mean  90.88 Std   5.97 Max 176.00
+MCV :: Stats year :: 2013 :: All :: N 1160852 non-zeros 1160852 Median  91.00 Mean  90.66 Std   6.01 Max 178.00
+MCV :: Stats year :: 2014 :: All :: N 1073928 non-zeros 1073928 Median  91.00 Mean  90.54 Std   5.98 Max 171.00
+MCV :: Stats year :: 2015 :: All :: N 937372 non-zeros 937372 Median  90.00 Mean  90.44 Std   5.87 Max 149.00
+MCV :: Stats year :: 2016 :: All :: N 47226 non-zeros 47226 Median  91.00 Mean  90.75 Std   6.28 Max 154.00
+MCV :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+MCV :: Stats year :: 2000 :: Males   :: N 81788 non-zeros 81596 Median  91.00 Mean  91.02 Std   7.53 Max 193.00
+MCV :: Stats year :: 2001 :: Males   :: N 119961 non-zeros 119819 Median  91.00 Mean  91.18 Std   6.70 Max 189.00
+MCV :: Stats year :: 2002 :: Males   :: N 156527 non-zeros 156527 Median  91.00 Mean  90.93 Std   5.79 Max 153.00
+MCV :: Stats year :: 2003 :: Males   :: N 219468 non-zeros 219468 Median  91.00 Mean  90.93 Std   5.68 Max 145.00
+MCV :: Stats year :: 2004 :: Males   :: N 284939 non-zeros 284939 Median  91.00 Mean  91.14 Std   5.58 Max 147.00
+MCV :: Stats year :: 2005 :: Males   :: N 318899 non-zeros 318899 Median  91.00 Mean  91.25 Std   5.57 Max 153.00
+MCV :: Stats year :: 2006 :: Males   :: N 347827 non-zeros 347827 Median  91.00 Mean  90.78 Std   5.60 Max 148.00
+MCV :: Stats year :: 2007 :: Males   :: N 376457 non-zeros 376457 Median  91.00 Mean  90.75 Std   5.62 Max 173.00
+MCV :: Stats year :: 2008 :: Males   :: N 407217 non-zeros 407217 Median  90.00 Mean  90.31 Std   5.53 Max 153.00
+MCV :: Stats year :: 2009 :: Males   :: N 427975 non-zeros 427975 Median  90.00 Mean  90.55 Std   5.53 Max 153.00
+MCV :: Stats year :: 2010 :: Males   :: N 438556 non-zeros 438556 Median  91.00 Mean  90.92 Std   5.59 Max 149.00
+MCV :: Stats year :: 2011 :: Males   :: N 457760 non-zeros 457760 Median  91.00 Mean  91.08 Std   5.66 Max 169.00
+MCV :: Stats year :: 2012 :: Males   :: N 472266 non-zeros 472266 Median  91.00 Mean  91.30 Std   5.75 Max 166.00
+MCV :: Stats year :: 2013 :: Males   :: N 467103 non-zeros 467103 Median  91.00 Mean  91.07 Std   5.75 Max 148.00
+MCV :: Stats year :: 2014 :: Males   :: N 429585 non-zeros 429585 Median  91.00 Mean  90.92 Std   5.69 Max 171.00
+MCV :: Stats year :: 2015 :: Males   :: N 377081 non-zeros 377081 Median  91.00 Mean  90.77 Std   5.68 Max 143.00
+MCV :: Stats year :: 2016 :: Males   :: N 19120 non-zeros 19120 Median  91.00 Mean  91.09 Std   6.15 Max 154.00
+MCV :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+MCV :: Stats year :: 2000 :: Females :: N 155919 non-zeros 155488 Median  90.00 Mean  89.95 Std   7.98 Max 197.00
+MCV :: Stats year :: 2001 :: Females :: N 220233 non-zeros 220034 Median  91.00 Mean  90.22 Std   6.84 Max 191.00
+MCV :: Stats year :: 2002 :: Females :: N 279858 non-zeros 279736 Median  90.00 Mean  89.94 Std   6.47 Max 175.00
+MCV :: Stats year :: 2003 :: Females :: N 378904 non-zeros 378840 Median  90.00 Mean  90.06 Std   6.19 Max 149.00
+MCV :: Stats year :: 2004 :: Females :: N 474026 non-zeros 473962 Median  91.00 Mean  90.27 Std   6.10 Max 146.00
+MCV :: Stats year :: 2005 :: Females :: N 524311 non-zeros 524233 Median  91.00 Mean  90.35 Std   6.10 Max 180.00
+MCV :: Stats year :: 2006 :: Females :: N 561221 non-zeros 561138 Median  90.00 Mean  89.84 Std   6.09 Max 148.00
+MCV :: Stats year :: 2007 :: Females :: N 596335 non-zeros 596259 Median  90.00 Mean  89.85 Std   6.08 Max 180.00
+MCV :: Stats year :: 2008 :: Females :: N 635183 non-zeros 635099 Median  90.00 Mean  89.46 Std   5.98 Max 150.00
+MCV :: Stats year :: 2009 :: Females :: N 661437 non-zeros 661362 Median  90.00 Mean  89.75 Std   6.02 Max 178.00
+MCV :: Stats year :: 2010 :: Females :: N 669310 non-zeros 669231 Median  90.00 Mean  90.13 Std   6.03 Max 157.00
+MCV :: Stats year :: 2011 :: Females :: N 696251 non-zeros 696205 Median  91.00 Mean  90.37 Std   6.04 Max 148.00
+MCV :: Stats year :: 2012 :: Females :: N 706635 non-zeros 706585 Median  91.00 Mean  90.59 Std   6.13 Max 158.00
+MCV :: Stats year :: 2013 :: Females :: N 693746 non-zeros 693722 Median  91.00 Mean  90.37 Std   6.17 Max 179.00
+MCV :: Stats year :: 2014 :: Females :: N 644301 non-zeros 644295 Median  90.00 Mean  90.29 Std   6.13 Max 147.00
+MCV :: Stats year :: 2015 :: Females :: N 560292 non-zeros 560292 Median  90.00 Mean  90.23 Std   5.99 Max 150.00
+MCV :: Stats year :: 2016 :: Females :: N 28106 non-zeros 28106 Median  91.00 Mean  90.52 Std   6.36 Max 143.00
+MCV :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+MCV :: Stats month 1 :: All :: N 865147 non-zeros 864994 Median  90.00 Mean  90.37 Std   6.25 Max 182.00
+MCV :: Stats month 2 :: All :: N 810550 non-zeros 810381 Median  90.00 Mean  90.35 Std   6.25 Max 153.00
+MCV :: Stats month 3 :: All :: N 878448 non-zeros 878280 Median  90.00 Mean  90.38 Std   6.23 Max 182.00
+MCV :: Stats month 4 :: All :: N 820325 non-zeros 820231 Median  90.00 Mean  90.39 Std   6.21 Max 151.00
+MCV :: Stats month 5 :: All :: N 844128 non-zeros 843993 Median  91.00 Mean  90.41 Std   6.22 Max 169.00
+MCV :: Stats month 6 :: All :: N 865883 non-zeros 865774 Median  90.00 Mean  90.41 Std   6.23 Max 180.00
+MCV :: Stats month 7 :: All :: N 880801 non-zeros 880695 Median  91.00 Mean  90.47 Std   6.25 Max 158.00
+MCV :: Stats month 8 :: All :: N 832562 non-zeros 832464 Median  91.00 Mean  90.54 Std   6.22 Max 180.00
+MCV :: Stats month 9 :: All :: N 876147 non-zeros 876043 Median  91.00 Mean  90.55 Std   6.19 Max 178.00
+MCV :: Stats month 10 :: All :: N 899063 non-zeros 898975 Median  91.00 Mean  90.57 Std   6.14 Max 182.00
+MCV :: Stats month 11 :: All :: N 866987 non-zeros 866896 Median  91.00 Mean  90.51 Std   6.14 Max 165.00
+MCV :: Stats month 12 :: All :: N 734610 non-zeros 734538 Median  90.00 Mean  90.38 Std   6.18 Max 149.00
+

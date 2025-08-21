@@ -1,0 +1,14 @@
+method	string
+last_is_bias	int
+max_iter	int
+stop_at_err	float
+max_times_err_grows	int
+batch_size	int
+rate	float
+rate_decay	float
+l_ridge	float
+l_lasso	float
+ls_lasso	vector<float>
+ls_ridge	vector<float>
+nthreads	int
+err_freq	int

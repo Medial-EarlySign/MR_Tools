@@ -1,0 +1,15 @@
+To create repository:
+1. load_data.py - uncomment "load_demographic", "load_habit" for smoking, 
+2. load_data.py - uncomment "preprocess_labs" to prepare PreSignals for labs
+3. load_data.py - uncomment "load_diagnosis", "load_admissions" to load diagnosis and admissions
+#####
+3.1 (NOT NEEDED ANYMORE) - "count_loinc.py" to count loins and create config file map.tsv based on it to map loinc to lab 
+3.2 (NOT NEEDED ANYMORE)-  "fetch_labs_info.py" to generate info on each lab signal after map.tsv to help generate unitTranslator and insepct sources, units conversion rules
+#####
+4. load_labs.py - to generate labs before filtering to BeforeFilter folder
+5. prepare_dicts.py - to generate ficts for admission and diagnosis
+6. FilterLabs/filter_app (if changed main.cpp run compile.sh before) - to generate Filtered labs not in hospital admissions
+7. train_signal.py - to genrete TRAIN
+8. "create_config.py" - to generate config file
+
+#run Flow

@@ -1,0 +1,162 @@
+HDL_over_LDL :: All :: With Values :: 2790395 / 14446692 =  0.19 :: 2790395 / 2790395 =  1.00
+HDL_over_LDL :: Males :: With Values :: 1363734 / 6889335 =  0.20 :: 1363734 / 2790395 =  0.49
+HDL_over_LDL :: Females :: With Values :: 1426661 / 7557357 =  0.19 :: 1426661 / 2790395 =  0.51
+HDL_over_LDL :: General :: No. of Values :: All 11055618 Male 5588529 Female 5467089
+HDL_over_LDL :: General :: No. of different days Values :: All 11055114 Male 5588261 Female 5466853
+HDL_over_LDL :: General :: Avg #values per person (all) :: All  0.77 Male  0.81 Female  0.72
+HDL_over_LDL :: General :: Avg #values per person (>0)  :: All  3.96 Male  4.10 Female  3.83
+HDL_over_LDL :: General :: Avg dist between tests       :: All  465.9 Male  455.9 Female  476.4
+HDL_over_LDL :: Counts :: Age Group 20 - 25 :: All ::  12464 0.001
+HDL_over_LDL :: Counts :: Age Group 25 - 30 :: All ::  21284 0.002
+HDL_over_LDL :: Counts :: Age Group 30 - 35 :: All ::  35196 0.003
+HDL_over_LDL :: Counts :: Age Group 35 - 40 :: All ::  55474 0.005
+HDL_over_LDL :: Counts :: Age Group 40 - 45 :: All :: 103797 0.009
+HDL_over_LDL :: Counts :: Age Group 45 - 50 :: All :: 147458 0.013
+HDL_over_LDL :: Counts :: Age Group 50 - 55 :: All :: 195119 0.018
+HDL_over_LDL :: Counts :: Age Group 55 - 60 :: All :: 235823 0.021
+HDL_over_LDL :: Counts :: Age Group 60 - 65 :: All :: 287613 0.026
+HDL_over_LDL :: Counts :: Age Group 65 - 70 :: All :: 313117 0.028
+HDL_over_LDL :: Counts :: Age Group 70 - 75 :: All :: 285499 0.026
+HDL_over_LDL :: Counts :: Age Group 75 - 80 :: All :: 238565 0.022
+HDL_over_LDL :: Counts :: Age Group 80 - 85 :: All :: 164690 0.015
+HDL_over_LDL :: Counts :: Age Group 85 - 90 :: All ::  90193 0.008
+HDL_over_LDL :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+HDL_over_LDL :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+HDL_over_LDL :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+HDL_over_LDL :: Counts :: Age Group 20 - 25 :: Males ::   5350 0.001
+HDL_over_LDL :: Counts :: Age Group 25 - 30 :: Males ::   9332 0.002
+HDL_over_LDL :: Counts :: Age Group 30 - 35 :: Males ::  17535 0.003
+HDL_over_LDL :: Counts :: Age Group 35 - 40 :: Males ::  29726 0.005
+HDL_over_LDL :: Counts :: Age Group 40 - 45 :: Males ::  55607 0.010
+HDL_over_LDL :: Counts :: Age Group 45 - 50 :: Males ::  79384 0.014
+HDL_over_LDL :: Counts :: Age Group 50 - 55 :: Males :: 104738 0.019
+HDL_over_LDL :: Counts :: Age Group 55 - 60 :: Males :: 125114 0.022
+HDL_over_LDL :: Counts :: Age Group 60 - 65 :: Males :: 152144 0.027
+HDL_over_LDL :: Counts :: Age Group 65 - 70 :: Males :: 164382 0.029
+HDL_over_LDL :: Counts :: Age Group 70 - 75 :: Males :: 144917 0.026
+HDL_over_LDL :: Counts :: Age Group 75 - 80 :: Males :: 114636 0.021
+HDL_over_LDL :: Counts :: Age Group 80 - 85 :: Males ::  74286 0.013
+HDL_over_LDL :: Counts :: Age Group 85 - 90 :: Males ::  36334 0.007
+HDL_over_LDL :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+HDL_over_LDL :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+HDL_over_LDL :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+HDL_over_LDL :: Counts :: Age Group 20 - 25 :: Females ::   7114 0.001
+HDL_over_LDL :: Counts :: Age Group 25 - 30 :: Females ::  11952 0.002
+HDL_over_LDL :: Counts :: Age Group 30 - 35 :: Females ::  17661 0.003
+HDL_over_LDL :: Counts :: Age Group 35 - 40 :: Females ::  25748 0.005
+HDL_over_LDL :: Counts :: Age Group 40 - 45 :: Females ::  48190 0.009
+HDL_over_LDL :: Counts :: Age Group 45 - 50 :: Females ::  68074 0.012
+HDL_over_LDL :: Counts :: Age Group 50 - 55 :: Females ::  90381 0.017
+HDL_over_LDL :: Counts :: Age Group 55 - 60 :: Females :: 110709 0.020
+HDL_over_LDL :: Counts :: Age Group 60 - 65 :: Females :: 135469 0.025
+HDL_over_LDL :: Counts :: Age Group 65 - 70 :: Females :: 148735 0.027
+HDL_over_LDL :: Counts :: Age Group 70 - 75 :: Females :: 140582 0.026
+HDL_over_LDL :: Counts :: Age Group 75 - 80 :: Females :: 123929 0.023
+HDL_over_LDL :: Counts :: Age Group 80 - 85 :: Females ::  90404 0.017
+HDL_over_LDL :: Counts :: Age Group 85 - 90 :: Females ::  53859 0.010
+HDL_over_LDL :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+HDL_over_LDL :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+HDL_over_LDL :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+HDL_over_LDL :: Stats :: Age Group 20 - 25 :: All ::  N 62571 non-zeros 62540 Median   0.50 Mean   0.65 Std   0.57 Max   9.20
+HDL_over_LDL :: Stats :: Age Group 25 - 30 :: All ::  N 98829 non-zeros 98768 Median   0.50 Mean   0.62 Std   0.62 Max   9.90
+HDL_over_LDL :: Stats :: Age Group 30 - 35 :: All ::  N 149453 non-zeros 149347 Median   0.40 Mean   0.60 Std   0.67 Max  10.50
+HDL_over_LDL :: Stats :: Age Group 35 - 40 :: All ::  N 220966 non-zeros 220824 Median   0.40 Mean   0.58 Std   0.69 Max  10.70
+HDL_over_LDL :: Stats :: Age Group 40 - 45 :: All ::  N 349036 non-zeros 348842 Median   0.40 Mean   0.58 Std   0.70 Max  11.00
+HDL_over_LDL :: Stats :: Age Group 45 - 50 :: All ::  N 430633 non-zeros 430391 Median   0.40 Mean   0.58 Std   0.70 Max  11.00
+HDL_over_LDL :: Stats :: Age Group 50 - 55 :: All ::  N 487419 non-zeros 487111 Median   0.40 Mean   0.59 Std   0.70 Max  11.10
+HDL_over_LDL :: Stats :: Age Group 55 - 60 :: All ::  N 531464 non-zeros 531123 Median   0.40 Mean   0.61 Std   0.70 Max  11.00
+HDL_over_LDL :: Stats :: Age Group 60 - 65 :: All ::  N 559089 non-zeros 558789 Median   0.50 Mean   0.62 Std   0.68 Max  10.70
+HDL_over_LDL :: Stats :: Age Group 65 - 70 :: All ::  N 532835 non-zeros 532534 Median   0.50 Mean   0.65 Std   0.66 Max  10.50
+HDL_over_LDL :: Stats :: Age Group 70 - 75 :: All ::  N 453279 non-zeros 453073 Median   0.50 Mean   0.68 Std   0.64 Max  10.20
+HDL_over_LDL :: Stats :: Age Group 75 - 80 :: All ::  N 358977 non-zeros 358806 Median   0.60 Mean   0.70 Std   0.62 Max   9.90
+HDL_over_LDL :: Stats :: Age Group 80 - 85 :: All ::  N 250337 non-zeros 250239 Median   0.60 Mean   0.72 Std   0.59 Max   9.50
+HDL_over_LDL :: Stats :: Age Group 85 - 90 :: All ::  N 135327 non-zeros 135279 Median   0.60 Mean   0.73 Std   0.57 Max   8.90
+HDL_over_LDL :: Stats :: Age Group 90 - 95 :: All ::  N 48666 non-zeros 48655 Median   0.60 Mean   0.73 Std   0.56 Max   9.00
+HDL_over_LDL :: Stats :: Age Group 95 - 100 :: All ::  N 9485 non-zeros 9483 Median   0.60 Mean   0.70 Std   0.53 Max   7.90
+HDL_over_LDL :: General :: All     :: outliers ratio 0.000731
+HDL_over_LDL :: General :: All     :: N 2731482 non-zeros 2730145 Median   0.50 Mean   0.62 Std   0.65 Max  10.40
+HDL_over_LDL :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.20   0.20   1.30   4.10   6.80
+HDL_over_LDL :: General :: All     :: quartiles ::   0.10   0.30   0.50   0.70 
+HDL_over_LDL :: General :: Males   :: outliers ratio 0.000869
+HDL_over_LDL :: General :: Males   :: N 1334676 non-zeros 1333955 Median   0.40 Mean   0.59 Std   0.70 Max  11.00
+HDL_over_LDL :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.20   0.20   1.20   4.50   7.10
+HDL_over_LDL :: General :: Males   :: quartiles ::   0.10   0.30   0.40   0.60 
+HDL_over_LDL :: General :: Females :: outliers ratio 0.000658
+HDL_over_LDL :: General :: Females :: N 1396723 non-zeros 1396070 Median   0.50 Mean   0.65 Std   0.61 Max   9.70
+HDL_over_LDL :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.20   0.30   1.30   3.80   6.20
+HDL_over_LDL :: General :: Females :: quartiles ::   0.10   0.40   0.50   0.70 
+HDL_over_LDL :: Rounding ::  0.00 r  0.00 pct
+HDL_over_LDL :: Rounding ::  0.01 r  0.01 pct
+HDL_over_LDL :: Rounding ::  0.10 r  0.97 pct
+HDL_over_LDL :: Rounding ::  1.00 r  0.02 pct
+HDL_over_LDL :: Rounding :: 10.00 r  0.00 pct
+HDL_over_LDL :: Rounding :: 100.00 r  0.00 pct
+HDL_over_LDL :: Rounding :: 1000.00 r  0.00 pct
+HDL_over_LDL :: Rounding :: most popular rounding for vals:  0.10
+HDL_over_LDL :: Stats year :: 2000 :: All :: N 75556 non-zeros 75207 Median   0.40 Mean   0.78 Std   1.23 Max  19.00
+HDL_over_LDL :: Stats year :: 2001 :: All :: N 136524 non-zeros 136191 Median   0.40 Mean   0.90 Std   1.42 Max  22.00
+HDL_over_LDL :: Stats year :: 2002 :: All :: N 218988 non-zeros 218598 Median   0.40 Mean   0.86 Std   1.26 Max  19.70
+HDL_over_LDL :: Stats year :: 2003 :: All :: N 340574 non-zeros 339893 Median   0.50 Mean   0.74 Std   1.00 Max  15.70
+HDL_over_LDL :: Stats year :: 2004 :: All :: N 493161 non-zeros 492763 Median   0.50 Mean   0.66 Std   0.77 Max  12.10
+HDL_over_LDL :: Stats year :: 2005 :: All :: N 567849 non-zeros 567545 Median   0.50 Mean   0.67 Std   0.72 Max  11.40
+HDL_over_LDL :: Stats year :: 2006 :: All :: N 642004 non-zeros 641499 Median   0.50 Mean   0.66 Std   0.67 Max  10.70
+HDL_over_LDL :: Stats year :: 2007 :: All :: N 683628 non-zeros 683266 Median   0.50 Mean   0.65 Std   0.63 Max  10.00
+HDL_over_LDL :: Stats year :: 2008 :: All :: N 723566 non-zeros 723480 Median   0.50 Mean   0.64 Std   0.63 Max  10.00
+HDL_over_LDL :: Stats year :: 2009 :: All :: N 750684 non-zeros 750621 Median   0.50 Mean   0.63 Std   0.62 Max   9.90
+HDL_over_LDL :: Stats year :: 2010 :: All :: N 740755 non-zeros 740695 Median   0.50 Mean   0.60 Std   0.50 Max   8.00
+HDL_over_LDL :: Stats year :: 2011 :: All :: N 752802 non-zeros 752742 Median   0.50 Mean   0.61 Std   0.53 Max   8.50
+HDL_over_LDL :: Stats year :: 2012 :: All :: N 752570 non-zeros 752494 Median   0.50 Mean   0.60 Std   0.46 Max   7.50
+HDL_over_LDL :: Stats year :: 2013 :: All :: N 733858 non-zeros 733810 Median   0.50 Mean   0.61 Std   0.45 Max   7.40
+HDL_over_LDL :: Stats year :: 2014 :: All :: N 654431 non-zeros 654380 Median   0.50 Mean   0.61 Std   0.41 Max   6.60
+HDL_over_LDL :: Stats year :: 2015 :: All :: N 545904 non-zeros 545869 Median   0.50 Mean   0.61 Std   0.41 Max   6.70
+HDL_over_LDL :: Stats year :: 2016 :: All :: N 19849 non-zeros 19849 Median   0.50 Mean   0.58 Std   0.36 Max   6.00
+HDL_over_LDL :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL_over_LDL :: Stats year :: 2000 :: Males   :: N 40394 non-zeros 40224 Median   0.40 Mean   0.77 Std   1.32 Max  20.00
+HDL_over_LDL :: Stats year :: 2001 :: Males   :: N 72257 non-zeros 72095 Median   0.40 Mean   0.90 Std   1.50 Max  23.00
+HDL_over_LDL :: Stats year :: 2002 :: Males   :: N 114560 non-zeros 114354 Median   0.40 Mean   0.85 Std   1.33 Max  20.60
+HDL_over_LDL :: Stats year :: 2003 :: Males   :: N 175032 non-zeros 174720 Median   0.40 Mean   0.72 Std   1.05 Max  16.30
+HDL_over_LDL :: Stats year :: 2004 :: Males   :: N 249125 non-zeros 248908 Median   0.40 Mean   0.64 Std   0.80 Max  12.70
+HDL_over_LDL :: Stats year :: 2005 :: Males   :: N 284762 non-zeros 284607 Median   0.50 Mean   0.65 Std   0.75 Max  11.80
+HDL_over_LDL :: Stats year :: 2006 :: Males   :: N 320713 non-zeros 320460 Median   0.50 Mean   0.64 Std   0.71 Max  11.20
+HDL_over_LDL :: Stats year :: 2007 :: Males   :: N 342749 non-zeros 342561 Median   0.50 Mean   0.62 Std   0.66 Max  10.30
+HDL_over_LDL :: Stats year :: 2008 :: Males   :: N 363368 non-zeros 363311 Median   0.50 Mean   0.61 Std   0.66 Max  10.50
+HDL_over_LDL :: Stats year :: 2009 :: Males   :: N 376934 non-zeros 376885 Median   0.50 Mean   0.61 Std   0.66 Max  10.40
+HDL_over_LDL :: Stats year :: 2010 :: Males   :: N 373055 non-zeros 373019 Median   0.50 Mean   0.57 Std   0.53 Max   8.50
+HDL_over_LDL :: Stats year :: 2011 :: Males   :: N 378377 non-zeros 378338 Median   0.50 Mean   0.59 Std   0.56 Max   9.00
+HDL_over_LDL :: Stats year :: 2012 :: Males   :: N 377327 non-zeros 377284 Median   0.50 Mean   0.57 Std   0.48 Max   7.70
+HDL_over_LDL :: Stats year :: 2013 :: Males   :: N 366597 non-zeros 366559 Median   0.50 Mean   0.58 Std   0.47 Max   7.50
+HDL_over_LDL :: Stats year :: 2014 :: Males   :: N 325796 non-zeros 325753 Median   0.50 Mean   0.58 Std   0.41 Max   6.70
+HDL_over_LDL :: Stats year :: 2015 :: Males   :: N 271711 non-zeros 271688 Median   0.50 Mean   0.58 Std   0.42 Max   6.80
+HDL_over_LDL :: Stats year :: 2016 :: Males   :: N 10201 non-zeros 10201 Median   0.50 Mean   0.55 Std   0.34 Max   5.10
+HDL_over_LDL :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL_over_LDL :: Stats year :: 2000 :: Females :: N 35167 non-zeros 34990 Median   0.40 Mean   0.79 Std   1.15 Max  14.20
+HDL_over_LDL :: Stats year :: 2001 :: Females :: N 64263 non-zeros 64089 Median   0.50 Mean   0.91 Std   1.33 Max  20.00
+HDL_over_LDL :: Stats year :: 2002 :: Females :: N 104424 non-zeros 104235 Median   0.50 Mean   0.87 Std   1.18 Max  18.50
+HDL_over_LDL :: Stats year :: 2003 :: Females :: N 165539 non-zeros 165189 Median   0.50 Mean   0.75 Std   0.94 Max  14.80
+HDL_over_LDL :: Stats year :: 2004 :: Females :: N 244034 non-zeros 243846 Median   0.50 Mean   0.68 Std   0.73 Max  11.10
+HDL_over_LDL :: Stats year :: 2005 :: Females :: N 283081 non-zeros 282940 Median   0.50 Mean   0.70 Std   0.68 Max  10.50
+HDL_over_LDL :: Stats year :: 2006 :: Females :: N 321293 non-zeros 321044 Median   0.50 Mean   0.69 Std   0.64 Max  10.30
+HDL_over_LDL :: Stats year :: 2007 :: Females :: N 340883 non-zeros 340710 Median   0.50 Mean   0.67 Std   0.59 Max   9.50
+HDL_over_LDL :: Stats year :: 2008 :: Females :: N 360196 non-zeros 360160 Median   0.50 Mean   0.66 Std   0.59 Max   9.30
+HDL_over_LDL :: Stats year :: 2009 :: Females :: N 373768 non-zeros 373750 Median   0.50 Mean   0.66 Std   0.58 Max   9.40
+HDL_over_LDL :: Stats year :: 2010 :: Females :: N 367712 non-zeros 367688 Median   0.50 Mean   0.62 Std   0.46 Max   7.50
+HDL_over_LDL :: Stats year :: 2011 :: Females :: N 374428 non-zeros 374405 Median   0.50 Mean   0.64 Std   0.50 Max   8.10
+HDL_over_LDL :: Stats year :: 2012 :: Females :: N 375231 non-zeros 375200 Median   0.50 Mean   0.62 Std   0.44 Max   7.20
+HDL_over_LDL :: Stats year :: 2013 :: Females :: N 367276 non-zeros 367261 Median   0.50 Mean   0.64 Std   0.44 Max   7.20
+HDL_over_LDL :: Stats year :: 2014 :: Females :: N 328641 non-zeros 328631 Median   0.50 Mean   0.64 Std   0.40 Max   6.60
+HDL_over_LDL :: Stats year :: 2015 :: Females :: N 274206 non-zeros 274190 Median   0.50 Mean   0.64 Std   0.40 Max   6.50
+HDL_over_LDL :: Stats year :: 2016 :: Females :: N 9645 non-zeros 9645 Median   0.50 Mean   0.62 Std   0.37 Max   6.20
+HDL_over_LDL :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL_over_LDL :: Stats month 1 :: All :: N 484473 non-zeros 484329 Median   0.50 Mean   0.63 Std   0.61 Max   9.70
+HDL_over_LDL :: Stats month 2 :: All :: N 480626 non-zeros 480460 Median   0.50 Mean   0.63 Std   0.61 Max   9.70
+HDL_over_LDL :: Stats month 3 :: All :: N 501142 non-zeros 500982 Median   0.50 Mean   0.63 Std   0.62 Max   9.80
+HDL_over_LDL :: Stats month 4 :: All :: N 442309 non-zeros 442171 Median   0.50 Mean   0.63 Std   0.60 Max   9.60
+HDL_over_LDL :: Stats month 5 :: All :: N 452730 non-zeros 452589 Median   0.50 Mean   0.64 Std   0.61 Max   9.70
+HDL_over_LDL :: Stats month 6 :: All :: N 466567 non-zeros 466393 Median   0.50 Mean   0.63 Std   0.61 Max   9.70
+HDL_over_LDL :: Stats month 7 :: All :: N 473077 non-zeros 472917 Median   0.50 Mean   0.63 Std   0.60 Max   9.70
+HDL_over_LDL :: Stats month 8 :: All :: N 446396 non-zeros 446287 Median   0.50 Mean   0.63 Std   0.60 Max   9.60
+HDL_over_LDL :: Stats month 9 :: All :: N 473400 non-zeros 473247 Median   0.50 Mean   0.63 Std   0.59 Max   9.40
+HDL_over_LDL :: Stats month 10 :: All :: N 499772 non-zeros 499600 Median   0.50 Mean   0.63 Std   0.59 Max   9.50
+HDL_over_LDL :: Stats month 11 :: All :: N 487294 non-zeros 487121 Median   0.50 Mean   0.63 Std   0.60 Max   9.60
+HDL_over_LDL :: Stats month 12 :: All :: N 388987 non-zeros 388878 Median   0.50 Mean   0.63 Std   0.60 Max   9.50
+

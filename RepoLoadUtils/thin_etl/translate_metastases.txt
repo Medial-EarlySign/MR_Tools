@@ -1,0 +1,7 @@
+READCODE_DESC	STATUS_TYPE_ORGAN
+Liver metastases	Metastases To,Digestive System,Liver
+Secondary malig neop of large intestine or rectum NOS	Metastases To,Digestive System,Small Intestine and Rectum
+Secondary malignant neoplasm of large intestine and rectum	Metastases To,Digestive System,Large Intestine and Rectum
+Secondary malignant neoplasm of liver	Metastases To,Digestive System,Liver
+Secondary malignant neoplasm of lung	Metastases To,Respiratory System,Lung and Bronchus
+Secondary malignant neoplasm of rectum	Metastases To,Digestive System,Colon and Rectum

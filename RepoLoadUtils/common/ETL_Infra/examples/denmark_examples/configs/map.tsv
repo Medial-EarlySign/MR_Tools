@@ -1,0 +1,4314 @@
+source	count	destination
+Creatinine::Kreatinin;P	264698	Creatinine
+Potassium::Kalium;P	246041	K+
+Sodium::Natrium;P	243053	Na
+Hemoglobin::Hæmoglobin;B	227276	Hemoglobin
+eGFR / 1,73m2(CKD-EPI)	212363	IGNORE
+Leucocytes::Leukocytter;B	210696	WBC
+CRP::C-reaktivt protein [CRP];P	199359	CRP
+Albumin::Albumin;P	182357	Albumin
+Trombocytter;B	128115	Platelets
+Neutrophils::Neutrofilocytter;B	127791	Neutrophils#
+Alanintransaminase::Alanintransaminase [ALAT];P	122266	ALT
+Karbamid;P	112879	Urea
+pCO2;P(aB)	110401	IGNORE
+O2 sat.;Hb(aB)	110175	IGNORE
+pO2;P(aB)	110086	IGNORE
+pH;P(aB)	109561	IGNORE
+Hydrogencarbonat (standard) ;P(aB)	107713	IGNORE
+Alkaline_phosphatase::Basisk fosfatase;P	107171	ALKP
+Hemoglobin::Hæmoglobin;B(aB)	106227	Hemoglobin
+Laktat;P(aB)	104958	IGNORE
+Potassium::Kalium;P(aB)	103602	K+
+Natrium;P(aB)	103395	Na
+Metamyelo.+Myelo.+Promyelocytter;B	102798	IGNORE
+Glukose;P(aB)	98180	Glucose
+Lymphocytes::Lymfocytter;B	95508	Lymphocytes#
+Eosinophils::Eosinofilocytter;B	94586	Eosinophils#
+Monocytes::Monocytter;B	93275	Monocytes#
+Basophils::Basofilocytter;B	93032	Basophils#
+Carbonmonoxidhæmoglobin;Hb(aB)	92617	IGNORE
+Base excess (aktuel);P(aB)	88297	IGNORE
+Erytrocytter, vol.fr.;B(aB)	85944	RBC
+Bilirubiner;P	81570	Bilirubin
+Calcium::Calcium-ion frit;P(aB)	77375	Ca
+Methæmoglobin;Hb(aB)	76827	IGNORE
+Calcium::Calcium-ion frit (pH=7,4);P(aB)	69042	Ca
+INR::Koagulationsfaktor II+VII+X [INR];P	68803	INR
+Klorid;P(aB)	60099	Cl
+eGFR ml/min per 1,73 m2;Nyre	58466	IGNORE
+Erytrocytter, vol.fr.;B	57259	RBC
+Hba1c::Hæmoglobin A1c (IFCC);Hb(B)	53510	HbA1C
+Glukose, middel (fra HbA1c);P	53486	IGNORE
+Calcium::Calcium-ion frit (pH=7,4);P	50704	Ca
+Thyrotropin [TSH];P	50152	TSH
+Oxyhæmoglobin;Hb(tot.;aB)	50041	IGNORE
+gamma-Glutamyltransferase;P	50000	IGNORE
+Elektrokardiografi [EKG12];Pt	47863	IGNORE
+Cholesterol::Kolesterol;P	45589	Cholesterol
+Triglycerides::Triglycerid;P	44150	Triglycerides
+HDL::Kolesterol HDL;P	43630	HDL
+Calcium::Calcium;P	42820	Ca
+Amylase, pancreatic::Amylase, pancreastype;P	40135	Amylase
+O2-flow;Pt	39748	IGNORE
+Thyreoideaudredning;P	39470	TSH
+LDH::Laktatdehydrogenase;P	35320	LDH
+Glucose::Glukose;P	35252	Glucose
+LDL::Kolesterol LDL;P	34359	LDL
+pH;P	31649	IGNORE
+O2 (indgivet - %);Pt	29220	IGNORE
+Fosfat;P	27883	IGNORE
+LDH::Laktatdehydrogenase [LDH];P	27730	LDH
+Glucose::Glukose;P(kB)	27454	Glucose
+Vitamin B12;P	26611	B12
+Glukose (POCT);P(kB)	24980	Glucose
+Creatinine::Kreatinin;P(aB)	24410	Creatinine
+Magnesium;P	23309	Mg
+Urat;P	23081	Uric_Acid
+Ferretin::Ferritin;P	23059	Ferritin
+MCV::Erytrocytvolumen (middel) [MCV];B	22818	MCV
+MCHC::Hæmoglobin [MCHC];Erc(B)	22470	MCHC-M
+Base excess;Ecv	21236	IGNORE
+pO2 (halvmætn.);Hb(aB)	20981	IGNORE
+Legeme temp.;Pt	18953	IGNORE
+INR::Koagulationsfaktor II+VII+X;P	17927	INR
+Kreatinin;U	17404	IGNORE
+25-Hydroxy-Vitamin D3;P	16683	IGNORE
+Reticulocytter;B	16238	IGNORE
+Jern;P	16137	IGNORE
+Kreatinkinase;P	15898	Creatinine
+Albumin;U	14786	IGNORE
+Hydrogencarbonat (aktuel);P(aB)	14770	IGNORE
+Albumin / Kreatinin-ratio::Albumin / Kreatinin-ratio;U	14660	UrineAlbumin_over_Creatinine
+Folat;P	14377	Follic_Acid
+Koag. overflade-induceret [APTT];P	14317	IGNORE
+Transferrin;P	12592	IGNORE
+Fibrin D-Dimer;P	12326	IGNORE
+Transferrin-mætning;P	12098	IGNORE
+Bloddyrkning (vene)	11317	IGNORE
+MCV::Erytrocytvol. Middel [MCV];Erc(B)	11150	MCV
+Thyroxin frit [T4];P	10535	IGNORE
+LDL::Kolesterol LDL (beregnet);P	10522	LDL
+Hydrogencarbonat (standard);P	10457	IGNORE
+Ilt art blod/ilt indåndingsluft;Pt	10426	IGNORE
+eGFR / 1,73m²(CKD-EPI)	10287	IGNORE
+Immunglobulin G;P	10014	IGNORE
+Troponin T;P	9800	IGNORE
+Glukose - POCT;P(kB)	9429	Glucose
+TEK-hæmolyse index;P	9305	IGNORE
+TEK-Lipæmi index;P	9304	IGNORE
+Immunglobulin M;P	9104	IGNORE
+pCO2 (Pt-temp.);P(aB)	9086	IGNORE
+pH (Pt-temp.);P(aB)	9071	IGNORE
+pO2 (Pt-temp.);P(aB)	9066	IGNORE
+Parathyrin [PTH];P	9040	IGNORE
+Calcium::Calcium-ion frit;P	8970	Ca
+BAC-test;B	8890	IGNORE
+Neutrophils::Neutrophilocytter(modne+umodne);B	8479	Neutrophils#
+Erytrocytter;B	8240	IGNORE
+Immunglobulin A (g/l);P	8214	IGNORE
+eGFR (1,73 mE2);Nyre	7910	IGNORE
+TEK Icterus index;P	7749	IGNORE
+MCH::Hæmoglobinindhold [MCH];Erc(B)	7136	MCH
+Protein;P	6776	IGNORE
+Thyrotropin(diagnostisk);P	6710	IGNORE
+Prostataspecifikt antigen;P	6559	IGNORE
+Dyrkning (bacterium+fungus);B(vB)	6353	IGNORE
+Methæmoglobin;Hb(B)	5509	IGNORE
+Triiodthyronin frit [T3];P	5401	IGNORE
+Haptoglobin;P	5253	IGNORE
+M-komponent;P	5168	IGNORE
+Sedimentationsreaktion;B	5127	IGNORE
+Glucose::Glukose;P(vB)	4793	Glucose
+Hæmoglobin (iFOBT);F	4430	IGNORE
+Troponin I;P	4136	IGNORE
+Erytrocytter, vol.fr. [EVF];B(aB)	4112	IGNORE
+Thyroxin [T4];P	4073	IGNORE
+Zink;P	3719	IGNORE
+Hæmolyse index;P	3652	IGNORE
+Immunglobulin E;P	3611	IGNORE
+Calcium (albuminkorrigeret);P	3512	IGNORE
+CO2 total;P(vB)	3455	IGNORE
+Anion gap(inkl. K+);P(aB)	3294	IGNORE
+Bloddyrkning (vene), 2 sæt	3288	IGNORE
+Laktat;P(vB)	3026	IGNORE
+Protein;U	2949	IGNORE
+25-Hydroxy-Vitamin D(D3+D2);P	2917	IGNORE
+Potassium::Kalium;P(vB)	2799	K+
+Sodium::Natrium;P(vB)	2788	Na
+Erytrocytter, vol.fr. [EVF];B	2659	IGNORE
+Procalcitonin;P	2614	IGNORE
+Neutrophils::Neutrophilocytter (modne+umodne); B	2610	Neutrophils#
+Creatinine::Kreatinin;P(vB)	2592	Creatinine
+Triiodthyronin [T3];P	2576	IGNORE
+Karbamid;U	2535	IGNORE
+Triglycerides::Triglycerid;P(fPt)	2330	Triglycerides
+Kreatinkinase MB;P	2301	IGNORE
+Erytrocytvol. rel. spredning;Erc(B)	2204	IGNORE
+Volumen;Pt(U)	2152	IGNORE
+Urinopsamlingstid;Pt	2055	IGNORE
+Fibrinogen (koag.);P	2054	IGNORE
+Bloddyrkning (vene), 2 sæt;B	2042	IGNORE
+Kortisol;P	2033	IGNORE
+Thyroxinbindingskap. [T4-uptake];P	1839	IGNORE
+Blodtype(ABO; Rh D);Erc(B)	1829	IGNORE
+Myelocytter;B	1809	IGNORE
+Natrium;U	1750	IGNORE
+Pro-brain natriur.peptid [proBNP];P	1719	IGNORE
+Dyrkning (bacterium+fungus);B	1685	IGNORE
+Kreatinin;Pt(U)	1679	IGNORE
+Hemoglobin::Hæmoglobin;B(vB)	1665	Hemoglobin
+Cholesterol::Kolesterol;P(fPt)	1642	Cholesterol
+HDL::Kolesterol HDL;P(fPt)	1638	HDL
+LDL::Kolesterol LDL;P(fPt)	1638	LDL
+Myoglobin;P	1634	IGNORE
+Digoxin;P	1622	IGNORE
+Orosomucoid;P	1612	IGNORE
+M-komponent(0 1);P	1586	IGNORE
+Lambda-kæde(Ig) frit;P	1571	IGNORE
+Kappa-kæde(Ig) frit;P	1571	IGNORE
+Kappa/Lambda-kæde(Ig) frit;P	1570	IGNORE
+Metamyelocytter;B	1529	IGNORE
+25-OH-Vitamin D(D3+D2);P	1512	IGNORE
+Antitrypsin;P	1491	IGNORE
+Rheumafaktor(IgM);P	1491	IGNORE
+Cor.SARS(COVID19)DNA/RNA ;Sekr	1476	IGNORE
+Klorid;P	1418	IGNORE
+Kalium;U	1414	IGNORE
+Ethanol;P	1350	IGNORE
+Aspergillus fumigatus (m3)-IgE;P	1345	IGNORE
+Dyrkning (bacterium+fungus);B sæt2	1334	IGNORE
+Peptidyldipeptidase A [ACE];P	1305	IGNORE
+Kreatinin-clearance;Nyre	1304	IGNORE
+Erytroblaster;B	1285	IGNORE
+Immunglobulin A;P	1263	IGNORE
+Cykl.citrul.peptid-IgG [CCP];P	1244	IGNORE
+Protein;Pt(U)	1224	IGNORE
+Cancer-antigen 125;P	1206	IGNORE
+Birk (t3)-IgE;P	1169	IGNORE
+Eng-rottehale (g6)-IgE;P	1165	IGNORE
+Derm. pteronyssinus (d1)-IgE;P	1163	IGNORE
+Testosteron;P	1155	IGNORE
+Grå bynke (w6)-IgE;P	1143	IGNORE
+Derm. farinae (d2)-IgE;P	1142	IGNORE
+Hundeskæl (e5)-IgE;P	1129	IGNORE
+Bindevævssygdom-relateret-Ab[ANA];P	1102	IGNORE
+Karbamid;Pt(U)	1099	IGNORE
+Dyrkning (bacterium+fungus) 2.sæt;B	1080	IGNORE
+Hepatitis B virus s(Ag) [HBsAg];P	1074	IGNORE
+Hepatitis C virus-Ab [HCV-Ab];P	1073	IGNORE
+Hesteskæl (e3)-IgE;P	1053	IGNORE
+Dyrkning (bacterium+fungus) 2 sæt;B	1051	IGNORE
+O2 (indgivet - fraktion);Pt	1041	IGNORE
+Smudge celler;B	1036	IGNORE
+Aspartattransaminase [ASAT];P	1029	IGNORE
+Hepatitis B virus c-Ab [Anti-HBc];P	1027	IGNORE
+Methylmalonat;P	1008	IGNORE
+Antitrombin (enz.);P	1001	IGNORE
+Lipæmi index;P	988	IGNORE
+Icterisk index;P	988	IGNORE
+O2 (indgivet - fraktion):Pt	982	IGNORE
+alfa-1-Føtoprotein;P	982	IGNORE
+Glukose(diag.);P(vB; fPt)	963	IGNORE
+Follitropin [FSH];P	960	IGNORE
+Calprotectin;F	952	IGNORE
+Antitrombin (enz.; trombin);P	951	IGNORE
+Tacrolimus;B	935	IGNORE
+Dyrkning (bacterium+fungus)2.sæt;B	924	IGNORE
+Lymfocytter (variantform);B	923	IGNORE
+Calcium::Calcium-ion frit (pH=7,4);P(vB)	906	Ca
+Thyroidperoxidase-Ab;P	902	IGNORE
+Reticulocytter;Erc(B)	900	IGNORE
+pH;P(vB)	895	IGNORE
+Lutropin [LH];P	891	IGNORE
+INR::Koag.Fakt.II+V+VII+X [INR]POCT;P	882	INR
+Kaninepitel (e82)-IgE;P	849	IGNORE
+Sexualhormonbindende globulin;P	844	IGNORE
+Thyreoidea-stim.+blok. immungl;P	839	IGNORE
+Rheumafaktor;P	832	IGNORE
+pCO2;P(vB)	826	IGNORE
+Lithium;P	823	IGNORE
+Skimmelsvamp (m1;2;3;6)-IgE;P	821	IGNORE
+T-uptake;P	819	IGNORE
+Thyroxinbindingskapacitet;P	802	IGNORE
+Carbonmonoxidhæmoglobin;Hb(B)	797	IGNORE
+Kortikotropin;P	789	IGNORE
+Nøgne kerner;B	781	IGNORE
+HIV 1+2 (Ag+Ab);P	779	IGNORE
+Vancomycin;P	769	IGNORE
+Hepatitis B virus, tolkning	768	IGNORE
+Hba1c::Hæmoglobin A1c;Hb(B)	753	IGNORE
+Alternaria tenuis (m6)-IgE;P	752	IGNORE
+Inhalationsantigenpanel-IgE;P	751	IGNORE
+Nucleært-IgG [ANA];arb.k.;P	748	IGNORE
+P-ANCA(IgG) (semikvant);P	740	IGNORE
+C-ANCA(IgG) (semikvant);P	740	IGNORE
+Erytrocytter 0-forlig;Erc(B)	732	IGNORE
+Base excess (aktuel);P(vB)	730	IGNORE
+IgG (kappa;monoklonalt);P	719	IGNORE
+Aspergillus fumigatus (m3)-IgG;P	713	IGNORE
+pO2;P(vB)	713	IGNORE
+Cladosporium herbarum(m2)-IgE;P	703	IGNORE
+Antitrombin;P	684	IGNORE
+Cykl.citrul.peptid-Ab(IgG) [CCP];P	682	IGNORE
+Thyreoideakontrol (Myxødem);P	661	IGNORE
+Blastceller(uspec.);B	660	IGNORE
+Bloddyrkning (CVK)	644	IGNORE
+Lægekommenteret svar (TEK)	642	IGNORE
+Nitrit (semikvant);U	609	IGNORE
+Leukocytter(semikvant);U	607	IGNORE
+Pro-brain natriuretisk pept.[BNP];P	606	IGNORE
+MetHæmoglobin;Hb(vB)	581	IGNORE
+DNA (dobbeltstrenget)-IgG;P	573	IGNORE
+Neutrophils::Neutrophilocytter(modne+umodne); B	570	Neutrophils#
+Katteepitel (e1)-IgE;P	568	IGNORE
+Proteinase 3-IgG [PR3];P	567	IGNORE
+Thyroxin frit [T4]-index;P	565	IGNORE
+Transglutaminase-IgA [tTG];P	562	IGNORE
+Glukose(semikvant);U	559	IGNORE
+Myeloperoxidase-IgG [MPO];P	557	IGNORE
+Protein(semikvant);U	556	IGNORE
+Sjøgren syndrom [SSB]-IgG;P	555	IGNORE
+Katteskæl (e1)-IgE;P	554	IGNORE
+Karbamid-clearance;Nyre	552	IGNORE
+Bloddyrkning (arteriekanyle)	546	IGNORE
+Hepatitis B virus s-Ab;P	540	IGNORE
+Epstein-Barr virus(DNA);P	535	IGNORE
+Teknisk Kortikotropin;P	533	IGNORE
+Prolaktin;P	531	IGNORE
+Kappa/Lambda kæde (Ig)(frit);P	517	IGNORE
+Prokollagen III, N-term.propeptid;P	512	IGNORE
+Nucleært-Ab(IgG) [ANA];arb.k.;P	505	IGNORE
+Teknisk Copeptin;P	491	IGNORE
+O2 sat.;Hb(vB)	489	IGNORE
+Promyelocytter;B	478	IGNORE
+60 kDa Ro Protein-IgG;P	475	IGNORE
+Cytomegalovirus(DNA);P	471	IGNORE
+Carcinoembryonalt antigen;P	467	IGNORE
+Laktoseintolerans, MCM6-gen;DNA	466	IGNORE
+Plasmocytter;B	459	IGNORE
+INR::Koag.Fakt.II+V+VII+X [INR];P	458	INR
+Leversygdom (MELD score);Pt	443	IGNORE
+Hepatitis (B,C),kronisk,udredning;P	442	IGNORE
+DNA topoisomerase1-IgG [Scl70];P	440	IGNORE
+Acetoacetat(semikvant);U	438	IGNORE
+Insulinlignende vækstfaktor I;P	438	IGNORE
+Tryptase;P	436	IGNORE
+Sjøgren syndrom [SSA]-IgG;P	430	IGNORE
+Streptococcus pneumoniae-Ab(IgG);P	427	IGNORE
+Histidin-tRNA-ligase[Jo1]-IgG;P	423	IGNORE
+Teknisk ADM[45-92];P	422	IGNORE
+Hepatitis B virus s-Ag;P	420	IGNORE
+Status ved fremmøde	416	IGNORE
+Teknisk suPAR;P	413	IGNORE
+Klorid;P(vB)	412	IGNORE
+Hepatitis B virus c-Ab;P	410	IGNORE
+Erytrocytter, vol.fr.;B(vB)	408	IGNORE
+Ciclosporin;B	400	IGNORE
+IgG (lambda;monoklonalt);P	392	IGNORE
+Protein;Plv	385	IGNORE
+Major centromere B-IgG;P	383	IGNORE
+Hepatitis C virus-Ab;P	379	IGNORE
+Proinsulin C-peptid;P(fPt)	373	IGNORE
+pH;U	371	IGNORE
+Smiths-IgG;P	368	IGNORE
+Allergi-ude;P	363	IGNORE
+beta-2-Mikroglobulin;P	359	IGNORE
+Mitogen-kontrol;T-lymc(B)	359	IGNORE
+Leukocytter;Plv	359	IGNORE
+NIL-kontrol;T-lymc(B)	359	IGNORE
+Koagf.II+VII+X;rel.tid(akt./norm);P	357	IGNORE
+Natrium;Pt(U)	354	IGNORE
+Allergi-inde;P	353	IGNORE
+Glukose;Plv	349	IGNORE
+Histon-IgG;P	343	IGNORE
+Ribosomal protein-IgG [Rib P];P	341	IGNORE
+dFLC;P	341	IGNORE
+Teknisk Thyroxin;P	340	IGNORE
+MCH::Tekn Hæmoglobinindhold [MCH];Erc(B)	339	MCH
+Teknisk Erytrocytter, vol.fr.;B(vB)	339	IGNORE
+MCHC::Teknisk Hæmoglobin [MCHC];Erc(B)	339	MCHC-M
+Tek.Erytrocytvolumen(middel) MCV;B	339	IGNORE
+Teknisk Erytrocytter, vol.fr.;B	339	IGNORE
+Tekninsk Erytrocytter;B	339	IGNORE
+Teknisk Erytrocytvol. rel. sprednin	339	IGNORE
+Teknisk Trombocytvolumen (middel);B	339	IGNORE
+Teknisk Reticulocytter;B	339	IGNORE
+Teknisk Trombocytter PDW;B	339	IGNORE
+Teknisk Oxyhæmoglobin;Hb(tot.;vB)	338	IGNORE
+Teknisk Fibrin D-Dimer;P	338	IGNORE
+Teknisk Thyroxin frit [T4];P	338	IGNORE
+GLP58 - dummy	338	IGNORE
+Teknisk Orosomucoid;P	338	IGNORE
+Teknisk Fosfat;P	338	IGNORE
+Teknisk MetHæmoglobin;Hb(vB)	338	IGNORE
+Teknisk Kalium;P(vB)	338	IGNORE
+Teknisk Kortisol;P	338	IGNORE
+Teknisk Transferrinreceptor-fragm;P	338	IGNORE
+Teknisk Antitrypsin;P	338	IGNORE
+Hemoglobin::Teknisk Hæmoglobin;B(vB)	338	Hemoglobin
+Teknisk O2 sat.;Hb(vB)	338	IGNORE
+Teknisk Calcium-ion frit;P	338	IGNORE
+Teknisk Ferritin;P	338	IGNORE
+Teknisk 3-Hydroxybutyrat,massek.;P	338	IGNORE
+Teknisk fructosamin;P	338	IGNORE
+Teknisk Base excess (aktuel);P(vB)	338	IGNORE
+Sodium::Teknisk Natrium;P(vB)	338	Na
+Teknisk Troponin T;P	338	IGNORE
+Teknisk Desert,blod 2	338	IGNORE
+Teknisk Myoglobin,massek.;P	338	IGNORE
+Teknisk Immunglobulin M;P	338	IGNORE
+Teknisk Klorid;P	338	IGNORE
+Tekn. Aspartattransaminase [ASAT];P	338	IGNORE
+Teknisk Interleukin-6;P	338	IGNORE
+Teknisk CO2 total;P(vB)	338	IGNORE
+Teknisk Zink;P	338	IGNORE
+Tek.Pro-brain natriur.peptid[proBNP	338	IGNORE
+Teknisk Jern;P	338	IGNORE
+Creatinine::Teknisk Kreatinin;P(vB)	338	Creatinine
+Tek. Calcium-ion frit (pH=7,4);P(vB	338	IGNORE
+Teknisk Antitrombin (enz.);P	338	IGNORE
+Teknisk Ethanol;P	338	IGNORE
+P-Teknisk Neutrophil gelatinase-ass	338	IGNORE
+Teknisk lactat;P	338	IGNORE
+Teknisk pO2;P(vB)	338	IGNORE
+Tekn. Hydrogencarbonat (standard);P	338	IGNORE
+Tek.Koag.overflade-induceret APTT;P	338	IGNORE
+Teknisk Procalcitonin;P	338	IGNORE
+Teknisk Fibrinogen (koag.);P	338	IGNORE
+Teknisk Folat;P	338	IGNORE
+Teknisk Thyrotropin [TSH];P	338	IGNORE
+Teknisk Parathyrin [PTH];P	338	IGNORE
+HDL::Teknisk Kolesterol HDL;P	338	HDL
+Cholesterol::Teknisk Kolesterol;P	338	Cholesterol
+Teknisk Kreatinkinase;P	338	IGNORE
+Teknisk Urat;P	338	IGNORE
+Teknisk Haptoglobin;P	338	IGNORE
+Teknisk Klorid;P(vB)	338	IGNORE
+Teknisk Triacylglycerollipase;P	338	IGNORE
+Teknisk Desert, blod 3	338	IGNORE
+Teknisk Laktat;P(vB)	338	IGNORE
+Teknisk Vitamin B12;P	338	IGNORE
+Teknisk Thyroxinbindingskapacitet;P	338	IGNORE
+Teknisk Immunglobulin G;P	338	IGNORE
+Teknisk Magnesium;P	338	IGNORE
+Glucose::Teknisk Glukose;P(vB)	338	Glucose
+LDL::Teknisk Kolesterol LDL;P	338	LDL
+Teknisk pH;P(vB)	338	IGNORE
+Teknisk Immunglobulin A (g/l);P	338	IGNORE
+Tekn. Carbonmonoxidhæmoglobin;Hb(B)	338	IGNORE
+Teknisk Transferrin;P	338	IGNORE
+Teknisk Protein;P	338	IGNORE
+Teknisk Cystacin C;P	338	IGNORE
+Teknisk Triiodthyronin frit [T3];P	338	IGNORE
+Teknisk Triglycerid;P	338	IGNORE
+Teknisk pCO2;P(vB)	338	IGNORE
+Teknisk Triiodthyronin;P	338	IGNORE
+Teknisk gamma-Glutamyltransferase;P	338	IGNORE
+Østradiol;P	337	IGNORE
+Direkte antiglobulin test;Erc(B)	337	IGNORE
+Smith-RNP-IgG;P	337	IGNORE
+U1 snRNP 70 kDa-IgG;P	337	IGNORE
+Desert registrering Blod	336	IGNORE
+Streptococcus pneumoniae-IgG;P	335	IGNORE
+Transglutaminase-Ab(IgA) [tTG];P	330	IGNORE
+Erytroblaster;Erc(B)	329	IGNORE
+Bacterium+fungus;B	328	IGNORE
+Desert	327	IGNORE
+Kalium;Pt(U)	313	IGNORE
+Clozapin;P	312	IGNORE
+Ferroxidase;P	306	IGNORE
+Kortisol frit;U	304	IGNORE
+Paracetamol;P	304	IGNORE
+Dyrkning (bacterium+fungus);U	301	IGNORE
+BF-test (0-forlig);P	298	IGNORE
+Candida albicans (m5)-IgE;P	297	IGNORE
+Erytrocytter(semikvant);U	292	IGNORE
+T-lymfocytter(helper);B	291	IGNORE
+Leukocytter;Csv	290	IGNORE
+Koriogonadotropin+beta [HCG];P	290	IGNORE
+Glukose;Csv	289	IGNORE
+Erytrocytter;Csv	288	IGNORE
+Protein;Csv	287	IGNORE
+U1 snRNP(70 kDa+A+C)-IgG;P	284	IGNORE
+Ilt art blod/ilt indåndingsluft;aB	283	IGNORE
+3-Methoxyadrenalin;P	280	IGNORE
+3-Methoxynoradrenalin;P	280	IGNORE
+Interferon gamma-frigør.;T-lymc(B)	279	IGNORE
+M-komponent type;P	276	IGNORE
+Gyldig: plprvt.dato -10 til +30dage	273	IGNORE
+Cylinder, hyalin type;U	273	IGNORE
+Osmolalitet;U	269	IGNORE
+P-Teknisk Lactat på Na-Flourid/Oxa	268	IGNORE
+Proteinase 3-Ab(IgG) [PR3];P	267	IGNORE
+Deam. gliadin peptid-IgG[DGP];P	267	IGNORE
+Testosteron / SHBG;P	265	IGNORE
+Testosteron frit;P	264	IGNORE
+Myeloperoxidase-Ab(IgG) [MPO];P	263	IGNORE
+Aspergillus (galactomannan Ag);P	262	IGNORE
+Neutrofilocytter(segmentkernede);B	260	IGNORE
+Gentamicin;P	258	IGNORE
+Cytomegalovirus(DNA,kvant.) [CMV];P	257	IGNORE
+Kortisol (0 min);P	257	IGNORE
+Cylinder, granulær type;U	255	IGNORE
+Erytropoietin;P	252	IGNORE
+Hepatitis A virus, tolkning	251	IGNORE
+Blod;U	250	IGNORE
+M-komp. TOP 2+ Konc.(TEK)	248	IGNORE
+M-komp. TOP 1 (TEK)	248	IGNORE
+Kortisol (30 min);P	247	IGNORE
+Leukocytter(mononukl.);Plv	245	IGNORE
+Complement C4c;P	245	IGNORE
+Leukocytter(polynukl.);Plv	244	IGNORE
+Dehydroepiandrosteronsulf.[DHEAS];P	236	IGNORE
+Ammonium;P	235	IGNORE
+INR::Koag.Fakt.II+V+VII+X [INR] - POCT;P	235	INR
+Osmolalitet;P	227	IGNORE
+M-komponent;U	227	IGNORE
+Complement C3c;P	225	IGNORE
+Androstendion;P	224	IGNORE
+Teknisk hjælpeanalyse nr 01 blå;P	224	IGNORE
+Thyreiodea behandlingsktr.grp	220	IGNORE
+Testosteron(LC-MS/MS);P	219	IGNORE
+Kortisol frit;Pt(U)	218	IGNORE
+DNA (dobbeltstrenget)-Ab(IgG);P	218	IGNORE
+M-komponent(0 1);U	218	IGNORE
+Salicylat;P	216	IGNORE
+Hepatitis A virus-IgM [HAV];P	216	IGNORE
+Hæmoglobin;F	214	IGNORE
+Interleukin 2-receptor (IL2R);P	214	IGNORE
+17-Hydroxyprogesteron;P	213	IGNORE
+Hepatitis C virus(RNA);P	205	IGNORE
+Renin;P	205	IGNORE
+Deam. gliadin peptid-Ab(IgG)[DGP];P	203	IGNORE
+Coronav. SARS(COVID-19)DNA/RNA;Sekr	203	IGNORE
+Actin-IgG;P	203	IGNORE
+Kreatinin-clearance.;Nyre	201	IGNORE
+pH;P(kB)	200	IGNORE
+Cancer occulta, profil;P	200	IGNORE
+pCO2;P(kB)	200	IGNORE
+Hydrogencarbonat (standard);P(kB)	200	IGNORE
+Laktatdehydrogenase [LDH];Plv	197	IGNORE
+Erytrocytter;Plv	196	IGNORE
+Venlafaxin;P	195	IGNORE
+Glomerulær basalmembran-IgG;P	195	IGNORE
+Pyrofosfatkrystaller;Ledv	194	IGNORE
+Uratkrystaller;Ledv	194	IGNORE
+Venlafaxin+OD-venlafaxin;P	192	IGNORE
+Base excess (aktuel);P(kB)	192	IGNORE
+OD-venlafaxin;P	192	IGNORE
+CCP (Cykl.citrul.peptid)-Ab (IgG);P	191	IGNORE
+TB1 antigen;CD4-lymc(B)	190	IGNORE
+P-Thyreoideaudredning	189	IGNORE
+TB2 antigen;CD8-lymc(B)	188	IGNORE
+Cytomegalovirus IgG+IgM;P	188	IGNORE
+Valproat;P	187	IGNORE
+pH;Plv	187	IGNORE
+Kromogranin A;P	187	IGNORE
+Lamotrigin;P	186	IGNORE
+Laktatdehydrogenase;Plv	186	IGNORE
+Bakterier (screening);U	185	IGNORE
+Teknisk analyse 3, 25OHD3	185	IGNORE
+ANCA(IgG) (semikvant) gruppe;P	185	IGNORE
+Hepatitis (A,B,C), akut udredning;P	183	IGNORE
+Neutrofilocytter(stavkernede);B	183	IGNORE
+pO2;P(kB)	181	IGNORE
+O2 sat.;Hb(kB)	181	IGNORE
+Penicillin V (c2)-IgE;P	180	IGNORE
+Hepatitis A virus-Ab;P	175	IGNORE
+Penicillin G (c1)-IgE;P	175	IGNORE
+Epstein-Barr virus-antistof;P	174	IGNORE
+Calcium::Calcium-ion frit;P(kB)	174	Ca
+Hemoglobin::Hæmoglobin;B(kB)	172	Hemoglobin
+Cylinder, erytrocyttype;U	172	IGNORE
+Hyaluronsyre;P	170	IGNORE
+Leukocytter;Asc	170	IGNORE
+M-komponent (immunfiksation);P	169	IGNORE
+Teknisk Albumin;U	167	IGNORE
+Teknisk Kreatinin;U	167	IGNORE
+Anion gap(inkl. K+);P	167	IGNORE
+Desert (Urin)	167	IGNORE
+Oxyhæmoglobin;Hb(tot.;kB)	165	IGNORE
+Glutamatdecarboxylase(gad65)-Ab;P	163	IGNORE
+Albumin;Plv	162	IGNORE
+Parvovirus B-19-Ab(IgM);P	162	IGNORE
+Hepatitis B virus c-IgM [HBc-IgM];P	162	IGNORE
+Teknisk Erythrocytter;U	162	IGNORE
+Desert registrering Urin	161	IGNORE
+Parvovirus B-19-Ab(IgG);P	161	IGNORE
+Cladosporium herbarum (m2)-IgE;P	160	IGNORE
+BF-test;P	158	IGNORE
+Interleukin-6;P	157	IGNORE
+INR::KoagulationF. II+VII+X [INR]POCT;P	156	INR
+Hepatitis C virus(RNA), kvan;P	155	IGNORE
+TEK-iFLASH2	154	IGNORE
+Erytrocytter;U	153	IGNORE
+Leukocytter;U	153	IGNORE
+Parvovirus B-19-IgG;P	152	IGNORE
+Mitokondrie(E2-subunit)-IgG;P	152	IGNORE
+Leukocyttype(bemærkninger);B	152	IGNORE
+Calcium::Calcium-ion frit (pH=7,4);P(kB)	151	Ca
+Hepatitis A virus-IgG [HAV];P	151	IGNORE
+Sodium::Natrium;P(kB)	150	Na
+Nortriptylin;P	150	IGNORE
+Immunglobulin G subklasse gruppe;P	150	IGNORE
+Cylinder, leukocyttype;U	150	IGNORE
+PEth 16:0/18:1;B	148	IGNORE
+Immunglobulin G4;P	148	IGNORE
+Glomerulær basalmembran-Ab(IgG);P	147	IGNORE
+Parvovirus B-19-IgM;P	147	IGNORE
+Interferon gamma-frigør(TB-relat);B	146	IGNORE
+Dyrkning(bacterium+fungus);U(midt)	145	IGNORE
+Hæmoglobin A1c (teknisk);Hb(B)	144	IGNORE
+Hæmoglobin (teknisk);B	144	IGNORE
+Cancer-antigen 19-9;P	143	IGNORE
+Thyreoideaktr (Thyreotoxikose);P	142	IGNORE
+Hydrogencarbonat (aktuel);P(vB)	142	IGNORE
+Hepatitis B virus e-Ab [Anti-HBe];P	140	IGNORE
+Erytrocytter, vol.fr.;B(kB)	140	IGNORE
+52 kDa Ro protein-IgG;P	139	IGNORE
+Methæmoglobin;Hb(kB)	139	IGNORE
+IgM (lambda;monoklonalt);P	139	IGNORE
+Bilirubin konjugeret;P	138	IGNORE
+Pancreaselastase I;F	137	IGNORE
+Potassium::Kalium;P(kB)	136	K+
+Diverse	136	IGNORE
+Aldosteron;P	135	IGNORE
+Lever fibrose (FIB-4);Pt	134	IGNORE
+Kryoglobulin;P	134	IGNORE
+Homocystein;P	134	IGNORE
+Anlæggelse af perifert venekateter	134	IGNORE
+Albumin-ratio;Csv/P	133	IGNORE
+Immunglobulin G;Csv	133	IGNORE
+Albumin;Csv	133	IGNORE
+IgM (kappa;monoklonalt);P	133	IGNORE
+Borrelia burgdorferi-Ab(IgG);P	132	IGNORE
+Sjøgren syndrom [SSB]-Ab(IgG);P	132	IGNORE
+Immunglobulin G (teknisk);P	131	IGNORE
+Cardiolipin-IgG;P	131	IGNORE
+Albumin ratio, blod til;P	131	IGNORE
+Lupus antikoagulans;P	131	IGNORE
+EBNA-IgG;P	128	IGNORE
+IgA (kappa;monoklonalt);P	128	IGNORE
+Complement C3d;P	125	IGNORE
+Nucleært-IgG [ANA];arb.stofk.;P	125	IGNORE
+Carbonmonoxidhæmoglobin;Hb(kB)	125	IGNORE
+Bilirubin ukonjugeret;P	125	IGNORE
+Immunglobulin G(oligoklonalt);Csv	124	IGNORE
+Thyroglobulin;P	124	IGNORE
+Immunglobulin G1;P	123	IGNORE
+Calcium;U	123	IGNORE
+Immunglobulin G2;P	123	IGNORE
+Immunglobulin G3;P	123	IGNORE
+Sirolimus;B	122	IGNORE
+Major centromere B-Ab(IgG);P	122	IGNORE
+Cardiolipin-IgM;P	119	IGNORE
+Borrelia burgd.-Ab IgG+IgM;P	119	IGNORE
+Somatotropin [GH];P	118	IGNORE
+SARS-CoV-2 spike glykoprotein-IgG;B	117	IGNORE
+HIV 1+2(Ab+Ag);P	116	IGNORE
+Anæmiudredning; P	115	IGNORE
+Borrelia burgdorferi-IgG;P	115	IGNORE
+SARS-CoV-2 Spike-Ab;P	115	IGNORE
+Borrelia burgdorferi-Ab(IgM);P	115	IGNORE
+Hepatitis B virus e(Ag) [HBeAg];P	115	IGNORE
+Hepatitis B virus e-Ab;P	114	IGNORE
+Noradrenalin;U	114	IGNORE
+Adrenalin;U	114	IGNORE
+Sjøgren syndrom [SSA]-Ab(IgG);P	112	IGNORE
+Leukocytter(mononukl.);Asc	111	IGNORE
+Leukocytter(polynukl.);Asc	111	IGNORE
+Teknisk ADM[45-92],stofk.	111	IGNORE
+Oxyhæmoglobin;Hb(tot.;vB)	110	IGNORE
+Smittemarkører(arkiv);P	109	IGNORE
+Hæmoglobin(semikvant);U	108	IGNORE
+U1 snRNP A-IgG;P	108	IGNORE
+beta-2-Glykoprotein 1-IgG;P	107	IGNORE
+TEK-iFLASH	106	IGNORE
+Platelets::Trombocytter-citrat;B	106	Platelets
+Calcium;Pt(U)	104	IGNORE
+beta-2-Glykoprotein 1-IgM;P	103	IGNORE
+Cytomegalovirus-IgM [CMV];P	102	IGNORE
+Bilirubiner;P(aB)	102	IGNORE
+Cytomegalovirus-IgG [CMV];P	102	IGNORE
+eGFR (1,73 m²);Nyre	101	IGNORE
+Teknisk analyse 2, 25OHD3	98	IGNORE
+ENA7 screening;P	97	IGNORE
+CSV - ekstra glas;Csv	97	IGNORE
+Protein;Asc	97	IGNORE
+Immunglobulin G/Albumin;Csv/P	96	IGNORE
+Quetiapin;P	96	IGNORE
+DNA topoisomerase1-Ab(IgG)[Scl70];P	96	IGNORE
+Hepatitis A virus-Ab(IgM);P	96	IGNORE
+Erytrocytter(Anisocytose);B	95	IGNORE
+Prostataspecifikt antigen [PSA];P	95	IGNORE
+CO2;P(vB)	95	IGNORE
+Mitochondrie-Ab;P	95	IGNORE
+Hepatitis B virus c-Ab(IgM);P	93	IGNORE
+Bence Jones protein;U	93	IGNORE
+Leukocytter;Ledv	92	IGNORE
+Hepatitis B virus e-Ag;P	92	IGNORE
+Hassel (t4)-IgE;P	91	IGNORE
+Antithrombin (enz.; trombin);P	91	IGNORE
+Gyldig: plprvt.dato -15 til +31dage	91	IGNORE
+HLA-B-gen (B27);DNA	90	IGNORE
+Cardiolipin-Ab(IgG);P	90	IGNORE
+Amylase, pancreastype;Plv	89	IGNORE
+Insulin;P(fPt)	89	IGNORE
+HIV 1+2 (Ab+Ag);P	89	IGNORE
+Thyreiodea behandlingsktr.grp;P	89	IGNORE
+Kobber;P	89	IGNORE
+Protokolprøver	88	IGNORE
+Laktat;P(kB)	88	IGNORE
+Teknisk analyse 1, 25OHD3	88	IGNORE
+Mycoplasma pneumoniae-Ab;P	88	IGNORE
+Antitrombin (enz.; faktor Xa);P	87	IGNORE
+Blod til IgGI-index;P	87	IGNORE
+Prolaktin(monomer);P	87	IGNORE
+Fæces masse;Pt	87	IGNORE
+Itraconazol;P	87	IGNORE
+Epitelceller;U	86	IGNORE
+Penicillium chrysogenum (m1)-IgE;P	86	IGNORE
+Thyreoglobulin-Ab;P	85	IGNORE
+Hepatitis B virus(DNA);P	85	IGNORE
+JAK2-gen;DNA	85	IGNORE
+Mannosebindende lektin;P	84	IGNORE
+TB antigen;T-lymc(B)	83	IGNORE
+Chlamydia-Ab;P	83	IGNORE
+SARS-CoV-2 Nukleokapsid-Ab;P	83	IGNORE
+Phenobarbital;P	83	IGNORE
+IFN-gamma-frig.(TB-rel.);CD8-lymc	83	IGNORE
+Epstein-Barr VCA-IgM [EBV];P	82	IGNORE
+IFN-gamma-frig.(TB-rel.);CD4-lymc	82	IGNORE
+Aspergillus-Ab(IgG);P	82	IGNORE
+Epstein-Barr VCA-IgG [EBV];P	82	IGNORE
+IFN-gamma-frig.(TB-rel.,sum);T-lymc	82	IGNORE
+Levetiracetam;P	82	IGNORE
+HIV 1 RNA (kvant);P	81	IGNORE
+P-Procalcitonin (teknisk)	81	IGNORE
+SARS-CoV-2 (Ag);P	81	IGNORE
+Calcium-ion frit;P(vB;efter filter)	81	IGNORE
+Epstein-Barr virus nukle.-Ab(IgG);P	80	IGNORE
+P -ekstra glas KMA	80	IGNORE
+Itraconazol+Hydroxyitraconazol;P	79	IGNORE
+Hepatitis B virus s-Ab [Anti-HBs];P	79	IGNORE
+Cardiolipin-Ab(IgM);P	78	IGNORE
+Komælk (f2)-IgE;P	78	IGNORE
+Erytrocytter;Asc	78	IGNORE
+Hydroxyitraconazol;P	77	IGNORE
+Amoxicilloyl (c6)-IgE;P	77	IGNORE
+Kortikotropin (0 min);P	77	IGNORE
+Hemoglobin::Hæmoglobin (frit);P	76	Hemoglobin
+Noradrenalin;Pt(U)	76	IGNORE
+Bordetella pertussis-IgG;P	76	IGNORE
+Kortisol-mangl.gr.;Binyrebark	76	IGNORE
+Ampicilloyl (c5)-IgE;P	76	IGNORE
+Hønseæggehvide (f1)-IgE;P	75	IGNORE
+Hvede (f4)-IgE;P	74	IGNORE
+Adrenalin;Pt(U)	74	IGNORE
+P-Thyreoideaudredning gruppe	73	IGNORE
+Voriconazol;P	72	IGNORE
+Cytomegalovirus-Ab(IgM);P	72	IGNORE
+Teknisk analyse 4, 25OHD3	72	IGNORE
+Glucose::Glukose;B	71	Glucose
+Fosforyleret tau;Csv	71	IGNORE
+Laktat;Csv	71	IGNORE
+tau protein;Csv	71	IGNORE
+pCO2;P(cvB)	70	IGNORE
+Elm (t8)-IgE;P	70	IGNORE
+Amiodaron;P	70	IGNORE
+Aldosteron / Renin;P	70	IGNORE
+pO2;P(cvB)	70	IGNORE
+Leukocytter(polynukl.);Ledv	70	IGNORE
+CD4+T-celler;P	70	IGNORE
+Leukocytter(mononukl.);Ledv	70	IGNORE
+Laktat;P(cvB)	70	IGNORE
+Calcitonin;P	70	IGNORE
+P-Teknisk Lactat på Na-Flourid/Hepa	70	IGNORE
+pH;P(cvB)	69	IGNORE
+Hydrogencarbonat (standard);P(cvB)	69	IGNORE
+Potassium::Kalium;P(cvB)	69	K+
+Sodium::Natrium;P(cvB)	69	Na
+Laktat;B(vB)	69	IGNORE
+Thyreiodeakontrol (Myxødem);P	69	IGNORE
+Glucose::Glukose;P(cvB)	69	Glucose
+Calcium::Calcium-ion frit;P(cvB)	69	Ca
+Helicobacter pylori (pustepr.);Mave	68	IGNORE
+Bloddyrkning (CVK), 2 sæt	68	IGNORE
+Dyrkning(Bacterium+fungus);U(kat)	67	IGNORE
+Posaconazol;P	67	IGNORE
+Inhalationsantigenpanel-IgE,kval;P	66	IGNORE
+Treponema-Ab;P	66	IGNORE
+Cytomegalovirus-Ab(IgG);P	65	IGNORE
+Calcium(II)(albuminkorrigeret);P	65	IGNORE
+Amylase, pancreastype;Asc	64	IGNORE
+beta-2-Glykoprotein 1-Ab(IgG);P	63	IGNORE
+Thyroglobulin-Ab;P	63	IGNORE
+Amoxicillin (c204)-IgE;P	63	IGNORE
+Kuldeagglutinin;P	63	IGNORE
+U1 snRNP(70 kDa+A+C)-Ab(IgG);P	63	IGNORE
+Epstein-Barr VCA-Ab(IgM);P	61	IGNORE
+Epstein-Barr VCA-Ab(IgG);P	61	IGNORE
+Heparin, lav molmasse [Anti-Xa];P	61	IGNORE
+Methylmalonat(teknisk2);P	60	IGNORE
+Ampicillin (c203)-IgE;P	60	IGNORE
+Coronavirus SARS-CoV-2-IgG;P	60	IGNORE
+Cobolt;P	60	IGNORE
+NAT-test (HIV,HBV,HCV);P	60	IGNORE
+Alifatisk carboxylat (C14-26);Pt(F)	59	IGNORE
+Glutam.decarb.(gad65)-Ab(IgG);P	59	IGNORE
+Torsk (f3)-IgE;P	59	IGNORE
+Testosteron frit(LC-MS/MS);P	59	IGNORE
+Forgiftningsprøve;P	59	IGNORE
+Mycoplasma pneumoniae-Ab(IgM);P	58	IGNORE
+Venesectio;Pt	58	IGNORE
+Leukocytter(mononukl.);Csv	56	IGNORE
+Actin-Ab(IgG);P	56	IGNORE
+Proinsulin C-peptid;P	56	IGNORE
+Leukocytter(polynukl.);Csv	56	IGNORE
+EDTA lilla 3 ml x 1	55	IGNORE
+Cancer-antigen 50[CA50];P	55	IGNORE
+Projekt LIRA-KOL	55	IGNORE
+Nucleært-Ab(IgG) [ANA];arb.stofk.;P	55	IGNORE
+Wassermann-Ab;P	54	IGNORE
+Krom;P	54	IGNORE
+Legeme vægt;Pt	54	IGNORE
+beta-2-Glykoprotein 1-Ab(IgM);P	54	IGNORE
+Legeme højde;Pt	54	IGNORE
+PaxGene 2,5 ml x 2, DRB	53	IGNORE
+Projekt DRB	53	IGNORE
+Amyloid beta-protein;Csv	53	IGNORE
+Serum rød 10 ml x 2, DRB	53	IGNORE
+Prøvetagning  med ultralyd	53	IGNORE
+Sojabønne (f14)-IgE;P	53	IGNORE
+EDTA k2 lilla 9 ml x 1, DRB	53	IGNORE
+Hydrogencarbonat (standard);P(vB)	53	IGNORE
+NK-VUE 1 ml x 1, NK-Check	52	IGNORE
+Aspergillus(galactomannan Ag);P	52	IGNORE
+EDTA lilla 9 ml x 3, NK-Check	52	IGNORE
+BF-test udvidet;P	52	IGNORE
+Serum rød 10 ml x 1, NK-Check	52	IGNORE
+T-lymfocytter;B	52	IGNORE
+Projekt NK-Check	52	IGNORE
+Udstrygningspræparat;B	52	IGNORE
+5-Hydroxyindolylacetat;U	51	IGNORE
+Tacrolimus(LC-MS/MS);B	51	IGNORE
+Methotrexat;P	51	IGNORE
+T-lymfocytter(cytotox.);B	51	IGNORE
+Erytrocytter;Ledv	51	IGNORE
+IgA (lambda;monoklonalt);P	50	IGNORE
+Trombocytvolumen (middel);B	50	IGNORE
+Bilirubiner;P(neonatal)	50	IGNORE
+3-Methoxyadrenalin frit;P	49	IGNORE
+Lymfocytter;Lkc(B)	49	IGNORE
+Teknisk analyse 6, 25OHD3	49	IGNORE
+Varicella zoster virus IgG;P	49	IGNORE
+T-lymfocytter(helper);Lymc(B)	49	IGNORE
+3-Methoxynoradrenalin frit;P	49	IGNORE
+T-lymphocytter(cytotox);Lymc(B)	49	IGNORE
+T-lymfocytter;Lymc(B)	49	IGNORE
+T-lymfocyt(helper/cytotox);Lymc(B)	49	IGNORE
+Cøliakiscreening gruppe;P	48	IGNORE
+Projekt DANCAVAS	48	IGNORE
+CDR2-IgG;P	48	IGNORE
+Amphiphysin-IgG;P	48	IGNORE
+Krystaller;U	48	IGNORE
+Urinvejssten gruppe;U	48	IGNORE
+DRP-5-IgG;P	48	IGNORE
+Neuroncellekerne Hu-IgG;P	48	IGNORE
+NOVA1-IgG;P	48	IGNORE
+PNMA2-IgG;P	48	IGNORE
+Immunglobulin G-ratio;Csv/P	48	IGNORE
+Immunglobulin D;P	48	IGNORE
+O2 sat.;Hb(cvB)	46	IGNORE
+Proinsulin;P(fPt)	46	IGNORE
+Bacterium+fungus;U	46	IGNORE
+Hemoglobin::Hæmoglobin;B(cvB)	45	Hemoglobin
+Cor.SARS(COVID19)DNA/RNA(POCT);Podn	45	IGNORE
+Treponema pallidum flagel-Ab;P	45	IGNORE
+Fibrinmonomer;P	44	IGNORE
+Serum Rød 4 ml x 2, LIRA-KOL	44	IGNORE
+GAD65 Ab (neurologi);P	44	IGNORE
+T-Lymphocytter(helper);B	44	IGNORE
+Tacrolimus (od);B	44	IGNORE
+Titin-IgG;P	44	IGNORE
+Complement C1q;P	44	IGNORE
+Prøvetagning på ISO patient	44	IGNORE
+Citrat blå 2.7 ml x 2, LIRA-KOL	44	IGNORE
+Ciclosporin (od);B	44	IGNORE
+EDTA Lilla 4 ml x 1, LIRA-KOL	44	IGNORE
+Klorid;P(kB)	43	IGNORE
+SOX-1-IgG;P	43	IGNORE
+Zinc finger prot ZIC 4-IgG;P	43	IGNORE
+Penicilloyl G (c1)-IgE;P	43	IGNORE
+Recoverin-IgG;P	43	IGNORE
+Histidin-tRNA-ligase[Jo1]-Ab(IgG);P	43	IGNORE
+2010-030 Dansk CancerBiobank	43	IGNORE
+2010-030 4 mL EDTA x 3	43	IGNORE
+Paraneoplastic Tr-IgG;P	43	IGNORE
+Jordnød (f13)-IgE;P	43	IGNORE
+Leverfibrose Sværhedsgrad(score);Pt	43	IGNORE
+Irregulær blodtype-Ab;P	43	IGNORE
+Pr. 2008-044 PIT Diabetes, Aterosch	42	IGNORE
+Risperidon+Paliperidon;P	42	IGNORE
+Coronavirus SARS-CoV-2-IgM;P	42	IGNORE
+Ampicillin (c5)-IgE;P	42	IGNORE
+Teknisk vasopressin-neurophysin;P	42	IGNORE
+Everolimus;B	42	IGNORE
+Dyrkning (bacterium+fungus);cvB	42	IGNORE
+Penicilloyl V (c2)-IgE;P	42	IGNORE
+Base excess (aktuel);P(nsB; vB)	41	IGNORE
+pCO2;P(nsB; vB)	41	IGNORE
+Hjemmelab, prøvetagning VE	41	IGNORE
+Koriogonadotropin [HCG];P	41	IGNORE
+Status ved patient kontakt;Pt	41	IGNORE
+pH;P(nsB; vB)	41	IGNORE
+Metalloproteinase inhibitor 1;P	41	IGNORE
+CMVPCR;B	41	IGNORE
+Vitamin A;P	40	IGNORE
+Carbonmonoxidhæmoglobin;Hb(cvB)	40	IGNORE
+Amoxicillin (c6)-IgE;P	40	IGNORE
+Methæmoglobin;Hb(cvB)	40	IGNORE
+Bilirubin::Bilirubin;P	40	Bilirubin
+Lactat;P(kB)	40	IGNORE
+Risperidon;P	40	IGNORE
+Bindevævssygdom-relateret-Ab;P	40	IGNORE
+Calcium/Kreat.clearance-ratio;Nyre	40	IGNORE
+9-hydroxy-Risperidon;P	40	IGNORE
+Hepatitis B kontrol af kendt;P	40	IGNORE
+Bacterium+fungus, 2 sæt	40	IGNORE
+Proj-002 4 mL Rød 1 af 1	40	IGNORE
+Borrelia burgd.-Ab(IgM);P	39	IGNORE
+Booking mangler	39	IGNORE
+Ukendt analyse	39	IGNORE
+Haemophilus influenzae b-Ab;P	39	IGNORE
+Theophyllin;P	39	IGNORE
+Borrelia burgd.-Ab(IgG);P	39	IGNORE
+Projekt, Hæmatologisk KFE	39	IGNORE
+Clostridium tetani-toxin-Ab;P	39	IGNORE
+DAN-HEP;B	39	IGNORE
+Mycoplasma pneumoniae IgG+IgM;P	38	IGNORE
+Borrelia index,blod til;P	38	IGNORE
+2008-044 4 ml EDTA x 2	38	IGNORE
+Laktatdehydrogenase [LDH];Asc	38	IGNORE
+LDL::Kolesterol LDL(direkte);P	38	LDL
+EDTA Lilla 9 ml x 3, PROMIL	38	IGNORE
+Projekt PROMIL	38	IGNORE
+Streptococcus pneumoniae-Ab;P	38	IGNORE
+NK-VUE 1 ml x 1, PROMIL	38	IGNORE
+Serum Rød 10 ml x 1, PROMIL	38	IGNORE
+2008-044 6,0 mL RØD x 2	37	IGNORE
+Makrocytter;B	37	IGNORE
+Legionella pneumophila IgG;P	36	IGNORE
+2013-015 4 mL RØD x 1	36	IGNORE
+Testosteron/SHBG (teknisk);P	36	IGNORE
+El, grå (t2)-IgE;P	36	IGNORE
+Methylmalonat(teknisk);P	36	IGNORE
+Trombocytter PDW;B	36	IGNORE
+HFE-gen (CYS282TYR);DNA	36	IGNORE
+Ciclosporin (120 min);B	36	IGNORE
+HFE-gen (HIS63ASP);DNA	36	IGNORE
+Magnesium;U	36	IGNORE
+Basisk fosfatasetype gruppe;P	35	IGNORE
+Urinmikroskopi kommentar;U	35	IGNORE
+Skimmelsvamp (m1;2;3;5;6)-IgE;P	34	IGNORE
+Hepatitis C virus-IgG (konfirm);P	34	IGNORE
+Cylinder, voksagtig;U	34	IGNORE
+Lipoprotein(a);P	34	IGNORE
+Paraneoplastisk syndrom-Ab gruppe;P	34	IGNORE
+Pseudomonas aeruginosa-Ab;P	34	IGNORE
+3-Hydroxybutyrat;P	34	IGNORE
+Calcium-clearance;Nyre	34	IGNORE
+Leukocytter(mononukl.);Lkc(Plv)	33	IGNORE
+Leukocytter(polynukl.);Lkc(Plv)	33	IGNORE
+SARS-CoV-2 Nukleoprotein(Ag);P	33	IGNORE
+Stikskade, US af eksponent;P	33	IGNORE
+Albumin;Asc	33	IGNORE
+52 kDa Ro protein-Ab(IgG);P	33	IGNORE
+13-015 Mikro,d1-7,t 0-4-8-12-16-20	33	IGNORE
+Immunglobulin G/Albumin-ratio;Csv/P	33	IGNORE
+Hba1c::Hæmoglobin A1c (IFCC) (POCT);Hb(B)	33	HbA1C
+Glukose (120 min);P	33	IGNORE
+Olanzapin;P	32	IGNORE
+EDTA k2 lilla 9 ml x 2	32	IGNORE
+Streptococc.pneum.type-IgG gruppe;P	32	IGNORE
+Glucose::Glukose;P(kB;fPt)	32	Glucose
+2018-051 R 3,5 mL Citrat	32	IGNORE
+Projekt Lunge-DNA 2	32	IGNORE
+Rotem;B	32	IGNORE
+PCR til Patologer - OUH;B	32	IGNORE
+Ciclosporin(LC-MS/MS);B	32	IGNORE
+Mononucleose-reaktion;P	32	IGNORE
+Urat;U	32	IGNORE
+5-Hydroxyindolylacetat;Pt(U)	32	IGNORE
+Parvovirus B-19 IgG+IgM;P	32	IGNORE
+Herpes simplexvirus(type1+2)-IgG;P	31	IGNORE
+Legionella-Ab gruppe;P	31	IGNORE
+Anden genetisk analyse;DNA	31	IGNORE
+Sodium::Natrium - POCT;P	31	Na
+Creatinine::Kreatinin - POCT;P	31	Creatinine
+Farve;F	30	IGNORE
+Potassium::Kalium - POCT;P	30	K+
+Konsistens;F	30	IGNORE
+Citrat;U	30	IGNORE
+Ufordøjede føderester;F	30	IGNORE
+60 kDa Ro Protein-Ab(IgG);P	30	IGNORE
+Reje (f24)-IgE;P	30	IGNORE
+Koagulation, trombintid;P	30	IGNORE
+Slim (0 1);F	30	IGNORE
+Trombocytter(RNA-holdige);Trc(B)	30	IGNORE
+Dyrkning (bacterium+fungus);aB	30	IGNORE
+Mitokondrie-Ab(IgG);P	30	IGNORE
+Benzodiazepiner;U	30	IGNORE
+Amylase, pancreastype;Drænv	30	IGNORE
+Blod;F	30	IGNORE
+Corynebacterium diphth.-toxin-Ab;P	30	IGNORE
+Vitamin E;P	29	IGNORE
+Pr. 2011 Dansk Cancer Biobank	29	IGNORE
+Noradrenalin;Pt(nU)	29	IGNORE
+EDTA 3 ml DCB	29	IGNORE
+Proteinase 3-Ab(IgG);P	29	IGNORE
+Gul gel 4x5ml DCB	29	IGNORE
+Hepatitis C virus(RNA),genotype;P	29	IGNORE
+Glukose (0 min);P	29	IGNORE
+Prokollagen I, N-term.propeptid;P	29	IGNORE
+Human immundefektvir. 1+2(Ab+Ag);P	29	IGNORE
+17-alfa-Hydroxyprogesteron;P	29	IGNORE
+Urin Volumen, nat;Pt	29	IGNORE
+Kreatinin;Drænv	29	IGNORE
+EDTA 10 ml DCB	29	IGNORE
+Dopamin;Pt(nU)	29	IGNORE
+CALR-gen;DNA	29	IGNORE
+Proj-002 COVAC-Tx pakke 3	29	IGNORE
+Adrenalin;Pt(nU)	29	IGNORE
+F5-gen Leiden (ARG506GLN);DNA	28	IGNORE
+SARS-CoV-2 Nukleoprot.(Ag) screen;P	28	IGNORE
+Serum rød 10 ml x 1, ENZ	28	IGNORE
+Transglutaminase-Ab(IgA);P	28	IGNORE
+Thyreoidea behandlingsktr.grp;P	28	IGNORE
+NK-VUE 1 ml x 1, ENZ	28	IGNORE
+Fosfolipidantistofudredning;Pt	28	IGNORE
+Fæcesopsamling;Pt	28	IGNORE
+Stikskade, 1.US af eksponeret grp;P	28	IGNORE
+Smiths-Ab(IgG);P	28	IGNORE
+Hepatitis A virus-Ab(IgG);P	28	IGNORE
+Alifatisk carbox.(g fedt/g fæces);F	28	IGNORE
+Kulhydratfattigt transferrin[CDT];P	28	IGNORE
+Projekt ENZ	28	IGNORE
+Nucleus(homogen farvning)-Ab(IgG);P	28	IGNORE
+EDTA k2 lilla 9 ml x 2, ENZ	28	IGNORE
+Alifatisk carbox.(g fedt/24h);Pt(F)	28	IGNORE
+Projekt RESOLUTE	28	IGNORE
+Karbamid;Dialysev	27	IGNORE
+Gliacelleprotein S-100b;P	27	IGNORE
+Fosfolipid-Ab;P	27	IGNORE
+Teknisk analyse 14, 25OHD3	27	IGNORE
+ASPItest - Pr-miRNA	27	IGNORE
+Hepatitis E virus-IgM [HEV];P	27	IGNORE
+Chlamydia pneumoniae IgG+IgM;P	27	IGNORE
+Laktatdehydrogenase;Asc	27	IGNORE
+Hepatitis E virus-IgG [HEV];P	27	IGNORE
+Lymfocytter, B/T/NK-celler;B	27	IGNORE
+Projekt DETECT	27	IGNORE
+Kreatinin;Dialysev	27	IGNORE
+Base excess (aktuel);P(cvB)	27	IGNORE
+M-komp. TOP1+ Konc. (TEK)	27	IGNORE
+Kortisol sekr.test grp;Binyrebark	26	IGNORE
+Projekt SUPE_R	26	IGNORE
+Bas.fos. knogletype;P	26	IGNORE
+Oxalat;U	26	IGNORE
+Bas.fos. tarmtype;P	26	IGNORE
+Bas.fos. leverendoteltype;P	26	IGNORE
+Bas.fos. lever canaliculi.;P	26	IGNORE
+Acetylcholinreceptor-IgG;P	26	IGNORE
+Myeloperoxidase-Ab (IgG);P	26	IGNORE
+Streck rør 10 ml x 2, SUPE_R	26	IGNORE
+Amitriptylin;P	26	IGNORE
+2014-063 6,0 mL RØD x 2	25	IGNORE
+PaxGene 2,5 ml x 2, BIOPAC	25	IGNORE
+2014-063 4,0 mL EDTA x 3	25	IGNORE
+Thyreiodeaktr (Thyreotoxikose);P	25	IGNORE
+Triglycerid;Plv	25	IGNORE
+Kerneholdige celler;Plv	25	IGNORE
+2014-063  B DANCAVAS	25	IGNORE
+Hvepsegift (i3)-IgE;P	25	IGNORE
+Magnesium;Pt(U)	25	IGNORE
+2014-063 3,0 mL LiHe x 3	25	IGNORE
+Projekt BIOPAC	25	IGNORE
+Serum Rød 10 ml x 3, BIOPAC	25	IGNORE
+EDTA k2 lilla 9 ml x 3, BIOPAC	25	IGNORE
+Herpes Encefalitis HSV + VZV;Csv	25	IGNORE
+Glukose;Asc	25	IGNORE
+Etanol;P	24	IGNORE
+Carbamazepin;P	24	IGNORE
+Kerneholdige celler(mononukl.);Plv	24	IGNORE
+Hepatitis B før vaccine;P	24	IGNORE
+Glukose belast (120min)grp;Pt	24	IGNORE
+Tek. LUPUS, LA-check;P	24	IGNORE
+SDCO OUH: Booking af tid til prvt	24	IGNORE
+Amitriptylin+nortriptylin;P	24	IGNORE
+EDTA lilla 4 ml x 2, BoneProst	24	IGNORE
+Projekt BoneProst	24	IGNORE
+Serum gel 8,5 ml x 1, Detect_PRO	24	IGNORE
+EDTA lilla 10 ml x 3, Detect_PRO	24	IGNORE
+Projekt Detect_PRO	24	IGNORE
+Serum rød 10 ml x 1, Detect_PRO	24	IGNORE
+Sertralin;P	24	IGNORE
+Dyrkning (bacterium+fungus);B(aB)	24	IGNORE
+Tek. LUPUS, PTTLA Screen;P	24	IGNORE
+Deamid.gliadin peptid-Ab(IgG);P	24	IGNORE
+Serum SST-US 10 ml x 1, Detect_PRO	24	IGNORE
+Koagulationsfaktor VIII (koag.);P	24	IGNORE
+Kerneholdige celler(polynukl.);Plv	24	IGNORE
+Anæmiudredning,FERRI	24	IGNORE
+Projekt FOLFIRI RAS/RAF	23	IGNORE
+2021-R01 10 mL Rød x1	23	IGNORE
+GenKaBcell	23	IGNORE
+BK polyomavirus DNA;P	23	IGNORE
+Projekt INDEED-Blod	23	IGNORE
+Projekt NOVELTY	23	IGNORE
+Histon-Ab;P	23	IGNORE
+Projekt MATINEE	23	IGNORE
+SERUM rød 10ml x1, FOLFIRI RAS/RAF	23	IGNORE
+2010-030 6 mL RØD x 3	23	IGNORE
+Progesteron;P	23	IGNORE
+Herpes Encefalitis HSV + VZV;P	23	IGNORE
+NK-VUE 1 ml x 1, FOLFIRI RAS/RAF	23	IGNORE
+Erytrocytter, vol.fr.;B(cvB)	23	IGNORE
+Projekt ASPEN	23	IGNORE
+M-komp. TOP2+Konc (TEK)	23	IGNORE
+EDTA lilla 9ml x1, FOLFIRI RAS/RAF	23	IGNORE
+F2-gen (20210G-A);DNA	23	IGNORE
+Interferon gamma-reaktion;T-lymc(B)	22	IGNORE
+Neutrophils::Neutrophilocytter;B	22	Neutrophils#
+Erythrocytter,vol.fr.;B(cvB)	22	IGNORE
+Projekt OVH2N	22	IGNORE
+Epstein-Barr virus capsid-Ab(IgM);P	22	IGNORE
+Epstein-Barr virus capsid-Ab(IgG);P	22	IGNORE
+RØD tør 10 ml x 1, OVH2N	22	IGNORE
+Projekt HERO	22	IGNORE
+Coronavirus SARS-Cov-2-IgG;P	22	IGNORE
+Fosfat;U	22	IGNORE
+Dyrkning(bacterium+fungus);cvB sæt2	22	IGNORE
+EGF receptor 2 (HER2);P	22	IGNORE
+Erytrocytter, vol.fr. [EVF];B(vB)	22	IGNORE
+Cytomegalovirus IgG+IgM [CMV];P	21	IGNORE
+Kortisol (LC-MS/MS);P	21	IGNORE
+Beta-globulin til HLAB27	21	IGNORE
+13-015 M.RØR,d 1-7,t 0-4-8-12-16-20	21	IGNORE
+Mycoplasma pneumoniae-IgM;P	21	IGNORE
+2013-015 2 x mikrodial.rør	21	IGNORE
+Leukocyt-Ab;P	21	IGNORE
+Bloddyrkning (arteriekanyle), 2 sæt	21	IGNORE
+2021-R01 4 mL EDTA x 2	21	IGNORE
+Bence Jones protein taxon;U	21	IGNORE
+Teknisk analyse 13, 25OHD3	21	IGNORE
+Nucleus(plettet farvning)-Ab(IgG);P	21	IGNORE
+2010-030-005 Å 10 mL EDTA 7 af 7	20	IGNORE
+Zuclopenthixol;P	20	IGNORE
+2010-030-005 Å 10 mL TØR 1 af 1	20	IGNORE
+Human EGF receptor 2;P	20	IGNORE
+Phenytoin;P	20	IGNORE
+2010-030-005 Å 10 mL EDTA 3 af 7	20	IGNORE
+Hepatitis B virus(DNA,kvant)[HBV];P	20	IGNORE
+2010-030-005 Å 10 mL EDTA 1 af 7	20	IGNORE
+2010-030-005 Å IMPROVE DCB	20	IGNORE
+Toxoplasma gondii IgG+IgM;P	20	IGNORE
+2010-030-005 Å 10 mL EDTA 5 af 7	20	IGNORE
+2010-030-005 Å 10 mL EDTA 6 af 7	20	IGNORE
+2010-030-005 Å 10 mL EDTA 2 af 7	20	IGNORE
+Hasselnød (f17)-IgE;P	20	IGNORE
+Vitamin B1;B	20	IGNORE
+Epstein-Barr virus(DNA) [EBV];P	20	IGNORE
+Lambda-kæde(frit;monoklonalt);P	20	IGNORE
+HR Urtikaria;P	20	IGNORE
+TEK-iFLASH4	20	IGNORE
+Skimmelsvamp (m1;2;3;5;6;8)-IgE;P	20	IGNORE
+Citrat;Pt(U)	20	IGNORE
+Hepatitis A før vaccine gruppe;P	20	IGNORE
+Hepatitis C virus-Ab(IgG);P	20	IGNORE
+Bilirubiner(semikvant);Csv	20	IGNORE
+2010-030-005 Å 10 mL EDTA 4 af 7	20	IGNORE
+Gul gel 3,5 ml x 4	20	IGNORE
+Protein C (enz.);P	20	IGNORE
+B-EDTA k2 lilla 4 ml x 1, HER2N	20	IGNORE
+TEK-iFLASH3	20	IGNORE
+HLA-Ab;P	20	IGNORE
+Projekt HER2N	20	IGNORE
+2015-075 3 mL LiHep x 1	19	IGNORE
+Troponin T-poct;P	19	IGNORE
+Toxoplasma gondii-Ab(IgM);P	19	IGNORE
+Candida mannan-Ab;P	19	IGNORE
+Pseudomonas aeruginosa-Ab (0 1);P	19	IGNORE
+Borrelia burgdorferi-Ab(IgM);Csv/P	19	IGNORE
+Rødspætte (f254)-IgE;P	19	IGNORE
+TPMT-gen;DNA	19	IGNORE
+Kortisol (2 d);P	19	IGNORE
+Hepatitis C udredning;P	19	IGNORE
+Borrelia burgdorferi-Ab(IgG);Csv/P	19	IGNORE
+Kolesterol;Asc	19	IGNORE
+Alifatisk carboxylat (C14-26);F	19	IGNORE
+Candida mannan(ag);P	19	IGNORE
+2015-075 4 mL EDTA x 3	19	IGNORE
+Dyrkning (bacterium+fungus);B(cvB)	19	IGNORE
+PCR til Patologer;B	19	IGNORE
+Schistocytter til patologer - OUH;B	19	IGNORE
+M-komponent i %;U	19	IGNORE
+Morphin;U	19	IGNORE
+Amyloid  beta 1-40;Csv	18	IGNORE
+Erytrocytter(polykrome);B	18	IGNORE
+Pregnantriolon;Pt(U)	18	IGNORE
+P-ANCA(IgG);P	18	IGNORE
+Prasteron;Pt(U)	18	IGNORE
+17-Hydroxypregnanolon;Pt(U)	18	IGNORE
+Alfa-1-antitrypsin-mangel	18	IGNORE
+Tetrahydrokortikosteron;Pt(U)	18	IGNORE
+Calcitriol;P	18	IGNORE
+3-alfa-,5-beta-Alfadolon;Pt(U)	18	IGNORE
+16-Ketoandrostendiol;Pt(U)	18	IGNORE
+Etiokolanolon;Pt(U)	18	IGNORE
+Amfetamin;U	18	IGNORE
+Streptolysin O-Ab;P	18	IGNORE
+Pregnantriol;Pt(U)	18	IGNORE
+EDTA 10ml x 1, Projekt miRNA	18	IGNORE
+Streptococcus DNAse B-Ab;P	18	IGNORE
+Neurofilament light polypeptid;P	18	IGNORE
+Glutam.decarb.(gad65)-IgG;Csv	18	IGNORE
+Phospholipid-Ab (RPR, kvant.);P	18	IGNORE
+Projekt miRNA	18	IGNORE
+Glucose-6-P-dehydrogenase / Hb;B	18	IGNORE
+3-alfa-,5-beta,20R-Cortolon;Pt(U)	18	IGNORE
+Coronavirus SARS-CoV-2-Ab gruppe;P	18	IGNORE
+T-spot.TB;B	18	IGNORE
+Pregnandiol;Pt(U)	18	IGNORE
+Glucose::Glucose;P(kB)	18	Glucose
+Se notat i EPJ af dato;Pt:	18	IGNORE
+Amyloid  beta 1-42/1-40 ratio;Csv	18	IGNORE
+Steroidmetabolit (16-OH-P);Pt(U)	18	IGNORE
+Coronavirus SARS-CoV-2-IgA;P	18	IGNORE
+Influenza virus A+B & RSV(RNA);Sekr	18	IGNORE
+Fødevare (f1;2;3;4;13;14)-IgE;P	18	IGNORE
+Steroidmetabolit (Allo-THB);Pt(U)	18	IGNORE
+Tomat (f25)-IgE;P	18	IGNORE
+Tetrahydrokortisol;Pt(U)	18	IGNORE
+ANCA(IgG);P	18	IGNORE
+Androsteron;Pt(U)	18	IGNORE
+Cytochrom P450 2D6-antistof(IgG);P	18	IGNORE
+Amyloid  beta 1-42;Csv	18	IGNORE
+Tetrahydrokortison;Pt(U)	18	IGNORE
+5-Androsten-3,16-diol-17-on;Pt(U)	18	IGNORE
+Cortolon;Pt(U)	18	IGNORE
+Collagen I,krydsbundne CTx;P(fPt)	18	IGNORE
+Allotetrahydrokortisol;Pt(U)	18	IGNORE
+2017-056 R 4,0 mL EDTA x 1	18	IGNORE
+11-beta-Hydroxyandrosteron;Pt(U)	18	IGNORE
+5-Androsten-3,16,17-triol;Pt(U)	18	IGNORE
+2017-056 R 6,0 mL RØD x 1	18	IGNORE
+2017-056 R 2,7 mL BLÅ x 1	18	IGNORE
+Tetrahydro-11-dexoxykortisol;Pt(U)	18	IGNORE
+2017-056 R 4,0 mL EDTA x 4	18	IGNORE
+Ribavirin;P	17	IGNORE
+Citrat 2,7 ml x 2, MetSyn	17	IGNORE
+Amylase (k87)-IgE;P	17	IGNORE
+TØRGLAS 4ml x1, Projekt miRNA	17	IGNORE
+Projekt OC Neo	17	IGNORE
+beta-1,3-Glucan;P	17	IGNORE
+Li-Hep Grøn 4 ml x 5, MetSyn	17	IGNORE
+Knogledonorer virusscreening;P	17	IGNORE
+Mikrocytter;B	17	IGNORE
+Gluten (f79)-IgE;P	17	IGNORE
+Epstein-Barr virus DNA;P	17	IGNORE
+2015-053 9 mL Heparin (fra RH)	17	IGNORE
+Mandel (f20)-IgE;P	17	IGNORE
+EDTA lilla 9 ml x 2, MetSyn	17	IGNORE
+EDTA 4ml x 1, Projekt miRNA	17	IGNORE
+Cocain;U	17	IGNORE
+HEPARIN 4 ml x 1, Projekt miRNA	17	IGNORE
+Cannabinol;U	17	IGNORE
+Rød serum 10 ml x 1, OC Neo	17	IGNORE
+Serum Rød 10 ml x 2, MetSyn	17	IGNORE
+Urat;Pt(U)	17	IGNORE
+Mycobacterium tuberculosis;Plv	17	IGNORE
+2015-058 L Lest Spot Urin	17	IGNORE
+Projekt MetSyn	17	IGNORE
+LIHEP grøn 4 ml x1, INDEED	17	IGNORE
+Aspergillus niger (m207)-IgE;P	17	IGNORE
+Vitamin C;P	17	IGNORE
+Oxalat;Pt(U)	17	IGNORE
+Projekt Lever ctDNA	17	IGNORE
+Hemoglobin::Hæmoglobin - POCT;B	17	Hemoglobin
+NK-VUE 1 ml x 1, Lever ctDNA	17	IGNORE
+Transkobalamin frit;P	17	IGNORE
+SERUM rød 10 ml x 1, Lever ctDNA	17	IGNORE
+EDTA lilla 9 ml x 3, Lever ctDNA	17	IGNORE
+Haptokorrin frit;P	17	IGNORE
+2015-075 Y Voknse+børn >50kg	17	IGNORE
+NK-VUE 1 ml x 1, OC Neo	17	IGNORE
+C-reaktivt protein [CRP] - POCT;P	17	IGNORE
+EDTA lilla 4 ml x1, INDEED	17	IGNORE
+CITRAT 2,7ml x1,Projekt miRNA	17	IGNORE
+Bigift (i1)-IgE;P	16	IGNORE
+EDTA k2 lilla 9 ml x 1	16	IGNORE
+2018-051 R 3mL Hirudin x 1 AGGGASP	16	IGNORE
+2018-051 R 3mL Hirudin x 1 AGGTRP32	16	IGNORE
+EDTA lilla 9 ml x 3, CIMPRIL	16	IGNORE
+Neurofilament light polypeptide;Csv	16	IGNORE
+2018-051 R Lungecancer BIOBANK	16	IGNORE
+2018-051 R Lungecancer BLOD	16	IGNORE
+2018-051 R 4 mL EDTA x 1	16	IGNORE
+Selen;P	16	IGNORE
+Skimmelsvamp (m1;2;4;6)-IgG;P	16	IGNORE
+Hæmogl. deriv.gruppe;Csv	16	IGNORE
+Toxoplasma gondii-IgG;P	16	IGNORE
+Oxcarbazepin;P	16	IGNORE
+Complement C1 esteraseinhibitor;P	16	IGNORE
+Nucleusprik-Ab(IgG);P	16	IGNORE
+2018-051 R 3mL Hirudin x 1 AGGADP64	16	IGNORE
+NK-VUE 1 ml x 1, CIMPRIL	16	IGNORE
+SERUM rød 10 ml x 1, CIMPRIL	16	IGNORE
+Projekt CIMPRIL	16	IGNORE
+Projekt INDEED-Urin	16	IGNORE
+Topiramat;P	16	IGNORE
+2015-075 Y Tr Voknse+børn Urin	16	IGNORE
+Aspergillus(Galactomannan Ag);P	16	IGNORE
+2015-075 6 mL Urin x 3	16	IGNORE
+EDTA k2 lilla 9 ml x 2, OC Neo	16	IGNORE
+Toxoplasma gondii-IgM;P	16	IGNORE
+Teknisk analyse til Tacrolimus	16	IGNORE
+Toxoplasma gondii-Ab(IgG);P	16	IGNORE
+Acanthocytter;B	16	IGNORE
+Projekt Aerify2	16	IGNORE
+2018-051 R 4mL EDTA x 1	16	IGNORE
+Ribonucleoprotein-IgG [RNP];P	16	IGNORE
+2015-075 4 mL RØD x 2	15	IGNORE
+CD163;P	15	IGNORE
+DPYD-gen(ILE560SER);DNA	15	IGNORE
+Hepatitis B efter vaccine;P	15	IGNORE
+DPYD-gen(GLU412GLU);DNA	15	IGNORE
+DNA topoisomerase 1-Ab(IgG);P	15	IGNORE
+2021-R01 KFE 21.05 COVID VACC V3	15	IGNORE
+Hepatitis C virus-Ab(IgG),konfirm;P	15	IGNORE
+Complement C1 est.inh.(akt./norm);P	15	IGNORE
+Epstein-Barr virus-antistof [EBV];P	15	IGNORE
+GLP55 - dummy	15	IGNORE
+Enterovirus (RNA);Csv	15	IGNORE
+DPYD-gen(1905+1G>A);DNA	15	IGNORE
+2015-044-001 C Dansk  Reuma Biobank	15	IGNORE
+Kapillærblødning Duke;Pt	15	IGNORE
+EXOSC10-IgG [PM-Scl100];P	15	IGNORE
+2017-042 S 4 mL EDTA 2 af 4	15	IGNORE
+2017-042 S 4 mL EDTA 4 af 4	15	IGNORE
+Micropolyspora faeni (m22)-IgG;P	15	IGNORE
+Trc.hæm. P2Y12(VerifyNow);Trc(B)	15	IGNORE
+2017-042 S 4 mL EDTA 1 af 4	15	IGNORE
+DPYD-gen(ASP949VAL);DNA	15	IGNORE
+Proinsulin;P	15	IGNORE
+Herpes simplexvirus-Ab;P	15	IGNORE
+2015-058 L Lest Urin Biobank	15	IGNORE
+Latex (k82)-IgE;P	15	IGNORE
+2015-058 2mL sarstedt x 5	15	IGNORE
+2015-058 15 mL rør x 1	15	IGNORE
+2017-042 S 4 mL EDTA 3 af 4	15	IGNORE
+EDTA k2 lilla 9 ml x 2, OVH2N	14	IGNORE
+Koriogonadotropin+beta[HCGgravid];P	14	IGNORE
+Inhalations-Ag(g6;m2;6;t3;w6)-IgE;P	14	IGNORE
+SERUM rød 10 ml x2 Col-Rect biobank	14	IGNORE
+Nucleolus-Ab(IgG);P	14	IGNORE
+Nucleusmembran-Ab(IgG);P	14	IGNORE
+CASR-gen;DNA	14	IGNORE
+Methadon;U	14	IGNORE
+Kortisol (2d) (LC-MS/MS);P	14	IGNORE
+Mitose spindel-Ab(IgG);P	14	IGNORE
+beta-Caroten;P	14	IGNORE
+Prolifererende nucleus-Ab(IgG);P	14	IGNORE
+Thyroxinbindende globulin;P	14	IGNORE
+Hepatitis, kronisk udredning;P	14	IGNORE
+EDTA lilla 3 ml x1 Col-Rect biobank	14	IGNORE
+PCNA-Ab;P	14	IGNORE
+Øvrig-Ab(IgE);P	14	IGNORE
+Cor.SARS(COVID19)DNA/RNA(POCT);Sekr	14	IGNORE
+Thermoactinomyc. v. (m23)-IgG;P	14	IGNORE
+2013-078 10 mL Urin x 1	14	IGNORE
+EDTA lilla 9 ml x1 Col-Rect biobank	14	IGNORE
+ImmunglobulinE;P	14	IGNORE
+Herpes simplexvirus-Ab(IgG);P	14	IGNORE
+AP2S1-gen;DNA	14	IGNORE
+Diverse Blod;B	14	IGNORE
+Glukose, middel (fra HbA1c)(POCT);P	14	IGNORE
+Borrelia burgdorferi-IgM;P	14	IGNORE
+SERPINA1-gen;DNA	14	IGNORE
+Projekt BOREAS	14	IGNORE
+Parietalcelle-IgG [PCA];P	14	IGNORE
+Projekt Col-Rect biobank	14	IGNORE
+Aspergillus(galactomannan ag);P	14	IGNORE
+Helicobacter pylori(CO2[13C]),Maves	13	IGNORE
+Rugmel (f5)-IgE;P	13	IGNORE
+Plasma-viskositet;P	13	IGNORE
+Fæcesopsamlingstid;Pt	13	IGNORE
+Bas.fos. tarmtype(semikvant);P	13	IGNORE
+Bas.fos. levertype(semikvant);P	13	IGNORE
+Kreatinin (teknisk);U	13	IGNORE
+Hexacarboxylporfyrin / Kreatinin;U	13	IGNORE
+Pentacarboxyl / Kreatinin;U	13	IGNORE
+Lipase;P	13	IGNORE
+Kit til Hæmoglobin i Fæces	13	IGNORE
+Amylase, pancreatic::Amylase;P	13	Amylase
+Neuron-specifik enolase;P	13	IGNORE
+Pentacarboxylporfyrin;U	13	IGNORE
+2017-042 S 2,5  mL PAXGEN x 1	13	IGNORE
+Borrelia burgdorferi-Ab grp;Csv/P	13	IGNORE
+Koproporfyrin III / Kreatinin;U	13	IGNORE
+Koproporfyrin I;U	13	IGNORE
+Heptacarboxyl / Kreatinin;U	13	IGNORE
+Hexacarboxylporfyrin;U	13	IGNORE
+Serum RØD 10 ml x 1, FOLFOXIRI-Toco	13	IGNORE
+Heptacarboxylporfyrin;U	13	IGNORE
+Fosfatidylethanol;B	13	IGNORE
+Østradiol(LC-MS/MS);P	13	IGNORE
+Bas.fos. knogletype(semikvant);P	13	IGNORE
+Cytomegalovirus(DNA);Csv	13	IGNORE
+Koproporfyrin III;U	13	IGNORE
+GABA-B receptor 1-IgG;P	13	IGNORE
+Uroporfyrin;U	13	IGNORE
+Koproporfyrin I / Kreatinin;U	13	IGNORE
+Parvovirus B-19 IgG;P	13	IGNORE
+NK-VUE 1 ml x 1, FOLFOXIRI-Toco	13	IGNORE
+Trombocytaggregater-EDTA;B	13	IGNORE
+EDTA lilla 9 ml x 2, FOLFOXIRI-Toco	13	IGNORE
+Legionella pneumophila [LUT] (Ag);U	13	IGNORE
+Projekt FOLFOXIRI-Toco	13	IGNORE
+Hepatitis C virus(RNA), Kval;P	12	IGNORE
+Rheumafaktor;Plv	12	IGNORE
+Complement C2;P	12	IGNORE
+HLA-klasse I-gen gruppe;DNA	12	IGNORE
+Fosfat;Pt(U)	12	IGNORE
+Projekt PREDICT Belastning	12	IGNORE
+EDTA k2 lilla 9 ml x 1, TRC miRNA	12	IGNORE
+AMPAR1-IgG;P	12	IGNORE
+Aldolase;P	12	IGNORE
+Rheumafaktor(IgA);P	12	IGNORE
+EDTA lilla 9 ml x 3, DETECT	12	IGNORE
+Borrelia burgd.-Ab(IgG)(Csv/P);Csv	12	IGNORE
+Hepatitis C virus(RNA) (0 1)[HCV];P	12	IGNORE
+NMDAR1-IgG;P	12	IGNORE
+CASPR2-IgG;P	12	IGNORE
+2015-101 4 mL EDTA x 2	12	IGNORE
+Serum rød 10 ml x 1, DETECT	12	IGNORE
+EDTA lilla 4 ml x 1, DETECT	12	IGNORE
+Projekt TRC miRNA	12	IGNORE
+Glukose (0 min);P(kB)	12	IGNORE
+Breath-test x 4, DETECT	12	IGNORE
+Lacosamid;P	12	IGNORE
+Treponema pallidum-Ab;P	12	IGNORE
+Glomerulær basalmembran-Ab;P	12	IGNORE
+2014-063 4,5 mL BLÅ x 2	12	IGNORE
+2014-063 4,0 mL RØD x 1	12	IGNORE
+SERUM rød 10 ml x 1, ctDNA Metastat	12	IGNORE
+EDTA lilla 9 ml x 3, ctDNA Metastat	12	IGNORE
+Melatonin;P	12	IGNORE
+Teknisk analyse til Ciclosporin	12	IGNORE
+Projekt Rhema afd NordStarDRB 2017	12	IGNORE
+Projekt ctDNA Metastatisk	12	IGNORE
+Dehydroepiandro.[DHEAS](LC-MS/MS);P	12	IGNORE
+2015-053 B STEMI V2, 14.45-06.30	12	IGNORE
+LGI1-IgG;P	12	IGNORE
+Borrelia burgd.-Ab(IgM)(Csv/P);Csv	12	IGNORE
+2015-101 4 mL RØD x 2	12	IGNORE
+AMPAR2-IgG;P	12	IGNORE
+2015-101 3 mL LiHep x 2	12	IGNORE
+NK-VUE 1 ml x 1, DETECT	12	IGNORE
+Pr. 2011-050 PEQ Infektions Biobank	12	IGNORE
+Proj-002 4 mL EDTA 1 af 1	12	IGNORE
+Rotem, hepariniseret patient;B	12	IGNORE
+Parvovirus B19 (DNA);P	12	IGNORE
+Projekt AVADEC	11	IGNORE
+Plasminogenaktivatorinhib.1(imm.);P	11	IGNORE
+Laktatdehydrogenase 3;LDH(P)	11	IGNORE
+Hepatitis B virus(DNA),genotype;P	11	IGNORE
+Rivaroxaban;P	11	IGNORE
+2017-042 S 4,5 NUNC x 2 URIN	11	IGNORE
+FISH(OUH);B	11	IGNORE
+Selenium transferase-IgG [SLA/LP];P	11	IGNORE
+Projekt NeoToc	11	IGNORE
+Neutrophils::Neutrophilocytter - POCT;B	11	Neutrophils#
+Laktatdehydrogenase 2;LDH(P)	11	IGNORE
+Serum rød 10 ml x 1, NeoToc	11	IGNORE
+Tek Parathyrin;P	11	IGNORE
+Thrombintid;P	11	IGNORE
+Laktatdehydrogenase 4;LDH(P)	11	IGNORE
+Platelets::Trombocytter (mikr);B	11	Platelets
+Poikilocytter;B	11	IGNORE
+Histamin Releasing test;B	11	IGNORE
+Aspergillus niger (m207)-IgG;P	11	IGNORE
+Protein S frit (imm.);P	11	IGNORE
+HLA-B27(Ag);Lkc(B)	11	IGNORE
+Schistocytter;B	11	IGNORE
+2017-042 S FÆCESRØR x 2	11	IGNORE
+Ehrlichia IgG+IgM;P	11	IGNORE
+Coronavirus SARS-Cov-2-IgM;P	11	IGNORE
+DPYD-tolkning	11	IGNORE
+qPCR, patientspecifik;B	11	IGNORE
+Laktatdehydrogenase 5;LDH(P)	11	IGNORE
+Lymfocytter, B/T/NK;B	11	IGNORE
+Projekt Course	11	IGNORE
+Projekt information	11	IGNORE
+Glucose, middel (fra HbA1c)(POCT);P	11	IGNORE
+Vasoaktivt intestinalt polypeptid;P	11	IGNORE
+Glukose (30 min);P(kB)	11	IGNORE
+Laktatdehydrogenase 1;LDH(P)	11	IGNORE
+Glukose (60 min);P(kB)	11	IGNORE
+RNA pol III RPC1-IgG;P	11	IGNORE
+EDTA k2 lilla 9 ml x 2, NeoToc	11	IGNORE
+Herpes simplexvirus (DNA);P	11	IGNORE
+Nucleus(homogen farvning)-IgG;P	11	IGNORE
+Leucocytes::Leukocytter - POCT;B	11	WBC
+Enterovirus (RNA);P	11	IGNORE
+Familiær Hyperkolesterolæmi;DNA(B)	11	IGNORE
+Eosinophils::Eosinofilocytter - POCT;B	11	Eosinophils#
+Coronavirus SARS-CoV-2-Ab;P	10	IGNORE
+Amylase, spyttype;P	10	IGNORE
+Human herpesvirus 6(DNA);Csv	10	IGNORE
+Acetylcholinreceptor-Ab(IgG);P	10	IGNORE
+Herpes simplexvirus 1(DNA);Csv	10	IGNORE
+RBGB COVID3 - TEK 4 mL EDTA 3 af 3	10	IGNORE
+EXOSC9-IgG [PM-Scl75];P	10	IGNORE
+Polymyositis(Ku)-IgG;P	10	IGNORE
+Cryptococcus neofor/galtti(DNA);Csv	10	IGNORE
+Bas.fos. abnormt bånd(semikvant);P	10	IGNORE
+Leukocytter(polynukl.);Lkc(Ledv)	10	IGNORE
+Trombofiliudredning;Pt	10	IGNORE
+SAE1-IgG;P	10	IGNORE
+Cancer Antigen 19-9 (Roche);P	10	IGNORE
+RBGB COVID1 - TEK 4 mL EDTA 1 af 3	10	IGNORE
+2014-062 4mL EDTA x 2	10	IGNORE
+RBGB COVID2 - TEK 4 mL EDTA 2 af 3	10	IGNORE
+2011-050 4 mL EDTA x 3	10	IGNORE
+Intrinsic faktor-IgG;P	10	IGNORE
+Oxyhæmoglobin;Csv	10	IGNORE
+Parechovirus(RNA);Csv	10	IGNORE
+Glat muskel-Ab(IgG);P	10	IGNORE
+Blodtype(AB0; Rh D);Erc(B)	10	IGNORE
+Afd. E OUH: Booking af tid til prvt	10	IGNORE
+NK-VUE 1 ml x 1, BioProstCur	10	IGNORE
+SERUM rød 10 ml x 1, BioProstCur	10	IGNORE
+Inhalations-Ag (d1;e1;3;5;82)-IgE;P	10	IGNORE
+NK-VUE 1 ml x 1, NeoToc	10	IGNORE
+Streptococcus pneumoniae(DNA);Csv	10	IGNORE
+Mi2-alpha-IgG;P	10	IGNORE
+Leukocytter(mononukl.);Lkc(Ledv)	10	IGNORE
+IGF-bindende protein 3;P	10	IGNORE
+2014-062 6 mL RØD x 2	10	IGNORE
+RBGB COVID5 - TEK 6 mL RØD 2 af 2	10	IGNORE
+Projekt BioProstCur	10	IGNORE
+Human alphaherpesvirus 3(DNA);Csv	10	IGNORE
+Listeria monocytogenes(DNA);Csv	10	IGNORE
+2015-007 J GSK2269557	10	IGNORE
+Neisseria meningitidis(DNA);Csv	10	IGNORE
+Isoleuc.-tRNA synthet-IgG[OJ];P	10	IGNORE
+Streptococcus agalactiae(DNA);Csv	10	IGNORE
+2013-014 4 ml EDTA x 2	10	IGNORE
+2013-014 6 ml RØD x 7	10	IGNORE
+MORC3-IgG;P	10	IGNORE
+2013-014 3 ml Lihep x 6	10	IGNORE
+2014-069 S VALHEM Korttarmssyndrom	10	IGNORE
+2014-069 4,0 mL EDTA x 2	10	IGNORE
+2014-069 3,0 mL LiHe x 2	10	IGNORE
+EDTA k2 lilla 4 ml x 2, BoneBio	10	IGNORE
+Pr2016 BoneBio behandling	10	IGNORE
+2019-034 X BONE Biobank R-lab	10	IGNORE
+2019-034 X Bone 10 mL EDTA 2 af 2	10	IGNORE
+Projekt SOUL	10	IGNORE
+2014-069 6,0 mL RØD x 2	10	IGNORE
+2019-034 X Bone  9 mL RØD 1 af 1	10	IGNORE
+Procollagen III, N-terminal propeptid,P	10	IGNORE
+Protein(0 1 2 3 );U	10	IGNORE
+Haemophilus influenzae(DNA);Csv	10	IGNORE
+Mannanbindende lectin;P	10	IGNORE
+CXCL13;Csv	10	IGNORE
+Escherichia coli(DNA);Csv	10	IGNORE
+2013-014 9 ml EDTA x 1	10	IGNORE
+HLA-klasse II-Ab;P	10	IGNORE
+TIF1-gamma-IgG;P	10	IGNORE
+TEK-LILLA3	10	IGNORE
+2019-034 X Bone 10 mL EDTA 1 af 2	10	IGNORE
+Dyrkning;Csv	10	IGNORE
+2013-014 1 x Paxgene	10	IGNORE
+2014-062 J COPD	10	IGNORE
+Glycyl-tRNA synthet.-IgG [Ej];P	10	IGNORE
+Herpes simplexvirus 2(DNA);Csv	10	IGNORE
+RBGB COVID4 - TEK 6 mL RØD 1 af 2	10	IGNORE
+Polymyositis(SRP)-IgG;P	10	IGNORE
+Hydrogencarbonaat (standard);P	10	IGNORE
+2014-062 3 mL LiHe x 2	10	IGNORE
+Koriogonadotropin+beta[HCGtumor];P	10	IGNORE
+Glukose-ratio;Csv/P	10	IGNORE
+2013-014 S Leversygdom	10	IGNORE
+2021 INDEED projekt	10	IGNORE
+Bynkeambrosie (w1)-IgE;P	10	IGNORE
+Insulin;P	10	IGNORE
+PVT ikke mulig pga. undersøgelse	10	IGNORE
+LDL::KolesterolLDL(direkte);P	10	LDL
+SARS-CoV-2 Nucleprotein-IgG;P	10	IGNORE
+T-lymphocytter(helper);B	10	IGNORE
+EDTA lilla 9 ml x 3, BioProstCur	10	IGNORE
+Polymyositis(PL-7)-IgG;P	10	IGNORE
+MDA-5-IgG;P	10	IGNORE
+Mitose spindel-IgG;P	9	IGNORE
+Ecstacy;U	9	IGNORE
+GABA-B receptor 1-IgG;Csv	9	IGNORE
+2017-042 S 3 mL LiHep 2 af 5	9	IGNORE
+Morbillivirus-Ab(IgG);P	9	IGNORE
+Projekt MATINEE, EKG	9	IGNORE
+Taljeomkreds;Pt	9	IGNORE
+Immunglobulin E;P(nsB)	9	IGNORE
+Paraneoplastic Tr-IgG;Csv	9	IGNORE
+LGI1-IgG;Csv	9	IGNORE
+Protein S frit;P	9	IGNORE
+AMPAR1-IgG;Csv	9	IGNORE
+Neuroncellekerne Hu-IgG;Csv	9	IGNORE
+2017-042 S 6 mL RØD 3 af 3	9	IGNORE
+2015-053 4 mL EDTA x 1	9	IGNORE
+Steroid-metabolit gruppe;Pt(U)	9	IGNORE
+2013-080  J ENERGITO	9	IGNORE
+2017-042 S 6 mL RØD 3 af 7	9	IGNORE
+Udred. af forlænget APTT;P	9	IGNORE
+Centromer-IgG;P	9	IGNORE
+DRP-5-IgG;Csv	9	IGNORE
+Amphiphysin-IgG;Csv	9	IGNORE
+2017-042 S 6 mL RØD 1 af 7	9	IGNORE
+Nucleusmembran-IgG;P	9	IGNORE
+2017-042 S 6 mL RØD 1 af 3	9	IGNORE
+2017-042 S 3 mL LiHep 3 af 5	9	IGNORE
+2014-029 B LOOP	9	IGNORE
+Herpes simplex virus(DNA) [HSV];P	9	IGNORE
+2017-042 S 3 mL LiHep 1 af 5	9	IGNORE
+Cocain+metabolit;U	9	IGNORE
+Recoverin-IgG;Csv	9	IGNORE
+Polymyositis/Dermatomyocitis;P	9	IGNORE
+GAD65-Ab (neurologi) kvant;P	9	IGNORE
+PNMA2-IgG;Csv	9	IGNORE
+2018-025 N Cannabis EKG	9	IGNORE
+2017-056 R LIFE Under behandling	9	IGNORE
+2017-027 S Antitrypsin FU DK	9	IGNORE
+AMPAR2-IgG;Csv	9	IGNORE
+Nucleolus-IgG;P	9	IGNORE
+CDR2-IgG;Csv	9	IGNORE
+2017-042 S 3 mL LiHEP 2 af 3	9	IGNORE
+Clomipramin;P	9	IGNORE
+3,4-Methylendioxymetamfetamin;U	9	IGNORE
+2018-015 L 2,0 mL Sartedt x 6	9	IGNORE
+Myelinassoc. glykoprot.-IgM;P	9	IGNORE
+2018-016 L Bone Post	9	IGNORE
+EDTA 9 ml x 3, RAS/RAF	9	IGNORE
+MPT/KAT, tolkning;P	9	IGNORE
+HLA-klasse I-Ab;P	9	IGNORE
+Projekt RAS/RAF	9	IGNORE
+Infliximab;P	9	IGNORE
+Cannabinoid;U	9	IGNORE
+Immunglobulin-oligokloni;Csv	9	IGNORE
+Total Calcium * fosfat produkt;P	9	IGNORE
+Nucleusprik-IgG;P	9	IGNORE
+Glukose;Ledv	9	IGNORE
+Clomipramin+desmethylclomipramin;P	9	IGNORE
+Metadon;U	9	IGNORE
+Monocytes::Monocytter - POCT;B	9	Monocytes#
+Infliximab-Ab;P	9	IGNORE
+2017-042 S 3 mL LiHEP 1 af 3	9	IGNORE
+2017-042 S 4 mL EDTA 1 af 1	9	IGNORE
+NMDAR1-IgG;Csv	9	IGNORE
+Morbillivirus-Ab(IgM);P	9	IGNORE
+Hantavirus IgG+IgM;P	9	IGNORE
+Lever cytosol type 1-IgG;P	9	IGNORE
+Calcitonin;P(fPt)	9	IGNORE
+2017-042 S 6 mL RØD 2 af 3	9	IGNORE
+2017-042 S 3 mL LiHEP 3 af 3	9	IGNORE
+Trc.hæmning, P2Y12(VerifyNow);Trc	9	IGNORE
+2017-042 S 6 mL RØD 2 af 7	9	IGNORE
+BMI;Pt	9	IGNORE
+RØD 10 ml x 3, RAS/RAF	9	IGNORE
+2018-016 L Bone Post 4 mL EDTA x 2	9	IGNORE
+Desmethylclomipramin;P	9	IGNORE
+Hamsterepitel (e84)-IgE;P	9	IGNORE
+Streptococcus pneumoniae(ag);U	9	IGNORE
+Ribonucleoprotein-Ab(IgG) [RNP];P	9	IGNORE
+Cerebellum-IgG;P	9	IGNORE
+Valnød (f256)-IgE;P	9	IGNORE
+Zinc finger prot ZIC 4-IgG;Csv	9	IGNORE
+Aspergillus terreus (m36)-IgE;P	9	IGNORE
+CASPR2-IgG;Csv	9	IGNORE
+Titin-IgG;Csv	9	IGNORE
+Projekt FOKUS blod	9	IGNORE
+SOX-1-IgG;Csv	9	IGNORE
+NOVA1-IgG;Csv	9	IGNORE
+Aspergillus versic. (m25-1)-IgE;P	9	IGNORE
+Borrelia burgdorferi IgG+IgM;P	9	IGNORE
+Borrelia burgdorferi-Ab gruppe;Csv	8	IGNORE
+SERPINA1 (Standard) (SLB Vejle)	8	IGNORE
+Polymyositis(PL-12)-IgG;P	8	IGNORE
+RØD serum 9 ml, PerPros	8	IGNORE
+Blå-citrat(KF-lab)	8	IGNORE
+Blodtryk(diastolisk);Arm	8	IGNORE
+Blodtryk(systolisk);Arm	8	IGNORE
+Corona SARS-Cov-2-Ab (personale);P	8	IGNORE
+Teknisk analyse 7, 25OHD3	8	IGNORE
+P-Bindevævssygdom-relateret-Ab;P	8	IGNORE
+Kolesterol;Plv	8	IGNORE
+Koproporfyr. III / Koproporfyr. I;U	8	IGNORE
+KIA-Knoglebank	8	IGNORE
+Dyrkning (bacterium+fungus);aB sæt2	8	IGNORE
+Projekt CanArt biobank	8	IGNORE
+EDTA k2 lilla 9 ml  CanArt	8	IGNORE
+Husstøv (h2;d1;2;i6)-IgE;P	8	IGNORE
+2013-011 R Kamil,Basel,C1,EC,28PT	8	IGNORE
+Choriogonadotropin alfa [HCG];P	8	IGNORE
+Rickettsia typhi-Ab(IgG);P	8	IGNORE
+LiHep4,5 ml INDEED	8	IGNORE
+Arkivprøve;Csv	8	IGNORE
+2017-042 S 4,5 NUNC x 1 SPYT RNA	8	IGNORE
+Treponema pallidum flagel-IgG;P	8	IGNORE
+DNA-oprensning til opbevaring	8	IGNORE
+Complement C4;P	8	IGNORE
+2020-034 V COVIPOC 4 mL EDTA 1 af 1	8	IGNORE
+Bordetella pertussis-Ab;P	8	IGNORE
+Anulocytter;B	8	IGNORE
+Kappa-kæde(frit;monoklonalt);U	8	IGNORE
+Lymphocytes::Lymfocytter - POCT;B	8	Lymphocytes#
+Legeme masse;Pt	8	IGNORE
+Uroporfyrin / Kreatinin;U	8	IGNORE
+Rickettsia typhi-Ab(IgM);P	8	IGNORE
+Cystatin C;P	8	IGNORE
+Varicella zoster virus(DNA);Csv	8	IGNORE
+Rubellavirus IgG;P	8	IGNORE
+Kappa-kæde(Ig) frit;U	8	IGNORE
+Proj-003 5 mL EDTA m/gel 2 af 2	8	IGNORE
+Treponema pallidum flagel-IgM;P	8	IGNORE
+Proj-003 5 mL EDTA m/gel 1 af 2	8	IGNORE
+Fluorescens;P	8	IGNORE
+Rødt tørglas 4 ml x 1	8	IGNORE
+Porfyrin, lægefaglig tolkning	8	IGNORE
+Vitamin B6;P	8	IGNORE
+Registrering af prøvetagning	8	IGNORE
+Antitrombin; kort(enz.;trombin);P	8	IGNORE
+Projekt HERO, EKG	8	IGNORE
+Protrombintid;P	8	IGNORE
+Serum rød 10 ml x 2, CanArt	8	IGNORE
+Clomipramin+desmesthylclomipramin;P	8	IGNORE
+2017-002 Q 10 mL RØD x 1	8	IGNORE
+2021-X09 DUMMY projekt nr. 9 afd. X	8	IGNORE
+Proj-003 4 mL EDTA 1 af 1	8	IGNORE
+Proj-003 EVITA RSD Vo + børn>50 kg	8	IGNORE
+2015-058 L LEST Døgn Urin	8	IGNORE
+Ekstra glas KMA;P	8	IGNORE
+2017-049 M Figaro Fidelio	8	IGNORE
+2017-002 Q 2,5 mL PAXGENE x 1	8	IGNORE
+EDTA 3 ml INDEED	8	IGNORE
+EDTA k2 lilla 3 ml x 1, PerPros	8	IGNORE
+BCR-ABL;B	8	IGNORE
+Interferon gamma;P	8	IGNORE
+Lambda-kæde(Ig) frit;U	8	IGNORE
+Aspergillus versic. (m25-1)-IgG;P	8	IGNORE
+Ana o 3(f443)-IgE;P	8	IGNORE
+Antitrombin (enz.;Xa);P	8	IGNORE
+Krom(III);P	8	IGNORE
+Basophils::Basofilocytter - POCT;B	8	Basophils#
+Projekt PerPros	8	IGNORE
+Protein C (enz);P	8	IGNORE
+2021-076 V REVIVAL Daglig RP	8	IGNORE
+2017-042 S 1,8 NUNC x 1 SPYT Snap	8	IGNORE
+EDTA k2 lilla 9 ml, PerPros	8	IGNORE
+2020-034 V COVIPOC	8	IGNORE
+Complement C3;P	8	IGNORE
+Kappa/Lambda-kæde(Ig) frit;U	8	IGNORE
+Cytomegalovirus-Ab(igG);P	7	IGNORE
+Rheumafaktor (IgA);P	7	IGNORE
+Hummer (f80)-IgE;P	7	IGNORE
+Proj-002 4 mL LiHep u/gel 1 af 2	7	IGNORE
+C-X-C motif chemokine 13;Csv	7	IGNORE
+Bartonella henselae-IgG;P	7	IGNORE
+Krebs (f320)-IgE;P	7	IGNORE
+Borrelia burgdorferi-IgG;Csv/P	7	IGNORE
+Bartonella henselae-IgM;P	7	IGNORE
+Papegøje (e92)-IgG;P	7	IGNORE
+Glukose (15 min);P(kB)	7	IGNORE
+Corynebact. diphtheriae-toxin-Ab;P	7	IGNORE
+Borrelia burgdorferi-IgM;Csv/P	7	IGNORE
+Diaré;Pt	7	IGNORE
+5-Aminolevulinat / Kreatinin;U	7	IGNORE
+Pentacarboxylporfyrin;P	7	IGNORE
+RNA pol III RPC1-Ab(IgG);P	7	IGNORE
+IFNL3-gen;DNA	7	IGNORE
+Projekt, Hæmatologisk KFE etiketter	7	IGNORE
+Rød (KF-lab)	7	IGNORE
+Glukose;Dialysev	7	IGNORE
+Heptacarboxylporfyrin;P	7	IGNORE
+Paraneoplast. syndrom-Ab gruppe;Csv	7	IGNORE
+Bartonella quintana-Ab(IgM);P	7	IGNORE
+Bartonella quintana-Ab(IgG);P	7	IGNORE
+Bartonella quintana-IgG;P	7	IGNORE
+Paranød (f18)-IgE;P	7	IGNORE
+Protein S (frit, imm); P	7	IGNORE
+Granulocytter;B	7	IGNORE
+Hexacarboxylporfyrin;P	7	IGNORE
+HMG-CoA reductase-IgG [HMGCR];P	7	IGNORE
+Flow;B	7	IGNORE
+PDANCAVAS063	7	IGNORE
+Bartonella Ab, tolkning;P	7	IGNORE
+Protokolprøver blod (R-lab)	7	IGNORE
+2015-007 J GSK2269557 kvinder	7	IGNORE
+Proj-002 4 mL LiHep u/gel 2 af 2	7	IGNORE
+Efterbestilling under prøvetagning	7	IGNORE
+Nucleus(plettet farvning)-IgG;P	7	IGNORE
+Protein S (imm.);P	7	IGNORE
+PostTX-udvidet-virusinfektion;B	7	IGNORE
+Uroporfyrin;P	7	IGNORE
+2017-042 S 4 mL EDTA x 1	7	IGNORE
+Tetrahydrocannabinol;U	7	IGNORE
+Projekt MANAGE	7	IGNORE
+Bartonella quintana-IgM;P	7	IGNORE
+2017-042 S 10 mL EDTA x 1	7	IGNORE
+Bartonella henselae-Ab(IgG);P	7	IGNORE
+Undulat(serum,fjer,fæc.)(e90)-IgG;P	7	IGNORE
+2015-101 N Kronisk Polyneuropati	7	IGNORE
+Hepatitis C virus (RNA);P	7	IGNORE
+Gangliosid (GM1)-Ab(IgM);P	7	IGNORE
+Base excess (aktuel);P(nsB)	7	IGNORE
+Sacchar. cerevisiae-IgG[ASCA];P	7	IGNORE
+Hepatitis C virus, tolkning;Pt	7	IGNORE
+Aldosteron(LC-MS/MS);P	7	IGNORE
+M-komponent;Pt(U)	7	IGNORE
+Efterbestilling efter PVT 0-30 min	7	IGNORE
+Protein C (imm.);P	7	IGNORE
+Koproporfyrin III;P	7	IGNORE
+cN1A-Ab(IgG);P	7	IGNORE
+pO2;P(nsB)	7	IGNORE
+Bartonella henselae-Ab(IgM);P	7	IGNORE
+5-Aminolevulinat;U	7	IGNORE
+Amfetamin+analog;U	7	IGNORE
+Gyldig: plprvt.dato -15 til +30dage	7	IGNORE
+2016-006 6,5 mL Urin	7	IGNORE
+Citrat blå 2.7 ml x 4, GI 1333	7	IGNORE
+Projekt PONENTE	7	IGNORE
+Flupentixol;P	7	IGNORE
+2013-015 4,5 mL BLÅ x 1	7	IGNORE
+2021-028 J Codex ROTEM KIA 1 af 1	7	IGNORE
+2013-015 4 mL EDTA x 1	7	IGNORE
+2016-006 L BNP Urin	7	IGNORE
+Porphobilinogen;U	7	IGNORE
+2015-052 4 mL EDTA x 3	7	IGNORE
+2015-052 6 mL RØD x 2	7	IGNORE
+Serum RØD 9 ml x 2, GI 1333	7	IGNORE
+Projekt GI 1333	7	IGNORE
+2015-052 G Pavos	7	IGNORE
+2018-058 R ACHIL u10,16,19,22,28 mf	7	IGNORE
+2013-078 2,5 mL GUL x 1	7	IGNORE
+2017-014 B 6 mL RØD x 2	7	IGNORE
+PAPP A;P	7	IGNORE
+Galdesalte;P	7	IGNORE
+2017-014 B 3 mL Li-Hep x 2	7	IGNORE
+EDTA k3 Lilla 3 ml x1	7	IGNORE
+PaxGene 10 ml x 2, GI 1333	7	IGNORE
+Rød tørglas 10 ml x 2	7	IGNORE
+13-015 Mikrodial,d 1-7 d, tid 8	7	IGNORE
+Kerneholdige celler(mononukl.);Asc	7	IGNORE
+2017-014 B 3,5 mL GUL/GEL x 1	7	IGNORE
+2017-014 B 4 mL EDTA x 4	7	IGNORE
+EDTA k2 Lilla 9 ml x 2, GI 1333	7	IGNORE
+Svinekød (f26)-IgE;P	7	IGNORE
+Li-Heparin Grøn 4 ml x 3, GI 1333	7	IGNORE
+pCO2;P(nsB)	7	IGNORE
+Laktose belastning gruppe;Pt	7	IGNORE
+B-EDTA k2 lilla 4 ml x 1, OVH2N	7	IGNORE
+Laktatdehydrogenasetype grp;LDH(P)	7	IGNORE
+Hepatitis B virus(DNA, genotype);P	7	IGNORE
+Porphobilinogen / Kreatinin;U	7	IGNORE
+Metamfetamin;U	7	IGNORE
+Citalopram;P	7	IGNORE
+Erytroblaster;Lkc(B)	7	IGNORE
+Kerneholdige celler(polynukl.);Asc	7	IGNORE
+Lipæmiscreening;P	7	IGNORE
+Glukose (120 min);P(kB)	7	IGNORE
+Glukose (indgivet p.o.);Pt	7	IGNORE
+Oxyhæmoglob.(Fe)(0 1);Csv	7	IGNORE
+Myelinassoc. glykoprot.-Ab(IgM);P	7	IGNORE
+Sacchar. cerevisiae-IgA[ASCA];P	7	IGNORE
+PDANCAVASAOD	7	IGNORE
+EXOSC10-Ab(IgG) [PM-Scl100];P	7	IGNORE
+Mavekneb;Pt	7	IGNORE
+Thyrotropin receptor Ab;P	7	IGNORE
+2019-025 J Astraeus BLOD	7	IGNORE
+Kerneholdige celler;Asc	7	IGNORE
+Due(serum,fjer,fæces) (e91-1)-IgG;P	7	IGNORE
+Koproporfyrin I;P	7	IGNORE
+B(vB)-ABL-veneprøve	7	IGNORE
+Manipulationskontrol;U	7	IGNORE
+Hepatitis B virus s-Ag	7	IGNORE
+SHS21-004 TEK-PERITONEAL	7	IGNORE
+TEK-CITRAT	7	IGNORE
+Antitrypsin, genetisk analyse	6	IGNORE
+2017-068 B EMPIRE Bl.V2+4 T30-T120	6	IGNORE
+2012-073 PEV FBI Anti-Xa	6	IGNORE
+TEK-RØD4	6	IGNORE
+Choriogonadotropin [HCG];P	6	IGNORE
+SERPINA1-gen (standard);DNA	6	IGNORE
+Tek-Follitropin	6	IGNORE
+Projekt FOKUS urin	6	IGNORE
+Prolaktin(makro);P	6	IGNORE
+2017-062 B Flavour V2-5,urin	6	IGNORE
+2021-010 Å  3 mL LGRØN li-hep	6	IGNORE
+2009-027 TEK-CAI navlesnor	6	IGNORE
+TEK-Thrombocytter,antalk.;B	6	IGNORE
+Morphin+analog;U	6	IGNORE
+TEK-RØD10	6	IGNORE
+Collagen I,krydsbundne [CTx];P(fPt)	6	IGNORE
+Oksekød (f27)-IgE;P	6	IGNORE
+PAPP A [Kryptor];P	6	IGNORE
+MuSK receptor-Ab;P	6	IGNORE
+Glukose (45 min);P(kB)	6	IGNORE
+Pneumokok-Ab 7 valent;P	6	IGNORE
+Triiodthyronin-reaktion[T3-Test];P	6	IGNORE
+Bacterium+fungus;B(kateter;aB)	6	IGNORE
+Methæmoglobin(Fe);Hb(Fe;cvB)	6	IGNORE
+INR::Koag. faktor II+VII+X [INR];P(kB)	6	INR
+Undulat(e90)-IgG;P	6	IGNORE
+Choriogonadotropin+beta [HCG];P	6	IGNORE
+Osteocalcin;P	6	IGNORE
+Galdesalte;P(fPt)	6	IGNORE
+Pr. 2007-026 PEC DANHEP	6	IGNORE
+Grøn Li Hep uden gel 4 ml x 1	6	IGNORE
+Massefylde;U	6	IGNORE
+2018-020 S 6,0 mL tørglas	6	IGNORE
+2018-020 S Zinc-PALS ZAC	6	IGNORE
+Protein;Ledv	6	IGNORE
+2017-027 S 4 mL EDTA 1 af 1	6	IGNORE
+Papegøjefjer (e213)-IgG;P	6	IGNORE
+Serotonin;P	6	IGNORE
+2015-005 M GAB-E Sik HbA1C	6	IGNORE
+Tek-Lutropin,arb.stofk.	6	IGNORE
+Mirtazapin;P	6	IGNORE
+Koskæl (e4)-IgE;P	6	IGNORE
+2017-042 S MicrobPredict recall Div	6	IGNORE
+Von Willebrand-faktor,aktiv(imm.);P	6	IGNORE
+ADPtest - Pr-miRNA	6	IGNORE
+Klorhexidin (c8)-IgE;P	6	IGNORE
+2015-085 6 mL Urin x 1	6	IGNORE
+2012-073 4,5 ml BLÅ x 1	6	IGNORE
+Due(serum,fjer,fæces) (e91)-IgG;P	6	IGNORE
+Projekt DanHeart	6	IGNORE
+Protein S (koag.);P	6	IGNORE
+Hepatitis C virus(RNA,kvant)[HCV];P	6	IGNORE
+Isavuconazol;P	6	IGNORE
+Koriogonadotropin alfa [HCG];P	6	IGNORE
+2015-085 V  NGAL-Studiet	6	IGNORE
+Legionella pneumophila(Ag);U	6	IGNORE
+Gabapentin;P	6	IGNORE
+Somatisk hypermutation CLL;B	6	IGNORE
+2018-058 R ACHIL u1,4,7-13,25,37,49	6	IGNORE
+2017-027 S Nordic	6	IGNORE
+2013-078 Nova V 6+7+9+10+12+13	6	IGNORE
+2015-058 L LEST V FU 1-18 mdr Blod	6	IGNORE
+2013-078 3,5 mL GUL x 1	6	IGNORE
+Urinrør beige prop, 4,0ml x1	6	IGNORE
+4-Fluroamphetamin;U	6	IGNORE
+2021-028 J 2,7 mL CITRAT 2 af 2	6	IGNORE
+Modafinilsyre,konfirm;U	6	IGNORE
+2012-023 PEM T2DM Karbamid	6	IGNORE
+Projekt NeoCol	6	IGNORE
+SERUM rød 10 ml x 2, Col-Rect biobank	6	IGNORE
+Pancreatisk polypeptid;P	6	IGNORE
+Modafinil,konfirm;U	6	IGNORE
+Rødt tørglas 9 ml x 2, NeoCol	6	IGNORE
+MDPV,konfirm;U	6	IGNORE
+Phencyclidin,konfirm;U	6	IGNORE
+HIV 1+2-Ab (konfirm);P	6	IGNORE
+Pethidin,konfirm;U	6	IGNORE
+2013-078 Nova V 6+7+9+10+12+13, Urin	6	IGNORE
+Protein;Drænv	6	IGNORE
+Pax Gene brun RNA 2,5 ml x 2 NeoCol	6	IGNORE
+2-Fluorofentanyl,konfirm;U	6	IGNORE
+Norpethidin,konfirm;U	6	IGNORE
+2013-078 2,0 mL EDTA x 2	6	IGNORE
+SARS-CoV-2 spike glykoprotein-IgG;P	6	IGNORE
+Furanylfentanyl,konfirm;U	6	IGNORE
+2021-028 J 2,7 mL CITRAT 1 af 2	6	IGNORE
+Krabbe (f23)-IgE;P	6	IGNORE
+2017-056 R 2,5  mL PAXGEN x 1	6	IGNORE
+Proj-002 COVAC-Tx pakke 2	6	IGNORE
+Projekt Erlotinib	6	IGNORE
+Ukendt/inaktiv analyse;Pt	6	IGNORE
+2021-010 Å  2 mL EDTA	6	IGNORE
+2017-042 S Microb predict recall	6	IGNORE
+Vævstype, nyrepatient, 1. type;P	6	IGNORE
+Choriogonadotropin beta [Kryptor];P	6	IGNORE
+U-47700;U	6	IGNORE
+Methoxetamin;U	6	IGNORE
+2017-027 S 6,0 mL RØD x 5	6	IGNORE
+2018-015 L ESW Day session 1-6 urin	6	IGNORE
+2017-056 R LIFE Baseline	6	IGNORE
+2013-078 2,0 mL EDTA  x 1	6	IGNORE
+alpha-PVP,konfirm;U	6	IGNORE
+Echinocytter;B	6	IGNORE
+EDTA lilla 9 ml x 1, Col-Rect biobank	6	IGNORE
+Tapentadol,konfirm;U	6	IGNORE
+2013-068 B LIVE Visit 1-2-3 Blod	6	IGNORE
+EDTA k2 lilla 9 ml x 2, NeoCol	6	IGNORE
+Projekt Boreas	6	IGNORE
+2017-014 B AVADEC Tid 7.30-14.30	6	IGNORE
+Dextropropoxyphen,konfirm;U	6	IGNORE
+2017-027 S 3,0 mL LiHep x 4	6	IGNORE
+Projekt Erlotinib, EDTA k2, 9 ml x 2	6	IGNORE
+EDTA lilla 3 ml x 1, Col-Rect biobank	6	IGNORE
+Vævstype,nyrepatient/donor,2.type;P	5	IGNORE
+EXOSC9-Ab(IgG) [PM-Scl75];P	5	IGNORE
+Anti-HBc (total) ELISA, konf. test	5	IGNORE
+Parotitisvirus-IgG [Mumps virus];P	5	IGNORE
+Hæmoglobin - 1 (teknisk);F	5	IGNORE
+Neuropati(SGPG)-Ab(IgM);P	5	IGNORE
+Basisk fosfatase, knogletype;P	5	IGNORE
+Lambda-kæde(frit;monoklonalt);U	5	IGNORE
+Yersinia enterocol.(O:3) IgG+IgA;P	5	IGNORE
+Kendt mutation	5	IGNORE
+CHD-4-IgG;P	5	IGNORE
+Hereditær hæmokromatose (HFE)	5	IGNORE
+Glukose øgning fra 0 min;P(kB)	5	IGNORE
+Koriogonadotropin+beta [HCG](tum);P	5	IGNORE
+2017-042 S SIPHON SCREENING	5	IGNORE
+Sirolimus (od);B	5	IGNORE
+Uroporfyrin/Kreatinin;U	5	IGNORE
+Plasm.akt vævst.;P	5	IGNORE
+Polymyositis(SRP)-Ab(IgG);P	5	IGNORE
+Pr. 2007-045 SAM Knoglebank	5	IGNORE
+2019-025 J Astraeus HIV	5	IGNORE
+Vanillylmandelat [VMA];U	5	IGNORE
+Leukocytter (mikr.);B	5	IGNORE
+Mycobacterium;B	5	IGNORE
+Herpes simplexvirus (DNA);Csv	5	IGNORE
+Projekt OBERON	5	IGNORE
+Polymyositis(PL-7)-Ab(IgG);P	5	IGNORE
+Gliadin-Ab(IgA);P	5	IGNORE
+Kreatinin;Dialysev(perit)	5	IGNORE
+Endomysium-IgA;P	5	IGNORE
+2015-101 N Kro Polyneuropati 1	5	IGNORE
+Aldosteron/Renin(LC-MS/MS);P	5	IGNORE
+Blod - EDTA;B	5	IGNORE
+Lymphocytter, B/T/NK;B	5	IGNORE
+BRCA1-gen;DNA	5	IGNORE
+Methæmoglobin;Csv	5	IGNORE
+Hba1c::Hæmoglobin A1c (IFCC) - POCT;Hb(B)	5	HbA1C
+Meningitis gruppe;Csv	5	IGNORE
+EDTA k2 lilla 9 ml x 3, PLAK	5	IGNORE
+Enterovirus(RNA);Csv	5	IGNORE
+CYP2D6-gen;DNA	5	IGNORE
+Tek PROCALC	5	IGNORE
+2017-042 S 4 mL EDTA x 2	5	IGNORE
+Tværstribet muskel-IgG;P	5	IGNORE
+Erythrocyt-antigen;Ercs(B)	5	IGNORE
+TEK-BLÅ 1,8/2	5	IGNORE
+Human herpesvirus 8 (DNA);P	5	IGNORE
+Hæmoglobin - 2 (teknisk);F	5	IGNORE
+Nucleært-Ab(IgG) [ANA];arb.;P	5	IGNORE
+Mi2-beta-IgG;P	5	IGNORE
+SPIDS urin 10 ml, PerPros	5	IGNORE
+Encephalitis gruppe;Csv	5	IGNORE
+C-Kit mutation;B	5	IGNORE
+CTx;P(fPt)	5	IGNORE
+Fibrillarin-IgG;P	5	IGNORE
+TEK-LA1	5	IGNORE
+Barbiturat;U	5	IGNORE
+Stikskade, 2.US af eksponeret grp;P	5	IGNORE
+Cefuroxim (c101)-IgE;P	5	IGNORE
+Carbonmonoxidhæmoglobin(Fe);Hb(cvB)	5	IGNORE
+2017-072T RH BOX Urin	5	IGNORE
+Projekt GEN3013	5	IGNORE
+EDTA lilla 3 ml x 1, RAS/RAF	5	IGNORE
+NK-VUE 1 ml x 1, PLAK	5	IGNORE
+Polymyositis(Ku)-Ab(IgG);P	5	IGNORE
+TEK-APTT-LA	5	IGNORE
+2021-076 V 1,8 mL CITRAT 1 stk	5	IGNORE
+2019-025 J Astraeus Hep B Ag	5	IGNORE
+Apolipoprotein B;P(fPt)	5	IGNORE
+TEK-MGRØN4	5	IGNORE
+Erythrocytter;U	5	IGNORE
+2019-025 J Astraeus Antitrypsin	5	IGNORE
+Udstrygningspræp. - AKP-OUH;B	5	IGNORE
+Rickettsia rickettsii-IgG;P	5	IGNORE
+TEK-RØD4x2	5	IGNORE
+Porfyrin - lægefaglig tolkning	5	IGNORE
+2018-055 B Dan-Heart Visit 1-9	5	IGNORE
+2017-042 S Liver Screen	5	IGNORE
+Kortisol (60 min);P	5	IGNORE
+Atypiske celler;B	5	IGNORE
+TEK-RØD 10/2	5	IGNORE
+Havremel (f7)-IgE;P	5	IGNORE
+Polymyositis(PL-12)-Ab(IgG);P	5	IGNORE
+Koagellyse;P	5	IGNORE
+Papegøje serum+fjer+fæc.(e92)-IgG;P	5	IGNORE
+2017-068 B 4 mL RØD x 1	5	IGNORE
+Koagellyse (10 min ef.stase);P	5	IGNORE
+Apolipoprotein A1;P	5	IGNORE
+Cor.SARS(COVID19)DNA/RNA(POCT);Trak	5	IGNORE
+Herpes simplex virus(DNA) [HSV];Csv	5	IGNORE
+Serum rød 10 ml x 1, Tumorsfære	5	IGNORE
+TEK-BLÅ2,7x2	5	IGNORE
+Hæmoglobin - 3 (teknisk);F	5	IGNORE
+Serum rød 10 ml x 1, PLAK	5	IGNORE
+Karbamid;Dialysev(perit)	5	IGNORE
+Borborygmi;tilstede;Pt	5	IGNORE
+2019-025 J Astraeus Hep B,C Ab	5	IGNORE
+Projekt PLAK	5	IGNORE
+Koriogonadotropin+beta [HCG](grv);P	5	IGNORE
+Autoimmun synaptisk encephal. grp;P	5	IGNORE
+Testosteron/SHBG(LC-MS/MS);P	5	IGNORE
+Tek. LUPUS, LA-check mix;P	5	IGNORE
+2021-076 V 2 mL EDTA  1 stk	5	IGNORE
+2018-X PTH/CAG TEK-glas	5	IGNORE
+Basisk fosfatasetype gruppe;BasF(P)	5	IGNORE
+Plasm.akt.vævst.(10 min ef.stase);P	5	IGNORE
+Hepacivirus C (RNA, genotype);P	5	IGNORE
+Blå Na-Citrat 2,7 ml x 4	5	IGNORE
+2018-025 N 6 mL RØD x 2	5	IGNORE
+DD2, Grøn Li Hep uden gel 8 ml x 2	5	IGNORE
+LI-HEP grøn 4 ml x 1, FlowPromote	5	IGNORE
+2018-025 N Cannabis FB	5	IGNORE
+Zonisamid;P	5	IGNORE
+CTX1/BAP index	5	IGNORE
+Choriogonadotropin beta-kæde:P	5	IGNORE
+Rickettsia typhi-IgG;P	5	IGNORE
+Parotitisvirus-IgM [Mumps virus];P	5	IGNORE
+Kiwifrugt (f84)-IgE;P	5	IGNORE
+Rød tørglas 9ml x 2	5	IGNORE
+2017-042 S Biopsi Div	5	IGNORE
+Isotonitazen;U (konfirm)	5	IGNORE
+Projekt Tumorsfære	5	IGNORE
+Norquetiapin:U (konfirm)	5	IGNORE
+Projekt Flow-Promote	5	IGNORE
+HIV2(RNA);P	5	IGNORE
+Interferon beta Ab(neutralis.);P	5	IGNORE
+2014-024 4 mL EDTA x 3	5	IGNORE
+EDTA k2 lilla 4 ml x 2	5	IGNORE
+2014-024 B Danrisk Follow up. Blod	5	IGNORE
+2014-024 3 mL LIHEP x 2	5	IGNORE
+Rickettsia typhi-IgM;P	5	IGNORE
+2016-056 Å BELIEVE MNC	5	IGNORE
+EDTA lilla 9 ml x 3, Tumorsfære	5	IGNORE
+2014-024 6 mL RØD x 3	5	IGNORE
+Tick-borne enceph.virus-IgM [TBE];P	5	IGNORE
+2016-056 Å 10 mL EDTA x 1	5	IGNORE
+EDTA lilla 4 ml x 2, Flow-Promote	5	IGNORE
+Tick-borne enceph.virus-IgG [TBE];P	5	IGNORE
+Rickettsia rickettsii-IgM;P	5	IGNORE
+Rød tør 9 ml x 1	4	IGNORE
+Kreatinin;Asc	4	IGNORE
+Hønsefjer (e85)-IgE;P	4	IGNORE
+Plasmininhibitor (enz.);P	4	IGNORE
+NK-VUE 1 ml x 1, OC Recur	4	IGNORE
+Pr2019 DANHEART	4	IGNORE
+Flecainid;P	4	IGNORE
+Projekt Dansk Reuma Biobank	4	IGNORE
+2015-053 B STEMI V1, 06.30-14.45	4	IGNORE
+Aggregation, arachidonat 0,5;Trc(B)	4	IGNORE
+2010-030-008 DCB 10 mL EDTA 4 af 5	4	IGNORE
+Aggregation, ADP 6,4;Trc(B)	4	IGNORE
+Bas.fos. knogletype;BasF(P)	4	IGNORE
+TB2 antigen;T-lymc(B)	4	IGNORE
+2012-053 4 ml EDTA(K2) x 3	4	IGNORE
+EDTA lilla 4 ml x 1, PROMIL	4	IGNORE
+2012-053 4 ml RØD ug x 3	4	IGNORE
+2016-058 S  PaxGene x 1	4	IGNORE
+DPYD tolkning	4	IGNORE
+Ribonucleoprotein-Ab(IgG);P	4	IGNORE
+Transglutaminase-Ab(IgG);P	4	IGNORE
+Projekt CARPE DM2	4	IGNORE
+Treponema pallidum, konfirmato.;P	4	IGNORE
+Bly;B	4	IGNORE
+Helminthosporium halodes (m8)-IgE;P	4	IGNORE
+Duefjer (e215)-IgG;P	4	IGNORE
+Proj-002 COVAC-Tx pakke 1	4	IGNORE
+Protein C (aktiveret) resistens;P	4	IGNORE
+TB antigen	4	IGNORE
+Vasopressin [ADH];P	4	IGNORE
+2016-058 S  4,0 mL RØD x 2	4	IGNORE
+EDTA k2 lilla 9 ml x 2, OC Recur	4	IGNORE
+HLA klasse II-gen gruppe;DNA	4	IGNORE
+Pregabalin;P	4	IGNORE
+2016-058 S  3,0 mL LiHep x 4	4	IGNORE
+Børnekost (f1;2;3;4;13;14)-IgE;P	4	IGNORE
+2010-030-008 DCB 6 mL RØD 1 af 3	4	IGNORE
+Protein S frit / Koag.faktor II;P	4	IGNORE
+2016-056 10 mL EDTA x 3	4	IGNORE
+Organdonation arkiv;P	4	IGNORE
+2021 INDEED UF5000	4	IGNORE
+Eg (t7)-IgE;P	4	IGNORE
+Gastrin;P(fPt)	4	IGNORE
+Protein S frit / Protein C;P	4	IGNORE
+Kimærisme gruppe; Celler(B)	4	IGNORE
+2016-058 S  10,0 mL EDTA x 1	4	IGNORE
+Cladosporium herbarum (m2)-IgG;P	4	IGNORE
+Hæmoglobintype gruppe;Hb(B)	4	IGNORE
+2016-058 S  3,0 mL LiHep x 2	4	IGNORE
+EDTA k2 lilla 4 ml x 1	4	IGNORE
+2014-007 3 mL LiHep x 2	4	IGNORE
+Koagulationsfaktor X (imm.);P	4	IGNORE
+PostTX-standard-virusinfektion;B	4	IGNORE
+CYP2D6 genotype, lægefagl.tolkning	4	IGNORE
+2014-007 4 mL EDTA x 2	4	IGNORE
+2010-030-008 DCB 10 mL EDTA 3 af 5	4	IGNORE
+Complementfunktions-US udvidet;P	4	IGNORE
+2017-062 B Flavour V2-5,blod	4	IGNORE
+2010-030-008 DCB 10 mL EDTA 5 af 5	4	IGNORE
+PCNA-IgG;P	4	IGNORE
+Projekt OC Recur	4	IGNORE
+Gad c 1 (f426)-IgE;P	4	IGNORE
+2010-030-008 DCB 4 mL EDTA 1 af 1	4	IGNORE
+CHD-4 -IgG [Mi-2];P	4	IGNORE
+Kolorektalcancer panel	4	IGNORE
+2021 INDEED projekt Urin	4	IGNORE
+2010-030-008 DCB 10 mL EDTA 2 af 5	4	IGNORE
+KIT D816V mutation;B	4	IGNORE
+2016-058 S ReDuC del S blod (Alle)	4	IGNORE
+2017-042 S Liver Screen Recall	4	IGNORE
+Bas.fos. anodisk bånd(semikvant);P	4	IGNORE
+2016-056 2,5 mL PAX-gene x 4	4	IGNORE
+Bas.fos. tarmtype;BasF(P)	4	IGNORE
+TB1 antigen;T-lymc(B)	4	IGNORE
+Natrium;Øjenv	4	IGNORE
+Bilirubiner;Asc	4	IGNORE
+2010-030-008 DCB 6 mL RØD 2 af 3	4	IGNORE
+2010-030-008 DCB 6 mL RØD 3 af 3	4	IGNORE
+2020-052 M 4 mL LiHe 1 af 1	4	IGNORE
+HLA-DQB1-gen (DQ8);DNA	4	IGNORE
+Glat muskel-Ab(IgG)[GMA];P	4	IGNORE
+Malaria kontrol	4	IGNORE
+2014-007 4 mL RØD x 3	4	IGNORE
+Flow(OUH);B	4	IGNORE
+TEK-LILLA10	4	IGNORE
+Projekt Daratumumab	4	IGNORE
+2016-056 Å 4,0 mL LiHep x 1	4	IGNORE
+JC polyomavirus(DNA);Csv	4	IGNORE
+Ribonuclepr.U1(70kDa+A+C)-Ab(IgG);P	4	IGNORE
+Toxoplasma gondii IgG;P	4	IGNORE
+Immunglobulin G / Albumin-ratio;Csv	4	IGNORE
+Glukose (90 min);P(kB)	4	IGNORE
+Aggregation, collagen 2,0;Trc(B)	4	IGNORE
+Koagulationsfaktor X (koag.);P	4	IGNORE
+HLA-DQB1-gen (DQ2);DNA	4	IGNORE
+Peptidyldipeptidase A [ACE];Csv	4	IGNORE
+2017-042 S 3 mL LiHep x 5	4	IGNORE
+2016-033 10 mL sort beige x 3	4	IGNORE
+2021-014 M CONCORD	4	IGNORE
+Von Willebrand antigen (imm.);P	4	IGNORE
+Protein C / Koag.faktor II;P	4	IGNORE
+AA21-004 TEK-PAXGENE	4	IGNORE
+Organdonation;P	4	IGNORE
+Aspergillus flavus (m228)-IgE;P	4	IGNORE
+Celletype(Donor ID);Celler(B)	4	IGNORE
+IL2RG-gen;DNA	4	IGNORE
+Paliperidon;P	4	IGNORE
+Coxiella burnetii-Ab gruppe;P	4	IGNORE
+HLA DQ2 DQ8;P	4	IGNORE
+Pr2018 LIRA-KOL (Besøg 2,3,4,6)	4	IGNORE
+Serum RØD 4 ml x 1, ON	4	IGNORE
+Svineepitel (e83)-IgE;P	4	IGNORE
+P-Projekt Prolaktin	4	IGNORE
+2022-044 Q NTM MDT	4	IGNORE
+Parietalcelle-Ab(IgG);P	4	IGNORE
+Estradiol(frit);P	4	IGNORE
+Projekt Opticus neuritis (ON), blod	4	IGNORE
+2012-036 PEM LPL defekt, Visit 2	4	IGNORE
+2013-078 10,0 mL EDTA x 1	4	IGNORE
+2018-058 R ACHILES Før carbo/eto	4	IGNORE
+Perampanel;P	4	IGNORE
+Vanillylmandelat [VMA]/Kreatinin;U	4	IGNORE
+Gangliosid (GM1)-Ab(IgG);P	4	IGNORE
+2010-030-008 DCB 10 mL EDTA 1 af 5	4	IGNORE
+Projekt NIIP	4	IGNORE
+Rickettsia-IgM;P	4	IGNORE
+Bacterium+fungus;B(kateter;cvB)	4	IGNORE
+Rickettsia-Ab(IgG);P	4	IGNORE
+eGFR / 1,73m2(CKD-EPI, CysC)	4	IGNORE
+TEK-LILLA6	4	IGNORE
+2008-044 4 ml EDTA x 4	4	IGNORE
+Blødningsudredning;Pt	4	IGNORE
+2016-058 S  4,0 mL EDTA x 2	4	IGNORE
+Protein S Ag (frit;imm.);P	4	IGNORE
+Serum Rød 10 ml x 1, OC Recur	4	IGNORE
+Pr. 2010 DUAL(bes.3-9-15-21)(urin)	4	IGNORE
+2013-069 3 mL Hirudingl. x 1	4	IGNORE
+Pr. 2010 DUAL(bes.6-12-18-24)	4	IGNORE
+2013-069 4,5 mL BLÅ x 1	4	IGNORE
+NIL-kontrol	4	IGNORE
+2017-002 Q KCVI 2016 visit 1	4	IGNORE
+Tick-borne encep.Ab tolkning;P	4	IGNORE
+2013-069 2,5 mL GUL x 2	4	IGNORE
+2018-010 Å 2,5 mL RØD x 1	4	IGNORE
+EDTA k2 lilla 3 ml x 1, WW2	4	IGNORE
+2017-014 B AVADEC Visit 2+4 Safety	4	IGNORE
+EDTA k2 lilla 4 ml x 1, ON	4	IGNORE
+2017-002 Q KCVI 2016 visit 2	4	IGNORE
+Pr. 2011-035 PEJ BIOREX	4	IGNORE
+Kobolt;P	4	IGNORE
+2017-002 Q 10 mL EDTA x 2	4	IGNORE
+2017-002 Q 10 mL EDTA x 1	4	IGNORE
+Ananas (f210)-IgE;P	4	IGNORE
+2013-068 B LIVE Visit 1-2 Urin	4	IGNORE
+2018-010 Å 2,0 mL EDTA x 1	4	IGNORE
+HIV-1 genotypisk resistens;P	4	IGNORE
+2018-010 Å 4,0 mL EDTA x 1 is	4	IGNORE
+Pr. 2010 DUAL(bes.6-12-18-24)(urin)	4	IGNORE
+Teknisk Paracetamol	4	IGNORE
+2008-044 4 ml EDTA x 3	4	IGNORE
+Projekt PARA-DESE registrering	4	IGNORE
+2013-069 4,5 mL BLÅ x 3	4	IGNORE
+Rickettsia Ab, tolkning;P	4	IGNORE
+CD34 membranmarkør;B	4	IGNORE
+Erytrocytter;Perikv	4	IGNORE
+Teknisk analyse til HCV;P	4	IGNORE
+2010-030-008 DCB Mamma udv indsaml.	4	IGNORE
+Kalium;Øjenv	4	IGNORE
+AA21-004 TEK-RØD10	4	IGNORE
+Autoimmun synaptisk ence. grp;Csv	4	IGNORE
+Proj-002 COVAC-Tx pakke 5	4	IGNORE
+Ecstacy-U	4	IGNORE
+Hepatitis D virus-Ab;P	4	IGNORE
+Serum rød 10 ml x 1, Daratumumab	4	IGNORE
+Streptococ.pneu-Ab(IgG)7/13valent;P	4	IGNORE
+Musling (f207)-IgE;P	4	IGNORE
+2012-053 PET MM Proteom Blod	4	IGNORE
+Aripiprazol+Dehydroaripiprazol;P	4	IGNORE
+2021-076 V 3 mL BRUN 1 stk	4	IGNORE
+2021-010 Å INDEED Tid 10-15 stor P	4	IGNORE
+Aggregation, trombin rec. 32;Trc(B)	4	IGNORE
+Treponema pallidum flagel-Ab(IgG);P	4	IGNORE
+Bas.fos. lever canaliculi.;BasF(P)	4	IGNORE
+Protein S frit / Koag.faktor X;P	4	IGNORE
+Imipramin;P	4	IGNORE
+Triglycerid;Asc	4	IGNORE
+2017-042 S 6 mL RØD x 6	4	IGNORE
+Bas.fos. leverendoteltype;BasF(P)	4	IGNORE
+Teknisk analyse 9, 25OHD3	4	IGNORE
+2016-058 S  6,0 mL RØD x 5	4	IGNORE
+Galactosyl-(1-3)galact.(o215)-IgE;P	4	IGNORE
+Protein C / Koag.faktor X;P	4	IGNORE
+Koagulationsfaktor II (imm.);P	4	IGNORE
+Vanillylmandelat [VMA];Pt(U)	4	IGNORE
+Erythropoietin;P	4	IGNORE
+Haemophilus influenzae b-Ab(IgA);P	4	IGNORE
+Leukocytter;Perikv	4	IGNORE
+Projekt PREDICT Amb	4	IGNORE
+HFE-gen;DNA	4	IGNORE
+Karbamid;Drænv	4	IGNORE
+Rickettsia-IgG;P	4	IGNORE
+Plasmodium (malaria?);Erc(B)	4	IGNORE
+Treponema pallidum flagel-Ab(IgM);P	4	IGNORE
+SMAD4-gen;DNA	4	IGNORE
+Desipramin;P	4	IGNORE
+Rickettsia-Ab(IgM);P	4	IGNORE
+Apixaban;P	4	IGNORE
+Human herpesvirus 8(DNA);P	4	IGNORE
+2016-033 KGA genUGI 3 glas	4	IGNORE
+2008-044 6,0 mL RØD	4	IGNORE
+Dueserumprotein (e93)-IgG;P	4	IGNORE
+2015-075 4 mL RØD	4	IGNORE
+2015-075 4 mL EDTA uden centrifug	4	IGNORE
+TCR-gen-rearrangement;B	4	IGNORE
+Mitogen-kontrol	4	IGNORE
+2021-R01 KFE 21.05  COVID VACC V2	4	IGNORE
+2021-R01 Quantiferon Sars-Cov2 x 4	4	IGNORE
+2017-027 S Antitrypsin Inklusion DK	3	IGNORE
+Salmonella-Ab(IgA);P	3	IGNORE
+2017-027 S Antitrypsin Inklusion D	3	IGNORE
+2017-042 S 4,5 NUNC x 1 SPYT	3	IGNORE
+2014-013 4 mL RØD x 2	3	IGNORE
+Compl.attack complx(C5b-6-7-8-9n);P	3	IGNORE
+Teknisk analyse 8, 25OHD3	3	IGNORE
+Salmonella-Ab(IgG);P	3	IGNORE
+2021-076 V REVIVAL DAG 3, 4, 5	3	IGNORE
+Immunglobulin G;Csv/P	3	IGNORE
+Borrelia burgd.-Ab(IgM)(0 1);Csv	3	IGNORE
+Chlamydophila pneumoniae-IgG;P	3	IGNORE
+MANAGE	3	IGNORE
+LA1 Screen;P	3	IGNORE
+Projekt Perpros, Urin	3	IGNORE
+Bilirubiner;Plv	3	IGNORE
+Klorid;U	3	IGNORE
+Cytochrom P450 11A1-Ab;P	3	IGNORE
+Ves v 5-IgE;P	3	IGNORE
+Projekt SELECT Pro	3	IGNORE
+Salmonella-Ab(IgM);P	3	IGNORE
+EDTA k2 lilla 4 ml x 1, ENZ	3	IGNORE
+Morbillivirus-Ab tolkning;P	3	IGNORE
+BK polyomavirus(DNA);U	3	IGNORE
+BCR-ABLmutation;B	3	IGNORE
+Leukocytter(polynukl.);Perikv	3	IGNORE
+Marsvineepitel (e6)-IgE;P	3	IGNORE
+BP180-IgG;P	3	IGNORE
+EDTA lilla 9 ml x 3, SELECT Pro	3	IGNORE
+Centromer-Ab(IgG);P	3	IGNORE
+2017-027 S 6 mL Tørglas 1 af 1	3	IGNORE
+2015-097 10 mL sort/beige x 2	3	IGNORE
+Von Willebrand-faktor (imm.);P	3	IGNORE
+Triglycerider;Drænv	3	IGNORE
+2014-013 4 mL EDTA x 2	3	IGNORE
+Herpes simplex virus-IgG [HSV];P	3	IGNORE
+2021-076 V 3 mL BRUN 2 stk	3	IGNORE
+Ves v 1(i211)-IgE;P	3	IGNORE
+Coxiella burnetii Ab(Q-feber);P	3	IGNORE
+Borrelia burgd.-Ab(IgG);Csv	3	IGNORE
+Lymfocytter, udvidet US;B	3	IGNORE
+2016-035 V SEVATS visit 1+4	3	IGNORE
+M-komponent type;U	3	IGNORE
+2012-073 PEV FBI NGAL Blod	3	IGNORE
+Bilirubiner;Drænv	3	IGNORE
+EDTA k2 LIL10 ml x 2	3	IGNORE
+Tunfisk (f40)-IgE;P	3	IGNORE
+2017-042 S 6 mL RØD 6 af 7	3	IGNORE
+Api m 1-IgE;P	3	IGNORE
+Imipramin+desipramin;P	3	IGNORE
+Acarus siro (d70)-IgE;P	3	IGNORE
+2017-068 B 6 mL RØD x 1	3	IGNORE
+Protein C;P	3	IGNORE
+Semen; Spermatozoa(vasectomiktr);Pt	3	IGNORE
+2017-027 S 3 mL Li-hep 2 af 2	3	IGNORE
+Aspergillus versic. (m25)-IgE;P	3	IGNORE
+Malariamikroskopi;Erc(B)	3	IGNORE
+2016-035 6 mL CPDA x 2	3	IGNORE
+2015-044-001 Paxgene RNA x2	3	IGNORE
+Herpes simplexvirus(DNA);Csv	3	IGNORE
+NK-VUE 1 ml x 1, SELECT-Pro	3	IGNORE
+2018-019 R MESTAR	3	IGNORE
+Hepatitis E virus-Ab gruppe;P	3	IGNORE
+Herpes simplexvirus;Csv	3	IGNORE
+2013-074 Z LeukoPatch,11+19+26	3	IGNORE
+2017-042 S 6 mL RØD 5 af 7	3	IGNORE
+2017-072 T 4 mL EDTA x 1 (T14-6)	3	IGNORE
+2018-019 A 10 mL Streck brun/sortx4	3	IGNORE
+Basisk fosfatase;Asc	3	IGNORE
+Chlamydophila pneumoniae-Ab(IgM);P	3	IGNORE
+2012-053 PET MM Proteom Pleura	3	IGNORE
+Autoimmun hepatitis gruppe;P	3	IGNORE
+Cystin;U	3	IGNORE
+Treponema pallidum flag.-Ab(IgG);P	3	IGNORE
+Teknisk Koagulationsudr. Weblab	3	IGNORE
+Pr. 2011-032 PEB HFF Trial	3	IGNORE
+Chromodomain-hel.-DNA-b.p.4-Ab(IgG)	3	IGNORE
+Leukocytter(polynukl.);Lkc(Csv)	3	IGNORE
+Glukose;Øjenv	3	IGNORE
+2017-042 S 3 mL LiHep 4 af 5	3	IGNORE
+2015-044-001 6 mL RØD x 3	3	IGNORE
+2017-042 S 3 mL LiHep 5 af 5	3	IGNORE
+Dried Blood Spot;B	3	IGNORE
+Desmoglein 1-IgG;P	3	IGNORE
+Lymfocytter, B-celler;B	3	IGNORE
+Æble (f49)-IgE;P	3	IGNORE
+2017-027 S 4 mL EDTA 1 af 2	3	IGNORE
+eGFR / 1,73m²(CKD-EPI, CysC)	3	IGNORE
+Alternaria tenuis (m6)-IgG;P	3	IGNORE
+2014-063 DANCAVAS sund dk	3	IGNORE
+Glukose;Dialysev(perit)	3	IGNORE
+Hepatitis C kontrol	3	IGNORE
+Uracil;P	3	IGNORE
+Gyldig: plprvt.dato -6 til +6 dage	3	IGNORE
+Kartoffel (f35)-IgE;P	3	IGNORE
+Histon-Ab(IgG);P	3	IGNORE
+Koagulationsfaktor VIII-Ab(koag.);P	3	IGNORE
+Serum rød 10 ml x 1, SELECT Pro	3	IGNORE
+Immunglobulin G (lambda);P	3	IGNORE
+Enterovirus;Csv	3	IGNORE
+Undulatfjer (e78)-IgE;P	3	IGNORE
+Ziprasidon;P	3	IGNORE
+Human immundefektvir. 1(RNA);P	3	IGNORE
+DFS70-IgG;P	3	IGNORE
+2017-042 S 4 mL EDTA 1 af 2	3	IGNORE
+6-Methylthiopurinmetabolit / Hb;B	3	IGNORE
+Proinsulin C-peptid (0 min);P	3	IGNORE
+Bos d 5, beta-laktoglob.(f77)-IgE;P	3	IGNORE
+Buprenorphin;U	3	IGNORE
+2014-013 1 x Paxgene 2,5	3	IGNORE
+2012-053 10 ml Spidsglas x 5	3	IGNORE
+2017-042 S SIPHON Div. medier	3	IGNORE
+HLA-DQ8-Ag;Lkc(B)	3	IGNORE
+Glat muskel-IgG [GMA];P	3	IGNORE
+2017-042 S 4 mL EDTA 2 af 2	3	IGNORE
+2014-013 10 mL EDTA x 1	3	IGNORE
+Interleukin 2-receptor;P	3	IGNORE
+BW x 2, DETECT	3	IGNORE
+Parasit;F	3	IGNORE
+Pancreas ø-celle(IA-2)-Ab;P	3	IGNORE
+Knoglebanksprøve;B	3	IGNORE
+Erytrocytmorfologi;B	3	IGNORE
+Arvelig mamma og ovariecancer panel	3	IGNORE
+2017-027 S 4 mL Tørglas 1 af 2	3	IGNORE
+2017-027 S 4 mL EDTA 2 af 2	3	IGNORE
+Glukose belast(120min)gr;Pt	3	IGNORE
+BRCA2-gen;DNA	3	IGNORE
+2017-027 S 4 mL Tørglas 2 af 2	3	IGNORE
+Projekt AVADEC PR 2017-014	3	IGNORE
+ISAC-Multiplex;P	3	IGNORE
+Chlamydophila pneumoniae-IgM;P	3	IGNORE
+Target cells;B	3	IGNORE
+2017-042 S 1,8 NUNC x 1 SPYT	3	IGNORE
+HFE-gen (standard);DNA	3	IGNORE
+2016-035 6 mL RØD x 1	3	IGNORE
+Kappa-kæde(frit;monoklonalt);Pt(U)	3	IGNORE
+TEK-RØD10/1d-vit Vejle1	3	IGNORE
+2018-034 R GARNET KFE18.08 PSA	3	IGNORE
+Leukocytter;Drænv	3	IGNORE
+Brucella abortus-Ab;P	3	IGNORE
+Gliadin-Ab(IgG);P	3	IGNORE
+Kapillærblødning Ivy;Pt	3	IGNORE
+Oliven (t9)-IgE;P	3	IGNORE
+Brucella melitensis-Ab;P	3	IGNORE
+Trc.hæmning, Aspirin(VerifyNow);Trc	3	IGNORE
+2017-027 S 10 mL EDTA 1 af 1	3	IGNORE
+Osmotisk trykreaktion;Erc(B)	3	IGNORE
+HLA-DQ2-Ag;Lkc(B)	3	IGNORE
+2017-027 S 2,7 mL Citratglas 1 af 1	3	IGNORE
+2017-027 S 3 mL Li-hep 1 af 2	3	IGNORE
+Dabigatran;P	3	IGNORE
+2015-044-001 10 mL EDTA x 1	3	IGNORE
+Antihrombin(IIa)(enz; thrombin); P	3	IGNORE
+Leukocytter(mononukl.);Perikv	3	IGNORE
+Serum rød 10ml x1, ctDNA follow-up	3	IGNORE
+Spermatozoer motilitet;Sæd	3	IGNORE
+2017-042 S SIPHON V0&2 Div. medier	3	IGNORE
+2017-056 R LIFE Ophør behandling	3	IGNORE
+2013-078 6,0 mL RØD x 1	3	IGNORE
+2013-023 3,6 ml Blå x 1	3	IGNORE
+Somatotropin [GH] (45 min);P	3	IGNORE
+2013-078 2,5 mL GUL x 4	3	IGNORE
+2018-025 N 3 mL Li-hep x 2	3	IGNORE
+Polymyositis(PL7)-IGG;P	3	IGNORE
+Schistosoma MBA-Ab;P	3	IGNORE
+Kolorektalcancer panel (SLB Vejle)	3	IGNORE
+Bladselleri (f85)-IgE;P	3	IGNORE
+Keratin-Ab(IgG) [AKA] kval;P	3	IGNORE
+Eosinofilocytter;Dia	3	IGNORE
+Erytrocytter, vol.fr. (teknisk);B	3	IGNORE
+Proj-003 Y EVITA Y-A Vo+børn > 50kg	3	IGNORE
+2019-006 N 4,0 mL Tørglas 2 af 2	3	IGNORE
+2013-078 6,0 mL EDTA x 1	3	IGNORE
+2018-010 Å 3,0 mL EDTA x 1	3	IGNORE
+2016-060 J Spec. Lungesygdom	3	IGNORE
+2013-023 KBF Trombocytopeni	3	IGNORE
+2018-060 O G7 6 mL BLÅ spec. 1 af 1	3	IGNORE
+2018-060 O G7 PROJEKT	3	IGNORE
+2019-006 N 4,0 mL Tørglas 1 af 2	3	IGNORE
+Candida (DNA);P	3	IGNORE
+Isocyanat MDI (k76)-IgE;P	3	IGNORE
+2019-076 B 3mL LiHep m/gel 2 af 2	3	IGNORE
+Schistosoma GAA-Ab;P	3	IGNORE
+2019-076 B 3mL LiHep m/gel 1 af 2	3	IGNORE
+TEK-HITUDR;Pt	3	IGNORE
+Vas. Endothe. growth fac. Subt.D;P	3	IGNORE
+2013-078 T Novartis V 3+5+11, Urin	3	IGNORE
+2013-078 T Novartis V 3+5+11	3	IGNORE
+Trypanosoma cruzi-Ab(IHA);P	3	IGNORE
+2019-006 N Epilep Blod 7.00-14.30	3	IGNORE
+Polymyositis(SRP)-IGG;P	3	IGNORE
+Borrelia burgdorferi-Ab gruppe;P	3	IGNORE
+2016-060 J 3,5 x 2 gul gel	3	IGNORE
+Hba1c::Hæmoglobin A1c (POCT);Hb(B)	3	IGNORE
+Natalizumab-Ab;P	3	IGNORE
+Protoporfyrin;Erc(B)	3	IGNORE
+Isocyanat TDI (k75)-IgE;P	3	IGNORE
+Trypanosoma gamb.-rhod.-Ab;P	3	IGNORE
+Projekt BioProstMet	3	IGNORE
+Isocyanat HDI (k77)-IgE;P	3	IGNORE
+EDTAk2 lilla 9mlx3,ctDNA follow-up	3	IGNORE
+2019-076 B 4mL EDTA 1 af 2	3	IGNORE
+Polymyositis(Ku)-IGG;P	3	IGNORE
+Pityrosporum orbicu.(m70)-IgE;P	3	IGNORE
+2019-076 B 4mL EDTA 2 af 2	3	IGNORE
+2022-R02 KIA PROJ COVAC-Hd	3	IGNORE
+Pancreatisk polypeptid;P(fPt)	3	IGNORE
+1,25-DiOH-Vitamin D(D3+D2);P	3	IGNORE
+2013-078 3,0 mL EDTA x 1	3	IGNORE
+Leukocytter(mononukl.);Lkc(Csv)	3	IGNORE
+Protoporfyrin(Zn);Erc(B)	3	IGNORE
+Malaria antigen;B	3	IGNORE
+Projekt ctDNA follow-up	3	IGNORE
+Projekt BIFUKÅ	3	IGNORE
+EDTA lilla 9 ml x 1, Flow-Promote	3	IGNORE
+Trypanosoma cruzi-Ab(ELISA):P	3	IGNORE
+Kortisol (30 min) (LC-MS/MS);P	3	IGNORE
+Hæmoglobin F;Hb(B)	3	IGNORE
+2019-076 B Biobank MPRO	3	IGNORE
+2019-076 B 4mL RØD 2 af 2	3	IGNORE
+EDTA lilla 9ml x 3, BioProstMet	3	IGNORE
+2019-076 B 4mL RØD 1 af 2	3	IGNORE
+Husstøv(Greer lab.inc.) (h1)-IgE;P	3	IGNORE
+IGKV3-20-gen(mutation);B	3	IGNORE
+2013-023 4 ml EDTA x 1	3	IGNORE
+Pr. 2010 DUAL(bes.3-9-15-21)	3	IGNORE
+Projekt Lundbeck HDS	3	IGNORE
+2022-049 X HFE-X 19.20 Profil C	3	IGNORE
+NK-VUE 1ml x 1, BioProstMet	3	IGNORE
+2018-058 R ACHIL Follow up å2,3,4,5	3	IGNORE
+PD-GHRH-test gruppe;Hypofyse	3	IGNORE
+Somatotropin [GH] (20 min);P	3	IGNORE
+RNA-polymeraser-Ab(IgG);P	3	IGNORE
+Treponema pallidum flag.-Ab(IgM);P	3	IGNORE
+EPCAM-gen;DNA	3	IGNORE
+Koagulationsfaktor IX (koag.);P	3	IGNORE
+Fertilitet-smitte-US(HIV,HBV,HCV);B	3	IGNORE
+Erytrocytter(basofilt punk.);B	3	IGNORE
+2012-073 10 ml URIN x 1	3	IGNORE
+Complementaktivitet,alt. akt.;P	3	IGNORE
+Enterocyt-Ab(IgA+IgG);P	3	IGNORE
+2017-072 T RH BOX Tid 14.30-06.30	3	IGNORE
+2017-027 S 10 mL Tørglas 1 af 1	3	IGNORE
+Laks (f41)-IgE;P	3	IGNORE
+O-desmethylvenla;P	3	IGNORE
+Protein C(aktiveret)resistens;P	3	IGNORE
+2012-073 4 ml EDTA x 1	3	IGNORE
+Dystonin-IgG [BP230];P	3	IGNORE
+Dyrkning og resistens;Csv	3	IGNORE
+Glukose, middel (fra HbA1c) -POCT;P	3	IGNORE
+Ribosomal protein-Ab(IgG) [Rib P];P	3	IGNORE
+Duloxetin;P	3	IGNORE
+Cytochrom P450 17A1-Ab;P	3	IGNORE
+AA21-004 SIRIRALS postop.	3	IGNORE
+SERUM rød 10ml x 1, BioProstMet	3	IGNORE
+2017-042 S 6 mL RØD 4 af 7	3	IGNORE
+Complementaktivitet,klassisk akt.;P	3	IGNORE
+Thioguanin / Hb;B	3	IGNORE
+Smith's-Ab(IgG);P	3	IGNORE
+Gangliosid GM1-Ab(IgG);P	3	IGNORE
+Cytochrom P450 21A2-IgG;P	3	IGNORE
+Complementaktivitet,MBL akt.;P	3	IGNORE
+Autoimmune bulløse hudsygdomme;P	3	IGNORE
+2014-013 6 mL RØD x 5	3	IGNORE
+2014-013 S Rifaximin-Lever blod	3	IGNORE
+Familieus.-KMT HLA-Ab;P	3	IGNORE
+Skimmelsvamp (m22;23)-IgG;P	3	IGNORE
+Dyrkning (bacterium+fungus);Csv	3	IGNORE
+Collagen VII-IgG;P	3	IGNORE
+Thiopurinmetabolitter;B	3	IGNORE
+Prøvesæt udsendt	3	IGNORE
+Familieus.-KMT HLA-klasse;B	3	IGNORE
+Projekt DETECT-DK	3	IGNORE
+2014-013 3 mL Lihep x	3	IGNORE
+Forældreprøve;DNA	3	IGNORE
+Envoplakin-IgG;P	3	IGNORE
+Cerebellum-IgG;Csv	3	IGNORE
+2017-072 T 4 mL EDTA x 2 C (T14-6)	3	IGNORE
+MSH6-gen;DNA	3	IGNORE
+Human immundefektvir. 1+2-Ab;P	3	IGNORE
+Fertilitet Arkivprøve;B	3	IGNORE
+Fibrin D-dimer;P	3	IGNORE
+Tick-borne encephal.virus-Ab(IgG);P	3	IGNORE
+2013-069 T COOPVATS prøve 2,3 el 4	3	IGNORE
+2013-023 TEK-IPF	3	IGNORE
+2014-013 Rifaximin-Lever V1+2 medie	3	IGNORE
+Projekt TRITON 2 & 3	3	IGNORE
+Thiopurin methyltr.(fænot.);Erc(B)	3	IGNORE
+Tick-borne encephal.virus-Ab(IgM);P	3	IGNORE
+Projekt Course, Sputum	3	IGNORE
+Desmoglein 3-IgG;P	3	IGNORE
+Koagulationsfaktor XIII, akt.;P	3	IGNORE
+2020-00F PTSD dag 0	3	IGNORE
+2017-042 S 6 mL RØD 7 af 7	3	IGNORE
+Chlamydophila pneumoniae-Ab(IgG);P	3	IGNORE
+Parietaria officinalis (w19)-IgE;P	3	IGNORE
+Autoimmun encefalit, primær;Csv	3	IGNORE
+Cannabioler, kreatininkorrigeret;U	3	IGNORE
+2014-039 E IMPETUS 2018-DETECT	3	IGNORE
+2012-073 PEV FBI NGAL Urin	3	IGNORE
+Appelsin (f33)-IgE;P	3	IGNORE
+Autoimmun encefalit, primær;P	3	IGNORE
+Venlafaxin+O-desmethyl-venlafaxin;P	3	IGNORE
+Mitokondrie-Ab [AMA];P	3	IGNORE
+PræTX-donor-recip.-virusinf.stat;B	3	IGNORE
+2015-097 D Tumor DNA	3	IGNORE
+2020-024 KIA ARSD	2	IGNORE
+Aggregation, ristocetin 0,32;Trc(B)	2	IGNORE
+Hemoglobin::Hæmoglobin(Fe);B(vB)	2	Hemoglobin
+Gangliosid GD1a-IgM;P	2	IGNORE
+Amitriptylin+Nortriptylin;P	2	IGNORE
+Aspergillus fumigatus-Ab;P	2	IGNORE
+2021-031 M 4 mL EDTA 1 af 1	2	IGNORE
+Gangliosid GD1a-IgG;P	2	IGNORE
+2010-066 Å CEKOL 3mL LGRØN x 3	2	IGNORE
+Gangliosid GM1-IgM;P	2	IGNORE
+Projekt HFF-trial, 2011-032	2	IGNORE
+Proinsulin C-peptid (90 min);P	2	IGNORE
+Minor forlig;Erc(B)	2	IGNORE
+Teknisk Comp C4 Svendborg	2	IGNORE
+Fluorescens, lægefaglig tolkning	2	IGNORE
+Anti-Fibrillarin IgG;P	2	IGNORE
+TEK-CITRATx2	2	IGNORE
+P-Epstein-Barr virus (DNA);P	2	IGNORE
+TEK-DØGNURIN	2	IGNORE
+Havre(fuldkorn) (f7)-IgE;P	2	IGNORE
+TEK-CITRAT x 4	2	IGNORE
+ACVRL1-gen;DNA	2	IGNORE
+Immundefekt-US(anti-A/-B,IgM);P	2	IGNORE
+Autoimmun encefalit, sekundær;P	2	IGNORE
+Lymphocytes::B-lymphocytter;B	2	Lymphocytes#
+Aggregation, ristocetin 0,62;Trc(B	2	IGNORE
+DNA-undersøgelse;DNA(B)	2	IGNORE
+Aggregation, ADP 3,2;Trc(B)	2	IGNORE
+Teknisk CA19-9 Svendborg	2	IGNORE
+Projekt Toco-CoR	2	IGNORE
+Glukose (-10 min);P(kB)	2	IGNORE
+EDTA lilla 4ml x2, 2008-044 PIT	2	IGNORE
+Vaskulitisscreening, akut grp;P	2	IGNORE
+Edta 4 ml, 1. besøg OVH2N	2	IGNORE
+Glukose (180 min);P(kB)	2	IGNORE
+Trombocyt-Ab;P	2	IGNORE
+Glukose (300 min);P(kB)	2	IGNORE
+2020-052 M 10 mL EDTA 1 af 2	2	IGNORE
+2020-052 M 10 mL EDTA 2 af 5	2	IGNORE
+Echinococcus multilo.(hydatid)-Ab;P	2	IGNORE
+2017-042 S BIOPSI Blodpr.	2	IGNORE
+2020-052 M 10 mL Tørglas 2 af 2	2	IGNORE
+Koagulationsfaktor VII (koag.);P	2	IGNORE
+EDDP;U	2	IGNORE
+2012-062 B Aortaklap alle tider	2	IGNORE
+EDTA 10/4,Per Pros	2	IGNORE
+Div. genetisk analyse (EDTA);B	2	IGNORE
+2016-056 6 mL RØD x 1	2	IGNORE
+Oxymorphon;U	2	IGNORE
+2020-088 Q 4 ml EDTA 2 af 3	2	IGNORE
+Renin Aktivitet;P	2	IGNORE
+2021-076 V REVIVAL BL, Dag 3 RP	2	IGNORE
+2020-052 M 10 mL EDTA 2 af 2	2	IGNORE
+Cannabinol (kvan);U	2	IGNORE
+Ciclosporin (120 min)(LC-MS/MS);B	2	IGNORE
+Gangliosid GD1b-IgM;P	2	IGNORE
+17-Hydroxyprogesteron (30 min);P	2	IGNORE
+Anti-RNA Pol-III IgG;P	2	IGNORE
+Campylobacter coli+jejuni-Ab(IgA);P	2	IGNORE
+Campylobacter coli+jejuni-Ab(IgG);P	2	IGNORE
+DNA-JAK2-EXON 12-gen;DNA	2	IGNORE
+2020-052 M 4 mL EDTA 1 af 1	2	IGNORE
+Pr2016 PerPros Baseline	2	IGNORE
+Pyrazinamid;P	2	IGNORE
+Gangliosid GQ1b-IgM;P	2	IGNORE
+Kryofibrinogen;P	2	IGNORE
+Overfladeareal;Pt	2	IGNORE
+Mycobacterium;Csv	2	IGNORE
+Proinsulin C-peptid (-10 min);P	2	IGNORE
+Blodtype(ABO; RhD)(<1md prv);Erc(B)	2	IGNORE
+Proinsulin C-peptid (300 min);P	2	IGNORE
+Insulin (90 min);P	2	IGNORE
+Serum rød 10ml x 1, DETECT-DK	2	IGNORE
+SDCO OD: Tid til EKG	2	IGNORE
+Antimüllersk hormon;P	2	IGNORE
+SDCO OD: Tid til urinprøve	2	IGNORE
+Projekt Course,Sputum	2	IGNORE
+Hepatitis delta virus(RNA,kvant.);P	2	IGNORE
+Hepatitis C virus (RNA, genotype);P	2	IGNORE
+Herpes simplexvirus DNA;P	2	IGNORE
+Immunglobulin G (kappa);P	2	IGNORE
+Hydrogencarbonat (aktuel);P(kB)	2	IGNORE
+SPINK1-gen;DNA	2	IGNORE
+Campylobacter coli+jejuni-Ab(IgM);P	2	IGNORE
+SNP-array (SLB Vejle)	2	IGNORE
+Cancer occulta, profil	2	IGNORE
+Serum rød 10 ml x 1, Toco-CoR	2	IGNORE
+Penicillium chrysogenum (m1)-IgG;P	2	IGNORE
+Ekstra glas blå-citrat(KF-lab)	2	IGNORE
+Somatotropin [GH] (150 min);P	2	IGNORE
+Plasmodium;B	2	IGNORE
+Oxycodon;U	2	IGNORE
+Hereditær sfærocytose-test;Erc(B)	2	IGNORE
+Hepatitis, akut udredning;P	2	IGNORE
+IgG (kappa;monoklonalt);Pt(U)	2	IGNORE
+Nucleolus-Ab(IgG) (semikvant);P	2	IGNORE
+Graviditets-US 1(HIV,HBV,syfilis);B	2	IGNORE
+2017-004 I 6,0 mL RØD x 1	2	IGNORE
+2017-004 I 4,0 mL EDTA x 1	2	IGNORE
+Gangliosid GT1b-IgG;P	2	IGNORE
+Gangliosid GT1b-IgM;P	2	IGNORE
+Projekt Nansy	2	IGNORE
+2020-00E SDOI Biobank blod	2	IGNORE
+Inhibin B;P	2	IGNORE
+Human immundefektvirus 1+2(RNA);P	2	IGNORE
+Projekt OBERON, Nasal	2	IGNORE
+Codein;U	2	IGNORE
+Proinsulin C-peptid (30 min);P	2	IGNORE
+Proinsulin (240 min);P	2	IGNORE
+Erytrocytter, vol.fr. [EVF];B(kB)	2	IGNORE
+Erythrocyt A-Ab;P	2	IGNORE
+Epstein-Barr virus(DNA);Csv	2	IGNORE
+Gangliosid-Ab gruppe;P	2	IGNORE
+Teknisk hjælpeanalyse nr 02 gul;P	2	IGNORE
+Diverse analyse til KIA Odense;B	2	IGNORE
+TEK-GLAS Blødningsudredning;P	2	IGNORE
+2016-056 10 mL EDTA x 5	2	IGNORE
+Projekt WW3	2	IGNORE
+2019-015 U 2,7 mL Citrat 1 af 1	2	IGNORE
+2017-068 B EMPIRE Blod V1+3	2	IGNORE
+2017-068 B 6,5 mL Urin x 1	2	IGNORE
+NK-VUE 1ml x 1, Toco-CoR	2	IGNORE
+Granulocytter(CD55+CD59);Grnc(B)	2	IGNORE
+Epstein-Barr virus (DNA);P	2	IGNORE
+Projekt Inspire-AF Inklusion	2	IGNORE
+Cashewnød (f202)-IgE;P	2	IGNORE
+Protein S (koag);P	2	IGNORE
+2016-056 10 mL RØD x 1	2	IGNORE
+Glukose belast hypogly grp;Pt	2	IGNORE
+2021-R01 KFE 21.05  COVID VACC V1	2	IGNORE
+2016-056 10 mL EDTA x 6	2	IGNORE
+2021-012 Y SIMiTTx	2	IGNORE
+2021-076 V REVIVAL PK POSTDOSIS	2	IGNORE
+Wassermann-Ab;Csv	2	IGNORE
+Insulin (0 min);P	2	IGNORE
+2019-015 U 4 mL Tørglas 1 af 1	2	IGNORE
+Proinsulin (90 min);P	2	IGNORE
+Projekt VEGFMamma	2	IGNORE
+TEK-FÆCES	2	IGNORE
+ENG-gen;DNA	2	IGNORE
+Koagulationsfaktor V (koag.);P	2	IGNORE
+PRSS1-gen;DNA	2	IGNORE
+2017-068 B 2,7 mL BLÅ x 3	2	IGNORE
+Leukocytter(kopi);B	2	IGNORE
+TRC-miRNA	2	IGNORE
+EDTA k3 lilla 4 ml x 1, OC Neo	2	IGNORE
+Hønsekød (f83)-IgE;P	2	IGNORE
+Omega 5 Gliadin (f416)-IgE;P	2	IGNORE
+2020-052 M Mito Bone Blod	2	IGNORE
+Leptospira-Ab gruppe;P	2	IGNORE
+Tramadol;U	2	IGNORE
+Aggregation, ristocetin 0,48;Trc(B)	2	IGNORE
+2017-068 B 4 mL EDTA x 1	2	IGNORE
+CTRC-gen;DNA	2	IGNORE
+2021-010 Å INDEED Tid 15-18 stor P	2	IGNORE
+Poliovirus 2-Ab;P	2	IGNORE
+2016-056 Å 2,5 mL PAX gene x 2	2	IGNORE
+2020-00B COVID-19 Personale	2	IGNORE
+Klorid;Pt(U)	2	IGNORE
+2017-068 B 6 mL RØD	2	IGNORE
+TEK-LILLA3 x 3	2	IGNORE
+2010-066 4,0 mL EDTA x 2	2	IGNORE
+Ovariecancer panel	2	IGNORE
+2020-052 M 10 mL Spidsglas 1 af 1	2	IGNORE
+2020-052 M 4 mL GUL/gel 2 af 2	2	IGNORE
+Parietalcelle-Ab(IgG) [PCA];P	2	IGNORE
+Hønseæggeblomme (f75)-IgE;P	2	IGNORE
+Somatotropin [GH] (60 min);P	2	IGNORE
+2017-068 B 4 mL MGRØN Ugel x 2	2	IGNORE
+Blodtype;Erc(B)	2	IGNORE
+2017-004 I Genodermatose	2	IGNORE
+EDTA lilla 3 ml x1, FOLFIRI RAS/RAF	2	IGNORE
+Kortisol. Hirsu grp;Binyrebark	2	IGNORE
+Ecstasy;U	2	IGNORE
+2020-088 Q 4 ml EDTA 3 af 3	2	IGNORE
+Kobolt;B	2	IGNORE
+Mammacancer panel (SLB Vejle)	2	IGNORE
+2020-00F PTSD dag 1 - blod	2	IGNORE
+Koagulationsfaktor XII (koag.);P	2	IGNORE
+Protrombin;P	2	IGNORE
+2017-042 S 2,5 mL PAX-gene 1 af 1	2	IGNORE
+PMS2-gen;DNA	2	IGNORE
+PNH-undersøgelse;B	2	IGNORE
+PLA2R-Ab(IgG);P	2	IGNORE
+CFTR-gen (PHE508DEL);DNA	2	IGNORE
+Aggregation, ristocetin 0,62;Trc(B)	2	IGNORE
+2017-068 B 10 mL EDTA x 2	2	IGNORE
+Airleaf, Sputum	2	IGNORE
+2021-031 M 10 mL EDTA 1 af 1	2	IGNORE
+Paroxetin;P	2	IGNORE
+Parvovirus B-19 (DNA);P	2	IGNORE
+Koagulation, batroxobin-induceret;P	2	IGNORE
+Poliovirus 3-Ab;P	2	IGNORE
+2017-068 B 3mL LGRØN x 1	2	IGNORE
+2020-046 B 6 ml RØD 1 af 1	2	IGNORE
+Ethambutol;P	2	IGNORE
+EDTA lilla 4 ml x 1, NK-Check	2	IGNORE
+Protrombin 20210GA;DNA	2	IGNORE
+EDTA Lilla 3 ml,PerPros	2	IGNORE
+2021-R01 KFE 21.05 COVID VACC V4	2	IGNORE
+Gangliosid GM3-IgG;P	2	IGNORE
+Teknisk Plasma viskositet;P	2	IGNORE
+2014-078 4,0 mL RØD x 2	2	IGNORE
+2014-023 J Physacto 1237.16 v1	2	IGNORE
+Autoimmun encefalit gruppe;P	2	IGNORE
+2020-046 B 4 ml EDTA 2 af 2	2	IGNORE
+2020-046 B 4 ml EDTA 1 af 2	2	IGNORE
+2017-042 S SIPHON V0&2 Blod	2	IGNORE
+2020-046 B 3 ml LiHep 1 af 1	2	IGNORE
+2021-010 Å INDEED Tid 10-15 lille P	2	IGNORE
+2020-052 M 10 mL EDTA 1 af 5	2	IGNORE
+2016-056 Å 10,0 mL EDTA x 1	2	IGNORE
+Bloddyrkning (perit);Dialysv	2	IGNORE
+2014-078 X MPN	2	IGNORE
+EDTA lilla 9 ml x 3, DETECT-DK	2	IGNORE
+EDTA 9 ml x 1, Daratumumab	2	IGNORE
+Myeloperoxidase-Ab(IgG);P	2	IGNORE
+Transcortin;P	2	IGNORE
+Laktose(indgivet p.o., masse);Pt	2	IGNORE
+Leukocytter(mononukl.);Lkc(Asc)	2	IGNORE
+2015-004 B CONDI-2	2	IGNORE
+2020-052 M 4 mL Tørglas 1 af 1	2	IGNORE
+U1 snRNP 70 kDa-Ab(IgG);P	2	IGNORE
+URIN gul 6 ml x 2, PerPros	2	IGNORE
+2020-088 Q 4 ml EDTA 1 af 3	2	IGNORE
+Paraneoplastisk syndrom-Ab grp;Csv	2	IGNORE
+Proinsulin (180 min);P	2	IGNORE
+Urin 6/2, PerPros	2	IGNORE
+Mucor racemosus (m4)-IgG;P	2	IGNORE
+Duefjer (e215)-IgE;P	2	IGNORE
+Projekt OBERON, Sputum	2	IGNORE
+PALB2-gen;DNA	2	IGNORE
+Api m 10-IgE;P	2	IGNORE
+Anæmiudredning; B	2	IGNORE
+Amylase, makroform (0 1);P	2	IGNORE
+EDTA lilla k2 9 ml x 1, NeoToc	2	IGNORE
+LCT-gen(MIM601806.0001);DNA(B)	2	IGNORE
+Streptococcus pneumoniae(Ag);U	2	IGNORE
+2014-078 4,0 mL EDTA x 2	2	IGNORE
+EDTA lilla 4 ml x 1, Toco-CoR	2	IGNORE
+2020-00E SDOI Biobank urin	2	IGNORE
+Tek. LUPUS, PTT-LA konf;P	2	IGNORE
+Tek. LUPUS, PTTLA Scr./PTTLA Konf;P	2	IGNORE
+Lymphocytes::B-lymfocytter;B	2	Lymphocytes#
+Troponin T - POCT;P	2	IGNORE
+Fibrillarin-Ab(IgG);P	2	IGNORE
+Østradiol (non-SHBG bundet);P	2	IGNORE
+2016-056 2 mL EDTA x 1	2	IGNORE
+2020-052 M 10 mL EDTA 4 af 5	2	IGNORE
+2010-066 4,0 mL RØD x 3	2	IGNORE
+Transplantationsforlig;Lymc(B)	2	IGNORE
+EDTA lilla 9 ml x 4, WW3	2	IGNORE
+2014-078 3,0 mL LiHe x 2	2	IGNORE
+2017-042 S Recall Biopsi Div	2	IGNORE
+2019-015 U Hæmatomvæske Blod	2	IGNORE
+Arvelig mammacancer panel	2	IGNORE
+Hepatitis B virus s (Ag);P	2	IGNORE
+2020-052 M 4 mL GUL/gel 1 af 2	2	IGNORE
+Insulin (180 min);P	2	IGNORE
+Insulin (240 min);P	2	IGNORE
+Insulin (30 min);P	2	IGNORE
+TEK-MGRØN x 2	2	IGNORE
+Kreatinin-clearance (<16 år);Nyre	2	IGNORE
+Albumin masseh.;Pt(nU)	2	IGNORE
+2020-088 Q Qcovid Delprojekt 1 FLU	2	IGNORE
+2020-088 Q 4 ml Tørglas 3 af 3	2	IGNORE
+2020-088 Q 4 ml Tørglas 1 af 3	2	IGNORE
+Glutamatdecarboxylase(gad65)-Ab;Csv	2	IGNORE
+HLA (fuld type);DNA	2	IGNORE
+Laktose (indgivet p.o.);Pt	2	IGNORE
+Fentanyl;U	2	IGNORE
+Mitokondrie-Ab;P	2	IGNORE
+2020-088 Q 4 ml Tørglas 2 af 3	2	IGNORE
+Narkotika/Lægemidler std.pakke;U	2	IGNORE
+2016-056 Å BELIEVE V1+V2	2	IGNORE
+Manglende patient	2	IGNORE
+Pr.2020 COPD Follow up	2	IGNORE
+Mycobacterium tuberculosis;Csv	2	IGNORE
+Haptokorrin;P	2	IGNORE
+Fibrinogen (imm.);P	2	IGNORE
+EDTA lilla 9 ml x 3, Toco-CoR	2	IGNORE
+Hepatitis B virus(DNA) (0 1)[HBV];P	2	IGNORE
+EDTA lilla 4ml x 1, DETECT-DK	2	IGNORE
+6-O-Monoacetylmorphin;U	2	IGNORE
+Citrat / Kreatinin ratio;U	2	IGNORE
+2018-034 R GARNET KFE18.08 Ca-125	2	IGNORE
+Projekt PARADESE	2	IGNORE
+2020-00I Zabas Safety	2	IGNORE
+2012-057 4 ml EDTA(K2) x 1	2	IGNORE
+2019-087 Y 4 mL EDTA 1 af 1	2	IGNORE
+2018-029 E 6 mL tør x 2	2	IGNORE
+2012-057 6 ml MBLÅ spc.rens Crom/CU	2	IGNORE
+Sacchar. cerevisiae-Ab[ASCA];P	2	IGNORE
+2012-057 PEO Cobolt Krom	2	IGNORE
+2018-015 L ESW FU 1/3 md urin	2	IGNORE
+pO2;P(mixB)	2	IGNORE
+2018-058 R KFE 18.15 FU år 2-5	2	IGNORE
+Lynch syndrom panel	2	IGNORE
+2019-010 S PeriVe 3 mL LiHe 3 af 5	2	IGNORE
+Projekt Opticus neuritis (ON), Csv	2	IGNORE
+2018-029 E NIM	2	IGNORE
+2019-010 S PeriVe 4 mL EDTA 1 af 3	2	IGNORE
+2019-010 S PeriVe 3 mL LiHe 1 af 5	2	IGNORE
+2018-010 Å WN39658 Week 2,41,103	2	IGNORE
+Proj-013 4 mL EDTA 1 af 3	2	IGNORE
+Proj-013 6 mL Rød 3 af 3	2	IGNORE
+Proj-013 D FRAGINOC Visit 1	2	IGNORE
+2012-023 PEM T2DM Urin	2	IGNORE
+2019-010 S PeriVe 2,5 mL Pax 1 af 1	2	IGNORE
+Purkinjecelle(Yo)-Ab(IgG);P	2	IGNORE
+Laktat;P(mixB)	2	IGNORE
+2018-025 N Cannabis EB	2	IGNORE
+2018-025 N Cannabis UB	2	IGNORE
+2018-026 Q 2,5 mL Pax-gene x 1	2	IGNORE
+Keratin-Ab(IgG);P	2	IGNORE
+Projekt QBW251	2	IGNORE
+2018-029 E 4 mL EDTA x 2	2	IGNORE
+2019-010 S PeriVe 4 mL EDTA 1 af 1	2	IGNORE
+RET-gen;DNA	2	IGNORE
+Gangliosid GM2-IgM;P	2	IGNORE
+Projekt Danrisk Follow Up	2	IGNORE
+Ovariecancer panel (SLB, Vejle)	2	IGNORE
+Insulin (300 min);P	2	IGNORE
+Insulin (60 min);P	2	IGNORE
+Proinsulin (-10 min);P	2	IGNORE
+Gangliosid GM1-IgG;P	2	IGNORE
+Gulerod (f31)-IgE;P	2	IGNORE
+RØD10/2, PerPros	2	IGNORE
+2020-024 KIA 10 mL EDTA x 1	2	IGNORE
+Undulatfæces (e77)-IgG;P	2	IGNORE
+Lepidoglyphus destr.(d71)-IgE;P	2	IGNORE
+FAECES opsamling, Coloxx	2	IGNORE
+Faderskabssag;Pt	2	IGNORE
+Proinsulin (30 min);P	2	IGNORE
+Erytrocytter(Howell-Jolly);B	2	IGNORE
+2017-068 B EMPIRE Blod V2+4 TO	2	IGNORE
+Rifampicin;P	2	IGNORE
+pH;P(mixB)	2	IGNORE
+SERPINC1-gen;DNA	2	IGNORE
+2019-010 S PeriVe 4 mL EDTA 2 af 3	2	IGNORE
+2018-015 L ESW Døgnurin	2	IGNORE
+2019-010 S Prof_Biobank_Perifer Ven	2	IGNORE
+2019-010 S PeriVe 6 mL Tør 1 af 6	2	IGNORE
+2019-010 S PeriVe 3 mL LiHe 2 af 5	2	IGNORE
+Amylase, pancreastype;U	2	IGNORE
+2019-087 Y 10 mL EDTA 1 af 1	2	IGNORE
+Rød 2x10 ml E-ZAC	2	IGNORE
+Ammonium;P(aB)	2	IGNORE
+O2 sat.;Hb(mixB)	2	IGNORE
+Hæmoglobin, usædvanligt;Hb(B)	2	IGNORE
+Glucose::Glucose;P(mixB)	2	IGNORE
+Rubellavirus-IgG;P	2	IGNORE
+Proinsulin (0 min);P	2	IGNORE
+Bakteriel DNA/PCR sekv.;B	2	IGNORE
+Bacterier;Csv	2	IGNORE
+Anti-HBc (total) ELISA, konfimatorisk test	2	IGNORE
+2015-044-005 C DRB 6 mL tør rød x 3	2	IGNORE
+Hydrogencarbonat (aktuel);P(cvB)	2	IGNORE
+Hæmoglobin C;Hb(B)	2	IGNORE
+2015-058 L LEST Baseline Blod	2	IGNORE
+Hæmoglobin D;Hb(B)	2	IGNORE
+Hæmoglobin E;Hb(B)	2	IGNORE
+2015-101 N Kro Polyneuropati kun BB	2	IGNORE
+Phtalsyreanhydrid (k79)-IgE;P	2	IGNORE
+Pancreas ø-celle(ICA)-Ab;P	2	IGNORE
+Undulatfæces (e77)-IgE;P	2	IGNORE
+Hæmoglobin A;Hb(B)	2	IGNORE
+Valnød (t10)-IgE;P	2	IGNORE
+Herpes simplexvirus-IgG [HSV];P	2	IGNORE
+Heparin-Induc. Trombocytopeni(Type 2);Pt	2	IGNORE
+2013-078 2,5 mL GUL x 6	2	IGNORE
+Hba1c::Hæmoglobin A1;Hb(B)	2	IGNORE
+P-Calprotectin Teknisk	2	IGNORE
+Projekt Cresendo, EKG	2	IGNORE
+Plasminogenaktivatorinhib.1(enz.);P	2	IGNORE
+Pistacie (f203)-IgE;P	2	IGNORE
+2013-019 4 mL RØD x 1mGel	2	IGNORE
+Tørglas 4ml x3, CVID	2	IGNORE
+Parakitfjer (e196)-IgE;P	2	IGNORE
+HFE (Standard) (SLB Vejle)	2	IGNORE
+Erythrocytter,vol.fr.;B(mixB)	2	IGNORE
+Hæmoglobin A2;Hb(B)	2	IGNORE
+Hydrogencarbonat(standard);P(mixB)	2	IGNORE
+Potassium::Kalium-ion;P(mixB)	2	IGNORE
+2015-044-005 C DRB SLE GEIST	2	IGNORE
+2015-044-005 C DRB 10 mL EDTA x 1	2	IGNORE
+Exom;DNA	2	IGNORE
+Neurofilament polypept.-IgG;Csv	2	IGNORE
+Platelets::Trombocytter - POCT;B	2	IGNORE
+Hemoglobin::Hæmoglobin(Fe);B(mixB)	2	IGNORE
+Phadia, kommentar;P	2	IGNORE
+Hepatitis B virus s-Ag, gravid;P	2	IGNORE
+Projekt Cresendo	2	IGNORE
+Rug (g12)-IgE;P	2	IGNORE
+Proj-013 6 mL Rød 2 af 3	2	IGNORE
+2018-010 Å 6,0 mL EDTA x 1 is	2	IGNORE
+Glukose;Drænv	2	IGNORE
+2013-019 4 mL EDTA x 4	2	IGNORE
+Spidsglas 2 ml x 1, ON	2	IGNORE
+Aspergillus(Galactomannan Ag);Sekr	2	IGNORE
+Pr. 2010 DUAL(bes.1 uge/ændring)	2	IGNORE
+Koriogonadotropin beta,Doubletest;P	2	IGNORE
+Aquaporin 4-IgG;Csv	2	IGNORE
+Apolipoprotein B;P	2	IGNORE
+Api m 10 (i217)-IgE;P	2	IGNORE
+2013-019 4 mL RØD x 1	2	IGNORE
+Celletype(Donor ID);Celler(Marv)	2	IGNORE
+Projekt Spondylartropatier;U	2	IGNORE
+Projekt Spondylartropatier	2	IGNORE
+pCO2;P(mixB)	2	IGNORE
+Legionella pneumophila-Ab(IgG);P	2	IGNORE
+Serum rød 10 ml x 2, Daratumumab	2	IGNORE
+Mucor racemosus (m4)-IgE;P	2	IGNORE
+2018-015 L 10 mL EDTA x 3	2	IGNORE
+Proj-013 6 mL Rød 1 af 3	2	IGNORE
+Proj-013 4 mL EDTA 2 af 3	2	IGNORE
+Calcium / Kreatinin ratio;Nyre	2	IGNORE
+Proj-013 4 mL EDTA 3 af 3	2	IGNORE
+Projekt B12 og D-vit til Med.Stuega	2	IGNORE
+Slim;U	2	IGNORE
+Kortisol (1 d);P	2	IGNORE
+Sodium::Natrium-ion;P(mixB)	2	IGNORE
+Kontrolprøve;DNA	2	IGNORE
+2018-010 Å 3,0 mL EDTA x 1 is	2	IGNORE
+Gangliosid GM2-IgG;P	2	IGNORE
+2015-044-005 C DRB 2,5 mL Paxge x 2	2	IGNORE
+EDTA lilla 9 ml x 2, Coloxx	2	IGNORE
+Insulin (-10 min);P	2	IGNORE
+Cøliaki relateret vævstype	2	IGNORE
+Hæmoglobin S;Hb(B)	2	IGNORE
+Hæmoglobin(andet);Hb(B)	2	IGNORE
+Clonazepam;P	2	IGNORE
+Projekt CVID(2019-064 PEQ)	2	IGNORE
+2015-078 Y Voknse+børn >50kg	2	IGNORE
+Sild (f205)-IgE;P	2	IGNORE
+Projekt 2008-044 PIT	2	IGNORE
+Aspergillus-Ab;P	2	IGNORE
+Poliovirus 1-Ab;P	2	IGNORE
+Immunglobulin M (kappa);P	2	IGNORE
+Koagulationsfaktor XI (koag.);P	2	IGNORE
+P-Acidic ribosomal protein-antistof(IgG)	2	IGNORE
+Somatotropin [GH] (90 min);P	2	IGNORE
+2017-068 B EMPIRE Urin V2+4 TO	2	IGNORE
+2016-056 Å BELIEVE	2	IGNORE
+Gangliosid GQ1b-IgG;P	2	IGNORE
+Tek. LUPUS, LA-CH/LA-SU;P	2	IGNORE
+2018-053 Å I'm still st. V Baseline	2	IGNORE
+2020-00E SDOI Biobank fæces	2	IGNORE
+2020-052 M 10 mL Tørglas 1 af 2	2	IGNORE
+Projekt Challenge Kontrol	2	IGNORE
+Tyrophagus putresce.(d72)-IgE;P	2	IGNORE
+Østronsulfat;P	2	IGNORE
+Glukose(indgivet p.o., masse);Pt	2	IGNORE
+2017-042 S  1,8mL Nu x 2 LBIOP Snap	2	IGNORE
+proj. Urinstix Projekt	2	IGNORE
+Projekt BloodSpot	2	IGNORE
+Projekt AVADEC amb	2	IGNORE
+Pr2018 LIRA-KOL Screening	2	IGNORE
+2020-024 KIA 6 mL CPDA x 6	2	IGNORE
+2020-052 M 10 mL EDTA 5 af 5	2	IGNORE
+Bacterium;U	2	IGNORE
+Bacterium;Ledv	2	IGNORE
+Brucella-Ab;P	2	IGNORE
+EDTA k2 lilla 10ml x 1, BSpot	2	IGNORE
+Gangliosid GM3-IgM;P	2	IGNORE
+TrombocytAb(frit);P	2	IGNORE
+2016-056 Å BELIEVE V3-V5	2	IGNORE
+Rickettsia arter(DNA);B	2	IGNORE
+Manglende seng til EKG optagelse	2	IGNORE
+MLH1-gen;DNA	2	IGNORE
+EDTA k2 lilla 4 ml x 3	2	IGNORE
+Polymyositis(PL-12)-Ab;P	2	IGNORE
+B-Ekstra glas til KIA	2	IGNORE
+F5-gen(MIM612309.0001); DNA(B)	2	IGNORE
+Anti-Mi-2;P	2	IGNORE
+Glukose (240 min);P(kB)	2	IGNORE
+Epstein-Barr virus nukleær-IgG;P	2	IGNORE
+Metamfetamin (konfirm);U	2	IGNORE
+2021-031 M 10 mL RØD 2 af 2	2	IGNORE
+Agecareprøver	2	IGNORE
+2021-031 M 10 mL RØD 1 af 2	2	IGNORE
+2022-00A MTL blod Biobank	2	IGNORE
+Isoniazid;P	2	IGNORE
+Projekt DD2	2	IGNORE
+Adalimumab;P	2	IGNORE
+Cytomegalovirus-Ab;P	2	IGNORE
+Proinsulin C-peptid (120 min);P	2	IGNORE
+Insulin (120 min);P	2	IGNORE
+Parotitisvirus-Ab(IgG) (0 1);P	2	IGNORE
+Somatotropin [GH] (0 min);P	2	IGNORE
+Somatotropin [GH] (120 min);P	2	IGNORE
+B-lymphocytter;Lymc(B)	2	IGNORE
+Spermatozoer konc.;Sæd	2	IGNORE
+SERPINA1-gen (hyppige mut.);DNA	2	IGNORE
+SERUM rød 10 ml x 1, WW3	2	IGNORE
+Proinsulin C-peptid (60 min);P	2	IGNORE
+Somatotropin [GH] (30 min);P	2	IGNORE
+Proinsulin (300 min);P	2	IGNORE
+2019-015 U 4 mL EDTA 1 af 1	2	IGNORE
+Projekt Compass	2	IGNORE
+Østron;P	2	IGNORE
+MSH2-gen;DNA	2	IGNORE
+Proinsulin C-peptid (180 min);P	2	IGNORE
+Pancreas ø-celle(ICA)-Ab(IgG);P	2	IGNORE
+CHD-4 -Ab(IgG) [Mi-2];P	2	IGNORE
+CFTR-gen;DNA	2	IGNORE
+17-Hydroxyprogesteron (60 min);P	2	IGNORE
+Pr. 2018 E-ZAC	2	IGNORE
+Hepacivirus C(RNA);P	2	IGNORE
+Hepatitis 1. US af eksponeret grp;P	2	IGNORE
+Proinsulin C-peptid (240 min);P	2	IGNORE
+Von Willebrand-faktor(CBA);P	2	IGNORE
+MOG-IgG;P	2	IGNORE
+Projekt Coloxx	2	IGNORE
+Tørglas 4ml x3, 2008-044 PIT	2	IGNORE
+2018-053 Å I'm still st. V. 16 uger	2	IGNORE
+MRD-PCR;B	2	IGNORE
+Proinsulin (120 min);P	2	IGNORE
+NK-lymfocytter;B	2	IGNORE
+EDTA lilla 4ml x3, CVID	2	IGNORE
+Proinsulin (60 min);P	2	IGNORE
+17-Hydroxyprogesteron (0 min);P	2	IGNORE
+Genetisk analyse til Filadelfia;B	2	IGNORE
+Phytanat+Fede syrer gruppe;P	2	IGNORE
+Leukocytter(polynukl.);Lkc(Asc)	2	IGNORE
+Krom;B	2	IGNORE
+Tek. LUPUS, LA-SURE;P	2	IGNORE
+2020-052 M 10 mL EDTA 3 af 5	2	IGNORE
+Undulatfjer (e78)-IgG;P	2	IGNORE
+HLA-B-gen (B5701);DNA	2	IGNORE
+2020-024 KIA 10 mL RØD x 1	2	IGNORE
+Laktatdehydrogenase;Ledv	2	IGNORE
+Cystisk fibrose (CFTR)	2	IGNORE
+Serum Rød 10 ml x 2, Coloxx	2	IGNORE
+EDTAk2 lilla 4ml x1,ctDNA follow-up	2	IGNORE
+2017-027 S 1,8 mL Nunc x 2	2	IGNORE
+Daratumumab(Immunfiksation);P	2	IGNORE
+Cryptococcus (Ag);P	2	IGNORE
+2013-019 6 mL RØD x 3	2	IGNORE
+2017-027 S Antitrypsin Væv D	2	IGNORE
+2019-010 S PeriVe 6 mL Tør 3 af 6	2	IGNORE
+2016-035 V SEVATS visit 2+3	2	IGNORE
+Gangliosid GD1b-IgG;P	2	IGNORE
+Neuroncellekerne type 1-Ab(IgG);P	2	IGNORE
+Husstøv(Greer lab.inc.)-IgE;P	2	IGNORE
+Varicella zoster virus-IgG[VZV];P	2	IGNORE
+2017-042 S 4mL Tør 2 af 2	2	IGNORE
+Tek- CO2 total;P(vB)	2	IGNORE
+Vitamin K;P	2	IGNORE
+Interferon beta-Ab;P	2	IGNORE
+2019-010 S PeriVe 6 mL Tør 2 af 6	2	IGNORE
+DNA(dobbeltstrenget)-Ab(IgG);P	2	IGNORE
+2017-009 Q 6,0 mL RØD x 1	2	IGNORE
+Coxiella burnetii-Ab;P	2	IGNORE
+Diverse analyse til AfMd-AaIUH;B	2	IGNORE
+Tek-Complement C1;P	2	IGNORE
+2017-027 S Antitrypsin FU D	2	IGNORE
+IFN-gamma-frig.(TB-rel.,gr.);T-lymc	2	IGNORE
+Hæmoglobin H;Hb(B)	2	IGNORE
+2017-042 S 4mL Tør 1 af 2	2	IGNORE
+2013-019 M Normalmateriale	2	IGNORE
+TEK-Glucose;P	2	IGNORE
+INR::Koagulationsfaktor II+VII+X [INR];P(kB)	2	IGNORE
+SyreBase og oxygen status kom.;Pt	2	IGNORE
+Dried Blood Spot, NAT;B	2	IGNORE
+Koagulation (Trombelastografi);B	1	IGNORE
+P-Projekt Prosper Scr.	1	IGNORE
+Mammacancer panel	1	IGNORE
+Myg (i71)-IgE;P	1	IGNORE
+Nordazepam,konfirm;U	1	IGNORE
+Kimærisme gruppe;Celler(B)	1	IGNORE
+NTHL1-gen;DNA	1	IGNORE
+Kobber;Pt(U)	1	IGNORE
+2021-028 J 3 mL LiHep 1 af 1	1	IGNORE
+Triiodthyronin frit[T3];P(nsB)	1	IGNORE
+P-Teknisk Digoxin,stofk.	1	IGNORE
+2022-039 C AURORA	1	IGNORE
+P-Kryofibrinogen (Teknisk),arb.k.	1	IGNORE
+Parotitisvirus-Ab(IgM) (0 1);P	1	IGNORE
+NPY methyleret DNA;P	1	IGNORE
+2020-047 M SEMBONE V dag 0 Mænd	1	IGNORE
+Kendt mutation (postnatal)	1	IGNORE
+Sfærocytter;B	1	IGNORE
+Blåmusling (f37)-IgE;P	1	IGNORE
+Parechovirus(RNA);P	1	IGNORE
+Boghvedefrø (f11)-IgE;P	1	IGNORE
+Bøg, amerikansk (t5)-IgE;P	1	IGNORE
+Teknisk EMA til KIA	1	IGNORE
+Sesamfrø (f10)-IgE;P	1	IGNORE
+2021-028 J CODEXP T.elastometri	1	IGNORE
+Kappa-kæde(frit;monoklonalt);P	1	IGNORE
+Lisdexamfetamin,konfirm;U	1	IGNORE
+Von Willebrand-faktor (coll.bind);P	1	IGNORE
+Parotitisvirus-IgG (Mumps);P	1	IGNORE
+Interferon gamma(TB stim);T-lymc(B)	1	IGNORE
+Intrinsic faktor-Ab(IgG);P	1	IGNORE
+Kanariefjer (e201)-IgE;P	1	IGNORE
+2020-046 B ARBAS 1+12+24mdr Aften	1	IGNORE
+IgH-gen-rearrangement;B	1	IGNORE
+AA21-004 SIRIRALS præop.	1	IGNORE
+2020-067 U 5 ml Sarstedrør kl. 7-15	1	IGNORE
+Malaria, kviktest;B	1	IGNORE
+2021-091 Y 4 mL EDTA 1 af 1	1	IGNORE
+2016-006 L BNP Blod	1	IGNORE
+2020-052 M 8 ml. CPT-glas	1	IGNORE
+2020-052 M Mito Bone Urin	1	IGNORE
+2020-067 U 2 ml EDTA kl. 7-15	1	IGNORE
+2020-067 U Cerebr.anerism Blod 7-15	1	IGNORE
+AB0 uforligelig nyretx. Recipient;P	1	IGNORE
+2021-091 Y 3 mL LIHEP GRØN 1 af 1	1	IGNORE
+2020-047 M SEMBONE V dag 0 Kvinder	1	IGNORE
+2021-091 Y 3,5 mL GELGUL 1 af 1	1	IGNORE
+2020-046 B ARBAS Screen Hverdag	1	IGNORE
+2021-091 Y Nefrogen DiabetesBiobank	1	IGNORE
+Blå Na-Citrat 2,7 ml x 3	1	IGNORE
+Infliximab-Ab(IgG);P	1	IGNORE
+Parotitisvirus-IgM (Mumps);P	1	IGNORE
+NMDAR1-Ab(IgG);Csv	1	IGNORE
+Immunkompleks (C1q-bind.);P	1	IGNORE
+Immunglobulin M (lambda);P	1	IGNORE
+IgE (monoklonalt);P	1	IGNORE
+IgE (kappa;monoklonalt);P	1	IGNORE
+Koagulationsfaktor VIII(enz.);P	1	IGNORE
+Aggregation, ristoc.-induc.;Trc(B)	1	IGNORE
+Aggregation, kollagen-induc.;Trc(B)	1	IGNORE
+Aggregation, ADP-induceret;Trc(B)	1	IGNORE
+THC-COOH/kreatininkorrigeret;U	1	IGNORE
+TEK-SPYT	1	IGNORE
+TEK-RØD 10	1	IGNORE
+TEK-PAXGENE	1	IGNORE
+TEK-MGRØN 4x2	1	IGNORE
+TEK-LILLA6x2	1	IGNORE
+Bromazepam,konfirm;U	1	IGNORE
+STAT3;B	1	IGNORE
+Blå Na-Citrat 2,7 ml	1	IGNORE
+Pr.2018 PROMETHEUS 1+4+EOS Intern	1	IGNORE
+Helicobacter pylori-Ab(IgG);P	1	IGNORE
+Hepatitis B virus gruppe;P	1	IGNORE
+Pr. 2011-045 PEB HS TNI CABG	1	IGNORE
+Pr. 2012  JC Virus	1	IGNORE
+Pr. 2012 GABAPENTIN	1	IGNORE
+Pr.2018 PROM væv med biopsi	1	IGNORE
+Pr.2018 PROMETHEUS BIOBANK	1	IGNORE
+Pr.2020 COPD Baseline	1	IGNORE
+Pr.2018 PROMETHEUS alle intern	1	IGNORE
+Hepatitis C virus-IgG,konfirm;P	1	IGNORE
+Hepatitis D virus(RNA);P	1	IGNORE
+Semen; Ejakulationstidspunkt;Pt	1	IGNORE
+Serum 10 x 2, WW2	1	IGNORE
+Campylobacter coli+jejuni-IgA;P	1	IGNORE
+Pr2018 LIRA-KOL (Besøg 5)	1	IGNORE
+Hantavirus-antistof;P	1	IGNORE
+Blodtype, gravid;Erc(B)	1	IGNORE
+CD34+, Stamceller	1	IGNORE
+CFTR-gen (fuld sekv.);DNA	1	IGNORE
+CFTR-gen (hyppige mut.);DNA	1	IGNORE
+STK11-gen;DNA	1	IGNORE
+Saccharomyces cerevisiae-Ab;P	1	IGNORE
+Sarcolemma-Ab(IgG);P	1	IGNORE
+Se notat i EPJ af dato:	1	IGNORE
+Butylon;U	1	IGNORE
+HTLV type I+II-Ab;P	1	IGNORE
+Citrat / Kreatinin ratio;Pt(U)	1	IGNORE
+Polyomavirus (DNA);P	1	IGNORE
+Bos d lactoferrin-antistof(f334)-(IgE);P	1	IGNORE
+Clonazepam,konfirm;U	1	IGNORE
+Clobazam;P	1	IGNORE
+HLA-klasse II-gen gruppe;DNA	1	IGNORE
+Cladosporium cladosp. (m26-1)-IgE;P	1	IGNORE
+Immunglobulin A-Ab(IgG);P	1	IGNORE
+Burfugle(e78;196;201;213;214)-IgE;P	1	IGNORE
+Brucella-Ab (0 1);P	1	IGNORE
+Primær immundefekt panel;P	1	IGNORE
+Blodketoner Afd. H OUH	1	IGNORE
+Sexuel abstinens tid;Pt	1	IGNORE
+Campylobacter coli+jejuni-IgM;P	1	IGNORE
+Cancer-antigen 125:P	1	IGNORE
+Cancer-antigen 15-3;P	1	IGNORE
+Blå Na-Citrat 2,7 ml x 2	1	IGNORE
+Polymyositis(Mi-2)-Ab(IgG);P	1	IGNORE
+Binyrebark-Ab(IgG);P	1	IGNORE
+Blod - tørglas;P	1	IGNORE
+Bas. fos, knogletype(projekt);P	1	IGNORE
+Bas.fos. placentatype;BasF(P)	1	IGNORE
+Base excess (aktuel);P(nsB; aB)	1	IGNORE
+Somatostatin;P	1	IGNORE
+Immunglobulin A (lambda);P	1	IGNORE
+Human herpesvirus 6B (DNA);P	1	IGNORE
+Pol d 5(i210)-IgE;P	1	IGNORE
+Pneumokok-Ab 7 valent	1	IGNORE
+Pneumocystis jirovecii(DNA);Sekr	1	IGNORE
+Plasma; dyn.visk;P	1	IGNORE
+Hereditær pancreatitis panel	1	IGNORE
+Burfugle (e78;213;214;201;93)-IgE;P	1	IGNORE
+Hepatitis delta virus(RNA);P	1	IGNORE
+Hepatitis C virus resistens (Q80K);P	1	IGNORE
+Hepatitis C kontrol af kendt (kvant)	1	IGNORE
+Hepatitis B virus(DNA), kvan;P	1	IGNORE
+Herpes simplexvirus(DNA);P	1	IGNORE
+Herpes simplex virus DNA;P	1	IGNORE
+Parvovirus B-19(DNA) (0 1);P	1	IGNORE
+Immunglobulin A-Ab(IgM);P	1	IGNORE
+Benzoylecgonin,konfirm;U	1	IGNORE
+2021-031 M Sarcopenia FremtidigBiob	1	IGNORE
+Kortisol (15 min);P	1	IGNORE
+2021-076 V 2 mL RØD 1 stk	1	IGNORE
+NGC Arvelig hjertesygdom	1	IGNORE
+Lambda-kæde(frit;monoklonalt);Pt(U)	1	IGNORE
+Latex rHev b 5 (k218)-IgE;P	1	IGNORE
+AMPAR2 Ab(IgG);Csv	1	IGNORE
+AXIN2-gen;DNA	1	IGNORE
+2021-091 Y 10 mL EDTA 1 af 1	1	IGNORE
+Leishmania-Ab;P	1	IGNORE
+TP53 til patologer - OUH;B	1	IGNORE
+Autoimmun hepatitis gruppe:P	1	IGNORE
+Kortisol sekr.(Dexa)grp;Binyrebark	1	IGNORE
+Hydromorphon,konfirm;U	1	IGNORE
+Hæmolysiner (bifasisk);P	1	IGNORE
+Hønsefjer (e85)-IgG;P	1	IGNORE
+Pecan-nød (f201)-IgE;P	1	IGNORE
+Penicillium spp. (m27)-IgE;P	1	IGNORE
+Stomatocytter;B	1	IGNORE
+Imipramin+desipramine;P	1	IGNORE
+Human Herpes virus 7(DNA);P	1	IGNORE
+Insulin, porcint (c70)-IgE;P	1	IGNORE
+Kromosom mikroarray	1	IGNORE
+Pinjekerne (f253)-IgE;P	1	IGNORE
+Lymfocyt-US, udvidet;B	1	IGNORE
+Hydrogencarbonat(standard);P(cvB)	1	IGNORE
+2017-072 T 4 mL EDTA x 1 (T6-14)	1	IGNORE
+Insulin, humant (c73)-IgE;P	1	IGNORE
+Insulin-Ab;P	1	IGNORE
+IgLON family member 5-IgG;P	1	IGNORE
+POLD1-gen;DNA	1	IGNORE
+2019-076 B 4 mL RØD 1 af 2	1	IGNORE
+Norfentanyl, konfirm;U	1	IGNORE
+Perphenazin;P	1	IGNORE
+APC-gen;DNA	1	IGNORE
+Phenibut,konfirm;U	1	IGNORE
+Penicillium spp. (m27)-IgG;P	1	IGNORE
+Leukocytter(mononukl.) (mikr.);Asc	1	IGNORE
+Leukocytter(mononukl.) (mikr.);Plv	1	IGNORE
+2016-081 4 mL EDTA x 4	1	IGNORE
+2016-058 S 4,5 mL NUNC rør x 2 urin	1	IGNORE
+2016-058 S ReDuC medie 1+3(Sc/6 md)	1	IGNORE
+2016-058 S fæcesrør  x 2	1	IGNORE
+N-Desmethylzopiclon,konfirm;U	1	IGNORE
+2016-078 V BIOSIGN	1	IGNORE
+2016-081 3,0 mL Li-hep x 1	1	IGNORE
+2016-058 S 1,8 mL NUNC rør x 1 spyt	1	IGNORE
+Kortisol sekr.test(MS)gr;Binyrebark	1	IGNORE
+2016-058 S 1,8 mL NUNC rør x 2 biop	1	IGNORE
+2013-014  1,8 mL NUNC RØR biopsi	1	IGNORE
+2013-014  fæcesrør x 2	1	IGNORE
+2013-014 1,8 NUNC rør spyt	1	IGNORE
+CASPR2-Ab(IgG);Csv	1	IGNORE
+2014-007 B Aortastenose Visit 3b	1	IGNORE
+2016-058 S 4,5 mL NUNC rør x 1 spyt	1	IGNORE
+2017-042 S 4mL Tør x2	1	IGNORE
+Treponema pallidum fla.-Ab(IgG);Csv	1	IGNORE
+Trc.hæm, Aspirin(VerifyNow);Trc(B)	1	IGNORE
+2014-013 4,5 mL NUNC rør x 1	1	IGNORE
+2013-043 M HANC	1	IGNORE
+Trombocyt (HPA)-Ab gruppe;P	1	IGNORE
+Von Willebrand-faktor;P	1	IGNORE
+Ledvæske farve;Ledv	1	IGNORE
+7-Aminonitrazepam,konfirm;U	1	IGNORE
+Triazolam,konfirm;U	1	IGNORE
+Lymfocytter akut;Lymc(B)	1	IGNORE
+Osmotisk tryk-reak.(24h;153);Erc(B)	1	IGNORE
+Osmotisk tryk-reak.(24h;137);Erc(B)	1	IGNORE
+Osmotisk tryk-reak.(24h;119);Erc(B)	1	IGNORE
+Osmotisk tryk-reak.(24h;102);Erc(B)	1	IGNORE
+2015-015 4,0 mL RØD x 4	1	IGNORE
+Kortikotropin (45 min);P	1	IGNORE
+Konsistens;Sæd	1	IGNORE
+2021-076 V REVIVAL BL	1	IGNORE
+2022-039 C 10 mL EDTA x 5	1	IGNORE
+3-Hydroxybromazepam,konfirm;U	1	IGNORE
+Nitrazepam,konfirm;U	1	IGNORE
+PDD2	1	IGNORE
+PKD panel;DNA	1	IGNORE
+PLA2R-IgG;P	1	IGNORE
+Koagulationsfaktor VIII (enz.);P	1	IGNORE
+Mephedron,konfirm;U	1	IGNORE
+Leukocytter(polynukl)(mik);Lkc(Asc)	1	IGNORE
+AA21-004 SIRIRALS PERI.	1	IGNORE
+IgLON family member 5-IgG;Csv	1	IGNORE
+7-Aminoclonazepam,konfirm;U	1	IGNORE
+Phl p 1 (g205)-IgE;P	1	IGNORE
+Ara h 2 (f423)-IgE;P	1	IGNORE
+Human herpesvirus 6A (DNA);P	1	IGNORE
+Leukocytter(polynukl.) (mikr.);Plv	1	IGNORE
+Norquetiapin;U (konfirm)	1	IGNORE
+Komplement+immunglobulin;Erc(B)	1	IGNORE
+2016-006 10 mL EDTA	1	IGNORE
+2021-076 V REVIVAL DAG 1, 2	1	IGNORE
+2021-090 M REPLACE 5	1	IGNORE
+2021-091 Y 4 mL RØD 1 af 1	1	IGNORE
+Teknisk Ethanol	1	IGNORE
+2020-067 U Cerebr.anerism CSF 7-15	1	IGNORE
+2022-039 C 3 mL LiHep x 2	1	IGNORE
+3-Hydroxybutyrat - POCT;B	1	IGNORE
+Norpropoxyphen,konfirm;U	1	IGNORE
+Leukocytter(polynukl.) (mikr.);Asc	1	IGNORE
+Metamfetamin,konfirm;U	1	IGNORE
+Metanol;P	1	IGNORE
+Methylon,konfirm;U	1	IGNORE
+Norketamin,konfirm;U	1	IGNORE
+Norketobemidon,konfirm;U	1	IGNORE
+Ara h 3 (f424)-IgE;P	1	IGNORE
+Strongyloides-Ab;P	1	IGNORE
+Sæd farve;Pt	1	IGNORE
+Osmotisk tryk-reak.(0h;205);Erc(B)	1	IGNORE
+Kortikotropin sekretion gruppe;Pt	1	IGNORE
+Osmotisk tryk-reak.(24h;205);Erc(B)	1	IGNORE
+2017-072 T 4 mL EDTA x 2 C (T6-14)	1	IGNORE
+2017-072 T RH BOX Tid 6.30-14.30	1	IGNORE
+2019-076 B 4 mL EDTA 1 af 2	1	IGNORE
+2019-076 B 4 mL EDTA 2 af 2	1	IGNORE
+2017-031 R Keynote 355 Thyroidea	1	IGNORE
+Sæd klarhed;Pt	1	IGNORE
+Aquaporin 4-IgG;P	1	IGNORE
+Kortikotropin (15 min);P	1	IGNORE
+Kortisol (0 min) (LC-MS/MS);P	1	IGNORE
+Kortikotropin (30 min);P	1	IGNORE
+2021-028 J 1,8 mL CITRAT 2 af 3	1	IGNORE
+Kobber;U	1	IGNORE
+Aquaporin 4-Ab(IgG);P	1	IGNORE
+Leukocytter(mononukl)(mik);Lkc(Asc)	1	IGNORE
+Ovomucoid (f233)-IgE;P	1	IGNORE
+Autoimmun encefalit, sekundær;Csv	1	IGNORE
+Ara h 1 (f422)-IgE;P	1	IGNORE
+Sæd; Undersøgelseskommentar;Pt	1	IGNORE
+Human Herpes virus 6b(DNA);P	1	IGNORE
+Human Herpes virus 6a(DNA);P	1	IGNORE
+IL28B-gen;DNA	1	IGNORE
+Papegøjefjer (e213)-IgE;P	1	IGNORE
+PTEN-gen;DNA	1	IGNORE
+Jordbær (f44)-IgE;P	1	IGNORE
+Autoimmun encefalit gruppe;Csv	1	IGNORE
+Sølv;B	1	IGNORE
+Sæd; Analysestarttidspunkt;Pt	1	IGNORE
+Human herpesvirus 3-Ab(IgG);P	1	IGNORE
+Sæd volumen;Pt	1	IGNORE
+CFTR-gen (F508del og 394delTT);DNA	1	IGNORE
+Glukose(indgivet p.o., masse):Pt	1	IGNORE
+CFTR-gen (standard);DNA	1	IGNORE
+Francisella tularensis-Ab;P	1	IGNORE
+EDTA k2 lilla10 x 2, WW2	1	IGNORE
+EDTA lilla 9 ml x 2, CAHOXA	1	IGNORE
+Fibrinogen;stofratio(koag/imm);P	1	IGNORE
+Pink flourid+citrat 3 ml x 2	1	IGNORE
+Projekt Genova	1	IGNORE
+F2-gen(20210G>A);DNA	1	IGNORE
+GABA-B receptor 1-Ab(IgG);Csv	1	IGNORE
+Rubellavirus-Ab(IgG) (0 1);P	1	IGNORE
+GABABR1 Ab(IgG);Csv	1	IGNORE
+GABAaR-alfa1+alfa3-IgG;Csv	1	IGNORE
+GABAaR-alfa1+alfa3-IgG;P	1	IGNORE
+Fosfolipid;P	1	IGNORE
+GFAP-alfa-IgG;Csv	1	IGNORE
+Projekt OP-DNA, lunge	1	IGNORE
+EDTA k2 lilla 4ml x 2 DD2	1	IGNORE
+Rubellavirus tolkning	1	IGNORE
+Projekt Anbra 2	1	IGNORE
+Cor a 8 (f425)-IgE;P	1	IGNORE
+DPPX-IgG;Csv	1	IGNORE
+Rød 9 ml x 2 DD2	1	IGNORE
+Complement C1q-Ab(IgG)	1	IGNORE
+Complement C1q-IgG;P	1	IGNORE
+Cor a 1 (f428)-IgE;P	1	IGNORE
+Cor a 14 (f439)-IgE;P	1	IGNORE
+Cor a 9 (f440)-IgE;P	1	IGNORE
+Rubellavirus IgG+IgM;P	1	IGNORE
+Cor.SARS(COVID19)DNA/RNA(POCT);Exp	1	IGNORE
+Rubellavirus-IgM;P	1	IGNORE
+Cytomegalovirus (DNA);P	1	IGNORE
+DNA til opbevaring (SLB Vejle)	1	IGNORE
+Codein (høj cutoff),konfirm;U	1	IGNORE
+Ritalinsyre, konfirm;U	1	IGNORE
+Projekt PROSPER, EKG	1	IGNORE
+Flowcytometri af B-cellemalign;B	1	IGNORE
+Flowcytometri;B	1	IGNORE
+Glukose (60 min);P	1	IGNORE
+MEN1-gen;DNA	1	IGNORE
+NK-VUE 1 ml x 1, RAS/RAF	1	IGNORE
+Mycobacterium;Plv	1	IGNORE
+2010-030-004 Metagenome DCB	1	IGNORE
+pCO2;P(nsB; aB)	1	IGNORE
+pH(semikvant);U	1	IGNORE
+Glukose (90 min);P	1	IGNORE
+HLA klasse I-Ab;P	1	IGNORE
+GFAP-alfa-IgG;P	1	IGNORE
+Gal d 2, Ovalbumin (f232)-IgE;P	1	IGNORE
+Gal d 3, Conalbumin (f323)-IgE;P	1	IGNORE
+Projekt DIABECHO	1	IGNORE
+Ethylsulfat;U	1	IGNORE
+Glukose (150 min);P	1	IGNORE
+MEFV-gen;DNA	1	IGNORE
+MDMA,konfirm;U	1	IGNORE
+MBL2-gen;DNA	1	IGNORE
+Lysozym (k208)-IgE;P	1	IGNORE
+Lynch syndrom panel (SLB Vejle)	1	IGNORE
+Lynch Syndrom panel	1	IGNORE
+Plasma viskositet;P	1	IGNORE
+Euroglyphus maynei (d74)-IgE;P	1	IGNORE
+Eutylon;U	1	IGNORE
+Lormetazepam,konfirm;U	1	IGNORE
+Ethylglucuronid;U	1	IGNORE
+Ethylon;U	1	IGNORE
+EDTA k2 lilla 9 ml x 4, OVH2N	1	IGNORE
+Projekt NANSY	1	IGNORE
+Gabapentin,konfirm;U	1	IGNORE
+GREM1-gen;DNA	1	IGNORE
+Projekt Hypo/PBI	1	IGNORE
+EDTA k2 lilla 4 ml x 1, NeoToc	1	IGNORE
+DD2-plaque;B	1	IGNORE
+Rubellavirus-Ab(IgM) (0 1);P	1	IGNORE
+Entamoeba histolytica-Ab;P	1	IGNORE
+HIT-udredning (fuldblod);B	1	IGNORE
+HIT-udredning (plasma);P	1	IGNORE
+Pr. 2007-062 PIT Uræmi og Arterier	1	IGNORE
+EDTA k2 lilla 9 ml x 2 DD2	1	IGNORE
+EDTA k2 lilla 4 ml x 3, BIO-CAC	1	IGNORE
+EDDP,konfirm;U	1	IGNORE
+Pr2019 Target-ABC dag 0	1	IGNORE
+Denguevirus-Ab(IgG);P	1	IGNORE
+EDTA k2 lilla 9 ml x 1, OC Neo	1	IGNORE
+Proteinase 3-IgG [PR3] (kval);P	1	IGNORE
+EGFR mutation	1	IGNORE
+EDTA k2 lilla 3ml x 1, PLAK	1	IGNORE
+Ecgonidin, methylester,konfirm;U	1	IGNORE
+Ecgonidin,konfirm;U	1	IGNORE
+Gyldig: plprvt.dato -10 til 30 dage	1	IGNORE
+Gærceller;U	1	IGNORE
+Grøn Li Heparin 8 ml x 2 DD2	1	IGNORE
+Pære (f94)-IgE;P	1	IGNORE
+HIV 1+2(Ab+Ag),gravid;P	1	IGNORE
+Gærceller semikvant;U	1	IGNORE
+Post-transplant.-virusinfek.,udv;B	1	IGNORE
+Diverse Blod	1	IGNORE
+Polyomavirus (DNA);U	1	IGNORE
+EDTA 9 ml x 4, Daratumumab	1	IGNORE
+EDTA 9 ml x 2, Daratumumab	1	IGNORE
+RAD51D-gen;DNA	1	IGNORE
+Quetiapin;U (konfirm)	1	IGNORE
+Pr. 2011-014 PEJ CP 196	1	IGNORE
+Pr. 2008-033 PEQ EuroSIDA	1	IGNORE
+HBV Reaktivering;P	1	IGNORE
+Treponema pallidum Ab, konfirm.;P	1	IGNORE
+Echinococcus granulo.(hydatid)-Ab;P	1	IGNORE
+Denguevirus-Ab(IgM);P	1	IGNORE
+Rubellavirus-Ab(IgM);P	1	IGNORE
+Chikungunya-virus-Ab gruppe;P	1	IGNORE
+Campylobacter Ab, tolkning;P	1	IGNORE
+SERUM rød 4 ml x 1, CAHOXA	1	IGNORE
+Chlamydia pneumoniae-Ab(IgM);P	1	IGNORE
+Cannabinoler,screen;U	1	IGNORE
+Cathinon,konfirm;U	1	IGNORE
+EDTA lilla 4 ml x 1, SELECT Pro	1	IGNORE
+Rødt tørglas 4 ml x 1, NANSY	1	IGNORE
+Derm. mikroceras (d3)-IgE;P	1	IGNORE
+Rødt tørglas 6 ml x 1	1	IGNORE
+Rødt tørglas 6 ml x 2	1	IGNORE
+SERPINA1-gen (fuld sekv.);DNA	1	IGNORE
+Chlordiazepoxid,konfirm;U	1	IGNORE
+Cannabinoler;U	1	IGNORE
+Chlamydia pneumoniae-Ab(IgG);P	1	IGNORE
+Calciumkanal P/Q-type-IgG;P	1	IGNORE
+Chlamydia pneumoniae-IgM;P	1	IGNORE
+Chlamydia pneumoniae-IgG;P	1	IGNORE
+EDTA k2 lilla 4 ml x 1, OC Recur	1	IGNORE
+CarbonmonoxidHB(Fe);Hb(Fe;cvB)	1	IGNORE
+Hydrocodon,konfirm;U	1	IGNORE
+DPPX-IgG;P	1	IGNORE
+HIV 1(genotype);P	1	IGNORE
+Projekt Course,Nasal	1	IGNORE
+HIT-udredning (serum);S	1	IGNORE
+EBVPCR;B	1	IGNORE
+Dyrkning (bacterium);Ledv	1	IGNORE
+Duefæces-antistof(IgG);P	1	IGNORE
+Rhizopus nigricans (m11)-IgE;P	1	IGNORE
+Diazepam,konfirm;U	1	IGNORE
+Diagnostisk pakkeforløb;P	1	IGNORE
+Desmorfin, konfirm;U	1	IGNORE
+EDTA k2 lilla 9 ml x 2, OP-DNA, lunge	1	IGNORE
+Gensekventering;P	1	IGNORE
+CASPR2 Ab(IgG);Csv	1	IGNORE
+Teknisk analyse 11, 25OHD3	1	IGNORE
+TEK-1,8NUNC x 10	1	IGNORE
+TEK-4,5NUNC x 3	1	IGNORE
+Stratify JCV;P	1	IGNORE
+Streck rør 10 ml x 2, Genova	1	IGNORE
+Teknisk Analyse GLK0 bestemmelse B	1	IGNORE
+2021-031 M Sarcope. Prv.+Forsk.Biob	1	IGNORE
+2021-031 M 3 mL LiHep 1 af 1	1	IGNORE
+Tek. LUPUS, PTTLA MIX;P	1	IGNORE
+Insulin, bovint (c71)-IgE;P	1	IGNORE
+AMPAR1 Ab(IgG);Csv	1	IGNORE
+TEK-LILLA 10	1	IGNORE
+TEK-LILLA 3 x3	1	IGNORE
+Laktat;P	1	IGNORE
+Kortikotropin (60 min);P	1	IGNORE
+2022-039 C 10 mL  Rød x 4	1	IGNORE
+Osmotisk trykreaktion (24 h);Erc(B)	1	IGNORE
+Glukose-6-P-dehydr./HB(Fe);B	1	IGNORE
+Spermatozoer-motilitet;Spmz	1	IGNORE
+BT diastolisk, ligg.;Arm	1	IGNORE
+BT systolisk, ligg.;Arm	1	IGNORE
+BW x 2, DETECT-DK	1	IGNORE
+Lorazepam,konfirm;U	1	IGNORE
+Spermatozoer total antal;Sæd	1	IGNORE
+Spermatozoer(normale);Spmz	1	IGNORE
+Spidsglas 10 ml uden tilsætning x1	1	IGNORE
+Periodisk febersyndrom; DNA	1	IGNORE
+Spytkirtel-Ab(IgG);P	1	IGNORE
+Spytkirtel-IgG;P	1	IGNORE
+Somatotropin[GH]sekr(glukose)grp;Pt	1	IGNORE
+2021-028 J 4 mL RØD 1 af 2	1	IGNORE
+Asparges (f261)-IgE;P	1	IGNORE
+Ara h 8 (f352-1)-IgE;P	1	IGNORE
+2021-028 J CODEXP	1	IGNORE
+Keratin-Ab(IgG) [AKA] kvan;P	1	IGNORE
+Teknisk 25-Hydroxy-Vitamin D3;P	1	IGNORE
+Human herpesvirus 7 (DNA);P	1	IGNORE
+Aggregation(TRP);Trc(B)	1	IGNORE
+Aggregation+ATP frig.grp;Trc(B)	1	IGNORE
+TEK-FÆCES x 2	1	IGNORE
+6-O-Monoacetylmorphin,konfirm;U	1	IGNORE
+Byg (f6)-IgE;P	1	IGNORE
+HLA-B-gen (B51);DNA	1	IGNORE
+Hepatitis B virus s (Ag, konfirm);P	1	IGNORE
+T-lymphocytter;B	1	IGNORE
+Campylobacter coli+jejuni-IgG;P	1	IGNORE
+Rødt tørglas 10 ml x 2, BIO-CAC	1	IGNORE
+CFTR-gen(MIM602421.0001);DNA	1	IGNORE
+CTH Udredningssvar	1	IGNORE
+Bos d 4, alfa-laktalb. (f76)-IgE;P	1	IGNORE
+Bos d 8, Casein (f78)-IgE;P	1	IGNORE
+Aggregation(ASP);Trc(B)	1	IGNORE
+Adenovirus(DNA);P	1	IGNORE
+Adalimumab-Ab;P	1	IGNORE
+Acrylfentanyl, konfirm;U	1	IGNORE
+ADAMTS13 protein (enz.);P	1	IGNORE
+ACE-gen;DNA	1	IGNORE
+Amfepramon,konfirm;U	1	IGNORE
+Alprazolam,konfirm;U	1	IGNORE
+Albumin;Pt(U)	1	IGNORE
+Albumin;Drænv	1	IGNORE
+Osmotisk tryk-reak.(24h;34);Erc(B)	1	IGNORE
+Osmotisk tryk-reak.(24h;239);Erc(B)	1	IGNORE
+ADAMTS13-Ab (enz.);P	1	IGNORE
+Actin-antistof;P	1	IGNORE
+Amfetamin(konfirm);U	1	IGNORE
+Tek-Immunglobulin E;P	1	IGNORE
+Pentylon (konfirm);U	1	IGNORE
+BMPR1A-gen;DNA	1	IGNORE
+B-Edta 4 ml, 1. besøg	1	IGNORE
+Stand.Test Syfilis(screen)gr;P	1	IGNORE
+Ephedrin,konfirm;U	1	IGNORE
+Projekt Hoftefraktur < 60 år	1	IGNORE
+Glukose (30 min);P	1	IGNORE
+Gastrin;P	1	IGNORE
+Gliadin (f98)-IgE;P	1	IGNORE
+Enterovirus(RNA);P	1	IGNORE
+Projekt Inspire-AF Besøg 6/12 mdr	1	IGNORE
+Epstein-Barr virus-antistof [EBV);P	1	IGNORE
+Eosinofilocyt-kationprotein;P	1	IGNORE
+Erythrocyt D(Ag);Erc(B)	1	IGNORE
+Erythrocyt(Ag) gruppe;Erc(B)	1	IGNORE
+Propofol glucuronid,konfirm;U	1	IGNORE
+Prostatacancer panel	1	IGNORE
+Enterovirus RNA;P	1	IGNORE
+Eosinofilocyt kationprotein;P	1	IGNORE
+Projekt WW2	1	IGNORE
+Pregabalin,konfirm;U	1	IGNORE
+Chromodomain-hel.-DNA-b.p.4-IgG;P	1	IGNORE
+Glukagon, pancreastype;P	1	IGNORE
+Fentanyl, konfirm;U	1	IGNORE
+HIV1(RNA) (0 1);P	1	IGNORE
+HIV infektion undersøgelse	1	IGNORE
+Projekt Challenge Baseline	1	IGNORE
+Projekt CAHOXA	1	IGNORE
+Projekt BioHjertearv	1	IGNORE
+Pyruvat;B(vB)	1	IGNORE
+Projekt BIO-CAC	1	IGNORE
+Projekt Airleaf, EKG	1	IGNORE
+Projekt Airleaf	1	IGNORE
+Glutamate receptor 2-Ab(IgG);Csv	1	IGNORE
+Glutamate receptor 1-Ab(IgG);Csv	1	IGNORE
+Glukose;U	1	IGNORE
+Graviditets-US 1 Type;B	1	IGNORE
+Erythrolysin, bifasisk(IgG);P	1	IGNORE
+Atomoxetin;U (konfirm)	1	IGNORE
+Oxazepam,konfirm;U	1	IGNORE
+Osmotisk tryk-reak.(0h;119);Erc(B)	1	IGNORE
+Kortikotropin (90 min);P	1	IGNORE
+Ketamin, konfirm;U	1	IGNORE
+Ketobemidon, konfirm;U	1	IGNORE
+Teknisk Analyse GLK120 bestem. A	1	IGNORE
+Teknisk Analyse GLK120 bestem. B	1	IGNORE
+Androstanolon;P	1	IGNORE
+Erytrocyt-Ab titer;P	1	IGNORE
+Arveligt malignt melanom panel	1	IGNORE
+Spermatozoa(agglutination);Sem	1	IGNORE
+Ara h 9 (f427)-IgE;P	1	IGNORE
+Banan (f92)-IgE;P	1	IGNORE
+Arvelig colorec cancer/polyp. panel	1	IGNORE
+Aspergillus versic. (m25)-IgG;P	1	IGNORE
+2021-028 J 1,8 mL CITRAT 1 af 3	1	IGNORE
+2021-028 J 4 mL RØD 2 af 2	1	IGNORE
+Osmotisk tryk-reak.(24h;171);Erc(B)	1	IGNORE
+4-Hydroxybutyrat konfirm;U	1	IGNORE
+P(vB)-Carbondioxid,stofk.	1	IGNORE
+Oxymorphon,konfirm;U	1	IGNORE
+Oxycodon, konfirm;U	1	IGNORE
+Osmotisk tryk-reak.(0h;34);Erc(B)	1	IGNORE
+Osmotisk tryk-reak.(0h;239);Erc(B)	1	IGNORE
+Sølv;P	1	IGNORE
+Anden genetisk analyse (SLB Vejle)	1	IGNORE
+Osmotisk tryk-reak.(24h;187);Erc(B)	1	IGNORE
+Spermatozoer levende;Spmz	1	IGNORE
+Hvede, almindelig (g15)-IgE;P	1	IGNORE
+POLE-gen;DNA	1	IGNORE
+Pr2019 Target-ABC dag 14	1	IGNORE
+Erytrocytter, vol.fr. [EVF];B(cvB)	1	IGNORE
+2016-079 R Troponin	1	IGNORE
+2020-038 E 4 ml Tørglas 1 af 2	1	IGNORE
+Vævstype før KMT (patient);B	1	IGNORE
+2013-078 T Novartis V 4	1	IGNORE
+2013-078 3,5 mL GUL x 2	1	IGNORE
+2013-078 30 mL Urin x 1	1	IGNORE
+2013-078 T Novartis EOS/EARLY T	1	IGNORE
+2013-078 T Novartis PHARMACOGEN	1	IGNORE
+2013-078 T Novartis UNSCHEDE, Urin	1	IGNORE
+2013-078 T Novartis V 2	1	IGNORE
+2013-078 2,5 mL GUL x 3	1	IGNORE
+2020-038 E RECOGNISED Urin	1	IGNORE
+2013-078 T Novartis V 4, Urin	1	IGNORE
+2013-078 T Novartis V 8	1	IGNORE
+2013-078 T Novartis V 8, Urin	1	IGNORE
+2013-078 T Novartis V Screen	1	IGNORE
+2014-066 B BioHJERTEARV	1	IGNORE
+2017-009 Q Pneumokok Visit 12,48,96	1	IGNORE
+2013-078 T Novartis V 2, Urin	1	IGNORE
+2018-010 Å 1,8 mL BLÅ x 1	1	IGNORE
+2012-068 PEE EUROCONDOR	1	IGNORE
+2014-024 B Danrisk Follow up. Urin	1	IGNORE
+2013-069 3 mL LiHep x 1	1	IGNORE
+2013-069 T COOPVATS prøve 1	1	IGNORE
+2013-078 1,0 GRÅ greiner x 1	1	IGNORE
+2013-078 1,0 LILLA greiner x 1	1	IGNORE
+2013-078 1,0 RØD greiner x 1	1	IGNORE
+2014-013 4 mL EDTA x 1	1	IGNORE
+2013-078 2,0 mL EDTA x 1	1	IGNORE
+2018-010 Å 3,5 mL GUL x 1	1	IGNORE
+2013-078 2,5 mL GUL x 8	1	IGNORE
+2013-078 T Novartis Visit TB	1	IGNORE
+2013-078 T Novartis V Screen, Urin	1	IGNORE
+2019-010 S Profermin V1_4 uger	1	IGNORE
+2019-010 S Prof_Biobank_Medier V0+4	1	IGNORE
+2019-010 S Prof V2_8 uge, V3_16 uge	1	IGNORE
+2016-080 G DBS	1	IGNORE
+2017-009 Q 3,0 mL Lihep x 1	1	IGNORE
+2015-044-008 C 10 mL RØD 2 af 2	1	IGNORE
+2017-009 Q 6 mL CPDA x 2	1	IGNORE
+2015-044-008 C DRB MYOSCL	1	IGNORE
+2019-018 N 4,0 mL EDTA 1 af 1	1	IGNORE
+2015-096  3 mL LiHe x 2	1	IGNORE
+2015-096 4 mL RØD x 2	1	IGNORE
+2017-009 Q 4,0 mL EDTA x 2	1	IGNORE
+2017-009 Q 4,0 mL RØD x 1	1	IGNORE
+2017-009 Q Pneomokokvacc Visit O	1	IGNORE
+2015-044-008 C 10 mL RØD 1 af 2	1	IGNORE
+2017-014 B AVADEC Tid 14.30-18.00	1	IGNORE
+2015-026 4 mL EDTA x 2	1	IGNORE
+2017-015 M 3,0 mL EDTA x 2	1	IGNORE
+2017-015 M 4,0 mL RØD x 1	1	IGNORE
+2017-015 M 6,0 mL RØD x 2	1	IGNORE
+2017-015 M DIABETISK BIOPSI	1	IGNORE
+Hexahydrophtalic anhydrid (k209)-IgE;P	1	IGNORE
+HbA1c (IFCC) reagenslotnr.;Hb(B)	1	IGNORE
+Hexahydrophtalic anhydr(k209)-IgE;P	1	IGNORE
+Hereditær hæm. telangiek. HHT panel	1	IGNORE
+Hepatitis US af eksponent;P	1	IGNORE
+Hepatitis E virus(RNA);P	1	IGNORE
+Heparin-PF4-IgG [HIT];P	1	IGNORE
+Heparin-PF4-Ab(IgG)[HIT];P	1	IGNORE
+Heparin-Induc.Trombocyt.(Type 2);Pt	1	IGNORE
+Herpes simplex virus-IgG [HSV1+2];P	1	IGNORE
+Løg (f48)-IgE;P	1	IGNORE
+2020-038 E RECOGNISED Visit 1A	1	IGNORE
+2020-038 E 4 ml Tørglas 2 af 2	1	IGNORE
+2015-026 6mL MBLÅ x 2	1	IGNORE
+2015-044-001 C DRB Remsima+Benepali	1	IGNORE
+2015-044-001 Paxgene RNA x	1	IGNORE
+2015-044-008 C 10 mL EDTA 1 stk	1	IGNORE
+2013-014 S Leversygdom div. 1 år	1	IGNORE
+2013-078 2,0 mL EDTA x1	1	IGNORE
+2016-094 N  SFNpark BB + øvrige prv	1	IGNORE
+Galdecanaliculus-Ab;P	1	IGNORE
+HIV-1(RNA);P	1	IGNORE
+Glutamate receptor 1-Ab(IgG);P	1	IGNORE
+Glucose (PN);P(kB;fPt)	1	IGNORE
+Glucose (0 min) TEK;P(kB)	1	IGNORE
+Genetisk sendeprøve	1	IGNORE
+Gedemælk (f300)-IgE;P	1	IGNORE
+Galaktose-1-fosfatindhold;Erc(B)	1	IGNORE
+Granulocyt oxidativt respons;B	1	IGNORE
+Glukagon;P(fPt)	1	IGNORE
+Fåremælk (f325)-IgE;P	1	IGNORE
+HIV-2 (RNA);P	1	IGNORE
+Heparin lav molmasse(enz.;FXa);P	1	IGNORE
+Human immundefektvirus 1(RNA);P	1	IGNORE
+Human Immundefektvirus tolkning;Pt	1	IGNORE
+Glycyphagus domesticus (d73)-IgE;P	1	IGNORE
+Gåsefjer (e70)-IgE;P	1	IGNORE
+2012-036 PEM LPL defekt, Visit 1	1	IGNORE
+Candida-relateret egenskab	1	IGNORE
+2021-090 M REPLACE 1	1	IGNORE
+Aldosteron;Pt(U)	1	IGNORE
+Forældreprøve (SLB Vejle)	1	IGNORE
+Basisk phosphatase;Asc	1	IGNORE
+Bet v 2, Bet v 4 (t221)-IgE;P	1	IGNORE
+Cefuroxin (c101)-IgE;P	1	IGNORE
+Candida-Ab;P	1	IGNORE
+HFE-gen (fuld sekv.);DNA	1	IGNORE
+Calciumkanal P/Q-type-Ab;P	1	IGNORE
+CFTR-gen (udvidet) (SLB Vejle)	1	IGNORE
+Bet v 1 (t215-1)-IgE;P	1	IGNORE
+Parainfluenzavirus-Ab:p	1	IGNORE
+Karry (f281)-IgE;P	1	IGNORE
+Klarhed før centrifugering;Ledv	1	IGNORE
+Mycobacterium(std+DNA);Sekr	1	IGNORE
+HFE2-gen (udvidet);DNA	1	IGNORE
+Kendt mutation (SLB Vejle)	1	IGNORE
+Pancreascancer panel (SLB Vejle)	1	IGNORE
+Laktatdehydrogenase [LDH];Drænv	1	IGNORE
+Latex rHev b 9 (k222)-IgE;P	1	IGNORE
+Hvede rTri a 14 (f433)-IgE;P	1	IGNORE
+Human immundefektvirus-Ab gruppe;P	1	IGNORE
+Angiotensin II;P	1	IGNORE
+Tumor Target (SLB Vejle)	1	IGNORE
+2018-006 R KFE 17.20 Tail, Screen	1	IGNORE
+HIV 1(RNA);P	1	IGNORE
+2012-068 E EUROCONDOR Urin	1	IGNORE
+14-3-3 protein;Csv	1	IGNORE
+2002-033 RISK-OGGT-FU 10 year Urin	1	IGNORE
+2010-029 C SLE visit 1,version 2	1	IGNORE
+2010-030-003 4 mL EDTA x 3	1	IGNORE
+2012-036 PEM LPL def. V2, URIN	1	IGNORE
+Latex rHev b 1 (k215)-IgE;P	1	IGNORE
+Latex rHev b 11 (k224)-IgE;P	1	IGNORE
+Latex rHev b 3 (k217)-IgE;P	1	IGNORE
+Latex rHev b 6.01 (k219)-IgE;P	1	IGNORE
+Latex rHev b 8 (profilin) (k221)-IgE;P	1	IGNORE
+Legionella [LUT] (Ag);U	1	IGNORE
+Hvepsegift (i3)-IgG;P	1	IGNORE
+Legionella pneumophila(ag);U	1	IGNORE
+Leukocytter(mononukl.);Drænv	1	IGNORE
+Leukocytter(mononukl.);Lkc(Dræn)	1	IGNORE
+Leukocytter(polynukl.);Drænv	1	IGNORE
+Leukocytter(polynukl.);Lkc(Dræn)	1	IGNORE
+Lysegrøn Li Hep m gel 3,5 ml x 1	1	IGNORE
+Laceyella sacchari (m42)-IgG;P	1	IGNORE
+Kokosnød (f36)-IgE;P	1	IGNORE
+Koagulum;Ledv	1	IGNORE
+Huntington sygdom (HTT) (SLB Vejle)	1	IGNORE
+2017-027 S Antitrypsin Biopsi BP DK	1	IGNORE
+2017-042 S SIPHON BIOPSI Blodpr.	1	IGNORE
+2016-080 G 4,0 mL EDTA x 2	1	IGNORE
+2019-086 Å Biobank 1 DPYD RØD	1	IGNORE
+2018-025 N Cannabis Diabetiker FB	1	IGNORE
+2018-025 N Cannabis Diabetiker UB	1	IGNORE
+2018-026 Q TRIM Vagt 15:00-07:00	1	IGNORE
+2019-010 S Medier Sp 1,8 mL Nu SNAP	1	IGNORE
+2019-010 S Medier Sp 4,5 mL Nu RNA	1	IGNORE
+2019-010 S Medier Uri 4,5 mL Nu x 2	1	IGNORE
+2019-064 Q 4 ml EDTA 1 af 2	1	IGNORE
+2018-025 N 7 mL RØD x 2	1	IGNORE
+2019-064 Q 4 ml tørglas 1 af 3	1	IGNORE
+Antithrombin(IIa)(enz; thrombin); P	1	IGNORE
+Atypisk pneumoni gruppe;P	1	IGNORE
+B-EDTA lilla 9 ml x 1, BRCA	1	IGNORE
+Diazepam;P	1	IGNORE
+Diagnostiseret porfyriner	1	IGNORE
+2018-025 N Cannabis Diabetiker EB	1	IGNORE
+2018-015 L ESW FU 1/3 md	1	IGNORE
+2016-080 G 4,0 mL EDTA x 1	1	IGNORE
+2019-064 Q 4 ml EDTA 2 af 2	1	IGNORE
+2019-035 J 2,7 mL Citrat 3 af 3	1	IGNORE
+2019-035 J 2,7 mL Citrat 2 af 3	1	IGNORE
+2019-035 J 2,7 mL Citrat 1 af 3	1	IGNORE
+2019-064 Q 4 ml tørglas 3 af 3	1	IGNORE
+2018-010 Å 2,5 mL PAX Brun/klar x 2	1	IGNORE
+2019-064 Q 4 ml tørglas 2 af 3	1	IGNORE
+2018-010 Å 5,0 mL GUL x 1	1	IGNORE
+2018-026 Q TRIM dagtid 7:00-15:00	1	IGNORE
+2018-010 Å Urinbeholder	1	IGNORE
+2018-010 Å WN39658 Baseline	1	IGNORE
+2018-010 Å WN39658 Screen	1	IGNORE
+2018-010 Å WN39658 Urin	1	IGNORE
+2018-010 Å WN39658 Week 24, ET	1	IGNORE
+2018-015 L ESW Baseline urin	1	IGNORE
+Denguevirus-Ab tolkning;P	1	IGNORE
+Denguevirus(RNA og antistof)	1	IGNORE
+DRP-5-Ab(IgG);P	1	IGNORE
+Enterovirus-IgM;P	1	IGNORE
+Cirkulerende antikoagulans(koag.);P	1	IGNORE
+Enterovirus;Syst	1	IGNORE
+Efavirenz;P	1	IGNORE
+Endomysium-Ab(IgA);P	1	IGNORE
+Ene (t6)-IgE;P	1	IGNORE
+EDTA lilla 4 ml x 1, Tumorsfære	1	IGNORE
+Erytrocytter (HbF-holdige);Erc(B)	1	IGNORE
+DNA gemme(KF-lab)	1	IGNORE
+Citrat BLÅ 2,7 ml x 2, NOAK	1	IGNORE
+Escitalopram;P	1	IGNORE
+Familieus.-KMT (1.donor);B	1	IGNORE
+Familieus.-KMT HLA-klasse:B	1	IGNORE
+Ferroxidase	1	IGNORE
+Eng-rævehale (g16)-IgE;P	1	IGNORE
+Chlamydophila pneumoniae-antistof;P	1	IGNORE
+Chitinase;P	1	IGNORE
+Finkefjer (e214)-IgE;P	1	IGNORE
+Fibrin D-dimer - POCT;P	1	IGNORE
+Histoplasma-Ab;P	1	IGNORE
+EDTA k2 lilla 4 ml x 1, BoneBio	1	IGNORE
+Cøliaki - suppl. v. IgA-mangel;P	1	IGNORE
+Histamin Releasing test	1	IGNORE
+Citron (f208)-IgE;P	1	IGNORE
+Cladosporium cladosp. (m26-1)-IgG;P	1	IGNORE
+Contactin-1-IgG;P	1	IGNORE
+Contactin-2-IgG;P	1	IGNORE
+Cystin;Lkc prot	1	IGNORE
+Cytomegalovirus-antistof;P	1	IGNORE
+Cøliaki vævstypebest. HLA DQ2 DQ8;P	1	IGNORE
+Div.til diverse laboratorier	1	IGNORE
+DAN-HEP Biobank	1	IGNORE
+2019-035 J 4 mL EDTA 1 af 1	1	IGNORE
+2019-035 J 4 mL EDTA 1 af 2	1	IGNORE
+2019-035 J 4 mL EDTA 2 af 2	1	IGNORE
+2018-054 B Biofreedom	1	IGNORE
+2018-040 B 3 mL LiHep x 2	1	IGNORE
+2018-040 B 4 mL EDTA x3	1	IGNORE
+2018-040 B 6 mL TØR x 4	1	IGNORE
+2018-040 B DIACAVAS BLOD	1	IGNORE
+2018-030 B ADT	1	IGNORE
+2018-050 R KFE12.18. ALINA ANÆMI	1	IGNORE
+2018-058 R ACHILES Baseline	1	IGNORE
+PSA frit/total;P	1	IGNORE
+2019-007 Q MiRNA LTBI/TB	1	IGNORE
+2019-010 S Med LBiop 1,8 mL Nu SNAP	1	IGNORE
+2019-010 S Medier Fæcesrør x 2	1	IGNORE
+Teknisk analyse 5, 25OHD3	1	IGNORE
+2018-031 S 10 mL EDTA x 2	1	IGNORE
+Teknisk FERO Svendborg	1	IGNORE
+2018-040 B  DIACAVAS URIN	1	IGNORE
+2018-034 R KFE18.08 PSA	1	IGNORE
+2018-031 S DNA Visit 1	1	IGNORE
+2018-040 B 6 mL Urin x 1	1	IGNORE
+MDR mutationsanalyse;B	1	IGNORE
+Endomysium-IgG;P	1	IGNORE
+Macadamianød (f345)-IgE;P	1	IGNORE
+Thioguanin;DNA	1	IGNORE
+2019-025 J Astraeus Genotypning	1	IGNORE
+2019-018 N STACEY	1	IGNORE
+2019-018 N 4,0 mL Tørglas 1 af 1	1	IGNORE
+2015-096 4 mL EDTA x 2	1	IGNORE
+2015-096 J Clinical Markers in ILD	1	IGNORE
+2015-101 N Kro Polyneuropati 2	1	IGNORE
+2016-064 4,0 mL EDTA x 1	1	IGNORE
+2016-064 4,0 mL RØD x 1	1	IGNORE
+2016-064 I Kutan Lupus Ery	1	IGNORE
+TP53-gen;DNA	1	IGNORE
+PRNP-gen;DNA	1	IGNORE
+2019-035 J Target-ABC Dag 0 A Blod	1	IGNORE
+2019-086 Å DPYD 10 mL Rød 1 af 1	1	IGNORE
+Tumorboard (SLB Vejle)	1	IGNORE
+Honningbi Api m 10 (i217)-IgE;P	1	IGNORE
+2018-015 L ESW Baseline blod	1	IGNORE
+2019-064 Q Immundefekter	1	IGNORE
+2019-086 Å DPYD 10 mL EDTA 1 af 1	1	IGNORE
+2019-010 S Prof V0_baseli,V4_24 uge	1	IGNORE
+2019-089 Å Biobank 2 DPYD EDTA	1	IGNORE
+PR2015  CITRAT X 3	1	IGNORE
+2020-00I Zabas Biobank	1	IGNORE
+2020-038 E 4 ml EDTA 1 af 2	1	IGNORE
+2020-038 E 4 ml EDTA 2 af 2	1	IGNORE
+2019-064 Q 4 ml EDTA 1 af 1	1	IGNORE
+2019-064 Q 10 ml Li-hep	1	IGNORE
+2019-043 B ATH3G10-006 Glykeret Hb	1	IGNORE
+Tek-rød KOL-OXI	1	IGNORE
+THSD7A-IgG;P	1	IGNORE
+Pr. 2010 DUAL(randomisering)	1	IGNORE
+TEK-NUNC4,5 x 3	1	IGNORE
+TEK-NUNC1,8 SPYT	1	IGNORE
+TEK-4,5NUNC	1	IGNORE
+TEK-1,8NUNC	1	IGNORE
+Pr. 2010 DUAL(randomisering)(urin)	1	IGNORE
+SyreBase og oxygen status kommentar	1	IGNORE
+Pr. 2010 DUAL(run in mænd)(urin)	1	IGNORE
+Pr. 2010 DUAL(run in mænd)+(EKG)	1	IGNORE
+Sur fosfatase, prostatatype;P	1	IGNORE
+Pr. 2012-023 PEM T2DM Testosteron	1	IGNORE
+Thiopurin methyltrans.[TPMT];Erc(B)	1	IGNORE
+Pr. 2003-025 Angioødem	1	IGNORE
+Pr 2021 POLAR BEAR std. levertal	1	IGNORE
+Tick-borne encephalitisv.-Ab(IgG);P	1	IGNORE
+2022-00A MTL mikrobiom Biobank	1	IGNORE
+60 kDa SS-A/Ro ribonucleoprotein-Ab(IgG)	1	IGNORE
+AIP-gen;DNA	1	IGNORE
+MSH3-gen;DNA	1	IGNORE
+2015-053 B PREDICT V2, 14.45-06.30	1	IGNORE
+O-Demethyltramadol konfirm;U	1	IGNORE
+2013-065 M Diabetes BMD	1	IGNORE
+Zopiclon N-oxid,konfirm;U	1	IGNORE
+Vævstype før KMT;B	1	IGNORE
+Vævstype,nyrepatient/donor, 2.type;P	1	IGNORE
+MUTYH-gen;DNA	1	IGNORE
+pO2 (Pt-temp.);P(nsB; aB)	1	IGNORE
+Majs (f8)-IgE;P	1	IGNORE
+Makrel (f206)-IgE;P	1	IGNORE
+2014-001 B TROFI II 12-16 tim PCI	1	IGNORE
+2014-001 B TROFI II 6-8 timer PCI	1	IGNORE
+2014-007 B Aortastenose Visit 2	1	IGNORE
+Osmotisk tryk-reak.(0h;102);Erc(B)	1	IGNORE
+2013-074 Z LeukoPatch,Screen	1	IGNORE
+2019-058 L Bone Post II	1	IGNORE
+2017-062 B Flavour V1M,urin	1	IGNORE
+Ærter (f12)-IgE;P	1	IGNORE
+Teknisk analyse 12, 25OHD3	1	IGNORE
+2020-00F PTSD dag 1 - spyt	1	IGNORE
+2021-010 Å INDEED Tid 15-18 lille P	1	IGNORE
+LGI1 Ab(IgG);Csv	1	IGNORE
+LGI1-Ab(IgG);Csv	1	IGNORE
+Lactat (teknisk);P(vB)	1	IGNORE
+Zopiclon,konfirm;U	1	IGNORE
+2019-058 L Bone Po 4 mL EDTA 2 af 2	1	IGNORE
+2021-028 J 1,8 mL CITRAT 3 af 3	1	IGNORE
+2021-028 J 10 mL EDTA 1 af 1	1	IGNORE
+2019-033 D Streck rør 3 af 3	1	IGNORE
+2019-049 N BUPROPION Almindelig	1	IGNORE
+2019-055 Å ENGAGE	1	IGNORE
+2019-058 L Bone Po 4 mL EDTA 1 af 2	1	IGNORE
+2014-007 B Aortastenose Visit 3a	1	IGNORE
+Valmuefrø, birkes (f224)-IgE;P	1	IGNORE
+Vitamin B12(TC-bundet);P	1	IGNORE
+Vævstype-familie;B	1	IGNORE
+pH;P(nsB)	1	IGNORE
+Yersinia enterocol.(O:3)-Ab(IgA);P	1	IGNORE
+pH;P(nsB; aB)	1	IGNORE
+2008-044 2,7 ml CITRAT x 2	1	IGNORE
+2014-013 Rifaximin-Lever V 3 medier	1	IGNORE
+2002-033 M RISK-OGGT-FU 10 year	1	IGNORE
+West Nile-virus(RNA);P	1	IGNORE
+2013-014 indstøbt biopsi	1	IGNORE
+West Nile-virus-Ab(IgG);P	1	IGNORE
+Osmotisk tryk-reak.(0h;187);Erc(B)	1	IGNORE
+alfa-Hydroxyalprazolam,konfirm;U	1	IGNORE
+Osmotisk tryk-reak.(0h;171);Erc(B)	1	IGNORE
+Tick-borne encephalitisvirus-ab	1	IGNORE
+Yersinia enterocol.(O:3)-Ab(IgG);P	1	IGNORE
+Tværstribet muskel-Ab(IgG);P	1	IGNORE
+Trombolyse-KFTT; P	1	IGNORE
+Kromosomundersøgelse (postnatal)	1	IGNORE
+Kromosomundersøgelse	1	IGNORE
+2013-065 6 mL RØD x 4	1	IGNORE
+2014-013 indstøbt biopsi	1	IGNORE
+2014-013 fæcesrør  x 2	1	IGNORE
+Kviksølv;B	1	IGNORE
+2014-007 B Aortastenose Visit 1	1	IGNORE
+Kuldeaggl.+Mycopl. pn.-Ab	1	IGNORE
+2019-033 D PapSEEK	1	IGNORE
+2019-015 U Hæmatomvæs 3,6 mL Nu x 2	1	IGNORE
+2019-076 B 3 mL LiHe m/gel 2 af 2	1	IGNORE
+2019-076 B 3 mL LiHe m/gel 1 af 2	1	IGNORE
+Kortisol (90 min);P	1	IGNORE
+Kortisol (45 min);P	1	IGNORE
+NMDA Ab(IgG);Csv	1	IGNORE
+2019-015 U Hæmatomvæske Medier V2	1	IGNORE
+2019-015 U Hæmatomvæs 2,0 mL EDTA	1	IGNORE
+West Nile-virus-Ab(IgM);P	1	IGNORE
+Leukocytter;Sæd	1	IGNORE
+2016-094 4 mL EDTA x 2	1	IGNORE
+2016-094 4 mL RØD x 2	1	IGNORE
+2014-013 1,8 mL NUNC rør	1	IGNORE
+Liheparin 4 ml x 2, BIO-CAC	1	IGNORE
+2014-013 1,8 mL NUNC rør x 1	1	IGNORE
+2014-013 4,5 mL NUNC rør x 2	1	IGNORE
+2015-015 3,0 mL LiHe X 3	1	IGNORE
+2015-044-007 C DRB Sjøgrens syndrom	1	IGNORE
+Mitragynine,konfirm;U	1	IGNORE
+2015-026 4 mL EDTA x 1	1	IGNORE
+2015-026 6mL MBLÅ x 1	1	IGNORE
+2015-026 O Metalion OUH vs. ALS	1	IGNORE
+2015-044-007 C 10 mL EDTA x 1	1	IGNORE
+2015-044-007 C 6 mL Rød x 3	1	IGNORE
+2016-094 3 mL Lihe x 2	1	IGNORE
+2016-082 N DD2	1	IGNORE
+2016-081 C Biobank MYOSCL_BIO1 EKG	1	IGNORE
+Treponema pallidum fla.-Ab(IgM);Csv	1	IGNORE
+2017-019 M DiabOsteo Urin	1	IGNORE
+2017-019 M DiabOsteo Blod	1	IGNORE
+2017-019 M 6 mL RØD x 2	1	IGNORE
+2017-019 M 3 mL EDTA x 3	1	IGNORE
+2017-001 KIA Marianne	1	IGNORE
+2019-086 Å DPYD-gen grp (DPD); DNA	1	IGNORE
+2019-076 B Biobank UPRO	1	IGNORE
+2019-076 B 4 mL RØD 2 af 2	1	IGNORE
+Zolpidem,konfirm;U	1	IGNORE
+Zolpidem carboxylsyre,konfirm;U	1	IGNORE
+Yersinia enterocolitica(O:9)-Ab:P	1	IGNORE
+Toxoplasma gondii(DNA);Csv	1	IGNORE
+Tramadol, konfirm;U	1	IGNORE
+2015-015 S Colitis Del 2 IBD-aktiv	1	IGNORE
+2015-015 4,0 mL EDTA x 3	1	IGNORE
+Yersinia enterocol.(O:3)-Ab(IgM);P	1	IGNORE
+2013-014 4,5 NUNC rør spyt	1	IGNORE
+2010-030-003 Bio Screen	1	IGNORE
+2010-030-004 3 mL GULgel x 4	1	IGNORE
+Methylphenidat;U	1	IGNORE
+Methæmoglobin(Fe);Hb(Fe;kB)	1	IGNORE
+Morbillivirus-Ab(IgG)(0 1);P	1	IGNORE
+Mycobacterium tuber. kompleks;Csv	1	IGNORE
+Hemoglobin::Hæmoglobin(Fe);B(cvB)	1	Hemoglobin
+2013-065 4 mL EDTA x 3	1	IGNORE
+Potassium::Kalium-ion;P(cvB)	1	K+
+Platelets::Thrombocytter;B	1	Platelets
+Treponema pallidum flagellum-Ab;P	1	IGNORE
+Meripro (u977)-IgE;P	1	IGNORE
+2017-001 KIA 4,0 mL EDTA x 3	1	IGNORE
+2010-030-004 4 mL EDTA x 3	1	IGNORE
+2010-030-003 3,5 mL GUL x 4	1	IGNORE
+2010-030-003 10 mL EDTA x 5	1	IGNORE
+17-Hydroxykortikosteroid;Pt(U)	1	IGNORE
+Morphin(høj cutoff),konfirm;U	1	IGNORE
+2013-014 4,5 NUNC rør urin x 2	1	IGNORE
+Glucose::Glucose;P(cvB)	1	Glucose
+Sodium::Natrium-ion;P(cvB)	1	Na
+Metabolisk screening;U	1	IGNORE
+Metadon, konfirm;U	1	IGNORE
+2013-014 S Leversygdom div. Inklusion	1	IGNORE
+2014-091 Å Parkinson	1	IGNORE
+2015-053 B PREDICT V1, 06.30-14.45	1	IGNORE
+2016-081 C Biobank MYOSCL_BIO1	1	IGNORE
+2016-081 4 mL RØD x 3	1	IGNORE
+Undulat(serum,fjer,fæc.)(e90)-IgE;P	1	IGNORE
+Udstrygningspræp., 2 stk farvede;B	1	IGNORE
+UROD-gen;DNA	1	IGNORE
+2019-033 D Streck rør 1 af 3	1	IGNORE
+2019-033 D Streck rør 2 af 3	1	IGNORE
+Adenovirus-Ab;P	1	IGNORE
+Projekt Sophia EKG-EoI	1	IGNORE
+Proins.C-peptid(glukagon i.v)gruppe	1	IGNORE
+Pr2021 KOL-OXI	1	IGNORE
+Pr2016 BoneBio baseline	1	IGNORE
+Projekt LIFE-LUNG	1	IGNORE
+Projekt MAHALE	1	IGNORE
+PNMA2-Ab(IgG);P	1	IGNORE
+Respiratorisk syncytialvirus-Ab;P	1	IGNORE
+StratifyJCV;P	1	IGNORE
+Reaktiv artritis pakke gruppe;P	1	IGNORE
+Raps (w203)-IgE;P	1	IGNORE
+Pyruvatkinase / Hb;B	1	IGNORE
+Rickettsia-antistof	1	IGNORE
+Ris (f9)-IgE;P	1	IGNORE
+ProjektNGAL	1	IGNORE
+Proinsulin C-peptid (6 min);P	1	IGNORE
+Rødt tørglas 10 ml x 3	1	IGNORE
+Teknisk analyse LA - LA-check mix;P	1	IGNORE
+Treponema pallidum flagel-IgG;Csv	1	IGNORE
+Peber (f280)-IgE;P	1	IGNORE
+Tick-borne encephalitisv.-Ab(IgM);P	1	IGNORE
+Tick-borne encephalitisvir(RNA);Csv	1	IGNORE
+Tobramycin;P	1	IGNORE
+Phl p 12, profilin (g212)-IgE;P	1	IGNORE
+Transglutaminase-IgG;P	1	IGNORE
+Treponema pallidum flagel-IgM;Csv	1	IGNORE
+Projekt Pacific	1	IGNORE
+Penicillium glabrum (m209)-IgE;P	1	IGNORE
+Trimellitsyreanhydrid (k86)-IgE;P	1	IGNORE
+Pr. 2015 DANRISK Esbjerg	1	IGNORE
+Parathyrin relateret protein;P	1	IGNORE
+SHS21-006 EDTA10 ml MASTER	1	IGNORE
+P-2019-018 N 10 mL EDTA 1 af 1	1	IGNORE
+Risperidon+9OH-Risperidon;P	1	IGNORE
+MTHFR-gen (ALA222VAL);DNA	1	IGNORE
+Projekt NOAK	1	IGNORE
+Karnitin;P	1	IGNORE
+Influenza B virus-Ab;P	1	IGNORE
+KFNT ekstra eti til mikroprøver	1	IGNORE
+Kakao (f93)-IgE;P	1	IGNORE
+Kalium;Dialysev	1	IGNORE
+Kammusling (f338)-IgE;P	1	IGNORE
+CASR-gen (kendt mut);DNA	1	IGNORE
+CDK4-gen;DNA	1	IGNORE
+SERPING1-gen;DNA	1	IGNORE
+CDR2-Ab(IgG);P	1	IGNORE
+Amylasetype gruppe;P	1	IGNORE
+Amphiphysin-Ab(IgG);P	1	IGNORE
+Bartonella-Ab;P	1	IGNORE
+Alpha-enolase-IgG;P	1	IGNORE
+Afd. Y OUH: Tid til Belastningsus.	1	IGNORE
+Influenza A virus-Ab;P	1	IGNORE
+Immunglobulin A (kappa);P	1	IGNORE
+INR::Koagulationsfaktor II+VII+X;P(kB)	1	IGNORE
+Hypermutation CLL;B	1	IGNORE
+Hvidløg (f47)-IgE;P	1	IGNORE
+GABA-B receptor 1-Ab(IgG);P	1	IGNORE
+Fytansyre (fedtsyre langk.);B	1	IGNORE
+2020-046 B ARBAS 1+12+24mdr Hverdag	1	IGNORE
+CASR-gen(screening)(kontrol;DNA	1	IGNORE
+Bet v 2, Profilin (t216)-IgE;P	1	IGNORE
+Bigift (i1)-IgG;P	1	IGNORE
+Blod - citrat;B	1	IGNORE
+Brun tør 9 ml x 1, OVH2N	1	IGNORE
+Byg (g201)-IgE;P	1	IGNORE
+Overflademarkør (panel 1);Trc(B)	1	IGNORE
+Maleinsyreanhydrid (k210)-IgE;P	1	IGNORE
+Overflademarkør akt.(panel2);Trc(B)	1	IGNORE
+Pr. 2015 TREMEND	1	IGNORE
+Pr.2018 PROMETHEUS UDEN BIOPS	1	IGNORE
+Streptococcus pneumoniae(ag);P	1	IGNORE
+Mycobakterium atyp(std+DNA);Sekr	1	IGNORE
+2018-030 B 4,0 mL EDTA x 2	1	IGNORE
+Neuroncellekerne Hu-Ab(IgG);P	1	IGNORE
+Minkepitel (e203)-IgE;P	1	IGNORE
+Zink;U	1	IGNORE
+Neuropati M-komponent;P	1	IGNORE
+Vandmelon (f329)-IgE;P	1	IGNORE
+Tek Erythropoietin;P	1	IGNORE
+Skyllev(Mund)-Pneumocystis jiroveciiDNA,arb.k.	1	IGNORE
+PHPT-pakke;DNA	1	IGNORE
+eGFR / 1,73m^2(CKD-EPI, CysC)	1	IGNORE
+Proj-006 10 ml STRECK 2 af 2	1	IGNORE
+Projekt E POCH MK 8931-017	1	IGNORE
+Skimmelost (f82)-IgE;P	1	IGNORE
+Projekt BRCA	1	IGNORE
+Plasmodium(DNA) [malaria];Erc(B)	1	IGNORE
+Teknisk Analyse GLK0 bestemmelse A	1	IGNORE
+Osmotisk tryk-reak.(0h;137);Erc(B)	1	IGNORE
+Thyroxin frit[T4];P(nsB)	1	IGNORE
+Thrombocyt (HPA)-Ab;P	1	IGNORE
+2019-007 Q MiRNA LTBI	1	IGNORE
+2019-007 Q 10 mL EDTA 3 af 3	1	IGNORE
+2019-007 Q 10 mL EDTA 2 af 3	1	IGNORE
+2019-007 Q 10 mL EDTA 1 af 3	1	IGNORE
+Osmotisk tryk-reak.(0h;153);Erc(B)	1	IGNORE
+2018-055 B Dan-Heart Screen	1	IGNORE
+2017-062 B Flavour V1M,blod	1	IGNORE
+2017-042 S LiverScreen	1	IGNORE
+2020-052 M 10 mL Urin 1 af 1	1	IGNORE
+Temazepam,konfirm;U	1	IGNORE
+Teknisk analyse til LA - LA-check;P	1	IGNORE
+Teknisk analyse LA - PTTLA Screen	1	IGNORE
+Skimmelsvamp (m3;36;207;228)-IgE;P	1	IGNORE
+Projekt 5-FU-DNA	1	IGNORE
+SHS21-006 RØD 6 ml MASTER	1	IGNORE
+analyses::analyses_unfiltered	1	IGNORE
+Motorisk neuropati(GM1-asialo)-Ab;P	1	IGNORE
+Motorisk neuropati(GM1)-Ab;P	1	IGNORE
+Neurofascin-155-Ab;P	1	IGNORE
+Natrium;Dialysev	1	IGNORE
+Motorisk neuropati(GD1b)-Ab;P	1	IGNORE
+Motorisk neuropati(GD1a)-Ab;P	1	IGNORE
+Sertindol;P	1	IGNORE
+Proj-006 KFE 18.14 SUPE-R	1	IGNORE
+Proj-003 Y 4 mL EDTA 1 af 1	1	IGNORE
+Proj-003 Y 10 mL EDTA 1 af 1	1	IGNORE
+Stratify JCV;Csv	1	IGNORE
+Projekt PID ved CRS	1	IGNORE
+SHS21-006 MASTER	1	IGNORE
+Projekt OP-363 Spondylarthropati	1	IGNORE
+Motorisk neuropati(GQ1b)-Ab;P	1	IGNORE
+Neurofascin-186-Ab;P	1	IGNORE
+Y-deletioner	1	IGNORE
+Methotrexat/Hæmoglobin;Erc(B)	1	IGNORE
+Melon (f87)-IgE;P	1	IGNORE
+Methyltetrahyd. Anhyd. (k211)-IgE;P	1	IGNORE
+pH;Dialysev	1	IGNORE
+Mycobacterium(std);Sekr	1	IGNORE
+NOVA1-Ab(IgG);P	1	IGNORE
+Mycoplasma pneumoniae-antistof(liste);P	1	IGNORE
+NGC sjældne sygdomme børn og unge	1	IGNORE
+P-Teknisk beta-2-Microglobulin	1	IGNORE
+Mumps rubulavirus-Ab;P	1	IGNORE
+Zink;Pt(U)	1	IGNORE
+Neuron-specifik enolase[NSE];Csv	1	IGNORE
+Projekt Keynote 355 tumormarkør	1	IGNORE
+Proj-006 10 ml STRECK 1 af 2	1	IGNORE
+Ølgær (f45)-IgE;P	1	IGNORE

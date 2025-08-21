@@ -1,0 +1,226 @@
+signal	source	code	description	type
+BloodLoss	outputevents	43176	Blood Out Lab	numeric
+CalciumDialysisOut	outputevents	46712	CALCIUM-DIALYSIS	numeric
+CardiacOutput	outputevents	40909	cardiac output	numeric
+CerebralDrain	outputevents	226607	Cerebral Ventricular #2	numeric
+CerebralDrain	outputevents	226606	Cerebral Ventricular #1	numeric
+CerebralDrain	outputevents	226608	Cerebral Subdural #1	numeric
+CerebralDrain	outputevents	40058	Cerebral Drain R Ventricular Drain	numeric
+CerebralDrain	outputevents	40537	Cerebral Drain Subdural	numeric
+CerebralDrain	outputevents	41866	Cerebral Drain Other	numeric
+CerebralDrain	outputevents	40097	Cerebral Drain L Ventricular Drain	numeric
+CerebralDrain	outputevents	44719	cerebral drain right	numeric
+ChestTube	outputevents	40049	Chest Tubes Right Pleural 1	numeric
+ChestTube	outputevents	226591	L Pleural #2	numeric
+ChestTube	outputevents	40403	thoracentesis	numeric
+ChestTube	outputevents	226592	Mediastinal	numeric
+ChestTube	outputevents	226590	L Pleural #1	numeric
+ChestTube	outputevents	226593	R Pleural #1	numeric
+ChestTube	outputevents	40084	Chest Tubes Other	numeric
+ChestTube	outputevents	40050	Chest Tubes Right Pleural 2	numeric
+ChestTube	outputevents	40090	Chest Tubes Left Pleural 2	numeric
+ChestTube	outputevents	40048	Chest Tubes Left Pleural 1	numeric
+ChestTube	outputevents	41707	Chest Tubes CTICU CT 2	numeric
+ChestTube	outputevents	40076	Chest Tubes CTICU CT 1	numeric
+ChestTube	outputevents	226589	Chest Tube #2	numeric
+ChestTube	outputevents	226588	Chest Tube #1	numeric
+ChestTube	outputevents	43177	Chest Tubes Chest Tube	numeric
+ChestTube	outputevents	226595	R Pleural #2	numeric
+ChestTube	outputevents	40091	Chest Tubes Mediastinal	numeric
+DialysisOut	outputevents	41842	Dialysis Output.	numeric
+DialysisOut	outputevents	40425	dialysis output	numeric
+DialysisOut	outputevents	42536	Dialysis output	numeric
+DialysisOut	outputevents	42388	DIALYSIS OUTPUT	numeric
+DialysisOut	outputevents	46741	dialysis removed	numeric
+DialysisOut	outputevents	44901	Dialysis Removed	numeric
+DialysisOut	outputevents	43052	DIALYSIS REMOVED	numeric
+DialysisOut	outputevents	46713	KCL-10 MEQ-DIALYSIS	numeric
+DialysisOut	outputevents	41713	dialyslate out	numeric
+DialysisOut	outputevents	41112	Dialysys out	numeric
+DialysisOut	outputevents	40789	PD dialysate out	numeric
+DialysisOut	outputevents	41069	PD Dialysate Output	numeric
+DialysisOut	outputevents	44943	fluid removed dialys	numeric
+DialysisOut	outputevents	41750	dialysis  out	numeric
+DialysisOut	outputevents	43016	DIALYSIS TOTAL OUT	numeric
+DialysisOut	outputevents	40426	dialysis out	numeric
+DialysisOut	outputevents	41374	Dialysis Out	numeric
+DialysisOut	outputevents	41623	dialysate out	numeric
+DialysisOut	outputevents	40690	DIALYSIS	numeric
+DialysisOut	outputevents	40745	Dialysis	numeric
+DialysisOut	outputevents	40624	dialysis	numeric
+DialysisOut	outputevents	44027	dialysis fluid off	numeric
+DialysisOut	outputevents	46715	Citrate - dialysis	numeric
+DialysisOut	outputevents	46230	Dialysis 1.5% IN	numeric
+DialysisOut	outputevents	43687	crystalloid/dialysis	numeric
+DialysisOut	outputevents	44193	Dialysis.	numeric
+DialysisOut	outputevents	44845	Dialysis fluids	numeric
+DialysisOut	outputevents	44857	dialysis- fluid off	numeric
+DialysisOut	outputevents	41034	dialysis in	numeric
+DialysisOut	outputevents	45479	Dialysis In	numeric
+DialysisOut	outputevents	44286	Dialysis indwelling	numeric
+DialysisOut	outputevents	43941	dialysis/intake	numeric
+DialysisOut	outputevents	43115	dialysis net	numeric
+DialysisOut	outputevents	44085	DIALYSIS OFF	numeric
+DialysisOut	outputevents	42289	dialysis off	numeric
+DialysisOut	outputevents	40613	DIALYSIS OUT	numeric
+DialysisOut	outputevents	46232	dialysis flush	numeric
+DialysisOut	outputevents	40507	Dialysis out	numeric
+DrainOut	outputevents	226619	Pigtail #1	numeric
+DrainOut	outputevents	226620	Pigtail #2	numeric
+DrainOut	outputevents	226604	Hemovac #1	numeric
+DrainOut	outputevents	40287	Drain Out #4 Other	numeric
+DrainOut	outputevents	42279	Drain Out #5 Pigtail	numeric
+DrainOut	outputevents	40083	Drain Out #5 Other	numeric
+DrainOut	outputevents	226617	Sump #1	numeric
+DrainOut	outputevents	42788	Drain Out #4 T Tube	numeric
+DrainOut	outputevents	40290	Drain Out #4 Pigtail	numeric
+DrainOut	outputevents	42582	Drain Out #5 T Tube	numeric
+DrainOut	outputevents	41213	Drain Out #5 Jackson Pratt	numeric
+DrainOut	outputevents	226610	Lumbar	numeric
+DrainOut	outputevents	40470	paracentesis	numeric
+DrainOut	outputevents	43246	Repogle Tube NG	numeric
+DrainOut	outputevents	40073	PACU Out PACU Drains	numeric
+DrainOut	outputevents	226628	PACU Drains	numeric
+DrainOut	outputevents	44002	NSS VIA PIGTAIL TUBE	numeric
+DrainOut	outputevents	44201	lumbar drain	numeric
+DrainOut	outputevents	226597	JP Medial	numeric
+DrainOut	outputevents	226598	JP Lateral	numeric
+DrainOut	outputevents	226574	Jejunostomy	numeric
+DrainOut	outputevents	226602	Jackson Pratt #4	numeric
+DrainOut	outputevents	226601	Jackson Pratt #3	numeric
+DrainOut	outputevents	226600	Jackson Pratt #2	numeric
+DrainOut	outputevents	226612	Pericardial	numeric
+DrainOut	outputevents	40092	Drain Out #4 Jackson Pratt	numeric
+DrainOut	outputevents	40075	Drain Out #1 Pigtail	numeric
+DrainOut	outputevents	41898	Drain Out #3 T Tube	numeric
+DrainOut	outputevents	40066	Drain Out #1 Tap	numeric
+DrainOut	outputevents	40554	Drain Out #1 Sump	numeric
+DrainOut	outputevents	41868	Drain Out #1 Rt Nephrostomy	numeric
+DrainOut	outputevents	226605	Hemovac #2	numeric
+DrainOut	outputevents	40077	Drain Out #1 Pericardial	numeric
+DrainOut	outputevents	40294	Drain Out #1 Other	numeric
+DrainOut	outputevents	41867	Drain Out #1 Lumbar	numeric
+DrainOut	outputevents	226625	Tap	numeric
+DrainOut	outputevents	41184	Drain Out #1 Lt Nephrostomy	numeric
+DrainOut	outputevents	40703	Drain Out #1 JP Lateral	numeric
+DrainOut	outputevents	40614	Drain Out #1 Jejunostomy Tube	numeric
+DrainOut	outputevents	40071	Drain Out #1 Jackson Pratt	numeric
+DrainOut	outputevents	40070	Drain Out #1 Hemovac	numeric
+DrainOut	outputevents	42287	drain irrigant	numeric
+DrainOut	outputevents	227701	Drainage Bag	numeric
+DrainOut	outputevents	43178	Repogle Tube OGT	numeric
+DrainOut	outputevents	40926	Drain Out #1 JP Medial	numeric
+DrainOut	outputevents	40093	Drain Out #1 T Tube	numeric
+DrainOut	outputevents	226599	Jackson Pratt #1	numeric
+DrainOut	outputevents	40086	Drain Out #2 Pigtail	numeric
+DrainOut	outputevents	226603	T Tube	numeric
+DrainOut	outputevents	40292	Drain Out #2 T Tube	numeric
+DrainOut	outputevents	40538	Drain Out #2 Sump	numeric
+DrainOut	outputevents	226623	Penrose #1	numeric
+DrainOut	outputevents	40080	Drain Out #2 Other	numeric
+DrainOut	outputevents	40729	Drain Out #2 Lumbar	numeric
+DrainOut	outputevents	40088	Drain Out #3 Jackson Pratt	numeric
+DrainOut	outputevents	42945	Drain Out #3 JP Lateral	numeric
+DrainOut	outputevents	42871	Drain Out #2 JP Medial	numeric
+DrainOut	outputevents	40648	Drain Out #3 Other	numeric
+DrainOut	outputevents	42278	Drain Out #3 Pigtail	numeric
+DrainOut	outputevents	42367	Drain Out #3 Sump	numeric
+DrainOut	outputevents	41683	Drain Out #2 JP Lateral	numeric
+DrainOut	outputevents	40072	Drain Out #2 Jackson Pratt	numeric
+DrainOut	outputevents	41698	Drain Out #2 Hemovac	numeric
+DrainOut	outputevents	42983	Drain Out #3 Lumbar	numeric
+Emesis	outputevents	226571	Emesis	numeric
+Emesis	outputevents	40067	Gastric Emesis	numeric
+EstimatedBloodLoss	outputevents	40491	PACU Out EBL	numeric
+EstimatedBloodLoss	outputevents	226626	OR EBL	numeric
+EstimatedBloodLoss	outputevents	40064	OR Out EBL	numeric
+GastricOut	outputevents	226576	Oral Gastric	numeric
+GastricOut	outputevents	226575	Nasogastric	numeric
+GastricOut	outputevents	40074	PACU Out PACU NG	numeric
+GastricOut	outputevents	40406	Gastric Other	numeric
+GastricOut	outputevents	40331	Gastric Jejunostomy Tube	numeric
+GastricOut	outputevents	40059	Gastric Oral Gastric	numeric
+GastricOut	outputevents	40051	Gastric Gastric Tube	numeric
+GastricOut	outputevents	226573	Gastric Tube	numeric
+GastricOut	outputevents	40652	Gastric Blakemore	numeric
+GastricOut	outputevents	40052	Gastric Nasogastric	numeric
+HemoDialysisOut	outputevents	42928	HEMODIALYSIS.	numeric
+HemoDialysisOut	outputevents	41527	HEMODIALYSIS	numeric
+HemoDialysisOut	outputevents	42524	HemoDialysis	numeric
+HemoDialysisOut	outputevents	40881	Hemodialysis	numeric
+HemoDialysisOut	outputevents	44567	Hemodialysis.	numeric
+HemoDialysisOut	outputevents	43098	hemodialysis crystal	numeric
+HemoDialysisOut	outputevents	42868	hemodialysis off	numeric
+HemoDialysisOut	outputevents	42464	hemodialysis ultrafe	numeric
+HemoDialysisOut	outputevents	44199	HEMODIALYSIS O/P	numeric
+HemoDialysisOut	outputevents	41635	Hemodialysis removal	numeric
+HemoDialysisOut	outputevents	41500	hemodialysis output	numeric
+HemoDialysisOut	outputevents	41829	HEMODIALYSIS OUTPUT	numeric
+HemoDialysisOut	outputevents	45828	Hemo dialysis out	numeric
+HemoDialysisOut	outputevents	44216	Hemodialysis out	numeric
+HemoDialysisOut	outputevents	42972	HEMODIALYSIS OFF	numeric
+HemoDialysisOut	outputevents	40386	hemodialysis	numeric
+HemoDialysisOut	outputevents	41016	hemodialysis out	numeric
+HemoDialysisOut	outputevents	41417	Hemodialysis Out	numeric
+HemoDialysisOut	outputevents	46464	Hemodialysis OUT	numeric
+HemoDialysisOut	outputevents	41250	HEMODIALYSIS OUT	numeric
+PeritonealDialysisOut	outputevents	46394	Peritoneal dialysis	numeric
+PeritonealDialysisOut	outputevents	40910	PERITONEAL DIALYSIS	numeric
+PeritonealDialysisOut	outputevents	44843	peritoneal dialysis	numeric
+PreAdmissionOutput	outputevents	226633	Pre-Admission	numeric
+PreAdmissionOutput	outputevents	40060	Pre-Admission Output Pre-Admission Output	numeric
+StoolOut	outputevents	40053	Stool Out Fecal Bag	numeric
+StoolOut	outputevents	40054	Stool Out Stool	numeric
+StoolOut	outputevents	40388	Stool Out (non-specific)	numeric
+StoolOut	outputevents	40289	Stool Out Ostomy	numeric
+StoolOut	outputevents	40068	Stool Out Other	numeric
+StoolOut	outputevents	40367	Stool Out Rectal Tube	numeric
+StoolOut	outputevents	226579	Stool	numeric
+StoolOut	outputevents	43174	Stool .	numeric
+StoolOut	outputevents	40063	Stool Out Ileostomy	numeric
+StoolOut	outputevents	40087	Stool Out Colostomy	numeric
+StoolOut	outputevents	226580	Fecal Bag	numeric
+StoolOut	outputevents	226583	Rectal Tube	numeric
+StoolOut	outputevents	226582	Ostomy (output)	numeric
+TFResidualOut	outputevents	227510	TF Residual	numeric
+TFResidualOut	outputevents	227511	TF Residual Output	numeric
+UltrafiltrateOut	outputevents	40286	Ultrafiltrate Ultrafiltrate	numeric
+UrineProduction	outputevents	226584	Ileoconduit	numeric
+UrineProduction	outputevents	40057	Urine Out Rt Nephrostomy	numeric
+UrineProduction	outputevents	40428	Urine Out Straight Cath	numeric
+UrineProduction	outputevents	40715	Urine Out Suprapubic	numeric
+UrineProduction	outputevents	40096	Urine Out Ureteral Stent #1	numeric
+UrineProduction	outputevents	40069	Urine Out Void	numeric
+UrineProduction	outputevents	43171	URINE CC/KG/HR	numeric
+UrineProduction	outputevents	40405	Urine Out Other	numeric
+UrineProduction	outputevents	226565	L Nephrostomy	numeric
+UrineProduction	outputevents	43175	Urine .	numeric
+UrineProduction	outputevents	226561	Condom Cath	numeric
+UrineProduction	outputevents	40580	Cath Lab Output	numeric
+UrineProduction	outputevents	226632	Cath Lab	numeric
+UrineProduction	outputevents	43373	urine cc/kg/hr	numeric
+UrineProduction	outputevents	43409	Ostomies Colostomy	numeric
+UrineProduction	outputevents	226560	Void	numeric
+UrineProduction	outputevents	40056	Urine Out Lt Nephrostomy	numeric
+UrineProduction	outputevents	40473	Urine Out IleoConduit	numeric
+UrineProduction	outputevents	226564	R Nephrostomy	numeric
+UrineProduction	outputevents	226559	Foley	numeric
+UrineProduction	outputevents	226631	PACU Urine	numeric
+UrineProduction	outputevents	40288	PACU Out PACU Urine	numeric
+UrineProduction	outputevents	227489	GU Irrigant/Urine Volume Out	numeric
+UrineProduction	outputevents	226627	OR Urine	numeric
+UrineProduction	outputevents	40065	OR Out PACU Urine	numeric
+UrineProduction	outputevents	40061	OR Out OR Urine	numeric
+UrineProduction	outputevents	40085	Urine Out Incontinent	numeric
+UrineProduction	outputevents	43433	Ostomies Ileostomy	numeric
+UrineProduction	outputevents	226567	Straight Cath	numeric
+UrineProduction	outputevents	226563	Suprapubic	numeric
+UrineProduction	outputevents	40094	Urine Out Condom Cath	numeric
+UrineProduction	outputevents	40055	Urine Out Foley	numeric
+WoundVac	outputevents	226613	Wound Vac #1	numeric
+WoundVac	outputevents	42738	Drain Out #4 Wound Vac	numeric
+WoundVac	outputevents	42405	Drain Out #3 Wound Vac	numeric
+WoundVac	outputevents	40095	Drain Out #2 Wound Vac	numeric
+WoundVac	outputevents	42780	Drain Out #5 Wound Vac	numeric
+WoundVac	outputevents	226614	Wound Vac #2	numeric
+WoundVac	outputevents	40089	Drain Out #1 Wound Vac	numeric

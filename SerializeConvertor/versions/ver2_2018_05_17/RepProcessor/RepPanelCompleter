@@ -1,0 +1,9 @@
+panel_signal_names	vector<vector<string>>
+missing_val	float
+sim_val_handler	int
+original_sig_res	vector<vector<float>> 
+final_sig_res	vector<vector<float>> 
+sig_conversion_factors	vector<vector<float>> 
+metadata_file	string
+req_signals	unordered_set<string>
+aff_signals	unordered_set<string>

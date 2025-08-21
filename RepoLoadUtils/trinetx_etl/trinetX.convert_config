@@ -1,0 +1,11 @@
+#
+# convert config file
+#
+DESCRIPTION	TrinetX - LGI Cohort
+RELATIVE 	0
+SAFE_MODE	1
+MODE	3
+PREFIX	trinetX_rep
+CONFIG	trinetX.repository
+SIGNAL	trinetX.signals
+FORCE_SIGNAL	GENDER,BYEAR

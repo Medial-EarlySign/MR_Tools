@@ -1,0 +1,162 @@
+AnionGap :: All :: With Values ::  30221 / 14446692 =  0.00 ::  30221 /  30221 =  1.00
+AnionGap :: Males :: With Values ::  13164 / 6889335 =  0.00 ::  13164 /  30221 =  0.44
+AnionGap :: Females :: With Values ::  17057 / 7557357 =  0.00 ::  17057 /  30221 =  0.56
+AnionGap :: General :: No. of Values :: All  94108 Male  40109 Female  53999
+AnionGap :: General :: No. of different days Values :: All  93981 Male  40053 Female  53928
+AnionGap :: General :: Avg #values per person (all) :: All  0.01 Male  0.01 Female  0.01
+AnionGap :: General :: Avg #values per person (>0)  :: All  3.11 Male  3.04 Female  3.16
+AnionGap :: General :: Avg dist between tests       :: All  239.2 Male  242.3 Female  237.0
+AnionGap :: Counts :: Age Group 20 - 25 :: All ::    408 0.004
+AnionGap :: Counts :: Age Group 25 - 30 :: All ::    428 0.005
+AnionGap :: Counts :: Age Group 30 - 35 :: All ::    414 0.004
+AnionGap :: Counts :: Age Group 35 - 40 :: All ::    569 0.006
+AnionGap :: Counts :: Age Group 40 - 45 :: All ::    820 0.009
+AnionGap :: Counts :: Age Group 45 - 50 :: All ::   1150 0.012
+AnionGap :: Counts :: Age Group 50 - 55 :: All ::   1396 0.015
+AnionGap :: Counts :: Age Group 55 - 60 :: All ::   1704 0.018
+AnionGap :: Counts :: Age Group 60 - 65 :: All ::   2036 0.022
+AnionGap :: Counts :: Age Group 65 - 70 :: All ::   2251 0.024
+AnionGap :: Counts :: Age Group 70 - 75 :: All ::   2170 0.023
+AnionGap :: Counts :: Age Group 75 - 80 :: All ::   2101 0.022
+AnionGap :: Counts :: Age Group 80 - 85 :: All ::   1638 0.017
+AnionGap :: Counts :: Age Group 85 - 90 :: All ::    933 0.010
+AnionGap :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+AnionGap :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+AnionGap :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+AnionGap :: Counts :: Age Group 20 - 25 :: Males ::    128 0.003
+AnionGap :: Counts :: Age Group 25 - 30 :: Males ::    114 0.003
+AnionGap :: Counts :: Age Group 30 - 35 :: Males ::    137 0.003
+AnionGap :: Counts :: Age Group 35 - 40 :: Males ::    201 0.005
+AnionGap :: Counts :: Age Group 40 - 45 :: Males ::    311 0.008
+AnionGap :: Counts :: Age Group 45 - 50 :: Males ::    506 0.013
+AnionGap :: Counts :: Age Group 50 - 55 :: Males ::    592 0.015
+AnionGap :: Counts :: Age Group 55 - 60 :: Males ::    756 0.019
+AnionGap :: Counts :: Age Group 60 - 65 :: Males ::   1014 0.025
+AnionGap :: Counts :: Age Group 65 - 70 :: Males ::   1037 0.026
+AnionGap :: Counts :: Age Group 70 - 75 :: Males ::   1018 0.025
+AnionGap :: Counts :: Age Group 75 - 80 :: Males ::    939 0.023
+AnionGap :: Counts :: Age Group 80 - 85 :: Males ::    695 0.017
+AnionGap :: Counts :: Age Group 85 - 90 :: Males ::    346 0.009
+AnionGap :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+AnionGap :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+AnionGap :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+AnionGap :: Counts :: Age Group 20 - 25 :: Females ::    280 0.005
+AnionGap :: Counts :: Age Group 25 - 30 :: Females ::    314 0.006
+AnionGap :: Counts :: Age Group 30 - 35 :: Females ::    277 0.005
+AnionGap :: Counts :: Age Group 35 - 40 :: Females ::    368 0.007
+AnionGap :: Counts :: Age Group 40 - 45 :: Females ::    509 0.009
+AnionGap :: Counts :: Age Group 45 - 50 :: Females ::    644 0.012
+AnionGap :: Counts :: Age Group 50 - 55 :: Females ::    804 0.015
+AnionGap :: Counts :: Age Group 55 - 60 :: Females ::    948 0.018
+AnionGap :: Counts :: Age Group 60 - 65 :: Females ::   1022 0.019
+AnionGap :: Counts :: Age Group 65 - 70 :: Females ::   1214 0.022
+AnionGap :: Counts :: Age Group 70 - 75 :: Females ::   1152 0.021
+AnionGap :: Counts :: Age Group 75 - 80 :: Females ::   1162 0.022
+AnionGap :: Counts :: Age Group 80 - 85 :: Females ::    943 0.017
+AnionGap :: Counts :: Age Group 85 - 90 :: Females ::    587 0.011
+AnionGap :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+AnionGap :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+AnionGap :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+AnionGap :: Stats :: Age Group 20 - 25 :: All ::  N 1278 non-zeros 1278 Median  15.00 Mean  14.74 Std   3.51 Max  30.00
+AnionGap :: Stats :: Age Group 25 - 30 :: All ::  N 1384 non-zeros 1384 Median  15.00 Mean  14.61 Std   3.46 Max  29.00
+AnionGap :: Stats :: Age Group 30 - 35 :: All ::  N 1549 non-zeros 1549 Median  15.00 Mean  15.08 Std   4.08 Max  71.00
+AnionGap :: Stats :: Age Group 35 - 40 :: All ::  N 1868 non-zeros 1868 Median  15.00 Mean  15.01 Std   3.62 Max  41.00
+AnionGap :: Stats :: Age Group 40 - 45 :: All ::  N 2394 non-zeros 2393 Median  15.00 Mean  14.71 Std   3.53 Max  45.00
+AnionGap :: Stats :: Age Group 45 - 50 :: All ::  N 2662 non-zeros 2661 Median  15.00 Mean  14.70 Std   3.53 Max  32.00
+AnionGap :: Stats :: Age Group 50 - 55 :: All ::  N 3045 non-zeros 3044 Median  15.00 Mean  14.77 Std   3.72 Max  69.00
+AnionGap :: Stats :: Age Group 55 - 60 :: All ::  N 3216 non-zeros 3214 Median  14.00 Mean  14.68 Std   3.54 Max  40.00
+AnionGap :: Stats :: Age Group 60 - 65 :: All ::  N 3691 non-zeros 3686 Median  14.00 Mean  14.32 Std   3.43 Max  31.00
+AnionGap :: Stats :: Age Group 65 - 70 :: All ::  N 3800 non-zeros 3796 Median  14.00 Mean  14.17 Std   3.36 Max  29.00
+AnionGap :: Stats :: Age Group 70 - 75 :: All ::  N 3478 non-zeros 3474 Median  14.00 Mean  14.15 Std   3.40 Max  34.00
+AnionGap :: Stats :: Age Group 75 - 80 :: All ::  N 3237 non-zeros 3237 Median  14.00 Mean  14.19 Std   3.33 Max  34.00
+AnionGap :: Stats :: Age Group 80 - 85 :: All ::  N 2499 non-zeros 2496 Median  14.00 Mean  14.07 Std   3.28 Max  30.00
+AnionGap :: Stats :: Age Group 85 - 90 :: All ::  N 1608 non-zeros 1605 Median  14.00 Mean  13.91 Std   3.40 Max  27.00
+AnionGap :: Stats :: Age Group 90 - 95 :: All ::  N 611 non-zeros 610 Median  14.00 Mean  14.00 Std   3.35 Max  26.00
+AnionGap :: Stats :: Age Group 95 - 100 :: All ::  N 154 non-zeros 154 Median  14.00 Mean  14.06 Std   3.50 Max  27.00
+AnionGap :: General :: All     :: outliers ratio 0.000561
+AnionGap :: General :: All     :: N 28529 non-zeros 28504 Median  14.00 Mean  14.28 Std   3.47 Max  50.00
+AnionGap :: General :: All     :: distribution 0.001,0.01,0.05 ::   4.00   7.00   9.00  20.00  23.00  29.00
+AnionGap :: General :: All     :: quartiles ::   4.00  12.00  14.00  16.00 
+AnionGap :: General :: Males   :: outliers ratio 0.000401
+AnionGap :: General :: Males   :: N 12450 non-zeros 12441 Median  14.00 Mean  14.35 Std   3.54 Max  67.00
+AnionGap :: General :: Males   :: distribution 0.001,0.01,0.05 ::   4.00   7.00   9.00  20.00  23.00  29.00
+AnionGap :: General :: Males   :: quartiles ::   4.00  12.00  14.00  17.00 
+AnionGap :: General :: Females :: outliers ratio 0.000622
+AnionGap :: General :: Females :: N 16080 non-zeros 16064 Median  14.00 Mean  14.20 Std   3.40 Max  50.00
+AnionGap :: General :: Females :: distribution 0.001,0.01,0.05 ::   4.00   7.00   9.00  20.00  23.00  26.00
+AnionGap :: General :: Females :: quartiles ::   4.00  12.00  14.00  16.00 
+AnionGap :: Rounding ::  0.00 r  0.00 pct
+AnionGap :: Rounding ::  0.01 r  0.00 pct
+AnionGap :: Rounding ::  0.10 r  0.00 pct
+AnionGap :: Rounding ::  1.00 r  0.91 pct
+AnionGap :: Rounding :: 10.00 r  0.09 pct
+AnionGap :: Rounding :: 100.00 r  0.00 pct
+AnionGap :: Rounding :: 1000.00 r  0.00 pct
+AnionGap :: Rounding :: most popular rounding for vals:  1.00
+AnionGap :: Stats year :: 2000 :: All :: N 891 non-zeros 891 Median  15.00 Mean  15.39 Std   6.39 Max 104.00
+AnionGap :: Stats year :: 2001 :: All :: N 3007 non-zeros 3007 Median  17.00 Mean  17.06 Std   2.92 Max  34.00
+AnionGap :: Stats year :: 2002 :: All :: N 3239 non-zeros 3239 Median  17.00 Mean  16.62 Std   2.70 Max  34.00
+AnionGap :: Stats year :: 2003 :: All :: N 3427 non-zeros 3426 Median  16.00 Mean  16.16 Std   2.78 Max  34.00
+AnionGap :: Stats year :: 2004 :: All :: N 3837 non-zeros 3834 Median  17.00 Mean  17.06 Std   3.48 Max  40.00
+AnionGap :: Stats year :: 2005 :: All :: N 4362 non-zeros 4359 Median  16.00 Mean  16.04 Std   2.92 Max  40.00
+AnionGap :: Stats year :: 2006 :: All :: N 3934 non-zeros 3927 Median  17.00 Mean  16.66 Std   2.83 Max  37.00
+AnionGap :: Stats year :: 2007 :: All :: N 4693 non-zeros 4691 Median  15.00 Mean  15.33 Std   3.90 Max  45.00
+AnionGap :: Stats year :: 2008 :: All :: N 6665 non-zeros 6663 Median  14.00 Mean  14.03 Std   3.72 Max  27.00
+AnionGap :: Stats year :: 2009 :: All :: N 5310 non-zeros 5308 Median  13.00 Mean  13.34 Std   2.57 Max  28.00
+AnionGap :: Stats year :: 2010 :: All :: N 4544 non-zeros 4543 Median  13.00 Mean  13.36 Std   2.44 Max  31.00
+AnionGap :: Stats year :: 2011 :: All :: N 3410 non-zeros 3409 Median  13.00 Mean  13.53 Std   2.74 Max  30.00
+AnionGap :: Stats year :: 2012 :: All :: N 2207 non-zeros 2207 Median  14.00 Mean  14.03 Std   2.91 Max  45.00
+AnionGap :: Stats year :: 2013 :: All :: N 2266 non-zeros 2266 Median  12.00 Mean  12.69 Std   2.99 Max  50.00
+AnionGap :: Stats year :: 2014 :: All :: N 2562 non-zeros 2559 Median  12.00 Mean  12.16 Std   2.88 Max  33.00
+AnionGap :: Stats year :: 2015 :: All :: N 2622 non-zeros 2622 Median  12.00 Mean  12.25 Std   2.42 Max  24.00
+AnionGap :: Stats year :: 2016 :: All :: N 177 non-zeros 177 Median  12.00 Mean  12.35 Std   2.25 Max  19.00
+AnionGap :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+AnionGap :: Stats year :: 2000 :: Males   :: N 373 non-zeros 373 Median  14.00 Mean  15.11 Std   6.87 Max 104.00
+AnionGap :: Stats year :: 2001 :: Males   :: N 1240 non-zeros 1240 Median  17.00 Mean  17.23 Std   3.04 Max  34.00
+AnionGap :: Stats year :: 2002 :: Males   :: N 1304 non-zeros 1304 Median  17.00 Mean  16.77 Std   2.82 Max  34.00
+AnionGap :: Stats year :: 2003 :: Males   :: N 1374 non-zeros 1374 Median  16.00 Mean  16.33 Std   2.80 Max  34.00
+AnionGap :: Stats year :: 2004 :: Males   :: N 1568 non-zeros 1567 Median  17.00 Mean  17.09 Std   3.39 Max  34.00
+AnionGap :: Stats year :: 2005 :: Males   :: N 1781 non-zeros 1780 Median  16.00 Mean  16.11 Std   2.94 Max  30.00
+AnionGap :: Stats year :: 2006 :: Males   :: N 1630 non-zeros 1627 Median  17.00 Mean  16.94 Std   2.92 Max  37.00
+AnionGap :: Stats year :: 2007 :: Males   :: N 2141 non-zeros 2140 Median  15.00 Mean  15.28 Std   3.93 Max  45.00
+AnionGap :: Stats year :: 2008 :: Males   :: N 2998 non-zeros 2997 Median  14.00 Mean  14.01 Std   3.67 Max  29.00
+AnionGap :: Stats year :: 2009 :: Males   :: N 2389 non-zeros 2388 Median  13.00 Mean  13.39 Std   2.62 Max  27.00
+AnionGap :: Stats year :: 2010 :: Males   :: N 2078 non-zeros 2078 Median  13.00 Mean  13.44 Std   2.46 Max  30.00
+AnionGap :: Stats year :: 2011 :: Males   :: N 1567 non-zeros 1567 Median  13.00 Mean  13.66 Std   2.84 Max  38.00
+AnionGap :: Stats year :: 2012 :: Males   :: N 1092 non-zeros 1092 Median  14.00 Mean  14.18 Std   2.84 Max  33.00
+AnionGap :: Stats year :: 2013 :: Males   :: N 1061 non-zeros 1061 Median  12.00 Mean  12.78 Std   2.96 Max  29.00
+AnionGap :: Stats year :: 2014 :: Males   :: N 1109 non-zeros 1108 Median  12.00 Mean  12.26 Std   2.91 Max  33.00
+AnionGap :: Stats year :: 2015 :: Males   :: N 1040 non-zeros 1040 Median  12.00 Mean  12.35 Std   2.52 Max  24.00
+AnionGap :: Stats year :: 2016 :: Males   :: N 64 non-zeros 64 Median  12.00 Mean  12.55 Std   2.34 Max  19.00
+AnionGap :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+AnionGap :: Stats year :: 2000 :: Females :: N 518 non-zeros 518 Median  15.00 Mean  15.65 Std   6.04 Max  76.00
+AnionGap :: Stats year :: 2001 :: Females :: N 1767 non-zeros 1767 Median  17.00 Mean  16.93 Std   2.81 Max  27.00
+AnionGap :: Stats year :: 2002 :: Females :: N 1935 non-zeros 1935 Median  17.00 Mean  16.54 Std   2.66 Max  29.00
+AnionGap :: Stats year :: 2003 :: Females :: N 2053 non-zeros 2052 Median  16.00 Mean  16.02 Std   2.75 Max  29.00
+AnionGap :: Stats year :: 2004 :: Females :: N 2269 non-zeros 2267 Median  17.00 Mean  17.03 Std   3.50 Max  40.00
+AnionGap :: Stats year :: 2005 :: Females :: N 2581 non-zeros 2579 Median  16.00 Mean  15.96 Std   2.87 Max  40.00
+AnionGap :: Stats year :: 2006 :: Females :: N 2304 non-zeros 2300 Median  16.00 Mean  16.46 Std   2.71 Max  29.00
+AnionGap :: Stats year :: 2007 :: Females :: N 2552 non-zeros 2551 Median  15.00 Mean  15.32 Std   3.79 Max  28.00
+AnionGap :: Stats year :: 2008 :: Females :: N 3667 non-zeros 3666 Median  14.00 Mean  14.00 Std   3.75 Max  28.00
+AnionGap :: Stats year :: 2009 :: Females :: N 2921 non-zeros 2920 Median  13.00 Mean  13.27 Std   2.52 Max  31.00
+AnionGap :: Stats year :: 2010 :: Females :: N 2466 non-zeros 2465 Median  13.00 Mean  13.24 Std   2.39 Max  25.00
+AnionGap :: Stats year :: 2011 :: Females :: N 1843 non-zeros 1842 Median  13.00 Mean  13.52 Std   2.65 Max  26.00
+AnionGap :: Stats year :: 2012 :: Females :: N 1115 non-zeros 1115 Median  14.00 Mean  13.91 Std   2.97 Max  41.00
+AnionGap :: Stats year :: 2013 :: Females :: N 1205 non-zeros 1205 Median  12.00 Mean  12.63 Std   2.94 Max  50.00
+AnionGap :: Stats year :: 2014 :: Females :: N 1453 non-zeros 1451 Median  12.00 Mean  12.10 Std   2.84 Max  33.00
+AnionGap :: Stats year :: 2015 :: Females :: N 1582 non-zeros 1582 Median  12.00 Mean  12.19 Std   2.40 Max  25.00
+AnionGap :: Stats year :: 2016 :: Females :: N 113 non-zeros 113 Median  12.00 Mean  12.23 Std   2.18 Max  19.00
+AnionGap :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+AnionGap :: Stats month 1 :: All :: N 4743 non-zeros 4743 Median  14.00 Mean  14.39 Std   3.43 Max  31.00
+AnionGap :: Stats month 2 :: All :: N 4049 non-zeros 4047 Median  14.00 Mean  14.55 Std   3.31 Max  33.00
+AnionGap :: Stats month 3 :: All :: N 4465 non-zeros 4465 Median  15.00 Mean  14.81 Std   3.39 Max  43.00
+AnionGap :: Stats month 4 :: All :: N 4272 non-zeros 4270 Median  14.00 Mean  14.67 Std   3.29 Max  33.00
+AnionGap :: Stats month 5 :: All :: N 4047 non-zeros 4044 Median  15.00 Mean  14.85 Std   3.64 Max  50.00
+AnionGap :: Stats month 6 :: All :: N 4327 non-zeros 4323 Median  15.00 Mean  14.93 Std   3.66 Max  40.00
+AnionGap :: Stats month 7 :: All :: N 4230 non-zeros 4227 Median  14.00 Mean  14.94 Std   3.78 Max  71.00
+AnionGap :: Stats month 8 :: All :: N 3963 non-zeros 3963 Median  15.00 Mean  14.83 Std   3.53 Max  45.00
+AnionGap :: Stats month 9 :: All :: N 4192 non-zeros 4189 Median  14.00 Mean  14.75 Std   3.51 Max  37.00
+AnionGap :: Stats month 10 :: All :: N 4414 non-zeros 4411 Median  14.00 Mean  14.42 Std   3.37 Max  41.00
+AnionGap :: Stats month 11 :: All :: N 4331 non-zeros 4326 Median  14.00 Mean  14.07 Std   3.26 Max  36.00
+AnionGap :: Stats month 12 :: All :: N 3699 non-zeros 3699 Median  14.00 Mean  13.91 Std   3.24 Max  37.00
+

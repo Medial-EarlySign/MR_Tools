@@ -1,0 +1,10 @@
+processor_type	int
+serial_id	int
+raw_target_feature_name	string
+feature_name	string
+calc_type	string
+missing_value	float
+raw_source_feature_names	vector<string>
+source_feature_names	vector<string>
+weights	vector<float>
+parameters	vector<string>

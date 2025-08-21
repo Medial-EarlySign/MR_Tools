@@ -1,0 +1,53 @@
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py get_combs > combs
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py cluster > clusters
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py find_multiple > multipleGeneric
+-- Manual process of multipleGeneric - generate multipleGeneric.afterManualRemoval
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py unite > clusters2 2> unionInfo
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py atc > atcStatus 2> atcExtra
+-- Iteratively enrich full_atc, (NOT : and then extended_atc for non-atc entries)
+#time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py extended_atc > atcStatus 2> atcExtra
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py atc > atcStatus 2> atcExtra
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py comb2atc > comb2atc
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py show_generic > generic_counts
+-- Manualy edit generic_counts to add  transformations
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py transform > comb2atc.ver2
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py show_generic comb2atc.ver2 > generic_counts2
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py transform comb2atc.ver2 generic_counts2 > comb2atc.ver3
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py show_generic comb2atc.ver3 > generic_counts3
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py transform comb2atc.ver3 sorted_generic_counts3 > comb2atc.ver4
+
+awk -F"\t" '{print $8"\t"$7}' comb2atc.ver4 | awk -F"\t" '$1!=""' | sort -u > atc.generic
+-- Manually correct multi ATC per generic
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py transform comb2atc.ver4 insulin_transformer > comb2atc.ver5
+-- Manual editing of comb2atc.ver5
+cat comb2atc.ver5| perl -ne 'chomp; @x=split /\t/,$_; if ($x[6]=~/INSULIN/ and $x[6]!~/PUMP/) {$x[6]="INSULIN"}; $x=join "\t",@x; print "$x\n"' > comb2atc.ver6
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py transform comb2atc.ver6 drug_synonims > comb2atc.ver7
+-- Manual editing of comb2atc.ver7
+
+cp comb2atc.ver7/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/PrescrptionInstructions
+
+###########################################################################################
+
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py get_base_combs > base_combs
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py base_cluster > base_clusters
+-- Manually create base_cluster_names which includes transformation from "DRUG_NAME" (first field) to code. Identity transformation are not required
+time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py comb2code > base_comb2name
+cp base_comb2name /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/PrescrptionInstructions.base
+
+###########################################################################################
+
+
+#time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py get_add_combs > add_combs
+#time /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_prescriptions.py add_comb2atc > add_comb2atc 
+-- More iterative editing of extended_atc
+
+# After Generating Drugs
+cat ../Data/Drugs| perl -ne 'chomp; @x=split /\t/,$_; $info = uc($x[4]); $u=$x[7]; $info =~/\S+:(.+)\|(.+)/ or die $info; $n = $1; $r=$2; print "$n\t$r\t$u\n"'  | sort -S80% | uniq -c | perl -ne 's/^\s+//; print $_ ' | sed 's/ /\t/' | awk -F"\t" '{print $2"\t"$3"\t"$4"\t"$1}' > units.counter
+
+cat units.counter | perl -ne 'chomp; ($new,$route,$unit,$c)=split /\t/,$_; $u{"$new\t$route"}->{$unit} = $c; END {foreach $r (keys %u) {$o = join "\t", map {($_,$u{$r}->{$_})} sort {$u{$r}->{$b} <=> $u{$r}->{$a}} keys %{$u{$r}}; print "$r\t$o\n"}}'  | awk -F"\t" 'NF>4 && $6>15 {print $6,$0}' | sort -nr > multiUnits
+-- Manualy generate Drugs.Units file
+
+cp Drugs.Units	/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/Drugs.Units
+cat units.counter | perl -ne 'chomp; ($new,$route,$unit,$c)=split /\t/,$_; $u{"$new\t$route"}->{$unit} = $c; END {foreach $r (keys %u) {$o = join "\t", map {($_,$u{$r}->{$_})} sort {$u{$r}->{$b} <=> $u{$r}->{$a}} keys %{$u{$r}}; print "$r\t$o\n"}}'  | awk -F"\t" '{print $1"\t"$2"\t"$3"\t1.0"}' >> /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/Drugs.Units
+
+

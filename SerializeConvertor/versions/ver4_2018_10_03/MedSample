@@ -1,0 +1,8 @@
+id	int
+split	int
+time	int
+outcome	float
+outcomeTime	int
+prediction	vector<float>
+attributes	map<string,float>
+str_attributes	map<string,string>

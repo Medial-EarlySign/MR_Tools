@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Mapping Tool</title>
+  </head>
+    <body>
+        {% block content %}
+        <h1>Select source</h1>
+        <div>
+            <form action="/" method="post" name="sourceform">
+                <h2>Signal Units {{ sourceform.source }}</h2>
+                <p><input type="submit" name="source" value="Send"></p>
+        </form>
+        </div>
+      {% endblock %}
+    </body>
+</html>

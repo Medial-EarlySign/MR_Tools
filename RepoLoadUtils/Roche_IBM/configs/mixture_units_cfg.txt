@@ -1,0 +1,1 @@
+signal	factors	FinalFactor	SupposeMean	Resolution	trim_max	error_threshold	variable_std

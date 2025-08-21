@@ -1,0 +1,162 @@
+Digoxin :: All :: With Values ::  39492 / 14446692 =  0.00 ::  39492 /  39492 =  1.00
+Digoxin :: Males :: With Values ::  16564 / 6889335 =  0.00 ::  16564 /  39492 =  0.42
+Digoxin :: Females :: With Values ::  22928 / 7557357 =  0.00 ::  22928 /  39492 =  0.58
+Digoxin :: General :: No. of Values :: All  85273 Male  35545 Female  49728
+Digoxin :: General :: No. of different days Values :: All  84394 Male  35174 Female  49220
+Digoxin :: General :: Avg #values per person (all) :: All  0.01 Male  0.01 Female  0.01
+Digoxin :: General :: Avg #values per person (>0)  :: All  2.14 Male  2.12 Female  2.15
+Digoxin :: General :: Avg dist between tests       :: All  380.4 Male  378.9 Female  381.6
+Digoxin :: Counts :: Age Group 20 - 25 :: All ::      8 0.000
+Digoxin :: Counts :: Age Group 25 - 30 :: All ::      8 0.000
+Digoxin :: Counts :: Age Group 30 - 35 :: All ::     11 0.000
+Digoxin :: Counts :: Age Group 35 - 40 :: All ::     13 0.000
+Digoxin :: Counts :: Age Group 40 - 45 :: All ::     57 0.001
+Digoxin :: Counts :: Age Group 45 - 50 :: All ::     84 0.001
+Digoxin :: Counts :: Age Group 50 - 55 :: All ::    178 0.002
+Digoxin :: Counts :: Age Group 55 - 60 :: All ::    309 0.004
+Digoxin :: Counts :: Age Group 60 - 65 :: All ::    686 0.008
+Digoxin :: Counts :: Age Group 65 - 70 :: All ::   1190 0.014
+Digoxin :: Counts :: Age Group 70 - 75 :: All ::   2038 0.024
+Digoxin :: Counts :: Age Group 75 - 80 :: All ::   2972 0.035
+Digoxin :: Counts :: Age Group 80 - 85 :: All ::   3656 0.043
+Digoxin :: Counts :: Age Group 85 - 90 :: All ::   3427 0.040
+Digoxin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Digoxin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Digoxin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Digoxin :: Counts :: Age Group 20 - 25 :: Males ::      4 0.000
+Digoxin :: Counts :: Age Group 25 - 30 :: Males ::      3 0.000
+Digoxin :: Counts :: Age Group 30 - 35 :: Males ::      6 0.000
+Digoxin :: Counts :: Age Group 35 - 40 :: Males ::      9 0.000
+Digoxin :: Counts :: Age Group 40 - 45 :: Males ::     36 0.001
+Digoxin :: Counts :: Age Group 45 - 50 :: Males ::     61 0.002
+Digoxin :: Counts :: Age Group 50 - 55 :: Males ::    119 0.003
+Digoxin :: Counts :: Age Group 55 - 60 :: Males ::    192 0.005
+Digoxin :: Counts :: Age Group 60 - 65 :: Males ::    429 0.012
+Digoxin :: Counts :: Age Group 65 - 70 :: Males ::    703 0.020
+Digoxin :: Counts :: Age Group 70 - 75 :: Males ::   1106 0.031
+Digoxin :: Counts :: Age Group 75 - 80 :: Males ::   1435 0.040
+Digoxin :: Counts :: Age Group 80 - 85 :: Males ::   1388 0.039
+Digoxin :: Counts :: Age Group 85 - 90 :: Males ::   1154 0.032
+Digoxin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Digoxin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Digoxin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Digoxin :: Counts :: Age Group 20 - 25 :: Females ::      4 0.000
+Digoxin :: Counts :: Age Group 25 - 30 :: Females ::      5 0.000
+Digoxin :: Counts :: Age Group 30 - 35 :: Females ::      5 0.000
+Digoxin :: Counts :: Age Group 35 - 40 :: Females ::      4 0.000
+Digoxin :: Counts :: Age Group 40 - 45 :: Females ::     21 0.000
+Digoxin :: Counts :: Age Group 45 - 50 :: Females ::     23 0.000
+Digoxin :: Counts :: Age Group 50 - 55 :: Females ::     59 0.001
+Digoxin :: Counts :: Age Group 55 - 60 :: Females ::    117 0.002
+Digoxin :: Counts :: Age Group 60 - 65 :: Females ::    257 0.005
+Digoxin :: Counts :: Age Group 65 - 70 :: Females ::    487 0.010
+Digoxin :: Counts :: Age Group 70 - 75 :: Females ::    932 0.019
+Digoxin :: Counts :: Age Group 75 - 80 :: Females ::   1537 0.031
+Digoxin :: Counts :: Age Group 80 - 85 :: Females ::   2268 0.046
+Digoxin :: Counts :: Age Group 85 - 90 :: Females ::   2273 0.046
+Digoxin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Digoxin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Digoxin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Digoxin :: Stats :: Age Group 20 - 25 :: All ::  N 29 non-zeros 29 Median   0.60 Mean  30.80 Std 145.61 Max 800.00
+Digoxin :: Stats :: Age Group 25 - 30 :: All ::  N 26 non-zeros 26 Median   0.80 Mean  60.53 Std 210.91 Max 1040.00
+Digoxin :: Stats :: Age Group 30 - 35 :: All ::  N 43 non-zeros 43 Median   0.60 Mean   1.26 Std   2.94 Max  20.00
+Digoxin :: Stats :: Age Group 35 - 40 :: All ::  N 73 non-zeros 72 Median   0.60 Mean  44.84 Std 207.19 Max 1400.00
+Digoxin :: Stats :: Age Group 40 - 45 :: All ::  N 134 non-zeros 134 Median   0.90 Mean  28.51 Std 140.24 Max 1200.00
+Digoxin :: Stats :: Age Group 45 - 50 :: All ::  N 251 non-zeros 251 Median   0.80 Mean   9.83 Std  84.61 Max 1000.00
+Digoxin :: Stats :: Age Group 50 - 55 :: All ::  N 564 non-zeros 563 Median   0.90 Mean   1.18 Std   1.77 Max  22.00
+Digoxin :: Stats :: Age Group 55 - 60 :: All ::  N 1076 non-zeros 1075 Median   0.90 Mean   3.78 Std  33.27 Max 500.00
+Digoxin :: Stats :: Age Group 60 - 65 :: All ::  N 2104 non-zeros 2102 Median   1.00 Mean   1.12 Std   0.70 Max   7.00
+Digoxin :: Stats :: Age Group 65 - 70 :: All ::  N 3618 non-zeros 3614 Median   1.00 Mean   1.17 Std   0.80 Max  12.50
+Digoxin :: Stats :: Age Group 70 - 75 :: All ::  N 5701 non-zeros 5697 Median   1.00 Mean   1.21 Std   0.76 Max   8.00
+Digoxin :: Stats :: Age Group 75 - 80 :: All ::  N 8085 non-zeros 8079 Median   1.10 Mean   1.25 Std   0.81 Max  12.00
+Digoxin :: Stats :: Age Group 80 - 85 :: All ::  N 9354 non-zeros 9350 Median   1.10 Mean   1.30 Std   0.83 Max  12.00
+Digoxin :: Stats :: Age Group 85 - 90 :: All ::  N 7873 non-zeros 7869 Median   1.20 Mean   1.34 Std   0.88 Max  13.00
+Digoxin :: Stats :: Age Group 90 - 95 :: All ::  N 4088 non-zeros 4085 Median   1.20 Mean   1.39 Std   0.86 Max  10.00
+Digoxin :: Stats :: Age Group 95 - 100 :: All ::  N 1027 non-zeros 1026 Median   1.30 Mean   1.44 Std   0.90 Max  11.40
+Digoxin :: General :: All     :: outliers ratio 0.003234
+Digoxin :: General :: All     :: N 36369 non-zeros 36343 Median   1.10 Mean   1.27 Std   0.87 Max  14.00
+Digoxin :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.20   0.40   2.80   4.30   8.00
+Digoxin :: General :: All     :: quartiles ::   0.10   0.70   1.10   1.60 
+Digoxin :: General :: Males   :: outliers ratio 0.003648
+Digoxin :: General :: Males   :: N 15296 non-zeros 15283 Median   1.00 Mean   1.19 Std   0.79 Max  13.00
+Digoxin :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.20   0.40   2.60   3.90   6.90
+Digoxin :: General :: Males   :: quartiles ::   0.10   0.60   1.00   1.50 
+Digoxin :: General :: Females :: outliers ratio 0.003549
+Digoxin :: General :: Females :: N 21060 non-zeros 21047 Median   1.20 Mean   1.33 Std   0.90 Max  14.00
+Digoxin :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.20   0.40   2.90   4.40   9.40
+Digoxin :: General :: Females :: quartiles ::   0.10   0.80   1.20   1.70 
+Digoxin :: Rounding ::  0.00 r  0.00 pct
+Digoxin :: Rounding ::  0.01 r  0.08 pct
+Digoxin :: Rounding ::  0.10 r  0.81 pct
+Digoxin :: Rounding ::  1.00 r  0.10 pct
+Digoxin :: Rounding :: 10.00 r  0.00 pct
+Digoxin :: Rounding :: 100.00 r  0.00 pct
+Digoxin :: Rounding :: 1000.00 r  0.00 pct
+Digoxin :: Rounding :: most popular rounding for vals:  0.10
+Digoxin :: Stats year :: 2000 :: All :: N 2496 non-zeros 2490 Median   1.10 Mean   1.26 Std   0.77 Max  12.00
+Digoxin :: Stats year :: 2001 :: All :: N 3144 non-zeros 3142 Median   1.20 Mean   1.28 Std   0.77 Max   9.00
+Digoxin :: Stats year :: 2002 :: All :: N 3755 non-zeros 3751 Median   1.10 Mean   1.26 Std   0.73 Max   7.00
+Digoxin :: Stats year :: 2003 :: All :: N 4485 non-zeros 4484 Median   1.10 Mean   1.26 Std   0.73 Max  10.00
+Digoxin :: Stats year :: 2004 :: All :: N 5281 non-zeros 5275 Median   1.10 Mean   1.25 Std   0.76 Max  12.20
+Digoxin :: Stats year :: 2005 :: All :: N 5152 non-zeros 5149 Median   1.10 Mean   1.28 Std   0.94 Max  15.20
+Digoxin :: Stats year :: 2006 :: All :: N 4968 non-zeros 4964 Median   1.10 Mean   1.28 Std   0.84 Max  13.80
+Digoxin :: Stats year :: 2007 :: All :: N 4677 non-zeros 4675 Median   1.10 Mean   1.23 Std   0.77 Max  11.00
+Digoxin :: Stats year :: 2008 :: All :: N 4122 non-zeros 4120 Median   1.10 Mean   1.26 Std   0.87 Max  13.20
+Digoxin :: Stats year :: 2009 :: All :: N 3780 non-zeros 3780 Median   1.10 Mean   1.27 Std   0.86 Max  13.60
+Digoxin :: Stats year :: 2010 :: All :: N 3360 non-zeros 3359 Median   1.00 Mean   1.26 Std   0.86 Max  14.00
+Digoxin :: Stats year :: 2011 :: All :: N 3305 non-zeros 3305 Median   1.00 Mean   1.25 Std   0.81 Max  13.00
+Digoxin :: Stats year :: 2012 :: All :: N 3126 non-zeros 3125 Median   1.00 Mean   1.23 Std   0.77 Max   6.50
+Digoxin :: Stats year :: 2013 :: All :: N 2690 non-zeros 2690 Median   1.00 Mean   1.25 Std   0.84 Max  12.00
+Digoxin :: Stats year :: 2014 :: All :: N 2260 non-zeros 2259 Median   1.10 Mean   1.25 Std   0.78 Max   6.40
+Digoxin :: Stats year :: 2015 :: All :: N 1928 non-zeros 1928 Median   1.00 Mean   1.23 Std   0.81 Max   9.90
+Digoxin :: Stats year :: 2016 :: All :: N 67 non-zeros 67 Median   1.00 Mean   1.19 Std   0.97 Max   7.70
+Digoxin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Digoxin :: Stats year :: 2000 :: Males   :: N 1025 non-zeros 1024 Median   1.00 Mean   4.36 Std  33.26 Max 500.00
+Digoxin :: Stats year :: 2001 :: Males   :: N 1257 non-zeros 1256 Median   1.10 Mean   1.20 Std   0.68 Max   5.70
+Digoxin :: Stats year :: 2002 :: Males   :: N 1548 non-zeros 1546 Median   1.10 Mean   1.21 Std   0.71 Max   6.40
+Digoxin :: Stats year :: 2003 :: Males   :: N 1843 non-zeros 1842 Median   1.00 Mean   1.17 Std   0.69 Max   5.80
+Digoxin :: Stats year :: 2004 :: Males   :: N 2226 non-zeros 2223 Median   1.00 Mean   1.18 Std   0.73 Max   9.40
+Digoxin :: Stats year :: 2005 :: Males   :: N 2195 non-zeros 2194 Median   1.00 Mean   1.28 Std   1.32 Max  21.00
+Digoxin :: Stats year :: 2006 :: Males   :: N 2070 non-zeros 2069 Median   1.00 Mean   1.18 Std   0.75 Max  10.00
+Digoxin :: Stats year :: 2007 :: Males   :: N 1958 non-zeros 1957 Median   1.00 Mean   1.15 Std   0.73 Max  11.00
+Digoxin :: Stats year :: 2008 :: Males   :: N 1716 non-zeros 1716 Median   1.00 Mean   1.17 Std   0.74 Max   8.00
+Digoxin :: Stats year :: 2009 :: Males   :: N 1596 non-zeros 1596 Median   1.00 Mean   1.17 Std   0.71 Max   6.20
+Digoxin :: Stats year :: 2010 :: Males   :: N 1400 non-zeros 1399 Median   1.00 Mean   1.15 Std   0.68 Max   5.00
+Digoxin :: Stats year :: 2011 :: Males   :: N 1391 non-zeros 1390 Median   1.00 Mean   1.17 Std   0.81 Max  13.00
+Digoxin :: Stats year :: 2012 :: Males   :: N 1311 non-zeros 1310 Median   1.00 Mean   1.15 Std   0.79 Max  12.00
+Digoxin :: Stats year :: 2013 :: Males   :: N 1122 non-zeros 1121 Median   1.00 Mean   1.15 Std   0.75 Max   6.40
+Digoxin :: Stats year :: 2014 :: Males   :: N 968 non-zeros 967 Median   1.00 Mean   1.16 Std   0.73 Max   6.10
+Digoxin :: Stats year :: 2015 :: Males   :: N 842 non-zeros 841 Median   1.00 Mean   1.17 Std   0.77 Max   7.00
+Digoxin :: Stats year :: 2016 :: Males   :: N 30 non-zeros 30 Median   0.90 Mean   1.04 Std   0.52 Max   2.60
+Digoxin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Digoxin :: Stats year :: 2000 :: Females :: N 1504 non-zeros 1499 Median   1.10 Mean   5.09 Std  40.25 Max 600.00
+Digoxin :: Stats year :: 2001 :: Females :: N 1885 non-zeros 1884 Median   1.20 Mean   1.32 Std   0.77 Max   9.00
+Digoxin :: Stats year :: 2002 :: Females :: N 2207 non-zeros 2205 Median   1.20 Mean   1.31 Std   0.73 Max   7.00
+Digoxin :: Stats year :: 2003 :: Females :: N 2642 non-zeros 2642 Median   1.20 Mean   1.31 Std   0.73 Max   6.00
+Digoxin :: Stats year :: 2004 :: Females :: N 3056 non-zeros 3054 Median   1.20 Mean   1.29 Std   0.75 Max   7.70
+Digoxin :: Stats year :: 2005 :: Females :: N 2966 non-zeros 2963 Median   1.20 Mean   1.39 Std   1.41 Max  22.40
+Digoxin :: Stats year :: 2006 :: Females :: N 2896 non-zeros 2893 Median   1.20 Mean   1.35 Std   0.83 Max  12.00
+Digoxin :: Stats year :: 2007 :: Females :: N 2715 non-zeros 2713 Median   1.10 Mean   1.28 Std   0.80 Max   8.10
+Digoxin :: Stats year :: 2008 :: Females :: N 2397 non-zeros 2395 Median   1.20 Mean   1.34 Std   0.99 Max  14.00
+Digoxin :: Stats year :: 2009 :: Females :: N 2182 non-zeros 2182 Median   1.20 Mean   1.31 Std   0.82 Max  10.00
+Digoxin :: Stats year :: 2010 :: Females :: N 1962 non-zeros 1962 Median   1.20 Mean   1.35 Std   1.00 Max  14.00
+Digoxin :: Stats year :: 2011 :: Females :: N 1913 non-zeros 1913 Median   1.20 Mean   1.33 Std   0.88 Max  14.00
+Digoxin :: Stats year :: 2012 :: Females :: N 1815 non-zeros 1814 Median   1.20 Mean   1.29 Std   0.79 Max   5.90
+Digoxin :: Stats year :: 2013 :: Females :: N 1568 non-zeros 1568 Median   1.20 Mean   1.31 Std   0.87 Max  12.00
+Digoxin :: Stats year :: 2014 :: Females :: N 1290 non-zeros 1289 Median   1.20 Mean   1.34 Std   0.89 Max   8.00
+Digoxin :: Stats year :: 2015 :: Females :: N 1087 non-zeros 1087 Median   1.00 Mean   1.30 Std   0.90 Max   9.90
+Digoxin :: Stats year :: 2016 :: Females :: N 37 non-zeros 37 Median   1.00 Mean   1.32 Std   1.21 Max   7.70
+Digoxin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Digoxin :: Stats month 1 :: All :: N 4741 non-zeros 4731 Median   1.10 Mean   1.25 Std   0.83 Max  12.20
+Digoxin :: Stats month 2 :: All :: N 4164 non-zeros 4161 Median   1.10 Mean   1.27 Std   0.87 Max  14.00
+Digoxin :: Stats month 3 :: All :: N 4553 non-zeros 4548 Median   1.10 Mean   1.26 Std   0.80 Max  13.00
+Digoxin :: Stats month 4 :: All :: N 4299 non-zeros 4297 Median   1.10 Mean   1.27 Std   0.79 Max  12.00
+Digoxin :: Stats month 5 :: All :: N 4361 non-zeros 4354 Median   1.10 Mean   1.25 Std   0.75 Max  10.00
+Digoxin :: Stats month 6 :: All :: N 4458 non-zeros 4458 Median   1.20 Mean   1.30 Std   0.81 Max  12.30
+Digoxin :: Stats month 7 :: All :: N 4362 non-zeros 4361 Median   1.10 Mean   1.27 Std   0.79 Max  11.80
+Digoxin :: Stats month 8 :: All :: N 4355 non-zeros 4355 Median   1.10 Mean   1.30 Std   0.87 Max  14.00
+Digoxin :: Stats month 9 :: All :: N 4312 non-zeros 4308 Median   1.10 Mean   1.29 Std   0.87 Max  14.00
+Digoxin :: Stats month 10 :: All :: N 4339 non-zeros 4338 Median   1.10 Mean   1.28 Std   0.81 Max  11.20
+Digoxin :: Stats month 11 :: All :: N 4184 non-zeros 4181 Median   1.20 Mean   1.29 Std   0.77 Max   7.70
+Digoxin :: Stats month 12 :: All :: N 3591 non-zeros 3589 Median   1.10 Mean   1.26 Std   0.83 Max  13.00
+

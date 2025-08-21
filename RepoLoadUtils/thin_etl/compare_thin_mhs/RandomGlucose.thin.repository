@@ -1,0 +1,162 @@
+RandomGlucose :: All :: With Values :: 369004 / 14446692 =  0.03 :: 369004 / 369004 =  1.00
+RandomGlucose :: Males :: With Values :: 156810 / 6889335 =  0.02 :: 156810 / 369004 =  0.42
+RandomGlucose :: Females :: With Values :: 212194 / 7557357 =  0.03 :: 212194 / 369004 =  0.58
+RandomGlucose :: General :: No. of Values :: All 621710 Male 267600 Female 354110
+RandomGlucose :: General :: No. of different days Values :: All 620579 Male 267073 Female 353506
+RandomGlucose :: General :: Avg #values per person (all) :: All  0.04 Male  0.04 Female  0.05
+RandomGlucose :: General :: Avg #values per person (>0)  :: All  1.68 Male  1.70 Female  1.67
+RandomGlucose :: General :: Avg dist between tests       :: All  528.5 Male  504.3 Female  547.4
+RandomGlucose :: Counts :: Age Group 20 - 25 :: All ::   3467 0.006
+RandomGlucose :: Counts :: Age Group 25 - 30 :: All ::   3589 0.006
+RandomGlucose :: Counts :: Age Group 30 - 35 :: All ::   4415 0.007
+RandomGlucose :: Counts :: Age Group 35 - 40 :: All ::   5209 0.008
+RandomGlucose :: Counts :: Age Group 40 - 45 :: All ::   7126 0.011
+RandomGlucose :: Counts :: Age Group 45 - 50 :: All ::   8656 0.014
+RandomGlucose :: Counts :: Age Group 50 - 55 :: All ::  10347 0.017
+RandomGlucose :: Counts :: Age Group 55 - 60 :: All ::  11394 0.018
+RandomGlucose :: Counts :: Age Group 60 - 65 :: All ::  12574 0.020
+RandomGlucose :: Counts :: Age Group 65 - 70 :: All ::  13706 0.022
+RandomGlucose :: Counts :: Age Group 70 - 75 :: All ::  13181 0.021
+RandomGlucose :: Counts :: Age Group 75 - 80 :: All ::  11742 0.019
+RandomGlucose :: Counts :: Age Group 80 - 85 :: All ::  10563 0.017
+RandomGlucose :: Counts :: Age Group 85 - 90 :: All ::   6763 0.011
+RandomGlucose :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+RandomGlucose :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+RandomGlucose :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+RandomGlucose :: Counts :: Age Group 20 - 25 :: Males ::    947 0.004
+RandomGlucose :: Counts :: Age Group 25 - 30 :: Males ::    988 0.004
+RandomGlucose :: Counts :: Age Group 30 - 35 :: Males ::   1273 0.005
+RandomGlucose :: Counts :: Age Group 35 - 40 :: Males ::   1798 0.007
+RandomGlucose :: Counts :: Age Group 40 - 45 :: Males ::   2759 0.010
+RandomGlucose :: Counts :: Age Group 45 - 50 :: Males ::   3753 0.014
+RandomGlucose :: Counts :: Age Group 50 - 55 :: Males ::   4813 0.018
+RandomGlucose :: Counts :: Age Group 55 - 60 :: Males ::   5530 0.021
+RandomGlucose :: Counts :: Age Group 60 - 65 :: Males ::   6176 0.023
+RandomGlucose :: Counts :: Age Group 65 - 70 :: Males ::   6870 0.026
+RandomGlucose :: Counts :: Age Group 70 - 75 :: Males ::   6447 0.024
+RandomGlucose :: Counts :: Age Group 75 - 80 :: Males ::   5262 0.020
+RandomGlucose :: Counts :: Age Group 80 - 85 :: Males ::   4266 0.016
+RandomGlucose :: Counts :: Age Group 85 - 90 :: Males ::   2424 0.009
+RandomGlucose :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+RandomGlucose :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+RandomGlucose :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+RandomGlucose :: Counts :: Age Group 20 - 25 :: Females ::   2520 0.007
+RandomGlucose :: Counts :: Age Group 25 - 30 :: Females ::   2601 0.007
+RandomGlucose :: Counts :: Age Group 30 - 35 :: Females ::   3142 0.009
+RandomGlucose :: Counts :: Age Group 35 - 40 :: Females ::   3411 0.010
+RandomGlucose :: Counts :: Age Group 40 - 45 :: Females ::   4367 0.012
+RandomGlucose :: Counts :: Age Group 45 - 50 :: Females ::   4903 0.014
+RandomGlucose :: Counts :: Age Group 50 - 55 :: Females ::   5534 0.016
+RandomGlucose :: Counts :: Age Group 55 - 60 :: Females ::   5864 0.017
+RandomGlucose :: Counts :: Age Group 60 - 65 :: Females ::   6398 0.018
+RandomGlucose :: Counts :: Age Group 65 - 70 :: Females ::   6836 0.019
+RandomGlucose :: Counts :: Age Group 70 - 75 :: Females ::   6734 0.019
+RandomGlucose :: Counts :: Age Group 75 - 80 :: Females ::   6480 0.018
+RandomGlucose :: Counts :: Age Group 80 - 85 :: Females ::   6297 0.018
+RandomGlucose :: Counts :: Age Group 85 - 90 :: Females ::   4339 0.012
+RandomGlucose :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+RandomGlucose :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+RandomGlucose :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+RandomGlucose :: Stats :: Age Group 20 - 25 :: All ::  N 14899 non-zeros 14674 Median  84.69 Mean  91.54 Std  42.46 Max 724.40
+RandomGlucose :: Stats :: Age Group 25 - 30 :: All ::  N 16164 non-zeros 15927 Median  86.50 Mean  93.27 Std  41.90 Max 670.34
+RandomGlucose :: Stats :: Age Group 30 - 35 :: All ::  N 18970 non-zeros 18685 Median  88.30 Mean  96.70 Std  45.82 Max 746.03
+RandomGlucose :: Stats :: Age Group 35 - 40 :: All ::  N 21640 non-zeros 21264 Median  90.10 Mean 100.74 Std  51.01 Max 733.41
+RandomGlucose :: Stats :: Age Group 40 - 45 :: All ::  N 28080 non-zeros 27663 Median  91.90 Mean 105.25 Std  54.32 Max 792.88
+RandomGlucose :: Stats :: Age Group 45 - 50 :: All ::  N 33287 non-zeros 32869 Median  93.70 Mean 108.12 Std  55.79 Max 845.14
+RandomGlucose :: Stats :: Age Group 50 - 55 :: All ::  N 36005 non-zeros 35465 Median  95.51 Mean 112.17 Std  59.87 Max 901.00
+RandomGlucose :: Stats :: Age Group 55 - 60 :: All ::  N 38207 non-zeros 37672 Median  97.31 Mean 115.62 Std  61.56 Max 1034.35
+RandomGlucose :: Stats :: Age Group 60 - 65 :: All ::  N 39444 non-zeros 38902 Median  99.11 Mean 118.64 Std  61.68 Max 837.93
+RandomGlucose :: Stats :: Age Group 65 - 70 :: All ::  N 38568 non-zeros 38055 Median 102.71 Mean 121.81 Std  62.95 Max 882.98
+RandomGlucose :: Stats :: Age Group 70 - 75 :: All ::  N 37154 non-zeros 36622 Median 102.71 Mean 122.82 Std  63.90 Max 1009.12
+RandomGlucose :: Stats :: Age Group 75 - 80 :: All ::  N 32244 non-zeros 31779 Median 104.52 Mean 122.91 Std  63.18 Max 910.01
+RandomGlucose :: Stats :: Age Group 80 - 85 :: All ::  N 26204 non-zeros 25831 Median 104.52 Mean 121.63 Std  60.76 Max 991.10
+RandomGlucose :: Stats :: Age Group 85 - 90 :: All ::  N 15853 non-zeros 15664 Median 104.52 Mean 120.11 Std  56.28 Max 846.94
+RandomGlucose :: Stats :: Age Group 90 - 95 :: All ::  N 6255 non-zeros 6198 Median 106.32 Mean 119.68 Std  53.49 Max 901.00
+RandomGlucose :: Stats :: Age Group 95 - 100 :: All ::  N 1313 non-zeros 1302 Median 106.32 Mean 117.93 Std  48.06 Max 531.59
+RandomGlucose :: General :: All     :: outliers ratio 0.000219
+RandomGlucose :: General :: All     :: N 342369 non-zeros 337042 Median  95.51 Mean 112.09 Std  58.20 Max 967.67
+RandomGlucose :: General :: All     :: distribution 0.001,0.01,0.05 ::  39.64  59.47  72.08 225.25 364.00 540.60
+RandomGlucose :: General :: All     :: quartiles ::  39.64  84.69  97.31 118.93 
+RandomGlucose :: General :: Males   :: outliers ratio 0.000218
+RandomGlucose :: General :: Males   :: N 146522 non-zeros 144235 Median  99.11 Mean 118.78 Std  64.25 Max 1081.20
+RandomGlucose :: General :: Males   :: distribution 0.001,0.01,0.05 ::  39.64  59.47  73.88 248.68 387.43 567.63
+RandomGlucose :: General :: Males   :: quartiles ::  39.64  88.30 100.91 126.14 
+RandomGlucose :: General :: Females :: outliers ratio 0.000194
+RandomGlucose :: General :: Females :: N 195852 non-zeros 192823 Median  93.70 Mean 107.02 Std  52.85 Max 882.98
+RandomGlucose :: General :: Females :: distribution 0.001,0.01,0.05 ::  41.45  57.66  70.28 203.63 342.38 517.17
+RandomGlucose :: General :: Females :: quartiles ::  41.45  82.89  93.70 113.53 
+RandomGlucose :: Rounding ::  0.00 r  0.72 pct
+RandomGlucose :: Rounding ::  0.01 r  0.20 pct
+RandomGlucose :: Rounding ::  0.10 r  0.08 pct
+RandomGlucose :: Rounding ::  1.00 r  0.00 pct
+RandomGlucose :: Rounding :: 10.00 r  0.00 pct
+RandomGlucose :: Rounding :: 100.00 r  0.00 pct
+RandomGlucose :: Rounding :: 1000.00 r  0.00 pct
+RandomGlucose :: Rounding :: most popular rounding for vals:  0.00
+RandomGlucose :: Stats year :: 2000 :: All :: N 18073 non-zeros 17797 Median  95.51 Mean 119.29 Std  71.22 Max 1034.35
+RandomGlucose :: Stats year :: 2001 :: All :: N 33210 non-zeros 32782 Median  95.51 Mean 116.11 Std  64.12 Max 991.10
+RandomGlucose :: Stats year :: 2002 :: All :: N 45162 non-zeros 44133 Median  95.51 Mean 113.72 Std  61.25 Max 882.98
+RandomGlucose :: Stats year :: 2003 :: All :: N 43299 non-zeros 41402 Median  95.51 Mean 111.11 Std  63.18 Max 955.06
+RandomGlucose :: Stats year :: 2004 :: All :: N 30919 non-zeros 30488 Median 100.91 Mean 120.43 Std  63.30 Max 991.10
+RandomGlucose :: Stats year :: 2005 :: All :: N 32791 non-zeros 32396 Median 100.91 Mean 120.72 Std  62.71 Max 884.78
+RandomGlucose :: Stats year :: 2006 :: All :: N 34860 non-zeros 34274 Median  99.11 Mean 116.89 Std  62.01 Max 991.10
+RandomGlucose :: Stats year :: 2007 :: All :: N 33914 non-zeros 33154 Median  97.31 Mean 114.48 Std  60.07 Max 738.82
+RandomGlucose :: Stats year :: 2008 :: All :: N 32875 non-zeros 32086 Median  99.11 Mean 116.31 Std  61.63 Max 937.04
+RandomGlucose :: Stats year :: 2009 :: All :: N 32477 non-zeros 32372 Median  99.11 Mean 117.09 Std  58.73 Max 947.85
+RandomGlucose :: Stats year :: 2010 :: All :: N 29018 non-zeros 29008 Median  99.11 Mean 117.92 Std  58.29 Max 769.45
+RandomGlucose :: Stats year :: 2011 :: All :: N 31899 non-zeros 31887 Median  97.31 Mean 114.65 Std  57.03 Max 901.00
+RandomGlucose :: Stats year :: 2012 :: All :: N 32567 non-zeros 32560 Median  97.31 Mean 115.10 Std  56.23 Max 901.00
+RandomGlucose :: Stats year :: 2013 :: All :: N 22939 non-zeros 22936 Median  99.11 Mean 114.82 Std  55.87 Max 724.40
+RandomGlucose :: Stats year :: 2014 :: All :: N 24805 non-zeros 24804 Median  97.31 Mean 112.77 Std  53.31 Max 882.98
+RandomGlucose :: Stats year :: 2015 :: All :: N 26848 non-zeros 26847 Median  97.31 Mean 111.93 Std  52.09 Max 823.51
+RandomGlucose :: Stats year :: 2016 :: All :: N 1035 non-zeros 1035 Median  97.31 Mean 113.65 Std  56.12 Max 749.63
+RandomGlucose :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+RandomGlucose :: Stats year :: 2000 :: Males   :: N 7502 non-zeros 7433 Median 100.91 Mean 128.89 Std  76.65 Max 1034.35
+RandomGlucose :: Stats year :: 2001 :: Males   :: N 13533 non-zeros 13402 Median 100.91 Mean 124.69 Std  70.14 Max 967.67
+RandomGlucose :: Stats year :: 2002 :: Males   :: N 18351 non-zeros 17948 Median 100.91 Mean 121.32 Std  66.61 Max 882.98
+RandomGlucose :: Stats year :: 2003 :: Males   :: N 17988 non-zeros 17189 Median 100.91 Mean 118.53 Std  68.03 Max 891.99
+RandomGlucose :: Stats year :: 2004 :: Males   :: N 13298 non-zeros 13068 Median 104.52 Mean 127.46 Std  68.59 Max 1081.20
+RandomGlucose :: Stats year :: 2005 :: Males   :: N 14318 non-zeros 14121 Median 104.52 Mean 127.29 Std  68.07 Max 884.78
+RandomGlucose :: Stats year :: 2006 :: Males   :: N 15158 non-zeros 14886 Median 102.71 Mean 123.49 Std  66.92 Max 991.10
+RandomGlucose :: Stats year :: 2007 :: Males   :: N 14688 non-zeros 14321 Median 100.91 Mean 120.72 Std  64.98 Max 738.82
+RandomGlucose :: Stats year :: 2008 :: Males   :: N 14378 non-zeros 13981 Median 102.71 Mean 123.72 Std  67.83 Max 774.86
+RandomGlucose :: Stats year :: 2009 :: Males   :: N 14060 non-zeros 14010 Median 102.71 Mean 124.60 Std  64.28 Max 947.85
+RandomGlucose :: Stats year :: 2010 :: Males   :: N 12876 non-zeros 12870 Median 104.52 Mean 125.52 Std  64.09 Max 1009.12
+RandomGlucose :: Stats year :: 2011 :: Males   :: N 14227 non-zeros 14219 Median 100.91 Mean 120.83 Std  61.31 Max 901.00
+RandomGlucose :: Stats year :: 2012 :: Males   :: N 14503 non-zeros 14500 Median 102.71 Mean 121.52 Std  60.18 Max 901.00
+RandomGlucose :: Stats year :: 2013 :: Males   :: N 10004 non-zeros 10002 Median 102.71 Mean 121.99 Std  62.53 Max 724.40
+RandomGlucose :: Stats year :: 2014 :: Males   :: N 10576 non-zeros 10576 Median 102.71 Mean 119.25 Std  58.77 Max 742.42
+RandomGlucose :: Stats year :: 2015 :: Males   :: N 11734 non-zeros 11733 Median 100.91 Mean 118.00 Std  57.35 Max 823.51
+RandomGlucose :: Stats year :: 2016 :: Males   :: N 424 non-zeros 424 Median 100.91 Mean 118.55 Std  57.70 Max 513.57
+RandomGlucose :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+RandomGlucose :: Stats year :: 2000 :: Females :: N 10571 non-zeros 10364 Median  91.90 Mean 112.38 Std  66.05 Max 1009.12
+RandomGlucose :: Stats year :: 2001 :: Females :: N 19677 non-zeros 19381 Median  93.70 Mean 110.35 Std  59.37 Max 991.10
+RandomGlucose :: Stats year :: 2002 :: Females :: N 26811 non-zeros 26182 Median  93.70 Mean 108.54 Std  57.00 Max 737.02
+RandomGlucose :: Stats year :: 2003 :: Females :: N 25311 non-zeros 24209 Median  91.90 Mean 105.90 Std  58.91 Max 955.06
+RandomGlucose :: Stats year :: 2004 :: Females :: N 17622 non-zeros 17421 Median  97.31 Mean 115.01 Std  58.33 Max 688.36
+RandomGlucose :: Stats year :: 2005 :: Females :: N 18473 non-zeros 18275 Median  97.31 Mean 115.59 Std  57.86 Max 630.70
+RandomGlucose :: Stats year :: 2006 :: Females :: N 19703 non-zeros 19389 Median  95.51 Mean 111.60 Std  56.25 Max 731.61
+RandomGlucose :: Stats year :: 2007 :: Females :: N 19226 non-zeros 18835 Median  95.51 Mean 109.70 Std  55.77 Max 684.76
+RandomGlucose :: Stats year :: 2008 :: Females :: N 18497 non-zeros 18105 Median  95.51 Mean 110.51 Std  55.57 Max 937.04
+RandomGlucose :: Stats year :: 2009 :: Females :: N 18415 non-zeros 18360 Median  95.51 Mean 110.95 Std  51.75 Max 837.93
+RandomGlucose :: Stats year :: 2010 :: Females :: N 16144 non-zeros 16140 Median  95.51 Mean 111.77 Std  52.30 Max 690.17
+RandomGlucose :: Stats year :: 2011 :: Females :: N 17673 non-zeros 17669 Median  93.70 Mean 109.62 Std  52.55 Max 699.18
+RandomGlucose :: Stats year :: 2012 :: Females :: N 18063 non-zeros 18059 Median  95.51 Mean 109.85 Std  51.91 Max 882.98
+RandomGlucose :: Stats year :: 2013 :: Females :: N 12935 non-zeros 12934 Median  95.51 Mean 109.63 Std  50.27 Max 702.78
+RandomGlucose :: Stats year :: 2014 :: Females :: N 14228 non-zeros 14226 Median  95.51 Mean 107.92 Std  47.96 Max 722.60
+RandomGlucose :: Stats year :: 2015 :: Females :: N 15113 non-zeros 15113 Median  93.70 Mean 107.21 Std  47.39 Max 636.11
+RandomGlucose :: Stats year :: 2016 :: Females :: N 611 non-zeros 611 Median  95.51 Mean 110.50 Std  55.57 Max 749.63
+RandomGlucose :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+RandomGlucose :: Stats month 1 :: All :: N 38134 non-zeros 37540 Median  99.11 Mean 117.93 Std  64.83 Max 1009.12
+RandomGlucose :: Stats month 2 :: All :: N 35442 non-zeros 34962 Median  97.31 Mean 116.75 Std  62.65 Max 1009.12
+RandomGlucose :: Stats month 3 :: All :: N 38695 non-zeros 38114 Median  97.31 Mean 116.07 Std  63.53 Max 901.00
+RandomGlucose :: Stats month 4 :: All :: N 35582 non-zeros 35058 Median  97.31 Mean 116.23 Std  61.92 Max 891.99
+RandomGlucose :: Stats month 5 :: All :: N 36786 non-zeros 36130 Median  97.31 Mean 115.55 Std  61.25 Max 882.98
+RandomGlucose :: Stats month 6 :: All :: N 36033 non-zeros 35451 Median  97.31 Mean 114.77 Std  60.02 Max 875.77
+RandomGlucose :: Stats month 7 :: All :: N 37279 non-zeros 36689 Median  97.31 Mean 114.49 Std  58.99 Max 967.67
+RandomGlucose :: Stats month 8 :: All :: N 34875 non-zeros 34364 Median  97.31 Mean 114.89 Std  59.65 Max 991.10
+RandomGlucose :: Stats month 9 :: All :: N 37017 non-zeros 36625 Median  97.31 Mean 115.63 Std  60.28 Max 991.10
+RandomGlucose :: Stats month 10 :: All :: N 39211 non-zeros 38835 Median  97.31 Mean 115.60 Std  59.21 Max 846.94
+RandomGlucose :: Stats month 11 :: All :: N 38251 non-zeros 37728 Median  97.31 Mean 115.99 Std  60.83 Max 774.86
+RandomGlucose :: Stats month 12 :: All :: N 29236 non-zeros 28819 Median  99.11 Mean 118.19 Std  62.91 Max 737.02
+

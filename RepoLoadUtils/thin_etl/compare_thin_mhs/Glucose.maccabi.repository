@@ -1,0 +1,162 @@
+Glucose :: All :: With Values :: 938618 / 1279479 =  0.73 :: 938618 / 938618 =  1.00
+Glucose :: Males :: With Values :: 440690 / 622859 =  0.71 :: 440690 / 938618 =  0.47
+Glucose :: Females :: With Values :: 497928 / 656620 =  0.76 :: 497928 / 938618 =  0.53
+Glucose :: General :: No. of Values :: All 11270250 Male 4851030 Female 6419220
+Glucose :: General :: No. of different days Values :: All 11266431 Male 4849279 Female 6417152
+Glucose :: General :: Avg #values per person (all) :: All  8.81 Male  7.79 Female  9.77
+Glucose :: General :: Avg #values per person (>0)  :: All 12.00 Male 11.00 Female 12.89
+Glucose :: General :: Avg dist between tests       :: All  310.3 Male  314.5 Female  307.2
+Glucose :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Glucose :: Counts :: Age Group 25 - 30 :: All ::   2723 0.000
+Glucose :: Counts :: Age Group 30 - 35 :: All ::  72968 0.006
+Glucose :: Counts :: Age Group 35 - 40 :: All :: 155181 0.014
+Glucose :: Counts :: Age Group 40 - 45 :: All :: 234386 0.021
+Glucose :: Counts :: Age Group 45 - 50 :: All :: 231112 0.021
+Glucose :: Counts :: Age Group 50 - 55 :: All :: 252008 0.022
+Glucose :: Counts :: Age Group 55 - 60 :: All :: 272734 0.024
+Glucose :: Counts :: Age Group 60 - 65 :: All :: 259504 0.023
+Glucose :: Counts :: Age Group 65 - 70 :: All :: 237741 0.021
+Glucose :: Counts :: Age Group 70 - 75 :: All :: 186429 0.017
+Glucose :: Counts :: Age Group 75 - 80 :: All :: 159554 0.014
+Glucose :: Counts :: Age Group 80 - 85 :: All :: 106585 0.009
+Glucose :: Counts :: Age Group 85 - 90 :: All ::  58453 0.005
+Glucose :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Glucose :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Glucose :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Glucose :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Glucose :: Counts :: Age Group 25 - 30 :: Males ::    565 0.000
+Glucose :: Counts :: Age Group 30 - 35 :: Males ::  19365 0.004
+Glucose :: Counts :: Age Group 35 - 40 :: Males ::  51180 0.011
+Glucose :: Counts :: Age Group 40 - 45 :: Males ::  92266 0.019
+Glucose :: Counts :: Age Group 45 - 50 :: Males :: 101126 0.021
+Glucose :: Counts :: Age Group 50 - 55 :: Males :: 112943 0.023
+Glucose :: Counts :: Age Group 55 - 60 :: Males :: 121971 0.025
+Glucose :: Counts :: Age Group 60 - 65 :: Males :: 118829 0.024
+Glucose :: Counts :: Age Group 65 - 70 :: Males :: 109543 0.023
+Glucose :: Counts :: Age Group 70 - 75 :: Males ::  87477 0.018
+Glucose :: Counts :: Age Group 75 - 80 :: Males ::  73517 0.015
+Glucose :: Counts :: Age Group 80 - 85 :: Males ::  47575 0.010
+Glucose :: Counts :: Age Group 85 - 90 :: Males ::  24942 0.005
+Glucose :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Glucose :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Glucose :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Glucose :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Glucose :: Counts :: Age Group 25 - 30 :: Females ::   2158 0.000
+Glucose :: Counts :: Age Group 30 - 35 :: Females ::  53603 0.008
+Glucose :: Counts :: Age Group 35 - 40 :: Females :: 104001 0.016
+Glucose :: Counts :: Age Group 40 - 45 :: Females :: 142120 0.022
+Glucose :: Counts :: Age Group 45 - 50 :: Females :: 129986 0.020
+Glucose :: Counts :: Age Group 50 - 55 :: Females :: 139065 0.022
+Glucose :: Counts :: Age Group 55 - 60 :: Females :: 150763 0.023
+Glucose :: Counts :: Age Group 60 - 65 :: Females :: 140675 0.022
+Glucose :: Counts :: Age Group 65 - 70 :: Females :: 128198 0.020
+Glucose :: Counts :: Age Group 70 - 75 :: Females ::  98952 0.015
+Glucose :: Counts :: Age Group 75 - 80 :: Females ::  86037 0.013
+Glucose :: Counts :: Age Group 80 - 85 :: Females ::  59010 0.009
+Glucose :: Counts :: Age Group 85 - 90 :: Females ::  33511 0.005
+Glucose :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Glucose :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Glucose :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Glucose :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats :: Age Group 25 - 30 :: All ::  N 68368 non-zeros 68309 Median  89.00 Mean  89.54 Std  10.92 Max 253.00
+Glucose :: Stats :: Age Group 30 - 35 :: All ::  N 194381 non-zeros 194224 Median  90.00 Mean  91.03 Std  12.29 Max 275.00
+Glucose :: Stats :: Age Group 35 - 40 :: All ::  N 313979 non-zeros 313766 Median  91.00 Mean  92.82 Std  15.97 Max 332.00
+Glucose :: Stats :: Age Group 40 - 45 :: All ::  N 385709 non-zeros 385483 Median  93.00 Mean  95.96 Std  20.44 Max 399.00
+Glucose :: Stats :: Age Group 45 - 50 :: All ::  N 347324 non-zeros 347095 Median  95.00 Mean  99.74 Std  25.45 Max 481.00
+Glucose :: Stats :: Age Group 50 - 55 :: All ::  N 320289 non-zeros 320073 Median  97.00 Mean 103.79 Std  29.29 Max 537.00
+Glucose :: Stats :: Age Group 55 - 60 :: All ::  N 276912 non-zeros 276705 Median  99.00 Mean 107.09 Std  31.13 Max 570.00
+Glucose :: Stats :: Age Group 60 - 65 :: All ::  N 234169 non-zeros 234007 Median 101.00 Mean 109.53 Std  31.66 Max 579.00
+Glucose :: Stats :: Age Group 65 - 70 :: All ::  N 184313 non-zeros 184179 Median 103.00 Mean 111.13 Std  31.49 Max 581.00
+Glucose :: Stats :: Age Group 70 - 75 :: All ::  N 129964 non-zeros 129855 Median 103.00 Mean 111.67 Std  31.47 Max 558.00
+Glucose :: Stats :: Age Group 75 - 80 :: All ::  N 100920 non-zeros 100806 Median 103.00 Mean 111.29 Std  31.44 Max 556.00
+Glucose :: Stats :: Age Group 80 - 85 :: All ::  N 62747 non-zeros 62691 Median 102.00 Mean 109.56 Std  31.26 Max 542.00
+Glucose :: Stats :: Age Group 85 - 90 :: All ::  N 34251 non-zeros 34204 Median  99.00 Mean 106.11 Std  30.98 Max 567.00
+Glucose :: Stats :: Age Group 90 - 95 :: All ::  N 13328 non-zeros 13307 Median  96.00 Mean 103.00 Std  31.90 Max 547.00
+Glucose :: Stats :: Age Group 95 - 100 :: All ::  N 3189 non-zeros 3179 Median  93.00 Mean  99.49 Std  30.18 Max 460.00
+Glucose :: General :: All     :: outliers ratio 0.000075
+Glucose :: General :: All     :: N 938482 non-zeros 937662 Median  96.00 Mean 101.47 Std  27.14 Max 508.00
+Glucose :: General :: All     :: distribution 0.001,0.01,0.05 ::  60.00  73.00  80.00 143.00 224.00 353.00
+Glucose :: General :: All     :: quartiles ::  60.00  89.00  96.00 105.00 
+Glucose :: General :: Males   :: outliers ratio 0.000077
+Glucose :: General :: Males   :: N 440639 non-zeros 440250 Median  98.00 Mean 104.52 Std  29.12 Max 541.00
+Glucose :: General :: Males   :: distribution 0.001,0.01,0.05 ::  61.00  75.00  82.00 151.00 240.00 358.00
+Glucose :: General :: Males   :: quartiles ::  61.00  91.00  98.00 107.00 
+Glucose :: General :: Females :: outliers ratio 0.000092
+Glucose :: General :: Females :: N 497833 non-zeros 497420 Median  94.00 Mean  98.82 Std  25.09 Max 474.00
+Glucose :: General :: Females :: distribution 0.001,0.01,0.05 ::  61.00  72.00  79.00 136.00 209.00 342.00
+Glucose :: General :: Females :: quartiles ::  61.00  87.00  94.00 102.00 
+Glucose :: Rounding ::  0.00 r  0.00 pct
+Glucose :: Rounding ::  0.01 r  0.00 pct
+Glucose :: Rounding ::  0.10 r  0.00 pct
+Glucose :: Rounding ::  1.00 r  0.89 pct
+Glucose :: Rounding :: 10.00 r  0.08 pct
+Glucose :: Rounding :: 100.00 r  0.03 pct
+Glucose :: Rounding :: 1000.00 r  0.00 pct
+Glucose :: Rounding :: most popular rounding for vals:  1.00
+Glucose :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats year :: 2001 :: All :: N 367900 non-zeros 367577 Median  95.00 Mean 102.35 Std  30.15 Max 537.00
+Glucose :: Stats year :: 2002 :: All :: N 371045 non-zeros 370800 Median  96.00 Mean 103.24 Std  29.75 Max 544.00
+Glucose :: Stats year :: 2003 :: All :: N 398696 non-zeros 398465 Median  97.00 Mean 104.26 Std  29.31 Max 541.00
+Glucose :: Stats year :: 2004 :: All :: N 430419 non-zeros 430068 Median  97.00 Mean 103.82 Std  28.43 Max 529.00
+Glucose :: Stats year :: 2005 :: All :: N 447310 non-zeros 447027 Median  96.00 Mean 103.17 Std  28.44 Max 527.00
+Glucose :: Stats year :: 2006 :: All :: N 461455 non-zeros 461135 Median  96.00 Mean 103.19 Std  28.41 Max 529.00
+Glucose :: Stats year :: 2007 :: All :: N 474748 non-zeros 474513 Median  97.00 Mean 103.44 Std  27.77 Max 516.00
+Glucose :: Stats year :: 2008 :: All :: N 478373 non-zeros 478155 Median  95.00 Mean 101.57 Std  27.41 Max 508.00
+Glucose :: Stats year :: 2009 :: All :: N 505849 non-zeros 505632 Median  95.00 Mean 101.46 Std  27.01 Max 503.00
+Glucose :: Stats year :: 2010 :: All :: N 504066 non-zeros 503705 Median  96.00 Mean 102.18 Std  27.45 Max 513.00
+Glucose :: Stats year :: 2011 :: All :: N 514959 non-zeros 514777 Median  96.00 Mean 102.41 Std  27.88 Max 517.00
+Glucose :: Stats year :: 2012 :: All :: N 523080 non-zeros 522863 Median  96.00 Mean 102.85 Std  27.98 Max 522.00
+Glucose :: Stats year :: 2013 :: All :: N 519538 non-zeros 519231 Median  98.00 Mean 104.92 Std  28.43 Max 529.00
+Glucose :: Stats year :: 2014 :: All :: N 515091 non-zeros 514874 Median  99.00 Mean 105.62 Std  28.58 Max 532.00
+Glucose :: Stats year :: 2015 :: All :: N 450707 non-zeros 450355 Median  99.00 Mean 106.33 Std  29.22 Max 541.00
+Glucose :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats year :: 2001 :: Males   :: N 141640 non-zeros 141526 Median  99.00 Mean 107.49 Std  33.71 Max 581.00
+Glucose :: Stats year :: 2002 :: Males   :: N 145834 non-zeros 145740 Median 100.00 Mean 108.26 Std  33.03 Max 590.00
+Glucose :: Stats year :: 2003 :: Males   :: N 158845 non-zeros 158770 Median 101.00 Mean 109.06 Std  32.20 Max 590.00
+Glucose :: Stats year :: 2004 :: Males   :: N 174964 non-zeros 174839 Median 100.00 Mean 108.39 Std  31.33 Max 542.00
+Glucose :: Stats year :: 2005 :: Males   :: N 185262 non-zeros 185132 Median 100.00 Mean 107.51 Std  31.33 Max 576.00
+Glucose :: Stats year :: 2006 :: Males   :: N 193701 non-zeros 193561 Median  99.00 Mean 107.38 Std  31.25 Max 564.00
+Glucose :: Stats year :: 2007 :: Males   :: N 201186 non-zeros 201068 Median 100.00 Mean 107.43 Std  30.28 Max 552.00
+Glucose :: Stats year :: 2008 :: Males   :: N 203794 non-zeros 203701 Median  98.00 Mean 105.52 Std  30.14 Max 545.00
+Glucose :: Stats year :: 2009 :: Males   :: N 217826 non-zeros 217719 Median  98.00 Mean 105.33 Std  29.96 Max 552.00
+Glucose :: Stats year :: 2010 :: Males   :: N 218240 non-zeros 218060 Median  98.00 Mean 105.89 Std  30.04 Max 555.00
+Glucose :: Stats year :: 2011 :: Males   :: N 224685 non-zeros 224599 Median  98.00 Mean 106.20 Std  30.67 Max 546.00
+Glucose :: Stats year :: 2012 :: Males   :: N 230195 non-zeros 230090 Median  98.00 Mean 106.51 Std  30.57 Max 564.00
+Glucose :: Stats year :: 2013 :: Males   :: N 230756 non-zeros 230615 Median 100.00 Mean 108.69 Std  31.23 Max 569.00
+Glucose :: Stats year :: 2014 :: Males   :: N 229732 non-zeros 229623 Median 101.00 Mean 109.41 Std  31.40 Max 564.00
+Glucose :: Stats year :: 2015 :: Males   :: N 200805 non-zeros 200593 Median 102.00 Mean 110.22 Std  32.17 Max 581.00
+Glucose :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats year :: 2001 :: Females :: N 226263 non-zeros 226055 Median  93.00 Mean  99.11 Std  27.16 Max 502.00
+Glucose :: Stats year :: 2002 :: Females :: N 225212 non-zeros 225038 Median  94.00 Mean 100.01 Std  26.91 Max 499.00
+Glucose :: Stats year :: 2003 :: Females :: N 239846 non-zeros 239700 Median  95.00 Mean 101.05 Std  26.52 Max 489.00
+Glucose :: Stats year :: 2004 :: Females :: N 255449 non-zeros 255249 Median  95.00 Mean 100.70 Std  25.86 Max 486.00
+Glucose :: Stats year :: 2005 :: Females :: N 262045 non-zeros 261898 Median  94.00 Mean 100.10 Std  25.63 Max 484.00
+Glucose :: Stats year :: 2006 :: Females :: N 267756 non-zeros 267593 Median  94.00 Mean 100.18 Std  25.78 Max 485.00
+Glucose :: Stats year :: 2007 :: Females :: N 273565 non-zeros 273449 Median  95.00 Mean 100.55 Std  25.43 Max 479.00
+Glucose :: Stats year :: 2008 :: Females :: N 274575 non-zeros 274441 Median  93.00 Mean  98.63 Std  24.72 Max 458.00
+Glucose :: Stats year :: 2009 :: Females :: N 288017 non-zeros 287911 Median  93.00 Mean  98.57 Std  24.36 Max 459.00
+Glucose :: Stats year :: 2010 :: Females :: N 285823 non-zeros 285645 Median  94.00 Mean  99.35 Std  24.81 Max 471.00
+Glucose :: Stats year :: 2011 :: Females :: N 290269 non-zeros 290164 Median  94.00 Mean  99.42 Std  24.96 Max 473.00
+Glucose :: Stats year :: 2012 :: Females :: N 292883 non-zeros 292783 Median  94.00 Mean  99.97 Std  25.32 Max 478.00
+Glucose :: Stats year :: 2013 :: Females :: N 288770 non-zeros 288620 Median  96.00 Mean 101.93 Std  25.44 Max 483.00
+Glucose :: Stats year :: 2014 :: Females :: N 285356 non-zeros 285269 Median  97.00 Mean 102.55 Std  25.54 Max 485.00
+Glucose :: Stats year :: 2015 :: Females :: N 249899 non-zeros 249748 Median  97.00 Mean 103.18 Std  26.10 Max 490.00
+Glucose :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Glucose :: Stats month 1 :: All :: N 332205 non-zeros 331922 Median  98.00 Mean 105.76 Std  31.22 Max 574.00
+Glucose :: Stats month 2 :: All :: N 324017 non-zeros 323770 Median  98.00 Mean 105.53 Std  31.06 Max 569.00
+Glucose :: Stats month 3 :: All :: N 331032 non-zeros 330757 Median  98.00 Mean 105.65 Std  30.87 Max 561.00
+Glucose :: Stats month 4 :: All :: N 313146 non-zeros 312891 Median  98.00 Mean 105.73 Std  30.86 Max 563.00
+Glucose :: Stats month 5 :: All :: N 362207 non-zeros 361933 Median  97.00 Mean 104.72 Std  30.17 Max 555.00
+Glucose :: Stats month 6 :: All :: N 357547 non-zeros 357253 Median  97.00 Mean 104.44 Std  29.51 Max 546.00
+Glucose :: Stats month 7 :: All :: N 364742 non-zeros 364412 Median  97.00 Mean 104.09 Std  29.37 Max 540.00
+Glucose :: Stats month 8 :: All :: N 347577 non-zeros 347253 Median  97.00 Mean 104.02 Std  29.40 Max 541.00
+Glucose :: Stats month 9 :: All :: N 299856 non-zeros 299663 Median  97.00 Mean 104.25 Std  29.82 Max 551.00
+Glucose :: Stats month 10 :: All :: N 343660 non-zeros 343406 Median  97.00 Mean 103.78 Std  29.34 Max 539.00
+Glucose :: Stats month 11 :: All :: N 329616 non-zeros 329384 Median  97.00 Mean 104.39 Std  29.96 Max 546.00
+Glucose :: Stats month 12 :: All :: N 316090 non-zeros 315825 Median  98.00 Mean 105.39 Std  30.92 Max 568.00
+

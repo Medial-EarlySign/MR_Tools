@@ -1,0 +1,31 @@
+{
+  "model_json_version": "2",
+  "serialize_learning_set": "0",
+  "model_actions": [
+    {
+      "action_type": "feat_generator",
+      "fg_type": "age",
+      "tags": "keep_as_is"
+    },
+	{
+      "action_type": "feat_generator",
+      "fg_type": "gender",
+      "tags": "keep_as_is"
+    },
+	{
+      "action_type": "feat_generator",
+      "fg_type": "time",
+      "tags": "keep_as_is",
+	  "time_unit":["year", "month", "day_in_week"]
+    },
+	{
+		"action_type": "feat_generator",
+		"fg_type": "basic",
+		"type": ["last", "last_time"],
+      "window": ["win_from=0;win_to=1000"],
+      "time_unit": "Days",
+      "signal": ["Hemoglobin"]
+	}
+	
+  ]
+}

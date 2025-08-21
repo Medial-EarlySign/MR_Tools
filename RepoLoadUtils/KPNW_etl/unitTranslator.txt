@@ -1,0 +1,99 @@
+signal	unit	muliplier	addition	Round	
+Albumin	gm/dL	1	0	0.1	
+Albumin	g/dL	1	0	0.1	
+ALKP	unit/L	1	0	1	
+ALKP	U/L	1	0	1	
+ALT	unit/L	1	0	1	
+ALT	U/L	1	0	1	
+AST	unit/L	1	0	1	
+AST	U/L	1	0	1	
+B12	pg/mL	1	0	1	
+Bands#	x10(9)/L	1	0	0.01	
+Bands#	x 10 9/L	1	0	0.01	
+Bands%	%	1	0	1	
+Bands%	None	1	0	1	
+Basophils#	x10(9)/L	1	0	0.01	
+Basophils#	x 10 9/L	1	0	0.01	
+Basophils%	%	1	0	0.1	
+Bilirubin	mg/dL	1	0	0.1	
+Bilirubin_Direct	mg/dL	1	0	0.1	
+BUN	mg/dL	1	0	1	
+Ca	mg/dL	1	0	0.1	
+Cholesterol	mg/dL	1	0	1	
+CK	unit/L	1	0	1	
+CK	U/L	1	0	1	
+Cl	mmol/L	1	0	1	
+CO2	mmol/L	1	0	1	
+Creatinine	mg/dL	1	0	0.1	
+CRP	mg/dL	1	0	0.1	
+Eosinophils#	x10(9)/L	1	0	0.01	
+Eosinophils#	x 10 9/L	1	0	0.01	
+Eosinophils%	%	1	0	0.1	
+Ferritin	ng/mL	1	0	1	
+FreeT4	ng/dL	12.872	0	1	
+Glucose	mg/dL	1	0	1	
+HbA1C	%	1	0	0.1	
+HDL	mg/dL	1	0	1	
+Hematocrit	%	1	0	0.1	
+Hemoglobin	gm/dL	1	0	0.1	
+Hemoglobin	g/dL	1	0	0.1	
+Immature_Granulocytes#	x10(9)/L	1	0	0.01	
+Immature_Granulocytes%	%	1	0	0.01	
+INR	None	1	0	0.1	
+Iron_Fe	mcg/dL	1	0	1	
+Iron_Fe	ug/dL	1	0	1	
+LDH	unit/L	1	0	1	
+LDL	mg/dL	1	0	1	
+Lipase	unit/L	1	0	1	
+Lipase	U/L	1	0	1	
+Lymphocytes#	x10(9)/L	1	0	0.1	
+Lymphocytes#	x 10 9/L	1	0	0.1	
+Lymphocytes%	%	1	0	1	
+MCH	pg	1	0	0.1	
+MCHC-M	None	1	0	0.1	
+MCHC-M	gm/mL	1	0	0.1	
+MCHC-M	gm/dL	1	0	0.1	
+MCHC-M	g/dL	1	0	0.1	
+MCV	fL	1	0	0.1	
+Mg	mg/dL	0.411	0	0.1	
+Monocytes#	x10(9)/L	1	0	0.01	
+Monocytes#	x 10 9/L	1	0	0.01	
+Monocytes%	%	1	0	1	
+MPV	fL	1	0	0.1	
+Na	mmol/L	1	0	1	
+Neutrophils#	x10(9)/L	1	0	0.1	
+Neutrophils#	x 10 9/L	1	0	0.1	
+Neutrophils%	%	1	0	1	
+Phosphore	mg/dL	1	0	0.1	
+Platelets	x10(9)/L	1	0	1	
+Platelets	x 10 9/L	1	0	1	
+Potassium	mmol/L	1	0	0.1	
+Protein_Total	gm/dL	1	0	0.1	
+Protein_Total	g/dL	1	0	0.1	
+PSA	ng/mL	1	0	0.1	
+RBC	x10(12)/L	1	0	0.1	
+RBC	x 10 12/L	1	0	0.1	
+RDW	%	1	0	0.1	
+RDW_SD	fL	1	0	0.1	
+SerumAnionGap	mmol/L	1	0	1	
+TIBC	mcg/dL	0.179	0	1	
+TIBC	ug/dL	0.179	0	1	
+TIBC	None	0.179	0	1	
+Triglycerides	mg/dL	1	0	1	
+TroponinI	ng/mL	1	0	0.01	
+TSH	mcIU/mL	1	0	0.01	
+TSH	uIU/mL	1	0	0.01	
+Uric_Acid	mg/dL	1	0	0.1	
+Urine_Creatinine	mg/dL	0.0884	0	0.1	
+Urine_Microalbumin	mg/L	1	0	1	
+Urine_PH	None	1	0	1	
+Urine_Spec_Gravity	None	1	0	0.01	
+UrineAlbumin	mg/L	1	0	1	
+UrineAlbumin_over_Creatinine	mg/gm	0.11	0	1	
+VitaminD_25	ng/mL	2.5	0	1	
+WBC	x10(9)/L	1	0	1	
+WBC	x 10 9/L	1	0	1	
+Resp_Rate	None	1	0	2
+BP	None	1	0	1
+Height	None	2.54	0	1	0.1
+Weight	None	0.023	0	1

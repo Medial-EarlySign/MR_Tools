@@ -1,0 +1,8 @@
+GENERIC_SIGNAL_TYPE my_SVal V(f)
+GENERIC_SIGNAL_TYPE my_DateVal  T(i),V(f)
+GENERIC_SIGNAL_TYPE my_TimeStamp    T(i),V(f)
+SIGNAL  TRAIN   100 16:my_SVal      0
+SIGNAL  GENDER   101 16:my_SVal      1
+SIGNAL  BDATE   102 16:my_TimeStamp     0
+SIGNAL  GENDER   101 16:my_SVal      1
+

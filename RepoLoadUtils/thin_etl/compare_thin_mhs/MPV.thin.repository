@@ -1,0 +1,162 @@
+MPV :: All :: With Values :: 843664 / 14446692 =  0.06 :: 843664 / 843664 =  1.00
+MPV :: Males :: With Values :: 343204 / 6889335 =  0.05 :: 343204 / 843664 =  0.41
+MPV :: Females :: With Values :: 500460 / 7557357 =  0.07 :: 500460 / 843664 =  0.59
+MPV :: General :: No. of Values :: All 2937628 Male 1095331 Female 1842297
+MPV :: General :: No. of different days Values :: All 2934864 Male 1094303 Female 1840561
+MPV :: General :: Avg #values per person (all) :: All  0.20 Male  0.16 Female  0.24
+MPV :: General :: Avg #values per person (>0)  :: All  3.48 Male  3.19 Female  3.68
+MPV :: General :: Avg dist between tests       :: All  371.8 Male  385.4 Female  364.3
+MPV :: Counts :: Age Group 20 - 25 :: All ::  20091 0.007
+MPV :: Counts :: Age Group 25 - 30 :: All ::  26514 0.009
+MPV :: Counts :: Age Group 30 - 35 :: All ::  34250 0.012
+MPV :: Counts :: Age Group 35 - 40 :: All ::  35404 0.012
+MPV :: Counts :: Age Group 40 - 45 :: All ::  39053 0.013
+MPV :: Counts :: Age Group 45 - 50 :: All ::  42435 0.014
+MPV :: Counts :: Age Group 50 - 55 :: All ::  45310 0.015
+MPV :: Counts :: Age Group 55 - 60 :: All ::  45349 0.015
+MPV :: Counts :: Age Group 60 - 65 :: All ::  49132 0.017
+MPV :: Counts :: Age Group 65 - 70 :: All ::  51151 0.017
+MPV :: Counts :: Age Group 70 - 75 :: All ::  47943 0.016
+MPV :: Counts :: Age Group 75 - 80 :: All ::  46681 0.016
+MPV :: Counts :: Age Group 80 - 85 :: All ::  39897 0.014
+MPV :: Counts :: Age Group 85 - 90 :: All ::  28745 0.010
+MPV :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+MPV :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+MPV :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+MPV :: Counts :: Age Group 20 - 25 :: Males ::   4642 0.004
+MPV :: Counts :: Age Group 25 - 30 :: Males ::   5616 0.005
+MPV :: Counts :: Age Group 30 - 35 :: Males ::   7643 0.007
+MPV :: Counts :: Age Group 35 - 40 :: Males ::   9695 0.009
+MPV :: Counts :: Age Group 40 - 45 :: Males ::  12751 0.012
+MPV :: Counts :: Age Group 45 - 50 :: Males ::  15272 0.014
+MPV :: Counts :: Age Group 50 - 55 :: Males ::  17508 0.016
+MPV :: Counts :: Age Group 55 - 60 :: Males ::  18988 0.017
+MPV :: Counts :: Age Group 60 - 65 :: Males ::  22092 0.020
+MPV :: Counts :: Age Group 65 - 70 :: Males ::  23495 0.021
+MPV :: Counts :: Age Group 70 - 75 :: Males ::  21973 0.020
+MPV :: Counts :: Age Group 75 - 80 :: Males ::  20358 0.019
+MPV :: Counts :: Age Group 80 - 85 :: Males ::  16075 0.015
+MPV :: Counts :: Age Group 85 - 90 :: Males ::  10606 0.010
+MPV :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+MPV :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+MPV :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+MPV :: Counts :: Age Group 20 - 25 :: Females ::  15449 0.008
+MPV :: Counts :: Age Group 25 - 30 :: Females ::  20898 0.011
+MPV :: Counts :: Age Group 30 - 35 :: Females ::  26607 0.014
+MPV :: Counts :: Age Group 35 - 40 :: Females ::  25709 0.014
+MPV :: Counts :: Age Group 40 - 45 :: Females ::  26302 0.014
+MPV :: Counts :: Age Group 45 - 50 :: Females ::  27163 0.015
+MPV :: Counts :: Age Group 50 - 55 :: Females ::  27802 0.015
+MPV :: Counts :: Age Group 55 - 60 :: Females ::  26361 0.014
+MPV :: Counts :: Age Group 60 - 65 :: Females ::  27040 0.015
+MPV :: Counts :: Age Group 65 - 70 :: Females ::  27656 0.015
+MPV :: Counts :: Age Group 70 - 75 :: Females ::  25970 0.014
+MPV :: Counts :: Age Group 75 - 80 :: Females ::  26323 0.014
+MPV :: Counts :: Age Group 80 - 85 :: Females ::  23822 0.013
+MPV :: Counts :: Age Group 85 - 90 :: Females ::  18139 0.010
+MPV :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+MPV :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+MPV :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+MPV :: Stats :: Age Group 20 - 25 :: All ::  N 65431 non-zeros 65422 Median   9.50 Mean   9.62 Std   1.39 Max  17.10
+MPV :: Stats :: Age Group 25 - 30 :: All ::  N 82509 non-zeros 82494 Median   9.50 Mean   9.63 Std   1.40 Max  27.40
+MPV :: Stats :: Age Group 30 - 35 :: All ::  N 91855 non-zeros 91845 Median   9.50 Mean   9.58 Std   1.39 Max  19.40
+MPV :: Stats :: Age Group 35 - 40 :: All ::  N 93184 non-zeros 93176 Median   9.40 Mean   9.54 Std   1.38 Max  21.50
+MPV :: Stats :: Age Group 40 - 45 :: All ::  N 98692 non-zeros 98684 Median   9.40 Mean   9.53 Std   1.38 Max  17.50
+MPV :: Stats :: Age Group 45 - 50 :: All ::  N 101046 non-zeros 101037 Median   9.40 Mean   9.50 Std   1.38 Max  17.30
+MPV :: Stats :: Age Group 50 - 55 :: All ::  N 98745 non-zeros 98734 Median   9.40 Mean   9.49 Std   1.39 Max  18.00
+MPV :: Stats :: Age Group 55 - 60 :: All ::  N 96758 non-zeros 96749 Median   9.30 Mean   9.44 Std   1.38 Max  19.00
+MPV :: Stats :: Age Group 60 - 65 :: All ::  N 94957 non-zeros 94946 Median   9.30 Mean   9.43 Std   1.40 Max  28.00
+MPV :: Stats :: Age Group 65 - 70 :: All ::  N 87095 non-zeros 87084 Median   9.30 Mean   9.44 Std   1.41 Max  30.00
+MPV :: Stats :: Age Group 70 - 75 :: All ::  N 76177 non-zeros 76167 Median   9.30 Mean   9.42 Std   1.43 Max  19.40
+MPV :: Stats :: Age Group 75 - 80 :: All ::  N 67479 non-zeros 67472 Median   9.30 Mean   9.39 Std   1.45 Max  20.30
+MPV :: Stats :: Age Group 80 - 85 :: All ::  N 54759 non-zeros 54749 Median   9.20 Mean   9.35 Std   1.46 Max  17.50
+MPV :: Stats :: Age Group 85 - 90 :: All ::  N 35387 non-zeros 35385 Median   9.20 Mean   9.33 Std   1.49 Max  28.50
+MPV :: Stats :: Age Group 90 - 95 :: All ::  N 15779 non-zeros 15776 Median   9.20 Mean   9.33 Std   1.49 Max  18.70
+MPV :: Stats :: Age Group 95 - 100 :: All ::  N 3905 non-zeros 3905 Median   9.20 Mean   9.29 Std   1.48 Max  14.50
+MPV :: General :: All     :: outliers ratio 0.000460
+MPV :: General :: All     :: N 775886 non-zeros 775796 Median   9.40 Mean   9.49 Std   1.41 Max  30.00
+MPV :: General :: All     :: distribution 0.001,0.01,0.05 ::   6.00   6.80   7.40  11.90  13.00  14.30
+MPV :: General :: All     :: quartiles ::   6.00   8.40   9.40  10.50 
+MPV :: General :: Males   :: outliers ratio 0.000523
+MPV :: General :: Males   :: N 315490 non-zeros 315451 Median   9.30 Mean   9.46 Std   1.41 Max  30.00
+MPV :: General :: Males   :: distribution 0.001,0.01,0.05 ::   6.00   6.80   7.40  11.90  12.90  14.20
+MPV :: General :: Males   :: quartiles ::   6.00   8.40   9.30  10.40 
+MPV :: General :: Females :: outliers ratio 0.000413
+MPV :: General :: Females :: N 460398 non-zeros 460345 Median   9.40 Mean   9.52 Std   1.41 Max  27.40
+MPV :: General :: Females :: distribution 0.001,0.01,0.05 ::   6.00   6.80   7.40  11.90  13.00  14.30
+MPV :: General :: Females :: quartiles ::   6.00   8.50   9.40  10.50 
+MPV :: Rounding ::  0.00 r  0.00 pct
+MPV :: Rounding ::  0.01 r  0.16 pct
+MPV :: Rounding ::  0.10 r  0.70 pct
+MPV :: Rounding ::  1.00 r  0.11 pct
+MPV :: Rounding :: 10.00 r  0.03 pct
+MPV :: Rounding :: 100.00 r  0.00 pct
+MPV :: Rounding :: 1000.00 r  0.00 pct
+MPV :: Rounding :: most popular rounding for vals:  0.10
+MPV :: Stats year :: 2000 :: All :: N 9117 non-zeros 9109 Median   9.10 Mean   9.26 Std   1.57 Max  18.80
+MPV :: Stats year :: 2001 :: All :: N 38655 non-zeros 38650 Median   9.20 Mean   9.40 Std   1.47 Max  19.80
+MPV :: Stats year :: 2002 :: All :: N 52563 non-zeros 52561 Median   9.10 Mean   9.27 Std   1.44 Max  20.50
+MPV :: Stats year :: 2003 :: All :: N 82514 non-zeros 82508 Median   9.00 Mean   9.22 Std   1.35 Max  19.60
+MPV :: Stats year :: 2004 :: All :: N 112526 non-zeros 112526 Median   9.00 Mean   9.12 Std   1.28 Max  28.00
+MPV :: Stats year :: 2005 :: All :: N 134429 non-zeros 134418 Median   9.10 Mean   9.24 Std   1.29 Max  21.50
+MPV :: Stats year :: 2006 :: All :: N 152348 non-zeros 152330 Median   9.10 Mean   9.27 Std   1.31 Max  19.00
+MPV :: Stats year :: 2007 :: All :: N 160048 non-zeros 160015 Median   9.30 Mean   9.44 Std   1.40 Max  18.00
+MPV :: Stats year :: 2008 :: All :: N 184169 non-zeros 184147 Median   9.20 Mean   9.37 Std   1.44 Max  30.00
+MPV :: Stats year :: 2009 :: All :: N 194974 non-zeros 194945 Median   9.30 Mean   9.44 Std   1.36 Max  28.50
+MPV :: Stats year :: 2010 :: All :: N 194233 non-zeros 194210 Median   9.20 Mean   9.37 Std   1.41 Max  19.30
+MPV :: Stats year :: 2011 :: All :: N 186392 non-zeros 186359 Median   9.50 Mean   9.59 Std   1.41 Max  22.50
+MPV :: Stats year :: 2012 :: All :: N 157004 non-zeros 156995 Median   9.50 Mean   9.60 Std   1.41 Max  17.30
+MPV :: Stats year :: 2013 :: All :: N 124959 non-zeros 124954 Median  10.10 Mean  10.04 Std   1.43 Max  19.00
+MPV :: Stats year :: 2014 :: All :: N 100226 non-zeros 100221 Median  10.20 Mean  10.13 Std   1.38 Max  27.40
+MPV :: Stats year :: 2015 :: All :: N 53748 non-zeros 53747 Median   9.60 Mean   9.73 Std   1.35 Max  15.80
+MPV :: Stats year :: 2016 :: All :: N 1690 non-zeros 1689 Median   9.50 Mean   9.57 Std   1.27 Max  14.00
+MPV :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+MPV :: Stats year :: 2000 :: Males   :: N 3234 non-zeros 3233 Median   9.00 Mean   9.17 Std   1.56 Max  16.90
+MPV :: Stats year :: 2001 :: Males   :: N 13649 non-zeros 13645 Median   9.10 Mean   9.34 Std   1.47 Max  19.80
+MPV :: Stats year :: 2002 :: Males   :: N 18932 non-zeros 18932 Median   9.00 Mean   9.22 Std   1.43 Max  20.50
+MPV :: Stats year :: 2003 :: Males   :: N 30276 non-zeros 30272 Median   9.00 Mean   9.17 Std   1.35 Max  19.60
+MPV :: Stats year :: 2004 :: Males   :: N 42213 non-zeros 42213 Median   8.90 Mean   9.08 Std   1.28 Max  28.00
+MPV :: Stats year :: 2005 :: Males   :: N 50422 non-zeros 50421 Median   9.00 Mean   9.20 Std   1.29 Max  19.50
+MPV :: Stats year :: 2006 :: Males   :: N 57952 non-zeros 57949 Median   9.10 Mean   9.24 Std   1.31 Max  19.00
+MPV :: Stats year :: 2007 :: Males   :: N 61500 non-zeros 61488 Median   9.30 Mean   9.40 Std   1.40 Max  18.00
+MPV :: Stats year :: 2008 :: Males   :: N 71433 non-zeros 71426 Median   9.20 Mean   9.34 Std   1.44 Max  30.00
+MPV :: Stats year :: 2009 :: Males   :: N 75836 non-zeros 75824 Median   9.30 Mean   9.40 Std   1.37 Max  28.50
+MPV :: Stats year :: 2010 :: Males   :: N 76266 non-zeros 76258 Median   9.20 Mean   9.34 Std   1.41 Max  18.50
+MPV :: Stats year :: 2011 :: Males   :: N 73311 non-zeros 73297 Median   9.50 Mean   9.56 Std   1.41 Max  18.00
+MPV :: Stats year :: 2012 :: Males   :: N 62536 non-zeros 62533 Median   9.50 Mean   9.57 Std   1.42 Max  18.20
+MPV :: Stats year :: 2013 :: Males   :: N 49219 non-zeros 49217 Median  10.10 Mean  10.02 Std   1.44 Max  19.00
+MPV :: Stats year :: 2014 :: Males   :: N 39002 non-zeros 39000 Median  10.20 Mean  10.11 Std   1.38 Max  16.00
+MPV :: Stats year :: 2015 :: Males   :: N 20973 non-zeros 20972 Median   9.60 Mean   9.70 Std   1.34 Max  15.70
+MPV :: Stats year :: 2016 :: Males   :: N 686 non-zeros 685 Median   9.50 Mean   9.58 Std   1.38 Max  14.00
+MPV :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+MPV :: Stats year :: 2000 :: Females :: N 5883 non-zeros 5876 Median   9.10 Mean   9.30 Std   1.60 Max  18.80
+MPV :: Stats year :: 2001 :: Females :: N 25006 non-zeros 25005 Median   9.20 Mean   9.43 Std   1.46 Max  17.90
+MPV :: Stats year :: 2002 :: Females :: N 33631 non-zeros 33629 Median   9.10 Mean   9.30 Std   1.44 Max  20.00
+MPV :: Stats year :: 2003 :: Females :: N 52241 non-zeros 52238 Median   9.10 Mean   9.24 Std   1.35 Max  18.70
+MPV :: Stats year :: 2004 :: Females :: N 70319 non-zeros 70319 Median   9.00 Mean   9.14 Std   1.28 Max  19.00
+MPV :: Stats year :: 2005 :: Females :: N 84006 non-zeros 83999 Median   9.10 Mean   9.27 Std   1.29 Max  21.50
+MPV :: Stats year :: 2006 :: Females :: N 94396 non-zeros 94384 Median   9.20 Mean   9.30 Std   1.31 Max  18.40
+MPV :: Stats year :: 2007 :: Females :: N 98548 non-zeros 98531 Median   9.30 Mean   9.46 Std   1.40 Max  16.00
+MPV :: Stats year :: 2008 :: Females :: N 112736 non-zeros 112723 Median   9.30 Mean   9.39 Std   1.44 Max  17.80
+MPV :: Stats year :: 2009 :: Females :: N 119138 non-zeros 119123 Median   9.40 Mean   9.47 Std   1.36 Max  19.80
+MPV :: Stats year :: 2010 :: Females :: N 117970 non-zeros 117952 Median   9.20 Mean   9.38 Std   1.41 Max  19.30
+MPV :: Stats year :: 2011 :: Females :: N 113079 non-zeros 113062 Median   9.50 Mean   9.61 Std   1.40 Max  17.60
+MPV :: Stats year :: 2012 :: Females :: N 94468 non-zeros 94462 Median   9.60 Mean   9.61 Std   1.41 Max  17.30
+MPV :: Stats year :: 2013 :: Females :: N 75738 non-zeros 75735 Median  10.10 Mean  10.06 Std   1.43 Max  18.00
+MPV :: Stats year :: 2014 :: Females :: N 61225 non-zeros 61222 Median  10.20 Mean  10.14 Std   1.37 Max  27.40
+MPV :: Stats year :: 2015 :: Females :: N 32776 non-zeros 32776 Median   9.60 Mean   9.74 Std   1.35 Max  15.80
+MPV :: Stats year :: 2016 :: Females :: N 1004 non-zeros 1004 Median   9.50 Mean   9.56 Std   1.20 Max  13.70
+MPV :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+MPV :: Stats month 1 :: All :: N 128337 non-zeros 128319 Median   9.40 Mean   9.50 Std   1.41 Max  27.40
+MPV :: Stats month 2 :: All :: N 124273 non-zeros 124256 Median   9.50 Mean   9.55 Std   1.41 Max  17.50
+MPV :: Stats month 3 :: All :: N 133129 non-zeros 133115 Median   9.40 Mean   9.54 Std   1.42 Max  22.50
+MPV :: Stats month 4 :: All :: N 122225 non-zeros 122207 Median   9.40 Mean   9.49 Std   1.43 Max  28.00
+MPV :: Stats month 5 :: All :: N 126013 non-zeros 125996 Median   9.40 Mean   9.50 Std   1.43 Max  18.50
+MPV :: Stats month 6 :: All :: N 129695 non-zeros 129677 Median   9.40 Mean   9.47 Std   1.42 Max  21.30
+MPV :: Stats month 7 :: All :: N 131334 non-zeros 131313 Median   9.40 Mean   9.47 Std   1.43 Max  19.80
+MPV :: Stats month 8 :: All :: N 124488 non-zeros 124471 Median   9.40 Mean   9.49 Std   1.44 Max  20.30
+MPV :: Stats month 9 :: All :: N 129538 non-zeros 129519 Median   9.40 Mean   9.50 Std   1.45 Max  31.10
+MPV :: Stats month 10 :: All :: N 130140 non-zeros 130122 Median   9.40 Mean   9.51 Std   1.42 Max  29.50
+MPV :: Stats month 11 :: All :: N 125784 non-zeros 125756 Median   9.40 Mean   9.51 Std   1.41 Max  30.00
+MPV :: Stats month 12 :: All :: N 103582 non-zeros 103575 Median   9.40 Mean   9.52 Std   1.41 Max  19.00
+

@@ -1,0 +1,215 @@
+signal	event_type	filter_field	filter_value	rambam_signal_name	chanel1	chanel2	chanel3	unit_field
+AlbuminELCP%	ev_lab_results_numeric	testcode	802006010	0: 802006010~1: Albumin (ELCP)-BL % 	collectiondate	resultdate	valueconversion	valueunitcode
+Albumin	ev_lab_results_numeric	testcode	882040010	0: 882040010~1: Albumin-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+ALP	ev_lab_results_numeric	testcode	884075010	0: 884075010~1: Alkaline Phosphatase-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Alpha1Globulin	ev_lab_results_numeric	testcode	802007010	0: 802007010~1: alpha1-globulin % (EP) - blood 	collectiondate	resultdate	valueconversion	valueunitcode
+Alpha2Globulin	ev_lab_results_numeric	testcode	802009010	0: 802009010~1: alpha2-globulin % (EP) - blood 	collectiondate	resultdate	valueconversion	valueunitcode
+ALT	ev_lab_results_numeric	testcode	884460010	0: 884460010~1: ALT (GPT)-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Amylase	ev_lab_results_numeric	testcode	882150010	0: 882150010~1: Amylase-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Amylase	ev_lab_results_numeric	testcode	882150040	0: 882150040~1: Amylase-UR 	collectiondate	resultdate	valueconversion	valueunitcode
+AST	ev_lab_results_numeric	testcode	884450010	0: 884450010~1: AST(GOT)-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Atypical_Lymphocytes	ev_lab_results_numeric	testcode	805116010	0: 805116010~1: Atypical Lymphocytes (manual)  % 	collectiondate	resultdate	valueconversion	valueunitcode
+B12	ev_lab_results_numeric	testcode	882607010	0: 882607010~1: Vitamin B12 	collectiondate	resultdate	valueconversion	valueunitcode
+Bands%	ev_lab_results_numeric	testcode	805111010	0: 805111010~1: Band (manual) % 	collectiondate	resultdate	valueconversion	valueunitcode
+Bands#	ev_lab_results_numeric	testcode	805985010	0: 805985010~1: Bands (manual) - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Base_excess	ev_lab_results_numeric	testcode	1001305	0: 1001305~1: Base excess (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+Base_excess	ev_lab_results_numeric	testcode	803558140	0: 803558140~1: Base excess 	collectiondate	resultdate	valueconversion	valueunitcode
+Basophils#	ev_lab_results_numeric	testcode	805025010	0: 805025010~1: Basophils - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Basophils#	ev_lab_results_numeric	testcode	805989010	0: 805989010~1: Basophils[unsupported character] (manual) - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Basophils%	ev_lab_results_numeric	testcode	805019010	0: 805019010~1: Basophils % 	collectiondate	resultdate	valueconversion	valueunitcode
+Basophils%	ev_lab_results_numeric	testcode	805105010	0: 805105010~1: Basophils (manual) % 	collectiondate	resultdate	valueconversion	valueunitcode
+BetaGlobulin	ev_lab_results_numeric	testcode	802015010	0: 802015010~1: beta-globulin % (EP) - blood 	collectiondate	resultdate	valueconversion	valueunitcode
+Bicarbonate	ev_lab_results_numeric	testcode	1001304	0: 1001304~1: Bicarbonate (HCO3) (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+Bicarbonate	ev_lab_results_numeric	testcode	803556140	0: 803556140~1: Bicarbonate (HCO3) 	collectiondate	resultdate	valueconversion	valueunitcode
+Bilirubin	ev_lab_results_numeric	testcode	882247010	0: 882247010~1: Bilirubin Total-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Bilirubin_Direct	ev_lab_results_numeric	testcode	882248010	0: 882248010~1: Bilirubin Direct-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_RBC	ev_lab_results_numeric	testcode	801019400	0: 801019400~1: Blood-UR-Strip 	collectiondate	resultdate	valueconversion	valueunitcode
+BNP	ev_lab_results_numeric	testcode	803176010	0: 803176010~1: B-Type Natriuretic Peptide (BNP)-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Ca	ev_lab_results_numeric	testcode	882310010	0: 882310010~1: Calcium-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+freeCalcium	ev_lab_results_numeric	testcode	1001306	0: 1001306~1: Calcium++ (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+freeCalcium	ev_lab_results_numeric	testcode	882330140	0: 882330140~1: Calcium++ 	collectiondate	resultdate	valueconversion	valueunitcode
+Cl	ev_lab_results_numeric	testcode	882435010	0: 882435010~1: Chloride-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Cholesterol	ev_lab_results_numeric	testcode	882465010	0: 882465010~1: Cholesterol-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+C3	ev_lab_results_numeric	testcode	886160010	0: 886160010~1: Complement C3-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+C4	ev_lab_results_numeric	testcode	805853010	0: 805853010~1: Complement C4-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Creatinine	ev_lab_results_numeric	testcode	882565010	0: 882565010~1: Creatinine-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Creatine_Kinase	ev_lab_results_numeric	testcode	882550010	0: 882550010~1: Creatine Kinase (CK)-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Creatinine_24h	ev_lab_results_numeric	testcode	882570950	0: 882570950~1: Creatinine-UR/24h 	collectiondate	resultdate	valueconversion	valueunitcode
+CRP	ev_lab_results_numeric	testcode	802076010	0: 802076010~1: C-Reactive Protein-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Cyclosporine	ev_lab_results_numeric	testcode	880158010	0: 880158010~1: Cyclosporine - blood 	collectiondate	resultdate	valueconversion	valueunitcode
+D_DIMER	ev_lab_results_numeric	testcode	806331010	0: 806331010~1: D-Dimer (FEU) 	collectiondate	resultdate	valueconversion	valueunitcode
+Eosinophils#	ev_lab_results_numeric	testcode	805024010	0: 805024010~1: Eosinophils - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Eosinophils#	ev_lab_results_numeric	testcode	805988010	0: 805988010~1: Eosinophils (manual) - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Eosinophils%	ev_lab_results_numeric	testcode	805018010	0: 805018010~1: Eosinophils % 	collectiondate	resultdate	valueconversion	valueunitcode
+Eosinophils%	ev_lab_results_numeric	testcode	805104010	0: 805104010~1: Eosinophils (manual) % 	collectiondate	resultdate	valueconversion	valueunitcode
+ESR	ev_lab_results_numeric	testcode	805323010	0: 805323010~1: ERYTHROCYTE SEDIMENTATION RATE 	collectiondate	resultdate	valueconversion	valueunitcode
+Ferritin	ev_lab_results_numeric	testcode	882728010	0: 882728010~1: Ferritin-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Fibrinogen	ev_lab_results_numeric	testcode	885384010	0: 885384010~1: Fibrinogen 	collectiondate	resultdate	valueconversion	valueunitcode
+Folate	ev_lab_results_numeric	testcode	882746010	0: 882746010~1: Folic Acid 	collectiondate	resultdate	valueconversion	valueunitcode
+FreeT4	ev_lab_results_numeric	testcode	884439010	0: 884439010~1: FT4 (thyroxine), free 	collectiondate	resultdate	valueconversion	valueunitcode
+Hemoglobin	ev_lab_results_numeric	testcode	885018010	0: 885018010~1: HGB 	collectiondate	resultdate	valueconversion	valueunitcode
+GammaGlobulin	ev_lab_results_numeric	testcode	802042010	0: 802042010~1: gamma-Globulin (ELCP)-BL % 	collectiondate	resultdate	valueconversion	valueunitcode
+GGT	ev_lab_results_numeric	testcode	882977010	0: 882977010~1: Gamma Glutamyl Transpeptidase (GGT)-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Glucose	ev_lab_results_numeric	testcode	1001308	0: 1001308~1: Glucose-BL (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+Glucose	ev_lab_results_numeric	testcode	802194140	0: 802194140~1: Glucose (glucometer) - whole blood 	collectiondate	resultdate	valueconversion	valueunitcode
+Glucose	ev_lab_results_numeric	testcode	882947010	0: 882947010~1: Glucose-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Glucose	ev_lab_results_numeric	testcode	801030400	0: 801030400~1: Glucose-UR-Strip 	collectiondate	resultdate	valueconversion	valueunitcode
+HbA1C	ev_lab_results_numeric	testcode	883036010	0: 883036010~1: Hemoglobin A1C - blood 	collectiondate	resultdate	valueconversion	valueunitcode
+HbA1C	ev_lab_results_numeric	testcode	883036970	0: 883036970~1: Hemoglobin A1C % - blood 	collectiondate	resultdate	valueconversion	valueunitcode
+HDL	ev_lab_results_numeric	testcode	883718010	0: 883718010~1: HDL-Cholesterol-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+HDW	ev_lab_results_numeric	testcode	805010010	0: 805010010~1: HDW 	collectiondate	resultdate	valueconversion	valueunitcode
+Hematocrit	ev_lab_results_numeric	testcode	1001312	0: 1001312~1: HCT (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+Hematocrit	ev_lab_results_numeric	testcode	805004010	0: 805004010~1: HCT 	collectiondate	resultdate	valueconversion	valueunitcode
+Hemoglobin	ev_lab_results_numeric	testcode	1001313	0: 1001313~1: HGB (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+Hyperchromia	ev_lab_results_numeric	testcode	805042010	0: 805042010~1: Hyperchromia 	collectiondate	resultdate	valueconversion	valueunitcode
+Hypochromia	ev_lab_results_numeric	testcode	805041010	0: 805041010~1: Hypochromia 	collectiondate	resultdate	valueconversion	valueunitcode
+IgA	ev_lab_results_numeric	testcode	805412010	0: 805412010~1: IgA 	collectiondate	resultdate	valueconversion	valueunitcode
+IgG	ev_lab_results_numeric	testcode	805410010	0: 805410010~1: IgG 	collectiondate	resultdate	valueconversion	valueunitcode
+IgM	ev_lab_results_numeric	testcode	805411010	0: 805411010~1: IgM 	collectiondate	resultdate	valueconversion	valueunitcode
+Immature_Granulocytes%	ev_lab_results_numeric	testcode	805980010	0: 805980010~1: Immature Granulocytes % 	collectiondate	resultdate	valueconversion	valueunitcode
+Immature_Granulocytes#	ev_lab_results_numeric	testcode	805979010	0: 805979010~1: Immature Granulocytes - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+ImmatureReticulocyteFraction	ev_lab_results_numeric	testcode	805705010	0: 805705010~1: Immature Reticulocyte Fraction (IRF) 	collectiondate	resultdate	valueconversion	valueunitcode
+Phosphate	ev_lab_results_numeric	testcode	884100010	0: 884100010~1: Inorganic Phosphate-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+INR	ev_lab_results_numeric	testcode	806468010	0: 806468010~1: INR 	collectiondate	resultdate	valueconversion	valueunitcode
+Iron_Fe	ev_lab_results_numeric	testcode	883540010	0: 883540010~1: Iron-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Ketone	ev_lab_results_numeric	testcode	882009400	0: 882009400~1: Ketones-UR strip 	collectiondate	resultdate	valueconversion	valueunitcode
+Lactate	ev_lab_results_numeric	testcode	1001309	0: 1001309~1: Lactate (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+Lactate	ev_lab_results_numeric	testcode	883605140	0: 883605140~1: Lactate 	collectiondate	resultdate	valueconversion	valueunitcode
+LDH	ev_lab_results_numeric	testcode	883615010	0: 883615010~1: Lactate Dehydrogenase (LDH)-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+LDL	ev_lab_results_numeric	testcode	802152970	0: 802152970~1: LDL Cholesterol (Calc)-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_WBC	ev_lab_results_numeric	testcode	805001400	0: 805001400~1: Leucocytes-UR-Strip 	collectiondate	resultdate	valueconversion	valueunitcode
+LUC	ev_lab_results_numeric	testcode	805026010	0: 805026010~1: Large unstained cells- abs 	collectiondate	resultdate	valueconversion	valueunitcode
+LUC	ev_lab_results_numeric	testcode	ALUC	0: ALUC~1: LARGE UNSTAINED CELLS (ABS)	collectiondate	resultdate	valueconversion	valueunitcode
+LUC%	ev_lab_results_numeric	testcode	805020010	0: 805020010~1: Large unstained cells% 	collectiondate	resultdate	valueconversion	valueunitcode
+Lymphocytes#	ev_lab_results_numeric	testcode	805022010	0: 805022010~1: Lymphocytes - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Lymphocytes#	ev_lab_results_numeric	testcode	805986010	0: 805986010~1: Lymphocytes (manual)  - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Lymphocytes#	ev_lab_results_numeric	testcode	ALMP	0: ALMP~1: LYMHOCYTES (ABS)	collectiondate	resultdate	valueconversion	valueunitcode
+Lymphocytes%	ev_lab_results_numeric	testcode	805016010	0: 805016010~1: Lymphocytes % 	collectiondate	resultdate	valueconversion	valueunitcode
+Lymphocytes%	ev_lab_results_numeric	testcode	805102010	0: 805102010~1: Lymphocytes (manual) % 	collectiondate	resultdate	valueconversion	valueunitcode
+Macrocytosis	ev_lab_results_numeric	testcode	805038010	0: 805038010~1: Macrocytosis 	collectiondate	resultdate	valueconversion	valueunitcode
+Mg	ev_lab_results_numeric	testcode	883735010	0: 883735010~1: Magnesium-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Mg++	ev_lab_results_numeric	testcode	802455010	0: 802455010~1: Magnesium++ 	collectiondate	resultdate	valueconversion	valueunitcode
+MCH	ev_lab_results_numeric	testcode	805006010	0: 805006010~1: MCH 	collectiondate	resultdate	valueconversion	valueunitcode
+MCHC-M	ev_lab_results_numeric	testcode	805007010	0: 805007010~1: MCHC 	collectiondate	resultdate	valueconversion	valueunitcode
+MCV	ev_lab_results_numeric	testcode	805005010	0: 805005010~1: MCV 	collectiondate	resultdate	valueconversion	valueunitcode
+Microcytosis	ev_lab_results_numeric	testcode	805037010	0: 805037010~1: Microcytosis 	collectiondate	resultdate	valueconversion	valueunitcode
+Monocytes#	ev_lab_results_numeric	testcode	805023010	0: 805023010~1: Monocytes - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Monocytes#	ev_lab_results_numeric	testcode	805987010	0: 805987010~1: Monocytes (manual) - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Monocytes%	ev_lab_results_numeric	testcode	805011010	0: 805011010~1: MID% 	collectiondate	resultdate	valueconversion	valueunitcode
+Monocytes%	ev_lab_results_numeric	testcode	805017010	0: 805017010~1: Monocytes % 	collectiondate	resultdate	valueconversion	valueunitcode
+Monocytes%	ev_lab_results_numeric	testcode	805103010	0: 805103010~1: Monocytes (manual) % 	collectiondate	resultdate	valueconversion	valueunitcode
+Monocytes%	ev_lab_results_numeric	testcode	MID	0: MID~1: MID	collectiondate	resultdate	valueconversion	valueunitcode
+MPV	ev_lab_results_numeric	testcode	805012010	0: 805012010~1: MPV 	collectiondate	resultdate	valueconversion	valueunitcode
+Myelocytes%	ev_lab_results_numeric	testcode	805110010	0: 805110010~1: Myelocytes (manual) % 	collectiondate	resultdate	valueconversion	valueunitcode
+Na	ev_lab_results_numeric	testcode	1001311	0: 1001311~1: Sodium-BL (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+Na	ev_lab_results_numeric	testcode	884295010	0: 884295010~1: Sodium-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Neutrophils#	ev_lab_results_numeric	testcode	805021010	0: 805021010~1: Neutrophils - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Neutrophils#	ev_lab_results_numeric	testcode	805021970	0: 805021970~1: Neutrophils (manual) # 	collectiondate	resultdate	valueconversion	valueunitcode
+Neutrophils%	ev_lab_results_numeric	testcode	805015010	0: 805015010~1: Neutrophils % 	collectiondate	resultdate	valueconversion	valueunitcode
+Neutrophils%	ev_lab_results_numeric	testcode	805101010	0: 805101010~1: Neutrophils (manual) % 	collectiondate	resultdate	valueconversion	valueunitcode
+NonHDLCholesterol	ev_lab_results_numeric	testcode	802211010	0: 802211010~1: Non HDL cholesterol - blood 	collectiondate	resultdate	valueconversion	valueunitcode
+NRBC	ev_lab_results_numeric	testcode	805701010	0: 805701010~1: NRBC - abs 	collectiondate	resultdate	valueconversion	valueunitcode
+NRBC%	ev_lab_results_numeric	testcode	805699010	0: 805699010~1: NRBC % 	collectiondate	resultdate	valueconversion	valueunitcode
+Osmolarity	ev_lab_results_numeric	testcode	883930010	0: 883930010~1: Osmolarity-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Osmolarity	ev_lab_results_numeric	testcode	883935040	0: 883935040~1: Osmolarity-UR 	collectiondate	resultdate	valueconversion	valueunitcode
+PCO2	ev_lab_results_numeric	testcode	1001302	0: 1001302~1: PCO2 (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+PCO2	ev_lab_results_numeric	testcode	803554140	0: 803554140~1: PCO2 	collectiondate	resultdate	valueconversion	valueunitcode
+PDW	ev_lab_results_numeric	testcode	805013010	0: 805013010~1: PDW 	collectiondate	resultdate	valueconversion	valueunitcode
+pH	ev_lab_results_numeric	testcode	1001301	0: 1001301~1: PH (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+pH	ev_lab_results_numeric	testcode	803553140	0: 803553140~1: PH 	collectiondate	resultdate	valueconversion	valueunitcode
+Plateletcrit	ev_lab_results_numeric	testcode	805014010	0: 805014010~1: PCT 	collectiondate	resultdate	valueconversion	valueunitcode
+Platelets	ev_lab_results_numeric	testcode	885049010	0: 885049010~1: PLATELET 	collectiondate	resultdate	valueconversion	valueunitcode
+PO2	ev_lab_results_numeric	testcode	1001303	0: 1001303~1: PO2 (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+PO2	ev_lab_results_numeric	testcode	803555140	0: 803555140~1: PO2 	collectiondate	resultdate	valueconversion	valueunitcode
+K+	ev_lab_results_numeric	testcode	1001310	0: 1001310~1: Potassium-BL (POC) 	collectiondate	resultdate	valueconversion	valueunitcode
+K+	ev_lab_results_numeric	testcode	884132010	0: 884132010~1: Potassium-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Potassium	ev_lab_results_numeric	testcode	884133040	0: 884133040~1: Potassium-UR 	collectiondate	resultdate	valueconversion	valueunitcode
+PT	ev_lab_results_numeric	testcode	806469010	0: 806469010~1: PT 	collectiondate	resultdate	valueconversion	valueunitcode
+PTH	ev_lab_results_numeric	testcode	883970010	0: 883970010~1: PTH parathyroid horm.Intact 	collectiondate	resultdate	valueconversion	valueunitcode
+PTT	ev_lab_results_numeric	testcode	885730010	0: 885730010~1: A-PTT 	collectiondate	resultdate	valueconversion	valueunitcode
+RBC	ev_lab_results_numeric	testcode	885041010	0: 885041010~1: RBC 	collectiondate	resultdate	valueconversion	valueunitcode
+RDW	ev_lab_results_numeric	testcode	805009010	0: 805009010~1: RDW 	collectiondate	resultdate	valueconversion	valueunitcode
+Reticulocytes#	ev_lab_results_numeric	testcode	805057010	0: 805057010~1: Reticulocytes abs 	collectiondate	resultdate	valueconversion	valueunitcode
+Reticulocytes%	ev_lab_results_numeric	testcode	805056010	0: 805056010~1: Reticulocytes % 	collectiondate	resultdate	valueconversion	valueunitcode
+SO2	ev_lab_results_numeric	testcode	803559140	0: 803559140~1: SO2 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Spec_Gravity	ev_lab_results_numeric	testcode	801032400	0: 801032400~1: Specific Gravity-UR Strip 	collectiondate	resultdate	valueconversion	valueunitcode
+Tacrolimus_FK	ev_lab_results_numeric	testcode	880197010	0: 880197010~1: Tacrolimus - blood 	collectiondate	resultdate	valueconversion	valueunitcode
+Protein_Total	ev_lab_results_numeric	testcode	884155010	0: 884155010~1: Total Protein-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Transferrin	ev_lab_results_numeric	testcode	884466010	0: 884466010~1: Transferrin-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Transferrin_Saturation_Index	ev_lab_results_numeric	testcode	884466970	0: 884466970~1: Transferrin, Saturation-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Triglycerides	ev_lab_results_numeric	testcode	884478010	0: 884478010~1: Triglycerides-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+TroponinI	ev_lab_results_numeric	testcode	884484010	0: 884484010~1: Troponine-I 	collectiondate	resultdate	valueconversion	valueunitcode
+TSH	ev_lab_results_numeric	testcode	884443010	0: 884443010~1: TSH-Thyroid stimulating horm 	collectiondate	resultdate	valueconversion	valueunitcode
+BUN	ev_lab_results_numeric	testcode	802021010	0: 802021010~1: Blood Urea Nitrogen-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Uric_Acid	ev_lab_results_numeric	testcode	884550010	0: 884550010~1: Uric Acid-BL 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_PH	ev_lab_results_numeric	testcode	801067400	0: 801067400~1: pH-UR Strip 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Bilirubin	ev_lab_results_numeric	testcode	801018400	0: 801018400~1: Bilirubin- UR-Strip 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Creatinine	ev_lab_results_numeric	testcode	882570040	0: 882570040~1: Creatinine-UR 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Sodium	ev_lab_results_numeric	testcode	884300040	0: 884300040~1: Sodium-UR 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Total_Protein	ev_lab_results_numeric	testcode	801012400	0: 801012400~1: Protein-UR-Strip 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Total_Protein	ev_lab_results_numeric	testcode	884155040	0: 884155040~1: Protein-UR 	collectiondate	resultdate	valueconversion	valueunitcode
+Urine_Urobilinogen	ev_lab_results_numeric	testcode	884583400	0: 884583400~1: Urobilinogen-UR Strip 	collectiondate	resultdate	valueconversion	valueunitcode
+WBC	ev_lab_results_numeric	testcode	805001010	0: 805001010~1: WBC 	collectiondate	resultdate	valueconversion	valueunitcode
+BLASTS	ev_lab_results_numeric	testcode	BLAF	0: BLAF~1: BLASTS FLAG	collectiondate	resultdate	valueconversion	valueunitcode
+Cyclosporine_level	ev_lab_results_numeric	testcode	CYA	0: CYA~1: CYA-CYCLOSPORINE PARENT DRUG	collectiondate	resultdate	valueconversion	valueunitcode
+IGFL	ev_lab_results_numeric	testcode	IGFL	0: IGFL~1: IG	collectiondate	resultdate	valueconversion	valueunitcode
+LOBULARITY_INDEX	ev_lab_results_numeric	testcode	LOBI	0: LOBI~1: LOBULARITY INDEX	collectiondate	resultdate	valueconversion	valueunitcode
+MPXI	ev_lab_results_numeric	testcode	MPXI	0: MPXI~1: MYELOPEROXIDASE INDEX	collectiondate	resultdate	valueconversion	valueunitcode
+BMI	ev_measurements_numeric	measurementcode	122	0: 122~1: BMI 	Time	measurementdate	result	resultunits
+BMI	ev_measurements_numeric	measurementcode	282	0: 282~1: BMI אישפוז 	Time	measurementdate	result	resultunits
+BOWEL_MOV_COUNT	ev_measurements_numeric	measurementcode	73	0: 73~1: יציאות מס' 	Time	measurementdate	result	resultunits
+CVP	ev_measurements_numeric	measurementcode	8	0: 8~1: CVP 	Time	measurementdate	result	resultunits
+CPOT	ev_measurements_numeric	measurementcode	855	"0: 855~1: CPOT סכ""ה "	Time	measurementdate	result	resultunits
+CPOT	ev_measurements_numeric	measurementcode	88	0: 88~1: CPOT 	Time	measurementdate	result	resultunits
+Arterial_BP_Dia	ev_measurements_numeric	measurementcode	493	0: 493~1: עורקי דיאסטולי 	Time	measurementdate	result	resultunits
+Arterial_BP_Dia	ev_measurements_numeric	measurementcode	7	0: 7~1: דיאסטולי 	Time	measurementdate	result	resultunits
+ETCO2	ev_measurements_numeric	measurementcode	20	0: 20~1: ETCO2 	Time	measurementdate	result	resultunits
+Fluid_Balance	ev_measurements_numeric	measurementcode	435	"0: 435~1: מאזן נוזלים סה""כ 4 "	Time	measurementdate	result	resultunits
+Glucose	ev_measurements_numeric	measurementcode	14	0: 14~1: עקומת סוכר 	Time	measurementdate	result	resultunits
+Height	ev_measurements_numeric	measurementcode	33	0: 33~1: גובה 	Time	measurementdate	result	resultunits
+IV_FLUIDS	ev_measurements_numeric	measurementcode	225	0: 225~1: נוזלים IV 	Time	measurementdate	result	resultunits
+Arterial_BP_Mean	ev_measurements_numeric	measurementcode	129	0: 129~1: MAP 	Time	measurementdate	result	resultunits
+Pain_FLACC	ev_measurements_numeric	measurementcode	18	0: 18~1: אמדן כאב FLACC 	Time	measurementdate	result	resultunits
+Pain_FLACC	ev_measurements_numeric	measurementcode	850	0: 850~1: ניקוד אמדן כאב FLACC 	Time	measurementdate	result	resultunits
+PerZondaFluids	ev_measurements_numeric	measurementcode	234	0: 234~1: נוזלים P.Z 	Time	measurementdate	result	resultunits
+Resp_Rate	ev_measurements_numeric	measurementcode	4	0: 4~1: מס נשימות 	Time	measurementdate	result	resultunits
+SaO2_OXIGEN	ev_measurements_numeric	measurementcode	16	0: 16~1: סטורציה עם חמצן  	Time	measurementdate	result	resultunits
+SaO2_ROOMAIR	ev_measurements_numeric	measurementcode	17	0: 17~1: סטורציה אוויר חדר 	Time	measurementdate	result	resultunits
+SaO2_VENTILATED	ev_measurements_numeric	measurementcode	100	0: 100~1: סטורציה למונשם 	Time	measurementdate	result	resultunits
+Arterial_BP_Sys	ev_measurements_numeric	measurementcode	494	0: 494~1: עורקי סיסטולי 	Time	measurementdate	result	resultunits
+Arterial_BP_Sys	ev_measurements_numeric	measurementcode	6	0: 6~1: סיסטולי 	Time	measurementdate	result	resultunits
+Temperature	ev_measurements_numeric	measurementcode	11	0: 11~1: חום PO 	Time	measurementdate	result	resultunits
+Temperature	ev_measurements_numeric	measurementcode	467	0: 467~1: חום פריפרי 	Time	measurementdate	result	resultunits
+Temperature	ev_measurements_numeric	measurementcode	10	0: 10~1: חום PR 	Time	measurementdate	result	resultunits
+Temperature	ev_measurements_numeric	measurementcode	12	0: 12~1: חום PA 	Time	measurementdate	result	resultunits
+Temperature	ev_measurements_numeric	measurementcode	230	0: 230~1: חום כללי 	Time	measurementdate	result	resultunits
+UF	ev_measurements_numeric	measurementcode	45	0: 45~1: UF 	Time	measurementdate	result	resultunits
+Urine_Catheter	ev_measurements_numeric	measurementcode	625	0: 625~1: שתן קטטר 	Time	measurementdate	result	resultunits
+Urine_Per_Hour	ev_measurements_numeric	measurementcode	523	0: 523~1: שתן כמות לשעה 	Time	measurementdate	result	resultunits
+Urine_Vol	ev_measurements_numeric	measurementcode	9	0: 9~1: כמות שתן 	Time	measurementdate	result	resultunits
+VAS	ev_measurements_numeric	measurementcode	36	0: 36~1: אמדן כאב VAS 	Time	measurementdate	result	resultunits
+VAS	ev_measurements_numeric	measurementcode	53	0: 53~1: אמדן כאב VAS במנוחה 	Time	measurementdate	result	resultunits
+VAS_MOVEMENT	ev_measurements_numeric	measurementcode	54	0: 54~1: אמדן כאב בתנועה VAS 	Time	measurementdate	result	resultunits
+VENOUS_BP	ev_measurements_numeric	measurementcode	58	0: 58~1: לחץ ורידי 	Time	measurementdate	result	resultunits
+Weight	ev_measurements_numeric	measurementcode	32	0: 32~1: משקל 	Time	measurementdate	result	resultunits
+Weight_delta	ev_measurements_numeric	measurementcode	172	0: 172~1: הפרש משקל 	Time	measurementdate	result	resultunits
+Weight	ev_measurements_numeric	measurementcode	57	0: 57~1: משקל סיום 	Time	measurementdate	result	resultunits
+Weight	ev_measurements_numeric	measurementcode	56	0: 56~1: משקל התחלתי 	Time	measurementdate	result	resultunits
+Heart_Rate	ev_measurements_numeric	measurementcode	2	0: 2~1: דופק 	Time	measurementdate	result	resultunits
+DEATH	ev_deceased				deceaseddate			
+GENDER	demographics				gendercode			
+BYEAR	demographics				birthdate			
+BDATE	demographics				birthdate			
+ETHNICITY	demographics				nationality			
+INSURANCE	demographics				hmo			
+CONSULTATION	ev_consultations				orderdate	consultdate	consultingdepartment	
+DIAGNOSIS	ev_diagnoses				startdate	conditioncode	sequencenumber	
+DIAGNOSIS_PRIMARY	ev_diagnoses	sequencenumber	1		startdate	conditioncode	
+DIAGNOSIS_SECONDARY	ev_diagnoses	sequencenumber	2		startdate	conditioncode	
+DIAGNOSIS_PAST	ev_diagnoses	sequencenumber	8		startdate	conditioncode	
+ADMISSION	ev_admissions				startdate	enddate	admissionsourcecode	
+VISIT	ev_outpatient_visits				startdate	departmentcode	visittype	
+STAY	ev_transfers				startdate	enddate	departmentcode	
+PROCEDURE	ev_institutes				dateperformed	servicecode		
+PROCEDURE	ev_procedures				startdate	servicecode		
+SURGERY	ev_surgeries				executiondate	performedprocedurecode	surgerytype	

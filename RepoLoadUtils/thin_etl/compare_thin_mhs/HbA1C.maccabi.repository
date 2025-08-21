@@ -1,0 +1,162 @@
+HbA1C :: All :: With Values :: 556605 / 1279479 =  0.44 :: 556605 / 556605 =  1.00
+HbA1C :: Males :: With Values :: 265901 / 622859 =  0.43 :: 265901 / 556605 =  0.48
+HbA1C :: Females :: With Values :: 290704 / 656620 =  0.44 :: 290704 / 556605 =  0.52
+HbA1C :: General :: No. of Values :: All 3504800 Male 1732228 Female 1772572
+HbA1C :: General :: No. of different days Values :: All 3504452 Male 1732058 Female 1772394
+HbA1C :: General :: Avg #values per person (all) :: All  2.74 Male  2.78 Female  2.70
+HbA1C :: General :: Avg #values per person (>0)  :: All  6.30 Male  6.51 Female  6.10
+HbA1C :: General :: Avg dist between tests       :: All  327.1 Male  317.1 Female  337.1
+HbA1C :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+HbA1C :: Counts :: Age Group 25 - 30 :: All ::    122 0.000
+HbA1C :: Counts :: Age Group 30 - 35 :: All ::   4651 0.001
+HbA1C :: Counts :: Age Group 35 - 40 :: All ::  15757 0.004
+HbA1C :: Counts :: Age Group 40 - 45 :: All ::  37043 0.011
+HbA1C :: Counts :: Age Group 45 - 50 :: All ::  49733 0.014
+HbA1C :: Counts :: Age Group 50 - 55 :: All ::  67828 0.019
+HbA1C :: Counts :: Age Group 55 - 60 :: All ::  90245 0.026
+HbA1C :: Counts :: Age Group 60 - 65 :: All :: 102381 0.029
+HbA1C :: Counts :: Age Group 65 - 70 :: All :: 103155 0.029
+HbA1C :: Counts :: Age Group 70 - 75 :: All ::  82474 0.024
+HbA1C :: Counts :: Age Group 75 - 80 :: All ::  71407 0.020
+HbA1C :: Counts :: Age Group 80 - 85 :: All ::  44605 0.013
+HbA1C :: Counts :: Age Group 85 - 90 :: All ::  22426 0.006
+HbA1C :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+HbA1C :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+HbA1C :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+HbA1C :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+HbA1C :: Counts :: Age Group 25 - 30 :: Males ::     32 0.000
+HbA1C :: Counts :: Age Group 30 - 35 :: Males ::   1492 0.001
+HbA1C :: Counts :: Age Group 35 - 40 :: Males ::   6451 0.004
+HbA1C :: Counts :: Age Group 40 - 45 :: Males ::  18200 0.011
+HbA1C :: Counts :: Age Group 45 - 50 :: Males ::  26888 0.016
+HbA1C :: Counts :: Age Group 50 - 55 :: Males ::  37037 0.021
+HbA1C :: Counts :: Age Group 55 - 60 :: Males ::  46857 0.027
+HbA1C :: Counts :: Age Group 60 - 65 :: Males ::  52039 0.030
+HbA1C :: Counts :: Age Group 65 - 70 :: Males ::  50875 0.029
+HbA1C :: Counts :: Age Group 70 - 75 :: Males ::  40062 0.023
+HbA1C :: Counts :: Age Group 75 - 80 :: Males ::  33284 0.019
+HbA1C :: Counts :: Age Group 80 - 85 :: Males ::  19961 0.012
+HbA1C :: Counts :: Age Group 85 - 90 :: Males ::   9423 0.005
+HbA1C :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+HbA1C :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+HbA1C :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+HbA1C :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+HbA1C :: Counts :: Age Group 25 - 30 :: Females ::     90 0.000
+HbA1C :: Counts :: Age Group 30 - 35 :: Females ::   3159 0.002
+HbA1C :: Counts :: Age Group 35 - 40 :: Females ::   9306 0.005
+HbA1C :: Counts :: Age Group 40 - 45 :: Females ::  18843 0.011
+HbA1C :: Counts :: Age Group 45 - 50 :: Females ::  22845 0.013
+HbA1C :: Counts :: Age Group 50 - 55 :: Females ::  30791 0.017
+HbA1C :: Counts :: Age Group 55 - 60 :: Females ::  43388 0.024
+HbA1C :: Counts :: Age Group 60 - 65 :: Females ::  50342 0.028
+HbA1C :: Counts :: Age Group 65 - 70 :: Females ::  52280 0.029
+HbA1C :: Counts :: Age Group 70 - 75 :: Females ::  42412 0.024
+HbA1C :: Counts :: Age Group 75 - 80 :: Females ::  38123 0.022
+HbA1C :: Counts :: Age Group 80 - 85 :: Females ::  24644 0.014
+HbA1C :: Counts :: Age Group 85 - 90 :: Females ::  13003 0.007
+HbA1C :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+HbA1C :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+HbA1C :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+HbA1C :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats :: Age Group 25 - 30 :: All ::  N 4686 non-zeros 4676 Median   5.20 Mean   5.35 Std   1.07 Max  14.60
+HbA1C :: Stats :: Age Group 30 - 35 :: All ::  N 22914 non-zeros 22869 Median   5.30 Mean   5.43 Std   1.08 Max  18.20
+HbA1C :: Stats :: Age Group 35 - 40 :: All ::  N 59287 non-zeros 59182 Median   5.40 Mean   5.63 Std   1.07 Max  16.70
+HbA1C :: Stats :: Age Group 40 - 45 :: All ::  N 101994 non-zeros 101772 Median   5.60 Mean   5.81 Std   1.17 Max  17.60
+HbA1C :: Stats :: Age Group 45 - 50 :: All ::  N 116345 non-zeros 116126 Median   5.70 Mean   6.00 Std   1.26 Max  18.00
+HbA1C :: Stats :: Age Group 50 - 55 :: All ::  N 133697 non-zeros 133431 Median   5.80 Mean   6.16 Std   1.30 Max  17.50
+HbA1C :: Stats :: Age Group 55 - 60 :: All ::  N 141838 non-zeros 141552 Median   5.90 Mean   6.25 Std   1.26 Max  18.80
+HbA1C :: Stats :: Age Group 60 - 65 :: All ::  N 136872 non-zeros 136646 Median   6.00 Mean   6.32 Std   1.20 Max  18.30
+HbA1C :: Stats :: Age Group 65 - 70 :: All ::  N 117585 non-zeros 117377 Median   6.10 Mean   6.35 Std   1.14 Max  18.00
+HbA1C :: Stats :: Age Group 70 - 75 :: All ::  N 85497 non-zeros 85342 Median   6.10 Mean   6.37 Std   1.10 Max  17.60
+HbA1C :: Stats :: Age Group 75 - 80 :: All ::  N 67684 non-zeros 67551 Median   6.10 Mean   6.37 Std   1.06 Max  16.60
+HbA1C :: Stats :: Age Group 80 - 85 :: All ::  N 41248 non-zeros 41159 Median   6.10 Mean   6.36 Std   1.06 Max  16.70
+HbA1C :: Stats :: Age Group 85 - 90 :: All ::  N 21235 non-zeros 21178 Median   6.10 Mean   6.33 Std   1.06 Max  15.80
+HbA1C :: Stats :: Age Group 90 - 95 :: All ::  N 7242 non-zeros 7222 Median   6.10 Mean   6.32 Std   1.07 Max  16.20
+HbA1C :: Stats :: Age Group 95 - 100 :: All ::  N 1394 non-zeros 1382 Median   6.10 Mean   6.26 Std   1.19 Max  12.80
+HbA1C :: General :: All     :: outliers ratio 0.000000
+HbA1C :: General :: All     :: N 556551 non-zeros 555435 Median   5.80 Mean   5.99 Std   1.09 Max  18.80
+HbA1C :: General :: All     :: distribution 0.001,0.01,0.05 ::   4.00   4.50   4.90   7.90  10.60  13.50
+HbA1C :: General :: All     :: quartiles ::   4.00   5.50   5.80   6.20 
+HbA1C :: General :: Males   :: outliers ratio 0.000000
+HbA1C :: General :: Males   :: N 265887 non-zeros 265328 Median   5.80 Mean   6.06 Std   1.17 Max  18.80
+HbA1C :: General :: Males   :: distribution 0.001,0.01,0.05 ::   4.00   4.50   5.00   8.30  11.00  13.80
+HbA1C :: General :: Males   :: quartiles ::   4.00   5.50   5.80   6.30 
+HbA1C :: General :: Females :: outliers ratio 0.000000
+HbA1C :: General :: Females :: N 290664 non-zeros 290069 Median   5.80 Mean   5.91 Std   1.00 Max  19.30
+HbA1C :: General :: Females :: distribution 0.001,0.01,0.05 ::   4.00   4.50   4.90   7.60  10.00  13.20
+HbA1C :: General :: Females :: quartiles ::   4.00   5.40   5.80   6.10 
+HbA1C :: Rounding ::  0.00 r  0.00 pct
+HbA1C :: Rounding ::  0.01 r  0.17 pct
+HbA1C :: Rounding ::  0.10 r  0.73 pct
+HbA1C :: Rounding ::  1.00 r  0.10 pct
+HbA1C :: Rounding :: 10.00 r  0.00 pct
+HbA1C :: Rounding :: 100.00 r  0.00 pct
+HbA1C :: Rounding :: 1000.00 r  0.00 pct
+HbA1C :: Rounding :: most popular rounding for vals:  0.10
+HbA1C :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats year :: 2001 :: All :: N 63626 non-zeros 63450 Median   6.30 Mean   6.69 Std   1.61 Max  19.30
+HbA1C :: Stats year :: 2002 :: All :: N 72117 non-zeros 72018 Median   6.10 Mean   6.53 Std   1.50 Max  17.10
+HbA1C :: Stats year :: 2003 :: All :: N 78918 non-zeros 78814 Median   6.20 Mean   6.62 Std   1.55 Max  16.60
+HbA1C :: Stats year :: 2004 :: All :: N 98361 non-zeros 98234 Median   6.10 Mean   6.53 Std   1.45 Max  16.50
+HbA1C :: Stats year :: 2005 :: All :: N 111044 non-zeros 110874 Median   5.90 Mean   6.27 Std   1.42 Max  17.90
+HbA1C :: Stats year :: 2006 :: All :: N 118825 non-zeros 118682 Median   6.00 Mean   6.41 Std   1.43 Max  18.20
+HbA1C :: Stats year :: 2007 :: All :: N 131871 non-zeros 131702 Median   6.10 Mean   6.43 Std   1.40 Max  19.30
+HbA1C :: Stats year :: 2008 :: All :: N 140930 non-zeros 140668 Median   6.00 Mean   6.37 Std   1.32 Max  17.50
+HbA1C :: Stats year :: 2009 :: All :: N 154976 non-zeros 154734 Median   6.10 Mean   6.46 Std   1.28 Max  18.90
+HbA1C :: Stats year :: 2010 :: All :: N 170151 non-zeros 169769 Median   6.10 Mean   6.40 Std   1.22 Max  17.50
+HbA1C :: Stats year :: 2011 :: All :: N 181890 non-zeros 181543 Median   6.20 Mean   6.48 Std   1.28 Max  18.20
+HbA1C :: Stats year :: 2012 :: All :: N 194187 non-zeros 193848 Median   6.10 Mean   6.46 Std   1.29 Max  19.90
+HbA1C :: Stats year :: 2013 :: All :: N 220495 non-zeros 220105 Median   6.10 Mean   6.44 Std   1.25 Max  19.00
+HbA1C :: Stats year :: 2014 :: All :: N 253800 non-zeros 253364 Median   6.10 Mean   6.36 Std   1.20 Max  18.40
+HbA1C :: Stats year :: 2015 :: All :: N 241391 non-zeros 240891 Median   6.10 Mean   6.35 Std   1.19 Max  18.30
+HbA1C :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats year :: 2001 :: Males   :: N 29630 non-zeros 29541 Median   6.40 Mean   6.86 Std   1.66 Max  19.30
+HbA1C :: Stats year :: 2002 :: Males   :: N 34199 non-zeros 34146 Median   6.30 Mean   6.67 Std   1.56 Max  16.50
+HbA1C :: Stats year :: 2003 :: Males   :: N 37849 non-zeros 37783 Median   6.30 Mean   6.75 Std   1.61 Max  16.40
+HbA1C :: Stats year :: 2004 :: Males   :: N 46876 non-zeros 46814 Median   6.20 Mean   6.62 Std   1.51 Max  16.20
+HbA1C :: Stats year :: 2005 :: Males   :: N 53554 non-zeros 53465 Median   5.90 Mean   6.37 Std   1.49 Max  18.50
+HbA1C :: Stats year :: 2006 :: Males   :: N 58461 non-zeros 58378 Median   6.10 Mean   6.50 Std   1.50 Max  18.50
+HbA1C :: Stats year :: 2007 :: Males   :: N 64827 non-zeros 64732 Median   6.10 Mean   6.52 Std   1.48 Max  18.40
+HbA1C :: Stats year :: 2008 :: Males   :: N 69252 non-zeros 69135 Median   6.10 Mean   6.46 Std   1.39 Max  16.80
+HbA1C :: Stats year :: 2009 :: Males   :: N 76512 non-zeros 76374 Median   6.20 Mean   6.54 Std   1.36 Max  18.20
+HbA1C :: Stats year :: 2010 :: Males   :: N 83849 non-zeros 83644 Median   6.10 Mean   6.48 Std   1.30 Max  16.80
+HbA1C :: Stats year :: 2011 :: Males   :: N 90452 non-zeros 90282 Median   6.20 Mean   6.56 Std   1.36 Max  18.20
+HbA1C :: Stats year :: 2012 :: Males   :: N 96916 non-zeros 96751 Median   6.20 Mean   6.54 Std   1.37 Max  19.90
+HbA1C :: Stats year :: 2013 :: Males   :: N 109367 non-zeros 109191 Median   6.20 Mean   6.52 Std   1.33 Max  18.20
+HbA1C :: Stats year :: 2014 :: Males   :: N 125202 non-zeros 124998 Median   6.10 Mean   6.44 Std   1.28 Max  19.50
+HbA1C :: Stats year :: 2015 :: Males   :: N 118268 non-zeros 117996 Median   6.10 Mean   6.43 Std   1.29 Max  18.30
+HbA1C :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats year :: 2001 :: Females :: N 33996 non-zeros 33899 Median   6.10 Mean   6.54 Std   1.56 Max  17.00
+HbA1C :: Stats year :: 2002 :: Females :: N 37918 non-zeros 37865 Median   6.00 Mean   6.41 Std   1.45 Max  16.90
+HbA1C :: Stats year :: 2003 :: Females :: N 41069 non-zeros 41016 Median   6.10 Mean   6.50 Std   1.49 Max  15.90
+HbA1C :: Stats year :: 2004 :: Females :: N 51485 non-zeros 51424 Median   6.10 Mean   6.44 Std   1.38 Max  17.10
+HbA1C :: Stats year :: 2005 :: Females :: N 57490 non-zeros 57412 Median   5.80 Mean   6.19 Std   1.36 Max  17.90
+HbA1C :: Stats year :: 2006 :: Females :: N 60364 non-zeros 60278 Median   6.00 Mean   6.32 Std   1.35 Max  18.20
+HbA1C :: Stats year :: 2007 :: Females :: N 67044 non-zeros 66965 Median   6.00 Mean   6.35 Std   1.33 Max  19.30
+HbA1C :: Stats year :: 2008 :: Females :: N 71678 non-zeros 71547 Median   6.00 Mean   6.28 Std   1.24 Max  17.10
+HbA1C :: Stats year :: 2009 :: Females :: N 78464 non-zeros 78333 Median   6.10 Mean   6.37 Std   1.19 Max  18.90
+HbA1C :: Stats year :: 2010 :: Females :: N 86302 non-zeros 86112 Median   6.10 Mean   6.32 Std   1.14 Max  17.50
+HbA1C :: Stats year :: 2011 :: Females :: N 91438 non-zeros 91265 Median   6.10 Mean   6.41 Std   1.19 Max  19.60
+HbA1C :: Stats year :: 2012 :: Females :: N 97271 non-zeros 97097 Median   6.10 Mean   6.38 Std   1.20 Max  17.20
+HbA1C :: Stats year :: 2013 :: Females :: N 111128 non-zeros 110931 Median   6.10 Mean   6.37 Std   1.16 Max  21.10
+HbA1C :: Stats year :: 2014 :: Females :: N 128598 non-zeros 128361 Median   6.00 Mean   6.28 Std   1.10 Max  17.70
+HbA1C :: Stats year :: 2015 :: Females :: N 123123 non-zeros 122883 Median   6.00 Mean   6.27 Std   1.09 Max  17.80
+HbA1C :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HbA1C :: Stats month 1 :: All :: N 119087 non-zeros 118843 Median   6.10 Mean   6.46 Std   1.33 Max  18.60
+HbA1C :: Stats month 2 :: All :: N 117428 non-zeros 117210 Median   6.10 Mean   6.46 Std   1.32 Max  18.40
+HbA1C :: Stats month 3 :: All :: N 123550 non-zeros 123287 Median   6.10 Mean   6.41 Std   1.33 Max  18.80
+HbA1C :: Stats month 4 :: All :: N 116497 non-zeros 116251 Median   6.10 Mean   6.44 Std   1.33 Max  19.90
+HbA1C :: Stats month 5 :: All :: N 138130 non-zeros 137833 Median   6.10 Mean   6.41 Std   1.31 Max  20.60
+HbA1C :: Stats month 6 :: All :: N 136925 non-zeros 136654 Median   6.10 Mean   6.41 Std   1.29 Max  17.90
+HbA1C :: Stats month 7 :: All :: N 138960 non-zeros 138680 Median   6.10 Mean   6.39 Std   1.28 Max  17.10
+HbA1C :: Stats month 8 :: All :: N 132182 non-zeros 131919 Median   6.10 Mean   6.38 Std   1.27 Max  18.30
+HbA1C :: Stats month 9 :: All :: N 110565 non-zeros 110333 Median   6.10 Mean   6.40 Std   1.27 Max  17.30
+HbA1C :: Stats month 10 :: All :: N 125718 non-zeros 125473 Median   6.10 Mean   6.40 Std   1.26 Max  19.40
+HbA1C :: Stats month 11 :: All :: N 118075 non-zeros 117850 Median   6.10 Mean   6.43 Std   1.31 Max  17.80
+HbA1C :: Stats month 12 :: All :: N 113652 non-zeros 113406 Median   6.10 Mean   6.44 Std   1.31 Max  17.90
+

@@ -1,0 +1,99 @@
+SECTION	Cancer_Location
+
+##############################################################################
+# Cancer Sets names
+##############################################################################
+#===============================================================================
+# Registry indications 21000-21999
+#===============================================================================
+DEF	21000	Colon_Cancer
+DEF	21001	CRC_Cancer
+DEF	21002	Stomach_Cancer
+DEF	21003	Rectum_Cancer
+DEF	21004	Lung_Cancer
+DEF	21005	Prostate_Cancer
+DEF	21006	Breast_Cancer
+DEF	21007	Hematologic_Cancer
+DEF	21008	Female_Genital_Cancer
+DEF	21009	Bone_Cancer
+DEF	21010	Brain_Cancer
+DEF	21011	CRC_and_Stomach_Cancer
+DEF	21012	ALL_Cancer
+DEF	21013	CLL_Cancer
+DEF	21014	AML_Cancer
+DEF	21015	CML_Cancer
+DEF	21016	MM_Cancer
+DEF	21017	Lung_SC_Cancer
+DEF	21018	Lung_NSC_Cancer
+DEF	21019	Ovarian_Cancer
+DEF	21020	Liver_Cancer
+DEF	21021	Digestive_Cancer
+DEF	21022	Bladder_Cancer
+DEF	21023	Kidney_Cancer
+DEF	21024	Hodgkins_Cancer
+DEF	21025	Non_Hodgkins_Cancer
+DEF	21026	Leukemia_Cancer
+DEF	21027	Lymphoma_Cancer
+DEF	21028	Lymphoid_Cancer
+DEF	21029	Myeloid_Cancer
+DEF	21030	Uterus_Cancer
+
+SET	Colon_Cancer	Neoplasm_(Malignant)_-_Large_Intestine_Excluding_Rectum
+SET	Stomach_Cancer	Neoplasm_(Malignant)_-_Stomach
+SET	Rectum_Cancer	Neoplasm_(Malignant)_-_Anus
+SET	CRC_Cancer	Colon_Cancer
+SET	CRC_Cancer	Rectum_Cancer
+SET	CRC_and_Stomach_Cancer	CRC_Cancer
+SET	CRC_and_Stomach_Cancer	Stomach_Cancer
+SET	CRC_and_Stomach_Cancer	Carcinoma_In_Situ_-_Digestive_Organs
+SET	Lung_Cancer	Malignant_Neoplasms_-_Bronchus,_lung
+SET	Prostate_Cancer	Malignant_Neoplasms_-_Prostate
+SET	ALL_Cancer	Neoplasm_(Malignant)_-_Leukemia,_Lymphatic,_Lymphocytic,_Lymphoid
+SET	AML_Cancer	Neoplasm_(Malignant)_-_Leukemia,_myeloid_including_granulocytic_and_myelogenous
+SET	CLL_Cancer	Neoplasm_(Malignant)_-_Leukemia,_Lymphatic,_Lymphocytic,_Lymphoid
+SET	CML_Cancer	Neoplasm_(Malignant)_-_Leukemia,_myeloid_including_granulocytic_and_myelogenous
+SET	MM_Cancer	Malignant_Neoplasms_-_Multiple_myeloma,_plasma_cell_leukemia
+SET	Hodgkins_Cancer	Hodgkin's_Disease
+SET	Non_Hodgkins_Cancer	Neoplasm_(Malignant)_-_Lymphoid_and_Histiocytic_Tissue,_other
+SET	Non_Hodgkins_Cancer	Malignant_Neoplasms_-_Lymphosarcoma,_reticulosarcoma
+SET	Lymphoid_Cancer	ALL_Cancer
+SET	Lymphoid_Cancer	CLL_Cancer
+SET	Myeloid_Cancer	AML_Cancer
+SET	Myeloid_Cancer	CML_Cancer
+SET	Leukemia_Cancer	Lymphoid_Cancer
+SET	Leukemia_Cancer	Myeloid_Cancer
+SET	Leukemia_Cancer	Malignant_Neoplasms_-_Other_specified_leukemia
+SET	Leukemia_Cancer	Neoplasm_(Malignant)_-_Leukemia,_other_types
+SET	Leukemia_Cancer	Neoplasm_(Malignant)_-_Leukemia,_Monocytic
+SET	Lymphoma_Cancer	Hodgkins_Cancer
+SET	Lymphoma_Cancer	Non_Hodgkins_Cancer
+SET	Hematologic_Cancer	Leukemia_Cancer
+SET	Hematologic_Cancer	MM_Cancer
+SET	Hematologic_Cancer	Lymphoma_Cancer
+SET	Ovarian_Cancer	Malignant_Neoplasms_-_Ovary,_fallopian_tube,_broad_ligament
+SET	Ovarian_Cancer	Neoplasm_(Malignant)_-_Fallopian_Tube
+SET	Uterus_Cancer	Malignant_Neoplasms_-_Body_of_uterus
+SET	Uterus_Cancer	Malignant_Neoplasms_-_Uterus,_part_unspecified
+SET	Female_Genital_Cancer	Ovarian_Cancer
+SET	Female_Genital_Cancer	Malignant_Neoplasms_-_Cervix
+SET	Female_Genital_Cancer	Uterus_Cancer
+SET	Liver_Cancer	Malignant_Neoplasms_-_Primary_malignancy_of_liver_(not_secondary_spread_or_metastatic_disease)
+SET	Digestive_Cancer	CRC_and_Stomach_Cancer
+SET	Digestive_Cancer	Liver_Cancer
+SET	Digestive_Cancer	Neoplasm_(Malignant)_-_Esophagus
+SET	Digestive_Cancer	Neoplasm_(Malignant)_-_Small_Intestine,_including_duodenum
+SET	Digestive_Cancer	Neoplasm_(Malignant)_-_Gallbladder_and_Extra_Hepatic_Bile_Ducts
+SET	Digestive_Cancer	Neoplasm_(Malignant)_-_Pancreas
+SET	Digestive_Cancer	Neoplasm_(Malignant)_-_Retroperitoneum_and_Peritoneum
+SET	Kidney_Cancer	Malignant_Neoplasms_-_Kidney,_other_urinary_organs
+
+DEF	40040	Any_Serious_Cancer
+SET	Any_Serious_Cancer	Lung_Cancer	
+SET	Any_Serious_Cancer	Digestive_Cancer
+SET	Any_Serious_Cancer	Hematologic_Cancer
+SET	Any_Serious_Cancer	Kidney_Cancer
+SET	Any_Serious_Cancer	Leukemia_Cancer
+SET	Any_Serious_Cancer	Lymphoma_Cancer
+
+
+

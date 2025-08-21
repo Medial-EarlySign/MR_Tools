@@ -1,0 +1,6 @@
+Age.Min,Age.Max,Gender,Feature_not_Exists,Probability
+0,50,Male,val,0.25
+0,50,Female,val,0.25
+50,100,Male,val,0.25
+50,100,Female,val,0.24
+100,120,,val,0.01

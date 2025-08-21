@@ -1,0 +1,162 @@
+Fructosamine :: All :: With Values ::  13058 / 14446692 =  0.00 ::  13058 /  13058 =  1.00
+Fructosamine :: Males :: With Values ::   6921 / 6889335 =  0.00 ::   6921 /  13058 =  0.53
+Fructosamine :: Females :: With Values ::   6137 / 7557357 =  0.00 ::   6137 /  13058 =  0.47
+Fructosamine :: General :: No. of Values :: All  52263 Male  27594 Female  24669
+Fructosamine :: General :: No. of different days Values :: All  52035 Male  27472 Female  24563
+Fructosamine :: General :: Avg #values per person (all) :: All  0.00 Male  0.00 Female  0.00
+Fructosamine :: General :: Avg #values per person (>0)  :: All  3.98 Male  3.97 Female  4.00
+Fructosamine :: General :: Avg dist between tests       :: All  222.1 Male  226.3 Female  217.5
+Fructosamine :: Counts :: Age Group 20 - 25 :: All ::     46 0.001
+Fructosamine :: Counts :: Age Group 25 - 30 :: All ::     76 0.001
+Fructosamine :: Counts :: Age Group 30 - 35 :: All ::     99 0.002
+Fructosamine :: Counts :: Age Group 35 - 40 :: All ::    156 0.003
+Fructosamine :: Counts :: Age Group 40 - 45 :: All ::    277 0.005
+Fructosamine :: Counts :: Age Group 45 - 50 :: All ::    419 0.008
+Fructosamine :: Counts :: Age Group 50 - 55 :: All ::    593 0.011
+Fructosamine :: Counts :: Age Group 55 - 60 :: All ::    893 0.017
+Fructosamine :: Counts :: Age Group 60 - 65 :: All ::   1200 0.023
+Fructosamine :: Counts :: Age Group 65 - 70 :: All ::   1527 0.029
+Fructosamine :: Counts :: Age Group 70 - 75 :: All ::   1736 0.033
+Fructosamine :: Counts :: Age Group 75 - 80 :: All ::   1613 0.031
+Fructosamine :: Counts :: Age Group 80 - 85 :: All ::   1025 0.020
+Fructosamine :: Counts :: Age Group 85 - 90 :: All ::    597 0.011
+Fructosamine :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Fructosamine :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Fructosamine :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Fructosamine :: Counts :: Age Group 20 - 25 :: Males ::     21 0.001
+Fructosamine :: Counts :: Age Group 25 - 30 :: Males ::     24 0.001
+Fructosamine :: Counts :: Age Group 30 - 35 :: Males ::     55 0.002
+Fructosamine :: Counts :: Age Group 35 - 40 :: Males ::     97 0.004
+Fructosamine :: Counts :: Age Group 40 - 45 :: Males ::    177 0.006
+Fructosamine :: Counts :: Age Group 45 - 50 :: Males ::    223 0.008
+Fructosamine :: Counts :: Age Group 50 - 55 :: Males ::    337 0.012
+Fructosamine :: Counts :: Age Group 55 - 60 :: Males ::    513 0.019
+Fructosamine :: Counts :: Age Group 60 - 65 :: Males ::    710 0.026
+Fructosamine :: Counts :: Age Group 65 - 70 :: Males ::    887 0.032
+Fructosamine :: Counts :: Age Group 70 - 75 :: Males ::    941 0.034
+Fructosamine :: Counts :: Age Group 75 - 80 :: Males ::    852 0.031
+Fructosamine :: Counts :: Age Group 80 - 85 :: Males ::    463 0.017
+Fructosamine :: Counts :: Age Group 85 - 90 :: Males ::    233 0.008
+Fructosamine :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Fructosamine :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Fructosamine :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Fructosamine :: Counts :: Age Group 20 - 25 :: Females ::     25 0.001
+Fructosamine :: Counts :: Age Group 25 - 30 :: Females ::     52 0.002
+Fructosamine :: Counts :: Age Group 30 - 35 :: Females ::     44 0.002
+Fructosamine :: Counts :: Age Group 35 - 40 :: Females ::     59 0.002
+Fructosamine :: Counts :: Age Group 40 - 45 :: Females ::    100 0.004
+Fructosamine :: Counts :: Age Group 45 - 50 :: Females ::    196 0.008
+Fructosamine :: Counts :: Age Group 50 - 55 :: Females ::    256 0.010
+Fructosamine :: Counts :: Age Group 55 - 60 :: Females ::    380 0.015
+Fructosamine :: Counts :: Age Group 60 - 65 :: Females ::    490 0.020
+Fructosamine :: Counts :: Age Group 65 - 70 :: Females ::    640 0.026
+Fructosamine :: Counts :: Age Group 70 - 75 :: Females ::    795 0.032
+Fructosamine :: Counts :: Age Group 75 - 80 :: Females ::    761 0.031
+Fructosamine :: Counts :: Age Group 80 - 85 :: Females ::    562 0.023
+Fructosamine :: Counts :: Age Group 85 - 90 :: Females ::    364 0.015
+Fructosamine :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Fructosamine :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Fructosamine :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Fructosamine :: Stats :: Age Group 20 - 25 :: All ::  N 40 non-zeros 39 Median 250.00 Mean 268.35 Std 164.98 Max 719.00
+Fructosamine :: Stats :: Age Group 25 - 30 :: All ::  N 65 non-zeros 64 Median 240.00 Mean 254.55 Std 168.21 Max 645.00
+Fructosamine :: Stats :: Age Group 30 - 35 :: All ::  N 99 non-zeros 98 Median 245.00 Mean 255.41 Std 146.56 Max 635.00
+Fructosamine :: Stats :: Age Group 35 - 40 :: All ::  N 181 non-zeros 179 Median 284.00 Mean 276.96 Std 134.38 Max 606.00
+Fructosamine :: Stats :: Age Group 40 - 45 :: All ::  N 242 non-zeros 234 Median 286.00 Mean 268.97 Std 142.97 Max 716.00
+Fructosamine :: Stats :: Age Group 45 - 50 :: All ::  N 331 non-zeros 319 Median 285.00 Mean 275.36 Std 134.40 Max 662.00
+Fructosamine :: Stats :: Age Group 50 - 55 :: All ::  N 463 non-zeros 440 Median 280.00 Mean 261.62 Std 145.24 Max 683.00
+Fructosamine :: Stats :: Age Group 55 - 60 :: All ::  N 546 non-zeros 526 Median 286.00 Mean 263.43 Std 141.08 Max 868.00
+Fructosamine :: Stats :: Age Group 60 - 65 :: All ::  N 677 non-zeros 656 Median 280.00 Mean 258.53 Std 134.06 Max 677.00
+Fructosamine :: Stats :: Age Group 65 - 70 :: All ::  N 801 non-zeros 771 Median 281.00 Mean 261.23 Std 136.53 Max 711.00
+Fructosamine :: Stats :: Age Group 70 - 75 :: All ::  N 859 non-zeros 820 Median 282.00 Mean 263.12 Std 127.79 Max 767.00
+Fructosamine :: Stats :: Age Group 75 - 80 :: All ::  N 744 non-zeros 720 Median 288.00 Mean 273.05 Std 120.14 Max 729.00
+Fructosamine :: Stats :: Age Group 80 - 85 :: All ::  N 465 non-zeros 449 Median 284.00 Mean 271.08 Std 114.09 Max 673.00
+Fructosamine :: Stats :: Age Group 85 - 90 :: All ::  N 259 non-zeros 251 Median 281.00 Mean 267.65 Std 111.52 Max 566.00
+Fructosamine :: Stats :: Age Group 90 - 95 :: All ::  N 95 non-zeros 86 Median 285.00 Mean 275.67 Std 117.42 Max 576.00
+Fructosamine :: Stats :: Age Group 95 - 100 :: All ::  N 16 non-zeros 15 Median 265.00 Mean 229.19 Std 112.32 Max 357.00
+Fructosamine :: General :: All     :: outliers ratio 0.000000
+Fructosamine :: General :: All     :: N 4972 non-zeros 4776 Median 279.00 Mean 258.94 Std 136.08 Max 1122.00
+Fructosamine :: General :: All     :: distribution 0.001,0.01,0.05 ::   2.00   2.00   3.00 449.00 562.00 719.00
+Fructosamine :: General :: All     :: quartiles ::   2.00 236.00 283.00 339.00 
+Fructosamine :: General :: Males   :: outliers ratio 0.000000
+Fructosamine :: General :: Males   :: N 2612 non-zeros 2494 Median 282.00 Mean 262.22 Std 141.48 Max 1122.00
+Fructosamine :: General :: Males   :: distribution 0.001,0.01,0.05 ::   2.00   2.00   3.00 458.00 588.00 767.00
+Fructosamine :: General :: Males   :: quartiles ::   2.00 240.00 287.00 343.00 
+Fructosamine :: General :: Females :: outliers ratio 0.000000
+Fructosamine :: General :: Females :: N 2360 non-zeros 2283 Median 275.00 Mean 255.95 Std 132.10 Max 759.00
+Fructosamine :: General :: Females :: distribution 0.001,0.01,0.05 ::   2.00   2.00   3.00 441.00 541.00 719.00
+Fructosamine :: General :: Females :: quartiles ::   2.00 232.00 278.00 334.00 
+Fructosamine :: Rounding ::  0.00 r  0.00 pct
+Fructosamine :: Rounding ::  0.01 r  0.00 pct
+Fructosamine :: Rounding ::  0.10 r  0.00 pct
+Fructosamine :: Rounding ::  1.00 r  0.91 pct
+Fructosamine :: Rounding :: 10.00 r  0.08 pct
+Fructosamine :: Rounding :: 100.00 r  0.01 pct
+Fructosamine :: Rounding :: 1000.00 r  0.00 pct
+Fructosamine :: Rounding :: most popular rounding for vals:  1.00
+Fructosamine :: Stats year :: 2000 :: All :: N 1995 non-zeros 1851 Median 296.00 Mean 276.03 Std 135.09 Max 1122.00
+Fructosamine :: Stats year :: 2001 :: All :: N 1769 non-zeros 1662 Median 274.00 Mean 227.47 Std 150.45 Max 753.00
+Fructosamine :: Stats year :: 2002 :: All :: N 1394 non-zeros 1394 Median 289.00 Mean 295.76 Std  82.95 Max 701.00
+Fructosamine :: Stats year :: 2003 :: All :: N 1442 non-zeros 1442 Median 289.00 Mean 297.00 Std  79.30 Max 759.00
+Fructosamine :: Stats year :: 2004 :: All :: N 158 non-zeros 158 Median 285.00 Mean 249.91 Std 153.64 Max 673.00
+Fructosamine :: Stats year :: 2005 :: All :: N 106 non-zeros 106 Median 284.00 Mean 270.41 Std 136.50 Max 767.00
+Fructosamine :: Stats year :: 2006 :: All :: N 125 non-zeros 125 Median 298.00 Mean 285.85 Std 121.70 Max 677.00
+Fructosamine :: Stats year :: 2007 :: All :: N 135 non-zeros 135 Median 281.00 Mean 280.11 Std  94.88 Max 534.00
+Fructosamine :: Stats year :: 2008 :: All :: N 145 non-zeros 145 Median 285.00 Mean 284.35 Std  94.64 Max 558.00
+Fructosamine :: Stats year :: 2009 :: All :: N 144 non-zeros 144 Median 274.00 Mean 274.58 Std 105.14 Max 632.00
+Fructosamine :: Stats year :: 2010 :: All :: N 132 non-zeros 132 Median 276.00 Mean 271.61 Std 117.40 Max 669.00
+Fructosamine :: Stats year :: 2011 :: All :: N 144 non-zeros 143 Median 295.00 Mean 311.17 Std 115.54 Max 711.00
+Fructosamine :: Stats year :: 2012 :: All :: N 197 non-zeros 189 Median 296.00 Mean 299.94 Std 106.38 Max 585.00
+Fructosamine :: Stats year :: 2013 :: All :: N 293 non-zeros 293 Median 280.00 Mean 296.66 Std  83.56 Max 636.00
+Fructosamine :: Stats year :: 2014 :: All :: N 285 non-zeros 283 Median 278.00 Mean 298.69 Std  93.19 Max 795.00
+Fructosamine :: Stats year :: 2015 :: All :: N 260 non-zeros 250 Median 275.00 Mean 291.27 Std 106.23 Max 643.00
+Fructosamine :: Stats year :: 2016 :: All :: N 12 non-zeros 12 Median 312.00 Mean 300.33 Std  43.55 Max 348.00
+Fructosamine :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fructosamine :: Stats year :: 2000 :: Males   :: N 1057 non-zeros 970 Median 298.00 Mean 278.67 Std 138.49 Max 868.00
+Fructosamine :: Stats year :: 2001 :: Males   :: N 925 non-zeros 860 Median 278.00 Mean 225.36 Std 153.92 Max 745.00
+Fructosamine :: Stats year :: 2002 :: Males   :: N 720 non-zeros 720 Median 290.00 Mean 298.02 Std  78.97 Max 701.00
+Fructosamine :: Stats year :: 2003 :: Males   :: N 743 non-zeros 743 Median 291.00 Mean 300.85 Std  77.17 Max 652.00
+Fructosamine :: Stats year :: 2004 :: Males   :: N 83 non-zeros 83 Median 283.00 Mean 242.27 Std 161.03 Max 673.00
+Fructosamine :: Stats year :: 2005 :: Males   :: N 52 non-zeros 52 Median 281.00 Mean 259.23 Std 144.10 Max 767.00
+Fructosamine :: Stats year :: 2006 :: Males   :: N 65 non-zeros 65 Median 298.00 Mean 293.55 Std 137.01 Max 707.00
+Fructosamine :: Stats year :: 2007 :: Males   :: N 71 non-zeros 71 Median 291.00 Mean 286.35 Std  85.55 Max 507.00
+Fructosamine :: Stats year :: 2008 :: Males   :: N 75 non-zeros 75 Median 284.00 Mean 285.88 Std  94.93 Max 558.00
+Fructosamine :: Stats year :: 2009 :: Males   :: N 67 non-zeros 67 Median 283.00 Mean 281.36 Std  99.64 Max 531.00
+Fructosamine :: Stats year :: 2010 :: Males   :: N 66 non-zeros 66 Median 286.00 Mean 279.79 Std 128.56 Max 669.00
+Fructosamine :: Stats year :: 2011 :: Males   :: N 75 non-zeros 75 Median 297.00 Mean 308.20 Std 111.16 Max 711.00
+Fructosamine :: Stats year :: 2012 :: Males   :: N 93 non-zeros 87 Median 296.00 Mean 295.11 Std 109.06 Max 504.00
+Fructosamine :: Stats year :: 2013 :: Males   :: N 151 non-zeros 151 Median 289.00 Mean 310.75 Std  98.06 Max 719.00
+Fructosamine :: Stats year :: 2014 :: Males   :: N 152 non-zeros 151 Median 283.00 Mean 302.91 Std  99.87 Max 795.00
+Fructosamine :: Stats year :: 2015 :: Males   :: N 141 non-zeros 136 Median 289.00 Mean 303.43 Std 105.70 Max 616.00
+Fructosamine :: Stats year :: 2016 :: Males   :: N 6 non-zeros 6 Median 258.00 Mean 291.00 Std  54.36 Max 348.00
+Fructosamine :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fructosamine :: Stats year :: 2000 :: Females :: N 938 non-zeros 883 Median 294.00 Mean 271.97 Std 129.56 Max 719.00
+Fructosamine :: Stats year :: 2001 :: Females :: N 844 non-zeros 802 Median 270.00 Mean 229.90 Std 145.97 Max 619.00
+Fructosamine :: Stats year :: 2002 :: Females :: N 674 non-zeros 674 Median 289.00 Mean 291.98 Std  83.52 Max 637.00
+Fructosamine :: Stats year :: 2003 :: Females :: N 699 non-zeros 699 Median 289.00 Mean 295.18 Std  79.87 Max 751.00
+Fructosamine :: Stats year :: 2004 :: Females :: N 75 non-zeros 75 Median 290.00 Mean 262.51 Std 147.90 Max 626.00
+Fructosamine :: Stats year :: 2005 :: Females :: N 54 non-zeros 54 Median 291.00 Mean 279.00 Std 126.86 Max 645.00
+Fructosamine :: Stats year :: 2006 :: Females :: N 60 non-zeros 60 Median 295.00 Mean 283.85 Std 116.20 Max 519.00
+Fructosamine :: Stats year :: 2007 :: Females :: N 64 non-zeros 64 Median 280.00 Mean 274.42 Std 103.46 Max 534.00
+Fructosamine :: Stats year :: 2008 :: Females :: N 70 non-zeros 70 Median 285.00 Mean 282.79 Std  96.08 Max 553.00
+Fructosamine :: Stats year :: 2009 :: Females :: N 77 non-zeros 77 Median 270.00 Mean 270.96 Std 111.87 Max 632.00
+Fructosamine :: Stats year :: 2010 :: Females :: N 66 non-zeros 66 Median 268.00 Mean 270.58 Std 113.64 Max 591.00
+Fructosamine :: Stats year :: 2011 :: Females :: N 69 non-zeros 68 Median 300.00 Mean 312.64 Std 114.28 Max 631.00
+Fructosamine :: Stats year :: 2012 :: Females :: N 104 non-zeros 102 Median 293.00 Mean 305.56 Std 101.87 Max 573.00
+Fructosamine :: Stats year :: 2013 :: Females :: N 142 non-zeros 142 Median 274.00 Mean 283.93 Std  74.34 Max 569.00
+Fructosamine :: Stats year :: 2014 :: Females :: N 133 non-zeros 132 Median 276.00 Mean 297.64 Std  85.58 Max 560.00
+Fructosamine :: Stats year :: 2015 :: Females :: N 119 non-zeros 114 Median 265.00 Mean 280.77 Std 107.34 Max 683.00
+Fructosamine :: Stats year :: 2016 :: Females :: N 6 non-zeros 6 Median 312.00 Mean 309.67 Std  25.75 Max 340.00
+Fructosamine :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Fructosamine :: Stats month 1 :: All :: N 719 non-zeros 696 Median 293.00 Mean 278.20 Std 128.92 Max 767.00
+Fructosamine :: Stats month 2 :: All :: N 733 non-zeros 702 Median 289.00 Mean 279.34 Std 121.13 Max 665.00
+Fructosamine :: Stats month 3 :: All :: N 911 non-zeros 871 Median 287.00 Mean 266.59 Std 132.71 Max 795.00
+Fructosamine :: Stats month 4 :: All :: N 889 non-zeros 848 Median 284.00 Mean 271.12 Std 123.49 Max 716.00
+Fructosamine :: Stats month 5 :: All :: N 855 non-zeros 816 Median 284.00 Mean 258.37 Std 139.74 Max 745.00
+Fructosamine :: Stats month 6 :: All :: N 814 non-zeros 805 Median 287.00 Mean 272.85 Std 124.25 Max 751.00
+Fructosamine :: Stats month 7 :: All :: N 762 non-zeros 756 Median 285.00 Mean 275.99 Std 111.20 Max 729.00
+Fructosamine :: Stats month 8 :: All :: N 555 non-zeros 534 Median 283.00 Mean 270.45 Std 118.44 Max 701.00
+Fructosamine :: Stats month 9 :: All :: N 560 non-zeros 538 Median 283.00 Mean 272.95 Std 108.90 Max 868.00
+Fructosamine :: Stats month 10 :: All :: N 633 non-zeros 615 Median 288.00 Mean 279.20 Std 105.48 Max 607.00
+Fructosamine :: Stats month 11 :: All :: N 647 non-zeros 622 Median 290.00 Mean 288.08 Std 107.40 Max 683.00
+Fructosamine :: Stats month 12 :: All :: N 498 non-zeros 487 Median 284.00 Mean 277.25 Std 110.45 Max 719.00
+

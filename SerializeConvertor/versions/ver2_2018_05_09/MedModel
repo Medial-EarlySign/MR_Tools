@@ -1,0 +1,6 @@
+rep_processors	vector<RepProcessor>
+generators	vector<FeatureGenerator>
+feature_processors	vector<FeatureProcessor>
+predictor	MedPredictor
+serialize_learning_set	int
+LearningSet	MedSamples

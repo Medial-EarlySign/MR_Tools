@@ -1,0 +1,212 @@
+loinc_num	component	Map_to	Optional_val_channel
+11273-0	Erythrocytes	RBC
+12227-5	Leukocytes^^corrected for nucleated erythrocytes	WBC
+18312-9	Platelet satellitism	Platelets
+20509-6	Hemoglobin	Hemoglobin
+20570-8	Hematocrit	Hematocrit
+24471-5	Platelet function.collagen+EPINEPHrine induced	Platelets
+24472-3	Platelet function.collagen+Adenosine diphosphate induced	Platelets
+26444-0	Basophils	Basophils#
+26449-9	Eosinophils	Eosinophils#
+26450-7	Eosinophils/100 leukocytes	Eosinophils%
+26453-1	Erythrocytes	RBC
+26464-8	Leukocytes	WBC
+26474-7	Lymphocytes	Lymphocytes#
+26478-8	Lymphocytes/100 leukocytes	Lymphocytes%
+26484-6	Monocytes	Monocytes#
+26485-3	Monocytes/100 leukocytes	Monocytes%
+26499-4	Neutrophils	Neutrophils#
+26511-6	Neutrophils/100 leukocytes	Neutrophils%
+26515-7	Platelets	Platelets
+28542-9	Platelet mean volume	MPV
+30180-4	Basophils/100 leukocytes	Basophils%
+706-2	Basophils/100 leukocytes	Basophils%
+30364-4	Lymphocytes	Lymphocytes#
+30365-1	Lymphocytes/100 leukocytes	Lymphocytes%
+31100-1	Hematocrit	Hematocrit
+32173-7	Eosinophils	Eosinophils#
+32623-1	Platelet mean volume	MPV
+4544-3	Hematocrit	Hematocrit
+4545-0	Hematocrit	Hematocrit
+48703-3	Hematocrit	Hematocrit
+49497-1	Platelets	Platelets
+49498-9	Leukocytes	WBC
+51384-6	Mononuclear cells/100 leukocytes	Monocytes%
+55782-7	Hemoglobin	Hemoglobin
+59260-0	Hemoglobin	Hemoglobin
+6690-2	Leukocytes	WBC
+69018-0	Lymphocyte proliferation mitogen panel	Lymphocytes#
+704-7	Basophils	Basophils#
+705-4	Basophils	Basophils#
+711-2	Eosinophils	Eosinophils#
+712-0	Eosinophils	Eosinophils#
+713-8	Eosinophils/100 leukocytes	Eosinophils%
+714-6	Eosinophils/100 leukocytes	Eosinophils%
+71676-1	Neutrophils/leukocytes	Neutrophils%
+71677-9	Monocytes/leukocytes	Monocytes%
+71678-7	Lymphocytes/leukocytes	Lymphocytes%
+71679-5	Eosinophils/leukocytes	Eosinophils%
+71680-3	Basophils/leukocytes	Basophils%
+71692-8	Platelets.reticulated	Platelets
+717-9	Hemoglobin	Hemoglobin
+71833-8	Hematocrit	Hematocrit
+718-7	Hemoglobin	Hemoglobin
+731-0	Lymphocytes	Lymphocytes#
+732-8	Lymphocytes	Lymphocytes#
+736-9	Lymphocytes/100 leukocytes	Lymphocytes%
+737-7	Lymphocytes/100 leukocytes	Lymphocytes%
+742-7	Monocytes	Monocytes#
+743-5	Monocytes	Monocytes#
+744-3	Monocytes/100 leukocytes	Monocytes%
+5905-5	Monocytes/100 leukocytes	Monocytes%
+751-8	Neutrophils	Neutrophils#
+753-4	Neutrophils	Neutrophils#
+770-8	Neutrophils/100 leukocytes	Neutrophils%
+776-5	Platelet mean volume	MPV
+777-3	Platelets	Platelets
+778-1	Platelets	Platelets
+789-8	Erythrocytes	RBC
+790-6	Erythrocytes	RBC
+804-5	Leukocytes	WBC
+9317-9	Platelets	Platelets
+30385-9	RDW	RDW
+47277-9	RDW	RDW
+62247-2	RDW	RDW
+788-0	RDW	RDW
+30384-2	Erythrocyte distribution width	RDW
+21000-5	Erythrocyte distribution width	RDW
+11272-2	MCV	MCV
+30428-7	MCV	MCV
+47282-9	MCV	MCV
+62242-3	MCV	MCV
+787-2	MCV	MCV
+28540-3	MCHC-M	MCHC-M
+47279-5	MCHC-M	MCHC-M
+59467-1	MCHC-M	MCHC-M
+62246-4	MCHC-M	MCHC-M
+786-4	MCHC-M	MCHC-M
+30350-3	Hemoglobin	Hemoglobin
+28539-5	Erythrocyte mean corpuscular hemoglobin	MCH
+785-6	Erythrocyte mean corpuscular hemoglobin	MCH
+8867-4	Heart rate	Heart_Rate
+8480-6	Intravascular systolic	BP	0
+8462-4	Intravascular diastolic	BP	1
+9279-1	Breaths	Resp_Rate
+8310-5	Body temperature	Temperature
+39156-5	Body mass index	BMI
+29463-7	Body weight	Weight
+11559-2	Oxyhemoglobin/Hemoglobin.total	SaO2
+8302-2	Body height	Height
+2823-3	Potassium	K+
+2160-0	Creatinine	Creatinine
+2345-7	Glucose	Glucose
+8889-8	Heart rate	Heart_Rate
+8478-0	Intravascular mean	Arterial_BP_Mean
+2075-0	Chloride	Cl
+2951-2	Sodium	Na
+17861-6	Calcium	Ca
+59408-5	Oxygen saturation	SaO2
+2339-0	Glucose	Glucose
+2028-9	Carbon dioxide	CO2
+1751-7	Albumin	Albumin
+48643-1	Glomerular filtration rate/1.73 sq M.predicted.black	eGFR
+3094-0	Urea nitrogen	BUN
+2885-2	Protein	Protein_Total
+48642-3	Glomerular filtration rate/1.73 sq M.predicted.non black	eGFR
+1742-6	Alanine aminotransferase	ALT
+33037-3	Anion gap	PlasmaAnionGap
+1920-8	Aspartate aminotransferase	AST
+1975-2	Bilirubin	Bilirubin
+6768-6	Alkaline phosphatase	ALKP
+33914-3	Glomerular filtration rate/1.73 sq M.predicted	eGFR
+6299-2	Urea nitrogen	BUN
+59574-4	Body mass index	BMI
+11556-8	Oxygen	PO2
+72514-3	Pain severity - 0-10 verbal numeric rating	VAS
+34714-6	Coagulation tissue factor induced.INR	INR
+8336-0	Body weight	Weight
+3097-3	Urea nitrogen/Creatinine	Urea_nitrogen_Over_Creatinine
+2093-3	Cholesterol	Cholesterol
+2965-2	Specific gravity	Urine_Spec_Gravity
+33051-4	Erythrocytes	Urine_RBC
+32710-6	Nitrite	Urine_Dipstick_for_Nitrites
+2085-9	Cholesterol.in HDL	HDL
+2571-8	Triglyceride	Triglycerides
+19123-9	Magnesium	Mg
+2756-5	pH	Urine_PH
+1977-8	Bilirubin	Urine_Bilirubin
+5799-2	Leukocyte esterase	Urine_Leucocytes
+2069-3	Chloride	Cl
+4548-4	Hemoglobin A1c/Hemoglobin.total	HbA1C
+2336-6	Globulin	Globulin
+5964-2	Coagulation tissue factor induced	PT
+8331-1	Body temperature	Temperature
+630-4	Bacteria identified	Urine_Bacteria
+6298-4	Potassium	K+
+11557-6	Carbon dioxide	PCO2
+2703-7	Oxygen	Art_PaO
+10839-9	Troponin I.cardiac	TroponinI
+2887-8	Protein	UrineTotalProtein
+2089-1	Cholesterol.in LDL	LDL
+19048-8	Erythrocytes.nucleated/100 leukocytes	NRBC%
+2777-1	Phosphate	Phosphate
+5902-2	Coagulation tissue factor induced	PT
+3016-3	Thyrotropin	TSH
+41276-7	Anion gap	PlasmaAnionGap
+2350-7	Glucose	Urine_Glucose
+33052-2	Leukocytes	Urine_Leucocytes
+30394-1	Granulocytes	Granulocytes
+2349-9	Glucose	Urine_dipstick_for_glucose
+38208-5	Pain severity	VAS
+8303-0	Body height	Height
+49779-2	Ketones	Urine_Ketone
+26505-8	Neutrophils.segmented/100 leukocytes	Neutrophils_Segmented%
+3173-2	Coagulation surface induced	aPTT
+2888-6	Protein	Urine_Total_Protein
+38518-7	Granulocytes.immature/100 leukocytes	Immature_Granulocytes%
+49765-1	Calcium	Ca
+13658-0	Urobilinogen	Urine_Urobilinogen
+2947-0	Sodium	Na
+42570-2	Sodium	Na
+33903-6	Ketones	Urine_dipstick_for_ketones
+38483-4	Creatinine	Creatinine
+20565-8	Carbon dioxide	CO2
+13457-7	Cholesterol.in LDL	LDL
+51584-1	Granulocytes.immature	Immature_Granulocytes#
+1959-6	Bicarbonate	Bicarbonate
+18182-6	Osmolality	Osmolality
+27182-5	Calcium	Ca
+8884-9	Heart rate rhythm	Heart_Rate
+43396-1	Cholesterol.non HDL	NonHDLCholesterol
+26498-6	Myelocytes/100 leukocytes	Myelocytes%
+11558-4	pH	pH
+1783-0	Alkaline phosphatase	ALKP
+28541-1	Metamyelocytes/100 leukocytes	Metamyelocytes%
+3107-0	Urobilinogen	Urine_Urobilinogen
+11031-2	Lymphocytes/100 leukocytes	Lymphocytes%
+2157-6	Creatine kinase	Creatinine_Kinase
+10378-8	Polychromasia	Polychromasia
+26508-2	Neutrophils.band form/100 leukocytes	Bands%
+2524-7	Lactate	Lactate
+13046-8	Lymphocytes.variant/100 leukocytes	Atypical_Lymphocytes%
+3024-7	Thyroxine.free	FreeT4
+774-0	Ovalocytes	Ovalocytes
+2161-8	Creatinine	Urine_Creatinine
+9842-6	Casts	Urine_Hyaline_Casts
+2019-8	Carbon dioxide	PCO2
+50774-9	Nucleated cells	NRBC
+7790-9	Burr cells	BurrCells
+8327-9	Body temperature measurement site	Temperature
+14775-1	Hemoglobin	Hemoglobin
+58413-6	Erythrocytes.nucleated/100 leukocytes	NRBC%
+26524-9	Promyelocytes/100 leukocytes	Promyelocytes%
+5908-9	Platelets.giant	PlateletsLarge
+7791-7	Dacryocytes	Dacrocytes
+7789-1	Acanthocytes	Acanthocytes
+2857-1	Prostate specific Ag	PSA
+1925-7	Base excess	Base_Excess
+10381-2	Target cells	Target_Cells
+2744-1	pH	pH
+800-3	Schistocytes	Schistocytes
+16126-5	Helicobacter pylori Ab.IgG	Helicobacter
+31843-6	Helicobacter pylori Ag	Helicobacter

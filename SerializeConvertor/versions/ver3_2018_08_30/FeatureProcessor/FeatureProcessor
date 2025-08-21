@@ -1,0 +1,16 @@
+processor_type	ABSTRACT
+ABSTRACT	0	MultiFeatureProcessor
+ABSTRACT	1	FeatureBasicOutlierCleaner
+ABSTRACT	2	FeatureNormalizer
+ABSTRACT	3	FeatureImputer
+ABSTRACT	4	DoCalcFeatProcessor
+ABSTRACT	5	UnivariateFeatureSelector
+ABSTRACT	6	MRMRFeatureSelector
+ABSTRACT	7	LassoSelector
+ABSTRACT	8	TagFeatureSelector
+ABSTRACT	9	ImportanceFeatureSelector
+ABSTRACT	10	DgnrtFeatureRemvoer
+ABSTRACT	11	IterativeImputer
+ABSTRACT	12	FeaturePCA
+ABSTRACT	13	OneHotFeatProcessor
+ABSTRACT	14	FTR_PROCESS_LAST

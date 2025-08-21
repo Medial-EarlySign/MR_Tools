@@ -1,0 +1,162 @@
+FreeT4 :: All :: With Values :: 2234172 / 14446692 =  0.15 :: 2234172 / 2234172 =  1.00
+FreeT4 :: Males :: With Values :: 818022 / 6889335 =  0.12 :: 818022 / 2234172 =  0.37
+FreeT4 :: Females :: With Values :: 1416150 / 7557357 =  0.19 :: 1416150 / 2234172 =  0.63
+FreeT4 :: General :: No. of Values :: All 7162242 Male 2253575 Female 4908667
+FreeT4 :: General :: No. of different days Values :: All 7154058 Male 2251230 Female 4902828
+FreeT4 :: General :: Avg #values per person (all) :: All  0.50 Male  0.33 Female  0.65
+FreeT4 :: General :: Avg #values per person (>0)  :: All  3.20 Male  2.75 Female  3.46
+FreeT4 :: General :: Avg dist between tests       :: All  470.8 Male  496.3 Female  460.4
+FreeT4 :: Counts :: Age Group 20 - 25 :: All ::  38164 0.005
+FreeT4 :: Counts :: Age Group 25 - 30 :: All ::  48969 0.007
+FreeT4 :: Counts :: Age Group 30 - 35 :: All ::  61822 0.009
+FreeT4 :: Counts :: Age Group 35 - 40 :: All ::  73404 0.010
+FreeT4 :: Counts :: Age Group 40 - 45 :: All ::  91684 0.013
+FreeT4 :: Counts :: Age Group 45 - 50 :: All :: 109756 0.015
+FreeT4 :: Counts :: Age Group 50 - 55 :: All :: 119900 0.017
+FreeT4 :: Counts :: Age Group 55 - 60 :: All :: 123668 0.017
+FreeT4 :: Counts :: Age Group 60 - 65 :: All :: 131938 0.018
+FreeT4 :: Counts :: Age Group 65 - 70 :: All :: 136128 0.019
+FreeT4 :: Counts :: Age Group 70 - 75 :: All :: 126755 0.018
+FreeT4 :: Counts :: Age Group 75 - 80 :: All :: 119630 0.017
+FreeT4 :: Counts :: Age Group 80 - 85 :: All :: 100239 0.014
+FreeT4 :: Counts :: Age Group 85 - 90 :: All ::  68505 0.010
+FreeT4 :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+FreeT4 :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+FreeT4 :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+FreeT4 :: Counts :: Age Group 20 - 25 :: Males ::   8597 0.004
+FreeT4 :: Counts :: Age Group 25 - 30 :: Males ::  10747 0.005
+FreeT4 :: Counts :: Age Group 30 - 35 :: Males ::  13750 0.006
+FreeT4 :: Counts :: Age Group 35 - 40 :: Males ::  17610 0.008
+FreeT4 :: Counts :: Age Group 40 - 45 :: Males ::  24392 0.011
+FreeT4 :: Counts :: Age Group 45 - 50 :: Males ::  31196 0.014
+FreeT4 :: Counts :: Age Group 50 - 55 :: Males ::  37365 0.017
+FreeT4 :: Counts :: Age Group 55 - 60 :: Males ::  41409 0.018
+FreeT4 :: Counts :: Age Group 60 - 65 :: Males ::  47678 0.021
+FreeT4 :: Counts :: Age Group 65 - 70 :: Males ::  50744 0.023
+FreeT4 :: Counts :: Age Group 70 - 75 :: Males ::  47010 0.021
+FreeT4 :: Counts :: Age Group 75 - 80 :: Males ::  43203 0.019
+FreeT4 :: Counts :: Age Group 80 - 85 :: Males ::  33603 0.015
+FreeT4 :: Counts :: Age Group 85 - 90 :: Males ::  20484 0.009
+FreeT4 :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+FreeT4 :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+FreeT4 :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+FreeT4 :: Counts :: Age Group 20 - 25 :: Females ::  29567 0.006
+FreeT4 :: Counts :: Age Group 25 - 30 :: Females ::  38222 0.008
+FreeT4 :: Counts :: Age Group 30 - 35 :: Females ::  48072 0.010
+FreeT4 :: Counts :: Age Group 35 - 40 :: Females ::  55794 0.011
+FreeT4 :: Counts :: Age Group 40 - 45 :: Females ::  67292 0.014
+FreeT4 :: Counts :: Age Group 45 - 50 :: Females ::  78560 0.016
+FreeT4 :: Counts :: Age Group 50 - 55 :: Females ::  82535 0.017
+FreeT4 :: Counts :: Age Group 55 - 60 :: Females ::  82259 0.017
+FreeT4 :: Counts :: Age Group 60 - 65 :: Females ::  84260 0.017
+FreeT4 :: Counts :: Age Group 65 - 70 :: Females ::  85384 0.017
+FreeT4 :: Counts :: Age Group 70 - 75 :: Females ::  79745 0.016
+FreeT4 :: Counts :: Age Group 75 - 80 :: Females ::  76427 0.016
+FreeT4 :: Counts :: Age Group 80 - 85 :: Females ::  66636 0.014
+FreeT4 :: Counts :: Age Group 85 - 90 :: Females ::  48021 0.010
+FreeT4 :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+FreeT4 :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+FreeT4 :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+FreeT4 :: Stats :: Age Group 20 - 25 :: All ::  N 146346 non-zeros 146118 Median  14.00 Mean  14.39 Std   2.87 Max  35.00
+FreeT4 :: Stats :: Age Group 25 - 30 :: All ::  N 170446 non-zeros 170181 Median  14.00 Mean  14.29 Std   2.98 Max  35.00
+FreeT4 :: Stats :: Age Group 30 - 35 :: All ::  N 191520 non-zeros 191178 Median  14.00 Mean  14.25 Std   3.08 Max  48.00
+FreeT4 :: Stats :: Age Group 35 - 40 :: All ::  N 216614 non-zeros 216197 Median  14.00 Mean  14.25 Std   3.14 Max  56.00
+FreeT4 :: Stats :: Age Group 40 - 45 :: All ::  N 253508 non-zeros 253056 Median  14.00 Mean  14.21 Std   3.16 Max  45.00
+FreeT4 :: Stats :: Age Group 45 - 50 :: All ::  N 276362 non-zeros 275867 Median  14.00 Mean  14.19 Std   3.22 Max  54.00
+FreeT4 :: Stats :: Age Group 50 - 55 :: All ::  N 277742 non-zeros 277240 Median  14.00 Mean  14.35 Std   3.32 Max  43.00
+FreeT4 :: Stats :: Age Group 55 - 60 :: All ::  N 277940 non-zeros 277404 Median  14.00 Mean  14.56 Std   3.38 Max  37.00
+FreeT4 :: Stats :: Age Group 60 - 65 :: All ::  N 277879 non-zeros 277434 Median  14.00 Mean  14.65 Std   3.40 Max  58.00
+FreeT4 :: Stats :: Age Group 65 - 70 :: All ::  N 263524 non-zeros 263123 Median  14.00 Mean  14.82 Std   3.45 Max  42.00
+FreeT4 :: Stats :: Age Group 70 - 75 :: All ::  N 236447 non-zeros 236056 Median  15.00 Mean  15.01 Std   3.54 Max  36.00
+FreeT4 :: Stats :: Age Group 75 - 80 :: All ::  N 212525 non-zeros 212165 Median  15.00 Mean  15.21 Std   3.63 Max  61.00
+FreeT4 :: Stats :: Age Group 80 - 85 :: All ::  N 172262 non-zeros 171961 Median  15.00 Mean  15.41 Std   3.72 Max  37.00
+FreeT4 :: Stats :: Age Group 85 - 90 :: All ::  N 111112 non-zeros 110927 Median  15.00 Mean  15.51 Std   3.78 Max  37.00
+FreeT4 :: Stats :: Age Group 90 - 95 :: All ::  N 48995 non-zeros 48915 Median  15.00 Mean  15.56 Std   3.82 Max  36.00
+FreeT4 :: Stats :: Age Group 95 - 100 :: All ::  N 11857 non-zeros 11848 Median  15.00 Mean  15.59 Std   3.85 Max  35.00
+FreeT4 :: General :: All     :: outliers ratio 0.000008
+FreeT4 :: General :: All     :: N 2034004 non-zeros 2029982 Median  14.00 Mean  14.50 Std   3.29 Max  56.00
+FreeT4 :: General :: All     :: distribution 0.001,0.01,0.05 ::   4.00   8.00  10.00  20.00  25.00  32.00
+FreeT4 :: General :: All     :: quartiles ::   4.00  12.00  14.00  16.00 
+FreeT4 :: General :: Males   :: outliers ratio 0.000004
+FreeT4 :: General :: Males   :: N 748750 non-zeros 747459 Median  14.00 Mean  14.46 Std   3.03 Max  59.00
+FreeT4 :: General :: Males   :: distribution 0.001,0.01,0.05 ::   4.00   8.00  10.00  19.00  23.00  30.00
+FreeT4 :: General :: Males   :: quartiles ::   4.00  13.00  14.00  16.00 
+FreeT4 :: General :: Females :: outliers ratio 0.000010
+FreeT4 :: General :: Females :: N 1285255 non-zeros 1282581 Median  14.00 Mean  14.52 Std   3.44 Max  56.00
+FreeT4 :: General :: Females :: distribution 0.001,0.01,0.05 ::   4.00   8.00  10.00  20.00  26.00  32.00
+FreeT4 :: General :: Females :: quartiles ::   4.00  12.00  14.00  16.00 
+FreeT4 :: Rounding ::  0.00 r  0.00 pct
+FreeT4 :: Rounding ::  0.01 r  0.00 pct
+FreeT4 :: Rounding ::  0.10 r  0.00 pct
+FreeT4 :: Rounding ::  1.00 r  0.94 pct
+FreeT4 :: Rounding :: 10.00 r  0.06 pct
+FreeT4 :: Rounding :: 100.00 r  0.00 pct
+FreeT4 :: Rounding :: 1000.00 r  0.00 pct
+FreeT4 :: Rounding :: most popular rounding for vals:  1.00
+FreeT4 :: Stats year :: 2000 :: All :: N 72164 non-zeros 70818 Median  15.00 Mean  14.93 Std   4.31 Max  35.00
+FreeT4 :: Stats year :: 2001 :: All :: N 98928 non-zeros 97801 Median  15.00 Mean  15.24 Std   4.27 Max  79.00
+FreeT4 :: Stats year :: 2002 :: All :: N 136318 non-zeros 135676 Median  15.00 Mean  15.38 Std   4.01 Max  54.00
+FreeT4 :: Stats year :: 2003 :: All :: N 201183 non-zeros 200378 Median  15.00 Mean  15.46 Std   3.83 Max  58.00
+FreeT4 :: Stats year :: 2004 :: All :: N 271682 non-zeros 271030 Median  15.00 Mean  15.46 Std   3.76 Max  56.00
+FreeT4 :: Stats year :: 2005 :: All :: N 308224 non-zeros 307654 Median  15.00 Mean  15.29 Std   3.75 Max  55.00
+FreeT4 :: Stats year :: 2006 :: All :: N 340521 non-zeros 339914 Median  15.00 Mean  15.18 Std   3.64 Max  43.00
+FreeT4 :: Stats year :: 2007 :: All :: N 385283 non-zeros 384695 Median  14.00 Mean  14.76 Std   3.64 Max  37.00
+FreeT4 :: Stats year :: 2008 :: All :: N 430185 non-zeros 430081 Median  14.00 Mean  14.74 Std   3.51 Max  37.00
+FreeT4 :: Stats year :: 2009 :: All :: N 456551 non-zeros 456391 Median  14.00 Mean  14.57 Std   3.42 Max  35.00
+FreeT4 :: Stats year :: 2010 :: All :: N 449321 non-zeros 448981 Median  14.00 Mean  14.72 Std   3.41 Max  46.00
+FreeT4 :: Stats year :: 2011 :: All :: N 455236 non-zeros 454923 Median  14.00 Mean  14.76 Std   3.33 Max  35.00
+FreeT4 :: Stats year :: 2012 :: All :: N 460092 non-zeros 459934 Median  14.00 Mean  14.81 Std   3.36 Max  35.00
+FreeT4 :: Stats year :: 2013 :: All :: N 446440 non-zeros 446378 Median  14.00 Mean  14.65 Std   3.30 Max  35.00
+FreeT4 :: Stats year :: 2014 :: All :: N 410815 non-zeros 410794 Median  14.00 Mean  14.63 Std   3.29 Max  52.00
+FreeT4 :: Stats year :: 2015 :: All :: N 358573 non-zeros 358549 Median  14.00 Mean  14.58 Std   3.20 Max  35.00
+FreeT4 :: Stats year :: 2016 :: All :: N 13403 non-zeros 13401 Median  14.00 Mean  14.59 Std   3.36 Max  34.00
+FreeT4 :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FreeT4 :: Stats year :: 2000 :: Males   :: N 17922 non-zeros 17584 Median  15.00 Mean  14.91 Std   3.96 Max  34.00
+FreeT4 :: Stats year :: 2001 :: Males   :: N 25858 non-zeros 25607 Median  15.00 Mean  15.20 Std   3.89 Max  35.00
+FreeT4 :: Stats year :: 2002 :: Males   :: N 36814 non-zeros 36667 Median  15.00 Mean  15.25 Std   3.56 Max  35.00
+FreeT4 :: Stats year :: 2003 :: Males   :: N 57404 non-zeros 57174 Median  15.00 Mean  15.25 Std   3.43 Max  38.00
+FreeT4 :: Stats year :: 2004 :: Males   :: N 81290 non-zeros 81123 Median  15.00 Mean  15.22 Std   3.31 Max  39.00
+FreeT4 :: Stats year :: 2005 :: Males   :: N 94348 non-zeros 94205 Median  15.00 Mean  15.07 Std   3.34 Max  48.00
+FreeT4 :: Stats year :: 2006 :: Males   :: N 106487 non-zeros 106311 Median  15.00 Mean  14.94 Std   3.21 Max  37.00
+FreeT4 :: Stats year :: 2007 :: Males   :: N 124591 non-zeros 124364 Median  14.00 Mean  14.50 Std   3.25 Max  37.00
+FreeT4 :: Stats year :: 2008 :: Males   :: N 143245 non-zeros 143208 Median  14.00 Mean  14.51 Std   3.17 Max  35.00
+FreeT4 :: Stats year :: 2009 :: Males   :: N 155702 non-zeros 155637 Median  14.00 Mean  14.37 Std   3.10 Max  35.00
+FreeT4 :: Stats year :: 2010 :: Males   :: N 155609 non-zeros 155455 Median  14.00 Mean  14.43 Std   3.01 Max  45.00
+FreeT4 :: Stats year :: 2011 :: Males   :: N 157943 non-zeros 157811 Median  14.00 Mean  14.47 Std   2.97 Max  35.00
+FreeT4 :: Stats year :: 2012 :: Males   :: N 161570 non-zeros 161514 Median  14.00 Mean  14.54 Std   2.96 Max  35.00
+FreeT4 :: Stats year :: 2013 :: Males   :: N 157227 non-zeros 157215 Median  14.00 Mean  14.34 Std   2.88 Max  35.00
+FreeT4 :: Stats year :: 2014 :: Males   :: N 144186 non-zeros 144182 Median  14.00 Mean  14.38 Std   2.94 Max  52.00
+FreeT4 :: Stats year :: 2015 :: Males   :: N 126603 non-zeros 126599 Median  14.00 Mean  14.37 Std   2.88 Max  35.00
+FreeT4 :: Stats year :: 2016 :: Males   :: N 4713 non-zeros 4711 Median  14.00 Mean  14.42 Std   3.10 Max  34.00
+FreeT4 :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FreeT4 :: Stats year :: 2000 :: Females :: N 54242 non-zeros 53238 Median  15.00 Mean  14.95 Std   4.42 Max  35.00
+FreeT4 :: Stats year :: 2001 :: Females :: N 73070 non-zeros 72212 Median  15.00 Mean  15.26 Std   4.39 Max  79.00
+FreeT4 :: Stats year :: 2002 :: Females :: N 99504 non-zeros 99003 Median  15.00 Mean  15.43 Std   4.17 Max  61.00
+FreeT4 :: Stats year :: 2003 :: Females :: N 143779 non-zeros 143196 Median  15.00 Mean  15.54 Std   3.97 Max  58.00
+FreeT4 :: Stats year :: 2004 :: Females :: N 190391 non-zeros 189920 Median  15.00 Mean  15.57 Std   3.92 Max  56.00
+FreeT4 :: Stats year :: 2005 :: Females :: N 213878 non-zeros 213455 Median  15.00 Mean  15.38 Std   3.92 Max  55.00
+FreeT4 :: Stats year :: 2006 :: Females :: N 234034 non-zeros 233611 Median  15.00 Mean  15.28 Std   3.82 Max  43.00
+FreeT4 :: Stats year :: 2007 :: Females :: N 260694 non-zeros 260333 Median  14.00 Mean  14.89 Std   3.80 Max  36.00
+FreeT4 :: Stats year :: 2008 :: Females :: N 286939 non-zeros 286866 Median  14.00 Mean  14.86 Std   3.67 Max  37.00
+FreeT4 :: Stats year :: 2009 :: Females :: N 300849 non-zeros 300751 Median  14.00 Mean  14.68 Std   3.57 Max  35.00
+FreeT4 :: Stats year :: 2010 :: Females :: N 293711 non-zeros 293534 Median  14.00 Mean  14.87 Std   3.59 Max  35.00
+FreeT4 :: Stats year :: 2011 :: Females :: N 297292 non-zeros 297109 Median  14.00 Mean  14.91 Std   3.50 Max  35.00
+FreeT4 :: Stats year :: 2012 :: Females :: N 298522 non-zeros 298431 Median  15.00 Mean  14.96 Std   3.55 Max  35.00
+FreeT4 :: Stats year :: 2013 :: Females :: N 289212 non-zeros 289167 Median  14.00 Mean  14.83 Std   3.49 Max  35.00
+FreeT4 :: Stats year :: 2014 :: Females :: N 266629 non-zeros 266606 Median  14.00 Mean  14.77 Std   3.46 Max  35.00
+FreeT4 :: Stats year :: 2015 :: Females :: N 231970 non-zeros 231950 Median  14.00 Mean  14.69 Std   3.36 Max  35.00
+FreeT4 :: Stats year :: 2016 :: Females :: N 8690 non-zeros 8690 Median  14.00 Mean  14.68 Std   3.50 Max  34.00
+FreeT4 :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FreeT4 :: Stats month 1 :: All :: N 322834 non-zeros 322241 Median  14.00 Mean  14.82 Std   3.54 Max  37.00
+FreeT4 :: Stats month 2 :: All :: N 306776 non-zeros 306258 Median  14.00 Mean  14.72 Std   3.54 Max  59.00
+FreeT4 :: Stats month 3 :: All :: N 329307 non-zeros 328755 Median  14.00 Mean  14.68 Std   3.53 Max  55.00
+FreeT4 :: Stats month 4 :: All :: N 305934 non-zeros 305440 Median  14.00 Mean  14.73 Std   3.53 Max  52.00
+FreeT4 :: Stats month 5 :: All :: N 317049 non-zeros 316573 Median  14.00 Mean  14.80 Std   3.55 Max  56.00
+FreeT4 :: Stats month 6 :: All :: N 325197 non-zeros 324727 Median  14.00 Mean  14.81 Std   3.59 Max  39.00
+FreeT4 :: Stats month 7 :: All :: N 328324 non-zeros 327901 Median  14.00 Mean  14.85 Std   3.61 Max  35.00
+FreeT4 :: Stats month 8 :: All :: N 310943 non-zeros 310535 Median  14.00 Mean  14.91 Std   3.60 Max  35.00
+FreeT4 :: Stats month 9 :: All :: N 325747 non-zeros 325318 Median  14.00 Mean  14.89 Std   3.56 Max  54.00
+FreeT4 :: Stats month 10 :: All :: N 334691 non-zeros 334219 Median  14.00 Mean  14.89 Std   3.54 Max  55.00
+FreeT4 :: Stats month 11 :: All :: N 319770 non-zeros 319232 Median  14.00 Mean  14.85 Std   3.52 Max  35.00
+FreeT4 :: Stats month 12 :: All :: N 257586 non-zeros 257192 Median  14.00 Mean  14.89 Std   3.54 Max  35.00
+

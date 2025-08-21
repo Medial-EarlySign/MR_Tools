@@ -1,0 +1,47 @@
+SECTION	Drug
+
+DEF	31000	lipid_modifying_agents
+DEF	31001	drugs_used_in_diabetes
+DEF	31002	antithrombotic_agents
+DEF	31003	antihemorrhagics
+DEF	31004	insulins
+DEF	31005	non_insulin_diabetes
+DEF	31006	warfarin_family
+DEF	31007	heparin_family
+DEF	31008	aspirin_family
+DEF	31009	cardiac_therapy
+DEF	31010	drugs_for_hypertension
+DEF	31011	diuretics
+DEF	31012	beta_blockers
+DEF	31013	calcium_channels
+DEF	31014	ace_inhibitors
+DEF	31015	hmg_coa_reductase_inhibitors_statins
+DEF	31016	thyroid_therapy
+DEF	31017	endocrine_therapy
+DEF	31018	immunosuppresors
+DEF	31019	antibiotics
+DEF	31020	drugs_for_acid_related_disorders
+DEF	31021	antidepressants
+
+SET	drugs_for_acid_related_disorders	ATC_A02_____
+SET	drugs_used_in_diabetes	ATC_A10_____
+SET	insulins	ATC_A10A____
+SET	non_insulin_diabetes	ATC_A10B____
+SET	antithrombotic_agents	ATC_B01_____
+SET	warfarin_family	ATC_B01A_A03
+SET	heparin_family	ATC_B01A_B__
+SET	aspirin_family	ATC_B01A_C__
+SET	antihemorrhagics	ATC_B02_____
+SET	cardiac_therapy	ATC_C01_____
+SET	drugs_for_hypertension	ATC_C02_____
+SET	diuretics	ATC_C03_____
+SET	beta_blockers	ATC_C07_____
+SET	calcium_channels	ATC_C08_____
+SET	ace_inhibitors	ATC_C09_____
+SET	lipid_modifying_agents	ATC_C10_____
+SET	hmg_coa_reductase_inhibitors_statins	ATC_C10A_A__
+SET	thyroid_therapy	ATC_H03_____
+SET	antibiotics	ATC_J01_____
+SET	endocrine_therapy	ATC_L02_____
+SET	immunosuppresors	ATC_L04_____
+SET	antidepressants	ATC_N06A____

@@ -1,0 +1,4 @@
+params	MedLightGBMParams
+lightgbm_dump	string
+model_features	vector<string>
+features_count	int

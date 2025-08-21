@@ -1,0 +1,63 @@
+Mimic3 - 
+Demographics : 
+	Gender
+	Age (Byear ?)
+	MARITAL_STATUS
+	ETHNICITY
+	INSURANCE
+	RELIGION
+	LANGUAGE
+	+ Death at hospital (?)
+
+ADMISSION INFO : 	
+	ADMISSION_TYPE	[ELECTIVE,EMERGENCY,URGENT,NEWBORN]
+	ADMISSION_LOCATION	[EMERGENCY ROOM ADMIT,TRANSFER FROM HOSP/EXTRAM,TRANSFER FROM SKILLED NUR,TRANSFER FROM OTHER HEALT,HMO REFERRAL/SICK,TRSF WITHIN THIS FACILITY,CLINIC REFERRAL/PREMATURE,
+						 PHYS REFERRAL/NORMAL DELI]
+	DIAGNOSIS (Reason for admission)
+	
+LAB:	Time + Value
+	Signals + units + resolution info at /nas1/Work/Users/yaron/InPatients/LabSignals.unit.resolution
+	Signal that have text values at /nas1/Work/Users/yaron/InPatients/LabSignals.TextValuesSignals
+	
+Vital Signs: (CHART)	Time + Value
+	Signals + units + resolution info at /nas1/Work/Users/yaron/InPatients/ChartSignals.unit.resolution, RespirationSignals.unit.resolution, ScoresSignals.unit.resolution
+	Signal that have text values : GCS_Verbal, GCS_Motor, GCS_Eye
+	
+Transfers : Time + info 
+	admit - hospital admission first unit (care-unit (ICU unit or newborns) + ward-id)
+	discharge - last unit (care-unit (ICU unit or newborns) + ward-id)
+	transfer - prev unit to current (care-unit (ICU unit or newborns) + ward-id)
+	
+	
+eICU : 
+Demographics : 
+	gender
+	age
+	ethnicity
+	hospitaldischargestatus
+	
+ADMISSION INFO :	
+	hospitalid	( + information per hospital : numbedscategory teachingstatus region)
+	apacheadmissiondx
+	admissionheight
+	admissionweight
+	dischargeweight
+LAB: 
+	lab.csv : labid + labname + 2Xtime + labresult + labresult-text + unit + lab-type 
+	lab-type: 1 for chemistry, 2 for drug level, 3 for hemo, 4 for misc, 5 for non-mapped, 6 for sensitive, 7 for ABG lab
+	times : drawn and revised (?)
+	labnames at /nas1/Work/Users/yaron/InPatients/eICU.Signals
+	
+Vital Signs:
+	1. Aperiodic: noninvasive (systolic,diastolic,mean), paop cardiac output + input, svr(i),pvr(i) - Time + Value
+	2. Periodic: (Data are generally interfaced as 1 minute averages, and archived into the vitalPeriodic table as 5 minute median values) - Time + Value
+			temperature, sao2, heart rate, respiration rate, cvp, end tidal co2, BP (systolic, diastolic, mean), Pulmonary artery pressure (systolic, diastolic, mean), st (1,2,3) (ECG?), icp
+	3. Additional apache scores information 
+	4. Respiration available in
+		a. respiratoryCare : airwaytype,airwaysize,airwayposition,cuffpressure,ventstartoffset,ventendoffset,priorventstartoffset,priorventendoffset,apneaparms,lowexhmvlimit,hiexhmvlimit,lowexhtvlimit,hipeakpreslimit,lowpeakpreslimit,hirespratelimit,lowrespratelimit,sighpreslimit,lowironoxlimit,highironoxlimit,meanairwaypreslimit,peeplimit,cpaplimit,setapneainterval,setapneatv,setapneaippeephigh,setapnearr,setapneapeakflow,setapneainsptime,setapneaie,setapneafio2
+		b. respiratoryCharting:time + entry-time + type (respcharttypecat,respFlowCareData,respFlowPtVentData,respFlowSettings) + signals + value
+		signals are at/nas1/Work/Users/yaron/InPatients/eICU.RespSignals
+		
+
+Transfers : NA
+

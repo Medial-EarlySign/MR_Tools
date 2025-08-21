@@ -1,0 +1,71 @@
+2126100	Hypertension resolved                                       
+212K.00	Hypertension resolved                                       
+246K.00	Target systolic blood pressure                              
+246L.00	Target diastolic blood pressure                             
+662..12	Hypertension monitoring                                     
+6627.00	Good hypertension control                                   
+6628.00	Poor hypertension control                                   
+6629.00	Hypertension:follow-up default                              
+662P.00	Hypertension monitoring                                     
+662P000	Hypertension 9 month review                                 
+662P100	Telehealth hypertension monitoring                          
+8BL0.00	Patient on maximal tolerated antihypertensive therapy       
+G2...00	Hypertensive disease                                        
+G20..00	Essential hypertension                                      
+G20..11	High blood pressure                                         
+G20..12	Primary hypertension                                        
+G200.00	Malignant essential hypertension                            
+G201.00	Benign essential hypertension                               
+G202.00	Systolic hypertension                                       
+G203.00	Diastolic hypertension                                      
+G20z.00	Essential hypertension NOS                                  
+G20z.11	Hypertension NOS                                            
+G21..00	Hypertensive heart disease                                  
+G210.00	Malignant hypertensive heart disease                        
+G210100	Malignant hypertensive heart disease with CCF               
+G210z00	Malignant hypertensive heart disease NOS                    
+G211.00	Benign hypertensive heart disease                           
+G211000	Benign hypertensive heart disease without CCF               
+G211100	Benign hypertensive heart disease with CCF                  
+G211z00	Benign hypertensive heart disease NOS                       
+G21z.00	Hypertensive heart disease NOS                              
+G21z000	Hypertensive heart disease NOS without CCF                  
+G21z011	Cardiomegaly - hypertensive                                 
+G21z100	Hypertensive heart disease NOS with CCF                     
+G21zz00	Hypertensive heart disease NOS                              
+G22..00	Hypertensive renal disease                                  
+G22..11	Nephrosclerosis                                             
+G220.00	Malignant hypertensive renal disease                        
+G221.00	Benign hypertensive renal disease                           
+G222.00	Hypertensive renal disease with renal failure               
+G22z.00	Hypertensive renal disease NOS                              
+G22z.11	Renal hypertension                                          
+G23..00	Hypertensive heart and renal disease                        
+G230.00	Malignant hypertensive heart and renal disease              
+G231.00	Benign hypertensive heart and renal disease                 
+G232.00	Hypertensive heart&renal dis wth (congestive) heart failure 
+G233.00	Hypertensive heart and renal disease with renal failure     
+G234.00	Hyperten heart&renal dis+both(congestv)heart and renal fail 
+G23z.00	Hypertensive heart and renal disease NOS                    
+G24..00	Secondary hypertension                                      
+G240.00	Secondary malignant hypertension                            
+G240000	Secondary malignant renovascular hypertension               
+G240z00	Secondary malignant hypertension NOS                        
+G241.00	Secondary benign hypertension                               
+G241000	Secondary benign renovascular hypertension                  
+G241z00	Secondary benign hypertension NOS                           
+G244.00	Hypertension secondary to endocrine disorders               
+G24z.00	Secondary hypertension NOS                                  
+G24z000	Secondary renovascular hypertension NOS                     
+G24z100	Hypertension secondary to drug                              
+G24zz00	Secondary hypertension NOS                                  
+G25..00	Stage 1 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+G25..11	Stage 1 hypertension                                        
+G250.00	Stage 1 hyperten (NICE 2011) without evidnce end organ damge
+G251.00	Stage 1 hyperten (NICE 2011) with evidnce end organ damge   
+G26..00	Severe hypertension (Nat Inst for Health Clinical Ex 2011)  
+G26..11	Severe hypertension                                         
+G27..00	Hypertension resistant to drug therapy                      
+G28..00	Stage 2 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+G2y..00	Other specified hypertensive disease                        
+G2z..00	Hypertensive disease NOS                             

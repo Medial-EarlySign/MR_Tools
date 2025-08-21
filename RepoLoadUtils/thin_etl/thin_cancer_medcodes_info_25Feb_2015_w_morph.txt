@@ -1,0 +1,1622 @@
+Read code	# records	# patients	description	internal comment	status	type	organ
+B33..11	16234	10938	Basal cell carcinoma	medr_tumor;tumor	morph	na	na
+B76..14	12411	9129	Mole of skin	medr_tumor;medr_benign	ignore	na	na
+B74..00	5950	4369	Lipoma	medr_tumor;medr_benign	ignore	na	na
+B46..00	5950	4663	Malignant neoplasm of prostate	medr_tumor;tumor	cancer	prostate	prostate
+B34..00	5599	4591	Malignant neoplasm of female breast	medr_tumor;tumor	cancer	breast	breast
+B76..15	2588	2231	Papilloma of skin	medr_tumor;medr_benign	ignore	na	na
+B8...11	2291	1707	Bowen's disease	medr_tumor;tumor;medr_benign	cancer	na	na
+BB2A.00	2011	1639	[M]Squamous cell carcinoma NOS	medr_tumor;tumor;medr_benign	morph	na	na
+BBE0.12	1631	1490	[M]Naevus NOS	medr_tumor;tumor;medr_benign	ignore	na	na
+B78..11	1490	1182	Fibroids	medr_tumor;medr_benign	ignore	na	na
+B49..00	1450	1191	Malignant neoplasm of urinary bladder	tumor	cancer	bladder	bladder
+B338.00	1411	1146	Squamous cell carcinoma of skin	tumor	cancer	na	na
+B32..00	1301	1042	Malignant melanoma of skin	medr_tumor;tumor	cancer	na	na
+BB5..11	1195	1035	[M]Adenocarcinomas	medr_tumor;tumor;medr_benign	morph	na	na
+B76..00	1135	934	Benign neoplasm of skin	medr_tumor;medr_benign	ignore	na	na
+B78..00	1118	941	Uterine leiomyoma - fibroids	medr_tumor;medr_benign	ignore	na	na
+B76..13	1048	908	Dermatofibroma	medr_tumor;medr_benign	ignore	na	na
+B34..11	1034	873	Ca female breast	medr_tumor;tumor	cancer	breast	breast
+B7J0.00	1023	846	Haemangioma	medr_tumor;medr_benign	ignore	na	na
+BBEJ.00	1013	946	[M]Intradermal naevus	medr_tumor;tumor;medr_benign	ignore	na	na
+B141.00	991	812	Malignant neoplasm of rectum	tumor	cancer	crc	rectum
+B77..11	916	805	Fibroadenoma of breast	medr_tumor;medr_benign	ignore	na	na
+BBK0011	904	811	[M]Fibroid uterus	medr_tumor;tumor;medr_benign	ignore	na	na
+1O0..00	871	800	Cancer confirmed	tumor	anc	na	na
+B10..00	774	596	Malignant neoplasm of oesophagus	tumor;oeso	cancer	oeso	oeso
+B76..11	734	666	Benign naevus of skin	medr_tumor;medr_benign	ignore	na	na
+BB31.00	725	548	[M]Basal cell carcinoma NOS	tumor	morph	na	na
+B713.11	718	635	Colon polyp	medr_tumor;medr_benign	ignore	na	na
+B17..00	705	559	Malignant neoplasm of pancreas	medr_tumor;tumor	cancer	pancreas	pancreas
+B577.11	665	581	Liver metastases	medr_tumor;tumor	cancer	liver	meta
+B641.00	635	449	Chronic lymphoid leukaemia	medr_tumor;tumor	cancer	blood	CLL
+B627.00	620	485	Non - Hodgkin's lymphoma	medr_tumor;tumor	cancer	blood	NHL
+B22..00	604	509	"Malignant neoplasm of trachea, bronchus and lung"	tumor;lung	cancer	lung	lung
+B33..13	598	522	Rodent ulcer	medr_tumor;tumor	cancer	na	na
+B76..16	545	469	Pigmented naevus	medr_tumor;medr_benign	ignore	na	na
+B934.00	539	380	Polycythaemia vera	tumor;benign	benign	na	na
+BBe8.00	532	473	[M]Neuroma NOS	medr_tumor;tumor;medr_benign	ca_bg	na	na
+BB5U300	522	493	[M]Tubulovillous adenoma	tumor	morph	na	na
+B440.00	519	436	Malignant neoplasm of ovary	medr_tumor;tumor	cancer	ovary	ovary
+BB03.00	519	471	"[M]Neoplasm, metastatic"	medr_tumor;tumor;medr_benign	morph	na	na
+B630.00	504	353	Multiple myeloma	medr_tumor;tumor	cancer	blood	MM
+B34z.00	501	468	Malignant neoplasm of female breast NOS	tumor	cancer	breast	breast
+BB4..00	451	388	[M]Transitional cell papillomas and carcinomas	tumor	morph	na	na
+BBg1.11	437	355	[M]Lymphoma NOS	medr_tumor;tumor;medr_benign	cancer	blood	NHL
+8BAD000	430	301	Cancer chemotherapy	tumor	anc	na	na
+BB13.00	429	399	"[M]Carcinoma, metastatic, NOS"	tumor	morph	na	na
+B834.00	428	375	Carcinoma in situ of prostate	medr_tumor;tumor;medr_benign	cancer	prostate	prostate
+B430200	421	388	Malignant neoplasm of endometrium of corpus uteri	medr_tumor;tumor	cancer	uterus	uterus
+B937W11	412	310	Myelodysplasia	tumor	cancer	blood	MDS
+BBEK.00	394	378	[M]Compound naevus	medr_tumor;tumor;medr_benign	ignore	na	na
+BBEF.11	365	277	[M]Lentigo maligna	medr_tumor;tumor;medr_benign	cancer	na	na
+BB5M000	346	334	[M]Tubular adenoma NOS	tumor	morph	na	na
+BB12.00	329	297	[M]Carcinoma NOS	medr_tumor;tumor;medr_benign	morph	na	na
+BB5..12	325	311	[M]Adenomas	medr_tumor;tumor;medr_benign;benign	benign	na	na
+BBm7.00	302	270	[M] Monoclonal gammopathy	tumor	ca_bg	na	na
+B49z.00	294	272	Malignant neoplasm of urinary bladder NOS	tumor	cancer	bladder	bladder
+B58..00	288	274	Secondary malignant neoplasm of other specified sites	tumor	morph	na	na
+BB2..12	288	254	[M]Squamous cell neoplasms	medr_tumor;tumor;medr_benign	morph	na	na
+B226.00	287	203	Mesothelioma	tumor;lung	cancer	lung	lung
+B4A..00	287	232	Malig neop of kidney and other unspecified urinary organs	tumor	cancer	kidney	kidney
+B583200	286	254	Cerebral metastasis	tumor	cancer	na	na
+BBE1.00	286	228	[M]Malignant melanoma NOS	medr_tumor;medr_benign	cancer	na	na
+B440.11	275	229	Cancer of ovary	medr_tumor;tumor	cancer	ovary	ovary
+B768.00	274	243	Melanocytic naevi of skin	medr_tumor;medr_benign	ignore	na	na
+B650.00	273	185	Acute myeloid leukaemia	medr_tumor;tumor	cancer	blood	AML
+B830.00	269	251	Carcinoma in situ of breast	tumor	cancer	breast	breast
+B585.00	261	233	Secondary malignant neoplasm of bone and bone marrow	medr_tumor;tumor	cancer	na	na
+BB52.00	260	250	[M]Adenocarcinoma NOS	medr_tumor;tumor;medr_benign	morph	na	na
+B222100	251	238	Malignant neoplasm of upper lobe of lung	tumor;lung	cancer	lung	lung
+BBbL.11	240	177	[M]Glioblastoma multiforme	tumor	cancer	na	na
+B10z.00	234	200	Malignant neoplasm of oesophagus NOS	tumor;oeso	cancer	oeso	oeso
+BB5D100	227	138	[M]Cholangiocarcinoma	medr_tumor;medr_benign	cancer	na	na
+B33..00	223	206	Other malignant neoplasm of skin	tumor	cancer	na	na
+BB2L.00	215	181	[M]Bowen's disease	tumor	cancer	na	na
+BBn0.12	212	158	[M]Myeloma NOS	medr_tumor;tumor;medr_benign	cancer	blood	MM
+B33z.11	210	191	Squamous cell carcinoma of skin NOS	tumor	cancer	na	na
+BB3..00	209	185	[M]Basal cell neoplasms	tumor	morph	na	na
+B1...00	208	194	Malignant neoplasm of digestive organs and peritoneum	tumor	morph	na	na
+B51..00	205	191	Malignant neoplasm of brain	tumor	cancer	na	na
+B590.11	202	161	Carcinomatosis	medr_tumor;tumor	morph	na	na
+B8...00	196	180	Carcinoma in situ	medr_tumor;tumor;medr_benign	morph	na	na
+BBEY.00	195	184	[M]Dysplastic naevus	medr_tumor;tumor;medr_benign	ignore	na	na
+BBGK.12	193	181	[M]Histiocytoma NOS	medr_tumor;tumor;medr_benign	ca_bg	na	na
+B....00	186	174	Neoplasms	medr_tumor;tumor;benign	morph	na	na
+B150300	182	151	Hepatocellular carcinoma	tumor;liver	cancer	liver	liver
+B43..00	181	174	Malignant neoplasm of body of uterus	tumor	cancer	uterus	uterus
+B837.00	180	161	Carcinoma in situ of bladder	medr_tumor;tumor	cancer	bladder	bladder
+BB5M.00	176	175	[M]Tubular adenomas and adenocarcinomas	tumor	morph	na	na
+B570.00	175	170	Secondary malignant neoplasm of lung	medr_tumor;tumor	cancer	lung	lung
+BBJ2.12	172	156	[M]Soft fibroma	medr_tumor;tumor;medr_benign;benign	benign	na	na
+BBL3.00	172	150	[M]Pleomorphic adenoma	medr_tumor;tumor;medr_benign	morph	na	na
+B5...00	170	140	Malignant neoplasm of other and unspecified sites	tumor	morph	na	na
+B577.00	169	153	Secondary malignant neoplasm of liver	tumor	cancer	liver	meta
+BBQ8.00	169	153	[M]Dermoid cyst	medr_tumor;tumor;medr_benign;benign	benign	na	na
+BB43.00	166	157	[M]Transitional cell carcinoma NOS	tumor	morph	na	na
+BB5a.00	164	150	[M]Renal adenoma and carcinoma	tumor	cancer	na	na
+B21..00	163	125	Malignant neoplasm of larynx	tumor	cancer	na	na
+B13z.00	162	157	Malignant neoplasm of colon NOS	tumor;crc	cancer	crc	colon
+B4Az.00	161	155	Malignant neoplasm of kidney or urinary organs NOS	tumor	cancer	kidney	kidney
+BBE0.00	161	144	[M]Pigmented naevus NOS	medr_tumor;medr_benign	ignore	na	na
+BBe5.13	161	142	[M]Schwannoma NOS	tumor	benign	na	na
+9h81.00	154	143	Excepted from cancer quality indicators: Patient unsuitable	tumor	anc	na	na
+B....11	154	146	Cancers	medr_tumor;tumor	morph	na	na
+BB1J.00	154	136	[M]Small cell carcinoma NOS	medr_tumor;tumor;medr_benign	morph	na	na
+B53..00	153	137	Malignant neoplasm of thyroid gland	medr_tumor;tumor	cancer	na	na
+B937X00	152	121	"Refractory anaemia, unspecified"	tumor	anc	na	na
+BBT8.00	150	140	[M]Capillary haemangioma	tumor	morph	na	na
+B6y0.00	148	111	Myeloproliferative disorder	tumor	cancer	blood	UNS
+B221.00	142	124	Malignant neoplasm of main bronchus	tumor;lung	cancer	lung	lung
+B4A0.00	142	121	Malignant neoplasm of kidney parenchyma	tumor	cancer	kidney	kidney
+BBM1.00	142	135	[M]Fibroadenoma NOS	medr_tumor;medr_benign	ignore	na	na
+B41..00	141	123	Malignant neoplasm of cervix uteri	medr_tumor;tumor	cancer	na	na
+B11z.00	139	128	Malignant neoplasm of stomach NOS	tumor;stom	cancer	stom	stom
+B828.00	136	122	Melanoma in situ of skin	tumor	cancer	na	na
+B01..00	132	108	Malignant neoplasm of tongue	tumor	cancer	na	na
+B62y.00	132	110	Malignant lymphoma NOS	tumor	cancer	blood	NHL
+BB5j.00	131	122	[M]Endometrioid adenomas and carcinomas	medr_tumor;tumor;medr_benign	cancer	uterus	uterus
+B57..11	128	117	Metastases of respiratory and/or digestive systems	tumor	morph	na	na
+BB53.00	128	121	"[M]Adenocarcinoma, metastatic, NOS"	tumor	morph	na	na
+B3...00	124	116	"Malig neop of bone, connective tissue, skin and breast"	tumor	morph	na	na
+B222.00	123	110	"Malignant neoplasm of upper lobe, bronchus or lung"	tumor;lung	cancer	lung	lung
+B33z.00	123	108	Malignant neoplasm of skin NOS	tumor	cancer	na	na
+B627C11	120	86	Follicular lymphoma NOS	tumor	cancer	blood	NHL
+BB5R.00	120	97	[M]Carcinoid tumours	tumor	morph	na	na
+B40..00	117	107	"Malignant neoplasm of uterus, part unspecified"	medr_tumor;tumor	cancer	na	na
+B651.00	113	81	Chronic myeloid leukaemia	medr_tumor;tumor	cancer	blood	CML
+B590.00	111	89	Disseminated malignancy NOS	tumor	morph	na	na
+BB5a000	111	98	[M]Renal cell carcinoma	tumor	cancer	kidney	kidney
+BBG0.00	111	103	[M]Fibroma NOS	medr_tumor;tumor;medr_benign	benign	na	na
+B4A..11	110	103	Renal malignant neoplasm	tumor	cancer	kidney	kidney
+BBv..00	110	99	[M]Myelodysplastic syndrome	tumor	cancer	blood	MDS
+BBd..00	108	86	[M]Meningiomas	tumor	ca_bg	na	na
+B832000	108	97	Carcinoma in situ of endometrium	medr_tumor;tumor;medr_benign	cancer	uterus	uterus
+BB20.00	107	97	[M]Papilloma NOS (excluding papilloma of urinary bladder)	medr_tumor;tumor;medr_benign	benign	na	na
+B56..11	105	100	Lymph node metastases	tumor	cancer	na	na
+BB5L000	104	100	[M]Adenomatous polyp NOS	tumor	morph	na	na
+B140.00	103	98	Malignant neoplasm of rectosigmoid junction	tumor	cancer	crc	rectum;colon
+Byu6.00	102	100	[X]Malignant neoplasm of breast	medr_tumor;tumor;medr_benign	cancer	breast	breast
+B833311	101	78	Vulval intraepithelial neoplasia	tumor	cancer	na	na
+BBe..11	100	93	[M]Neurofibromas	medr_tumor;tumor;medr_benign	cancer	na	na
+8B3p.00	99	27	Administration of cancer treatment	tumor	anc	na	na
+B4...00	99	94	Malignant neoplasm of genitourinary organ	tumor	cancer	na	na
+BB33.00	99	91	"[M]Basal cell carcinoma, morphoea type"	tumor	morph	na	na
+BBb0.11	95	78	[M]Glioma NOS	tumor	morph	na	na
+BB50.00	94	85	[M]Adenoma NOS	tumor;benign	benign	na	na
+B17z.00	92	81	Malignant neoplasm of pancreas NOS	tumor	cancer	pancreas	pancreas
+B937400	91	72	Essential (haemorrhagic) thrombocythaemia	tumor	cancer	blood	THR
+B060.00	90	76	Malignant neoplasm of tonsil	tumor	cancer	na	na
+B73..12	89	76	Osteoma	medr_tumor;medr_benign	benign	na	na
+B7G..11	87	83	Adenoma of thyroid gland	medr_tumor;medr_benign	benign	na	na
+BB5y400	87	63	[M]Prolactinoma	tumor	cancer	na	na
+BBG0.11	86	81	[M]Fibroma durum	tumor	morph	na	na
+BBg2.11	86	75	[M]Non Hodgkins lymphoma	medr_tumor;tumor;medr_benign	cancer	blood	NHL
+B136.00	85	73	Malignant neoplasm of ascending colon	tumor;crc	cancer	crc	colon
+BB51.00	85	81	[M]Adenocarcinoma in situ	tumor	cancer	na	na
+BB25.12	82	75	[M]Hyperkeratotic papilloma	tumor;benign	benign	na	na
+BBK0200	81	55	[M]Leiomyosarcoma NOS	tumor	cancer	na	na
+B830100	80	75	Intraductal carcinoma in situ of breast	tumor	cancer	breast	breast
+9h82.00	72	68	Excepted from cancer quality indicators: Informed dissent	tumor	anc	na	na
+B131.00	72	70	Malignant neoplasm of transverse colon	tumor;crc	cancer	crc	colon
+B61..00	70	55	Hodgkin's disease	tumor	cancer	blood	HODG
+B454.00	69	63	Malignant neoplasm of vulva unspecified	tumor	cancer	na	na
+B141.11	68	67	Carcinoma of rectum	tumor	cancer	crc	rectum
+B2...00	68	63	Malig neop of respiratory tract and intrathoracic organs	tumor	cancer	na	na
+B583000	67	60	Secondary malignant neoplasm of brain	tumor	cancer	na	na
+B621.00	67	37	Mycosis fungoides	tumor	cancer	blood	NHL
+B937.14	67	54	Myelodysplasia	tumor	cancer	blood	MDS
+BBEG.11	67	59	[M]Lentigo maligna melanoma	tumor	cancer	na	na
+BBT0.11	67	66	[M]Angioma NOS	tumor	morph	na	na
+B170.00	67	61	Malignant neoplasm of head of pancreas	medr_tumor;tumor	cancer	pancreas	pancreas
+B153.00	62	57	Secondary malignant neoplasm of liver	tumor;liver	cancer	liver	meta
+B160.00	62	57	Malignant neoplasm of gallbladder	tumor	cancer	na	na
+BBbL.00	62	53	[M]Glioblastoma NOS	tumor	cancer	na	na
+B6...00	61	61	Malignant neoplasm of lymphatic and haemopoietic tissue	tumor	cancer	blood	NHL
+BA0..00	61	57	Neoplasm of unspecified nature	tumor;benign	ca_bg	na	na
+B224.00	60	44	"Malignant neoplasm of lower lobe, bronchus or lung"	tumor;lung	cancer	lung	lung
+BB5R900	60	55	[M]Neuroendocrine carcinoma	tumor	cancer	na	na
+BBT2.00	60	56	[M]Cavernous haemangioma	medr_tumor;tumor;medr_benign	benign	na	na
+B80z000	59	55	Carcinoma in situ of pancreas	tumor	cancer	pancreas	pancreas
+Byu4100	59	57	"[X]Malignant melanoma of skin, unspecified"	tumor	cancer	na	na
+B232.00	58	50	Mesothelioma of pleura	tumor	cancer	na	na
+B62x.00	58	52	Malignant lymphoma otherwise specified	tumor	cancer	blood	NHL
+BBEH.00	58	55	[M]Superficial spreading melanoma	tumor	cancer	na	na
+BBTB.00	58	53	[M]Angiokeratoma	tumor	cancer	na	na
+BB5L011	58	55	[M]Polypoid adenoma	medr_tumor;tumor;medr_benign	benign	na	na
+B22y.00	57	54	Malignant neoplasm of other sites of bronchus or lung	tumor;lung	cancer	lung	lung
+B7Fy100	56	47	Morton neuroma	medr_tumor;medr_benign	benign	na	na
+BB3B.00	56	53	[M]Pilomatrixoma	medr_tumor;tumor;medr_benign	benign	na	na
+BBE..00	55	46	[M]Naevi and melanomas	medr_tumor;medr_benign	ignore	na	na
+4M0..00	53	52	Gleason grading of prostate cancer	tumor	anc	na	na
+B221z00	53	45	Malignant neoplasm of main bronchus NOS	tumor;lung	cancer	lung	lung
+BB29.12	53	46	[M]Intraepidermal carcinoma NOS	tumor	morph	na	na
+BB25.00	53	53	[M]Squamous cell papilloma	medr_tumor;tumor;medr_benign;benign	benign	na	na
+B150.00	52	49	Primary malignant neoplasm of liver	tumor;liver	cancer	liver	liver
+B41z.00	52	48	Malignant neoplasm of cervix uteri NOS	tumor	cancer	na	na
+BBmK.00	52	42	[M]Waldenstrom's macroglobulinaemia	tumor	cancer	blood	WAL
+B14..00	51	45	"Malignant neoplasm of rectum, rectosigmoid junction and anus"	tumor	cancer	crc	rectum;colon
+BBM..00	51	48	[M]Fibroepithelial neoplasms	medr_tumor;medr_benign	ca_bg	na	na
+BBmH.00	51	44	[M] Large cell lymphoma	tumor	cancer	blood	NHL
+BBEJ.11	50	47	[M]Dermal naevus	tumor	cancer	na	na
+B830000	50	48	Lobular carcinoma in situ of breast	medr_tumor;tumor;medr_benign	cancer	breast	breast
+B152.00	49	47	Malignant neoplasm of liver unspecified	tumor;liver	cancer	liver	liver
+B934.11	49	38	Polycythaemia rubra vera	tumor;benign	cancer	blood	PCV
+BB25.13	49	46	[M]Keratotic papilloma	medr_tumor;tumor;medr_benign;benign	benign	na	na
+B803300	48	46	Carcinoma in situ of sigmoid colon	tumor;crc	cancer	crc	colon
+B08..00	47	16	Malignant neoplasm of hypopharynx	tumor	cancer	na	na
+B142.11	47	43	Anal carcinoma	tumor	cancer	na	na
+B627C00	47	43	Follicular non-Hodgkin's lymphoma	tumor	cancer	blood	NHL
+B801.00	47	46	Carcinoma in situ of oesophagus	tumor;oeso	cancer	oeso	oeso
+BB5c.00	47	46	[M]Parathyroid adenomas and adenocarcinomas	tumor	cancer	na	na
+BBEB.00	47	44	[M]Junctional naevus	medr_tumor;medr_benign	ignore	na	na
+B65..00	47	43	Myeloid leukaemia	medr_tumor;tumor	cancer	blood	ML
+B47..00	46	40	Malignant neoplasm of testis	tumor	cancer	na	na
+B585000	46	43	Pathological fracture due to metastatic bone disease	tumor	cancer	na	na
+B937500	46	43	Idiopathic thrombocythaemia	tumor	cancer	blood	THR
+B831.11	45	44	CIN III - carcinoma in situ of cervix	tumor	cancer	na	na
+BB5j200	45	44	[M]Endometrioid carcinoma	medr_tumor;tumor;medr_benign	cancer	uterus	uterus
+B142.00	44	37	Malignant neoplasm of anal canal	tumor	cancer	na	na
+B6y0.11	44	40	Myeloproliferative disease	tumor	cancer	blood	UNS
+BBW2.11	44	31	[M]Enchondroma	tumor	cancer	na	na
+BB5U000	44	38	[M]Villous adenoma NOS	medr_tumor;tumor;medr_benign;benign	benign	na	na
+B222000	43	43	Malignant neoplasm of upper lobe bronchus	tumor;lung	cancer	lung	lung
+BB28.00	43	43	[M]Papillomatosis NOS	tumor;benign	benign	na	na
+B105.00	42	40	Malignant neoplasm of lower third of oesophagus	tumor;oeso	cancer	oeso	oeso
+B827.00	42	36	Carcinoma in situ of skin of lower limb and hip	tumor	cancer	na	na
+BB02.00	42	39	"[M]Neoplasm, malignant"	tumor	morph	na	na
+BB2B.00	42	40	"[M]Squamous cell carcinoma, metastatic NOS"	tumor	morph	na	na
+BB4A.00	42	41	[M]Papillary transitional cell carcinoma	tumor	morph	na	na
+BB95.00	42	41	[M]Intraductal papilloma	tumor	morph	na	na
+BB9J.00	42	30	"[M]Paget's disease, mammary"	tumor	cancer	na	na
+B5z..00	42	33	Malignant neoplasm of other and unspecified site NOS	medr_tumor;tumor	cancer	na	na
+B540.11	41	27	Phaeochromocytoma	tumor;benign	benign	na	na
+B627W00	41	41	Unspecified B-cell non-Hodgkin's lymphoma	tumor	cancer	blood	NHL
+B020.00	40	35	Malignant neoplasm of parotid gland	tumor	cancer	na	na
+B130.00	40	39	Malignant neoplasm of hepatic flexure of colon	tumor;crc	cancer	crc	colon
+B450.00	40	17	Malignant neoplasm of vagina	tumor	cancer	na	na
+BB42.00	40	38	[M]Transitional cell carcinoma in situ	tumor	morph	na	na
+B33..16	39	36	Epithelioma basal cell	tumor	cancer	na	na
+B630200	39	27	Plasmacytoma NOS	tumor	cancer	blood	MM
+B691.00	39	36	Chronic myelomonocytic leukaemia	tumor	cancer	blood	CML
+BBs0.00	39	31	[M]Polycythaemia vera	tumor	cancer	blood	PCV
+B0...00	38	36	"Malignant neoplasm of lip, oral cavity and pharynx"	tumor	cancer	na	na
+B150000	38	17	Primary carcinoma of liver	tumor;liver	cancer	liver	liver
+B35..00	38	33	Malignant neoplasm of male breast	tumor	cancer	breast	breast
+B471000	38	31	Seminoma of descended testis	tumor	cancer	na	na
+BB81.11	38	31	[M]Ovarian cystadenoma or carcinoma	tumor	cancer	ovary	ovary
+B132.00	37	37	Malignant neoplasm of descending colon	tumor;crc	cancer	crc	colon
+B161200	37	28	Malignant neoplasm of common bile duct	tumor	cancer	na	na
+B223100	37	36	Malignant neoplasm of middle lobe of lung	tumor;lung	cancer	lung	lung
+B344.00	37	36	Malignant neoplasm of upper-outer quadrant of female breast	tumor	cancer	breast	breast
+B4...11	37	31	Carcinoma of genitourinary organ	tumor	cancer	na	na
+BBW0.13	37	36	[M]Osteocartilaginous exostosis	medr_tumor;tumor;medr_benign	benign	na	na
+4M01.00	36	36	Gleason prostate grade 5-7 (medium)	tumor	anc	na	na
+BA04.00	36	36	Neoplasm of unspecified nature of bladder	tumor;benign	ca_bg	na	na
+BB5U.00	36	33	[M]Villous adenomas and adenocarcinomas	tumor	morph	na	na
+BB91.11	36	34	[M]Duct carcinoma NOS	tumor	morph	na	na
+Bz...00	36	35	Neoplasms NOS	tumor;benign	ca_bg	na	na
+B62yz00	35	34	Malignant lymphoma NOS	tumor	cancer	blood	NHL
+B905400	35	31	Gastrointestinal stromal tumour	tumor	cancer	na	na
+BB9L.00	35	12	"[M]Paget's disease, extramammary, exc Paget's disease bone"	tumor	cancer	na	na
+BBs5.00	35	31	[M]Chronic lymphoproliferative disease	tumor	cancer	blood	CLL
+B010.00	34	34	Malignant neoplasm of base of tongue	tumor	cancer	na	na
+B120.00	34	33	Malignant neoplasm of duodenum	tumor	cancer	na	na
+B937411	34	31	Primary thrombocythaemia	tumor	cancer	blood	THR
+BB06.00	34	32	"[M]Tumour cells, uncertain whether benign or malignant"	tumor;benign	ca_bg	na	na
+BB11.00	34	31	[M]Carcinoma in situ NOS	tumor	morph	na	na
+BB5cz00	34	31	[M]Parathyroid adenoma or adenocarcinoma NOS	tumor	morph	na	na
+B41..11	34	33	Cervical carcinoma (uterus)	medr_tumor;tumor	cancer	na	na
+B134.11	33	31	Carcinoma of caecum	tumor;crc	cancer	crc	colon
+B211.00	33	25	Malignant neoplasm of supraglottis	tumor	cancer	na	na
+B221100	33	32	Malignant neoplasm of hilus of lung	tumor;lung	cancer	lung	lung
+B4A2.00	33	33	Malignant neoplasm of ureter	tumor	cancer	na	na
+B576200	32	28	Malignant ascites	tumor	cancer	na	na
+B624.12	32	27	Hairy cell leukaemia	tumor	cancer	blood	HCL
+BB5..00	32	31	[M]Adenomas and adenocarcinomas	tumor	morph	na	na
+B32z.00	31	30	Malignant melanoma of skin NOS	tumor	cancer	na	na
+BBX..00	31	29	[M]Giant cell tumours	tumor	cancer	na	na
+B21z.00	30	26	Malignant neoplasm of larynx NOS	tumor	cancer	na	na
+B43z.00	30	25	Malignant neoplasm of body of uterus NOS	tumor	cancer	uterus	uterus
+B831.13	30	28	Cervical intraepithelial neoplasia grade III	tumor	cancer	na	na
+BB5y000	30	27	[M]Basal cell adenocarcinoma	tumor	morph	na	na
+BBm9.00	30	23	[M] Monocytoid B-cell lymphoma	tumor	cancer	na	na
+Byu4.00	30	23	[X]Melanoma and other malignant neoplasms of skin	tumor	cancer	na	na
+B5...11	30	29	Carcinoma of other and unspecified sites	medr_tumor;tumor	cancer	na	na
+B4A0000	29	25	Hypernephroma	tumor	cancer	na	na
+B8yy000	29	24	Carcinoma in situ of thyroid gland	tumor	cancer	na	na
+BB5D511	29	27	[M]Hepatoma NOS	tumor	cancer	liver	liver
+BBK0000	29	26	[M]Leiomyoma NOS	tumor	morph	na	na
+BBg..00	29	27	"[M]Lymphomas, NOS or diffuse"	tumor	cancer	blood	NHL
+B0z2.00	28	23	Malignant neoplasm of laryngopharynx	tumor	cancer	na	na
+B56..00	28	28	Secondary and unspecified malignant neoplasm of lymph nodes	tumor	cancer	na	na
+B803400	28	26	Carcinoma in situ of caecum	tumor;crc	cancer	crc	colon
+BB5W013	28	22	[M]Oncocytoma	tumor	morph	na	na
+BBn0.11	28	18	[M]Multiple myeloma	tumor	cancer	blood	MM
+B2zz.00	27	25	Malignant neoplasm of respiratory tract NOS	tumor	cancer	na	na
+B325100	27	26	Malignant melanoma of breast	tumor	cancer	na	na
+B33..12	27	27	Epithelioma	tumor	cancer	na	na
+B641.11	27	24	Chronic lymphatic leukaemia	tumor	cancer	blood	CLL
+B827.11	27	21	Carcinoma in situ of skin of leg	tumor	cancer	na	na
+BBd0.00	27	24	[M]Meningioma NOS	tumor	morph	na	na
+B3...12	26	18	Sarcoma of bone and connective tissue	tumor	cancer	na	na
+BB5N211	26	26	[M]Multiple polyposis	tumor	morph	na	na
+BB80000	26	25	[M]Cystadenoma NOS	tumor	morph	na	na
+BBj..00	26	20	[M]Hodgkin's disease	tumor	cancer	blood	HODG
+BBk..00	26	22	"[M]Lymphomas, nodular or follicular"	tumor	cancer	blood	HHL
+B3...11	26	23	"Carcinoma of bone, connective tissue, skin and breast"	medr_tumor;tumor	cancer	na	na
+BB91.00	26	25	[M]Infiltrating duct carcinoma	medr_tumor;tumor;medr_benign	morph	na	na
+B057.00	25	19	Overlapping lesion of other and unspecified parts of mouth	tumor	cancer	na	na
+B06..00	25	23	Malignant neoplasm of oropharynx	tumor	cancer	na	na
+B135.00	25	24	Malignant neoplasm of appendix	tumor;crc	cancer	crc	colon
+B162.00	25	24	Malignant neoplasm of ampulla of Vater	tumor	cancer	pancreas	pancreas
+B222z00	25	25	"Malignant neoplasm of upper lobe, bronchus or lung NOS"	tumor;lung	cancer	lung	lung
+B51z.00	25	25	Malignant neoplasm of brain NOS	tumor	cancer	na	na
+B800100	25	21	Carcinoma in situ of tongue	tumor	cancer	na	na
+BB5f000	25	22	[M]Follicular adenoma	tumor	morph	na	na
+BB9E000	25	22	[M]Intraductal carcinoma and lobular carcinoma in situ	tumor	morph	na	na
+BBE0.11	25	22	[M]Hairy naevus NOS	tumor	ignore	na	na
+BBJH.00	25	20	[M]Dedifferentiated liposarcoma	tumor	morph	na	na
+BBbB.00	25	19	[M]Astrocytoma NOS	tumor	cancer	na	na
+BBdz.00	25	22	[M]Meningioma NOS	tumor	morph	na	na
+ByuC700	25	25	[X]Secondary malignant neoplasm of other specified sites	tumor	cancer	na	na
+B04..00	24	22	Malignant neoplasm of floor of mouth	tumor	cancer	na	na
+B31..00	24	24	Malignant neoplasm of connective and other soft tissue	tumor	cancer	na	na
+B339.00	24	22	Dermatofibrosarcoma protuberans	tumor	cancer	na	na
+B640.00	24	20	Acute lymphoid leukaemia	tumor	cancer	blood	ALL
+BB43.11	24	19	[M]Urothelial carcinoma	tumor	morph	na	na
+B110100	23	17	Malignant neoplasm of cardio-oesophageal junction of stomach	tumor;stom	cancer	stom	stom
+B137.00	23	21	Malignant neoplasm of splenic flexure of colon	tumor;crc	cancer	crc	colon
+B58y500	23	8	Secondary malignant neoplasm of prostate	tumor	cancer	prostate	prostate
+B594.00	23	11	Secondary malignant neoplasm of unknown site	tumor	cancer	na	na
+B802.00	23	20	Carcinoma in situ of stomach	tumor;stom	cancer	stom	stom
+BB5RA00	23	18	[M]Merkel cell carcinoma	tumor	cancer	na	na
+BBL9.00	23	19	[M]Carcinosarcoma NOS	tumor	morph	na	na
+BBW0.00	23	19	[M]Osteochondroma	medr_tumor;tumor;medr_benign	benign	na	na
+B44..00	22	22	Malignant neoplasm of ovary and other uterine adnexa	tumor	cancer	ovary	ovary
+B59..00	22	22	Malignant neoplasm of unspecified site	tumor	cancer	na	na
+B593.00	22	20	Primary malignant neoplasm of unknown site	tumor	cancer	na	na
+BA02200	22	17	Neoplasm of unspecified nature of skin	tumor;benign	ca_bg	na	na
+BB57.00	22	22	"[M]Adenocarcinoma, intestinal type"	tumor	cancer	na	na
+BB83.00	22	20	[M]Pseudomyxoma peritonei	tumor	cancer	na	na
+BBM4.11	22	21	[M]Cystadenofibroma NOS	tumor	morph	na	na
+B64..00	22	22	Lymphoid leukaemia	medr_tumor;tumor	cancer	blood	LEU
+BBe0.00	22	20	[M]Neurofibroma NOS	medr_tumor;tumor;medr_benign	cancer	na	na
+B1...11	21	20	Carcinoma of digestive organs and peritoneum	tumor	cancer	na	na
+B143.00	21	20	Malignant neoplasm of anus unspecified	tumor	cancer	na	na
+B4A1.00	21	19	Malignant neoplasm of renal pelvis	tumor	cancer	kidney	kidney
+B627X00	21	8	"Diffuse non-Hodgkin's lymphoma, unspecified"	tumor	cancer	blood	NHL
+B630100	21	18	Solitary myeloma	tumor	cancer	blood	MM
+BB07.00	21	21	"[M]Tumour cells, malignant"	tumor	morph	na	na
+BB2..11	21	20	[M]Papillary neoplasms	tumor;benign	benign	na	na
+BB55.00	21	20	[M]Linitis plastica	tumor	cancer	na	na
+BBJB.00	21	19	[M]Angiolipomatous neoplasms	tumor	morph	na	na
+BBK1011	21	21	[M]Angioleiomyoma	tumor	morph	na	na
+ByuDF11	21	20	[X]Non-Hodgkin's lymphoma NOS	tumor	cancer	blood	NHL
+B00..00	20	18	Malignant neoplasm of lip	tumor	cancer	na	na
+B15..00	20	18	Malignant neoplasm of liver and intrahepatic bile ducts	tumor;liver	cancer	liver	liver
+B834000	20	18	High grade prostatic intraepithelial neoplasia	tumor	cancer	na	na
+BB3A.00	20	20	[M]Tricholemmoma	tumor	cancer	na	na
+BB5D500	20	20	[M]Hepatocellular carcinoma NOS	tumor	cancer	na	na
+BB63.12	20	19	[M]Eccrine poroma	tumor	cancer	na	na
+BBmD.00	20	20	[M] Cutaneous lymphoma	tumor	cancer	blood	NHL
+8BC6.00	19	18	Cancer treatment started	tumor	anc	na	na
+B113.00	19	4	Malignant neoplasm of fundus of stomach	tumor;stom	cancer	stom	stom
+B506.00	19	19	Malignant neoplasm of choroid	tumor	cancer	na	na
+B810.00	19	18	Carcinoma in situ of larynx	tumor	cancer	na	na
+B82..00	19	15	Carcinoma in situ of skin	tumor	cancer	na	na
+B833300	19	19	Carcinoma in situ of vulva	tumor	cancer	na	na
+B907200	19	19	Neoplasm of uncertain behaviour of lung	tumor;benign	ca_bg	na	na
+B91z111	19	19	Renal neoplasm of uncertain behaviour	tumor;benign	ca_bg	na	na
+BB29.00	19	18	[M]Squamous cell carcinoma in situ NOS	tumor	morph	na	na
+BB38.00	19	15	[M]Trichoepithelioma	tumor	cancer	na	na
+BB9..00	19	18	"[M]Ductal, lobular and medullary neoplasms"	tumor	morph	na	na
+BA06.00	19	16	Neoplasm of unspecified nature of brain	medr_tumor;tumor;benign	ca_bg	na	na
+B0zz.00	18	17	"Malignant neoplasm of lip, oral cavity and pharynx NOS"	tumor	cancer	na	na
+B110.00	18	17	Malignant neoplasm of cardia of stomach	tumor;stom	cancer	stom	stom
+B224z00	18	17	"Malignant neoplasm of lower lobe, bronchus or lung NOS"	tumor;lung	cancer	lung	lung
+B325700	18	18	Malignant melanoma of back	tumor	cancer	na	na
+B333400	18	17	Malignant neoplasm of skin of nose (external)	tumor	cancer	na	na
+B58z.00	18	17	Secondary malignant neoplasm of other specified site NOS	tumor	cancer	na	na
+BB90.00	18	18	"[M]Intraductal carcinoma, noninfiltrating NOS"	tumor	morph	na	na
+BBEN.13	18	16	[M] Spitz naevus	tumor	cancer	na	na
+BBa0.00	18	10	[M]Craniopharyngioma	tumor	cancer	na	na
+BB0..00	18	17	[M]Neoplasms NOS	medr_tumor;tumor;medr_benign;benign	benign	na	na
+B0...11	17	14	"Carcinoma of lip, oral cavity and pharynx"	tumor	cancer	na	na
+B223.00	17	17	"Malignant neoplasm of middle lobe, bronchus or lung"	tumor;lung	cancer	lung	lung
+B833000	17	16	Carcinoma in situ of ovary	tumor	cancer	ovary	ovary
+B934.12	17	14	Primary polycythaemia	tumor;benign	benign	na	na
+B937W00	17	16	"Myelodysplastic syndrome, unspecified"	tumor	cancer	blood	MDS
+BBEF.00	17	14	[M]Hutchinson's melanotic freckle	tumor	cancer	na	na
+BBg1.00	17	9	[M]Malignant lymphoma NOS	tumor	cancer	blood	NHL
+BBgC.11	17	14	[M]Lymphocytic lymphoma NOS	tumor	cancer	na	na
+B053.00	16	15	Malignant neoplasm of soft palate	tumor	cancer	na	na
+B12z.00	16	16	Malignant neoplasm of small intestine NOS	tumor	cancer	na	na
+B172.00	16	16	Malignant neoplasm of tail of pancreas	tumor	cancer	pancreas	pancreas
+B18y.00	16	14	Malignant neoplasm of specified parts of peritoneum	tumor	cancer	na	na
+B441.00	16	14	Malignant neoplasm of fallopian tube	tumor	cancer	na	na
+B62..00	16	16	Other malignant neoplasm of lymphoid and histiocytic tissue	tumor	cancer	blood	NHL
+B68z.00	16	15	Leukaemia NOS	tumor	cancer	blood	LEU
+B812z00	16	15	Carcinoma in situ of bronchus or lung NOS	tumor;lung	cancer	lung	lung
+BB05.00	16	16	"[M]Tumour cells, benign"	tumor;benign	benign	na	na
+BB08.00	16	16	"[M]Malignant tumour, small cell type"	tumor	morph	na	na
+BB51100	16	16	[M]Adenocarcinoma in situ in tubulovillous adenoma	tumor	morph	na	na
+BB5B200	16	9	[M]Insulinoma NOS	tumor	cancer	na	na
+BB5J.13	16	13	[M]Cylindroma NOS	tumor	cancer	na	na
+BB65.00	16	16	[M]Hidrocystoma	tumor	morph	na	na
+BBJB000	16	15	[M]Angiomyolipoma	tumor	morph	na	na
+BBn0.00	16	15	[M]Plasma cell myeloma	tumor	cancer	na	na
+Byu2.00	16	16	[X]Malignant neoplasm of respiratory and intrathoracic orga	tumor	cancer	na	na
+ByuA.00	16	14	"[X]Malignant neoplasm of eye, brain and other parts of cent"	tumor	cancer	na	na
+BB5jz00	16	15	[M]Endometrioid adenoma or carcinoma NOS	medr_tumor;tumor;medr_benign	cancer	uterus	uterus
+B483.00	15	15	"Malignant neoplasm of penis, part unspecified"	tumor	cancer	na	na
+B51..11	15	14	Cerebral tumour - malignant	tumor	cancer	na	na
+B511.00	15	13	Malignant neoplasm of frontal lobe	tumor	cancer	na	na
+B58y.00	15	10	Secondary malignant neoplasm of other specified sites	tumor	cancer	na	na
+B675.00	15	11	Acute myelofibrosis	tumor	cancer	na	na
+BB27.00	15	15	[M]Inverted papilloma	tumor;benign	benign	na	na
+BB35.00	15	14	[M]Basosquamous carcinoma	tumor	morph	na	na
+BB5Bz00	15	15	[M]Pancreatic adenoma or carcinoma NOS	tumor	cancer	pancreas	pancreas
+BB5J.00	15	12	[M]Adenoid cystic carcinoma	medr_tumor;medr_benign	benign	na	na
+BB5S212	15	14	[M]Bronchiolar carcinoma	tumor	cancer	na	na
+BB5f111	15	14	[M]Follicular carcinoma	tumor	morph	na	na
+BBQ1.00	15	15	[M]Seminomas	tumor	morph	na	na
+BBT1.11	15	12	[M]Angiosarcoma	tumor	morph	na	na
+BBV9.00	15	10	[M]Myxoid chondrosarcoma	medr_tumor;tumor;medr_benign	cancer	na	na
+BBr..00	15	13	[M]Leukaemias	medr_tumor;tumor;medr_benign	cancer	blood	LEU
+B060z00	14	14	Malignant neoplasm tonsil NOS	tumor	cancer	na	na
+B160.11	14	11	Carcinoma gallbladder	tumor	cancer	na	na
+B210.00	14	13	Malignant neoplasm of glottis	tumor	cancer	na	na
+B333500	14	13	Malignant neoplasm of skin of temple	tumor	cancer	na	na
+B335700	14	7	Malignant neoplasm of skin of back	tumor	cancer	na	na
+B342.00	14	14	Malignant neoplasm of upper-inner quadrant of female breast	tumor	cancer	breast	breast
+B481.00	14	14	Malignant neoplasm of glans penis	tumor	cancer	na	na
+B50..00	14	13	Malignant neoplasm of eye	tumor	cancer	na	na
+B64..11	14	13	Lymphatic leukaemia	tumor	cancer	blood	LEU
+B804000	14	14	Carcinoma in situ of rectosigmoid junction	tumor	cancer	crc	rectum;colon
+B833600	14	12	Vulval intraepithel neop grd 3	tumor	cancer	na	na
+BB34.00	14	14	"[M]Basal cell carcinoma, fibroepithelial type"	tumor	morph	na	na
+BB5R000	14	12	[M]Carcinoid tumour NOS	tumor	morph	na	na
+BB5X.00	14	14	[M]Clear cell adenomas and adenocarcinomas	tumor	morph	na	na
+BB61011	14	13	[M]Hidradenoma NOS	tumor;benign	benign	na	na
+BB9F.00	14	13	[M]Lobular carcinoma NOS	tumor	cancer	na	na
+BBJB200	14	14	[M]Angiolipoma NOS	tumor	morph	na	na
+B831.00	14	14	Carcinoma in situ of cervix uteri	medr_tumor;tumor;medr_benign	cancer	na	na
+BBe1.00	14	14	[M]Neurofibromatosis NOS	medr_tumor;tumor;medr_benign	benign	na	na
+4M00.00	13	13	Gleason prostate grade 2-4 (low)	tumor	anc	na	na
+B224000	13	13	Malignant neoplasm of lower lobe bronchus	tumor;lung	cancer	lung	lung
+B341.00	13	12	Malignant neoplasm of central part of female breast	tumor	cancer	breast	breast
+B47z.11	13	11	Seminoma of testis	tumor	cancer	na	na
+B550400	13	13	Malignant neoplasm of neck NOS	tumor	cancer	na	na
+B602.00	13	11	Burkitt's lymphoma	tumor	cancer	blood	NHL
+B808000	13	13	Carcinoma in situ of liver	tumor	cancer	liver	liver
+B900011	13	12	Mixed parotid tumour	tumor	cancer	na	na
+B912.00	13	9	Neoplasm of uncertain behaviour of ovary	tumor;benign	ca_bg	na	na
+B91z100	13	13	Neoplasm of uncertain behaviour of kidney	tumor;benign	ca_bg	na	na
+B932.00	13	9	Neoplasm of uncertain behaviour of skin	tumor;benign	ca_bg	na	na
+BB11.11	13	13	[M]Intraepithelial carcinoma NOS	tumor	morph	na	na
+BBF3.00	13	12	[M]Spindle cell sarcoma	tumor	cancer	na	na
+Byu5011	13	13	[X]Mesothelioma of lung	tumor	cancer	na	na
+B48..00	13	13	Malignant neoplasm of penis and other male genital organs	medr_tumor;tumor	cancer	na	na
+B050.00	12	12	Malignant neoplasm of cheek mucosa	tumor	cancer	na	na
+B112.00	12	12	Malignant neoplasm of pyloric antrum of stomach	tumor;stom	cancer	stom	stom
+B30..00	12	12	Malignant neoplasm of bone and articular cartilage	tumor	cancer	na	na
+B326100	12	12	Malignant melanoma of upper arm	tumor	cancer	na	na
+B332200	12	11	Malignant neoplasm of pinna NEC	tumor	cancer	na	na
+B45..00	12	11	Malig neop of other and unspecified female genital organs	tumor	cancer	na	na
+B576100	12	12	Secondary malignant neoplasm of peritoneum	tumor	cancer	na	na
+B587.00	12	12	Secondary malignant neoplasm of adrenal gland	tumor	cancer	na	na
+B630300	12	12	Lambda light chain myeloma	tumor	cancer	blood	MM
+B65y100	12	10	Acute promyelocytic leukaemia	tumor	cancer	blood	AML
+B741900	12	10	Lipoma of abdominal wall	medr_tumor;medr_benign	ignore	na	na
+B901100	12	10	Neoplasm of uncertain behaviour of tongue	tumor;benign	ca_bg	na	na
+B905100	12	12	Neoplasm of uncertain behaviour of pancreas	tumor;benign	ca_bg	na	na
+BB14.00	12	12	[M]Carcinomatosis	tumor	morph	na	na
+BB1D.00	12	12	[M]Spindle cell carcinoma	tumor	morph	na	na
+BB81.00	12	12	"[M]Ovarian cystic, mucinous and serous neoplasms"	tumor	cancer	ovary	ovary
+BB9K000	12	11	[M]Paget's disease and intraductal carcinoma of breast	tumor	cancer	na	na
+BBC0.12	12	11	[M]Ovarian stromal tumour	tumor	cancer	ovary	ovary
+BBEG000	12	12	"[M]Acral lentiginous melanoma, malignant"	tumor	cancer	na	na
+BBEU.00	12	12	[M]Blue naevus NOS	tumor	cancer	na	na
+BBQ8.11	12	12	[M]Dermoid NOS	tumor;benign	benign	na	na
+BBb..00	12	12	[M]Gliomas	tumor	morph	na	na
+BBbC.00	12	12	"[M]Astrocytoma, anaplastic type"	tumor	cancer	na	na
+BBm5.00	12	11	[M] Peripheral T-cell lymphoma NOS	tumor	cancer	blood	NHL
+Byu1.00	12	12	[X]Malignant neoplasm of digestive organs	tumor	cancer	na	na
+ByuA100	12	11	"[X]Malignant neoplasm/central nervous system, unspecified"	tumor	cancer	na	na
+B16..00	11	9	Malignant neoplasm gallbladder and extrahepatic bile ducts	tumor	cancer	na	na
+B161.00	11	11	Malignant neoplasm of extrahepatic bile ducts	tumor	cancer	na	na
+B312100	11	8	Malig neop of connective and soft tissue thigh and upper leg	tumor	cancer	na	na
+B4A1z00	11	11	Malignant neoplasm of renal pelvis NOS	tumor	cancer	kidney	kidney
+B540.00	11	10	Malignant neoplasm of adrenal gland	tumor	cancer	na	na
+B825000	11	11	Carcinoma in situ of skin of breast	tumor	cancer	na	na
+B835.00	11	10	Carcinoma in situ of penis	tumor	cancer	na	na
+B917.00	11	11	Neoplasm of uncertain behaviour of bladder	tumor;benign	ca_bg	na	na
+BB5L.00	11	11	[M]Adenomatous and adenocarcinomatous polyps	tumor	morph	na	na
+BB9G.00	11	11	[M]Infiltrating ductular carcinoma	tumor	morph	na	na
+BBK1012	11	11	[M]Vascular leiomyoma	tumor	morph	na	na
+BBb7.00	11	8	[M]Ependymoma NOS	tumor	cancer	na	na
+ByuC800	11	10	[X]Malignant neoplasm without specification of site	tumor	cancer	na	na
+ByuDF00	11	10	"[X]Non-Hodgkin's lymphoma, unspecified type"	tumor	cancer	blood	NHL
+B917.12	11	11	Transitional cell papilloma of bladder	medr_tumor;tumor	cancer	bladder	bladder
+BBCG.00	11	10	[M]Sclerosing stromal tumour	medr_tumor;tumor;medr_benign	benign	na	na
+BBe..00	11	9	[M]Nerve sheath tumour	medr_tumor;tumor;medr_benign	ca_bg	na	na
+4M1..00	10	9	Dukes staging system	tumor	cancer	crc	rectum;colon
+4M12.00	10	10	Dukes stage C1	tumor	cancer	crc	rectum;colon
+B07..00	10	10	Malignant neoplasm of nasopharynx	tumor	cancer	na	na
+B496.00	10	10	Malignant neoplasm of ureteric orifice	tumor	cancer	na	na
+B55..00	10	10	Malignant neoplasm of other and ill-defined sites	tumor	cancer	na	na
+B57..00	10	8	Secondary malig neop of respiratory and digestive systems	tumor	cancer	na	na
+B61z.00	10	10	Hodgkin's disease NOS	tumor	cancer	blood	HODG
+B627E00	10	10	Diffuse large B-cell lymphoma	tumor	cancer	blood	NHL
+B64y100	10	8	Prolymphocytic leukaemia	tumor	cancer	blood	LEU
+B69..00	10	10	Myelomonocytic leukaemia	tumor	cancer	blood	LEU
+B6z..00	10	10	Malignant neoplasm lymphatic or haematopoietic tissue NOS	tumor	cancer	blood	NHL
+BB24.00	10	8	[M]Verrucous carcinoma NOS	tumor	morph	na	na
+BB5D513	10	7	[M]Liver cell carcinoma	tumor	cancer	liver	liver
+BB6..00	10	10	[M]Adnexal and skin appendage neoplasms	tumor	cancer	na	na
+BBL5.00	10	10	[M]Mullerian mixed tumour	tumor	morph	na	na
+BBQ7.00	10	7	[M]Teratomas	tumor	morph	na	na
+BBR0.00	10	10	[M]Hydatidiform mole NOS	medr_tumor;medr_benign	ignore	na	na
+BBe1.11	10	9	[M]Multiple neurofibromatosis	tumor	cancer	na	na
+Byu9.00	10	10	[X]Malignant neoplasm of urinary tract	tumor	cancer	na	na
+B927.00	10	10	Neurofibromatosis - Von Recklinghausen's disease	medr_tumor;tumor;benign	benign	na	na
+4M02.00	9	9	Gleason prostate grade 8-10 (high)	tumor	anc	na	na
+B05z.00	9	9	Malignant neoplasm of mouth NOS	tumor	cancer	na	na
+B104.00	9	7	Malignant neoplasm of middle third of oesophagus	tumor;oeso	cancer	oeso	oeso
+B122.00	9	6	Malignant neoplasm of ileum	tumor	cancer	na	na
+B18..00	9	9	Malignant neoplasm of retroperitoneum and peritoneum	tumor	cancer	na	na
+B180.00	9	8	Malignant neoplasm of retroperitoneum	tumor	cancer	na	na
+B1z0.00	9	9	"Malignant neoplasm of intestinal tract, part unspecified"	tumor	cancer	na	na
+B220.00	9	7	Malignant neoplasm of trachea	tumor	cancer	na	na
+B240.00	9	8	Malignant neoplasm of thymus	tumor	cancer	na	na
+B327400	9	9	Malignant melanoma of lower leg	tumor	cancer	na	na
+B345.00	9	9	Malignant neoplasm of lower-outer quadrant of female breast	tumor	cancer	breast	breast
+B47z.00	9	9	Malignant neoplasm of testis NOS	tumor	cancer	na	na
+B494.00	9	9	Malignant neoplasm of posterior wall of urinary bladder	tumor	cancer	bladder	bladder
+B580.00	9	9	Secondary malignant neoplasm of kidney	tumor	cancer	kidney	meta
+B583.00	9	8	Secondary malignant neoplasm of brain and spinal cord	tumor	cancer	na	na
+B58yz00	9	9	Secondary malignant neoplasm of other specified site NOS	tumor	cancer	na	na
+B768X00	9	8	"Melanocytic naevi, unspecified"	medr_tumor;medr_benign	ignore	na	na
+B905000	9	5	Neoplasm of uncertain behaviour of oesophagus	tumor;oeso;benign	ca_bg	oeso	oeso
+B913100	9	9	Neoplasm of uncertain behaviour of vulva	tumor;benign	ca_bg	na	na
+BB18.00	9	5	"[M]Carcinoma, undifferentiated type, NOS"	tumor	morph	na	na
+BB51000	9	9	[M]Adenocarcinoma in situ in villous adenoma	tumor	morph	na	na
+BB69000	9	9	[M]Sebaceous adenoma	tumor;benign	benign	na	na
+BB81.14	9	9	[M]Ovarian serous tumour	tumor	cancer	ovary	ovary
+BB81000	9	9	[M]Serous cystadenoma NOS	tumor	morph	na	na
+BBB0.00	9	7	[M]Adenosquamous carcinoma	medr_tumor;medr_benign	morph	na	na
+BBC3.00	9	9	[M]Granulosa cell tumour NOS	medr_tumor;medr_benign	cancer	na	na
+BBEX.00	9	6	[M]Melanoma in situ	tumor	cancer	na	na
+BBL2.00	9	9	[M]Adenomyoma	tumor	morph	na	na
+BBT3.00	9	8	[M]Venous haemangioma	tumor	cancer	na	na
+BBU4.11	9	9	[M]Cystic hygroma	tumor	morph	na	na
+BBbQ.00	9	8	[M]Oligodendroglioma NOS	tumor	cancer	na	na
+BBgR.00	9	9	"[M]Malignant lymphoma, large cell, diffuse NOS"	tumor	cancer	blood	NHL
+4M11.00	8	8	Dukes stage B	tumor	cancer	crc	rectum;colon
+B01z.00	8	8	Malignant neoplasm of tongue NOS	tumor	cancer	na	na
+B081.00	8	7	Malignant neoplasm of pyriform sinus	tumor	cancer	na	na
+B115.00	8	7	Malignant neoplasm of lesser curve of stomach unspecified	tumor;stom	cancer	stom	stom
+B151.00	8	8	Malignant neoplasm of intrahepatic bile ducts	tumor;liver	cancer	liver	liver
+B173.00	8	8	Malignant neoplasm of pancreatic duct	tumor	cancer	pancreas	pancreas
+B181.00	8	6	Mesothelioma of peritoneum	tumor	cancer	na	na
+B222.11	8	5	Pancoast's syndrome	tumor;lung	cancer	lung	lung
+B23..00	8	8	Malignant neoplasm of pleura	tumor	cancer	na	na
+B331.00	8	7	Malignant neoplasm of eyelid including canthus	tumor	cancer	na	na
+B343.00	8	8	Malignant neoplasm of lower-inner quadrant of female breast	tumor	cancer	breast	breast
+B490.00	8	7	Malignant neoplasm of trigone of urinary bladder	tumor	cancer	bladder	bladder
+B522.00	8	3	Malignant neoplasm of spinal cord	tumor	cancer	na	na
+B550000	8	8	Malignant neoplasm of head NOS	tumor	cancer	na	na
+B550200	8	8	Malignant neoplasm of nose NOS	tumor	cancer	na	na
+B55yz00	8	8	Malignant neoplasm of specified site NOS	tumor	cancer	na	na
+B627A00	8	8	Diffuse non-Hodgkin's large cell lymphoma	tumor	cancer	blood	NHL
+B62xX00	8	6	Oth and unspecif peripheral & cutaneous T-cell lymphomas	tumor	cancer	blood	NHL
+B805000	8	8	Anal intraepithelial neoplasia grade III	tumor	cancer	na	na
+B9...00	8	8	Neoplasms of uncertain behaviour	tumor;benign	ca_bg	na	na
+B903000	8	7	Neoplasm of uncertain behaviour of liver	tumor;benign	ca_bg	na	na
+BB00.00	8	8	"[M]Neoplasm, benign"	tumor;benign	benign	na	na
+BB0z.00	8	8	[M]Unspecified tumour cell NOS	tumor	morph	na	na
+BB2..00	8	8	[M]Papillary and squamous cell neoplasms	tumor	morph	na	na
+BB48.00	8	8	[M]Basaloid carcinoma	tumor	morph	na	na
+BB5D512	8	8	"[M]Hepatoma, malignant"	tumor	cancer	liver	liver
+BB64.00	8	8	[M]Eccrine spiradenoma	tumor	cancer	na	na
+BB69.00	8	7	[M]Sebaceous adenoma and adenocarcinoma	tumor	morph	na	na
+BB81.12	8	8	[M]Ovarian mucinous tumour	tumor	cancer	ovary	ovary
+BB82.00	8	8	[M]Mucinous adenoma and adenocarcinoma	tumor	morph	na	na
+BBK1000	8	8	[M]Angiomyoma	tumor	morph	na	na
+BBPX.00	8	3	"[M]Mesothelioma, unspecified"	tumor	morph	na	na
+BBs4.00	8	5	[M]Idiopathic thrombocythaemia	tumor	cancer	na	na
+4M10.00	7	7	Dukes stage A	tumor	cancer	crc	rectum;colon
+B06z.00	7	6	Malignant neoplasm of oropharynx NOS	tumor	cancer	na	na
+B0z0.00	7	6	Malignant neoplasm of pharynx unspecified	tumor	cancer	na	na
+B10y.00	7	6	Malignant neoplasm of other specified part of oesophagus	tumor;oeso	cancer	oeso	oeso
+B16z.00	7	7	Malignant neoplasm gallbladder/extrahepatic bile ducts NOS	tumor	cancer	na	na
+B171.00	7	7	Malignant neoplasm of body of pancreas	tumor	cancer	pancreas	pancreas
+B18y300	7	7	Malignant neoplasm of omentum	tumor	cancer	na	na
+B18yz00	7	7	Malignant neoplasm of specified parts of peritoneum NOS	tumor	cancer	na	na
+B215.00	7	7	Malignant neoplasm of epiglottis NOS	tumor	cancer	na	na
+B301.00	7	7	Malignant neoplasm of mandible	tumor	cancer	na	na
+B326200	7	7	Malignant melanoma of fore-arm	tumor	cancer	na	na
+B327100	7	6	Malignant melanoma of thigh	tumor	cancer	na	na
+B331000	7	7	Malignant neoplasm of canthus	tumor	cancer	na	na
+B334000	7	7	Malignant neoplasm of scalp	tumor	cancer	na	na
+B334100	7	7	Malignant neoplasm of skin of neck	tumor	cancer	na	na
+B492.00	7	7	Malignant neoplasm of lateral wall of urinary bladder	tumor	cancer	bladder	bladder
+B495.00	7	7	Malignant neoplasm of bladder neck	tumor	cancer	bladder	bladder
+B512.00	7	7	Malignant neoplasm of temporal lobe	tumor	cancer	na	na
+B513.00	7	6	Malignant neoplasm of parietal lobe	tumor	cancer	na	na
+B627B00	7	7	Other types of follicular non-Hodgkin's lymphoma	tumor	cancer	blood	NHL
+B62x200	7	7	Peripheral T-cell lymphoma	tumor	cancer	blood	NHL
+B803600	7	6	Carcinoma in situ of ascending colon	tumor;crc	cancer	crc	colon
+B828W00	7	6	"Melanoma in situ, unspecified"	tumor	cancer	na	na
+B900000	7	6	Neoplasm of uncertain behaviour of parotid gland	tumor;benign	ca_bg	na	na
+B937000	7	7	"Refractory anaemia without sideroblasts, so stated"	tumor	cancer	na	na
+BB04.00	7	7	"[M]Neoplasm, malig, uncertain whether primary or metastatic"	tumor	morph	na	na
+BB5S211	7	7	[M]Alveolar cell carcinoma	tumor	cancer	na	na
+BB5W011	7	7	[M]Hurthle cell adenoma	tumor;benign	benign	na	na
+BB5f511	7	7	[M]Colloid adenoma	tumor	morph	na	na
+BB5f600	7	7	[M]Papillary and follicular adenocarcinoma	tumor	morph	na	na
+BB5h000	7	7	[M]Adrenal cortical adenoma NOS	tumor	cancer	na	na
+BB95.12	7	7	[M]Ductal papilloma	tumor;benign	benign	na	na
+BBC0.13	7	7	[M]Testicular stromal tumour	tumor	cancer	na	na
+BBXz.00	7	5	[M]Giant cell tumour NOS	tumor	morph	na	na
+BBf0.00	7	7	[M]Granular cell tumour NOS	tumor	morph	na	na
+BBg1000	7	3	"[M]Malignant lymphoma, diffuse NOS"	tumor	cancer	blood	NHL
+BBg2.00	7	7	"[M]Malignant lymphoma, non Hodgkin's type"	tumor	cancer	blood	NHL
+BBr0100	7	7	[M]Acute leukaemia NOS	tumor	cancer	blood	LEU
+ByuC300	7	7	[X]Secondary malignant neoplasm/oth+unspc respiratory organs	tumor	cancer	na	na
+BBb0.00	7	6	"[M]Glioma, malignant"	medr_tumor;tumor;medr_benign	cancer	na	na
+B016.00	6	6	Malignant neoplasm of lingual tonsil	tumor	cancer	na	na
+B061.00	6	5	Malignant neoplasm of tonsillar fossa	tumor	cancer	na	na
+B119.00	6	5	Siewert type III adenocarcinoma	tumor;stom	cancer	stom	stom
+B12..00	6	6	Malignant neoplasm of small intestine and duodenum	tumor	cancer	na	na
+B21y.00	6	5	"Malignant neoplasm of larynx, other specified site"	tumor	cancer	na	na
+B223000	6	5	Malignant neoplasm of middle lobe bronchus	tumor;lung	cancer	lung	lung
+B30z000	6	6	Osteosarcoma	tumor	cancer	na	na
+B310100	6	4	Malignant neoplasm of soft tissue of face	tumor	cancer	na	na
+B325.00	6	6	Malignant melanoma of trunk (excluding scrotum)	tumor	cancer	na	na
+B333000	6	6	"Malignant neoplasm of skin of cheek, external"	tumor	cancer	na	na
+B335200	6	6	Malignant neoplasm of skin of breast	tumor	cancer	breast	breast
+B340000	6	4	Malignant neoplasm of nipple of female breast	tumor	cancer	breast	breast
+B430211	6	5	Malignant neoplasm of endometrium	tumor	cancer	uterus	uterus
+B551100	6	5	Malignant neoplasm of chest wall NOS	tumor	cancer	na	na
+B555.00	6	6	Malignant neoplasm of lower limb NOS	tumor	cancer	na	na
+B56z.00	6	6	Secondary and unspec malig neop lymph nodes NOS	tumor	cancer	na	na
+B583100	6	6	Secondary malignant neoplasm of spinal cord	tumor	cancer	na	na
+B591.00	6	6	Other malignant neoplasm NOS	tumor	cancer	na	na
+B5y..00	6	6	Malignant neoplasm of other and unspecified site OS	tumor	cancer	na	na
+B614.00	6	6	"Hodgkin's disease, nodular sclerosis"	tumor	cancer	blood	HODG
+B63..00	6	5	Multiple myeloma and immunoproliferative neoplasms	tumor	cancer	blood	MM
+B630000	6	6	"Malignant plasma cell neoplasm, extramedullary plasmacytoma"	tumor	cancer	blood	MM
+B741E00	6	6	Lipoma of thigh	medr_tumor;medr_benign	benign	na	na
+B800700	6	6	Carcinoma in situ of nasopharynx	tumor	cancer	na	na
+B804100	6	6	Carcinoma in situ of rectum	tumor	cancer	crc	rectum
+B806.00	6	6	Carcinoma in situ of anus NOS	tumor	cancer	na	na
+B807000	6	6	Carcinoma in situ of duodenum	tumor	cancer	na	na
+B8z..00	6	6	Carcinoma in situ NOS	tumor	cancer	na	na
+B906800	6	6	Neoplasm of uncertain behaviour of vocal cord	tumor;benign	ca_bg	na	na
+BB03.11	6	6	[M]Secondary neoplasm	tumor	morph	na	na
+BB17.00	6	5	[M]Large cell carcinoma NOS	tumor	morph	na	na
+BB19.00	6	5	"[M]Carcinoma, anaplastic type, NOS"	tumor	morph	na	na
+BB2E.00	6	6	"[M]Squamous cell carcinoma, small cell, non-keratinising"	tumor	morph	na	na
+BB5N012	6	6	[M]Familial polyposis coli	tumor	cancer	na	na
+BB5T100	6	6	[M]Papillary adenocarcinoma NOS	tumor	morph	na	na
+BB5U011	6	6	[M]Villous papilloma	tumor;benign	benign	na	na
+BB5g.00	6	5	[M]Multiple endocrine adenomas	tumor	cancer	na	na
+BB5h.00	6	4	[M]Adrenal cortical tumours	tumor	cancer	na	na
+BB5y200	6	5	[M]Klatskin's tumour	tumor	cancer	na	na
+BB5z.00	6	5	[M]Adenoma or adenocarcinoma NOS	tumor	morph	na	na
+BB8..00	6	6	"[M]Cystic, mucinous and serous neoplasms"	tumor	morph	na	na
+BB91100	6	6	[M]Infiltrating duct and lobular carcinoma	tumor	morph	na	na
+BB9E.00	6	6	[M]Lobular carcinoma in situ	tumor	cancer	na	na
+BB9z.00	6	6	"[M]Ductal, lobular or medullary neoplasm NOS"	tumor	morph	na	na
+BBEW.00	6	6	[M]Cellular blue naevus	tumor	cancer	na	na
+BBF4.11	6	6	[M]Pleomorphic cell sarcoma	tumor	cancer	na	na
+BBP8.00	6	6	[M]Adenomatoid tumour NOS	tumor	morph	na	na
+BBV4.00	6	6	[M]Telangiectatic osteosarcoma	tumor	cancer	na	na
+BBbG.00	6	3	[M]Pilocytic astrocytoma	tumor	cancer	na	na
+BBbR.00	6	5	"[M]Oligodendroglioma, anaplastic type"	tumor	cancer	na	na
+BBe5.00	6	6	[M]Neurilemmoma NOS	tumor	cancer	na	na
+BBl..00	6	5	[M]Mycosis fungoides	tumor	cancer	na	na
+BBr0300	6	6	[M]Chronic leukaemia NOS	tumor	cancer	blood	LEU
+BBr2700	6	6	[M]Adult T-cell leukaemia/lymphoma	tumor	cancer	blood	NHL
+Byu2000	6	6	"[X]Malignant neoplasm of bronchus or lung, unspecified"	tumor;lung	cancer	lung	lung
+ByuB.00	6	6	[X]Malignant neoplasm of thyroid and other endocrine glands	tumor	cancer	na	na
+ByuC000	6	6	[X]Malignant neoplasm of other specified sites	tumor	cancer	na	na
+4M...00	5	5	Tumour staging	tumor	anc	na	na
+B03..00	5	5	Malignant neoplasm of gum	tumor	cancer	na	na
+B107.00	5	3	Siewert type I adenocarcinoma	tumor;oeso	cancer	oeso	oeso
+B111.00	5	5	Malignant neoplasm of pylorus of stomach	tumor;stom	cancer	stom	stom
+B15z.00	5	5	Malignant neoplasm of liver and intrahepatic bile ducts NOS	tumor;liver	cancer	liver	liver
+B161z00	5	5	Malignant neoplasm of extrahepatic bile ducts NOS	tumor	cancer	na	na
+B18y500	5	5	Malignant neoplasm of pelvic peritoneum	tumor	cancer	na	na
+B1zz.00	5	5	Malignant neoplasm of digestive tract and peritoneum NOS	tumor	cancer	na	na
+B221000	5	5	Malignant neoplasm of carina of bronchus	tumor;lung	cancer	lung	lung
+B225.00	5	5	Malignant neoplasm of overlapping lesion of bronchus & lung	tumor;lung	cancer	lung	lung
+B331200	5	5	Malignant neoplasm of lower eyelid	tumor	cancer	na	na
+B332.00	5	5	Malignant neoplasm skin of ear and external auricular canal	tumor	cancer	na	na
+B333300	5	5	Malignant neoplasm of skin of forehead	tumor	cancer	na	na
+B340.00	5	5	Malignant neoplasm of nipple and areola of female breast	tumor	cancer	breast	breast
+B34y.00	5	5	Malignant neoplasm of other site of female breast	tumor	cancer	breast	breast
+B3z..00	5	5	"Malig neop of bone, connective tissue, skin and breast NOS"	tumor	cancer	na	na
+B410.00	5	5	Malignant neoplasm of endocervix	tumor	cancer	na	na
+B41y.00	5	5	Malignant neoplasm of other site of cervix	tumor	cancer	na	na
+B471100	5	5	Teratoma of descended testis	tumor	cancer	na	na
+B480.00	5	4	Malignant neoplasm of prepuce (foreskin)	tumor	cancer	na	na
+B482.00	5	3	Malignant neoplasm of body of penis	tumor	cancer	na	na
+B542000	5	5	Malignant neoplasm of pituitary gland	tumor	cancer	na	na
+B550z00	5	5	"Malignant neoplasm of head, neck and face NOS"	tumor	cancer	na	na
+B554.00	5	5	Malignant neoplasm of upper limb NOS	tumor	cancer	na	na
+B55y.00	5	5	Malignant neoplasm of other specified sites	tumor	cancer	na	na
+B560.00	5	5	Secondary and unspec malig neop lymph nodes head/face/neck	tumor	cancer	na	na
+B575000	5	5	Secondary malignant neoplasm of colon	tumor	cancer	na	na
+B58..11	5	5	Secondary carcinoma of other specified sites	tumor	cancer	na	na
+B582.00	5	4	Secondary malignant neoplasm of skin	tumor	cancer	na	na
+B59z.00	5	5	Malignant neoplasm of unspecified site NOS	tumor	cancer	na	na
+B620z00	5	4	Nodular lymphoma NOS	tumor	cancer	blood	NHL
+B62y100	5	5	"Malignant lymphoma NOS of lymph nodes of head, face and neck"	tumor	cancer	blood	NHL
+B631.00	5	4	Plasma cell leukaemia	tumor	cancer	blood	LEU
+B680.00	5	5	Acute leukaemia NOS	tumor	cancer	blood	LEU
+B8...12	5	4	Erythroplasia	tumor	cancer	na	na
+B803100	5	5	Carcinoma in situ of transverse colon	tumor;crc	cancer	crc	colon
+B808300	5	5	Carcinoma in situ of gall bladder	tumor	cancer	na	na
+B808600	5	5	Carcinoma in situ of ampulla of Vater	tumor	cancer	na	na
+B826300	5	5	Carcinoma in situ of skin of hand	tumor	cancer	na	na
+B828600	5	4	"Melanoma in situ of lower limb, including hip"	tumor	cancer	na	na
+B902400	5	5	Neoplasm of uncertain behaviour of colon	tumor;crc;benign	ca_bg	crc	colon
+B904100	5	5	Neoplasm of uncertain behaviour of peritoneum	tumor;benign	ca_bg	na	na
+B933.11	5	5	Cystosarcoma phyllodes	tumor	cancer	na	na
+B937100	5	5	Refractory anaemia with sideroblasts	tumor	cancer	blood	SID
+BB1..00	5	5	[M]Epithelial neoplasms NOS	tumor	morph	na	na
+BB2C.00	5	5	"[M]Squamous cell carcinoma, keratinising type NOS"	tumor	morph	na	na
+BB39.00	5	5	[M]Trichofolliculoma	tumor	cancer	na	na
+BB5R111	5	5	[M]Carcinoid bronchial adenoma	tumor	cancer	na	na
+BB5S200	5	5	[M]Bronchiolo-alveolar adenocarcinoma	tumor	cancer	na	na
+BB5V.00	5	5	[M]Pituitary adenomas and carcinomas	tumor	morph	na	na
+BB5W111	5	5	[M]Hurthle cell adenocarcinoma	tumor	cancer	na	na
+BB5az00	5	5	[M]Renal adenoma or carcinoma NOS	tumor	cancer	kidney	kidney
+BB5f.00	5	4	[M]Thyroid adenoma and adenocarcinoma	tumor	cancer	na	na
+BB5j011	5	5	[M]Endometrioid cystadenoma NOS	tumor	cancer	na	na
+BB64.11	5	4	[M]Spiradenoma NOS	tumor	morph	na	na
+BBJC.00	5	4	[M]Myelolipoma	tumor	morph	na	na
+BBQ7012	5	4	[M]Mature teratoma	tumor	morph	na	na
+BBTE.00	5	5	[M]Angiofibroma NOS	tumor	morph	na	na
+BBU4.12	5	5	[M]Hygroma	tumor	morph	na	na
+BBc0.00	5	5	[M]Ganglioneuromatous neoplasms	tumor	cancer	na	na
+BBe5.11	5	4	[M]Acoustic neuroma	tumor	cancer	na	na
+Byu1100	5	5	[X]Other specified carcinomas of liver	tumor	cancer	liver	liver
+ByuC.00	5	5	"[X]Malignant neoplasm of ill-defined, secondary and unspeci"	tumor	cancer	na	na
+BB22.00	5	5	[M]Papillary carcinoma NOS	medr_tumor;tumor;medr_benign	morph	na	na
+B006.00	4	3	Malignant neoplasm of overlapping lesion of lip	tumor	cancer	na	na
+B021.00	4	3	Malignant neoplasm of submandibular gland	tumor	cancer	na	na
+B04z.00	4	4	Malignant neoplasm of floor of mouth NOS	tumor	cancer	na	na
+B052.00	4	4	Malignant neoplasm of hard palate	tumor	cancer	na	na
+B064.00	4	4	Malignant neoplasm of anterior epiglottis	tumor	cancer	na	na
+B101.00	4	4	Malignant neoplasm of thoracic oesophagus	tumor;oeso	cancer	oeso	oeso
+B110z00	4	4	Malignant neoplasm of cardia of stomach NOS	tumor;stom	cancer	stom	stom
+B116.00	4	4	Malignant neoplasm of greater curve of stomach unspecified	tumor;stom	cancer	stom	stom
+B14y.00	4	4	"Malig neop other site rectum, rectosigmoid junction and anus"	tumor	cancer	crc	rectum
+B18z.00	4	4	Malignant neoplasm of retroperitoneum and peritoneum NOS	tumor	cancer	na	na
+B200.00	4	4	Malignant neoplasm of nasal cavities	tumor	cancer	na	na
+B223z00	4	4	"Malignant neoplasm of middle lobe, bronchus or lung NOS"	tumor;lung	cancer	lung	lung
+B2z..00	4	3	Malig neop other/ill-defined sites resp/intrathoracic organs	tumor	cancer	na	na
+B307000	4	4	Malignant neoplasm of femur	tumor	cancer	na	na
+B30z.00	4	4	Malignant neoplasm of bone and articular cartilage NOS	tumor	cancer	na	na
+B310200	4	4	Malignant neoplasm of soft tissue of neck	tumor	cancer	na	na
+B312300	4	4	Malig neop of connective and soft tissue of lower leg	tumor	cancer	na	na
+B322000	4	4	Malignant melanoma of auricle (ear)	tumor	cancer	na	na
+B323z00	4	4	Malignant melanoma of face NOS	tumor	cancer	na	na
+B326.00	4	4	Malignant melanoma of upper limb and shoulder	tumor	cancer	na	na
+B326000	4	4	Malignant melanoma of shoulder	tumor	cancer	na	na
+B327.00	4	4	Malignant melanoma of lower limb and hip	tumor	cancer	na	na
+B327200	4	4	Malignant melanoma of knee	tumor	cancer	na	na
+B327800	4	2	Malignant melanoma of toe	tumor	cancer	na	na
+B337100	4	3	Malignant neoplasm of skin of thigh	tumor	cancer	na	na
+B337400	4	3	Malignant neoplasm of skin of lower leg	tumor	cancer	na	na
+B432.00	4	4	Malignant neoplasm of overlapping lesion of corpus uteri	tumor	cancer	na	na
+B43y.00	4	4	Malignant neoplasm of other site of uterine body	tumor	cancer	uterus	uterus
+B45z.00	4	4	Malignant neoplasm of female genital organ NOS	tumor	cancer	na	na
+B4A3.00	4	4	Malignant neoplasm of urethra	tumor	cancer	na	na
+B4Ay.00	4	4	Malignant neoplasm of other urinary organs	tumor	cancer	na	na
+B4y..00	4	4	Malignant neoplasm of genitourinary organ OS	tumor	cancer	na	na
+B505.00	4	4	Malignant neoplasm of retina	tumor	cancer	na	na
+B514.00	4	4	Malignant neoplasm of occipital lobe	tumor	cancer	na	na
+B516.00	4	3	Malignant neoplasm of cerebellum	tumor	cancer	na	na
+B550.00	4	4	"Malignant neoplasm of head, neck and face"	tumor	cancer	na	na
+B550100	4	4	Malignant neoplasm of cheek NOS	tumor	cancer	na	na
+B550300	4	4	Malignant neoplasm of jaw NOS	tumor	cancer	na	na
+B553.00	4	4	Malignant neoplasm of pelvis	tumor	cancer	na	na
+B576000	4	4	Secondary malignant neoplasm of retroperitoneum	tumor	cancer	na	na
+B627000	4	4	Follicular non-Hodgkin's small cleaved cell lymphoma	tumor	cancer	blood	NHL
+B630.12	4	4	Myelomatosis	tumor	cancer	blood	MM
+B63y.00	4	4	Other immunoproliferative neoplasms	tumor	cancer	na	na
+B661.00	4	4	Chronic monocytic leukaemia	tumor	cancer	blood	LEU
+B681.00	4	4	Chronic leukaemia NOS	tumor	cancer	blood	LEU
+B800400	4	4	Carcinoma in situ of floor of mouth	tumor	cancer	na	na
+B803700	4	4	Carcinoma in situ of splenic flexure of colon	tumor;crc	cancer	crc	colon
+B810800	4	4	Carcinoma in situ of vocal fold - glottis	tumor	cancer	na	na
+B823000	4	2	Carcinoma in situ of skin of forehead skin	tumor	cancer	na	na
+B833400	4	3	Vulval intraepithel neop grd 1	tumor	cancer	na	na
+B915.00	4	4	Neoplasm of uncertain behaviour of prostate	tumor;benign	ca_bg	na	na
+BB1A.00	4	4	[M]Pleomorphic carcinoma	tumor	morph	na	na
+BB23.00	4	4	[M]Verrucous papilloma	tumor;benign	benign	na	na
+BB29.13	4	3	[M]Intraepithelial squamous cell carcinoma	tumor	morph	na	na
+BB2A.11	4	4	[M]Epidermoid carcinoma NOS	tumor	morph	na	na
+BB2K.00	4	4	[M]Queyrat's erythroplasia	tumor	cancer	na	na
+BB3z.00	4	4	[M]Basal cell neoplasm NOS	tumor	morph	na	na
+BB41.11	4	4	[M]Urinary bladder papilloma	tumor;benign	benign	na	na
+BB4z.00	4	4	[M]Transitional cell papilloma or carcinoma NOS	tumor	morph	na	na
+BB5Rz00	4	4	[M]Carcinoid tumours NOS	tumor	morph	na	na
+BB5T.00	4	4	[M]Papillary adenomas and adenocarcinomas	tumor	morph	na	na
+BB5V611	4	4	[M]Mucoid cell adenoma	tumor;benign	benign	na	na
+BB61013	4	4	[M]Syringadenoma NOS	tumor	morph	na	na
+BB80.00	4	4	[M]Cystadenoma and carcinoma	tumor	morph	na	na
+BB81J00	4	4	"[M]Serous cystadenoma, borderline malignancy"	tumor	morph	na	na
+BB9A.11	4	4	[M]Adenoma of the nipple	tumor;benign	benign	na	na
+BBDF.00	4	4	[M]Glomangiomyoma	tumor	cancer	na	na
+BBEQ.00	4	3	[M]Spindle cell melanoma NOS	tumor	cancer	na	na
+BBK0014	4	4	[M]Myofibroma	tumor	morph	na	na
+BBL3.11	4	4	[M]Chondroid syringoma	tumor	morph	na	na
+BBL7.11	4	4	[M]Nephromas and nephroblastomas	tumor	cancer	na	na
+BBLB.00	4	4	[M]Myoepithelioma	tumor	morph	na	na
+BBQ7100	4	4	[M]Teratoma NOS	tumor	morph	na	na
+BBT0.00	4	4	[M]Haemangioma NOS	tumor	morph	na	na
+BBZF.00	4	4	[M]Ameloblastoma NOS	tumor	cancer	na	na
+BBbz.00	4	4	[M]Glioma NOS	tumor	cancer	na	na
+BBm8.00	4	3	[M] Angioimmunoblastic lymphadenopathy	tumor	cancer	na	na
+BBmC.00	4	4	[M] T-gamma lymphoproliferative disease	tumor	cancer	blood	NHL
+BBn..00	4	4	[M]Plasma cell tumours	tumor	cancer	blood	MM
+BBn0.14	4	2	[M]Plasmacytic myeloma	tumor	cancer	blood	MM
+BBs2.00	4	4	[M]Chronic myeloproliferative disease	tumor	cancer	blood	UNS
+By...00	4	4	Neoplasms otherwise specified	tumor	cancer	na	na
+Byu0.00	4	4	"[X]Malignant neoplasm of lip, oral cavity and pharynx"	tumor	cancer	na	na
+Byu4000	4	4	[X]Malignant melanoma of other+unspecified parts of face	tumor	cancer	na	na
+Byu7.00	4	3	[X]Malignant neoplasm of female genital organs	tumor	cancer	na	na
+ByuD.00	4	4	"[X]Malignant neoplasms of lymphoid, haematopoietic and rela"	tumor	cancer	blood	UNS
+ByuD600	4	4	[X]Other myeloid leukaemia	tumor	cancer	blood	LEU
+B831.12	4	4	Cervical intraepithelial neoplasia	medr_tumor;tumor;medr_benign	ca_bg	na	na
+BB82100	4	4	[M]Mucinous adenocarcinoma	medr_tumor;tumor;medr_benign	morph	na	na
+B05..00	3	3	Malignant neoplasm of other and unspecified parts of mouth	tumor	cancer	na	na
+B050.11	3	3	Malignant neoplasm of buccal mucosa	tumor	cancer	na	na
+B056.00	3	3	Malignant neoplasm of retromolar area	tumor	cancer	na	na
+B06y.00	3	3	"Malignant neoplasm of oropharynx, other specified sites"	tumor	cancer	na	na
+B083.00	3	2	Malignant neoplasm of posterior pharynx	tumor	cancer	na	na
+B103.00	3	3	Malignant neoplasm of upper third of oesophagus	tumor;oeso	cancer	oeso	oeso
+B111100	3	3	Malignant neoplasm of pyloric canal of stomach	tumor;stom	cancer	stom	stom
+B114.00	3	3	Malignant neoplasm of body of stomach	tumor;stom	cancer	stom	stom
+B118.00	3	3	Siewert type II adenocarcinoma	tumor;oeso	cancer	oeso	oeso
+B11y.00	3	3	Malignant neoplasm of other specified site of stomach	tumor;stom	cancer	stom	stom
+B121.00	3	3	Malignant neoplasm of jejunum	tumor	cancer	na	na
+B13y.00	3	3	Malignant neoplasm of other specified sites of colon	tumor;crc	cancer	crc	colon
+B161100	3	3	Malignant neoplasm of hepatic duct	tumor;liver	cancer	liver	liver
+B202.00	3	3	Malignant neoplasm of maxillary sinus	tumor	cancer	na	na
+B204.00	3	2	Malignant neoplasm of frontal sinus	tumor	cancer	na	na
+B23z.00	3	3	Malignant neoplasm of pleura NOS	tumor	cancer	na	na
+B302100	3	3	Malignant neoplasm of thoracic vertebra	tumor	cancer	na	na
+B306.00	3	3	"Malignant neoplasm of pelvic bones, sacrum and coccyx"	tumor	cancer	na	na
+B306z00	3	3	"Malignant neoplasm of pelvis, sacrum or coccyx NOS"	tumor	cancer	na	na
+B310000	3	3	Malignant neoplasm of soft tissue of head	tumor	cancer	na	na
+B314000	3	3	Malig neop of connective and soft tissue of abdominal wall	tumor	cancer	na	na
+B315200	3	3	Malignant neoplasm of connective and soft tissue of perineum	tumor	cancer	na	na
+B31z.00	3	3	"Malignant neoplasm of connective and soft tissue, site NOS"	tumor	cancer	na	na
+B324000	3	3	Malignant melanoma of scalp	tumor	cancer	na	na
+B327500	3	3	Malignant melanoma of ankle	tumor	cancer	na	na
+B327700	3	3	Malignant melanoma of foot	tumor	cancer	na	na
+B330.00	3	3	Malignant neoplasm of skin of lip	tumor	cancer	na	na
+B332000	3	3	Malignant neoplasm of skin of auricle (ear)	tumor	cancer	na	na
+B333.00	3	3	Malignant neoplasm skin of other and unspecified parts face	tumor	cancer	na	na
+B333z00	3	3	Malignant neoplasm skin other and unspec part of face NOS	tumor	cancer	na	na
+B335100	3	3	"Malignant neoplasm of skin of chest, excluding breast"	tumor	cancer	na	na
+B336300	3	3	Malignant neoplasm of skin of hand	tumor	cancer	na	na
+B33z000	3	3	Kaposi's sarcoma of skin	tumor	cancer	na	na
+B34yz00	3	3	Malignant neoplasm of other site of female breast NOS	tumor	cancer	breast	breast
+B3y..00	3	3	"Malig neop of bone, connective tissue, skin and breast OS"	tumor	cancer	na	na
+B410z00	3	3	Malignant neoplasm of endocervix NOS	tumor	cancer	na	na
+B41yz00	3	3	Malignant neoplasm of other site of cervix NOS	tumor	cancer	na	na
+B430z00	3	3	Malignant neoplasm of corpus uteri NOS	tumor	cancer	uterus	uterus
+B451.00	3	3	Malignant neoplasm of labia majora	tumor	cancer	na	na
+B48y.00	3	3	Malignant neoplasm of other male genital organ	tumor	cancer	na	na
+B491.00	3	3	Malignant neoplasm of dome of urinary bladder	tumor	cancer	bladder	bladder
+B493.00	3	2	Malignant neoplasm of anterior wall of urinary bladder	tumor	cancer	bladder	bladder
+B50z.00	3	3	Malignant neoplasm of eye NOS	tumor	cancer	na	na
+B510500	3	3	Malignant neoplasm of thalamus	tumor	cancer	na	na
+B51y000	3	2	Malignant neoplasm of corpus callosum	tumor	cancer	na	na
+B552.00	3	3	Malignant neoplasm of abdomen	tumor	cancer	na	na
+B55z.00	3	3	Malignant neoplasm of other and ill defined site NOS	tumor	cancer	na	na
+B572.00	3	3	Secondary malignant neoplasm of pleura	tumor	cancer	na	na
+B58y000	3	3	Secondary malignant neoplasm of breast	tumor	cancer	na	na
+B614z00	3	2	"Hodgkin's disease, nodular sclerosis NOS"	tumor	cancer	blood	HODG
+B61zz00	3	3	Hodgkin's disease NOS	tumor	cancer	blood	HODG
+B625.00	3	3	Letterer-Siwe disease	tumor	cancer	blood	UNS
+B627200	3	3	Follicular non-Hodgkin's large cell lymphoma	tumor	cancer	blood	NHL
+B627800	3	2	Diffuse non-Hodgkin's lymphoma undifferentiated (diffuse)	tumor	cancer	blood	NHL
+B628.00	3	2	Follicular lymphoma	tumor	cancer	blood	NHL
+B800.11	3	3	Carcinoma in situ of oral cavity	tumor	cancer	na	na
+B800900	3	1	Carcinoma in situ of hypopharynx	tumor	cancer	na	na
+B801200	3	3	Carcinoma in situ of lower 1/3 oesophagus	tumor;oeso	cancer	oeso	oeso
+B803000	3	3	Carcinoma in situ of hepatic flexure of colon	tumor;crc	cancer	crc	colon
+B803500	3	3	Carcinoma in situ of appendix	tumor;crc	cancer	crc	colon
+B810811	3	3	Carcinoma in situ of glottis	tumor	cancer	na	na
+B824000	3	3	Carcinoma in situ of scalp	tumor	cancer	na	na
+B831000	3	3	Carcinoma in situ of endocervix	tumor	cancer	na	na
+B833200	3	2	Carcinoma in situ of vagina	tumor	cancer	na	na
+B833500	3	2	Vulval intraepithel neop grd 2	tumor	cancer	na	na
+B8y..00	3	3	Carcinoma in situ of other and unspecified sites	tumor	cancer	na	na
+B901600	3	3	Neoplasm of uncertain behaviour of palate	tumor;benign	ca_bg	na	na
+B903300	3	3	Neoplasm of uncertain behaviour of gall bladder	tumor;benign	ca_bg	na	na
+B905200	3	3	Neoplasm of uncertain behaviour of anal canal and sphincter	tumor;benign	ca_bg	na	na
+B905300	3	1	Neoplasm of uncertain behaviour of spleen	tumor;benign	ca_bg	na	na
+B906200	3	2	Neoplasm of uncertain behaviour of epiglottis	tumor;benign	ca_bg	na	na
+B907000	3	3	Neoplasm of uncertain behaviour of trachea	tumor;benign	ca_bg	na	na
+B907100	3	3	Neoplasm of uncertain behaviour of bronchus	tumor;lung;benign	ca_bg	lung	lung
+B91z300	3	2	Neoplasm of uncertain or unknown behaviour of renal pelvis	tumor;benign	ca_bg	na	na
+B937200	3	3	Refractory anaemia with excess of blasts	tumor	cancer	blood	UNS
+BA03.00	3	3	Neoplasm of unspecified nature of breast	tumor;benign	ca_bg	na	na
+BB01.00	3	3	"[M]Neoplasm, uncertain whether benign or malignant"	tumor;benign	ca_bg	na	na
+BB2F.00	3	3	"[M]Squamous cell carcinoma, spindle cell type"	tumor	morph	na	na
+BB5D111	3	3	[M]Bile duct carcinoma	tumor	cancer	na	na
+BB5N.00	3	3	[M]Adenomatous and adenocarcinomatous polyps of colon	tumor;crc	cancer	crc	colon
+BB5N200	3	3	[M]Multiple adenomatous polyps	tumor	morph	na	na
+BB5R100	3	3	"[M]Carcinoid tumour, malignant"	tumor	morph	na	na
+BB5Vz00	3	3	[M]Pituitary adenoma or carcinoma NOS	tumor	cancer	na	na
+BB5X100	3	3	[M]Clear cell adenocarcinoma NOS	tumor	morph	na	na
+BB5b.00	3	3	[M]Granular cell carcinoma	tumor	morph	na	na
+BB61012	3	3	[M]Nodular hidradenoma	tumor	morph	na	na
+BB63.00	3	2	[M]Eccrine acrospiroma	tumor	cancer	na	na
+BB7..00	3	3	[M]Mucoepidermoid neoplasms	tumor;benign	benign	na	na
+BB80100	3	3	[M]Cystadenocarcinoma NOS	tumor	morph	na	na
+BB81D00	3	3	"[M]Mucinous cystadenoma, borderline malignancy"	tumor	morph	na	na
+BB82000	3	3	[M]Mucinous adenoma	tumor;benign	benign	na	na
+BB85111	3	3	[M]Krukenberg tumour	tumor	cancer	na	na
+BB9B.00	3	3	[M]Medullary carcinoma NOS	tumor	cancer	na	na
+BB9M.00	3	3	[M]Intracystic carcinoma NOS	tumor	morph	na	na
+BBCF.00	3	3	[M]Adrenal rest tumour	tumor	cancer	na	na
+BBDC.00	3	3	[M]Glomus tumour	tumor	cancer	na	na
+BBE8.11	3	3	[M]Melanocytoma of eyeball	tumor	cancer	na	na
+BBJ2.11	3	3	[M]Fibroma molle	tumor;benign	benign	na	na
+BBJA.00	3	2	[M]Spindle cell lipoma	medr_tumor;medr_benign	ignore	na	na
+BBJD.00	3	3	[M]Hibernoma	tumor	morph	na	na
+BBM7.12	3	3	[M]Fibroadenoma phyllodes	tumor	morph	na	na
+BBQ7z00	3	3	[M]Teratoma NOS	tumor	morph	na	na
+BBQA000	3	2	[M]Struma ovarii NOS	tumor	morph	na	na
+BBT..11	3	3	[M]Haemangiomatous tumours	tumor	morph	na	na
+BBT4.11	3	3	[M]Arteriovenous haemangioma	tumor	cancer	na	na
+BBW3.00	3	3	[M]Chondromatosis NOS	tumor	cancer	na	na
+BBW4.00	3	2	[M]Chondrosarcoma NOS	tumor	cancer	na	na
+BBa..00	3	3	[M]Miscellaneous tumours	tumor	anc	na	na
+BBa5.00	3	3	[M]Chordoma	tumor	cancer	na	na
+BBb0.12	3	3	[M]Gliosarcoma	tumor	morph	na	na
+BBc6.00	3	3	[M]Ganglioglioma	tumor	cancer	na	na
+BBeA.00	3	3	[M]Neurothekeoma	tumor	cancer	na	na
+BBgz.00	3	3	"[M]Lymphoma, diffuse or NOS"	tumor	cancer	na	na
+BBkz.00	3	3	"[M]Lymphoma, nodular or follicular NOS"	tumor	cancer	na	na
+BBm3.12	3	2	[M]Acute progressive histiocytosis X	tumor	cancer	na	na
+BBrz.00	3	3	[M]Leukaemia NOS	tumor	cancer	blood	LEU
+BBs..00	3	3	[M]Misc myeloproliferative and lymphoproliferative disorders	tumor	cancer	blood	UNS
+BBsz.00	3	3	[M]Misc myeloproliferative or lymphoproliferative dis NOS	tumor	cancer	blood	UNS
+Byu..00	3	3	[X]Additional neoplasm classification terms	tumor	cancer	na	na
+Byu5000	3	3	[X]Mesothelioma of other sites	tumor	cancer	na	na
+Byu5A00	3	3	[X]Malignant neoplasm overlapping lesion of skin	tumor	cancer	na	na
+Byu8.00	3	3	[X]Malignant neoplasm of male genital organs	tumor	cancer	na	na
+ByuA300	3	3	"[X]Malig neopl, overlap lesion brain & other part of CNS"	tumor	cancer	na	na
+ByuC400	3	3	[X]Secondary malignant neoplasm/oth+unspcfd digestive organs	tumor	cancer	na	na
+ByuC600	3	3	[X]2ndry malignant neoplasm/oth+unspec parts/nervous system	tumor	cancer	na	na
+B68..00	3	3	Leukaemia of unspecified cell type	medr_tumor;tumor	cancer	blood	LEU
+BB81C00	3	3	[M]Mucinous cystadenoma NOS	medr_tumor;tumor;medr_benign	benign	na	na
+4M13.00	2	2	Dukes stage C2	tumor	cancer	crc	rectum;colon
+4M4..00	2	2	FIGO staging of gynaecological malignancy	tumor	anc	na	na
+B001000	2	2	"Malignant neoplasm of lower lip, external"	tumor	cancer	na	na
+B017.00	2	2	Malignant overlapping lesion of tongue	tumor	cancer	na	na
+B02..00	2	2	Malignant neoplasm of major salivary glands	tumor	cancer	na	na
+B02z.00	2	2	Malignant neoplasm of major salivary gland NOS	tumor	cancer	na	na
+B031.00	2	2	Malignant neoplasm of lower gum	tumor	cancer	na	na
+B040.00	2	2	Malignant neoplasm of anterior portion of floor of mouth	tumor	cancer	na	na
+B054.00	2	2	Malignant neoplasm of uvula	tumor	cancer	na	na
+B062.00	2	2	Malignant neoplasm of tonsillar pillar	tumor	cancer	na	na
+B064z00	2	2	Malignant neoplasm of anterior epiglottis NOS	tumor	cancer	na	na
+B067.00	2	2	Malignant neoplasm of posterior wall of oropharynx	tumor	cancer	na	na
+B071100	2	2	Malignant neoplasm of pharyngeal tonsil	tumor	cancer	na	na
+B072000	2	2	Malignant neoplasm of pharyngeal recess	tumor	cancer	na	na
+B08z.00	2	2	Malignant neoplasm of hypopharynx NOS	tumor	cancer	na	na
+B0z..00	2	2	"Malig neop other/ill-defined sites lip, oral cavity, pharynx"	tumor	cancer	na	na
+B0zy.00	2	2	"Malignant neoplasm of other sites lip, oral cavity, pharynx"	tumor	cancer	na	na
+B102.00	2	2	Malignant neoplasm of abdominal oesophagus	tumor;stom	cancer	stom	stom
+B111000	2	2	Malignant neoplasm of prepylorus of stomach	tumor;stom	cancer	stom	stom
+B151z00	2	2	Malignant neoplasm of intrahepatic bile ducts NOS	tumor;liver	cancer	liver	liver
+B161211	2	2	Carcinoma common bile duct	tumor	cancer	na	na
+B163.00	2	2	"Malignant neoplasm, overlapping lesion of biliary tract"	tumor	cancer	na	na
+B1z..00	2	2	Malig neop oth/ill-defined sites digestive tract/peritoneum	tumor	cancer	na	na
+B2...11	2	2	Carcinoma of respiratory tract and intrathoracic organs	tumor	cancer	na	na
+B200200	2	2	Malignant neoplasm of septum of nose	tumor	cancer	na	na
+B213100	2	2	Malignant neoplasm of cricoid cartilage	tumor	cancer	na	na
+B213300	2	2	Malignant neoplasm of thyroid cartilage	tumor	cancer	na	na
+B220z00	2	2	Malignant neoplasm of trachea NOS	tumor	cancer	na	na
+B241400	2	2	Mesothelioma of pericardium	tumor	cancer	na	na
+B243.00	2	2	Malignant neoplasm of posterior mediastinum	tumor	cancer	na	na
+B2z0.00	2	2	"Malig neop of upper respiratory tract, part unspecified"	tumor	cancer	na	na
+B30..12	2	2	Osteoma	tumor;benign	benign	na	na
+B300700	2	2	Malignant neoplasm of sphenoid bone	tumor	cancer	na	na
+B302000	2	2	Malignant neoplasm of cervical vertebra	tumor	cancer	na	na
+B302200	2	2	Malignant neoplasm of lumbar vertebra	tumor	cancer	na	na
+B303000	2	2	Malignant neoplasm of rib	tumor	cancer	na	na
+B310300	2	2	Malignant neoplasm of cartilage of ear	tumor	cancer	na	na
+B310z00	2	2	"Malig neop connective and soft tissue head, face, neck NOS"	tumor	cancer	na	na
+B312.00	2	2	Malig neop of connective and soft tissue of hip and leg	tumor	cancer	na	na
+B312000	2	2	Malignant neoplasm of connective and soft tissue of hip	tumor	cancer	na	na
+B315.00	2	2	Malignant neoplasm of connective and soft tissue of pelvis	tumor	cancer	na	na
+B315000	2	2	Malignant neoplasm of connective and soft tissue of buttock	tumor	cancer	na	na
+B320.00	2	1	Malignant melanoma of lip	tumor	cancer	na	na
+B323300	2	2	Malignant melanoma of forehead	tumor	cancer	na	na
+B324.00	2	2	Malignant melanoma of scalp and neck	tumor	cancer	na	na
+B325000	2	2	Malignant melanoma of axilla	tumor	cancer	na	na
+B325300	2	2	Malignant melanoma of groin	tumor	cancer	na	na
+B336000	2	2	Malignant neoplasm of skin of shoulder	tumor	cancer	na	na
+B336200	2	2	Malignant neoplasm of skin of fore-arm	tumor	cancer	na	na
+B337.00	2	2	Malignant neoplasm of skin of lower limb and hip	tumor	cancer	na	na
+B33y.00	2	2	Malignant neoplasm of other specified skin sites	tumor	cancer	na	na
+B33z111	2	2	Basal cell naevus syndrome	tumor	cancer	na	na
+B340100	2	2	Malignant neoplasm of areola of female breast	tumor	cancer	breast	breast
+B35zz00	2	2	Malignant neoplasm of male breast NOS	tumor	cancer	breast	breast
+B430000	2	2	Malignant neoplasm of cornu of corpus uteri	tumor	cancer	uterus	uterus
+B430300	2	2	Malignant neoplasm of myometrium of corpus uteri	tumor	cancer	uterus	uterus
+B450z00	2	2	Malignant neoplasm of vagina NOS	tumor	cancer	na	na
+B451z00	2	2	Malignant neoplasm of labia majora NOS	tumor	cancer	na	na
+B45y.00	2	2	Malignant neoplasm of other specified female genital organ	tumor	cancer	na	na
+B49y.00	2	2	Malignant neoplasm of other site of urinary bladder	tumor	cancer	bladder	bladder
+B4z..00	2	2	Malignant neoplasm of genitourinary organ NOS	tumor	cancer	na	na
+B501.00	2	2	Malignant neoplasm of orbit	tumor	cancer	na	na
+B503.00	2	2	Malignant neoplasm of conjunctiva	tumor	cancer	na	na
+B508.00	2	1	"Malignant neoplasm, overlapping lesion of eye and adnexa"	tumor	cancer	na	na
+B510100	2	2	Malignant neoplasm of cerebral cortex	tumor	cancer	na	na
+B512z00	2	2	Malignant neoplasm of temporal lobe NOS	tumor	cancer	na	na
+B51y.00	2	2	Malignant neoplasm of other parts of brain	tumor	cancer	na	na
+B521.00	2	2	Malignant neoplasm of cerebral meninges	tumor	cancer	na	na
+B523.00	2	2	Malignant neoplasm of spinal meninges	tumor	cancer	na	na
+B525.00	2	2	Malignant neoplasm of cauda equina	tumor	cancer	na	na
+B541.00	2	2	Malignant neoplasm of parathyroid gland	tumor	cancer	na	na
+B545000	2	1	Malignant neoplasm of glomus jugulare	tumor	cancer	na	na
+B550500	2	2	Malignant neoplasm of supraclavicular fossa NOS	tumor	cancer	na	na
+B55y000	2	2	Malignant neoplasm of back NOS	tumor	cancer	na	na
+B561900	2	2	Secondary and unspec malig neop pulmonary lymph nodes	tumor	cancer	na	na
+B563.00	2	2	Secondary and unspec malig neop axilla and upper limb LN	tumor	cancer	na	na
+B563000	2	2	Secondary and unspec malig neop axillary lymph nodes	tumor	cancer	na	na
+B571.00	2	2	Secondary malignant neoplasm of mediastinum	tumor	cancer	na	na
+B575.00	2	2	Secondary malignant neoplasm of large intestine and rectum	tumor	cancer	crc	rectum;colon
+B57y.00	2	2	Secondary malignant neoplasm of other digestive organ	tumor	cancer	na	na
+B581100	2	2	Secondary malignant neoplasm of bladder	tumor	cancer	na	na
+B582200	2	2	Secondary malignant neoplasm of skin of neck	tumor	cancer	na	na
+B582600	2	2	Secondary malignant neoplasm of skin of breast	tumor	cancer	na	na
+B583z00	2	2	Secondary malignant neoplasm of brain or spinal cord NOS	tumor	cancer	na	na
+B58y300	2	2	Secondary malignant neoplasm of vagina	tumor	cancer	na	na
+B59zX00	2	2	"Kaposi's sarcoma, unspecified"	tumor	cancer	na	na
+B601z00	2	2	Lymphosarcoma NOS	tumor	cancer	na	na
+B602300	2	2	Burkitt's lymphoma of intra-abdominal lymph nodes	tumor	cancer	blood	NHL
+B622.00	2	2	Sezary's disease	tumor	cancer	blood	NHL
+B624.00	2	2	Leukaemic reticuloendotheliosis	tumor	cancer	blood	LEU	
+B627700	2	2	Diffuse non-Hodgkin's lymphoblastic (diffuse) lymphoma	tumor	cancer	blood	NHL
+B62y000	2	2	Malignant lymphoma NOS of unspecified site	tumor	cancer	blood	NHL
+B62y700	2	2	Malignant lymphoma NOS of spleen	tumor	cancer	blood	NHL
+B63z.00	2	2	Immunoproliferative neoplasm or myeloma NOS	tumor	cancer	blood	MM
+B64z.00	2	2	Lymphoid leukaemia NOS	tumor	cancer	blood	LEU
+B653100	2	2	Granulocytic sarcoma	tumor	cancer	na	na
+B66..00	2	1	Monocytic leukaemia	tumor	cancer	blood	LEU
+B6y..00	2	2	Malignant neoplasm lymphatic or haematopoietic tissue OS	tumor	cancer	blood	NHL
+B7B2100	2	2	Benign neoplasm of labia minora	medr_tumor;medr_benign	ignore	na	na
+B800.12	2	2	Carcinoma in situ of pharynx	tumor	cancer	na	na
+B800600	2	2	Carcinoma in situ of palate	tumor	cancer	na	na
+B800800	2	2	Carcinoma in situ of oropharynx	tumor	cancer	na	na
+B802000	2	2	Carcinoma in situ of cardia of stomach	tumor;stom	cancer	stom	stom
+B803z00	2	2	Carcinoma in situ of colon NOS	tumor;crc	cancer	crc	colon
+B812100	2	2	Carcinoma in situ of main bronchus	tumor;lung	cancer	lung	lung
+B812200	2	2	Carcinoma in situ of upper lobe bronchus and lung	tumor;lung	cancer	lung	lung
+B823300	2	1	Carcinoma in situ of skin of cheek	tumor	cancer	na	na
+B823500	2	2	Carcinoma in situ of skin of temple	tumor	cancer	na	na
+B827300	2	2	Carcinoma in situ of skin of lower leg	tumor	cancer	na	na
+B828500	2	2	"Melanoma in situ of upper limb, including shoulder"	tumor	cancer	na	na
+B832.00	2	2	Carcinoma in situ of other and unspecified parts of uterus	tumor	cancer	uterus	uterus
+B833100	2	1	Carcinoma in situ of fallopian tube	tumor	cancer	na	na
+B833700	2	2	Vaginal intraepithelial neoplasia grade 1	tumor	cancer	na	na
+B833900	2	2	Vaginal intraepithelial neoplasia grade 3	tumor	cancer	na	na
+B8yyz00	2	2	Carcinoma in situ of other specified site NOS	tumor	cancer	na	na
+B901.11	2	2	Neoplasm of uncertain behaviour of oral cavity	tumor;benign	ca_bg	na	na
+B902100	2	2	Neoplasm of uncertain behaviour of duodenum	tumor;benign	ca_bg	na	na
+B902500	2	2	Neoplasm of uncertain behaviour of rectum	tumor;benign	ca_bg	crc	rectum
+B904000	2	2	Neoplasm of uncertain behaviour of retroperitoneum	tumor;benign	ca_bg	na	na
+B906.00	2	2	Neoplasm of uncertain behaviour of larynx	tumor;benign	ca_bg	na	na
+B908200	2	2	Neoplasm of uncertain behaviour of mediastinum	tumor;benign	ca_bg	na	na
+B91..00	2	2	Neoplasm of uncertain behaviour of genitourinary organs	tumor;benign	ca_bg	na	na
+B911000	2	2	Malignant hydatidiform mole	tumor	cancer	na	na
+B916000	2	2	Neoplasm of uncertain behaviour of penis	tumor;benign	ca_bg	na	na
+B920.00	2	2	Neop uncertain behaviour pituitary and craniopharyngeal duct	tumor;benign	ca_bg	na	na
+B920000	2	2	Neoplasm of uncertain behaviour of pituitary gland	tumor;benign	ca_bg	na	na
+B922.00	2	2	Neoplasm of uncertain behaviour of adrenal gland	tumor;benign	ca_bg	na	na
+B924000	2	1	Neoplasm of uncertain behaviour of thyroid gland	tumor;benign	ca_bg	na	na
+B925000	2	2	Neoplasm of uncertain behaviour of brain	tumor;benign	ca_bg	na	na
+B931.00	2	2	Neop of uncertain behaviour connective and other soft tissue	tumor;benign	ca_bg	na	na
+B93y000	2	2	Neoplasm of uncertain behaviour of eye	tumor;benign	ca_bg	na	na
+B9z..00	2	2	Neoplasm of uncertain behaviour NOS	tumor;benign	ca_bg	na	na
+BA0z.00	2	2	Neoplasm of unspecified nature NOS	tumor;benign	ca_bg	na	na
+BB...11	2	2	[M]Tumour morphology	tumor;benign	ca_bg	na	na
+BB13.11	2	1	[M]Secondary carcinoma	tumor	morph	na	na
+BB1M.00	2	2	"[M]Small cell carcinoma, intermediate cell"	tumor	morph	na	na
+BB21.00	2	2	[M]Papillary carcinoma in situ	tumor	morph	na	na
+BB25.11	2	2	[M]Dyskeratotic papilloma	tumor;benign	benign	na	na
+BB2J.00	2	2	"[M]Squamous cell carcinoma, microinvasive"	tumor	morph	na	na
+BB32.00	2	2	[M]Multicentric basal cell carcinoma	tumor	morph	na	na
+BB40.00	2	2	[M]Transitional cell papilloma NOS	tumor;benign	morph	na	na
+BB44.00	2	2	[M]Schneiderian papilloma	tumor;benign	benign	na	na
+BB50000	2	2	[M]Microcystic adenoma	tumor;benign	benign	na	na
+BB52000	2	2	[M]Adenocarcinoma in tubulovillous adenoma	tumor	morph	na	na
+BB59.00	2	2	[M]Monomorphic adenoma	tumor;benign	benign	na	na
+BB5K.00	2	2	[M]Cribriform carcinoma	tumor	cancer	na	na
+BB5N011	2	2	[M]Adenomatosis NOS	tumor	morph	na	na
+BB5R611	2	1	[M]Goblet cell tumour	tumor	cancer	na	na
+BB5R800	2	2	[M]Adenocarcinoid tumour	tumor	morph	na	na
+BB5S100	2	2	[M]Bronchial adenoma NOS	tumor	cancer	na	na
+BB5U312	2	2	[M]Villoglandular adenoma	tumor	morph	na	na
+BB5W012	2	2	[M]Oncocytic adenoma	tumor	morph	na	na
+BB5a012	2	2	[M]Hypernephroma	tumor	cancer	na	na
+BB5fz00	2	2	[M]Thyroid adenoma or adenocarcinoma NOS	tumor	cancer	na	na
+BB5j000	2	2	[M]Endometrioid adenoma NOS	tumor	cancer	na	na
+BB84.00	2	1	[M]Mucin-producing adenocarcinoma	tumor	morph	na	na
+BB85.00	2	2	[M]Signet ring carcinoma	tumor	cancer	na	na
+BB9B.11	2	1	[M]C cell carcinoma	tumor	morph	na	na
+BB9H.00	2	2	[M]Inflammatory carcinoma	tumor	morph	na	na
+BBB1.11	2	2	[M]Warthin's tumour	tumor	benign	na	na
+BBC1000	2	2	[M]Thecoma NOS	tumor	cancer	na	na
+BBDD.00	2	2	[M]Glomangioma	tumor	cancer	na	na
+BBG2.11	2	2	[M]Myxofibroma NOS	medr_tumor;medr_benign	ignore	na	na
+BBGK.13	2	2	[M]Sclerosing haemangioma	tumor	cancer	na	na
+BBK0012	2	2	[M]Fibromyoma	tumor	morph	na	na
+BBK0311	2	1	[M]Leiomyoblastoma	tumor	cancer	na	na
+BBK3800	2	2	[M]Smooth muscle tumour NOS	tumor	morph	na	na
+BBL7111	2	2	[M]Adenosarcoma	tumor	morph	na	na
+BBLH.00	2	2	[M]Rhabdoid sarcoma	tumor	cancer	na	na
+BBLJ.00	2	2	[M]Clear cell sarcoma of kidney	tumor	cancer	na	na
+BBN1.00	2	2	[M]Synovial sarcoma NOS	tumor	morph	na	na
+BBN1.11	2	1	[M]Synovioma NOS	tumor	morph	na	na
+BBR1.13	2	2	[M]Invasive mole NOS	tumor	morph	na	na
+BBTA.00	2	2	[M]Kaposi's sarcoma	tumor	cancer	na	na
+BBV7.00	2	2	[M]Osteoid osteoma NOS	tumor	cancer	na	na
+BBV8.11	2	2	[M]Giant osteoid osteoma	tumor	cancer	na	na
+BBW..00	2	2	[M]Chondromatous neoplasms	tumor	morph	na	na
+BBW1.00	2	2	[M]Osteochondromatosis NOS	tumor	cancer	na	na
+BBWA.00	2	1	[M]Chondromyxoid fibroma	tumor	cancer	na	na
+BBZL.00	2	2	[M]Odontogenic fibroma NOS	tumor	cancer	na	na
+BBaz.00	2	2	[M]Miscellaneous tumour NOS	tumor	anc	na	na
+BBb3.13	2	2	[M]Subependymoma	tumor	cancer	na	na
+BBb5.00	2	2	[M]Choroid plexus papilloma NOS	tumor	cancer	na	na
+BBbB.11	2	2	[M]Astrocytic glioma	tumor	cancer	na	na
+BBcC.11	2	2	[M]Olfactory neuroblastoma	tumor	cancer	na	na
+BBr2300	2	2	[M]Chronic lymphoid leukaemia	tumor	cancer	blood	CLL
+BBrA700	2	2	[M]Acute myelofibrosis	tumor	cancer	blood	UNS
+BBs0.11	2	2	[M]Polycythaemia rubra vera	tumor	cancer	blood	PV
+Byu5.00	2	2	[X]Malignant neoplasm of mesothelial and soft tissue	tumor	cancer	na	na
+Byu5100	2	2	"[X]Mesothelioma, unspecified"	tumor	cancer	na	na
+Byu5900	2	2	"[X]Malignant neoplasm/connective + soft tissue,unspecified"	tumor	cancer	na	na
+ByuB100	2	2	"[X]Malignant neoplasm of endocrine gland, unspecified"	tumor	cancer	na	na
+ByuD000	2	2	[X]Other Hodgkin's disease	tumor	cancer	blood	HODG
+ByuD500	2	2	[X]Other lymphoid leukaemia	tumor	cancer	blood	LEU
+ByuDE00	2	1	[X]Unspecified B-cell non-Hodgkin's lymphoma	tumor	cancer	blood	NHL
+ByuE.00	2	2	[X]Malignant neoplasms/independent (primary) multiple sites	tumor	cancer	na	na
+ByuFF00	2	2	"[X]Melanoma in situ, unspecified"	tumor	cancer	na	na
+BBY2.00	2	2	[M]Ossifying fibroma	medr_tumor;tumor;medr_benign	benign	na	na
+4M2..00	1	1	Lymphoma staging system	tumor	anc	na	na
+4M23.00	1	1	Lymphoma stage IV	tumor	anc	na	na
+4M5..00	1	1	TNM tumour staging	tumor	anc	na	na
+B00..11	1	1	Carcinoma of lip	tumor	cancer	na	na
+B001z00	1	1	"Malignant neoplasm of lower lip, vermilion border NOS"	tumor	cancer	na	na
+B003z00	1	1	"Malignant neoplasm of lower lip, inner aspect NOS"	tumor	cancer	na	na
+B007.00	1	1	"Malignant neoplasm of lip, unspecified"	tumor	cancer	na	na
+B010000	1	1	Malignant neoplasm of base of tongue dorsal surface	tumor	cancer	na	na
+B011.00	1	1	Malignant neoplasm of dorsal surface of tongue	tumor	cancer	na	na
+B013.00	1	1	Malignant neoplasm of ventral surface of tongue	tumor	cancer	na	na
+B013000	1	1	Malignant neoplasm of anterior 2/3 of tongue ventral surface	tumor	cancer	na	na
+B01y.00	1	1	Malignant neoplasm of other sites of tongue	tumor	cancer	na	na
+B022.00	1	1	Malignant neoplasm of sublingual gland	tumor	cancer	na	na
+B041.00	1	1	Malignant neoplasm of lateral portion of floor of mouth	tumor	cancer	na	na
+B042.00	1	1	"Malignant neoplasm, overlapping lesion of floor of mouth"	tumor	cancer	na	na
+B051.00	1	1	Malignant neoplasm of vestibule of mouth	tumor	cancer	na	na
+B051100	1	1	Malignant neoplasm of lower buccal sulcus	tumor	cancer	na	na
+B055100	1	1	Malignant neoplasm of roof of mouth	tumor	cancer	na	na
+B055z00	1	1	Malignant neoplasm of palate NOS	tumor	cancer	na	na
+B062100	1	1	Malignant neoplasm of glossopalatine fold	tumor	cancer	na	na
+B063.00	1	1	Malignant neoplasm of vallecula	tumor	cancer	na	na
+B064000	1	1	"Malignant neoplasm of epiglottis, free border"	tumor	cancer	na	na
+B06yz00	1	1	Malignant neoplasm of other specified site of oropharynx NOS	tumor	cancer	na	na
+B071000	1	1	Malignant neoplasm of adenoid	tumor	cancer	na	na
+B07z.00	1	1	Malignant neoplasm of nasopharynx NOS	tumor	cancer	na	na
+B082.00	1	1	"Malignant neoplasm aryepiglottic fold, hypopharyngeal aspect"	tumor	cancer	na	na
+B08y.00	1	1	Malignant neoplasm of other specified hypopharyngeal site	tumor	cancer	na	na
+B110111	1	1	Malignant neoplasm of gastro-oesophageal junction	tumor;stom	cancer	stom	stom
+B111z00	1	1	Malignant neoplasm of pylorus of stomach NOS	tumor;stom	cancer	stom	stom
+B139.00	1	1	Hereditary nonpolyposis colon cancer	tumor;crc	cancer	crc	colon
+B14z.00	1	1	"Malignant neoplasm rectum,rectosigmoid junction and anus NOS"	tumor	cancer	crc	rectum
+B150z00	1	1	Primary malignant neoplasm of liver NOS	tumor;liver	cancer	liver	liver
+B16y.00	1	1	Malignant neoplasm other gallbladder/extrahepatic bile duct	tumor	cancer	na	na
+B17yz00	1	1	Malignant neoplasm of specified site of pancreas NOS	tumor	cancer	pancreas	pancreas
+B180200	1	1	Malignant neoplasm of retrocaecal tissue	tumor	cancer	na	na
+B180z00	1	1	Malignant neoplasm of retroperitoneum NOS	tumor	cancer	na	na
+B18y000	1	1	Malignant neoplasm of mesocolon	tumor;crc	cancer	crc	colon
+B18y700	1	1	Malignant neoplasm of mesentery	tumor	cancer	na	na
+B1z2.00	1	1	"Malignant neoplasm, overlapping lesion of digestive system"	tumor	cancer	na	na
+B200z00	1	1	Malignant neoplasm of nasal cavities NOS	tumor	cancer	na	na
+B203.00	1	1	Malignant neoplasm of ethmoid sinus	tumor	cancer	na	na
+B206.00	1	1	"Malignant neoplasm, overlapping lesion of accessory sinuses"	tumor	cancer	na	na
+B212.00	1	1	Malignant neoplasm of subglottis	tumor	cancer	na	na
+B213.00	1	1	Malignant neoplasm of laryngeal cartilage	tumor	cancer	na	na
+B23y.00	1	1	Malignant neoplasm of other specified pleura	tumor	cancer	na	na
+B241.00	1	1	Malignant neoplasm of heart	tumor	cancer	na	na
+B2zy.00	1	1	Malignant neoplasm of other site of respiratory tract	tumor	cancer	na	na
+B300.00	1	1	Malignant neoplasm of bones of skull and face	tumor	cancer	na	na
+B300A00	1	1	Malignant neoplasm of maxilla	tumor	cancer	na	na
+B302.00	1	1	Malignant neoplasm of vertebral column	tumor	cancer	na	na
+B302z00	1	1	Malignant neoplasm of vertebral column NOS	tumor	cancer	na	na
+B303100	1	1	Malignant neoplasm of sternum	tumor	cancer	na	na
+B303200	1	1	Malignant neoplasm of clavicle	tumor	cancer	na	na
+B304000	1	1	Malignant neoplasm of scapula	tumor	cancer	na	na
+B306000	1	1	Malignant neoplasm of ilium	tumor	cancer	na	na
+B306300	1	1	Malignant neoplasm of sacral vertebra	tumor	cancer	na	na
+B306400	1	1	Malignant neoplasm of coccygeal vertebra	tumor	cancer	na	na
+B306500	1	1	Malignant sacral teratoma	tumor	cancer	na	na
+B310.00	1	1	"Malig neop of connective and soft tissue head, face and neck"	tumor	cancer	na	na
+B311.00	1	1	Malig neop connective and soft tissue upper limb/shoulder	tumor	cancer	na	na
+B311000	1	1	Malignant neoplasm of connective and soft tissue of shoulder	tumor	cancer	na	na
+B311200	1	1	Malignant neoplasm of connective and soft tissue of fore-arm	tumor	cancer	na	na
+B311300	1	1	Malignant neoplasm of connective and soft tissue of hand	tumor	cancer	na	na
+B313.00	1	1	Malignant neoplasm of connective and soft tissue of thorax	tumor	cancer	na	na
+B313000	1	1	Malignant neoplasm of connective and soft tissue of axilla	tumor	cancer	na	na
+B313100	1	1	Malignant neoplasm of diaphragm	tumor	cancer	na	na
+B314.00	1	1	Malignant neoplasm of connective and soft tissue of abdomen	tumor	cancer	na	na
+B315100	1	1	Malig neop of connective and soft tissue of inguinal region	tumor	cancer	na	na
+B31y.00	1	1	Malig neop connective and soft tissue other specified site	tumor	cancer	na	na
+B321.00	1	1	Malignant melanoma of eyelid including canthus	tumor	cancer	na	na
+B322.00	1	1	Malignant melanoma of ear and external auricular canal	tumor	cancer	na	na
+B322100	1	1	Malignant melanoma of external auditory meatus	tumor	cancer	na	na
+B323.00	1	1	Malignant melanoma of other and unspecified parts of face	tumor	cancer	na	na
+B323000	1	1	Malignant melanoma of external surface of cheek	tumor	cancer	na	na
+B323100	1	1	Malignant melanoma of chin	tumor	cancer	na	na
+B323500	1	1	Malignant melanoma of temple	tumor	cancer	na	na
+B324100	1	1	Malignant melanoma of neck	tumor	cancer	na	na
+B325800	1	1	Malignant melanoma of chest wall	tumor	cancer	na	na
+B325z00	1	1	"Malignant melanoma of trunk, excluding scrotum, NOS"	tumor	cancer	na	na
+B326400	1	1	Malignant melanoma of finger	tumor	cancer	na	na
+B326z00	1	1	Malignant melanoma of upper limb or shoulder NOS	tumor	cancer	na	na
+B327900	1	1	Malignant melanoma of great toe	tumor	cancer	na	na
+B32y.00	1	1	Malignant melanoma of other specified skin site	tumor	cancer	na	na
+B33..15	1	1	Malignant neoplasm of sweat gland	tumor	cancer	na	na
+B331100	1	1	Malignant neoplasm of upper eyelid	tumor	cancer	na	na
+B332100	1	1	Malignant neoplasm of skin of external auditory meatus	tumor	cancer	na	na
+B333100	1	1	Malignant neoplasm of skin of chin	tumor	cancer	na	na
+B334.00	1	1	Malignant neoplasm of scalp and skin of neck	tumor	cancer	na	na
+B335.00	1	1	"Malignant neoplasm of skin of trunk, excluding scrotum"	tumor	cancer	na	na
+B335300	1	1	Malignant neoplasm of skin of abdominal wall	tumor	cancer	na	na
+B335500	1	1	Malignant neoplasm of skin of groin	tumor	cancer	na	na
+B335900	1	1	Malignant neoplasm of perianal skin	tumor	cancer	na	na
+B336.00	1	1	Malignant neoplasm of skin of upper limb and shoulder	tumor	cancer	na	na
+B336100	1	1	Malignant neoplasm of skin of upper arm	tumor	cancer	na	na
+B336z00	1	1	Malignant neoplasm of skin of upper limb or shoulder NOS	tumor	cancer	na	na
+B337500	1	1	Malignant neoplasm of skin of ankle	tumor	cancer	na	na
+B346.00	1	1	Malignant neoplasm of axillary tail of female breast	tumor	cancer	breast	breast
+B347.00	1	1	"Malignant neoplasm, overlapping lesion of breast"	tumor	cancer	breast	breast
+B35z.00	1	1	Malignant neoplasm of other site of male breast	tumor	cancer	breast	breast
+B411.00	1	1	Malignant neoplasm of exocervix	tumor	cancer	na	na
+B412.00	1	1	"Malignant neoplasm, overlapping lesion of cervix uteri"	tumor	cancer	na	na
+B41y000	1	1	Malignant neoplasm of cervical stump	tumor	cancer	na	na
+B420.00	1	1	Choriocarcinoma	tumor	cancer	na	na
+B430.00	1	1	"Malignant neoplasm of corpus uteri, excluding isthmus"	tumor	cancer	uterus	uterus
+B431000	1	1	Malignant neoplasm of lower uterine segment	tumor	cancer	uterus	uterus
+B431z00	1	1	Malignant neoplasm of isthmus of uterine body NOS	tumor	cancer	uterus	uterus
+B44y.00	1	1	Malignant neoplasm of other site of uterine adnexa	tumor	cancer	na	na
+B451000	1	1	Malignant neoplasm of greater vestibular (Bartholin's) gland	tumor	cancer	na	na
+B452.00	1	1	Malignant neoplasm of labia minora	tumor	cancer	na	na
+B454.11	1	1	Primary vulval cancer	tumor	cancer	na	na
+B45X.00	1	1	Malignant neoplasm/overlapping lesion/feml genital organs	tumor	cancer	na	na
+B470200	1	1	Seminoma of undescended testis	tumor	cancer	na	na
+B484.00	1	1	Malignant neoplasm of epididymis	tumor	cancer	na	na
+B486.00	1	1	Malignant neoplasm of scrotum	tumor	cancer	na	na
+B48yz00	1	1	Malignant neoplasm of other male genital organ NOS	tumor	cancer	na	na
+B49y000	1	1	"Malignant neoplasm, overlapping lesion of bladder"	tumor	cancer	bladder	bladder
+B500z00	1	1	Malignant neoplasm of eyeball NOS	tumor	cancer	na	na
+B504.00	1	1	Malignant neoplasm of cornea	tumor	cancer	na	na
+B507000	1	1	Malignant neoplasm of lacrimal sac	tumor	cancer	na	na
+B50y.00	1	1	Malignant neoplasm of other specified site of eye	tumor	cancer	na	na
+B510.00	1	1	Malignant neoplasm cerebrum (excluding lobes and ventricles)	tumor	cancer	na	na
+B510z00	1	1	Malignant neoplasm of cerebrum NOS	tumor	cancer	na	na
+B52..00	1	1	Malig neop of other and unspecified parts of nervous system	tumor	cancer	na	na
+B520000	1	1	Malignant neoplasm of olfactory bulb	tumor	cancer	na	na
+B520200	1	1	Malignant neoplasm of acoustic nerve	tumor	cancer	na	na
+B524200	1	1	"Malignant neoplasm of peripheral nerve of low limb, incl hip"	tumor	cancer	na	na
+B524500	1	1	Malignant neoplasm of peripheral nerve of pelvis	tumor	cancer	na	na
+B54..00	1	1	Malig neop of other endocrine glands and related structures	tumor	cancer	na	na
+B540z00	1	1	Malignant neoplasm of adrenal gland NOS	tumor	cancer	na	na
+B542.00	1	1	Malignant neoplasm pituitary gland and craniopharyngeal duct	tumor	cancer	na	na
+B545100	1	1	Malignant neoplasm of aortic body	tumor	cancer	na	na
+B54y.00	1	1	Malignant neoplasm of other specified endocrine gland	tumor	cancer	na	na
+B54z.00	1	1	Malig neop of endocrine gland or related structure NOS	tumor	cancer	na	na
+B551000	1	1	Malignant neoplasm of axilla NOS	tumor	cancer	na	na
+B551200	1	1	Malignant neoplasm of intrathoracic site NOS	tumor	cancer	na	na
+B551z00	1	1	Malignant neoplasm of thorax NOS	tumor	cancer	na	na
+B553000	1	1	Malignant neoplasm of inguinal region NOS	tumor	cancer	na	na
+B553z00	1	1	Malignant neoplasm of pelvis NOS	tumor	cancer	na	na
+B560000	1	1	Secondary and unspec malig neop of superficial parotid LN	tumor	cancer	na	na
+B560100	1	1	Secondary and unspec malignant neoplasm mastoid lymph nodes	tumor	cancer	na	na
+B560200	1	1	Secondary and unspec malig neop superficial cervical LN	tumor	cancer	na	na
+B560300	1	1	Secondary and unspec malignant neoplasm occipital lymph node	tumor	cancer	na	na
+B560900	1	1	Secondary and unspec malig neop deep cervical LN	tumor	cancer	na	na
+B560z00	1	1	Secondary unspec malig neop lymph nodes head/face/neck NOS	tumor	cancer	na	na
+B561.00	1	1	Secondary and unspec malig neop intrathoracic lymph nodes	tumor	cancer	na	na
+B561200	1	1	Secondary and unspec malig neop diaphragmatic lymph nodes	tumor	cancer	na	na
+B561300	1	1	Secondary and unspec malig neop ant mediastinal lymph nodes	tumor	cancer	na	na
+B561500	1	1	Secondary and unspec malig neop paratracheal lymph nodes	tumor	cancer	na	na
+B561800	1	1	Secondary and unspec malig neop bronchopulmonary lymph nodes	tumor	cancer	na	na
+B561z00	1	1	Secondary and unspec malig neop intrathoracic LN NOS	tumor	cancer	na	na
+B562100	1	1	Secondary and unspec malig neop superficial mesenteric LN	tumor	cancer	na	na
+B564000	1	1	Secondary and unspec malig neop superficial inguinal LN	tumor	cancer	na	na
+B564z00	1	1	Secondary and unspec malig neop of inguinal and leg LN NOS	tumor	cancer	na	na
+B57..12	1	1	Secondary carcinoma of respiratory and/or digestive systems	tumor	cancer	na	na
+B575100	1	1	Secondary malignant neoplasm of rectum	tumor	cancer	crc	rectum
+B575z00	1	1	Secondary malig neop of large intestine or rectum NOS	tumor	cancer	crc	rectum;colon
+B576z00	1	1	Secondary malig neop of retroperitoneum or peritoneum NOS	tumor	cancer	na	na
+B582000	1	1	Secondary malignant neoplasm of skin of head	tumor	cancer	na	na
+B582z00	1	1	Secondary malignant neoplasm of skin NOS	tumor	cancer	na	na
+B586.00	1	1	Secondary malignant neoplasm of ovary	tumor	cancer	na	na
+B58y200	1	1	Secondary malignant neoplasm of cervix uteri	tumor	cancer	na	na
+B601.00	1	1	Lymphosarcoma	tumor	cancer	na	na
+B613.00	1	1	"Hodgkin's disease, lymphocytic-histiocytic predominance"	tumor	cancer	blood	HODG
+B616700	1	1	"Hodgkin's disease, lymphocytic depletion of spleen"	tumor	cancer	blood	HODG
+B61z100	1	1	"Hodgkin's disease NOS of lymph nodes of head, face and neck"	tumor	cancer	blood	HODG
+B61z200	1	1	Hodgkin's disease NOS of intrathoracic lymph nodes	tumor	cancer	blood	HODG
+B61z800	1	1	Hodgkin's disease NOS of lymph nodes of multiple sites	tumor	cancer	blood	HODG
+B620100	1	1	"Nodular lymphoma of lymph nodes of head, face and neck"	tumor	cancer	blood	NHL
+B621z00	1	1	Mycosis fungoides NOS	tumor	cancer	blood	NHL
+B625.11	1	1	"Histiocytosis X (acute, progressive)"	tumor	cancer	blood	UNS
+B627.11	1	1	Non-Hodgkin lymphoma	tumor	cancer	blood	NHL
+B62x000	1	1	T-zone lymphoma	tumor	cancer	blood	NHL
+B62y200	1	1	Malignant lymphoma NOS of intrathoracic lymph nodes	tumor	cancer	blood	NHL
+B62y400	1	1	Malignant lymphoma NOS of lymph nodes of axilla and arm	tumor	cancer	blood	NHL
+B62y500	1	1	Malignant lymphoma NOS of lymph node inguinal region and leg	tumor	cancer	blood	NHL
+B62y600	1	1	Malignant lymphoma NOS of intrapelvic lymph nodes	tumor	cancer	blood	NHL
+B62y800	1	1	Malignant lymphoma NOS of lymph nodes of multiple sites	tumor	cancer	blood	NHL
+B62z.00	1	1	Malignant neoplasms of lymphoid and histiocytic tissue NOS	tumor	cancer	blood	NHL
+B62z100	1	1	Unspec malig neop lymphoid/histiocytic lymph node head/neck	tumor	cancer	blood	NHL
+B62z500	1	1	Unspec malig neop lymphoid/histiocytic nodes inguinal/leg	tumor	cancer	blood	NHL
+B64y200	1	1	Adult T-cell leukaemia	tumor	cancer	blood	LEU
+B64yz00	1	1	Other lymphoid leukaemia NOS	tumor	cancer	blood	LEU
+B651200	1	1	Chronic neutrophilic leukaemia	tumor	cancer	blood	LEU
+B651z00	1	1	Chronic myeloid leukaemia NOS	tumor	cancer	blood	CML
+B653.00	1	1	Myeloid sarcoma	tumor	cancer	na	na
+B65y.00	1	1	Other myeloid leukaemia	tumor	cancer	blood	LEU
+B65z.00	1	1	Myeloid leukaemia NOS	tumor	cancer	blood	LEU
+B67..00	1	1	Other specified leukaemia	tumor	cancer	blood	LEU
+B670.00	1	1	Acute erythraemia and erythroleukaemia	tumor	cancer	blood	LEU
+B67yz00	1	1	Other and unspecified leukaemia NOS	tumor	cancer	blood	LEU
+B67z.00	1	1	Other specified leukaemia NOS	tumor	cancer	blood	LEU
+B76B.00	1	1	Xanthogranuloma	medr_tumor;medr_benign	ignore	na	na
+B7J0111	1	1	Skin haemangioma	medr_tumor;medr_benign	ignore	na	na
+B8...13	1	1	Queyrats's erythroplasia	tumor	cancer	na	na
+B800000	1	1	Carcinoma in situ of lip	tumor	cancer	na	na
+B801z00	1	1	Carcinoma in situ of oesophagus NOS	tumor;oeso	cancer	oeso	oeso
+B802z00	1	1	Carcinoma in situ of stomach NOS	tumor;stom	cancer	stom	stom
+B804.00	1	1	Carcinoma in situ of rectum and rectosigmoid junction	tumor	cancer	crc	rectum;colon
+B805.00	1	1	Carcinoma in situ of anal canal	tumor	cancer	na	na
+B807100	1	1	Carcinoma in situ of jejunum	tumor	cancer	na	na
+B808.11	1	1	Carcinoma in situ of biliary system	tumor	cancer	na	na
+B808500	1	1	Carcinoma in situ of common bile duct	tumor	cancer	na	na
+B808z00	1	1	Carcinoma in situ of liver or biliary system NOS	tumor	cancer	liver	liver
+B81..00	1	1	Carcinoma in situ of respiratory system	tumor	cancer	na	na
+B810000	1	1	Carcinoma in situ of thyroid cartilage	tumor	cancer	na	na
+B810200	1	1	Carcinoma in situ of epiglottis	tumor	cancer	na	na
+B812400	1	1	Carcinoma in situ of lower lobe bronchus and lung	tumor;lung	cancer	lung	lung
+B81y000	1	1	Carcinoma in situ of pleura	tumor	cancer	na	na
+B81y600	1	1	Carcinoma in situ of maxillary sinus	tumor	cancer	na	na
+B81y700	1	1	Carcinoma in situ of ethmoidal sinus	tumor	cancer	na	na
+B820.00	1	1	Carcinoma in situ of skin of lip	tumor	cancer	na	na
+B821.00	1	1	Carcinoma in situ of skin of eyelid including canthus	tumor	cancer	na	na
+B822.00	1	1	Carcinoma in situ skin of ear and external auricular canal	tumor	cancer	na	na
+B822.11	1	1	Carcinoma in situ of ear	tumor	cancer	na	na
+B823.00	1	1	Carcinoma in situ of skin of other parts of face	tumor	cancer	na	na
+B825100	1	1	Carcinoma in situ of skin of chest wall NOS	tumor	cancer	na	na
+B825300	1	1	Carcinoma in situ of skin of back	tumor	cancer	na	na
+B826200	1	1	Carcinoma in situ of skin of lower arm	tumor	cancer	na	na
+B827100	1	1	Carcinoma in situ of skin of thigh	tumor	cancer	na	na
+B827200	1	1	Carcinoma in situ of skin of knee	tumor	cancer	na	na
+B828400	1	1	Melanoma in situ of trunk	tumor	cancer	na	na
+B83..00	1	1	Carcinoma in situ of breast and genitourinary system	tumor	cancer	na	na
+B831100	1	1	Carcinoma in situ of exocervix	tumor	cancer	na	na
+B833800	1	1	Vaginal intraepithelial neoplasia grade 2	tumor	cancer	na	na
+B836000	1	1	Carcinoma in situ of testis	tumor	cancer	na	na
+B8yy100	1	1	Carcinoma in situ of adrenal gland	tumor	cancer	na	na
+B8yy200	1	1	Carcinoma in situ of parathyroid gland	tumor	cancer	na	na
+B8yy300	1	1	Carcinoma in situ of pituitary gland	tumor	cancer	na	na
+B900200	1	1	Neoplasm of uncertain behaviour of submandibular gland	tumor;benign	ca_bg	na	na
+B901000	1	1	Neoplasm of uncertain behaviour of lip	tumor;benign	ca_bg	na	na
+B901400	1	1	Neoplasm of uncertain behaviour of floor of mouth	tumor;benign	ca_bg	na	na
+B902000	1	1	Neoplasm of uncertain behaviour of stomach	tumor;stom;benign	ca_bg	stom	stom
+B902200	1	1	Neoplasm of uncertain behaviour of jejunum	tumor;benign	ca_bg	na	na
+B906100	1	1	Neoplasm of uncertain behaviour of cricoid cartilage	tumor;benign	ca_bg	na	na
+B908100	1	1	Neoplasm of uncertain behaviour of thymus	tumor;benign	ca_bg	na	na
+B90z000	1	1	Neoplasm of uncertain behaviour of nasal cavity	tumor;benign	ca_bg	na	na
+B913000	1	1	Neoplasm of uncertain behaviour of vagina	tumor;benign	ca_bg	na	na
+B914.00	1	1	Neoplasm of uncertain behaviour of testis	tumor;benign	ca_bg	na	na
+B916200	1	1	Neoplasm of uncertain behaviour of scrotum	tumor;benign	ca_bg	na	na
+B91z.00	1	1	Neoplasm of uncertain behaviour of urinary organs OS/NOS	tumor;benign	ca_bg	na	na
+B923.00	1	1	Neoplasm of uncertain behaviour of paraganglia	tumor;benign	ca_bg	na	na
+B923000	1	1	Neoplasm of uncertain behaviour of carotid body	tumor;benign	ca_bg	na	na
+B924100	1	1	Neoplasm of uncertain behaviour of parathyroid gland	tumor;benign	ca_bg	na	na
+B925100	1	1	Neoplasm of uncertain behaviour of spinal cord	tumor;benign	ca_bg	na	na
+B925200	1	1	"Neoplasm of uncertain or unknown behav brain, supratentorial"	tumor;benign	ca_bg	na	na
+B926.00	1	1	Neoplasm of uncertain behaviour of meninges	tumor;benign	ca_bg	na	na
+B928.00	1	1	Neopl uncert/unkn behav of periph nerves & autonom nerv sys	tumor;benign	ca_bg	na	na
+B935.00	1	1	Neoplasm of uncertain behaviour of histiocytic and mast cell	tumor;benign	ca_bg	na	na
+B935.12	1	1	Mastocytoma NOS	tumor	cancer	blood	UNS	
+B936.00	1	1	Neoplasm of uncertain behaviour of plasma cells	tumor;benign	ca_bg	na	na
+B936.11	1	1	Myeloma - solitary	tumor	cancer	blood	MM
+B937.12	1	1	Idiopathic thrombocythaemia	tumor	cancer	blood	THR
+BA...00	1	1	Unspecified nature neoplasm	tumor;benign	ca_bg	na	na
+BA01.00	1	1	Neoplasm of unspecified nature of respiratory system	tumor;benign	ca_bg	na	na
+BA07.00	1	1	"Neop unspec nature of endocrine glands, other nervous system"	tumor;benign	ca_bg	na	na
+BA0y.00	1	1	Neoplasm of unspecified nature of other specified sites	tumor;benign	ca_bg	na	na
+BAz..00	1	1	Neoplasm of unspecified nature NOS	tumor;benign	ca_bg	na	na
+BB1B.00	1	1	[M]Giant cell and spindle cell carcinoma	tumor	morph	na	na
+BB1C.00	1	1	[M]Giant cell carcinoma	tumor	morph	na	na
+BB1z.00	1	1	[M]Unspecified epithelial neoplasm	tumor;benign	benign	na	na
+BB25.14	1	1	[M]Parakeratotic papilloma	tumor;benign	benign	na	na
+BB2D.00	1	1	"[M]Squamous cell carcinoma, large cell, non-keratinising"	tumor	morph	na	na
+BB2M.00	1	1	[M]Lymphoepithelial carcinoma	tumor	morph	na	na
+BB2N.00	1	1	"[M]Intraepit neop,grade III,of cervix, vulva and vagina"	tumor	cancer	na	na
+BB30.00	1	1	[M]Basal cell tumour	tumor	morph	na	na
+BB36.00	1	1	[M]Metatypical carcinoma	tumor	morph	na	na
+BB3B.11	1	1	[M]Malherbe's calcified epithelioma	tumor	cancer	na	na
+BB41.00	1	1	[M]Urothelial papilloma	tumor;benign	benign	na	na
+BB56.00	1	1	[M]Superficial spreading adenocarcinoma	tumor	morph	na	na
+BB5B000	1	1	[M]Islet cell adenoma	tumor	cancer	na	na
+BB5B400	1	1	[M]Glucagonoma NOS	tumor	cancer	na	na
+BB5D.11	1	1	[M]Biliary tract adenomas and adenocarcinomas	tumor	cancer	na	na
+BB5D200	1	1	[M]Bile duct cystadenoma	tumor	cancer	na	na
+BB5D411	1	1	[M]Hepatocellular adenoma	tumor	cancer	na	na
+BB5D800	1	1	"[M]Hepatocellular carcinoma, fibrolamellar"	tumor	cancer	liver	liver
+BB5L100	1	1	[M]Adenocarcinoma in adenomatous polyp	tumor	morph	na	na
+BB5L200	1	1	[M]Adenocarcinoma in situ in adenomatous polyp	tumor	morph	na	na
+BB5L300	1	1	[M]Adenocarcinoma in multiple adenomatous polyps	tumor	morph	na	na
+BB5M100	1	1	[M]Tubular adenocarcinoma	tumor	morph	na	na
+BB5Mz00	1	1	[M]Tubular adenoma or adenocarcinoma NOS	tumor	morph	na	na
+BB5Nz00	1	1	[M]Adenomatous or adenocarcinomatous polyps of the colon NOS	tumor;crc	cancer	crc	colon
+BB5R600	1	1	"[M]Mucocarcinoid tumour, malignant"	tumor	cancer	na	na
+BB5S.00	1	1	[M]Respiratory tract adenomas and adenocarcinomas	tumor	cancer	na	na
+BB5S000	1	1	[M]Pulmonary adenomatosis	tumor	cancer	na	na
+BB5Sz00	1	1	[M]Respiratory tract adenoma or adenocarcinoma NOS	tumor	cancer	na	na
+BB5X000	1	1	[M]Clear cell adenoma	tumor;benign	morph	na	na
+BB5c100	1	1	[M]Water-clear cell adenoma	tumor;benign	benign	na	na
+BB5e.00	1	1	[M]Lipoadenoma	tumor	morph	na	na
+BB5f100	1	1	[M]Follicular adenocarcinoma NOS	tumor	morph	na	na
+BB5h100	1	1	[M]Adrenal cortical carcinoma	tumor	cancer	na	na
+BB5hz00	1	1	[M]Adrenal cortical tumours NOS	tumor	cancer	na	na
+BB5j300	1	1	[M]Endometrioid adenofibroma NOS	tumor	cancer	na	na
+BB5y.00	1	1	[M]Adenoma and adenocarcinoms OS	tumor	morph	na	na
+BB60000	1	1	[M]Skin appendage adenoma	tumor;benign	benign	na	na
+BB61.00	1	1	[M]Sweat gland adenoma and adenocarcinomas	tumor	cancer	na	na
+BB63.11	1	1	[M]Clear cell hidradenoma	tumor	morph	na	na
+BB66.00	1	1	[M]Papillary hydradenoma	tumor	morph	na	na
+BB6A.00	1	1	[M]Ceruminous adenoma and adenocarcinoma	tumor	morph	na	na
+BB6B.00	1	1	[M]Eccrine papillary adenoma	tumor;benign	benign	na	na
+BB6z.00	1	1	[M]Adnexal and skin appendage neoplasm NOS	tumor	cancer	na	na
+BB71.00	1	1	[M]Mucoepidermoid carcinoma	tumor	morph	na	na
+BB80011	1	1	[M]Cystoma NOS	tumor	morph	na	na
+BB81.13	1	1	[M]Ovarian papillary tumour	tumor	cancer	ovary	ovary
+BB81200	1	1	"[M]Serous cystadenocarcinoma, NOS"	tumor	morph	na	na
+BB81E00	1	1	[M]Mucinous cystadenocarcinoma NOS	tumor	morph	na	na
+BB81H00	1	1	[M]Papillary mucinous cystadenocarcinoma	tumor	morph	na	na
+BB82113	1	1	[M]Mucoid adenocarcionoma	tumor	morph	na	na
+BB82114	1	1	[M]Mucous adenocarcinoma	tumor	morph	na	na
+BB82z00	1	1	[M]Mucinous adenoma or adenocarcinoma NOS	tumor	morph	na	na
+BB85z00	1	1	[M]Signet ring carcinoma NOS	tumor	cancer	na	na
+BB8z.00	1	1	"[M]Cystic, mucinous or serous neoplasm NOS"	tumor	morph	na	na
+BB91000	1	1	[M]Intraductal papillary adenocarcinoma with invasion	tumor	morph	na	na
+BB96.00	1	1	[M]Noninfiltrating intraductal papillary adenocarcinoma	tumor	morph	na	na
+BB9J.11	1	1	"[M]Paget's disease, breast"	tumor	cancer	na	na
+BB9K.00	1	1	[M]Paget's disease and infiltrating breast duct carcinoma	tumor	cancer	na	na
+BBEB.11	1	1	[M]Intraepidermal naevus	tumor	cancer	na	na
+BBEL.00	1	1	[M]Giant pigmented naevus	tumor	cancer	na	na
+BBEP.00	1	1	[M]Epithelioid cell melanoma	tumor	cancer	na	na
+BBJF.00	1	1	[M]Pleomorphic lipoma	tumor	morph	na	na
+BBK0013	1	1	[M]Leiomyofibroma	tumor	morph	na	na
+BBK0400	1	1	[M]Epithelioid leiomyosarcoma	tumor	morph	na	na
+BBK0500	1	1	[M]Cellular leiomyoma	tumor	morph	na	na
+BBK0600	1	1	[M]Bizarre leiomyoma	tumor	morph	na	na
+BBK0700	1	1	[M]Myxoid leiomyosarcoma	tumor	morph	na	na
+BBK0z00	1	1	[M]Leiomyomatous neoplasm NOS	tumor	morph	na	na
+BBK1z00	1	1	[M]Angiomyomatous neoplasm NOS	tumor	morph	na	na
+BBL3.12	1	1	[M]Mixed tumour NOS	tumor	morph	na	na
+BBL7200	1	1	[M]Epithelial nephroblastoma	tumor	cancer	na	na
+BBLE.00	1	1	[M]Adenosarcoma	tumor	morph	na	na
+BBLF.00	1	1	[M]Endometrial stromal nodule	tumor	cancer	na	na
+BBP5.00	1	1	"[M]Epithelioid mesothelioma, malignant"	tumor	morph	na	na
+BBQ1z00	1	1	[M]Seminoma NOS	tumor	morph	na	na
+BBQ3.00	1	1	[M]Embryonal carcinoma NOS	tumor	cancer	na	na
+BBQ4.00	1	1	[M]Endodermal sinus tumour	tumor	cancer	na	na
+BBQ7011	1	1	[M]Adult cystic teratoma	tumor	morph	na	na
+BBQA200	1	1	[M]Strumal carcinoid	tumor	morph	na	na
+BBQB.00	1	1	[M]Mixed germ cell tumour	tumor	cancer	na	na
+BBR..00	1	1	[M]Trophoblastic neoplasms	medr_tumor;medr_benign	ca_bg	na	na
+BBR0.11	1	1	[M]Hydatid mole	tumor	morph	na	na
+BBT..00	1	1	[M]Blood vessel tumours	tumor	cancer	na	na
+BBTC.00	1	1	[M]Verrucous keratotic haemangioma	tumor	cancer	na	na
+BBTG.00	1	1	[M]Epithelioid haemangioma	tumor	morph	na	na
+BBTL.00	1	1	[M]Intravascular bronchial alveolar tumour	tumor	cancer	na	na
+BBU6.00	1	1	[M]Lymphangiomyomatosis	tumor	cancer	na	na
+BBV1.11	1	1	[M]Osteoblastic sarcoma	tumor	cancer	na	na
+BBW0.11	1	1	[M]Cartilaginous exostosis	tumor	cancer	na	na
+BBWz.00	1	1	[M]Chondromatous neoplasm NOS	tumor	cancer	na	na
+BBX0.00	1	1	[M]Giant cell tumour of bone NOS	tumor	cancer	na	na
+BBX2.00	1	1	[M]Giant cell tumour of soft parts NOS	tumor	cancer	na	na
+BBX3.00	1	1	[M]Malignant giant cell tumour of soft parts	tumor	cancer	na	na
+BBY0.00	1	1	[M]Ewing's sarcoma	tumor	cancer	na	na
+BBZ1.00	1	1	[M]Odontogenic tumour NOS	tumor	cancer	na	na
+BBZ4.00	1	1	[M]Cementoma NOS	tumor	cancer	na	na
+BBZB.00	1	1	[M]Ameloblastic fibro-odontoma	tumor	cancer	na	na
+BBZE.00	1	1	[M]Calcifying odontogenic cyst	tumor	cancer	na	na
+BBZN.11	1	1	[M]Odontogenic fibrosarcoma	tumor	cancer	na	na
+BBa0.11	1	1	[M]Rathke's pouch tumour	tumor	cancer	na	na
+BBa4.00	1	1	[M]Melanotic neuroectodermal tumour	tumor	cancer	na	na
+BBb1.00	1	1	[M]Gliomatosis cerebri	tumor	morph	na	na
+BBbE.00	1	1	[M]Gemistocytic astrocytoma	tumor	cancer	na	na
+BBbM.00	1	1	[M]Giant cell glioblastoma	tumor	cancer	na	na
+BBbV.00	1	1	[M]Medullomyoblastoma	tumor	cancer	na	na
+BBc0000	1	1	[M]Ganglioneuroma	tumor	cancer	na	na
+BBc0200	1	1	[M]Ganglioneuromatosis	tumor	cancer	na	na
+BBc7.11	1	1	[M]Neuroastrocytoma	tumor	cancer	na	na
+BBd7.00	1	1	[M]Haemangioblastic meningioma	tumor	morph	na	na
+BBd9.00	1	1	[M]Transitional meningioma	tumor	morph	na	na
+BBe3.00	1	1	[M]Melanotic neurofibroma	tumor	cancer	na	na
+BBf..00	1	1	[M]Granular cell tumours and alveolar soft part sarcoma	tumor	cancer	na	na
+BBg8.00	1	1	"[M]Malignant lymphoma, immunoblastic type"	tumor	cancer	blood	NHL
+BBgB.00	1	1	"[M]Malignant lymphoma, follicular centre cell NOS"	tumor	cancer	blood	NHL
+BBgG.12	1	1	[M]Lymphoblastic lymphoma NOS	tumor	cancer	blood	NHL
+BBgL.00	1	1	"[M]Malignant lymphoma, small lymphocytic NOS"	tumor	cancer	blood	NHL
+BBgP.00	1	1	"[M]Malignant lymphoma, mixed small and large cell, diffuse"	tumor	cancer	blood	NHL
+BBgV.00	1	1	"[M]Malignant lymphoma, small cell, noncleaved, diffuse"	tumor	cancer	blood	NHL
+BBj0.11	1	1	"[M]Lymphogranuloma, malignant"	tumor	cancer	na	na
+BBj6.00	1	1	"[M]Hodgkin's disease, nodular sclerosis NOS"	tumor	cancer	blood	HODG
+BBn2.00	1	1	[M]Plasmacytoma NOS	tumor	cancer	na	na
+BBnz.00	1	1	[M]Plasma cell tumour NOS	tumor	cancer	blood	MM
+BBr2011	1	1	[M]Lymphatic leukaemia	tumor	cancer	blood	LEU
+BBr6011	1	1	[M]Granulocytic leukaemia NOS	tumor	cancer	blood	LEU
+BBr6100	1	1	[M]Acute myeloid leukaemia	tumor	cancer	blood	AML
+BBr6300	1	1	[M]Chronic myeloid leukaemia	tumor	cancer	blood	CML
+BBrA400	1	1	[M]Hairy cell leukaemia	tumor	cancer	blood	HCL
+BBrA500	1	1	[M]Acute megakaryoblastic leukaemia	tumor	cancer	blood	LEU
+Byu1200	1	1	"[X]Malignant neoplasm of intestinal tract, part unspecified"	tumor	cancer	na	na
+Byu2400	1	1	[X]Malignant neoplasm/ill-defined sites within resp system	tumor	cancer	na	na
+Byu4300	1	1	"[X]Malignant neoplasm of skin, unspecified"	tumor	cancer	na	na
+Byu5300	1	1	"[X]Kaposi's sarcoma, unspecified"	tumor	cancer	na	na
+Byu5800	1	1	"[X]Mal neoplasm/connective+soft tissue of trunk,unspecified"	tumor	cancer	na	na
+Byu7000	1	1	"[X]Malignant neoplasm of uterine adnexa, unspecified"	tumor	cancer	na	na
+Byu7300	1	1	"[X]Malignant neoplasm of female genital organ, unspecified"	tumor	cancer	na	na
+Byu8000	1	1	[X]Malignant neoplasm/other specified male genital organs	tumor	cancer	na	na
+Byu8200	1	1	"[X]Malignant neoplasm of male genital organ, unspecified"	tumor	cancer	na	na
+ByuA000	1	1	[X]Malignant neoplasm/other and unspecified cranial nerves	tumor	cancer	na	na
+ByuC100	1	1	[X]Malignant neoplasm/overlap lesion/other+ill-defined sites	tumor	cancer	na	na
+ByuD100	1	1	[X]Other types of follicular non-Hodgkin's lymphoma	tumor	cancer	blood	NHL
+ByuD300	1	1	[X]Other specified types of non-Hodgkin's lymphoma	tumor	cancer	blood	NHL
+ByuD800	1	1	[X]Other specified leukaemias	tumor	cancer	na	na
+ByuE000	1	1	[X]Malignant neoplasms/independent(primary)multiple sites	tumor	cancer	na	na
+ByuFA00	1	1	[X]Carcinoma in situ of other parts of cervix	tumor	cancer	na	na
+ByuFG00	1	1	[X]Other carcinoma in situ of breast	tumor	cancer	breast	breast
+ByuHD00	1	1	"[X]Myelodysplastic syndrome, unspecified"	tumor	cancer	blood	MDS
+B565.00	1	1	Secondary and unspec malig neop intrapelvic lymph nodes	medr_tumor;tumor	cancer	na	na
+BBEb.00	1	1	[M] Epithelioid cell naevus	medr_tumor;tumor;medr_benign	benign	na	na
+BBc1.00	1	1	[M]Neuroblastoma NOS	medr_tumor;tumor;medr_benign	cancer	na	na
+8BAV.00	0	0	Cancer care review	rev	anc	na	na
+9Ow1.00	0	0	Bowel cancer detected by national screening programme	tumor;crc	cancer	crc	colon
+B100.00	0	0	Malignant neoplasm of cervical oesophagus	tumor;oeso	cancer	oeso	oeso
+B106.00	0	0	"Malignant neoplasm, overlapping lesion of oesophagus"	tumor;oeso	cancer	oeso	oeso
+B10z.11	0	0	Oesophageal cancer	tumor;oeso	cancer	oeso	oeso
+B11..00	0	0	Malignant neoplasm of stomach	tumor;stom	cancer	stom	stom
+B11..11	0	0	Gastric neoplasm	tumor;stom;benign	ca_bg	stom	stom
+B110000	0	0	Malignant neoplasm of cardiac orifice of stomach	tumor;stom	cancer	stom	stom
+B117.00	0	0	"Malignant neoplasm, overlapping lesion of stomach"	tumor;stom	cancer	stom	stom
+B11y000	0	0	Malignant neoplasm of anterior wall of stomach NEC	tumor;stom	cancer	stom	stom
+B11y100	0	0	Malignant neoplasm of posterior wall of stomach NEC	tumor;stom	cancer	stom	stom
+B11yz00	0	0	Malignant neoplasm of other specified site of stomach NOS	tumor;stom	cancer	stom	stom
+B13..00	0	0	Malignant neoplasm of colon	tumor;crc	cancer	crc	colon
+B133.00	0	0	Malignant neoplasm of sigmoid colon	tumor;crc	cancer	crc	colon
+B134.00	0	0	Malignant neoplasm of caecum	tumor;crc	cancer	crc	colon
+B138.00	0	0	"Malignant neoplasm, overlapping lesion of colon"	tumor;crc	cancer	crc	colon
+B13z.11	0	0	Colonic cancer	tumor;crc	cancer	crc	colon
+B141.12	0	0	Recatal carcinoma		cancer	crc	rectum
+B150100	0	0	Hepatoblastoma of liver	tumor;liver	cancer	liver	liver
+B150200	0	0	Primary angiosarcoma of liver	tumor;liver	cancer	liver	liver
+B151000	0	0	Malignant neoplasm of interlobular bile ducts	tumor;liver	cancer	liver	liver
+B151100	0	0	Malignant neoplasm of interlobular biliary canals	tumor;liver	cancer	liver	liver
+B151200	0	0	Malignant neoplasm of intrahepatic biliary passages	tumor;liver	cancer	liver	liver
+B151300	0	0	Malignant neoplasm of intrahepatic canaliculi	tumor;liver	cancer	liver	liver
+B151400	0	0	Malignant neoplasm of intrahepatic gall duct	tumor;liver	cancer	liver	liver
+B1z0.11	0	0	Cancer of bowel	tumor;crc	cancer	crc	colon
+B224100	0	0	Malignant neoplasm of lower lobe of lung	tumor;lung	cancer	lung	lung
+B22z.00	0	0	Malignant neoplasm of bronchus or lung NOS	tumor;lung	cancer	lung	lung
+B22z.11	0	0	Lung cancer	tumor;lung	cancer	lung	lung
+B577000	0	0	Secondary malignant neoplasm of liver intrahepatic bile duct	tumor;liver	cancer	liver	meta
+B715400	0	0	Benign neoplasm of hepatic duct	tumor;liver;benign	ignore	na	na
+B801000	0	0	Carcinoma in situ of upper 1/3 oesophagus	tumor;oeso	cancer	oeso	oeso
+B801100	0	0	Carcinoma in situ of middle 1/3 oesophagus	tumor;oeso	cancer	oeso	oeso
+B802100	0	0	Carcinoma in situ of fundus of stomach	tumor;stom	cancer	stom	stom
+B802200	0	0	Carcinoma in situ of body of stomach	tumor;stom	cancer	stom	stom
+B802300	0	0	Carcinoma in situ of pyloric antrum	tumor;stom	cancer	stom	stom
+B802400	0	0	Carcinoma in situ of pyloric canal	tumor;stom	cancer	stom	stom
+B803.00	0	0	Carcinoma in situ of colon	tumor;crc	cancer	crc	colon
+B803200	0	0	Carcinoma in situ of descending colon	tumor;crc	cancer	crc	colon
+B808200	0	0	Carcinoma in situ of hepatic duct	tumor;liver	cancer	liver	liver
+B812.00	0	0	Carcinoma in situ of bronchus and lung	tumor;lung	cancer	lung	lung
+B812000	0	0	Carcinoma in situ of carina of bronchus	tumor;lung	cancer	lung	lung
+B812300	0	0	Carcinoma in situ of middle lobe bronchus and lung	tumor;lung	cancer	lung	lung
+B902.00	0	0	"Neop of uncertain behaviour stomach, intestines and rectum"	tumor;stom;benign	ca_bg	stom	stom
+B902z00	0	0	"Neop of uncertain behaviour stomach, intestine or rectum NOS"	tumor;stom;benign	ca_bg	stom	stom
+B903200	0	0	Neoplasm of uncertain behaviour of hepatic duct	tumor;liver	benign	na	na
+B907.00	0	0	"Neoplasm of uncertain behaviour trachea, bronchus and lung"	tumor;lung;benign	ca_bg	lung	lung
+B907z00	0	0	"Neop of uncertain behaviour of trachea, bronchus or lung NOS"	tumor;lung;benign	ca_bg	lung	lung
+BB5C.00	0	0	[M]Gastrinoma and carcinomas	tumor;stom	cancer	stom	stom
+BB5C100	0	0	"[M]Gastrinoma, malignant"	tumor;stom	cancer	stom	stom
+BB5Cz00	0	0	[M]Gastrinoma or carcinoma NOS	tumor;stom	cancer	stom	stom
+ZV10016	0	0	[V]Personal history of malignant neoplasm of oesophagus	tumor;oeso	cancer	oeso	oeso
+ZV10018	0	0	[V]Personal history of malignant neoplasm of stomach	tumor;stom	cancer	stom	stom

@@ -1,0 +1,246 @@
+import os
+import re
+import pandas as pd
+import numpy as np
+import traceback
+from Configuration import Configuration
+from const_and_utils import read_fwf, write_tsv, eprint, fixOS, read_tsv, is_nan
+
+special_sigs = ['ALCOHOL', 'SMOKING', 'BP']
+alcohol_status_map = pd.Series({"N": 0, "D": 0, "Y": 1})
+smoke_status_map = pd.Series({"N": 0, "D": 1, "Y": 2})
+
+
+def describe_dict(sr, sig):
+    desc_dict = sr.describe().to_dict()
+    desc_dict['signal'] = sig
+    return desc_dict
+
+
+def get_cols(df_cols):
+    cols = ['medialid', 'sig', 'eventdate']
+    val_cols = [x for x in df_cols if 'value' in x]
+    cols = cols + val_cols
+    if 'filename' in df_cols:
+        cols = cols + ['filename']
+    if 'unit' in df_cols:
+        cols = cols + ['unit']
+    return cols
+
+
+def read_for_signal_map(map_dict, source_files, source_path):
+    ahdcode = '' if is_nan(map_dict['ahdcode']) else str(int(map_dict['ahdcode']))
+    readcode = '' if is_nan(map_dict['readcode']) else map_dict['readcode']
+    regex = map_dict['regex']
+    value_field = map_dict['value_field']
+    val_cols = []
+    if is_nan(regex):
+        files = [s for s in source_files if readcode in s and ahdcode in s]
+    else:
+        assert(ahdcode == '' and readcode == '')
+        files = [s for s in source_files if bool(re.search(regex, s)) and ahdcode in s]
+    #sig_map_df = pd.DataFrame()
+    stat_dict = {'signal': map_dict['signal'], 'files': len(files),
+                 'map': readcode + '-' + ahdcode + '_ ' + str(value_field)}
+    print('Files ' + str(len(files)))
+    df_list = []
+    cnt=0
+    if len(files) == 0:
+        print("ERROR IN MAPPING FOR SIGANL " + map_dict['signal'])
+        return pd.DataFrame(), None
+    for file in files:
+        cnt += 1
+        print(str(cnt) + ')  reading file ' + file)
+        if map_dict['source_file'] == 'ahd':
+            one_df = read_tsv(file, source_path,
+                              names=['medialid', 'eventdate', 'data1', 'data2', 'data3', 'data4', 'data5', 'data6', 'filename'],
+                              header=None)
+        elif map_dict['source_file'] == 'medical':
+            one_df = read_tsv(file, source_path,
+                              names=['medialid', 'eventdate', 'medcode', 'nhsspec', 'source'],
+                              header=0)
+            one_df['filename'] = file
+            one_df.rename(columns={'medcode': 'value1'}, inplace=True)
+            val_cols = ['value1']
+        df_list.extend(one_df.to_dict(orient='recoreds'))
+
+        #sig_map_df = sig_map_df.append(one_df, ignore_index=True)
+        #sig_map_df = pd.concat([sig_map_df, one_df], ignore_index=True, copy=False)
+    print('concating....')
+    #sig_map_df = pd.concat(df_list, ignore_index=True,  copy=False)
+    sig_map_df = pd.DataFrame(df_list)
+    print('Done concating')
+    sig_map_df['sig'] = map_dict['signal']
+    if not is_nan(value_field):
+        dict1 = {value_field[i].strip(): 'value'+str(i+1) for i in range(len(value_field))}
+        sig_map_df.rename(columns=dict1, inplace=1)
+    elif not is_nan(map_dict['value1']) and not is_nan(map_dict['value2']):
+        sig_map_df['value1'] = map_dict['value1']
+        sig_map_df['value2'] = map_dict['value2']
+        val_cols = ['value1', 'value2']
+    elif map_dict['source_file'] == 'ahd':
+        sig_map_df['filename_list'] = sig_map_df['filename'].str.split('-')
+        sig_map_df['value1'] = sig_map_df['filename_list'].apply(lambda x: x[0])
+        val_cols = ['value1']
+
+    if map_dict['signal'] == 'ALCOHOL':
+        sig_map_df['value1'] = sig_map_df['value1'].map(alcohol_status_map)
+    elif map_dict['signal'] == 'SMOKING':
+        sig_map_df['value1'] = sig_map_df['value1'].map(smoke_status_map)
+
+    if not is_nan(value_field):
+        for i in range(1, len(value_field)+1):
+            val = 'value'+str(i)
+            val_cols.append(val)
+            if map_dict['type'] == 'numeric':
+                sig_map_df[val] = pd.to_numeric(sig_map_df[val], errors='coerce')
+        if map_dict['type'] == 'numeric':
+            stat_dict['null_values'] = sig_map_df[sig_map_df[val_cols].isnull().all(axis=1)].shape[0]
+            sig_map_df = sig_map_df[~sig_map_df[val_cols].isnull().all(axis=1)]
+        elif map_dict['type'] == 'string':
+            for v in val_cols:
+                sig_map_df[v].fillna('EMPTY_THIN_FIELD', inplace=True)
+
+    stat_dict['date_before_1900'] = sig_map_df[sig_map_df['eventdate'] < 19000101].shape[0]
+    sig_map_df = sig_map_df[sig_map_df['eventdate'] >= 1900010]
+
+    if map_dict['signal'] == 'BP':
+        sig_map_df['value1'] = sig_map_df['value1'].where(sig_map_df['value1'].notnull(), -1).astype(int)
+        sig_map_df['value2'] = sig_map_df['value2'].where(sig_map_df['value2'].notnull(), -2).astype(int)
+
+    if is_nan(map_dict['unitcode_field']):
+        sig_map_df['unitcode'] = 'MEA000'
+    else:
+        sig_map_df.rename(columns={map_dict['unitcode_field']: 'unitcode'}, inplace=1)
+        sig_map_df['unitcode'].fillna('MEA000', inplace=True)
+        sig_map_df['unitcode'] = sig_map_df['unitcode'].replace('<None>', 'MEA000')
+
+    cols = ['medialid', 'sig', 'eventdate'] + val_cols + ['unitcode', 'filename']
+    stat_dict['save_count'] = sig_map_df.shape[0]
+    return sig_map_df[cols], stat_dict
+
+
+def unit_convert(sig, signal_df, rnd, thin_unit_convert, ahd_lookup):
+    try:
+        signal_df['unit'] = signal_df['unitcode'].map(ahd_lookup)
+        # special cases
+        if sig == 'Cholesterol_over_HDL':
+            signal_df['unit'] = signal_df['unit'].where(~((signal_df['unit'] == '%') & (signal_df['value'] < 10)),
+                                                        'ratio')
+        signal_df = pd.merge(signal_df, thin_unit_convert, how='left', left_on=['sig', 'unit'], right_on=['signal', 'unit'])
+        signal_df = signal_df[(signal_df['mult'].notnull()) | (signal_df['add'].notnull())]
+        signal_df['mult'].fillna(1, inplace=True)
+        signal_df['add'] = signal_df['add'].astype(float).fillna(0)
+        signal_df['mult_float'] = pd.to_numeric(signal_df['mult'], errors='coerce')
+        val_cols = [x for x in signal_df.columns if 'value' in x]
+        for val in val_cols:
+            orig_val = 'orig_val' + val[-1]
+            signal_df.rename(columns={val: orig_val}, inplace=True)
+            signal_df[val] = signal_df[orig_val] * signal_df['mult_float'] + signal_df['add']
+            if 'Formula1' in signal_df['mult'].values:
+                signal_df[val] = signal_df[val].where(
+                    signal_df['mult'].str.contains('Formula1') == False, 100 / signal_df[orig_val])
+            signal_df[val] = signal_df[val].round(rnd)
+    except BaseException:
+        eprint('Error In unit conversion for signal %s' % sig)
+        traceback.print_exc()
+        raise
+    return signal_df
+
+
+def code_files_to_signals():
+    cfg = Configuration()
+    raw_path = fixOS(cfg.doc_source_path)
+    out_folder = fixOS(cfg.work_path)
+    code_folder = fixOS(cfg.code_folder)
+    ahd_path = os.path.join(out_folder, 'ahd_files')
+    medical_path = os.path.join(out_folder, 'medical_files')
+    print(code_folder)
+    if not (os.path.exists(raw_path)):
+        raise NameError('config error - doc_apth don''t exists')
+    if not (os.path.exists(out_folder)):
+        raise NameError('config error - out_path don''t exists')
+    if not (os.path.exists(code_folder)):
+        raise NameError('config error - code_folder don''t exists')
+    if not (os.path.exists(ahd_path)):
+        raise NameError('config error - Numeric don''t exists')
+
+    final_path = os.path.join(out_folder, 'FinalSignals2')
+    # final_path ='C:\\\Temp\\\Labs\\'
+    existing_files = os.listdir(final_path)
+    ahd_staging_files = os.listdir(ahd_path)
+    med_staging_files = os.listdir(medical_path)
+
+    thin_map = read_tsv('thin_signal_mapping.csv', code_folder, header=0)
+    # convert all value_field to lists (even for length of one) for simpler code
+    thin_map = thin_map[(thin_map['source_file'] == 'ahd') | (thin_map['source_file'] == 'medical')]
+    thin_map['value_field'] = thin_map['value_field'].apply(lambda x: x if is_nan(x) else x.strip("][").replace("'", '').split(','))
+    #thin_map = thin_map[(thin_map['readcode'].notnull()) & (thin_map['ahdcode'].isnull())]
+    ahd_lookup_df = read_fwf('AHDlookups', raw_path)
+    units_map = ahd_lookup_df[ahd_lookup_df['datadesc'] == 'MEASURE_UNIT']
+    units_map = units_map.set_index('lookup')['lookupdesc']
+    if os.name =='nt':
+        know_fld = os.path.join(code_folder, '..\\common_knowledge')
+    else:
+        know_fld = os.path.join(code_folder, '../common_knowledge')
+    unit_mult = read_tsv('unitTranslator.txt', code_folder, names=['signal', 'unit', 'mult', 'add'])
+    unit_know = read_tsv('signal_units.txt', know_fld, names=['Name', 'FinalUnit', 'Round'], header=0)
+
+    ahd_lookup_df['lookupdesc'] = ahd_lookup_df['lookupdesc'].str.replace(' ', '_')
+    ahd_lookup_df['lookupdesc'] = ahd_lookup_df['dataname'] + ':' + ahd_lookup_df['lookup']
+    ahd_lookup_map = ahd_lookup_df[['lookup', 'lookupdesc']].drop_duplicates(subset='lookup').set_index('lookup')[
+        'lookupdesc']
+
+    signals = thin_map['signal'].unique()
+    #signals = ['RC_Admin', 'RC_Demographic', 'RC_Diagnosis', 'RC_Diagnostic_Procedures', 'RC_History', 'RC_Injuries', 'RC_Procedures', 'RC_Radiology']
+    signals = ['Na']
+    signal_counts = pd.DataFrame()
+    missing_units = []
+    for sig in signals:
+        if sig in existing_files:
+            print('signal ' + sig + ' already loaded')
+            continue
+
+        signal_df = pd.DataFrame()
+        sig_maps = thin_map[thin_map['signal'] == sig]
+        sig_type = sig_maps['type'].unique()
+        assert(len(sig_type) == 1)
+        sig_type = sig_type[0]
+        print(' reading files for signal ' + sig)
+        try:
+            for _, smap in sig_maps.iterrows():
+                if smap['source_file'] == 'ahd':
+                    staging_files = ahd_staging_files
+                    path = ahd_path
+                else:
+                    staging_files = med_staging_files
+                    path = medical_path
+                sig_df, stat_dict = read_for_signal_map(smap, staging_files, path)
+                if sig_df.shape[0] == 0:
+                    continue
+                signal_df = signal_df.append(sig_df, ignore_index=True)
+                signal_counts = signal_counts.append(stat_dict, ignore_index=True)
+        except BaseException:
+            eprint('Error In unit conversion for signal %s' % sig)
+            traceback.print_exc()
+            raise
+        # units conversions
+        if sig_type == 'numeric':
+            if sig not in unit_know['Name'].values:
+                missing_units.append(sig)
+            else:
+                rnd = int(unit_know[unit_know['Name'] == sig].iloc[0]['Round'])
+                signal_df = unit_convert(sig, signal_df, rnd, unit_mult, units_map)
+        elif sig_type == 'string':
+            signal_df['value_map'] = signal_df['value1'].map(ahd_lookup_map)
+            signal_df['value1'] = signal_df['value_map'].where(signal_df['value_map'].notnull(), signal_df['value1'])
+
+        cols = get_cols(signal_df.columns)
+        print('  going to sort and save signal ' + sig)
+        signal_df.sort_values(by=['medialid', 'eventdate'], inplace=True)
+        write_tsv(signal_df[cols], final_path, sig)
+    write_tsv(signal_counts, out_folder, 'labs_counts.csv', headers=True)
+
+
+if __name__ == '__main__':
+    code_files_to_signals()

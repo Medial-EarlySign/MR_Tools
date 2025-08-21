@@ -1,0 +1,258 @@
+50801	AADO2 BLOOD BLOOD GAS 19991-9 Oxygen.alveolar - arterial [Partial pressure] Respiratory system	VALUE	BG_AADO2
+50802	BASE XS BLOOD BLOOD GAS 11555-0 Base excess in Blood	VALUE	BG_Base_Excess
+50805	CARBOXYHB BLOOD BLOOD GAS 20563-3 Carboxyhemoglobin/Hemoglobin.total in Blood	VALUE	LAB_Carboxyhemoglobin_Over_Hemoglobin
+50806	CL- BLOOD BLOOD GAS 2069-3 Chloride [Moles/volume] in Blood	VALUE	BG_Chloride
+50809	GLUCOSE BLOOD BLOOD GAS 2339-0 Glucose [Mass/volume] in Blood	VALUE	BG_Glucose
+50811	HGB BLOOD BLOOD GAS 718-7 Hemoglobin [Mass/volume] in Blood	VALUE	BG_Hemoglobin
+50812	INTUBATED BLOOD BLOOD GAS	TEXT	BG_Intubated
+50822	K+ BLOOD BLOOD GAS 6298-4 Potassium [Moles/volume] in Blood	VALUE	BG_Potassium
+50813	LACTATE BLOOD BLOOD GAS 32693-4 Lactate [Moles/volume] in Blood	VALUE	BG_Lactate
+50814	MET HGB BLOOD BLOOD GAS 2614-6 Methemoglobin/Hemoglobin.total in Blood	VALUE	LAB_Methemoglobin_Over_Hemoglobin
+50824	NA+ BLOOD BLOOD GAS 2947-0 Sodium [Moles/volume] in Blood	VALUE	BG_Sodium
+50816	O2 BLOOD BLOOD GAS 19994-3 Oxygen/Inspired gas setting [Volume Fraction] Ventilator	VALUE	BG_Oxygen_Over_InspiredGas
+50815	O2 FLOW BLOOD BLOOD GAS 3151-8 Inhaled oxygen flow rate	VALUE	BG_O2_Flow
+50817	O2 SAT BLOOD BLOOD GAS 20564-1 Oxygen saturation in Blood	VALUE	BG_SaO2
+50818	PCO2 BLOOD BLOOD GAS 11557-6 Carbon dioxide [Partial pressure] in Blood	VALUE	BG_PCO2
+50819	PEEP BLOOD BLOOD GAS 20077-4 Positive end expiratory pressure setting Ventilator	VALUE	LAB_PEEP_Set
+50820	PH BLOOD BLOOD GAS 11558-4 pH of Blood	VALUE	BG_PH
+50821	PO2 BLOOD BLOOD GAS 11556-8 Oxygen [Partial pressure] in Blood	VALUE	BG_PO2
+50823	REQ O2 BLOOD BLOOD GAS	VALUE	BG_Req_O2
+50803	TCO2 BLOOD BLOOD GAS 1959-6 Bicarbonate [Moles/volume] in Blood	VALUE	BG_BiCarbonate
+50825	TEMP BLOOD BLOOD GAS	VALUE	BG_Temperature
+50826	TIDAL VOL BLOOD BLOOD GAS 20112-9 Tidal volume setting Ventilator	VALUE	BG_Tidal_Volume
+50804	TOTAL CO2 BLOOD BLOOD GAS 1959-6 Bicarbonate [Moles/volume] in Blood	VALUE	BG_BiCarbonate
+50800	TYPE BLOOD BLOOD GAS	TEXT	BG_Blood_Gas_Type
+50828	VENT BLOOD BLOOD GAS	TEXT	BG_Vent
+50810	calcHCT BLOOD BLOOD GAS 20570-8 Hematocrit [Volume Fraction] of Blood	VALUE	BG_Hematocrit
+50808	freeCa BLOOD BLOOD GAS 1994-3 Calcium.ionized [Moles/volume] in Blood	VALUE	BG_freeCalcium
+50852	%HbA1c BLOOD CHEMISTRY 4548-4 Hemoglobin A1c (glycated HgB)/Hemoglobin.total [Moles] in Blood	VALUE	LAB_HbA1C
+50856	ACETMNPHN BLOOD CHEMISTRY 3298-7 Acetaminophen [Mass/volume] in Serum or Plasma	VALUE	LAB_Acetaminophen
+50857	ACETONE BLOOD CHEMISTRY 5567-3 Acetone [Presence] in Serum or Plasma	TEXT	LAB_Acetone
+50862	ALBUMIN BLOOD CHEMISTRY 1751-7 Albumin [Mass/volume] in Serum or Plasma	VALUE	LAB_Albumin
+50863	ALK PHOS BLOOD CHEMISTRY 1783-0 Alkaline phosphatase [Enzymatic activity/volume] in Blood	VALUE	LAB_ALK
+50861	ALT(SGPT) BLOOD CHEMISTRY 1742-6 Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma	VALUE	LAB_ALT
+50866	AMMONIA BLOOD CHEMISTRY 16362-6 Ammonia [Moles/volume] in Plasma	VALUE	LAB_Ammonia
+50867	AMYLASE BLOOD CHEMISTRY 1798-8 Amylase [Enzymatic activity/volume] in Serum or Plasma	VALUE	LAB_Amylase
+50873	ANA BLOOD CHEMISTRY 8061-4 Nuclear Ab [Presence] in Serum	TEXT	LAB_NuclearAb
+50868	ANION GAP BLOOD CHEMISTRY 41276-7 Anion gap in Blood	VALUE	LAB_Anion_Gap
+50878	AST(SGOT) BLOOD CHEMISTRY 1920-8 Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma	VALUE	LAB_AST
+50893	CALCIUM BLOOD CHEMISTRY 17861-6 Calcium [Mass/volume] in Serum or Plasma	VALUE	LAB_Calcium
+50902	CHLORIDE BLOOD CHEMISTRY 2069-3 Chloride [Moles/volume] in Blood	VALUE	LAB_Chloride
+50907	CHOLEST BLOOD CHEMISTRY 2093-3 Cholesterol [Mass/volume] in Serum or Plasma	VALUE	LAB_Cholesterol
+50910	CK(CPK) BLOOD CHEMISTRY 2157-6 Creatine kinase [Enzymatic activity/volume] in Serum or Plasma	VALUE	LAB_Creatinine_Kinase
+50911	CK-MB BLOOD CHEMISTRY 49551-5 Creatine kinase.MB [Mass/volume] in Blood	VALUE	LAB_Creatinine_Kinase_MB
+50909	CORTISOL BLOOD CHEMISTRY 2143-6 Cortisol [Mass/volume] in Serum or Plasma	VALUE	LAB_Cortisol
+50912	CREAT BLOOD CHEMISTRY 2160-0 Creatinine [Mass/volume] in Serum or Plasma	VALUE	LAB_Creatinine
+50889	CRP BLOOD CHEMISTRY	VALUE	LAB_CRP
+50914	CYCLSPRN BLOOD CHEMISTRY 3520-4 Cyclosporine [Mass/volume] in Blood	VALUE	LAB_Cyclosporine
+50917	DIGOXIN BLOOD CHEMISTRY 10535-3 Digoxin [Mass/volume] in Serum or Plasma	VALUE	LAB_Digoxin
+50883	DIR BILI BLOOD CHEMISTRY 1968-7 Direct bilirubin [Mass/volume] in Serum or Plasma	VALUE	LAB_Direct_Bilirubin
+50922	ETHANOL BLOOD CHEMISTRY 5640-8 Ethanol [Mass/volume] in Blood	VALUE	LAB_Ethanol
+50924	FERRITIN BLOOD CHEMISTRY 2276-4 Ferritin [Mass/volume] in Serum or Plasma	VALUE	LAB_Ferritin
+50986	FK506 BLOOD CHEMISTRY 11253-2 Tacrolimus [Mass/volume] in Blood	VALUE	LAB_Tacrolimus_FK
+50925	FOLATE BLOOD CHEMISTRY 2284-8 Folate [Mass/volume] in Serum or Plasma	VALUE	LAB_Folate
+50995	FREE T4 BLOOD CHEMISTRY 3024-7 Thyroxine free [Mass/volume] in Serum or Plasma	VALUE	LAB_Free_T4
+50929	GENTA BLOOD CHEMISTRY 35668-3 Gentamicin [Mass/volume] in Serum or Plasma	VALUE	LAB_Gentamicin
+50927	GGT BLOOD CHEMISTRY 2324-2 Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma	VALUE	LAB_GGT
+50930	GLOBULIN BLOOD CHEMISTRY 2336-6 Globulin [Mass/volume] in Serum	VALUE	LAB_Globulin
+50931	GLUCOSE BLOOD CHEMISTRY 2345-7 Glucose [Mass/volume] in Serum or Plasma	VALUE	LAB_Glucose
+50935	HAPTOGLOB BLOOD CHEMISTRY 4542-7 Haptoglobin [Mass/volume] in Serum or Plasma	VALUE	LAB_Haptoglobin
+50937	HAV Ab BLOOD CHEMISTRY 20575-7 Hepatitis A virus Ab [Presence] in Serum	TEXT	LAB_HA_Ab
+50942	HBc Ab BLOOD CHEMISTRY 16933-4 Hepatitis B virus core Ab [Presence] in Serum	TEXT	LAB_HB_cAb
+50940	HBs Ab BLOOD CHEMISTRY 32019-2 Hepatitis B virus surface Ab [Titer] in Serum	TEXT	LAB_HB_sAb
+50941	HBsAg BLOOD CHEMISTRY 5195-3 Hepatitis B virus surface Ag [Presence] in Serum	TEXT	LAB_HB_sAg
+50943	HCV Ab BLOOD CHEMISTRY 16128-1 Hepatitis C virus Ab [Presence] in Serum	TEXT	LAB_HC_Ab
+50904	HDL CHOL BLOOD CHEMISTRY 2085-9 Cholesterol.in HDL [Mass/volume] in Serum or Plasma	VALUE	LAB_HDL
+50944	HIV Ab BLOOD CHEMISTRY	TEXT	LAB_HIV_Ab
+50884	INDIR BIL BLOOD CHEMISTRY 1971-1 Indirect bilirubin [Mass/volume] in Serum or Plasma	VALUE	LAB_Indirect_Bilirubin
+50952	IRON BLOOD CHEMISTRY 2498-4 Iron [Mass/volume] in Serum or Plasma	VALUE	LAB_Iron
+50949	IgA BLOOD CHEMISTRY 2458-8 IgA [Mass/volume] in Serum	VALUE	LAB_IgA
+50950	IgG BLOOD CHEMISTRY 2465-3 IgG [Mass/volume] in Serum	VALUE	LAB_IgG
+50951	IgM BLOOD CHEMISTRY 2472-9 IgM [Mass/volume] in Serum	VALUE	LAB_IgM
+50954	LD(LDH) BLOOD CHEMISTRY 2532-0 Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma	VALUE	LAB_LDH
+50905	LDL(CALC) BLOOD CHEMISTRY 13457-7 Cholesterol.in LDL [Mass/volume] in Serum or Plasma by calculation	VALUE	LAB_LDL
+50906	LDL(meas) BLOOD CHEMISTRY 18262-6 Cholesterol.in LDL [Mass/volume] in Serum or Plasma by Direct assay	VALUE	LAB_LDL
+50956	LIPASE BLOOD CHEMISTRY 3040-3 Triacylglycerol lipase [Enzymatic activity/volume] in Serum or Plasma	VALUE	LAB_Lipase
+50960	MAGNESIUM BLOOD CHEMISTRY 19123-9 Magnesium [Mass/volume] in Serum or Plasma	VALUE	LAB_Magnesium
+50964	OSMOLAL BLOOD CHEMISTRY 2692-2 Osmolality of Serum or Plasma	VALUE	LAB_Osmolality
+50966	PHENOBARB BLOOD CHEMISTRY 3948-7 Phenobarbital [Mass/volume] in Serum or Plasma	VALUE	LAB_Phenobarbital
+50967	PHENYTOIN BLOOD CHEMISTRY 3968-5 Phenytoin [Mass/volume] in Serum or Plasma	VALUE	LAB_Phenytoin
+50970	PHOSPHATE BLOOD CHEMISTRY 2777-1 Phosphate [Mass/volume] in Serum or Plasma	VALUE	LAB_Phosphate
+50971	POTASSIUM BLOOD CHEMISTRY 2823-3 Potassium [Moles/volume] in Serum or Plasma	VALUE	LAB_Potassium
+50965	PTH BLOOD CHEMISTRY 2731-8 Parathyrin.intact [Mass/volume] in Serum or Plasma	VALUE	LAB_Parathyrin
+50983	SODIUM BLOOD CHEMISTRY 2951-2 Sodium [Moles/volume] in Serum or Plasma	VALUE	LAB_Sodium
+51001	T3 BLOOD CHEMISTRY 3053-6 Triiodothyronine [Mass/volume] in Serum or Plasma	VALUE	LAB_T3
+50994	T4 BLOOD CHEMISTRY 3025-4 Thyroxine [Mass/volume] in Blood	VALUE	LAB_T4
+50885	TOT BILI BLOOD CHEMISTRY 1975-2 Bilirubin [Mass/volume] in Serum or Plasma	VALUE	LAB_Bilirubin
+50976	TOT PROT BLOOD CHEMISTRY 2885-2 Protein [Mass/volume] in Serum or Plasma	VALUE	LAB_Total_Protein
+50882	TOTAL CO2 BLOOD CHEMISTRY 1963-8 Bicarbonate [Moles/volume] in Serum	VALUE	LAB_BiCarbonate
+50998	TRF BLOOD CHEMISTRY 3034-6 Transferrin [Mass/volume] in Serum or Plasma	VALUE	LAB_Transferrin
+51000	TRIGLYCER BLOOD CHEMISTRY 2571-8 Triglyceride [Mass/volume] in Serum or Plasma	VALUE	LAB_Triglyceride
+50993	TSH BLOOD CHEMISTRY 3015-5 Thyrotropin [Units/volume] in Blood	VALUE	LAB_TSH
+51006	UREA N BLOOD CHEMISTRY 3094-0 Urea nitrogen [Mass/volume] in Serum or Plasma	VALUE	LAB_BUN
+51007	URIC ACID BLOOD CHEMISTRY 3084-1 Urate [Mass/volume] in Serum or Plasma	VALUE	LAB_Urate
+51008	VALPROATE BLOOD CHEMISTRY 4086-5 Valproate [Mass/volume] in Serum or Plasma	VALUE	LAB_Valproate
+51009	VANCO BLOOD CHEMISTRY 20578-1 Vancomycin [Mass/volume] in Serum or Plasma	VALUE	LAB_Vancomycin
+51010	VIT B12 BLOOD CHEMISTRY 16695-9 Cobalamin [Mass/volume] in Blood	VALUE	LAB_Cobalamin
+51538	[A1c] BLOOD CHEMISTRY 4548-4 Hemoglobin A1c (glycated HgB)/Hemoglobin.total [Moles] in Blood	VALUE	LAB_HbA1C
+50855	[Hgb] BLOOD CHEMISTRY 718-7 Hemoglobin [Mass/volume] in Blood	VALUE	LAB_Hemoglobin
+50879	"barbitrt BLOOD CHEMISTRY 3376-1 Barbiturates [Presence] in Serum, Plasma or Blood"	TEXT	LAB_Barbiturates
+50880	bnzodzpn BLOOD CHEMISTRY 42662-7 Benzodiazepines [Presence] in Blood	TEXT	LAB_Benzodiazepines
+51002	cTropnI BLOOD CHEMISTRY 42757-5 Troponin I.cardiac [Mass/volume] in Blood	VALUE	LAB_Troponin_I
+51003	cTropnT BLOOD CHEMISTRY 48425-3 Troponin T.cardiac [Mass/volume] in Blood	VALUE	LAB_Troponin_T
+50953	calTIBC BLOOD CHEMISTRY 2500-7 Iron binding capacity [Mass/volume] in Serum or Plasma	VALUE	LAB_Iron_Binding_Capacity
+50963	proBNP BLOOD CHEMISTRY 33762-6 Natriuretic peptide.B prohormone [Mass/volume] in Serum or Plasma	VALUE	LAB_proBNP
+50978	rapamycin BLOOD CHEMISTRY 29247-4 Sirolimus [Mass/volume] in Blood	VALUE	LAB_Sirolimus
+50999	tricyclic BLOOD CHEMISTRY 4073-3 Tricyclic antidepressants [Presence] in Serum or Plasma	TEXT	LAB_Tricyclic_Antidepressants
+51078	CHLORIDE URINE CHEMISTRY 2078-4 Chloride [Moles/volume] in Urine	VALUE	LAB_Urine_Chloride
+51082	CREAT URINE CHEMISTRY 2161-8 Creatinine [Mass/volume] in Urine	VALUE	LAB_Urine_Creatinine
+51093	OSMOLAL URINE CHEMISTRY 2695-5 Osmolality of Urine	VALUE	LAB_Urine_Osmolality
+51097	POTASSIUM URINE CHEMISTRY 2828-2 Potassium [Moles/volume] in Urine	VALUE	LAB_Urine_Potassium
+51100	SODIUM URINE CHEMISTRY 2955-3 Sodium [Moles/volume] in Urine	VALUE	LAB_Urine_Sodium
+51102	TOT PROT URINE CHEMISTRY 2888-6 Protein [Mass/volume] in Urine	VALUE	LAB_Urine_Total_Protein
+51104	UREA N URINE CHEMISTRY 3095-7 Urea nitrogen [Mass/volume] in Urine	VALUE	LAB_Urine_UreaN
+51069	albumin URINE CHEMISTRY 1754-1 Albumin [Mass/volume] in Urine	VALUE	LAB_Urine_Albumin
+51071	amphetmn URINE CHEMISTRY 3349-8 Amphetamines [Presence] in Urine	TEXT	LAB_Urine_Amphetamines
+51074	barbitrt URINE CHEMISTRY 3377-9 Barbiturates [Presence] in Urine	TEXT	LAB_Urine_Barbiturates
+51075	bnzodzpn URINE CHEMISTRY 3390-2 Benzodiazepines [Presence] in Urine	TEXT	LAB_Urine_Benzodiazepines
+51079	cocaine URINE CHEMISTRY 3397-7 Cocaine [Presence] in Urine	TEXT	LAB_Urine_Cocaine
+51090	mthdone URINE CHEMISTRY 3773-9 Methadone [Presence] in Urine	TEXT	LAB_Urine_Methadone
+51092	opiates URINE CHEMISTRY 3879-4 Opiates [Presence] in Urine	TEXT	LAB_Urine_Opitaes
+51245	 LYMPH BLOOD HEMATOLOGY 26478-8 Lymphocytes/100 leukocytes in Blood	VALUE	LAB_Lymphocytes%
+51300	 WBC BLOOD HEMATOLOGY 26464-8 Leukocytes [#/volume] in Blood	VALUE	LAB_WBC
+51175	ABS CD3 BLOOD HEMATOLOGY 8122-4 CD3 cells [#/volume] in Blood	VALUE	LAB_CD3
+51131	ABSOLUTE CD4 COUNT BLOOD HEMATOLOGY 8128-1	VALUE	LAB_CD4
+51132	ABSOLUTE CD8 COUNT BLOOD HEMATOLOGY	VALUE	LAB_CD8
+51194	CD8 CELLS, PERCENT BLOOD HEMATOLOGY	VALUE	LAB_CD8%
+51134	ACANTHOCY BLOOD HEMATOLOGY 7789-1 Acanthocytes [Presence] in Blood by Light microscopy	TEXT	LAB_Acanthocytes
+51137	ANISOCYT BLOOD HEMATOLOGY 38892-6 Anisocytosis [Presence] in Blood	TEXT	LAB_Anisocytosis
+51143	ATYPS BLOOD HEMATOLOGY 13046-8 Lymphocytes Variant/100 leukocytes in Blood	VALUE	LAB_Atypical_Lymphocytes%
+51144	BANDS BLOOD HEMATOLOGY 26508-2 Neutrophils.band form/100 leukocytes in Blood	VALUE	LAB_Neutrophils_Bands%
+51146	BASOS BLOOD HEMATOLOGY 30180-4 Basophils/100 leukocytes in Blood	VALUE	LAB_Basophils%
+51147	BITE BLOOD HEMATOLOGY 10371-3 Bite cells [Presence] in Blood by Light microscopy	TEXT	LAB_Bite_Cells
+51148	BLASTS BLOOD HEMATOLOGY 26446-5 Blasts/100 leukocytes in Blood	VALUE	LAB_Blasts%
+51151	BURR BLOOD HEMATOLOGY 7790-9 Burr cells [Presence] in Blood by Light microscopy	TEXT	LAB_BurrCells
+51176	CD3 BLOOD HEMATOLOGY 8124-0 CD3 cells/100 cells in Blood	VALUE	LAB_CD3%
+51180	CD4 CELLS, PERCENT BLOOD HEMATOLOGY 8127-3	VALUE	LAB_CD4%
+51181	CD4/CD8 BLOOD HEMATOLOGY 8129-9 CD4 cells/CD8 Cells [# Ratio] in Blood	VALUE	LAB_CD4_Over_CD8
+51196	D-DIMER BLOOD HEMATOLOGY 48065-7 Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma	VALUE	LAB_D_DIMER
+51197	ELLIPTOCY BLOOD HEMATOLOGY 11274-8 Elliptocytes [Presence] in Blood by Light microscopy	TEXT	LAB_Elliptocytes
+51200	EOS BLOOD HEMATOLOGY 26450-7 Eosinophils/100 leukocytes in Blood	VALUE	LAB_Eosinophils%
+51214	FIBRINOGE BLOOD HEMATOLOGY 3255-7 Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay	VALUE	LAB_Fibrinogen
+51216	FRAGMENT BLOOD HEMATOLOGY 40746-0 Fragments [Presence] in Blood by Automated count	TEXT	LAB_FragmentsInBlood
+51218	GRAN CT BLOOD HEMATOLOGY 30394-1 Granulocytes [#/volume] in Blood	VALUE	LAB_Granulocytes
+51221	HCT BLOOD HEMATOLOGY 20570-8 Hematocrit [Volume Fraction] of Blood	VALUE	LAB_Hematocrit
+51222	HGB BLOOD HEMATOLOGY 718-7 Hemoglobin [Mass/volume] in Blood	VALUE	LAB_Hemoglobin
+51233	HYPOCHROM BLOOD HEMATOLOGY 728-6 Hypochromia [Presence] in Blood by Light microscopy	TEXT	LAB_Hypochromia
+51237	INR(PT) BLOOD HEMATOLOGY 34714-6 INR in Blood by Coagulation assay	VALUE	LAB_INR_PT_
+51240	LPLT BLOOD HEMATOLOGY 34167-7 Platelets Large [Presence] in Blood by Automated count	TEXT	LAB_PlateletsLarge
+51244	LYMPHS BLOOD HEMATOLOGY 26478-8 Lymphocytes/100 leukocytes in Blood	VALUE	LAB_Lymphocytes%
+51246	MACROCYT BLOOD HEMATOLOGY 30424-6 Macrocytes [Presence] in Blood	TEXT	LAB_Marcocytes
+51248	MCH BLOOD HEMATOLOGY 28539-5 Erythrocyte mean corpuscular hemoglobin [Entitic mass]	VALUE	LAB_MCH
+51249	MCHC BLOOD HEMATOLOGY 28540-3 Erythrocyte mean corpuscular hemoglobin concentration [Mass/volume]	VALUE	LAB_MCHC
+51250	MCV BLOOD HEMATOLOGY 30428-7 Erythrocyte mean corpuscular volume [Entitic volume]	VALUE	LAB_MCV
+51251	METAS BLOOD HEMATOLOGY 28541-1 Metamyelocytes/100 leukocytes in Blood	VALUE	LAB_Metamyelocytes%
+51252	MICROCYT BLOOD HEMATOLOGY 30434-5 Microcytes [Presence] in Blood	TEXT	LAB_Microcytes
+51254	MONOS BLOOD HEMATOLOGY 26485-3 Monocytes/100 leukocytes in Blood	VALUE	LAB_Monocytes%
+51255	MYELOS BLOOD HEMATOLOGY 26498-6 Myelocytes/100 leukocytes in Blood	VALUE	LAB_Myelocytes%
+51256	NEUTS BLOOD HEMATOLOGY 26505-8 Neutrophils.segmented/100 leukocytes in Blood	VALUE	LAB_Neutrophils_Segmented%
+51257	NUC RBCS BLOOD HEMATOLOGY 26461-4 Nucleated Erythrocytes/100 erythrocytes in Blood	VALUE	LAB_Nucleated_Erythrocytes%
+51260	OVALOCYT BLOOD HEMATOLOGY 774-0 Ovalocytes [Presence] in Blood by Light microscopy	TEXT	LAB_Ovalocytes
+51265	PLT COUNT BLOOD HEMATOLOGY 26515-7 Platelets [#/volume] in Blood	VALUE	LAB_Platelets
+51266	PLT SMR BLOOD HEMATOLOGY 9317-9 Platelets [Presence] in Blood by Manual count	TEXT	LAB_PlateletsManual
+51267	POIKILOCY BLOOD HEMATOLOGY 779-9 Poikilocytosis [Presence] in Blood by Light microscopy	TEXT	LAB_Poikilocytosis
+51268	POLYCHROM BLOOD HEMATOLOGY 10378-8 Polychromasia [Presence] in Blood by Light microscopy	TEXT	LAB_Polychromasia
+51269	PROMYELO BLOOD HEMATOLOGY 26524-9 Promyelocytes/100 leukocytes in Blood	VALUE	LAB_Promyelocytes%
+51274	PT BLOOD HEMATOLOGY 5964-2 Prothrombin time (PT) in Blood by Coagulation assay	VALUE	LAB_PT
+51275	PTT BLOOD HEMATOLOGY 3173-2 Activated partial thrombplastin time (aPTT) in Blood by Coagulation assay	VALUE	LAB_aPTT
+51279	RBC BLOOD HEMATOLOGY 26453-1 Erythrocytes [#/volume] in Blood	VALUE	LAB_RBC
+51278	RBCF BLOOD HEMATOLOGY	TEXT	LAB_RBFC
+51277	RDW BLOOD HEMATOLOGY 30385-9 Erythrocyte distribution width [Ratio]	VALUE	LAB_RDW
+51283	RET AUT BLOOD HEMATOLOGY 17849-1 Reticulocytes/100 erythrocytes in Red Blood Cells by Automated count	VALUE	LAB_Reticulocytes%
+51284	RET MAN BLOOD HEMATOLOGY 31112-6 Reticulocytes/100 erythrocytes in Red Blood Cells by Manual	VALUE	LAB_Reticulocytes%
+51287	SCHISTOCY BLOOD HEMATOLOGY 800-3 Schistocytes [Presence] in Blood by Light microscopy	TEXT	LAB_Schistocytes
+51288	SED RATE BLOOD HEMATOLOGY 30341-2 Erythrocyte sedimentation rate	VALUE	LAB_Erythrocyte_Sedim_Rate
+51292	SPHEROCYT BLOOD HEMATOLOGY 802-9 Spherocytes [Presence] in Blood by Light microscopy	TEXT	LAB_Spherocytes
+51145	STIPPLED BLOOD HEMATOLOGY 703-9 Basophilic stippling [Presence] in Blood by Light microscopy	TEXT	LAB_Basophilic_Stippling
+51294	TARGET BLOOD HEMATOLOGY 10381-2 Target cells [Presence] in Blood by Light microscopy	TEXT	LAB_Target_Cells
+51296	TEARDROP BLOOD HEMATOLOGY 7791-7 Dacrocytes [Presence] in Blood by Light microscopy	TEXT	LAB_Dacrocytes
+51301	WBC BLOOD HEMATOLOGY 26464-8 Leukocytes [#/volume] in Blood	VALUE	LAB_WBC
+51462	AMORPH URINE HEMATOLOGY 8246-1 Amorphous sediment [Presence] in Urine sediment by Light microscopy	TEXT	LAB_Urine_Amorphous_Sediment
+51463	BACTERIA URINE HEMATOLOGY 25145-4 Bacteria [Presence] in Urine sediment by Light microscopy	TEXT	LAB_Urine_Bacteria
+51464	BILIRUBIN URINE HEMATOLOGY 1977-8 Bilirubin [Presence] in Urine	TEXT	LAB_Urine_Bilirubin
+51466	BLOOD URINE HEMATOLOGY 5794-3 Hemoglobin [Presence] in Urine by Test strip	TEXT	LAB_Urine_Hemoglobin
+51469	CA OXAL URINE HEMATOLOGY 5774-5 Calcium oxalate crystals [Presence] in Urine sediment by Light microscopy	TEXT	LAB_Urine_Calcium_Oxalate
+51474	EOS URINE HEMATOLOGY 25156-1 Eosinophils [Presence] in Urine sediment by Light microscopy	TEXT	LAB_Urine_Eosinophils
+51476	EPI URINE HEMATOLOGY 5787-7 Epithelial cells [#/area] in Urine sediment by Microscopy high power field	VALUE	LAB_Urine_Epithelial_Cells
+51478	GLUCOSE URINE HEMATOLOGY 2350-7 Glucose [Mass/volume] in Urine	VALUE	LAB_Urine_Glucose
+51479	GRANULAR URINE HEMATOLOGY 5793-5 Granular casts [#/area] in Urine sediment by Microscopy low power field	VALUE	LAB_Urine_Granular_Casts
+51482	HYALINE URINE HEMATOLOGY 5796-8 Hyaline casts [#/area] in Urine sediment by Microscopy low power field	VALUE	LAB_Urine_Hyaline_Casts
+51484	KETONE URINE HEMATOLOGY 49779-2 Ketones [Mass/volume] in Urine	VALUE	LAB_Urine_Ketone
+51486	LEUK URINE HEMATOLOGY 33052-2 Leukocytes [Presence] in Urine	TEXT	LAB_Urine_Leukocytes
+51512	MUCOUS URINE HEMATOLOGY 8247-9 Mucus [Presence] in Urine sediment by Light microscopy	TEXT	LAB_Urine_Mucus
+51487	NITRITE URINE HEMATOLOGY 5802-4 Nitrite [Presence] in Urine by Test strip	TEXT	LAB_Urine_Nitrite
+51491	PH URINE HEMATOLOGY 2756-5 pH of Urine	VALUE	LAB_Urine_PH
+51492	PROTEIN URINE HEMATOLOGY 5804-0 Protein [Mass/volume] in Urine by Test strip	VALUE	LAB_Urine_Protein
+51493	RBC URINE HEMATOLOGY 13945-1 Erythrocytes [#/area] in Urine sediment by Microscopy high power field	VALUE	LAB_Urine_RBC
+51497	RENAL EPI URINE HEMATOLOGY 26052-1 Epithelial cells.renal [#/area] in Urine sediment by Microscopy high power field	VALUE	LAB_Urine_Epithelial_Cells
+51498	SP GRAV URINE HEMATOLOGY 5811-5 Specific gravity of Urine by Test strip	VALUE	LAB_Urine_Spec_Gravity
+51501	TRANS EPI URINE HEMATOLOGY 30089-7 Transitional cells [#/area] in Urine sediment by Microscopy high power field	VALUE	LAB_Urine_Transitional_Cells
+51514	UROBILNGN URINE HEMATOLOGY 3107-0 Urobilinogen [Mass/volume] in Urine	VALUE	LAB_Urine_Urobilinogen
+51516	WBC URINE HEMATOLOGY 5821-4 Leukocytes [#/area] in Urine sediment by Microscopy high power field	VALUE	LAB_Urine_WBC
+51518	WBCCLUMP URINE HEMATOLOGY	TEXT	LAB_WBC_Clump
+51519	YEAST URINE HEMATOLOGY 32356-8 Yeast [Presence] in Urine sediment by Light microscopy	TEXT	LAB_Urine_Yeast
+51539	tacroFK BLOOD CHEMISTRY	VALUE	LAB_Tacrolimus_FK
+51070	ALBUMIN/CREATININE, URINE URINE CHEMISTRY 14958-3	VALUE	LAB_Urine_Albumin_Over_Creatinine
+51094	PH URINE CHEMISTRY 2756-5	VALUE	LAB_Urine_PH
+51095	PHOSPHATE, URINE URINE CHEMISTRY 2778-9	VALUE	LAB_Urine_Phosphate
+51098	PROT. ELECTROPHORESIS, URINE URINE CHEMISTRY 13438-7	TEXT	LAB_Urine_Prot_Elec
+51099	PROTEIN/CREATININE RATIO URINE CHEMISTRY 2890-2	VALUE	LAB_Urine_Protein_Over_Creatinine
+51116	LYMPHOCYTES ASCITES HEMATOLOGY 26482-0	VALUE	LAB_Ascites_Lymphocytes%
+51117	MACROPHAGE ASCITES HEMATOLOGY 40517-5	VALUE	LAB_Ascites_Macrophage%
+51118	MESOTHELIAL CELL ASCITES HEMATOLOGY 30432-9	VALUE	LAB_Ascites_Mesothelial%
+51120	MONOCYTES ASCITES HEMATOLOGY 26488-7	VALUE	LAB_Ascites_Monocytes%
+51125	POLYS ASCITES HEMATOLOGY 26520-7	VALUE	LAB_Ascites_Polys%
+51127	RBC, ASCITES ASCITES HEMATOLOGY 26457-2	VALUE	LAB_Ascites_RBC
+51128	WBC, ASCITES ASCITES HEMATOLOGY 26468-9	VALUE	LAB_Ascites_WBC
+51130	ABSOLUTE CD3 COUNT BLOOD HEMATOLOGY 8124-0	VALUE	LAB_CD3
+51133	ABSOLUTE LYMPHOCYTE COUNT BLOOD HEMATOLOGY 26474-7	VALUE	LAB_Lymphocytes
+51351	LYMPHS CEREBROSPINAL FLUID (CSF) HEMATOLOGY 26479-6	VALUE	LAB_CSF_Lymphocytes%
+51355	MONOCYTES CEREBROSPINAL FLUID (CSF) HEMATOLOGY 26486-1	VALUE	LAB_CSF_Monocytes%
+51360	POLYS CEREBROSPINAL FLUID (CSF) HEMATOLOGY 26517-3	VALUE	LAB_CSF_Polys%
+51362	RBC, CSF CEREBROSPINAL FLUID (CSF) HEMATOLOGY 26454-9	VALUE	LAB_CSF_RBC
+51363	WBC, CSF CEREBROSPINAL FLUID (CSF) HEMATOLOGY 26465-5	VALUE	LAB_CSF_WBC
+51427	LYMPHOCYTES OTHER BODY FLUID HEMATOLOGY 11031-2	VALUE	LAB_OtherFluids_Lymphocytes%
+51428	MACROPHAGE OTHER BODY FLUID HEMATOLOGY 12230-9	VALUE	LAB_OtherFluids_Macrophage%
+51431	MONOS OTHER BODY FLUID HEMATOLOGY 10330-9	VALUE	LAB_OtherFluids_Monocytes%
+51436	POLYS OTHER BODY FLUID HEMATOLOGY 26518-1	VALUE	LAB_OtherFluids_Polys%
+51438	RBC, OTHER FLUID OTHER BODY FLUID HEMATOLOGY 26455-6	VALUE	LAB_OtherFluids_RBC
+51439	WBC, OTHER FLUID OTHER BODY FLUID HEMATOLOGY 26466-3	VALUE	LAB_OtherFluids_WBC
+51446	LYMPHOCYTES PLEURAL HEMATOLOGY 26481-2	VALUE	LAB_PLEURAL_Lymphocytes%
+51447	MACROPHAGES PLEURAL HEMATOLOGY 40520-9	VALUE	LAB_PLEURAL_Macrophage%
+51448	MESOTHELIAL CELLS PLEURAL HEMATOLOGY 30431-1	VALUE	LAB_PLEURAL_Mesothelial%
+51450	MONOS PLEURAL HEMATOLOGY 33362-5	VALUE	LAB_PLEURAL_Monocytes%
+51455	POLYS PLEURAL HEMATOLOGY 26519-9	VALUE	LAB_PLEURAL_Polys%
+51457	RBC, PLEURAL PLEURAL HEMATOLOGY 26456-4	VALUE	LAB_PLEURAL_RBC
+50831	PH OTHER BODY FLUID BLOOD GAS 2748-2	VALUE	LAB_OtherFluids_PH
+50835	ALBUMIN, ASCITES ASCITES CHEMISTRY 1749-1	VALUE	LAB_Ascites_Albumin
+50836	AMYLASE, ASCITES ASCITES CHEMISTRY 1797-0	VALUE	LAB_Ascites_Amylase
+50842	GLUCOSE, ASCITES ASCITES CHEMISTRY 2347-3	VALUE	LAB_Ascites_Glucose
+50843	LACTATE DEHYDROGENASE, ASCITES ASCITES CHEMISTRY 2531-2	VALUE	LAB_Ascites_Lactate
+50849	TOTAL PROTEIN, ASCITES ASCITES CHEMISTRY 2883-7	VALUE	LAB_Ascites_Total_Protein
+50864	ALPHA-FETOPROTEIN BLOOD CHEMISTRY 1834-1	VALUE	LAB_Alpha_Fetoprotein
+50890	C3 BLOOD CHEMISTRY 4485-9	VALUE	LAB_C3
+50891	C4 BLOOD CHEMISTRY 4498-2	VALUE	LAB_C4
+50900	CARCINOEMBYRONIC ANTIGEN (CEA) BLOOD CHEMISTRY 2039-6	VALUE	LAB_CEA
+50908	CK-MB INDEX BLOOD CHEMISTRY 20569-0	VALUE	LAB_CK_MB_INDEX
+50915	D-DIMER BLOOD CHEMISTRY 	VALUE	LAB_D_DIMER
+50974	PROSTATE SPECIFIC ANTIGEN BLOOD CHEMISTRY 2857-1	VALUE	LAB_PSA
+50981	SALICYLATE BLOOD CHEMISTRY 4023-8	VALUE	LAB_Salicylate
+50997	TOBRAMYCIN BLOOD CHEMISTRY 35670-9	VALUE	LAB_Tobramycin
+51014	GLUCOSE, CSF CEREBROSPINAL FLUID (CSF) CHEMISTRY 2342-4	VALUE	LAB_CSF_Glucose
+51018	TOTAL PROTEIN, CSF CEREBROSPINAL FLUID (CSF) CHEMISTRY 2880-3	VALUE	LAB_CSF_TotalProtein
+51046	ALBUMIN, PLEURAL PLEURAL CHEMISTRY 1748-3	VALUE	LAB_PLEURAL_Albumin
+51053	GLUCOSE, PLEURAL PLEURAL CHEMISTRY 2346-5	VALUE	LAB_PLEURAL_Glocose
+51054	LACTATE DEHYDROGENASE, PLEURAL PLEURAL CHEMISTRY 2530-4	VALUE	LAB_PLEURAL_Lactate
+51059	TOTAL PROTEIN, PLEURAL PLEURAL CHEMISTRY 2882-9	VALUE	LAB_PLEURAL_Total_Protein
+51458	WBC, PLEURAL PLEURAL HEMATOLOGY 26467-1	VALUE	LAB_PLEURAL_WBC
+51505	URIC ACID CRYSTALS URINE HEMATOLOGY 5817-2	TEXT	LAB_Urine_Uric_Acid_Crystals

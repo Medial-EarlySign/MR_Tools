@@ -1,0 +1,162 @@
+Testosterone :: All :: With Values :: 254454 / 14446692 =  0.02 :: 254454 / 254454 =  1.00
+Testosterone :: Males :: With Values :: 112633 / 6889335 =  0.02 :: 112633 / 254454 =  0.44
+Testosterone :: Females :: With Values :: 141821 / 7557357 =  0.02 :: 141821 / 254454 =  0.56
+Testosterone :: General :: No. of Values :: All 337830 Male 161684 Female 176146
+Testosterone :: General :: No. of different days Values :: All 335469 Male 160918 Female 174551
+Testosterone :: General :: Avg #values per person (all) :: All  0.02 Male  0.02 Female  0.02
+Testosterone :: General :: Avg #values per person (>0)  :: All  1.32 Male  1.43 Female  1.23
+Testosterone :: General :: Avg dist between tests       :: All  563.5 Male  477.9 Female  689.9
+Testosterone :: Counts :: Age Group 20 - 25 :: All ::   6297 0.019
+Testosterone :: Counts :: Age Group 25 - 30 :: All ::   7758 0.023
+Testosterone :: Counts :: Age Group 30 - 35 :: All ::   8226 0.024
+Testosterone :: Counts :: Age Group 35 - 40 :: All ::   7319 0.022
+Testosterone :: Counts :: Age Group 40 - 45 :: All ::   5948 0.018
+Testosterone :: Counts :: Age Group 45 - 50 :: All ::   5416 0.016
+Testosterone :: Counts :: Age Group 50 - 55 :: All ::   5295 0.016
+Testosterone :: Counts :: Age Group 55 - 60 :: All ::   4866 0.014
+Testosterone :: Counts :: Age Group 60 - 65 :: All ::   4513 0.013
+Testosterone :: Counts :: Age Group 65 - 70 :: All ::   4056 0.012
+Testosterone :: Counts :: Age Group 70 - 75 :: All ::   2377 0.007
+Testosterone :: Counts :: Age Group 75 - 80 :: All ::   1348 0.004
+Testosterone :: Counts :: Age Group 80 - 85 :: All ::    632 0.002
+Testosterone :: Counts :: Age Group 85 - 90 :: All ::    219 0.001
+Testosterone :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Testosterone :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Testosterone :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Testosterone :: Counts :: Age Group 20 - 25 :: Males ::   1090 0.007
+Testosterone :: Counts :: Age Group 25 - 30 :: Males ::   1210 0.007
+Testosterone :: Counts :: Age Group 30 - 35 :: Males ::   1514 0.009
+Testosterone :: Counts :: Age Group 35 - 40 :: Males ::   1837 0.011
+Testosterone :: Counts :: Age Group 40 - 45 :: Males ::   2290 0.014
+Testosterone :: Counts :: Age Group 45 - 50 :: Males ::   3281 0.020
+Testosterone :: Counts :: Age Group 50 - 55 :: Males ::   4050 0.025
+Testosterone :: Counts :: Age Group 55 - 60 :: Males ::   4195 0.026
+Testosterone :: Counts :: Age Group 60 - 65 :: Males ::   4129 0.026
+Testosterone :: Counts :: Age Group 65 - 70 :: Males ::   3794 0.023
+Testosterone :: Counts :: Age Group 70 - 75 :: Males ::   2228 0.014
+Testosterone :: Counts :: Age Group 75 - 80 :: Males ::   1262 0.008
+Testosterone :: Counts :: Age Group 80 - 85 :: Males ::    596 0.004
+Testosterone :: Counts :: Age Group 85 - 90 :: Males ::    195 0.001
+Testosterone :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Testosterone :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Testosterone :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Testosterone :: Counts :: Age Group 20 - 25 :: Females ::   5207 0.030
+Testosterone :: Counts :: Age Group 25 - 30 :: Females ::   6548 0.037
+Testosterone :: Counts :: Age Group 30 - 35 :: Females ::   6712 0.038
+Testosterone :: Counts :: Age Group 35 - 40 :: Females ::   5482 0.031
+Testosterone :: Counts :: Age Group 40 - 45 :: Females ::   3658 0.021
+Testosterone :: Counts :: Age Group 45 - 50 :: Females ::   2135 0.012
+Testosterone :: Counts :: Age Group 50 - 55 :: Females ::   1245 0.007
+Testosterone :: Counts :: Age Group 55 - 60 :: Females ::    671 0.004
+Testosterone :: Counts :: Age Group 60 - 65 :: Females ::    384 0.002
+Testosterone :: Counts :: Age Group 65 - 70 :: Females ::    262 0.001
+Testosterone :: Counts :: Age Group 70 - 75 :: Females ::    149 0.001
+Testosterone :: Counts :: Age Group 75 - 80 :: Females ::     86 0.000
+Testosterone :: Counts :: Age Group 80 - 85 :: Females ::     36 0.000
+Testosterone :: Counts :: Age Group 85 - 90 :: Females ::     24 0.000
+Testosterone :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Testosterone :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Testosterone :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Testosterone :: Stats :: Age Group 20 - 25 :: All ::  N 29266 non-zeros 29254 Median   1.90 Mean   4.49 Std   7.06 Max  98.00
+Testosterone :: Stats :: Age Group 25 - 30 :: All ::  N 33554 non-zeros 33540 Median   1.80 Mean   4.31 Std   6.85 Max  84.00
+Testosterone :: Stats :: Age Group 30 - 35 :: All ::  N 32862 non-zeros 32846 Median   1.60 Mean   4.55 Std   7.03 Max 100.00
+Testosterone :: Stats :: Age Group 35 - 40 :: All ::  N 28341 non-zeros 28330 Median   1.60 Mean   5.51 Std   7.89 Max 122.00
+Testosterone :: Stats :: Age Group 40 - 45 :: All ::  N 23609 non-zeros 23593 Median   2.00 Mean   7.68 Std   8.72 Max 120.00
+Testosterone :: Stats :: Age Group 45 - 50 :: All ::  N 20828 non-zeros 20819 Median  10.80 Mean  10.65 Std   8.87 Max 102.00
+Testosterone :: Stats :: Age Group 50 - 55 :: All ::  N 19255 non-zeros 19247 Median  12.70 Mean  12.62 Std   8.31 Max 120.30
+Testosterone :: Stats :: Age Group 55 - 60 :: All ::  N 17790 non-zeros 17782 Median  13.30 Mean  13.57 Std   7.70 Max 106.00
+Testosterone :: Stats :: Age Group 60 - 65 :: All ::  N 15979 non-zeros 15973 Median  13.30 Mean  13.77 Std   7.32 Max  92.40
+Testosterone :: Stats :: Age Group 65 - 70 :: All ::  N 12271 non-zeros 12267 Median  13.00 Mean  13.52 Std   7.29 Max  73.00
+Testosterone :: Stats :: Age Group 70 - 75 :: All ::  N 6854 non-zeros 6851 Median  12.60 Mean  13.06 Std   7.75 Max 120.00
+Testosterone :: Stats :: Age Group 75 - 80 :: All ::  N 3620 non-zeros 3618 Median  11.90 Mean  11.97 Std   7.85 Max  96.00
+Testosterone :: Stats :: Age Group 80 - 85 :: All ::  N 1561 non-zeros 1560 Median  10.00 Mean  10.36 Std   8.36 Max  65.30
+Testosterone :: Stats :: Age Group 85 - 90 :: All ::  N 512 non-zeros 512 Median   6.70 Mean   8.16 Std   8.19 Max  52.00
+Testosterone :: Stats :: Age Group 90 - 95 :: All ::  N 123 non-zeros 123 Median   1.70 Mean   7.43 Std  10.02 Max  65.00
+Testosterone :: Stats :: Age Group 95 - 100 :: All ::  N 10 non-zeros 10 Median   9.80 Mean  20.32 Std  28.35 Max 102.00
+Testosterone :: General :: All     :: outliers ratio 0.000641
+Testosterone :: General :: All     :: N 227712 non-zeros 227613 Median   2.80 Mean   8.09 Std   8.57 Max 135.00
+Testosterone :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.30   0.60  23.90  32.00  52.00
+Testosterone :: General :: All     :: quartiles ::   0.10   1.30   2.80  14.10 
+Testosterone :: General :: Males   :: outliers ratio 0.001277
+Testosterone :: General :: Males   :: N 106377 non-zeros 106357 Median  14.60 Mean  15.47 Std   7.03 Max 120.30
+Testosterone :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.70   6.00  27.50  36.20  52.10
+Testosterone :: General :: Males   :: quartiles ::   0.10  10.90  14.60  19.20 
+Testosterone :: General :: Females :: outliers ratio 0.002481
+Testosterone :: General :: Females :: N 121044 non-zeros 120962 Median   1.40 Mean   1.54 Std   0.94 Max  15.60
+Testosterone :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.20   0.40   3.10   4.40   9.10
+Testosterone :: General :: Females :: quartiles ::   0.10   0.90   1.40   2.00 
+Testosterone :: Rounding ::  0.00 r  0.00 pct
+Testosterone :: Rounding ::  0.01 r  0.11 pct
+Testosterone :: Rounding ::  0.10 r  0.76 pct
+Testosterone :: Rounding ::  1.00 r  0.12 pct
+Testosterone :: Rounding :: 10.00 r  0.01 pct
+Testosterone :: Rounding :: 100.00 r  0.00 pct
+Testosterone :: Rounding :: 1000.00 r  0.00 pct
+Testosterone :: Rounding :: most popular rounding for vals:  0.10
+Testosterone :: Stats year :: 2000 :: All :: N 3838 non-zeros 3835 Median   3.60 Mean   8.79 Std   8.99 Max 113.00
+Testosterone :: Stats year :: 2001 :: All :: N 5898 non-zeros 5896 Median   3.30 Mean   8.55 Std   8.81 Max  96.00
+Testosterone :: Stats year :: 2002 :: All :: N 7621 non-zeros 7618 Median   3.00 Mean   8.59 Std   9.09 Max 109.00
+Testosterone :: Stats year :: 2003 :: All :: N 10820 non-zeros 10806 Median   4.50 Mean   9.23 Std   9.08 Max  91.00
+Testosterone :: Stats year :: 2004 :: All :: N 11416 non-zeros 11400 Median   2.80 Mean   8.34 Std   8.95 Max 103.00
+Testosterone :: Stats year :: 2005 :: All :: N 12797 non-zeros 12780 Median   2.80 Mean   8.15 Std   8.74 Max 135.00
+Testosterone :: Stats year :: 2006 :: All :: N 13790 non-zeros 13782 Median   2.70 Mean   7.86 Std   8.53 Max  92.40
+Testosterone :: Stats year :: 2007 :: All :: N 15739 non-zeros 15729 Median   2.80 Mean   8.02 Std   8.65 Max 128.00
+Testosterone :: Stats year :: 2008 :: All :: N 18243 non-zeros 18237 Median   2.90 Mean   7.98 Std   8.50 Max 122.00
+Testosterone :: Stats year :: 2009 :: All :: N 21654 non-zeros 21641 Median   3.20 Mean   8.22 Std   8.53 Max  98.00
+Testosterone :: Stats year :: 2010 :: All :: N 23346 non-zeros 23341 Median   4.60 Mean   8.36 Std   8.35 Max 122.50
+Testosterone :: Stats year :: 2011 :: All :: N 25049 non-zeros 25046 Median   3.20 Mean   8.06 Std   8.41 Max 128.00
+Testosterone :: Stats year :: 2012 :: All :: N 26070 non-zeros 26064 Median   3.00 Mean   8.02 Std   8.57 Max 122.50
+Testosterone :: Stats year :: 2013 :: All :: N 26951 non-zeros 26947 Median   4.60 Mean   8.35 Std   8.65 Max  93.00
+Testosterone :: Stats year :: 2014 :: All :: N 25324 non-zeros 25321 Median   3.30 Mean   8.22 Std   8.78 Max 120.00
+Testosterone :: Stats year :: 2015 :: All :: N 21309 non-zeros 21304 Median   3.00 Mean   8.07 Std   8.78 Max 120.00
+Testosterone :: Stats year :: 2016 :: All :: N 620 non-zeros 620 Median   6.20 Mean   8.39 Std   8.89 Max  59.00
+Testosterone :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Testosterone :: Stats year :: 2000 :: Males   :: N 1838 non-zeros 1838 Median  15.00 Mean  16.12 Std   7.47 Max 113.00
+Testosterone :: Stats year :: 2001 :: Males   :: N 2718 non-zeros 2718 Median  15.10 Mean  16.19 Std   7.39 Max  96.00
+Testosterone :: Stats year :: 2002 :: Males   :: N 3455 non-zeros 3453 Median  15.40 Mean  16.48 Std   7.55 Max 105.00
+Testosterone :: Stats year :: 2003 :: Males   :: N 5438 non-zeros 5436 Median  15.50 Mean  16.44 Std   7.42 Max  72.20
+Testosterone :: Stats year :: 2004 :: Males   :: N 5158 non-zeros 5156 Median  15.20 Mean  16.25 Std   7.83 Max 114.00
+Testosterone :: Stats year :: 2005 :: Males   :: N 5732 non-zeros 5726 Median  15.00 Mean  15.79 Std   7.15 Max 120.00
+Testosterone :: Stats year :: 2006 :: Males   :: N 5978 non-zeros 5974 Median  14.90 Mean  15.69 Std   7.25 Max  92.40
+Testosterone :: Stats year :: 2007 :: Males   :: N 6994 non-zeros 6994 Median  14.80 Mean  15.63 Std   7.25 Max  85.30
+Testosterone :: Stats year :: 2008 :: Males   :: N 8290 non-zeros 8289 Median  14.60 Mean  15.36 Std   7.26 Max  92.90
+Testosterone :: Stats year :: 2009 :: Males   :: N 10274 non-zeros 10271 Median  14.50 Mean  15.29 Std   7.24 Max  98.00
+Testosterone :: Stats year :: 2010 :: Males   :: N 11965 non-zeros 11963 Median  14.00 Mean  14.76 Std   6.82 Max 112.40
+Testosterone :: Stats year :: 2011 :: Males   :: N 12488 non-zeros 12488 Median  13.90 Mean  14.71 Std   7.14 Max 114.00
+Testosterone :: Stats year :: 2012 :: Males   :: N 12901 non-zeros 12900 Median  13.80 Mean  14.73 Std   7.43 Max 126.00
+Testosterone :: Stats year :: 2013 :: Males   :: N 13964 non-zeros 13964 Median  13.80 Mean  14.81 Std   7.26 Max 101.40
+Testosterone :: Stats year :: 2014 :: Males   :: N 12817 non-zeros 12817 Median  13.90 Mean  14.95 Std   7.64 Max 122.00
+Testosterone :: Stats year :: 2015 :: Males   :: N 10722 non-zeros 10720 Median  13.50 Mean  14.70 Std   7.88 Max 131.00
+Testosterone :: Stats year :: 2016 :: Males   :: N 351 non-zeros 351 Median  12.30 Mean  13.85 Std   8.37 Max  59.00
+Testosterone :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Testosterone :: Stats year :: 2000 :: Females :: N 1994 non-zeros 1991 Median   1.70 Mean   1.90 Std   1.33 Max  21.70
+Testosterone :: Stats year :: 2001 :: Females :: N 3169 non-zeros 3167 Median   1.70 Mean   1.89 Std   1.06 Max  15.00
+Testosterone :: Stats year :: 2002 :: Females :: N 4149 non-zeros 4147 Median   1.70 Mean   1.88 Std   1.05 Max  16.00
+Testosterone :: Stats year :: 2003 :: Females :: N 5371 non-zeros 5359 Median   1.70 Mean   1.87 Std   1.01 Max  15.00
+Testosterone :: Stats year :: 2004 :: Females :: N 6237 non-zeros 6226 Median   1.70 Mean   1.78 Std   0.91 Max  14.10
+Testosterone :: Stats year :: 2005 :: Females :: N 7038 non-zeros 7025 Median   1.60 Mean   1.76 Std   1.02 Max  15.30
+Testosterone :: Stats year :: 2006 :: Females :: N 7785 non-zeros 7781 Median   1.60 Mean   1.78 Std   1.06 Max  17.20
+Testosterone :: Stats year :: 2007 :: Females :: N 8716 non-zeros 8707 Median   1.60 Mean   1.79 Std   1.05 Max  17.10
+Testosterone :: Stats year :: 2008 :: Females :: N 9928 non-zeros 9923 Median   1.60 Mean   1.74 Std   1.01 Max  16.80
+Testosterone :: Stats year :: 2009 :: Females :: N 11349 non-zeros 11339 Median   1.60 Mean   1.73 Std   1.03 Max  15.60
+Testosterone :: Stats year :: 2010 :: Females :: N 11365 non-zeros 11362 Median   1.40 Mean   1.55 Std   1.03 Max  16.90
+Testosterone :: Stats year :: 2011 :: Females :: N 12530 non-zeros 12526 Median   1.20 Mean   1.41 Std   0.95 Max  14.70
+Testosterone :: Stats year :: 2012 :: Females :: N 13138 non-zeros 13134 Median   1.20 Mean   1.33 Std   0.91 Max  14.90
+Testosterone :: Stats year :: 2013 :: Females :: N 12941 non-zeros 12937 Median   1.10 Mean   1.28 Std   0.81 Max  12.90
+Testosterone :: Stats year :: 2014 :: Females :: N 12484 non-zeros 12481 Median   1.10 Mean   1.30 Std   0.90 Max  14.80
+Testosterone :: Stats year :: 2015 :: Females :: N 10564 non-zeros 10561 Median   1.10 Mean   1.28 Std   0.86 Max  14.00
+Testosterone :: Stats year :: 2016 :: Females :: N 269 non-zeros 269 Median   1.10 Mean   1.28 Std   1.08 Max  14.10
+Testosterone :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Testosterone :: Stats month 1 :: All :: N 20665 non-zeros 20658 Median   4.00 Mean   8.53 Std   8.77 Max 120.00
+Testosterone :: Stats month 2 :: All :: N 20677 non-zeros 20669 Median   3.50 Mean   8.45 Std   8.76 Max 135.00
+Testosterone :: Stats month 3 :: All :: N 22246 non-zeros 22232 Median   3.00 Mean   8.11 Std   8.56 Max 109.00
+Testosterone :: Stats month 4 :: All :: N 20522 non-zeros 20511 Median   3.00 Mean   8.11 Std   8.58 Max 103.00
+Testosterone :: Stats month 5 :: All :: N 21435 non-zeros 21427 Median   2.90 Mean   8.09 Std   8.49 Max  89.00
+Testosterone :: Stats month 6 :: All :: N 22253 non-zeros 22244 Median   3.10 Mean   8.18 Std   8.65 Max 121.00
+Testosterone :: Stats month 7 :: All :: N 22875 non-zeros 22866 Median   3.00 Mean   8.15 Std   8.68 Max 120.00
+Testosterone :: Stats month 8 :: All :: N 21237 non-zeros 21229 Median   2.80 Mean   7.95 Std   8.52 Max 122.00
+Testosterone :: Stats month 9 :: All :: N 22305 non-zeros 22293 Median   2.90 Mean   8.04 Std   8.70 Max 123.00
+Testosterone :: Stats month 10 :: All :: N 23203 non-zeros 23194 Median   3.00 Mean   8.15 Std   8.74 Max 128.00
+Testosterone :: Stats month 11 :: All :: N 22051 non-zeros 22037 Median   3.20 Mean   8.34 Std   8.75 Max 139.00
+Testosterone :: Stats month 12 :: All :: N 18114 non-zeros 18101 Median   5.80 Mean   8.82 Std   8.83 Max 130.00
+

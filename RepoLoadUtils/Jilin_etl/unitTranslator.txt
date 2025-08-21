@@ -1,0 +1,41 @@
+signal	unit	muliplier	addition	Round	FinalRound
+Alpha_Fetoprotein	ng/ml	1	0	1	
+MCH	pg	1	0	1	
+MCV	fl	1	0	0	
+Basophils%	None	100	0	2	0
+Basophils#	10^9/L	1	0	2	
+Ca	mmol/L	0.2495	0	2	
+CEA	ng/ml	1	0	0	
+Cl	mmol/l	1	0	0	
+Creatinine	umol/l	11.312	0	2	
+Eosinophils#	10^9/L	1	0	1	
+Eosinophils%	None	100	0	2	0
+Ferritin	ug/L	1	0	0	0
+Glucose	mmol/l	0.0555	0	1	
+Hematocrit	L/L	100	0	2	0
+Hemoglobin	g/L	0.1	0	1	
+Phosphore	mmol/L	3.0959	0	2	1
+Iron_Fe	umol/L	5.586	0	0	
+Lymphocytes#	10^9/L	1	0	1	
+Lymphocytes%	None	100	0	2	0
+MCHC-M	g/L	0.1	0	1	
+MPV	fl	1	0	1	
+Monocytes#	10^9/L	1	0	1	
+Monocytes%	None	100	0	2	0
+Neutrophils#	10^9/L	1	0	1	
+Neutrophils%	None	100	0	2	0
+PDW	%	1	0	1	
+Platelets	10^9/L	1	0	0	
+Potassium	mmol/l	1	0	1	
+RDW	%	1	0	1	
+RBC	10^12/L	1	0	2	
+Na	mmol/l	1	0	0	
+Urea	mmol/l	6.006	0	1	
+Uric_Acid	umol/l	16.811	0	2	
+WBC	10^9/L	1	0	1	
+CA125	U/ml	1	0	0	
+CA153	U/ml	1	0	0	
+CA199	U/ml	1	0	0	
+CA72-4	U/ml	1	0	0	
+PCT	%	1	0	2	
+TIBC	umol/L	1	0	0	

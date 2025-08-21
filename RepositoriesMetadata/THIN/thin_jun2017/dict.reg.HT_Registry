@@ -1,0 +1,4 @@
+SECTION	HT_Registry
+
+DEF	0	HT_Registry_Non_Hypertensive
+DEF	1	HT_Registry_Hypertensive

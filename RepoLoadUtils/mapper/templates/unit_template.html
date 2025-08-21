@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Distribution</title>
+    {{ js_resources|indent(4)|safe }}
+    {{ css_resources|indent(4)|safe }}
+    {{ plot_script|indent(4)|safe }}
+  </head>
+  <body>
+  {% extends "index_template.html" %}
+  {% block content %}
+    <h1> Units </h1>
+    {% for lb in lab_list %}
+        <p><b>{{ lb }}</b></p>
+    {% endfor %}
+  <form action="/units">
+          {% for un in units %}
+              {% if un in curr_units %}
+                  <input type="checkbox" name="unit"  value="{{ un }}" checked>{{ un }}<br>
+              {% else %}
+                  <input type="checkbox" name="unit"  value="{{ un }}">{{ un }}<br>
+              {% endif %}
+          {% endfor %}
+    <input type="submit" value="Update">
+  </form>
+
+    {{ plot_div|indent(4)|safe }}
+  {{ table_script|indent(1)|safe }}
+      <p><b>By Units statistics</b></p>
+    {{ table_div|indent(1)|safe }}
+  {% endblock %}
+  </body>
+</html>l>

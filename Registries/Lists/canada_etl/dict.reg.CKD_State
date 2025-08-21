@@ -1,0 +1,13 @@
+SECTION	CKD_State
+
+DEF	0	CKD_State_Normal
+DEF	1	CKD_State_Level_1
+DEF	2	CKD_State_Level_2
+DEF	3	CKD_State_Level_3
+DEF	4	CKD_State_Level_4
+
+DEF	40050	Any_CKD_State
+SET	Any_CKD_State	CKD_State_Level_1
+SET	Any_CKD_State	CKD_State_Level_2
+SET	Any_CKD_State	CKD_State_Level_3
+SET	Any_CKD_State	CKD_State_Level_4

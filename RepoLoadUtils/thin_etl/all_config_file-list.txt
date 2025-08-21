@@ -1,0 +1,15 @@
+thin_signals_to_united.txt	the mapping file from thin signal ahdcode or readcode to rep signal
+confirm_signals.txt	confirm done processing signals
+special_signals_config.txt	configuration for categorial signals
+thin.signals	thin signal repository format
+thin.convert_config	convert config file
+codes_to_signals	signal rename to repository file
+thin_additional.convert_config	additionla convert config
+Instructions.txt	units deafult units configuration
+unitTranslator.txt	unit configuration
+codesDependency	units configuration special
+thin_cancer_medcodes_20161103	medcodes of cancer for registry
+medcode_2_icdo.txt	medcodes of cancer for registry
+translate_cancer_types.txt	cancer types for registry
+ICD-O	ICD codes
+dosage_rate	drugs dosage for preparing dict

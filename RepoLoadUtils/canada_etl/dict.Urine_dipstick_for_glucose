@@ -1,0 +1,5 @@
+SECTION	Urine_dipstick_for_glucose
+DEF	0	NEG
+DEF	0	NEGATIVE
+DEF	1	>=55
+DEF	1	>55

@@ -1,0 +1,162 @@
+Prolactin :: All :: With Values :: 263392 / 14446692 =  0.02 :: 263392 / 263392 =  1.00
+Prolactin :: Males :: With Values ::  44929 / 6889335 =  0.01 ::  44929 / 263392 =  0.17
+Prolactin :: Females :: With Values :: 218463 / 7557357 =  0.03 :: 218463 / 263392 =  0.83
+Prolactin :: General :: No. of Values :: All 360786 Male  57324 Female 303462
+Prolactin :: General :: No. of different days Values :: All 359401 Male  57123 Female 302278
+Prolactin :: General :: Avg #values per person (all) :: All  0.02 Male  0.01 Female  0.04
+Prolactin :: General :: Avg #values per person (>0)  :: All  1.36 Male  1.27 Female  1.38
+Prolactin :: General :: Avg dist between tests       :: All  579.1 Male  446.5 Female  598.4
+Prolactin :: Counts :: Age Group 20 - 25 :: All ::   7154 0.020
+Prolactin :: Counts :: Age Group 25 - 30 :: All ::   9574 0.027
+Prolactin :: Counts :: Age Group 30 - 35 :: All ::  11638 0.032
+Prolactin :: Counts :: Age Group 35 - 40 :: All ::  10924 0.030
+Prolactin :: Counts :: Age Group 40 - 45 :: All ::   9865 0.027
+Prolactin :: Counts :: Age Group 45 - 50 :: All ::   7827 0.022
+Prolactin :: Counts :: Age Group 50 - 55 :: All ::   4381 0.012
+Prolactin :: Counts :: Age Group 55 - 60 :: All ::   2454 0.007
+Prolactin :: Counts :: Age Group 60 - 65 :: All ::   1742 0.005
+Prolactin :: Counts :: Age Group 65 - 70 :: All ::   1547 0.004
+Prolactin :: Counts :: Age Group 70 - 75 :: All ::    889 0.002
+Prolactin :: Counts :: Age Group 75 - 80 :: All ::    526 0.001
+Prolactin :: Counts :: Age Group 80 - 85 :: All ::    299 0.001
+Prolactin :: Counts :: Age Group 85 - 90 :: All ::    140 0.000
+Prolactin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Prolactin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Prolactin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Prolactin :: Counts :: Age Group 20 - 25 :: Males ::    607 0.011
+Prolactin :: Counts :: Age Group 25 - 30 :: Males ::    579 0.010
+Prolactin :: Counts :: Age Group 30 - 35 :: Males ::    714 0.012
+Prolactin :: Counts :: Age Group 35 - 40 :: Males ::    759 0.013
+Prolactin :: Counts :: Age Group 40 - 45 :: Males ::    942 0.016
+Prolactin :: Counts :: Age Group 45 - 50 :: Males ::   1195 0.021
+Prolactin :: Counts :: Age Group 50 - 55 :: Males ::   1315 0.023
+Prolactin :: Counts :: Age Group 55 - 60 :: Males ::   1314 0.023
+Prolactin :: Counts :: Age Group 60 - 65 :: Males ::   1178 0.021
+Prolactin :: Counts :: Age Group 65 - 70 :: Males ::   1125 0.020
+Prolactin :: Counts :: Age Group 70 - 75 :: Males ::    664 0.012
+Prolactin :: Counts :: Age Group 75 - 80 :: Males ::    355 0.006
+Prolactin :: Counts :: Age Group 80 - 85 :: Males ::    191 0.003
+Prolactin :: Counts :: Age Group 85 - 90 :: Males ::     81 0.001
+Prolactin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Prolactin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Prolactin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Prolactin :: Counts :: Age Group 20 - 25 :: Females ::   6547 0.022
+Prolactin :: Counts :: Age Group 25 - 30 :: Females ::   8995 0.030
+Prolactin :: Counts :: Age Group 30 - 35 :: Females ::  10924 0.036
+Prolactin :: Counts :: Age Group 35 - 40 :: Females ::  10165 0.033
+Prolactin :: Counts :: Age Group 40 - 45 :: Females ::   8923 0.029
+Prolactin :: Counts :: Age Group 45 - 50 :: Females ::   6632 0.022
+Prolactin :: Counts :: Age Group 50 - 55 :: Females ::   3066 0.010
+Prolactin :: Counts :: Age Group 55 - 60 :: Females ::   1140 0.004
+Prolactin :: Counts :: Age Group 60 - 65 :: Females ::    564 0.002
+Prolactin :: Counts :: Age Group 65 - 70 :: Females ::    422 0.001
+Prolactin :: Counts :: Age Group 70 - 75 :: Females ::    225 0.001
+Prolactin :: Counts :: Age Group 75 - 80 :: Females ::    171 0.001
+Prolactin :: Counts :: Age Group 80 - 85 :: Females ::    108 0.000
+Prolactin :: Counts :: Age Group 85 - 90 :: Females ::     59 0.000
+Prolactin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Prolactin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Prolactin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Prolactin :: Stats :: Age Group 20 - 25 :: All ::  N 31990 non-zeros 31975 Median 250.00 Mean 320.37 Std 300.73 Max 4582.00
+Prolactin :: Stats :: Age Group 25 - 30 :: All ::  N 39464 non-zeros 39452 Median 241.00 Mean 319.52 Std 328.13 Max 5185.00
+Prolactin :: Stats :: Age Group 30 - 35 :: All ::  N 43181 non-zeros 43163 Median 231.00 Mean 310.03 Std 329.37 Max 5224.00
+Prolactin :: Stats :: Age Group 35 - 40 :: All ::  N 39574 non-zeros 39560 Median 224.00 Mean 304.01 Std 334.04 Max 5132.00
+Prolactin :: Stats :: Age Group 40 - 45 :: All ::  N 35451 non-zeros 35431 Median 222.00 Mean 296.39 Std 319.58 Max 5020.00
+Prolactin :: Stats :: Age Group 45 - 50 :: All ::  N 23689 non-zeros 23675 Median 214.00 Mean 297.53 Std 351.20 Max 5500.00
+Prolactin :: Stats :: Age Group 50 - 55 :: All ::  N 13182 non-zeros 13174 Median 192.00 Mean 277.60 Std 348.49 Max 5187.00
+Prolactin :: Stats :: Age Group 55 - 60 :: All ::  N 8383 non-zeros 8378 Median 173.00 Mean 248.29 Std 312.64 Max 4643.00
+Prolactin :: Stats :: Age Group 60 - 65 :: All ::  N 6626 non-zeros 6619 Median 170.00 Mean 246.83 Std 336.86 Max 4976.00
+Prolactin :: Stats :: Age Group 65 - 70 :: All ::  N 5085 non-zeros 5077 Median 169.00 Mean 234.51 Std 284.59 Max 4121.00
+Prolactin :: Stats :: Age Group 70 - 75 :: All ::  N 2904 non-zeros 2903 Median 174.00 Mean 252.76 Std 338.97 Max 5318.00
+Prolactin :: Stats :: Age Group 75 - 80 :: All ::  N 1722 non-zeros 1722 Median 181.00 Mean 271.62 Std 357.10 Max 5331.00
+Prolactin :: Stats :: Age Group 80 - 85 :: All ::  N 894 non-zeros 892 Median 197.00 Mean 365.28 Std 678.35 Max 10000.00
+Prolactin :: Stats :: Age Group 85 - 90 :: All ::  N 387 non-zeros 387 Median 217.00 Mean 412.18 Std 769.00 Max 10926.00
+Prolactin :: Stats :: Age Group 90 - 95 :: All ::  N 119 non-zeros 119 Median 280.00 Mean 496.64 Std 1022.52 Max 10000.00
+Prolactin :: Stats :: Age Group 95 - 100 :: All ::  N 19 non-zeros 19 Median 350.00 Mean 773.74 Std 1166.71 Max 5404.00
+Prolactin :: General :: All     :: outliers ratio 0.001074
+Prolactin :: General :: All     :: N 230645 non-zeros 230522 Median 220.00 Mean 293.47 Std 307.58 Max 4905.00
+Prolactin :: General :: All     :: distribution 0.001,0.01,0.05 ::  10.00  61.00  94.00 676.00 1668.00 3744.00
+Prolactin :: General :: All     :: quartiles ::  10.00 154.00 220.00 327.00 
+Prolactin :: General :: Males   :: outliers ratio 0.002115
+Prolactin :: General :: Males   :: N 41049 non-zeros 41021 Median 180.00 Mean 234.22 Std 221.33 Max 3481.00
+Prolactin :: General :: Males   :: distribution 0.001,0.01,0.05 ::   7.00  48.00  82.00 549.00 1189.00 2649.00
+Prolactin :: General :: Males   :: quartiles ::   7.00 131.00 180.00 257.00 
+Prolactin :: General :: Females :: outliers ratio 0.000801
+Prolactin :: General :: Females :: N 189605 non-zeros 189521 Median 230.00 Mean 306.33 Std 323.81 Max 5151.00
+Prolactin :: General :: Females :: distribution 0.001,0.01,0.05 ::  13.00  64.00  98.00 695.00 1777.00 3932.00
+Prolactin :: General :: Females :: quartiles ::  13.00 161.00 230.00 340.00 
+Prolactin :: Rounding ::  0.00 r  0.00 pct
+Prolactin :: Rounding ::  0.01 r  0.00 pct
+Prolactin :: Rounding ::  0.10 r  0.00 pct
+Prolactin :: Rounding ::  1.00 r  0.89 pct
+Prolactin :: Rounding :: 10.00 r  0.10 pct
+Prolactin :: Rounding :: 100.00 r  0.01 pct
+Prolactin :: Rounding :: 1000.00 r  0.00 pct
+Prolactin :: Rounding :: most popular rounding for vals:  1.00
+Prolactin :: Stats year :: 2000 :: All :: N 5555 non-zeros 5552 Median 223.00 Mean 320.43 Std 389.04 Max 5224.00
+Prolactin :: Stats year :: 2001 :: All :: N 7717 non-zeros 7711 Median 218.00 Mean 309.63 Std 365.57 Max 5580.00
+Prolactin :: Stats year :: 2002 :: All :: N 10211 non-zeros 10203 Median 221.00 Mean 312.12 Std 365.91 Max 5770.00
+Prolactin :: Stats year :: 2003 :: All :: N 12627 non-zeros 12623 Median 216.00 Mean 312.33 Std 383.99 Max 5690.00
+Prolactin :: Stats year :: 2004 :: All :: N 14753 non-zeros 14746 Median 219.00 Mean 315.56 Std 378.58 Max 5615.00
+Prolactin :: Stats year :: 2005 :: All :: N 16461 non-zeros 16448 Median 223.00 Mean 317.11 Std 372.20 Max 5666.00
+Prolactin :: Stats year :: 2006 :: All :: N 17802 non-zeros 17800 Median 219.00 Mean 306.68 Std 360.68 Max 5684.00
+Prolactin :: Stats year :: 2007 :: All :: N 18662 non-zeros 18659 Median 220.00 Mean 305.86 Std 340.75 Max 4974.00
+Prolactin :: Stats year :: 2008 :: All :: N 20462 non-zeros 20461 Median 221.00 Mean 309.15 Std 350.96 Max 5533.00
+Prolactin :: Stats year :: 2009 :: All :: N 22130 non-zeros 22086 Median 222.00 Mean 305.95 Std 343.84 Max 5423.00
+Prolactin :: Stats year :: 2010 :: All :: N 22264 non-zeros 22234 Median 223.00 Mean 307.98 Std 335.13 Max 4931.00
+Prolactin :: Stats year :: 2011 :: All :: N 22935 non-zeros 22910 Median 227.00 Mean 319.12 Std 371.13 Max 5680.00
+Prolactin :: Stats year :: 2012 :: All :: N 24005 non-zeros 23997 Median 233.00 Mean 328.57 Std 385.51 Max 6108.00
+Prolactin :: Stats year :: 2013 :: All :: N 24053 non-zeros 24053 Median 231.00 Mean 323.87 Std 375.08 Max 5878.00
+Prolactin :: Stats year :: 2014 :: All :: N 22648 non-zeros 22647 Median 233.00 Mean 323.41 Std 369.44 Max 5756.00
+Prolactin :: Stats year :: 2015 :: All :: N 19093 non-zeros 19093 Median 234.00 Mean 328.98 Std 379.82 Max 5742.00
+Prolactin :: Stats year :: 2016 :: All :: N 520 non-zeros 520 Median 244.00 Mean 366.61 Std 488.59 Max 6554.00
+Prolactin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Prolactin :: Stats year :: 2000 :: Males   :: N 701 non-zeros 700 Median 171.00 Mean 231.49 Std 284.16 Max 3841.00
+Prolactin :: Stats year :: 2001 :: Males   :: N 1009 non-zeros 1007 Median 164.00 Mean 224.23 Std 301.31 Max 4374.00
+Prolactin :: Stats year :: 2002 :: Males   :: N 1356 non-zeros 1355 Median 173.00 Mean 235.23 Std 288.00 Max 4529.00
+Prolactin :: Stats year :: 2003 :: Males   :: N 1898 non-zeros 1898 Median 172.00 Mean 226.80 Std 255.61 Max 3734.00
+Prolactin :: Stats year :: 2004 :: Males   :: N 1986 non-zeros 1986 Median 176.00 Mean 240.78 Std 265.38 Max 4157.00
+Prolactin :: Stats year :: 2005 :: Males   :: N 2172 non-zeros 2171 Median 177.00 Mean 242.75 Std 285.66 Max 4200.00
+Prolactin :: Stats year :: 2006 :: Males   :: N 2271 non-zeros 2270 Median 171.00 Mean 245.23 Std 294.66 Max 4262.00
+Prolactin :: Stats year :: 2007 :: Males   :: N 2550 non-zeros 2550 Median 174.00 Mean 235.25 Std 235.75 Max 2991.00
+Prolactin :: Stats year :: 2008 :: Males   :: N 3002 non-zeros 3002 Median 177.00 Mean 245.33 Std 265.98 Max 4200.00
+Prolactin :: Stats year :: 2009 :: Males   :: N 3516 non-zeros 3502 Median 177.00 Mean 245.47 Std 273.17 Max 4240.00
+Prolactin :: Stats year :: 2010 :: Males   :: N 3978 non-zeros 3970 Median 180.00 Mean 242.68 Std 242.19 Max 3604.00
+Prolactin :: Stats year :: 2011 :: Males   :: N 4137 non-zeros 4132 Median 183.00 Mean 245.03 Std 230.86 Max 3643.00
+Prolactin :: Stats year :: 2012 :: Males   :: N 4528 non-zeros 4526 Median 195.00 Mean 273.40 Std 310.87 Max 4248.00
+Prolactin :: Stats year :: 2013 :: Males   :: N 5064 non-zeros 5064 Median 190.00 Mean 266.57 Std 303.68 Max 4240.00
+Prolactin :: Stats year :: 2014 :: Males   :: N 4848 non-zeros 4847 Median 195.00 Mean 272.13 Std 291.57 Max 4470.00
+Prolactin :: Stats year :: 2015 :: Males   :: N 4069 non-zeros 4069 Median 200.00 Mean 272.90 Std 277.20 Max 4132.00
+Prolactin :: Stats year :: 2016 :: Males   :: N 102 non-zeros 102 Median 206.00 Mean 294.46 Std 379.22 Max 3291.00
+Prolactin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Prolactin :: Stats year :: 2000 :: Females :: N 4855 non-zeros 4853 Median 231.00 Mean 329.89 Std 392.48 Max 5501.00
+Prolactin :: Stats year :: 2001 :: Females :: N 6708 non-zeros 6704 Median 228.00 Mean 321.20 Std 366.24 Max 5580.00
+Prolactin :: Stats year :: 2002 :: Females :: N 8855 non-zeros 8852 Median 231.00 Mean 323.36 Std 375.72 Max 5925.00
+Prolactin :: Stats year :: 2003 :: Females :: N 10730 non-zeros 10726 Median 225.00 Mean 326.97 Std 401.13 Max 6288.00
+Prolactin :: Stats year :: 2004 :: Females :: N 12766 non-zeros 12761 Median 226.00 Mean 327.40 Std 390.41 Max 5323.00
+Prolactin :: Stats year :: 2005 :: Females :: N 14292 non-zeros 14280 Median 231.00 Mean 331.49 Std 395.94 Max 6176.00
+Prolactin :: Stats year :: 2006 :: Females :: N 15532 non-zeros 15531 Median 226.00 Mean 315.48 Std 364.99 Max 5684.00
+Prolactin :: Stats year :: 2007 :: Females :: N 16115 non-zeros 16113 Median 229.00 Mean 318.85 Std 360.62 Max 5548.00
+Prolactin :: Stats year :: 2008 :: Females :: N 17457 non-zeros 17455 Median 229.00 Mean 319.97 Std 364.57 Max 5648.00
+Prolactin :: Stats year :: 2009 :: Females :: N 18611 non-zeros 18582 Median 231.00 Mean 317.42 Std 353.05 Max 5569.00
+Prolactin :: Stats year :: 2010 :: Females :: N 18285 non-zeros 18262 Median 235.00 Mean 322.16 Std 353.21 Max 5615.00
+Prolactin :: Stats year :: 2011 :: Females :: N 18794 non-zeros 18773 Median 239.00 Mean 334.38 Std 387.65 Max 6104.00
+Prolactin :: Stats year :: 2012 :: Females :: N 19475 non-zeros 19470 Median 243.00 Mean 342.30 Std 399.22 Max 6108.00
+Prolactin :: Stats year :: 2013 :: Females :: N 18988 non-zeros 18988 Median 244.00 Mean 337.42 Std 381.15 Max 5878.00
+Prolactin :: Stats year :: 2014 :: Females :: N 17798 non-zeros 17798 Median 244.00 Mean 335.92 Std 381.51 Max 6031.00
+Prolactin :: Stats year :: 2015 :: Females :: N 15022 non-zeros 15022 Median 245.00 Mean 341.35 Std 396.17 Max 6070.00
+Prolactin :: Stats year :: 2016 :: Females :: N 418 non-zeros 418 Median 257.00 Mean 379.42 Std 508.64 Max 6554.00
+Prolactin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Prolactin :: Stats month 1 :: All :: N 21384 non-zeros 21373 Median 227.00 Mean 321.65 Std 381.74 Max 5937.00
+Prolactin :: Stats month 2 :: All :: N 21465 non-zeros 21457 Median 223.00 Mean 308.22 Std 350.78 Max 5488.00
+Prolactin :: Stats month 3 :: All :: N 23124 non-zeros 23112 Median 219.00 Mean 300.21 Std 332.16 Max 5120.00
+Prolactin :: Stats month 4 :: All :: N 21243 non-zeros 21237 Median 223.00 Mean 311.18 Std 360.76 Max 5569.00
+Prolactin :: Stats month 5 :: All :: N 22413 non-zeros 22400 Median 222.00 Mean 306.97 Std 346.43 Max 5275.00
+Prolactin :: Stats month 6 :: All :: N 22809 non-zeros 22799 Median 225.00 Mean 309.41 Std 340.31 Max 5240.00
+Prolactin :: Stats month 7 :: All :: N 23414 non-zeros 23401 Median 230.00 Mean 315.17 Std 341.72 Max 5416.00
+Prolactin :: Stats month 8 :: All :: N 21826 non-zeros 21819 Median 231.00 Mean 316.87 Std 336.43 Max 5331.00
+Prolactin :: Stats month 9 :: All :: N 23826 non-zeros 23810 Median 220.00 Mean 305.58 Std 341.00 Max 5369.00
+Prolactin :: Stats month 10 :: All :: N 24093 non-zeros 24075 Median 225.00 Mean 310.23 Std 354.18 Max 5506.00
+Prolactin :: Stats month 11 :: All :: N 22465 non-zeros 22451 Median 221.00 Mean 305.81 Std 338.41 Max 5372.00
+Prolactin :: Stats month 12 :: All :: N 17361 non-zeros 17356 Median 231.00 Mean 317.91 Std 349.47 Max 5500.00
+

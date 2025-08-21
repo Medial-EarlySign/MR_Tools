@@ -1,0 +1,162 @@
+Basophils% :: All :: With Values :: 405131 / 14446692 =  0.03 :: 405131 / 405131 =  1.00
+Basophils% :: Males :: With Values :: 165355 / 6889335 =  0.02 :: 165355 / 405131 =  0.41
+Basophils% :: Females :: With Values :: 239776 / 7557357 =  0.03 :: 239776 / 405131 =  0.59
+Basophils% :: General :: No. of Values :: All 1437978 Male 543023 Female 894955
+Basophils% :: General :: No. of different days Values :: All 1437194 Male 542689 Female 894505
+Basophils% :: General :: Avg #values per person (all) :: All  0.10 Male  0.08 Female  0.12
+Basophils% :: General :: Avg #values per person (>0)  :: All  3.55 Male  3.28 Female  3.73
+Basophils% :: General :: Avg dist between tests       :: All  353.5 Male  364.6 Female  347.0
+Basophils% :: Counts :: Age Group 20 - 25 :: All ::   9228 0.006
+Basophils% :: Counts :: Age Group 25 - 30 :: All ::  11192 0.008
+Basophils% :: Counts :: Age Group 30 - 35 :: All ::  14509 0.010
+Basophils% :: Counts :: Age Group 35 - 40 :: All ::  15833 0.011
+Basophils% :: Counts :: Age Group 40 - 45 :: All ::  18090 0.013
+Basophils% :: Counts :: Age Group 45 - 50 :: All ::  20400 0.014
+Basophils% :: Counts :: Age Group 50 - 55 :: All ::  22304 0.016
+Basophils% :: Counts :: Age Group 55 - 60 :: All ::  23500 0.016
+Basophils% :: Counts :: Age Group 60 - 65 :: All ::  25532 0.018
+Basophils% :: Counts :: Age Group 65 - 70 :: All ::  26628 0.019
+Basophils% :: Counts :: Age Group 70 - 75 :: All ::  24736 0.017
+Basophils% :: Counts :: Age Group 75 - 80 :: All ::  23591 0.016
+Basophils% :: Counts :: Age Group 80 - 85 :: All ::  20601 0.014
+Basophils% :: Counts :: Age Group 85 - 90 :: All ::  14267 0.010
+Basophils% :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Basophils% :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Basophils% :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Basophils% :: Counts :: Age Group 20 - 25 :: Males ::   2229 0.004
+Basophils% :: Counts :: Age Group 25 - 30 :: Males ::   2557 0.005
+Basophils% :: Counts :: Age Group 30 - 35 :: Males ::   3559 0.007
+Basophils% :: Counts :: Age Group 35 - 40 :: Males ::   4329 0.008
+Basophils% :: Counts :: Age Group 40 - 45 :: Males ::   5878 0.011
+Basophils% :: Counts :: Age Group 45 - 50 :: Males ::   7318 0.013
+Basophils% :: Counts :: Age Group 50 - 55 :: Males ::   8796 0.016
+Basophils% :: Counts :: Age Group 55 - 60 :: Males ::  10046 0.019
+Basophils% :: Counts :: Age Group 60 - 65 :: Males ::  11392 0.021
+Basophils% :: Counts :: Age Group 65 - 70 :: Males ::  12335 0.023
+Basophils% :: Counts :: Age Group 70 - 75 :: Males ::  11220 0.021
+Basophils% :: Counts :: Age Group 75 - 80 :: Males ::  10136 0.019
+Basophils% :: Counts :: Age Group 80 - 85 :: Males ::   8162 0.015
+Basophils% :: Counts :: Age Group 85 - 90 :: Males ::   4989 0.009
+Basophils% :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Basophils% :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Basophils% :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Basophils% :: Counts :: Age Group 20 - 25 :: Females ::   6999 0.008
+Basophils% :: Counts :: Age Group 25 - 30 :: Females ::   8635 0.010
+Basophils% :: Counts :: Age Group 30 - 35 :: Females ::  10950 0.012
+Basophils% :: Counts :: Age Group 35 - 40 :: Females ::  11504 0.013
+Basophils% :: Counts :: Age Group 40 - 45 :: Females ::  12212 0.014
+Basophils% :: Counts :: Age Group 45 - 50 :: Females ::  13082 0.015
+Basophils% :: Counts :: Age Group 50 - 55 :: Females ::  13508 0.015
+Basophils% :: Counts :: Age Group 55 - 60 :: Females ::  13454 0.015
+Basophils% :: Counts :: Age Group 60 - 65 :: Females ::  14140 0.016
+Basophils% :: Counts :: Age Group 65 - 70 :: Females ::  14293 0.016
+Basophils% :: Counts :: Age Group 70 - 75 :: Females ::  13516 0.015
+Basophils% :: Counts :: Age Group 75 - 80 :: Females ::  13455 0.015
+Basophils% :: Counts :: Age Group 80 - 85 :: Females ::  12439 0.014
+Basophils% :: Counts :: Age Group 85 - 90 :: Females ::   9278 0.010
+Basophils% :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Basophils% :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Basophils% :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Basophils% :: Stats :: Age Group 20 - 25 :: All ::  N 28954 non-zeros 13361 Median   0.00 Mean   0.51 Std   0.63 Max   9.00
+Basophils% :: Stats :: Age Group 25 - 30 :: All ::  N 34212 non-zeros 15565 Median   0.00 Mean   0.50 Std   0.60 Max   8.00
+Basophils% :: Stats :: Age Group 30 - 35 :: All ::  N 39679 non-zeros 18454 Median   0.00 Mean   0.51 Std   0.60 Max   7.00
+Basophils% :: Stats :: Age Group 35 - 40 :: All ::  N 42065 non-zeros 21610 Median   1.00 Mean   0.56 Std   0.61 Max   8.00
+Basophils% :: Stats :: Age Group 40 - 45 :: All ::  N 46091 non-zeros 25650 Median   1.00 Mean   0.61 Std   0.60 Max   9.00
+Basophils% :: Stats :: Age Group 45 - 50 :: All ::  N 48072 non-zeros 27443 Median   1.00 Mean   0.63 Std   0.60 Max   9.00
+Basophils% :: Stats :: Age Group 50 - 55 :: All ::  N 48319 non-zeros 28267 Median   1.00 Mean   0.64 Std   0.60 Max   9.00
+Basophils% :: Stats :: Age Group 55 - 60 :: All ::  N 48691 non-zeros 28615 Median   1.00 Mean   0.64 Std   0.60 Max   8.00
+Basophils% :: Stats :: Age Group 60 - 65 :: All ::  N 46947 non-zeros 27680 Median   1.00 Mean   0.65 Std   0.60 Max   8.00
+Basophils% :: Stats :: Age Group 65 - 70 :: All ::  N 42908 non-zeros 25025 Median   1.00 Mean   0.64 Std   0.60 Max   8.00
+Basophils% :: Stats :: Age Group 70 - 75 :: All ::  N 37690 non-zeros 21434 Median   1.00 Mean   0.62 Std   0.59 Max   9.00
+Basophils% :: Stats :: Age Group 75 - 80 :: All ::  N 33128 non-zeros 18114 Median   1.00 Mean   0.60 Std   0.60 Max   8.00
+Basophils% :: Stats :: Age Group 80 - 85 :: All ::  N 26490 non-zeros 13878 Median   1.00 Mean   0.57 Std   0.60 Max   8.00
+Basophils% :: Stats :: Age Group 85 - 90 :: All ::  N 16926 non-zeros 8729 Median   1.00 Mean   0.56 Std   0.60 Max   8.00
+Basophils% :: Stats :: Age Group 90 - 95 :: All ::  N 7645 non-zeros 3833 Median   1.00 Mean   0.56 Std   0.62 Max   5.00
+Basophils% :: Stats :: Age Group 95 - 100 :: All ::  N 1936 non-zeros 984 Median   1.00 Mean   0.57 Std   0.64 Max   6.00
+Basophils% :: General :: All     :: outliers ratio 0.000078
+Basophils% :: General :: All     :: N 369880 non-zeros 193329 Median   1.00 Mean   0.57 Std   0.60 Max   9.00
+Basophils% :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.00   1.00   1.00   2.00   2.00   5.00
+Basophils% :: General :: All     :: quartiles ::   1.00   1.00   1.00   1.00 
+Basophils% :: General :: Males   :: outliers ratio 0.000079
+Basophils% :: General :: Males   :: N 151107 non-zeros 81754 Median   1.00 Mean   0.59 Std   0.60 Max   9.00
+Basophils% :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.00   1.00   1.00   2.00   2.00   4.00
+Basophils% :: General :: Males   :: quartiles ::   1.00   1.00   1.00   1.00 
+Basophils% :: General :: Females :: outliers ratio 0.000069
+Basophils% :: General :: Females :: N 218775 non-zeros 111880 Median   1.00 Mean   0.56 Std   0.60 Max   9.00
+Basophils% :: General :: Females :: distribution 0.001,0.01,0.05 ::   1.00   1.00   1.00   2.00   2.00   4.00
+Basophils% :: General :: Females :: quartiles ::   1.00   1.00   1.00   1.00 
+Basophils% :: Rounding ::  0.00 r  0.00 pct
+Basophils% :: Rounding ::  0.01 r  0.00 pct
+Basophils% :: Rounding ::  0.10 r  0.00 pct
+Basophils% :: Rounding ::  1.00 r  1.00 pct
+Basophils% :: Rounding :: 10.00 r  0.00 pct
+Basophils% :: Rounding :: 100.00 r  0.00 pct
+Basophils% :: Rounding :: 1000.00 r  0.00 pct
+Basophils% :: Rounding :: most popular rounding for vals:  1.00
+Basophils% :: Stats year :: 2000 :: All :: N 8476 non-zeros 3561 Median   0.00 Mean   0.46 Std   0.62 Max   9.00
+Basophils% :: Stats year :: 2001 :: All :: N 16002 non-zeros 7451 Median   0.00 Mean   0.50 Std   0.60 Max   8.00
+Basophils% :: Stats year :: 2002 :: All :: N 27823 non-zeros 13537 Median   0.00 Mean   0.51 Std   0.56 Max   6.00
+Basophils% :: Stats year :: 2003 :: All :: N 49656 non-zeros 25612 Median   1.00 Mean   0.55 Std   0.57 Max   8.00
+Basophils% :: Stats year :: 2004 :: All :: N 59275 non-zeros 30151 Median   1.00 Mean   0.54 Std   0.57 Max   8.00
+Basophils% :: Stats year :: 2005 :: All :: N 66918 non-zeros 38037 Median   1.00 Mean   0.63 Std   0.61 Max   8.00
+Basophils% :: Stats year :: 2006 :: All :: N 80329 non-zeros 47947 Median   1.00 Mean   0.68 Std   0.64 Max   9.00
+Basophils% :: Stats year :: 2007 :: All :: N 85745 non-zeros 47548 Median   1.00 Mean   0.62 Std   0.64 Max  10.00
+Basophils% :: Stats year :: 2008 :: All :: N 71810 non-zeros 36235 Median   1.00 Mean   0.56 Std   0.61 Max   9.00
+Basophils% :: Stats year :: 2009 :: All :: N 72125 non-zeros 37973 Median   1.00 Mean   0.57 Std   0.60 Max   9.00
+Basophils% :: Stats year :: 2010 :: All :: N 69192 non-zeros 36983 Median   1.00 Mean   0.59 Std   0.60 Max   8.00
+Basophils% :: Stats year :: 2011 :: All :: N 72197 non-zeros 41257 Median   1.00 Mean   0.63 Std   0.61 Max   8.00
+Basophils% :: Stats year :: 2012 :: All :: N 66607 non-zeros 40800 Median   1.00 Mean   0.70 Std   0.63 Max  10.00
+Basophils% :: Stats year :: 2013 :: All :: N 71656 non-zeros 42061 Median   1.00 Mean   0.66 Std   0.63 Max  10.00
+Basophils% :: Stats year :: 2014 :: All :: N 57661 non-zeros 35087 Median   1.00 Mean   0.66 Std   0.59 Max   8.00
+Basophils% :: Stats year :: 2015 :: All :: N 41969 non-zeros 29080 Median   1.00 Mean   0.73 Std   0.53 Max   7.00
+Basophils% :: Stats year :: 2016 :: All :: N 2229 non-zeros 1631 Median   1.00 Mean   0.77 Std   0.51 Max   4.00
+Basophils% :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Basophils% :: Stats year :: 2000 :: Males   :: N 2894 non-zeros 1225 Median   0.00 Mean   0.47 Std   0.60 Max   9.00
+Basophils% :: Stats year :: 2001 :: Males   :: N 5506 non-zeros 2642 Median   0.00 Mean   0.52 Std   0.59 Max   6.00
+Basophils% :: Stats year :: 2002 :: Males   :: N 9948 non-zeros 5126 Median   1.00 Mean   0.54 Std   0.56 Max   5.00
+Basophils% :: Stats year :: 2003 :: Males   :: N 18095 non-zeros 10059 Median   1.00 Mean   0.59 Std   0.58 Max   8.00
+Basophils% :: Stats year :: 2004 :: Males   :: N 22204 non-zeros 11915 Median   1.00 Mean   0.57 Std   0.57 Max   7.00
+Basophils% :: Stats year :: 2005 :: Males   :: N 25333 non-zeros 14855 Median   1.00 Mean   0.64 Std   0.60 Max   6.00
+Basophils% :: Stats year :: 2006 :: Males   :: N 30922 non-zeros 18879 Median   1.00 Mean   0.69 Std   0.63 Max   9.00
+Basophils% :: Stats year :: 2007 :: Males   :: N 33900 non-zeros 19317 Median   1.00 Mean   0.63 Std   0.63 Max  10.00
+Basophils% :: Stats year :: 2008 :: Males   :: N 28364 non-zeros 14521 Median   1.00 Mean   0.56 Std   0.61 Max   9.00
+Basophils% :: Stats year :: 2009 :: Males   :: N 28811 non-zeros 15319 Median   1.00 Mean   0.58 Std   0.59 Max   7.00
+Basophils% :: Stats year :: 2010 :: Males   :: N 28016 non-zeros 15042 Median   1.00 Mean   0.59 Std   0.60 Max   8.00
+Basophils% :: Stats year :: 2011 :: Males   :: N 29322 non-zeros 16971 Median   1.00 Mean   0.64 Std   0.60 Max   9.00
+Basophils% :: Stats year :: 2012 :: Males   :: N 27111 non-zeros 16885 Median   1.00 Mean   0.70 Std   0.62 Max   9.00
+Basophils% :: Stats year :: 2013 :: Males   :: N 28470 non-zeros 17085 Median   1.00 Mean   0.67 Std   0.61 Max   9.00
+Basophils% :: Stats year :: 2014 :: Males   :: N 22825 non-zeros 14226 Median   1.00 Mean   0.68 Std   0.59 Max   8.00
+Basophils% :: Stats year :: 2015 :: Males   :: N 16958 non-zeros 11916 Median   1.00 Mean   0.74 Std   0.52 Max   7.00
+Basophils% :: Stats year :: 2016 :: Males   :: N 927 non-zeros 673 Median   1.00 Mean   0.76 Std   0.51 Max   2.00
+Basophils% :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Basophils% :: Stats year :: 2000 :: Females :: N 5582 non-zeros 2317 Median   0.00 Mean   0.46 Std   0.62 Max   8.00
+Basophils% :: Stats year :: 2001 :: Females :: N 10495 non-zeros 4788 Median   0.00 Mean   0.49 Std   0.60 Max   8.00
+Basophils% :: Stats year :: 2002 :: Females :: N 17875 non-zeros 8416 Median   0.00 Mean   0.49 Std   0.56 Max   6.00
+Basophils% :: Stats year :: 2003 :: Females :: N 31562 non-zeros 15662 Median   0.00 Mean   0.53 Std   0.56 Max   6.00
+Basophils% :: Stats year :: 2004 :: Females :: N 37071 non-zeros 18185 Median   0.00 Mean   0.52 Std   0.56 Max   7.00
+Basophils% :: Stats year :: 2005 :: Females :: N 41585 non-zeros 23087 Median   1.00 Mean   0.62 Std   0.61 Max   6.00
+Basophils% :: Stats year :: 2006 :: Females :: N 49407 non-zeros 29034 Median   1.00 Mean   0.67 Std   0.65 Max   9.00
+Basophils% :: Stats year :: 2007 :: Females :: N 51848 non-zeros 28133 Median   1.00 Mean   0.61 Std   0.65 Max   9.00
+Basophils% :: Stats year :: 2008 :: Females :: N 43447 non-zeros 21729 Median   1.00 Mean   0.55 Std   0.61 Max   8.00
+Basophils% :: Stats year :: 2009 :: Females :: N 43315 non-zeros 22633 Median   1.00 Mean   0.57 Std   0.60 Max   9.00
+Basophils% :: Stats year :: 2010 :: Females :: N 41175 non-zeros 21969 Median   1.00 Mean   0.59 Std   0.61 Max   8.00
+Basophils% :: Stats year :: 2011 :: Females :: N 42875 non-zeros 24315 Median   1.00 Mean   0.63 Std   0.62 Max   9.00
+Basophils% :: Stats year :: 2012 :: Females :: N 39496 non-zeros 23814 Median   1.00 Mean   0.69 Std   0.64 Max  10.00
+Basophils% :: Stats year :: 2013 :: Females :: N 43189 non-zeros 25012 Median   1.00 Mean   0.65 Std   0.63 Max  10.00
+Basophils% :: Stats year :: 2014 :: Females :: N 34837 non-zeros 20840 Median   1.00 Mean   0.65 Std   0.59 Max   8.00
+Basophils% :: Stats year :: 2015 :: Females :: N 25011 non-zeros 17108 Median   1.00 Mean   0.72 Std   0.53 Max   6.00
+Basophils% :: Stats year :: 2016 :: Females :: N 1302 non-zeros 959 Median   1.00 Mean   0.77 Std   0.51 Max   4.00
+Basophils% :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Basophils% :: Stats month 1 :: All :: N 62414 non-zeros 33355 Median   1.00 Mean   0.59 Std   0.61 Max   9.00
+Basophils% :: Stats month 2 :: All :: N 59068 non-zeros 31626 Median   1.00 Mean   0.59 Std   0.60 Max   9.00
+Basophils% :: Stats month 3 :: All :: N 63060 non-zeros 33978 Median   1.00 Mean   0.59 Std   0.61 Max   9.00
+Basophils% :: Stats month 4 :: All :: N 58483 non-zeros 31779 Median   1.00 Mean   0.60 Std   0.61 Max   9.00
+Basophils% :: Stats month 5 :: All :: N 59554 non-zeros 32607 Median   1.00 Mean   0.60 Std   0.61 Max   8.00
+Basophils% :: Stats month 6 :: All :: N 61944 non-zeros 33938 Median   1.00 Mean   0.61 Std   0.62 Max   9.00
+Basophils% :: Stats month 7 :: All :: N 61414 non-zeros 33419 Median   1.00 Mean   0.60 Std   0.61 Max   9.00
+Basophils% :: Stats month 8 :: All :: N 57838 non-zeros 31446 Median   1.00 Mean   0.59 Std   0.59 Max   9.00
+Basophils% :: Stats month 9 :: All :: N 62450 non-zeros 33701 Median   1.00 Mean   0.59 Std   0.60 Max   9.00
+Basophils% :: Stats month 10 :: All :: N 63578 non-zeros 34808 Median   1.00 Mean   0.60 Std   0.59 Max   9.00
+Basophils% :: Stats month 11 :: All :: N 61521 non-zeros 34012 Median   1.00 Mean   0.60 Std   0.60 Max   9.00
+Basophils% :: Stats month 12 :: All :: N 50537 non-zeros 27090 Median   1.00 Mean   0.59 Std   0.60 Max   9.00
+

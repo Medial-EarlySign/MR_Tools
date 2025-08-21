@@ -1,0 +1,7 @@
+CIS,CRC,Colon
+CIS,CRC,Rectum
+Digestive Organs,Digestive Organs,Colon
+Digestive Organs,Digestive Organs,Rectum
+Colon_Cancer
+CRC_Cancer
+[M] Cancer,Colon,Colon

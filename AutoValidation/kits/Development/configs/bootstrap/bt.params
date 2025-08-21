@@ -1,0 +1,2 @@
+MULTI	Age:45,75;Age:50,75	Time-Window:0,180;Time-Window:180,365;Time-Window:365,730;Time-Window:0,365;Time-Window:0,730
+MULTI	Age:50,75	Time-Window:0,365	Time.Year:2012,2012;Time.Year:2008,2008

@@ -1,0 +1,5 @@
+predictor	string
+predictor_params	string
+importance_params	string
+minStat	float
+selected	vector<string>

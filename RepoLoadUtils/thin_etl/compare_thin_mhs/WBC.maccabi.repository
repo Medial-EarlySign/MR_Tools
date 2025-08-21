@@ -1,0 +1,162 @@
+WBC :: All :: With Values :: 948637 / 1279479 =  0.74 :: 948637 / 948637 =  1.00
+WBC :: Males :: With Values :: 446064 / 622859 =  0.72 :: 446064 / 948637 =  0.47
+WBC :: Females :: With Values :: 502573 / 656620 =  0.77 :: 502573 / 948637 =  0.53
+WBC :: General :: No. of Values :: All 13838965 Male 5405014 Female 8433951
+WBC :: General :: No. of different days Values :: All 13832752 Male 5402402 Female 8430350
+WBC :: General :: Avg #values per person (all) :: All 10.81 Male  8.67 Female 12.84
+WBC :: General :: Avg #values per person (>0)  :: All 14.58 Male 12.11 Female 16.77
+WBC :: General :: Avg dist between tests       :: All  260.6 Male  291.8 Female  241.1
+WBC :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+WBC :: Counts :: Age Group 25 - 30 :: All ::   5362 0.000
+WBC :: Counts :: Age Group 30 - 35 :: All :: 136869 0.010
+WBC :: Counts :: Age Group 35 - 40 :: All :: 257397 0.019
+WBC :: Counts :: Age Group 40 - 45 :: All :: 325975 0.024
+WBC :: Counts :: Age Group 45 - 50 :: All :: 284692 0.021
+WBC :: Counts :: Age Group 50 - 55 :: All :: 289681 0.021
+WBC :: Counts :: Age Group 55 - 60 :: All :: 297478 0.021
+WBC :: Counts :: Age Group 60 - 65 :: All :: 278729 0.020
+WBC :: Counts :: Age Group 65 - 70 :: All :: 254421 0.018
+WBC :: Counts :: Age Group 70 - 75 :: All :: 201417 0.015
+WBC :: Counts :: Age Group 75 - 80 :: All :: 180925 0.013
+WBC :: Counts :: Age Group 80 - 85 :: All :: 130571 0.009
+WBC :: Counts :: Age Group 85 - 90 :: All ::  80845 0.006
+WBC :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+WBC :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+WBC :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+WBC :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+WBC :: Counts :: Age Group 25 - 30 :: Males ::    961 0.000
+WBC :: Counts :: Age Group 30 - 35 :: Males ::  27253 0.005
+WBC :: Counts :: Age Group 35 - 40 :: Males ::  65609 0.012
+WBC :: Counts :: Age Group 40 - 45 :: Males :: 108672 0.020
+WBC :: Counts :: Age Group 45 - 50 :: Males :: 111395 0.021
+WBC :: Counts :: Age Group 50 - 55 :: Males :: 119028 0.022
+WBC :: Counts :: Age Group 55 - 60 :: Males :: 126709 0.023
+WBC :: Counts :: Age Group 60 - 65 :: Males :: 123348 0.023
+WBC :: Counts :: Age Group 65 - 70 :: Males :: 114988 0.021
+WBC :: Counts :: Age Group 70 - 75 :: Males ::  93194 0.017
+WBC :: Counts :: Age Group 75 - 80 :: Males ::  82639 0.015
+WBC :: Counts :: Age Group 80 - 85 :: Males ::  57112 0.011
+WBC :: Counts :: Age Group 85 - 90 :: Males ::  33422 0.006
+WBC :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+WBC :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+WBC :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+WBC :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+WBC :: Counts :: Age Group 25 - 30 :: Females ::   4401 0.001
+WBC :: Counts :: Age Group 30 - 35 :: Females :: 109616 0.013
+WBC :: Counts :: Age Group 35 - 40 :: Females :: 191788 0.023
+WBC :: Counts :: Age Group 40 - 45 :: Females :: 217303 0.026
+WBC :: Counts :: Age Group 45 - 50 :: Females :: 173297 0.021
+WBC :: Counts :: Age Group 50 - 55 :: Females :: 170653 0.020
+WBC :: Counts :: Age Group 55 - 60 :: Females :: 170769 0.020
+WBC :: Counts :: Age Group 60 - 65 :: Females :: 155381 0.018
+WBC :: Counts :: Age Group 65 - 70 :: Females :: 139433 0.017
+WBC :: Counts :: Age Group 70 - 75 :: Females :: 108223 0.013
+WBC :: Counts :: Age Group 75 - 80 :: Females ::  98286 0.012
+WBC :: Counts :: Age Group 80 - 85 :: Females ::  73459 0.009
+WBC :: Counts :: Age Group 85 - 90 :: Females ::  47423 0.006
+WBC :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+WBC :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+WBC :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+WBC :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats :: Age Group 25 - 30 :: All ::  N 81820 non-zeros 81814 Median   7.00 Mean   7.32 Std   2.18 Max  36.90
+WBC :: Stats :: Age Group 30 - 35 :: All ::  N 213857 non-zeros 213832 Median   6.90 Mean   7.25 Std   2.16 Max  32.00
+WBC :: Stats :: Age Group 35 - 40 :: All ::  N 331902 non-zeros 331866 Median   6.80 Mean   7.14 Std   2.11 Max  35.90
+WBC :: Stats :: Age Group 40 - 45 :: All ::  N 402051 non-zeros 401996 Median   6.70 Mean   7.01 Std   2.03 Max  36.80
+WBC :: Stats :: Age Group 45 - 50 :: All ::  N 356364 non-zeros 356329 Median   6.70 Mean   6.99 Std   2.02 Max  37.20
+WBC :: Stats :: Age Group 50 - 55 :: All ::  N 324685 non-zeros 324631 Median   6.60 Mean   6.92 Std   2.03 Max  37.20
+WBC :: Stats :: Age Group 55 - 60 :: All ::  N 279230 non-zeros 279201 Median   6.60 Mean   6.91 Std   2.07 Max  37.90
+WBC :: Stats :: Age Group 60 - 65 :: All ::  N 235366 non-zeros 235329 Median   6.70 Mean   6.95 Std   2.09 Max  38.20
+WBC :: Stats :: Age Group 65 - 70 :: All ::  N 185382 non-zeros 185358 Median   6.70 Mean   6.98 Std   2.12 Max  38.80
+WBC :: Stats :: Age Group 70 - 75 :: All ::  N 131101 non-zeros 131092 Median   6.70 Mean   7.02 Std   2.21 Max  40.20
+WBC :: Stats :: Age Group 75 - 80 :: All ::  N 102761 non-zeros 102739 Median   6.80 Mean   7.09 Std   2.30 Max  41.60
+WBC :: Stats :: Age Group 80 - 85 :: All ::  N 65464 non-zeros 65456 Median   6.80 Mean   7.21 Std   2.55 Max  44.90
+WBC :: Stats :: Age Group 85 - 90 :: All ::  N 37691 non-zeros 37683 Median   6.90 Mean   7.33 Std   2.80 Max  49.00
+WBC :: Stats :: Age Group 90 - 95 :: All ::  N 15900 non-zeros 15898 Median   6.90 Mean   7.50 Std   3.15 Max  52.70
+WBC :: Stats :: Age Group 95 - 100 :: All ::  N 4028 non-zeros 4028 Median   7.00 Mean   7.67 Std   3.41 Max  56.00
+WBC :: General :: All     :: outliers ratio 0.000484
+WBC :: General :: All     :: N 948110 non-zeros 947980 Median   6.80 Mean   7.10 Std   2.20 Max  40.10
+WBC :: General :: All     :: distribution 0.001,0.01,0.05 ::   2.20   3.40   4.30  10.90  14.00  22.10
+WBC :: General :: All     :: quartiles ::   2.20   5.70   6.80   8.10 
+WBC :: General :: Males   :: outliers ratio 0.000637
+WBC :: General :: Males   :: N 445763 non-zeros 445695 Median   7.00 Mean   7.29 Std   2.22 Max  40.60
+WBC :: General :: Males   :: distribution 0.001,0.01,0.05 ::   2.30   3.60   4.50  11.10  14.50  22.80
+WBC :: General :: Males   :: quartiles ::   2.30   5.90   7.00   8.30 
+WBC :: General :: Females :: outliers ratio 0.000434
+WBC :: General :: Females :: N 502304 non-zeros 502248 Median   6.60 Mean   6.92 Std   2.17 Max  39.30
+WBC :: General :: Females :: distribution 0.001,0.01,0.05 ::   2.10   3.30   4.20  10.70  13.60  21.00
+WBC :: General :: Females :: quartiles ::   2.10   5.50   6.60   8.00 
+WBC :: Rounding ::  0.00 r  0.00 pct
+WBC :: Rounding ::  0.01 r  0.13 pct
+WBC :: Rounding ::  0.10 r  0.76 pct
+WBC :: Rounding ::  1.00 r  0.10 pct
+WBC :: Rounding :: 10.00 r  0.01 pct
+WBC :: Rounding :: 100.00 r  0.00 pct
+WBC :: Rounding :: 1000.00 r  0.00 pct
+WBC :: Rounding :: most popular rounding for vals:  0.10
+WBC :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats year :: 2001 :: All :: N 417835 non-zeros 417819 Median   6.80 Mean   7.08 Std   2.07 Max  38.10
+WBC :: Stats year :: 2002 :: All :: N 406117 non-zeros 406089 Median   6.70 Mean   6.95 Std   2.03 Max  37.10
+WBC :: Stats year :: 2003 :: All :: N 442615 non-zeros 442596 Median   6.60 Mean   6.93 Std   2.02 Max  37.20
+WBC :: Stats year :: 2004 :: All :: N 466127 non-zeros 466080 Median   6.50 Mean   6.83 Std   2.00 Max  36.70
+WBC :: Stats year :: 2005 :: All :: N 481347 non-zeros 481303 Median   6.60 Mean   6.85 Std   2.01 Max  36.70
+WBC :: Stats year :: 2006 :: All :: N 493008 non-zeros 492965 Median   6.70 Mean   6.99 Std   2.07 Max  37.90
+WBC :: Stats year :: 2007 :: All :: N 503908 non-zeros 503881 Median   6.70 Mean   7.04 Std   2.09 Max  38.30
+WBC :: Stats year :: 2008 :: All :: N 506303 non-zeros 506265 Median   6.70 Mean   7.02 Std   2.08 Max  38.20
+WBC :: Stats year :: 2009 :: All :: N 533125 non-zeros 533089 Median   6.60 Mean   6.90 Std   2.04 Max  37.40
+WBC :: Stats year :: 2010 :: All :: N 531309 non-zeros 531265 Median   6.60 Mean   6.94 Std   2.06 Max  37.70
+WBC :: Stats year :: 2011 :: All :: N 536037 non-zeros 536014 Median   6.70 Mean   7.03 Std   2.09 Max  38.20
+WBC :: Stats year :: 2012 :: All :: N 545006 non-zeros 544969 Median   6.70 Mean   7.01 Std   2.09 Max  38.20
+WBC :: Stats year :: 2013 :: All :: N 549065 non-zeros 549036 Median   6.70 Mean   6.97 Std   2.08 Max  38.00
+WBC :: Stats year :: 2014 :: All :: N 544513 non-zeros 544480 Median   6.70 Mean   6.99 Std   2.10 Max  38.40
+WBC :: Stats year :: 2015 :: All :: N 481616 non-zeros 481475 Median   6.70 Mean   6.97 Std   2.12 Max  38.80
+WBC :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats year :: 2001 :: Males   :: N 153597 non-zeros 153593 Median   6.90 Mean   7.24 Std   2.09 Max  38.50
+WBC :: Stats year :: 2002 :: Males   :: N 152078 non-zeros 152066 Median   6.80 Mean   7.11 Std   2.05 Max  37.10
+WBC :: Stats year :: 2003 :: Males   :: N 168690 non-zeros 168684 Median   6.80 Mean   7.11 Std   2.03 Max  37.50
+WBC :: Stats year :: 2004 :: Males   :: N 181282 non-zeros 181269 Median   6.70 Mean   7.02 Std   2.01 Max  36.50
+WBC :: Stats year :: 2005 :: Males   :: N 190932 non-zeros 190915 Median   6.80 Mean   7.05 Std   2.03 Max  37.40
+WBC :: Stats year :: 2006 :: Males   :: N 199030 non-zeros 199004 Median   6.90 Mean   7.23 Std   2.09 Max  38.30
+WBC :: Stats year :: 2007 :: Males   :: N 206326 non-zeros 206316 Median   7.00 Mean   7.29 Std   2.11 Max  38.80
+WBC :: Stats year :: 2008 :: Males   :: N 208392 non-zeros 208381 Median   7.00 Mean   7.28 Std   2.11 Max  38.90
+WBC :: Stats year :: 2009 :: Males   :: N 222889 non-zeros 222877 Median   6.90 Mean   7.16 Std   2.08 Max  38.30
+WBC :: Stats year :: 2010 :: Males   :: N 223263 non-zeros 223241 Median   6.90 Mean   7.20 Std   2.10 Max  37.90
+WBC :: Stats year :: 2011 :: Males   :: N 228026 non-zeros 228018 Median   7.00 Mean   7.32 Std   2.13 Max  39.10
+WBC :: Stats year :: 2012 :: Males   :: N 234295 non-zeros 234286 Median   7.00 Mean   7.30 Std   2.13 Max  39.20
+WBC :: Stats year :: 2013 :: Males   :: N 237972 non-zeros 237959 Median   7.00 Mean   7.26 Std   2.13 Max  39.00
+WBC :: Stats year :: 2014 :: Males   :: N 237239 non-zeros 237218 Median   7.00 Mean   7.31 Std   2.18 Max  39.80
+WBC :: Stats year :: 2015 :: Males   :: N 208947 non-zeros 208854 Median   7.00 Mean   7.30 Std   2.18 Max  40.00
+WBC :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats year :: 2001 :: Females :: N 264234 non-zeros 264216 Median   6.70 Mean   6.99 Std   2.05 Max  37.00
+WBC :: Stats year :: 2002 :: Females :: N 254035 non-zeros 254017 Median   6.60 Mean   6.86 Std   2.01 Max  35.70
+WBC :: Stats year :: 2003 :: Females :: N 273935 non-zeros 273926 Median   6.50 Mean   6.82 Std   2.01 Max  35.90
+WBC :: Stats year :: 2004 :: Females :: N 284871 non-zeros 284852 Median   6.40 Mean   6.72 Std   1.99 Max  36.40
+WBC :: Stats year :: 2005 :: Females :: N 290428 non-zeros 290401 Median   6.40 Mean   6.71 Std   1.99 Max  36.40
+WBC :: Stats year :: 2006 :: Females :: N 293965 non-zeros 293928 Median   6.50 Mean   6.83 Std   2.02 Max  37.00
+WBC :: Stats year :: 2007 :: Females :: N 297583 non-zeros 297563 Median   6.60 Mean   6.86 Std   2.05 Max  37.30
+WBC :: Stats year :: 2008 :: Females :: N 297918 non-zeros 297900 Median   6.50 Mean   6.83 Std   2.04 Max  37.40
+WBC :: Stats year :: 2009 :: Females :: N 310231 non-zeros 310213 Median   6.40 Mean   6.72 Std   2.00 Max  36.70
+WBC :: Stats year :: 2010 :: Females :: N 308060 non-zeros 308031 Median   6.50 Mean   6.75 Std   2.02 Max  36.60
+WBC :: Stats year :: 2011 :: Females :: N 308028 non-zeros 308017 Median   6.50 Mean   6.82 Std   2.03 Max  37.10
+WBC :: Stats year :: 2012 :: Females :: N 310695 non-zeros 310682 Median   6.50 Mean   6.79 Std   2.02 Max  36.80
+WBC :: Stats year :: 2013 :: Females :: N 311073 non-zeros 311057 Median   6.40 Mean   6.74 Std   2.01 Max  36.80
+WBC :: Stats year :: 2014 :: Females :: N 307277 non-zeros 307260 Median   6.40 Mean   6.74 Std   2.02 Max  36.90
+WBC :: Stats year :: 2015 :: Females :: N 272686 non-zeros 272622 Median   6.40 Mean   6.72 Std   2.05 Max  37.40
+WBC :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+WBC :: Stats month 1 :: All :: N 374644 non-zeros 374594 Median   6.80 Mean   7.13 Std   2.28 Max  41.20
+WBC :: Stats month 2 :: All :: N 365090 non-zeros 365029 Median   6.80 Mean   7.09 Std   2.27 Max  41.10
+WBC :: Stats month 3 :: All :: N 375268 non-zeros 375205 Median   6.70 Mean   7.06 Std   2.28 Max  41.20
+WBC :: Stats month 4 :: All :: N 354276 non-zeros 354217 Median   6.80 Mean   7.10 Std   2.28 Max  41.30
+WBC :: Stats month 5 :: All :: N 402355 non-zeros 402300 Median   6.70 Mean   7.02 Std   2.24 Max  40.50
+WBC :: Stats month 6 :: All :: N 399826 non-zeros 399770 Median   6.70 Mean   7.01 Std   2.23 Max  40.50
+WBC :: Stats month 7 :: All :: N 407125 non-zeros 407069 Median   6.70 Mean   7.02 Std   2.23 Max  40.50
+WBC :: Stats month 8 :: All :: N 391381 non-zeros 391320 Median   6.70 Mean   7.05 Std   2.25 Max  40.70
+WBC :: Stats month 9 :: All :: N 345822 non-zeros 345772 Median   6.70 Mean   7.06 Std   2.28 Max  41.10
+WBC :: Stats month 10 :: All :: N 386730 non-zeros 386691 Median   6.70 Mean   7.04 Std   2.22 Max  40.30
+WBC :: Stats month 11 :: All :: N 369338 non-zeros 369298 Median   6.80 Mean   7.06 Std   2.22 Max  40.30
+WBC :: Stats month 12 :: All :: N 357633 non-zeros 357593 Median   6.80 Mean   7.14 Std   2.27 Max  41.20
+

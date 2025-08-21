@@ -1,0 +1,151 @@
+662..	Cardiac disease monitoring
+662..00	Cardiac disease monitoring
+662..11	Heart disease monitoring
+662..12	Hypertension monitoring
+6621.00	Initial cardiac assessment
+6622.00	Follow-up cardiac assess.
+6625.00	Cardiac drug side effects
+6626.00	Cardiac treatment changed
+6626.11	Cardiac dis.-treatment changed
+6627.00	Good hypertension control
+6628.00	Poor hypertension control
+6629.00	Hypertension:follow-up default
+662c.00	Hypertension six month review
+662D.00	Cardiac dis.treatment started
+662d.00	Hypertension annual review
+662D.11	Digitalised
+662E.00	Cardiac dis.treatment stopped
+662e.00	Stroke/CVA annual review
+662e.11	Stroke annual review
+662F.00	Hypertension treatm. started
+662f.00	New York Heart Association classification - class I
+662G.00	Hypertensive treatm.changed
+662g.00	New York Heart Association classification - class II
+662H.00	Hypertension treatm.stopped
+662h.00	New York Heart Association classification - class III
+662i.00	New York Heart Association classification - class IV
+662I.00	No record of BP reading
+662j.00	Blood pressure recorded by patient at home
+662J.00	Cardiac drug monitoring
+662J000	Digoxin monitoring
+662J100	Amiodarone monitoring
+662JZ00	Cardiac drug monitoring NOS
+662K.00	Angina control
+662k.00	JBS cardiovascular disease risk <10% over next 10 years
+662K000	Angina control - good
+662K100	Angina control - poor
+662K200	Angina control - improving
+662K300	Angina control - worsening
+662K400	Angina self management plan commenced
+662K500	Angina self management plan completed
+662Kz00	Angina control NOS
+662L.00	24 hr blood pressure monitoring
+662l.00	JBS cardiovascular disease risk 10-20% over next 10 years
+662m.00	JBS cardiovascular disease risk >20% up to 30% ov next 10 yr
+662M.00	Stroke monitoring
+662M100	Stroke 6 month review
+662M200	Stroke initial post discharge review
+662N.00	CHD monitoring
+662n.00	JBS cardiovascular disease risk >30% over next 10 years
+662o.00	Haemorrhagic stroke monitoring
+662O.00	On treatment for hypertension
+662p.00	Heart failure 6 month review
+662P.00	Hypertension monitoring
+662P000	Hypertension 9 month review
+662P100	Telehealth hypertension monitoring
+662Q.00	Borderline blood pressure
+662q.00	Trial reduction of antihypertensive therapy
+662R.00	Normotensive
+662r.00	Trial withdrawal of antihypertensive therapy
+662S.00	Atrial fibrillation monitoring
+662T.00	Congestive heart failure monitoring
+662U.00	Peripheral vascular disease monitoring
+662V.00	Blood pressure monitoring
+662W.00	Heart failure annual review
+662X.00	Target cholesterol level
+662Y.00	Cardiac event recording
+662Z.00	Cardiac disease monitoring NOS
+G2…	Hypertensive disease
+G3…	Ischaemic heart disease
+G4…	Pulmonary circulation diseases
+G56..11	Conduction disorders of heart
+G56..12	Heart block
+G560.00	Complete atrioventricular block
+G561000	Atrioventricular block unspecified
+G561200	Mobitz type II atrioventricular block
+G562.00	Left bundle branch hemiblock
+G562.11	Left bundle branch block
+G564.00	Right bundle branch block
+G565000	Bundle branch block unspecified
+G566000	Sinoatrial block
+G567400	Wolff-Parkinson-White syndrome
+G56z000	Stokes-Adams syndrome
+G57..00	Cardiac dysrhythmias
+G57..11	Cardiac arrhythmias
+G571.00	Paroxysmal ventricular tachycardia
+G571.11	Ventricular tachycardia
+G572.00	Paroxysmal tachycardia unspecified
+G572z00	Paroxysmal tachycardia NOS
+G573.00	Atrial fibrillation and flutter
+G573000	Atrial fibrillation
+G573100	Atrial flutter
+G573200	Paroxysmal atrial fibrillation
+G573z00	Atrial fibrillation and flutter NOS
+G574.00	Ventricular fibrillation and flutter
+G574000	Ventricular fibrillation
+G575.00	Cardiac arrest
+G575.11	Cardio-respiratory arrest
+G575.12	Asystole
+G575100	Sudden cardiac death, so described
+G575200	Electromechanical dissociation with successful resuscitation
+G575300	Electromechanical dissociation
+G575z00	Cardiac arrest, unspecified
+G576.00	Ectopic beats
+G576.11	Premature beats
+G576011	Extrasystoles
+G576200	Ventricular ectopic beats
+G576300	Atrial premature depolarization
+G576z00	Ectopic beats NOS
+G577.00	Sinus arrhythmia
+G57y.00	Other cardiac dysrhythmias
+G57y.13	Skipped beat
+G57y.14	Heart beats irregular
+G57y000	Persistent sinus bradycardia
+G57y300	Sick sinus syndrome
+G57y400	Sinoatrial node dysfunction NOS
+G57y600	Nodal rhythm disorder
+G57y700	Sinus tachycardia
+G57y800	Bigeminal pulse
+G57y900	Supraventricular tachycardia NOS
+G57yz00	Other cardiac dysrhythmia NOS
+G57z.00	Cardiac dysrhythmia NOS
+G58..	Heart failure
+G5y..	Other specified heart disease
+G5y..00	Other specified heart disease
+G5y0.00	Myocarditis NOS
+G5y1.00	Myocardial degeneration
+G5y2.00	Cardiovascular arteriosclerosis unspecified
+G5y3.00	Cardiomegaly
+G5y3.11	Dilatation - cardiac
+G5y3000	Atrial dilatation
+G5y3400	Ventricular hypertrophy
+G5y3411	Left ventricular hypertrophy
+G5y3500	Cardiac hypertrophy NOS
+G5y3600	Right ventricular dilatation
+G5y3z00	Cardiomegaly NOS
+G5yX.00	Cardiovascular disease, unspecified
+G5yy.00	Other ill-defined heart disease
+G5yy000	Papillary muscle atrophy
+G5yy500	Hyperkinetic heart disease
+G5yy600	Atrial thrombosis
+G5yy700	Left ventricular thrombosis
+G5yy800	Right ventricular thrombosis
+G5yy900	Left ventricular systolic dysfunction
+G5yyA00	Left ventricular diastolic dysfunction
+G5yyD00	Left ventricular cardiac dysfunction
+G5yyz00	Other ill-defined heart disease NOS
+G5yz.00	Other heart disease NOS
+G5z..00	Heart disease NOS
+G6…	Cerebrovascular disease
+G7…	Arterial, arteriole and capillary disease
+G8…	Vein, lymphatic and circulatory diseases NOS

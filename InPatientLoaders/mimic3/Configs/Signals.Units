@@ -1,0 +1,371 @@
+Age	years	1.0
+BG_AADO2		1.0
+BG_AADO2	mm hg	1.0
+BG_Base_Excess	meq/l	1.0
+BG_BiCarbonate	meq/l	1.0
+BG_Chloride	mEq/L	1.0
+BG_freeCalcium	mmol/l	1.0
+BG_Glocuse	m/dl	1.0
+BG_Glocuse	mg%	1.0
+BG_Glucose	mg/dl	1.0
+BG_Hematocrit	%	1.0
+BG_Hemoglobin	g/dl	1.0
+BG_Lactate	mg/dL	1.0
+BG_Lactate	mmol/l	9.009
+BG_O2_Flow	l/min	1.0
+BG_O2_Saturation	%	1.0
+BG_O2_Saturation		1.0
+BG_Oxygen_Over_InspiredGas	%	1.0
+BG_Oxygen_Over_InspiredGas		1.0
+BG_PCO2	mm hg	1.0
+BG_PH	N/A	1.0 
+BG_PH	units	1.0   
+BG_PO2	mm hg	1.0
+BG_Potassium	meq/L	1.0
+BG_Potassium	mmol/L	1.0
+BG_Req_O2	%	1.0
+BG_Req_O2		1.0
+BG_Sodium	meq/L	1.0
+BG_Sodium	mmol/L	1.0
+BG_TCO2	meq/l	1.0
+BG_Temperature		1.0
+BG_Temperature	deg. c	1.0
+BG_Tidal_Volume		1.0
+BG_Tidal_Volume	ml/b	1.0
+CHART_Anion_Gap	meq/l	1.0
+CHART_Apnea_Time_Interval		1.0
+CHART_Apnea_Time_Interval	sec	1.0
+CHART_Apgar1Min		1.0
+CHART_Apgar5Min		1.0
+CHART_Apgar10Min		1.0
+CHART_aPTT		1.0
+CHART_aPTT	sec	1.0
+CHART_Base_Excess		1.0
+CHART_Base_Excess	meq/l	1.0
+CHART_Art_CO2		1.0
+CHART_Art_CO2	mmHg	1.0
+CHART_Arterial_BP_Dia	mmhg	1.0
+CHART_Arterial_BP_Mean	mmhg	1.0
+CHART_Arterial_BP_Sys	mmhg	1.0
+CHART_Arterial_Dia_Sys	mmhg	1.0
+CHART_Art_PaCO2	mmhg	1.0
+CHART_Art_PaO2	mmhg	1.0
+CHART_BiCarbonate	meq/l	1.0
+CHART_BiCarbonate	mmhg	1.0
+CHART_BiCarbonate		1.0
+CHART_Bilirubin		1.0
+CHART_Bilirubin	mg/dL	1.0
+CHART_BirthTime	minutes	1.0
+CHART_Braden	number	1.0
+CHART_BUN		1.0
+CHART_BUN	mg/dL	1.0
+CHART_Calcium	mg/dl	1.0
+CHART_Chest_Tube_Suction		1.0
+CHART_Chloride		1.0
+CHART_Chloride	mEq/L	1.0
+CHART_Creatinine		1.0
+CHART_Creatinine	mg/dL	1.0
+CHART_Cuff_BP_Dia	cc/min	1.0
+CHART_Cuff_BP_Mean	cc/min	1.0
+CHART_Cuff_BP_Sys	cc/min	1.0
+CHART_CVP	mmhg	1.0
+CHART_CVP	mmHg	1.0
+CHART_Direct_Bilirubin		1.0
+CHART_Direct_Bilirubin	mg/dL	1.0
+CHART_ExpRatio		1.0
+CHART_FingerStick_Glucose		1.0
+CHART_FingerStick_Glucose	mg/dl	1.0
+CHART_FiO2	%	1.0
+CHART_FiO2		1.0
+CHART_FiO2	torr	100.0
+CHART_freeCalcium		1.0
+CHART_freeCalcium	mmol/l	1.0
+CHART_GCS	points	1.0
+CHART_Glucose		1.0
+CHART_Glucose	mg/dl	1.0
+CHART_Head_of_Bed		1.0
+CHART_Heart_Rate	bpm	1.0
+CHART_Height	cm	1.0
+CHART_Height	inches	2.54
+CHART_Height	in	2.54
+CHART_Hematocrit	%	1.0
+CHART_Hematocrit		1.0
+CHART_Hemoglobin	g/dl	1.0
+CHART_Hemoglobin	gm/dl	1.0
+CHART_Hemoglobin		1.0
+CHART_High_Insp_Pressure	cmh2o	1.0
+CHART_High_Resp_Rate	bpm	1.0
+CHART_Idal_Volume_Spont	ml/b	1.0
+CHART_I_E_Ratio		1.0
+CHART_Indirect_Bilirubin		1.0
+CHART_Indirect_Bilirubin	mg/dL	1.0
+CHART_INR_PT_		1.0
+CHART_InspRatio		1.0
+CHART_InspTime	sec	1.0
+CHART_LCWI	...	1.0
+CHART_LCW	kg x m	1.0
+CHART_Low_Exhaled_Minute_Vol		1.0
+CHART_LVSW	g * m	1.0
+CHART_LVSWI	g*m/m2	1.0
+CHART_Magnesium		1.0
+CHART_Magnesium	mg/dL	1.0
+CHART_Mean_Airway_Pressure	cmh2o	1.0
+CHART_Minute_Vol	l/min	1.0
+CHART_NonInvasive_BP_Dia	mmhg	1.0
+CHART_NonInvasive_BP_Mean	mmhg	1.0
+CHART_NonInvasive_BP_Sys	mmhg	1.0
+CHART_O2_Flow	l/min	1.0
+CHART_O2_Flow	lpm	1.0
+CHART_PAW	cmh20	1.0
+CHART_Peak_Insp_Pressure	cmh2o	1.0
+CHART_PEEP_Set	cmh2o	1.0
+CHART_PH		1.0
+CHART_Phosphate	meq/l	1.0
+CHART_Phosphate	mg/dL	1.0
+CHART_PH	units	1.0
+CHART_PIP	cmh20	1.0
+CHART_Plateau_Pressure	cmh2o	1.0
+CHART_Platelets		1.0
+CHART_Platelets	10^9/l	1.0
+CHART_Platelets	k/ul	1.0
+CHART_Potassium		1.0
+CHART_Potassium	meq/L	1.0
+CHART_PT		1.0
+CHART_PT	sec	1.0
+CHART_Pulmonary_AP_Dia	mmhg	1.0
+CHART_Pulmonary_AP_Mean	mmhg	1.0
+CHART_Pulmonary_AP_Sys	mmhg	1.0
+CHART_RBC	/mic l	1.0
+CHART_RBC	m/ul	1.0
+CART_RBC		1.0
+CHART_RectalTemperature	DEG F	1.0	Fahrenheit2Celsius
+CHART_Resp_Rate	bpm	1.0
+CHART_Resp_Rate_Set	bpm	1.0
+CHART_Resp_Rate	breath	1.0
+CHART_Resp_Rate	insp/min	1.0
+CHART_Resp_Rate_Set	insp/min	1.0
+CHART_Resp_Rate_Spont	bpm	1.0
+CHART_Resp_Rate_Spont	insp/min	1.0
+CHART_Resp_Rate_Total	bpm	1.0
+CHART_Resp_Rate_Total	insp/min	1.0
+CHART_SaO2	%	1.0
+BG_SaO2	%	1.0
+CHART_Sodium		1.0
+CHART_Sodium	meq/L	1.0
+CHART_Stroke_Volume	ml	1.0
+CHART_SVI	...	1.0
+CHART_SVRI	...	1.0
+CHART_SVT	...	1.0
+CHART_Swan_SVO2	%	1.0
+CHART_Temperature	?C	1.0
+CHART_Temperature	deg. c	1.0
+CHART_Temperature	?F	1.0	Fahrenheit2Celsius
+CHART_Tidal_Volume_Obser	ml	1.0
+CHART_Tidal_Volume_Obser	ml/b	1.0
+CHART_Tidal_Volume_Set	ml	1.0
+CHART_Tidal_Volume_Set	ml/b	1.0
+CHART_Tidal_Volume_Spont	ml	1.0
+CHART_Tidal_Volume_Spont	ml/b	1.0
+CHART_Total_Fluids		1.0
+CHART_Total_Fluids	cc/kg/d	1.0
+CHART_Ventilation_High		1.0
+CHART_Ventilation_High	1/min	1.0
+CHART_WBC		1.0
+CHART_WBC	10^9/l	1.0
+CHART_WBC	k/ul	1.0
+CHART_Weight	kg	1.0
+LAB_Acetaminophen	ug/ml	1.0
+LAB_Albumin	g/dL	1.0
+LAB_ALK	iu/l	1.0
+LAB_Alpha_Fetoprotein	ng/ml	1.0	# 49
+LAB_ALT	iu/l	1.0
+LAB_Ammonia	umol/l	1.0
+LAB_Amylase	iu/l	1.0
+LAB_Anion_Gap	meq/L	1.0
+LAB_aPTT	sec	1.0
+LAB_Ascites_Albumin	g/dl	1.0	# 6
+LAB_Ascites_Amylase	iu/l	1.0	# 12
+LAB_Ascites_Glucose	mg/dl	1.0	# 11
+LAB_Ascites_Lactate	iu/l	1.0	# 12
+LAB_Ascites_Lymphocytes%	%	1.0	# 23
+LAB_Ascites_Macrophage%	%	1.0	# 18
+LAB_Ascites_Mesothelial%	%	1.0	# 15
+LAB_Ascites_Monocytes%	%	1.0	# 23
+LAB_Ascites_Polys%	%	1.0	# 23
+LAB_Ascites_RBC	#/ul	1.0	# 23
+LAB_Ascites_Total_Protein	g/dl	1.0	# 17
+LAB_Ascites_WBC	#/ul	1.0	# 23
+LAB_AST	iu/l	1.0
+LAB_Atypical_Lymphocytes%	%	1.0
+LAB_Basophils%	%	1.0
+LAB_BiCarbonate	meq/l	1.0
+LAB_BiCarbonate	mmol/l	1.0 
+LAB_Bilirubin	mg/dL	1.0
+LAB_Blasts%	%	1.0
+LAB_BUN	mg/dl	1.0
+LAB_BUN	mmol/l	0.357
+LAB_C3	mg/dl	1.0	# 16
+LAB_C4	mg/dl	1.0	# 14
+LAB_Calcium	mg/dL	1.0
+LAB_Carboxyhemoglobin_Over_Hemoglobin	%	1.0
+LAB_CD3%	%	1.0
+LAB_CD3	#/ul	1.0
+LAB_CD4%	%	1.0
+LAB_CD4_Over_CD8	ratio	1.0
+LAB_CD4	#/ul	1.0
+LAB_CD8%	%	1.0
+LAB_CD8	#/ul	1.0
+LAB_CEA	ng/ml	1.0	# 45
+LAB_CSF_Lymphocytes%	%	1.0	# 37
+LAB_CSF_Monocytes%	%	1.0	# 37
+LAB_CSF_Polys%	%	1.0	# 37
+LAB_CSF_RBC	#/ul	1.0	# 37
+LAB_CSF_WBC	#/ul	1.0	# 37
+LAB_Chloride	mEq/L	1.0
+LAB_Cholesterol	mg/dl	1.0
+LAB_CK_MB_INDEX	%	1.0	# 253
+LAB_Cobalamin	pg/ml	1.0
+LAB_Cortisol	ug/dl	1.0
+LAB_Creatinine_Kinase	iu/l	1.0
+LAB_Creatinine_Kinase_MB	ng/ml	1.0
+LAB_Creatinine	mg/dL	1.0
+LAB_CRP	mg/dl	1.0
+LAB_CRP	mg/l	0.1
+LAB_CSF_Glucose	mg/dl	1.0	# 31
+LAB_CSF_TotalProtein	mg/dl	1.0	# 32
+LAB_Cyclosporine	ng/ml	1.0
+LAB_D_DIMER	ng/ml	1.0	# 32
+LAB_Digoxin	ng/ml	1.0
+LAB_Direct_Bilirubin	mg/dl	1.0
+LAB_Eosinophils%	%	1.0
+LAB_Erythrocyte_Sedim_Rate	mm/hr	1.0
+LAB_Ethanol	mg/dl	1.0
+LAB_Ferritin	ng/ml	1.0
+LAB_Fibrinogen	mg/dL	1.0
+LAB_Folate	ng/ml	1.0
+LAB_Free_T4	ng/dl	1.0
+LAB_Gentamicin	ug/ml	1.0
+LAB_GGT	iu/l	1.0
+LAB_Globulin	g/dL	1.0
+LAB_Glucose	mg/dL	1.0
+LAB_Granulocytes	#/ul	1.0
+LAB_Haptoglobin	mg/dl	1.0
+LAB_HbA1C	%	1.0
+LAB_HbA1C		1.0
+LAB_HDL	mg/dL	1.0
+LAB_Hematocrit	%	1.0
+LAB_Hemoglobin	g/dL	1.0
+LAB_IgA	mg/dl	1.0
+LAB_IgG	mg/dl	1.0
+LAB_IgM	mg/dl	1.0
+LAB_Indirect_Bilirubin	mg/dl	1.0
+LAB_INR_PT_		1.0
+LAB_Iron_Binding_Capacity	ug/dl	1.0
+LAB_Iron	ug/dl	1.0
+LAB_LDH	iu/l	1.0
+LAB_LDL	mg/dl	1.0
+LAB_Lipase	iu/l	1.0
+LAB_Lymphocytes%	%	1.0
+LAB_Lymphocytes	#/ul	0.001	# 22
+LAB_Lymphocytes	10^9/L	1.0	# 0
+LAB_Magnesium	mg/dL	1.0
+LAB_MCHC	%	1.0
+LAB_MCH	pg	1.0
+LAB_MCV	fl	1.0
+LAB_Metamyelocytes%	%	1.0
+LAB_Methemoglobin_Over_Hemoglobin	%	1.0
+LAB_Monocytes%	%	1.0
+LAB_Monocytes%		1.0
+LAB_Myelocytes%	%	1.0
+LAB_Neutrophils_Bands%	%	1.0
+LAB_Neutrophils_Segmented%	%	1.0
+LAB_Nucleated_Erythrocytes%	%	1.0
+LAB_Osmolality	mosm/kg	1.0
+LAB_Osmolality	mosm/l	1.0	#Probably an error
+LAB_OtherFluids_Lymphocytes%	%	1.0	# 23
+LAB_OtherFluids_Macrophage%	%	1.0	# 9
+LAB_OtherFluids_Monocytes%	%	1.0	# 23
+LAB_OtherFluids_PH		1.0	# 5
+LAB_OtherFluids_PH	units	1.0	# 20
+LAB_OtherFluids_Polys%	%	1.0	# 23
+LAB_OtherFluids_RBC	#/ul	1.0	# 16
+LAB_OtherFluids_WBC	#/ul	1.0	# 18
+LAB_Parathyrin	pg/ml	1.0
+LAB_PEEP_Set		1.0
+LAB_PEEP_Set	cmh2o	1.0
+LAB_Phenobarbital	ug/ml	1.0
+LAB_PhenobarbitalVALUE	ug/ml	1.0
+LAB_Phenytoin	ug/ml	1.0
+LAB_Phosphate	mg/dL	1.0
+LAB_Platelets	10^9/l	1.0
+LAB_Platelets	k/ul	1.0
+LAB_PLEURAL_Albumin	g/dl	1.0	# 17
+LAB_PLEURAL_WBC	#/ul	1.0	# 44
+LAB_PLEURAL_Glocose	mg/dl	1.0	# 41
+LAB_PLEURAL_Lactate	iu/l	1.0	# 43
+LAB_PLEURAL_Lymphocytes%	%	1.0	# 44
+LAB_PLEURAL_Macrophage%	%	1.0	# 26
+LAB_PLEURAL_Mesothelial%	%	1.0	# 29
+LAB_PLEURAL_Monocytes%	%	1.0	# 44
+LAB_PLEURAL_Polys%	%	1.0	# 44
+LAB_PLEURAL_RBC	#/ul	1.0	# 41
+LAB_PLEURAL_Total_Protein	g/dl	1.0	# 44
+LAB_Potassium	meq/L	1.0
+LAB_proBNP	pg/ml	1.0
+LAB_Promyelocytes%	%	1.0
+LAB_PSA	ng/ml	1.0	# 61
+LAB_PSA	ug/l	1000.0	# 9
+LAB_PT	sec	1.0
+LAB_PT	seconds	1.0
+LAB_RBC	m/ul	1.0
+LAB_RDW	%	1.0
+LAB_Reticulocytes%	%	1.0
+LAB_Salicylate	mg/dl	1.0	# 119
+LAB_Sirolimus	ng/ml	1.0
+LAB_Sodium	meq/L	1.0
+LAB_T3	ng/dl	1.0
+LAB_T4	ug/dl	1.0
+LAB_Tacrolimus_FK	ng/ml	1.0
+LAB_Tobramycin	ug/ml	1.0	# 31
+LAB_Total_Protein	g/dl	1.0
+LAB_Transferrin	mg/dl	1.0
+LAB_Triglyceride	mg/dl	1.0
+LAB_Troponin_I	ng/ml	1.0
+LAB_Troponin_T	ng/ml	1.0
+LAB_TSH	uiu/ml	1.0
+LAB_TSH	uu/ml	1.0
+LAB_Urate	mg/dl	1.0
+LAB_Urine_Albumin	mg/dl	1.0
+LAB_Urine_Albumin_Over_Creatinine	mg/g	1.0	# 17
+LAB_Urine_Bacteria		1.0
+LAB_Urine_Chloride	meq/l	1.0
+LAB_Urine_Creatinine	mg/dl	1.0
+LAB_Urine_Duration		1.0
+LAB_Urine_Duration	hours	1.0
+LAB_Urine_Epithelial_Cells	#/hpf	1.0
+LAB_Urine_Glucose	mg/dl	1.0
+LAB_Urine_Granular_Casts	#/lpf	1.0
+LAB_Urine_Hyaline_Casts	#/lpf	1.0
+LAB_Urine_Ketone	mg/dl	1.0
+LAB_Urine_Osmolality	mosm/kg	1.0
+LAB_Urine_PH		1.0	# 11
+LAB_Urine_Phosphate	mg/dl	1.0	# 15
+LAB_Urine_PH	units	1.0
+LAB_Urine_Potassium	meq/l	1.0
+LAB_Urine_Protein	mg/dl	1.0
+LAB_Urine_Protein_Over_Creatinine	ratio	1.0	# 56
+LAB_Urine_RBC	#/hpf	1.0
+LAB_Urine_Sodium	meq/l	1.0
+LAB_Urine_Spec_Gravity	 	1.0
+LAB_Urine_Spec_Gravity		1.0
+LAB_Urine_Total_Protein	mg/dl	1.0
+LAB_Urine_Transitional_Cells	#/hpf	1.0
+LAB_Urine_UPEP	+/-	1.0
+LAB_Urine_UreaN	mg/dl	1.0
+LAB_Urine_Urobilinogen	eu/dl	1.0
+LAB_Urine_Urobilinogen	mg/dl	1.0
+LAB_Urine_WBC	#/hpf	1.0
+LAB_Valproate	ug/ml	1.0
+LAB_Vancomycin	ug/ml	1.0
+LAB_WBC	10^9/l	1.0
+LAB_WBC	k/ul	1.0

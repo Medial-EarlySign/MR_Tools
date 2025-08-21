@@ -1,0 +1,165 @@
+14S2.00	h/o: kidney recipient
+14V2.00	h/o: renal dialysis
+14V2.11	h/o: kidney dialysis
+1Z1..00	Chronic renal impairment
+1Z1..00	Chronic renal impairment
+1Z10.00	Chronic kidney disease stage 1
+1Z10.00	Chronic kidney disease stage 1
+1Z11.00	Chronic kidney disease stage 2
+1Z11.00	Chronic kidney disease stage 2
+1Z12.00	Chronic kidney disease stage 3
+1Z12.00	Chronic kidney disease stage 3
+1Z12.00	Chronic kidney disease stage 3
+1Z13.00	Chronic kidney disease stage 4
+1Z13.00	Chronic kidney disease stage 4
+1Z14.00	Chronic kidney disease stage 5
+1Z14.00	chronic kidney disease stage 5
+1Z14.00	Chronic kidney disease stage 5
+1Z15.00	Chronic kidney disease stage 3A
+1Z16.00	Chronic kidney disease stage 3B
+1Z1C.00	Chronic kidney disease stage 3 without proteinuria
+1Z1E.00	Chronic kidney disease stage 3A without proteinuria
+1Z1G.00	Chronic kidney disease stage 3B without proteinuria
+38G3.00	Hyperten, abnorm renal/liver funct, stroke, BLED score
+4512.00	Renal function tests abnormal
+4I29.00	peritoneal dialysis sample
+4N0..00	dialysis fluid urea level
+4N2..00	dialysis fluid glucose level
+4Z1..00	Chronic kidney disease laboratory study
+66i..00	Chronic kidney disease monitoring
+67P4100	discussion about kidney transplantation
+6AA..00	Chronic kidney disease annual review
+7A60.00	arteriovenous shunt
+7A60000	insertion of arteriovenous prosthesis
+7A60100	creation of arteriovenous fistula nec
+7A60200	attention to arteriovenous shunt
+7A60300	removal of infected arteriovenous shunt
+7A60400	banding of arteriovenous fistula
+7A60500	thrombectomy of arteriovenous fistula
+7A60600	creation of graft fistula for dialysis
+7A60y00	other specified arteriovenous shunt
+7A60z00	arteriovenous shunt nos
+7A61100	repair of acquired arteriovenous fistula
+7A61111	ligation of acquired arteriovenous fistula
+7A61400	ligation of acquired arteriovenous fistula
+7A61900	ligation of arteriovenous dialysis fistula
+7A61A00	ligation of arteriovenous dialysis graft
+7B00.00	transplantation of kidney
+7B00.00	Transplantation of kidney
+7B0B.00	Extracorporeal shockwave lithotripsy for renal calculus
+7L1A.00	compensation for renal failure
+7L1B.00	placement ambulatory apparatus compensation renal failure
+7L1C.00	placement other apparatus for compensation for renal failure
+8A6..00	Renal function monitoring
+8A6..11	Kidney function monitoring
+8CAV.00	Patient advised about renal disorder
+8H4a.00	Referral to renal physician
+8H4L.00	Referred to nephrologist
+8L50.00	renal transplant planned
+9N1m.00	Seen in nephrology clinic
+9N1m.11	Seen in renal clinic
+9Ot..00	Chronic kidney disease monitoring administration
+9Ot0.00	Chronic kidney disease monitoring first letter
+9Ot1.00	Chronic kidney disease monitoring second letter
+9Ot2.00	Chronic kidney disease monitoring third letter
+9Ot5.00	predicted stage chronic kidney disease
+G72C.00	ruptured aneurysm of dialysis vascular access
+Gy1..00	stenosis of dialysis vascular access
+Gy21.00	thrombosis of dialysis arteriovenous fistula
+Gy3..00	occlusion of dialysis vascular access
+Gy31.00	occlusion of dialysis arteriovenous fistula
+Gy40.00	infection of dialysis arteriovenous graft
+Gy41.00	infection of dialysis arteriovenous fistula
+Gy51.00	haemorrhage of dialysis arteriovenous fistula
+Gy60.00	rupture of dialysis arteriovenous graft
+K....	Genitourinary system diseases
+K0...00	Nephritis; nephrosis and nephrotic syndrome
+K00..00	Acute glomerulonephritis
+K001.00	Acute nephritis with lesions of necrotising glomerulitis
+K01..00	Nephrotic syndrome
+K012.00	Nephrotic syndrome??????? glomerulonephritis
+K019.00	Nephrotic syn;diffuse mesangiocapillary glomerulonephritis
+K02..00	Chronic glomerulonephritis
+K02..11	Nephritis - chronic
+K02..12	Nephropathy - chronic
+K021.00	Chronic membranous glomerulonephritis
+K022.00	Chronic membranoproliferative glomerulonephritis
+K023.00	Chronic rapidly progressive glomerulonephritis
+K02y000	Chronic glomerulonephritis  diseases EC
+K02y200	Chronic focal glomerulonephritis
+K02y300	Chronic diffuse glomerulonephritis
+K02yz00	Other chronic glomerulonephritis NOS
+K02z.00	Chronic glomerulonephritis NOS
+K03..00	Nephritis and nephropathy unspecified
+K03..11	Nephritis and nephropathy unspecified
+K032.00	Membranoproliferative nephritis unspecified
+K032000	Focal membranoproliferative glomerulonephritis
+K032y00	Nephritis unsp membranoprolif glomerulonephritis lesion
+K032y13	Mesangioproliferative glomerulonephritis NEC
+K032y14	Mesangiocapillary glomerulonephritis NEC
+K032z00	Nephritis unsp????? glomerulonephritis lesion NOS
+K034.00	Renal cortical necrosis unspecified
+K035.00	Renal medullary necrosis unspecified
+K04..00	Acute renal failure
+K04..00	Acute renal failure
+K04..12	Acute kidney injury
+K041.00	Acute renal cortical necrosis
+K042.00	Acute renal medullary necrosis
+K04y.00	Other acute renal failure
+K04z.00	Acute renal failure NOS
+K05..00	Chronic renal failure
+K05..00	Chronic renal failure
+K05..00	Chronic renal failure
+K05..12	end stage renal failure
+K050.00	End stage renal failure
+K050.00	End stage renal failure
+K055.00	chronic kidney disease stage 5
+K06..00	Renal failure unspecified
+K06..00	Renal failure unspecified
+K060.11	Impaired renal function
+K080.00	Renal osteodystrophy
+K080000	Phosphate-losing tubular disorders
+K080100	Renal dwarfism
+K080200	Renal infantilism
+K080300	Renal rickets
+K080z00	Renal osteodystrophy NOS
+K081.00	Nephrogenic diabetes insipidus
+K08y000	Hypokalaemic nephropathy
+K08yz00	Other impaired renal function disorder NOS
+K08z.00	Impaired renal function disorder NOS
+K0A3200	Chron nephritic syndrom difuse membranous glomerulonephritis
+K0A3300	Chron neph syn difus mesangial prolifrtiv glomerulonephritis
+K0A3400	Chron neph syn difuse endocap prolifrativ glomerulonephritis
+K0A3500	Chronic neph syn difus mesangiocapillary glomerulonephritis
+K0A3700	Chronic nephritic syn diffuse crescentic glomerulonephritis
+K0A5500	[X]Heredtry nephrpthy NEC difus mesangiocapilry glomneph
+K0B5.00	renal tubulo-interstitial disordrs in transplant rejectn
+K0D..00	end-stage renal disease
+K10..00	Infections of kidney
+K100000	Chronic pyelonephritis without medullary necrosis
+K100100	Chronic pyelonephritis with medullary necrosis
+K101000	Acute pyelonephritis without medullary necrosis
+K101100	Acute pyelonephritis with medullary necrosis
+Kyu1C00	[x]renal tubulo-interstitial disorders/transplant rejection
+Kyu2.00	[X]Renal failure
+Kyu2000	[X]Other acute renal failure
+Kyu2100	[X]Other chronic renal failure
+SP01500	mechanical complication of dialysis catheter
+TA02000	accid cut;puncture;perf;h'ge - kidney dialysis
+TA22.00	failure of sterile precautions during perfusion
+TA22000	failure of sterile precautions during kidney dialysis
+TB00100	kidney transplant with complication; without blame
+U612200	[x]failure sterile precautions dur kidney dialys/other perf
+Z1A..00	dialysis training
+Z919.00	care of haemodialysis equipment
+ZL5AN00	Referral to nephrologist
+ZL9AO00	Seen by nephrologist
+ZV42000	[v]kidney transplanted
+ZV45100	[v]renal dialysis status
+ZV56.00	[v]aftercare involving intermittent dialysis
+ZV56000	[v]aftercare involving extracorporeal dialysis
+ZV56011	[v]aftercare involving renal dialysis nos
+ZV56100	[v]preparatory care for dialysis
+ZV56y00	[v]other specified aftercare involving intermittent dialysis
+ZV56y11	[v]aftercare involving peritoneal dialysis
+ZVu3G00	[x]other dialysis

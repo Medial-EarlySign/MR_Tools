@@ -1,0 +1,21 @@
+GENERIC_SIGNAL_TYPE	my_SVal	V(f)
+GENERIC_SIGNAL_TYPE	my_SInt	V(i)
+GENERIC_SIGNAL_TYPE	my_SDateVal	T(i),V(f)
+GENERIC_SIGNAL_TYPE	my_SDateInt	T(i),V(i)
+GENERIC_SIGNAL_TYPE	my_S2Date	T(i,i)
+GENERIC_SIGNAL_TYPE	my_DateShort2	T(i),V(s,s)
+GENERIC_SIGNAL_TYPE	my_DateRangeInt2	T(i,i),V(i,i)
+
+# This file was created based on generic file /work/MES/earlysign/scripts/RepoLoadUtils/common/ETL_Infra/rep_signals/general.signals
+# This files adds definitions to specific signals that you only want to use in this repository, otherwise please define the signals in the generic file path above
+# File format is the same as repository signals files - can be used later to create repository after join with generic file
+
+# SIGNAL [TAB] $SIGNAL_NAME [TAB] $UNIQUE_NUMERIC_IDENTIFIER_FOR_YOUR_CHOISE [TAB] 16:$SIGNAL_TYPE [TAB] $SIGNAL_HIRARCHY [TAB] $IS_VALUE_CHANNELS_CATEGORICAL [TAB] $UNIT_IF_HAS
+# $SIGNAL_HIRARCHY - is comma seperated to define hirarchy for the signal processing, $IS_VALUE_CHANNELS_CATEGORICAL - is string with 0/1 chars for each value channel, $UNIT_IF_HAS - for each channel separated by |
+
+# Example:
+#SIGNAL	Hemoglobin	1000	16:my_SDateVal	labs,cbc	0	mg/dL
+SIGNAL	Cancer_Stage	9001	16:my_SDateInt	cancer_registry	1	
+SIGNAL	Cancer_Type	9002	16:my_SDateInt	cancer_registry	1	
+SIGNAL	Cancer_Pathology	9003	16:my_SDateInt	cancer_registry	1	
+SIGNAL	INDEX_DATE	9004	16:my_SInt		0	

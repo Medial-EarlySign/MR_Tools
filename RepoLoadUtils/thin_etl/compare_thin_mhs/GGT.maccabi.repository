@@ -1,0 +1,162 @@
+GGT :: All :: With Values :: 609861 / 1279479 =  0.48 :: 609861 / 609861 =  1.00
+GGT :: Males :: With Values :: 265742 / 622859 =  0.43 :: 265742 / 609861 =  0.44
+GGT :: Females :: With Values :: 344119 / 656620 =  0.52 :: 344119 / 609861 =  0.56
+GGT :: General :: No. of Values :: All 2335468 Male 962614 Female 1372854
+GGT :: General :: No. of different days Values :: All 2335189 Male 962494 Female 1372695
+GGT :: General :: Avg #values per person (all) :: All  1.83 Male  1.55 Female  2.09
+GGT :: General :: Avg #values per person (>0)  :: All  3.83 Male  3.62 Female  3.99
+GGT :: General :: Avg dist between tests       :: All  364.2 Male  354.9 Female  370.5
+GGT :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+GGT :: Counts :: Age Group 25 - 30 :: All ::   1725 0.001
+GGT :: Counts :: Age Group 30 - 35 :: All ::  39249 0.017
+GGT :: Counts :: Age Group 35 - 40 :: All ::  40037 0.017
+GGT :: Counts :: Age Group 40 - 45 :: All ::  41260 0.018
+GGT :: Counts :: Age Group 45 - 50 :: All ::  43117 0.018
+GGT :: Counts :: Age Group 50 - 55 :: All ::  51123 0.022
+GGT :: Counts :: Age Group 55 - 60 :: All ::  58771 0.025
+GGT :: Counts :: Age Group 60 - 65 :: All ::  41311 0.018
+GGT :: Counts :: Age Group 65 - 70 :: All ::  44013 0.019
+GGT :: Counts :: Age Group 70 - 75 :: All ::  33522 0.014
+GGT :: Counts :: Age Group 75 - 80 :: All ::  29094 0.012
+GGT :: Counts :: Age Group 80 - 85 :: All ::  22562 0.010
+GGT :: Counts :: Age Group 85 - 90 :: All ::  12824 0.005
+GGT :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+GGT :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+GGT :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+GGT :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+GGT :: Counts :: Age Group 25 - 30 :: Males ::    504 0.001
+GGT :: Counts :: Age Group 30 - 35 :: Males ::  13731 0.014
+GGT :: Counts :: Age Group 35 - 40 :: Males ::  15725 0.016
+GGT :: Counts :: Age Group 40 - 45 :: Males ::  17924 0.019
+GGT :: Counts :: Age Group 45 - 50 :: Males ::  19150 0.020
+GGT :: Counts :: Age Group 50 - 55 :: Males ::  21923 0.023
+GGT :: Counts :: Age Group 55 - 60 :: Males ::  23732 0.025
+GGT :: Counts :: Age Group 60 - 65 :: Males ::  17339 0.018
+GGT :: Counts :: Age Group 65 - 70 :: Males ::  18670 0.019
+GGT :: Counts :: Age Group 70 - 75 :: Males ::  14745 0.015
+GGT :: Counts :: Age Group 75 - 80 :: Males ::  12348 0.013
+GGT :: Counts :: Age Group 80 - 85 :: Males ::   8976 0.009
+GGT :: Counts :: Age Group 85 - 90 :: Males ::   5128 0.005
+GGT :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+GGT :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+GGT :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+GGT :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+GGT :: Counts :: Age Group 25 - 30 :: Females ::   1221 0.001
+GGT :: Counts :: Age Group 30 - 35 :: Females ::  25518 0.019
+GGT :: Counts :: Age Group 35 - 40 :: Females ::  24312 0.018
+GGT :: Counts :: Age Group 40 - 45 :: Females ::  23336 0.017
+GGT :: Counts :: Age Group 45 - 50 :: Females ::  23967 0.017
+GGT :: Counts :: Age Group 50 - 55 :: Females ::  29200 0.021
+GGT :: Counts :: Age Group 55 - 60 :: Females ::  35039 0.026
+GGT :: Counts :: Age Group 60 - 65 :: Females ::  23972 0.017
+GGT :: Counts :: Age Group 65 - 70 :: Females ::  25343 0.018
+GGT :: Counts :: Age Group 70 - 75 :: Females ::  18777 0.014
+GGT :: Counts :: Age Group 75 - 80 :: Females ::  16746 0.012
+GGT :: Counts :: Age Group 80 - 85 :: Females ::  13586 0.010
+GGT :: Counts :: Age Group 85 - 90 :: Females ::   7696 0.006
+GGT :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+GGT :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+GGT :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+GGT :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats :: Age Group 25 - 30 :: All ::  N 45412 non-zeros 45371 Median  18.00 Mean  22.30 Std  20.23 Max 322.00
+GGT :: Stats :: Age Group 30 - 35 :: All ::  N 107082 non-zeros 107004 Median  18.00 Mean  24.99 Std  27.89 Max 443.00
+GGT :: Stats :: Age Group 35 - 40 :: All ::  N 102195 non-zeros 102118 Median  20.00 Mean  31.76 Std  46.18 Max 724.00
+GGT :: Stats :: Age Group 40 - 45 :: All ::  N 99371 non-zeros 99297 Median  22.00 Mean  36.39 Std  56.21 Max 878.00
+GGT :: Stats :: Age Group 45 - 50 :: All ::  N 99154 non-zeros 99067 Median  23.00 Mean  39.46 Std  63.06 Max 982.00
+GGT :: Stats :: Age Group 50 - 55 :: All ::  N 106418 non-zeros 106335 Median  25.00 Mean  42.73 Std  67.88 Max 1057.00
+GGT :: Stats :: Age Group 55 - 60 :: All ::  N 91096 non-zeros 91041 Median  26.00 Mean  47.23 Std  78.84 Max 1218.00
+GGT :: Stats :: Age Group 60 - 65 :: All ::  N 70791 non-zeros 70743 Median  27.00 Mean  52.99 Std  95.34 Max 1479.00
+GGT :: Stats :: Age Group 65 - 70 :: All ::  N 62620 non-zeros 62574 Median  27.00 Mean  53.55 Std  97.02 Max 1497.00
+GGT :: Stats :: Age Group 70 - 75 :: All ::  N 47130 non-zeros 47098 Median  27.00 Mean  57.89 Std 108.33 Max 1679.00
+GGT :: Stats :: Age Group 75 - 80 :: All ::  N 39556 non-zeros 39534 Median  27.00 Mean  61.48 Std 118.50 Max 1816.00
+GGT :: Stats :: Age Group 80 - 85 :: All ::  N 26943 non-zeros 26907 Median  28.00 Mean  66.31 Std 123.90 Max 1922.00
+GGT :: Stats :: Age Group 85 - 90 :: All ::  N 15734 non-zeros 15713 Median  29.00 Mean  72.80 Std 140.33 Max 2161.00
+GGT :: Stats :: Age Group 90 - 95 :: All ::  N 7159 non-zeros 7144 Median  28.00 Mean  68.87 Std 125.28 Max 1848.00
+GGT :: Stats :: Age Group 95 - 100 :: All ::  N 1758 non-zeros 1751 Median  28.00 Mean  61.47 Std  99.54 Max 1486.00
+GGT :: General :: All     :: outliers ratio 0.001515
+GGT :: General :: All     :: N 608861 non-zeros 608325 Median  22.00 Mean  38.27 Std  64.17 Max 998.00
+GGT :: General :: All     :: distribution 0.001,0.01,0.05 ::   6.00   8.00  10.00 114.00 341.00 794.00
+GGT :: General :: All     :: quartiles ::   6.00  16.00  22.00  35.00 
+GGT :: General :: Males   :: outliers ratio 0.001185
+GGT :: General :: Males   :: N 265406 non-zeros 265168 Median  27.00 Mean  46.67 Std  76.64 Max 1195.00
+GGT :: General :: Males   :: distribution 0.001,0.01,0.05 ::   8.00  11.00  14.00 136.00 409.00 948.00
+GGT :: General :: Males   :: quartiles ::   8.00  20.00  27.00  42.00 
+GGT :: General :: Females :: outliers ratio 0.001706
+GGT :: General :: Females :: N 343477 non-zeros 343174 Median  18.00 Mean  31.89 Std  54.04 Max 841.00
+GGT :: General :: Females :: distribution 0.001,0.01,0.05 ::   5.00   7.00   9.00  95.00 286.00 670.00
+GGT :: General :: Females :: quartiles ::   5.00  13.00  18.00  28.00 
+GGT :: Rounding ::  0.00 r  0.00 pct
+GGT :: Rounding ::  0.01 r  0.00 pct
+GGT :: Rounding ::  0.10 r  0.00 pct
+GGT :: Rounding ::  1.00 r  0.89 pct
+GGT :: Rounding :: 10.00 r  0.10 pct
+GGT :: Rounding :: 100.00 r  0.00 pct
+GGT :: Rounding :: 1000.00 r  0.00 pct
+GGT :: Rounding :: most popular rounding for vals:  1.00
+GGT :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats year :: 2001 :: All :: N 244204 non-zeros 243952 Median  24.00 Mean  32.35 Std  34.32 Max 546.00
+GGT :: Stats year :: 2002 :: All :: N 261617 non-zeros 261414 Median  21.00 Mean  29.46 Std  33.64 Max 533.00
+GGT :: Stats year :: 2003 :: All :: N 263059 non-zeros 262878 Median  20.00 Mean  28.84 Std  32.35 Max 514.00
+GGT :: Stats year :: 2004 :: All :: N 274179 non-zeros 273928 Median  21.00 Mean  30.15 Std  33.71 Max 534.00
+GGT :: Stats year :: 2005 :: All :: N 222662 non-zeros 222525 Median  23.00 Mean  33.78 Std  41.97 Max 662.00
+GGT :: Stats year :: 2006 :: All :: N 23995 non-zeros 23992 Median  48.00 Mean 107.38 Std 172.25 Max 2455.00
+GGT :: Stats year :: 2007 :: All :: N 26300 non-zeros 26292 Median  46.00 Mean 103.71 Std 166.04 Max 2523.00
+GGT :: Stats year :: 2008 :: All :: N 23296 non-zeros 23287 Median  48.00 Mean 113.72 Std 185.75 Max 2849.00
+GGT :: Stats year :: 2009 :: All :: N 29201 non-zeros 29194 Median  44.40 Mean 101.25 Std 167.22 Max 2597.00
+GGT :: Stats year :: 2010 :: All :: N 28014 non-zeros 28005 Median  44.00 Mean 100.94 Std 166.33 Max 2555.00
+GGT :: Stats year :: 2011 :: All :: N 29768 non-zeros 29763 Median  42.00 Mean  97.61 Std 161.46 Max 2507.00
+GGT :: Stats year :: 2012 :: All :: N 29980 non-zeros 29971 Median  42.00 Mean  97.25 Std 162.26 Max 2490.00
+GGT :: Stats year :: 2013 :: All :: N 9017 non-zeros 9006 Median  36.00 Mean 131.41 Std 277.71 Max 4190.00
+GGT :: Stats year :: 2014 :: All :: N 36353 non-zeros 36336 Median  36.00 Mean  82.74 Std 149.01 Max 2291.00
+GGT :: Stats year :: 2015 :: All :: N 35999 non-zeros 35964 Median  36.00 Mean  81.32 Std 136.23 Max 2054.00
+GGT :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats year :: 2001 :: Males   :: N 98048 non-zeros 97960 Median  29.00 Mean  39.53 Std  40.73 Max 647.00
+GGT :: Stats year :: 2002 :: Males   :: N 107046 non-zeros 106973 Median  26.00 Mean  36.48 Std  40.91 Max 650.00
+GGT :: Stats year :: 2003 :: Males   :: N 109259 non-zeros 109184 Median  25.00 Mean  35.10 Std  37.97 Max 597.00
+GGT :: Stats year :: 2004 :: Males   :: N 115348 non-zeros 115243 Median  26.00 Mean  36.67 Std  40.13 Max 638.00
+GGT :: Stats year :: 2005 :: Males   :: N 94607 non-zeros 94540 Median  28.00 Mean  40.40 Std  49.23 Max 775.00
+GGT :: Stats year :: 2006 :: Males   :: N 9367 non-zeros 9364 Median  57.00 Mean 127.56 Std 208.02 Max 3116.00
+GGT :: Stats year :: 2007 :: Males   :: N 10195 non-zeros 10192 Median  55.00 Mean 122.32 Std 187.79 Max 2680.00
+GGT :: Stats year :: 2008 :: Males   :: N 9043 non-zeros 9036 Median  58.00 Mean 135.74 Std 222.99 Max 3100.00
+GGT :: Stats year :: 2009 :: Males   :: N 11560 non-zeros 11554 Median  52.00 Mean 117.13 Std 188.25 Max 2729.00
+GGT :: Stats year :: 2010 :: Males   :: N 10991 non-zeros 10988 Median  51.00 Mean 122.40 Std 210.11 Max 3221.00
+GGT :: Stats year :: 2011 :: Males   :: N 11748 non-zeros 11747 Median  49.00 Mean 113.67 Std 186.38 Max 2821.00
+GGT :: Stats year :: 2012 :: Males   :: N 11970 non-zeros 11968 Median  48.00 Mean 114.06 Std 191.26 Max 2914.00
+GGT :: Stats year :: 2013 :: Males   :: N 3748 non-zeros 3742 Median  42.00 Mean 143.99 Std 292.68 Max 3460.00
+GGT :: Stats year :: 2014 :: Males   :: N 14192 non-zeros 14184 Median  40.00 Mean  97.85 Std 181.32 Max 2642.00
+GGT :: Stats year :: 2015 :: Males   :: N 14162 non-zeros 14140 Median  41.00 Mean  93.69 Std 155.70 Max 2208.00
+GGT :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats year :: 2001 :: Females :: N 146136 non-zeros 146005 Median  21.00 Mean  27.39 Std  27.38 Max 438.00
+GGT :: Stats year :: 2002 :: Females :: N 154582 non-zeros 154455 Median  17.00 Mean  24.72 Std  27.77 Max 441.00
+GGT :: Stats year :: 2003 :: Females :: N 153809 non-zeros 153694 Median  17.00 Mean  24.40 Std  27.44 Max 433.00
+GGT :: Stats year :: 2004 :: Females :: N 158848 non-zeros 158723 Median  18.00 Mean  25.46 Std  28.12 Max 447.00
+GGT :: Stats year :: 2005 :: Females :: N 128060 non-zeros 127986 Median  19.00 Mean  29.04 Std  36.54 Max 576.00
+GGT :: Stats year :: 2006 :: Females :: N 14627 non-zeros 14627 Median  43.00 Mean  95.52 Std 151.68 Max 2366.00
+GGT :: Stats year :: 2007 :: Females :: N 16101 non-zeros 16100 Median  40.00 Mean  91.73 Std 149.16 Max 2291.00
+GGT :: Stats year :: 2008 :: Females :: N 14254 non-zeros 14253 Median  43.00 Mean 101.88 Std 167.29 Max 2381.00
+GGT :: Stats year :: 2009 :: Females :: N 17643 non-zeros 17640 Median  39.80 Mean  90.09 Std 146.17 Max 2139.00
+GGT :: Stats year :: 2010 :: Females :: N 17023 non-zeros 17017 Median  39.90 Mean  88.46 Std 138.35 Max 1988.00
+GGT :: Stats year :: 2011 :: Females :: N 18026 non-zeros 18023 Median  38.00 Mean  85.73 Std 137.06 Max 2117.00
+GGT :: Stats year :: 2012 :: Females :: N 18018 non-zeros 18011 Median  38.00 Mean  87.56 Std 148.23 Max 2280.00
+GGT :: Stats year :: 2013 :: Females :: N 5270 non-zeros 5264 Median  33.00 Mean 120.97 Std 259.13 Max 3900.00
+GGT :: Stats year :: 2014 :: Females :: N 22161 non-zeros 22151 Median  33.00 Mean  73.52 Std 124.65 Max 1911.00
+GGT :: Stats year :: 2015 :: Females :: N 21828 non-zeros 21816 Median  33.00 Mean  73.36 Std 120.84 Max 1846.00
+GGT :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+GGT :: Stats month 1 :: All :: N 106674 non-zeros 106569 Median  24.00 Mean  45.01 Std  79.42 Max 1226.00
+GGT :: Stats month 2 :: All :: N 104515 non-zeros 104420 Median  24.00 Mean  44.48 Std  79.88 Max 1217.10
+GGT :: Stats month 3 :: All :: N 111450 non-zeros 111345 Median  24.00 Mean  44.33 Std  78.76 Max 1209.00
+GGT :: Stats month 4 :: All :: N 95042 non-zeros 94944 Median  24.00 Mean  47.45 Std  87.00 Max 1352.00
+GGT :: Stats month 5 :: All :: N 107583 non-zeros 107500 Median  24.00 Mean  47.37 Std  87.26 Max 1345.00
+GGT :: Stats month 6 :: All :: N 115612 non-zeros 115533 Median  23.00 Mean  45.51 Std  82.91 Max 1288.00
+GGT :: Stats month 7 :: All :: N 119304 non-zeros 119193 Median  23.00 Mean  45.29 Std  81.94 Max 1272.00
+GGT :: Stats month 8 :: All :: N 113265 non-zeros 113177 Median  23.00 Mean  46.53 Std  86.51 Max 1344.00
+GGT :: Stats month 9 :: All :: N 98106 non-zeros 98035 Median  24.00 Mean  46.10 Std  83.36 Max 1293.00
+GGT :: Stats month 10 :: All :: N 107239 non-zeros 107130 Median  24.00 Mean  45.84 Std  82.28 Max 1270.00
+GGT :: Stats month 11 :: All :: N 95637 non-zeros 95559 Median  23.00 Mean  46.14 Std  83.68 Max 1301.00
+GGT :: Stats month 12 :: All :: N 90267 non-zeros 90175 Median  24.00 Mean  46.58 Std  85.50 Max 1319.00
+

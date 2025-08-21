@@ -1,0 +1,162 @@
+BMI :: All :: With Values :: 856545 / 1279479 =  0.67 :: 856545 / 856545 =  1.00
+BMI :: Males :: With Values :: 405661 / 622859 =  0.65 :: 405661 / 856545 =  0.47
+BMI :: Females :: With Values :: 450884 / 656620 =  0.69 :: 450884 / 856545 =  0.53
+BMI :: General :: No. of Values :: All 5936374 Male 2676821 Female 3259553
+BMI :: General :: No. of different days Values :: All 5822352 Male 2623710 Female 3198642
+BMI :: General :: Avg #values per person (all) :: All  4.55 Male  4.21 Female  4.87
+BMI :: General :: Avg #values per person (>0)  :: All  6.80 Male  6.47 Female  7.09
+BMI :: General :: Avg dist between tests       :: All  318.4 Male  328.4 Female  310.4
+BMI :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+BMI :: Counts :: Age Group 25 - 30 :: All ::     24 0.000
+BMI :: Counts :: Age Group 30 - 35 :: All ::   8259 0.001
+BMI :: Counts :: Age Group 35 - 40 :: All ::  72325 0.012
+BMI :: Counts :: Age Group 40 - 45 :: All :: 151219 0.025
+BMI :: Counts :: Age Group 45 - 50 :: All :: 144745 0.024
+BMI :: Counts :: Age Group 50 - 55 :: All :: 145990 0.025
+BMI :: Counts :: Age Group 55 - 60 :: All :: 150180 0.025
+BMI :: Counts :: Age Group 60 - 65 :: All :: 151476 0.026
+BMI :: Counts :: Age Group 65 - 70 :: All :: 138069 0.023
+BMI :: Counts :: Age Group 70 - 75 :: All ::  92872 0.016
+BMI :: Counts :: Age Group 75 - 80 :: All ::  72076 0.012
+BMI :: Counts :: Age Group 80 - 85 :: All ::  39759 0.007
+BMI :: Counts :: Age Group 85 - 90 :: All ::  20096 0.003
+BMI :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+BMI :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+BMI :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+BMI :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+BMI :: Counts :: Age Group 25 - 30 :: Males ::      5 0.000
+BMI :: Counts :: Age Group 30 - 35 :: Males ::   2512 0.001
+BMI :: Counts :: Age Group 35 - 40 :: Males ::  29543 0.011
+BMI :: Counts :: Age Group 40 - 45 :: Males ::  66798 0.025
+BMI :: Counts :: Age Group 45 - 50 :: Males ::  67923 0.025
+BMI :: Counts :: Age Group 50 - 55 :: Males ::  67663 0.025
+BMI :: Counts :: Age Group 55 - 60 :: Males ::  67332 0.025
+BMI :: Counts :: Age Group 60 - 65 :: Males ::  68249 0.025
+BMI :: Counts :: Age Group 65 - 70 :: Males ::  61821 0.023
+BMI :: Counts :: Age Group 70 - 75 :: Males ::  42610 0.016
+BMI :: Counts :: Age Group 75 - 80 :: Males ::  33443 0.012
+BMI :: Counts :: Age Group 80 - 85 :: Males ::  18897 0.007
+BMI :: Counts :: Age Group 85 - 90 :: Males ::   9159 0.003
+BMI :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+BMI :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+BMI :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+BMI :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+BMI :: Counts :: Age Group 25 - 30 :: Females ::     19 0.000
+BMI :: Counts :: Age Group 30 - 35 :: Females ::   5747 0.002
+BMI :: Counts :: Age Group 35 - 40 :: Females ::  42782 0.013
+BMI :: Counts :: Age Group 40 - 45 :: Females ::  84421 0.026
+BMI :: Counts :: Age Group 45 - 50 :: Females ::  76822 0.024
+BMI :: Counts :: Age Group 50 - 55 :: Females ::  78327 0.024
+BMI :: Counts :: Age Group 55 - 60 :: Females ::  82848 0.025
+BMI :: Counts :: Age Group 60 - 65 :: Females ::  83227 0.026
+BMI :: Counts :: Age Group 65 - 70 :: Females ::  76248 0.023
+BMI :: Counts :: Age Group 70 - 75 :: Females ::  50262 0.015
+BMI :: Counts :: Age Group 75 - 80 :: Females ::  38633 0.012
+BMI :: Counts :: Age Group 80 - 85 :: Females ::  20862 0.006
+BMI :: Counts :: Age Group 85 - 90 :: Females ::  10937 0.003
+BMI :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+BMI :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+BMI :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+BMI :: Stats :: Age Group 20 - 25 :: All ::  N 4 non-zeros 4 Median  23.62 Mean  27.67 Std   5.10 Max  35.32
+BMI :: Stats :: Age Group 25 - 30 :: All ::  N 3172 non-zeros 3172 Median  28.67 Mean  28.86 Std   6.29 Max  63.60
+BMI :: Stats :: Age Group 30 - 35 :: All ::  N 55939 non-zeros 55939 Median  25.95 Mean  26.74 Std   5.69 Max  63.25
+BMI :: Stats :: Age Group 35 - 40 :: All ::  N 183952 non-zeros 183952 Median  25.71 Mean  26.54 Std   5.40 Max  63.68
+BMI :: Stats :: Age Group 40 - 45 :: All ::  N 264036 non-zeros 264036 Median  26.15 Mean  26.96 Std   5.36 Max  64.90
+BMI :: Stats :: Age Group 45 - 50 :: All ::  N 233254 non-zeros 233254 Median  26.79 Mean  27.54 Std   5.34 Max  64.30
+BMI :: Stats :: Age Group 50 - 55 :: All ::  N 214715 non-zeros 214715 Median  27.32 Mean  28.01 Std   5.29 Max  63.96
+BMI :: Stats :: Age Group 55 - 60 :: All ::  N 199883 non-zeros 199883 Median  27.68 Mean  28.35 Std   5.25 Max  63.82
+BMI :: Stats :: Age Group 60 - 65 :: All ::  N 172531 non-zeros 172531 Median  27.81 Mean  28.55 Std   5.20 Max  63.99
+BMI :: Stats :: Age Group 65 - 70 :: All ::  N 140455 non-zeros 140455 Median  27.91 Mean  28.60 Std   5.17 Max  63.69
+BMI :: Stats :: Age Group 70 - 75 :: All ::  N 95215 non-zeros 95215 Median  27.94 Mean  28.61 Std   5.15 Max  63.95
+BMI :: Stats :: Age Group 75 - 80 :: All ::  N 71447 non-zeros 71447 Median  27.85 Mean  28.47 Std   5.11 Max  63.69
+BMI :: Stats :: Age Group 80 - 85 :: All ::  N 42476 non-zeros 42476 Median  27.37 Mean  27.91 Std   4.98 Max  63.38
+BMI :: Stats :: Age Group 85 - 90 :: All ::  N 22032 non-zeros 22032 Median  26.56 Mean  27.00 Std   4.84 Max  63.37
+BMI :: Stats :: Age Group 90 - 95 :: All ::  N 7279 non-zeros 7279 Median  25.53 Mean  26.00 Std   4.68 Max  61.44
+BMI :: Stats :: Age Group 95 - 100 :: All ::  N 1412 non-zeros 1412 Median  24.65 Mean  24.96 Std   4.36 Max  47.61
+BMI :: General :: All     :: outliers ratio 0.000000
+BMI :: General :: All     :: N 856442 non-zeros 856442 Median  26.70 Mean  27.39 Std   5.26 Max  63.98
+BMI :: General :: All     :: distribution 0.001,0.01,0.05 ::  15.73  18.12  20.14  36.99  43.38  53.33
+BMI :: General :: All     :: quartiles ::  15.73  23.78  26.70  30.22 
+BMI :: General :: Males   :: outliers ratio 0.000000
+BMI :: General :: Males   :: N 405623 non-zeros 405623 Median  27.08 Mean  27.62 Std   4.54 Max  63.70
+BMI :: General :: Males   :: distribution 0.001,0.01,0.05 ::  16.29  19.01  21.32  35.74  41.50  50.98
+BMI :: General :: Males   :: quartiles ::  16.29  24.57  27.08  30.06 
+BMI :: General :: Females :: outliers ratio 0.000000
+BMI :: General :: Females :: N 450819 non-zeros 450819 Median  26.22 Mean  27.17 Std   5.81 Max  64.30
+BMI :: General :: Females :: distribution 0.001,0.01,0.05 ::  15.49  17.74  19.54  38.00  44.61  54.76
+BMI :: General :: Females :: quartiles ::  15.49  22.94  26.22  30.46 
+BMI :: Rounding ::  0.00 r  0.19 pct
+BMI :: Rounding ::  0.01 r  0.73 pct
+BMI :: Rounding ::  0.10 r  0.08 pct
+BMI :: Rounding ::  1.00 r  0.01 pct
+BMI :: Rounding :: 10.00 r  0.00 pct
+BMI :: Rounding :: 100.00 r  0.00 pct
+BMI :: Rounding :: 1000.00 r  0.00 pct
+BMI :: Rounding :: most popular rounding for vals:  0.01
+BMI :: Stats year :: 2000 :: All :: N 564 non-zeros 564 Median  28.72 Mean  29.06 Std   6.29 Max  58.59
+BMI :: Stats year :: 2001 :: All :: N 4309 non-zeros 4309 Median  29.89 Mean  30.32 Std   5.69 Max  58.43
+BMI :: Stats year :: 2002 :: All :: N 17239 non-zeros 17239 Median  29.76 Mean  30.24 Std   5.64 Max  61.87
+BMI :: Stats year :: 2003 :: All :: N 20495 non-zeros 20495 Median  29.65 Mean  30.19 Std   5.58 Max  62.89
+BMI :: Stats year :: 2004 :: All :: N 34421 non-zeros 34421 Median  29.17 Mean  29.78 Std   5.49 Max  64.90
+BMI :: Stats year :: 2005 :: All :: N 73453 non-zeros 73453 Median  28.65 Mean  29.25 Std   5.60 Max  64.30
+BMI :: Stats year :: 2006 :: All :: N 170073 non-zeros 170073 Median  27.71 Mean  28.37 Std   5.52 Max  63.69
+BMI :: Stats year :: 2007 :: All :: N 249792 non-zeros 249792 Median  27.39 Mean  28.04 Std   5.39 Max  63.89
+BMI :: Stats year :: 2008 :: All :: N 291553 non-zeros 291553 Median  27.30 Mean  27.96 Std   5.39 Max  64.00
+BMI :: Stats year :: 2009 :: All :: N 338436 non-zeros 338436 Median  27.52 Mean  28.23 Std   5.47 Max  63.96
+BMI :: Stats year :: 2010 :: All :: N 336471 non-zeros 336471 Median  27.68 Mean  28.36 Std   5.49 Max  63.95
+BMI :: Stats year :: 2011 :: All :: N 330689 non-zeros 330689 Median  27.71 Mean  28.40 Std   5.50 Max  63.99
+BMI :: Stats year :: 2012 :: All :: N 408890 non-zeros 408890 Median  27.41 Mean  28.09 Std   5.39 Max  63.98
+BMI :: Stats year :: 2013 :: All :: N 434340 non-zeros 434340 Median  27.35 Mean  28.04 Std   5.34 Max  64.00
+BMI :: Stats year :: 2014 :: All :: N 386884 non-zeros 386884 Median  27.54 Mean  28.24 Std   5.37 Max  64.00
+BMI :: Stats year :: 2015 :: All :: N 322657 non-zeros 322657 Median  27.68 Mean  28.37 Std   5.39 Max  63.99
+BMI :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+BMI :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+BMI :: Stats year :: 2000 :: Males   :: N 240 non-zeros 240 Median  28.78 Mean  29.15 Std   5.27 Max  44.75
+BMI :: Stats year :: 2001 :: Males   :: N 1665 non-zeros 1665 Median  29.66 Mean  30.06 Std   4.90 Max  54.01
+BMI :: Stats year :: 2002 :: Males   :: N 6849 non-zeros 6849 Median  29.66 Mean  30.05 Std   4.87 Max  61.11
+BMI :: Stats year :: 2003 :: Males   :: N 8037 non-zeros 8037 Median  29.40 Mean  29.94 Std   4.91 Max  60.64
+BMI :: Stats year :: 2004 :: Males   :: N 13786 non-zeros 13786 Median  29.06 Mean  29.61 Std   4.74 Max  61.34
+BMI :: Stats year :: 2005 :: Males   :: N 31436 non-zeros 31436 Median  28.57 Mean  29.12 Std   4.82 Max  62.44
+BMI :: Stats year :: 2006 :: Males   :: N 76688 non-zeros 76688 Median  27.77 Mean  28.41 Std   4.78 Max  63.29
+BMI :: Stats year :: 2007 :: Males   :: N 115647 non-zeros 115647 Median  27.54 Mean  28.10 Std   4.64 Max  63.37
+BMI :: Stats year :: 2008 :: Males   :: N 135511 non-zeros 135511 Median  27.47 Mean  28.06 Std   4.64 Max  63.43
+BMI :: Stats year :: 2009 :: Males   :: N 159384 non-zeros 159384 Median  27.74 Mean  28.31 Std   4.72 Max  63.59
+BMI :: Stats year :: 2010 :: Males   :: N 159272 non-zeros 159272 Median  27.77 Mean  28.39 Std   4.74 Max  63.95
+BMI :: Stats year :: 2011 :: Males   :: N 156555 non-zeros 156555 Median  27.80 Mean  28.45 Std   4.74 Max  63.71
+BMI :: Stats year :: 2012 :: Males   :: N 191621 non-zeros 191621 Median  27.63 Mean  28.18 Std   4.65 Max  63.81
+BMI :: Stats year :: 2013 :: Males   :: N 204479 non-zeros 204479 Median  27.55 Mean  28.14 Std   4.64 Max  63.59
+BMI :: Stats year :: 2014 :: Males   :: N 184017 non-zeros 184017 Median  27.73 Mean  28.28 Std   4.67 Max  63.95
+BMI :: Stats year :: 2015 :: Males   :: N 154381 non-zeros 154381 Median  27.77 Mean  28.38 Std   4.72 Max  63.91
+BMI :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+BMI :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+BMI :: Stats year :: 2000 :: Females :: N 324 non-zeros 324 Median  28.70 Mean  29.01 Std   6.94 Max  58.59
+BMI :: Stats year :: 2001 :: Females :: N 2644 non-zeros 2644 Median  30.11 Mean  30.49 Std   6.13 Max  58.43
+BMI :: Stats year :: 2002 :: Females :: N 10390 non-zeros 10390 Median  29.88 Mean  30.36 Std   6.10 Max  61.87
+BMI :: Stats year :: 2003 :: Females :: N 12458 non-zeros 12458 Median  29.84 Mean  30.37 Std   5.97 Max  63.89
+BMI :: Stats year :: 2004 :: Females :: N 20635 non-zeros 20635 Median  29.29 Mean  29.90 Std   5.93 Max  64.90
+BMI :: Stats year :: 2005 :: Females :: N 42017 non-zeros 42017 Median  28.70 Mean  29.35 Std   6.11 Max  64.30
+BMI :: Stats year :: 2006 :: Females :: N 93385 non-zeros 93385 Median  27.56 Mean  28.34 Std   6.07 Max  63.69
+BMI :: Stats year :: 2007 :: Females :: N 134145 non-zeros 134145 Median  27.21 Mean  28.00 Std   5.96 Max  63.69
+BMI :: Stats year :: 2008 :: Females :: N 156042 non-zeros 156042 Median  27.05 Mean  27.87 Std   5.96 Max  63.95
+BMI :: Stats year :: 2009 :: Females :: N 179052 non-zeros 179052 Median  27.28 Mean  28.15 Std   6.07 Max  63.96
+BMI :: Stats year :: 2010 :: Females :: N 177199 non-zeros 177199 Median  27.47 Mean  28.33 Std   6.08 Max  63.81
+BMI :: Stats year :: 2011 :: Females :: N 174134 non-zeros 174134 Median  27.51 Mean  28.36 Std   6.09 Max  63.88
+BMI :: Stats year :: 2012 :: Females :: N 217269 non-zeros 217269 Median  27.16 Mean  28.01 Std   5.96 Max  63.98
+BMI :: Stats year :: 2013 :: Females :: N 229861 non-zeros 229861 Median  27.09 Mean  27.95 Std   5.90 Max  63.98
+BMI :: Stats year :: 2014 :: Females :: N 202867 non-zeros 202867 Median  27.34 Mean  28.20 Std   5.93 Max  64.00
+BMI :: Stats year :: 2015 :: Females :: N 168276 non-zeros 168276 Median  27.53 Mean  28.36 Std   5.95 Max  63.70
+BMI :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+BMI :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+BMI :: Stats month 1 :: All :: N 198644 non-zeros 198644 Median  27.77 Mean  28.50 Std   5.49 Max  63.81
+BMI :: Stats month 2 :: All :: N 187229 non-zeros 187229 Median  27.95 Mean  28.61 Std   5.51 Max  63.99
+BMI :: Stats month 3 :: All :: N 194272 non-zeros 194272 Median  27.92 Mean  28.60 Std   5.51 Max  63.54
+BMI :: Stats month 4 :: All :: N 183822 non-zeros 183822 Median  27.94 Mean  28.61 Std   5.53 Max  63.88
+BMI :: Stats month 5 :: All :: N 213650 non-zeros 213650 Median  27.85 Mean  28.54 Std   5.55 Max  63.95
+BMI :: Stats month 6 :: All :: N 215011 non-zeros 215011 Median  27.81 Mean  28.52 Std   5.56 Max  63.95
+BMI :: Stats month 7 :: All :: N 235992 non-zeros 235992 Median  27.68 Mean  28.35 Std   5.53 Max  64.00
+BMI :: Stats month 8 :: All :: N 219941 non-zeros 219941 Median  27.69 Mean  28.36 Std   5.54 Max  63.67
+BMI :: Stats month 9 :: All :: N 189928 non-zeros 189928 Median  27.73 Mean  28.37 Std   5.53 Max  63.98
+BMI :: Stats month 10 :: All :: N 242790 non-zeros 242790 Median  27.48 Mean  28.19 Std   5.40 Max  64.00
+BMI :: Stats month 11 :: All :: N 210723 non-zeros 210723 Median  27.66 Mean  28.31 Std   5.46 Max  63.98
+BMI :: Stats month 12 :: All :: N 193034 non-zeros 193034 Median  27.71 Mean  28.36 Std   5.49 Max  63.98
+

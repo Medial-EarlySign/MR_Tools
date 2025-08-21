@@ -1,0 +1,162 @@
+VitaminD :: All :: With Values :: 195656 / 14446692 =  0.01 :: 195656 / 195656 =  1.00
+VitaminD :: Males :: With Values ::  55477 / 6889335 =  0.01 ::  55477 / 195656 =  0.28
+VitaminD :: Females :: With Values :: 140179 / 7557357 =  0.02 :: 140179 / 195656 =  0.72
+VitaminD :: General :: No. of Values :: All 303472 Male  80834 Female 222638
+VitaminD :: General :: No. of different days Values :: All 300264 Male  79876 Female 220388
+VitaminD :: General :: Avg #values per person (all) :: All  0.02 Male  0.01 Female  0.03
+VitaminD :: General :: Avg #values per person (>0)  :: All  1.53 Male  1.44 Female  1.57
+VitaminD :: General :: Avg dist between tests       :: All  333.2 Male  308.9 Female  340.6
+VitaminD :: Counts :: Age Group 20 - 25 :: All ::   1968 0.006
+VitaminD :: Counts :: Age Group 25 - 30 :: All ::   2912 0.010
+VitaminD :: Counts :: Age Group 30 - 35 :: All ::   3903 0.013
+VitaminD :: Counts :: Age Group 35 - 40 :: All ::   4412 0.015
+VitaminD :: Counts :: Age Group 40 - 45 :: All ::   5127 0.017
+VitaminD :: Counts :: Age Group 45 - 50 :: All ::   5488 0.018
+VitaminD :: Counts :: Age Group 50 - 55 :: All ::   5644 0.019
+VitaminD :: Counts :: Age Group 55 - 60 :: All ::   5276 0.017
+VitaminD :: Counts :: Age Group 60 - 65 :: All ::   4484 0.015
+VitaminD :: Counts :: Age Group 65 - 70 :: All ::   4554 0.015
+VitaminD :: Counts :: Age Group 70 - 75 :: All ::   3800 0.013
+VitaminD :: Counts :: Age Group 75 - 80 :: All ::   3537 0.012
+VitaminD :: Counts :: Age Group 80 - 85 :: All ::   2891 0.010
+VitaminD :: Counts :: Age Group 85 - 90 :: All ::   1921 0.006
+VitaminD :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+VitaminD :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+VitaminD :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+VitaminD :: Counts :: Age Group 20 - 25 :: Males ::    447 0.006
+VitaminD :: Counts :: Age Group 25 - 30 :: Males ::    545 0.007
+VitaminD :: Counts :: Age Group 30 - 35 :: Males ::    843 0.010
+VitaminD :: Counts :: Age Group 35 - 40 :: Males ::    969 0.012
+VitaminD :: Counts :: Age Group 40 - 45 :: Males ::   1122 0.014
+VitaminD :: Counts :: Age Group 45 - 50 :: Males ::   1260 0.016
+VitaminD :: Counts :: Age Group 50 - 55 :: Males ::   1400 0.017
+VitaminD :: Counts :: Age Group 55 - 60 :: Males ::   1395 0.017
+VitaminD :: Counts :: Age Group 60 - 65 :: Males ::   1304 0.016
+VitaminD :: Counts :: Age Group 65 - 70 :: Males ::   1291 0.016
+VitaminD :: Counts :: Age Group 70 - 75 :: Males ::   1168 0.014
+VitaminD :: Counts :: Age Group 75 - 80 :: Males ::   1166 0.014
+VitaminD :: Counts :: Age Group 80 - 85 :: Males ::    898 0.011
+VitaminD :: Counts :: Age Group 85 - 90 :: Males ::    565 0.007
+VitaminD :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+VitaminD :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+VitaminD :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+VitaminD :: Counts :: Age Group 20 - 25 :: Females ::   1521 0.007
+VitaminD :: Counts :: Age Group 25 - 30 :: Females ::   2367 0.011
+VitaminD :: Counts :: Age Group 30 - 35 :: Females ::   3060 0.014
+VitaminD :: Counts :: Age Group 35 - 40 :: Females ::   3443 0.015
+VitaminD :: Counts :: Age Group 40 - 45 :: Females ::   4005 0.018
+VitaminD :: Counts :: Age Group 45 - 50 :: Females ::   4228 0.019
+VitaminD :: Counts :: Age Group 50 - 55 :: Females ::   4244 0.019
+VitaminD :: Counts :: Age Group 55 - 60 :: Females ::   3881 0.017
+VitaminD :: Counts :: Age Group 60 - 65 :: Females ::   3180 0.014
+VitaminD :: Counts :: Age Group 65 - 70 :: Females ::   3263 0.015
+VitaminD :: Counts :: Age Group 70 - 75 :: Females ::   2632 0.012
+VitaminD :: Counts :: Age Group 75 - 80 :: Females ::   2371 0.011
+VitaminD :: Counts :: Age Group 80 - 85 :: Females ::   1993 0.009
+VitaminD :: Counts :: Age Group 85 - 90 :: Females ::   1356 0.006
+VitaminD :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+VitaminD :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+VitaminD :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+VitaminD :: Stats :: Age Group 20 - 25 :: All ::  N 9071 non-zeros 9071 Median  37.00 Mean  44.93 Std  31.62 Max 322.00
+VitaminD :: Stats :: Age Group 25 - 30 :: All ::  N 12717 non-zeros 12715 Median  37.00 Mean  44.51 Std  30.40 Max 400.00
+VitaminD :: Stats :: Age Group 30 - 35 :: All ::  N 15375 non-zeros 15372 Median  39.00 Mean  45.22 Std  29.57 Max 340.00
+VitaminD :: Stats :: Age Group 35 - 40 :: All ::  N 16279 non-zeros 16276 Median  40.00 Mean  46.10 Std  29.60 Max 400.00
+VitaminD :: Stats :: Age Group 40 - 45 :: All ::  N 17999 non-zeros 17997 Median  41.00 Mean  47.04 Std  29.36 Max 399.00
+VitaminD :: Stats :: Age Group 45 - 50 :: All ::  N 19234 non-zeros 19232 Median  43.00 Mean  48.27 Std  29.74 Max 400.00
+VitaminD :: Stats :: Age Group 50 - 55 :: All ::  N 18862 non-zeros 18861 Median  46.00 Mean  50.60 Std  29.94 Max 400.00
+VitaminD :: Stats :: Age Group 55 - 60 :: All ::  N 16776 non-zeros 16774 Median  46.00 Mean  51.50 Std  30.32 Max 400.00
+VitaminD :: Stats :: Age Group 60 - 65 :: All ::  N 15192 non-zeros 15191 Median  49.00 Mean  53.57 Std  30.38 Max 400.00
+VitaminD :: Stats :: Age Group 65 - 70 :: All ::  N 14815 non-zeros 14814 Median  52.00 Mean  55.93 Std  31.64 Max 380.00
+VitaminD :: Stats :: Age Group 70 - 75 :: All ::  N 12620 non-zeros 12620 Median  51.00 Mean  54.58 Std  30.51 Max 355.00
+VitaminD :: Stats :: Age Group 75 - 80 :: All ::  N 11561 non-zeros 11561 Median  49.00 Mean  53.35 Std  30.52 Max 399.00
+VitaminD :: Stats :: Age Group 80 - 85 :: All ::  N 9129 non-zeros 9128 Median  47.00 Mean  52.51 Std  32.07 Max 375.00
+VitaminD :: Stats :: Age Group 85 - 90 :: All ::  N 5545 non-zeros 5544 Median  44.00 Mean  51.02 Std  33.42 Max 336.00
+VitaminD :: Stats :: Age Group 90 - 95 :: All ::  N 2238 non-zeros 2238 Median  43.00 Mean  51.76 Std  35.80 Max 400.00
+VitaminD :: Stats :: Age Group 95 - 100 :: All ::  N 484 non-zeros 484 Median  39.00 Mean  47.64 Std  36.38 Max 375.00
+VitaminD :: General :: All     :: outliers ratio 0.000028
+VitaminD :: General :: All     :: N 179867 non-zeros 179845 Median  44.00 Mean  49.83 Std  30.51 Max 400.00
+VitaminD :: General :: All     :: distribution 0.001,0.01,0.05 ::   4.00   8.00  12.00 105.00 143.00 228.00
+VitaminD :: General :: All     :: quartiles ::   4.00  27.00  44.00  67.00 
+VitaminD :: General :: Males   :: outliers ratio 0.000000
+VitaminD :: General :: Males   :: N 49351 non-zeros 49349 Median  42.00 Mean  47.52 Std  29.22 Max 400.00
+VitaminD :: General :: Males   :: distribution 0.001,0.01,0.05 ::   4.00   8.00  12.00 100.00 137.00 233.00
+VitaminD :: General :: Males   :: quartiles ::   4.00  26.00  42.00  63.00 
+VitaminD :: General :: Females :: outliers ratio 0.000015
+VitaminD :: General :: Females :: N 130519 non-zeros 130502 Median  45.00 Mean  50.76 Std  31.04 Max 497.00
+VitaminD :: General :: Females :: distribution 0.001,0.01,0.05 ::   4.00   8.00  12.00 106.00 146.00 232.00
+VitaminD :: General :: Females :: quartiles ::   4.00  27.00  45.00  68.00 
+VitaminD :: Rounding ::  0.00 r  0.00 pct
+VitaminD :: Rounding ::  0.01 r  0.00 pct
+VitaminD :: Rounding ::  0.10 r  0.00 pct
+VitaminD :: Rounding ::  1.00 r  0.88 pct
+VitaminD :: Rounding :: 10.00 r  0.12 pct
+VitaminD :: Rounding :: 100.00 r  0.00 pct
+VitaminD :: Rounding :: 1000.00 r  0.00 pct
+VitaminD :: Rounding :: most popular rounding for vals:  1.00
+VitaminD :: Stats year :: 2000 :: All :: N 51 non-zeros 51 Median  36.00 Mean  43.96 Std  28.57 Max 114.00
+VitaminD :: Stats year :: 2001 :: All :: N 106 non-zeros 105 Median  34.00 Mean  38.42 Std  22.92 Max 103.00
+VitaminD :: Stats year :: 2002 :: All :: N 167 non-zeros 167 Median  36.00 Mean  38.87 Std  21.74 Max 125.00
+VitaminD :: Stats year :: 2003 :: All :: N 356 non-zeros 356 Median  36.00 Mean  45.03 Std  33.68 Max 280.00
+VitaminD :: Stats year :: 2004 :: All :: N 542 non-zeros 542 Median  37.00 Mean  45.46 Std  35.11 Max 350.00
+VitaminD :: Stats year :: 2005 :: All :: N 774 non-zeros 773 Median  37.00 Mean  45.37 Std  34.80 Max 271.00
+VitaminD :: Stats year :: 2006 :: All :: N 1147 non-zeros 1147 Median  37.00 Mean  46.84 Std  34.89 Max 300.00
+VitaminD :: Stats year :: 2007 :: All :: N 2164 non-zeros 2164 Median  35.00 Mean  43.16 Std  29.23 Max 336.00
+VitaminD :: Stats year :: 2008 :: All :: N 4679 non-zeros 4677 Median  34.00 Mean  41.21 Std  28.12 Max 372.00
+VitaminD :: Stats year :: 2009 :: All :: N 8033 non-zeros 8032 Median  38.00 Mean  44.43 Std  28.44 Max 307.00
+VitaminD :: Stats year :: 2010 :: All :: N 14075 non-zeros 14070 Median  38.00 Mean  44.06 Std  29.76 Max 456.00
+VitaminD :: Stats year :: 2011 :: All :: N 23146 non-zeros 23142 Median  39.00 Mean  44.94 Std  29.99 Max 381.00
+VitaminD :: Stats year :: 2012 :: All :: N 37402 non-zeros 37398 Median  40.00 Mean  47.03 Std  31.10 Max 497.00
+VitaminD :: Stats year :: 2013 :: All :: N 53332 non-zeros 53331 Median  47.00 Mean  52.12 Std  31.15 Max 400.00
+VitaminD :: Stats year :: 2014 :: All :: N 55673 non-zeros 55672 Median  50.00 Mean  53.99 Std  30.55 Max 400.00
+VitaminD :: Stats year :: 2015 :: All :: N 39147 non-zeros 39146 Median  47.00 Mean  51.41 Std  29.60 Max 400.00
+VitaminD :: Stats year :: 2016 :: All :: N 807 non-zeros 807 Median  45.00 Mean  49.85 Std  27.56 Max 235.00
+VitaminD :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+VitaminD :: Stats year :: 2000 :: Males   :: N 7 non-zeros 7 Median  30.00 Mean  52.00 Std  34.92 Max 100.00
+VitaminD :: Stats year :: 2001 :: Males   :: N 13 non-zeros 13 Median  21.00 Mean  30.38 Std  16.01 Max  55.00
+VitaminD :: Stats year :: 2002 :: Males   :: N 28 non-zeros 28 Median  37.00 Mean  36.64 Std  18.02 Max  75.00
+VitaminD :: Stats year :: 2003 :: Males   :: N 70 non-zeros 70 Median  37.00 Mean  46.59 Std  29.89 Max 125.00
+VitaminD :: Stats year :: 2004 :: Males   :: N 114 non-zeros 114 Median  36.00 Mean  43.56 Std  26.22 Max 146.00
+VitaminD :: Stats year :: 2005 :: Males   :: N 140 non-zeros 139 Median  41.00 Mean  46.70 Std  31.11 Max 150.00
+VitaminD :: Stats year :: 2006 :: Males   :: N 221 non-zeros 221 Median  37.00 Mean  46.35 Std  33.85 Max 246.00
+VitaminD :: Stats year :: 2007 :: Males   :: N 504 non-zeros 504 Median  36.00 Mean  44.74 Std  30.31 Max 267.00
+VitaminD :: Stats year :: 2008 :: Males   :: N 1194 non-zeros 1194 Median  36.00 Mean  42.32 Std  26.43 Max 372.00
+VitaminD :: Stats year :: 2009 :: Males   :: N 1952 non-zeros 1952 Median  39.00 Mean  45.04 Std  26.29 Max 209.00
+VitaminD :: Stats year :: 2010 :: Males   :: N 3430 non-zeros 3429 Median  38.00 Mean  43.79 Std  29.24 Max 324.00
+VitaminD :: Stats year :: 2011 :: Males   :: N 5627 non-zeros 5626 Median  37.00 Mean  43.55 Std  29.34 Max 374.00
+VitaminD :: Stats year :: 2012 :: Males   :: N 9706 non-zeros 9706 Median  38.00 Mean  45.26 Std  29.76 Max 400.00
+VitaminD :: Stats year :: 2013 :: Males   :: N 14010 non-zeros 14010 Median  44.00 Mean  49.71 Std  30.06 Max 375.00
+VitaminD :: Stats year :: 2014 :: Males   :: N 14818 non-zeros 14818 Median  47.00 Mean  51.24 Std  29.50 Max 345.00
+VitaminD :: Stats year :: 2015 :: Males   :: N 10733 non-zeros 10733 Median  43.00 Mean  47.68 Std  28.14 Max 366.00
+VitaminD :: Stats year :: 2016 :: Males   :: N 233 non-zeros 233 Median  39.00 Mean  46.66 Std  28.70 Max 175.00
+VitaminD :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+VitaminD :: Stats year :: 2000 :: Females :: N 44 non-zeros 44 Median  36.00 Mean  42.66 Std  27.23 Max 114.00
+VitaminD :: Stats year :: 2001 :: Females :: N 93 non-zeros 92 Median  34.00 Mean  39.69 Std  23.62 Max 103.00
+VitaminD :: Stats year :: 2002 :: Females :: N 139 non-zeros 139 Median  36.00 Mean  39.36 Std  22.45 Max 125.00
+VitaminD :: Stats year :: 2003 :: Females :: N 286 non-zeros 286 Median  36.00 Mean  45.45 Std  35.22 Max 280.00
+VitaminD :: Stats year :: 2004 :: Females :: N 428 non-zeros 428 Median  37.00 Mean  47.33 Std  47.94 Max 665.00
+VitaminD :: Stats year :: 2005 :: Females :: N 635 non-zeros 635 Median  35.00 Mean  45.67 Std  42.85 Max 631.00
+VitaminD :: Stats year :: 2006 :: Females :: N 926 non-zeros 926 Median  36.00 Mean  47.01 Std  35.65 Max 300.00
+VitaminD :: Stats year :: 2007 :: Females :: N 1660 non-zeros 1660 Median  35.00 Mean  42.63 Std  29.06 Max 336.00
+VitaminD :: Stats year :: 2008 :: Females :: N 3485 non-zeros 3483 Median  34.00 Mean  41.00 Std  29.67 Max 433.00
+VitaminD :: Stats year :: 2009 :: Females :: N 6081 non-zeros 6080 Median  38.00 Mean  44.31 Std  29.02 Max 307.00
+VitaminD :: Stats year :: 2010 :: Females :: N 10645 non-zeros 10640 Median  37.00 Mean  44.17 Std  29.74 Max 456.00
+VitaminD :: Stats year :: 2011 :: Females :: N 17519 non-zeros 17517 Median  39.00 Mean  45.59 Std  30.55 Max 381.00
+VitaminD :: Stats year :: 2012 :: Females :: N 27696 non-zeros 27692 Median  41.00 Mean  47.56 Std  31.26 Max 497.00
+VitaminD :: Stats year :: 2013 :: Females :: N 39321 non-zeros 39319 Median  48.00 Mean  52.96 Std  31.10 Max 400.00
+VitaminD :: Stats year :: 2014 :: Females :: N 40855 non-zeros 40854 Median  51.00 Mean  55.03 Std  30.90 Max 400.00
+VitaminD :: Stats year :: 2015 :: Females :: N 28414 non-zeros 28413 Median  48.00 Mean  52.75 Std  29.96 Max 400.00
+VitaminD :: Stats year :: 2016 :: Females :: N 574 non-zeros 574 Median  49.00 Mean  51.14 Std  26.98 Max 235.00
+VitaminD :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+VitaminD :: Stats month 1 :: All :: N 17103 non-zeros 17102 Median  41.00 Mean  47.18 Std  30.54 Max 399.00
+VitaminD :: Stats month 2 :: All :: N 17127 non-zeros 17123 Median  39.00 Mean  45.69 Std  29.88 Max 433.00
+VitaminD :: Stats month 3 :: All :: N 20400 non-zeros 20398 Median  39.00 Mean  45.95 Std  30.19 Max 350.00
+VitaminD :: Stats month 4 :: All :: N 19677 non-zeros 19676 Median  41.00 Mean  47.72 Std  30.74 Max 400.00
+VitaminD :: Stats month 5 :: All :: N 20509 non-zeros 20508 Median  44.00 Mean  50.19 Std  31.11 Max 400.00
+VitaminD :: Stats month 6 :: All :: N 20247 non-zeros 20244 Median  50.00 Mean  54.31 Std  30.92 Max 350.00
+VitaminD :: Stats month 7 :: All :: N 20320 non-zeros 20319 Median  54.00 Mean  58.19 Std  32.67 Max 400.00
+VitaminD :: Stats month 8 :: All :: N 17766 non-zeros 17765 Median  57.00 Mean  60.10 Std  32.63 Max 400.00
+VitaminD :: Stats month 9 :: All :: N 18889 non-zeros 18889 Median  54.00 Mean  57.53 Std  31.63 Max 400.00
+VitaminD :: Stats month 10 :: All :: N 19761 non-zeros 19758 Median  50.00 Mean  54.27 Std  30.79 Max 497.00
+VitaminD :: Stats month 11 :: All :: N 17734 non-zeros 17732 Median  46.00 Mean  50.18 Std  29.90 Max 400.00
+VitaminD :: Stats month 12 :: All :: N 13998 non-zeros 13996 Median  43.00 Mean  48.18 Std  29.86 Max 399.00
+

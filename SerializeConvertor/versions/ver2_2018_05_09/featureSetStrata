@@ -1,0 +1,2 @@
+stratas	vector<featureStrata>
+factors	vector<int>

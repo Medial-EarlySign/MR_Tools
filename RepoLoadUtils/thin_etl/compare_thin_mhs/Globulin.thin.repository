@@ -1,0 +1,162 @@
+Globulin :: All :: With Values :: 1666907 / 14446692 =  0.12 :: 1666907 / 1666907 =  1.00
+Globulin :: Males :: With Values :: 736828 / 6889335 =  0.11 :: 736828 / 1666907 =  0.44
+Globulin :: Females :: With Values :: 930079 / 7557357 =  0.12 :: 930079 / 1666907 =  0.56
+Globulin :: General :: No. of Values :: All 6952658 Male 3095775 Female 3856883
+Globulin :: General :: No. of different days Values :: All 6938823 Male 3089742 Female 3849081
+Globulin :: General :: Avg #values per person (all) :: All  0.48 Male  0.45 Female  0.51
+Globulin :: General :: Avg #values per person (>0)  :: All  4.16 Male  4.19 Female  4.14
+Globulin :: General :: Avg dist between tests       :: All  366.1 Male  359.0 Female  371.8
+Globulin :: Counts :: Age Group 20 - 25 :: All ::  29115 0.004
+Globulin :: Counts :: Age Group 25 - 30 :: All ::  34086 0.005
+Globulin :: Counts :: Age Group 30 - 35 :: All ::  41178 0.006
+Globulin :: Counts :: Age Group 35 - 40 :: All ::  50547 0.007
+Globulin :: Counts :: Age Group 40 - 45 :: All ::  70280 0.010
+Globulin :: Counts :: Age Group 45 - 50 :: All ::  88450 0.013
+Globulin :: Counts :: Age Group 50 - 55 :: All :: 107420 0.015
+Globulin :: Counts :: Age Group 55 - 60 :: All :: 123709 0.018
+Globulin :: Counts :: Age Group 60 - 65 :: All :: 147793 0.021
+Globulin :: Counts :: Age Group 65 - 70 :: All :: 162062 0.023
+Globulin :: Counts :: Age Group 70 - 75 :: All :: 153528 0.022
+Globulin :: Counts :: Age Group 75 - 80 :: All :: 140540 0.020
+Globulin :: Counts :: Age Group 80 - 85 :: All :: 111317 0.016
+Globulin :: Counts :: Age Group 85 - 90 :: All ::  72407 0.010
+Globulin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Globulin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Globulin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Globulin :: Counts :: Age Group 20 - 25 :: Males ::   9286 0.003
+Globulin :: Counts :: Age Group 25 - 30 :: Males ::  11342 0.004
+Globulin :: Counts :: Age Group 30 - 35 :: Males ::  14907 0.005
+Globulin :: Counts :: Age Group 35 - 40 :: Males ::  20015 0.006
+Globulin :: Counts :: Age Group 40 - 45 :: Males ::  29747 0.010
+Globulin :: Counts :: Age Group 45 - 50 :: Males ::  39498 0.013
+Globulin :: Counts :: Age Group 50 - 55 :: Males ::  49988 0.016
+Globulin :: Counts :: Age Group 55 - 60 :: Males ::  59002 0.019
+Globulin :: Counts :: Age Group 60 - 65 :: Males ::  72841 0.024
+Globulin :: Counts :: Age Group 65 - 70 :: Males ::  79928 0.026
+Globulin :: Counts :: Age Group 70 - 75 :: Males ::  74028 0.024
+Globulin :: Counts :: Age Group 75 - 80 :: Males ::  64104 0.021
+Globulin :: Counts :: Age Group 80 - 85 :: Males ::  47802 0.015
+Globulin :: Counts :: Age Group 85 - 90 :: Males ::  27683 0.009
+Globulin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Globulin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Globulin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Globulin :: Counts :: Age Group 20 - 25 :: Females ::  19829 0.005
+Globulin :: Counts :: Age Group 25 - 30 :: Females ::  22744 0.006
+Globulin :: Counts :: Age Group 30 - 35 :: Females ::  26271 0.007
+Globulin :: Counts :: Age Group 35 - 40 :: Females ::  30532 0.008
+Globulin :: Counts :: Age Group 40 - 45 :: Females ::  40533 0.011
+Globulin :: Counts :: Age Group 45 - 50 :: Females ::  48952 0.013
+Globulin :: Counts :: Age Group 50 - 55 :: Females ::  57432 0.015
+Globulin :: Counts :: Age Group 55 - 60 :: Females ::  64707 0.017
+Globulin :: Counts :: Age Group 60 - 65 :: Females ::  74952 0.019
+Globulin :: Counts :: Age Group 65 - 70 :: Females ::  82134 0.021
+Globulin :: Counts :: Age Group 70 - 75 :: Females ::  79500 0.021
+Globulin :: Counts :: Age Group 75 - 80 :: Females ::  76436 0.020
+Globulin :: Counts :: Age Group 80 - 85 :: Females ::  63515 0.016
+Globulin :: Counts :: Age Group 85 - 90 :: Females ::  44724 0.012
+Globulin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Globulin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Globulin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Globulin :: Stats :: Age Group 20 - 25 :: All ::  N 103573 non-zeros 103507 Median  29.00 Mean  29.20 Std   4.43 Max  86.00
+Globulin :: Stats :: Age Group 25 - 30 :: All ::  N 117686 non-zeros 117595 Median  29.00 Mean  29.35 Std   4.48 Max  82.00
+Globulin :: Stats :: Age Group 30 - 35 :: All ::  N 133461 non-zeros 133358 Median  29.00 Mean  29.41 Std   4.53 Max  97.00
+Globulin :: Stats :: Age Group 35 - 40 :: All ::  N 154022 non-zeros 153899 Median  29.00 Mean  29.31 Std   4.52 Max  92.00
+Globulin :: Stats :: Age Group 40 - 45 :: All ::  N 188847 non-zeros 188723 Median  29.00 Mean  29.18 Std   4.49 Max  85.00
+Globulin :: Stats :: Age Group 45 - 50 :: All ::  N 211114 non-zeros 210927 Median  29.00 Mean  29.19 Std   4.56 Max  89.00
+Globulin :: Stats :: Age Group 50 - 55 :: All ::  N 223879 non-zeros 223664 Median  29.00 Mean  29.22 Std   4.61 Max  98.00
+Globulin :: Stats :: Age Group 55 - 60 :: All ::  N 237385 non-zeros 237126 Median  29.00 Mean  29.18 Std   4.63 Max  96.00
+Globulin :: Stats :: Age Group 60 - 65 :: All ::  N 245215 non-zeros 244958 Median  29.00 Mean  29.21 Std   4.70 Max  98.00
+Globulin :: Stats :: Age Group 65 - 70 :: All ::  N 235592 non-zeros 235350 Median  29.00 Mean  29.39 Std   4.83 Max  98.00
+Globulin :: Stats :: Age Group 70 - 75 :: All ::  N 206615 non-zeros 206361 Median  29.00 Mean  29.62 Std   5.00 Max 104.00
+Globulin :: Stats :: Age Group 75 - 80 :: All ::  N 178984 non-zeros 178735 Median  30.00 Mean  29.86 Std   5.16 Max 105.00
+Globulin :: Stats :: Age Group 80 - 85 :: All ::  N 141124 non-zeros 140955 Median  30.00 Mean  30.13 Std   5.29 Max 108.00
+Globulin :: Stats :: Age Group 85 - 90 :: All ::  N 88660 non-zeros 88584 Median  30.00 Mean  30.34 Std   5.39 Max  98.00
+Globulin :: Stats :: Age Group 90 - 95 :: All ::  N 38609 non-zeros 38586 Median  30.00 Mean  30.59 Std   5.45 Max 111.00
+Globulin :: Stats :: Age Group 95 - 100 :: All ::  N 9209 non-zeros 9201 Median  30.00 Mean  30.81 Std   5.59 Max  95.00
+Globulin :: General :: All     :: outliers ratio 0.000027
+Globulin :: General :: All     :: N 1554107 non-zeros 1552400 Median  29.00 Mean  29.45 Std   4.85 Max 102.00
+Globulin :: General :: All     :: distribution 0.001,0.01,0.05 ::  17.00  20.00  23.00  37.00  43.00  54.00
+Globulin :: General :: All     :: quartiles ::  17.00  26.00  29.00  32.00 
+Globulin :: General :: Males   :: outliers ratio 0.000028
+Globulin :: General :: Males   :: N 690033 non-zeros 689228 Median  29.00 Mean  29.31 Std   4.89 Max 102.00
+Globulin :: General :: Males   :: distribution 0.001,0.01,0.05 ::  16.00  20.00  22.00  37.00  43.00  54.00
+Globulin :: General :: Males   :: quartiles ::  16.00  26.00  29.00  32.00 
+Globulin :: General :: Females :: outliers ratio 0.000028
+Globulin :: General :: Females :: N 864073 non-zeros 863181 Median  29.00 Mean  29.57 Std   4.81 Max 100.00
+Globulin :: General :: Females :: distribution 0.001,0.01,0.05 ::  17.00  20.00  23.00  38.00  43.00  53.00
+Globulin :: General :: Females :: quartiles ::  17.00  26.00  29.00  32.00 
+Globulin :: Rounding ::  0.00 r  0.00 pct
+Globulin :: Rounding ::  0.01 r  0.00 pct
+Globulin :: Rounding ::  0.10 r  0.00 pct
+Globulin :: Rounding ::  1.00 r  0.90 pct
+Globulin :: Rounding :: 10.00 r  0.10 pct
+Globulin :: Rounding :: 100.00 r  0.00 pct
+Globulin :: Rounding :: 1000.00 r  0.00 pct
+Globulin :: Rounding :: most popular rounding for vals:  1.00
+Globulin :: Stats year :: 2000 :: All :: N 39017 non-zeros 38741 Median  30.00 Mean  30.13 Std   5.65 Max 105.00
+Globulin :: Stats year :: 2001 :: All :: N 74204 non-zeros 73968 Median  30.00 Mean  30.36 Std   5.16 Max  99.00
+Globulin :: Stats year :: 2002 :: All :: N 114846 non-zeros 114725 Median  30.00 Mean  30.40 Std   4.79 Max 102.00
+Globulin :: Stats year :: 2003 :: All :: N 193668 non-zeros 193226 Median  30.00 Mean  29.85 Std   4.92 Max 102.00
+Globulin :: Stats year :: 2004 :: All :: N 267612 non-zeros 267285 Median  29.00 Mean  29.59 Std   4.66 Max  98.00
+Globulin :: Stats year :: 2005 :: All :: N 309283 non-zeros 309214 Median  29.00 Mean  29.45 Std   4.48 Max  96.00
+Globulin :: Stats year :: 2006 :: All :: N 337664 non-zeros 337598 Median  29.00 Mean  29.45 Std   4.46 Max  96.00
+Globulin :: Stats year :: 2007 :: All :: N 363985 non-zeros 363907 Median  29.00 Mean  29.35 Std   4.41 Max  93.00
+Globulin :: Stats year :: 2008 :: All :: N 377491 non-zeros 376668 Median  29.00 Mean  29.56 Std   4.54 Max  97.00
+Globulin :: Stats year :: 2009 :: All :: N 382652 non-zeros 381938 Median  29.00 Mean  29.23 Std   4.61 Max  97.00
+Globulin :: Stats year :: 2010 :: All :: N 375958 non-zeros 375926 Median  29.00 Mean  29.20 Std   4.81 Max  97.00
+Globulin :: Stats year :: 2011 :: All :: N 387930 non-zeros 387912 Median  29.00 Mean  29.22 Std   4.86 Max 102.00
+Globulin :: Stats year :: 2012 :: All :: N 381304 non-zeros 381287 Median  29.00 Mean  29.37 Std   4.81 Max 100.00
+Globulin :: Stats year :: 2013 :: All :: N 353785 non-zeros 353775 Median  29.00 Mean  29.66 Std   4.90 Max  99.00
+Globulin :: Stats year :: 2014 :: All :: N 322787 non-zeros 322786 Median  29.00 Mean  29.32 Std   4.92 Max  98.00
+Globulin :: Stats year :: 2015 :: All :: N 306088 non-zeros 306087 Median  29.00 Mean  28.99 Std   4.73 Max  90.00
+Globulin :: Stats year :: 2016 :: All :: N 16081 non-zeros 16081 Median  29.00 Mean  29.04 Std   4.61 Max  70.00
+Globulin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Globulin :: Stats year :: 2000 :: Males   :: N 16886 non-zeros 16782 Median  30.00 Mean  30.11 Std   5.64 Max 103.00
+Globulin :: Stats year :: 2001 :: Males   :: N 32478 non-zeros 32386 Median  30.00 Mean  30.30 Std   5.20 Max  99.00
+Globulin :: Stats year :: 2002 :: Males   :: N 51010 non-zeros 50966 Median  30.00 Mean  30.30 Std   4.79 Max  93.00
+Globulin :: Stats year :: 2003 :: Males   :: N 87008 non-zeros 86778 Median  29.00 Mean  29.74 Std   4.97 Max 102.00
+Globulin :: Stats year :: 2004 :: Males   :: N 120819 non-zeros 120665 Median  29.00 Mean  29.48 Std   4.67 Max  98.00
+Globulin :: Stats year :: 2005 :: Males   :: N 140131 non-zeros 140100 Median  29.00 Mean  29.34 Std   4.49 Max  96.00
+Globulin :: Stats year :: 2006 :: Males   :: N 153560 non-zeros 153524 Median  29.00 Mean  29.35 Std   4.49 Max  96.00
+Globulin :: Stats year :: 2007 :: Males   :: N 165762 non-zeros 165734 Median  29.00 Mean  29.24 Std   4.43 Max  91.00
+Globulin :: Stats year :: 2008 :: Males   :: N 171636 non-zeros 171253 Median  29.00 Mean  29.45 Std   4.56 Max  97.00
+Globulin :: Stats year :: 2009 :: Males   :: N 174061 non-zeros 173720 Median  29.00 Mean  29.09 Std   4.63 Max  89.00
+Globulin :: Stats year :: 2010 :: Males   :: N 171425 non-zeros 171410 Median  29.00 Mean  29.05 Std   4.81 Max  97.00
+Globulin :: Stats year :: 2011 :: Males   :: N 175732 non-zeros 175721 Median  29.00 Mean  29.06 Std   4.85 Max 101.00
+Globulin :: Stats year :: 2012 :: Males   :: N 172691 non-zeros 172680 Median  29.00 Mean  29.23 Std   4.83 Max  98.00
+Globulin :: Stats year :: 2013 :: Males   :: N 160062 non-zeros 160056 Median  29.00 Mean  29.53 Std   4.90 Max  87.00
+Globulin :: Stats year :: 2014 :: Males   :: N 144163 non-zeros 144163 Median  29.00 Mean  29.20 Std   4.93 Max  98.00
+Globulin :: Stats year :: 2015 :: Males   :: N 136701 non-zeros 136701 Median  29.00 Mean  28.88 Std   4.73 Max  90.00
+Globulin :: Stats year :: 2016 :: Males   :: N 7199 non-zeros 7199 Median  29.00 Mean  29.06 Std   4.58 Max  64.00
+Globulin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Globulin :: Stats year :: 2000 :: Females :: N 22131 non-zeros 21955 Median  30.00 Mean  30.14 Std   5.69 Max 105.00
+Globulin :: Stats year :: 2001 :: Females :: N 41726 non-zeros 41598 Median  30.00 Mean  30.40 Std   5.08 Max  99.00
+Globulin :: Stats year :: 2002 :: Females :: N 63836 non-zeros 63763 Median  30.00 Mean  30.49 Std   4.79 Max 102.00
+Globulin :: Stats year :: 2003 :: Females :: N 106659 non-zeros 106444 Median  30.00 Mean  29.95 Std   4.87 Max  87.00
+Globulin :: Stats year :: 2004 :: Females :: N 146794 non-zeros 146621 Median  29.00 Mean  29.67 Std   4.64 Max  92.00
+Globulin :: Stats year :: 2005 :: Females :: N 169151 non-zeros 169117 Median  29.00 Mean  29.55 Std   4.46 Max  93.00
+Globulin :: Stats year :: 2006 :: Females :: N 184105 non-zeros 184071 Median  29.00 Mean  29.53 Std   4.44 Max  96.00
+Globulin :: Stats year :: 2007 :: Females :: N 198223 non-zeros 198172 Median  29.00 Mean  29.46 Std   4.39 Max  88.00
+Globulin :: Stats year :: 2008 :: Females :: N 205855 non-zeros 205406 Median  29.00 Mean  29.67 Std   4.53 Max  97.00
+Globulin :: Stats year :: 2009 :: Females :: N 208591 non-zeros 208216 Median  29.00 Mean  29.35 Std   4.59 Max  97.00
+Globulin :: Stats year :: 2010 :: Females :: N 204533 non-zeros 204515 Median  29.00 Mean  29.32 Std   4.81 Max  96.00
+Globulin :: Stats year :: 2011 :: Females :: N 212197 non-zeros 212189 Median  29.00 Mean  29.35 Std   4.87 Max  89.00
+Globulin :: Stats year :: 2012 :: Females :: N 208612 non-zeros 208602 Median  29.00 Mean  29.48 Std   4.79 Max  96.00
+Globulin :: Stats year :: 2013 :: Females :: N 193723 non-zeros 193720 Median  30.00 Mean  29.77 Std   4.90 Max  96.00
+Globulin :: Stats year :: 2014 :: Females :: N 178624 non-zeros 178623 Median  29.00 Mean  29.41 Std   4.91 Max  86.00
+Globulin :: Stats year :: 2015 :: Females :: N 169387 non-zeros 169386 Median  29.00 Mean  29.07 Std   4.72 Max  87.00
+Globulin :: Stats year :: 2016 :: Females :: N 8882 non-zeros 8882 Median  29.00 Mean  29.03 Std   4.62 Max  70.00
+Globulin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Globulin :: Stats month 1 :: All :: N 282218 non-zeros 282027 Median  29.00 Mean  29.68 Std   4.95 Max 103.00
+Globulin :: Stats month 2 :: All :: N 263990 non-zeros 263796 Median  29.00 Mean  29.61 Std   4.91 Max  98.00
+Globulin :: Stats month 3 :: All :: N 285722 non-zeros 285534 Median  29.00 Mean  29.58 Std   4.87 Max  96.00
+Globulin :: Stats month 4 :: All :: N 262219 non-zeros 262061 Median  29.00 Mean  29.56 Std   4.89 Max 100.00
+Globulin :: Stats month 5 :: All :: N 270792 non-zeros 270547 Median  29.00 Mean  29.56 Std   4.92 Max 103.00
+Globulin :: Stats month 6 :: All :: N 279024 non-zeros 278652 Median  29.00 Mean  29.45 Std   4.95 Max 101.00
+Globulin :: Stats month 7 :: All :: N 284700 non-zeros 284285 Median  29.00 Mean  29.41 Std   4.92 Max  95.00
+Globulin :: Stats month 8 :: All :: N 263772 non-zeros 263373 Median  29.00 Mean  29.43 Std   4.94 Max 103.00
+Globulin :: Stats month 9 :: All :: N 280376 non-zeros 280005 Median  29.00 Mean  29.40 Std   4.96 Max 101.00
+Globulin :: Stats month 10 :: All :: N 289658 non-zeros 289325 Median  29.00 Mean  29.45 Std   4.93 Max 103.00
+Globulin :: Stats month 11 :: All :: N 280653 non-zeros 280416 Median  29.00 Mean  29.50 Std   4.88 Max 102.00
+Globulin :: Stats month 12 :: All :: N 233485 non-zeros 233332 Median  29.00 Mean  29.48 Std   4.95 Max  99.00
+

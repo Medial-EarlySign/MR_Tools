@@ -1,0 +1,774 @@
+signal	unit	muliplier	addition	Round	FinalRound
+ALKP	None	1.0	0.0	1.0	
+ALKP	IU/mL	1.0	0.0	1.0	
+ALKP	/uL	1.0	0.0	1.0	
+ALKP	uL	1.0	0.0	1.0	
+ALKP	IU	1.0	0.0	1.0	
+ALKP	U/L	1	0.0	1.0	
+ALKP	IU/L	1	0.0	1.0	
+ALKP	%	1	0.0	1.0	
+ALT	IU/L	1	0.0	1.0	
+ALT	/uL	1.0	0.0	1.0	
+ALT	uL	1.0	0.0	1.0	
+ALT	U/L	1.0	0.0	1.0	
+ALT	IU	1.0	0.0	1.0	
+ALT	IU/L 37C	1.0	0.0	1.0	
+ALT	IU/d	10.0	0.0	1.0	
+ALT	ng/mL	1.0	0.0	1.0	
+ALT	ug/L	1.0	0.0	1.0	
+ALT	nmol/L	1.0	0.0	1.0	
+ALT	None	1.0	0.0	1.0	
+AST	None	1.0	0.0	1.0	
+AST	U/L	1	0.0	1.0	
+AST	IU/L	1	0.0	1.0	
+Albumin	g/L	0.1	0.0	0.1	
+Albumin	None	0.1	0.0	0.1	
+Albumin	mmol/L	0.1	0.0	0.1	
+B12	ng/L	1.0	0.0	1.0	
+B12	pg/mL	1.0	0.0	1.0	
+B12	pmol/L	1.0	0.0	1.0	
+B12	ug/L	1.0	0.0	1.0	
+B12	ug/mL	1.0	0.0	1.0	
+B12	umol/L	1.0	0.0	1.0	
+B12	None	1	0.0	1.0	
+B12	mmol/L	1	0.0	1.0	
+B12	ng/mL	1	0.0	1.0	
+B12	pg/L	1	0.0	1.0	
+Basophils#	%	1.0	0.0	0.01	
+Basophils#	(pH)	1.0	0.0	0.01	
+Basophils#	*10^9/L	1.0	0.0	0.01	
+Basophils#	*10^9/l	1.0	0.0	0.01	
+Basophils#	/L	1.0	0.0	0.01	
+Basophils#	/mL	1.0	0.0	0.01	
+Basophils#	1	1.0	0.0	0.01	
+Basophils#	10*12/L	1.0	0.0	0.01	
+Basophils#	10*9	1.0	0.0	0.01	
+Basophils#	L	1.0	0.0	0.01	
+Basophils#	10*9/L	1.0	0.0	0.01	
+Basophils#	None	1.0	0.0	0.01	
+Bicarbonate	mmol/L	1.0	0.0	1.0	
+Bicarbonate	meq/L	1.0	0.0	1.0	
+Bicarbonate	None	0.0585	0.0	1.0	
+Bilirubin	MicroU/L	0.0585	0.0	0.1	0.01
+Bilirubin	mmol/L	0.0585	0.0	0.1	0.01
+Bilirubin	umol/L	0.0585	0.0	0.1	0.01
+Bilirubin	mol/L	0.0585	0.0	0.1	0.01
+Bilirubin	None	0.0585	0.0	0.1	0.01
+CO2	mmol/L	1	0.0	1.0	
+CO2	None	1.0	0.0	1.0	
+CRP	mg/L	0.1	0.0	0.1	
+CRP	mg/mmol	0.1	0.0	0.1	
+CRP	None	0.1	0.0	0.1	
+CRP	ratio	0.1	0.0	0.1	
+CRP	ug/mL	0.1	0.0	0.1	
+CRP	mmol/L	0.1	0.0	0.1	
+Cl	mmol/L	1.0	0.0	1.0	
+Cl	None	1.0	0.0	1.0	
+Cholesterol	mol/L	38.61	0.0	0.1	1.0
+Cholesterol	mmol/L	38.61	0.0	0.1	1.0
+Cholesterol	mg/dL	1.0	0.0	0.1	1.0
+Cholesterol	None	38.61	0.0	0.1	1.0
+Cholesterol_over_HDL	/mL	1.0	0.0	0.1	
+Cholesterol_over_HDL	1	1.0	0.0	0.1	
+Cholesterol_over_HDL	IU/mL	1.0	0.0	0.1	
+Cholesterol_over_HDL	%	Formula1	0.0	0.1	
+Cholesterol_over_HDL	mmol/L	1.0	0.0	0.1	
+Cholesterol_over_HDL	None	1.0	0.0	0.1	
+Cholesterol_over_HDL	ratio	1.0	0.0	0.1	
+Cholesterol_over_HDL	01-Jan	1.0	0.0	0.1	
+Cholesterol_over_HDL	U/L	1	0.0	0.1	
+Cholesterol_over_HDL	mL/min/1.73m*2	1	0.0	0.1	
+Cholesterol_over_HDL	ml/min/1.73m2	1	0.0	0.1	
+Cholesterol_over_HDL	mmol/mmol	1	0.0	0.1	
+HDL_over_Cholesterol	ratio	0.1	0.0	0.1	
+HDL_over_Cholesterol	%	0.01	0.0	0.1	
+HDL_over_Cholesterol	1	0.1	0.0	0.1	
+HDL_over_Cholesterol	01-Jan	0.	1.0	0.1	
+HDL_over_Cholesterol	mmol/L	0.1	0.0	0.1	
+HDL_over_Cholesterol	%	Formula1	0.0	0.1	
+HDL_over_Cholesterol	1	1.0	0.0	0.1	
+HDL_over_Cholesterol	<None>	1.0	0.0	0.1	
+HDL_over_Cholesterol	ratio	1.0	0.0	0.1	
+HDL_over_Cholesterol	01-Jan	1.0	0.0	0.1	
+CorrectedCa	mmol/L	4.0	0.0	0.01	
+CorrectedCa	None	4.0	0.0	0.01	
+CorrectedCa	mol/L	4	0.0	0.01	
+Digoxin	nmol/L	1.0	0.0	0.1	
+Digoxin	ng/mL	1.281	0.0	0.1	
+Digoxin	ug/L	1.281	0.0	0.1	
+Digoxin	None	1.281	0.0	0.1	
+Eosinophils#	(pH	1.0	0.0	0.1	
+Eosinophils#	(pH)	1.0	0.0	0.1	
+Eosinophils#	*10^9/L	1.0	0.0	0.1	
+Eosinophils#	*10^9/l	1.0	0.0	0.1	
+Eosinophils#	/L	1.0	0.0	0.1	
+Eosinophils#	/mL	1.0	0.0	0.1	
+Eosinophils#	1	1.0	0.0	0.1	
+Eosinophils#	10*12/L	1.0	0.0	0.1	
+Eosinophils#	10*9	1.0	0.0	0.1	
+Eosinophils#	10*9/mL	1.0	0.0	0.1	
+Eosinophils#	<None>	1.0	0.0	0.1	
+Eosinophils#	L	1.0	0.0	0.1	
+Eosinophils#	10*9/L	1.0	0.0	0.1	
+Eosinophils#	None	1.0	0.0	0.1	
+Eosinophils#	x10*9/l	1.0	0.0	0.1	
+Eosinophils#	x10\S\9l	1.0	0.0	0.1	
+Eosinophils#	x10^9/L	1.0	0.0	0.1	
+Eosinophils#	x10^9/l	1.0	0.0	0.1	
+Eosinophils#	mmol/L	1.0	0.0	0.1	
+Eosinophils#	x 10 ^ 9/l	1.0	0.0	0.1	
+Eosinophils#	x 10^9/l	1.0	0.0	0.1	
+Eosinophils#	x10*9/L	1.0	0.0	0.1	
+Eosinophils#	x10e9/l	1.0	0.0	0.1	
+Eosinophils#	g/L	1	0.0	0.1	
+Ferritin	/L	1.0	0.0	1.0	
+Ferritin	L	1.0	0.0	1.0	
+Ferritin	MicroU/L	1.0	0.0	1.0	
+Ferritin	ug/L	1.0	0.0	1.0	
+Ferritin	g/L	1.0	0.0	1.0	
+Ferritin	mg/L	1.0	0.0	1.0	
+Ferritin	ng/L	1.0	0.0	1.0	
+Ferritin	ng/mL	1.0	0.0	1.0	
+Ferritin	ug/mL	1.0	0.0	1.0	
+Ferritin	None	1	0.0	1.0	
+Ferritin	%	1	0.0	1.0	
+Ferritin	mU/L	1	0.0	1.0	
+Ferritin	nmol/L	1	0.0	1.0	
+Fibrinogen	g/L	100	0.0	0.1	
+Fibrinogen	g/dL	100	0.0	0.1	
+Fibrinogen	mg/dL	1	0.0	0.1	
+Fibrinogen	10*3	10	0.0	0.1	
+Fibrinogen	None	100	0.0	0.1	
+Follic_Acid	g/L	1.0	0.0	0.1	
+Follic_Acid	ug/L	1.0	0.0	0.1	
+Follic_Acid	MicroU/L	1.0	0.0	0.1	
+Follic_Acid	mg/L	1.0	0.0	0.1	
+Follic_Acid	ng/mL	1.0	0.0	0.1	
+Follic_Acid	nmol/L	1.0	0.0	0.1	
+Follic_Acid	None	1	0.0	0.1	
+Follic_Acid	ng/L	1.0	0.0	0.1	
+Follic_Acid	/L	1	0.0	0.1	
+FreeT3	pmol/L	1.0	0.0	1.0	
+FreeT3	nmol/L	1.0	0.0	1.0	
+FreeT3	None	1.0	0.0	1.0	
+FreeT4	pmol/L	1.0	0.0	0.1	1.0
+FreeT4	nmol/L	1.0	0.0	0.1	1.0
+FreeT4	ug/d	0.128	0.0	0.1	1.0
+FreeT4	None	1.0	0.0	0.1	1.0
+GFR	mL/min	1.0	0.0	1.0	
+GFR	<None>	1.0	0.0	1.0	
+GFR	/mL	1.0	0.0	1.0	
+GFR	ml/min/1.73m*2	1.0	0.0	1.0	
+GFR	mL/min/1.73m*2	1.0	0.0	1.0	
+GFR	mL/24h/1.73m*2	1.0	0.0	1.0	
+GFR	mL/min/1.73m2	1.0	0.0	1.0	
+GFR	mL/s	1.0	0.0	1.0	
+GFR	/minute	1.0	0.0	1.0	
+GFR	mg/mol	1.0	0.0	1.0	
+GFR	L/min	1.0	0.0	1.0	
+GFR	/min	1.0	0.0	1.0	
+GFR	lm/m2	1.0	0.0	1.0	
+GFR	m2	1.0	0.0	1.0	
+GFR	mg/mmol	1.0	0.0	1.0	
+GFR	ml/min/1.73m	1.0	0.0	1.0	
+GFR	ratio	1.0	0.0	1.0	
+GFR	None	1	0.0	1.0	
+GFR	#G ( )/L	1	0.0	1.0	
+GFR	IU	1	0.0	1.0	
+GFR	U/L	1	0.0	1.0	
+GGT	IU	1.0	0.0	1.0	
+GGT	None	1.0	0.0	1.0	
+GGT	IU/L	1	0.0	1.0	
+GGT	U/L	1	0.0	1.0	
+GGT	/uL	1	0.0	1.0	
+Globulin	g/L	1.0	0.0	1.0	
+Globulin	None	1.0	0.0	1.0	
+Glucose	mmol/L	18.02	0.0	0.1	0.1
+Glucose	IU/L	18.02	0.0	0.1	0.1
+Glucose	mmol	18.02	0.0	0.1	0.1
+Glucose	mol/L	18.02	0.0	0.1	0.1
+Glucose	None	18.02	0.0	0.1	0.1
+HbA1C	%	1.0	0.0	0.1	
+HbA1C	IU/L	1.0	0.0	0.1	
+HbA1C	NonIFCC	1.0	0.0	0.1	
+HbA1C	IFCC	0.09148	2.1519999999999997	0.1	
+HbA1C	mmol/mmol	0.09148	2.1519999999999997	0.1	
+HbA1C	mmol/mol	0.09148	2.1519999999999997	0.1	
+HbA1C	mmol/mol Hb	0.09148	2.1519999999999997	0.1	
+HbA1C	umol/mol(Hb)	10.0	0.0	0.1	
+HbA1C	None	1	0.0	0.1	
+HbA1C	%Hb	1	0.0	0.1	
+HDL_over_LDL	1	0.1	0.0	0.01	
+HDL_over_LDL	ratio	0.1	0.0	0.01	
+HDL_over_LDL	None	0.1	0.0	0.01	
+HDL_over_LDL	01-Jan	0.1	0.0	0.01	
+HDL_over_LDL	mmol/L	0.1	0.0	0.01	
+HDL_over_LDL	None	0.1	0.0	0.01	
+HDL_over_LDL	mmol/L	0.1	0.0	0.01	
+Hematocrit	%	1.0	0.0	0.01	1.0
+Hematocrit	/L	100	0.0	0.01	1.0
+Hematocrit	1	100	0.0	0.01	1.0
+Hematocrit	1(tot	100	0.0	0.01	1.0
+Hematocrit	1/mL	100	0.0	0.01	1.0
+Hematocrit	10*9/L	100	0.0	0.01	1.0
+Hematocrit	IU/L	100	0.0	0.01	1.0
+Hematocrit	L	100	0.0	0.01	1.0
+Hematocrit	L/L	100	0.0	0.01	1.0
+Hematocrit	fL	100	0.0	0.01	1.0
+Hematocrit	g/L	100	0.0	0.01	1.0
+Hematocrit	ratio	100	0.0	0.01	1.0
+Hematocrit	01-Jan	100	0.0	0.01	1.0
+Hematocrit	U/L	100	0.0	0.01	1.0
+Hematocrit	1(tot)	100	0.0	0.01	1.0
+Hematocrit	/g(Hb)	100	0.0	0.01	1.0
+Hematocrit	None	100	0.0	0.01	1.0
+Hemoglobin	g/dL	1.0	0.0	0.1	
+Hemoglobin	g/L	0.1	0.0	0.1	
+Hemoglobin	None	1	0.0	0.1	
+INR	1	1.0	0.0	0.1	
+INR	IU/mL	1.0	0.0	0.1	
+INR	ratio	1.0	0.0	0.1	
+INR	%	1.0	0.0	0.1	
+INR	mL/min	1.0	0.0	0.1	
+INR	mg/mmol	1.0	0.0	0.1	
+INR	01-Jan	1.0	0.0	0.1	
+INR	u	1.0	0.0	0.1	
+INR	None	1.0	0.0	0.1	
+INR	mmol	1	0.0	0.1	
+LDL	mmol/L	38.67	0.0	0.1	1.0
+LDL	nmol/L	38.67	0.0	0.1	1.0
+LDL	umol/L	38.67	0.0	0.1	1.0
+LDL	None	38.67	0.0	0.1	1.0
+LDL_over_HDL	None	1.0	0.0	0.1	
+LDL_over_HDL	ratio	10	0.0	0.1	
+Lithium	mmol/L	1	0.0	0.1	
+Lithium	meq/L	1.0	0.0	0.1	
+Lithium	None	1.0	0.0	0.1	
+LuteinisingHormone	IU/mL	1.0	0.0	1.0	
+LuteinisingHormone	IU/L	1.0	0.0	1.0	
+LuteinisingHormone	mIU/L	1.0	0.0	1.0	
+LuteinisingHormone	mU/L	1.0	0.0	1.0	
+LuteinisingHormone	mU/mL	1.0	0.0	1.0	
+LuteinisingHormone	U/L	1.0	0.0	1.0	
+LuteinisingHormone	None	1.0	0.0	1.0	
+LuteinisingHormone	/uL	1.0	0.0	1.0	
+Lymphocytes#	(pH)	1.0	0.0	0.1	
+Lymphocytes#	*10^9/L	1.0	0.0	0.1	
+Lymphocytes#	*10^9/l	1.0	0.0	0.1	
+Lymphocytes#	/L	1.0	0.0	0.1	
+Lymphocytes#	/mL	1.0	0.0	0.1	
+Lymphocytes#	1	1.0	0.0	0.1	
+Lymphocytes#	10*12/L	1.0	0.0	0.1	
+Lymphocytes#	10*9	1.0	0.0	0.1	
+Lymphocytes#	10*9/mL	1.0	0.0	0.1	
+Lymphocytes#	10*9/L	1.0	0.0	0.1	
+Lymphocytes#	L	1.0	0.0	0.1	
+Lymphocytes#	g/dL	1.0	0.0	0.1	
+Lymphocytes#	mmol/L	1.0	0.0	0.1	
+Lymphocytes#	x 10^9/l	1.0	0.0	0.1	
+Lymphocytes#	x10*9/L	1.0	0.0	0.1	
+Lymphocytes#	x10*9/l	1.0	0.0	0.1	
+Lymphocytes#	x10\S\9l	1.0	0.0	0.1	
+Lymphocytes#	x10^9/L	1.0	0.0	0.1	
+Lymphocytes#	x10^9/l	1.0	0.0	0.1	
+Lymphocytes#	x10e9/l	1.0	0.0	0.1	
+Lymphocytes#	None	1	0.0	0.1	
+Lymphocytes#	g/L	1	0.0	0.1	
+MCH	pg	1.0	0.0	0.1	
+MCH	g/L	1.0	0.0	0.1	
+MCH	g/dL	1.0	0.0	0.1	
+MCH	pg/mL	1.0	0.0	0.1	
+MCH	None	1	0.0	0.1	
+MCHC-M	%	1.0	0.0	0.1	
+MCHC-M	/L	1.0	0.0	0.1	
+MCHC-M	L/L	1.0	0.0	0.1	
+MCHC-M	g/dL	1.0	0.0	0.1	
+MCHC-M	g/L	0.1	0.0	0.1	
+MCHC-M	/L	1.0	0.0	0.1	
+MCHC-M	mmol/L	1.0	0.0	0.1	
+MCHC-M	pg/L	1.0	0.0	0.1	
+MCHC-M	ratio	1.0	0.0	0.1	
+MCHC-M	01-Jan	1.0	0.0	0.1	
+MCHC-M	None	1	0.0	0.1	
+MCV	fL	1.0	0.0	1.0	
+MCV	None	1	0.0	1.0	
+Monocytes#	g/L	1	0.0	0.1	
+Monocytes#	(pH	1.0	0.0	0.1	
+Monocytes#	(pH)	1.0	0.0	0.1	
+Monocytes#	*10^9/L	1.0	0.0	0.1	
+Monocytes#	*10^9/l	1.0	0.0	0.1	
+Monocytes#	/L	1.0	0.0	0.1	
+Monocytes#	/mL	1.0	0.0	0.1	
+Monocytes#	1	1.0	0.0	0.1	
+Monocytes#	10*12/L	1.0	0.0	0.1	
+Monocytes#	10*9	1.0	0.0	0.1	
+Monocytes#	10*9/mL	1.0	0.0	0.1	
+Monocytes#	L	1.0	0.0	0.1	
+Monocytes#	10*9/L	1.0	0.0	0.1	
+Monocytes#	None	1.0	0.0	0.1	
+Monocytes#	x10*9/l	1.0	0.0	0.1	
+Monocytes#	x10\S\9l	1.0	0.0	0.1	
+Monocytes#	x10^9/L	1.0	0.0	0.1	
+Monocytes#	x10^9/l	1.0	0.0	0.1	
+Monocytes#	mmol/L	1.0	0.0	0.1	
+Monocytes#	x 10 ^ 9/l	1.0	0.0	0.1	
+Monocytes#	x 10^9/l	1.0	0.0	0.1	
+Monocytes#	x10*9/L	1.0	0.0	0.1	
+Monocytes#	x10e9/l	1.0	0.0	0.1	
+Monocytes#	x 10 ^9/l	1.0	0.0	0.1	
+Mg	None	1.0	0.0	0.01	
+Mg	pmol/L	1.0	0.0	0.01	
+Mg	mmol/L	1	0.0	0.01	
+Mg	None	1.0	0.0	0.01	
+Mg	mol/L	1	0.0	0.01	
+Mg	meq/L	1	0.0	0.01	
+Neutrophils#	g/L	1	0.0	0.1	
+Neutrophils#	(pH)	1.0	0.0	0.1	
+Neutrophils#	/L	1.0	0.0	0.1	
+Neutrophils#	/mL	1.0	0.0	0.1	
+Neutrophils#	1	1.0	0.0	0.1	
+Neutrophils#	10*12/L	1.0	0.0	0.1	
+Neutrophils#	10*9	1.0	0.0	0.1	
+Neutrophils#	10*9/mL	1.0	0.0	0.1	
+Neutrophils#	L	1.0	0.0	0.1	
+Neutrophils#	10*9/L	1.0	0.0	0.1	
+Neutrophils#	None	1.0	0.0	0.1	
+Neutrophils#	mmol/L	1.0	0.0	0.1	
+PDW	%	1.0	0.0	0.1	
+PDW	ratio	1.0	0.0	0.1	
+PDW	fL	1.0	0.0	0.1	
+PDW	None	1.0	0.0	0.1	
+PSA	/L	1.0	0.0	0.1	
+PSA	IU/L	1.0	0.0	0.1	
+PSA	MicroU/L	1.0	0.0	0.1	
+PSA	ug/L	1.0	0.0	0.1	
+PSA	g/L	1.0	0.0	0.1	
+PSA	mg/L	1.0	0.0	0.1	
+PSA	ng/L	1.0	0.0	0.1	
+PSA	ng/mL	1.0	0.0	0.1	
+PSA	None	1.0	0.0	0.1	
+PSA	ug/mL	1	0.0	0.1	
+PlasmaViscosity	%	1.0	0.0	0.01	
+PlasmaViscosity	(pa)	1.0	0.0	0.01	
+PlasmaViscosity	/second	0.01	0.0	0.01	
+PlasmaViscosity	IU	1.0	0.0	0.01	
+PlasmaViscosity	IU/L	1.0	0.0	0.01	
+PlasmaViscosity	Pa	1.0	0.0	0.01	
+PlasmaViscosity	cP	1.0	0.0	0.01	
+PlasmaViscosity	cms	1.0	0.0	0.01	
+PlasmaViscosity	kg/L	1.0	0.0	0.01	
+PlasmaViscosity	mPa/s	1.0	0.0	0.01	
+PlasmaViscosity	mPas	1.0	0.0	0.01	
+PlasmaViscosity	mosmol/L	1.0	0.0	0.01	
+PlasmaViscosity	None	1.0	0.0	0.01	
+PlasmaViscosity	mPa.s	1.0	0.0	0.01	
+Platelets_Hematocrit	%	1.0	0.0	1.0	
+Platelets	01-Jan	1.0	0.0	1.0	
+Platelets	%	1.0	0.0	1.0	
+Platelets	(pH)	1.0	0.0	1.0	
+Platelets	/L	1.0	0.0	1.0	
+Platelets	/mL	1.0	0.0	1.0	
+Platelets	/uL	1.0	0.0	1.0	
+Platelets	1	1.0	0.0	1.0	
+Platelets	10*12/L	1.0	0.0	1.0	
+Platelets	10*3/L	1.0	0.0	1.0	
+Platelets	10*6/mL	1.0	0.0	1.0	
+Platelets	10*9	1.0	0.0	1.0	
+Platelets	10*9/mL	1.0	0.0	1.0	
+Platelets	IU	1.0	0.0	1.0	
+Platelets	L	1.0	0.0	1.0	
+Platelets	10*9/L	1.0	0.0	1.0	
+Platelets	mmol/L	1.0	0.0	1.0	
+Platelets	None	1.0	0.0	1.0	
+Platelets	g/L	1	0.0	1.0	
+Prolactin	IU/L	1.0	0.0	1.0	
+Prolactin	IU/mL	1.0	0.0	1.0	
+Prolactin	MicroU/L	1.0	0.0	1.0	
+Prolactin	mU/L	1.0	0.0	1.0	
+Prolactin	mIU/L	1.0	0.0	1.0	
+Prolactin	None	1.0	0.0	1.0	
+Prolactin	ug/L	1.0	0.0	1.0	
+Prolactin	mU/mL	1.0	0.0	1.0	
+RBC	None	1	0.0	0.01	
+RBC	%	1.0	0.0	0.01	
+RBC	(knk u	1.0	0.0	0.01	
+RBC	(pu	1.0	0.0	0.01	
+RBC	(pu)	1.0	0.0	0.01	
+RBC	* 10^12/l	1.0	0.0	0.01	
+RBC	*10^12/L	1.0	0.0	0.01	
+RBC	*10^12/l	1.0	0.0	0.01	
+RBC	/L	1.0	0.0	0.01	
+RBC	/mL	1.0	0.0	0.01	
+RBC	/uL	1.0	0.0	0.01	
+RBC	/second	1.0	0.0	0.01	
+RBC	1	1.0	0.0	0.01	
+RBC	10*-2	1.0	0.0	0.01	
+RBC	10*3/mL	1.0	0.0	0.01	
+RBC	10*9	1.0	0.0	0.01	
+RBC	10*9/L	1.0	0.0	0.01	
+RBC	10*9/mL	1.0	0.0	0.01	
+RBC	IU/L	1.0	0.0	0.01	
+RBC	L	1.0	0.0	0.01	
+RBC	10*12/L	1.0	0.0	0.01	
+RBC	X 10 12/L	1.0	0.0	0.01	
+RBC	e12/l	1.0	0.0	0.01	
+RBC	mIU/L	1.0	0.0	0.01	
+RBC	x 10^12/l	1.0	0.0	0.01	
+RBC	x10*12/L	1.0	0.0	0.01	
+RBC	x10\S\12l	1.0	0.0	0.01	
+RBC	x10^12 /l	1.0	0.0	0.01	
+RBC	x10^12/L	1.0	0.0	0.01	
+RBC	x10^12/l	1.0	0.0	0.01	
+RBC	x10e12/l	1.0	0.0	0.01	
+T4	nmol/L	1	0.0	1.0	
+T4	None	1.0	0.0	1.0	
+T4	pmol/L	1.0	0.0	1.0	
+T4	ug	0.128	0.0	1.0	
+T4	ug/d	0.128	0.0	1.0	
+T4	None	1	0.0	1.0	
+Testosterone	nmol/L	3.4672	0.0	0.1	0.1
+Testosterone	None	3.4672	0.0	0.1	0.1
+Transferrin	mg/dL	1.0	0.0	0.1	
+Transferrin	mmol/L	100	0.0	0.1	
+Transferrin	None	100	0.0	0.1	
+Transferrin	g/L	100	0.0	0.1	
+TSH	%	1.0	0.0	0.1	
+TSH	/mL	1.0	0.0	0.1	
+TSH	IU/L	1.0	0.0	0.1	
+TSH	IU/mL	1.0	0.0	0.1	
+TSH	MicroU/L	1.0	0.0	0.1	
+TSH	mI.U./l	1.0	0.0	0.1	
+TSH	mIU/L	1.0	0.0	0.1	
+TSH	mU/L	1.0	0.0	0.1	
+TSH	mU/mL	1.0	0.0	0.1	
+TSH	miU/L	1.0	0.0	0.1	
+TSH	mmol/L	1.0	0.0	0.1	
+TSH	u	1.0	0.0	0.1	
+TSH	u/mL	1.0	0.0	0.1	
+TSH	uu/mL	1.0	0.0	0.1	
+TSH	None	1	0.0	0.1	
+TSH	U/L	1	0.0	0.1	
+Protein_Total	g/L	0.1	0.0	1.0	
+Protein_Total	g/dL	1.0	0.0	1.0	
+Protein_Total	None	0.1	0.0	1.0	
+UrineAlbumin	mg/L	1.0	0.0	1.0	
+UrineAlbumin	None	1	0.0	1.0	
+UrineAlbumin_over_Creatinine	%	1.0	0.0	0.1	
+UrineAlbumin_over_Creatinine	<None>	1.0	0.0	0.1	
+UrineAlbumin_over_Creatinine	mg/mmol	1.0	0.0	0.1	
+UrineAlbumin_over_Creatinine	g/mol	1.0	0.0	0.1	
+UrineAlbumin_over_Creatinine	mg	1	0.0	0.1	
+UrineAlbumin_over_Creatinine	mmol	1	0.0	0.1	
+UrineAlbumin_over_Creatinine	mg/dL	1.0	0.0	0.1	
+UrineAlbumin_over_Creatinine	01-Jan	1.0	0.0	0.1	
+UrineAlbumin_over_Creatinine	mg/mmol(creat)	1.0	0.0	0.1	
+UrineAlbumin_over_Creatinine	None	1	0.0	0.1	
+UrineAlbumin_over_Creatinine	ratio	1	0.0	0.1	
+UrineTotalProtein	mg/L	0.001	0.0	0.01	
+UrineTotalProtein	g/L	1.0	0.0	0.01	
+Uric_Acid	IU/L	16.811	0.0	0.01	
+Uric_Acid	MicroU/L	0.016811	0.0	0.01	
+Uric_Acid	mg/dL	1.0	0.0	0.01	
+Uric_Acid	mmol	16.811	0.0	0.01	
+Uric_Acid	mol/L	0.016811	0.0	0.01	
+Uric_Acid	umol/L	0.016811	0.0	0.01	
+Uric_Acid	mmol/L	16.811	0.0	0.01	
+Uric_Acid	None	16.811	0.0	0.01	
+WBC	g/L	1	0.0	0.1	
+WBC	L	1	0.0	0.1	
+WBC	%	1.0	0.0	0.1	
+WBC	U/L	1.0	0.0	0.1	
+WBC	(pH)	1.0	0.0	0.1	
+WBC	/L	1.0	0.0	0.1	
+WBC	/mL	1.0	0.0	0.1	
+WBC	/uL	1.0	0.0	0.1	
+WBC	1	1.0	0.0	0.1	
+WBC	10*12/L	1.0	0.0	0.1	
+WBC	10*3/L	1.0	0.0	0.1	
+WBC	10*6/mL	1.0	0.0	0.1	
+WBC	10*9	1.0	0.0	0.1	
+WBC	10*9/mL	1.0	0.0	0.1	
+WBC	None	1.0	0.0	0.1	
+WBC	10*9/L	1.0	0.0	0.1	
+WBC	mmol/L	1.0	0.0	0.1	
+WBC	(OD)	1.0	0.0	0.1	
+WBC	fL	1.0	0.0	0.1	
+WBC	None	1.0	0.0	0.1	
+Erythrocyte	mm/h	1	0.0	1.0	
+Erythrocyte		1	0.0	1.0	
+Erythrocyte	mm	1	0.0	1.0	
+Erythrocyte	None	1	0.0	1.0	
+Erythrocyte	/hour	1	0.0	1.0	
+Erythrocyte	<None>	1	0.0	1.0	
+Erythrocyte	%	1	0.0	1.0	
+Erythrocyte	h	1	0.0	1.0	
+Erythrocyte	IU	1	0.0	1.0	
+Erythrocyte	/min	1	0.0	1.0	
+Erythrocyte	1	1	0.0	1.0	
+Erythrocyte	(pH)	1	0.0	1.0	
+HCG	IU/L	1	0.0	1.0	
+HCG	U/L	1	0.0	1.0	
+HCG	None	1	0.0	1.0	
+HCG	kU/L	1	0.0	1.0	
+HCG	u/mL	1	0.0	1.0	
+NRBC	10*9/L	100	0.0	0.1	
+NRBC	None	100	0.0	0.1	
+Urine_Microalbumin	mg/L	1	0.0	1.0	
+Urine_Microalbumin	g/L	1	0.0	1.0	
+Urine_Microalbumin	mg/mmol	8.8496	0.0	1.0	
+Urine_Microalbumin	mg/mmol(creat)	8.8496	0.0	1.0	
+Urine_Microalbumin	mg	8.8496	0.0	1.0	
+Urine_Microalbumin	None	1	0.0	1.0	
+Urine_Microalbumin	mmol/L	1	0.0	1.0	
+Rheumatoid_Factor	IU/mL	1	0.0	1.0	
+Rheumatoid_Factor	kU/L	1	0.0	1.0	
+Rheumatoid_Factor	u/mL	1	0.0	1.0	
+Rheumatoid_Factor	U/L	1	0.0	1.0	
+Rheumatoid_Factor	IU/L	1	0.0	1.0	
+Rheumatoid_Factor	IU	1	0.0	1.0	
+Rheumatoid_Factor	kIU/L	1	0.0	1.0	
+Rheumatoid_Factor	None	1	0.0	1.0	
+Rheumatoid_Factor		1	0.0	1.0	
+Na	None	1	0.0	1.0	
+Na	mol/L	1	0.0	1.0	
+Na	mmol/L	1	0.0	1.0	
+Na		1.0	0.0	1.0	
+Creatinine	umol/L	0.01131222	0.0	0.01	0.01
+Creatinine	mg/dL	0.01131222	0.0	0.01	0.01
+Creatinine	umol	0.01131222	0.0	0.01	0.01
+Creatinine	mL/min	0.01131222	0.0	0.01	0.01
+Creatinine	L/min	0.01131222	0.0	0.01	0.01
+Creatinine	None	0.01131222	0.0	0.01	0.01
+Creatinine	MicroU/L	0.01131222	0.0	0.01	0.01
+Creatinine	mmol/L	0.01131222	0.0	0.01	0.01
+K+	mmol/L	1	0.0	0.1	
+K+	None	1	0.0	0.1	
+K+	mol/L	1	0.0	0.1	
+Phosphore	None	3.096	0.0	0.01	0.1
+Phosphore	mmol/L	3.096	0.0	0.01	0.1
+Urine_Protein_Creatinine	g/mol	1	0.0	1.0	
+Urine_Protein_Creatinine	mg/mmol(creat)	1	0.0	1.0	
+Urine_Protein_Creatinine	None	1	0.0	1.0	
+Urine_Protein_Creatinine	mmol/mmol(creat)	1	0.0	1.0	
+Urine_Protein_Creatinine	mmol/L	1	0.0	1.0	
+Urine_Protein_Creatinine	L	1	0.0	1.0	
+Urine_Protein_Creatinine	mg/mmol	1	0.0	1.0	
+HDL	None	38.66976	0.0	0.1	1.0
+HDL	mmol/L	38.66976	0.0	0.1	1.0
+HDL	mol/L	38.66976	0.0	0.1	1.0
+Triglycerides	None	88.57	0.0	0.1	1.0
+Triglycerides	g/L	88.57	0.0	0.1	1.0
+Triglycerides	mol/L	88.57	0.0	0.1	1.0
+Triglycerides	mmol/L	88.57	0.0	0.1	1.0
+Triglycerides	mg/dL	1	0.0	0.1	1.0
+Temperature	None	1	0.0	0.1	
+Temperature		1	0.0	0.1	
+Temperature	deg	0.555555	-17.777777	0.1	
+Temperature	degC	1	0.0	0.1	
+PTT	second	1	0.0	0.1	
+PTT	/second	1	0.0	0.1	
+PTT	ratio	1	0.0	0.1	
+PTT	None	1	0.0	0.1	
+PTT	01-Jan	1	0.0	0.1	
+PTT	%	1	0.0	0.1	
+PTT	mL/min/1.73m*2	1	0.0	0.1	
+PTT	ml/min/1.73m	1	0.0	0.1	
+Reticulocyte	10*9/L	1	0.0	0.1	
+Reticulocyte	10*12/L	1	0.0	0.1	
+Reticulocyte	/L	1	0.0	0.1	
+Reticulocyte	10*12	1	0.0	0.1	
+Reticulocyte	None	1.0	0.0	0.1	
+TIBC	mmol/L	1	0.0	1.0	
+TIBC	mmol/L	1	0.0	0.1	
+TIBC	umol/L	1	0.0	1.0	
+TIBC	umol/L	1	0.0	0.1	
+TIBC	MicroU/L	1	0.0	1.0	
+TIBC	MicroU/L	1	0.0	0.1	
+TIBC	None	1	0.0	1.0	
+TIBC	None	1	0.0	0.1	
+Serum_Oestradiol	None	1	0.0	1.0	
+Serum_Oestradiol	pmol/L	1	0.0	1.0	
+Serum_Oestradiol	pg/mL	1	0.0	1.0	
+Serum_Oestradiol	nmol/L	1000	0.0	1.0	
+TroponinI	g/L	1	0.0	0.01	
+TroponinI	ug/L	1	0.0	0.01	
+TroponinI	ng/mL	1	0.0	0.01	
+TroponinI	ng/L	1	0.0	0.01	
+TroponinI	None	1	0.0	0.01	
+RandomLDL	None	1	0.0	0.01	
+RandomLDL	mmol/L	1	0.0	0.01	
+Sex_Hormone_Binding_Globulin	None	1	0.0	1.0	
+Sex_Hormone_Binding_Globulin	g/L	1	0.0	1.0	
+Sex_Hormone_Binding_Globulin	nmol/L	1	0.0	1.0	
+RandomTriglyceride	None	1	0.0	0.01	
+RandomTriglyceride	mmol/L	1	0.0	0.01	
+Teophylline	mg/L	1	0.0	0.1	
+Teophylline	None	1	0.0	0.1	
+Teophylline	ug/mL	1	0.0	0.1	
+Ca	None	4.0	0.0	0.01	
+Ca	mg/dL	4.0	0.0	0.01	
+Ca	mol/L	4.0	0.0	0.01	
+Ca	mmol/L	4.0	0.0	0.01	
+PFR	None	1	0.0	0.1	
+PFR	L/h	1	0.0	0.1	
+PFR	/L	1	0.0	0.1	
+PFR	L	1.0	0.0	0.1	
+PFR	L/min	1.0	0.0	0.1	
+PFR	/minute	1.0	0.0	0.1	
+MPV	None	1	0.0	0.1	
+MPV	fL	1	0.0	0.1	
+MPV	10*9/L	1.0	0.0	0.1	
+Lymphocytes%	None	1	0.0	0.01	1.0
+Lymphocytes%	<None>	1.0	0.0	0.01	1.0
+Lymphocytes%	%	1.0	0.0	0.01	1.0
+Basophils%	%	1.0	0.0	0.01	1.0
+Basophils%	None	1.0	0.0	0.01	1.0
+Monocytes%	None	1.0	0.0	0.01	1.0
+Monocytes%	<None>	1.0	0.0	0.01	1.0
+Monocytes%	%	1.0	0.0	0.01	1.0
+Eosinophils%	%	1.0	0.0	0.01	1.0
+Eosinophils%	None	1.0	0.0	0.01	1.0
+Neutrophils%	None	1.0	0.0	0.01	1.0
+Neutrophils%	%	1.0	0.0	0.01	1.0
+LUC	10*9/L	1.0	0.0	0.01	
+LUC	%	0.1	0.0	0.01	
+LUC	None	1.0	0.0	0.01	
+LUC	L	1.0	0.0	0.01	
+LUC	/L	1.0	0.0	0.01	
+LUC	(pH)	1.0	0.0	0.01	
+FSH	U/L	1.0	0.0	0.1	
+FSH	None	1.0	0.0	0.1	
+FSH	IU/L	1.0	0.0	0.1	
+FSH	mU/mL	1.0	0.0	0.1	
+FSH	mIU/L	1.0	0.0	0.1	
+FSH	IU/mL	1.0	0.0	0.1	
+CK	U/L	1.0	0.0	1.0	
+CK	/uL	1.0	0.0	1.0	
+CK	IU	1.0	0.0	1.0	
+CK	IU/L	1.0	0.0	1.0	
+CK	None	1.0	0.0	1.0	
+CK	umol/L	1.0	0.0	1.0	
+RandomGlucose	None	18.02	0.0	0.1	
+RandomGlucose	IU/L	18.02	0.0	0.1	
+RandomGlucose	mmol/L	18.02	0.0	0.1	
+Iron_Fe	None	5.5866	0.0	1.0	1.0
+Iron_Fe	umol/L	5.5866	0.0	1.0	1.0
+Iron_Fe	mol/L	5.5866	0.0	1.0	1.0
+Iron_Fe	MicroU/L	5.5866	0.0	1.0	1.0
+Iron_Fe	mU/mL	5.5866	0.0	1.0	1.0
+Iron_Fe	mmol/L	5.5866	0.0	1.0	1.0
+NonHDLCholesterol	nmol/L	38.6	0.0	0.1	
+NonHDLCholesterol	mmol/L	38.6	0.0	0.1	
+CA125	None	1.0	0.0	1.0	
+CA125	kU/L	1.0	0.0	1.0	
+CA125	kIU/L	1.0	0.0	1.0	
+CA125	U/L	1.0	0.0	1.0	
+CA125	IU/L	1.0	0.0	1.0	
+CA125	u	1.0	0.0	1.0	
+CA125	umol	1.0	0.0	1.0	
+CA125	u/mL	1.0	0.0	1.0	
+CA125	IU/mL	1.0	0.0	1.0	
+CA125	mmol/L	1.0	0.0	1.0	
+Amylase	IU/L	1.0	0.0	1.0	
+Amylase	/uL	1.0	0.0	1.0	
+Amylase	IU/mL	1.0	0.0	1.0	
+Amylase	U/L	1.0	0.0	1.0	
+Amylase	None	1.0	0.0	1.0	
+VitaminD_25	nmol/L	1	0.0	1.0	
+VitaminD_25	None	1.0	0.0	1.0	
+VitaminD_25	ng/L	2.496	0.0	1.0	
+VitaminD_25	ng/mL	2.496	0.0	1.0	
+VitaminD_25	pmol/L	1.0	0.0	1.0	
+VitaminD_25	ug/L	2.496	0.0	1.0	
+Urine_Epithelial_Cell	/uL	1.0	0.0	1.0	
+Urine_Epithelial_Cell	/cu.mm	1.0	0.0	1.0	
+Urine_Epithelial_Cell	10*6/L	1.0	0.0	1.0	
+Urine_Epithelial_Cell	/(hpf)	1.0	0.0	1.0	
+Progesterone	None	1.0	0.0	1.0	
+Progesterone	nmol/L	1.0	0.0	1.0	
+LDH	IU/L	1.0	0.0	1.0	
+LDH	None	1.0	0.0	1.0	
+LDH	U/L	1.0	0.0	1.0	
+Transferrin_Saturation_Index	%	1.0	0.0	1.0	
+Transferrin_Saturation_Index	%Hb	1.0	0.0	1.0	
+Transferrin_Saturation_Index	None	1	0.0	1.0	
+HDL_over_nonHDL	None	0.1	0.0	0.01	
+HDL_over_nonHDL	mmol/L	0.1	0.0	0.01	
+HDL_over_nonHDL	ratio	0.1	0.0	0.01	
+Urea	None	6.0	0.0	0.1	
+Urea	mol/L	6.0	0.0	0.1	
+Urea	mmol/L	6.0	0.0	0.1	
+CHADS2	None	1	0.0	1.0	
+CHADS2_VASC	None	1	0.0	1.0	
+PlasmaAnionGap	mmol/L	1	0.0	0.1	
+SerumAnionGap	mmol/L	1	0.0	0.1	
+PTH	ng/L	1	0.0	0.1	
+PTH	pg/mL	1	0.0	0.1	
+PTH	pmol/L	10	0.0	0.1	
+PTH	None	1	0.0	0.1	
+CEA	ng/mL	1	0.0	1.0	
+CEA	ug/L	1	0.0	1.0	
+CEA	mmol/L	1	0.0	1.0	
+CEA	None	1	0.0	1.0	
+Weight	kg	1	0.0	0.1	
+Weight	kg	1	0.0	1.0	
+Weight	None	1	0.0	0.1	
+Weight	None	1	0.0	1.0	
+Height	cm	1	0.0	0.01	1.0
+Height	None	100	0.0	0.01	1.0
+BMI	kg/m2	1	0.0	0.1	
+BMI	None	1	0.0	0.1	
+Fev1	L	1	0.0	0.1	
+Fev1	/L	1	0.0	0.1	
+Fev1	L/min	1	0.0	0.1	
+Fev1	None	1	0.0	0.1	
+Fev1	L/L	1	0.0	0.1	
+Fev1_over_Fvc	%	1	0.0	0.1	
+Fev1_over_Fvc	None	1	0.0	0.1	
+Fev1_over_Fvc	ratio	1	0.0	0.1	
+Fvc	L	1	0.0	0.1	
+Fvc	/L	1	0.0	0.1	
+Fvc	L/min	1	0.0	0.1	
+Fvc	L/L	1	0.0	0.1	
+Fvc	None	1	0.0	0.1	
+Fvc	mL	0.001	0.0	0.1	
+PT	second	1	0.0	0.1	
+PT	s	1	0.0	0.1	
+PT	None	1	0.0	0.1	
+PT	/second	1	0.0	0.1	
+PT	10*3	1	0.0	0.1	
+Albumin_over_Creatinine	mg/mmol	1	0.0	0.1	
+Albumin_over_Creatinine	None	1	0.0	0.1	
+Albumin_over_Creatinine	g/mol	1	0.0	0.1	
+Albumin_over_Creatinine	mg/mmol(creat)	1	0.0	0.1	
+Cortisol	nmol/L	0.03624501631025734	0.0	0.01	
+Cortisol	None	0.03624501631025734	0.0	0.01	
+C3	g/L	1	0.0	0.01	
+C3	None	1	0.0	0.01	
+C3	mg/dL	0.01	0.0	0.01	
+C4	g/L	1	0.0	0.01	
+C4	None	1	0.0	0.01	
+C4	mg/dL	0.01	0.0	0.01	
+C4	mg/L	0.001	0.0	0.01	
+TroponinT	ug/L	1	0.0	0.01	
+TroponinT	ng/mL	1	0.0	0.01	
+TroponinT	g/L	1	0.0	0.01	
+TroponinT	None	1	0.0	0.01	
+TroponinT	ng/L	0.01	0.0	0.01	
+eGFR	mL/min/1.73m*2	1	0.0	0.1	
+eGFR	ml/min/1.73m*2	1	0.0	0.1	
+eGFR	mL/min/1.73m2	1	0.0	0.1	
+eGFR	mL/24h/1.73m*2	1	0.0	0.1	
+eGFR	mL/min	1	0.0	0.1	
+eGFR	None	1	0.0	0.1	
+eGFR	/mL	1	0.0	0.1	
+eGFR	ml/min/1.73m	1	0.0	0.1	
+eGFR	L/min	1	0.0	0.1	
+eGFR	/minute	1	0.0	0.1	
+eGFR	mg/mmol	1	0.0	0.1	
+BP	mmHg	1	0.0	0.1	
+BP	None	1	0.0	0.1	
+PULSE	rate	1	0.0	1.0	
+PULSE	None	1	0.0	1.0	
+RandomHDL	mmol/L	1	0.0	0.01	
+RandomHDL	None	1	0.0	0.01	

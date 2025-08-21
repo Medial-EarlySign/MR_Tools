@@ -1,0 +1,32 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "memory": "cpp",
+        "*.ipp": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "random": "cpp",
+        "regex": "cpp",
+        "stack": "cpp",
+        "type_traits": "cpp",
+        "valarray": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "filesystem": "cpp",
+        "xlocale": "cpp",
+        "stdexcept": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "cassert": "cpp",
+        "*.tcc": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.options.statusBarVisibility": "compact"
+}

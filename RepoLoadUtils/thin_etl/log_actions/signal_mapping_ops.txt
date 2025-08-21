@@ -1,0 +1,717 @@
+21-12-2016 18:00:00	Alon-Secured-PC	Alon	Run Commit with "1001400138|Erythrocyte" regex to "Erythrocyte" target. changed [96, 101] line numbers
+22-12-2016 14:31:21	Alon-Secured-PC	Alon	Run config_set_deafult with [Erythrocyte, mm/h, 1, [], [], 1]
+22-12-2016 14:35:30	Alon-Secured-PC	Alon	Run config_set_deafult with [Erythrocyte, mm/h, 1, [], [], ]
+22-12-2016 14:36:42	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, mm/h, 1]
+22-12-2016 16:02:08	Alon-Secured-PC	Alon	Run config_set_deafult with [Erythrocyte, mm/h, 1, {'10*9', 'mL/s', '10*12/L', 'Kgs', 'nmol/g', 'mg', 'cms', 'year', 'Pa', 'mmol/mol', 'ng/mL', '1(tot)', '(OD)', 'm', 's', 'IU/mL', 'g/dL', 'rad', 'ng/L', '10*9/L', 'second', '1/mL', '/minute', 'mmol/d', 'min', 'lm/m2', '01-Jan', 'cP', 'ft', 'L', 'mL/h', 'week', 'cm(H2O)', 'kat', 'U/L', 'g/L', 'ml/min/1.73m*2', 'L/L', 'mL/min', 'ng', 'fL', 'meq/L', 'mg/L', 'umol/L', 'mL', 'mmol', 'mIU/L', 'umol/h/g(Hb)', 'mmol/L', 'u', 'mmol/24h', 'titre', 'm/s'}, [], 1.0]
+22-12-2016 17:03:26	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, NA, 1]
+22-12-2016 17:04:09	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, mm, 1]
+22-12-2016 17:08:02	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, null value, 1]
+22-12-2016 17:17:05	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, /hour, 1]
+22-12-2016 17:17:05	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, <None>, 1]
+22-12-2016 17:17:05	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, %, 1]
+22-12-2016 17:17:05	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, h, 1]
+22-12-2016 17:27:41	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, IU, 1]
+22-12-2016 17:27:41	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, /min, 1]
+22-12-2016 17:27:41	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, mmol/mmol, 1]
+22-12-2016 17:27:41	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, 1, 1]
+22-12-2016 17:29:52	Alon-Secured-PC	Alon	Run config_set_unit on [Erythrocyte, (pH), 1]
+22-12-2016 17:30:59	Alon-Secured-PC	Alon	Run config_set_deafult with [Erythrocyte, mm/h, 1, {'mmol', '1(tot)', 'fL', 'Pa', 'mmol/mol', 'year', 'ng/mL', 'mm(Hg)', 'u', 'mL', 'umol/h/g(Hb)', 'cm(H2O)', 'U/L', 'L/L', 'mmol/24h', 'IU/mL', 'nmol/g', 'second', 'ng/L', 'm/s', 'ratio', '10*12/L', 'mL/h', 'Kgs', 'mg/L', 'g/dL', 'mL/min', '1/mL', 'cms', 's', 'lm/m2', 'meq/L', '10*9/L', 'umol/L', 'titre', '/minute', 'ml/min/1.73m*2', '/L', 'mg', 'g/L', 'mL/s', 'm', 'min', 'ft', 'L', '10*9', 'week', '01-Jan', 'ng', 'mmol/L', 'mIU/L', 'rad', 'cP', 'mmol/d', 'kat', '(OD)'}, [], 1.0]
+26-12-2016 11:01:41	Alon-Secured-PC	Alon	Run Commit with "4266.00" regex to "NRBC" target. changed [238] line numbers
+26-12-2016 11:07:35	Alon-Secured-PC	Alon	Run Commit with "temp" regex to "TEMP" target. changed [242, 245, 246, 247] line numbers
+26-12-2016 11:12:55	Alon-Secured-PC	Alon	Run Commit with "42ZD.00" regex to "LUC" target. changed [205] line numbers
+26-12-2016 11:27:04	Alon-Secured-PC	Alon	Run Commit with "Serum_oestradiol" regex to "Serum_Oestradiol" target. changed [451] line numbers
+26-12-2016 11:29:02	Alon-Secured-PC	Alon	Run Commit with "43F..00" regex to "Rheumatoid_Factor" target. changed [354, 365, 366, 466, 467] line numbers
+26-12-2016 11:37:00	Alon-Secured-PC	Alon	Run Commit with "4KH0.00" regex to "Urine_Epithelial_Cell" target. changed [100] line numbers
+26-12-2016 11:41:49	Alon-Secured-PC	Alon	Run Commit with "folate" regex to "Folate" target. changed [40, 132, 133, 308, 362, 437] line numbers
+26-12-2016 11:45:56	Alon-Secured-PC	Alon	Run Commit with "Transferrin_saturation_index" regex to "Transferrin_Saturation_Index" target. changed [513] line numbers
+26-12-2016 12:01:46	Alon-Secured-PC	Alon	Run Commit with "TIBC" regex to "TIBC" target. changed [381] line numbers
+26-12-2016 12:04:57	Alon-Secured-PC	Alon	Run Commit with "1001400310" regex to "Urine_Dipstick_pH" target. changed [522] line numbers
+26-12-2016 12:07:18	Alon-Secured-PC	Alon	Run Commit with "44CD" regex to "Sex_Hormone_Binding_Globulin" target. changed [468] line numbers
+26-12-2016 12:16:04	Alon-Secured-PC	Alon	Run Commit with "serum_protein" regex to "TotalProtein" target. changed [460] line numbers
+26-12-2016 12:17:57	Alon-Secured-PC	Alon	Run Commit with "Reticulocyte" regex to "Reticulocyte" target. changed [364] line numbers
+26-12-2016 13:31:42	Alon-Secured-PC	Alon	Run Commit with "46W..00" regex to "Urine_Microalbumin" target. changed [226, 523, 526, 808] line numbers
+26-12-2016 13:33:05	Alon-Secured-PC	Alon	Run Commit with "Erythrocyte" regex to "Erythrocyte" target. changed [96, 101, 607] line numbers
+26-12-2016 13:44:29	Alon-Secured-PC	Alon	Run Commit with "42Q[tuw6].00" regex to "PTT" target. changed [11, 19, 256, 257] line numbers
+26-12-2016 13:44:45	Alon-Secured-PC	Alon	Run Commit with "PTT" regex to "PTT" target. changed [11, 19, 256, 257, 565] line numbers
+26-12-2016 13:46:10	Alon-Secured-PC	Alon	Run Commit with "42Q[5v8]" regex to "INR" target. changed [350, 351, 503] line numbers
+26-12-2016 13:47:47	Alon-Secured-PC	Alon	Run Commit with "Urine_protein_Over_creatinine_ratio" regex to "Urine_Protein_Creatinine" target. changed [530, 531, 816] line numbers
+26-12-2016 13:48:20	Alon-Secured-PC	Alon	Run Commit with "Folate" regex to "Folate" target. changed [40, 132, 133, 308, 362, 437, 748, 822] line numbers
+26-12-2016 13:50:12	Alon-Secured-PC	Alon	Run Commit with "44PL000" regex to "NonHDLCholesterol" target. changed [763] line numbers
+26-12-2016 13:54:12	Alon-Secured-PC	Alon	Run Commit with "42O" regex to "Immature_White_Cells" target. changed [186, 225, 231, 347, 572, 647] line numbers
+26-12-2016 17:32:08	Alon-Secured-PC	Alon	Run config_set_deafult with [HCG, IU/L, 1, [], [], ]
+26-12-2016 17:32:43	Alon-Secured-PC	Alon	Run config_set_deafult with [HCG, IU/L, 1, set(['', '/L', 'kua/L', '10*3/L', 'nmol/L', 'mU/L', 'null value', 'MoM', 'IU/mL', 'ueq', '01-Jan', 'NA', 'mU/mL', 'mIU/L', 'g/L', 'IU/L', 'IU', 'uL', 'mIU/mL', 'ug/L', '<None>', '10*6', 'kIU/L', '/uL', 'L/L', 'IU/d', 'ng/L', 'kU/L', 'ng/mL', 'MicroU/L', 'u/mL', 'umol', 'U/L']), [], 1.0]
+26-12-2016 17:38:30	Alon-Secured-PC	Alon	Run config_set_deafult with [HCG, IU/L, 1, [], [], ]
+26-12-2016 17:41:43	Alon-Secured-PC	Alon	Run config_set_deafult with [HCG, IU/L, 1, set(['']), [], 1.0]
+26-12-2016 17:44:33	Alon-Secured-PC	Alon	Run config_set_deafult with [HCG, IU/L, 1, set(['', '/L', 'kua/L', '10*3/L', 'nmol/L', 'mU/L', 'null value', 'MoM', 'IU/mL', 'ueq', '01-Jan', 'NA', 'mU/mL', 'mIU/L', 'g/L', 'IU/L', 'IU', 'uL', 'mIU/mL', 'ug/L', '<None>', '10*6', 'kIU/L', '/uL', 'L/L', 'IU/d', 'ng/L', 'kU/L', 'ng/mL', 'MicroU/L', 'u/mL', 'umol', 'U/L']), [], 1.0]
+26-12-2016 17:45:56	Alon-Secured-PC	Alon	Run config_set_deafult with [HCG, IU/L, 1, set(['', 'g/L', 'mU/L', 'kua/L', '10*3/L', 'L/L', '10*6', 'ueq']), [], 1.0]
+27-12-2016 08:37:54	Alon-Secured-PC	Alon	Run config_set_unit on [HCG, IU/L, 1]
+27-12-2016 11:40:59	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [], [], ]
+27-12-2016 11:41:07	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, set(['', '#G ( )/L', 'lm/m2', '10*-3(%)', 'Gcopy/L', '(ppb)', 'uU/L', '#/[tot]', '/mL', '/(hpf)', '10*6/L', '#M ( )/L', '/m3', '#/HPF', '10*-3', '10*3(rbc)', '01-Jan', 'm', 'Number', 's', 'g/dL', '10*-2(%)', '10*9/mL']), [], 1.0]
+27-12-2016 11:42:03	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, 10*9/L, 1]
+27-12-2016 11:50:48	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, 10*3/L, 1]
+27-12-2016 11:50:59	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, /100(WBC), 1]
+27-12-2016 11:51:06	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, 10*12/L, 1]
+27-12-2016 11:52:55	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, %, 1]
+27-12-2016 11:53:07	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, /L, 1]
+27-12-2016 11:53:21	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, NA, 1]
+27-12-2016 11:55:19	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, (pH), 1]
+27-12-2016 11:55:27	Alon-Secured-PC	Alon	Run config_set_unit on [NRBC, g/L, 1]
+27-12-2016 11:58:00	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [u'', u''], [], ]
+27-12-2016 11:58:19	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, set(['', '#G ( )/L', 'lm/m2', '10*-3(%)', 'Gcopy/L', '(ppb)', 'uU/L', '#/[tot]', '/mL', '10*9', '10*3(rbc)', '/(hpf)', '10*6/L', '1/mL', '#M ( )/L', 'L', '/m3', '#/HPF', '10*-3', '10*-2', '01-Jan', 'm', 'Number', 's', 'g/dL', '10*-2(%)', '10*9/mL']), [], 1.0]
+27-12-2016 11:59:34	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [u'', u''], [], ]
+27-12-2016 12:01:33	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, set(['', '#G ( )/L', 'lm/m2', '10*-3(%)', 'Gcopy/L', '(ppb)', 'uU/L', '#/[tot]', '/mL', '10*9', '10*3(rbc)', '/(hpf)', '10*6/L', '1/mL', '#M ( )/L', 'L', '/m3', '#/HPF', '10*-3', '10*-2', '01-Jan', 'm', 'Number', 's', 'g/dL', '10*-2(%)', '10*9/mL']), [], 1.0]
+27-12-2016 12:07:05	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [u'', u''], [], ]
+27-12-2016 12:07:27	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [u'', u''], [], ]
+27-12-2016 12:07:38	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [], [], ]
+27-12-2016 12:07:50	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [u'ratio'], [], 1.0]
+27-12-2016 12:11:11	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [], [], ]
+27-12-2016 12:12:32	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [u'#G ( )/L'], [], 1.0]
+27-12-2016 12:13:37	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, set(['#G ( )/L', 'lm/m2', '10*-3(%)', 'Gcopy/L', '(ppb)', 'uU/L', '#/[tot]', '/mL', '10*9', '10*3(rbc)', '/(hpf)', '10*6/L', '1/mL', '#M ( )/L', 'L', '/m3', '#/HPF', '10*-3', '10*-2', '01-Jan', 'm', 'Number', 's', 'g/dL', '10*-2(%)', '10*9/mL']), [], 1.0]
+27-12-2016 12:14:21	Alon-Secured-PC	Alon	Run config_set_deafult with [NRBC, 10*9/L, 1, [u'#G ( )/L', u'lm/m2', u'10*-3(%)', u'Gcopy/L', u'(ppb)', u'uU/L', u'#/[tot]', u'/mL', u'10*9', u'10*3(rbc)', u'/(hpf)', u'10*6/L', u'1/mL', u'#M ( )/L', u'L', u'/m3', u'#/HPF', u'10*-3', u'10*-2', u'01-Jan', u'm', u'Number', u's', u'g/dL', u'10*-2(%)', u'10*9/mL', u'ratio'], [], 1.0]
+27-12-2016 12:29:04	Alon-Secured-PC	Alon	Run config_set_deafult with [Urine_Microalbumin, mg/L, 1, [], [], ]
+27-12-2016 12:29:22	Alon-Secured-PC	Alon	Run config_set_deafult with [Urine_Microalbumin, mg/L, 1, set(['', 'umol/g(creat)', 'umol', 'lm/m2', 'm/s', 'L/min', 'mg/d', 'nmol/L', 'mg/min', 'mmol/mmol', 'mL/min', 'ng/L', 'ug/mL', 'nmol/mmol', 'umol/L', '/mL', '1', '/(hpf)', 'pg', 'mg/m3', '10*9/L', 'mmol/d', 'mmol/mol', 'mIU/L', 'pmol/L', 'g/dL', 'IU/L', 'mL', 'mg/m*3', 'IU', 'L', 'ug/L', '/cu.mm', 'mmol', 'mL/s', 'd', 'g', '/uL', 'h', 'm', 'IU/mL', 'mg/kg', 'mol/L', '/day', 'u', 'ng/mL', 'meq/L', 'MicroU/L', 'mmol/mmol(creat)', '/minute']), [], 1.0]
+27-12-2016 12:31:11	Alon-Secured-PC	Alon	Run config_set_unit on [Urine_Microalbumin, mg/L, 1]
+27-12-2016 12:34:10	Alon-Secured-PC	Alon	Run config_set_unit on [Urine_Microalbumin, NA, 1]
+27-12-2016 12:34:33	Alon-Secured-PC	Alon	Run config_set_unit on [Urine_Microalbumin, g/L, 1]
+27-12-2016 14:47:41	Alon-Secured-PC	Alon	Run config_set_deafult with [Rheumatoid_Factor, IU/mL, 1, [], [], ]
+27-12-2016 14:47:52	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, IU/mL, 1]
+27-12-2016 16:16:47	Alon-Secured-PC	Alon	Run config_set_unit on [Urine_Microalbumin, mg/mmol, 8.8496]
+27-12-2016 16:35:07	Alon-Secured-PC	Alon	Run config_set_unit on [Urine_Microalbumin, mg/mmol(creat), 8.8496]
+27-12-2016 16:35:13	Alon-Secured-PC	Alon	Run config_set_unit on [Urine_Microalbumin, mg, 8.8496]
+27-12-2016 16:41:40	Alon-Secured-PC	Alon	Run config_set_deafult with [Urine_Microalbumin, mg/L, 1, [u'umol/g(creat)', u'umol', u'lm/m2', u'm/s', u'L/min', u'mg/d', u'nmol/L', u'mg/min', u'mmol/mmol', u'mL/min', u'ng/L', u'ug/mL', u'nmol/mmol', u'umol/L', u'/mL', u'1', u'/(hpf)', u'pg', u'mg/m3', u'10*9/L', u'mmol/d', u'mmol/mol', u'mIU/L', u'pmol/L', u'g/dL', u'IU/L', u'mL', u'mg/m*3', u'IU', u'L', u'ug/L', u'/cu.mm', u'mmol', u'mL/s', u'd', u'g', u'/uL', u'h', u'm', u'IU/mL', u'mg/kg', u'mol/L', u'/day', u'u', u'ng/mL', u'meq/L', u'MicroU/L', u'mmol/mmol(creat)', u'/minute', u'g/mol'], [], 1.0]
+27-12-2016 16:44:16	Alon-Secured-PC	Alon	Run config_set_deafult with [Urine_Microalbumin, mg/L, 1, set(['umol/g(creat)', 'umol', 'lm/m2', 'm/s', 'L/min', 'mg/d', 'nmol/L', 'mg/dL', 'mg/min', 'mmol/mmol', 'mL/s', 'mg/kg', 'mL/min', '%', 'ug/mL', 'nmol/mmol', 'umol/L', 'mmol/L', 'ug/min', '/mL', '1', '/(hpf)', 'pg', 'mg/m3', '10*9/L', 'mmol/d', 'mmol/mol', 'mIU/L', 'pmol/L', 'ng/mL', 'IU/L', 'mL', 'mg/m*3', 'IU', 'L', '/cu.mm', 'ratio', 'mmol', 'ug/L', 'g/mol', 'd', 'g', '/uL', 'h', 'm', 'IU/mL', 'ng/L', 'mol/L', '/day', 'u', 'g/dL', 'meq/L', 'MicroU/L', 'mmol/mmol(creat)', '/minute']), [], 1.0]
+27-12-2016 16:47:44	Alon-Secured-PC	Alon	Run config_set_unit on [Urine_Microalbumin, null value, 1]
+28-12-2016 09:25:58	Alon-Secured-PC	Alon	Run Commit with "1001400027" regex to "Hemoglobin" target. changed [146, 172, 173, 183, 636, 638, 639, 640] line numbers
+28-12-2016 09:31:39	Alon-Secured-PC	Alon	Run Commit with "1001400159" regex to "Rheumatoid_Factor" target. changed [354, 365, 366, 466, 467, 718, 719] line numbers
+29-12-2016 12:24:03	Alon-Secured-PC	Alon	Run Commit with "44J3.00.*(1001400019|1001400020)" regex to "Creatinine" target. changed [422, 423, 424, 426, 741, 1423, 5646] line numbers
+29-12-2016 12:50:14	Alon-Secured-PC	Alon	Run Commit with "44I5.00.*1001400032" regex to "Sodium" target. changed [469, 470, 1488] line numbers
+29-12-2016 15:24:32	Alon-Secured-PC	Alon	Run Commit with "44I4.00.*1001400066" regex to "Potassium" target. changed [237, 456, 713, 1425] line numbers
+29-12-2016 15:26:04	Alon-Secured-PC	Alon	Run Commit with "44h8.00.*1001400153" regex to "Potassium" target. changed [700] line numbers
+29-12-2016 15:32:52	Alon-Secured-PC	Alon	Run Commit with "423[7]\....*1001400153" regex to "Hemoglobin" target. changed [641] line numbers
+29-12-2016 15:35:01	Alon-Secured-PC	Alon	Run Commit with "423[4B]\....*1001400027" regex to "Hemoglobin" target. changed [1060, 1122] line numbers
+29-12-2016 15:51:48	Alon-Secured-PC	Alon	Run Commit with "MCV.*1001400048" regex to "MCV" target. changed [217, 218, 223, 852, 875, 1134, 1239] line numbers
+29-12-2016 16:39:17	Alon-Secured-PC	Alon	Run Commit with "1001400208" regex to "TBD" target. changed [107, 345, 360, 363, 610, 985, 1252, 1266, 1299, 1722, 3191, 3615, 4002, 4005, 4945, 5265, 5761, 5828, 5829, 5831] line numbers
+29-12-2016 16:44:25	Alon-Secured-PC	Alon	Run Commit with "426[^6].00.*(1001400026|1001400153)" regex to "RBC" target. changed [355, 361, 716, 1298, 1511, 1566, 1575, 1615, 1699, 2157, 2800, 5217] line numbers
+29-12-2016 16:47:07	Alon-Secured-PC	Alon	Run Commit with "1001400213" regex to "Hematocrit" target. changed [165, 166, 254, 255, 633, 1194, 1592, 1594, 1659, 1705, 2171] line numbers
+29-12-2016 16:52:27	Alon-Secured-PC	Alon	Run Commit with "42J[^5].00.*(1001400053|1001400027)" regex to "NeutNum" target. changed [232, 233, 664, 665, 998, 1185, 7022] line numbers
+29-12-2016 16:55:54	Alon-Secured-PC	Alon	Run Commit with "42M[1-5.].00.*1001400058" regex to "LymphNum" target. changed [17, 212, 214, 1141, 1816, 1817] line numbers
+29-12-2016 16:59:19	Alon-Secured-PC	Alon	Run Commit with "44M[4i].00.*(1001400002|1001400043)" regex to "Albumin" target. changed [289, 389, 391, 868, 2633, 5887] line numbers
+29-12-2016 17:03:51	Alon-Secured-PC	Alon	Run Commit with "42N[^765].00.*1001400050" regex to "MonNum" target. changed [18, 228, 229, 663, 1616, 4239] line numbers
+29-12-2016 17:07:12	Alon-Secured-PC	Alon	Run Commit with "42K..00.*1001400022" regex to "EosNum" target. changed [98, 99, 605, 606, 1057] line numbers
+29-12-2016 17:11:11	Alon-Secured-PC	Alon	Run Commit with "428..(00|11).*(1001400044|1001400153)" regex to "MCH" target. changed [216, 219, 222, 662, 1494, 1517, 1588, 1643, 2145, 2412, 2622, 4720, 5210, 5241, 6665] line numbers
+29-12-2016 17:17:07	Alon-Secured-PC	Alon	Run Commit with "44E.[^0]00.*1001400009" regex to "Bilirubin" target. changed [95, 328, 403, 404, 418, 476, 508, 730, 731, 780, 899, 1384, 1420, 1563, 1586] line numbers
+29-12-2016 17:20:42	Alon-Secured-PC	Alon	Run Commit with "423[4-9.ZB]\.(00|11).*(1001400027|1001400329|1001400153)" regex to "Hemoglobin" target. changed [172, 173, 183, 636, 638, 639, 640, 641, 1060, 1122, 1130, 2367, 2407, 2601, 3198, 3217, 3348, 3460, 5895, 6642] line numbers
+29-12-2016 17:25:02	Alon-Secured-PC	Alon	Run Commit with "44J..13" regex to "TBD" target. changed [491, 1618] line numbers
+29-12-2016 17:29:35	Alon-Secured-PC	Alon	Run Commit with "42L..00.*1001400215" regex to "BasNum" target. changed [31, 32, 569, 1205, 2649] line numbers
+29-12-2016 17:48:45	Alon-Secured-PC	Alon	Run Commit with "cholesterol.*44P[.1-4ZK].00.*(1001400017|1001400153)" regex to "Cholesterol" target. changed [410, 411, 412, 415, 416, 417, 432, 739, 745, 1293, 1762, 2431, 2463, 3296] line numbers
+29-12-2016 17:52:21	Alon-Secured-PC	Alon	Run Commit with "451[EG].00.*1001400326" regex to "GFR" target. changed [147, 632] line numbers
+29-12-2016 17:53:39	Alon-Secured-PC	Alon	Run Commit with "451N.00.*1001400326" regex to "eGFR" target. changed [604] line numbers
+29-12-2016 18:06:22	Alon-Secured-PC	Alon	Run Commit with "44U..(00|11).*1001400067" regex to "Glucose" target. changed [41, 42, 43, 44, 48, 49, 58, 554, 578, 870, 928, 945, 1279, 1280] line numbers
+29-12-2016 18:07:04	Alon-Secured-PC	Alon	Run Commit with "44U..11" regex to "Glucose" target. changed [58, 1280, 2387] line numbers
+29-12-2016 18:08:05	Alon-Secured-PC	Alon	Run Commit with "glucose.*44U\.\.00.*1001400153" regex to "Glucose" target. changed [2812] line numbers
+29-12-2016 18:11:35	Alon-Secured-PC	Alon	Run Commit with "(Glucometer|glucose|sugar).*44T[239A5KJ.].(00|11)" regex to "Glucose" target. changed [45, 46, 47, 57, 122, 123, 155, 313, 579, 611, 652, 1313, 1335, 1350, 1401, 1664, 1767, 1887, 2060, 2079, 2102, 2121, 2289, 2528, 2734, 2897, 3384, 3529, 3530, 3567, 3611, 4246, 4952, 5112, 5774, 6067, 6620, 6945] line numbers
+29-12-2016 18:13:35	Alon-Secured-PC	Alon	Run Commit with "glucose.*44[fg][1.].00.*(1001400153|1001400139)" regex to "Glucose" target. changed [306, 316, 317, 431, 444, 744, 751, 1912] line numbers
+29-12-2016 18:15:15	Alon-Secured-PC	Alon	Run Commit with "429..00.*1001400046" regex to "MCHC" target. changed [215, 221, 661, 1651, 1685, 2637, 2875] line numbers
+29-12-2016 18:22:03	Alon-Secured-PC	Alon	Run Commit with "442[WAX.S].(00|12).*1001400049" regex to "TSH" target. changed [287, 382, 383, 499, 501, 504, 544, 779] line numbers
+01-01-2017 10:08:15	Alon-Secured-PC	Alon	Run Commit with "protein.*44M[1-3AV.6-9Z].00.*(1001400153|1001400043)" regex to "TotalProtein" target. changed [330, 331, 385, 386, 460, 479, 480, 481, 482, 1249, 1317, 1359, 1370, 1388, 1414, 1585, 1729, 2075, 2087, 3200, 3593] line numbers
+01-01-2017 10:12:14	Alon-Secured-PC	Alon	Run Commit with "cholesterol.*44P[5B].00" regex to "HDL" target. changed [375, 428, 756, 757, 2220, 2799, 3535, 4208] line numbers
+01-01-2017 10:12:47	Alon-Secured-PC	Alon	Run Commit with "cholesterol.*44d[A3].00" regex to "HDL" target. changed [284, 303, 696, 3920, 5901] line numbers
+01-01-2017 10:17:44	Alon-Secured-PC	Alon	Run Commit with "triglyceride.*44Q[1-4Z.].00" regex to "Triglycerides" target. changed [433, 484, 485, 486, 487, 776, 2417, 2423, 2467, 2582, 3353, 3484, 3565, 4104] line numbers
+01-01-2017 10:19:22	Alon-Secured-PC	Alon	Run Commit with "triglyceride.*44e..00" regex to "Triglycerides" target. changed [332, 707, 1173, 1332, 1820] line numbers
+01-01-2017 10:24:22	Alon-Secured-PC	Alon	Run Commit with "44P[FG].00" regex to "Cholesterol/HDL" target. changed [164, 509, 645, 794, 1421, 1661, 4244, 4817, 6134] line numbers
+01-01-2017 10:26:15	Alon-Secured-PC	Alon	Run Commit with "Cholesterol.*44l[FG2].00" regex to "Cholesterol/HDL" target. changed [82, 83, 298, 413, 414, 1297, 1715, 3854, 5404, 5447, 5861, 6165, 6303] line numbers
+01-01-2017 10:30:11	Alon-Secured-PC	Alon	Run Commit with "44P[6ID].00" regex to "LDL" target. changed [78, 377, 429, 593, 2127, 2292, 2581, 3534, 4360, 6979] line numbers
+01-01-2017 10:31:05	Alon-Secured-PC	Alon	Run Commit with "LDL.*44d[B5].00" regex to "LDL" target. changed [285, 304, 697, 3862] line numbers
+01-01-2017 10:41:36	Alon-Secured-PC	Alon	Run Commit with "42W[.2].(00|11|12)" regex to "HbA1C" target. changed [157, 158, 174, 176, 1295, 2445, 3408, 3409, 3960] line numbers
+01-01-2017 10:42:33	Alon-Secured-PC	Alon	Run Commit with "Haemoglobin.*44TB[.01]00" regex to "HbA1C" target. changed [170, 171, 635, 1078, 2117, 3415, 4336, 4503, 4504, 5983] line numbers
+01-01-2017 10:43:34	Alon-Secured-PC	Alon	Run Commit with "HbA1.*42c[.0-3].00" regex to "HbA1C" target. changed [179, 180, 642, 643, 644, 964, 1609, 1614, 2036, 5810, 6649] line numbers
+01-01-2017 10:47:00	Alon-Secured-PC	Alon	Run Commit with "44M[5P].00.*(1001400248|1001400153)" regex to "Globulin" target. changed [312, 442, 1621, 1757, 1880, 4939, 5738] line numbers
+01-01-2017 10:52:03	Alon-Secured-PC	Alon	Run Commit with "^Free_T4_level.*442[V7c].00.*(1001400036|1001400153)" regex to "FreeT4" target. changed [144, 1910] line numbers
+01-01-2017 10:53:14	Alon-Secured-PC	Alon	Run Commit with "ESR.*1001400138" regex to "Erythrocyte" target. changed [96, 607, 1445, 1462] line numbers
+01-01-2017 10:53:58	Alon-Secured-PC	Alon	Run Commit with "42B6z00" regex to "Erythrocyte" target. changed [962, 5503] line numbers
+01-01-2017 10:55:07	Alon-Secured-PC	Alon	Run Commit with "ESR_r" regex to "Erythrocyte" target. changed [607, 3052] line numbers
+01-01-2017 10:58:09	Alon-Secured-PC	Alon	Run Commit with "44I8.00.*(1001400010|1001400012)" regex to "Calcium" target. changed [406, 407, 666, 967] line numbers
+01-01-2017 10:59:18	Alon-Secured-PC	Alon	Run Commit with "Blood_calcium.*44h[47].00" regex to "Calcium" target. changed [36, 2239] line numbers
+01-01-2017 11:01:39	Alon-Secured-PC	Alon	Run Commit with "44IC.(00|11).*1001400012" regex to "CorrectedCalcium" target. changed [89, 558, 725] line numbers
+01-01-2017 11:02:34	Alon-Secured-PC	Alon	Run Commit with "44h9.00.*(1001400153|1001400012)" regex to "CorrectedCalcium" target. changed [299, 300, 691] line numbers
+01-01-2017 11:05:58	Alon-Secured-PC	Alon	Run Commit with "44C[SC].00.*(1001400314|1001400276)" regex to "CRP" target. changed [1040, 2762, 3190] line numbers
+01-01-2017 11:06:31	Alon-Secured-PC	Alon	Run Commit with "Plasma_C_reactive_protein.*1001400153" regex to "CRP" target. changed [2105] line numbers
+01-01-2017 11:07:51	Alon-Secured-PC	Alon	Run Commit with "1001400016" regex to "Chloride" target. changed [39, 297, 409, 1556, 2627] line numbers
+01-01-2017 11:08:45	Alon-Secured-PC	Alon	Run Commit with "Blood_chloride_level-44h2.00" regex to "Chloride" target. changed [39, 2351] line numbers
+01-01-2017 11:20:53	Alon-Secured-PC	Alon	Run Commit with "44I9\.00.*1001400238" regex to "InorganicPhosphate" target. changed [2143] line numbers
+01-01-2017 11:22:12	Alon-Secured-PC	Alon	Run Commit with "Blood_.*44h5\.00" regex to "InorganicPhosphate" target. changed [50, 2148] line numbers
+01-01-2017 11:25:16	Alon-Secured-PC	Alon	Run Commit with "42R4.(00).*1001400153" regex to "Ferritin" target. changed [434, 612, 747, 3036] line numbers
+01-01-2017 11:25:36	Alon-Secured-PC	Alon	Run Commit with "42R4.(00).*1001400024" regex to "Ferritin" target. changed [125, 435, 436, 746] line numbers
+01-01-2017 11:26:27	Alon-Secured-PC	Alon	Run Commit with "1001400245" regex to "Bicarbonate" target. changed [35, 294, 402, 1604, 1608] line numbers
+01-01-2017 11:27:25	Alon-Secured-PC	Alon	Run Commit with "Blood_bicarbonate.*44h3.00" regex to "Bicarbonate" target. changed [35, 573] line numbers
+01-01-2017 11:34:21	Alon-Secured-PC	Alon	Run Commit with "42T[.1-9Z].00.*1001400008" regex to "B12" target. changed [494, 783, 784, 1169, 1405, 3032] line numbers
+01-01-2017 11:34:41	Alon-Secured-PC	Alon	Run Commit with "42T[.1-9].00.*(1001400153)" regex to "B12" target. changed [782, 1925, 2167] line numbers
+01-01-2017 11:37:38	Alon-Secured-PC	Alon	Run Commit with "42U..(00|11)" regex to "Folate" target. changed [40, 132, 133, 308, 362, 437, 748, 822, 855, 860, 1323, 1331, 1392, 1654, 1803, 1920, 2163, 2184, 2257, 2403, 2555, 3236, 3266, 3273, 3966, 4175, 4263, 4434, 4459, 4460, 4664, 5130, 5448, 5645, 6487] line numbers
+01-01-2017 11:38:39	Alon-Secured-PC	Alon	Run Commit with "Folate.*1001400055" regex to "TBD" target. changed [5130] line numbers
+01-01-2017 11:39:16	Alon-Secured-PC	Alon	Run Commit with "Folate.*42U5.00.*1001400163" regex to "TBD" target. changed [6487] line numbers
+01-01-2017 11:39:47	Alon-Secured-PC	Alon	Run Commit with "folate.*42UC.00" regex to "TBD" target. changed [3273] line numbers
+01-01-2017 11:40:27	Alon-Secured-PC	Alon	Run Commit with "folate.*1001400329" regex to "TBD" target. changed [2115, 3966, 4263, 4664, 5048, 6638] line numbers
+01-01-2017 11:41:16	Alon-Secured-PC	Alon	Run Commit with "folate.*42U1.00.*1001400153" regex to "TBD" target. changed [4459] line numbers
+01-01-2017 11:46:43	Alon-Secured-PC	Alon	Run Commit with "43Z2.(00|11).*1001400141" regex to "PSA" target. changed [251, 252, 348, 712, 1021] line numbers
+01-01-2017 11:47:37	Alon-Secured-PC	Alon	Run Commit with "43Z2\.(00).*1001400153" regex to "PSA" target. changed [1784] line numbers
+01-01-2017 11:52:27	Alon-Secured-PC	Alon	Run Commit with "2E3[.1-5Z].(00|11).*1001400275" regex to "TEMP" target. changed [242, 245, 246, 672, 990, 1223, 1808, 3225] line numbers
+01-01-2017 11:54:40	Alon-Secured-PC	Alon	Run Commit with "46W\.\.00.*1001400153" regex to "Urine_Microalbumin" target. changed [2578] line numbers
+01-01-2017 11:55:16	Alon-Secured-PC	Alon	Run Commit with "46W\.\.00_Albumin_Creatinine_Ratio-1001400319" regex to "Urine_Microalbumin" target. changed [5449] line numbers
+01-01-2017 11:55:47	Alon-Secured-PC	Alon	Run Commit with "46W1.00.*1001400250" regex to "Urine_Microalbumin" target. changed [5852] line numbers
+01-01-2017 11:58:51	Alon-Secured-PC	Alon	Run Commit with "Plasma_viscosity_.*42B[.1-5]\.00" regex to "PlasmaViscosity" target. changed [997, 1305, 1411, 1930, 6986] line numbers
+01-01-2017 12:00:37	Alon-Secured-PC	Alon	Run Commit with "Plasma_viscosity.*42B[.]\.00.*1001400153" regex to "PlasmaViscosity" target. changed [1326] line numbers
+01-01-2017 12:01:19	Alon-Secured-PC	Alon	Run Commit with "42B[.1-5]\.00.*1001400133" regex to "PlasmaViscosity" target. changed [336, 997, 1143, 1305, 1407, 1411] line numbers
+01-01-2017 12:06:28	Alon-Secured-PC	Alon	Run Commit with "44K2.11.*1001400132" regex to "Urate" target. changed [1048] line numbers
+01-01-2017 12:07:03	Alon-Secured-PC	Alon	Run Commit with "44K\.\.11.*1001400153" regex to "Urate" target. changed [1922] line numbers
+01-01-2017 12:08:25	Alon-Secured-PC	Alon	Run Commit with "Blood_urate_.*44K[1-5Z].00.*1001400132" regex to "Urate" target. changed [585, 586, 587, 1138, 1240] line numbers
+01-01-2017 12:09:01	Alon-Secured-PC	Alon	Run Commit with "44K5.00.*1001400276" regex to "Urate" target. changed [4463] line numbers
+01-01-2017 12:13:05	Alon-Secured-PC	Alon	Run Commit with "4434.(00|11).*1001400014" regex to "FSH" target. changed [117, 134, 969, 1001] line numbers
+01-01-2017 12:16:44	Alon-Secured-PC	Alon	Run Commit with "44H[G4].00.*1001400236" regex to "CreatinineKinase" target. changed [1671, 1696] line numbers
+01-01-2017 12:17:32	Alon-Secured-PC	Alon	Run Commit with "44H[G4]\.00.*1001400276" regex to "CreatinineKinase" target. changed [4444] line numbers
+01-01-2017 12:17:59	Alon-Secured-PC	Alon	Run Commit with "44H[G].00.*1001400019" regex to "CreatinineKinase" target. changed [3025] line numbers
+01-01-2017 12:18:37	Alon-Secured-PC	Alon	Run Commit with "CK.*44H[4].00.*1001400153" regex to "CreatinineKinase" target. changed [1902] line numbers
+01-01-2017 12:36:47	Alon-Secured-PC	Alon	Run Commit with "443[e3f].(00|11|12|13).*1001400037" regex to "LuteinisingHormone" target. changed [199, 210, 211, 286, 378, 987, 1564, 1595] line numbers
+01-01-2017 12:40:52	Alon-Secured-PC	Alon	Run Commit with "Random_blood.*44T1.00.*1001400067" regex to "RandomGlucose" target. changed [356, 358, 359, 1714] line numbers
+01-01-2017 12:42:19	Alon-Secured-PC	Alon	Run Commit with "Random_blood_sugar-44T1[.0]00.*1001400153" regex to "RandomGlucose" target. changed [2044] line numbers
+01-01-2017 12:42:45	Alon-Secured-PC	Alon	Run Commit with "Random_blood_sugar_normal-44T1000.*1001400153" regex to "RandomGlucose" target. changed [2260] line numbers
+01-01-2017 12:43:32	Alon-Secured-PC	Alon	Run Commit with "44[g]0.00" regex to "RandomGlucose" target. changed [326, 702, 5402] line numbers
+01-01-2017 12:46:56	Alon-Secured-PC	Alon	Run Commit with "42R[.1-3Z67].(00|11)" regex to "Iron" target. changed [446, 447, 759, 760, 995, 1591, 1800, 2053, 2285, 2455, 2466, 2691, 2861, 4881, 6095, 6379] line numbers
+01-01-2017 12:47:13	Alon-Secured-PC	Alon	Run Commit with "42R[.1-3Z67].(00|11).*1001400314" regex to "TBD" target. changed [6379] line numbers
+01-01-2017 12:47:40	Alon-Secured-PC	Alon	Run Commit with "42R[.].(11)" regex to "TBD" target. changed [6095] line numbers
+01-01-2017 12:48:18	Alon-Secured-PC	Alon	Run Commit with "42R[.3].00.*1001400329" regex to "TBD" target. changed [2691] line numbers
+01-01-2017 12:48:39	Alon-Secured-PC	Alon	Run Commit with "42R[3].(00|11).*1001400153" regex to "TBD" target. changed [2455] line numbers
+01-01-2017 12:50:44	Alon-Secured-PC	Alon	Run Commit with "Rheumatoid.*43F[Z16].00.*1001400159" regex to "Rheumatoid_Factor" target. changed [850, 1201, 1438] line numbers
+01-01-2017 12:53:43	Alon-Secured-PC	Alon	Run Commit with "T4.*442[6ab].00" regex to "T4" target. changed [380, 706, 771, 775, 929, 1540, 1905, 2711, 2712, 3114, 3338, 3424] line numbers
+01-01-2017 13:00:29	Alon-Secured-PC	Alon	Run Commit with "total.*T4.*442[6ab].00.*1001400153" regex to "TBD" target. changed [2711, 2712] line numbers
+01-01-2017 13:00:50	Alon-Secured-PC	Alon	Run Commit with "4426100.*1001400153" regex to "TBD" target. changed [3338] line numbers
+01-01-2017 13:01:07	Alon-Secured-PC	Alon	Run Commit with "T4.*442[6ab].00.*1001400329" regex to "TBD" target. changed [3424] line numbers
+01-01-2017 13:32:47	Alon-Secured-PC	Alon	Run Commit with "44PL.00.*1001400031" regex to "NonHDLCholesterol" target. changed [5755] line numbers
+01-01-2017 13:35:24	Alon-Secured-PC	Alon	Run Commit with "46N[1-3z]\.00.*1001400250" regex to "UrineTotalProtein" target. changed [533, 814, 953, 971] line numbers
+01-01-2017 13:35:52	Alon-Secured-PC	Alon	Run Commit with "46N[1-2]\.00" regex to "UrineTotalProtein" target. changed [953, 971, 1976, 6321] line numbers
+01-01-2017 13:37:26	Alon-Secured-PC	Alon	Run Commit with "443[5].00.*1001400070" regex to "Prolactin" target. changed [346, 861, 984] line numbers
+01-01-2017 13:38:21	Alon-Secured-PC	Alon	Run Commit with "4465000.*1001400055" regex to "Serum_Oestradiol" target. changed [1538] line numbers
+01-01-2017 13:41:42	Alon-Secured-PC	Alon	Run Commit with "4473.00.*1001400038" regex to "Testosterone" target. changed [472, 877, 1463] line numbers
+01-01-2017 13:44:46	Alon-Secured-PC	Alon	Run Commit with "44C[N4T].00.*(1001400136)" regex to "Amylase" target. changed [291, 397, 398, 1524, 1574] line numbers
+01-01-2017 13:45:03	Alon-Secured-PC	Alon	Run Commit with "44C[N4T].00.*1001400314" regex to "Amylase" target. changed [1883] line numbers
+01-01-2017 13:46:05	Alon-Secured-PC	Alon	Run Commit with "amylase.*44C[N].00.*1001400153" regex to "Amylase" target. changed [2063] line numbers
+01-01-2017 13:47:14	Alon-Secured-PC	Alon	Run Commit with "44C4000" regex to "Amylase" target. changed [1524, 3199] line numbers
+01-01-2017 13:48:51	Alon-Secured-PC	Alon	Run Commit with "42Q[u6wt].00.*1001400209" regex to "PTT" target. changed [3290] line numbers
+01-01-2017 13:52:52	Alon-Secured-PC	Alon	Run Commit with "125.*44a[016].(00|11).*1001400312" regex to "CA125" target. changed [69, 79, 733] line numbers
+01-01-2017 13:54:30	Alon-Secured-PC	Alon	Run Commit with "44a[0]\.00.*1001400153" regex to "CA125" target. changed [2090] line numbers
+01-01-2017 13:55:09	Alon-Secured-PC	Alon	Run Commit with "125.*44a[1].00.*1001400153" regex to "CA125" target. changed [1379] line numbers
+01-01-2017 13:57:06	Alon-Secured-PC	Alon	Run Commit with "transferrin.*44CB.00.*1001400153" regex to "Transferin" target. changed [2047] line numbers
+01-01-2017 13:58:28	Alon-Secured-PC	Alon	Run Commit with "44PA.00" regex to "HDL/LDL" target. changed [163, 3874, 4876] line numbers
+01-01-2017 14:03:34	Alon-Secured-PC	Alon	Run Commit with "44W8.(11).*1001400039" regex to "Lithium" target. changed [657] line numbers
+01-01-2017 14:04:25	Alon-Secured-PC	Alon	Run Commit with "44W8\.(11).*1001400153" regex to "Lithium" target. changed [2139] line numbers
+01-01-2017 14:04:51	Alon-Secured-PC	Alon	Run Commit with "44W8[12]00.*1001400039" regex to "Lithium" target. changed [862, 892] line numbers
+01-01-2017 14:06:10	Alon-Secured-PC	Alon	Run Commit with "4463.00.*(1001400153|1001400068)" regex to "Progesterone" target. changed [458, 1579, 1587, 2189, 2237, 5521] line numbers
+01-01-2017 14:06:37	Alon-Secured-PC	Alon	Run Commit with "4463000.*1001400153" regex to "TBD" target. changed [5521] line numbers
+01-01-2017 14:14:19	Alon-Secured-PC	Alon	Run Commit with "magnesium.*44L[2][.0](00|11).*(1001400249|1001400276|1001400153)" regex to "Magnesium" target. changed [51, 1667, 2070, 2154, 4451] line numbers
+01-01-2017 14:15:20	Alon-Secured-PC	Alon	Run Commit with "4425.00.*(1001400034|1001400153)" regex to "FreeT3" target. changed [625, 626] line numbers
+01-01-2017 14:16:53	Alon-Secured-PC	Alon	Run Commit with "42R5000.*1001400042" regex to "TIBC" target. changed [1613] line numbers
+01-01-2017 14:17:15	Alon-Secured-PC	Alon	Run Commit with "42R5\.00.*1001400153" regex to "TIBC" target. changed [2219] line numbers
+01-01-2017 14:18:15	Alon-Secured-PC	Alon	Run Commit with "44P8.00" regex to "HDL/nonHDL" target. changed [374, 2532, 2802, 5834, 6614] line numbers
+01-01-2017 14:18:23	Alon-Secured-PC	Alon	Run Commit with "44P8.00.*1001400329" regex to "TBD" target. changed [6614] line numbers
+01-01-2017 14:20:10	Alon-Secured-PC	Alon	Run Commit with "42X[.01].00.*1001400030" regex to "Reticulocyte" target. changed [364, 1444, 2120] line numbers
+01-01-2017 14:20:41	Alon-Secured-PC	Alon	Run Commit with "42X[.].00.*1001400153" regex to "Reticulocyte" target. changed [2153] line numbers
+01-01-2017 14:23:36	Alon-Secured-PC	Alon	Run Commit with "339D.00.*1001400206" regex to "TBD" target. changed [33] line numbers
+01-01-2017 14:24:42	Alon-Secured-PC	Alon	Run Commit with "\.\.\." regex to "NULL" target. changed [37, 151, 167, 202, 203, 204, 502, 668, 839, 1051, 1081, 1435, 1634, 1713, 1850, 1964, 1967, 2015, 2213, 2266, 2354, 2480, 2485, 2492, 2519, 2531, 2560, 2724, 2759, 2760, 2795, 2801, 2813, 2818, 2855, 2966, 3024, 3048, 3074, 3206, 3258, 3259, 3328, 3537, 3544, 3552, 3594, 3690, 3773, 3860, 3882, 3916, 3995, 4128, 4197, 4200, 4228, 4241, 4289, 4314, 4329, 4365, 4386, 4390, 4419, 4422, 4458, 4462, 4483, 4484, 4507, 4512, 4520, 4521, 4549, 4566, 4567, 4568, 4594, 4691, 4754, 4768, 4797, 4924, 4979, 5006, 5010, 5066, 5072, 5127, 5180, 5184, 5185, 5186, 5187, 5188, 5191, 5237, 5441, 5461, 5480, 5511, 5733, 5772, 5776, 5863, 5979, 6057, 6160, 6175, 6284, 6297, 6324, 6355, 6412, 6418, 6463, 6464, 6472, 6682, 6705, 6742, 6744, 6853, 6890, 6896] line numbers
+01-01-2017 14:28:57	Alon-Secured-PC	Alon	Run Commit with "44W9.00" regex to "Digoxin" target. changed [427, 1422, 1577, 1665, 2177, 2182, 2233, 2304] line numbers
+01-01-2017 16:24:24	Alon-Secured-PC	Alon	Run Commit with "Haemoglobin_low-4235.00.*1001400153" regex to "TBD" target. changed [3217] line numbers
+01-01-2017 16:25:36	Alon-Secured-PC	Alon	Run Commit with "423B.00.*1001400153" regex to "TBD" target. changed [3198] line numbers
+01-01-2017 16:25:58	Alon-Secured-PC	Alon	Run Commit with "Haemoglobin_estimation_NOS-423Z.00.*1001400329" regex to "TBD" target. changed [6642] line numbers
+01-01-2017 16:26:32	Alon-Secured-PC	Alon	Run Commit with "Haemoglobin_borderline_low-4236.00.*1001400153" regex to "TBD" target. changed [5895] line numbers
+01-01-2017 16:27:29	Alon-Secured-PC	Alon	Run Commit with "Haemoglobin_estimation-423..00.*(1001400153|1001400329)" regex to "TBD" target. changed [3348, 3460] line numbers
+01-01-2017 16:27:49	Alon-Secured-PC	Alon	Run Commit with "Hb_estimation-423..11.*1001400153" regex to "TBD" target. changed [2601] line numbers
+01-01-2017 17:11:49	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, kU/L, 1]
+01-01-2017 17:12:00	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, u/mL, 1]
+01-01-2017 17:23:24	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, U/L, 1000]
+01-01-2017 17:23:56	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, U/L, 0.001]
+01-01-2017 17:24:31	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, U/L, 0.1]
+01-01-2017 17:25:06	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, U/L, 1]
+01-01-2017 17:25:54	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, IU/L, 1]
+01-01-2017 17:31:34	Alon-Secured-PC	Alon	Run config_set_deafult with [Rheumatoid_Factor, IU/mL, 1, set(['', 'mm(Hg)', 'kua/L', '(bdsk u)', 'mg/dL', 'uu/mL', 'ug/mL', '%', 'mg/L', '/mL', '1', 'g/L', 'pmol/L', 'mL', 'L', 'ratio', 'ug/L', 'mg', 'g', 'h', '01-Jan', 'm', 'IU/d', '/day', 'u', 'g/dL', '1/mL']), [], 1.0]
+01-01-2017 17:32:50	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, IU, 1]
+01-01-2017 17:33:15	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, kIU/L, 1]
+01-01-2017 17:34:30	Alon-Secured-PC	Alon	Run config_set_deafult with [Rheumatoid_Factor, IU/mL, 1, set(['', 'mU/L', 'mm(Hg)', 'g/L', '(bdsk u)', 'mg/dL', 'uu/mL', 'mmol/L', 'ug/mL', '%', 'mg/L', '/mL', '1', 'titre', 'mIU/L', 'kua/L', 'pmol/L', 'mL', 'L', 'ratio', 'ug/L', 'mg', 'g', 'h', '01-Jan', 'm', 'IU/d', '/day', 'u', 'g/dL', '1/mL']), [], 1.0]
+01-01-2017 17:35:44	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, null value, 0]
+01-01-2017 17:36:10	Alon-Secured-PC	Alon	Run config_set_unit on [Rheumatoid_Factor, NA, 1]
+02-01-2017 08:51:21	Alon-Secured-PC	Alon	Run config_set_unit on [Sodium, null value, 1]
+02-01-2017 08:51:47	Alon-Secured-PC	Alon	Run config_set_unit on [Sodium, mol/L, 1]
+02-01-2017 08:51:58	Alon-Secured-PC	Alon	Run config_set_unit on [Sodium, mmol/L, 1]
+02-01-2017 08:54:41	Alon-Secured-PC	Alon	Run config_set_deafult with [Sodium, mmol/L, 1, set(['m/s', 'year', 'nmol/L', 'second', 'Pa', 'mmol/mmol', 'mol/kg', 'nmol/mmol', 'umol/L', 'mg/L', 'ng', '1', 'mmol/d', '10*9/L', 'titre', 'mmol/mol', 'g/L', 'pmol/L', 'IU/L', 'L', 'mol/s', '1(tot)', '#/HPF', 'mmol', 'ug/L', 'mg', 'mmol/mmol(creat)', 'h', '01-Jan', 'mg/dL', 'ng/L', 'kU/L', 's', 'mg/mmol', 'meq/L', '%', '1/mL', 'U/L']), [], 1.0]
+02-01-2017 13:47:15	Alon-Secured-PC	Alon	Run Commit with "Electrolytes_normal-44I2.00_Sodium-1001400032" regex to "NULL" target. changed [2279] line numbers
+02-01-2017 13:59:59	Alon-Secured-PC	Alon	Run Commit with "RBC_count_abnormal-4267.00_Other_Laboratory_tests-1001400153" regex to "TBD" target. changed [5217] line numbers
+02-01-2017 14:00:12	Alon-Secured-PC	Alon	Run Commit with "RBC_count_NOS-426Z.00_Other_Laboratory_tests-1001400153" regex to "NULL" target. changed [2800] line numbers
+02-01-2017 14:00:34	Alon-Secured-PC	Alon	Run Commit with "RBC_count_borderline_raised-4265.00_Red_blood_cell_count-1001400026" regex to "NULL" target. changed [1511] line numbers
+02-01-2017 14:45:17	Alon-Secured-PC	Alon	Run Commit with "Lymphocytosis_-_relative-42M3.00_Lymphocyte_count-1001400058" regex to "TBD" target. changed [1816] line numbers
+02-01-2017 14:47:15	Alon-Secured-PC	Alon	Run Commit with "Serum_albumin-44M4.00_Total_protein-1001400043" regex to "NULL" target. changed [5887] line numbers
+02-01-2017 14:54:52	Alon-Secured-PC	Alon	Run Commit with "Liver_enzymes-44G..00_Other_Laboratory_tests-1001400153" regex to "ALT" target. changed [658] line numbers
+02-01-2017 14:55:06	Alon-Secured-PC	Alon	Run Commit with "ALT_Over_SGPT_level_abnormal-44G3100_Alanine_Aminotransferase-1001400006" regex to "ALT" target. changed [562] line numbers
+02-01-2017 14:56:37	Alon-Secured-PC	Alon	Run Commit with "Post_prandial_blood_sugar-44T3.11_Fasting_glucose-1001400139" regex to "NULL" target. changed [5774] line numbers
+02-01-2017 14:57:22	Alon-Secured-PC	Alon	Run Commit with "Blood_glucose_level_after_evening_meal-44TJ900_Blood_glucose-1001400067" regex to "NULL" target. changed [3384] line numbers
+02-01-2017 15:01:36	Alon-Secured-PC	Alon	Run Commit with "2_hours_post_food_blood_sugar-44T3.00_Blood_glucose-1001400067" regex to "NULL" target. changed [1401] line numbers
+02-01-2017 15:02:38	Alon-Secured-PC	Alon	Run Commit with "Post_prandial_blood_sugar-44T3.11_Blood_glucose-1001400067" regex to "NULL" target. changed [1313] line numbers
+02-01-2017 15:06:25	Alon-Secured-PC	Alon	Run Commit with "glucose.*meal" regex to "NULL" target. changed [2060, 3384, 6620] line numbers
+02-01-2017 15:06:55	Alon-Secured-PC	Alon	Run Commit with "glucose.*(before|after)" regex to "NULL" target. changed [1767, 2060, 3384, 3611, 4246, 4952, 6620] line numbers
+02-01-2017 15:07:20	Alon-Secured-PC	Alon	Run Commit with "Fasting_blood_sugar-44T2.00_Blood_glucose-1001400067" regex to "NULL" target. changed [6945] line numbers
+02-01-2017 15:07:42	Alon-Secured-PC	Alon	Run Commit with "Fasting_blood_glucose_level-44TK.00_Other_Lab_Result_Information-1001400329" regex to "NULL" target. changed [6067] line numbers
+02-01-2017 15:08:12	Alon-Secured-PC	Alon	Run Commit with "Blood_glucose.*night" regex to "NULL" target. changed [1664] line numbers
+02-01-2017 15:08:28	Alon-Secured-PC	Alon	Run Commit with "Baseline_blood_glucose_level-44TJ800_Blood_glucose-1001400067" regex to "NULL" target. changed [5112] line numbers
+02-01-2017 15:08:49	Alon-Secured-PC	Alon	Run Commit with "Plasma_glucose-44TA.00_Other_Lab_Result_Information-1001400329" regex to "NULL" target. changed [2289] line numbers
+02-01-2017 15:09:28	Alon-Secured-PC	Alon	Run Commit with "2_hours_post_food_blood_sugar-44T3.00_Fasting_glucose-1001400139" regex to "NULL" target. changed [3529] line numbers
+02-01-2017 15:09:49	Alon-Secured-PC	Alon	Run Commit with "Blood_sugar_method-44T..11_Other_Laboratory_tests-1001400153" regex to "NULL" target. changed [2079] line numbers
+02-01-2017 15:10:04	Alon-Secured-PC	Alon	Run Commit with "Blood_glucose_level-44TJ.00_Other_Lab_Result_Information-1001400329" regex to "NULL" target. changed [2121] line numbers
+02-01-2017 15:10:18	Alon-Secured-PC	Alon	Run Commit with "Glucometer_blood_sugar-44T9.00_Other_Laboratory_tests-1001400153" regex to "NULL" target. changed [2102] line numbers
+02-01-2017 15:10:32	Alon-Secured-PC	Alon	Run Commit with "Laboratory_blood_sugar-44T5.00_Fasting_glucose-1001400139" regex to "NULL" target. changed [2528] line numbers
+02-01-2017 15:10:49	Alon-Secured-PC	Alon	Run Commit with "Fasting_blood_glucose_level-44TK.00_Other_Laboratory_tests-1001400153" regex to "NULL" target. changed [3567] line numbers
+02-01-2017 15:11:04	Alon-Secured-PC	Alon	Run Commit with "Fasting_blood_sugar-44T2.00_Other_Laboratory_tests-1001400153" regex to "NULL" target. changed [2897] line numbers
+02-01-2017 15:11:35	Alon-Secured-PC	Alon	Run Commit with "Plasma_glucose-44TA.00_Other_Laboratory_tests-1001400153" regex to "NULL" target. changed [2734] line numbers
+02-01-2017 15:30:55	Alon-Secured-PC	Alon	Run config_set_deafult with [Creatinine, umol/L, 1, set(['rad', 'mU/L', 'mm(Hg)', 'umol/min', 'g/L', 'umol/d', 'umol/mol(Hb)', 'cm(H2O)', 'nmol/L', 'cell/L', 'mmol/mmol', 'us', 'umol/mol', 'umol/kg', 'mL/min', 'ng/L', 'umol/h/g(Hb)', 'mm/h', 'pmol', 'ml/min/1.73m*2', 'nmol/mmol', 'ratio', 'mg/L', 'mosmol/L', 'lm', 'umol/mmol', '/mL', '1', '/day', 'umol/g(creat)', '10*9/L', 'mg/d', 'mmol/d', 'mU/mL', 'mmol/mol', 'mIU/L', 'week', 'umol/mL/h', 'uU/L', 'pmol/L', 'ft', 'ng', 'mL', '1(tot)', '/L', 'L', 'ug/min', 'mol/s', 'nmol/mol(creat)', 'uL', 'mg/mmol', 'IU/d', 'titre', 'mL/s', '%', 'mg/mmol(creat)', 'mmol', 'ug/L', 'mg/mg', 'g/mol', 'g', '/uL', 'mm', 'h', 'm', '(bsa)', '1/mL', 'um', 'uu/mL', 'u', '10*3', 'ng/mL', 'U/mmol', '10*-2(%)', 'mg', 'mmol/mmol(creat)', 'umol/mmol(creat)', 'fmol', 'U/L']), [], 0.01]
+02-01-2017 15:44:58	Alon-Secured-PC	Alon	Run config_set_unit on [Creatinine, umol/L, 1]
+02-01-2017 15:50:21	Alon-Secured-PC	Alon	Run config_set_unit on [Creatinine, mg/dL, 1]
+02-01-2017 15:50:32	Alon-Secured-PC	Alon	Run config_set_unit on [Creatinine, umol, 1]
+02-01-2017 15:59:03	Alon-Secured-PC	Alon	Run config_set_unit on [Creatinine, mL/min, 1]
+02-01-2017 16:27:58	Alon-Secured-PC	Alon	Run config_set_unit on [Creatinine, L/min, 1]
+02-01-2017 16:36:46	Alon-Secured-PC	Alon	Run Commit with "44H5[02]00.*1001400007" regex to "AST" target. changed [13, 1093] line numbers
+02-01-2017 16:37:10	Alon-Secured-PC	Alon	Run Commit with "AST_Over_SGOT_level_normal-44H5000_Cardiac_enzymes-1001400236" regex to "AST" target. changed [4654] line numbers
+02-01-2017 16:37:39	Alon-Secured-PC	Alon	Run Commit with "AST_Over_SGOT_level_abnormal-44H5100_Aspartate_Aminotransferase-1001400007" regex to "AST" target. changed [1692] line numbers
+02-01-2017 16:37:55	Alon-Secured-PC	Alon	Run Commit with "AST_serum_level-44H5.11_Cardiac_enzymes-1001400236" regex to "AST" target. changed [2243] line numbers
+02-01-2017 16:49:55	Alon-Secured-PC	Alon	Run Commit with "Albumin__Over__creatinine_ratio-44J7.00_Urine_Biochemistry-1001400250" regex to "TBD" target. changed [23] line numbers
+02-01-2017 16:53:38	Alon-Secured-PC	Alon	Run Commit with "Immature_White_Cells" regex to "TBD" target. changed [186, 225, 231, 347, 572, 647] line numbers
+02-01-2017 16:55:41	Alon-Secured-PC	Alon	Run Commit with "end_Red_blood_cell_distribution_width-42Z7.00_RBC_red_blood_cell_size-1001400217" regex to "NULL" target. changed [1253] line numbers
+02-01-2017 16:58:25	Alon-Secured-PC	Alon	Run Commit with "Serum_free_triiodothyronine_level-442U.00_Free_Tri-iodothyronine-1001400265" regex to "FreeT3" target. changed [439] line numbers
+02-01-2017 17:16:40	Alon-Secured-PC	Alon	Run config_set_deafult with [Creatinine, umol/L, 1, [u'rad', u'mU/L', u'mm(Hg)', u'umol/min', u'g/L', u'umol/d', u'umol/mol(Hb)', u'cm(H2O)', u'nmol/L', u'cell/L', u'mmol/mmol', u'us', u'umol/mol', u'umol/kg', u'mL/min', u'ng/L', u'umol/h/g(Hb)', u'mm/h', u'pmol', u'ml/min/1.73m*2', u'nmol/mmol', u'ratio', u'mg/L', u'mosmol/L', u'lm', u'umol/mmol', u'/mL', u'1', u'/day', u'umol/g(creat)', u'10*9/L', u'mg/d', u'mmol/d', u'mU/mL', u'mmol/mol', u'mIU/L', u'week', u'umol/mL/h', u'uU/L', u'pmol/L', u'ft', u'ng', u'mL', u'1(tot)', u'/L', u'L', u'ug/min', u'mol/s', u'nmol/mol(creat)', u'uL', u'mg/mmol', u'IU/d', u'titre', u'mL/s', u'%', u'mg/mmol(creat)', u'mmol', u'ug/L', u'mg/mg', u'g/mol', u'g', u'/uL', u'mm', u'h', u'm', u'(bsa)', u'1/mL', u'um', u'uu/mL', u'u', u'10*3', u'ng/mL', u'U/mmol', u'10*-2(%)', u'mg', u'mmol/mmol(creat)', u'umol/mmol(creat)', u'fmol', u'U/L', u'IU/L'], [], 0.01]
+02-01-2017 18:03:35	Alon-Secured-PC	Alon	Run Commit with "^Sodium$" regex to "Na" target. changed [] line numbers
+02-01-2017 18:07:09	Alon-Secured-PC	Alon	Run Commit with "^Sodium$" regex to "Na" target. changed [] line numbers
+02-01-2017 18:13:49	Alon-Secured-PC	Alon	Run Rename with "Sodium" to "Na" target. changed [55, 56, 327, 469, 470, 1488] line numbers
+02-01-2017 18:21:44	node-02	alon	Run config_set_unit on [Potassium, mmol/L, 1]
+02-01-2017 18:21:49	node-02	alon	Run config_set_unit on [Potassium, null value, 1]
+02-01-2017 18:22:03	node-02	alon	Run config_set_unit on [Potassium, mol/L, 1]
+02-01-2017 18:23:52	node-02	alon	Run config_set_deafult with [Potassium, mmol/L, 0.1, set(['', 'rad', '(bdsk u)', 'mol/kg', 'nmol/L', 'mg/dL', 'mmol/mmol', 'mmol/kg', 'nmol/mmol', 'umol/L', 'ng', '1', '10*9', '10*9/L', 'inch', 'mmol/d', 'mmol/mol', 'g/L', 'pmol/L', 'L', 'mol/s', 'kat', '%', 'mmol', 'ug/L', 'd', 'h', '(bsa)', 'ng/L', 'meq/L', 'U/L']), [], 1.0]
+03-01-2017 10:03:31	node-02	alon	Run config_set_unit on [WBC, g/L, 1]
+03-01-2017 10:03:44	node-02	alon	Run config_set_unit on [WBC, L, 1]
+03-01-2017 11:09:49	node-02	alon	Run config_set_unit on [Platelets, null value, 1.0]
+03-01-2017 11:14:02	node-02	alon	Run config_set_unit on [Platelets, g/L, 1]
+03-01-2017 12:10:55	node-02	alon	Run config_set_unit on [MCV, null value, 1]
+03-01-2017 16:17:45	Alon-Secured-PC	Alon	Run config_set_unit on [ALP, U/L, 1]
+03-01-2017 16:18:00	Alon-Secured-PC	Alon	Run config_set_unit on [ALP, IU/L, 1]
+03-01-2017 16:32:42	Alon-Secured-PC	Alon	Run config_set_unit on [ALP, %, 1]
+03-01-2017 17:55:22	node-02	alon	Run config_set_unit on [RBC, null value, 1]
+03-01-2017 18:12:56	Alon-Secured-PC	Alon	Run config_set_unit on [Hematocrit, null value, 1]
+04-01-2017 10:23:37	Alon-Secured-PC	Alon	Run config_set_deafult with [Hemoglobin, g/dL, 0.1, [u'%'], [u'0.1'], , 13.5]
+04-01-2017 10:41:37	Alon-Secured-PC	Alon	Run config_set_deafult with [RBC, 10*12/L, 0.01, [u'/uL', u'10*3(rbc)', u'10*6/L', u'mm'], [u'0.001', u'0.01'], , 4.5]
+04-01-2017 10:52:49	node-02	alon	Run config_set_deafult with [Hematocrit, NA, 0.01, [], [u'0.01'], 100.0, 0.4]
+04-01-2017 11:07:38	Alon-Secured-PC	Alon	Run config_set_unit on [Hemoglobin, null value, 1]
+04-01-2017 11:31:19	node-02	alon	Run config_set_unit on [Hematocrit, U/L, 1]
+04-01-2017 11:31:32	node-02	alon	Run config_set_unit on [Hematocrit, 1(tot), 1]
+04-01-2017 11:31:38	node-02	alon	Run config_set_unit on [Hematocrit, /g(Hb), 1]
+04-01-2017 11:32:26	node-02	alon	Run config_set_unit on [Hematocrit, 1, 0.01]
+04-01-2017 12:41:17	node-02	alon	Run config_set_unit on [LymphNum, null value, 1]
+04-01-2017 12:41:40	node-02	alon	Run config_set_deafult with [LymphNum, 10*9/L, 0.1, [u'%'], [u'0.1'], , ]
+04-01-2017 13:17:03	node-02	alon	Run config_set_unit on [LymphNum, g/L, 1]
+04-01-2017 13:31:13	Alon-Secured-PC	Alon	Run config_set_deafult with [NeutNum, 10*9/L, 0.1, [u'%'], [u'0.1'], , ]
+04-01-2017 13:31:26	Alon-Secured-PC	Alon	Run config_set_deafult with [NeutNum, 10*9/L, 0.1, [u'%'], [u'0.1'], , 5]
+04-01-2017 13:32:17	Alon-Secured-PC	Alon	Run config_set_unit on [NeutNum, g/L, 1]
+04-01-2017 13:32:42	Alon-Secured-PC	Alon	Run config_set_deafult with [LymphNum, 10*9/L, 0.1, [u'%'], [u'0.1'], , 2.0]
+04-01-2017 14:26:47	Alon-Secured-PC	Alon	Run config_set_unit on [Albumin, mmol/L, 1]
+04-01-2017 14:52:25	Alon-Secured-PC	Alon	Run config_set_unit on [EosNum, g/L, 1]
+04-01-2017 14:53:48	Alon-Secured-PC	Alon	Run config_set_deafult with [LymphNum, 10*9/L, 0.1, [u'%'], [], , ]
+04-01-2017 14:54:58	Alon-Secured-PC	Alon	Run config_set_deafult with [NeutNum, 10*9/L, 0.1, [u'%'], [], , ]
+04-01-2017 15:58:33	node-02	alon	Run config_set_unit on [MonNum, g/L, 1]
+04-01-2017 16:50:31	Alon-Secured-PC	Alon	Run config_set_unit on [MCH, null value, 1]
+04-01-2017 17:38:02	node-02	alon	Run Commit with "bilirubin-44E4.00_Bilirubin-1001400009" regex to "TBD" target. changed [95] line numbers
+04-01-2017 17:42:27	node-02	alon	Run Commit with "unconj.*Bilirubin" regex to "TBD" target. changed [780, 1384, 1563, 5292] line numbers
+04-01-2017 17:48:33	node-02	alon	Run config_set_deafult with [RBC, 10*12/L, 0.01, [u'/uL', u'10*3(rbc)', u'10*6/L', u'mm'], [u'0.001'], , 4.5]
+05-01-2017 09:36:17	node-02	alon	Run Commit with "4261\.00" regex to "NULL" target. changed [716, 2157] line numbers
+05-01-2017 09:44:35	node-02	alon	Run config_set_unit on [MCHC, null value, 1]
+05-01-2017 10:19:09	node-02	alon	Run config_set_unit on [FreeT4, null value, 1]
+05-01-2017 10:31:21	node-02	alon	Run config_set_unit on [InorganicPhosphate, null value, 1]
+05-01-2017 10:31:36	node-02	alon	Run config_set_unit on [InorganicPhosphate, mol/L, 1]
+05-01-2017 10:50:58	Alon-Secured-PC	Alon	Run config_set_deafult with [InorganicPhosphate, mmol/L, 0.01, {'', 'IU/L', 'kPa', 'mmol/d', '1(tot)', 'u/mL', 'mg/dL', 'L', 'g/L', 'mmol', 'U/g', 'U/L', 'h', 'nmol/L', 'second', '/mL', '1', 'ug/L', 'umol/L', 'ng', 'N/A', '%'}, [0.01], 3.096, ]
+05-01-2017 11:04:16	node-02	alon	Run config_set_deafult with [TSH, mU/L, 0.01, [u'pmol/L'], [], , ]
+05-01-2017 11:04:55	node-02	alon	Run config_set_unit on [TSH, null value, 1]
+05-01-2017 11:05:07	node-02	alon	Run config_set_unit on [TSH, U/L, 1]
+05-01-2017 11:41:54	node-02	alon	Run config_set_unit on [Urate, null value, 1]
+05-01-2017 11:56:08	node-02	alon	Run config_set_unit on [T4, null value, 1]
+05-01-2017 12:03:42	node-02	alon	Run config_set_unit on [Fibrinogen, 10*3, 0.1]
+05-01-2017 12:04:17	node-02	alon	Run config_set_unit on [Fibrinogen, null value, 1]
+05-01-2017 12:05:04	node-02	alon	Run config_set_unit on [Fibrinogen, mg/dL, 0.01]
+05-01-2017 12:10:31	node-02	alon	Run config_set_unit on [Fructosamine, umol, 1]
+05-01-2017 12:11:06	node-02	alon	Run config_set_unit on [Fructosamine, null value, 1]
+05-01-2017 12:11:42	Alon-Secured-PC	Alon	Run config_set_deafult with [Fructosamine, NA, 1, {'', 'umol/d', 'mol/L', '<None>', 'ng', 'umol/h/g(Hb)', 'nmol/L', '%'}, [100.0], 1.0, ]
+05-01-2017 12:23:17	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, 300]
+05-01-2017 12:24:36	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, 250]
+05-01-2017 13:26:40	node-02	alon	Run config_set_deafult with [HbA1C, %, 0.1, [u'mmol/L', u'umol/mol', u'umol/mol(Hb'], [], , ]
+05-01-2017 13:26:53	node-02	alon	Run config_set_unit on [HbA1C, umol/mol(Hb), 10.0]
+05-01-2017 13:28:42	node-02	alon	Run config_set_unit on [HbA1C, null value, 1]
+05-01-2017 13:29:09	node-02	alon	Run config_set_unit on [HbA1C, NA, 1]
+05-01-2017 13:29:22	node-02	alon	Run config_set_deafult with [HbA1C, %, 0.1, [u'mmol/L', u'umol/mol', u'umol/mol(Hb'], [u'0.1'], , ]
+05-01-2017 13:31:14	node-02	alon	Run config_set_deafult with [HbA1C, %, 0.1, [u'mmol/L', u'umol/mol'], [u'0.1'], , ]
+05-01-2017 13:32:37	node-02	alon	Run config_set_deafult with [HbA1C, %, 0.1, [u'mmol/L', u'umol/mol', u'mmol'], [u'0.1'], , ]
+05-01-2017 14:21:30	node-02	alon	Run config_set_deafult with [HbA1C, %, 0.1, [u'mmol/L', u'umol/mol', u'mmol'], [u'0.1'], , ]
+05-01-2017 14:25:42	node-02	alon	Run config_set_unit on [HbA1C, %Hb, 1]
+05-01-2017 14:31:42	node-02	alon	Run config_set_deafult with [Cholesterol, mmol/L, 0.1, [u'ratio', u''], [], 38.61, ]
+05-01-2017 14:39:50	node-02	alon	Run config_set_deafult with [Urine_Protein_Creatinine, mg/mmol, 1, [], [], , ]
+05-01-2017 14:40:26	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, g/mol, 1]
+05-01-2017 14:40:32	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, mg/mmol(creat), 1]
+05-01-2017 14:40:40	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, null value, 1]
+05-01-2017 14:40:51	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, mmol/mmol(creat), 1]
+05-01-2017 14:40:58	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, NA, 1]
+05-01-2017 14:41:19	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, ratio, 1]
+05-01-2017 14:41:34	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, mmol/L, 1]
+05-01-2017 14:41:41	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, L, 1]
+05-01-2017 14:42:01	node-02	alon	Run config_set_unit on [Urine_Protein_Creatinine, <None>, 1]
+05-01-2017 14:52:58	node-02	alon	Run config_set_unit on [Cholesterol, mol/L, 1]
+05-01-2017 14:56:37	node-02	alon	Run config_set_unit on [Glucose, mg/dL, 1]
+05-01-2017 15:02:11	node-02	alon	Run config_set_unit on [TotalProtein, null value, 1]
+05-01-2017 15:03:47	node-02	alon	Run config_set_unit on [HDL, null value, 1]
+05-01-2017 15:04:08	node-02	alon	Run config_set_unit on [HDL, mol/L, 1]
+05-01-2017 15:04:48	node-02	alon	Run config_set_deafult with [HDL, mmol/L, 0.1, [u'ratio'], [], 38.61, ]
+05-01-2017 15:06:00	node-02	alon	Run config_set_unit on [Triglycerides, null value, 1]
+05-01-2017 15:06:27	node-02	alon	Run config_set_unit on [Triglycerides, g/L, 1]
+05-01-2017 15:11:11	node-02	alon	Run config_set_deafult with [TEMP, degC, 0.1, [], [], , ]
+05-01-2017 15:11:25	node-02	alon	Run config_set_unit on [TEMP, null value, 1]
+05-01-2017 15:11:31	node-02	alon	Run config_set_unit on [TEMP, NA, 1]
+05-01-2017 15:11:39	node-02	alon	Run config_set_unit on [TEMP, deg, 1]
+05-01-2017 15:12:31	node-02	alon	Run config_set_deafult with [TEMP, degC, 0.1, [], [], , 37]
+05-01-2017 15:12:54	node-02	alon	Run config_set_deafult with [TEMP, degC, 0.1, [u'rad'], [], , 37]
+05-01-2017 15:24:30	node-02	alon	Run config_set_deafult with [PTT, NA, 0.1, [], [], , ]
+05-01-2017 15:25:27	node-02	alon	Run config_set_unit on [PTT, second, 1]
+05-01-2017 15:26:15	node-02	alon	Run config_set_unit on [PTT, ratio, 1]
+05-01-2017 15:26:39	node-02	alon	Run config_set_unit on [PTT, null value, 1]
+05-01-2017 15:26:53	node-02	alon	Run config_set_unit on [PTT, 01-Jan, 1]
+05-01-2017 15:27:28	node-02	alon	Run config_set_unit on [PTT, %, 1]
+05-01-2017 15:27:50	node-02	alon	Run config_set_unit on [PTT, mL/min/1.73m*2, 1]
+05-01-2017 15:28:16	node-02	alon	Run config_set_unit on [PTT, ml/min/1.73m, 1]
+05-01-2017 15:46:41	node-02	alon	Run config_set_deafult with [Reticulocyte, 10*9/L, 0.1, [], [], , ]
+05-01-2017 15:47:41	node-02	alon	Run config_set_unit on [Reticulocyte, 10*12/L, 1]
+05-01-2017 15:48:25	node-02	alon	Run config_set_unit on [Reticulocyte, /L, 1]
+05-01-2017 15:48:38	node-02	alon	Run config_set_deafult with [Reticulocyte, 10*9/L, 0.1, [u'pg'], [], , ]
+05-01-2017 15:49:18	node-02	alon	Run config_set_deafult with [Reticulocyte, 10*9/L, 0.1, [u'pg', u'10*9'], [], , ]
+05-01-2017 15:49:41	node-02	alon	Run config_set_unit on [Reticulocyte, 10*12, 1]
+05-01-2017 15:54:23	node-02	alon	Run config_set_deafult with [TIBC, umol/L, 1, [], [], , ]
+05-01-2017 15:55:04	node-02	alon	Run config_set_unit on [TIBC, mmol/L, 1]
+05-01-2017 15:55:16	node-02	alon	Run config_set_deafult with [TIBC, umol/L, 1, [u'%'], [], , ]
+05-01-2017 16:02:51	node-02	alon	Run config_set_unit on [TIBC, g/L, 17.9]
+05-01-2017 16:03:39	node-02	alon	Run config_set_unit on [TIBC, NA, 1]
+05-01-2017 16:03:53	node-02	alon	Run config_set_unit on [TIBC, MicroU/L, 1]
+05-01-2017 16:04:09	node-02	alon	Run config_set_unit on [TIBC, null value, 1]
+05-01-2017 16:07:13	node-02	alon	Run config_set_deafult with [TIBC, umol/L, 1, [u'%', u'g/L'], [], , ]
+05-01-2017 16:12:12	node-02	alon	Run config_set_deafult with [TIBC, umol/L, 1, [u'%', u'g/L'], [], , ]
+05-01-2017 16:14:42	node-02	alon	Run config_set_unit on [Triglycerides, mol/L, 1]
+05-01-2017 16:15:48	node-02	alon	Run config_set_deafult with [Serum_Oestradiol, pmol/L, 1, [], [], , ]
+05-01-2017 16:16:14	node-02	alon	Run config_set_unit on [Serum_Oestradiol, null value, 1]
+05-01-2017 16:16:40	node-02	alon	Run config_set_unit on [Serum_Oestradiol, NA, 1]
+05-01-2017 16:17:25	node-02	alon	Run config_set_unit on [Serum_Oestradiol, pg/mL, 1]
+05-01-2017 16:17:48	node-02	alon	Run config_set_unit on [Serum_Oestradiol, nmol/L, 1000]
+05-01-2017 16:20:05	node-02	alon	Run config_set_unit on [Serum_Oestradiol, nmol/L, 100]
+05-01-2017 16:20:50	node-02	alon	Run config_set_deafult with [Serum_Oestradiol, pmol/L, 1, [u'nmol/L'], [], , ]
+05-01-2017 16:21:58	node-02	alon	Run config_set_deafult with [PTH, pmol/L, 0.1, [], [], , ]
+05-01-2017 16:25:36	node-02	alon	Run config_set_deafult with [TroponinI, ug/L, 0.01, [], [], , ]
+05-01-2017 16:26:11	node-02	alon	Run config_set_unit on [TroponinI, g/L, 1]
+05-01-2017 16:26:26	node-02	alon	Run config_set_unit on [TroponinI, ng/mL, 1]
+05-01-2017 16:27:05	node-02	alon	Run config_set_unit on [TroponinI, g/L, 0.1]
+05-01-2017 16:27:50	node-02	alon	Run config_set_deafult with [TroponinI, ug/L, 0.01, [u'ng/L'], [], , ]
+05-01-2017 16:28:05	node-02	alon	Run config_set_deafult with [TroponinI, ug/L, 0.01, [u'ng/L', u'NA'], [], , ]
+05-01-2017 16:28:19	node-02	alon	Run config_set_unit on [TroponinI, null value, 1]
+05-01-2017 16:29:29	node-02	alon	Run config_set_unit on [TroponinI, g/L, 1]
+05-01-2017 16:30:22	node-02	alon	Run config_set_deafult with [RandomLDL, mmol/L, 0.01, [], [], , ]
+05-01-2017 16:31:23	node-02	alon	Run config_set_unit on [RandomLDL, null value, 1]
+05-01-2017 16:31:41	node-02	alon	Run config_set_deafult with [RandomLDL, mmol/L, 0.01, [u'NA'], [], , ]
+05-01-2017 16:33:07	node-02	alon	Run config_set_deafult with [Sex_Hormone_Binding_Globulin, nmol/L, 1, [], [], , ]
+05-01-2017 16:34:01	node-02	alon	Run config_set_unit on [Sex_Hormone_Binding_Globulin, null value, 1]
+05-01-2017 16:34:18	node-02	alon	Run config_set_unit on [Sex_Hormone_Binding_Globulin, g/L, 1]
+05-01-2017 16:34:27	node-02	alon	Run config_set_unit on [Sex_Hormone_Binding_Globulin, NA, 1]
+05-01-2017 16:34:46	node-02	alon	Run config_set_deafult with [Sex_Hormone_Binding_Globulin, nmol/L, 1, [u'IU/L', u''], [], , ]
+05-01-2017 16:35:15	node-02	alon	Run config_set_deafult with [Sex_Hormone_Binding_Globulin, nmol/L, 1, [u'IU/L', u'%', u''], [], , ]
+05-01-2017 16:35:27	node-02	alon	Run config_set_deafult with [Sex_Hormone_Binding_Globulin, nmol/L, 1, [u'IU/L', u'%', u'', u''], [], , ]
+05-01-2017 16:35:39	node-02	alon	Run config_set_deafult with [Sex_Hormone_Binding_Globulin, nmol/L, 1, [u'IU/L', u'%', u''], [], , ]
+05-01-2017 16:35:58	node-02	alon	Run config_set_deafult with [Sex_Hormone_Binding_Globulin, nmol/L, 1, [u'IU/L', u'%', u'<None>'], [], , ]
+05-01-2017 16:37:34	node-02	alon	Run config_set_deafult with [UrineSodium, mmol/L, 1, [], [], , ]
+05-01-2017 16:38:21	node-02	alon	Run config_set_unit on [UrineSodium, NA, 1]
+05-01-2017 16:38:26	node-02	alon	Run config_set_unit on [UrineSodium, null value, 1]
+05-01-2017 16:38:49	node-02	alon	Run config_set_deafult with [RandomTriglyceride, mmol/L, 0.01, [], [], , ]
+05-01-2017 16:39:13	node-02	alon	Run config_set_deafult with [RandomTriglyceride, mmol/L, 0.01, [], [], , ]
+05-01-2017 16:39:19	node-02	alon	Run config_set_unit on [RandomTriglyceride, null value, 1]
+05-01-2017 16:39:38	node-02	alon	Run config_set_deafult with [Teophylline, mg/L, 0.1, [], [], , ]
+05-01-2017 16:40:26	node-02	alon	Run config_set_unit on [Teophylline, NA, 1]
+05-01-2017 16:40:32	node-02	alon	Run config_set_unit on [Teophylline, null value, 1]
+05-01-2017 16:40:45	node-02	alon	Run config_set_unit on [Teophylline, ug/mL, 1]
+05-01-2017 16:42:42	node-02	alon	Run config_set_deafult with [Teophylline, mg/L, 0.1, [u'umol/L'], [], , ]
+05-01-2017 16:43:06	node-02	alon	Run config_set_deafult with [CEA, mmol/L, 1, [], [], , ]
+05-01-2017 16:44:42	node-02	alon	Run config_set_deafult with [CEA, mmol/L, 1, [u'kU/L', u'U/L'], [], , ]
+05-01-2017 16:46:57	node-02	alon	Run config_set_unit on [HCG, U/L, 1]
+05-01-2017 16:47:05	node-02	alon	Run config_set_unit on [HCG, null value, 1]
+05-01-2017 16:47:17	node-02	alon	Run config_set_unit on [HCG, kU/L, 1]
+05-01-2017 16:47:26	node-02	alon	Run config_set_unit on [HCG, u/mL, 1]
+05-01-2017 16:48:32	node-02	alon	Run config_set_deafult with [HCG, IU/L, 1, [u'g/L', u'mU/L', u'kua/L', u'10*3/L', u'L/L', u'10*6', u'ueq', u'IU/mL', u'NA', u'/L', u'/uL', u'IU'], [], 1.0, ]
+05-01-2017 16:52:42	node-02	alon	Run config_set_unit on [ALT, IU/L, 1]
+05-01-2017 16:55:00	node-02	alon	Run config_set_unit on [GFR, null value, 1]
+05-01-2017 17:01:29	node-02	alon	Run config_set_unit on [Cholesterol_over_HDL, U/L, 1]
+05-01-2017 17:01:49	node-02	alon	Run config_set_unit on [Cholesterol_over_HDL, mL/min/1.73m*2, 1]
+05-01-2017 17:02:58	node-02	alon	Run config_set_unit on [Cholesterol_over_HDL, %, 0.1]
+05-01-2017 17:05:35	node-02	alon	Run config_set_unit on [LDL, null value, 1]
+05-01-2017 17:07:16	node-02	alon	Run config_set_unit on [GGT, U/L, 1]
+05-01-2017 17:07:24	node-02	alon	Run config_set_unit on [GGT, IU/L, 1]
+05-01-2017 17:07:31	node-02	alon	Run config_set_deafult with [GGT, IU/L, 1, [], [], , ]
+05-01-2017 17:08:09	node-02	alon	Run config_set_unit on [GGT, /uL, 1]
+05-01-2017 17:08:24	node-02	alon	Run config_set_deafult with [GGT, IU/L, 1, [u'uL'], [], , ]
+05-01-2017 17:10:22	node-02	alon	Run config_set_unit on [Calcium, null value, 1]
+05-01-2017 17:11:02	node-02	alon	Run config_set_deafult with [Calcium, mmol/L, 0.01, [u'IU/L', u'g/L', u'U/L'], [], 4.0, ]
+05-01-2017 17:11:23	node-02	alon	Run config_set_unit on [Calcium, mg/dL, 1]
+05-01-2017 17:11:56	node-02	alon	Run config_set_unit on [Calcium, mol/L, 1]
+05-01-2017 17:12:06	node-02	alon	Run config_set_deafult with [Calcium, mmol/L, 0.01, [u'IU/L', u'g/L', u'U/L'], [], 4.0, ]
+05-01-2017 17:14:07	node-02	alon	Run config_set_deafult with [Cholesterol_over_HDL, ratio, 0.1, [u'Dummy1', u'%'], [u'0.1'], , ]
+05-01-2017 17:14:18	node-02	alon	Run config_set_deafult with [Cholesterol_over_HDL, ratio, 0.1, [u'Dummy1', u'%'], [], , ]
+05-01-2017 17:15:08	node-02	alon	Run config_set_unit on [CorrectedCalcium, mol/L, 1]
+05-01-2017 17:15:14	node-02	alon	Run config_set_unit on [CorrectedCalcium, <None>, 1]
+05-01-2017 17:17:39	node-02	alon	Run config_set_unit on [CRP, mmol/L, 1]
+05-01-2017 17:19:21	node-02	alon	Run config_set_unit on [CRP, mU/mL, 1]
+05-01-2017 17:23:24	node-02	alon	Run config_set_deafult with [Chloride, mmol/L, 1, [u'meq/L'], [], , ]
+05-01-2017 17:24:33	node-02	alon	Run config_set_unit on [PFR, null value, 1]
+05-01-2017 17:25:29	node-02	alon	Run config_set_unit on [PFR, L/h, 1]
+05-01-2017 17:25:38	node-02	alon	Run config_set_unit on [PFR, /L, 1]
+05-01-2017 17:26:07	node-02	alon	Run config_set_deafult with [PFR, L/min, 1, [u'%', u'm2'], [], , ]
+05-01-2017 17:29:23	node-02	alon	Run config_set_unit on [AST, U/L, 1]
+05-01-2017 17:29:30	node-02	alon	Run config_set_unit on [AST, IU/L, 1]
+05-01-2017 17:32:51	node-02	alon	Run config_set_unit on [Ferritin, null value, 1]
+05-01-2017 17:33:22	node-02	alon	Run config_set_unit on [Ferritin, %, 1]
+05-01-2017 17:33:44	node-02	alon	Run config_set_unit on [Ferritin, mU/L, 1]
+05-01-2017 17:35:09	node-02	alon	Run config_set_unit on [Ferritin, nmol/L, 1]
+05-01-2017 17:37:29	node-02	alon	Run config_set_unit on [GFR, #G ( )/L, 1]
+05-01-2017 17:37:40	node-02	alon	Run config_set_unit on [GFR, IU, 1]
+05-01-2017 17:38:11	node-02	alon	Run config_set_unit on [GFR, U/L, 1]
+05-01-2017 17:40:22	node-02	alon	Run config_set_deafult with [Ferritin, ug/L, 1, [u'umol/L', u'<None>'], [], 1.0, ]
+05-01-2017 17:41:10	node-02	alon	Run config_set_deafult with [GFR, mL/min, 1, set(['mL/min/1.72m*2', 'umol', '(bdsk u)', '(mclg u)', 'rad', 'cm(H2O)', 'pm', 'mg/dL', 'mg/min', 'year', 'ft', 'mmol/L', 'mm/h', 'ng/L', 'umol/L', 'mg/L', 'min', '/hour', '/year', '#/[tot]', 'ng', '1', '10*9/L', 'titre', 'mmol/mol', 'mIU/L', 'week', 'g/L', 'pmol/L', '#M ( )/L', 'm*2', 'mL/h', 'IU/L', 'mL', '/L', 'L', 'mol/s', '/m3', '1(tot)', 'm/s2', '#/HPF', 'mmol', '%', '/second', 'kg', 'd', 'g', 'nmol/L', 'nmol/mL/min', 'fL', '01-Jan', '(bsa)', 'IU/mL', 'mol/L', 'mm', 's', 'Pa', 'u', 'g/dL', 'meq/L', 'MicroU/L', 'mmol/mmol(creat)', '(cfU)', '1/mL', 'u/mL']), [], 1.0, ]
+05-01-2017 17:41:16	node-02	alon	Run config_set_deafult with [Ferritin, ug/L, 1, [u'umol/L', u'<None>', u'mg/m3'], [], 1.0, ]
+05-01-2017 17:43:14	node-02	alon	Run config_set_unit on [MPV, null value, 1]
+05-01-2017 17:43:27	node-02	alon	Run config_set_unit on [MPV, fL, 1]
+05-01-2017 17:44:37	node-02	alon	Run config_set_unit on [B12, null value, 1]
+05-01-2017 17:45:42	node-02	alon	Run config_set_unit on [B12, mmol/L, 1]
+05-01-2017 17:45:55	node-02	alon	Run config_set_unit on [B12, ng/mL, 1]
+05-01-2017 17:46:42	node-02	alon	Run config_set_unit on [B12, pg/L, 1]
+05-01-2017 17:50:46	node-02	alon	Run config_set_unit on [Folate, null value, 1]
+05-01-2017 17:51:05	node-02	alon	Run config_set_unit on [Folate, mmol/L, 1]
+05-01-2017 17:52:50	node-02	alon	Run config_set_unit on [Folate, ng/L, 1.0]
+05-01-2017 17:54:52	node-02	alon	Run config_set_deafult with [Folate, ug/L, 0.1, [u'mg/m3'], [], , ]
+05-01-2017 17:55:07	node-02	alon	Run config_set_unit on [Folate, /L, 1]
+05-01-2017 17:57:49	node-02	alon	Run config_set_unit on [UrineCreatinine, null value, 1]
+05-01-2017 17:59:13	node-02	alon	Run config_set_unit on [UrineCreatinine, NA, 1]
+05-01-2017 17:59:29	node-02	alon	Run config_set_unit on [UrineCreatinine, umol/L, 1]
+05-01-2017 18:00:01	node-02	alon	Run config_set_unit on [UrineCreatinine, mol/L, 1.0]
+05-01-2017 18:00:44	node-02	alon	Run config_set_deafult with [UrineCreatinine, mmol/L, 0.1, [u'mg/dL'], [], , ]
+05-01-2017 18:01:58	node-02	alon	Run config_set_deafult with [UrineCreatinine, mmol/L, 0.1, [u'mg/dL', u'mmol/d', u'mmol'], [], , ]
+05-01-2017 18:05:02	node-02	alon	Run config_set_unit on [UrineCreatinine, umol/L, 0.001]
+05-01-2017 18:05:41	node-02	alon	Run config_set_unit on [UrineAlbumin_over_Creatinine, null value, 1]
+05-01-2017 18:06:00	node-02	alon	Run config_set_deafult with [UrineAlbumin_over_Creatinine, mg/mmol, 0.1, [u'g(creat', u'mg/L', u'mg/mmol(creat', u'mmol/L', u'mmol/mmol(creat)'], [], , ]
+05-01-2017 18:06:05	node-02	alon	Run config_set_unit on [UrineAlbumin_over_Creatinine, ratio, 1]
+05-01-2017 18:06:40	node-02	alon	Run config_set_unit on [UrineAlbumin_over_Creatinine, mg, 1]
+05-01-2017 18:09:33	node-02	alon	Run config_set_deafult with [UrineAlbumin_over_Creatinine, mg/mmol, 0.1, [u'g(creat)', u'mg/L', u'mg/mmol(creat', u'mmol/L', u'mmol/mmol(creat)'], [], , ]
+05-01-2017 18:10:02	node-02	alon	Run config_set_deafult with [UrineAlbumin_over_Creatinine, mg/mmol, 0.1, [u'g(creat)', u'mg/L', u'mg/mmol(creat', u'mmol/L', u'mmol/mmol(creat)', u'mmol'], [], , ]
+05-01-2017 18:11:10	node-02	alon	Run config_set_deafult with [UrineAlbumin_over_Creatinine, mg/mmol, 0.1, [u'g(creat)', u'mg/L', u'mmol/L', u'mmol/mmol(creat)', u'mmol'], [], , ]
+05-01-2017 18:11:46	node-02	alon	Run config_set_deafult with [UrineAlbumin_over_Creatinine, mg/mmol, 0.1, [u'g(creat)', u'mg/L', u'mmol/L', u'mmol/mmol(creat)', u'mmol'], [], , ]
+05-01-2017 18:14:04	node-02	alon	Run config_set_unit on [PSA, null value, 1.0]
+05-01-2017 18:14:11	node-02	alon	Run config_set_unit on [PSA, NA, 1.0]
+05-01-2017 18:14:58	node-02	alon	Run config_set_unit on [PSA, ug/mL, 1]
+05-01-2017 18:15:59	node-02	alon	Run config_set_deafult with [PSA, ug/L, 0.1, set(['rad', 'U/g(Hb)', 'mm(Hg)', 'IU/mL', '/mL', '(OD)', 'pg/mL', 'nmol/L', 'mg/dL', 'mU/L', 'g(tot_prot)', 'pg/L', 'U/L', 'mPas', 'mmol/L', 'mm/h', '%', 'ug/min', 'ng', '1', 'U/dL', 'pg', 'nkat', '10*9', 'nmol/g', 'mU/mL', 'nmol/10*9(platelets)', 'g(wet_tis)', '10*3', 'mIU/L', 'pmol/L', 'ft', 'ug/g', 'IU/dL', 'mL', 'L', 'ng/mL/h', 'uL', 'mg/mmol', 'U/g', 'fg', 'umol/L', 'ug/dL', 'mmol', 'mL/s', 'mg', 'cP', 'g', 'kIU/L', 'h', '/uL', 'm', 'IU/d', 's', 'u', 'ug/d', 'g/dL', 'meq/L', 'ug/h', 'ug', 'g/mol', 'fL', 'u/mL']), [], 1.0, ]
+05-01-2017 18:19:15	node-02	alon	Run config_set_unit on [LymphPerc, null value, 1]
+05-01-2017 18:19:42	node-02	alon	Run config_set_unit on [LymphPerc, 10*9/L, 10.0]
+05-01-2017 18:20:01	node-02	alon	Run config_set_unit on [LymphPerc, <None>, 1.0]
+05-01-2017 18:20:13	node-02	alon	Run config_set_unit on [LymphPerc, NA, 1.0]
+05-01-2017 18:20:58	node-02	alon	Run config_set_deafult with [LymphPerc, %, 1, [u'(pH)', u'U/L'], [], , ]
+05-01-2017 18:22:07	node-02	alon	Run config_set_unit on [BasPerc, <None>, 1.0]
+05-01-2017 18:23:07	node-02	alon	Run config_set_deafult with [LymphPerc, %, 1, [u'(pH)', u'U/L', u'10*9/L'], [], , ]
+05-01-2017 18:24:54	node-02	alon	Run config_set_unit on [BasPerc, NA, 1.0]
+05-01-2017 18:25:03	node-02	alon	Run config_set_deafult with [BasPerc, %, 0.1, [u'(pH)', u'10*9/L', u'U/L'], [], , ]
+05-01-2017 18:26:18	node-02	alon	Run config_set_unit on [MonPerc, null value, 1.0]
+05-01-2017 18:26:33	node-02	alon	Run config_set_unit on [MonPerc, <None>, 1.0]
+05-01-2017 18:26:41	node-02	alon	Run config_set_unit on [MonPerc, NA, 1.0]
+05-01-2017 18:26:54	node-02	alon	Run config_set_deafult with [MonPerc, %, 1, [u'(pH)', u'10*9/L', u'U/L'], [], , ]
+05-01-2017 18:28:08	node-02	alon	Run config_set_unit on [MonPerc, 10*9/L, 10.0]
+05-01-2017 18:30:28	node-02	alon	Run config_set_deafult with [EosPerc, %, 1, [u'(pH)', u'10*9/L', u'IU/L'], [], , ]
+05-01-2017 18:30:36	node-02	alon	Run config_set_deafult with [EosPerc, %, 1, [u'(pH)', u'10*9/L', u'U/L'], [], , ]
+05-01-2017 18:30:59	node-02	alon	Run config_set_unit on [EosPerc, <None>, 1.0]
+05-01-2017 18:31:20	node-02	alon	Run config_set_unit on [EosPerc, NA, 1.0]
+05-01-2017 18:32:12	node-02	alon	Run config_set_deafult with [NeutPerc, %, 1, [u'(pH)', u'10*9/L', u'U/L'], [], , ]
+05-01-2017 18:32:27	node-02	alon	Run config_set_unit on [NeutPerc, null value, 1.0]
+05-01-2017 18:32:33	node-02	alon	Run config_set_unit on [NeutPerc, NA, 1.0]
+05-01-2017 18:32:41	node-02	alon	Run config_set_unit on [NeutPerc, <None>, 1.0]
+05-01-2017 18:35:07	node-02	alon	Run config_set_unit on [PlasmaViscosity, null value, 1.0]
+05-01-2017 18:35:13	node-02	alon	Run config_set_unit on [PlasmaViscosity, NA, 1.0]
+05-01-2017 18:38:09	node-02	alon	Run config_set_deafult with [UrineAlbumin, mg/L, 1, [u'g/L', u'mg/mmol', u'null value'], [], , ]
+05-01-2017 18:38:28	node-02	alon	Run config_set_deafult with [UrineAlbumin, mg/L, 1, [u'g/L', u'mg/mmol', u'null value', u'g/mol'], [], , ]
+05-01-2017 18:39:57	node-02	alon	Run config_set_deafult with [PlasmaViscosity, mPa.s, 0.01, [], [], , ]
+05-01-2017 18:41:15	node-02	alon	Run config_set_deafult with [LUC, 10*9/L, 0.01, [], [], , ]
+05-01-2017 18:41:26	node-02	alon	Run config_set_unit on [LUC, NA, 1.0]
+05-01-2017 18:42:07	node-02	alon	Run config_set_unit on [LUC, %, 0.1]
+05-01-2017 18:42:24	node-02	alon	Run config_set_unit on [LUC, null value, 1.0]
+05-01-2017 18:42:33	node-02	alon	Run config_set_unit on [LUC, L, 1.0]
+05-01-2017 18:42:40	node-02	alon	Run config_set_unit on [LUC, /L, 1.0]
+05-01-2017 18:42:49	node-02	alon	Run config_set_unit on [LUC, (pH), 1.0]
+05-01-2017 18:43:34	node-02	alon	Run config_set_deafult with [LUC, 10*9/L, 0.01, [u'%'], [], , ]
+05-01-2017 18:44:51	node-02	alon	Run config_set_unit on [FSH, U/L, 1.0]
+05-01-2017 18:45:03	node-02	alon	Run config_set_unit on [FSH, null value, 1.0]
+05-01-2017 18:45:20	node-02	alon	Run config_set_unit on [FSH, NA, 1.0]
+05-01-2017 18:45:34	node-02	alon	Run config_set_unit on [FSH, mU/mL, 1.0]
+05-01-2017 18:45:42	node-02	alon	Run config_set_unit on [FSH, mIU/L, 1.0]
+05-01-2017 18:45:49	node-02	alon	Run config_set_unit on [FSH, <None>, 1.0]
+05-01-2017 18:45:59	node-02	alon	Run config_set_unit on [FSH, IU/mL, 1.0]
+05-01-2017 18:46:32	node-02	alon	Run config_set_deafult with [FSH, IU/L, 0.1, [u'/uL', u'mU/L'], [], 1.0, ]
+05-01-2017 18:47:09	node-02	alon	Run config_set_deafult with [FSH, IU/L, 0.1, set(['umol', 'nmol/L', 'uu/mL', 'uU/L', 'ratio', 'ng', '1', 'pmol/L', 'mU/L', 'IU', 'L', 'uL', '1(tot)', 'kat', 'umol/L', 'mmol', 'ug/L', 'kg', '/uL', 'h', 'mIU/mL', '01-Jan', 'IU/d', 'kU/L', 'u', 'MicroU/L', 'ug', '%', '/L', 'u/mL']), [], 1.0, ]
+08-01-2017 11:03:03	node-02	alon	Run config_set_unit on [CreatinineKinase, U/L, 1.0]
+08-01-2017 11:03:43	node-02	alon	Run config_set_unit on [CreatinineKinase, /uL, 1.0]
+08-01-2017 11:04:17	node-02	alon	Run config_set_unit on [CreatinineKinase, IU, 1.0]
+08-01-2017 11:04:30	node-02	alon	Run config_set_unit on [CreatinineKinase, uL, 1.0]
+08-01-2017 11:04:44	node-02	alon	Run config_set_unit on [CreatinineKinase, <None>, 1.0]
+08-01-2017 11:05:33	node-02	alon	Run config_set_unit on [LuteinisingHormone, U/L, 1.0]
+08-01-2017 11:05:44	node-02	alon	Run config_set_unit on [LuteinisingHormone, null value, 1.0]
+08-01-2017 11:06:06	node-02	alon	Run config_set_unit on [LuteinisingHormone, <None>, 1.0]
+08-01-2017 11:06:30	node-02	alon	Run config_set_deafult with [LuteinisingHormone, IU/L, 0.1, [u'/uL'], [], , ]
+08-01-2017 11:06:46	node-02	alon	Run config_set_deafult with [LuteinisingHormone, IU/L, 0.1, set(['umol', 'U/g(Hb)', '/L', 'mmol/L', 'mIU/mL', 'ratio', 'ng', '1', 'mmol/mol', 'pmol/L', 'IU/dL', 'L', 'uL', '1(tot)', 'umol/L', 'mmol', 'ug/L', '/uL', 'h', '01-Jan', 'IU/d', 'u', 'ug/d', 'MicroU/L', '%', 'u/mL']), [], 1.0, ]
+08-01-2017 11:07:24	node-02	alon	Run config_set_unit on [RandomGlucose, null value, 1.0]
+08-01-2017 11:07:43	node-02	alon	Run config_set_unit on [RandomGlucose, IU/L, 1.0]
+08-01-2017 11:08:04	node-02	alon	Run config_set_deafult with [RandomGlucose, mmol/L, 0.1, set(['', 'nmol/L', 'mg/dL', 'Pa', 'mmol/mmol', 'mosmol/L', 'mm/h', 'nmol/mmol', '%', 'mg/L', 'Tcell/L', '10*12/L', 'ng', '1', 'mmol/d', 'titre', 'mmol/mol', 'week', 'g/L', 'pmol/L', 'ng/mL', 'mL', 'L', 'mol/s', 'mg/mmol', 'umol/L', 'mmol', 'g', 'cm(H2O)', 'mm', 'h', 'm', 'mol/L', 's', 'u', 'g/dL', 'fL', 'fmol']), [], 18.02, ]
+08-01-2017 11:08:57	node-02	alon	Run config_set_unit on [Iron, null value, 1.0]
+08-01-2017 11:09:52	node-02	alon	Run config_set_unit on [Iron, NA, 1.0]
+08-01-2017 11:10:13	node-02	alon	Run config_set_unit on [Iron, %, 1.0]
+08-01-2017 11:10:20	node-02	alon	Run config_set_unit on [Iron, mol/L, 1.0]
+08-01-2017 11:10:26	node-02	alon	Run config_set_deafult with [Iron, umol/L, 1, set(['', 'umol', 'umol/d', 'nmol/L', 'mg/dL', 'mU/L', 'uiu', '(mclg u)', 'mosmol/L', 'uU/L', 'mg/L', '1', 'mmol/mol', 'mIU/L', 'g/L', 'ng/mL', 'mg/mmol', 'U/g', 'ug/dL', 'mmol', 'ug/L', '<None>', 'ng/L', 'u', 'g/dL', 'U/L']), [], 5.587, ]
+08-01-2017 11:11:05	node-02	alon	Run config_set_unit on [FreeT3, null value, 1.0]
+08-01-2017 11:11:30	node-02	alon	Run config_set_deafult with [FreeT3, pmol/L, 1, set(['pmol', 'pg/mL', 'mU/L', '%', 'h', 'm', 'nmol/s', 'IU/mL', 'ng/L', 'uu/mL', 'ug/d', 'MicroU/L', 'umol/L', '1', 'ng', 'mmol/L', 'mIU/L']), [], 1.0, ]
+08-01-2017 11:12:26	node-02	alon	Run config_set_unit on [NonHDLCholesterol, <None>, 1.0]
+08-01-2017 11:12:35	node-02	alon	Run config_set_unit on [NonHDLCholesterol, nmol/L, 1.0]
+08-01-2017 11:13:49	node-02	alon	Run config_set_unit on [UrineTotalProtein, NA, 1.0]
+08-01-2017 11:13:54	node-02	alon	Run config_set_deafult with [UrineTotalProtein, g/L, 0.01, [u'null value'], [], , ]
+08-01-2017 11:14:18	node-02	alon	Run config_set_deafult with [UrineTotalProtein, g/L, 0.01, set(['umol/g(creat)', '/L', '(bdsk u)', 'umol/d', 'mg/d', 'nmol/L', 'mg/dL', 'mg/min', 'mmol/L', '/week', 'ratio', '/hour', 'mL/min', '#G ( )/L', 'kpal', 'L', '(cfU)', 'mg/mmol', '%', 'mg/mmol(creat)', 'mmol', '<None>', 'mg', 'g', 'h', 'g/24h', 'null value', '/day', 'g/dL', 'g/d', 'g/mol', 'g(tot_prot)']), [], 1.0, ]
+08-01-2017 11:15:47	node-02	alon	Run config_set_unit on [Prolactin, null value, 1.0]
+08-01-2017 11:16:14	node-02	alon	Run config_set_unit on [Prolactin, ug/L, 1.0]
+08-01-2017 11:16:24	node-02	alon	Run config_set_unit on [Prolactin, mU/mL, 1.0]
+08-01-2017 11:16:26	node-02	alon	Run config_set_deafult with [Prolactin, mU/L, 1, [u'%'], [], , ]
+08-01-2017 11:16:38	node-02	alon	Run config_set_deafult with [Prolactin, mU/L, 1, set(['nmol/L', 'uu/mL', 'uiu', '/mL', 'mmol/L', 'uU/L', 'umol/L', 'mg/L', 'mmol', '10*12/L', 'ng', '1', 'g/L', 'pmol/L', '#M ( )/L', 'mL', '%', 'mg/mmol(creat)', 'mIU/mL', '<None>', 'mg', '01-Jan', 'mPas', 'IU/d', 'u', 'ng/mL', 'uIU/L', 'U/L']), [], 1.0, ]
+08-01-2017 11:18:14	node-02	alon	Run config_set_deafult with [PDW, NA, 0.1, set(['fL', 'mL/min', '10*9/L', 'ratio', 'ng']), [], 1.0, ]
+08-01-2017 11:18:23	node-02	alon	Run config_set_unit on [PDW, null value, 1.0]
+08-01-2017 11:19:04	node-02	alon	Run config_set_unit on [Testosterone, null value, 1.0]
+08-01-2017 11:19:37	node-02	alon	Run config_set_deafult with [Testosterone, nmol/L, 0.1, [u'pmol/L'], [], , ]
+08-01-2017 11:19:44	node-02	alon	Run config_set_deafult with [Testosterone, nmol/L, 0.1, set(['pmol', '1', 'mU/L', 'ratio', 'uu/mL', '01-Jan', '/L', 'L', 'nmol/s', 'umol/L', 'pg/mL', 's', 'pmol/L', 'uiu', 'ng/mL', '%', 'mmol/L', 'ug/L', '<None>', 'ng/L']), [], 1.0, ]
+08-01-2017 11:20:40	node-02	alon	Run config_set_unit on [CA125, null value, 1.0]
+08-01-2017 11:20:58	node-02	alon	Run config_set_unit on [CA125, NA, 1.0]
+08-01-2017 11:21:01	node-02	alon	Run config_set_deafult with [CA125, kU/L, 0.1, [u'mmol/L', u'ng/mL', u'ug/L'], [], 1.0, ]
+08-01-2017 11:21:15	node-02	alon	Run config_set_unit on [CA125, kIU/L, 1.0]
+08-01-2017 11:21:26	node-02	alon	Run config_set_unit on [CA125, U/L, 1.0]
+08-01-2017 11:23:02	node-02	alon	Run config_set_unit on [CA125, IU/L, 1.0]
+08-01-2017 11:23:10	node-02	alon	Run config_set_deafult with [CA125, kU/L, 0.1, [u'mmol/L', u'ng/mL', u'ug/L', u'g/L'], [], 1.0, ]
+08-01-2017 11:23:19	node-02	alon	Run config_set_deafult with [CA125, kU/L, 0.1, [u'mmol/L', u'ng/mL', u'ug/L', u'g/L', u'mg/L'], [], 1.0, ]
+08-01-2017 11:23:31	node-02	alon	Run config_set_unit on [CA125, u, 1.0]
+08-01-2017 11:23:37	node-02	alon	Run config_set_unit on [CA125, umol, 1.0]
+08-01-2017 11:23:45	node-02	alon	Run config_set_deafult with [CA125, kU/L, 0.1, set(['mL/min/1.73m*2', 'umol/g(creat)', 'mU/L', 'umol/mL/h', 'umol/mmol', 'U/g(Hb)', '(knk u)', 'pg/mL', 'mg/dL', 'uu/mL', 'year', '/mL', 'mmol/L', 'ug/mL', 'umol/L', 'mg/L', 'ueq', 'ug/min', '#/[tot]', 'g/dL', 'ng', '1', 'mmol/d', 'U/dL', 'mU/mL', 'g/L', 'pmol/L', 'ug/g', 'ml/min/1.73m*2', 'mL', 'IU', '1(tot)', 'U/g', 'ratio', 'uU/L', 'ug/L', '<None>', 'um', 'ml/min/1.73m', 'kg', 'kua/L', '/uL', '(bsa)', 'ng/L', 'mol/L', 'ng/mL', 'MicroU/L', 'ug', '%']), [], 1.0, ]
+08-01-2017 11:25:25	node-02	alon	Run config_set_deafult with [Amylase, U/L, 1, [], [], , ]
+08-01-2017 11:25:32	node-02	alon	Run config_set_unit on [Amylase, IU/L, 1.0]
+08-01-2017 11:25:54	node-02	alon	Run config_set_unit on [Amylase, U/dL, 1.0]
+08-01-2017 11:26:07	node-02	alon	Run config_set_unit on [Amylase, <None>, 1.0]
+08-01-2017 11:26:13	node-02	alon	Run config_set_unit on [Amylase, /uL, 1.0]
+08-01-2017 11:26:19	node-02	alon	Run config_set_unit on [Amylase, IU/mL, 1.0]
+08-01-2017 11:27:19	node-02	alon	Run config_set_deafult with [Transferin, g/L, 0.1, [u'%'], [], 100.0, ]
+08-01-2017 11:27:39	node-02	alon	Run config_set_unit on [Transferin, null value, 1.0]
+08-01-2017 11:28:11	node-02	alon	Run config_set_deafult with [Transferin, g/L, 0.1, set(['umol', '%', 'mg/L', 'nmol/L', 'mg/dL', 'g/dL', 'ratio', 'ug/L', 'd']), [], 100.0, ]
+08-01-2017 11:28:54	node-02	alon	Run config_set_deafult with [Transferin, g/L, 0.1, [u'umol', u'%', u'mg/L', u'nmol/L', u'mg/dL', u'g/dL', u'ratio', u'ug/L', u'd', u'umol/L'], [], 100.0, ]
+08-01-2017 11:32:12	node-02	alon	Run config_set_unit on [VitaminD, null value, 1.0]
+08-01-2017 11:32:25	node-02	alon	Run config_set_unit on [VitaminD, NA, 1.0]
+08-01-2017 11:32:55	node-02	alon	Run config_set_unit on [VitaminD, ng/L, 2.496]
+08-01-2017 11:33:22	node-02	alon	Run config_set_deafult with [VitaminD, nmol/L, 1, set(['mU/L', 'pg/mL', 'mmol/L', 'nmol/L/h', 'ug/mL', 'nmol/mmol', 'umol/L', 'mg/L', 'nmol/s', '/mL', 'nmol/L/hr', 'nmol/10*9(platelets)', 'g/L', 'L', 'U/g', 'nmol/d', 'ug/dL', 'mmol', 'nm', 'nmol/mL/min', 'mol/L', 'meq/L', 'nmol/h/mLRBC', 'U/L']), [], 1.0, ]
+08-01-2017 11:34:23	node-02	alon	Run config_set_unit on [HDL_over_LDL, null value, 1.0]
+08-01-2017 11:35:33	node-02	alon	Run config_set_unit on [HDL_over_LDL, mmol/L, 1.0]
+08-01-2017 11:38:01	node-02	alon	Run config_set_deafult with [HDL_over_LDL, ratio, 0.1, [u'R', u'%'], [], , ]
+08-01-2017 11:44:57	node-02	alon	Run config_set_deafult with [Urine_Epithelial_Cell, /uL, 1, [], [], , ]
+08-01-2017 11:45:35	node-02	alon	Run config_set_deafult with [Urine_Epithelial_Cell, /uL, 1, [u'null value'], [], , ]
+08-01-2017 11:46:07	node-02	alon	Run config_set_unit on [Urine_Epithelial_Cell, NA, 1.0]
+08-01-2017 11:46:14	node-02	alon	Run config_set_deafult with [Urine_Epithelial_Cell, /uL, 1, [u'null value', u'/(hpf)'], [], , ]
+08-01-2017 11:46:33	node-02	alon	Run config_set_unit on [Urine_Epithelial_Cell, /cu.mm, 1.0]
+08-01-2017 11:46:54	node-02	alon	Run config_set_deafult with [Urine_Epithelial_Cell, /uL, 1, [u'null value', u'/(hpf)', u'#M ( )/L'], [], , ]
+08-01-2017 11:48:15	node-02	alon	Run config_set_unit on [Urine_Epithelial_Cell, 10*6/L, 1.0]
+08-01-2017 11:48:21	node-02	alon	Run config_set_unit on [Urine_Epithelial_Cell, <None>, 1.0]
+08-01-2017 11:48:49	node-02	alon	Run config_set_deafult with [Lithium, mmol/L, 0.01, [u'mg'], [], , ]
+08-01-2017 11:49:28	node-02	alon	Run config_set_unit on [Lithium, null value, 1.0]
+08-01-2017 11:49:45	node-02	alon	Run config_set_deafult with [Lithium, mmol/L, 0.01, [u'mg', u'1'], [], , ]
+08-01-2017 11:49:58	node-02	alon	Run config_set_deafult with [Lithium, mmol/L, 0.01, set(['mU/L', 'mg/d', 'nmol/L', 'Pa', 'mmol/mmol', 'umol/L', 'mg/L', 'min', '/hour', '/mL', '1', 'mmol/d', 'mIU/L', 'IU/L', 'mL', 'mol/s', 'mmol', 'ug/L', '<None>', 'mg', 'd', 'h', 'g/24h', 'mol/L', '/day', 'ug/d', '(cfU)', 'U/L']), [], 1.0, ]
+08-01-2017 14:31:02	node-02	alon	Run config_set_unit on [Progesterone, null value, 1.0]
+08-01-2017 14:31:19	node-02	alon	Run config_set_unit on [Progesterone, NA, 1.0]
+08-01-2017 14:31:38	node-02	alon	Run config_set_deafult with [Progesterone, nmol/L, 0.1, [u'NA'], [], 1.0, ]
+08-01-2017 14:31:52	node-02	alon	Run config_set_deafult with [Progesterone, nmol/L, 0.1, set(['pmol/L', 'umol/L', 'IU/L', 'mU/L', 'NA', 'mmol/L', 'L', 'nmol/s', '/mL', 'mol/L', '/L', 'ng/mL', 'MicroU/L', '(cfU)', '<None>', 'U/L']), [], 1.0, ]
+08-01-2017 14:32:39	node-02	alon	Run config_set_deafult with [LDH, U/L, 1, [], [], , ]
+08-01-2017 14:32:44	node-02	alon	Run config_set_unit on [LDH, IU/L, 1.0]
+08-01-2017 14:32:54	node-02	alon	Run config_set_unit on [LDH, null value, 1.0]
+08-01-2017 14:33:14	node-02	alon	Run config_set_deafult with [LDH, U/L, 1, set(['', 'mU/L', 'U/g(Hb)', 'uiu', 'IU/d', 'mmol/L', '%', '/mL', '10*9/L', 'mU/mL', 'g/L', 'IU', 'L', 'uL', 'U/g', 'umol/L', 'uU/L', 'ug/L', '<None>', '/uL', 'IU/mL', 'u', 'u/mL']), [], 1.0, ]
+08-01-2017 14:34:54	node-02	alon	Run config_set_deafult with [Transferrin_Saturation_Index, %, 1, [], [], , ]
+08-01-2017 14:35:02	node-02	alon	Run config_set_unit on [Transferrin_Saturation_Index, <None>, 1.0]
+08-01-2017 14:35:08	node-02	alon	Run config_set_unit on [Transferrin_Saturation_Index, NA, 1.0]
+08-01-2017 14:35:20	node-02	alon	Run config_set_unit on [Transferrin_Saturation_Index, %Hb, 1.0]
+08-01-2017 14:35:42	node-02	alon	Run config_set_unit on [Transferrin_Saturation_Index, null value, 1]
+08-01-2017 14:35:56	node-02	alon	Run config_set_deafult with [Transferrin_Saturation_Index, %, 1, [u'g/L'], [], , ]
+08-01-2017 14:37:43	node-02	alon	Run config_set_deafult with [CO2, mmol/L, 1, [u'NA', u'(ppm)', u'%', u'kPa'], [], , ]
+08-01-2017 14:39:00	node-02	alon	Run config_set_deafult with [Plateletcrit, %, 0.1, [u'null value'], [], , ]
+08-01-2017 14:39:17	node-02	alon	Run config_set_deafult with [Plateletcrit, %, 0.1, [u'null value', u'mL/min'], [], , ]
+08-01-2017 14:39:27	node-02	alon	Run config_set_deafult with [Plateletcrit, %, 0.1, set(['mL/min', 'null value', '10*9/L']), [], 1.0, ]
+08-01-2017 14:40:09	node-02	alon	Run config_set_unit on [Magnesium, null value, 1.0]
+08-01-2017 14:40:25	node-02	alon	Run config_set_unit on [Magnesium, mol/L, 1]
+08-01-2017 14:40:30	node-02	alon	Run config_set_unit on [Magnesium, meq/L, 1]
+08-01-2017 14:41:56	node-02	alon	Run config_set_unit on [WBC, null value, 1.0]
+08-01-2017 14:42:34	node-02	alon	Run config_set_deafult with [ALT, U/L, 1, [], [], , ]
+08-01-2017 14:44:52	node-02	alon	Run config_set_deafult with [Urine_Dipstick_pH, NA, 1, [], [], , ]
+08-01-2017 14:45:08	node-02	alon	Run config_set_deafult with [Urine_Dipstick_pH, NA, 1, [u'null value'], [], , ]
+08-01-2017 14:46:01	node-02	alon	Run config_set_unit on [HDL_over_nonHDL, null value, 1.0]
+08-01-2017 14:46:11	node-02	alon	Run config_set_deafult with [HDL_over_nonHDL, ratio, 0.1, [u'mmol/L', u'%'], [], , ]
+08-01-2017 14:46:19	node-02	alon	Run config_set_unit on [HDL_over_nonHDL, NA, 1]
+08-01-2017 14:48:58	node-02	alon	Run config_set_unit on [Reticulocyte, null value, 1.0]
+08-01-2017 14:50:02	node-02	alon	Run config_set_unit on [Reticulocyte, null value, 1.0]
+08-01-2017 14:50:04	node-02	alon	Run config_set_deafult with [Reticulocyte, 10*9/L, 0.1, [u'pg', u'10*9', u'<None>', u'fL'], [], , ]
+08-01-2017 14:50:29	node-02	alon	Run config_set_deafult with [Reticulocyte, 10*9/L, 0.1, [u'pg', u'10*9', u'<None>', u'fL', u'%'], [], , ]
+08-01-2017 14:50:46	node-02	alon	Run config_set_deafult with [Reticulocyte, 10*9/L, 0.1, [u'pg', u'10*9', u'<None>', u'fL', u'%', u'NA'], [], , ]
+08-01-2017 14:55:28	node-02	alon	Run config_set_unit on [Urea, null value, 1.0]
+08-01-2017 14:55:56	node-02	alon	Run config_set_unit on [Urea, mol/L, 1.0]
+08-01-2017 16:07:32	node-02	alon	Run Commit with "120_minute_serum_TSH_level-442S.00_Thyroid_Stimulating_Hormone-1001400049" regex to "TBD" target. changed [544] line numbers
+08-01-2017 16:40:41	node-02	alon	Run config_set_deafult with [Amylase, U/L, 1, [], [], , ]
+08-01-2017 17:22:24	node-02	alon	Run Commit with "42U7\.00" regex to "NULL" target. changed [1331, 1920] line numbers
+08-01-2017 17:23:31	node-02	alon	Run Commit with "Red_blood_cell_folate-42U4.00_RBC_-_Folate-1001400028" regex to "TBD" target. changed [362] line numbers
+08-01-2017 17:24:31	node-02	alon	Run Commit with "42U8\.00" regex to "TBD" target. changed [1654] line numbers
+08-01-2017 17:25:01	node-02	alon	Run Commit with "42U4\.00.*1001400153" regex to "TBD" target. changed [2184] line numbers
+08-01-2017 17:25:45	node-02	alon	Run Commit with "42u9" regex to "NULL" target. changed [1803] line numbers
+08-01-2017 17:26:18	node-02	alon	Run Commit with "42ua" regex to "NULL" target. changed [4175] line numbers
+08-01-2017 17:27:04	node-02	alon	Run Commit with "42u4\.11" regex to "TBD" target. changed [132, 2555, 4664, 5448] line numbers
+08-01-2017 17:27:54	node-02	alon	Run Commit with "42u..11.*1001400153" regex to "TBD" target. changed [2163, 5448] line numbers
+08-01-2017 17:28:23	node-02	alon	Run Commit with "42ud" regex to "NULL" target. changed [2257, 3266] line numbers
+08-01-2017 17:29:07	node-02	alon	Run Commit with "42ub.00" regex to "NULL" target. changed [3236] line numbers
+08-01-2017 17:30:25	node-02	alon	Run Commit with "42u\.\.00.*1001400153" regex to "NULL" target. changed [4434] line numbers
+08-01-2017 17:30:55	node-02	alon	Run Commit with "42u4\.00" regex to "TBD" target. changed [362, 1392, 2184] line numbers
+08-01-2017 17:32:23	node-02	alon	Run Commit with "Serum_folate_low-42U2.00_Other_Laboratory_tests-1001400153" regex to "NULL" target. changed [5645] line numbers
+08-01-2017 17:32:53	node-02	alon	Run Commit with "Plasma_folate_level-42UE.00_Other_Laboratory_tests-1001400153" regex to "NULL" target. changed [4460] line numbers
+08-01-2017 17:39:05	node-02	alon	Run Commit with "42T4" regex to "TBD" target. changed [3032, 4661] line numbers
+08-01-2017 17:45:50	node-02	alon	Run Commit with "Urine_microalbumin-46W..00_Albumin_Creatinine_Ratio-1001400319" regex to "NULL" target. changed [5449] line numbers
+05-03-2017 13:25:11	node-02	alon	Run config_set_deafult with [CRP, mg/L, 1, [u'<None>', u'ug/L'], [], 0.1, ]
+05-03-2017 14:10:57	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, ]
+05-03-2017 14:13:24	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, 300]
+05-03-2017 14:14:40	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, 250]
+05-03-2017 14:15:40	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, ]
+05-03-2017 14:15:57	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, 250]
+05-03-2017 14:16:13	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, 200]
+05-03-2017 14:29:07	node-02	alon	Run config_set_deafult with [Fructosamine, NA, 1, [u'umol/d', u'mol/L', u'<None>', u'ng', u'umol/h/g(Hb)', u'nmol/L', u'%'], [u'100.0'], 1.0, 250]
+09-05-2017 17:32:31	node-03	alon	Run Commit with "^chad$" regex to "CHAD" target. changed [] line numbers
+10-05-2017 09:33:51	node-03	alon	Run config_set_deafult with [CHAD, AUTOMATIC, 1, [], [], , ]
+10-05-2017 09:35:33	node-03	alon	Run config_set_unit on [CHAD, POINTS, 1]
+10-05-2017 09:35:37	node-03	alon	Run config_set_unit on [CHAD, CHAD, 1]
+10-05-2017 09:35:53	node-03	alon	Run config_set_deafult with [CHAD, AUTOMATIC, 1, set(['', 'CHADS2-VASC', 'CHA2DSVASC', 'CARDIOLOGY', 'CHADS2VAS', 'CHADS2', '1.9', 'CHA2D-VASC', 'QRISK2', '2.8%', '2.8', 'MEDCALC', 'FORMULA', 'CHA2DS', 'CHAD2VASC', '%', 'CHADS2VASC', 'CALCULATED', 'CHADVASC2', 'CHA2DS2', '1', '0', '3', 'CHADSVACSC', '6', '9', '4%', 'CHA2DS2-VASC', '1.9%', '0-1', 'CHADVASC', 'PERCENT', 'CHADS', 'STROKE', 'CHADS-VASC', 'VIA', 'MANUAL', 'CHAD2SVASC', 'CHA2DS2VASC', 'CHADSVAS', '/6', 'CHADSVASC']), [], 1.0, ]
+10-05-2017 11:23:45	node-02	alon	Run Commit with "38DE" regex to "CHAD" target. changed [73, 7029] line numbers
+10-05-2017 11:32:51	node-02	alon	Run Commit with "38DE" regex to "CHAD" target. changed [73, 7029, 7030] line numbers
+10-05-2017 14:21:12	node-02	alon	Run Commit with "38DE\." regex to "CHADS2" target. changed [73, 7030] line numbers
+10-05-2017 14:22:24	node-02	alon	Run Commit with "38DE0" regex to "CHADS2_VASC" target. changed [7029] line numbers
+10-05-2017 14:51:40	node-02	alon	Run config_set_deafult with [CHADS2, AUTOMATIC, 1, [], [], , ]
+10-05-2017 14:52:58	node-02	alon	Run config_set_unit on [CHADS2, POINTS, 1]
+10-05-2017 14:53:07	node-02	alon	Run config_set_unit on [CHADS2, AUTOMATIC, 1]
+10-05-2017 14:53:30	node-02	alon	Run config_set_unit on [CHADS2, CHADS, 1]
+10-05-2017 14:53:45	node-02	alon	Run config_set_unit on [CHADS2, CHADS2, 1]
+10-05-2017 14:54:17	node-02	alon	Run config_set_deafult with [CHADS2_VASC, POINTS, 1, [], [], , ]
+10-05-2017 14:54:26	node-02	alon	Run config_set_unit on [CHADS2_VASC, CHADS2VASC, 1]
+10-05-2017 14:54:28	node-02	alon	Run config_set_unit on [CHADS2_VASC, CHADS2VASC, 1]
+10-05-2017 14:54:33	node-02	alon	Run config_set_unit on [CHADS2_VASC, CHA2DS2VASC, 1]
+10-05-2017 14:54:38	node-02	alon	Run config_set_unit on [CHADS2_VASC, AUTOMATIC, 1]
+10-05-2017 14:54:41	node-02	alon	Run config_set_unit on [CHADS2_VASC, POINTS, 1]

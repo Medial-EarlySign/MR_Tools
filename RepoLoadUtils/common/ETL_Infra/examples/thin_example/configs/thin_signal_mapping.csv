@@ -1,0 +1,1012 @@
+signal	source	code	description	type
+ALCOHOL	thinlabs	1003050000_data1	Alcohol_data1	numeric
+Abdominal_Xray	thinlabs	1001400252	Abdominal Xray	string
+Abdominal_ultra-sound	thinlabs	1001400108	Abdominal ultra-sound	string
+Allergy_and_Intolerance_non_drug_CERTAINTY	thinlabs	1032000001_data3	Allergy and Intolerance non drug_data3	string
+Allergy_and_Intolerance_non_drug_REACTION_TYPE	thinlabs	1032000001_data1	Allergy and Intolerance non drug_data1	string
+Allergy_and_Intolerance_non_drug_SEVERITY	thinlabs	1032000001_data2	Allergy and Intolerance non drug_data2	string
+Allergy_over_intolerance_CERTAINTY	thinlabs	1030000000_data4	Allergy/intolerance	string
+Allergy_over_intolerance_REACTION_TYPE	thinlabs	1030000000_data2	Allergy/intolerance_data2	string
+Allergy_over_intolerance_SEVERITY	thinlabs	1030000000_data3	Allergy/intolerance_data3	string
+Ambulatory_blood_pressure	thinlabs	1001400253	Ambulatory blood pressure	string
+Ankle_X-ray	thinlabs	1001400089	Ankle X-ray	string
+Ankle_neuropathy_PRESENCE_LEFT_JERK	thinlabs	1007300000_data2	Ankle neuropathy_data2	string
+Ankle_neuropathy_PRESENCE_LEFT_VIB	thinlabs	1007300000_data4	Ankle neuropathy	string
+Ankle_neuropathy_PRESENCE_RIGHT_JERK	thinlabs	1007300000_data1	Ankle neuropathy_data1	string
+Ankle_neuropathy_PRESENCE_RIGHT_VIB	thinlabs	1007300000_data3	Ankle neuropathy_data3	string
+Ante_natal_blood_tests	thinlabs	1001400306	Ante natal blood tests	string
+Ante_natel_fetal_examination_FETAL_HEART	thinlabs	1046100000_data2	Ante natel fetal examination_data2	string
+Ante_natel_fetal_examination_FETAL_MOVEMENT	thinlabs	1046100000_data3	Ante natel fetal examination_data3	string
+Ante_natel_fetal_examination_FETAL_PRESENTATION	thinlabs	1046100000_data4	Ante natel fetal examination	string
+Anti_Mitochondrial_antibodies	thinlabs	1001400142	Anti Mitochondrial antibodies	string
+Anti_Nuclear_antibodies	thinlabs	1001400143	Anti Nuclear antibodies	string
+Anti_smooth_muscle_autoantibodies	thinlabs	1001400226	Anti smooth muscle autoantibodies	string
+Asthma_Inhaler_ability	thinlabs	1009550000_data1	Asthma Inhaler ability_data1	string
+Asthma_last_attack_date_HOSPITALISED	thinlabs	1009510000_data3	Asthma last attack date_data3	string
+Asthma_last_attack_date_NEBULISED	thinlabs	1009510000_data2	Asthma last attack date_data2	string
+Asthma_last_attack_date_ORAL_STEROID	thinlabs	1009510000_data1	Asthma last attack date_data1	string
+Asthma_management_At_30_Best_Peak_Flow	thinlabs	1009600000_data1	Asthma management At 30% Best Peak Flow_data1	string
+Asthma_management_At_50_Best_Peak_Flow	thinlabs	1009610000_data1	Asthma management At 50% Best Peak Flow_data1	string
+Asthma_management_At_80_Best_Peak_Flow	thinlabs	1009620000_data1	Asthma management At 80% Best Peak Flow_data1	string
+Asthma_risk_factors	thinlabs	1020100000_data1	Asthma risk factors_data1	string
+Asthma_status	thinlabs	1009581000_data1	Asthma status_data1	string
+B12_and_Folate_level	thinlabs	1001400062_data4	B12 & Folate level	string
+BMI	thinlabs	1005010200_data3	Weight_data3	numeric
+BP	thinlabs	1005010500_data1	Blood pressure_data1	numeric
+BP	thinlabs	1005010500_data2	Blood pressure_data2	numeric
+Barium_enema	thinlabs	1001400063	Barium enema	string
+Barium_meal	thinlabs	1001400065	Barium meal	string
+Barium_swallow	thinlabs	1001400197	Barium swallow	string
+Biochemical_screening_tests	thinlabs	1001400315	Biochemical screening tests	string
+Blood_Group	thinlabs	1012000000_data1	Blood Group_data1	string
+Blood_gases	thinlabs	1001400186	Blood gases	string
+Blood_group_antibodies	thinlabs	1001400145	Blood group antibodies	string
+Blood_lipids	thinlabs	1001400069_data4	Blood lipids	string
+Bone_Density_Studies	thinlabs	1001400255	Bone Density Studies	string
+Bone_studies	thinlabs	1001400071_data4	Bone studies	string
+Bronchoscopy	thinlabs	1001400166	Bronchoscopy	string
+CAP_RAST	thinlabs	1001400154	CAP (RAST)	string
+CAT_scan	thinlabs	1001400172	CAT scan	string
+CHS_Behaviour	thinlabs	1054000000_data1	CHS - Behaviour_data1	string
+CHS_Gait	thinlabs	1051300000_data1	CHS - Gait_data1	string
+CHS_Head_Circumference_Centile	thinlabs	1059900000_data3	CHS - Head Circumference Centile_data3	string
+CHS_Hearing_6_Weeks	thinlabs	1055000000_data1	CHS - Hearing 6 Weeks_data1	string
+CHS_Hearing_Over_6_Weeks_LEFT_EAR	thinlabs	1055100000_data1	CHS - Hearing Over 6 Weeks_data1	string
+CHS_Hearing_Over_6_Weeks_RIGHT_EAR	thinlabs	1055100000_data2	CHS - Hearing Over 6 Weeks_data2	string
+CHS_Hernia_LEFT	thinlabs	1057000000_data1	CHS - Hernia_data1	string
+CHS_Hernia_RIGHT	thinlabs	1057000000_data2	CHS - Hernia_data2	string
+CHS_Hernia_UMBILICAL	thinlabs	1057000000_data3	CHS - Hernia_data3	string
+CHS_Hips_LEFT	thinlabs	1057100000_data1	CHS - Hips_data1	string
+CHS_Hips_RIGHT	thinlabs	1057100000_data2	CHS - Hips_data2	string
+CHS_Hospital_Follow_Up	thinlabs	1052000000_data1	CHS - Hospital Follow Up_data1	string
+CHS_Locomotion_18_Months	thinlabs	1051100000_data1	CHS - Locomotion 18 Months_data1	string
+CHS_Manipulation	thinlabs	1061000000_data1	CHS - Manipulation_data1	string
+CHS_Muscle_tone_for_6_weeks_HEADCONTROL	thinlabs	1051200000_data2	CHS - Muscle tone for 6 weeks_data2	string
+CHS_Muscle_tone_for_6_weeks_MUSCLE	thinlabs	1051200000_data1	CHS - Muscle tone for 6 weeks_data1	string
+CHS_Muscle_tone_for_8_months_LOCOMOTION	thinlabs	1051250000_data2	CHS - Muscle tone for 8 months_data2	string
+CHS_Muscle_tone_for_8_months_SITTING	thinlabs	1051250000_data1	CHS - Muscle tone for 8 months_data1	string
+CHS_Schooling	thinlabs	1058000000_data1	CHS - Schooling_data1	string
+CHS_Sleep_Pattern	thinlabs	1063000000_data1	CHS - Sleep Pattern_data1	string
+CHS_Sphincters_CLEAN_DAY	thinlabs	1009400000_data3	CHS - Sphincters_data3	string
+CHS_Sphincters_CLEAN_NIGHT	thinlabs	1009400000_data4	CHS - Sphincters	string
+CHS_Sphincters_DRY_DAY	thinlabs	1009400000_data1	CHS - Sphincters_data1	string
+CHS_Sphincters_DRY_NIGHT	thinlabs	1009400000_data2	CHS - Sphincters_data2	string
+CHS_Squint_LEFT	thinlabs	1056400000_data1	CHS - Squint_data1	string
+CHS_Squint_RIGHT	thinlabs	1056400000_data2	CHS - Squint_data2	string
+CHS_Vision_3_Years_And_4_Years_LEFT	thinlabs	1056200000_data1	CHS - Vision 3 Years And 4 Years_data1	string
+CHS_Vision_3_Years_And_4_Years_RIGHT	thinlabs	1056200000_data2	CHS - Vision 3 Years And 4 Years_data2	string
+CHS_Vision_6_Weeks_FIX	thinlabs	1056000000_data1	CHS - Vision 6 Weeks_data1	string
+CHS_Vision_6_Weeks_FOLLOWS	thinlabs	1056000000_data4	CHS - Vision 6 Weeks	string
+CHS_Vision_6_Weeks_LEFT_RED_REFLEX	thinlabs	1056000000_data2	CHS - Vision 6 Weeks_data2	string
+CHS_Vision_6_Weeks_RIGHT_RED_REFLEX	thinlabs	1056000000_data3	CHS - Vision 6 Weeks_data3	string
+CHS_Vision_8_Months_And_18_Months_LEFT	thinlabs	1056100000_data1	CHS - Vision 8 Months And 18 Months_data1	string
+CHS_Vision_8_Months_And_18_Months_RIGHT	thinlabs	1056100000_data2	CHS - Vision 8 Months And 18 Months_data2	string
+CHS_cardio_examination_HEART_SOUND	thinlabs	1019500000_data1	CHS - cardio examination_data1	string
+CHS_cardio_examination_LEFT	thinlabs	1019500000_data2	CHS - cardio examination_data2	string
+CHS_cardio_examination_RIGHT	thinlabs	1019500000_data3	CHS - cardio examination_data3	string
+CHS_child_feeding	thinlabs	1050200000_data1	CHS - child feeding_data1	string
+CHS_delivery_details_MODE	thinlabs	1055500000_data1	CHS - delivery details_data1	string
+CHS_delivery_details_PRESENTATION	thinlabs	1055500000_data2	CHS - delivery details_data2	string
+CHS_genitalia	thinlabs	1081000000_data1	CHS - genitalia_data1	string
+CHS_mother_and_baby_FEEDING	thinlabs	1050100000_data1	CHS - mother and baby_data1	string
+CHS_mother_and_baby_MUM_HEALTH	thinlabs	1050100000_data3	CHS - mother and baby_data3	string
+CHS_mother_and_baby_SLEEP	thinlabs	1050100000_data2	CHS - mother and baby_data2	string
+CVD_risk	thinlabs	1020200000_data1	CVD risk_data1	string
+Calculus_examination	thinlabs	1001400205	Calculus examination	string
+Cause_of_death	thinlabs	1016500000_data1	Cause of death_data1	string
+Cerebro-spinal_fluid_examination	thinlabs	1001400192	Cerebro-spinal fluid examination	string
+Cervical	thinlabs	1008050000_data6	Cervical_data6	string
+Cervical_swab	thinlabs	1001400118	Cervical swab	string
+Chemical_function_tests	thinlabs	1001400188	Chemical function tests	string
+Chest_X-ray	thinlabs	1001400091	Chest X-ray	string
+Child_development	thinlabs	1050000000_data2	Child development_data2	string
+Chlamydia	thinlabs	1001400073	Chlamydia	string
+Clotting_tests	thinlabs	1001400076	Clotting tests	string
+Colonoscopy	thinlabs	1001400169	Colonoscopy	string
+Coronary_angiogram	thinlabs	1001400179	Coronary angiogram	string
+DNA_binding_autoantibodies	thinlabs	1001400230	DNA binding autoantibodies	string
+Dexa_scan_over_Bone_mineral_density	thinlabs	1001400325	Dexa scan/Bone mineral density	string
+Diabetes_annual_check_CHECK_TYPE	thinlabs	1009100000_data2	Diabetes annual check_data2	string
+Diabetes_annual_check_PROGTYPE	thinlabs	1009100000_data1	Diabetes annual check_data1	string
+Diabetes_current_status	thinlabs	1009111000_data1	Diabetes current status_data1	string
+Diet	thinlabs	1064200000_data2	Diet_data2	string
+Differential_white_cell_count	thinlabs	1001400178	Differential white cell count	string
+Doppler_Ultrasound_Peripheral_Pulse	thinlabs	1001400254	Doppler Ultrasound Peripheral Pulse	string
+Drug_levels	thinlabs	1001400077	Drug levels	string
+ECG_ambulatory	thinlabs	1001400193	ECG ambulatory	string
+ECG_exercise	thinlabs	1001400191	ECG exercise	string
+Ear_Swab	thinlabs	1001400320	Ear Swab	string
+Echocardiogram	thinlabs	1001400256	Echocardiogram	string
+Elbow_X-ray	thinlabs	1001400093	Elbow X-ray	string
+Elderly_hearing_Over_75	thinlabs	1055200000_data1	Elderly hearing Over 75_data1	string
+Elderly_hygiene_EXAMINATION_TYPE_HOME	thinlabs	1070000000_data1	Elderly hygiene_data1	string
+Elderly_hygiene_EXAMINATION_TYPE_PERSONAL	thinlabs	1070000000_data2	Elderly hygiene_data2	string
+Elderly_mental_cognitive	thinlabs	1062000000_data1	Elderly mental cognitive_data1	string
+Elderly_mental_emotional_state	thinlabs	1070300000_data1	Elderly mental emotional state_data1	string
+Elderly_physical_health_exam	thinlabs	1070100000_data1	Elderly physical health exam_data1	string
+Elderly_vision	thinlabs	1056390000_data1	Elderly vision_data1	string
+Elderly_vision_VISUAL_AIDS	thinlabs	1056390000_data2	Elderly vision_data2	string
+Electrocardiogram	thinlabs	1001400078	Electrocardiogram	string
+Electroencephalography	thinlabs	1001400298	Electroencephalography	string
+Endoscopy	thinlabs	1001400079_data4	Endoscopy	string
+Epilepsy_Fit_details_ASLEEP_AWAKE	thinlabs	1009200000_data2	Epilepsy - Fit details_data2	string
+Epilepsy_Fit_details_AURA	thinlabs	1009200000_data3	Epilepsy - Fit details_data3	string
+Examination_of_Faeces	thinlabs	1001400190	Examination of Faeces	string
+Exercise	thinlabs	1064000000_data1	Exercise_data1	string
+Eye_swab	thinlabs	1001400116	Eye swab	string
+FECAL_TEST	thinlabs	1001400080	Faecal Occult Blood	string
+Female_sex_hormone_profile	thinlabs	1001400098	Female sex hormone profile	string
+Film_report	thinlabs	1001400155	Film report	string
+Foot_X-ray	thinlabs	1001400097	Foot X-ray	string
+Foot_pulse_left_leg_PRESENCE_DORSALIS_PEDIS	thinlabs	1009750000_data1	Foot pulse left leg_data1	string
+Foot_pulse_left_leg_PRESENCE_POSTERIA_TIBIA	thinlabs	1009750000_data2	Foot pulse left leg_data2	string
+Foot_pulse_right_leg_PRESENCE_DORSALIS_PEDIS	thinlabs	1009700000_data1	Foot pulse right leg_data1	string
+Foot_pulse_right_leg_PRESENCE_POSTERIA_TIBIA	thinlabs	1009700000_data2	Foot pulse right leg_data2	string
+Full_blood_count	thinlabs	1001400081	Full blood count	string
+Fundoscopy	thinlabs	1001400147_data1	Fundoscopy_data1	string
+General_ultra_sound_scan	thinlabs	1001400241	General ultra sound scan	string
+Genetic_observations	thinlabs	1001400316	Genetic observations	string
+Glandular_Fever_Test	thinlabs	1001400083	Glandular Fever Test	string
+Glucose_Tolerance_test	thinlabs	1001400084	Glucose Tolerance test	string
+Gonadotrophin	thinlabs	1001400234	Gonadotrophin	string
+Guthrie_test	thinlabs	1001400150	Guthrie test	string
+HIV_Test	thinlabs	1001400220	HIV Test	string
+HLA_Tissue_Typing	thinlabs	1001400300	HLA Tissue Typing	string
+Haematology_screening_tests	thinlabs	1001400317	Haematology screening tests	string
+Haemoglobin_variants	thinlabs	1001400214	Haemoglobin variants	string
+Hand_X-ray	thinlabs	1001400099	Hand X-ray	string
+Heart_examination_RHYTHMN	thinlabs	1019000000_data1	Heart examination_data1	string
+Heart_examination_SIZE	thinlabs	1019000000_data2	Heart examination_data2	string
+Heart_examination_SOUNDS	thinlabs	1019000000_data3	Heart examination_data3	string
+Height	thinlabs	1005010100_data1	Height_data1	numeric
+Hepatitis_A_Test	thinlabs	1001400282	Hepatitis A Test	string
+Hepatitis_B_Antibody	thinlabs	1001400330	Hepatitis B Antibody	string
+High_vaginal_swab	thinlabs	1001400120	High vaginal swab	string
+Hip_X-ray	thinlabs	1001400101	Hip X-ray	string
+Histology	thinlabs	1001400237	Histology	string
+Immuno-electrophoresis	thinlabs	1001400233	Immuno-electrophoresis	string
+Immunoglobulin	thinlabs	1001400156	Immunoglobulin	string
+Immunology_screening_tests	thinlabs	1001400318	Immunology screening tests	string
+Infectious_titres	thinlabs	1001400225	Infectious titres	string
+Intravenous_Pyelogram	thinlabs	1001400074	Intravenous Pyelogram	string
+Iron_studies	thinlabs	1001400085	Iron studies	string
+Knee_X-ray	thinlabs	1001400105	Knee X-ray	string
+Lipoprotein_electrophesis	thinlabs	1001400182	Lipoprotein electrophesis	string
+Liver_Function_tests	thinlabs	1001400075	Liver Function tests	string
+Liver_enzymes	thinlabs	1001400235	Liver enzymes	string
+Lower_arm_X-ray	thinlabs	1001400111	Lower arm X-ray	string
+Lower_leg_X-ray	thinlabs	1001400123	Lower leg X-ray	string
+MRI_scan	thinlabs	1001400164	MRI scan	string
+Male_sex_hormone_profile	thinlabs	1001400100	Male sex hormone profile	string
+Mammogram	thinlabs	1001400086	Mammogram	string
+Maternity_feeding	thinlabs	1050300000_data1	Maternity feeding_data1	string
+Maternity_perineum_EPISIOTOMY	thinlabs	1055400000_data1	Maternity perineum_data1	string
+Maternity_perineum_SUTURE_REMOVE	thinlabs	1055400000_data3	Maternity perineum_data3	string
+Maternity_pregnancy_LMP_certency	thinlabs	1048000000_data1	Maternity pregnancy dates - event date = LMP date_data1	string
+Maternity_pregnancy_LMP_EDD	thinlabs	1048000000_data2	Maternity pregnancy dates - event date = LMP date_data2	numeric
+Microscopy_culture_and_sensitivities	thinlabs	1001400299	Microscopy  culture & sensitivities	string
+Microscopy_for_malarial_parasites	thinlabs	1001400279	Microscopy for malarial parasites	string
+Mid-stream_specimen_of_urine	thinlabs	1001400088	Mid-stream specimen of urine	string
+Nail_clippings	thinlabs	1001400090	Nail clippings	string
+Neck_X-ray	thinlabs	1001400107	Neck X-ray	string
+Nerve_Conduction_Studies	thinlabs	1001400257	Nerve Conduction Studies	string
+Night_cough	thinlabs	1009560000_data1	Night cough_data1	string
+Nose_swab	thinlabs	1001400122	Nose swab	string
+Nuclear_medicine	thinlabs	1001400171	Nuclear medicine	string
+Oesophagoscopy	thinlabs	1001400167	Oesophagoscopy	string
+Other_Bacteriology_Tests	thinlabs	1001400289	Other Bacteriology Tests	string
+Other_Diagnostic_Imaging	thinlabs	1001400087	Other Diagnostic Imaging	string
+Other_Immunology_Tests	thinlabs	1001400280	Other Immunology Tests	string
+Other_autoantibodies	thinlabs	1001400278	Other autoantibodies	string
+Other_drug_levels	thinlabs	1001400157	Other drug levels	string
+Other_swab	thinlabs	1001400124	Other swab	string
+PULSE	thinlabs	1009300000_data1	Pulse_data1	numeric
+Parietal_cell_autoantibodies	thinlabs	1001400227	Parietal cell autoantibodies	string
+Passive_smoking	thinlabs	1003040003_data1	Passive smoking_data1	string
+Pelvic_ultra-sound	thinlabs	1001400110	Pelvic ultra-sound	string
+Pelvis_X-ray	thinlabs	1001400109	Pelvis X-ray	string
+Peripheral_oedema	thinlabs	1007200000_data1	Peripheral oedema_data1	string
+Peripheral_oedema_LATERALITY	thinlabs	1007200000_data3	Peripheral oedema_data3	string
+Peripheral_oedema_SITE_IN_LEG	thinlabs	1007200000_data2	Peripheral oedema_data2	string
+Plasma_electrophoresis	thinlabs	1001400158	Plasma electrophoresis	string
+Postural_drop_in_Blood_Pressure	thinlabs	1001400259	Postural drop in Blood Pressure	string
+Pregnancy_test	thinlabs	1001400092	Pregnancy test	string
+Pulmonary_function_tests	thinlabs	1001400195	Pulmonary function tests	string
+Pulse_oximetry	thinlabs	1001400328	Pulse oximetry	string
+RBC_colour_over_staining	thinlabs	1001400221	RBC colour/staining	string
+RBC_red_blood_cell_size	thinlabs	1001400217	RBC red blood cell size	string
+Residence_LIVE_ALONE	thinlabs	1091000000_data2	Residence_data2	string
+Residence_RESIDENCE_TYPE	thinlabs	1091000000_data1	Residence_data1	string
+Ribs_X-ray	thinlabs	1001400113	Ribs X-ray	string
+Rubella_Test	thinlabs	1001400134	Rubella Test	string
+SH-antigen_hepatitis_B_test	thinlabs	1001400218	SH-antigen (hepatitis B) test	string
+SMOKING	thinlabs	1003040000_data1	Smoking_data1	numeric
+STOPPED_SMOKING	thinlabs	1003040000_data6	Smoking_data6	numeric
+Seminal_analysis	thinlabs	1001400094	Seminal analysis	string
+Serology	thinlabs	1001400096	Serology	string
+Shoulder_X-ray	thinlabs	1001400115	Shoulder X-ray	string
+Sickle_cell_disease_screen	thinlabs	1001400296	Sickle cell disease screen	string
+Sigmoidoscopy	thinlabs	1001400170	Sigmoidoscopy	string
+Sinus_X-ray	thinlabs	1001400117	Sinus X-ray	string
+Skin_Prick_Testing	thinlabs	1001400258	Skin Prick Testing	string
+Skin_swab	thinlabs	1001400127	Skin swab	string
+Skull_X-ray	thinlabs	1001400119	Skull X-ray	string
+Spine_X-ray	thinlabs	1001400121	Spine X-ray	string
+Spirometry	thinlabs	1001400308	Spirometry	string
+Sputum_culture	thinlabs	1001400102	Sputum culture	string
+Sputum_examination	thinlabs	1001400201	Sputum examination	string
+Stool_culture	thinlabs	1001400104	Stool culture	string
+Syphilis_test	thinlabs	1001400146	Syphilis test	string
+Tactile_sensation	thinlabs	1007000000_data1	Tactile sensation_data1	string
+Throat_swab	thinlabs	1001400128	Throat swab	string
+Thyroid_function	thinlabs	1001400106	Thyroid function	string
+Toxicology	thinlabs	1001400148	Toxicology	string
+Treatment_compliance	thinlabs	1066200000_data1	Treatment compliance_data1	string
+Tubercullin_Test	thinlabs	1001400135	Tubercullin Test	string
+Upper_arm_X-ray	thinlabs	1001400103	Upper arm X-ray	string
+Upper_leg_X-ray	thinlabs	1001400095	Upper leg X-ray	string
+Urea_and_Electrolytes	thinlabs	1001400112	Urea and Electrolytes	string
+Urinalysis_Glucose	thinlabs	1001400151	Urinalysis - Glucose	string
+Urinalysis_Protein	thinlabs	1001400152	Urinalysis - Protein	string
+Urine_Cytology_Test	thinlabs	1001400283	Urine Cytology Test	string
+Urine_Dipstick_for_Nitrites	thinlabs	1001400302	Urine Dipstick for Nitrites	string
+Urine_Leucocytes	thinlabs	1001400304	Urine Leucocytes	string
+Urine_dipstick_for_blood	thinlabs	1001400309	Urine dipstick for blood	string
+Urine_dipstick_for_glucose	thinlabs	1001400303	Urine dipstick for glucose	string
+Urine_dipstick_for_ketones	thinlabs	1001400307	Urine dipstick for ketones	string
+Urine_dipstick_for_protein	thinlabs	1001400305	Urine dipstick for protein	string
+Urine_test	thinlabs	1001400114	Urine test	string
+Vaginal_swab	thinlabs	1001400130	Vaginal swab	string
+Viral_studies	thinlabs	1001400149	Viral studies	string
+Visual_Acuity_Left_Eye_VISUAL_ACUITY	thinlabs	1056350000_data1	Visual Acuity Left Eye_data1	string
+Visual_Acuity_Left_Eye_VISUAL_AIDS	thinlabs	1056350000_data2	Visual Acuity Left Eye_data2	string
+Visual_Acuity_Right_Eye_VISUAL_ACUITY	thinlabs	1056300000_data1	Visual Acuity Right Eye_data1	string
+Visual_Acuity_Right_Eye_VISUAL_AIDS	thinlabs	1056300000_data2	Visual Acuity Right Eye_data2	string
+Weight	thinlabs	1005010200_data1	Weight_data1	numeric
+Wound_swab	thinlabs	1001400131	Wound swab	string
+Wrist_X-ray	thinlabs	1001400125	Wrist X-ray	string
+ALKP	thinlabs	44F3.00	Total alkaline phosphatase	numeric
+ALKP	thinlabs	44FD.00	Serum alkaline phosphatase liver isoenzyme level	numeric
+ALKP	thinlabs	44FZ.00	Serum alkaline phosphatase NOS	numeric
+ALKP	thinlabs	44F..00	Serum alkaline phosphatase	numeric
+ALKP	thinlabs	44F1.00	Serum alk. phos. normal	numeric
+ALKP	thinlabs	44CU.00	Plasma alkaline phosphatase level	numeric
+ALT	thinlabs	44G..11	ALT - blood level	numeric
+ALT	thinlabs	44G3100	ALT/SGPT level abnormal	numeric
+ALT	thinlabs	44GB.00	Serum alanine aminotransferase level	numeric
+ALT	thinlabs	44GA.00	Plasma alanine aminotransferase level	numeric
+ALT	thinlabs	44G..00	Liver enzymes	numeric
+ALT	thinlabs	44G3000	ALT/SGPT level normal	numeric
+ALT	thinlabs	44G3.00	ALT/SGPT serum level	numeric
+AST	thinlabs	44H5.11	AST serum level	numeric
+AST	thinlabs	44H5000	AST/SGOT level normal	numeric
+AST	thinlabs	44H5.00	AST - aspartate transam.(SGOT)	numeric
+AST	thinlabs	44HC.00	Plasma aspartate transaminase level	numeric
+AST	thinlabs	44H5200	AST/SGOT level raised	numeric
+AST	thinlabs	44H5100	AST/SGOT level abnormal	numeric
+AST	thinlabs	44HB.00	AST serum level	numeric
+Albumin_over_Creatinine	thinlabs	44J7.00	Albumin / creatinine ratio	numeric
+Albumin	thinlabs	44MI.00	Plasma albumin level	numeric
+Albumin	thinlabs	44M4100	Serum albumin low	numeric
+Albumin	thinlabs	44M4000	Serum albumin normal	numeric
+Albumin	thinlabs	44M4.00	Serum albumin	numeric
+Alcohol_quantity	thinlabs	1001400287_data1	Scoring test result_NUM_RESULT	numeric
+Alcohol_quantity	thinlabs	1001400287_data2	Scoring test result_READ_CODE	numeric
+Alcohol_quantity	thinlabs	1003050000_data1	Alcohol_DRINKER	numeric
+Alcohol_quantity	thinlabs	1003050000_data2	Alcohol_UNITS(WEEK)	numeric
+Alcohol_quantity	thinlabs	1064100000_data1	Advice given_ADVICE_GIVEN	numeric
+Alcohol_quantity	thinlabs	1064100000_data2	Advice given_ADVICE_TYPE	numeric
+Amylase	thinlabs	44C4100	Serum amylase (pancreatic) abnormal	numeric
+Amylase	thinlabs	44CT.00	Plasma amylase level	numeric
+Amylase	thinlabs	44CN.00	Serum amylase level	numeric
+Amylase	thinlabs	44C4.00	Serum amylase (pancreatic)	numeric
+Amylase	thinlabs	44C4000	Serum amylase (pancreatic) normal	numeric
+B12	thinlabs	42TZ.00	Serum vitamin B12 NOS	numeric
+B12	thinlabs	42T1.00	Serum vitamin B12 normal	numeric
+B12	thinlabs	42T3.00	Serum vit B12 borderline	numeric
+B12	thinlabs	44Le.00	Plasma vitamin B12 level	numeric
+B12	thinlabs	42T2.00	Serum vitamin B12 low	numeric
+B12	thinlabs	42T..00	Serum vitamin B12	numeric
+B12	thinlabs	44Lc.00	Vitamin B12 level	numeric
+Basophils#	thinlabs	42L3.00	Basophil count abnormal	numeric
+Basophils#	thinlabs	42L1.00	Basophil count normal	numeric
+Basophils#	thinlabs	42L2.00	Basophilia	numeric
+Basophils#	thinlabs	42L..00	Basophil count	numeric
+Basophils#	thinlabs	42LZ.00	Basophil count NOS	numeric
+Basophils%	thinlabs	42b3.00	Percentage basophils	numeric
+Bicarbonate	thinlabs	44I7000	Serum bicarbonate level normal	numeric
+Bicarbonate	thinlabs	44I7.00	Serum bicarbonate	numeric
+Bicarbonate	thinlabs	44h3.00	Blood bicarbonate level	numeric
+Bicarbonate	thinlabs	44i0.00	Plasma bicarbonate level	numeric
+Bicarbonate	thinlabs	44I7100	Serum bicarbonate level abnormal	numeric
+Bilirubin	thinlabs	44E1.00	Serum bilirubin normal	numeric
+Bilirubin	thinlabs	44E..00	Serum bilirubin level	numeric
+Bilirubin	thinlabs	44E2.00	Serum bilirubin raised	numeric
+Bilirubin	thinlabs	44E7.00	Serum conjugated:total bilirubin ratio	numeric
+Bilirubin	thinlabs	44E6.00	Serum bilirubin borderline	numeric
+Bilirubin	thinlabs	44E8.00	Plasma conjugated bilirubin level	numeric
+Bilirubin	thinlabs	44EB.00	Serum conjugated bilirubin level	numeric
+Bilirubin	thinlabs	44E3.00	Total bilirubin	numeric
+Bilirubin	thinlabs	44EC.00	Serum total bilirubin level	numeric
+Bilirubin	thinlabs	44E9.00	Plasma total bilirubin level	numeric
+Bilirubin	thinlabs	44EZ.00	Serum bilirubin NOS	numeric
+C3	thinlabs	43I1.00	Complement -third component-C3	numeric
+C4	thinlabs	43I2.00	Complement-fourth component-C4	numeric
+CA125	thinlabs	44a6000	Serum CA 125 (cancer antigen 125) level	numeric
+CA125	thinlabs	44a1.00	Carbohydrate antigen 125 level	numeric
+CA125	thinlabs	44a0.00	Carcinoembryonic antigen level	numeric
+CA125	thinlabs	44a6.00	CA125 level	numeric
+CA153	thinlabs	44a2.00	CA153 level	numeric
+CA199	thinlabs	44a3.00	CA199 level	numeric
+CEA	thinlabs	44a0.11	CEA - Carcinoembryonic antigen level	numeric
+CHADS2	thinlabs	38DE.11	CHADS2 risk score	numeric
+CHADS2	thinlabs	38DE.00	Cong heart fail  hypertens  age  diab  stroke 2 risk score	numeric
+CHADS2_VASC	thinlabs	38DE000	CHA2DS2 - vascular disease  age  sex category score	numeric
+CK	thinlabs	44H4.00	CK - creatine kinase level	numeric
+CK	thinlabs	44HE.00	Plasma creatine kinase level	numeric
+CK	thinlabs	44HG.00	Serum creatine kinase level	numeric
+CK	thinlabs	44H4.11	Creatine phosphokinase level	numeric
+CO2	thinlabs	44hA.00	Blood total carbon dioxide (calculated)	numeric
+CRP	thinlabs	44CC000	C reactive protein normal	numeric
+CRP	thinlabs	44CS.00	Serum C reactive protein level	numeric
+CRP	thinlabs	44CC.00	Plasma C reactive protein	numeric
+CRP	thinlabs	44CC100	C reactive protein abnormal	numeric
+Ca	thinlabs	44h4.00	Blood calcium level	numeric
+Ca	thinlabs	44I8.00	Serum calcium	numeric
+Ca	thinlabs	44I8100	Raised serum calcium level	numeric
+Ca	thinlabs	44h7.00	Plasma calcium level	numeric
+Ca	thinlabs	44I8000	Normal serum calcium level	numeric
+Ca	thinlabs	4Q72.00	Calcium level	numeric
+Cholesterol	thinlabs	44P..00	Serum cholesterol	numeric
+Cholesterol	thinlabs	44PK.00	Serum fasting total cholesterol	numeric
+Cholesterol	thinlabs	44PJ.00	Serum total cholesterol level	numeric
+Cholesterol	thinlabs	44OE.00	Plasma total cholesterol level	numeric
+Cholesterol	thinlabs	44PZ.00	Serum cholesterol NOS	numeric
+Cholesterol	thinlabs	44P2.00	Serum cholesterol borderline	numeric
+Cholesterol	thinlabs	44P3.00	Serum cholesterol raised	numeric
+Cholesterol	thinlabs	44P1.00	Serum cholesterol normal	numeric
+Cholesterol	thinlabs	44P4.00	Serum cholesterol very high	numeric
+Cholesterol	thinlabs	44PH.00	Total cholesterol measurement	numeric
+HDL_over_Cholesterol	thinlabs	44PF.00	Total cholesterol:HDL ratio	numeric
+Cholesterol_over_HDL	thinlabs	44lG.00	Plasma cholesterol/HDL ratio	numeric
+Cholesterol_over_HDL	thinlabs	44PG.00	HDL : total cholesterol ratio	numeric
+Cholesterol_over_HDL	thinlabs	44lF.00	Serum cholesterol/HDL ratio	numeric
+Cholesterol_over_HDL	thinlabs	44l2.00	Cholesterol/HDL ratio	numeric
+Cl	thinlabs	44I6000	Serum chloride level normal	numeric
+Cl	thinlabs	44I6.00	Serum chloride	numeric
+Cl	thinlabs	44I6100	Serum chloride level abnormal	numeric
+Cl	thinlabs	44h2.00	Blood chloride level	numeric
+Cl	thinlabs	44i1.00	Plasma chloride level	numeric
+CorrectedCa	thinlabs	44IC000	Serum adjusted calcium concentration	numeric
+CorrectedCa	thinlabs	44h9.00	Plasma corrected calcium level	numeric
+CorrectedCa	thinlabs	4Q72100	Calcium adjusted level	numeric
+CorrectedCa	thinlabs	44IC.00	Corrected serum calcium level	numeric
+CorrectedCa	thinlabs	44IC.11	Adjusted serum calcium level	numeric
+CorrectedCa	thinlabs	44h9000	Plasma adjusted calcium concentration	numeric
+Cortisol	thinlabs	4482.00	Serum cortisol	numeric
+Creatinine	thinlabs	44J3200	Serum creatinine normal	numeric
+Creatinine	thinlabs	44JF.00	Plasma creatinine level	numeric
+Creatinine	thinlabs	44J3300	Serum creatinine raised	numeric
+Creatinine	thinlabs	44J3.00	Serum creatinine	numeric
+Creatinine	thinlabs	44J3z00	Serum creatinine NOS	numeric
+Creatinine	thinlabs	44J3100	Serum creatinine low	numeric
+Creatinine	thinlabs	44J3000	Serum creatinine abnormal	numeric
+Digoxin	thinlabs	44W9000	Digoxin level therapeutic	numeric
+Digoxin	thinlabs	44W9.11	Digoxin: blood level	numeric
+Digoxin	thinlabs	44W9100	Digoxin level low	numeric
+Digoxin	thinlabs	44W9.00	Serum digoxin level	numeric
+Digoxin	thinlabs	44W9200	Digoxin level high	numeric
+Eosinophils#	thinlabs	42K1.00	Eosinophil count normal	numeric
+Eosinophils#	thinlabs	42KZ.00	Eosinophil count NOS	numeric
+Eosinophils#	thinlabs	42K..00	Eosinophil count	numeric
+Eosinophils#	thinlabs	42K3.00	Eosinophil count raised	numeric
+Eosinophils#	thinlabs	42K2.00	Eosinopenia	numeric
+Eosinophils%	thinlabs	42b9.00	Percentage eosinophils	numeric
+Erythrocyte	thinlabs	42B6.00	Erythrocyte sedimentation rate	numeric
+Erythrocyte	thinlabs	42B6200	ESR normal	numeric
+Erythrocyte	thinlabs	42B6100	ESR low	numeric
+Erythrocyte	thinlabs	42B6000	ESR abnormal	numeric
+Erythrocyte	thinlabs	42B6z00	Erythrocyte sediment rate NOS	numeric
+Erythrocyte	thinlabs	42B6300	ESR raised	numeric
+FSH	thinlabs	4434100	FSH level abnormal	numeric
+FSH	thinlabs	443i.00	Plasma FSH level	numeric
+FSH	thinlabs	4434.00	Follicle stim. hormone - F.S.H	numeric
+FSH	thinlabs	4434000	FSH level normal	numeric
+FSH	thinlabs	443h.00	Serum FSH level	numeric
+FSH	thinlabs	4434.11	FSH level	numeric
+Ferritin	thinlabs	42R4300	Serum ferritin high	numeric
+Ferritin	thinlabs	42R4100	Ferritin level low	numeric
+Ferritin	thinlabs	42R4.00	Serum ferritin	numeric
+Ferritin	thinlabs	42d4.00	Plasma ferritin level	numeric
+Ferritin	thinlabs	42R4200	Serum ferritin normal	numeric
+Ferritin	thinlabs	42R4.11	Ferritin - serum	numeric
+Fev1	thinlabs	339O.00	Forced expired volume in 1 second	numeric
+Fev1_over_Fvc	thinlabs	339M.00	FEV1/FVC ratio	numeric
+Fev1_over_Fvc	thinlabs	339R.00	FEV1/FVC percent	numeric
+Fibrinogen	thinlabs	42Q9.00	Fibrinogen assay/titre	numeric
+Fibrinogen	thinlabs	42Qn.00	Fibrinogen level	numeric
+Follic_Acid	thinlabs	42U1.00	Serum folate normal	numeric
+Follic_Acid	thinlabs	42UZ.00	Blood folate NOS	numeric
+Follic_Acid	thinlabs	42U5.00	Serum folate	numeric
+Follic_Acid	thinlabs	42U..00	Blood folate	numeric
+Follic_Acid	thinlabs	42U6.00	Whole blood folate	numeric
+Follic_Acid	thinlabs	42U..11	Folate blood level	numeric
+Follic_Acid	thinlabs	42U3.00	Serum folate borderline	numeric
+Follic_Acid	thinlabs	42U2.00	Serum folate low	numeric
+Follic_Acid	thinlabs	42UE.00	Plasma folate level	numeric
+FreeT3	thinlabs	442U.00	Serum free triiodothyronine level	numeric
+FreeT3	thinlabs	4425.00	Free T3 level	numeric
+FreeT4	thinlabs	442c.00	Plasma free T4 level	numeric
+FreeT4	thinlabs	442V.00	Serum free T4 level	numeric
+FreeT4	thinlabs	4427.00	Free T4 level	numeric
+Fructosamine	thinlabs	44Z1.00	Serum fructosamine	numeric
+Fvc	thinlabs	3396.00	Forced vital capacity - FVC	numeric
+GGT	thinlabs	44G4.00	Gamma - G.T. level	numeric
+GGT	thinlabs	44G4100	Gamma glutamyl transferase level abnormal	numeric
+GGT	thinlabs	44G4000	Gamma glutamyl transferase level normal	numeric
+GGT	thinlabs	44G9.00	Serum gamma-glutamyl transferase level	numeric
+GGT	thinlabs	44G7.00	Plasma gamma-glutamyl transferase level	numeric
+Globulin	thinlabs	44M5100	Serum gammaglobulin raised	numeric
+Globulin	thinlabs	44M5.00	Serum globulin	numeric
+Globulin	thinlabs	44MP000	Plasma retinol binding protein level	numeric
+Globulin	thinlabs	44M5000	Serum gammaglobulin normal	numeric
+Globulin	thinlabs	44MP.00	Plasma globulin level	numeric
+Glucose	thinlabs	44U8.00	Blood glucose normal	numeric
+Glucose	thinlabs	44U9.00	Blood glucose abnormal	numeric
+Glucose	thinlabs	44U1.00	Blood glucose 0-1.4 mmol/L	numeric
+Glucose	thinlabs	44T5.00	Laboratory blood sugar	numeric
+Glucose	thinlabs	44TJ.00	Blood glucose level	numeric
+Glucose	thinlabs	44U5.00	Blood glucose 7-9.9 mmol/L	numeric
+Glucose	thinlabs	44U..00	Blood glucose result	numeric
+Glucose	thinlabs	44U..12	Plasma glucose level	numeric
+Glucose	thinlabs	44U3.00	Blood glucose 2.5-4.9 mmol/L	numeric
+Glucose	thinlabs	44U6.00	Blood glucose 10-13.9 mmol/L	numeric
+Glucose	thinlabs	44UZ.00	Blood glucose 14+ mmol/L	numeric
+Glucose	thinlabs	44g..00	Plasma glucose level	numeric
+Glucose	thinlabs	4Q80.00	Glucose level	numeric
+Glucose	thinlabs	44U7.00	2 hour post-prandial blood glucose level	numeric
+Glucose	thinlabs	44U4.00	Blood glucose 5-6.9 mmol/L	numeric
+Glucose	thinlabs	44f..00	Serum glucose level	numeric
+Glucose	thinlabs	44T..00	Blood glucose method	numeric
+Glucose	thinlabs	44TK.00	Fasting blood glucose level	numeric
+Glucose	thinlabs	44T9.00	Glucometer blood sugar	numeric
+Glucose	thinlabs	44Uz.11	Blood hyperglycaemia NOS	numeric
+Glucose	thinlabs	44T..11	Blood sugar method	numeric
+Glucose	thinlabs	44f1.00	Serum fasting glucose level	numeric
+Glucose	thinlabs	44U..11	Blood sugar result	numeric
+Glucose	thinlabs	44Uz.00	Blood glucose raised NOS	numeric
+Glucose	thinlabs	44TA.00	Plasma glucose	numeric
+Glucose	thinlabs	44U2.00	Blood glucose 1.5-2.4 mmol/L	numeric
+Glucose	thinlabs	44g1.00	Plasma fasting glucose level	numeric
+Glucose	thinlabs	44T2.00	Fasting blood sugar	numeric
+GtanNum	thinlabs	42J..11	Granulocyte count	numeric
+HCG	thinlabs	44Z3.00	Serum total HCG level	numeric
+HDL	thinlabs	44P5.00	Serum HDL cholesterol level	numeric
+HDL	thinlabs	44PB.00	Serum fasting HDL cholesterol level	numeric
+HDL	thinlabs	44d3.00	Plasma fasting HDL cholesterol level	numeric
+HDL	thinlabs	44dA.00	Plasma HDL cholesterol level	numeric
+HDL_over_LDL	thinlabs	44PA.00	HDL : LDL ratio	numeric
+HDL_over_nonHDL	thinlabs	44P8.00	Serum HDL:non-HDL cholesterol ratio	numeric
+HbA1C	thinlabs	42W3.00	Hb. A1C > 10% - bad control	numeric
+HbA1C	thinlabs	42W1.00	Hb. A1C < 7% - good control	numeric
+HbA1C	thinlabs	42W4.00	HbA1c level (DCCT aligned)	numeric
+HbA1C	thinlabs	42W2.00	Hb. A1C 7-10% - borderline	numeric
+HbA1C	thinlabs	42WZ.00	Hb. A1C - diabetic control NOS	numeric
+HbA1C	thinlabs	42W..00	Hb. A1C - diabetic control	numeric
+HbA1C	thinlabs	44TB.00	Haemoglobin A1c level	numeric
+HbA1C	thinlabs	42W5.00	HbA1c levl - IFCC standardised	numeric
+HbA1C	thinlabs	42c2.00	HbA1 > 10% - bad control	numeric
+HbA1C	thinlabs	42W..11	Glycosylated Hb	numeric
+HbA1C	thinlabs	42W..12	Glycated haemoglobin	numeric
+HbA1C	thinlabs	42c0.00	HbA1 < 7% - good control	numeric
+HbA1C	thinlabs	42c1.00	HbA1 7 - 10% - borderline control	numeric
+HbA1C	thinlabs	44TB000	Haemoglobin A1c (diagnostic reference range)	numeric
+HbA1C	thinlabs	44TB100	Haemoglobin A1c (monitoring ranges)	numeric
+HbA1C	thinlabs	42c..00	HbA1 - diabetic control	numeric
+HbA1C	thinlabs	42c3.00	HbA1 level (DCCT aligned)	numeric
+Hematocrit	thinlabs	425..00	Haematocrit - PCV	numeric
+Hematocrit	thinlabs	4257.00	Packed cell volume	numeric
+Hematocrit	thinlabs	4258.00	Haematocrit	numeric
+Hematocrit	thinlabs	425Z.00	Haematocrit - PCV - NOS	numeric
+Hematocrit	thinlabs	4255.00	Haematocrit - borderline low	numeric
+Hematocrit	thinlabs	4251.00	Haematocrit - PCV - normal	numeric
+Hematocrit	thinlabs	4252.00	Haematocrit - borderline high	numeric
+Hematocrit	thinlabs	4256.00	Haematocrit - PCV - abnormal	numeric
+Hematocrit	thinlabs	425..11	Packed cell volume - PCV	numeric
+Hematocrit	thinlabs	4254.00	Haematocrit - PCV - low	numeric
+Hematocrit	thinlabs	4253.00	Haematocrit - PCV - high	numeric
+Hemoglobin	thinlabs	423B.00	Haemoglobin abnormal	numeric
+Hemoglobin	thinlabs	4237.00	Haemoglobin normal	numeric
+Hemoglobin	thinlabs	4239.00	Haemoglobin high	numeric
+Hemoglobin	thinlabs	423..00	Haemoglobin estimation	numeric
+Hemoglobin	thinlabs	423..11	Hb estimation	numeric
+Hemoglobin	thinlabs	423Z.00	Haemoglobin estimation NOS	numeric
+Hemoglobin	thinlabs	4235.00	Haemoglobin low	numeric
+Hemoglobin	thinlabs	4234.00	Haemoglobin very low	numeric
+Hemoglobin	thinlabs	424..00	Full blood count - FBC	numeric
+Hemoglobin	thinlabs	4238.00	Haemoglobin borderline high	numeric
+Hemoglobin	thinlabs	4236.00	Haemoglobin borderline low	numeric
+INR	thinlabs	42QE000	INR - international normal ratio normal	numeric
+INR	thinlabs	42QE100	INR - international normal ratio abnormal	numeric
+INR	thinlabs	9k21.00	International normalised ratio monitorin in general practice	numeric
+INR	thinlabs	42QE.00	International normalised ratio	numeric
+Iron_Fe	thinlabs	42RZ.00	Serum iron tests NOS	numeric
+Iron_Fe	thinlabs	42R..00	Serum iron tests	numeric
+Iron_Fe	thinlabs	42R7.00	Serum iron level	numeric
+Iron_Fe	thinlabs	42R6.00	Serum iron abnormal	numeric
+Iron_Fe	thinlabs	42R1.00	Serum iron normal	numeric
+Iron_Fe	thinlabs	42R2.00	Serum iron low	numeric
+Iron_Fe	thinlabs	42d2.00	Plasma iron level	numeric
+Iron_Fe	thinlabs	42R3.00	Serum iron raised	numeric
+K+	thinlabs	44I4100	Raised serum potassium level	numeric
+K+	thinlabs	44h0.00	Blood potassium level	numeric
+K+	thinlabs	44I4.00	Serum potassium	numeric
+K+	thinlabs	44h8.00	Plasma potassium level	numeric
+K+	thinlabs	44I4000	Normal serum potassium level	numeric
+K+	thinlabs	44I4200	Low serum potassium level	numeric
+LDH	thinlabs	44HD.00	Plasma lactate dehydrogenase level	numeric
+LDH	thinlabs	44HA.00	Serum total lactate dehydrogenase level	numeric
+LDH	thinlabs	44H6.11	LDH blood level	numeric
+LDH	thinlabs	44H6.00	LDH (HBD) level	numeric
+LDH	thinlabs	44HF.00	Serum lactate dehydrogenase level	numeric
+LDL	thinlabs	44PD.00	Serum fasting LDL cholesterol level	numeric
+LDL	thinlabs	44dB.00	Plasma LDL cholesterol level	numeric
+LDL	thinlabs	44PI.00	Calculated LDL cholesterol level	numeric
+LDL	thinlabs	44d5.00	Plasma fasting LDL cholesterol level	numeric
+LDL	thinlabs	44P6.00	Serum LDL cholesterol level	numeric
+LDL_over_HDL	thinlabs	44lL.00	Serum LDL/HDL ratio	numeric
+LUC	thinlabs	42ZD.00	Large unstained cells	numeric
+Lithium	thinlabs	44W8100	Lithium level high - toxic	numeric
+Lithium	thinlabs	44W8.00	Serum lithium level	numeric
+Lithium	thinlabs	44W8000	Lithium level therapeutic	numeric
+Lithium	thinlabs	44W8.11	Lithium: blood level	numeric
+Lithium	thinlabs	44W8200	Lithium level low	numeric
+LuteinisingHormone	thinlabs	4433000	LH level normal	numeric
+LuteinisingHormone	thinlabs	4433.11	L.H. level	numeric
+LuteinisingHormone	thinlabs	443e.00	Serum LH level	numeric
+LuteinisingHormone	thinlabs	4433.12	Luteinising hormone	numeric
+LuteinisingHormone	thinlabs	4433100	LH level abnormal	numeric
+LuteinisingHormone	thinlabs	4433.13	Serum luteinising hormone level	numeric
+LuteinisingHormone	thinlabs	4433.00	Luteinising hormone - L.H.	numeric
+LuteinisingHormone	thinlabs	443f.00	Plasma LH level	numeric
+Lymphocytes#	thinlabs	42M4.00	Abnormal lymphocytes	numeric
+Lymphocytes#	thinlabs	42M..00	Lymphocyte count	numeric
+Lymphocytes#	thinlabs	42M2.00	Lymphocytosis - absolute	numeric
+Lymphocytes#	thinlabs	42MZ.00	Lymphocyte count NOS	numeric
+Lymphocytes#	thinlabs	42MG.00	Leucocyte count	numeric
+Lymphocytes#	thinlabs	42M1.00	Lymphocyte count normal	numeric
+Lymphocytes#	thinlabs	42M5.00	Lymphocyte count abnormal	numeric
+Lymphocytes%	thinlabs	42b1.00	Percentage lymphocytes	numeric
+MCH	thinlabs	4282.00	MCH - borderline low	numeric
+MCH	thinlabs	4283.00	MCH - low	numeric
+MCH	thinlabs	4285.00	MCH - borderline raised	numeric
+MCH	thinlabs	428..11	Mean cell haemoglobin	numeric
+MCH	thinlabs	4281.00	MCH - normal	numeric
+MCH	thinlabs	4286.00	MCH - abnormal	numeric
+MCH	thinlabs	428Z.00	MCH - NOS	numeric
+MCH	thinlabs	4284.00	MCH - raised	numeric
+MCH	thinlabs	428..00	Mean corpusc. haemoglobin(MCH)	numeric
+MCHC-M	thinlabs	4291.00	MCHC - normal	numeric
+MCHC-M	thinlabs	4292.00	MCHC - borderline low	numeric
+MCHC-M	thinlabs	4293.00	MCHC - low	numeric
+MCHC-M	thinlabs	4294.00	MCHC - raised	numeric
+MCHC-M	thinlabs	429..00	Mean corpusc. Hb. conc. (MCHC)	numeric
+MCHC-M	thinlabs	429Z.00	MCHC - NOS	numeric
+MCHC-M	thinlabs	4295.00	MCHC - borderline raised	numeric
+MCV	thinlabs	42A3.00	MCV - raised	numeric
+MCV	thinlabs	42A..00	Mean corpuscular volume (MCV)	numeric
+MCV	thinlabs	42AZ.00	MCV - NOS	numeric
+MCV	thinlabs	42A..11	Mean cell volume	numeric
+MCV	thinlabs	42A4.00	MCV - low	numeric
+MCV	thinlabs	42A1.00	MCV - normal	numeric
+MCV	thinlabs	42A5.00	MCV - borderline low	numeric
+MCV	thinlabs	42A2.00	MCV - borderline raised	numeric
+MPV	thinlabs	42Z5.00	Mean platelet volume	numeric
+Mg	thinlabs	44LH.00	Plasma magnesium level	numeric
+Mg	thinlabs	44L2.00	Blood magnesium	numeric
+Mg	thinlabs	44LD.00	Serum magnesium level	numeric
+Mg	thinlabs	44L2.11	Serum magnesium level	numeric
+Mg	thinlabs	44L2000	Blood magnesium normal	numeric
+Monocytes#	thinlabs	42N..00	Monocyte count	numeric
+Monocytes#	thinlabs	42NZ.00	Monocyte count NOS	numeric
+Monocytes#	thinlabs	42N2.00	Monocyte count raised	numeric
+Monocytes#	thinlabs	42N1.00	Monocyte count normal	numeric
+Monocytes#	thinlabs	42N4.00	Abnormal monocytes	numeric
+Monocytes#	thinlabs	42N3.00	Monocytopenia	numeric
+Monocytes%	thinlabs	42b2.00	Percentage monocytes	numeric
+NRBC	thinlabs	4266.00	Nucleated red blood cell count	numeric
+Na	thinlabs	44h1.00	Blood sodium level	numeric
+Na	thinlabs	44I5100	Serum sodium level abnormal	numeric
+Na	thinlabs	44h6.00	Plasma sodium level	numeric
+Na	thinlabs	44I5.00	Serum sodium	numeric
+Na	thinlabs	44I5000	Serum sodium level normal	numeric
+Neutrophils#	thinlabs	42J..00	Neutrophil count	numeric
+Neutrophils#	thinlabs	42J1.00	Neutrophil count normal	numeric
+Neutrophils#	thinlabs	42J2.00	Neutropenia	numeric
+Neutrophils#	thinlabs	42JZ.00	Neutrophil count NOS	numeric
+Neutrophils#	thinlabs	42J4.00	Neutrophil count abnormal	numeric
+Neutrophils#	thinlabs	42J3.00	Neutrophilia	numeric
+Neutrophils%	thinlabs	42b0.00	Percentage neutrophils	numeric
+NonHDLCholesterol	thinlabs	44PL.00	Non HDL cholesterol level	numeric
+NonHDLCholesterol	thinlabs	44PL000	Serum non high density lipoprotein cholesterol level	numeric
+PDW	thinlabs	42P5.00	Platelet distribution width	numeric
+PFR	thinlabs	3395.11	PEFR - peak exp. flow rate	numeric
+PFR	thinlabs	3395.13	Peak flow rate	numeric
+PFR	thinlabs	339g.00	Serial peak expiratory flow rate	numeric
+PFR	thinlabs	339A.00	Peak flow rate before bronchodilation	numeric
+PFR	thinlabs	339B.00	Peak flow rate after bronchodilation	numeric
+PFR	thinlabs	3395.00	Peak exp. flow rate: PEFR/PFR	numeric
+PFR	thinlabs	339o.00	Peak expiratory flow rate measured using EN 13826 device	numeric
+PFR	thinlabs	66YX.00	Peak expiratory flow rate monitoring	numeric
+PFR	thinlabs	3395.12	PFR - peak flow rate	numeric
+PFR	thinlabs	339D.00	Best ever peak flow rate	numeric
+PFR	thinlabs	339d.00	Peak expiratory flow rate post steroids	numeric
+PFR	thinlabs	339g.11	Serial PEFR	numeric
+PFR	thinlabs	3395.11	PEFR - peak exp. flow rate	numeric
+PSA	thinlabs	43Z2.00	Prostate specific antigen	numeric
+PSA	thinlabs	43Z2.11	PSA - Serum prostate specific antigen level	numeric
+PSA	thinlabs	43Z2100	Prostate specific antigen abnormal	numeric
+PSA	thinlabs	43Z2200	Serum prostate specific antigen level	numeric
+PSA	thinlabs	43Z2000	Prostate specific antigen normal	numeric
+PSA	thinlabs	43ZF.00	Total PSA level	numeric
+PT	thinlabs	42Q5.00	Prothrombin time	numeric
+PTH	thinlabs	44AJ.00	Plasma parathyroid hormone level	numeric
+PTH	thinlabs	44AM.00	Plasma parathyroid hormone related peptide level	numeric
+APTT	thinlabs	42Qw.00	APTT - reference	numeric
+APTT_r	thinlabs	42Qt.00	Partial thromboplastin time ratio	numeric
+APTT_r	thinlabs	42Qu.00	Activated partial thromboplastin time ratio	numeric
+APTT_r	thinlabs	42Qw.00	APTT - reference	numeric
+APTT_r	thinlabs	42Q6.00	Partial thromboplastin time	numeric
+PTT	thinlabs	42Q6.00	Partial thromboplastin time	numeric
+Phosphore	thinlabs	44i2.00	Plasma inorganic phosphate level	numeric
+Phosphore	thinlabs	44I9.00	Serum inorganic phosphate	numeric
+Phosphore	thinlabs	44h5.00	Blood inorganic phosphate level	numeric
+PlasmaAnionGap	thinlabs	44IA.00	Plasma anion gap	numeric
+PlasmaViscosity	thinlabs	42B3.00	Plasma viscosity raised	numeric
+PlasmaViscosity	thinlabs	42B..00	Plasma viscosity	numeric
+PlasmaViscosity	thinlabs	42B2.00	Plasma visc. borderline raised	numeric
+PlasmaViscosity	thinlabs	42B1.00	Plasma viscosity normal	numeric
+PlasmaViscosity	thinlabs	42B4.00	Plasma viscosity low	numeric
+PlasmaViscosity	thinlabs	42B5.00	Plasma visc. borderline low	numeric
+PlasmaViscosity	thinlabs	42B..11	Plasma viscosity - PV	numeric
+PlasmaVolume	thinlabs	42Z2.00	Plasma volume	numeric
+Platelets	thinlabs	42PZ.00	Platelet count NOS	numeric
+Platelets	thinlabs	42P1.00	Platelet count normal	numeric
+Platelets	thinlabs	42P..00	Platelet count	numeric
+Platelets_Hematocrit	thinlabs	42P9.00	Plateletcrit	numeric
+Progesterone	thinlabs	4463000	Serum progesterone level normal	numeric
+Progesterone	thinlabs	4463.00	Serum progesterone	numeric
+Progesterone	thinlabs	4463100	Serum progesterone level abnormal	numeric
+Prolactin	thinlabs	4435.00	Prolactin level	numeric
+Prolactin	thinlabs	443j.00	Serum prolactin level	numeric
+Prolactin	thinlabs	4435100	Prolactin level raised	numeric
+Prolactin	thinlabs	4435000	Prolactin level normal	numeric
+Protein_Total	thinlabs	44MZ.00	Serum proteins NOS	numeric
+Protein_Total	thinlabs	44M3000	Serum total protein normal	numeric
+Protein_Total	thinlabs	44M3100	Serum total protein abnormal	numeric
+Protein_Total	thinlabs	44M3.00	Serum total protein	numeric
+Protein_Total	thinlabs	44M9.00	Plasma proteins low	numeric
+Protein_Total	thinlabs	44M..00	Serum / plasma proteins	numeric
+Protein_Total	thinlabs	44M8.00	Plasma proteins borderline	numeric
+Protein_Total	thinlabs	44M2.00	Serum proteins low	numeric
+Protein_Total	thinlabs	44MA.00	Plasma total protein	numeric
+Protein_Total	thinlabs	44M6.00	Serum proteins borderline	numeric
+Protein_Total	thinlabs	44MV.00	Serum protein profile	numeric
+Protein_Total	thinlabs	44M1.00	Serum proteins normal	numeric
+Protein_Total	thinlabs	44M7.00	Plasma proteins normal	numeric
+RBC	thinlabs	426..00	Red blood cell (RBC) count	numeric
+RBC	thinlabs	4263.00	RBC count low	numeric
+RBC	thinlabs	4264.00	RBC count raised	numeric
+RBC	thinlabs	426Z.00	RBC count NOS	numeric
+RBC	thinlabs	4267.00	RBC count abnormal	numeric
+RBC	thinlabs	4262.00	RBC count borderline low	numeric
+RBC	thinlabs	42U4.00	Red blood cell folate	numeric
+RandomGlucose	thinlabs	44T1000	Random blood sugar normal	numeric
+RandomGlucose	thinlabs	44T1200	Random blood sugar raised	numeric
+RandomGlucose	thinlabs	44f0.00	Serum random glucose level	numeric
+RandomGlucose	thinlabs	44T1100	Random blood sugar low	numeric
+RandomGlucose	thinlabs	44g0.00	Plasma random glucose level	numeric
+RandomGlucose	thinlabs	44T1.00	Random blood sugar	numeric
+RandomHDL	thinlabs	44PC.00	Serum random HDL cholesterol level	numeric
+RandomLDL	thinlabs	44PE.00	Serum random LDL cholesterol level	numeric
+RandomTriglyceride	thinlabs	44Q5.00	Serum random triglyceride level	numeric
+Reticulocyte	thinlabs	42X0.00	Reticulocyte count abnormal	numeric
+Reticulocyte	thinlabs	42X..00	Reticulocyte count	numeric
+Reticulocyte	thinlabs	42X1.00	Reticulocyte count normal	numeric
+Rheumatoid_Factor	thinlabs	43FA.00	Rheumatoid factor IgM level	numeric
+Rheumatoid_Factor	thinlabs	43F8.00	Serum rheumatoid antibody level	numeric
+Rheumatoid_Factor	thinlabs	43F6.00	Fluid rheumatoid factor level	numeric
+Rheumatoid_Factor	thinlabs	43FZ.00	Rheumatoid factor NOS	numeric
+Rheumatoid_Factor	thinlabs	43F1.00	Rheumatoid factor positive	numeric
+Rheumatoid_Factor	thinlabs	43F5.00	Serum rheumatoid antigen level	numeric
+Rheumatoid_Factor	thinlabs	43F7.00	Rheumatoid factor screening test	numeric
+Rheumatoid_Factor	thinlabs	43F..00	Rheumatoid factor	numeric
+Rheumatoid_Factor	thinlabs	43F3.00	R.A. latex test	numeric
+Rheumatoid_Factor	thinlabs	43F2.00	Rheumatoid factor negative	numeric
+SerumAnionGap	thinlabs	44IB.00	Serum anion gap	numeric
+Serum_Oestradiol	thinlabs	4465.00	Serum oestradiol level	numeric
+Serum_Oestradiol	thinlabs	4465000	Low serum oestradiol levels	numeric
+Sex_Hormone_Binding_Globulin	thinlabs	44CD.00	Serum sex hormone binding globulin level	numeric
+Smoking_quantity	thinlabs	1003040000_data1	Smoking_Smoking_SMOKER	numeric
+Smoking_quantity	thinlabs	1003040000_data2	Smoking_CIGARETTES(DAY)	numeric
+Smoking_quantity	thinlabs	1064100000_data1	Advice given_ADVICE_GIVEN	numeric
+Smoking_quantity	thinlabs	1064100000_data2	ADVICE_GIVEN_ADVICE_TYPE	numeric
+T3	thinlabs	4424.00	Serum T3 level	numeric
+T4	thinlabs	4426000	Serum T4 level normal	numeric
+T4	thinlabs	442b.00	Serum total T4 level	numeric
+T4	thinlabs	4426.00	Serum T4 level	numeric
+T4	thinlabs	4426100	Serum T4 level abnormal	numeric
+T4	thinlabs	442a.00	Plasma total T4 level	numeric
+Temperature	thinlabs	2E35.00	O/E - hyperpyrexia-> 40.5 oCEL	numeric
+Temperature	thinlabs	2E32.00	O/E - temperature low	numeric
+Temperature	thinlabs	2E3..00	O/E - level of fever	numeric
+Temperature	thinlabs	2E3..11	O/E - temperature level	numeric
+Temperature	thinlabs	2E34.00	O/E - temperature elevated	numeric
+Temperature	thinlabs	2E31.00	O/E - temperature normal	numeric
+Temperature	thinlabs	2E3Z.00	O/E - level of fever NOS	numeric
+Temperature	thinlabs	2E27.00	O/E - tympanic temperature	numeric
+Temperature	thinlabs	2E33.00	O/E - hypothermia - < 32 oCEL	numeric
+TIBC	thinlabs	42R5000	TIBC - Total iron binding capacity normal	numeric
+TIBC	thinlabs	42R5.00	Serum TIBC	numeric
+TSH	thinlabs	442A000	Serum TSH level normal	numeric
+TSH	thinlabs	442W.00	Serum TSH level	numeric
+TSH	thinlabs	442A.00	TSH - thyroid stim. hormone	numeric
+TSH	thinlabs	442A100	Serum TSH level abnormal	numeric
+TSH	thinlabs	442X.00	Plasma TSH level	numeric
+TSH	thinlabs	442..12	TSH level	numeric
+TSH	thinlabs	442..00	Thyroid hormone tests	numeric
+Teophylline	thinlabs	44Wl.00	Serum theophylline level	numeric
+Testosterone	thinlabs	4473100	Serum testosterone level abnormal	numeric
+Testosterone	thinlabs	4473000	Serum testosterone level normal	numeric
+Testosterone	thinlabs	4473.00	Serum testosterone	numeric
+Transferrin	thinlabs	44CB.00	Serum transferrin	numeric
+Transferrin_Saturation_Index	thinlabs	42d1.00	Transferrin saturation index	numeric
+Triglycerides	thinlabs	44e1.00	Plasma fasting triglyceride level	numeric
+Triglycerides	thinlabs	44e..00	Plasma triglyceride level	numeric
+Triglycerides	thinlabs	44QZ.00	Serum triglycerides NOS	numeric
+Triglycerides	thinlabs	44Q4.00	Serum fasting triglyceride level	numeric
+Triglycerides	thinlabs	44Q1.00	Serum triglycerides normal	numeric
+Triglycerides	thinlabs	44Q3.00	Serum triglycerides raised	numeric
+Triglycerides	thinlabs	44Q2.00	Serum triglycerides borderline	numeric
+Triglycerides	thinlabs	44Q..00	Serum triglycerides	numeric
+Triglycerides	thinlabs	44e0.00	Plasma random triglyceride level	numeric
+TroponinI	thinlabs	44ME.00	Plasma troponin I level	numeric
+TroponinI	thinlabs	44MG.00	Serum troponin I level	numeric
+TroponinT	thinlabs	44MC.00	Serum troponin T level	numeric
+Urea	thinlabs	44JA.00	Plasma urea level	numeric
+Urea	thinlabs	44J8.00	Blood urea	numeric
+Urea	thinlabs	44J..11	Urea - blood	numeric
+Urea	thinlabs	44J..00	Blood urea/renal function	numeric
+Urea	thinlabs	44JZ.00	Blood urea/renal function NOS	numeric
+Urea	thinlabs	44J2.00	Blood urea abnormal	numeric
+Urea	thinlabs	44J1.00	Blood urea normal	numeric
+Urea	thinlabs	44J9.00	Serum urea level	numeric
+Uric_Acid	thinlabs	44K3.00	Blood urate level borderline	numeric
+Uric_Acid	thinlabs	44K..11	Serum uric acid	numeric
+Uric_Acid	thinlabs	44K..00	Blood urate	numeric
+Uric_Acid	thinlabs	44K1.00	Blood urate normal	numeric
+Uric_Acid	thinlabs	44K2.11	Hyperuricaemia	numeric
+Uric_Acid	thinlabs	44K4.00	Blood urate abnormal	numeric
+Uric_Acid	thinlabs	44K2.00	Blood urate raised	numeric
+Uric_Acid	thinlabs	44KZ.00	Blood urate NOS	numeric
+Uric_Acid	thinlabs	44K6.00	Plasma urate level	numeric
+Uric_Acid	thinlabs	44K5.00	Serum urate level	numeric
+UrineAlbumin	thinlabs	46N4.00	Urine albumin	numeric
+UrineAlbumin_over_Creatinine	thinlabs	46TC.00	Urine albumin:creatinine ratio	numeric
+UrineCreatinine	thinlabs	46M8.00	Urine creatine	numeric
+UrineCreatinine	thinlabs	46M7.00	Urine creatinine	numeric
+UrineSodium	thinlabs	46M4.00	Urine sodium	numeric
+UrineTotalProtein	thinlabs	46N..00	Urine protein	numeric
+UrineTotalProtein	thinlabs	46N3.00	Urine total protein	numeric
+UrineTotalProtein	thinlabs	46N1.00	Urine protein normal	numeric
+UrineTotalProtein	thinlabs	46NZ.00	Urine protein NOS	numeric
+UrineTotalProtein	thinlabs	46N2.00	Urine protein abnormal	numeric
+UrineUrate	thinlabs	46M5.00	Urine urate	numeric
+Urine_Dipstick_pH	thinlabs	46A9.00	Urine dipstick for pH	numeric
+Urine_Epithelial_Cell	thinlabs	4KH0.00	Epithelial cell count	numeric
+Urine_Microalbumin	thinlabs	46W2.00	Microalbumin excretion rate	numeric
+Urine_Microalbumin	thinlabs	46W0.00	Urine microalbumin positive	numeric
+Urine_Microalbumin	thinlabs	46W1.00	Urine microalbumin negative	numeric
+Urine_Microalbumin	thinlabs	46W..00	Urine microalbumin	numeric
+Urine_Protein_Creatinine	thinlabs	44lD.00	Urine protein/creatinine ratio	numeric
+VLDL	thinlabs	44P7.00	Serum VLDL cholesterol level	numeric
+VitaminD2	thinlabs	44Lg.00	Serum vitamin D2 level	numeric
+VitaminD_25	thinlabs	44LA.00	Serum vitamin D	numeric
+VitaminLevel	thinlabs	44Ld.00	Serum vitamin level	numeric
+WBC	thinlabs	42H..12	White cell count	numeric
+WBC	thinlabs	42H7.00	Total white blood count	numeric
+WBC	thinlabs	42H1.00	White cell count normal	numeric
+WBC	thinlabs	42H..11	White blood count	numeric
+WBC	thinlabs	42H..00	Total white cell count	numeric
+Zinc	thinlabs	44Z4.00	Serum zinc protoporphyrin	numeric
+eGFR	thinlabs	451N.00	eGFR using creatinine (CKD-EPI) per 1.73 square metres	numeric
+eGFR	thinlabs	451G.00	GFR calculated abbreviated MDRD adj for African Americ orign	numeric
+eGFR	thinlabs	451E.00	GFR calculated abbreviated MDRD	numeric
+GFR	thinlabs	451F.00	Glomerular filtration rate	numeric
+RC	thinreadcodes	^[0-9A-HJ-NP-U]		regex
+RC_Admin	thinreadcodes	^[9]		regex
+RC_Demographic	thinreadcodes	^[0]		regex
+RC_Diagnosis	thinreadcodes	^[ABCDEFGHJKLMNPQ]		regex
+RC_Diagnostic_Procedures	thinreadcodes	^[34]		regex
+RC_History	thinreadcodes	^[12R]		regex
+RC_Injuries	thinreadcodes	^[STU]		regex
+RC_Procedures	thinreadcodes	^[678Z]		regex
+RC_Radiology	thinreadcodes	^[5]		regex
+RC	thinlabs	^[0-9A-HJ-NP-U]		regex
+RC_Admin	thinlabs	^[9]		regex
+RC_Demographic	thinlabs	^[0]		regex
+RC_Diagnosis	thinlabs	^[ABCDEFGHJKLMNPQ]		regex
+RC_Diagnostic_Procedures	thinlabs	^[34]		regex
+RC_History	thinlabs	^[12R]		regex
+RC_Injuries	thinlabs	^[STU]		regex
+RC_Procedures	thinlabs	^[678Z]		regex
+RC_Radiology	thinlabs	^[5]		regex
+Alcohol_quantity	thinreadcodes	136X.00	Alcohol units consumed on heaviest drinking day	numeric
+Alcohol_quantity	thinreadcodes	136Q.00	Very heavy drinker	numeric
+Alcohol_quantity	thinreadcodes	E250000	Nondependent alcohol abuse  unspecified	numeric
+Alcohol_quantity	thinreadcodes	136W.00	Alcohol misuse	numeric
+Alcohol_quantity	thinreadcodes	9k11.00	Alcohol consumption counselling	numeric
+Alcohol_quantity	thinreadcodes	E250.00	Nondependent alcohol abuse	numeric
+Alcohol_quantity	thinreadcodes	136T.00	Harmful alcohol use	numeric
+Alcohol_quantity	thinreadcodes	E23..00	Alcohol dependence syndrome	numeric
+Alcohol_quantity	thinreadcodes	E23..11	Alcoholism	numeric
+Alcohol_quantity	thinreadcodes	J612.00	Alcoholic cirrhosis of liver	numeric
+Alcohol_quantity	thinreadcodes	8IAF.00	Brief intervention for excessive alcohol consumptn declined	numeric
+Alcohol_quantity	thinreadcodes	8IAJ.00	Declined referral to specialist alcohol treatment service	numeric
+Alcohol_quantity	thinreadcodes	Z786200	Drinking practice	numeric
+Alcohol_quantity	thinreadcodes	8BA8.00	Alcohol detoxification	numeric
+Alcohol_quantity	thinreadcodes	E250200	Nondependent alcohol abuse  episodic	numeric
+Alcohol_quantity	thinreadcodes	136S.00	Hazardous alcohol use	numeric
+Alcohol_quantity	thinreadcodes	136P.00	Heavy drinker	numeric
+Alcohol_quantity	thinreadcodes	E23..12	Alcohol problem drinking	numeric
+Alcohol_quantity	thinreadcodes	1363.00	Light drinker - 1-2u/day	numeric
+Alcohol_quantity	thinreadcodes	136L.00	Alcohol intake within recommended sensible limits	numeric
+Alcohol_quantity	thinreadcodes	1367.00	Stopped drinking alcohol	numeric
+Alcohol_quantity	thinreadcodes	6792.00	Health ed. - alcohol	numeric
+Alcohol_quantity	thinreadcodes	1364.00	Moderate drinker - 3-6u/day	numeric
+Alcohol_quantity	thinreadcodes	1361.12	Non-drinker alcohol	numeric
+Alcohol_quantity	thinreadcodes	1361.11	Non drinker alcohol	numeric
+Alcohol_quantity	thinreadcodes	136M.00	Current non drinker	numeric
+Alcohol_quantity	thinreadcodes	136K.00	Alcohol intake above recommended sensible limits	numeric
+Alcohol_quantity	thinreadcodes	8CAM.00	Patient advised about alcohol	numeric
+Alcohol_quantity	thinreadcodes	1365.00	Heavy drinker - 7-9u/day	numeric
+Alcohol_quantity	thinreadcodes	67H0.00	Lifestyle advice regarding alcohol	numeric
+Alcohol_quantity	thinreadcodes	1366.00	Very heavy drinker - >9u/day	numeric
+Alcohol_quantity	thinreadcodes	136F.00	Spirit drinker	numeric
+Alcohol_quantity	thinreadcodes	136R.00	Binge drinker	numeric
+Alcohol_quantity	thinreadcodes	Eu10211	[X]Alcohol addiction	numeric
+Alcohol_quantity	thinreadcodes	1362.00	Trivial drinker - <1u/day	numeric
+Alcohol_quantity	thinreadcodes	13Y8.00	Alcoholics anonymous	numeric
+Alcohol_quantity	thinreadcodes	8H7p.00	Referral to community alcohol team	numeric
+Alcohol_quantity	thinreadcodes	E010.00	Alcohol withdrawal delirium	numeric
+Alcohol_quantity	thinreadcodes	F11x011	Alcoholic encephalopathy	numeric
+Alcohol_quantity	thinreadcodes	E231z00	Chronic alcoholism NOS	numeric
+Alcohol_quantity	thinreadcodes	E23z.00	Alcohol dependence syndrome NOS	numeric
+Alcohol_quantity	thinreadcodes	Eu10712	[X]Chronic alcoholic brain syndrome	numeric
+Alcohol_quantity	thinreadcodes	F375.00	Alcoholic polyneuropathy	numeric
+Alcohol_quantity	thinreadcodes	E011000	Korsakov's alcoholic psychosis	numeric
+Alcohol_quantity	thinreadcodes	J617000	Chronic alcoholic hepatitis	numeric
+Alcohol_quantity	thinreadcodes	E231100	Continuous chronic alcoholism	numeric
+Alcohol_quantity	thinreadcodes	Eu10200	[X]Mental and behav dis due to use alcohol: dependence syndr	numeric
+Alcohol_quantity	thinreadcodes	E230000	Acute alcoholic intoxication  unspecified  in alcoholism	numeric
+Alcohol_quantity	thinreadcodes	E013.00	Alcohol withdrawal hallucinosis	numeric
+Alcohol_quantity	thinreadcodes	E230z00	Acute alcoholic intoxication in alcoholism NOS	numeric
+Alcohol_quantity	thinreadcodes	Eu10411	[X]Delirium tremens  alcohol induced	numeric
+Alcohol_quantity	thinreadcodes	E231300	Chronic alcoholism in remission	numeric
+Alcohol_quantity	thinreadcodes	G852300	Oesophageal varices in alcoholic cirrhosis of the liver	numeric
+Alcohol_quantity	thinreadcodes	8HkG.00	Referral to specialist alcohol treatment service	numeric
+Alcohol_quantity	thinreadcodes	J153.00	Alcoholic gastritis	numeric
+Alcohol_quantity	thinreadcodes	Eu10.00	[X]Mental and behavioural disorders due to use of alcohol	numeric
+Alcohol_quantity	thinreadcodes	E250.14	Intoxication - alcohol	numeric
+Alcohol_quantity	thinreadcodes	G555.00	Alcoholic cardiomyopathy	numeric
+Alcohol_quantity	thinreadcodes	E230.00	Acute alcoholic intoxication in alcoholism	numeric
+Alcohol_quantity	thinreadcodes	9k1B.00	Extended intervention for excessive alcohol consumptn complt	numeric
+Alcohol_quantity	thinreadcodes	9k14.00	Alcohol counselling by other agencies	numeric
+Alcohol_quantity	thinreadcodes	ZV4KC00	[V] Alcohol use	numeric
+Alcohol_quantity	thinreadcodes	J611.00	Acute alcoholic hepatitis	numeric
+Alcohol_quantity	thinreadcodes	8HkJ.00	Referral to alcohol brief intervention service	numeric
+Alcohol_quantity	thinreadcodes	E231.00	Chronic alcoholism	numeric
+Alcohol_quantity	thinreadcodes	J613000	Alcoholic hepatic failure	numeric
+Alcohol_quantity	thinreadcodes	E250100	Nondependent alcohol abuse  continuous	numeric
+Alcohol_quantity	thinreadcodes	Eu10212	[X]Chronic alcoholism	numeric
+Alcohol_quantity	thinreadcodes	J617.00	Alcoholic hepatitis	numeric
+Alcohol_quantity	thinreadcodes	E01y000	Alcohol withdrawal syndrome	numeric
+Alcohol_quantity	thinreadcodes	J610.00	Alcoholic fatty liver	numeric
+Alcohol_quantity	thinreadcodes	1362.11	Drinks rarely	numeric
+Alcohol_quantity	thinreadcodes	136Z.00	Alcohol consumption NOS	numeric
+Smoking_quantity	thinreadcodes	137E.00	Tobacco consumption unknown	numeric
+Smoking_quantity	thinreadcodes	137Z.00	Tobacco consumption NOS	numeric
+Smoking_quantity	thinreadcodes	E251.00	Tobacco dependence	numeric
+Smoking_quantity	thinreadcodes	745H400	Smoking cessation drug therapy	numeric
+Smoking_quantity	thinreadcodes	745H200	Nicotine replacement therapy using nicotine inhalator	numeric
+Smoking_quantity	thinreadcodes	745H000	Nicotine replacement therapy using nicotine patches	numeric
+Smoking_quantity	thinreadcodes	137j.00	Ex-cigarette smoker	numeric
+Smoking_quantity	thinreadcodes	13p4.00	Smoking free weeks	numeric
+Smoking_quantity	thinreadcodes	137F.00	Ex-smoker - amount unknown	numeric
+Smoking_quantity	thinreadcodes	137A.00	Ex-heavy smoker (20-39/day)	numeric
+Smoking_quantity	thinreadcodes	137S.00	Ex smoker	numeric
+Smoking_quantity	thinreadcodes	745H.00	Smoking cessation therapy	numeric
+Smoking_quantity	thinreadcodes	137T.00	Date ceased smoking	numeric
+Smoking_quantity	thinreadcodes	1372.00	Trivial smoker - < 1 cig/day	numeric
+Smoking_quantity	thinreadcodes	1374.00	Moderate smoker - 10-19 cigs/d	numeric
+Smoking_quantity	thinreadcodes	8IEM.00	Smoking cessation drug therapy declined	numeric
+Smoking_quantity	thinreadcodes	9hG1.00	Excepted from smoking quality indicators: Informed dissent	numeric
+Smoking_quantity	thinreadcodes	9kc..00	Smoking cessation - enhanced services administration	numeric
+Smoking_quantity	thinreadcodes	9N2k.00	Seen by smoking cessation advisor	numeric
+Smoking_quantity	thinreadcodes	9N4M.00	DNA - Did not attend smoking cessation clinic	numeric
+Smoking_quantity	thinreadcodes	9Ndg.00	Declined consent for follow-up by smoking cessation team	numeric
+Smoking_quantity	thinreadcodes	9NS0200	Referral for smoking cessation service offered	numeric
+Smoking_quantity	thinreadcodes	9OO..00	Anti-smoking monitoring admin.	numeric
+Smoking_quantity	thinreadcodes	9OO1.00	Attends stop smoking monitor.	numeric
+Smoking_quantity	thinreadcodes	9OO2.00	Refuses stop smoking monitor	numeric
+Smoking_quantity	thinreadcodes	9OO3.00	Stop smoking monitor default	numeric
+Smoking_quantity	thinreadcodes	9OO4.00	Stop smoking monitor 1st lettr	numeric
+Smoking_quantity	thinreadcodes	9OO5.00	Stop smoking monitor 2nd lettr	numeric
+Smoking_quantity	thinreadcodes	9OO6.00	Stop smoking monitor 3rd lettr	numeric
+Smoking_quantity	thinreadcodes	8IEK.00	Smoking cessation programme declined	numeric
+Smoking_quantity	thinreadcodes	9OO7.00	Stop smoking monitor verb.inv.	numeric
+Smoking_quantity	thinreadcodes	9OOZ.00	Stop smoking monitor admin.NOS	numeric
+Smoking_quantity	thinreadcodes	E023.00	Nicotine withdrawal	numeric
+Smoking_quantity	thinreadcodes	ZV6D800	[V]Tobacco abuse counselling	numeric
+Smoking_quantity	thinreadcodes	13p5.00	Smoking cessation programme start date	numeric
+Smoking_quantity	thinreadcodes	1371.11	Non-smoker	numeric
+Smoking_quantity	thinreadcodes	1372.11	Occasional smoker	numeric
+Smoking_quantity	thinreadcodes	9Ndf.00	Consent given for follow-up by smoking cessation team	numeric
+Smoking_quantity	thinreadcodes	9OO..12	Stop smoking monitoring admin.	numeric
+Smoking_quantity	thinreadcodes	H310100	Smokers' cough	numeric
+Smoking_quantity	thinreadcodes	ZG23300	Advice on smoking	numeric
+Smoking_quantity	thinreadcodes	13p1.00	Smoking status at 4 weeks	numeric
+Smoking_quantity	thinreadcodes	388B.00	Pack years	numeric
+Smoking_quantity	thinreadcodes	137g.00	Cigarette pack-years	numeric
+Smoking_quantity	thinreadcodes	13p2.00	Smoking status between 4 and 52 weeks	numeric
+Smoking_quantity	thinreadcodes	9OOA.00	Stop smoking monitor.chck done	numeric
+Smoking_quantity	thinreadcodes	1373.00	Light smoker - 1-9 cigs/day	numeric
+Smoking_quantity	thinreadcodes	8IAj.00	Smoking cessation advice declined	numeric
+Smoking_quantity	thinreadcodes	8HkQ.00	Referral to NHS stop smoking service	numeric
+Smoking_quantity	thinreadcodes	1375.00	Heavy smoker - 20-39 cigs/day	numeric
+Smoking_quantity	thinreadcodes	1376.00	Very heavy smoker - 40+cigs/d	numeric
+Smoking_quantity	thinreadcodes	137b.00	Ready to stop smoking	numeric
+Smoking_quantity	thinreadcodes	137C.00	Keeps trying to stop smoking	numeric
+Smoking_quantity	thinreadcodes	137c.00	Thinking about stopping smoking	numeric
+Smoking_quantity	thinreadcodes	137e.00	Smoking restarted	numeric
+Smoking_quantity	thinreadcodes	137G.00	Trying to give up smoking	numeric
+Smoking_quantity	thinreadcodes	137H.00	Pipe smoker	numeric
+Smoking_quantity	thinreadcodes	137J.00	Cigar smoker	numeric
+Smoking_quantity	thinreadcodes	137d.00	Not interested in stopping smoking	numeric
+Smoking_quantity	thinreadcodes	137f.00	Reason for restarting smoking	numeric
+Smoking_quantity	thinreadcodes	137h.00	Minutes from waking to first tobacco consumption	numeric
+Smoking_quantity	thinreadcodes	6791.00	Health ed. - smoking	numeric
+Smoking_quantity	thinreadcodes	6791000	Health education - parental smoking	numeric
+Smoking_quantity	thinreadcodes	8HTK.00	Referral to stop-smoking clinic	numeric
+Smoking_quantity	thinreadcodes	137m.00	Failed attempt to stop smoking	numeric
+Smoking_quantity	thinreadcodes	13p0.00	Negotiated date for cessation of smoking	numeric
+Smoking_quantity	thinreadcodes	13p8.00	Lost to smoking cessation follow-up	numeric
+Smoking_quantity	thinreadcodes	38DH.00	Fagerstr test for nicotine dep	numeric
+Smoking_quantity	thinreadcodes	67A3.00	Pregnancy smoking advice	numeric
+Smoking_quantity	thinreadcodes	67H1.00	Lifestyle advice regarding smoking	numeric
+Smoking_quantity	thinreadcodes	67H6.00	Brief intervention for smoking cessation	numeric
+Smoking_quantity	thinreadcodes	8B2B.00	Nicotine replacement therapy	numeric
+Smoking_quantity	thinreadcodes	8B3f.00	Nicotine replacement therapy provided free	numeric
+Smoking_quantity	thinreadcodes	8B3Y.00	Over the counter nicotine replacement therapy	numeric
+Smoking_quantity	thinreadcodes	8CAg.00	Smoking cessation advice provided by community pharmacist	numeric
+Smoking_quantity	thinreadcodes	8CAL.00	Smoking cessation advice	numeric
+Smoking_quantity	thinreadcodes	8CdB.00	Stop smoking service opportunity signposted	numeric
+Smoking_quantity	thinreadcodes	8H7i.00	Referral to smoking cessation advisor	numeric
+Smoking_quantity	thinreadcodes	8HBM.00	Stop smoking face to face follow-up	numeric
+Smoking_quantity	thinreadcodes	13p..00	Smoking cessation milestones	numeric
+Smoking_quantity	thinreadcodes	137L.00	Current non-smoker	numeric
+Smoking_quantity	thinreadcodes	1371.00	Never smoked tobacco	numeric
+Smoking_quantity	thinreadcodes	137K.00	Stopped smoking	numeric
+Smoking_quantity	thinreadcodes	1PC..00	User of electronic cigarette	numeric
+Smoking_quantity	thinreadcodes	67K1.00	Contemplation stage	numeric
+STARTDATE	thindemographic	startdate	startdate	numeric
+BDATE	thindemographic	dob	dob	numeric
+BYEAR	thindemographic	dob	dob	numeric
+DEATH	thindemographic	deathdte	deathdte	numeric
+ENDDATE	thindemographic	enddate	enddate	numeric
+GENDER	thindemographic	sex	sex	numeric
+PRAC	thindemographic	pracid	pracid	string
+Censor	thindemographic	startdate	startdate	numeric
+Censor	thindemographic	enddate	enddate	numeric
+Censor	thindemographic	xferdate	xferdate	numeric
+Censor	thindemographic	deathdte	deathdte	numeric

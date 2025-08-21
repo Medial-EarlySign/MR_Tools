@@ -1,0 +1,246 @@
+#!/bin/bash
+SCRIPT_PATH=${BASH_SOURCE[0]}
+PARENT_COMMAND=$(ps $PPID | tail -n 1 | awk "{print \$6}")
+PARENT_COMMAND=$(realpath ${PARENT_COMMAND%/*})
+CURR_PT=$(realpath ${SCRIPT_PATH%/*})
+SCRIPT_DIR=${CURR_PT}
+PROJECT_DIR=$1
+if [ -z "$PROJECT_DIR" ]; then
+	echo "Must provide directory path out of"
+	ls -1 ${CURR_PT}
+	exit -1
+fi
+ERROR_MODE=${2-R}
+if [ $ERROR_MODE != "A" ] && [ $ERROR_MODE != "C" ] && [ $ERROR_MODE != "S" ] && [ $ERROR_MODE != "R" ]; then
+	echo "ERROR_MODE is either: A,C,S,R"
+	echo -e "\tA - Ask on each error if to stop"
+	echo -e "\tS - Stop on first error"
+	echo -e "\tC - Continue till end and skip errors"
+    echo -e "\tR - Continue till end, retry on first error and stop on first error"
+	exit -1
+fi
+BASE_TESTS_DIR=${PARENT_COMMAND}/Tests
+HAS_TESTS_IN_PWD=$(ls -1 ${PARENT_COMMAND} | grep Tests | wc -l)
+if [ ${HAS_TESTS_IN_PWD} -lt 1 ]; then
+	echo "Error this script must be run from directory that has \"Tests\". run from ${PARENT_COMMAND}"
+	exit -1
+fi
+HAS_TESTS_IN_PWD=$(ls -1 ${PARENT_COMMAND} | grep configs | wc -l)
+if [ ${HAS_TESTS_IN_PWD} -lt 1 ]; then
+	echo "Error this script must be run from directory that has \"configs\" run from ${PARENT_COMMAND}"
+	exit -1
+fi
+set -e
+${CURR_PT}/resources/lib/test_python_version.py
+set +e
+
+CURR_PT=${CURR_PT}/${PROJECT_DIR}
+CFG_PATH=${PARENT_COMMAND}/configs
+
+source ${CFG_PATH}/env.sh
+
+
+mkdir -p ${WORK_DIR}
+mkdir -p ${WORK_DIR}/tmp
+
+#Get last status if applicable
+HAS_PAST_STATUS=0
+CAN_RUN=1
+LAST_STATUS_PATH=${WORK_DIR}/tmp/last_status
+
+if [ -f ${WORK_DIR}/tests_status.log ]; then
+	cp ${WORK_DIR}/tests_status.log ${LAST_STATUS_PATH}
+	HAS_PAST_STATUS=1
+fi
+
+#if defined, please try to take test from this folder and "override" tests from local folder: "${CURR_PT}/Tests".
+if [[ ! -z "${BASE_TESTS_DIR}" ]]; then
+	echo "Using Tests from ${BASE_TESTS_DIR} and overriding tests in ${CURR_PT}/Tests"
+	{ ls -1 ${CURR_PT}/Tests ; ls -1 ${BASE_TESTS_DIR} | awk '{print "OVERRIDES" "\t" $0}'; } | egrep -v "\sTemplates$" | egrep -v "\slib$" | sort | awk -F"\t" -v curr="${BASE_TESTS_DIR}" -v base="${CURR_PT}/Tests" '{ if (NF==2) { test_num=substr($2,1,2); tests[test_num] = curr "\t" $2 } else {test_num=substr($1,1,2); if (length(tests[test_num])==0) { tests[test_num] = base "\t" $1 } }  } END {for (num in tests) {print tests[num]}}' | sort -k2 > ${WORK_DIR}/tmp/full_test_list
+else
+	echo "Using Tests from ${CURR_PT}/Tests" 
+	ls -1 ${CURR_PT}/Tests | egrep -v "^Templates$" | egrep -v "^lib$" | sort | awk -v curr="${CURR_PT}/Tests" '{print curr "\t" $0}' > ${WORK_DIR}/tmp/full_test_list
+fi
+
+#Status: FINISHED_NEED_VERIFY, FINISHED_VERIFIED, FINISHED_FAILED, STOPPED_NEED_VERIFY, STOPPED_VERIFIED, STOPPED_FAILED, NOT_REACHED
+echo -e "Test\tStatus\tComment" > ${WORK_DIR}/tests_status.log
+
+#Run all tests by order in Tests dir - please add new script in this dir to be executed:
+cat ${WORK_DIR}/tmp/full_test_list | while IFS=$'\t' read -r -a test_kv
+do
+	test=${test_kv[1]}
+	directory_path=${test_kv[0]}
+	TEST_FINISH=0
+	TEST_NAME=${test%.*}
+	while [ ${TEST_FINISH} -eq 0 ]; do
+		echo "#####################################<BEGIN>################################"
+		echo "TEST :: ${test}  [From ${directory_path}]"
+
+		LAST_STATUS=""
+		if [ $HAS_PAST_STATUS -gt 0 ]; then
+			LAST_STATUS=$(awk -F"\t" -v test="$test" '$1==test {print $2}' ${LAST_STATUS_PATH})
+		fi
+		if [ -z "$LAST_STATUS" ]; then
+			LAST_STATUS="NOT_REACHED"
+		fi
+		#echo "LAST_STATUS = ${LAST_STATUS}"
+
+		if [ $LAST_STATUS == "FINISHED_VERIFIED" ] || [ $LAST_STATUS == "STOPPED_VERIFIED" ]; then
+			echo "Already verified ${test} - ${LAST_STATUS} - skipping"
+			LAST_COMMENT=$(awk -F"\t" -v test="$test" '$1==test {print $3}' ${LAST_STATUS_PATH})
+			echo -e "${test}\t${LAST_STATUS}\t${LAST_COMMENT}" >> ${WORK_DIR}/tests_status.log
+			TEST_FINISH=1
+			break
+		fi
+		if [ $LAST_STATUS == "FINISHED_FAILED" ] || [ $LAST_STATUS == "STOPPED_FAILED" ]; then
+			echo "Test ${test} failed - please fix the test, delete this status row and rerun"
+			LAST_COMMENT=$(awk -F"\t" -v test="$test" '$1==test {print $3}' ${LAST_STATUS_PATH})
+			echo -e "${test}\t${LAST_STATUS}\t${LAST_COMMENT}" >> ${WORK_DIR}/tests_status.log
+			TEST_FINISH=1
+			break
+		fi
+
+		if [ $LAST_STATUS == "FINISHED_NEED_VERIFY" ]; then
+			echo "Already done ${test}, need to verify - ${LAST_STATUS}"
+			if [ ${ERROR_MODE^} == "A" ]; then
+				read -p "Please verify test and mark it as: A for approved, N - not approved, R - Rerun, S - Skip: " new_status </dev/tty
+
+				if [ ${new_status^} == "A" ]; then
+					read -p "Do you want to write a comment? " user_comment </dev/tty
+					echo -e "${test}\tFINISHED_VERIFIED\t${user_comment}" >> ${WORK_DIR}/tests_status.log
+					TEST_FINISH=1
+					break
+				fi
+				if [ ${new_status^} == "N" ]; then
+					read -p "Do you want to write a comment? " user_comment </dev/tty
+					echo -e "${test}\tFINISHED_FAILED\t${user_comment}" >> ${WORK_DIR}/tests_status.log
+					TEST_FINISH=1
+					break
+				fi
+				if [ ${new_status^} != "R" ]; then
+					if [ ${new_status^} != "S" ]; then
+						echo "Treating your input as skip..."
+					fi
+					echo -e "${test}\tFINISHED_NEED_VERIFY\t${user_comment}" >> ${WORK_DIR}/tests_status.log
+					TEST_FINISH=1
+					break
+				fi
+			elif [ ${ERROR_MODE^} == "C" ]; then
+				LAST_COMMENT=$(awk -F"\t" -v test="$test" '$1==test {print $3}' ${LAST_STATUS_PATH})
+				echo -e "${test}\t${LAST_STATUS}\t${LAST_COMMENT}" >> ${WORK_DIR}/tests_status.log
+				echo "Please Verify the test ${test}! - Either change to FINISHED_VERIFIED, FINISHED_FAILED"
+				TEST_FINISH=1
+				break
+			else
+				LAST_COMMENT=$(awk -F"\t" -v test="$test" '$1==test {print $3}' ${LAST_STATUS_PATH})
+				echo -e "${test}\t${LAST_STATUS}\t${LAST_COMMENT}" >> ${WORK_DIR}/tests_status.log
+				echo "Please Verify the test ${test}! - Either change to FINISHED_VERIFIED, FINISHED_FAILED"
+				if [ ${ERROR_MODE^} == "S" ]; then
+					CAN_RUN=0
+				fi
+				TEST_FINISH=1
+				break
+			fi
+		fi
+
+		if [ $LAST_STATUS == "STOPPED_NEED_VERIFY" ]; then
+			echo "${test}, failed! - ${LAST_STATUS}"
+			if [ ${ERROR_MODE^} == "A" ]; then
+				read -p "Please verify test and mark it as: A for approved, N - not approved, R - Rerun, S - Skip: " new_status </dev/tty
+				if [ ${new_status^} == "A" ]; then
+					read -p "Do you want to write a comment? " user_comment </dev/tty
+					echo -e "${test}\tSTOPPED_VERIFIED\t${user_comment}" >> ${WORK_DIR}/tests_status.log
+					TEST_FINISH=1
+					break
+				fi
+				if [ ${new_status^} == "N" ]; then
+					read -p "Do you want to write a comment? " user_comment </dev/tty
+					echo -e "${test}\tSTOPPED_FAILED\t${user_comment}" >> ${WORK_DIR}/tests_status.log
+					TEST_FINISH=1
+					break
+				fi
+				if [ ${new_status^} != "R" ]; then
+					if [ ${new_status^} != "S" ]; then
+						echo "Treating your input as skip..."
+					fi
+					echo -e "${test}\tSTOPPED_NEED_VERIFY\t${user_comment}" >> ${WORK_DIR}/tests_status.log
+					TEST_FINISH=1
+					break
+				fi
+			elif [ ${ERROR_MODE^} == "C" ]; then
+				LAST_COMMENT=$(awk -F"\t" -v test="$test" '$1==test {print $3}' ${LAST_STATUS_PATH})
+				echo -e "${test}\t${LAST_STATUS}\t${LAST_COMMENT}" >> ${WORK_DIR}/tests_status.log
+				echo "Please Verify the test ${test}! - Either change to STOPPED_VERIFIED, STOPPED_FAILED"
+				TEST_FINISH=1
+				break
+			else
+				LAST_COMMENT=$(awk -F"\t" -v test="$test" '$1==test {print $3}' ${LAST_STATUS_PATH})
+				echo "Please Verify the test ${test}! - Either change to STOPPED_VERIFIED, STOPPED_FAILED"
+				if [ ${ERROR_MODE^} == "S" ]; then
+                    echo -e "${test}\t${LAST_STATUS}\t${LAST_COMMENT}" >> ${WORK_DIR}/tests_status.log
+                    CAN_RUN=0
+                    TEST_FINISH=1
+                    break
+                fi
+			fi
+		fi
+
+		#Not READCHED
+		if [ $CAN_RUN -lt 1 ]; then
+			echo -e "${test}\tNOT_REACHED\t" >> ${WORK_DIR}/tests_status.log
+			TEST_FINISH=1
+			break
+		fi
+		
+		#CAN_RUN > 0 - Either first time or rerun, never mind
+		OVERRIDE_FLAG=0
+		if [ LAST_STATUS != "NOT_REACHED" ]; then
+			OVERRIDE_FLAG=1
+		fi
+
+		#echo "RUNS ${directory_path}/${test} with ${CFG_PATH} ${OVERRIDE_FLAG}"
+		stdbuf -oL ${directory_path}/${test} "${CFG_PATH}" "${SCRIPT_DIR}" ${OVERRIDE_FLAG} 2>&1 | tee ${WORK_DIR}/${TEST_NAME}.log
+		RET_CODE=${PIPESTATUS[0]}
+		echo "######################################<END>#################################" 
+
+		#echo "RET CODE= ${RET_CODE}"
+		#Write Status in ${WORK_DIR}/tests_status.log
+		if [ $RET_CODE -eq 0 ]; then
+			echo -e "${test}\tFINISHED_NEED_VERIFY\t" >> ${WORK_DIR}/tests_status.log
+			TEST_FINISH=1
+		else
+			echo -e "${test}\tSTOPPED_NEED_VERIFY\t" >> ${WORK_DIR}/tests_status.log
+			if [ ${ERROR_MODE^} == "S" ] || [ ${ERROR_MODE^} == "R" ]; then
+				CAN_RUN=0
+				TEST_FINISH=1
+			elif [ ${ERROR_MODE^} == "A" ]; then
+				read -p "TEST ${test} Failed - please Answer if you want to Stop, or continue next tests? Y to continue, R - rerun, otherwise stops: " user_input </dev/tty
+				if [ ${user_input^} == "Y" ]; then
+					echo "OK, continuing..."
+					TEST_FINISH=1
+				elif [ ${user_input^} == "N" ]; then
+					echo "OK, stopping, skipping the rest of tests..."
+					CAN_RUN=0
+					TEST_FINISH=1
+				elif [ ${user_input^} == "R" ]; then
+					echo "OK, Rerruning"
+					#Remove last row
+					head -n -1 ${WORK_DIR}/tests_status.log > ${WORK_DIR}/tests_status2.log
+					mv ${WORK_DIR}/tests_status2.log ${WORK_DIR}/tests_status.log
+					TEST_FINISH=0
+					HAS_PAST_STATUS=0
+				else
+					#echo "Recieved ${user_input}"
+					echo "I don't unserstand your input - stopping, skipping the rest of tests..."
+					CAN_RUN=0
+					TEST_FINISH=1
+				fi
+			
+			fi
+			
+		fi
+		
+	done
+done
+
+echo "For test status ${WORK_DIR}/tests_status.log"

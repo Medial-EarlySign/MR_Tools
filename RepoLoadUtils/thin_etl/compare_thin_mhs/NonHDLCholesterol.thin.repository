@@ -1,0 +1,162 @@
+NonHDLCholesterol :: All :: With Values :: 3054126 / 14446692 =  0.21 :: 3054126 / 3054126 =  1.00
+NonHDLCholesterol :: Males :: With Values :: 1486209 / 6889335 =  0.22 :: 1486209 / 3054126 =  0.49
+NonHDLCholesterol :: Females :: With Values :: 1567917 / 7557357 =  0.21 :: 1567917 / 3054126 =  0.51
+NonHDLCholesterol :: General :: No. of Values :: All 12801576 Male 6467483 Female 6334093
+NonHDLCholesterol :: General :: No. of different days Values :: All 12801531 Male 6467457 Female 6334074
+NonHDLCholesterol :: General :: Avg #values per person (all) :: All  0.89 Male  0.94 Female  0.84
+NonHDLCholesterol :: General :: Avg #values per person (>0)  :: All  4.19 Male  4.35 Female  4.04
+NonHDLCholesterol :: General :: Avg dist between tests       :: All  453.3 Male  442.2 Female  465.0
+NonHDLCholesterol :: Counts :: Age Group 20 - 25 :: All ::  14238 0.001
+NonHDLCholesterol :: Counts :: Age Group 25 - 30 :: All ::  24050 0.002
+NonHDLCholesterol :: Counts :: Age Group 30 - 35 :: All ::  39517 0.003
+NonHDLCholesterol :: Counts :: Age Group 35 - 40 :: All ::  62396 0.005
+NonHDLCholesterol :: Counts :: Age Group 40 - 45 :: All :: 121385 0.009
+NonHDLCholesterol :: Counts :: Age Group 45 - 50 :: All :: 171817 0.013
+NonHDLCholesterol :: Counts :: Age Group 50 - 55 :: All :: 226755 0.018
+NonHDLCholesterol :: Counts :: Age Group 55 - 60 :: All :: 272229 0.021
+NonHDLCholesterol :: Counts :: Age Group 60 - 65 :: All :: 330819 0.026
+NonHDLCholesterol :: Counts :: Age Group 65 - 70 :: All :: 362827 0.028
+NonHDLCholesterol :: Counts :: Age Group 70 - 75 :: All :: 330946 0.026
+NonHDLCholesterol :: Counts :: Age Group 75 - 80 :: All :: 277508 0.022
+NonHDLCholesterol :: Counts :: Age Group 80 - 85 :: All :: 195229 0.015
+NonHDLCholesterol :: Counts :: Age Group 85 - 90 :: All :: 109462 0.009
+NonHDLCholesterol :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+NonHDLCholesterol :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+NonHDLCholesterol :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+NonHDLCholesterol :: Counts :: Age Group 20 - 25 :: Males ::   6150 0.001
+NonHDLCholesterol :: Counts :: Age Group 25 - 30 :: Males ::  10647 0.002
+NonHDLCholesterol :: Counts :: Age Group 30 - 35 :: Males ::  19720 0.003
+NonHDLCholesterol :: Counts :: Age Group 35 - 40 :: Males ::  33382 0.005
+NonHDLCholesterol :: Counts :: Age Group 40 - 45 :: Males ::  64558 0.010
+NonHDLCholesterol :: Counts :: Age Group 45 - 50 :: Males ::  92051 0.014
+NonHDLCholesterol :: Counts :: Age Group 50 - 55 :: Males :: 121442 0.019
+NonHDLCholesterol :: Counts :: Age Group 55 - 60 :: Males :: 144271 0.022
+NonHDLCholesterol :: Counts :: Age Group 60 - 65 :: Males :: 175129 0.027
+NonHDLCholesterol :: Counts :: Age Group 65 - 70 :: Males :: 190939 0.030
+NonHDLCholesterol :: Counts :: Age Group 70 - 75 :: Males :: 168090 0.026
+NonHDLCholesterol :: Counts :: Age Group 75 - 80 :: Males :: 133404 0.021
+NonHDLCholesterol :: Counts :: Age Group 80 - 85 :: Males ::  88092 0.014
+NonHDLCholesterol :: Counts :: Age Group 85 - 90 :: Males ::  44208 0.007
+NonHDLCholesterol :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+NonHDLCholesterol :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+NonHDLCholesterol :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+NonHDLCholesterol :: Counts :: Age Group 20 - 25 :: Females ::   8088 0.001
+NonHDLCholesterol :: Counts :: Age Group 25 - 30 :: Females ::  13403 0.002
+NonHDLCholesterol :: Counts :: Age Group 30 - 35 :: Females ::  19797 0.003
+NonHDLCholesterol :: Counts :: Age Group 35 - 40 :: Females ::  29014 0.005
+NonHDLCholesterol :: Counts :: Age Group 40 - 45 :: Females ::  56827 0.009
+NonHDLCholesterol :: Counts :: Age Group 45 - 50 :: Females ::  79766 0.013
+NonHDLCholesterol :: Counts :: Age Group 50 - 55 :: Females :: 105313 0.017
+NonHDLCholesterol :: Counts :: Age Group 55 - 60 :: Females :: 127958 0.020
+NonHDLCholesterol :: Counts :: Age Group 60 - 65 :: Females :: 155690 0.025
+NonHDLCholesterol :: Counts :: Age Group 65 - 70 :: Females :: 171888 0.027
+NonHDLCholesterol :: Counts :: Age Group 70 - 75 :: Females :: 162856 0.026
+NonHDLCholesterol :: Counts :: Age Group 75 - 80 :: Females :: 144104 0.023
+NonHDLCholesterol :: Counts :: Age Group 80 - 85 :: Females :: 107137 0.017
+NonHDLCholesterol :: Counts :: Age Group 85 - 90 :: Females ::  65254 0.010
+NonHDLCholesterol :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+NonHDLCholesterol :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+NonHDLCholesterol :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+NonHDLCholesterol :: Stats :: Age Group 20 - 25 :: All ::  N 70060 non-zeros 70060 Median 116.00 Mean 118.57 Std  41.92 Max 710.00
+NonHDLCholesterol :: Stats :: Age Group 25 - 30 :: All ::  N 109813 non-zeros 109813 Median 124.00 Mean 127.51 Std  45.62 Max 799.00
+NonHDLCholesterol :: Stats :: Age Group 30 - 35 :: All ::  N 165193 non-zeros 165193 Median 135.00 Mean 136.48 Std  47.86 Max 835.00
+NonHDLCholesterol :: Stats :: Age Group 35 - 40 :: All ::  N 244421 non-zeros 244421 Median 143.00 Mean 143.06 Std  48.93 Max 869.00
+NonHDLCholesterol :: Stats :: Age Group 40 - 45 :: All ::  N 396947 non-zeros 396946 Median 143.00 Mean 145.15 Std  49.24 Max 865.00
+NonHDLCholesterol :: Stats :: Age Group 45 - 50 :: All ::  N 485678 non-zeros 485674 Median 147.00 Mean 148.11 Std  49.87 Max 888.00
+NonHDLCholesterol :: Stats :: Age Group 50 - 55 :: All ::  N 546673 non-zeros 546670 Median 151.00 Mean 149.68 Std  50.72 Max 849.00
+NonHDLCholesterol :: Stats :: Age Group 55 - 60 :: All ::  N 590591 non-zeros 590588 Median 151.00 Mean 148.45 Std  50.62 Max 904.00
+NonHDLCholesterol :: Stats :: Age Group 60 - 65 :: All ::  N 619213 non-zeros 619210 Median 143.00 Mean 143.78 Std  49.88 Max 892.00
+NonHDLCholesterol :: Stats :: Age Group 65 - 70 :: All ::  N 590890 non-zeros 590885 Median 135.00 Mean 137.11 Std  49.91 Max 849.00
+NonHDLCholesterol :: Stats :: Age Group 70 - 75 :: All ::  N 502673 non-zeros 502669 Median 127.00 Mean 130.93 Std  49.19 Max 837.00
+NonHDLCholesterol :: Stats :: Age Group 75 - 80 :: All ::  N 399670 non-zeros 399668 Median 124.00 Mean 126.33 Std  48.49 Max 757.00
+NonHDLCholesterol :: Stats :: Age Group 80 - 85 :: All ::  N 284034 non-zeros 284032 Median 120.00 Mean 123.30 Std  48.38 Max 834.00
+NonHDLCholesterol :: Stats :: Age Group 85 - 90 :: All ::  N 157450 non-zeros 157449 Median 116.00 Mean 120.50 Std  47.86 Max 633.00
+NonHDLCholesterol :: Stats :: Age Group 90 - 95 :: All ::  N 58501 non-zeros 58499 Median 116.00 Mean 118.88 Std  47.85 Max 486.00
+NonHDLCholesterol :: Stats :: Age Group 95 - 100 :: All ::  N 11748 non-zeros 11748 Median 116.00 Mean 118.87 Std  47.17 Max 378.00
+NonHDLCholesterol :: General :: All     :: outliers ratio 0.000217
+NonHDLCholesterol :: General :: All     :: N 2992246 non-zeros 2992232 Median 139.00 Mean 139.76 Std  49.78 Max 884.00
+NonHDLCholesterol :: General :: All     :: distribution 0.001,0.01,0.05 ::   2.00   3.00  66.00 220.00 259.00 332.00
+NonHDLCholesterol :: General :: All     :: quartiles ::   2.00 108.00 139.00 170.00 
+NonHDLCholesterol :: General :: Males   :: outliers ratio 0.000192
+NonHDLCholesterol :: General :: Males   :: N 1456046 non-zeros 1456038 Median 139.00 Mean 140.12 Std  50.20 Max 890.00
+NonHDLCholesterol :: General :: Males   :: distribution 0.001,0.01,0.05 ::   2.00   3.00  66.00 220.00 259.00 340.00
+NonHDLCholesterol :: General :: Males   :: quartiles ::   2.00 108.00 139.00 170.00 
+NonHDLCholesterol :: General :: Females :: outliers ratio 0.000238
+NonHDLCholesterol :: General :: Females :: N 1536202 non-zeros 1536192 Median 139.00 Mean 139.49 Std  49.32 Max 873.00
+NonHDLCholesterol :: General :: Females :: distribution 0.001,0.01,0.05 ::   2.00   3.00  69.00 220.00 263.00 328.00
+NonHDLCholesterol :: General :: Females :: quartiles ::   2.00 108.00 139.00 170.00 
+NonHDLCholesterol :: Rounding ::  0.00 r  0.00 pct
+NonHDLCholesterol :: Rounding ::  0.01 r  0.00 pct
+NonHDLCholesterol :: Rounding ::  0.10 r  0.00 pct
+NonHDLCholesterol :: Rounding ::  1.00 r  0.90 pct
+NonHDLCholesterol :: Rounding :: 10.00 r  0.07 pct
+NonHDLCholesterol :: Rounding :: 100.00 r  0.02 pct
+NonHDLCholesterol :: Rounding :: 1000.00 r  0.00 pct
+NonHDLCholesterol :: Rounding :: most popular rounding for vals:  1.00
+NonHDLCholesterol :: Stats year :: 2000 :: All :: N 82730 non-zeros 82727 Median 162.00 Mean 160.27 Std  57.25 Max 1019.00
+NonHDLCholesterol :: Stats year :: 2001 :: All :: N 152387 non-zeros 152385 Median 158.00 Mean 157.40 Std  54.25 Max 942.00
+NonHDLCholesterol :: Stats year :: 2002 :: All :: N 244178 non-zeros 244174 Median 151.00 Mean 153.39 Std  51.96 Max 927.00
+NonHDLCholesterol :: Stats year :: 2003 :: All :: N 376725 non-zeros 376722 Median 147.00 Mean 148.35 Std  49.79 Max 883.00
+NonHDLCholesterol :: Stats year :: 2004 :: All :: N 539136 non-zeros 539135 Median 143.00 Mean 146.29 Std  47.92 Max 849.00
+NonHDLCholesterol :: Stats year :: 2005 :: All :: N 618677 non-zeros 618673 Median 139.00 Mean 141.43 Std  46.93 Max 821.00
+NonHDLCholesterol :: Stats year :: 2006 :: All :: N 701810 non-zeros 701805 Median 135.00 Mean 139.23 Std  45.61 Max 822.00
+NonHDLCholesterol :: Stats year :: 2007 :: All :: N 750547 non-zeros 750545 Median 133.00 Mean 137.56 Std  45.37 Max 813.00
+NonHDLCholesterol :: Stats year :: 2008 :: All :: N 801196 non-zeros 801195 Median 135.00 Mean 137.85 Std  45.44 Max 815.00
+NonHDLCholesterol :: Stats year :: 2009 :: All :: N 842277 non-zeros 842275 Median 135.00 Mean 137.25 Std  45.79 Max 811.00
+NonHDLCholesterol :: Stats year :: 2010 :: All :: N 850866 non-zeros 850866 Median 131.00 Mean 135.61 Std  46.45 Max 784.00
+NonHDLCholesterol :: Stats year :: 2011 :: All :: N 873363 non-zeros 873361 Median 131.00 Mean 134.65 Std  47.36 Max 799.00
+NonHDLCholesterol :: Stats year :: 2012 :: All :: N 891487 non-zeros 891481 Median 131.00 Mean 134.41 Std  47.35 Max 834.00
+NonHDLCholesterol :: Stats year :: 2013 :: All :: N 895960 non-zeros 895959 Median 131.00 Mean 133.46 Std  45.24 Max 803.00
+NonHDLCholesterol :: Stats year :: 2014 :: All :: N 808886 non-zeros 808883 Median 127.00 Mean 128.06 Std  49.60 Max 834.00
+NonHDLCholesterol :: Stats year :: 2015 :: All :: N 674142 non-zeros 674130 Median 116.00 Mean 110.13 Std  62.95 Max 961.00
+NonHDLCholesterol :: Stats year :: 2016 :: All :: N 24767 non-zeros 24767 Median 108.00 Mean  98.60 Std  72.11 Max 641.00
+NonHDLCholesterol :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+NonHDLCholesterol :: Stats year :: 2000 :: Males   :: N 44117 non-zeros 44115 Median 158.00 Mean 158.09 Std  56.47 Max 1004.00
+NonHDLCholesterol :: Stats year :: 2001 :: Males   :: N 80507 non-zeros 80507 Median 154.00 Mean 155.39 Std  53.49 Max 938.00
+NonHDLCholesterol :: Stats year :: 2002 :: Males   :: N 127442 non-zeros 127441 Median 151.00 Mean 151.15 Std  51.40 Max 890.00
+NonHDLCholesterol :: Stats year :: 2003 :: Males   :: N 193432 non-zeros 193431 Median 143.00 Mean 145.96 Std  49.06 Max 880.00
+NonHDLCholesterol :: Stats year :: 2004 :: Males   :: N 272213 non-zeros 272212 Median 143.00 Mean 143.81 Std  47.40 Max 849.00
+NonHDLCholesterol :: Stats year :: 2005 :: Males   :: N 310178 non-zeros 310176 Median 135.00 Mean 139.03 Std  46.37 Max 819.00
+NonHDLCholesterol :: Stats year :: 2006 :: Males   :: N 350823 non-zeros 350820 Median 131.00 Mean 136.97 Std  45.33 Max 795.00
+NonHDLCholesterol :: Stats year :: 2007 :: Males   :: N 376221 non-zeros 376220 Median 131.00 Mean 135.33 Std  45.19 Max 811.00
+NonHDLCholesterol :: Stats year :: 2008 :: Males   :: N 402619 non-zeros 402618 Median 131.00 Mean 135.40 Std  45.27 Max 795.00
+NonHDLCholesterol :: Stats year :: 2009 :: Males   :: N 422272 non-zeros 422272 Median 131.00 Mean 134.93 Std  45.75 Max 811.00
+NonHDLCholesterol :: Stats year :: 2010 :: Males   :: N 427524 non-zeros 427524 Median 131.00 Mean 133.17 Std  46.40 Max 776.00
+NonHDLCholesterol :: Stats year :: 2011 :: Males   :: N 438179 non-zeros 438177 Median 127.00 Mean 132.10 Std  47.21 Max 795.00
+NonHDLCholesterol :: Stats year :: 2012 :: Males   :: N 445917 non-zeros 445916 Median 127.00 Mean 131.95 Std  47.41 Max 834.00
+NonHDLCholesterol :: Stats year :: 2013 :: Males   :: N 446275 non-zeros 446275 Median 127.00 Mean 130.84 Std  45.22 Max 803.00
+NonHDLCholesterol :: Stats year :: 2014 :: Males   :: N 401069 non-zeros 401066 Median 124.00 Mean 125.52 Std  49.36 Max 834.00
+NonHDLCholesterol :: Stats year :: 2015 :: Males   :: N 335362 non-zeros 335356 Median 116.00 Mean 107.66 Std  62.48 Max 757.00
+NonHDLCholesterol :: Stats year :: 2016 :: Males   :: N 12705 non-zeros 12705 Median 104.00 Mean  96.02 Std  71.36 Max 641.00
+NonHDLCholesterol :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+NonHDLCholesterol :: Stats year :: 2000 :: Females :: N 38607 non-zeros 38606 Median 162.00 Mean 162.77 Std  57.74 Max 1019.00
+NonHDLCholesterol :: Stats year :: 2001 :: Females :: N 71881 non-zeros 71879 Median 158.00 Mean 159.69 Std  54.95 Max 942.00
+NonHDLCholesterol :: Stats year :: 2002 :: Females :: N 116742 non-zeros 116739 Median 154.00 Mean 155.93 Std  52.56 Max 934.00
+NonHDLCholesterol :: Stats year :: 2003 :: Females :: N 183294 non-zeros 183291 Median 151.00 Mean 150.85 Std  50.39 Max 789.00
+NonHDLCholesterol :: Stats year :: 2004 :: Females :: N 266921 non-zeros 266921 Median 147.00 Mean 148.89 Std  48.43 Max 849.00
+NonHDLCholesterol :: Stats year :: 2005 :: Females :: N 308496 non-zeros 308495 Median 139.00 Mean 143.87 Std  47.35 Max 821.00
+NonHDLCholesterol :: Stats year :: 2006 :: Females :: N 350987 non-zeros 350986 Median 139.00 Mean 141.49 Std  45.71 Max 793.00
+NonHDLCholesterol :: Stats year :: 2007 :: Females :: N 374327 non-zeros 374325 Median 135.00 Mean 139.82 Std  45.45 Max 813.00
+NonHDLCholesterol :: Stats year :: 2008 :: Females :: N 398585 non-zeros 398584 Median 135.00 Mean 140.29 Std  45.49 Max 749.00
+NonHDLCholesterol :: Stats year :: 2009 :: Females :: N 420006 non-zeros 420005 Median 135.00 Mean 139.59 Std  45.78 Max 680.00
+NonHDLCholesterol :: Stats year :: 2010 :: Females :: N 423347 non-zeros 423346 Median 135.00 Mean 138.09 Std  46.41 Max 784.00
+NonHDLCholesterol :: Stats year :: 2011 :: Females :: N 435186 non-zeros 435186 Median 135.00 Mean 137.17 Std  47.30 Max 695.00
+NonHDLCholesterol :: Stats year :: 2012 :: Females :: N 445568 non-zeros 445565 Median 135.00 Mean 136.91 Std  47.20 Max 610.00
+NonHDLCholesterol :: Stats year :: 2013 :: Females :: N 449689 non-zeros 449688 Median 131.00 Mean 136.07 Std  45.13 Max 784.00
+NonHDLCholesterol :: Stats year :: 2014 :: Females :: N 407813 non-zeros 407812 Median 131.00 Mean 130.52 Std  49.73 Max 683.00
+NonHDLCholesterol :: Stats year :: 2015 :: Females :: N 338777 non-zeros 338771 Median 120.00 Mean 112.57 Std  63.30 Max 907.00
+NonHDLCholesterol :: Stats year :: 2016 :: Females :: N 12062 non-zeros 12062 Median 112.00 Mean 101.27 Std  72.79 Max 490.00
+NonHDLCholesterol :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+NonHDLCholesterol :: Stats month 1 :: All :: N 549349 non-zeros 549345 Median 135.00 Mean 136.88 Std  50.41 Max 757.00
+NonHDLCholesterol :: Stats month 2 :: All :: N 541574 non-zeros 541571 Median 135.00 Mean 136.95 Std  48.15 Max 849.00
+NonHDLCholesterol :: Stats month 3 :: All :: N 564935 non-zeros 564934 Median 135.00 Mean 136.94 Std  48.08 Max 837.00
+NonHDLCholesterol :: Stats month 4 :: All :: N 499448 non-zeros 499445 Median 135.00 Mean 136.20 Std  48.13 Max 857.00
+NonHDLCholesterol :: Stats month 5 :: All :: N 512358 non-zeros 512357 Median 131.00 Mean 134.92 Std  48.32 Max 835.00
+NonHDLCholesterol :: Stats month 6 :: All :: N 527799 non-zeros 527798 Median 131.00 Mean 133.23 Std  49.39 Max 849.00
+NonHDLCholesterol :: Stats month 7 :: All :: N 536982 non-zeros 536978 Median 131.00 Mean 132.41 Std  50.30 Max 869.00
+NonHDLCholesterol :: Stats month 8 :: All :: N 506274 non-zeros 506273 Median 131.00 Mean 133.44 Std  50.53 Max 888.00
+NonHDLCholesterol :: Stats month 9 :: All :: N 537285 non-zeros 537283 Median 131.00 Mean 133.76 Std  50.98 Max 811.00
+NonHDLCholesterol :: Stats month 10 :: All :: N 564660 non-zeros 564655 Median 131.00 Mean 133.87 Std  51.10 Max 869.00
+NonHDLCholesterol :: Stats month 11 :: All :: N 551493 non-zeros 551488 Median 135.00 Mean 134.30 Std  51.34 Max 903.00
+NonHDLCholesterol :: Stats month 12 :: All :: N 441586 non-zeros 441585 Median 131.00 Mean 132.47 Std  51.47 Max 896.00
+

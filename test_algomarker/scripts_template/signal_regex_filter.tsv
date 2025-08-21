@@ -1,0 +1,2 @@
+DIAGNOSIS	ICD9_CODE:.*
+SEX	Male|Female

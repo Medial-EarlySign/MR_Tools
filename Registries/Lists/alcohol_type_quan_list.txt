@@ -1,0 +1,114 @@
+read_codes	type	quantity	desc	freq_medical	freq_ahd
+136..00	3	-9	Alcohol consumption                                         	47023	9321560.0
+1362.12	3	-9	Drinks occasionally                                         	924	1634561.0
+1362.11	2	1	Drinks rarely                                               	669	1336668.0
+1362.00	2	1	Trivial drinker - <1u/day                                   	4985	1139574.0
+1363.00	2	7	Light drinker - 1-2u/day                                    	2402	811403.0
+38D4.00	6	-9	Alcohol use disorder identificatn test consumptn questionnre	32437	690662.0
+136L.00	2	7	Alcohol intake within recommended sensible limits           	8481	602912.0
+388u.00	6	-9	Fast alcohol screening test                                 	38106	562366.0
+1367.00	1	-9	Stopped drinking alcohol                                    	3809	483342.0
+6792.00	2	-9	Health ed. - alcohol                                        	80406	455336.0
+1364.00	2	30	Moderate drinker - 3-6u/day                                 	2074	438490.0
+1361.12	4	0	Non-drinker alcohol                                         	266	364578.0
+1361.11	4	0	Non drinker alcohol                                         	675	305138.0
+136M.00	5	0	Current non drinker                                         	1349	235267.0
+136Z.00	2	-9	Alcohol consumption NOS                                     	2184	197611.0
+136J.00	3	-9	Social drinker                                              	435	194911.0
+38D3.00	6	-9	Alcohol use disorders identification test                   	7444	136065.0
+136K.00	7	-9	Alcohol intake above recommended sensible limits            	4599	93104.0
+8CAM.00	2	-9	Patient advised about alcohol                               	50654	87156.0
+136V.00	3	-9	Alcohol units per week                                      	13	75066.0
+136G.00	3	-9	Beer drinker                                                	352	70481.0
+136I.00	3	-9	Drinks wine                                                 	134	65495.0
+1365.00	2	56	Heavy drinker - 7-9u/day                                    	2281	64627.0
+67H0.00	2	-9	Lifestyle advice regarding alcohol                          	52567	39731.0
+1366.00	2	70	Very heavy drinker - >9u/day                                	781	37430.0
+136N.00	2	7	Light drinker                                               	24	24124.0
+136F.00	2	-9	Spirit drinker                                              	145	21504.0
+136R.00	2	-9	Binge drinker                                               	2454	18218.0
+E23..12	7	-9	Alcohol problem drinking                                    	99874	14844.0
+136O.00	2	30	Moderate drinker                                            	37	14103.0
+136H.00	2	-9	Drinks beer and spirits                                     	51	11741.0
+136P.00	2	56	Heavy drinker                                               	4686	9869.0
+136S.00	2	-9	Hazardous alcohol use                                       	5730	9586.0
+136T.00	2	-9	Harmful alcohol use                                         	7356	8518.0
+136X.00	2	-9	Alcohol units consumed on heaviest drinking day             	1148	8316.0
+136D.00	1	56	Ex-heavy drinker - (7-9u/day)                               	37	6177.0
+136A.00	1	1	Ex-trivial drinker (<1u/day)                                	3	6111.0
+136E.00	1	70	Ex-very heavy drinker-(>9u/d)                               	78	6013.0
+136C.00	1	30	Ex-moderate drinker - (3-6u/d)                              	4	3824.0
+136B.00	1	7	Ex-light drinker - (1-2u/day)                               	2	3633.0
+136Q.00	2	70	Very heavy drinker                                          	219	2815.0
+E250000	2	-9	Nondependent alcohol abuse, unspecified                     	36042	2322.0
+136W.00	2	-9	Alcohol misuse                                              	586	2111.0
+9k11.00	2	-9	Alcohol consumption counselling                             	28581	1860.0
+E250.00	2	-9	Nondependent alcohol abuse                                  	47459	1605.0
+8CAv.00	2	-9	Advised to contact primary care alcohol worker              	17	1363.0
+136b.00	2	-9	Feels should cut down drinking                              	40	1054.0
+E23..00	7	-9	Alcohol dependence syndrome                                 	198819	950.0
+E250200	2	-9	Nondependent alcohol abuse, episodic                        	2252	728.0
+E23..11	7	-9	Alcoholism                                                  	49564	704.0
+J612.00	7	-9	Alcoholic cirrhosis of liver                                	10186	331.0
+8IAF.00	2	-9	Brief intervention for excessive alcohol consumptn declined 	8789	270.0
+8IAJ.00	2	-9	Declined referral to specialist alcohol treatment service   	1064	261.0
+Z786200	2	-9	Drinking practice                                           	277	134.0
+8BA8.00	7	-9	Alcohol detoxification                                      	58911	121.0
+Eu10211	7	-9	[X]Alcohol addiction                                        	2258	119.0
+13Y8.00	2	-9	Alcoholics anonymous                                        	1352	63.0
+J610.00	2	-9	Alcoholic fatty liver                                       	5115	57.0
+8H7p.00	2	-9	Referral to community alcohol team                          	21022	50.0
+Eu10.00	2	-9	[X]Mental and behavioural disorders due to use of alcohol   	1236	49.0
+E250.14	2	-9	Intoxication - alcohol                                      	33497	47.0
+G555.00	7	-9	Alcoholic cardiomyopathy                                    	1002	43.0
+E230.00	7	-9	Acute alcoholic intoxication in alcoholism                  	5393	37.0
+9k1B.00	2	-9	Extended intervention for excessive alcohol consumptn complt	4107	37.0
+9k14.00	2	-9	Alcohol counselling by other agencies                       	745	36.0
+ZV4KC00	2	-9	[V] Alcohol use                                             	6022	34.0
+J611.00	2	-9	Acute alcoholic hepatitis                                   	3559	31.0
+8HkJ.00	2	-9	Referral to alcohol brief intervention service              	337	31.0
+E231.00	7	-9	Chronic alcoholism                                          	2669	26.0
+J613000	2	-9	Alcoholic hepatic failure                                   	376	25.0
+E250100	2	-9	Nondependent alcohol abuse, continuous                      	769	24.0
+Eu10212	7	-9	[X]Chronic alcoholism                                       	1788	23.0
+J617.00	2	-9	Alcoholic hepatitis                                         	2953	21.0
+E01y000	7	-9	Alcohol withdrawal syndrome                                 	31468	19.0
+J153.00	2	-9	Alcoholic gastritis                                         	7430	19.0
+8HkG.00	2	-9	Referral to specialist alcohol treatment service            	2976	15.0
+G852300	7	-9	Oesophageal varices in alcoholic cirrhosis of the liver     	394	10.0
+E011000	7	-9	Korsakov's alcoholic psychosis                              	1620	6.0
+E010.00	7	-9	Alcohol withdrawal delirium                                 	1289	5.0
+F11x011	7	-9	Alcoholic encephalopathy                                    	473	5.0
+E231z00	7	-9	Chronic alcoholism NOS                                      	2188	4.0
+E23z.00	7	-9	Alcohol dependence syndrome NOS                             	7526	4.0
+Eu10712	7	-9	[X]Chronic alcoholic brain syndrome                         	152	3.0
+F375.00	7	-9	Alcoholic polyneuropathy                                    	1191	3.0
+F11x000	7	-9	Cerebral degeneration due to alcoholism                     	87	2.0
+J617000	7	-9	Chronic alcoholic hepatitis                                 	135	2.0
+E231300	7	-9	Chronic alcoholism in remission                             	360	1.0
+E231100	7	-9	Continuous chronic alcoholism                               	504	1.0
+Eu10200	7	-9	[X]Mental and behav dis due to use alcohol: dependence syndr	892	1.0
+E230000	7	-9	Acute alcoholic intoxication, unspecified, in alcoholism    	167	1.0
+E013.00	7	-9	Alcohol withdrawal hallucinosis                             	229	1.0
+E230z00	7	-9	Acute alcoholic intoxication in alcoholism NOS              	232	1.0
+Eu10411	7	-9	[X]Delirium tremens, alcohol induced                        	1303	1.0
+Eu10800	7	-9	[X]Alcohol withdrawal-induced seizure                       	4891	
+E010.12	7	-9	Delirium tremens                                            	1612	
+8H35.00	7	-9	Admitted to alcohol detoxification centre                   	1596	
+E010.11	7	-9	DTs - delirium tremens                                      	993	
+C253.00	7	-9	Wernicke's encephalopathy                                   	669	
+J671000	7	-9	Alcohol-induced chronic pancreatitis                        	616	
+E231200	7	-9	Episodic chronic alcoholism                                 	397	
+Z191.00	7	-9	Alcohol detoxification                                      	303	
+E231000	7	-9	Unspecified chronic alcoholism                              	260	
+Eu10300	7	-9	[X]Mental and behav dis due to use alcohol: withdrawal state	180	
+E230300	7	-9	Acute alcoholic intoxication in remission, in alcoholism    	165	
+F394100	7	-9	Alcoholic myopathy                                          	156	
+Eu10400	7	-9	[X]Men & behav dis due alcohl: withdrawl state with delirium	109	
+E011100	7	-9	Korsakov's alcoholic psychosis with peripheral neuritis     	91	
+E230200	7	-9	Episodic acute alcoholic intoxication in alcoholism         	88	
+E012000	7	-9	Chronic alcoholic brain syndrome                            	85	
+E230.11	7	-9	Alcohol dependence with acute alcoholic intoxication        	83	
+E231.11	7	-9	Dipsomania                                                  	39	
+E230100	7	-9	Continuous acute alcoholic intoxication in alcoholism       	37	
+Eu10213	7	-9	[X]Dipsomania                                               	2	

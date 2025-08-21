@@ -1,0 +1,36 @@
+GENERIC_SIGNAL_TYPE	my_SVal	V(i)
+GENERIC_SIGNAL_TYPE	my_SDateVal	T(i),V(f)
+GENERIC_SIGNAL_TYPE	my_SDateIVal	T(i),V(i)
+GENERIC_SIGNAL_TYPE	my_STimeStamp	T(l)
+GENERIC_SIGNAL_TYPE	my_SDateRange	T(i,i)
+GENERIC_SIGNAL_TYPE	my_SDateRangeVal	T(i,i),V(i)
+SIGNAL	GENDER	100	16:my_SVal		1
+SIGNAL	BDATE	101	16:my_STimeStamp		0
+SIGNAL	BYEAR	102	16:my_SVal		0
+SIGNAL	DEATH	103	16:my_STimeStamp		0
+SIGNAL	ADMISSION	104	16:my_SDateRangeVal		1
+SIGNAL	Cancer_Location	105	16:my_SDateVal		1
+SIGNAL	Diagnosis	106	16:my_SDateIVal		1
+SIGNAL	Procedure	107	16:my_SDateIVal		1
+SIGNAL	Membership	108	16:my_SDateRange		0
+SIGNAL	TRAIN	109	16:my_SVal		0
+SIGNAL	Basophils#	200	16:my_SDateVal		0
+SIGNAL	Basophils%	201	16:my_SDateVal		0
+SIGNAL	Eosinophils#	202	16:my_SDateVal		0
+SIGNAL	Eosinophils%	203	16:my_SDateVal		0
+SIGNAL	Hematocrit	204	16:my_SDateVal		0
+SIGNAL	Hemoglobin	205	16:my_SDateVal		0
+SIGNAL	Lymphocytes#	206	16:my_SDateVal		0
+SIGNAL	Lymphocytes%	207	16:my_SDateVal		0
+SIGNAL	MCH	208	16:my_SDateVal		0
+SIGNAL	MCHC-M	209	16:my_SDateVal		0
+SIGNAL	MCV	210	16:my_SDateVal		0
+SIGNAL	Monocytes#	211	16:my_SDateVal		0
+SIGNAL	Monocytes%	212	16:my_SDateVal		0
+SIGNAL	Neutrophils#	213	16:my_SDateVal		0
+SIGNAL	Neutrophils%	214	16:my_SDateVal		0
+SIGNAL	Platelets	215	16:my_SDateVal		0
+SIGNAL	RBC	216	16:my_SDateVal		0
+SIGNAL	RDW	217	16:my_SDateVal		0
+SIGNAL	WBC	218	16:my_SDateVal		0
+SIGNAL	MPV	219	16:my_SDateVal		0

@@ -1,0 +1,162 @@
+UrineAlbumin :: All :: With Values :: 336032 / 14446692 =  0.02 :: 336032 / 336032 =  1.00
+UrineAlbumin :: Males :: With Values :: 170858 / 6889335 =  0.02 :: 170858 / 336032 =  0.51
+UrineAlbumin :: Females :: With Values :: 165174 / 7557357 =  0.02 :: 165174 / 336032 =  0.49
+UrineAlbumin :: General :: No. of Values :: All 1144241 Male 602261 Female 541980
+UrineAlbumin :: General :: No. of different days Values :: All 1141995 Male 600925 Female 541070
+UrineAlbumin :: General :: Avg #values per person (all) :: All  0.08 Male  0.09 Female  0.07
+UrineAlbumin :: General :: Avg #values per person (>0)  :: All  3.40 Male  3.52 Female  3.28
+UrineAlbumin :: General :: Avg dist between tests       :: All  368.0 Male  363.3 Female  373.3
+UrineAlbumin :: Counts :: Age Group 20 - 25 :: All ::    654 0.001
+UrineAlbumin :: Counts :: Age Group 25 - 30 :: All ::   1076 0.001
+UrineAlbumin :: Counts :: Age Group 30 - 35 :: All ::   1590 0.001
+UrineAlbumin :: Counts :: Age Group 35 - 40 :: All ::   2682 0.002
+UrineAlbumin :: Counts :: Age Group 40 - 45 :: All ::   5080 0.004
+UrineAlbumin :: Counts :: Age Group 45 - 50 :: All ::   8790 0.008
+UrineAlbumin :: Counts :: Age Group 50 - 55 :: All ::  13019 0.011
+UrineAlbumin :: Counts :: Age Group 55 - 60 :: All ::  17768 0.016
+UrineAlbumin :: Counts :: Age Group 60 - 65 :: All ::  23969 0.021
+UrineAlbumin :: Counts :: Age Group 65 - 70 :: All ::  31140 0.027
+UrineAlbumin :: Counts :: Age Group 70 - 75 :: All ::  33143 0.029
+UrineAlbumin :: Counts :: Age Group 75 - 80 :: All ::  33775 0.030
+UrineAlbumin :: Counts :: Age Group 80 - 85 :: All ::  28056 0.025
+UrineAlbumin :: Counts :: Age Group 85 - 90 :: All ::  17733 0.015
+UrineAlbumin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+UrineAlbumin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+UrineAlbumin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+UrineAlbumin :: Counts :: Age Group 20 - 25 :: Males ::    311 0.001
+UrineAlbumin :: Counts :: Age Group 25 - 30 :: Males ::    517 0.001
+UrineAlbumin :: Counts :: Age Group 30 - 35 :: Males ::    832 0.001
+UrineAlbumin :: Counts :: Age Group 35 - 40 :: Males ::   1501 0.002
+UrineAlbumin :: Counts :: Age Group 40 - 45 :: Males ::   2903 0.005
+UrineAlbumin :: Counts :: Age Group 45 - 50 :: Males ::   5212 0.009
+UrineAlbumin :: Counts :: Age Group 50 - 55 :: Males ::   7758 0.013
+UrineAlbumin :: Counts :: Age Group 55 - 60 :: Males ::  10589 0.018
+UrineAlbumin :: Counts :: Age Group 60 - 65 :: Males ::  13984 0.023
+UrineAlbumin :: Counts :: Age Group 65 - 70 :: Males ::  17657 0.029
+UrineAlbumin :: Counts :: Age Group 70 - 75 :: Males ::  17891 0.030
+UrineAlbumin :: Counts :: Age Group 75 - 80 :: Males ::  17149 0.028
+UrineAlbumin :: Counts :: Age Group 80 - 85 :: Males ::  13075 0.022
+UrineAlbumin :: Counts :: Age Group 85 - 90 :: Males ::   7431 0.012
+UrineAlbumin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+UrineAlbumin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+UrineAlbumin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+UrineAlbumin :: Counts :: Age Group 20 - 25 :: Females ::    343 0.001
+UrineAlbumin :: Counts :: Age Group 25 - 30 :: Females ::    559 0.001
+UrineAlbumin :: Counts :: Age Group 30 - 35 :: Females ::    758 0.001
+UrineAlbumin :: Counts :: Age Group 35 - 40 :: Females ::   1181 0.002
+UrineAlbumin :: Counts :: Age Group 40 - 45 :: Females ::   2177 0.004
+UrineAlbumin :: Counts :: Age Group 45 - 50 :: Females ::   3578 0.007
+UrineAlbumin :: Counts :: Age Group 50 - 55 :: Females ::   5261 0.010
+UrineAlbumin :: Counts :: Age Group 55 - 60 :: Females ::   7179 0.013
+UrineAlbumin :: Counts :: Age Group 60 - 65 :: Females ::   9985 0.018
+UrineAlbumin :: Counts :: Age Group 65 - 70 :: Females ::  13483 0.025
+UrineAlbumin :: Counts :: Age Group 70 - 75 :: Females ::  15252 0.028
+UrineAlbumin :: Counts :: Age Group 75 - 80 :: Females ::  16626 0.031
+UrineAlbumin :: Counts :: Age Group 80 - 85 :: Females ::  14981 0.028
+UrineAlbumin :: Counts :: Age Group 85 - 90 :: Females ::  10302 0.019
+UrineAlbumin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+UrineAlbumin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+UrineAlbumin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+UrineAlbumin :: Stats :: Age Group 20 - 25 :: All ::  N 2758 non-zeros 2745 Median   7.00 Mean  41.52 Std 167.16 Max 2218.00
+UrineAlbumin :: Stats :: Age Group 25 - 30 :: All ::  N 3904 non-zeros 3879 Median   8.00 Mean  49.20 Std 185.05 Max 2634.00
+UrineAlbumin :: Stats :: Age Group 30 - 35 :: All ::  N 6032 non-zeros 6008 Median   8.00 Mean  46.00 Std 153.14 Max 2001.00
+UrineAlbumin :: Stats :: Age Group 35 - 40 :: All ::  N 9589 non-zeros 9562 Median   8.00 Mean  48.32 Std 175.52 Max 2606.00
+UrineAlbumin :: Stats :: Age Group 40 - 45 :: All ::  N 16565 non-zeros 16508 Median   7.00 Mean  40.21 Std 139.01 Max 2116.00
+UrineAlbumin :: Stats :: Age Group 45 - 50 :: All ::  N 25228 non-zeros 25154 Median   7.00 Mean  35.72 Std 116.52 Max 1779.00
+UrineAlbumin :: Stats :: Age Group 50 - 55 :: All ::  N 34384 non-zeros 34296 Median   7.00 Mean  33.14 Std 109.05 Max 1652.00
+UrineAlbumin :: Stats :: Age Group 55 - 60 :: All ::  N 43751 non-zeros 43620 Median   6.00 Mean  30.52 Std 101.23 Max 1542.00
+UrineAlbumin :: Stats :: Age Group 60 - 65 :: All ::  N 56280 non-zeros 56112 Median   6.00 Mean  28.57 Std  91.90 Max 1401.00
+UrineAlbumin :: Stats :: Age Group 65 - 70 :: All ::  N 65761 non-zeros 65569 Median   6.00 Mean  29.33 Std  92.26 Max 1413.00
+UrineAlbumin :: Stats :: Age Group 70 - 75 :: All ::  N 66691 non-zeros 66500 Median   6.00 Mean  32.34 Std  98.70 Max 1512.00
+UrineAlbumin :: Stats :: Age Group 75 - 80 :: All ::  N 64187 non-zeros 64034 Median   7.00 Mean  35.39 Std 104.74 Max 1600.00
+UrineAlbumin :: Stats :: Age Group 80 - 85 :: All ::  N 51465 non-zeros 51370 Median   9.00 Mean  38.77 Std 106.74 Max 1631.00
+UrineAlbumin :: Stats :: Age Group 85 - 90 :: All ::  N 31759 non-zeros 31710 Median  10.00 Mean  43.11 Std 110.91 Max 1697.00
+UrineAlbumin :: Stats :: Age Group 90 - 95 :: All ::  N 12351 non-zeros 12340 Median  13.00 Mean  46.40 Std 109.08 Max 1637.00
+UrineAlbumin :: Stats :: Age Group 95 - 100 :: All ::  N 2436 non-zeros 2432 Median  17.00 Mean  55.14 Std 126.99 Max 1816.00
+UrineAlbumin :: General :: All     :: outliers ratio 0.002480
+UrineAlbumin :: General :: All     :: N 332249 non-zeros 331366 Median   7.00 Mean  35.20 Std 108.92 Max 1668.00
+UrineAlbumin :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.00   1.00   2.00 147.00 521.00 1372.00
+UrineAlbumin :: General :: All     :: quartiles ::   1.00   4.00   7.00  20.00 
+UrineAlbumin :: General :: Males   :: outliers ratio 0.001853
+UrineAlbumin :: General :: Males   :: N 169135 non-zeros 168719 Median   8.00 Mean  44.85 Std 140.73 Max 2149.00
+UrineAlbumin :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.00   1.00   2.00 196.00 675.00 1800.00
+UrineAlbumin :: General :: Males   :: quartiles ::   1.00   5.00   8.00  25.00 
+UrineAlbumin :: General :: Females :: outliers ratio 0.002805
+UrineAlbumin :: General :: Females :: N 163167 non-zeros 162659 Median   6.00 Mean  26.52 Std  79.89 Max 1224.00
+UrineAlbumin :: General :: Females :: distribution 0.001,0.01,0.05 ::   1.00   1.00   2.00 101.00 404.00 1000.00
+UrineAlbumin :: General :: Females :: quartiles ::   1.00   4.00   6.00  16.00 
+UrineAlbumin :: Rounding ::  0.00 r  0.00 pct
+UrineAlbumin :: Rounding ::  0.01 r  0.00 pct
+UrineAlbumin :: Rounding ::  0.10 r  0.00 pct
+UrineAlbumin :: Rounding ::  1.00 r  0.93 pct
+UrineAlbumin :: Rounding :: 10.00 r  0.06 pct
+UrineAlbumin :: Rounding :: 100.00 r  0.01 pct
+UrineAlbumin :: Rounding :: 1000.00 r  0.00 pct
+UrineAlbumin :: Rounding :: most popular rounding for vals:  1.00
+UrineAlbumin :: Stats year :: 2000 :: All :: N 2145 non-zeros 2127 Median   9.00 Mean  39.38 Std 103.45 Max 1350.00
+UrineAlbumin :: Stats year :: 2001 :: All :: N 3325 non-zeros 3313 Median   9.00 Mean  40.73 Std 128.44 Max 1937.00
+UrineAlbumin :: Stats year :: 2002 :: All :: N 6402 non-zeros 6379 Median   8.00 Mean  37.20 Std 111.58 Max 1703.00
+UrineAlbumin :: Stats year :: 2003 :: All :: N 13455 non-zeros 13388 Median   8.00 Mean  32.69 Std  99.98 Max 1530.00
+UrineAlbumin :: Stats year :: 2004 :: All :: N 21689 non-zeros 21612 Median   8.00 Mean  31.47 Std  90.08 Max 1361.00
+UrineAlbumin :: Stats year :: 2005 :: All :: N 30058 non-zeros 29948 Median   8.00 Mean  30.46 Std  88.96 Max 1362.00
+UrineAlbumin :: Stats year :: 2006 :: All :: N 40468 non-zeros 40311 Median   8.00 Mean  29.14 Std  82.91 Max 1260.00
+UrineAlbumin :: Stats year :: 2007 :: All :: N 48054 non-zeros 47918 Median   7.00 Mean  29.83 Std  85.24 Max 1298.00
+UrineAlbumin :: Stats year :: 2008 :: All :: N 55149 non-zeros 54985 Median   7.00 Mean  28.62 Std  78.43 Max 1201.00
+UrineAlbumin :: Stats year :: 2009 :: All :: N 83788 non-zeros 83613 Median   7.00 Mean  29.55 Std  81.61 Max 1251.00
+UrineAlbumin :: Stats year :: 2010 :: All :: N 103075 non-zeros 102715 Median   7.00 Mean  31.52 Std  91.34 Max 1395.00
+UrineAlbumin :: Stats year :: 2011 :: All :: N 105351 non-zeros 105060 Median   7.00 Mean  30.73 Std  89.88 Max 1370.00
+UrineAlbumin :: Stats year :: 2012 :: All :: N 112920 non-zeros 112735 Median   6.00 Mean  31.54 Std  95.06 Max 1456.00
+UrineAlbumin :: Stats year :: 2013 :: All :: N 123424 non-zeros 123025 Median   6.00 Mean  33.90 Std 105.28 Max 1612.00
+UrineAlbumin :: Stats year :: 2014 :: All :: N 108468 non-zeros 108414 Median   7.00 Mean  36.81 Std 117.97 Max 1805.00
+UrineAlbumin :: Stats year :: 2015 :: All :: N 86000 non-zeros 85958 Median   7.00 Mean  37.86 Std 120.12 Max 1833.00
+UrineAlbumin :: Stats year :: 2016 :: All :: N 2701 non-zeros 2701 Median   9.00 Mean  49.53 Std 148.59 Max 2074.00
+UrineAlbumin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineAlbumin :: Stats year :: 2000 :: Males   :: N 1228 non-zeros 1220 Median  10.00 Mean  46.20 Std 122.79 Max 1700.00
+UrineAlbumin :: Stats year :: 2001 :: Males   :: N 1903 non-zeros 1897 Median  10.00 Mean  47.19 Std 139.25 Max 1937.00
+UrineAlbumin :: Stats year :: 2002 :: Males   :: N 3633 non-zeros 3622 Median   9.00 Mean  43.90 Std 130.59 Max 1997.00
+UrineAlbumin :: Stats year :: 2003 :: Males   :: N 7631 non-zeros 7603 Median   9.00 Mean  38.96 Std 116.51 Max 1763.00
+UrineAlbumin :: Stats year :: 2004 :: Males   :: N 11897 non-zeros 11867 Median   9.00 Mean  37.80 Std 106.86 Max 1629.00
+UrineAlbumin :: Stats year :: 2005 :: Males   :: N 16548 non-zeros 16510 Median   9.00 Mean  35.77 Std 102.79 Max 1500.00
+UrineAlbumin :: Stats year :: 2006 :: Males   :: N 22001 non-zeros 21929 Median   8.00 Mean  33.84 Std  94.05 Max 1434.00
+UrineAlbumin :: Stats year :: 2007 :: Males   :: N 25948 non-zeros 25880 Median   9.00 Mean  37.24 Std 110.61 Max 1692.00
+UrineAlbumin :: Stats year :: 2008 :: Males   :: N 29973 non-zeros 29888 Median   8.00 Mean  34.69 Std  95.09 Max 1450.00
+UrineAlbumin :: Stats year :: 2009 :: Males   :: N 43214 non-zeros 43139 Median   8.00 Mean  36.94 Std 105.10 Max 1611.00
+UrineAlbumin :: Stats year :: 2010 :: Males   :: N 51824 non-zeros 51679 Median   8.00 Mean  40.15 Std 115.06 Max 1751.00
+UrineAlbumin :: Stats year :: 2011 :: Males   :: N 53488 non-zeros 53371 Median   8.00 Mean  38.45 Std 109.83 Max 1655.00
+UrineAlbumin :: Stats year :: 2012 :: Males   :: N 58009 non-zeros 57925 Median   8.00 Mean  39.73 Std 118.73 Max 1816.00
+UrineAlbumin :: Stats year :: 2013 :: Males   :: N 64038 non-zeros 63864 Median   8.00 Mean  44.84 Std 144.06 Max 2195.00
+UrineAlbumin :: Stats year :: 2014 :: Males   :: N 56502 non-zeros 56477 Median   8.00 Mean  46.92 Std 149.08 Max 2271.00
+UrineAlbumin :: Stats year :: 2015 :: Males   :: N 45624 non-zeros 45611 Median   8.00 Mean  48.48 Std 153.88 Max 2350.00
+UrineAlbumin :: Stats year :: 2016 :: Males   :: N 1497 non-zeros 1497 Median  10.00 Mean  60.67 Std 172.21 Max 2380.00
+UrineAlbumin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineAlbumin :: Stats year :: 2000 :: Females :: N 920 non-zeros 910 Median   8.00 Mean  39.31 Std 132.53 Max 1900.00
+UrineAlbumin :: Stats year :: 2001 :: Females :: N 1419 non-zeros 1414 Median   7.00 Mean  27.85 Std  80.03 Max 1121.00
+UrineAlbumin :: Stats year :: 2002 :: Females :: N 2764 non-zeros 2755 Median   8.00 Mean  26.92 Std  71.59 Max 1010.00
+UrineAlbumin :: Stats year :: 2003 :: Females :: N 5820 non-zeros 5780 Median   7.00 Mean  23.39 Std  66.82 Max 1006.00
+UrineAlbumin :: Stats year :: 2004 :: Females :: N 9797 non-zeros 9752 Median   7.00 Mean  25.40 Std  76.99 Max 1156.00
+UrineAlbumin :: Stats year :: 2005 :: Females :: N 13502 non-zeros 13430 Median   8.00 Mean  23.52 Std  66.98 Max 1021.00
+UrineAlbumin :: Stats year :: 2006 :: Females :: N 18462 non-zeros 18382 Median   7.00 Mean  23.23 Std  66.28 Max 1006.00
+UrineAlbumin :: Stats year :: 2007 :: Females :: N 22113 non-zeros 22046 Median   6.00 Mean  22.57 Std  62.30 Max 949.00
+UrineAlbumin :: Stats year :: 2008 :: Females :: N 25181 non-zeros 25103 Median   6.00 Mean  21.84 Std  57.97 Max 849.00
+UrineAlbumin :: Stats year :: 2009 :: Females :: N 40600 non-zeros 40496 Median   6.00 Mean  23.02 Std  64.44 Max 981.00
+UrineAlbumin :: Stats year :: 2010 :: Females :: N 51241 non-zeros 51019 Median   6.00 Mean  23.11 Std  65.63 Max 1002.00
+UrineAlbumin :: Stats year :: 2011 :: Females :: N 51855 non-zeros 51676 Median   6.00 Mean  22.85 Std  65.57 Max 1004.00
+UrineAlbumin :: Stats year :: 2012 :: Females :: N 54924 non-zeros 54811 Median   6.00 Mean  23.50 Std  69.41 Max 1055.00
+UrineAlbumin :: Stats year :: 2013 :: Females :: N 59415 non-zeros 59186 Median   6.00 Mean  24.29 Std  72.86 Max 1115.00
+UrineAlbumin :: Stats year :: 2014 :: Females :: N 51975 non-zeros 51949 Median   5.00 Mean  26.66 Std  84.34 Max 1288.00
+UrineAlbumin :: Stats year :: 2015 :: Females :: N 40393 non-zeros 40363 Median   6.00 Mean  27.09 Std  85.35 Max 1306.00
+UrineAlbumin :: Stats year :: 2016 :: Females :: N 1205 non-zeros 1205 Median   7.00 Mean  37.61 Std 130.02 Max 1972.00
+UrineAlbumin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineAlbumin :: Stats month 1 :: All :: N 57690 non-zeros 57564 Median   8.00 Mean  40.58 Std 125.81 Max 1923.00
+UrineAlbumin :: Stats month 2 :: All :: N 58014 non-zeros 57877 Median   8.00 Mean  40.90 Std 127.12 Max 1937.00
+UrineAlbumin :: Stats month 3 :: All :: N 57347 non-zeros 57173 Median   8.00 Mean  41.13 Std 125.26 Max 1894.00
+UrineAlbumin :: Stats month 4 :: All :: N 43730 non-zeros 43621 Median   7.00 Mean  37.75 Std 112.99 Max 1702.00
+UrineAlbumin :: Stats month 5 :: All :: N 46137 non-zeros 46028 Median   7.00 Mean  36.95 Std 111.94 Max 1711.00
+UrineAlbumin :: Stats month 6 :: All :: N 48970 non-zeros 48870 Median   7.00 Mean  35.27 Std 107.61 Max 1649.00
+UrineAlbumin :: Stats month 7 :: All :: N 50369 non-zeros 50255 Median   7.00 Mean  35.58 Std 113.53 Max 1736.00
+UrineAlbumin :: Stats month 8 :: All :: N 47006 non-zeros 46873 Median   7.00 Mean  34.85 Std 106.23 Max 1614.00
+UrineAlbumin :: Stats month 9 :: All :: N 49972 non-zeros 49835 Median   7.00 Mean  34.89 Std 108.23 Max 1643.00
+UrineAlbumin :: Stats month 10 :: All :: N 55666 non-zeros 55569 Median   7.00 Mean  36.49 Std 113.47 Max 1730.00
+UrineAlbumin :: Stats month 11 :: All :: N 53630 non-zeros 53507 Median   7.00 Mean  37.71 Std 117.93 Max 1791.00
+UrineAlbumin :: Stats month 12 :: All :: N 43550 non-zeros 43485 Median   8.00 Mean  41.05 Std 125.21 Max 1917.00
+

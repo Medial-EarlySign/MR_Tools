@@ -1,0 +1,162 @@
+FreeT3 :: All :: With Values ::  62722 / 14446692 =  0.00 ::  62722 /  62722 =  1.00
+FreeT3 :: Males :: With Values ::  17040 / 6889335 =  0.00 ::  17040 /  62722 =  0.27
+FreeT3 :: Females :: With Values ::  45682 / 7557357 =  0.01 ::  45682 /  62722 =  0.73
+FreeT3 :: General :: No. of Values :: All 119070 Male  29837 Female  89233
+FreeT3 :: General :: No. of different days Values :: All 118874 Male  29777 Female  89097
+FreeT3 :: General :: Avg #values per person (all) :: All  0.01 Male  0.00 Female  0.01
+FreeT3 :: General :: Avg #values per person (>0)  :: All  1.90 Male  1.75 Female  1.95
+FreeT3 :: General :: Avg dist between tests       :: All  321.5 Male  319.7 Female  322.1
+FreeT3 :: Counts :: Age Group 20 - 25 :: All ::    411 0.003
+FreeT3 :: Counts :: Age Group 25 - 30 :: All ::    589 0.005
+FreeT3 :: Counts :: Age Group 30 - 35 :: All ::   1010 0.008
+FreeT3 :: Counts :: Age Group 35 - 40 :: All ::   1223 0.010
+FreeT3 :: Counts :: Age Group 40 - 45 :: All ::   1417 0.012
+FreeT3 :: Counts :: Age Group 45 - 50 :: All ::   1664 0.014
+FreeT3 :: Counts :: Age Group 50 - 55 :: All ::   1878 0.016
+FreeT3 :: Counts :: Age Group 55 - 60 :: All ::   2152 0.018
+FreeT3 :: Counts :: Age Group 60 - 65 :: All ::   2195 0.018
+FreeT3 :: Counts :: Age Group 65 - 70 :: All ::   2267 0.019
+FreeT3 :: Counts :: Age Group 70 - 75 :: All ::   2321 0.019
+FreeT3 :: Counts :: Age Group 75 - 80 :: All ::   2283 0.019
+FreeT3 :: Counts :: Age Group 80 - 85 :: All ::   2113 0.018
+FreeT3 :: Counts :: Age Group 85 - 90 :: All ::   1244 0.010
+FreeT3 :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+FreeT3 :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+FreeT3 :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+FreeT3 :: Counts :: Age Group 20 - 25 :: Males ::     82 0.003
+FreeT3 :: Counts :: Age Group 25 - 30 :: Males ::    114 0.004
+FreeT3 :: Counts :: Age Group 30 - 35 :: Males ::    148 0.005
+FreeT3 :: Counts :: Age Group 35 - 40 :: Males ::    199 0.007
+FreeT3 :: Counts :: Age Group 40 - 45 :: Males ::    309 0.010
+FreeT3 :: Counts :: Age Group 45 - 50 :: Males ::    373 0.013
+FreeT3 :: Counts :: Age Group 50 - 55 :: Males ::    402 0.013
+FreeT3 :: Counts :: Age Group 55 - 60 :: Males ::    547 0.018
+FreeT3 :: Counts :: Age Group 60 - 65 :: Males ::    589 0.020
+FreeT3 :: Counts :: Age Group 65 - 70 :: Males ::    675 0.023
+FreeT3 :: Counts :: Age Group 70 - 75 :: Males ::    713 0.024
+FreeT3 :: Counts :: Age Group 75 - 80 :: Males ::    712 0.024
+FreeT3 :: Counts :: Age Group 80 - 85 :: Males ::    542 0.018
+FreeT3 :: Counts :: Age Group 85 - 90 :: Males ::    278 0.009
+FreeT3 :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+FreeT3 :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+FreeT3 :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+FreeT3 :: Counts :: Age Group 20 - 25 :: Females ::    329 0.004
+FreeT3 :: Counts :: Age Group 25 - 30 :: Females ::    475 0.005
+FreeT3 :: Counts :: Age Group 30 - 35 :: Females ::    862 0.010
+FreeT3 :: Counts :: Age Group 35 - 40 :: Females ::   1024 0.011
+FreeT3 :: Counts :: Age Group 40 - 45 :: Females ::   1108 0.012
+FreeT3 :: Counts :: Age Group 45 - 50 :: Females ::   1291 0.014
+FreeT3 :: Counts :: Age Group 50 - 55 :: Females ::   1476 0.017
+FreeT3 :: Counts :: Age Group 55 - 60 :: Females ::   1605 0.018
+FreeT3 :: Counts :: Age Group 60 - 65 :: Females ::   1606 0.018
+FreeT3 :: Counts :: Age Group 65 - 70 :: Females ::   1592 0.018
+FreeT3 :: Counts :: Age Group 70 - 75 :: Females ::   1608 0.018
+FreeT3 :: Counts :: Age Group 75 - 80 :: Females ::   1571 0.018
+FreeT3 :: Counts :: Age Group 80 - 85 :: Females ::   1571 0.018
+FreeT3 :: Counts :: Age Group 85 - 90 :: Females ::    966 0.011
+FreeT3 :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+FreeT3 :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+FreeT3 :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+FreeT3 :: Stats :: Age Group 20 - 25 :: All ::  N 1631 non-zeros 1628 Median   5.00 Mean   6.59 Std   5.29 Max  50.00
+FreeT3 :: Stats :: Age Group 25 - 30 :: All ::  N 2231 non-zeros 2223 Median   5.00 Mean   6.29 Std   5.18 Max  82.00
+FreeT3 :: Stats :: Age Group 30 - 35 :: All ::  N 3217 non-zeros 3206 Median   5.00 Mean   6.11 Std   4.62 Max  60.00
+FreeT3 :: Stats :: Age Group 35 - 40 :: All ::  N 3990 non-zeros 3976 Median   5.00 Mean   5.81 Std   4.31 Max  67.00
+FreeT3 :: Stats :: Age Group 40 - 45 :: All ::  N 4481 non-zeros 4465 Median   5.00 Mean   5.61 Std   4.07 Max  54.00
+FreeT3 :: Stats :: Age Group 45 - 50 :: All ::  N 5049 non-zeros 5034 Median   5.00 Mean   5.48 Std   3.45 Max  52.00
+FreeT3 :: Stats :: Age Group 50 - 55 :: All ::  N 5745 non-zeros 5722 Median   5.00 Mean   5.44 Std   3.32 Max  50.00
+FreeT3 :: Stats :: Age Group 55 - 60 :: All ::  N 6312 non-zeros 6290 Median   5.00 Mean   5.20 Std   2.64 Max  44.00
+FreeT3 :: Stats :: Age Group 60 - 65 :: All ::  N 6101 non-zeros 6084 Median   5.00 Mean   5.10 Std   2.49 Max  34.00
+FreeT3 :: Stats :: Age Group 65 - 70 :: All ::  N 6083 non-zeros 6057 Median   5.00 Mean   4.97 Std   2.37 Max  40.00
+FreeT3 :: Stats :: Age Group 70 - 75 :: All ::  N 6123 non-zeros 6102 Median   5.00 Mean   4.88 Std   2.18 Max  36.00
+FreeT3 :: Stats :: Age Group 75 - 80 :: All ::  N 5862 non-zeros 5847 Median   4.00 Mean   4.76 Std   2.17 Max  35.00
+FreeT3 :: Stats :: Age Group 80 - 85 :: All ::  N 4694 non-zeros 4684 Median   4.00 Mean   4.58 Std   1.93 Max  33.00
+FreeT3 :: Stats :: Age Group 85 - 90 :: All ::  N 2823 non-zeros 2815 Median   4.00 Mean   4.41 Std   1.86 Max  28.00
+FreeT3 :: Stats :: Age Group 90 - 95 :: All ::  N 1054 non-zeros 1053 Median   4.00 Mean   4.28 Std   2.02 Max  32.00
+FreeT3 :: Stats :: Age Group 95 - 100 :: All ::  N 195 non-zeros 195 Median   4.00 Mean   4.50 Std   3.15 Max  32.00
+FreeT3 :: General :: All     :: outliers ratio 0.000680
+FreeT3 :: General :: All     :: N 57348 non-zeros 57145 Median   5.00 Mean   5.25 Std   3.22 Max  52.00
+FreeT3 :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.00   2.00   3.00   9.00  20.00  38.00
+FreeT3 :: General :: All     :: quartiles ::   1.00   4.00   5.00   5.00 
+FreeT3 :: General :: Males   :: outliers ratio 0.000641
+FreeT3 :: General :: Males   :: N 15588 non-zeros 15521 Median   5.00 Mean   5.27 Std   3.08 Max  50.00
+FreeT3 :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.00   2.00   3.00   8.00  19.00  38.00
+FreeT3 :: General :: Males   :: quartiles ::   1.00   4.00   5.00   6.00 
+FreeT3 :: General :: Females :: outliers ratio 0.000646
+FreeT3 :: General :: Females :: N 41762 non-zeros 41623 Median   5.00 Mean   5.24 Std   3.31 Max  54.00
+FreeT3 :: General :: Females :: distribution 0.001,0.01,0.05 ::   1.00   2.00   3.00   9.00  21.00  39.00
+FreeT3 :: General :: Females :: quartiles ::   1.00   4.00   5.00   5.00 
+FreeT3 :: Rounding ::  0.00 r  0.00 pct
+FreeT3 :: Rounding ::  0.01 r  0.00 pct
+FreeT3 :: Rounding ::  0.10 r  0.00 pct
+FreeT3 :: Rounding ::  1.00 r  0.99 pct
+FreeT3 :: Rounding :: 10.00 r  0.01 pct
+FreeT3 :: Rounding :: 100.00 r  0.00 pct
+FreeT3 :: Rounding :: 1000.00 r  0.00 pct
+FreeT3 :: Rounding :: most popular rounding for vals:  1.00
+FreeT3 :: Stats year :: 2000 :: All :: N 7263 non-zeros 7229 Median   4.00 Mean   5.06 Std   3.04 Max  46.00
+FreeT3 :: Stats year :: 2001 :: All :: N 10371 non-zeros 10357 Median   5.00 Mean   5.32 Std   3.03 Max  50.00
+FreeT3 :: Stats year :: 2002 :: All :: N 13935 non-zeros 13921 Median   5.00 Mean   5.11 Std   2.54 Max  41.00
+FreeT3 :: Stats year :: 2003 :: All :: N 14508 non-zeros 14477 Median   4.00 Mean   4.70 Std   2.02 Max  34.00
+FreeT3 :: Stats year :: 2004 :: All :: N 8101 non-zeros 8069 Median   5.00 Mean   5.05 Std   2.50 Max  40.00
+FreeT3 :: Stats year :: 2005 :: All :: N 3799 non-zeros 3783 Median   5.00 Mean   5.38 Std   3.39 Max  54.00
+FreeT3 :: Stats year :: 2006 :: All :: N 3937 non-zeros 3919 Median   5.00 Mean   5.34 Std   3.62 Max  50.00
+FreeT3 :: Stats year :: 2007 :: All :: N 3597 non-zeros 3581 Median   5.00 Mean   5.58 Std   3.82 Max  51.00
+FreeT3 :: Stats year :: 2008 :: All :: N 3703 non-zeros 3676 Median   5.00 Mean   5.35 Std   3.70 Max  54.00
+FreeT3 :: Stats year :: 2009 :: All :: N 3592 non-zeros 3582 Median   5.00 Mean   5.40 Std   3.47 Max  48.00
+FreeT3 :: Stats year :: 2010 :: All :: N 3257 non-zeros 3245 Median   5.00 Mean   5.44 Std   3.76 Max  57.00
+FreeT3 :: Stats year :: 2011 :: All :: N 2966 non-zeros 2957 Median   5.00 Mean   5.43 Std   3.66 Max  46.00
+FreeT3 :: Stats year :: 2012 :: All :: N 2439 non-zeros 2438 Median   5.00 Mean   5.51 Std   3.64 Max  47.00
+FreeT3 :: Stats year :: 2013 :: All :: N 1980 non-zeros 1977 Median   5.00 Mean   5.66 Std   4.15 Max  50.00
+FreeT3 :: Stats year :: 2014 :: All :: N 1314 non-zeros 1312 Median   5.00 Mean   5.95 Std   4.99 Max  50.00
+FreeT3 :: Stats year :: 2015 :: All :: N 567 non-zeros 567 Median   5.00 Mean   6.34 Std   5.30 Max  62.00
+FreeT3 :: Stats year :: 2016 :: All :: N 9 non-zeros 9 Median   5.00 Mean  11.44 Std   7.07 Max  22.00
+FreeT3 :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FreeT3 :: Stats year :: 2000 :: Males   :: N 1667 non-zeros 1654 Median   5.00 Mean   5.07 Std   2.78 Max  36.00
+FreeT3 :: Stats year :: 2001 :: Males   :: N 2611 non-zeros 2609 Median   5.00 Mean   5.40 Std   3.12 Max  50.00
+FreeT3 :: Stats year :: 2002 :: Males   :: N 3957 non-zeros 3953 Median   5.00 Mean   5.08 Std   2.29 Max  39.00
+FreeT3 :: Stats year :: 2003 :: Males   :: N 4800 non-zeros 4788 Median   5.00 Mean   4.73 Std   1.79 Max  30.00
+FreeT3 :: Stats year :: 2004 :: Males   :: N 2405 non-zeros 2394 Median   5.00 Mean   5.12 Std   1.98 Max  30.00
+FreeT3 :: Stats year :: 2005 :: Males   :: N 834 non-zeros 831 Median   5.00 Mean   5.41 Std   3.29 Max  49.00
+FreeT3 :: Stats year :: 2006 :: Males   :: N 902 non-zeros 896 Median   5.00 Mean   5.40 Std   3.35 Max  50.00
+FreeT3 :: Stats year :: 2007 :: Males   :: N 815 non-zeros 810 Median   5.00 Mean   6.21 Std   6.87 Max 109.00
+FreeT3 :: Stats year :: 2008 :: Males   :: N 823 non-zeros 817 Median   5.00 Mean   5.38 Std   3.16 Max  31.00
+FreeT3 :: Stats year :: 2009 :: Males   :: N 798 non-zeros 795 Median   5.00 Mean   5.59 Std   3.73 Max  48.00
+FreeT3 :: Stats year :: 2010 :: Males   :: N 651 non-zeros 648 Median   5.00 Mean   5.57 Std   4.03 Max  57.00
+FreeT3 :: Stats year :: 2011 :: Males   :: N 596 non-zeros 593 Median   5.00 Mean   5.66 Std   4.30 Max  46.00
+FreeT3 :: Stats year :: 2012 :: Males   :: N 518 non-zeros 517 Median   5.00 Mean   5.57 Std   3.63 Max  33.00
+FreeT3 :: Stats year :: 2013 :: Males   :: N 400 non-zeros 399 Median   5.00 Mean   5.86 Std   4.40 Max  46.00
+FreeT3 :: Stats year :: 2014 :: Males   :: N 280 non-zeros 280 Median   5.00 Mean   5.99 Std   5.18 Max  46.00
+FreeT3 :: Stats year :: 2015 :: Males   :: N 118 non-zeros 118 Median   5.00 Mean   5.79 Std   3.57 Max  26.00
+FreeT3 :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FreeT3 :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FreeT3 :: Stats year :: 2000 :: Females :: N 5596 non-zeros 5576 Median   4.00 Mean   5.08 Std   3.16 Max  46.00
+FreeT3 :: Stats year :: 2001 :: Females :: N 7759 non-zeros 7748 Median   5.00 Mean   5.28 Std   2.87 Max  47.00
+FreeT3 :: Stats year :: 2002 :: Females :: N 9977 non-zeros 9967 Median   5.00 Mean   5.14 Std   2.75 Max  46.00
+FreeT3 :: Stats year :: 2003 :: Females :: N 9710 non-zeros 9692 Median   4.00 Mean   4.69 Std   2.17 Max  37.00
+FreeT3 :: Stats year :: 2004 :: Females :: N 5696 non-zeros 5675 Median   5.00 Mean   5.03 Std   2.72 Max  40.00
+FreeT3 :: Stats year :: 2005 :: Females :: N 2965 non-zeros 2952 Median   5.00 Mean   5.32 Std   3.38 Max  54.00
+FreeT3 :: Stats year :: 2006 :: Females :: N 3035 non-zeros 3023 Median   5.00 Mean   5.28 Std   3.59 Max  50.00
+FreeT3 :: Stats year :: 2007 :: Females :: N 2785 non-zeros 2773 Median   5.00 Mean   5.48 Std   3.72 Max  51.00
+FreeT3 :: Stats year :: 2008 :: Females :: N 2880 non-zeros 2858 Median   5.00 Mean   5.27 Std   3.58 Max  54.00
+FreeT3 :: Stats year :: 2009 :: Females :: N 2794 non-zeros 2787 Median   5.00 Mean   5.38 Std   3.54 Max  46.00
+FreeT3 :: Stats year :: 2010 :: Females :: N 2606 non-zeros 2598 Median   5.00 Mean   5.40 Std   3.59 Max  50.00
+FreeT3 :: Stats year :: 2011 :: Females :: N 2370 non-zeros 2363 Median   5.00 Mean   5.35 Std   3.47 Max  46.00
+FreeT3 :: Stats year :: 2012 :: Females :: N 1921 non-zeros 1921 Median   5.00 Mean   5.51 Std   3.60 Max  46.00
+FreeT3 :: Stats year :: 2013 :: Females :: N 1580 non-zeros 1578 Median   5.00 Mean   5.63 Std   4.11 Max  50.00
+FreeT3 :: Stats year :: 2014 :: Females :: N 1034 non-zeros 1032 Median   5.00 Mean   5.92 Std   4.94 Max  50.00
+FreeT3 :: Stats year :: 2015 :: Females :: N 449 non-zeros 449 Median   5.00 Mean   6.65 Std   6.07 Max  62.00
+FreeT3 :: Stats year :: 2016 :: Females :: N 9 non-zeros 9 Median   5.00 Mean  11.44 Std   7.07 Max  22.00
+FreeT3 :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FreeT3 :: Stats month 1 :: All :: N 6835 non-zeros 6807 Median   5.00 Mean   5.23 Std   3.17 Max  50.00
+FreeT3 :: Stats month 2 :: All :: N 6626 non-zeros 6601 Median   5.00 Mean   5.21 Std   2.93 Max  46.00
+FreeT3 :: Stats month 3 :: All :: N 7437 non-zeros 7419 Median   5.00 Mean   5.21 Std   3.00 Max  50.00
+FreeT3 :: Stats month 4 :: All :: N 6494 non-zeros 6476 Median   5.00 Mean   5.22 Std   3.23 Max  50.00
+FreeT3 :: Stats month 5 :: All :: N 6689 non-zeros 6679 Median   5.00 Mean   5.16 Std   2.98 Max  46.00
+FreeT3 :: Stats month 6 :: All :: N 6426 non-zeros 6409 Median   5.00 Mean   5.25 Std   3.34 Max  51.00
+FreeT3 :: Stats month 7 :: All :: N 6639 non-zeros 6617 Median   5.00 Mean   5.18 Std   3.14 Max  50.00
+FreeT3 :: Stats month 8 :: All :: N 6459 non-zeros 6445 Median   4.00 Mean   5.11 Std   3.18 Max  46.00
+FreeT3 :: Stats month 9 :: All :: N 6584 non-zeros 6569 Median   5.00 Mean   5.10 Std   2.77 Max  41.00
+FreeT3 :: Stats month 10 :: All :: N 6739 non-zeros 6714 Median   5.00 Mean   5.22 Std   2.83 Max  38.00
+FreeT3 :: Stats month 11 :: All :: N 6281 non-zeros 6262 Median   5.00 Mean   5.28 Std   3.19 Max  50.00
+FreeT3 :: Stats month 12 :: All :: N 4991 non-zeros 4972 Median   5.00 Mean   5.19 Std   3.12 Max  50.00
+

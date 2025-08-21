@@ -1,0 +1,8 @@
+generator_type	int
+tags	vector<string>
+modelFile	string
+modelName	string
+n_preds	int
+names	vector<string>
+req_signals	vector<string>
+impute_existing_feature	int

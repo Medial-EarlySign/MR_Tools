@@ -1,0 +1,5 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build/Release",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++-11"
+}

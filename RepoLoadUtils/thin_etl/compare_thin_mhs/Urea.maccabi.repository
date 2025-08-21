@@ -1,0 +1,162 @@
+Urea :: All :: With Values :: 928108 / 1279479 =  0.73 :: 928108 / 928108 =  1.00
+Urea :: Males :: With Values :: 436423 / 622859 =  0.70 :: 436423 / 928108 =  0.47
+Urea :: Females :: With Values :: 491685 / 656620 =  0.75 :: 491685 / 928108 =  0.53
+Urea :: General :: No. of Values :: All 10399022 Male 4596625 Female 5802397
+Urea :: General :: No. of different days Values :: All 10393326 Male 4593699 Female 5799627
+Urea :: General :: Avg #values per person (all) :: All  8.12 Male  7.38 Female  8.83
+Urea :: General :: Avg #values per person (>0)  :: All 11.20 Male 10.53 Female 11.80
+Urea :: General :: Avg dist between tests       :: All  320.0 Male  320.7 Female  319.5
+Urea :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Urea :: Counts :: Age Group 25 - 30 :: All ::   1887 0.000
+Urea :: Counts :: Age Group 30 - 35 :: All ::  53459 0.005
+Urea :: Counts :: Age Group 35 - 40 :: All :: 124886 0.012
+Urea :: Counts :: Age Group 40 - 45 :: All :: 203384 0.020
+Urea :: Counts :: Age Group 45 - 50 :: All :: 204713 0.020
+Urea :: Counts :: Age Group 50 - 55 :: All :: 222618 0.021
+Urea :: Counts :: Age Group 55 - 60 :: All :: 241912 0.023
+Urea :: Counts :: Age Group 60 - 65 :: All :: 234312 0.023
+Urea :: Counts :: Age Group 65 - 70 :: All :: 219182 0.021
+Urea :: Counts :: Age Group 70 - 75 :: All :: 176840 0.017
+Urea :: Counts :: Age Group 75 - 80 :: All :: 161038 0.015
+Urea :: Counts :: Age Group 80 - 85 :: All :: 117935 0.011
+Urea :: Counts :: Age Group 85 - 90 :: All ::  74983 0.007
+Urea :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Urea :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Urea :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Urea :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Urea :: Counts :: Age Group 25 - 30 :: Males ::    537 0.000
+Urea :: Counts :: Age Group 30 - 35 :: Males ::  18039 0.004
+Urea :: Counts :: Age Group 35 - 40 :: Males ::  46837 0.010
+Urea :: Counts :: Age Group 40 - 45 :: Males ::  83257 0.018
+Urea :: Counts :: Age Group 45 - 50 :: Males ::  89413 0.019
+Urea :: Counts :: Age Group 50 - 55 :: Males :: 100082 0.022
+Urea :: Counts :: Age Group 55 - 60 :: Males :: 109053 0.024
+Urea :: Counts :: Age Group 60 - 65 :: Males :: 108688 0.024
+Urea :: Counts :: Age Group 65 - 70 :: Males :: 103161 0.022
+Urea :: Counts :: Age Group 70 - 75 :: Males ::  85268 0.019
+Urea :: Counts :: Age Group 75 - 80 :: Males ::  75430 0.016
+Urea :: Counts :: Age Group 80 - 85 :: Males ::  52745 0.011
+Urea :: Counts :: Age Group 85 - 90 :: Males ::  30966 0.007
+Urea :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Urea :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Urea :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Urea :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Urea :: Counts :: Age Group 25 - 30 :: Females ::   1350 0.000
+Urea :: Counts :: Age Group 30 - 35 :: Females ::  35420 0.006
+Urea :: Counts :: Age Group 35 - 40 :: Females ::  78049 0.013
+Urea :: Counts :: Age Group 40 - 45 :: Females :: 120127 0.021
+Urea :: Counts :: Age Group 45 - 50 :: Females :: 115300 0.020
+Urea :: Counts :: Age Group 50 - 55 :: Females :: 122536 0.021
+Urea :: Counts :: Age Group 55 - 60 :: Females :: 132859 0.023
+Urea :: Counts :: Age Group 60 - 65 :: Females :: 125624 0.022
+Urea :: Counts :: Age Group 65 - 70 :: Females :: 116021 0.020
+Urea :: Counts :: Age Group 70 - 75 :: Females ::  91572 0.016
+Urea :: Counts :: Age Group 75 - 80 :: Females ::  85608 0.015
+Urea :: Counts :: Age Group 80 - 85 :: Females ::  65190 0.011
+Urea :: Counts :: Age Group 85 - 90 :: Females ::  44017 0.008
+Urea :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Urea :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Urea :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Urea :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats :: Age Group 25 - 30 :: All ::  N 55181 non-zeros 55135 Median  24.00 Mean  24.37 Std   7.51 Max 125.70
+Urea :: Stats :: Age Group 30 - 35 :: All ::  N 171606 non-zeros 171503 Median  25.00 Mean  25.75 Std   7.49 Max 137.40
+Urea :: Stats :: Age Group 35 - 40 :: All ::  N 290769 non-zeros 290616 Median  26.00 Mean  27.00 Std   7.54 Max 140.00
+Urea :: Stats :: Age Group 40 - 45 :: All ::  N 364018 non-zeros 363797 Median  27.00 Mean  27.95 Std   7.69 Max 142.00
+Urea :: Stats :: Age Group 45 - 50 :: All ::  N 331370 non-zeros 331158 Median  28.00 Mean  29.13 Std   8.01 Max 149.00
+Urea :: Stats :: Age Group 50 - 55 :: All ::  N 308500 non-zeros 308315 Median  30.00 Mean  30.90 Std   8.55 Max 159.00
+Urea :: Stats :: Age Group 55 - 60 :: All ::  N 268849 non-zeros 268680 Median  32.00 Mean  32.67 Std   9.47 Max 174.60
+Urea :: Stats :: Age Group 60 - 65 :: All ::  N 228135 non-zeros 228004 Median  33.00 Mean  34.47 Std  10.79 Max 196.00
+Urea :: Stats :: Age Group 65 - 70 :: All ::  N 180886 non-zeros 180777 Median  35.00 Mean  36.53 Std  12.74 Max 226.00
+Urea :: Stats :: Age Group 70 - 75 :: All ::  N 128529 non-zeros 128426 Median  36.40 Mean  39.11 Std  15.36 Max 264.10
+Urea :: Stats :: Age Group 75 - 80 :: All ::  N 101069 non-zeros 100996 Median  39.00 Mean  42.22 Std  18.54 Max 315.00
+Urea :: Stats :: Age Group 80 - 85 :: All ::  N 64512 non-zeros 64443 Median  41.00 Mean  46.10 Std  22.07 Max 374.00
+Urea :: Stats :: Age Group 85 - 90 :: All ::  N 37140 non-zeros 37081 Median  44.00 Mean  50.56 Std  26.10 Max 405.00
+Urea :: Stats :: Age Group 90 - 95 :: All ::  N 15686 non-zeros 15653 Median  47.00 Mean  54.66 Std  29.76 Max 455.00
+Urea :: Stats :: Age Group 95 - 100 :: All ::  N 4005 non-zeros 3994 Median  51.00 Mean  58.60 Std  32.22 Max 431.10
+Urea :: General :: All     :: outliers ratio 0.000207
+Urea :: General :: All     :: N 927850 non-zeros 927077 Median  30.00 Mean  32.08 Std  13.02 Max 227.00
+Urea :: General :: All     :: distribution 0.001,0.01,0.05 ::   9.00  14.00  18.00  51.00  79.10 157.00
+Urea :: General :: All     :: quartiles ::   9.00  25.00  30.00  37.00 
+Urea :: General :: Males   :: outliers ratio 0.000202
+Urea :: General :: Males   :: N 436320 non-zeros 435939 Median  32.40 Mean  34.64 Std  13.39 Max 235.00
+Urea :: General :: Males   :: distribution 0.001,0.01,0.05 ::  12.00  17.00  21.00  53.00  85.00 169.00
+Urea :: General :: Males   :: quartiles ::  12.00  27.00  32.50  39.00 
+Urea :: General :: Females :: outliers ratio 0.000218
+Urea :: General :: Females :: N 491527 non-zeros 491163 Median  28.00 Mean  29.87 Std  12.36 Max 215.00
+Urea :: General :: Females :: distribution 0.001,0.01,0.05 ::   8.70  12.50  16.40  48.00  75.00 148.00
+Urea :: General :: Females :: quartiles ::   8.70  23.00  28.00  34.00 
+Urea :: Rounding ::  0.00 r  0.00 pct
+Urea :: Rounding ::  0.01 r  0.02 pct
+Urea :: Rounding ::  0.10 r  0.12 pct
+Urea :: Rounding ::  1.00 r  0.77 pct
+Urea :: Rounding :: 10.00 r  0.09 pct
+Urea :: Rounding :: 100.00 r  0.00 pct
+Urea :: Rounding :: 1000.00 r  0.00 pct
+Urea :: Rounding :: most popular rounding for vals:  1.00
+Urea :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats year :: 2001 :: All :: N 328695 non-zeros 328432 Median  28.80 Mean  30.33 Std  11.63 Max 204.70
+Urea :: Stats year :: 2002 :: All :: N 333205 non-zeros 332955 Median  30.00 Mean  31.59 Std  12.06 Max 212.00
+Urea :: Stats year :: 2003 :: All :: N 360518 non-zeros 360296 Median  30.00 Mean  31.93 Std  12.16 Max 214.00
+Urea :: Stats year :: 2004 :: All :: N 388574 non-zeros 388263 Median  29.60 Mean  31.26 Std  11.95 Max 210.00
+Urea :: Stats year :: 2005 :: All :: N 401930 non-zeros 401699 Median  30.00 Mean  31.75 Std  11.93 Max 210.00
+Urea :: Stats year :: 2006 :: All :: N 409949 non-zeros 409630 Median  31.00 Mean  32.89 Std  12.37 Max 218.00
+Urea :: Stats year :: 2007 :: All :: N 427436 non-zeros 427147 Median  31.00 Mean  32.78 Std  12.40 Max 218.20
+Urea :: Stats year :: 2008 :: All :: N 436441 non-zeros 436173 Median  31.00 Mean  32.65 Std  12.29 Max 216.50
+Urea :: Stats year :: 2009 :: All :: N 465143 non-zeros 464953 Median  31.00 Mean  32.70 Std  12.26 Max 215.00
+Urea :: Stats year :: 2010 :: All :: N 465417 non-zeros 465203 Median  32.00 Mean  33.50 Std  12.68 Max 223.60
+Urea :: Stats year :: 2011 :: All :: N 471086 non-zeros 470904 Median  32.00 Mean  33.44 Std  12.64 Max 222.00
+Urea :: Stats year :: 2012 :: All :: N 478937 non-zeros 478708 Median  32.00 Mean  33.76 Std  12.93 Max 227.00
+Urea :: Stats year :: 2013 :: All :: N 486494 non-zeros 486220 Median  32.00 Mean  33.76 Std  13.11 Max 229.00
+Urea :: Stats year :: 2014 :: All :: N 487295 non-zeros 487122 Median  32.00 Mean  33.69 Std  13.14 Max 230.00
+Urea :: Stats year :: 2015 :: All :: N 429380 non-zeros 429174 Median  32.00 Mean  34.12 Std  13.60 Max 238.00
+Urea :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats year :: 2001 :: Males   :: N 134646 non-zeros 134526 Median  32.00 Mean  33.64 Std  11.86 Max 209.00
+Urea :: Stats year :: 2002 :: Males   :: N 139212 non-zeros 139094 Median  33.00 Mean  34.82 Std  12.47 Max 221.00
+Urea :: Stats year :: 2003 :: Males   :: N 151191 non-zeros 151080 Median  33.00 Mean  34.98 Std  12.48 Max 222.00
+Urea :: Stats year :: 2004 :: Males   :: N 164493 non-zeros 164336 Median  32.00 Mean  34.23 Std  12.33 Max 219.00
+Urea :: Stats year :: 2005 :: Males   :: N 172003 non-zeros 171871 Median  33.00 Mean  34.53 Std  12.14 Max 215.00
+Urea :: Stats year :: 2006 :: Males   :: N 176996 non-zeros 176844 Median  34.00 Mean  35.70 Std  12.76 Max 226.00
+Urea :: Stats year :: 2007 :: Males   :: N 185594 non-zeros 185456 Median  33.70 Mean  35.54 Std  12.74 Max 226.50
+Urea :: Stats year :: 2008 :: Males   :: N 189645 non-zeros 189532 Median  33.00 Mean  35.34 Std  12.62 Max 223.00
+Urea :: Stats year :: 2009 :: Males   :: N 203457 non-zeros 203356 Median  33.00 Mean  35.36 Std  12.68 Max 225.20
+Urea :: Stats year :: 2010 :: Males   :: N 204516 non-zeros 204411 Median  34.00 Mean  36.14 Std  13.10 Max 230.00
+Urea :: Stats year :: 2011 :: Males   :: N 207885 non-zeros 207811 Median  34.00 Mean  35.97 Std  13.01 Max 231.00
+Urea :: Stats year :: 2012 :: Males   :: N 212478 non-zeros 212370 Median  34.00 Mean  36.32 Std  13.46 Max 238.00
+Urea :: Stats year :: 2013 :: Males   :: N 216269 non-zeros 216134 Median  34.00 Mean  36.28 Std  13.50 Max 237.00
+Urea :: Stats year :: 2014 :: Males   :: N 217355 non-zeros 217267 Median  34.00 Mean  36.22 Std  13.56 Max 239.00
+Urea :: Stats year :: 2015 :: Males   :: N 191219 non-zeros 191116 Median  34.00 Mean  36.65 Std  14.17 Max 249.00
+Urea :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats year :: 2001 :: Females :: N 194039 non-zeros 193866 Median  26.40 Mean  28.03 Std  10.87 Max 189.00
+Urea :: Stats year :: 2002 :: Females :: N 193993 non-zeros 193863 Median  28.00 Mean  29.24 Std  11.10 Max 195.00
+Urea :: Stats year :: 2003 :: Females :: N 209319 non-zeros 209187 Median  28.00 Mean  29.69 Std  11.31 Max 199.20
+Urea :: Stats year :: 2004 :: Females :: N 224077 non-zeros 223927 Median  27.00 Mean  29.07 Std  11.18 Max 196.00
+Urea :: Stats year :: 2005 :: Females :: N 229914 non-zeros 229808 Median  28.00 Mean  29.66 Std  11.19 Max 196.70
+Urea :: Stats year :: 2006 :: Females :: N 232922 non-zeros 232786 Median  29.00 Mean  30.75 Std  11.46 Max 202.40
+Urea :: Stats year :: 2007 :: Females :: N 241821 non-zeros 241680 Median  29.00 Mean  30.64 Std  11.60 Max 204.00
+Urea :: Stats year :: 2008 :: Females :: N 246770 non-zeros 246633 Median  29.00 Mean  30.57 Std  11.54 Max 202.00
+Urea :: Stats year :: 2009 :: Females :: N 261688 non-zeros 261601 Median  29.00 Mean  30.65 Std  11.57 Max 203.00
+Urea :: Stats year :: 2010 :: Females :: N 260903 non-zeros 260788 Median  30.00 Mean  31.43 Std  11.90 Max 209.00
+Urea :: Stats year :: 2011 :: Females :: N 263203 non-zeros 263090 Median  30.00 Mean  31.43 Std  11.92 Max 210.00
+Urea :: Stats year :: 2012 :: Females :: N 266468 non-zeros 266351 Median  30.00 Mean  31.72 Std  12.12 Max 213.00
+Urea :: Stats year :: 2013 :: Females :: N 270221 non-zeros 270083 Median  30.00 Mean  31.74 Std  12.36 Max 217.00
+Urea :: Stats year :: 2014 :: Females :: N 269930 non-zeros 269835 Median  30.00 Mean  31.64 Std  12.29 Max 216.00
+Urea :: Stats year :: 2015 :: Females :: N 238153 non-zeros 238042 Median  30.00 Mean  32.08 Std  12.74 Max 223.00
+Urea :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urea :: Stats month 1 :: All :: N 309420 non-zeros 309170 Median  32.00 Mean  34.39 Std  15.76 Max 267.80
+Urea :: Stats month 2 :: All :: N 301467 non-zeros 301215 Median  31.50 Mean  34.31 Std  15.66 Max 269.00
+Urea :: Stats month 3 :: All :: N 309893 non-zeros 309638 Median  32.00 Mean  34.50 Std  16.04 Max 275.00
+Urea :: Stats month 4 :: All :: N 292400 non-zeros 292144 Median  32.00 Mean  35.35 Std  16.64 Max 283.00
+Urea :: Stats month 5 :: All :: N 337126 non-zeros 336856 Median  32.00 Mean  34.69 Std  15.97 Max 274.00
+Urea :: Stats month 6 :: All :: N 334278 non-zeros 334016 Median  32.00 Mean  34.60 Std  15.90 Max 273.00
+Urea :: Stats month 7 :: All :: N 341031 non-zeros 340749 Median  32.00 Mean  34.45 Std  15.89 Max 271.00
+Urea :: Stats month 8 :: All :: N 326036 non-zeros 325798 Median  32.00 Mean  34.54 Std  16.05 Max 274.00
+Urea :: Stats month 9 :: All :: N 282291 non-zeros 282087 Median  32.00 Mean  34.51 Std  16.21 Max 277.00
+Urea :: Stats month 10 :: All :: N 320176 non-zeros 319951 Median  31.00 Mean  34.10 Std  15.49 Max 265.00
+Urea :: Stats month 11 :: All :: N 305574 non-zeros 305348 Median  31.00 Mean  33.86 Std  15.29 Max 261.00
+Urea :: Stats month 12 :: All :: N 293159 non-zeros 292915 Median  31.00 Mean  34.16 Std  15.66 Max 269.00
+

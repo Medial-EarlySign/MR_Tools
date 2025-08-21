@@ -1,0 +1,162 @@
+Eosinophils% :: All :: With Values :: 945572 / 1279479 =  0.74 :: 945572 / 945572 =  1.00
+Eosinophils% :: Males :: With Values :: 444573 / 622859 =  0.71 :: 444573 / 945572 =  0.47
+Eosinophils% :: Females :: With Values :: 500999 / 656620 =  0.76 :: 500999 / 945572 =  0.53
+Eosinophils% :: General :: No. of Values :: All 14320242 Male 5615354 Female 8704888
+Eosinophils% :: General :: No. of different days Values :: All 13778557 Male 5380385 Female 8398172
+Eosinophils% :: General :: Avg #values per person (all) :: All 10.77 Male  8.64 Female 12.79
+Eosinophils% :: General :: Avg #values per person (>0)  :: All 14.57 Male 12.10 Female 16.76
+Eosinophils% :: General :: Avg dist between tests       :: All  260.8 Male  292.0 Female  241.3
+Eosinophils% :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Eosinophils% :: Counts :: Age Group 25 - 30 :: All ::   5367 0.000
+Eosinophils% :: Counts :: Age Group 30 - 35 :: All :: 141399 0.010
+Eosinophils% :: Counts :: Age Group 35 - 40 :: All :: 267099 0.019
+Eosinophils% :: Counts :: Age Group 40 - 45 :: All :: 334293 0.023
+Eosinophils% :: Counts :: Age Group 45 - 50 :: All :: 290554 0.020
+Eosinophils% :: Counts :: Age Group 50 - 55 :: All :: 296794 0.021
+Eosinophils% :: Counts :: Age Group 55 - 60 :: All :: 306482 0.021
+Eosinophils% :: Counts :: Age Group 60 - 65 :: All :: 288089 0.020
+Eosinophils% :: Counts :: Age Group 65 - 70 :: All :: 263503 0.018
+Eosinophils% :: Counts :: Age Group 70 - 75 :: All :: 209654 0.015
+Eosinophils% :: Counts :: Age Group 75 - 80 :: All :: 189298 0.013
+Eosinophils% :: Counts :: Age Group 80 - 85 :: All :: 138005 0.010
+Eosinophils% :: Counts :: Age Group 85 - 90 :: All ::  86754 0.006
+Eosinophils% :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Eosinophils% :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Eosinophils% :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Eosinophils% :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Eosinophils% :: Counts :: Age Group 25 - 30 :: Males ::    970 0.000
+Eosinophils% :: Counts :: Age Group 30 - 35 :: Males ::  28267 0.005
+Eosinophils% :: Counts :: Age Group 35 - 40 :: Males ::  68152 0.012
+Eosinophils% :: Counts :: Age Group 40 - 45 :: Males :: 111724 0.020
+Eosinophils% :: Counts :: Age Group 45 - 50 :: Males :: 114156 0.020
+Eosinophils% :: Counts :: Age Group 50 - 55 :: Males :: 122240 0.022
+Eosinophils% :: Counts :: Age Group 55 - 60 :: Males :: 130638 0.023
+Eosinophils% :: Counts :: Age Group 60 - 65 :: Males :: 127757 0.023
+Eosinophils% :: Counts :: Age Group 65 - 70 :: Males :: 119501 0.021
+Eosinophils% :: Counts :: Age Group 70 - 75 :: Males ::  97460 0.017
+Eosinophils% :: Counts :: Age Group 75 - 80 :: Males ::  87166 0.016
+Eosinophils% :: Counts :: Age Group 80 - 85 :: Males ::  60825 0.011
+Eosinophils% :: Counts :: Age Group 85 - 90 :: Males ::  36314 0.006
+Eosinophils% :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Eosinophils% :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Eosinophils% :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Eosinophils% :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Eosinophils% :: Counts :: Age Group 25 - 30 :: Females ::   4397 0.001
+Eosinophils% :: Counts :: Age Group 30 - 35 :: Females :: 113132 0.013
+Eosinophils% :: Counts :: Age Group 35 - 40 :: Females :: 198947 0.023
+Eosinophils% :: Counts :: Age Group 40 - 45 :: Females :: 222569 0.026
+Eosinophils% :: Counts :: Age Group 45 - 50 :: Females :: 176398 0.020
+Eosinophils% :: Counts :: Age Group 50 - 55 :: Females :: 174554 0.020
+Eosinophils% :: Counts :: Age Group 55 - 60 :: Females :: 175844 0.020
+Eosinophils% :: Counts :: Age Group 60 - 65 :: Females :: 160332 0.018
+Eosinophils% :: Counts :: Age Group 65 - 70 :: Females :: 144002 0.017
+Eosinophils% :: Counts :: Age Group 70 - 75 :: Females :: 112194 0.013
+Eosinophils% :: Counts :: Age Group 75 - 80 :: Females :: 102132 0.012
+Eosinophils% :: Counts :: Age Group 80 - 85 :: Females ::  77180 0.009
+Eosinophils% :: Counts :: Age Group 85 - 90 :: Females ::  50440 0.006
+Eosinophils% :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Eosinophils% :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Eosinophils% :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Eosinophils% :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats :: Age Group 25 - 30 :: All ::  N 81735 non-zeros 80385 Median   1.90 Mean   2.41 Std   1.94 Max  31.50
+Eosinophils% :: Stats :: Age Group 30 - 35 :: All ::  N 213348 non-zeros 209890 Median   2.10 Mean   2.53 Std   1.96 Max  31.50
+Eosinophils% :: Stats :: Age Group 35 - 40 :: All ::  N 330631 non-zeros 326031 Median   2.20 Mean   2.69 Std   1.97 Max  32.00
+Eosinophils% :: Stats :: Age Group 40 - 45 :: All ::  N 400373 non-zeros 395679 Median   2.30 Mean   2.79 Std   1.95 Max  31.80
+Eosinophils% :: Stats :: Age Group 45 - 50 :: All ::  N 354863 non-zeros 351073 Median   2.40 Mean   2.80 Std   1.90 Max  31.30
+Eosinophils% :: Stats :: Age Group 50 - 55 :: All ::  N 323444 non-zeros 319641 Median   2.40 Mean   2.82 Std   1.90 Max  31.30
+Eosinophils% :: Stats :: Age Group 55 - 60 :: All ::  N 278396 non-zeros 274781 Median   2.40 Mean   2.84 Std   1.89 Max  31.00
+Eosinophils% :: Stats :: Age Group 60 - 65 :: All ::  N 234793 non-zeros 231309 Median   2.50 Mean   2.86 Std   1.92 Max  31.00
+Eosinophils% :: Stats :: Age Group 65 - 70 :: All ::  N 185047 non-zeros 181811 Median   2.50 Mean   2.88 Std   1.97 Max  32.40
+Eosinophils% :: Stats :: Age Group 70 - 75 :: All ::  N 130895 non-zeros 128220 Median   2.50 Mean   2.91 Std   2.06 Max  33.50
+Eosinophils% :: Stats :: Age Group 75 - 80 :: All ::  N 102668 non-zeros 100130 Median   2.50 Mean   2.93 Std   2.13 Max  33.40
+Eosinophils% :: Stats :: Age Group 80 - 85 :: All ::  N 65422 non-zeros 63525 Median   2.50 Mean   2.97 Std   2.26 Max  36.40
+Eosinophils% :: Stats :: Age Group 85 - 90 :: All ::  N 37669 non-zeros 36445 Median   2.60 Mean   3.04 Std   2.35 Max  36.20
+Eosinophils% :: Stats :: Age Group 90 - 95 :: All ::  N 15896 non-zeros 15240 Median   2.60 Mean   3.09 Std   2.48 Max  39.30
+Eosinophils% :: Stats :: Age Group 95 - 100 :: All ::  N 4027 non-zeros 3857 Median   2.60 Mean   3.10 Std   2.55 Max  29.90
+Eosinophils% :: General :: All     :: outliers ratio 0.000136
+Eosinophils% :: General :: All     :: N 945376 non-zeros 928760 Median   2.30 Mean   2.78 Std   2.01 Max  32.80
+Eosinophils% :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.30   0.70   6.40   9.70  18.00
+Eosinophils% :: General :: All     :: quartiles ::   0.10   1.50   2.40   3.60 
+Eosinophils% :: General :: Males   :: outliers ratio 0.000128
+Eosinophils% :: General :: Males   :: N 444499 non-zeros 438049 Median   2.60 Mean   2.99 Std   2.04 Max  33.00
+Eosinophils% :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.30   0.80   6.60  10.00  18.20
+Eosinophils% :: General :: Males   :: quartiles ::   0.10   1.70   2.60   3.90 
+Eosinophils% :: General :: Females :: outliers ratio 0.000136
+Eosinophils% :: General :: Females :: N 500881 non-zeros 490618 Median   2.20 Mean   2.59 Std   1.94 Max  31.70
+Eosinophils% :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.30   0.60   6.10   9.50  17.30
+Eosinophils% :: General :: Females :: quartiles ::   0.10   1.40   2.20   3.30 
+Eosinophils% :: Rounding ::  0.00 r  0.00 pct
+Eosinophils% :: Rounding ::  0.01 r  0.13 pct
+Eosinophils% :: Rounding ::  0.10 r  0.76 pct
+Eosinophils% :: Rounding ::  1.00 r  0.11 pct
+Eosinophils% :: Rounding :: 10.00 r  0.00 pct
+Eosinophils% :: Rounding :: 100.00 r  0.00 pct
+Eosinophils% :: Rounding :: 1000.00 r  0.00 pct
+Eosinophils% :: Rounding :: most popular rounding for vals:  0.10
+Eosinophils% :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats year :: 2001 :: All :: N 417632 non-zeros 411494 Median   2.20 Mean   2.62 Std   1.91 Max  30.50
+Eosinophils% :: Stats year :: 2002 :: All :: N 406472 non-zeros 400432 Median   2.30 Mean   2.69 Std   1.92 Max  29.90
+Eosinophils% :: Stats year :: 2003 :: All :: N 442071 non-zeros 434916 Median   2.30 Mean   2.72 Std   1.92 Max  31.10
+Eosinophils% :: Stats year :: 2004 :: All :: N 464663 non-zeros 458336 Median   2.30 Mean   2.74 Std   1.92 Max  31.50
+Eosinophils% :: Stats year :: 2005 :: All :: N 479879 non-zeros 473173 Median   2.30 Mean   2.76 Std   1.94 Max  31.00
+Eosinophils% :: Stats year :: 2006 :: All :: N 491506 non-zeros 484622 Median   2.40 Mean   2.79 Std   1.96 Max  31.80
+Eosinophils% :: Stats year :: 2007 :: All :: N 502371 non-zeros 495337 Median   2.40 Mean   2.80 Std   1.96 Max  32.10
+Eosinophils% :: Stats year :: 2008 :: All :: N 504197 non-zeros 497155 Median   2.40 Mean   2.81 Std   1.96 Max  32.20
+Eosinophils% :: Stats year :: 2009 :: All :: N 530694 non-zeros 523614 Median   2.40 Mean   2.85 Std   1.96 Max  32.10
+Eosinophils% :: Stats year :: 2010 :: All :: N 528971 non-zeros 521943 Median   2.40 Mean   2.86 Std   1.96 Max  32.20
+Eosinophils% :: Stats year :: 2011 :: All :: N 533711 non-zeros 526602 Median   2.40 Mean   2.88 Std   1.97 Max  32.50
+Eosinophils% :: Stats year :: 2012 :: All :: N 542520 non-zeros 535699 Median   2.50 Mean   2.89 Std   1.97 Max  32.20
+Eosinophils% :: Stats year :: 2013 :: All :: N 546332 non-zeros 539599 Median   2.50 Mean   2.90 Std   1.97 Max  32.30
+Eosinophils% :: Stats year :: 2014 :: All :: N 541814 non-zeros 535027 Median   2.50 Mean   2.90 Std   1.98 Max  32.40
+Eosinophils% :: Stats year :: 2015 :: All :: N 479641 non-zeros 473274 Median   2.50 Mean   2.91 Std   1.98 Max  32.50
+Eosinophils% :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats year :: 2001 :: Males   :: N 153503 non-zeros 151620 Median   2.50 Mean   2.90 Std   1.96 Max  32.00
+Eosinophils% :: Stats year :: 2002 :: Males   :: N 152251 non-zeros 150375 Median   2.50 Mean   2.95 Std   1.98 Max  32.50
+Eosinophils% :: Stats year :: 2003 :: Males   :: N 168518 non-zeros 166264 Median   2.60 Mean   2.97 Std   1.98 Max  32.40
+Eosinophils% :: Stats year :: 2004 :: Males   :: N 180722 non-zeros 178721 Median   2.60 Mean   2.97 Std   1.96 Max  32.10
+Eosinophils% :: Stats year :: 2005 :: Males   :: N 190345 non-zeros 188263 Median   2.60 Mean   2.99 Std   1.99 Max  32.40
+Eosinophils% :: Stats year :: 2006 :: Males   :: N 198431 non-zeros 196233 Median   2.60 Mean   3.02 Std   2.00 Max  32.80
+Eosinophils% :: Stats year :: 2007 :: Males   :: N 205704 non-zeros 203491 Median   2.60 Mean   3.03 Std   2.01 Max  32.30
+Eosinophils% :: Stats year :: 2008 :: Males   :: N 207523 non-zeros 205234 Median   2.60 Mean   3.03 Std   2.00 Max  32.70
+Eosinophils% :: Stats year :: 2009 :: Males   :: N 221878 non-zeros 219696 Median   2.60 Mean   3.05 Std   2.00 Max  32.90
+Eosinophils% :: Stats year :: 2010 :: Males   :: N 222293 non-zeros 220122 Median   2.60 Mean   3.05 Std   1.99 Max  32.60
+Eosinophils% :: Stats year :: 2011 :: Males   :: N 227042 non-zeros 224815 Median   2.70 Mean   3.08 Std   2.03 Max  33.10
+Eosinophils% :: Stats year :: 2012 :: Males   :: N 233245 non-zeros 231134 Median   2.70 Mean   3.08 Std   2.01 Max  33.20
+Eosinophils% :: Stats year :: 2013 :: Males   :: N 236796 non-zeros 234779 Median   2.70 Mean   3.08 Std   2.00 Max  33.10
+Eosinophils% :: Stats year :: 2014 :: Males   :: N 236042 non-zeros 233918 Median   2.70 Mean   3.07 Std   2.00 Max  31.80
+Eosinophils% :: Stats year :: 2015 :: Males   :: N 208087 non-zeros 206056 Median   2.70 Mean   3.08 Std   2.02 Max  33.30
+Eosinophils% :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats year :: 2001 :: Females :: N 264131 non-zeros 259957 Median   2.00 Mean   2.46 Std   1.85 Max  30.20
+Eosinophils% :: Stats year :: 2002 :: Females :: N 254222 non-zeros 250001 Median   2.10 Mean   2.53 Std   1.86 Max  30.10
+Eosinophils% :: Stats year :: 2003 :: Females :: N 273552 non-zeros 268712 Median   2.10 Mean   2.56 Std   1.87 Max  30.00
+Eosinophils% :: Stats year :: 2004 :: Females :: N 283936 non-zeros 279529 Median   2.20 Mean   2.59 Std   1.88 Max  30.40
+Eosinophils% :: Stats year :: 2005 :: Females :: N 289529 non-zeros 284911 Median   2.20 Mean   2.60 Std   1.88 Max  30.80
+Eosinophils% :: Stats year :: 2006 :: Females :: N 293074 non-zeros 288425 Median   2.20 Mean   2.64 Std   1.91 Max  30.60
+Eosinophils% :: Stats year :: 2007 :: Females :: N 296669 non-zeros 291935 Median   2.20 Mean   2.65 Std   1.91 Max  31.10
+Eosinophils% :: Stats year :: 2008 :: Females :: N 296674 non-zeros 291805 Median   2.20 Mean   2.66 Std   1.91 Max  31.30
+Eosinophils% :: Stats year :: 2009 :: Females :: N 308804 non-zeros 303912 Median   2.30 Mean   2.70 Std   1.92 Max  31.30
+Eosinophils% :: Stats year :: 2010 :: Females :: N 306682 non-zeros 301848 Median   2.30 Mean   2.71 Std   1.92 Max  31.40
+Eosinophils% :: Stats year :: 2011 :: Females :: N 306671 non-zeros 301833 Median   2.30 Mean   2.74 Std   1.93 Max  31.30
+Eosinophils% :: Stats year :: 2012 :: Females :: N 309276 non-zeros 304575 Median   2.30 Mean   2.75 Std   1.92 Max  31.10
+Eosinophils% :: Stats year :: 2013 :: Females :: N 309539 non-zeros 304820 Median   2.30 Mean   2.76 Std   1.92 Max  31.50
+Eosinophils% :: Stats year :: 2014 :: Females :: N 305761 non-zeros 301065 Median   2.30 Mean   2.76 Std   1.94 Max  31.40
+Eosinophils% :: Stats year :: 2015 :: Females :: N 271545 non-zeros 267168 Median   2.40 Mean   2.77 Std   1.93 Max  31.30
+Eosinophils% :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Eosinophils% :: Stats month 1 :: All :: N 373827 non-zeros 365749 Median   2.30 Mean   2.78 Std   2.02 Max  33.00
+Eosinophils% :: Stats month 2 :: All :: N 363672 non-zeros 355777 Median   2.30 Mean   2.75 Std   2.00 Max  32.60
+Eosinophils% :: Stats month 3 :: All :: N 373906 non-zeros 365757 Median   2.30 Mean   2.76 Std   2.01 Max  32.20
+Eosinophils% :: Stats month 4 :: All :: N 353060 non-zeros 345539 Median   2.40 Mean   2.81 Std   2.03 Max  32.50
+Eosinophils% :: Stats month 5 :: All :: N 401494 non-zeros 393540 Median   2.40 Mean   2.79 Std   2.02 Max  33.00
+Eosinophils% :: Stats month 6 :: All :: N 397852 non-zeros 390101 Median   2.30 Mean   2.77 Std   1.99 Max  32.30
+Eosinophils% :: Stats month 7 :: All :: N 405399 non-zeros 397429 Median   2.30 Mean   2.77 Std   1.98 Max  32.00
+Eosinophils% :: Stats month 8 :: All :: N 389888 non-zeros 382038 Median   2.40 Mean   2.79 Std   1.98 Max  32.40
+Eosinophils% :: Stats month 9 :: All :: N 344164 non-zeros 336952 Median   2.30 Mean   2.76 Std   1.99 Max  32.00
+Eosinophils% :: Stats month 10 :: All :: N 385654 non-zeros 378112 Median   2.40 Mean   2.79 Std   2.00 Max  32.70
+Eosinophils% :: Stats month 11 :: All :: N 367332 non-zeros 360408 Median   2.40 Mean   2.80 Std   2.01 Max  32.90
+Eosinophils% :: Stats month 12 :: All :: N 356579 non-zeros 349275 Median   2.40 Mean   2.82 Std   2.04 Max  33.10
+

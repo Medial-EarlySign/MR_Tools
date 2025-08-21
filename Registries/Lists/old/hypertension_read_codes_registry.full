@@ -1,0 +1,188 @@
+G_14A2. 14A2.00H/O: hypertension                                           
+G_1JD.. 1JD..00Suspected hypertension                                      
+G_21261 2126100Hypertension resolved                                       
+G_212K. 212K.00Hypertension resolved                                       
+G_246M. 246M.00White coat hypertension                                     
+G_61462 6146200Hypertension induced by oral contraceptive pill             
+G_661M6 661M600Hypertension self-management plan agreed                    
+G_661N6 661N600Hypertension self-management plan review                    
+G_662.. 662..12Hypertension monitoring                                     
+G_6627. 6627.00Good hypertension control                                   
+G_6628. 6628.00Poor hypertension control                                   
+G_6629. 6629.00Hypertension:follow-up default                              
+G_662b. 662b.00Moderate hypertension control                               
+G_662c. 662c.00Hypertension six month review                               
+G_662d. 662d.00Hypertension annual review                                  
+G_662F. 662F.00Hypertension treatm. started                                
+G_662H. 662H.00Hypertension treatm.stopped                                 
+G_662O. 662O.00On treatment for hypertension                               
+G_662P. 662P.00Hypertension monitoring                                     
+G_662P0 662P000Hypertension 9 month review                                 
+G_662P1 662P100Telehealth hypertension monitoring                          
+G_66b2. 66b2.00Hypertension monitoring not required                        
+G_67H8. 67H8.00Lifestyle advice regarding hypertension                     
+G_68B4. 68B4.00Risk factors present at hypertension screen                 
+G_7Q01. 7Q01.00High cost hypertension drugs                                
+G_7Q010 7Q01000Primary pulmonary hypertension drugs band 1                 
+G_7Q011 7Q01100Primary pulmonary hypertension drugs band 2                 
+G_7Q012 7Q01200Primary pulmonary hypertension drugs band 3                 
+G_7Q013 7Q01300Primary pulmonary hypertension drugs band 4                 
+G_7Q014 7Q01400Pulmonary arterial hypertension drugs Band 1                
+G_7Q015 7Q01500Pulmonary arterial hypertension drugs Band 2                
+G_7Q016 7Q01600Pulmonary arterial hypertension drugs Band 3                
+G_7Q017 7Q01700Pulmonary arterial hypertension drugs Band 4                
+G_7Q01y 7Q01y00Other specified high cost hypertension drugs                
+G_7Q01z 7Q01z00High cost hypertension drugs NOS                            
+G_8CR4. 8CR4.00Hypertension clinical management plan                       
+G_8HT5. 8HT5.00Referral to hypertension clinic                             
+G_8I3N. 8I3N.00Hypertension treatment refused                              
+G_9h3.. 9h3..00Exception reporting: hypertension quality indicators        
+G_9h31. 9h31.00Excepted from hypertension qual indicators: Patient unsuit  
+G_9h32. 9h32.00Excepted from hypertension qual indicators: Informed dissent
+G_9N03. 9N03.00Seen in hypertension clinic                                 
+G_9N1y2 9N1y200Seen in hypertension clinic                                 
+G_9N4L. 9N4L.00DNA - Did not attend hypertension clinic                    
+G_9OD.. 9OD..00Hypertension screen admin.                                  
+G_9ODZ. 9ODZ.00Hypertension screen admin. NOS                              
+G_9OI.. 9OI..00Hypertension monitoring admin.                              
+G_9OI.. 9OI..11Hypertension clinic admin.                                  
+G_9OI1. 9OI1.00Attends hypertension monitor.                               
+G_9OI2. 9OI2.00Refuses hypertension monitor.                               
+G_9OIA. 9OIA.00Hypertension monitor.chck done                              
+G_9OIA. 9OIA.11Hypertension monitored                                      
+G_9OIB. 9OIB.00Borderline hypertension monitoring first letter             
+G_9OIC. 9OIC.00Borderline hypertension monitoring second letter            
+G_9OID. 9OID.00Borderline hypertension monitoring third letter             
+G_F282. F282.00Benign intracranial hypertension                            
+G_F4504 F450400Ocular hypertension                                         
+G_G20.. G20..00Essential hypertension                                      
+G_G20.. G20..12Primary hypertension                                        
+G_G200. G200.00Malignant essential hypertension                            
+G_G201. G201.00Benign essential hypertension                               
+G_G202. G202.00Systolic hypertension                                       
+G_G203. G203.00Diastolic hypertension                                      
+G_G20z. G20z.00Essential hypertension NOS                                  
+G_G20z. G20z.11Hypertension NOS                                            
+G_G22z. G22z.11Renal hypertension                                          
+G_G24.. G24..00Secondary hypertension                                      
+G_G240. G240.00Secondary malignant hypertension                            
+G_G2400 G240000Secondary malignant renovascular hypertension               
+G_G240z G240z00Secondary malignant hypertension NOS                        
+G_G241. G241.00Secondary benign hypertension                               
+G_G2410 G241000Secondary benign renovascular hypertension                  
+G_G241z G241z00Secondary benign hypertension NOS                           
+G_G244. G244.00Hypertension secondary to endocrine disorders               
+G_G24z. G24z.00Secondary hypertension NOS                                  
+G_G24z0 G24z000Secondary renovascular hypertension NOS                     
+G_G24z1 G24z100Hypertension secondary to drug                              
+G_G24zz G24zz00Secondary hypertension NOS                                  
+G_G25.. G25..00Stage 1 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+G_G25.. G25..11Stage 1 hypertension                                        
+G_G26.. G26..00Severe hypertension (Nat Inst for Health Clinical Ex 2011)  
+G_G26.. G26..11Severe hypertension                                         
+G_G27.. G27..00Hypertension resistant to drug therapy                      
+G_G28.. G28..00Stage 2 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+G_G410. G410.00Primary pulmonary hypertension                              
+G_G41y0 G41y000Secondary pulmonary hypertension                            
+G_G41y1 G41y100Thromboembolic pulmonary hypertension                       
+G_G8y3. G8y3.00Chronic peripheral venous hypertension                      
+G_Gyu20 Gyu2000[X]Other secondary hypertension                             
+G_Gyu21 Gyu2100[X]Hypertension secondary to other renal disorders          
+G_J623. J623.00Portal hypertension                                         
+G_L12.. L12..00Hypertension complicating pregnancy/childbirth/puerperium   
+G_L120. L120.00Benign essential hypertension in pregnancy/childbirth/puerp 
+G_L1200 L120000Benign essential hypertension in preg/childb/puerp unspec   
+G_L1201 L120100Benign essential hypertension in preg/childb/puerp - deliv  
+G_L1203 L120300Benign essential hypertension in preg/childb/puerp-not deliv
+G_L1204 L120400Benign essential hypertension in preg/childb/puerp +p/n comp
+G_L120z L120z00Benign essential hypertension in preg/childb/puerp NOS      
+G_L121. L121.00Renal hypertension in pregnancy/childbirth/puerperium       
+G_L1210 L121000Renal hypertension in pregnancy/childbirth/puerp unspecified
+G_L1211 L121100Renal hypertension in pregnancy/childbirth/puerp - delivered
+G_L1212 L121200Renal hypertension in preg/childb/puerp -deliv with p/n comp
+G_L1213 L121300Renal hypertension in preg/childbirth/puerp - not delivered 
+G_L1214 L121400Renal hypertension in preg/childb/puerp + p/n complication  
+G_L121z L121z00Renal hypertension in pregnancy/childbirth/puerperium NOS   
+G_L122. L122.00Other pre-existing hypertension in preg/childbirth/puerp    
+G_L1220 L122000Other pre-existing hypertension in preg/childb/puerp unspec 
+G_L1221 L122100Other pre-existing hypertension in preg/childb/puerp - deliv
+G_L1223 L122300Other pre-exist hypertension in preg/childb/puerp-not deliv 
+G_L1224 L122400Other pre-exist hypertension in preg/childb/puerp + p/n comp
+G_L122z L122z00Other pre-existing hypertension in preg/childb/puerp NOS    
+G_L123. L123.00Transient hypertension of pregnancy                         
+G_L1230 L123000Transient hypertension of pregnancy unspecified             
+G_L1231 L123100Transient hypertension of pregnancy - delivered             
+G_L1232 L123200Transient hypertension of pregnancy - deliv with p/n comp   
+G_L1233 L123300Transient hypertension of pregnancy - not delivered         
+G_L1234 L123400Transient hypertension of pregnancy + postnatal complication
+G_L1235 L123500Gestational hypertension                                    
+G_L1236 L123600Transient hypertension of pregnancy                         
+G_L123z L123z00Transient hypertension of pregnancy NOS                     
+G_L127. L127.00Pre-eclampsia or eclampsia with pre-existing hypertension   
+G_L1270 L127000Pre-eclampsia or eclampsia with hypertension unspecified    
+G_L1271 L127100Pre-eclampsia or eclampsia with hypertension - delivered    
+G_L1272 L127200Pre-eclampsia or eclampsia with hypertension - del+p/n comp 
+G_L1273 L127300Pre-eclampsia or eclampsia with hypertension - not delivered
+G_L1274 L127400Pre-eclampsia or eclampsia with hypertension + p/n comp     
+G_L127z L127z00Pre-eclampsia or eclampsia + pre-existing hypertension NOS  
+G_L128. L128.00Pre-exist hypertension compl preg childbirth and puerperium 
+G_L12B. L12B.00Proteinuric hypertension of pregnancy                       
+G_L12z. L12z.00Unspecified hypertension in pregnancy/childbirth/puerperium 
+G_L12z0 L12z000Unspecified hypertension in preg/childb/puerp unspecified   
+G_L12z1 L12z100Unspecified hypertension in preg/childb/puerp - delivered   
+G_L12z2 L12z200Unspecified hypertension in preg/childb/puerp -del +p/n comp
+G_L12z3 L12z300Unspecified hypertension in preg/childb/puerp - not deliv   
+G_L12z4 L12z400Unspecified hypertension in preg/childb/puerp with p/n comp 
+G_L12zz L12zz00Unspecified hypertension in preg/childb/puerp NOS           
+G_Q492. Q492.00Neonatal hypertension                                       
+G_ZV7B1 ZV7B100[V]Screening for hypertension                               
+G_662G. 662G.00Hypertensive treatm.changed                                 
+G_662q. 662q.00Trial reduction of antihypertensive therapy                 
+G_662r. 662r.00Trial withdrawal of antihypertensive therapy                
+G_8B26. 8B26.00Antihypertensive therapy                                    
+G_8BL0. 8BL0.00Patient on maximal tolerated antihypertensive therapy       
+G_8IA5. 8IA5.00Trial withdrawal of antihypertensive therapy declined       
+G_8IA6. 8IA6.00Trial reduction of antihypertensive therapy declined        
+G_F4042 F404200Blind hypertensive eye                                      
+G_F4213 F421300Hypertensive retinopathy                                    
+G_G2... G2...00Hypertensive disease                                        
+G_G2... G2...11BP - hypertensive disease                                   
+G_G21.. G21..00Hypertensive heart disease                                  
+G_G210. G210.00Malignant hypertensive heart disease                        
+G_G2100 G210000Malignant hypertensive heart disease without CCF            
+G_G2101 G210100Malignant hypertensive heart disease with CCF               
+G_G210z G210z00Malignant hypertensive heart disease NOS                    
+G_G211. G211.00Benign hypertensive heart disease                           
+G_G2110 G211000Benign hypertensive heart disease without CCF               
+G_G2111 G211100Benign hypertensive heart disease with CCF                  
+G_G211z G211z00Benign hypertensive heart disease NOS                       
+G_G21z. G21z.00Hypertensive heart disease NOS                              
+G_G21z0 G21z000Hypertensive heart disease NOS without CCF                  
+G_G21z0 G21z011Cardiomegaly - hypertensive                                 
+G_G21z1 G21z100Hypertensive heart disease NOS with CCF                     
+G_G21zz G21zz00Hypertensive heart disease NOS                              
+G_G22.. G22..00Hypertensive renal disease                                  
+G_G220. G220.00Malignant hypertensive renal disease                        
+G_G221. G221.00Benign hypertensive renal disease                           
+G_G222. G222.00Hypertensive renal disease with renal failure               
+G_G22z. G22z.00Hypertensive renal disease NOS                              
+G_G23.. G23..00Hypertensive heart and renal disease                        
+G_G230. G230.00Malignant hypertensive heart and renal disease              
+G_G231. G231.00Benign hypertensive heart and renal disease                 
+G_G232. G232.00Hypertensive heart&renal dis wth (congestive) heart failure 
+G_G233. G233.00Hypertensive heart and renal disease with renal failure     
+G_G23z. G23z.00Hypertensive heart and renal disease NOS                    
+G_G2y.. G2y..00Other specified hypertensive disease                        
+G_G2z.. G2z..00Hypertensive disease NOS                                    
+G_G672. G672.00Hypertensive encephalopathy                                 
+G_G672. G672.11Hypertensive crisis                                         
+G_Gyu2. Gyu2.00[X]Hypertensive diseases                                    
+G_Q000. Q000.00Fetus or neonate affected by maternal hypertensive disease  
+G_Q043. Q043.00Fetus/newborn affected maternal use of antihypertensive drug
+G_SLC6. SLC6.00Other hypertensive agent poisoning                          
+G_SLC6z SLC6z00Hypertensive agent poisoning NOS                            
+G_SyuFT SyuFT00[X]Poisoning by other antihypertensive drugs, NEC           
+G_TJC7. TJC7.00Adverse reaction to other antihypertensives                 
+G_TJC7z TJC7z00Adverse reaction to antihypertensives NOS                   
+G_U60C5 U60C511[X] Adverse reaction to other antihypertensives             
+G_U60C5 U60C51A[X] Adverse reaction to antihypertensives NOS               

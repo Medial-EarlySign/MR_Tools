@@ -1,0 +1,14 @@
+signalName	string
+output_name	string
+work_channel	int
+factor	float
+time_window	int
+time_unit	int
+start_time_channel	int
+end_time_channel	int
+drop_missing_rate	float
+buffer_first	bool
+unconditional	bool
+req_signals	unordered_set<string>
+aff_signals	unordered_set<string>
+virtual_signals	vector<pair<string, int>>

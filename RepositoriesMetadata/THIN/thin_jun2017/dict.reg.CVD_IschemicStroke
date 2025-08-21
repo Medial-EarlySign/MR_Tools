@@ -1,0 +1,9 @@
+SECTION	CVD_IschemicStroke
+
+DEF	1	CVD_IschemicStroke_Confirmed_Event
+DEF	2	CVD_IschemicStroke_Untimed_Event
+DEF	3	CVD_IschemicStroke_History
+
+DEF	40060	CVD_Untimed_Event_Or_History
+SET	CVD_Untimed_Event_Or_History	CVD_IschemicStroke_Untimed_Event
+SET	CVD_Untimed_Event_Or_History	CVD_IschemicStroke_History

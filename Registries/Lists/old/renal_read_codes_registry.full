@@ -1,0 +1,820 @@
+G_14D.. 14D..11H/O: kidney disease                                         
+G_14Om. 14Om.00At risk of acute kidney injury                              
+G_14R2. 14R2.00H/O: kidney donation                                        
+G_14S2. 14S2.00H/O: kidney recipient                                       
+G_14V2. 14V2.11H/O: kidney dialysis                                        
+G_1J0A. 1J0A.00Suspected kidney cancer                                     
+G_1Z10. 1Z10.00Chronic kidney disease stage 1                              
+G_1Z11. 1Z11.00Chronic kidney disease stage 2                              
+G_1Z12. 1Z12.00Chronic kidney disease stage 3                              
+G_1Z13. 1Z13.00Chronic kidney disease stage 4                              
+G_1Z14. 1Z14.00Chronic kidney disease stage 5                              
+G_1Z15. 1Z15.00Chronic kidney disease stage 3A                             
+G_1Z16. 1Z16.00Chronic kidney disease stage 3B                             
+G_1Z17. 1Z17.00Chronic kidney disease stage 1 with proteinuria             
+G_1Z18. 1Z18.00Chronic kidney disease stage 1 without proteinuria          
+G_1Z19. 1Z19.00Chronic kidney disease stage 2 with proteinuria             
+G_1Z1A. 1Z1A.00Chronic kidney disease stage 2 without proteinuria          
+G_1Z1B. 1Z1B.00Chronic kidney disease stage 3 with proteinuria             
+G_1Z1C. 1Z1C.00Chronic kidney disease stage 3 without proteinuria          
+G_1Z1D. 1Z1D.00Chronic kidney disease stage 3A with proteinuria            
+G_1Z1E. 1Z1E.00Chronic kidney disease stage 3A without proteinuria         
+G_1Z1F. 1Z1F.00Chronic kidney disease stage 3B with proteinuria            
+G_1Z1G. 1Z1G.00Chronic kidney disease stage 3B without proteinuria         
+G_1Z1H. 1Z1H.00Chronic kidney disease stage 4 with proteinuria             
+G_1Z1J. 1Z1J.00Chronic kidney disease stage 4 without proteinuria          
+G_1Z1K. 1Z1K.00Chronic kidney disease stage 5 with proteinuria             
+G_1Z1L. 1Z1L.00Chronic kidney disease stage 5 without proteinuria          
+G_451L. 451L.00Acute kidney injury warning stage                           
+G_4Z1.. 4Z1..00Chronic kidney disease laboratory study                     
+G_57351 5735100Isotope static scan kidneys abnormal                        
+G_661M2 661M200Chronic kidney disease self-management plan agreed          
+G_661N2 661N200Chronic kidney disease self-management plan review          
+G_66i.. 66i..00Chronic kidney disease monitoring                           
+G_67P41 67P4100Discussion about kidney transplantation                     
+G_6AA.. 6AA..00Chronic kidney disease annual review                        
+G_7B0.. 7B0..00Kidney operations                                           
+G_7B00. 7B00.00Transplantation of kidney                                   
+G_7B000 7B00000Autotransplant of kidney                                    
+G_7B001 7B00100Transplantation of kidney from live donor                   
+G_7B001 7B00111Allotransplantation of kidney from live donor               
+G_7B002 7B00200Transplantation of kidney from cadaver                      
+G_7B002 7B00211Allotransplantation of kidney from cadaver                  
+G_7B003 7B00300Allotransplantation of kidney from cadaver, heart-beating   
+G_7B004 7B00400Allotransplantation kidney from cadaver, heart non-beating  
+G_7B005 7B00500Allotransplantation of kidney from cadaver NEC              
+G_7B00y 7B00y00Other specified transplantation of kidney                   
+G_7B00z 7B00z00Transplantation of kidney NOS                               
+G_7B01. 7B01.11Total excision of kidney                                    
+G_7B013 7B01300Heminephrectomy for horseshoe kidney                        
+G_7B013 7B01311Excision of half of horseshoe kidney                        
+G_7B019 7B01900Excision of rejected transplanted kidney                    
+G_7B02. 7B02.11Partial excision of kidney                                  
+G_7B020 7B02000Heminephrectomy for duplex kidney                           
+G_7B021 7B02100Division of isthmus of horseshoe kidney                     
+G_7B033 7B03300Rovsing's operation for polycystic kidney                   
+G_7B04. 7B04.00Open repair of kidney                                       
+G_7B043 7B04300Plication of kidney                                         
+G_7B045 7B04500Plication and pyeloplasty of kidney                         
+G_7B045 7B04511Hamilton plication and pyeloplasty of kidney                
+G_7B045 7B04512Stewart plication and pyeloplasty of kidney                 
+G_7B04y 7B04y00Other specified open repair of kidney                       
+G_7B04z 7B04z00Open repair of kidney NOS                                   
+G_7B05. 7B05.00Incision of kidney or renal pelvis                          
+G_7B050 7B05000Unspecified open removal of calculus from kidney            
+G_7B051 7B05111Drainage of kidney NEC                                      
+G_7B053 7B05300Incision of kidney and removal of foreign body from kidney  
+G_7B05y 7B05y00Other specified incision of kidney                          
+G_7B05z 7B05z00Incision of kidney NOS                                      
+G_7B06. 7B06.00Other open operations on kidney                             
+G_7B062 7B06200Exploration of kidney                                       
+G_7B06y 7B06y00Other specified other open operation on kidney              
+G_7B06z 7B06z00Other open operation on kidney NOS                          
+G_7B074 7B07400Endoscopic extraction of calculus of kidney nec             
+G_7B08. 7B08.00Other therapeutic endoscopic operations on kidney           
+G_7B080 7B08000Endoscopic extirpation of lesion of kidney                  
+G_7B080 7B08011Nephroscopy and extirpation of lesion of kidney             
+G_7B082 7B08200Endoscopic de-roofing of multiple cysts of kidney           
+G_7B083 7B08300Endoscopic cryoablation of lesion of kidney                 
+G_7B084 7B08400Endos endolum balloon rupt sten pelviureteric junct kidney  
+G_7B085 7B08500Endoscopic extirpation of lesion of kidney NEC              
+G_7B08y 7B08y00Other therapeutic endoscopic operation on kidney OS         
+G_7B08z 7B08z00Other therapeutic endoscopic operation on kidney NOS        
+G_7B0A. 7B0A.00Percutaneous puncture of kidney                             
+G_7B0A. 7B0A.11Percutaneous puncture of pelvis of kidney                   
+G_7B0A0 7B0A011Percutaneous biopsy of kidney                               
+G_7B0A3 7B0A300Percutaneous injection of therapeutic substance into kidney 
+G_7B0A8 7B0A800Percutaneous radiofrequency ablation of lesion of kidney    
+G_7B0Ay 7B0Ay00Other specified percutaneous puncture of kidney             
+G_7B0Az 7B0Az00Percutaneous puncture of kidney NOS                         
+G_7B0C. 7B0C.00Other operations on kidney                                  
+G_7B0C0 7B0C000Irrigation of kidney                                        
+G_7B0C1 7B0C112Maintenance of drainage tube of kidney                      
+G_7B0Cy 7B0Cy00Other specified other operation on kidney                   
+G_7B0Cz 7B0Cz00Other operation on kidney NOS                               
+G_7B0F. 7B0F.00Interventions associated with transplantation of kidney     
+G_7B0F0 7B0F000Live kidney donor screening                                 
+G_7B0F1 7B0F100Pre-transplantation of kidney work-up, recipient            
+G_7B0F2 7B0F200Pre-transplantation of kidney work-up, live donor           
+G_7B0F3 7B0F300Post-transplantation of kidney examination, recipient       
+G_7B0F4 7B0F400Post-transplantation of kidney examination, live donor      
+G_7B0Fy 7B0Fy00OS interventions associated with transplantation of kidney  
+G_7B0Fz 7B0Fz00Interventions associated with transplantation of kidney NOS 
+G_7B0y. 7B0y.00Other specified operations on kidney                        
+G_7B0z. 7B0z.00Kidney operations NOS                                       
+G_7B11C 7B11C00Percutaneous tunnelled kidney bladder bypass using prosthes 
+G_7L1D0 7L1D000Donation of kidney                                          
+G_9hE.. 9hE..00Exception reporting: chronic kidney disease quality indicato
+G_9Ni9. 9Ni9.00Did not attend chronic kidney disease monitoring clinic     
+G_9Ot.. 9Ot..00Chronic kidney disease monitoring administration            
+G_9Ot0. 9Ot0.00Chronic kidney disease monitoring first letter              
+G_9Ot1. 9Ot1.00Chronic kidney disease monitoring second letter             
+G_9Ot2. 9Ot2.00Chronic kidney disease monitoring third letter              
+G_9Ot3. 9Ot3.00Chronic kidney disease monitoring verbal invite             
+G_9Ot4. 9Ot4.00Chronic kidney disease monitoring telephone invite          
+G_A160. A160.00Tuberculosis of kidney                                      
+G_A160z A160z00Tuberculosis of kidney NOS                                  
+G_A954. A954.00Syphilis of kidney                                          
+G_AC2z0 AC2z000Echinococcosis kidney                                       
+G_B4A.. B4A..00Malig neop of kidney and other unspecified urinary organs   
+G_B4A0. B4A0.00Malignant neoplasm of kidney parenchyma                     
+G_B4Az. B4Az.00Malignant neoplasm of kidney or urinary organs NOS          
+G_B580. B580.00Secondary malignant neoplasm of kidney                      
+G_B7D.. B7D..00Benign neoplasm of kidney and other urinary organs          
+G_B7D0. B7D0.11Benign neoplasm of kidney                                   
+G_B7Dz. B7Dz.00Benign neoplasm of kidney or urinary organ NOS              
+G_B91z1 B91z100Neoplasm of uncertain behaviour of kidney                   
+G_BBLJ. BBLJ.00[M]Clear cell sarcoma of kidney                             
+G_K01y. K01y.00Nephrotic syndrome with other pathological kidney lesions   
+G_K04.. K04..12Acute kidney injury                                         
+G_K04C. K04C.00Acute kidney injury stage 1                                 
+G_K04D. K04D.00Acute kidney injury stage 2                                 
+G_K04E. K04E.00Acute kidney injury stage 3                                 
+G_K05.. K05..13Chronic kidney disease                                      
+G_K051. K051.00Chronic kidney disease stage 1                              
+G_K052. K052.00Chronic kidney disease stage 2                              
+G_K053. K053.00Chronic kidney disease stage 3                              
+G_K054. K054.00Chronic kidney disease stage 4                              
+G_K055. K055.00Chronic kidney disease stage 5                              
+G_K06.. K06..12Kidney failure unspecified                                  
+G_K070. K070.00Atrophy of kidney                                           
+G_K0901 K090100Unilateral small kidney with contralateral hypertrophy      
+G_K0902 K090200Unilateral small kidney without contralateral hypertrophy   
+G_K091. K091.00Bilateral small kidneys                                     
+G_K09z. K09z.00Small kidneys unspecified                                   
+G_K120. K120.00Calculus of kidney                                          
+G_K122. K122.00Calculus of kidney with calculus of ureter                  
+G_K13.. K13..00Other kidney and ureter disorders                           
+G_K13.. K13..11Other kidney disorders                                      
+G_K130. K130.11Floating kidney                                             
+G_K130. K130.12Mobile kidney                                               
+G_K131. K131.00Hypertrophy of kidney                                       
+G_K1310 K131000Compensatory hypertrophy of single kidney                   
+G_K132. K132.00Acquired cyst of kidney                                     
+G_K1320 K132000Single acquired kidney cyst                                 
+G_K1321 K132100Multiple acquired kidney cysts                              
+G_K132z K132z00Acquired cyst of kidney NOS                                 
+G_K138. K138.00Vascular disorders of kidney                                
+G_K13y. K13y.00Other kidney and ureteric disorders                         
+G_K13y1 K13y100Adhesions of kidney                                         
+G_K13yz K13yz00Other kidney and ureteric disorders NOS                     
+G_K13z. K13z.00Kidney and ureter disease NOS                               
+G_K13z0 K13z000Non-functioning kidney                                      
+G_Kyu4. Kyu4.00[X]Other disorders of kidney and ureter                     
+G_Kyu41 Kyu4100[X]Other specified disorders of kidney and ureter           
+G_Kyu42 Kyu4200[X]Oth disordrs/kidney+ureter/infects+parasitic diseases CE 
+G_Kyu43 Kyu4300[X]Other disorders of kidney+ureter in other diseases CE    
+G_L1665 L166500Infections of kidney in pregnancy                           
+G_PD02. PD02.00Congenital absence of kidney                                
+G_PD020 PD02000Bilateral congenital absence of kidneys                     
+G_PD021 PD02100Unilateral congenital absence of kidney                     
+G_PD02z PD02z00Congenital absence of kidney NOS                            
+G_PD03. PD03.00Hypoplasia of kidney                                        
+G_PD032 PD03211Ask-Upmark kidney                                           
+G_PD04. PD04.00Dysplasia of kidney                                         
+G_PD04z PD04z00Dysplasia of kidney NOS                                     
+G_PD1.. PD1..00Congenital cystic kidney disease                            
+G_PD1.. PD1..12Fibrocystic kidney                                          
+G_PD1.. PD1..13Polycystic kidney                                           
+G_PD1.. PD1..14Sponge kidney                                               
+G_PD11. PD11.00Polycystic kidney disease                                   
+G_PD110 PD11000Polycystic kidneys, infantile type                          
+G_PD110 PD11011Autosomal recessive polycystic kidney disease               
+G_PD111 PD11100Polycystic kidneys, adult type                              
+G_PD111 PD11111Autosomal dominant polycystic kidney disease                
+G_PD11z PD11z00Polycystic kidney disease NOS                               
+G_PD11z PD11z11Cystic kidney disease NEC                                   
+G_PD121 PD12111Medullary sponge kidney                                     
+G_PD13. PD13.11Multicystic kidney                                          
+G_PD1y. PD1y.00Other specified congenital cystic kidney disease            
+G_PD1y0 PD1y000Fibrocystic kidney disease                                  
+G_PD1yz PD1yz00Other congenital cystic kidney disease NOS                  
+G_PD1z. PD1z.00Congenital cystic kidney disease NOS                        
+G_PD30. PD30.00Accessory kidney                                            
+G_PD30. PD30.11Duplication of kidney                                       
+G_PD30. PD30.13Supernumerary kidney                                        
+G_PD31. PD31.00Congenital calculus of kidney                               
+G_PD32. PD32.00Congenital displaced kidney                                 
+G_PD33. PD33.00Discoid kidney                                              
+G_PD34. PD34.00Double kidney with double pelvis                            
+G_PD34. PD34.11Duplex kidneys                                              
+G_PD35. PD35.00Ectopic kidney                                              
+G_PD35. PD35.11Pelvic kidney                                               
+G_PD350 PD35000Thoracic kidney                                             
+G_PD36. PD36.00Fusion of kidneys                                           
+G_PD37. PD37.00Giant kidney                                                
+G_PD38. PD38.00Horseshoe kidney                                            
+G_PD39. PD39.00Hyperplasia of kidney                                       
+G_PD3A. PD3A.00Lobulation of kidney                                        
+G_PD3B. PD3B.00Malrotation of kidney                                       
+G_PD3C. PD3C.00Triple kidney with triple pelvis                            
+G_PD3C. PD3C.11Trifid kidney                                               
+G_PD3D. PD3D.00Enlarged kidney                                             
+G_PD3E. PD3E.00Cake kidney                                                 
+G_PD3F. PD3F.00Bifid kidney                                                
+G_PD8.. PD8..00Congenital abnormality of the kidney                        
+G_PD80. PD80.00Duplex kidney                                               
+G_PDz0. PDz0.00Unspecified anomaly of kidney                               
+G_Pyu70 Pyu7000[X]Other cystic kidney diseases                             
+G_Pyu73 Pyu7300[X]Other specified congenital malformations of kidney       
+G_Q20yz Q20yz12Kidney injury due to birth trauma                           
+G_R1351 R135100[D]Kidney filling defect                                    
+G_R144. R144.11[D]Kidney function test abnormal                            
+G_S76.. S76..00Injury to kidney                                            
+G_S760. S760.00Closed injury of kidney                                     
+G_S7600 S760000Kidney injury without open wound into cavity, unspecified   
+G_S7601 S760100Kidney haematoma without mention of open wound into cavity  
+G_S7602 S760200Kidney laceration without mention of open wound into cavity 
+G_S7603 S760300Kidney parenchyma disruption without open wound to cavity   
+G_S760z S760z00Kidney injury without mention of open wound into cavity NOS 
+G_S761. S761.00Open injury of kidney                                       
+G_S7610 S761000Kidney injury with open wound into cavity, unspecified      
+G_S7611 S761100Kidney haematoma with open wound into cavity                
+G_S7612 S761200Kidney laceration with open wound into cavity               
+G_S7613 S761300Kidney parenchyma disruption with open wound into cavity    
+G_S761z S761z00Kidney injury with open wound into cavity NOS               
+G_S76z. S76z.00Injury to kidney NOS                                        
+G_S76z. S76z.11Ruptured kidney NOS                                         
+G_SP083 SP08300Kidney transplant failure and rejection                     
+G_SP08a SP08a00Thrombosis of vein of transplanted kidney                   
+G_SP08P SP08P00Stenosis of vein of transplanted kidney                     
+G_SP08Q SP08Q00Aneurysm of artery of transplanted kidney                   
+G_SP08S SP08S00Aneurysm of vein of transplanted kidney                     
+G_SP08X SP08X00Rupture of artery of transplanted kidney                    
+G_SP08Y SP08Y00Rupture of vein of transplanted kidney                      
+G_SP08Z SP08Z00Thrombosis of artery of transplanted kidney                 
+G_SP154 SP15411Kidney failure as a complication of care                    
+G_TA02. TA02.00Accid cut,puncture,perf,h'ge - kidney dialysis/oth perfusion
+G_TA020 TA02000Accid cut,puncture,perf,h'ge - kidney dialysis              
+G_TA120 TA12000Foreign object left in body during kidney dialysis          
+G_TA220 TA22000Failure of sterile precautions during kidney dialysis       
+G_TA420 TA42000Mechanical failure of apparatus during kidney dialysis      
+G_TB001 TB00100Kidney transplant with complication, without blame          
+G_TB11. TB11.00Kidney dialysis with complication, without blame            
+G_U6102 U610200[X]Unintent cut/punct/perf/haemorrh dur kidney dial/oth perf
+G_U6112 U611200[X]Foreign obj accid left body dur kidney dialys/oth perfus 
+G_U6122 U612200[X]Failure sterile precautions dur kidney dialys/other perf 
+G_Z4B4. Z4B4.00Polycystic kidney disease counselling                       
+G_ZC2CL ZC2CL11Dietary advice kidney disease                               
+G_ZV105 ZV10512[V]Personal history of malignant neoplasm of kidney         
+G_ZV105 ZV10513[V]Personal history of malignant neoplasm of kidney         
+G_ZV186 ZV18600[V]Family history of kidney disease                         
+G_ZV420 ZV42000[V]Kidney transplanted                                      
+G_ZV594 ZV59400[V]Kidney donor                                             
+G_ZV6G5 ZV6G500[V]Acquired absence of kidney                               
+G_12FZ. 12FZ.12FH: Renal disorder                                          
+G_14D.. 14D..12H/O: renal disease                                          
+G_14V2. 14V2.00H/O: renal dialysis                                         
+#G_1A53. 1A53.00Lumbar ache - renal                                         
+#G_1A53. 1A53.13C/O - renal pain                                            
+G_1Z1.. 1Z1..00Chronic renal impairment                                    
+G_44V4. 44V4.00GTT = renal glycosuria                                      
+G_4514. 4514.00Tubular reabsorption - renal                                
+G_4519. 4519.00Deteriorating renal function                                
+G_7A30. 7A30.00Reconstruction of renal artery                              
+G_7A300 7A30000Plastic repair and end to end anastomosis of renal artery   
+G_7A301 7A30100Bypass of renal artery                                      
+G_7A302 7A30200Reimplantation of renal artery                              
+G_7A302 7A30211Replantation of renal artery                                
+G_7A303 7A30300Endarterectomy of renal artery                              
+G_7A304 7A30400Translocation of branch of renal artery                     
+G_7A304 7A30411Hellstrom translocation of branch of renal artery           
+G_7A305 7A30500Patch angioplasty of renal artery                           
+G_7A30y 7A30y00Other specified reconstruction of renal artery              
+G_7A30z 7A30z00Reconstruction of renal artery NOS                          
+G_7A31. 7A31.00Other open operations on renal artery                       
+G_7A310 7A31000Open embolectomy of renal artery                            
+G_7A311 7A31100Ligation of renal artery                                    
+G_7A312 7A31200Open embolisation of renal artery                           
+G_7A313 7A31300Operation on aneurysm of renal artery                       
+G_7A31y 7A31y00Other specified other open operation on renal artery        
+G_7A31z 7A31z00Other open operation on renal artery NOS                    
+G_7A32. 7A32.00Transluminal operations on renal artery                     
+G_7A32. 7A32.11Percutaneous operations on renal artery                     
+G_7A320 7A32000Percutaneous transluminal angioplasty of renal artery       
+G_7A321 7A32100Percutaneous transluminal embolectomy of renal artery       
+G_7A322 7A32200Percutaneous transluminal embolisation of renal artery      
+G_7A323 7A32300Arteriography of renal artery                               
+G_7A324 7A32400Percutan transluminal balloon angioplasty stenting renal art
+G_7A325 7A32500Percutaneous transluminal insertion stent into renal artery 
+G_7A326 7A32600Percut transluminal RF sympathetic denervation renal artery 
+G_7A32y 7A32y00Other specified transluminal operation on renal artery      
+G_7A32z 7A32z00Transluminal operation on renal artery NOS                  
+G_7A6B2 7A6B200Open thrombectomy of renal vein                             
+G_7B002 7B00212Cadaveric renal transplant                                  
+G_7B006 7B00600Xenograft renal transplant                                  
+G_7B03. 7B03.00Open extirpation of renal lesion                            
+G_7B03. 7B03.11Open removal of renal lesion                                
+G_7B030 7B03000Open deroofing of renal cyst                                
+G_7B031 7B03100Open excision of renal lesion                               
+G_7B032 7B03200Open destruction of renal lesion                            
+G_7B03y 7B03y00Other specified open extirpation of renal lesion            
+G_7B03z 7B03z00Open extirpation of renal lesion NOS                        
+G_7B044 7B04400Repair of renal laceration                                  
+G_7B05. 7B05.00Incision of kidney or renal pelvis                          
+G_7B054 7B05400Therapeutic open aspiration of renal cyst                   
+G_7B055 7B05500Therapeutic open aspiration of renal pelvis                 
+G_7B060 7B06000Open renal biopsy                                           
+G_7B061 7B06100Open renal denervation                                      
+G_7B063 7B06300Exploration of renal transplant                             
+G_7B07. 7B07.00Percutaneous renal stone surgery                            
+G_7B07. 7B07.11Nephroscopic percutaneous lithotripsy of renal calculus     
+G_7B07. 7B07.12Percutaneous lithotripsy of renal calculus                  
+G_7B070 7B07000Nephroscopy and ultrasound lithotripsy of renal calculus    
+G_7B070 7B07011Endoscopic ultrasound fragmentation of renal calculus       
+G_7B071 7B07100Nephroscopy & electrohydraulic lithotripsy of renal calculus
+G_7B072 7B07200Nephroscopy and laser lithotripsy of renal calculus         
+G_7B072 7B07211Endoscopic laser fragmentation of renal calculus            
+G_7B07y 7B07y00Other specified percutaneous renal stone surgery            
+G_7B07z 7B07z00Percutaneous renal stone surgery NOS                        
+G_7B090 7B09000Endoscopy and biopsy of renal lesion                        
+G_7B0A0 7B0A000Percutaneous needle biopsy of renal lesion                  
+G_7B0A1 7B0A100Percutaneous drainage of renal lesion                       
+G_7B0A2 7B0A200Percutaneous aspiration of renal lesion                     
+G_7B0B. 7B0B.00Extracorporeal shockwave lithotripsy for renal calculus     
+G_7B0B. 7B0B.11Extracorporeal fragmentation of renal calculus              
+G_7B0B0 7B0B000ESWL for renal calculus of unspecified size                 
+G_7B0B1 7B0B100ESWL for renal calculus less than 2 cm in diameter          
+G_7B0B2 7B0B200ESWL for renal calculus 2 cm or more in diameter            
+G_7B0By 7B0By00Extracorporeal shockwave lithotripsy for renal calculus OS  
+G_7B0Bz 7B0Bz00Extracorporeal shockwave lithotripsy for renal calculus NOS 
+G_7L1A. 7L1A.00Compensation for renal failure                              
+G_7L1A. 7L1A.11Dialysis for renal failure                                  
+G_7L1Ay 7L1Ay00Other specified compensation for renal failure              
+G_7L1Az 7L1Az00Compensation for renal failure NOS                          
+G_7L1B. 7L1B.00Placement ambulatory apparatus compensation renal failure   
+G_7L1B. 7L1B.11Placement ambulatory dialysis apparatus - compens renal fail
+G_7L1By 7L1By00Placement ambulatory apparatus- compensate renal failure OS 
+G_7L1Bz 7L1Bz00Placement ambulatory apparatus- compensate renal failure NOS
+G_7L1C. 7L1C.00Placement other apparatus for compensation for renal failure
+G_7L1Cy 7L1Cy00Placement other apparatus- compensate for renal failure OS  
+G_7L1Cz 7L1Cz00Placement other apparatus- compensate for renal failure NOS 
+G_7Q090 7Q09000Hypoplastic haemolytic and renal anaemia drugs band 1       
+G_7Q091 7Q09100Hypoplastic haemolytic and renal anaemia drugs band 2       
+G_8H2M. 8H2M.00Admit renal medicine emergency                              
+G_8H3R. 8H3R.00Non-urgent renal medicine admission                         
+G_8H4a. 8H4a.00Referral to renal physician                                 
+G_9N1m. 9N1m.11Seen in renal clinic                                        
+G_9Ni1. 9Ni1.00Did not attend renal clinic                                 
+G_B4A1. B4A1.00Malignant neoplasm of renal pelvis                          
+G_B4A10 B4A1000Malignant neoplasm of renal calyces                         
+G_B4A1z B4A1z00Malignant neoplasm of renal pelvis NOS                      
+G_B7D0. B7D0.00Benign neoplasm of renal parenchyma                         
+G_B7D1. B7D1.00Benign neoplasm of renal pelvis                             
+G_B91z3 B91z300Neoplasm of uncertain or unknown behaviour of renal pelvis  
+G_BBL7. BBL7.00[M]Mixed and stromal renal neoplasms                        
+G_BBL7z BBL7z00[M]Mixed or stromal renal neoplasm NOS                      
+G_C104. C104.00Diabetes mellitus with renal manifestation                  
+G_C1040 C104000Diabetes mellitus, juvenile type, with renal manifestation  
+G_C1041 C104100Diabetes mellitus, adult onset, with renal manifestation    
+G_C104y C104y00Other specified diabetes mellitus with renal complications  
+G_C1080 C108000Insulin-dependent diabetes mellitus with renal complications
+G_C1080 C108011Type I diabetes mellitus with renal complications           
+G_C1080 C108012Type 1 diabetes mellitus with renal complications           
+G_C1090 C109000Non-insulin-dependent diabetes mellitus with renal comps    
+G_C1090 C109011Type II diabetes mellitus with renal complications          
+G_C1090 C109012Type 2 diabetes mellitus with renal complications           
+G_C10A2 C10A200Malnutrition-related diabetes mellitus with renal complicatn
+G_C10E0 C10E000Type 1 diabetes mellitus with renal complications           
+G_C10E0 C10E011Type I diabetes mellitus with renal complications           
+G_C10E0 C10E012Insulin-dependent diabetes mellitus with renal complications
+G_C10F0 C10F000Type 2 diabetes mellitus with renal complications           
+G_C10F0 C10F011Type II diabetes mellitus with renal complications          
+G_C345. C345.00Gout due to impairment of renal function                    
+G_Cyu23 Cyu2300[X]Unspecified diabetes mellitus with renal complications   
+G_D215. D215.00Anaemia secondary to renal failure                          
+G_D2150 D215000Anaemia secondary to chronic renal failure                  
+G_G22.. G22..00Hypertensive renal disease                                  
+G_G220. G220.00Malignant hypertensive renal disease                        
+G_G221. G221.00Benign hypertensive renal disease                           
+G_G222. G222.00Hypertensive renal disease with renal failure               
+G_G22z. G22z.00Hypertensive renal disease NOS                              
+G_G23.. G23..00Hypertensive heart and renal disease                        
+G_G230. G230.00Malignant hypertensive heart and renal disease              
+G_G231. G231.00Benign hypertensive heart and renal disease                 
+G_G233. G233.00Hypertensive heart and renal disease with renal failure     
+G_G234. G234.00Hyperten heart&renal dis+both(congestv)heart and renal fail 
+G_G23z. G23z.00Hypertensive heart and renal disease NOS                    
+G_G7010 G701000Atherosclerotic renal artery stenosis                       
+G_G7010 G701011ARAS - Atherosclerotic renal artery stenosis                
+G_G703. G703.00Acquired renal artery stenosis                              
+G_G721. G721.00Aneurysm of renal artery                                    
+G_G7210 G721000Acquired renal artery aneurysm                              
+G_G7211 G721100Congenital renal artery aneurysm                            
+G_G726. G726.00Dissection of renal artery                                  
+G_G763. G763.00Hyperplasia of renal artery                                 
+G_G823. G823.00Embolism and thrombosis of the renal vein                   
+G_Gyu21 Gyu2100[X]Hypertension secondary to other renal disorders          
+G_K04.. K04..00Acute renal failure                                         
+G_K04.. K04..11ARF - Acute renal failure                                   
+G_K040. K040.00Acute renal tubular necrosis                                
+G_K041. K041.00Acute renal cortical necrosis                               
+G_K042. K042.00Acute renal medullary necrosis                              
+G_K042. K042.11Necrotising renal papillitis                                
+G_K043. K043.00Acute drug-induced renal failure                            
+G_K0430 K043000Acute renal failure due to ACE inhibitor                    
+G_K0431 K043100Acute renal failure induced by aminoglycoside               
+G_K0432 K043200Acute renal failure induced by cisplatin                    
+G_K0433 K043300Acute renal failure induced by cyclosporin A                
+G_K0434 K043400Acute renal failure induced by non-steroid anti-inflamm drug
+G_K044. K044.00Acute renal fail urin obstruct                              
+G_K045. K045.00Acute renal failure due to non-traumatic rhabdomyolysis     
+G_K046. K046.00Acute renal failure induced by toxin                        
+G_K0460 K046000Acute renal failure induced by animal toxin                 
+G_K0461 K046100Acute renal failure induced by plant toxin                  
+G_K047. K047.00Acute renal failure induced by heavy metal                  
+G_K048. K048.00Acute renal failure induced by poison                       
+G_K049. K049.00Acute renal failure induced by radiographic contrast media  
+G_K04A. K04A.00Acute renal failure induced by solvent                      
+G_K04B. K04B.00Acute renal failure due to traumatic rhabdomyolysis         
+G_K04y. K04y.00Other acute renal failure                                   
+G_K04z. K04z.00Acute renal failure NOS                                     
+G_K05.. K05..00Chronic renal failure                                       
+G_K05.. K05..12End stage renal failure                                     
+G_K050. K050.00End stage renal failure                                     
+G_K060. K060.11Impaired renal function                                     
+G_K08.. K08..00Impaired renal function disorder                            
+G_K08y. K08y.00Other impaired renal function disorder                      
+G_K08y2 K08y211Albright's renal tubular acidosis                           
+G_K08y9 K08y900Classic distal renal tubular acidosis                       
+G_K08yB K08yB00Hyperkalaemic renal tubular acidosis                        
+G_K08yB K08yB11Type IV renal tubular acidosis                              
+G_K08yC K08yC00Proximal renal tubular acidosis                             
+G_K08yC K08yC11Type II renal tubular acidosis                              
+G_K08yD K08yD00Distal renal tubular acidosis                               
+G_K08yE K08yE00Mixed renal tubular acidosis                                
+G_K08yE K08yE11Type III renal tubular acidosis                             
+G_K08yF K08yF00Inherited renal tubule insuffic with cholestatic jaundice   
+G_K08yG K08yG00Specific renal tubule transport defect                      
+G_K08yH K08yH00Familial renal hypouricaemia                                
+G_K08yz K08yz00Other impaired renal function disorder NOS                  
+G_K08z. K08z.00Impaired renal function disorder NOS                        
+G_K0D.. K0D..00End-stage renal disease                                     
+G_K0E.. K0E..00Acute-on-chronic renal failure                              
+G_K0H.. K0H..00Acute scleroderma renal crisis                              
+G_K103. K103.12Infestation of renal pelvis with ureter                     
+G_K112. K112.00Hydronephrosis with renal and ureteral calculous obstruction
+G_K132. K132.11Acquired renal cystic disease                               
+G_K1323 K132300Acquired renal cyst with neoplastic change                  
+G_K1324 K132400Acquired renal cyst without neoplastic change               
+G_K13C. K13C.00Chronic drug-induced renal disease                          
+G_Kyu16 Kyu1600[X]Other specified renal tubulo-interstitial diseases       
+G_Kyu20 Kyu2000[X]Other acute renal failure                                
+G_Kyu21 Kyu2100[X]Other chronic renal failure                              
+G_Kyu40 Kyu4000[X]Other disorders resulting/impaired renal tubular function
+G_L0403 L040300Unspecified spontaneous abortion with renal failure         
+G_L0413 L041300Incomplete spontaneous abortion with renal failure          
+G_L0423 L042300Complete spontaneous abortion with renal failure            
+G_L0503 L050300Unspecified legal abortion with renal failure               
+G_L0513 L051300Incomplete legal abortion with renal failure                
+G_L0523 L052300Complete legal abortion with renal failure                  
+G_L0603 L060300Unspecified illegal abortion with renal failure             
+G_L0613 L061300Incomplete illegal abortion with renal failure              
+G_L0623 L062300Complete illegal abortion with renal failure                
+G_L0703 L070300Unspecified abortion with renal failure                     
+G_L0713 L071300Unspecified incomplete abortion with renal failure          
+G_L0723 L072300Unspecified complete abortion with renal failure            
+G_L083. L083.00Failed attempted abortion with renal failure                
+G_L0931 L093100Acute renal failure following abortive pregnancy            
+G_L1281 L128100Pre-exist hyperten heart renal dis comp preg chldbirth/puerp
+G_L162. L162.00Unspecified renal disease in pregnancy                      
+G_L1620 L162000Unspecified renal disease in pregnancy unspecified          
+G_L1621 L162100Unspecified renal disease in pregnancy - delivered          
+G_L1622 L162200Unspecified renal disease in pregnancy - del with p/n comp  
+G_L1623 L162300Unspecified renal disease in pregnancy - not delivered      
+G_L1624 L162400Unspecified renal disease in pregnancy with p/n complication
+G_L162z L162z00Unspecified renal disease in pregnancy NOS                  
+G_L393. L393.00Acute renal failure following labour and delivery           
+G_L3930 L393000Post-delivery acute renal failure unspecified               
+G_L3931 L393100Post-delivery acute renal failure - delivered with p/n prob 
+G_L3932 L393200Post-delivery acute renal failure with postnatal problem    
+G_L393z L393z00Post-delivery acute renal failure NOS                       
+G_P76B. P76B.00Multiple renal arteries                                     
+G_P76B. P76B.11Accessory renal artery                                      
+G_P76C. P76C.00Anomalies of renal artery NEC                               
+G_P76C0 P76C000Aberrant main renal artery                                  
+G_P76Cz P76Cz00Anomaly of renal artery NEC NOS                             
+G_PD000 PD00000Bilateral renal agenesis                                    
+G_PD001 PD00100Unilateral renal agenesis                                   
+G_PD002 PD00200Unilat renal agenesis with contralat hypoplasia/dysplasia   
+G_PD01. PD01.00Congenital renal atrophy                                    
+G_PD030 PD03000Bilateral renal hypoplasia                                  
+G_PD031 PD03100Unilateral renal hypoplasia                                 
+G_PD032 PD03200Segmental renal hypoplasia                                  
+G_PD040 PD04000Bilateral renal dysplasia                                   
+G_PD040 PD04011Bilateral renal dysgenesis                                  
+G_PD041 PD04100Unilateral renal dysplasia                                  
+G_PD041 PD04111Unilateral renal dysgenesis                                 
+G_PD1.. PD1..11Congenital cystic renal disease                             
+G_PD10. PD10.00Congenital renal cyst, single                               
+G_PD13. PD13.00Multicystic renal dysplasia                                 
+G_PD1y0 PD1y011Fibrocystic renal degeneration                              
+G_PD23. PD23.11Congenital dilated renal pelvis                             
+G_PD2y. PD2y.00Other specified obstructive defect of renal pelvis or ureter
+G_PD2z. PD2z.00Obstructive defect of renal pelvis or ureter NOS            
+G_PD3.. PD3..00Other specified renal anomaly                               
+G_PD3z. PD3z.00Other specified renal anomaly NOS                           
+G_Pyu2A Pyu2A00[X]Other congenital malformations of renal artery           
+G_Pyu71 Pyu7100[X]Other obstructive defects of renal pelvis and ureter     
+G_Q001. Q001.11Fetus or neonate affected by maternal renal disease         
+G_Q48y0 Q48y000Congenital renal failure                                    
+G_SK08. SK08.00Acute renal failure due to rhabdomyolysis                   
+G_SP07M SP07M00Thrombosis of renal artery bypass graft                     
+G_SP08C SP08C00Accelerated rejection of renal transplant                   
+G_SP08D SP08D00Acute-on-chronic rejection of renal transplant              
+G_SP08E SP08E00Acute rejection of renal transplant - grade I               
+G_SP08F SP08F00Acute rejection of renal transplant - grade II              
+G_SP08G SP08G00Acute rejection of renal transplant - grade III             
+G_SP08H SP08H00Acute rejection of renal transplant                         
+G_SP08J SP08J00Chronic rejection of renal transplant                       
+G_SP08K SP08K00Chronic rejection of renal transplant - grade 1             
+G_SP08L SP08L00Chronic rejection of renal transplant - grade II            
+G_SP08M SP08M00Chronic rejection of renal transplant - grade III           
+G_SP08N SP08N00Unexplained episode of renal transplant dysfunction         
+G_SP08T SP08T00Urological complication of renal transplant                 
+G_SP08V SP08V00Very mild acute rejection of renal transplant               
+G_SP08W SP08W00Vascular complication of renal transplant                   
+G_SP154 SP15412Post operative renal failure                                
+G_TA020 TA02011Accidental cut/puncture/perf/haem'ge during renal dialysis  
+G_TA120 TA12011Foreign object left in body during renal dialysis           
+G_TA220 TA22011Failure of sterile precautions during renal dialysis        
+G_TA420 TA42011Mechanical failure of apparatus during renal dialysis       
+G_ZC2CL ZC2CL00Dietary advice for renal disorder                           
+G_ZRh9. ZRh9.11RI - Renal index                                            
+G_ZV560 ZV56011[V]Aftercare involving renal dialysis NOS                   
+G_14V2. 14V2.00H/O: renal dialysis                                         
+G_14V2. 14V2.11H/O: kidney dialysis                                        
+G_4I29. 4I29.00Peritoneal dialysis sample                                  
+G_4N... 4N...00Dialysis fluid examination                                  
+G_4N0.. 4N0..00Dialysis fluid urea level                                   
+G_4N1.. 4N1..00Dialysis fluid creatinine level                             
+G_4N2.. 4N2..00Dialysis fluid glucose level                                
+G_4N3.. 4N3..00Peritoneal dialysis fluid cell count                        
+G_4N4.. 4N4..00Dialysis fluid potassium level                              
+G_4N5.. 4N5..00Dialysis fluid sodium level                                 
+G_72573 7257300Correction iridodialysis NEC                                
+G_72610 7261011Cyclodialysis                                               
+G_7A606 7A60600Creation of graft fistula for dialysis                      
+G_7A619 7A61900Ligation of arteriovenous dialysis fistula                  
+G_7A61A 7A61A00Ligation of arteriovenous dialysis graft                    
+G_7L1A. 7L1A.11Dialysis for renal failure                                  
+G_7L1A0 7L1A000Renal dialysis                                              
+G_7L1A0 7L1A011Thomas intravascular shunt for dialysis                     
+G_7L1A1 7L1A100Peritoneal dialysis                                         
+G_7L1A2 7L1A200Haemodialysis NEC                                           
+G_7L1A4 7L1A400Automated peritoneal dialysis                               
+G_7L1A5 7L1A500Continuous ambulatory peritoneal dialysis                   
+G_7L1A6 7L1A600Peritoneal dialysis NEC                                     
+G_7L1B. 7L1B.11Placement ambulatory dialysis apparatus - compens renal fail
+G_7L1B0 7L1B000Insertion of ambulatory peritoneal dialysis catheter        
+G_7L1B1 7L1B100Removal of ambulatory peritoneal dialysis catheter          
+G_7L1B2 7L1B200Flushing of peritoneal dialysis catheter                    
+G_7L1C0 7L1C000Insertion of temporary peritoneal dialysis catheter         
+G_7L1f0 7L1f000Extracorporeal albumin haemodialysis                        
+G_8882. 8882.00Intestinal dialysis                                         
+G_F4104 F410400New partial retinal detachment with retinal dialysis        
+G_F447C F447C00Iridodialysis                                               
+G_G72C. G72C.00Ruptured aneurysm of dialysis vascular access               
+G_G72D. G72D.00Aneurysm of dialysis arteriovenous fistula                  
+G_G72D0 G72D000Aneurysm of superficialised artery of dialysis AV fistula   
+G_G72D1 G72D100Aneurysm of needle site of dialysis arteriovenous fistula   
+G_G72D2 G72D200Aneurysm of anastomotic site of dialysis AV fistula         
+G_G72E. G72E.00Aneurysm of dialysis vascular access                        
+G_Gy1.. Gy1..00Stenosis of dialysis vascular access                        
+G_Gy10. Gy10.00Stenosis of dialysis arteriovenous graft                    
+G_Gy11. Gy11.00Stenosis of dialysis arteriovenous shunt                    
+G_Gy110 Gy11000Stenosis of arterial side of dialysis arteriovenous shunt   
+G_Gy111 Gy11100Stenosis of venous side of dialysis arteriovenous shunt     
+G_Gy2.. Gy2..00Thrombosis of dialysis vascular access                      
+G_Gy20. Gy20.00Thrombosis of dialysis arteriovenous graft                  
+G_Gy21. Gy21.00Thrombosis of dialysis arteriovenous fistula                
+G_Gy22. Gy22.00Thrombosis of dialysis arteriovenous shunt                  
+G_Gy3.. Gy3..00Occlusion of dialysis vascular access                       
+G_Gy30. Gy30.00Occlusion of dialysis arteriovenous graft                   
+G_Gy31. Gy31.00Occlusion of dialysis arteriovenous fistula                 
+G_Gy32. Gy32.00Occlusion of dialysis arteriovenous shunt                   
+G_Gy4.. Gy4..00Infection of dialysis vascular access                       
+G_Gy40. Gy40.00Infection of dialysis arteriovenous graft                   
+G_Gy41. Gy41.00Infection of dialysis arteriovenous fistula                 
+G_Gy42. Gy42.00Infection of dialysis arteriovenous shunt                   
+G_Gy5.. Gy5..00Haemorrhage of dialysis vascular access                     
+G_Gy50. Gy50.00Haemorrhage of dialysis arteriovenous graft                 
+G_Gy51. Gy51.00Haemorrhage of dialysis arteriovenous fistula               
+G_Gy52. Gy52.00Haemorrhage of dialysis arteriovenous shunt                 
+G_Gy6.. Gy6..00Rupture of dialysis vascular access                         
+G_Gy60. Gy60.00Rupture of dialysis arteriovenous graft                     
+G_Gy61. Gy61.00Rupture of dialysis arteriovenous fistula                   
+G_Gy62. Gy62.00Rupture of dialysis arteriovenous shunt                     
+G_SP015 SP01500Mechanical complication of dialysis catheter                
+G_SP056 SP05613[X] Peritoneal dialysis associated peritonitis              
+G_SP06B SP06B00Continuous ambulatory peritoneal dialysis associated perit  
+G_SP07G SP07G00Stenosis of arteriovenous dialysis fistula                  
+G_SP0E. SP0E.00Disorders associated with peritoneal dialysis               
+G_SP0E0 SP0E000Bloodstained peritoneal dialysis effluent                   
+G_SP0E1 SP0E100Thrombus in peritoneal dialysis catheter                    
+G_SP0F. SP0F.00Haemodialysis first use syndrome                            
+G_SP0G. SP0G.00Anaphylactoid reaction due to haemodialysis                 
+G_SP0H. SP0H.00Disorder associated with dialysis                           
+G_SP0H0 SP0H000Dialysis disequilibrium                                     
+G_SP3y9 SP3y900Acute hypercalcaemia of dialysis                            
+G_TA02. TA02.00Accid cut,puncture,perf,h'ge - kidney dialysis/oth perfusion
+G_TA020 TA02000Accid cut,puncture,perf,h'ge - kidney dialysis              
+G_TA020 TA02011Accidental cut/puncture/perf/haem'ge during renal dialysis  
+G_TA120 TA12000Foreign object left in body during kidney dialysis          
+G_TA120 TA12011Foreign object left in body during renal dialysis           
+G_TA220 TA22000Failure of sterile precautions during kidney dialysis       
+G_TA220 TA22011Failure of sterile precautions during renal dialysis        
+G_TA420 TA42000Mechanical failure of apparatus during kidney dialysis      
+G_TA420 TA42011Mechanical failure of apparatus during renal dialysis       
+G_TB11. TB11.00Kidney dialysis with complication, without blame            
+G_TB11. TB11.11Renal dialysis with complication, without blame             
+G_U641. U641.00[X]Kidny dialysis caus abn reac pt/lat comp no misad at time
+G_Z1314 Z131400Warming patient by dialysis therapy                         
+G_Z1315 Z131500Warming patient with warm haemodialysis                     
+G_Z1316 Z131600Warming patient with warm peritoneal dialysis               
+G_Z1328 Z132800Cooling patient using cool peritoneal dialysis              
+G_Z1A.. Z1A..00Dialysis training                                           
+G_Z1A1. Z1A1.00Peritoneal dialysis training                                
+G_Z1A1. Z1A1.11PD - Peritoneal dialysis training                           
+G_Z1A2. Z1A2.00Haemodialysis training                                      
+G_Z1A2. Z1A2.11HD - Haemodialysis training                                 
+G_Z919. Z919.00Care of haemodialysis equipment                             
+G_Z9191 Z919100Priming haemodialysis lines                                 
+G_Z9192 Z919200Washing back through haemodialysis lines                    
+G_Z9193 Z919300Reversing haemodialysis lines                               
+G_Z9194 Z919400Recirculation of the dialysis machine                       
+G_Z91A. Z91A.00Peritoneal dialysis bag procedure                           
+G_Z91A1 Z91A100Putting additive into peritoneal dialysis bag               
+G_ZV451 ZV45100[V]Renal dialysis status                                    
+G_ZV56. ZV56.00[V]Aftercare involving intermittent dialysis                
+G_ZV560 ZV56000[V]Aftercare involving extracorporeal dialysis              
+G_ZV560 ZV56011[V]Aftercare involving renal dialysis NOS                   
+G_ZV561 ZV56100[V]Preparatory care for dialysis                            
+G_ZV56y ZV56y00[V]Other specified aftercare involving intermittent dialysis
+G_ZV56y ZV56y11[V]Aftercare involving peritoneal dialysis                  
+G_ZV56z ZV56z00[V]Unspecified aftercare involving intermittent dialysis    
+G_ZVu3G ZVu3G00[X]Other dialysis                                           
+G_14S2. 14S2.00	h/o: kidney recipient
+G_14V2. 14V2.00	h/o: renal dialysis
+G_14V2. 14V2.11	h/o: kidney dialysis
+G_1Z1.. 1Z1..00	Chronic renal impairment
+G_1Z1.. 1Z1..00	Chronic renal impairment
+G_1Z10. 1Z10.00	Chronic kidney disease stage 1
+G_1Z10. 1Z10.00	Chronic kidney disease stage 1
+G_1Z11. 1Z11.00	Chronic kidney disease stage 2
+G_1Z11. 1Z11.00	Chronic kidney disease stage 2
+G_1Z12. 1Z12.00	Chronic kidney disease stage 3
+G_1Z12. 1Z12.00	Chronic kidney disease stage 3
+G_1Z12. 1Z12.00	Chronic kidney disease stage 3
+G_1Z13. 1Z13.00	Chronic kidney disease stage 4
+G_1Z13. 1Z13.00	Chronic kidney disease stage 4
+G_1Z14. 1Z14.00	Chronic kidney disease stage 5
+G_1Z14. 1Z14.00	chronic kidney disease stage 5
+G_1Z14. 1Z14.00	Chronic kidney disease stage 5
+G_1Z15. 1Z15.00	Chronic kidney disease stage 3A
+G_1Z16. 1Z16.00	Chronic kidney disease stage 3B
+G_1Z1C. 1Z1C.00	Chronic kidney disease stage 3 without proteinuria
+G_1Z1E. 1Z1E.00	Chronic kidney disease stage 3A without proteinuria
+G_1Z1G. 1Z1G.00	Chronic kidney disease stage 3B without proteinuria
+G_38G3. 38G3.00	Hyperten, abnorm renal/liver funct, stroke, BLED score
+G_4512. 4512.00	Renal function tests abnormal
+G_4I29. 4I29.00	peritoneal dialysis sample
+G_4N0.. 4N0..00	dialysis fluid urea level
+G_4N2.. 4N2..00	dialysis fluid glucose level
+G_4Z1.. 4Z1..00	Chronic kidney disease laboratory study
+G_66i.. 66i..00	Chronic kidney disease monitoring
+G_67P41 67P4100	discussion about kidney transplantation
+G_6AA.. 6AA..00	Chronic kidney disease annual review
+G_7A60. 7A60.00	arteriovenous shunt
+G_7A600 7A60000	insertion of arteriovenous prosthesis
+G_7A601 7A60100	creation of arteriovenous fistula nec
+G_7A602 7A60200	attention to arteriovenous shunt
+G_7A603 7A60300	removal of infected arteriovenous shunt
+G_7A604 7A60400	banding of arteriovenous fistula
+G_7A605 7A60500	thrombectomy of arteriovenous fistula
+G_7A606 7A60600	creation of graft fistula for dialysis
+G_7A60y 7A60y00	other specified arteriovenous shunt
+G_7A60z 7A60z00	arteriovenous shunt nos
+G_7A611 7A61100	repair of acquired arteriovenous fistula
+G_7A611 7A61111	ligation of acquired arteriovenous fistula
+G_7A614 7A61400	ligation of acquired arteriovenous fistula
+G_7A619 7A61900	ligation of arteriovenous dialysis fistula
+G_7A61A 7A61A00	ligation of arteriovenous dialysis graft
+G_7B00. 7B00.00	transplantation of kidney
+G_7B00. 7B00.00	Transplantation of kidney
+G_7B0B. 7B0B.00	Extracorporeal shockwave lithotripsy for renal calculus
+G_7L1A. 7L1A.00	compensation for renal failure
+G_7L1B. 7L1B.00	placement ambulatory apparatus compensation renal failure
+G_7L1C. 7L1C.00	placement other apparatus for compensation for renal failure
+G_8A6.. 8A6..00	Renal function monitoring
+G_8A6.. 8A6..11	Kidney function monitoring
+G_8CAV. 8CAV.00	Patient advised about renal disorder
+G_8H4a. 8H4a.00	Referral to renal physician
+G_8H4L. 8H4L.00	Referred to nephrologist
+G_8L50. 8L50.00	renal transplant planned
+G_9N1m. 9N1m.00	Seen in nephrology clinic
+G_9N1m. 9N1m.11	Seen in renal clinic
+G_9Ot.. 9Ot..00	Chronic kidney disease monitoring administration
+G_9Ot0. 9Ot0.00	Chronic kidney disease monitoring first letter
+G_9Ot1. 9Ot1.00	Chronic kidney disease monitoring second letter
+G_9Ot2. 9Ot2.00	Chronic kidney disease monitoring third letter
+G_9Ot5. 9Ot5.00	predicted stage chronic kidney disease
+G_G72C. G72C.00	ruptured aneurysm of dialysis vascular access
+G_Gy1.. Gy1..00	stenosis of dialysis vascular access
+G_Gy21. Gy21.00	thrombosis of dialysis arteriovenous fistula
+G_Gy3.. Gy3..00	occlusion of dialysis vascular access
+G_Gy31. Gy31.00	occlusion of dialysis arteriovenous fistula
+G_Gy40. Gy40.00	infection of dialysis arteriovenous graft
+G_Gy41. Gy41.00	infection of dialysis arteriovenous fistula
+G_Gy51. Gy51.00	haemorrhage of dialysis arteriovenous fistula
+G_Gy60. Gy60.00	rupture of dialysis arteriovenous graft
+G_K0... K0...00	Nephritis; nephrosis and nephrotic syndrome
+G_K00.. K00..00	Acute glomerulonephritis
+G_K001. K001.00	Acute nephritis with lesions of necrotising glomerulitis
+G_K01.. K01..00	Nephrotic syndrome
+G_K012. K012.00	Nephrotic syndrome??????? glomerulonephritis
+G_K019. K019.00	Nephrotic syn;diffuse mesangiocapillary glomerulonephritis
+G_K02.. K02..00	Chronic glomerulonephritis
+G_K02.. K02..11	Nephritis - chronic
+G_K02.. K02..12	Nephropathy - chronic
+G_K021. K021.00	Chronic membranous glomerulonephritis
+G_K022. K022.00	Chronic membranoproliferative glomerulonephritis
+G_K023. K023.00	Chronic rapidly progressive glomerulonephritis
+G_K02y0 K02y000	Chronic glomerulonephritis  diseases EC
+G_K02y2 K02y200	Chronic focal glomerulonephritis
+G_K02y3 K02y300	Chronic diffuse glomerulonephritis
+G_K02yz K02yz00	Other chronic glomerulonephritis NOS
+G_K02z. K02z.00	Chronic glomerulonephritis NOS
+G_K03.. K03..00	Nephritis and nephropathy unspecified
+G_K03.. K03..11	Nephritis and nephropathy unspecified
+G_K032. K032.00	Membranoproliferative nephritis unspecified
+G_K0320 K032000	Focal membranoproliferative glomerulonephritis
+G_K032y K032y00	Nephritis unsp membranoprolif glomerulonephritis lesion
+G_K032y K032y13	Mesangioproliferative glomerulonephritis NEC
+G_K032y K032y14	Mesangiocapillary glomerulonephritis NEC
+G_K032z K032z00	Nephritis unsp????? glomerulonephritis lesion NOS
+G_K034. K034.00	Renal cortical necrosis unspecified
+G_K035. K035.00	Renal medullary necrosis unspecified
+G_K04.. K04..00	Acute renal failure
+G_K04.. K04..00	Acute renal failure
+G_K04.. K04..12	Acute kidney injury
+G_K041. K041.00	Acute renal cortical necrosis
+G_K042. K042.00	Acute renal medullary necrosis
+G_K04y. K04y.00	Other acute renal failure
+G_K04z. K04z.00	Acute renal failure NOS
+G_K05.. K05..00	Chronic renal failure
+G_K05.. K05..00	Chronic renal failure
+G_K05.. K05..00	Chronic renal failure
+G_K05.. K05..12	end stage renal failure
+G_K050. K050.00	End stage renal failure
+G_K050. K050.00	End stage renal failure
+G_K055. K055.00	chronic kidney disease stage 5
+G_K06.. K06..00	Renal failure unspecified
+G_K06.. K06..00	Renal failure unspecified
+G_K060. K060.11	Impaired renal function
+G_K080. K080.00	Renal osteodystrophy
+G_K0800 K080000	Phosphate-losing tubular disorders
+G_K0801 K080100	Renal dwarfism
+G_K0802 K080200	Renal infantilism
+G_K0803 K080300	Renal rickets
+G_K080z K080z00	Renal osteodystrophy NOS
+G_K081. K081.00	Nephrogenic diabetes insipidus
+G_K08y0 K08y000	Hypokalaemic nephropathy
+G_K08yz K08yz00	Other impaired renal function disorder NOS
+G_K08z. K08z.00	Impaired renal function disorder NOS
+G_K0A32 K0A3200	Chron nephritic syndrom difuse membranous glomerulonephritis
+G_K0A33 K0A3300	Chron neph syn difus mesangial prolifrtiv glomerulonephritis
+G_K0A34 K0A3400	Chron neph syn difuse endocap prolifrativ glomerulonephritis
+G_K0A35 K0A3500	Chronic neph syn difus mesangiocapillary glomerulonephritis
+G_K0A37 K0A3700	Chronic nephritic syn diffuse crescentic glomerulonephritis
+G_K0A55 K0A5500	[X]Heredtry nephrpthy NEC difus mesangiocapilry glomneph
+G_K0B5. K0B5.00	renal tubulo-interstitial disordrs in transplant rejectn
+G_K0D.. K0D..00	end-stage renal disease
+G_K10.. K10..00	Infections of kidney
+G_K1000 K100000	Chronic pyelonephritis without medullary necrosis
+G_K1001 K100100	Chronic pyelonephritis with medullary necrosis
+G_K1010 K101000	Acute pyelonephritis without medullary necrosis
+G_K1011 K101100	Acute pyelonephritis with medullary necrosis
+G_Kyu1C Kyu1C00	[x]renal tubulo-interstitial disorders/transplant rejection
+G_Kyu2. Kyu2.00	[X]Renal failure
+G_Kyu20 Kyu2000	[X]Other acute renal failure
+G_Kyu21 Kyu2100	[X]Other chronic renal failure
+G_SP015 SP01500	mechanical complication of dialysis catheter
+G_TA020 TA02000	accid cut;puncture;perf;h'ge - kidney dialysis
+G_TA22. TA22.00	failure of sterile precautions during perfusion
+G_TA220 TA22000	failure of sterile precautions during kidney dialysis
+G_TB001 TB00100	kidney transplant with complication; without blame
+G_U6122 U612200	[x]failure sterile precautions dur kidney dialys/other perf
+G_Z1A.. Z1A..00	dialysis training
+G_Z919. Z919.00	care of haemodialysis equipment
+G_ZL5AN ZL5AN00	Referral to nephrologist
+G_ZL9AO ZL9AO00	Seen by nephrologist
+G_ZV420 ZV42000	[v]kidney transplanted
+G_ZV451 ZV45100	[v]renal dialysis status
+G_ZV56. ZV56.00	[v]aftercare involving intermittent dialysis
+G_ZV560 ZV56000	[v]aftercare involving extracorporeal dialysis
+G_ZV560 ZV56011	[v]aftercare involving renal dialysis nos
+G_ZV561 ZV56100	[v]preparatory care for dialysis
+G_ZV56y ZV56y00	[v]other specified aftercare involving intermittent dialysis
+G_ZV56y ZV56y11	[v]aftercare involving peritoneal dialysis
+G_ZVu3G ZVu3G00	[x]other dialysis

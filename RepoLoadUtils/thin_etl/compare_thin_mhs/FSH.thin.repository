@@ -1,0 +1,162 @@
+FSH :: All :: With Values :: 617896 / 14446692 =  0.04 :: 617896 / 617896 =  1.00
+FSH :: Males :: With Values ::  39406 / 6889335 =  0.01 ::  39406 / 617896 =  0.06
+FSH :: Females :: With Values :: 578490 / 7557357 =  0.08 :: 578490 / 617896 =  0.94
+FSH :: General :: No. of Values :: All 935277 Male  48807 Female 886470
+FSH :: General :: No. of different days Values :: All 934248 Male  48726 Female 885522
+FSH :: General :: Avg #values per person (all) :: All  0.06 Male  0.01 Female  0.12
+FSH :: General :: Avg #values per person (>0)  :: All  1.51 Male  1.24 Female  1.53
+FSH :: General :: Avg dist between tests       :: All  849.9 Male  480.8 Female  861.1
+FSH :: Counts :: Age Group 20 - 25 :: All ::  10101 0.011
+FSH :: Counts :: Age Group 25 - 30 :: All ::  13504 0.014
+FSH :: Counts :: Age Group 30 - 35 :: All ::  17579 0.019
+FSH :: Counts :: Age Group 35 - 40 :: All ::  19916 0.021
+FSH :: Counts :: Age Group 40 - 45 :: All ::  28800 0.031
+FSH :: Counts :: Age Group 45 - 50 :: All ::  42629 0.046
+FSH :: Counts :: Age Group 50 - 55 :: All ::  34466 0.037
+FSH :: Counts :: Age Group 55 - 60 :: All ::   9714 0.010
+FSH :: Counts :: Age Group 60 - 65 :: All ::   2593 0.003
+FSH :: Counts :: Age Group 65 - 70 :: All ::   1820 0.002
+FSH :: Counts :: Age Group 70 - 75 :: All ::    926 0.001
+FSH :: Counts :: Age Group 75 - 80 :: All ::    580 0.001
+FSH :: Counts :: Age Group 80 - 85 :: All ::    333 0.000
+FSH :: Counts :: Age Group 85 - 90 :: All ::    150 0.000
+FSH :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+FSH :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+FSH :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+FSH :: Counts :: Age Group 20 - 25 :: Males ::    439 0.009
+FSH :: Counts :: Age Group 25 - 30 :: Males ::    403 0.008
+FSH :: Counts :: Age Group 30 - 35 :: Males ::    576 0.012
+FSH :: Counts :: Age Group 35 - 40 :: Males ::    654 0.013
+FSH :: Counts :: Age Group 40 - 45 :: Males ::    746 0.015
+FSH :: Counts :: Age Group 45 - 50 :: Males ::    935 0.019
+FSH :: Counts :: Age Group 50 - 55 :: Males ::   1147 0.024
+FSH :: Counts :: Age Group 55 - 60 :: Males ::   1147 0.024
+FSH :: Counts :: Age Group 60 - 65 :: Males ::   1048 0.021
+FSH :: Counts :: Age Group 65 - 70 :: Males ::   1066 0.022
+FSH :: Counts :: Age Group 70 - 75 :: Males ::    597 0.012
+FSH :: Counts :: Age Group 75 - 80 :: Males ::    357 0.007
+FSH :: Counts :: Age Group 80 - 85 :: Males ::    206 0.004
+FSH :: Counts :: Age Group 85 - 90 :: Males ::     79 0.002
+FSH :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+FSH :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+FSH :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+FSH :: Counts :: Age Group 20 - 25 :: Females ::   9662 0.011
+FSH :: Counts :: Age Group 25 - 30 :: Females ::  13101 0.015
+FSH :: Counts :: Age Group 30 - 35 :: Females ::  17003 0.019
+FSH :: Counts :: Age Group 35 - 40 :: Females ::  19262 0.022
+FSH :: Counts :: Age Group 40 - 45 :: Females ::  28054 0.032
+FSH :: Counts :: Age Group 45 - 50 :: Females ::  41694 0.047
+FSH :: Counts :: Age Group 50 - 55 :: Females ::  33319 0.038
+FSH :: Counts :: Age Group 55 - 60 :: Females ::   8567 0.010
+FSH :: Counts :: Age Group 60 - 65 :: Females ::   1545 0.002
+FSH :: Counts :: Age Group 65 - 70 :: Females ::    754 0.001
+FSH :: Counts :: Age Group 70 - 75 :: Females ::    329 0.000
+FSH :: Counts :: Age Group 75 - 80 :: Females ::    223 0.000
+FSH :: Counts :: Age Group 80 - 85 :: Females ::    127 0.000
+FSH :: Counts :: Age Group 85 - 90 :: Females ::     71 0.000
+FSH :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+FSH :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+FSH :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+FSH :: Stats :: Age Group 20 - 25 :: All ::  N 46667 non-zeros 46641 Median   5.00 Mean   5.08 Std   2.65 Max  44.80
+FSH :: Stats :: Age Group 25 - 30 :: All ::  N 59009 non-zeros 58981 Median   5.00 Mean   5.28 Std   3.26 Max  53.10
+FSH :: Stats :: Age Group 30 - 35 :: All ::  N 69654 non-zeros 69618 Median   5.10 Mean   5.85 Std   5.55 Max  89.00
+FSH :: Stats :: Age Group 35 - 40 :: All ::  N 83407 non-zeros 83383 Median   5.60 Mean   8.37 Std  13.19 Max 200.00
+FSH :: Stats :: Age Group 40 - 45 :: All ::  N 121969 non-zeros 121937 Median   7.00 Mean  15.51 Std  23.12 Max 213.00
+FSH :: Stats :: Age Group 45 - 50 :: All ::  N 150830 non-zeros 150791 Median  13.00 Mean  28.59 Std  32.25 Max 250.00
+FSH :: Stats :: Age Group 50 - 55 :: All ::  N 89593 non-zeros 89557 Median  39.80 Mean  46.02 Std  37.22 Max 306.00
+FSH :: Stats :: Age Group 55 - 60 :: All ::  N 23448 non-zeros 23437 Median  50.40 Mean  50.72 Std  37.30 Max 213.00
+FSH :: Stats :: Age Group 60 - 65 :: All ::  N 9293 non-zeros 9287 Median  18.70 Mean  35.45 Std  35.13 Max 423.80
+FSH :: Stats :: Age Group 65 - 70 :: All ::  N 5993 non-zeros 5990 Median  12.10 Mean  30.02 Std  32.50 Max 200.00
+FSH :: Stats :: Age Group 70 - 75 :: All ::  N 3197 non-zeros 3197 Median  12.40 Mean  29.50 Std  31.98 Max 200.00
+FSH :: Stats :: Age Group 75 - 80 :: All ::  N 1968 non-zeros 1967 Median  16.00 Mean  32.06 Std  32.71 Max 200.00
+FSH :: Stats :: Age Group 80 - 85 :: All ::  N 1056 non-zeros 1054 Median  26.10 Mean  37.32 Std  33.62 Max 178.90
+FSH :: Stats :: Age Group 85 - 90 :: All ::  N 496 non-zeros 496 Median  35.00 Mean  40.19 Std  32.72 Max 138.10
+FSH :: Stats :: Age Group 90 - 95 :: All ::  N 166 non-zeros 166 Median  55.60 Mean  54.01 Std  39.89 Max 193.60
+FSH :: Stats :: Age Group 95 - 100 :: All ::  N 26 non-zeros 26 Median  53.30 Mean  49.42 Std  30.02 Max 111.20
+FSH :: General :: All     :: outliers ratio 0.000031
+FSH :: General :: All     :: N 556891 non-zeros 556669 Median   7.00 Mean  20.72 Std  29.21 Max 423.80
+FSH :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.80   2.00  87.90 125.70 170.00
+FSH :: General :: All     :: quartiles ::   0.10   4.40   7.00  21.90 
+FSH :: General :: Males   :: outliers ratio 0.000193
+FSH :: General :: Males   :: N 36218 non-zeros 36206 Median   5.00 Mean   7.97 Std  10.32 Max 151.50
+FSH :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.40   1.50  25.50  56.20 100.80
+FSH :: General :: Males   :: quartiles ::   0.10   3.20   5.00   8.20 
+FSH :: General :: Females :: outliers ratio 0.000031
+FSH :: General :: Females :: N 520667 non-zeros 520475 Median   7.10 Mean  21.61 Std  29.87 Max 455.00
+FSH :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.80   2.00  89.50 127.00 170.90
+FSH :: General :: Females :: quartiles ::   0.10   4.60   7.10  24.80 
+FSH :: Rounding ::  0.00 r  0.00 pct
+FSH :: Rounding ::  0.01 r  0.11 pct
+FSH :: Rounding ::  0.10 r  0.62 pct
+FSH :: Rounding ::  1.00 r  0.25 pct
+FSH :: Rounding :: 10.00 r  0.02 pct
+FSH :: Rounding :: 100.00 r  0.00 pct
+FSH :: Rounding :: 1000.00 r  0.00 pct
+FSH :: Rounding :: most popular rounding for vals:  0.10
+FSH :: Stats year :: 2000 :: All :: N 18839 non-zeros 18824 Median   7.20 Mean  20.17 Std  27.72 Max 240.30
+FSH :: Stats year :: 2001 :: All :: N 25171 non-zeros 25159 Median   7.20 Mean  19.65 Std  27.30 Max 216.00
+FSH :: Stats year :: 2002 :: All :: N 31399 non-zeros 31374 Median   7.20 Mean  19.65 Std  27.66 Max 350.00
+FSH :: Stats year :: 2003 :: All :: N 37924 non-zeros 37898 Median   7.00 Mean  19.32 Std  27.16 Max 200.00
+FSH :: Stats year :: 2004 :: All :: N 43580 non-zeros 43538 Median   7.00 Mean  19.84 Std  28.04 Max 306.00
+FSH :: Stats year :: 2005 :: All :: N 49151 non-zeros 49116 Median   7.20 Mean  20.39 Std  28.70 Max 200.00
+FSH :: Stats year :: 2006 :: All :: N 53190 non-zeros 53162 Median   7.30 Mean  21.01 Std  29.43 Max 423.80
+FSH :: Stats year :: 2007 :: All :: N 54530 non-zeros 54511 Median   7.20 Mean  20.72 Std  28.92 Max 200.00
+FSH :: Stats year :: 2008 :: All :: N 58126 non-zeros 58104 Median   7.00 Mean  20.66 Std  28.86 Max 241.00
+FSH :: Stats year :: 2009 :: All :: N 61394 non-zeros 61377 Median   7.00 Mean  20.86 Std  29.19 Max 248.60
+FSH :: Stats year :: 2010 :: All :: N 59596 non-zeros 59590 Median   7.00 Mean  20.47 Std  28.54 Max 224.00
+FSH :: Stats year :: 2011 :: All :: N 61598 non-zeros 61593 Median   7.10 Mean  21.09 Std  29.40 Max 324.00
+FSH :: Stats year :: 2012 :: All :: N 60121 non-zeros 60113 Median   7.30 Mean  21.78 Std  30.33 Max 384.00
+FSH :: Stats year :: 2013 :: All :: N 59480 non-zeros 59474 Median   7.30 Mean  22.01 Std  30.11 Max 250.00
+FSH :: Stats year :: 2014 :: All :: N 55579 non-zeros 55577 Median   7.30 Mean  22.50 Std  30.58 Max 333.10
+FSH :: Stats year :: 2015 :: All :: N 46552 non-zeros 46550 Median   7.40 Mean  22.44 Std  30.45 Max 203.00
+FSH :: Stats year :: 2016 :: All :: N 1306 non-zeros 1306 Median   7.90 Mean  23.65 Std  30.83 Max 196.80
+FSH :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FSH :: Stats year :: 2000 :: Males   :: N 624 non-zeros 624 Median   5.10 Mean   7.24 Std   7.72 Max  89.70
+FSH :: Stats year :: 2001 :: Males   :: N 932 non-zeros 931 Median   5.00 Mean   8.04 Std  11.28 Max 140.30
+FSH :: Stats year :: 2002 :: Males   :: N 1146 non-zeros 1146 Median   5.10 Mean   7.96 Std  10.04 Max 125.80
+FSH :: Stats year :: 2003 :: Males   :: N 1639 non-zeros 1639 Median   4.90 Mean   7.50 Std   9.05 Max  95.00
+FSH :: Stats year :: 2004 :: Males   :: N 1616 non-zeros 1614 Median   5.00 Mean   8.43 Std  12.16 Max 178.90
+FSH :: Stats year :: 2005 :: Males   :: N 1968 non-zeros 1967 Median   5.00 Mean   8.23 Std  10.36 Max 124.40
+FSH :: Stats year :: 2006 :: Males   :: N 2100 non-zeros 2097 Median   5.00 Mean   8.51 Std  11.72 Max 145.00
+FSH :: Stats year :: 2007 :: Males   :: N 2334 non-zeros 2334 Median   5.00 Mean   8.42 Std  10.76 Max 100.80
+FSH :: Stats year :: 2008 :: Males   :: N 2722 non-zeros 2721 Median   5.00 Mean   8.50 Std  11.68 Max 140.30
+FSH :: Stats year :: 2009 :: Males   :: N 3278 non-zeros 3277 Median   5.00 Mean   8.18 Std  10.77 Max 130.00
+FSH :: Stats year :: 2010 :: Males   :: N 3652 non-zeros 3651 Median   4.90 Mean   7.85 Std  10.08 Max 121.30
+FSH :: Stats year :: 2011 :: Males   :: N 3713 non-zeros 3711 Median   5.00 Mean   8.06 Std  10.07 Max 125.00
+FSH :: Stats year :: 2012 :: Males   :: N 3902 non-zeros 3900 Median   5.00 Mean   8.07 Std  10.58 Max 150.00
+FSH :: Stats year :: 2013 :: Males   :: N 4274 non-zeros 4272 Median   5.10 Mean   8.22 Std  10.71 Max 149.50
+FSH :: Stats year :: 2014 :: Males   :: N 3730 non-zeros 3730 Median   5.00 Mean   8.37 Std  11.82 Max 173.00
+FSH :: Stats year :: 2015 :: Males   :: N 3205 non-zeros 3205 Median   5.00 Mean   8.27 Std  11.29 Max 125.80
+FSH :: Stats year :: 2016 :: Males   :: N 79 non-zeros 79 Median   4.80 Mean   6.67 Std   6.04 Max  27.90
+FSH :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FSH :: Stats year :: 2000 :: Females :: N 18216 non-zeros 18202 Median   7.30 Mean  20.59 Std  28.04 Max 240.30
+FSH :: Stats year :: 2001 :: Females :: N 24240 non-zeros 24229 Median   7.40 Mean  20.11 Std  27.63 Max 216.00
+FSH :: Stats year :: 2002 :: Females :: N 30252 non-zeros 30226 Median   7.30 Mean  20.11 Std  27.96 Max 221.50
+FSH :: Stats year :: 2003 :: Females :: N 36285 non-zeros 36258 Median   7.10 Mean  19.81 Std  27.52 Max 286.90
+FSH :: Stats year :: 2004 :: Females :: N 41963 non-zeros 41923 Median   7.10 Mean  20.27 Std  28.38 Max 306.00
+FSH :: Stats year :: 2005 :: Females :: N 47184 non-zeros 47146 Median   7.30 Mean  20.91 Std  29.18 Max 455.00
+FSH :: Stats year :: 2006 :: Females :: N 51090 non-zeros 51069 Median   7.40 Mean  21.55 Std  29.84 Max 423.80
+FSH :: Stats year :: 2007 :: Females :: N 52195 non-zeros 52177 Median   7.30 Mean  21.28 Std  29.36 Max 200.00
+FSH :: Stats year :: 2008 :: Females :: N 55404 non-zeros 55384 Median   7.10 Mean  21.21 Std  29.26 Max 213.00
+FSH :: Stats year :: 2009 :: Females :: N 58116 non-zeros 58101 Median   7.20 Mean  21.57 Std  29.75 Max 248.60
+FSH :: Stats year :: 2010 :: Females :: N 55943 non-zeros 55937 Median   7.10 Mean  21.31 Std  29.16 Max 224.00
+FSH :: Stats year :: 2011 :: Females :: N 57884 non-zeros 57879 Median   7.40 Mean  21.94 Std  30.05 Max 324.00
+FSH :: Stats year :: 2012 :: Females :: N 56219 non-zeros 56213 Median   7.50 Mean  22.75 Std  31.05 Max 480.00
+FSH :: Stats year :: 2013 :: Females :: N 55206 non-zeros 55201 Median   7.60 Mean  23.08 Std  30.86 Max 250.00
+FSH :: Stats year :: 2014 :: Females :: N 51847 non-zeros 51844 Median   7.70 Mean  23.52 Std  31.23 Max 250.00
+FSH :: Stats year :: 2015 :: Females :: N 43347 non-zeros 43345 Median   7.70 Mean  23.48 Std  31.12 Max 203.00
+FSH :: Stats year :: 2016 :: Females :: N 1227 non-zeros 1227 Median   8.30 Mean  24.76 Std  31.46 Max 196.80
+FSH :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+FSH :: Stats month 1 :: All :: N 53401 non-zeros 53384 Median   7.40 Mean  22.07 Std  30.00 Max 200.00
+FSH :: Stats month 2 :: All :: N 54753 non-zeros 54740 Median   7.20 Mean  21.82 Std  30.02 Max 248.60
+FSH :: Stats month 3 :: All :: N 60814 non-zeros 60794 Median   7.40 Mean  21.97 Std  29.97 Max 343.00
+FSH :: Stats month 4 :: All :: N 55674 non-zeros 55652 Median   7.40 Mean  22.18 Std  30.23 Max 455.00
+FSH :: Stats month 5 :: All :: N 57860 non-zeros 57843 Median   7.20 Mean  21.72 Std  29.78 Max 384.00
+FSH :: Stats month 6 :: All :: N 58206 non-zeros 58185 Median   7.20 Mean  21.52 Std  29.68 Max 203.00
+FSH :: Stats month 7 :: All :: N 59296 non-zeros 59268 Median   7.20 Mean  21.56 Std  29.84 Max 203.00
+FSH :: Stats month 8 :: All :: N 56033 non-zeros 56017 Median   7.30 Mean  22.34 Std  30.35 Max 234.00
+FSH :: Stats month 9 :: All :: N 61745 non-zeros 61714 Median   7.30 Mean  22.09 Std  30.14 Max 250.00
+FSH :: Stats month 10 :: All :: N 61968 non-zeros 61938 Median   7.20 Mean  21.91 Std  30.15 Max 249.70
+FSH :: Stats month 11 :: All :: N 57103 non-zeros 57084 Median   7.30 Mean  21.93 Std  30.18 Max 423.80
+FSH :: Stats month 12 :: All :: N 42004 non-zeros 41988 Median   7.10 Mean  21.16 Std  29.50 Max 240.30
+

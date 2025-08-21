@@ -1,0 +1,9 @@
+signal	factors	FinalFactor	SupposeMean	Resolution	trim_max	error_threshold	variable_std
+HbA1C	0.1			0.1	10000	0.3	0
+Hemoglobin	0.1		13.5	0.1	10000	0.1	0
+MCHC-M	10			0.1	10000	0.1	0
+MCV	10			1	2000	0.1	0
+T4	0.128			1	10000	0.1	0
+Testosterone	0.1	10		0.1	10000	0.1	0
+Cortisol	10			0.1		0.8	1
+Uric_Acid	0.001		6	0.16811		0.1	0

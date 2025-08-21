@@ -1,0 +1,11 @@
+processor_type	int
+signalNames	vector<string>
+time_channel	int
+val_channel	int
+addRequiredSignals	bool
+consideredRules	vector<int>
+tolerance	float
+req_signals	unordered_set<string>
+aff_signals	unordered_set<string>
+nRem_attr	string
+nRem_attr_suffix	string

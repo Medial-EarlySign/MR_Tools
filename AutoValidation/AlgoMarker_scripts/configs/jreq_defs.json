@@ -1,0 +1,7 @@
+{
+	"type" : "request" ,
+	"request_id" : "my test",
+	"export" : {
+		"prediction" : "pred_0"
+	}
+}

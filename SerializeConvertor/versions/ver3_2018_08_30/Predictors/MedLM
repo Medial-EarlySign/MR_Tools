@@ -1,0 +1,3 @@
+n_ftrs	int
+b0	float
+b	float[n_ftrs]

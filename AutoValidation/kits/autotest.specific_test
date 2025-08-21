@@ -1,0 +1,116 @@
+#!/bin/bash
+set -e
+SCRIPT_PATH=${BASH_SOURCE[0]}
+if [ -z "$4" ]; then
+	PARENT_COMMAND=$(ps $PPID | tail -n 1 | awk "{print \$6}")
+	if [ "${PARENT_COMMAND}" = "-c" ] || [ "${PARENT_COMMAND}" = "-x" ]; then
+		PARENT_COMMAND="."
+	fi
+	if [ -z "${PARENT_COMMAND}" ]; then
+		PARENT_COMMAND="."
+	fi
+	#ps $PPID | tail -n 1
+	#echo ${SCRIPT_PATH}
+	PARENT_COMMAND=$(realpath ${PARENT_COMMAND%/*} | sed 's|/Tests$||g')
+else
+	PARENT_COMMAND=$4
+fi
+#echo ${PARENT_COMMAND} 
+CURR_PT=$(realpath ${SCRIPT_PATH%/*})
+SCRIPT_DIR=${CURR_PT}
+PROJECT_DIR=$1
+TEST_NUMBER=$2
+OVERRIDE=${3-1}
+if [ -z "$PROJECT_DIR" ]; then
+	echo "Must provide directory path out of"
+	ls -1 ${CURR_PT}
+	exit -1
+fi
+ERROR_MODE="R"
+
+BASE_TESTS_DIR=${PARENT_COMMAND}/Tests
+HAS_TESTS_IN_PWD=$(ls -1 ${PARENT_COMMAND} | grep Tests | wc -l)
+if [ ${HAS_TESTS_IN_PWD} -lt 1 ]; then
+	echo "Error this script must be run from directory that has \"Tests\". run from ${PARENT_COMMAND}"
+	exit -1
+fi
+HAS_TESTS_IN_PWD=$(ls -1 ${PARENT_COMMAND} | grep configs | wc -l)
+if [ ${HAS_TESTS_IN_PWD} -lt 1 ]; then
+	echo "Error this script must be run from directory that has \"configs\" run from ${PARENT_COMMAND}"
+	exit -1
+fi
+
+${CURR_PT}/resources/lib/test_python_version.py
+set +e
+
+CURR_PT=${CURR_PT}/${PROJECT_DIR}
+CFG_PATH=${PARENT_COMMAND}/configs
+
+source ${CFG_PATH}/env.sh
+
+
+mkdir -p ${WORK_DIR}
+mkdir -p ${WORK_DIR}/tmp
+
+#Get last status if applicable
+HAS_PAST_STATUS=0
+CAN_RUN=1
+LAST_STATUS_PATH=${WORK_DIR}/tmp/last_status
+
+if [ -f ${WORK_DIR}/tests_status.log ]; then
+	cp ${WORK_DIR}/tests_status.log ${LAST_STATUS_PATH}
+	HAS_PAST_STATUS=1
+fi
+
+#if defined, please try to take test from this folder and "override" tests from local folder: "${CURR_PT}/Tests".
+if [[ ! -z "${BASE_TESTS_DIR}" ]]; then
+	echo "Using Tests from ${BASE_TESTS_DIR} and overriding tests in ${CURR_PT}/Tests"
+	{ ls -1 ${CURR_PT}/Tests ; ls -1 ${BASE_TESTS_DIR} | awk '{print "OVERRIDES" "\t" $0}'; } | egrep -v "\sTemplates$" | egrep -v "\slib$" | sort | awk -F"\t" -v curr="${BASE_TESTS_DIR}" -v base="${CURR_PT}/Tests" '{ if (NF==2) { test_num=substr($2,1,2); tests[test_num] = curr "\t" $2 } else {test_num=substr($1,1,2); if (length(tests[test_num])==0) { tests[test_num] = base "\t" $1 } }  } END {for (num in tests) {print tests[num]}}' | sort -k2 > ${WORK_DIR}/tmp/full_test_list
+else
+	echo "Using Tests from ${CURR_PT}/Tests" 
+	ls -1 ${CURR_PT}/Tests | egrep -v "^Templates$" | egrep -v "^lib$" | sort | awk -v curr="${CURR_PT}/Tests" '{print curr "\t" $0}' > ${WORK_DIR}/tmp/full_test_list
+fi
+
+if [ -z "${TEST_NUMBER}" ]; then
+	echo "Please select test number to run: "
+	cat ${WORK_DIR}/tmp/full_test_list
+	exit 1
+fi
+
+TEST_EXISTS=$(cat ${WORK_DIR}/tmp/full_test_list | awk -F"\t" -v test_num=$TEST_NUMBER '{split( $2, arr, "."); if (int(arr[1])==test_num) {print $2}}' | wc -l)
+
+if [ $TEST_EXISTS -lt 1 ]; then
+	echo "Test \"$TEST_NUMBER\" not found. please select valid one bby specifiy the number:"
+	cat ${WORK_DIR}/tmp/full_test_list	
+	exit 1
+fi
+
+test=$(cat ${WORK_DIR}/tmp/full_test_list | awk -F"\t" -v test_num=$TEST_NUMBER '{split( $2, arr, "."); if (int(arr[1])==test_num) {print $2}}')
+directory_path=$(cat ${WORK_DIR}/tmp/full_test_list | awk -F"\t" -v test_num=$TEST_NUMBER '{split( $2, arr, "."); if (int(arr[1])==test_num) {print $1}}')
+TEST_NAME=${test%.*}
+
+TEST_PREFIX=${test##*.}
+echo "Will run:"
+echo "${directory_path}/${test} '${CFG_PATH}' '${SCRIPT_DIR}' ${OVERRIDE}"
+if [ $TEST_PREFIX == "sh" ]; then
+	#echo -e "Use this command to inspect pipe return code:\necho \${PIPESTATUS[@]}\n"
+	stdbuf -oL bash -x ${directory_path}/${test} "${CFG_PATH}" "${SCRIPT_DIR}" ${OVERRIDE} 2>&1 | tee ${WORK_DIR}/${TEST_NAME}.log
+else
+	stdbuf -oL ${directory_path}/${test} "${CFG_PATH}" "${SCRIPT_DIR}" ${OVERRIDE} 2>&1 | tee ${WORK_DIR}/${TEST_NAME}.log
+fi
+RETURN_CODES=${PIPESTATUS[@]}
+
+RETURN_CODE=0
+for RC in ${RETURN_CODES}; do
+	if [ ${RC} -ne 0 ]; then
+		RETURN_CODE=${RC}
+		break
+	fi
+done
+
+if [ ${RETURN_CODE} -ne 0 ]; then
+	echo "Operation ${TEST_NAME} failed with return code ${RETURN_CODE}"
+	exit ${RETURN_CODE}
+else
+	echo "Completed successfully ${TEST_NAME} with RC ${RETURN_CODE}"
+fi

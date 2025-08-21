@@ -1,0 +1,263 @@
+signal	unit	muliplier	addition	Round	FinalRound	ReMap
+Basophils#	10^3/uL	1.0	0.0	0.01	
+Basophils#	10^3/mm^3	1.0	0.0	0.01	
+Basophils#	10^3	1.0	0.0	0.01	
+Basophils#	10^9/L	1.0	0.0	0.01	
+Basophils#	uL	1.0	0.0	0.01	
+Basophils#	mm^3	1.0	0.0	0.01	
+Basophils#	U	1.0	0.0	0.01		
+Basophils#	%	1.0	0.0	0.01		Basophils%
+Basophils%	%	1.0	0.0	0.1	
+Basophils%	<NULL>	1.0	0.0	0.1	
+Basophils%	10^3/uL	1.0	0.0	0.1		Basophils#
+Basophils%	10^3/mm^3	1.0	0.0	0.1		Basophils#
+Eosinophils#	10^3/uL	1.0	0.0	0.1	
+Eosinophils#	10^3/mm^3	1.0	0.0	0.1	
+Eosinophils#	10^3	1.0	0.0	0.1	
+Eosinophils#	cells/uL	0.001	0.0	0.1	
+Eosinophils#	%	1.0	0.0	0.1		Eosinophils%
+Eosinophils%	%	1.0	0.0	0.1	
+Eosinophils%	<NULL>	1.0	0.0	0.1	
+Eosinophils%	10^3/uL	1.0	0.0	0.1		Eosinophils#
+Eosinophils%	10^3/mm^3	1.0	0.0	0.1		Eosinophils#
+Lymphocytes#	10^3/uL	1.0	0.0	0.1	
+Lymphocytes#	10^3/mm^3	1.0	0.0	0.1	
+Lymphocytes#	<NULL>	1.0	0.0	0.1	
+Lymphocytes#	cells/uL	0.001	0.0	0.1	
+Lymphocytes#	counts/uL	0.001	0.0	0.1	
+Lymphocytes#	10^9/L	1	0.0	0.1	
+Lymphocytes#	U/L	1	0.0	0.1	
+Lymphocytes#	mm^3	1	0.0	0.1	
+Lymphocytes#	%	1	0.0	0.1		Lymphocytes%
+Lymphocytes%	%	1	0.0	0.1	
+Lymphocytes%	<NULL>	1	0.0	0.1	
+Lymphocytes%	10^3/uL	1	0.0	0.1		Lymphocytes#
+Monocytes#	10^3/uL	1.0	0.0	0.1	
+Monocytes#	10^3/mm^3	1.0	0.0	0.1	
+Monocytes#	<NULL>	1.0	0.0	0.1	
+Monocytes#	10^3	1.0	0.0	0.1	
+Monocytes#	uL	1.0	0.0	0.1	
+Monocytes#	cells/uL	0.001	0.0	0.1	
+Monocytes#	counts/uL	0.001	0.0	0.1	
+Monocytes#	%	0.001	0.0	0.01		Monocytes%
+Monocytes%	%	0.001	0.0	0.01	
+Monocytes%	10^3/mm^3	0.001	0.0	0.01		Monocytes#
+Monocytes%	10^3/uL	0.001	0.0	0.01		Monocytes#
+Neutrophils#	10^3/uL	1.0	0.0	0.1	
+Neutrophils#	10^3/mm^3	1.0	0.0	0.1	
+Neutrophils#	10^3	1.0	0.0	0.1	
+Neutrophils#	10^9/L	1.0	0.0	0.1	
+Neutrophils#	uL	1.0	0.0	0.1	
+Neutrophils#	10^6/uL	1.0	0.0	0.1	
+Neutrophils#	U/L	1.0	0.0	0.1	
+Neutrophils#	cells/uL	0.001	0.0	0.1	
+Neutrophils#	%	1	0.0	0.1		Neutrophils%
+Neutrophils%	%	1	0.0	0.1	
+Neutrophils%	10^3/uL	1	0.0	0.1		Neutrophils#
+Neutrophils%	10^3/mm^3	1	0.0	0.1		Neutrophils#
+Neutrophils%	10^3	1	0.0	0.1		Neutrophils#
+Hematocrit	%	1	0.0	0.1	
+Hematocrit	<NULL>	1	0.0	0.1	
+Hematocrit	mmol/L	1	0.0	0.1	
+Hematocrit	10^3/uL	1	0.0	0.1	
+Hematocrit	g/dL	1	0.0	0.1		Hemoglobin
+Hemoglobin	g/dL	1	0.0	0.1	
+Hemoglobin	<NULL>	1	0.0	0.1	
+Hemoglobin	%	1	0.0	0.1		MCHC-M
+Hemoglobin	mg/dL	1	0.0	0.1	
+Hemoglobin	mmol/L	1	0.0	0.1	
+MCHC-M	g/dL	1	0.0	0.1	
+MCHC-M	%	1	0.0	0.1	
+MCHC-M	pg	1	0.0	0.1		MCH
+MCHC-M	fL	1	0.0	0.1		MCV
+MCV	fL	1	0.0	0.1	
+MCV	<NULL>	1	0.0	0.1	
+MCV	um^3	1	0.0	0.1	
+MCV	10^3	1	0.0	0.1	
+MCV	g/dL	1	0.0	0.1		MCHC-M
+MCV	%	1	0.0	0.1		MCHC-M
+MCV	L	1	0.0	0.1	
+MCV	pg	1	0.0	0.1		MCH
+MPV	fL	1	0.0	0.1	
+MPV	<NULL>	1	0.0	0.1	
+#MPV	%	1	0.0	0.1	
+Platelets	10^3/uL	1.0	0.0	1	
+Platelets	10^3/mm^3	1.0	0.0	1	
+Platelets	<NULL>	1.0	0.0	1	
+Platelets	10^9/L	1.0	0.0	1	
+Platelets	counts/uL	1.0	0.0	1	
+Platelets	10^3	1.0	0.0	1	
+#Platelets	mg/dL	1.0	0.0	1		SOMETHING1
+#Platelets	s	1.0	0.0	1		SOMETHING1
+#Platelets	%	1.0	0.0	1		SOMETHING2
+RBC	10^6/uL	1	0	0.01	
+RBC	10^6/mm^3	1	0	0.01	
+RBC	10^12/L	1	0	0.01	
+RBC	10^6	1	0	0.01	
+RBC	mm^3	1	0	0.01	
+RBC	fL	1	0	0.01		MCV
+#RBC	counts/uL	1	0	0.01		SOMETHING1
+#RBC	10^3/uL	1	0	0.01		SOMETHING2
+#RBC	counts/HPF	1	0	0.01		SOMETHING3
+RDW	%	1	0	0.1	
+RDW	<NULL>	1	0	0.1	
+#RDW	fl	1	0	0.1		SOMETHING1
+RDW	10^6/uL	1	0	0.1		RBC
+WBC	10^3/uL	1	0	0.1	
+WBC	10^3/mm^3	1	0	0.1	
+WBC	10^3	1	0	0.1	
+WBC	mm^3	1	0	0.1	
+WBC	10^9/L	1	0	0.1	
+WBC	10^3/mL	1	0	0.1	
+#WBC	counts/HPF	1	0	0.1		SOMETHING1
+#WBC	counts/uL	1	0	0.1		SOMETHING2
+MCH	pg	1	0	0.1	
+MCH	fL	1	0	0.1		MCV
+MCH	g/dL	1	0	0.1		MCHC-M
+Albumin	g/dL	1	0	0.1	
+Albumin	<NULL>	1	0	0.1	
+ALKP	U/L	1	0	1	
+ALKP	IU/L	1	0	1	
+ALKP	mIU/mL	1	0	1	
+ALKP	U	1	0	1	
+ALKP	mg/dL	1	0	1	
+ALT	U/L	1	0	1	
+ALT	IU/L	1	0	1	
+ALT	U	1	0	1	
+aPTT	s	1	0	0.1	
+Art_PaO	mmHg	1	0	1	
+Arterial_BP_Mean	mmHg	1	0	1	
+Arterial_BP_Mean	10^6	1	0	1	
+Arterial_BP_Mean	mmHg	1	0	1		BP
+Arterial_BP_Mean	10^6	1	0	1		BP
+Arterial_BP_Mean	cmH2O	1	0	1		BP
+AST	U/L	1	0	1	
+AST	IU/L	1	0	1	
+AST	U	1	0	1	
+Atypical_Lymphocytes%	%	1	0	1	
+Bands%	%	1	0	1	
+Base_Excess	mmol/L	1	0	0.1	
+Base_Excess	mEq/L	1	0	0.1	
+Bicarbonate	mmol/L	1	0	0.1	
+Bicarbonate	mEq/L	1	0	0.1	
+Bicarbonate	mm/L	1	0	0.1	
+Bilirubin	mg/dL	1	0	0.1	
+Bilirubin	g/dL	1	0	0.1	
+BMI	kg/m^2	1	0	0.1	
+BMI	<NULL>	1	0	0.1	
+BMI	lbs	1	0	0.1	
+BP	mmHg	1	0	1	
+BP	PRU	1	0	1	
+BUN	mg/dL	1	0	1	
+BUN	mmol/L	1	0	1	
+BUN	ratio	1	0	1	
+BurrCells	<NULL>	1	0	1.0	
+Ca	mg/dL	1	0	0.1	
+Ca	<NULL>	1	0	0.1	
+Cholesterol	mg/dL	1	0	1	
+Cl	mmol/L	1	0	1	
+Cl	mEq/L	1	0	1	
+CO2	mmol/L	1	0	0.1	
+CO2	mEq/L	1	0	0.1	
+Creatinine	mg/dL	1	0	0.01	
+Creatinine_Kinase	U/L	1	0	1	
+Creatinine_Kinase	IU/L	1	0	1	
+Creatinine_Kinase	IU	1	0	1	
+Dacrocytes	<NULL>	1	0	1	
+eGFR	mL/min	1	0	0.1	
+eGFR	mL/min/1.73mm^2	1	0	0.1	
+FreeT4	ng/dL	12.87	0	0.01	
+Globulin	g/dL	10	0	1	
+Globulin	<NULL>	10	0	1	
+Glucose	mg/dL	1	0	1	
+Granulocytes	10^3/uL	1	0	0.01	
+Granulocytes	counts/uL	1	0	0.01	
+Granulocytes	10^3/mm^3	1	0	0.01	
+HbA1C	%	1	0	0.1	
+HDL	mg/dL	1	0	1	
+Heart_Rate	bpm	1	0	1	
+Heart_Rate	counts/min	1	0	1	
+Heart_Rate	10^6	1	0	1	
+Heart_Rate	ms	1	0	1	
+Heart_Rate	hr	1	0	1	
+Height	cm	1	0	1	
+Helicobacter	<NULL>	1	0	0.1	
+Helicobacter	U	1	0	0.1	
+Immature_Granulocytes#	10^3/uL	1	0	0.01	
+Immature_Granulocytes#	<NULL>	1	0	0.01	
+INR	ratio	1	0	0.1	
+INR	index	1	0	0.1	
+INR	BU	1	0	0.1	
+INR	s	1	0	0.1	
+K+	mmol/L	1	0	0.1	
+K+	mEq/L	1	0	0.1	
+Lactate	mmol/L	1	0	0.1	
+Lactate	mEq/L	1	0	0.1	
+LDL	mg/dL	1	0	0.1	
+LDL	mg/dl	1	0	0.1	
+Metamyelocytes%	%	1	0	0.1	
+Mg	mg/dL	1	0	0.1	
+Mg	mEq/dL	1	0	0.1	
+Myelocytes%	%	1	0	0.1	
+Na	mmol/L	1	0	1	
+Na	mEq/L	1	0	1	
+Na	<NULL>	1	0	1	
+Neutrophils_Segmented%	%	1	0	0.1	
+Neutrophils_Segmented%	<NULL>	1	0	0.1	
+NONE+	<NULL>	1	0	0.1	
+NONE+	ratio	1	0	0.1	
+NonHDLCholesterol	mg/dL	1	0	1	
+NRBC	%	1	0	1	
+NRBC%	%	1	0	1	
+NRBC%	<NULL>	1	0	1	
+Osmolality	mOsm/kg	1	0	1	
+Osmolality	<NULL>	1	0	1	
+PCO2	mmHg	1	0	1	
+Phosphate	mg/dL	1	0	0.1	
+PlasmaAnionGap	mmol/L	1	0	1	
+PlasmaAnionGap	mEq/L	1	0	1	
+PO2	mmHg	1	0	0.1	
+Polychromasia	<NULL>	1	0	1	
+Protein_Total	g/dL	1	0	0.1	
+PT	s	1	0	0.1	
+Resp_Rate	br/min	1	0	1	
+Resp_Rate	breaths/min	1	0	1	
+Resp_Rate	counts/min	1	0	1	
+Resp_Rate	10^6	1	0	1	
+Resp_Rate	bpm	1	0	1	
+Resp_Rate	U/min	1	0	1	
+Resp_Rate	/min	1	0	1	
+SaO2	%	1	0	1	
+SaO2	10^6	1	0	1	
+SaO2	L/min	1	0	1	
+SaO2	F	1	0	1	
+Schistocytes	<NULL>	1	0	1	
+Target_Cells	<NULL>	1	0	1	
+Temperature	C	1	0	0.1	
+#Temperature	<NULL>	1	0	0.1	- Bimodel F and C
+Triglycerides	mg/dL	1	0	1	
+TroponinI	ng/mL	1	0	0.01	
+TroponinI	ug/L	1	0	0.01	
+TSH	uIU/mL	1	0	0.01	
+TSH	uU/mL	1	0	0.01	
+TSH	mIU/L	1	0	0.01	
+TSH	mIU/mL	1	0	0.01	
+TSH	mcIU/mL	1	0	0.01	
+Weight	kg	1	0	0.1	
+VAS	<NULL>	1	0	1	
+Urine_Bacteria	<NULL>	1	0	1	
+Urine_Bacteria	counts/HPF	1	0	1	
+Urine_Bilirubin	mg/dL	1	0	0.1	
+Urine_Bilirubin	<NULL>	1	0	0.1	
+Urine_PH	pH units	1	0	0.1	
+Urine_PH	pH	1	0	0.1	
+Urine_RBC	counts/HPF	1	0	0.1	
+Urine_RBC	<NULL>	1	0	0.1	
+Urine_Spec_Gravity	<NULL>	1	0	0.001	
+Urine_Total_Protein	mg/dL	1	0	1	
+Urine_Urobilinogen	EU/dL	1	0	1	
+Urine_Urobilinogen	mg/dL	1	0	1	
+Urine_Urobilinogen	<NULL>	1	0	1	
+Urine_Urobilinogen	EU	1	0	1	
+UrineTotalProtein	mg/dL	1	0	1	
+UrineTotalProtein	<NULL>	1	0	1	

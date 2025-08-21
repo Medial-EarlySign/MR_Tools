@@ -1,0 +1,8 @@
+Esophegal_Cancer	ICD10_CODE:C15.*
+Stomach_Cancer	ICD10_CODE:C16.*
+Colon_Cancer	ICD10_CODE:C18.*
+RectoSigmoid_Junction_Cancer	ICD10_CODE:C19.*
+Rectal_Cancer	ICD10_CODE:C20.*
+CRC	Colon_Cancer,RectoSigmoid_Junction_Cancer,Rectal_Cancer
+LGI_Cancer	CRC,Stomach_Cancer
+GI_Cancer	LGI_Cancer,Esophegal_Cancer

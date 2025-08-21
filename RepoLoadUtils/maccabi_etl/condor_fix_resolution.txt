@@ -1,0 +1,57 @@
+universe = vanilla
+
+rank = memory
+
+request_memory = 10000
+
+should_transfer_files = NO
+
+log = fix_res.log
+
+request_cpus = 4
+
+executable = /server/UsersData/ido/MR/Tools/RepoLoadUtils/maccabi_etl/fix_resolution.py 
+
+error = log/$(Process).err
+
+output = log/$(Process).out
+
+arguments = " --in_signal_file=lab/crp_new --out_fixed_res_file=lab_fixed_res/crp_new " 
+queue
+   
+arguments = " --in_signal_file=lab/lab2004.part0 --out_fixed_res_file=lab_fixed_res/lab2004.part0 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2004.part1 --out_fixed_res_file=lab_fixed_res/lab2004.part1 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2008.part0 --out_fixed_res_file=lab_fixed_res/lab2008.part0 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2008.part1 --out_fixed_res_file=lab_fixed_res/lab2008.part1 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2008.part2 --out_fixed_res_file=lab_fixed_res/lab2008.part2 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2012.part0 --out_fixed_res_file=lab_fixed_res/lab2012.part0 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2012.part1 --out_fixed_res_file=lab_fixed_res/lab2012.part1 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2012.part2 --out_fixed_res_file=lab_fixed_res/lab2012.part2 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2015.part0 --out_fixed_res_file=lab_fixed_res/lab2015.part0 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2015.part1 --out_fixed_res_file=lab_fixed_res/lab2015.part1 " 
+queue
+
+arguments = " --in_signal_file=lab/lab2015.part2 --out_fixed_res_file=lab_fixed_res/lab2015.part2 " 
+queue
+
+arguments = " --in_signal_file=lab/lab_crp.part0 --out_fixed_res_file=lab_fixed_res/lab_crp.part0 " 
+queue
+

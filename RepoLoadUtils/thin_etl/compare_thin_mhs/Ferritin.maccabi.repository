@@ -1,0 +1,162 @@
+Ferritin :: All :: With Values :: 623082 / 1279479 =  0.49 :: 623082 / 623082 =  1.00
+Ferritin :: Males :: With Values :: 248023 / 622859 =  0.40 :: 248023 / 623082 =  0.40
+Ferritin :: Females :: With Values :: 375059 / 656620 =  0.57 :: 375059 / 623082 =  0.60
+Ferritin :: General :: No. of Values :: All 2615642 Male 866397 Female 1749245
+Ferritin :: General :: No. of different days Values :: All 2615306 Male 866279 Female 1749027
+Ferritin :: General :: Avg #values per person (all) :: All  2.04 Male  1.39 Female  2.66
+Ferritin :: General :: Avg #values per person (>0)  :: All  4.20 Male  3.49 Female  4.66
+Ferritin :: General :: Avg dist between tests       :: All  510.0 Male  503.2 Female  513.1
+Ferritin :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Ferritin :: Counts :: Age Group 25 - 30 :: All ::    353 0.000
+Ferritin :: Counts :: Age Group 30 - 35 :: All ::  12575 0.005
+Ferritin :: Counts :: Age Group 35 - 40 :: All ::  42207 0.016
+Ferritin :: Counts :: Age Group 40 - 45 :: All ::  76108 0.029
+Ferritin :: Counts :: Age Group 45 - 50 :: All ::  67915 0.026
+Ferritin :: Counts :: Age Group 50 - 55 :: All ::  60497 0.023
+Ferritin :: Counts :: Age Group 55 - 60 :: All ::  51339 0.020
+Ferritin :: Counts :: Age Group 60 - 65 :: All ::  48955 0.019
+Ferritin :: Counts :: Age Group 65 - 70 :: All ::  43196 0.017
+Ferritin :: Counts :: Age Group 70 - 75 :: All ::  34520 0.013
+Ferritin :: Counts :: Age Group 75 - 80 :: All ::  32940 0.013
+Ferritin :: Counts :: Age Group 80 - 85 :: All ::  25397 0.010
+Ferritin :: Counts :: Age Group 85 - 90 :: All ::  17633 0.007
+Ferritin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Ferritin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Ferritin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Ferritin :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Ferritin :: Counts :: Age Group 25 - 30 :: Males ::     64 0.000
+Ferritin :: Counts :: Age Group 30 - 35 :: Males ::   2337 0.003
+Ferritin :: Counts :: Age Group 35 - 40 :: Males ::   8882 0.010
+Ferritin :: Counts :: Age Group 40 - 45 :: Males ::  18988 0.022
+Ferritin :: Counts :: Age Group 45 - 50 :: Males ::  18814 0.022
+Ferritin :: Counts :: Age Group 50 - 55 :: Males ::  18797 0.022
+Ferritin :: Counts :: Age Group 55 - 60 :: Males ::  18227 0.021
+Ferritin :: Counts :: Age Group 60 - 65 :: Males ::  19508 0.023
+Ferritin :: Counts :: Age Group 65 - 70 :: Males ::  17519 0.020
+Ferritin :: Counts :: Age Group 70 - 75 :: Males ::  14637 0.017
+Ferritin :: Counts :: Age Group 75 - 80 :: Males ::  14217 0.016
+Ferritin :: Counts :: Age Group 80 - 85 :: Males ::  10716 0.012
+Ferritin :: Counts :: Age Group 85 - 90 :: Males ::   7202 0.008
+Ferritin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Ferritin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Ferritin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Ferritin :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Ferritin :: Counts :: Age Group 25 - 30 :: Females ::    289 0.000
+Ferritin :: Counts :: Age Group 30 - 35 :: Females ::  10238 0.006
+Ferritin :: Counts :: Age Group 35 - 40 :: Females ::  33325 0.019
+Ferritin :: Counts :: Age Group 40 - 45 :: Females ::  57120 0.033
+Ferritin :: Counts :: Age Group 45 - 50 :: Females ::  49101 0.028
+Ferritin :: Counts :: Age Group 50 - 55 :: Females ::  41700 0.024
+Ferritin :: Counts :: Age Group 55 - 60 :: Females ::  33112 0.019
+Ferritin :: Counts :: Age Group 60 - 65 :: Females ::  29447 0.017
+Ferritin :: Counts :: Age Group 65 - 70 :: Females ::  25677 0.015
+Ferritin :: Counts :: Age Group 70 - 75 :: Females ::  19883 0.011
+Ferritin :: Counts :: Age Group 75 - 80 :: Females ::  18723 0.011
+Ferritin :: Counts :: Age Group 80 - 85 :: Females ::  14681 0.008
+Ferritin :: Counts :: Age Group 85 - 90 :: Females ::  10431 0.006
+Ferritin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Ferritin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Ferritin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Ferritin :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats :: Age Group 25 - 30 :: All ::  N 13862 non-zeros 13823 Median  28.00 Mean  45.64 Std  55.26 Max 848.00
+Ferritin :: Stats :: Age Group 30 - 35 :: All ::  N 61191 non-zeros 60820 Median  32.00 Mean  54.04 Std  65.58 Max 1022.40
+Ferritin :: Stats :: Age Group 35 - 40 :: All ::  N 133754 non-zeros 132028 Median  39.00 Mean  65.55 Std  79.55 Max 1226.00
+Ferritin :: Stats :: Age Group 40 - 45 :: All ::  N 177371 non-zeros 173945 Median  44.00 Mean  74.06 Std  89.78 Max 1420.00
+Ferritin :: Stats :: Age Group 45 - 50 :: All ::  N 152672 non-zeros 149764 Median  48.00 Mean  79.92 Std  98.36 Max 1555.00
+Ferritin :: Stats :: Age Group 50 - 55 :: All ::  N 131122 non-zeros 129746 Median  62.00 Mean  92.11 Std 104.23 Max 1633.00
+Ferritin :: Stats :: Age Group 55 - 60 :: All ::  N 113823 non-zeros 113398 Median  75.50 Mean 105.72 Std 114.64 Max 1797.00
+Ferritin :: Stats :: Age Group 60 - 65 :: All ::  N 98971 non-zeros 98591 Median  79.00 Mean 111.16 Std 123.40 Max 1960.00
+Ferritin :: Stats :: Age Group 65 - 70 :: All ::  N 80044 non-zeros 79702 Median  77.00 Mean 112.31 Std 132.23 Max 2090.00
+Ferritin :: Stats :: Age Group 70 - 75 :: All ::  N 60633 non-zeros 60398 Median  73.00 Mean 113.56 Std 147.71 Max 2300.00
+Ferritin :: Stats :: Age Group 75 - 80 :: All ::  N 51448 non-zeros 51208 Median  72.00 Mean 115.56 Std 152.61 Max 2350.00
+Ferritin :: Stats :: Age Group 80 - 85 :: All ::  N 36148 non-zeros 35990 Median  75.00 Mean 124.96 Std 166.58 Max 2450.00
+Ferritin :: Stats :: Age Group 85 - 90 :: All ::  N 21848 non-zeros 21739 Median  83.00 Mean 137.51 Std 178.74 Max 2800.00
+Ferritin :: Stats :: Age Group 90 - 95 :: All ::  N 8862 non-zeros 8832 Median  89.10 Mean 155.50 Std 205.54 Max 3021.00
+Ferritin :: Stats :: Age Group 95 - 100 :: All ::  N 2133 non-zeros 2129 Median 100.40 Mean 165.20 Std 208.95 Max 2940.00
+Ferritin :: General :: All     :: outliers ratio 0.000406
+Ferritin :: General :: All     :: N 622729 non-zeros 616284 Median  64.00 Mean  98.58 Std 121.96 Max 1925.50
+Ferritin :: General :: All     :: distribution 0.001,0.01,0.05 ::   2.00   4.20  10.00 294.00 599.00 1349.00
+Ferritin :: General :: All     :: quartiles ::   2.00  31.00  65.00 124.00 
+Ferritin :: General :: Males   :: outliers ratio 0.000367
+Ferritin :: General :: Males   :: N 247893 non-zeros 246969 Median 112.00 Mean 148.71 Std 147.00 Max 2350.00
+Ferritin :: General :: Males   :: distribution 0.001,0.01,0.05 ::   4.00  10.00  22.00 384.00 744.00 1533.00
+Ferritin :: General :: Males   :: quartiles ::   4.00  65.00 113.00 185.00 
+Ferritin :: General :: Females :: outliers ratio 0.000840
+Ferritin :: General :: Females :: N 374683 non-zeros 369140 Median  43.00 Mean  64.58 Std  81.81 Max 1291.00
+Ferritin :: General :: Females :: distribution 0.001,0.01,0.05 ::   2.00   4.00   8.00 186.00 398.00 943.00
+Ferritin :: General :: Females :: quartiles ::   2.00  22.00  43.00  80.00 
+Ferritin :: Rounding ::  0.00 r  0.00 pct
+Ferritin :: Rounding ::  0.01 r  0.01 pct
+Ferritin :: Rounding ::  0.10 r  0.07 pct
+Ferritin :: Rounding ::  1.00 r  0.82 pct
+Ferritin :: Rounding :: 10.00 r  0.09 pct
+Ferritin :: Rounding :: 100.00 r  0.01 pct
+Ferritin :: Rounding :: 1000.00 r  0.00 pct
+Ferritin :: Rounding :: most popular rounding for vals:  1.00
+Ferritin :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats year :: 2001 :: All :: N 46164 non-zeros 45995 Median  37.60 Mean  68.31 Std  99.83 Max 1551.80
+Ferritin :: Stats year :: 2002 :: All :: N 52897 non-zeros 52700 Median  37.00 Mean  68.26 Std 101.98 Max 1597.70
+Ferritin :: Stats year :: 2003 :: All :: N 64989 non-zeros 64666 Median  38.00 Mean  69.41 Std 103.39 Max 1601.00
+Ferritin :: Stats year :: 2004 :: All :: N 75246 non-zeros 74702 Median  39.00 Mean  69.30 Std 101.81 Max 1595.00
+Ferritin :: Stats year :: 2005 :: All :: N 90228 non-zeros 89826 Median  42.00 Mean  72.92 Std 102.07 Max 1591.00
+Ferritin :: Stats year :: 2006 :: All :: N 111160 non-zeros 110587 Median  44.00 Mean  74.29 Std 101.15 Max 1588.00
+Ferritin :: Stats year :: 2007 :: All :: N 126642 non-zeros 125594 Median  46.00 Mean  77.58 Std 106.01 Max 1626.20
+Ferritin :: Stats year :: 2008 :: All :: N 138105 non-zeros 136478 Median  45.00 Mean  77.11 Std 106.71 Max 1626.00
+Ferritin :: Stats year :: 2009 :: All :: N 169209 non-zeros 167575 Median  48.00 Mean  78.92 Std 102.94 Max 1621.00
+Ferritin :: Stats year :: 2010 :: All :: N 178783 non-zeros 177148 Median  52.00 Mean  83.10 Std 105.63 Max 1663.00
+Ferritin :: Stats year :: 2011 :: All :: N 183207 non-zeros 181366 Median  61.00 Mean  94.04 Std 115.18 Max 1818.00
+Ferritin :: Stats year :: 2012 :: All :: N 183832 non-zeros 180701 Median  62.00 Mean  93.66 Std 113.83 Max 1800.00
+Ferritin :: Stats year :: 2013 :: All :: N 196795 non-zeros 194585 Median  66.00 Mean  98.54 Std 116.69 Max 1840.00
+Ferritin :: Stats year :: 2014 :: All :: N 207582 non-zeros 203424 Median  69.00 Mean 102.59 Std 125.19 Max 1980.00
+Ferritin :: Stats year :: 2015 :: All :: N 187468 non-zeros 184749 Median  71.00 Mean 105.97 Std 126.51 Max 2000.00
+Ferritin :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats year :: 2001 :: Males   :: N 12411 non-zeros 12340 Median  96.00 Mean 129.82 Std 138.85 Max 1800.90
+Ferritin :: Stats year :: 2002 :: Males   :: N 14763 non-zeros 14696 Median  89.90 Mean 126.23 Std 137.24 Max 1559.70
+Ferritin :: Stats year :: 2003 :: Males   :: N 18490 non-zeros 18419 Median  90.00 Mean 125.75 Std 136.60 Max 1768.00
+Ferritin :: Stats year :: 2004 :: Males   :: N 21908 non-zeros 21811 Median  88.00 Mean 123.00 Std 135.51 Max 1648.00
+Ferritin :: Stats year :: 2005 :: Males   :: N 27196 non-zeros 27100 Median  90.00 Mean 125.24 Std 131.93 Max 1640.00
+Ferritin :: Stats year :: 2006 :: Males   :: N 33931 non-zeros 33788 Median  91.00 Mean 125.32 Std 130.68 Max 1640.00
+Ferritin :: Stats year :: 2007 :: Males   :: N 39222 non-zeros 39102 Median  94.00 Mean 129.46 Std 134.24 Max 1645.00
+Ferritin :: Stats year :: 2008 :: Males   :: N 42499 non-zeros 42334 Median  93.00 Mean 128.44 Std 133.95 Max 1626.00
+Ferritin :: Stats year :: 2009 :: Males   :: N 53589 non-zeros 53409 Median  95.00 Mean 129.28 Std 129.54 Max 1641.00
+Ferritin :: Stats year :: 2010 :: Males   :: N 57657 non-zeros 57489 Median  99.00 Mean 133.74 Std 133.81 Max 2056.00
+Ferritin :: Stats year :: 2011 :: Males   :: N 61118 non-zeros 61026 Median 110.00 Mean 147.91 Std 150.89 Max 2395.00
+Ferritin :: Stats year :: 2012 :: Males   :: N 63596 non-zeros 63401 Median 108.00 Mean 144.07 Std 145.16 Max 2311.00
+Ferritin :: Stats year :: 2013 :: Males   :: N 70411 non-zeros 70266 Median 112.00 Mean 148.62 Std 147.63 Max 2350.00
+Ferritin :: Stats year :: 2014 :: Males   :: N 76294 non-zeros 75984 Median 115.00 Mean 152.93 Std 156.75 Max 2480.00
+Ferritin :: Stats year :: 2015 :: Males   :: N 70016 non-zeros 69790 Median 117.00 Mean 156.02 Std 157.49 Max 2490.00
+Ferritin :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats year :: 2001 :: Females :: N 33732 non-zeros 33629 Median  27.40 Mean  45.12 Std  64.55 Max 1012.50
+Ferritin :: Stats year :: 2002 :: Females :: N 38105 non-zeros 37980 Median  27.10 Mean  44.88 Std  64.64 Max 1011.60
+Ferritin :: Stats year :: 2003 :: Females :: N 46469 non-zeros 46221 Median  28.00 Mean  46.10 Std  68.57 Max 1058.00
+Ferritin :: Stats year :: 2004 :: Females :: N 53295 non-zeros 52825 Median  28.30 Mean  46.27 Std  65.31 Max 1017.00
+Ferritin :: Stats year :: 2005 :: Females :: N 62979 non-zeros 62647 Median  31.00 Mean  49.20 Std  65.68 Max 1025.10
+Ferritin :: Stats year :: 2006 :: Females :: N 77178 non-zeros 76748 Median  32.00 Mean  51.10 Std  68.56 Max 1079.00
+Ferritin :: Stats year :: 2007 :: Females :: N 87368 non-zeros 86455 Median  33.90 Mean  53.60 Std  73.86 Max 1156.00
+Ferritin :: Stats year :: 2008 :: Females :: N 95529 non-zeros 94047 Median  33.00 Mean  53.09 Std  72.11 Max 1126.00
+Ferritin :: Stats year :: 2009 :: Females :: N 115556 non-zeros 114121 Median  35.00 Mean  54.78 Std  71.62 Max 1126.00
+Ferritin :: Stats year :: 2010 :: Females :: N 121054 non-zeros 119561 Median  39.00 Mean  58.33 Std  72.41 Max 1144.00
+Ferritin :: Stats year :: 2011 :: Females :: N 122025 non-zeros 120269 Median  46.00 Mean  66.54 Std  77.29 Max 1224.00
+Ferritin :: Stats year :: 2012 :: Females :: N 120196 non-zeros 117235 Median  47.00 Mean  66.57 Std  77.78 Max 1227.00
+Ferritin :: Stats year :: 2013 :: Females :: N 126337 non-zeros 124279 Median  50.00 Mean  70.40 Std  80.87 Max 1267.00
+Ferritin :: Stats year :: 2014 :: Females :: N 131229 non-zeros 127428 Median  51.00 Mean  72.69 Std  85.18 Max 1343.00
+Ferritin :: Stats year :: 2015 :: Females :: N 117391 non-zeros 114917 Median  54.00 Mean  75.63 Std  87.73 Max 1386.00
+Ferritin :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Ferritin :: Stats month 1 :: All :: N 110139 non-zeros 108994 Median  62.00 Mean 100.52 Std 133.52 Max 2100.00
+Ferritin :: Stats month 2 :: All :: N 105382 non-zeros 104044 Median  60.00 Mean  98.27 Std 129.66 Max 2036.00
+Ferritin :: Stats month 3 :: All :: N 109437 non-zeros 107879 Median  59.00 Mean  97.11 Std 131.25 Max 2050.00
+Ferritin :: Stats month 4 :: All :: N 102928 non-zeros 101627 Median  57.00 Mean  94.08 Std 126.98 Max 1993.00
+Ferritin :: Stats month 5 :: All :: N 125158 non-zeros 123577 Median  55.50 Mean  90.90 Std 123.57 Max 1930.00
+Ferritin :: Stats month 6 :: All :: N 125545 non-zeros 123814 Median  56.10 Mean  91.79 Std 122.82 Max 1919.00
+Ferritin :: Stats month 7 :: All :: N 131880 non-zeros 130070 Median  57.00 Mean  92.63 Std 122.66 Max 1920.00
+Ferritin :: Stats month 8 :: All :: N 124710 non-zeros 123169 Median  59.40 Mean  95.40 Std 125.96 Max 1980.00
+Ferritin :: Stats month 9 :: All :: N 104567 non-zeros 103395 Median  61.00 Mean  98.04 Std 131.31 Max 2066.00
+Ferritin :: Stats month 10 :: All :: N 120481 non-zeros 119390 Median  61.00 Mean  96.91 Std 125.68 Max 1971.00
+Ferritin :: Stats month 11 :: All :: N 111690 non-zeros 110407 Median  61.00 Mean  96.49 Std 125.75 Max 1971.00
+Ferritin :: Stats month 12 :: All :: N 103876 non-zeros 102756 Median  62.00 Mean  99.20 Std 128.72 Max 2030.00
+

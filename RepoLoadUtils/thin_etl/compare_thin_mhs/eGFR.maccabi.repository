@@ -1,0 +1,159 @@
+eGFR :: All :: With Values :: 830093 / 1279479 =  0.65 :: 830093 / 830093 =  1.00
+eGFR :: Males :: With Values :: 387273 / 622859 =  0.62 :: 387273 / 830093 =  0.47
+eGFR :: Females :: With Values :: 442820 / 656620 =  0.67 :: 442820 / 830093 =  0.53
+eGFR :: General :: No. of Values :: All 5833995 Male 2634593 Female 3199402
+eGFR :: General :: No. of different days Values :: All 5833882 Male 2634528 Female 3199354
+eGFR :: General :: Avg #values per person (all) :: All  4.56 Male  4.23 Female  4.87
+eGFR :: General :: Avg #values per person (>0)  :: All  7.03 Male  6.80 Female  7.22
+eGFR :: General :: Avg dist between tests       :: All  249.0 Male  246.2 Female  251.4
+eGFR :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+eGFR :: Counts :: Age Group 25 - 30 :: All ::      0 0.000
+eGFR :: Counts :: Age Group 30 - 35 :: All ::      0 0.000
+eGFR :: Counts :: Age Group 35 - 40 :: All ::  30486 0.005
+eGFR :: Counts :: Age Group 40 - 45 :: All :: 120791 0.021
+eGFR :: Counts :: Age Group 45 - 50 :: All :: 122312 0.021
+eGFR :: Counts :: Age Group 50 - 55 :: All :: 127240 0.022
+eGFR :: Counts :: Age Group 55 - 60 :: All :: 133423 0.023
+eGFR :: Counts :: Age Group 60 - 65 :: All :: 145626 0.025
+eGFR :: Counts :: Age Group 65 - 70 :: All :: 144052 0.025
+eGFR :: Counts :: Age Group 70 - 75 :: All ::  99441 0.017
+eGFR :: Counts :: Age Group 75 - 80 :: All :: 100621 0.017
+eGFR :: Counts :: Age Group 80 - 85 :: All ::  68271 0.012
+eGFR :: Counts :: Age Group 85 - 90 :: All ::  47470 0.008
+eGFR :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+eGFR :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+eGFR :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+eGFR :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+eGFR :: Counts :: Age Group 25 - 30 :: Males ::      0 0.000
+eGFR :: Counts :: Age Group 30 - 35 :: Males ::      0 0.000
+eGFR :: Counts :: Age Group 35 - 40 :: Males ::  12198 0.005
+eGFR :: Counts :: Age Group 40 - 45 :: Males ::  50062 0.019
+eGFR :: Counts :: Age Group 45 - 50 :: Males ::  53607 0.020
+eGFR :: Counts :: Age Group 50 - 55 :: Males ::  58211 0.022
+eGFR :: Counts :: Age Group 55 - 60 :: Males ::  60607 0.023
+eGFR :: Counts :: Age Group 60 - 65 :: Males ::  67558 0.026
+eGFR :: Counts :: Age Group 65 - 70 :: Males ::  67935 0.026
+eGFR :: Counts :: Age Group 70 - 75 :: Males ::  47648 0.018
+eGFR :: Counts :: Age Group 75 - 80 :: Males ::  47560 0.018
+eGFR :: Counts :: Age Group 80 - 85 :: Males ::  31965 0.012
+eGFR :: Counts :: Age Group 85 - 90 :: Males ::  19184 0.007
+eGFR :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+eGFR :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+eGFR :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+eGFR :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+eGFR :: Counts :: Age Group 25 - 30 :: Females ::      0 0.000
+eGFR :: Counts :: Age Group 30 - 35 :: Females ::      0 0.000
+eGFR :: Counts :: Age Group 35 - 40 :: Females ::  18288 0.006
+eGFR :: Counts :: Age Group 40 - 45 :: Females ::  70729 0.022
+eGFR :: Counts :: Age Group 45 - 50 :: Females ::  68705 0.021
+eGFR :: Counts :: Age Group 50 - 55 :: Females ::  69029 0.022
+eGFR :: Counts :: Age Group 55 - 60 :: Females ::  72816 0.023
+eGFR :: Counts :: Age Group 60 - 65 :: Females ::  78068 0.024
+eGFR :: Counts :: Age Group 65 - 70 :: Females ::  76117 0.024
+eGFR :: Counts :: Age Group 70 - 75 :: Females ::  51793 0.016
+eGFR :: Counts :: Age Group 75 - 80 :: Females ::  53061 0.017
+eGFR :: Counts :: Age Group 80 - 85 :: Females ::  36306 0.011
+eGFR :: Counts :: Age Group 85 - 90 :: Females ::  28286 0.009
+eGFR :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+eGFR :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+eGFR :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+eGFR :: Stats :: Age Group 20 - 25 :: All ::  Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats :: Age Group 25 - 30 :: All ::  Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats :: Age Group 30 - 35 :: All ::  Median   0.00 Mean   0.00 Std   1.00 Max   0.00
+eGFR :: Stats :: Age Group 35 - 40 :: All ::  Median   0.00 Mean   0.00 Std   1.00 Max   0.00
+eGFR :: Stats :: Age Group 40 - 45 :: All ::  Median   0.00 Mean   0.00 Std   1.00 Max   0.00
+eGFR :: Stats :: Age Group 45 - 50 :: All ::  Median   0.00 Mean   0.62 Std   5.76 Max  60.00
+eGFR :: Stats :: Age Group 50 - 55 :: All ::  Median   0.00 Mean   1.01 Std   7.30 Max  60.00
+eGFR :: Stats :: Age Group 55 - 60 :: All ::  Median   0.00 Mean   1.75 Std   9.46 Max 108.30
+eGFR :: Stats :: Age Group 60 - 65 :: All ::  Median   0.00 Mean   2.92 Std  11.96 Max  60.00
+eGFR :: Stats :: Age Group 65 - 70 :: All ::  Median   0.00 Mean   5.04 Std  15.34 Max  60.00
+eGFR :: Stats :: Age Group 70 - 75 :: All ::  Median   0.00 Mean   8.73 Std  19.27 Max  60.00
+eGFR :: Stats :: Age Group 75 - 80 :: All ::  Median   0.00 Mean  12.45 Std  21.64 Max  60.00
+eGFR :: Stats :: Age Group 80 - 85 :: All ::  Median   0.00 Mean  17.27 Std  23.55 Max  60.00
+eGFR :: Stats :: Age Group 85 - 90 :: All ::  Median   0.00 Mean  20.45 Std  23.86 Max  60.00
+eGFR :: Stats :: Age Group 90 - 95 :: All ::  Median   0.00 Mean  21.53 Std  23.43 Max  60.00
+eGFR :: Stats :: Age Group 95 - 100 :: All ::  Median  20.60 Mean  22.69 Std  23.33 Max  60.00
+eGFR :: General :: All     :: outliers ratio 0.000000
+eGFR :: General :: All     :: Median   0.00 Mean   3.19 Std  12.27 Max 138.40
+eGFR :: General :: All     :: distribution 0.001,0.01,0.05 ::    5.0    9.0   22.3   59.4   60.0   60.0
+eGFR :: General :: Males   :: outliers ratio 0.000000
+eGFR :: General :: Males   :: Median   0.00 Mean   3.34 Std  12.52 Max 100.60
+eGFR :: General :: Males   :: distribution 0.001,0.01,0.05 ::    5.0    8.3   20.2   59.3   60.0   60.0
+eGFR :: General :: Females :: outliers ratio 0.000000
+eGFR :: General :: Females :: Median   0.00 Mean   3.09 Std  12.11 Max 161.90
+eGFR :: General :: Females :: distribution 0.001,0.01,0.05 ::    5.0    9.4   24.0   59.4   60.0   60.0
+eGFR :: Rounding ::  0.00 r  0.00 pct
+eGFR :: Rounding ::  0.01 r  0.04 pct
+eGFR :: Rounding ::  0.10 r  0.39 pct
+eGFR :: Rounding ::  1.00 r  0.50 pct
+eGFR :: Rounding :: 10.00 r  0.06 pct
+eGFR :: Rounding :: 100.00 r  0.00 pct
+eGFR :: Rounding :: 1000.00 r  0.00 pct
+eGFR :: Rounding :: most popular rounding for vals:  1.00
+eGFR :: Stats year :: 2000 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2001 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2002 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2003 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2004 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2005 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2006 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2007 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2008 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2009 :: All :: Median   0.00 Mean   3.56 Std  12.97 Max 161.90
+eGFR :: Stats year :: 2010 :: All :: Median   0.00 Mean   3.80 Std  13.37 Max  60.00
+eGFR :: Stats year :: 2011 :: All :: Median   0.00 Mean   3.65 Std  13.10 Max  60.00
+eGFR :: Stats year :: 2012 :: All :: Median   0.00 Mean   3.52 Std  12.86 Max  60.00
+eGFR :: Stats year :: 2013 :: All :: Median   0.00 Mean   3.70 Std  13.18 Max  60.00
+eGFR :: Stats year :: 2014 :: All :: Median   0.00 Mean   4.34 Std  14.20 Max  60.00
+eGFR :: Stats year :: 2015 :: All :: Median   0.00 Mean   4.40 Std  14.25 Max  60.00
+eGFR :: Stats year :: 2016 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2017 :: All :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2000 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2001 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2002 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2003 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2004 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2005 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2006 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2007 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2008 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2009 :: Males   :: Median   0.00 Mean   3.90 Std  13.56 Max 100.60
+eGFR :: Stats year :: 2010 :: Males   :: Median   0.00 Mean   4.13 Std  13.91 Max  60.00
+eGFR :: Stats year :: 2011 :: Males   :: Median   0.00 Mean   4.01 Std  13.72 Max  60.00
+eGFR :: Stats year :: 2012 :: Males   :: Median   0.00 Mean   3.82 Std  13.34 Max  60.00
+eGFR :: Stats year :: 2013 :: Males   :: Median   0.00 Mean   3.98 Std  13.62 Max  60.00
+eGFR :: Stats year :: 2014 :: Males   :: Median   0.00 Mean   4.57 Std  14.51 Max  60.00
+eGFR :: Stats year :: 2015 :: Males   :: Median   0.00 Mean   4.69 Std  14.63 Max  60.00
+eGFR :: Stats year :: 2016 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2017 :: Males   :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2000 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2001 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2002 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2003 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2004 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2005 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2006 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2007 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2008 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2009 :: Females :: Median   0.00 Mean   3.28 Std  12.47 Max 138.40
+eGFR :: Stats year :: 2010 :: Females :: Median   0.00 Mean   3.54 Std  12.93 Max  60.00
+eGFR :: Stats year :: 2011 :: Females :: Median   0.00 Mean   3.38 Std  12.63 Max  60.00
+eGFR :: Stats year :: 2012 :: Females :: Median   0.00 Mean   3.30 Std  12.49 Max  60.00
+eGFR :: Stats year :: 2013 :: Females :: Median   0.00 Mean   3.49 Std  12.86 Max  60.00
+eGFR :: Stats year :: 2014 :: Females :: Median   0.00 Mean   4.12 Std  13.90 Max  60.00
+eGFR :: Stats year :: 2015 :: Females :: Median   0.00 Mean   4.16 Std  13.92 Max  60.00
+eGFR :: Stats year :: 2016 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats year :: 2017 :: Females :: Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR :: Stats month 1 :: All :: Median   0.00 Mean   4.63 Std  14.40 Max  60.00
+eGFR :: Stats month 2 :: All :: Median   0.00 Mean   4.58 Std  14.33 Max  88.90
+eGFR :: Stats month 3 :: All :: Median   0.00 Mean   4.66 Std  14.44 Max  60.00
+eGFR :: Stats month 4 :: All :: Median   0.00 Mean   4.91 Std  14.77 Max  60.00
+eGFR :: Stats month 5 :: All :: Median   0.00 Mean   4.97 Std  14.90 Max  60.00
+eGFR :: Stats month 6 :: All :: Median   0.00 Mean   5.06 Std  15.01 Max  60.00
+eGFR :: Stats month 7 :: All :: Median   0.00 Mean   5.18 Std  15.16 Max  60.00
+eGFR :: Stats month 8 :: All :: Median   0.00 Mean   5.35 Std  15.35 Max  60.00
+eGFR :: Stats month 9 :: All :: Median   0.00 Mean   5.56 Std  15.62 Max  60.00
+eGFR :: Stats month 10 :: All :: Median   0.00 Mean   5.17 Std  15.15 Max  60.00
+eGFR :: Stats month 11 :: All :: Median   0.00 Mean   4.77 Std  14.63 Max  60.00
+eGFR :: Stats month 12 :: All :: Median   0.00 Mean   4.69 Std  14.49 Max  60.00
+

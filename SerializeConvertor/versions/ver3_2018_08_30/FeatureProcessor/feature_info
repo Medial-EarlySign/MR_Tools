@@ -1,0 +1,9 @@
+name	string
+full_name	string
+n_diff_vals	int
+is_categorial	int
+min	float
+max	float
+resolution	float
+predictor_type	int
+inds_for_pred	vector<int>

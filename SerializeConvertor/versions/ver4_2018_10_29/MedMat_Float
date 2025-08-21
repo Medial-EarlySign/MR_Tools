@@ -1,0 +1,11 @@
+m	vector<float>
+nrows	int
+ncols	int
+row_ids	vector<int>
+recordsMetadata	vector<RecordData>
+signals	vector<string>
+avg	vector<float>
+std	vector<float>
+normalized_flag	int
+transposed_flag	int
+missing_value	float

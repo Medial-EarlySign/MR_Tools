@@ -1,0 +1,162 @@
+INR_Capillary :: All :: With Values ::   3360 / 1279479 =  0.00 ::   3360 /   3360 =  1.00
+INR_Capillary :: Males :: With Values ::   1796 / 622859 =  0.00 ::   1796 /   3360 =  0.53
+INR_Capillary :: Females :: With Values ::   1564 / 656620 =  0.00 ::   1564 /   3360 =  0.47
+INR_Capillary :: General :: No. of Values :: All  65638 Male  33196 Female  32442
+INR_Capillary :: General :: No. of different days Values :: All  65627 Male  33190 Female  32437
+INR_Capillary :: General :: Avg #values per person (all) :: All  0.05 Male  0.05 Female  0.05
+INR_Capillary :: General :: Avg #values per person (>0)  :: All 19.53 Male 18.48 Female 20.74
+INR_Capillary :: General :: Avg dist between tests       :: All   23.4 Male   23.6 Female   23.1
+INR_Capillary :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+INR_Capillary :: Counts :: Age Group 25 - 30 :: All ::      0 0.000
+INR_Capillary :: Counts :: Age Group 30 - 35 :: All ::      0 0.000
+INR_Capillary :: Counts :: Age Group 35 - 40 :: All ::     24 0.000
+INR_Capillary :: Counts :: Age Group 40 - 45 :: All ::    175 0.003
+INR_Capillary :: Counts :: Age Group 45 - 50 :: All ::    262 0.004
+INR_Capillary :: Counts :: Age Group 50 - 55 :: All ::    481 0.007
+INR_Capillary :: Counts :: Age Group 55 - 60 :: All ::    567 0.009
+INR_Capillary :: Counts :: Age Group 60 - 65 :: All ::   1151 0.018
+INR_Capillary :: Counts :: Age Group 65 - 70 :: All ::   1932 0.029
+INR_Capillary :: Counts :: Age Group 70 - 75 :: All ::   2249 0.034
+INR_Capillary :: Counts :: Age Group 75 - 80 :: All ::   3069 0.047
+INR_Capillary :: Counts :: Age Group 80 - 85 :: All ::   2045 0.031
+INR_Capillary :: Counts :: Age Group 85 - 90 :: All ::    624 0.010
+INR_Capillary :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+INR_Capillary :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+INR_Capillary :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+INR_Capillary :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+INR_Capillary :: Counts :: Age Group 25 - 30 :: Males ::      0 0.000
+INR_Capillary :: Counts :: Age Group 30 - 35 :: Males ::      0 0.000
+INR_Capillary :: Counts :: Age Group 35 - 40 :: Males ::     18 0.001
+INR_Capillary :: Counts :: Age Group 40 - 45 :: Males ::     38 0.001
+INR_Capillary :: Counts :: Age Group 45 - 50 :: Males ::    148 0.004
+INR_Capillary :: Counts :: Age Group 50 - 55 :: Males ::    293 0.009
+INR_Capillary :: Counts :: Age Group 55 - 60 :: Males ::    306 0.009
+INR_Capillary :: Counts :: Age Group 60 - 65 :: Males ::    649 0.020
+INR_Capillary :: Counts :: Age Group 65 - 70 :: Males ::    902 0.027
+INR_Capillary :: Counts :: Age Group 70 - 75 :: Males ::   1180 0.036
+INR_Capillary :: Counts :: Age Group 75 - 80 :: Males ::   1470 0.044
+INR_Capillary :: Counts :: Age Group 80 - 85 :: Males ::    988 0.030
+INR_Capillary :: Counts :: Age Group 85 - 90 :: Males ::    278 0.008
+INR_Capillary :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+INR_Capillary :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+INR_Capillary :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+INR_Capillary :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+INR_Capillary :: Counts :: Age Group 25 - 30 :: Females ::      0 0.000
+INR_Capillary :: Counts :: Age Group 30 - 35 :: Females ::      0 0.000
+INR_Capillary :: Counts :: Age Group 35 - 40 :: Females ::      6 0.000
+INR_Capillary :: Counts :: Age Group 40 - 45 :: Females ::    137 0.004
+INR_Capillary :: Counts :: Age Group 45 - 50 :: Females ::    114 0.004
+INR_Capillary :: Counts :: Age Group 50 - 55 :: Females ::    188 0.006
+INR_Capillary :: Counts :: Age Group 55 - 60 :: Females ::    261 0.008
+INR_Capillary :: Counts :: Age Group 60 - 65 :: Females ::    502 0.015
+INR_Capillary :: Counts :: Age Group 65 - 70 :: Females ::   1030 0.032
+INR_Capillary :: Counts :: Age Group 70 - 75 :: Females ::   1069 0.033
+INR_Capillary :: Counts :: Age Group 75 - 80 :: Females ::   1599 0.049
+INR_Capillary :: Counts :: Age Group 80 - 85 :: Females ::   1057 0.033
+INR_Capillary :: Counts :: Age Group 85 - 90 :: Females ::    346 0.011
+INR_Capillary :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+INR_Capillary :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+INR_Capillary :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+INR_Capillary :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats :: Age Group 25 - 30 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats :: Age Group 30 - 35 :: All ::  N 9 non-zeros 9 Median   1.40 Mean   1.91 Std   0.73 Max   3.20
+INR_Capillary :: Stats :: Age Group 35 - 40 :: All ::  N 72 non-zeros 66 Median   2.30 Mean   2.06 Std   0.99 Max   3.90
+INR_Capillary :: Stats :: Age Group 40 - 45 :: All ::  N 125 non-zeros 119 Median   1.90 Mean   1.98 Std   0.92 Max   3.90
+INR_Capillary :: Stats :: Age Group 45 - 50 :: All ::  N 187 non-zeros 175 Median   2.00 Mean   1.99 Std   0.92 Max   4.60
+INR_Capillary :: Stats :: Age Group 50 - 55 :: All ::  N 227 non-zeros 206 Median   2.30 Mean   2.14 Std   1.04 Max   4.30
+INR_Capillary :: Stats :: Age Group 55 - 60 :: All ::  N 283 non-zeros 265 Median   2.10 Mean   2.13 Std   0.94 Max   4.20
+INR_Capillary :: Stats :: Age Group 60 - 65 :: All ::  N 508 non-zeros 479 Median   2.20 Mean   2.13 Std   0.91 Max   6.60
+INR_Capillary :: Stats :: Age Group 65 - 70 :: All ::  N 612 non-zeros 567 Median   2.20 Mean   2.12 Std   0.91 Max   4.10
+INR_Capillary :: Stats :: Age Group 70 - 75 :: All ::  N 688 non-zeros 643 Median   2.20 Mean   2.17 Std   0.94 Max   6.70
+INR_Capillary :: Stats :: Age Group 75 - 80 :: All ::  N 757 non-zeros 698 Median   2.20 Mean   2.09 Std   0.90 Max   4.20
+INR_Capillary :: Stats :: Age Group 80 - 85 :: All ::  N 481 non-zeros 435 Median   2.20 Mean   2.10 Std   1.02 Max   7.40
+INR_Capillary :: Stats :: Age Group 85 - 90 :: All ::  N 192 non-zeros 174 Median   2.00 Mean   2.01 Std   0.92 Max   3.90
+INR_Capillary :: Stats :: Age Group 90 - 95 :: All ::  N 39 non-zeros 35 Median   2.00 Mean   1.93 Std   0.92 Max   3.70
+INR_Capillary :: Stats :: Age Group 95 - 100 :: All ::  N 4 non-zeros 4 Median   2.20 Mean   2.35 Std   0.52 Max   3.00
+INR_Capillary :: General :: All     :: outliers ratio 0.000000
+INR_Capillary :: General :: All     :: N 3360 non-zeros 3084 Median   2.10 Mean   2.07 Std   0.96 Max   7.40
+INR_Capillary :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.90   1.00   1.10   3.50   3.90   5.10
+INR_Capillary :: General :: All     :: quartiles ::   0.90   1.70   2.20   2.80 
+INR_Capillary :: General :: Males   :: outliers ratio 0.000000
+INR_Capillary :: General :: Males   :: N 1796 non-zeros 1659 Median   2.20 Mean   2.08 Std   0.94 Max   7.40
+INR_Capillary :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.90   1.00   1.10   3.60   3.90   6.70
+INR_Capillary :: General :: Males   :: quartiles ::   0.90   1.70   2.30   2.80 
+INR_Capillary :: General :: Females :: outliers ratio 0.000000
+INR_Capillary :: General :: Females :: N 1564 non-zeros 1436 Median   2.20 Mean   2.10 Std   0.98 Max   6.60
+INR_Capillary :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.90   1.00   1.00   3.70   3.90   5.10
+INR_Capillary :: General :: Females :: quartiles ::   0.90   1.70   2.30   2.80 
+INR_Capillary :: Rounding ::  0.00 r  0.00 pct
+INR_Capillary :: Rounding ::  0.01 r  0.15 pct
+INR_Capillary :: Rounding ::  0.10 r  0.73 pct
+INR_Capillary :: Rounding ::  1.00 r  0.11 pct
+INR_Capillary :: Rounding :: 10.00 r  0.00 pct
+INR_Capillary :: Rounding :: 100.00 r  0.00 pct
+INR_Capillary :: Rounding :: 1000.00 r  0.00 pct
+INR_Capillary :: Rounding :: most popular rounding for vals:  0.10
+INR_Capillary :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2001 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2002 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2003 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2004 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2005 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2006 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2007 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2008 :: All :: N 206 non-zeros 192 Median   2.40 Mean   2.32 Std   0.93 Max   4.60
+INR_Capillary :: Stats year :: 2009 :: All :: N 636 non-zeros 581 Median   2.30 Mean   2.16 Std   0.93 Max   4.10
+INR_Capillary :: Stats year :: 2010 :: All :: N 759 non-zeros 720 Median   2.30 Mean   2.22 Std   0.85 Max   5.10
+INR_Capillary :: Stats year :: 2011 :: All :: N 953 non-zeros 911 Median   2.30 Mean   2.22 Std   0.84 Max   7.20
+INR_Capillary :: Stats year :: 2012 :: All :: N 1150 non-zeros 1082 Median   2.30 Mean   2.18 Std   0.87 Max   4.60
+INR_Capillary :: Stats year :: 2013 :: All :: N 1242 non-zeros 1178 Median   2.20 Mean   2.15 Std   0.85 Max   7.40
+INR_Capillary :: Stats year :: 2014 :: All :: N 1074 non-zeros 1005 Median   2.20 Mean   2.15 Std   0.91 Max   6.60
+INR_Capillary :: Stats year :: 2015 :: All :: N 812 non-zeros 773 Median   2.20 Mean   2.18 Std   0.84 Max   5.10
+INR_Capillary :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2001 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2002 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2003 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2004 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2005 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2006 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2007 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2008 :: Males   :: N 113 non-zeros 106 Median   2.40 Mean   2.33 Std   0.96 Max   4.60
+INR_Capillary :: Stats year :: 2009 :: Males   :: N 323 non-zeros 301 Median   2.30 Mean   2.17 Std   0.90 Max   4.60
+INR_Capillary :: Stats year :: 2010 :: Males   :: N 403 non-zeros 379 Median   2.20 Mean   2.15 Std   0.87 Max   4.00
+INR_Capillary :: Stats year :: 2011 :: Males   :: N 477 non-zeros 455 Median   2.20 Mean   2.16 Std   0.79 Max   4.20
+INR_Capillary :: Stats year :: 2012 :: Males   :: N 606 non-zeros 576 Median   2.30 Mean   2.17 Std   0.82 Max   3.90
+INR_Capillary :: Stats year :: 2013 :: Males   :: N 629 non-zeros 597 Median   2.20 Mean   2.14 Std   0.87 Max   7.40
+INR_Capillary :: Stats year :: 2014 :: Males   :: N 568 non-zeros 527 Median   2.20 Mean   2.07 Std   0.88 Max   4.90
+INR_Capillary :: Stats year :: 2015 :: Males   :: N 416 non-zeros 395 Median   2.20 Mean   2.17 Std   0.83 Max   4.10
+INR_Capillary :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2001 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2002 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2003 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2004 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2005 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2006 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2007 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2008 :: Females :: N 93 non-zeros 86 Median   2.40 Mean   2.35 Std   0.92 Max   4.10
+INR_Capillary :: Stats year :: 2009 :: Females :: N 313 non-zeros 287 Median   2.30 Mean   2.17 Std   0.93 Max   4.10
+INR_Capillary :: Stats year :: 2010 :: Females :: N 356 non-zeros 337 Median   2.30 Mean   2.25 Std   0.89 Max   5.10
+INR_Capillary :: Stats year :: 2011 :: Females :: N 476 non-zeros 451 Median   2.30 Mean   2.23 Std   0.90 Max   7.20
+INR_Capillary :: Stats year :: 2012 :: Females :: N 544 non-zeros 507 Median   2.30 Mean   2.20 Std   0.91 Max   4.60
+INR_Capillary :: Stats year :: 2013 :: Females :: N 613 non-zeros 577 Median   2.20 Mean   2.14 Std   0.86 Max   4.00
+INR_Capillary :: Stats year :: 2014 :: Females :: N 506 non-zeros 465 Median   2.20 Mean   2.13 Std   0.94 Max   6.60
+INR_Capillary :: Stats year :: 2015 :: Females :: N 396 non-zeros 375 Median   2.10 Mean   2.14 Std   0.88 Max   6.20
+INR_Capillary :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+INR_Capillary :: Stats month 1 :: All :: N 894 non-zeros 860 Median   2.30 Mean   2.21 Std   0.79 Max   4.90
+INR_Capillary :: Stats month 2 :: All :: N 902 non-zeros 869 Median   2.20 Mean   2.22 Std   0.77 Max   4.80
+INR_Capillary :: Stats month 3 :: All :: N 949 non-zeros 913 Median   2.30 Mean   2.25 Std   0.83 Max   7.40
+INR_Capillary :: Stats month 4 :: All :: N 986 non-zeros 945 Median   2.20 Mean   2.19 Std   0.78 Max   4.70
+INR_Capillary :: Stats month 5 :: All :: N 993 non-zeros 955 Median   2.30 Mean   2.23 Std   0.79 Max   5.10
+INR_Capillary :: Stats month 6 :: All :: N 975 non-zeros 941 Median   2.30 Mean   2.30 Std   0.79 Max   6.60
+INR_Capillary :: Stats month 7 :: All :: N 963 non-zeros 905 Median   2.30 Mean   2.21 Std   0.85 Max   4.60
+INR_Capillary :: Stats month 8 :: All :: N 989 non-zeros 937 Median   2.40 Mean   2.29 Std   0.83 Max   4.90
+INR_Capillary :: Stats month 9 :: All :: N 1024 non-zeros 976 Median   2.30 Mean   2.28 Std   0.83 Max   4.30
+INR_Capillary :: Stats month 10 :: All :: N 1036 non-zeros 993 Median   2.30 Mean   2.29 Std   0.82 Max   5.10
+INR_Capillary :: Stats month 11 :: All :: N 844 non-zeros 795 Median   2.30 Mean   2.21 Std   0.84 Max   4.20
+INR_Capillary :: Stats month 12 :: All :: N 852 non-zeros 809 Median   2.30 Mean   2.22 Std   0.83 Max   4.60
+

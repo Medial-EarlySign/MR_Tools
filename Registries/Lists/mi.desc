@@ -1,0 +1,69 @@
+3232.00	ECG old myocardial infarction
+3233.00	ECG antero septal infarct.
+3234.00	ECG posterior inferior infarct
+3235.00	ECG subendocardial infarct
+3236.00	ECG lateral infarction
+323Z.00	ECG myocardial infarct NOS
+G30..00	Acute myocardial infarction
+G300.00	Acute anterolateral infarction
+G301.00	Other specified anterior myocardial infarction
+G301000	Acute anteroapical infarction
+G301100	Acute anteroseptal infarction
+G301z00	Anterior myocardial infarction NOS
+G302.00	Acute inferolateral infarction
+G303.00	Acute inferoposterior infarction
+G304.00	Posterior myocardial infarction NOS
+G305.00	Lateral myocardial infarction NOS
+G306.00	True posterior myocardial infarction
+G307.00	Acute subendocardial infarction
+G307000	Acute non Q wave infarction
+G307100	Acute non ST segment elevation myocardial infarction
+G308.00	Inferior myocardial infarction NOS
+G309.00	Acute Q wave infarct
+G30B.00	Acute posterolateral myocardial infarction
+G30X.00	Acute transmural myocardial infarction of unspecif site
+G30X000	Acute ST segment elevation myocardial infarction
+G30y.00	Other acute myocardial infarction
+G30y000	Acute atrial infarction
+G30y100	Acute papillary muscle infarction
+G30y200	Acute septal infarction
+G30yz00	Other acute myocardial infarction NOS
+G30z.00	Acute myocardial infarction NOS
+G30..11	Attack heart
+G30..12	Coronary thrombosis
+G30..13	Cardiac rupture following myocardial infarction MI
+G30..14	Heart attack
+G30..15	MI acute myocardial infarction
+G30..16	Thrombosis coronary
+G30..17	Silent myocardial infarction
+G310.00	Postmyocardial infarction syndrome
+G310.11	Dressler s syndrome
+G311.00	Preinfarction syndrome
+G311000	Myocardial infarction aborted
+G311011	MI myocardial infarction aborted
+G311z00	Preinfarction syndrome NOS
+G31y100	Microinfarction of heart
+G32..00	Old myocardial infarction
+G32..11	Healed myocardial infarction
+G32..12	Personal history of myocardial infarction
+G33z500	Post infarct angina
+G35..00	Subsequent myocardial infarction
+G350.00	Subsequent myocardial infarction of anterior wall
+G351.00	Subsequent myocardial infarction of inferior wall
+G353.00	Subsequent myocardial infarction of other sites
+G35X.00	Subsequent myocardial infarction of unspecified site
+G36..00	Certain current complication follow acute myocardial infarct
+G360.00	Haemopericardium current comp folow acut myocard infarct
+G361.00	Atrial septal defect curr comp folow acut myocardal infarct
+G362.00	Ventric septal defect curr comp fol acut myocardal infarctn
+G364.00	Ruptur chordae tendinae curr comp fol acute myocard infarct
+G365.00	Rupture papillary muscle curr comp fol acute myocard infarct
+G366.00	Thrombosis atrium auric append vent curr comp foll acute MI
+G38..00	Postoperative myocardial infarction
+G380.00	Postoperative transmural myocardial infarction anterior wall
+G381.00	Postoperative transmural myocardial infarction inferior wall
+G382.00	Postoperative transmural myocardial infarction other sites
+G383.00	Postoperative transmural myocardial infarction unspec site
+G384.00	Postoperative subendocardial myocardial infarction
+G38z.00	Postoperative myocardial infarction unspecified
+G501.00	Post infarction pericarditis

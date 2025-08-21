@@ -1,0 +1,12 @@
+generator_type	int
+tags	vector<string>
+serial_id	int
+win_from	int
+win_to	int
+time_unit_win	int
+signalName	string
+sets	vector<string>
+names	vector<string>
+req_signals	vector<string>
+in_set_name 	string
+iGenerateWeights	int

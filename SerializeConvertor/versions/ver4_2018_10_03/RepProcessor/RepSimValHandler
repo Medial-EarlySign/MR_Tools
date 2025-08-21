@@ -1,0 +1,7 @@
+signalName	string
+time_channels	vector<int>
+req_signals	unordered_set<string>
+aff_signals	unordered_set<string>
+nHandle_attr	string
+nHandle_attr_suffix	string
+handler_type	int

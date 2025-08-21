@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "AllTools"
+		},
+		{
+			"path": "MedProcessUtils"
+		},
+		{
+			"path": "bootstrap_app"
+		},
+		{
+			"path": "Flow"
+		},
+		{
+			"path": "Optimizer"
+		},
+		{
+			"path": "Tutorials"
+		},
+		{
+			"path": "../MR_LIBS/Internal"
+		},
+		{
+			"path": "action_outcome_effect"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.cpp": "cpp",
+			"*.ipp": "cpp",
+			"array": "cpp",
+			"bitset": "cpp",
+			"string_view": "cpp",
+			"rope": "cpp",
+			"slist": "cpp",
+			"initializer_list": "cpp",
+			"ranges": "cpp",
+			"span": "cpp",
+			"regex": "cpp",
+			"utility": "cpp",
+			"valarray": "cpp",
+			"stacktrace": "cpp"
+		}
+	}
+}

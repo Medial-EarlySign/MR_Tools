@@ -1,0 +1,162 @@
+Lithium :: All :: With Values ::   4454 / 1279479 =  0.00 ::   4454 /   4454 =  1.00
+Lithium :: Males :: With Values ::   2029 / 622859 =  0.00 ::   2029 /   4454 =  0.46
+Lithium :: Females :: With Values ::   2425 / 656620 =  0.00 ::   2425 /   4454 =  0.54
+Lithium :: General :: No. of Values :: All  41910 Male  17906 Female  24004
+Lithium :: General :: No. of different days Values :: All  41904 Male  17903 Female  24001
+Lithium :: General :: Avg #values per person (all) :: All  0.03 Male  0.03 Female  0.04
+Lithium :: General :: Avg #values per person (>0)  :: All  9.41 Male  8.82 Female  9.90
+Lithium :: General :: Avg dist between tests       :: All  160.7 Male  174.8 Female  150.3
+Lithium :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Lithium :: Counts :: Age Group 25 - 30 :: All ::     11 0.000
+Lithium :: Counts :: Age Group 30 - 35 :: All ::    338 0.008
+Lithium :: Counts :: Age Group 35 - 40 :: All ::    737 0.018
+Lithium :: Counts :: Age Group 40 - 45 :: All ::   1258 0.030
+Lithium :: Counts :: Age Group 45 - 50 :: All ::    993 0.024
+Lithium :: Counts :: Age Group 50 - 55 :: All ::   1095 0.026
+Lithium :: Counts :: Age Group 55 - 60 :: All ::   1026 0.024
+Lithium :: Counts :: Age Group 60 - 65 :: All ::    981 0.023
+Lithium :: Counts :: Age Group 65 - 70 :: All ::    751 0.018
+Lithium :: Counts :: Age Group 70 - 75 :: All ::    497 0.012
+Lithium :: Counts :: Age Group 75 - 80 :: All ::    398 0.009
+Lithium :: Counts :: Age Group 80 - 85 :: All ::    280 0.007
+Lithium :: Counts :: Age Group 85 - 90 :: All ::     75 0.002
+Lithium :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Lithium :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Lithium :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Lithium :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Lithium :: Counts :: Age Group 25 - 30 :: Males ::      6 0.000
+Lithium :: Counts :: Age Group 30 - 35 :: Males ::    169 0.009
+Lithium :: Counts :: Age Group 35 - 40 :: Males ::    327 0.018
+Lithium :: Counts :: Age Group 40 - 45 :: Males ::    536 0.030
+Lithium :: Counts :: Age Group 45 - 50 :: Males ::    441 0.025
+Lithium :: Counts :: Age Group 50 - 55 :: Males ::    451 0.025
+Lithium :: Counts :: Age Group 55 - 60 :: Males ::    428 0.024
+Lithium :: Counts :: Age Group 60 - 65 :: Males ::    435 0.024
+Lithium :: Counts :: Age Group 65 - 70 :: Males ::    312 0.017
+Lithium :: Counts :: Age Group 70 - 75 :: Males ::    188 0.010
+Lithium :: Counts :: Age Group 75 - 80 :: Males ::    155 0.009
+Lithium :: Counts :: Age Group 80 - 85 :: Males ::     80 0.004
+Lithium :: Counts :: Age Group 85 - 90 :: Males ::     14 0.001
+Lithium :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Lithium :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Lithium :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Lithium :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Lithium :: Counts :: Age Group 25 - 30 :: Females ::      5 0.000
+Lithium :: Counts :: Age Group 30 - 35 :: Females ::    169 0.007
+Lithium :: Counts :: Age Group 35 - 40 :: Females ::    410 0.017
+Lithium :: Counts :: Age Group 40 - 45 :: Females ::    722 0.030
+Lithium :: Counts :: Age Group 45 - 50 :: Females ::    552 0.023
+Lithium :: Counts :: Age Group 50 - 55 :: Females ::    644 0.027
+Lithium :: Counts :: Age Group 55 - 60 :: Females ::    598 0.025
+Lithium :: Counts :: Age Group 60 - 65 :: Females ::    546 0.023
+Lithium :: Counts :: Age Group 65 - 70 :: Females ::    439 0.018
+Lithium :: Counts :: Age Group 70 - 75 :: Females ::    309 0.013
+Lithium :: Counts :: Age Group 75 - 80 :: Females ::    243 0.010
+Lithium :: Counts :: Age Group 80 - 85 :: Females ::    200 0.008
+Lithium :: Counts :: Age Group 85 - 90 :: Females ::     61 0.003
+Lithium :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Lithium :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Lithium :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Lithium :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats :: Age Group 25 - 30 :: All ::  N 167 non-zeros 155 Median   0.60 Mean   0.60 Std   0.40 Max   4.00
+Lithium :: Stats :: Age Group 30 - 35 :: All ::  N 475 non-zeros 429 Median   0.60 Mean   0.55 Std   0.31 Max   1.60
+Lithium :: Stats :: Age Group 35 - 40 :: All ::  N 855 non-zeros 768 Median   0.60 Mean   0.54 Std   0.31 Max   1.80
+Lithium :: Stats :: Age Group 40 - 45 :: All ::  N 1115 non-zeros 959 Median   0.50 Mean   0.51 Std   0.32 Max   1.70
+Lithium :: Stats :: Age Group 45 - 50 :: All ::  N 1027 non-zeros 888 Median   0.50 Mean   0.51 Std   0.32 Max   1.70
+Lithium :: Stats :: Age Group 50 - 55 :: All ::  N 1038 non-zeros 871 Median   0.50 Mean   0.51 Std   0.34 Max   2.20
+Lithium :: Stats :: Age Group 55 - 60 :: All ::  N 926 non-zeros 774 Median   0.50 Mean   0.51 Std   0.34 Max   2.40
+Lithium :: Stats :: Age Group 60 - 65 :: All ::  N 793 non-zeros 660 Median   0.60 Mean   0.52 Std   0.35 Max   1.90
+Lithium :: Stats :: Age Group 65 - 70 :: All ::  N 558 non-zeros 470 Median   0.50 Mean   0.51 Std   0.32 Max   1.50
+Lithium :: Stats :: Age Group 70 - 75 :: All ::  N 365 non-zeros 292 Median   0.50 Mean   0.49 Std   0.36 Max   2.40
+Lithium :: Stats :: Age Group 75 - 80 :: All ::  N 251 non-zeros 200 Median   0.50 Mean   0.47 Std   0.35 Max   1.70
+Lithium :: Stats :: Age Group 80 - 85 :: All ::  N 130 non-zeros 99 Median   0.40 Mean   0.44 Std   0.36 Max   1.50
+Lithium :: Stats :: Age Group 85 - 90 :: All ::  N 57 non-zeros 42 Median   0.40 Mean   0.39 Std   0.31 Max   1.20
+Lithium :: Stats :: Age Group 90 - 95 :: All ::  N 20 non-zeros 10 Median   0.00 Mean   0.31 Std   0.39 Max   1.40
+Lithium :: Stats :: Age Group 95 - 100 :: All ::  N 5 non-zeros 4 Median   0.50 Mean   0.70 Std   0.51 Max   1.50
+Lithium :: General :: All     :: outliers ratio 0.000000
+Lithium :: General :: All     :: N 4454 non-zeros 3558 Median   0.50 Mean   0.47 Std   0.35 Max   4.00
+Lithium :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.20   1.10   1.40   1.90
+Lithium :: General :: All     :: quartiles ::   0.10   0.40   0.60   0.80 
+Lithium :: General :: Males   :: outliers ratio 0.000000
+Lithium :: General :: Males   :: N 2029 non-zeros 1635 Median   0.50 Mean   0.46 Std   0.34 Max   2.40
+Lithium :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.20   1.01   1.40   1.90
+Lithium :: General :: Males   :: quartiles ::   0.10   0.40   0.60   0.70 
+Lithium :: General :: Females :: outliers ratio 0.000000
+Lithium :: General :: Females :: N 2425 non-zeros 1934 Median   0.50 Mean   0.48 Std   0.36 Max   4.00
+Lithium :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.20   1.10   1.40   2.50
+Lithium :: General :: Females :: quartiles ::   0.10   0.40   0.60   0.80 
+Lithium :: Rounding ::  0.00 r  0.00 pct
+Lithium :: Rounding ::  0.01 r  0.03 pct
+Lithium :: Rounding ::  0.10 r  0.93 pct
+Lithium :: Rounding ::  1.00 r  0.04 pct
+Lithium :: Rounding :: 10.00 r  0.00 pct
+Lithium :: Rounding :: 100.00 r  0.00 pct
+Lithium :: Rounding :: 1000.00 r  0.00 pct
+Lithium :: Rounding :: most popular rounding for vals:  0.10
+Lithium :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats year :: 2001 :: All :: N 1121 non-zeros 1048 Median   0.60 Mean   0.58 Std   0.31 Max   4.00
+Lithium :: Stats year :: 2002 :: All :: N 1131 non-zeros 1016 Median   0.60 Mean   0.56 Std   0.31 Max   1.70
+Lithium :: Stats year :: 2003 :: All :: N 1173 non-zeros 1083 Median   0.60 Mean   0.60 Std   0.31 Max   2.50
+Lithium :: Stats year :: 2004 :: All :: N 1144 non-zeros 1040 Median   0.60 Mean   0.59 Std   0.31 Max   1.70
+Lithium :: Stats year :: 2005 :: All :: N 1135 non-zeros 1044 Median   0.60 Mean   0.59 Std   0.31 Max   2.50
+Lithium :: Stats year :: 2006 :: All :: N 1149 non-zeros 1031 Median   0.60 Mean   0.57 Std   0.31 Max   2.00
+Lithium :: Stats year :: 2007 :: All :: N 1121 non-zeros 1013 Median   0.60 Mean   0.58 Std   0.31 Max   2.10
+Lithium :: Stats year :: 2008 :: All :: N 1158 non-zeros 1064 Median   0.60 Mean   0.58 Std   0.31 Max   1.90
+Lithium :: Stats year :: 2009 :: All :: N 1159 non-zeros 1056 Median   0.60 Mean   0.57 Std   0.31 Max   1.90
+Lithium :: Stats year :: 2010 :: All :: N 1252 non-zeros 1146 Median   0.60 Mean   0.60 Std   0.31 Max   1.60
+Lithium :: Stats year :: 2011 :: All :: N 1307 non-zeros 1191 Median   0.60 Mean   0.59 Std   0.33 Max   2.40
+Lithium :: Stats year :: 2012 :: All :: N 1319 non-zeros 1209 Median   0.60 Mean   0.59 Std   0.31 Max   1.90
+Lithium :: Stats year :: 2013 :: All :: N 1325 non-zeros 1200 Median   0.60 Mean   0.56 Std   0.31 Max   1.90
+Lithium :: Stats year :: 2014 :: All :: N 1283 non-zeros 1146 Median   0.60 Mean   0.54 Std   0.30 Max   1.70
+Lithium :: Stats year :: 2015 :: All :: N 1171 non-zeros 1065 Median   0.60 Mean   0.60 Std   0.33 Max   1.90
+Lithium :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats year :: 2001 :: Males   :: N 501 non-zeros 472 Median   0.60 Mean   0.58 Std   0.27 Max   1.35
+Lithium :: Stats year :: 2002 :: Males   :: N 495 non-zeros 447 Median   0.60 Mean   0.57 Std   0.31 Max   1.50
+Lithium :: Stats year :: 2003 :: Males   :: N 522 non-zeros 480 Median   0.60 Mean   0.59 Std   0.32 Max   2.50
+Lithium :: Stats year :: 2004 :: Males   :: N 531 non-zeros 489 Median   0.60 Mean   0.59 Std   0.31 Max   1.70
+Lithium :: Stats year :: 2005 :: Males   :: N 515 non-zeros 470 Median   0.60 Mean   0.57 Std   0.30 Max   1.50
+Lithium :: Stats year :: 2006 :: Males   :: N 524 non-zeros 465 Median   0.60 Mean   0.56 Std   0.31 Max   1.60
+Lithium :: Stats year :: 2007 :: Males   :: N 515 non-zeros 459 Median   0.60 Mean   0.58 Std   0.35 Max   2.40
+Lithium :: Stats year :: 2008 :: Males   :: N 541 non-zeros 496 Median   0.60 Mean   0.57 Std   0.31 Max   1.70
+Lithium :: Stats year :: 2009 :: Males   :: N 519 non-zeros 473 Median   0.60 Mean   0.56 Std   0.31 Max   1.40
+Lithium :: Stats year :: 2010 :: Males   :: N 561 non-zeros 508 Median   0.60 Mean   0.58 Std   0.31 Max   1.60
+Lithium :: Stats year :: 2011 :: Males   :: N 598 non-zeros 545 Median   0.60 Mean   0.57 Std   0.32 Max   2.40
+Lithium :: Stats year :: 2012 :: Males   :: N 600 non-zeros 555 Median   0.60 Mean   0.57 Std   0.30 Max   1.80
+Lithium :: Stats year :: 2013 :: Males   :: N 596 non-zeros 549 Median   0.60 Mean   0.57 Std   0.32 Max   2.10
+Lithium :: Stats year :: 2014 :: Males   :: N 585 non-zeros 520 Median   0.60 Mean   0.53 Std   0.30 Max   1.70
+Lithium :: Stats year :: 2015 :: Males   :: N 546 non-zeros 499 Median   0.60 Mean   0.59 Std   0.32 Max   1.90
+Lithium :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats year :: 2001 :: Females :: N 620 non-zeros 574 Median   0.60 Mean   0.58 Std   0.33 Max   4.00
+Lithium :: Stats year :: 2002 :: Females :: N 636 non-zeros 577 Median   0.60 Mean   0.58 Std   0.31 Max   1.40
+Lithium :: Stats year :: 2003 :: Females :: N 651 non-zeros 600 Median   0.60 Mean   0.60 Std   0.31 Max   1.70
+Lithium :: Stats year :: 2004 :: Females :: N 613 non-zeros 557 Median   0.60 Mean   0.60 Std   0.31 Max   1.50
+Lithium :: Stats year :: 2005 :: Females :: N 620 non-zeros 565 Median   0.60 Mean   0.59 Std   0.30 Max   1.80
+Lithium :: Stats year :: 2006 :: Females :: N 625 non-zeros 560 Median   0.60 Mean   0.57 Std   0.32 Max   2.00
+Lithium :: Stats year :: 2007 :: Females :: N 606 non-zeros 559 Median   0.60 Mean   0.60 Std   0.31 Max   1.70
+Lithium :: Stats year :: 2008 :: Females :: N 617 non-zeros 568 Median   0.60 Mean   0.60 Std   0.32 Max   1.90
+Lithium :: Stats year :: 2009 :: Females :: N 640 non-zeros 579 Median   0.60 Mean   0.58 Std   0.31 Max   1.60
+Lithium :: Stats year :: 2010 :: Females :: N 691 non-zeros 639 Median   0.60 Mean   0.63 Std   0.34 Max   3.80
+Lithium :: Stats year :: 2011 :: Females :: N 709 non-zeros 642 Median   0.60 Mean   0.60 Std   0.32 Max   1.70
+Lithium :: Stats year :: 2012 :: Females :: N 719 non-zeros 654 Median   0.60 Mean   0.60 Std   0.32 Max   2.30
+Lithium :: Stats year :: 2013 :: Females :: N 729 non-zeros 651 Median   0.60 Mean   0.57 Std   0.32 Max   1.70
+Lithium :: Stats year :: 2014 :: Females :: N 698 non-zeros 632 Median   0.60 Mean   0.56 Std   0.31 Max   2.40
+Lithium :: Stats year :: 2015 :: Females :: N 625 non-zeros 565 Median   0.60 Mean   0.59 Std   0.32 Max   1.50
+Lithium :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lithium :: Stats month 1 :: All :: N 1183 non-zeros 1070 Median   0.60 Mean   0.58 Std   0.32 Max   2.30
+Lithium :: Stats month 2 :: All :: N 1213 non-zeros 1084 Median   0.60 Mean   0.56 Std   0.33 Max   4.00
+Lithium :: Stats month 3 :: All :: N 1259 non-zeros 1130 Median   0.60 Mean   0.57 Std   0.33 Max   2.50
+Lithium :: Stats month 4 :: All :: N 1157 non-zeros 1051 Median   0.60 Mean   0.59 Std   0.32 Max   2.50
+Lithium :: Stats month 5 :: All :: N 1383 non-zeros 1250 Median   0.60 Mean   0.58 Std   0.32 Max   1.80
+Lithium :: Stats month 6 :: All :: N 1307 non-zeros 1165 Median   0.60 Mean   0.59 Std   0.34 Max   2.80
+Lithium :: Stats month 7 :: All :: N 1355 non-zeros 1219 Median   0.60 Mean   0.59 Std   0.32 Max   1.90
+Lithium :: Stats month 8 :: All :: N 1323 non-zeros 1188 Median   0.60 Mean   0.58 Std   0.32 Max   2.30
+Lithium :: Stats month 9 :: All :: N 1171 non-zeros 1056 Median   0.60 Mean   0.58 Std   0.33 Max   3.80
+Lithium :: Stats month 10 :: All :: N 1242 non-zeros 1119 Median   0.60 Mean   0.59 Std   0.32 Max   2.00
+Lithium :: Stats month 11 :: All :: N 1212 non-zeros 1098 Median   0.60 Mean   0.60 Std   0.34 Max   3.80
+Lithium :: Stats month 12 :: All :: N 1152 non-zeros 1034 Median   0.60 Mean   0.56 Std   0.32 Max   2.10
+

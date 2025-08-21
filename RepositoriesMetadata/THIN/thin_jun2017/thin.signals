@@ -1,0 +1,449 @@
+# SIGNAL <name> <signal id> <signal type num> <description> <is_categorical_per_val_channel> <unit_per_val_channel separated by '|' char>
+#===============================================================================
+# Signal Types
+#
+# 0 - Value (32bit)
+# 1 - Date (32bit) + Value (32bit)
+# 2 - Time (64bit) + Value (32bit)
+# 3 - RangeDate (32bit + 32bit) + Value (32bit)
+# 8 - DateShort2 (32 bit int + 16bit short + 16 bit short)
+#10 - ValShort4 : 4 x short values
+#===============================================================================
+# Demographic   100-199
+#===============================================================================
+SIGNAL	GENDER	100	0	Male=1,Female=2
+SIGNAL	BYEAR	101	0	
+SIGNAL	BDATE	102	0	
+SIGNAL	STARTDATE	103	0	
+SIGNAL	ENDDATE	104	0	
+SIGNAL	DEATH	105	0	
+SIGNAL	TRAIN	106	0	
+SIGNAL	PRAC	107	0
+SIGNAL	Censor	108	1
+SIGNAL	PVI	200	1	pvi area	1
+#===============================================================================
+# Weight related
+#===============================================================================
+SIGNAL	Weight	900	1	
+SIGNAL	Height	901	1	
+SIGNAL	BMI	902	1	
+#===============================================================================
+# Rock & Roll
+#===============================================================================
+SIGNAL	ALCOHOL	910	8	
+SIGNAL	SMOKING	911	8	
+SIGNAL	STOPPED_SMOKING	912	1	
+SIGNAL	SMOKING_ENRICHED	913	10	4 short values
+#===============================================================================
+# BP
+#===============================================================================
+SIGNAL	BP	920	8	
+SIGNAL	PULSE	921	1	
+#===============================================================================
+# Lab Tests - Blood counts (CBC)
+#===============================================================================
+SIGNAL	Hemoglobin	1000	1	
+SIGNAL	RBC	1001	1	
+SIGNAL	Hematocrit	1002	1	
+SIGNAL	Platelets	1003	1	
+SIGNAL	WBC	1004	1	
+SIGNAL	MCH	1005	1	
+SIGNAL	MCHC-M	1006	1	
+SIGNAL	MCV	1007	1	
+SIGNAL	Eosinophils#	1008	1	
+SIGNAL	Monocytes#	1009	1	
+SIGNAL	Basophils#	1010	1	
+SIGNAL	Lymphocytes#	1011	1	
+SIGNAL	Neutrophils#	1012	1	
+SIGNAL	Eosinophils%	1013	1	
+SIGNAL	Monocytes%	1014	1	
+SIGNAL	Basophils%	1015	1	
+SIGNAL	Lymphocytes%	1016	1	
+SIGNAL	Neutrophils%	1017	1	
+SIGNAL	MPV	1018	1	
+SIGNAL	PDW	1019	1	
+SIGNAL	PlasmaViscosity	1020	1	
+SIGNAL	Platelets_Hematocrit	1021	1	
+SIGNAL	INR	1022	1	
+SIGNAL	RDW	1023	1	
+#===============================================================================
+# Lab Tests - Biochem - Urine
+#===============================================================================
+SIGNAL	UrineTotalProtein	1030	1	
+SIGNAL	UrineAlbumin	1031	1	
+SIGNAL	UrineCreatinine	1032	1	
+SIGNAL	UrineAlbumin_over_Creatinine	1033	1	
+#===============================================================================
+# Lab tests - Biochem - Iron and Vitamins related
+#===============================================================================
+SIGNAL	Iron_Fe	1050	1	
+SIGNAL	Ferritin	1051	1	
+SIGNAL	B12	1052	1	
+SIGNAL	VitaminD_25	1053	1	
+SIGNAL	Transferrin	1054	1	
+#===============================================================================
+# Lab Tests - Biochem - Cholesterol and cardio related
+#===============================================================================
+SIGNAL	Cholesterol	1060	1	
+SIGNAL	Triglycerides	1061	1	
+SIGNAL	LDL	1062	1	
+SIGNAL	HDL	1063	1	
+SIGNAL	NonHDLCholesterol	1064	1	
+SIGNAL	HDL_over_nonHDL	1065	1	
+SIGNAL	HDL_over_Cholesterol	1066	1	
+SIGNAL	HDL_over_LDL	1067	1	
+SIGNAL	Cholesterol_over_HDL	1068	1	
+SIGNAL	CK	1069	1	
+SIGNAL	LDL_over_HDL	1070	1	
+#===============================================================================
+# Lab Tests - Biochem - Renal Related
+#===============================================================================
+SIGNAL	Creatinine	1080	1	
+SIGNAL	Urea	1081	1	
+SIGNAL	eGFR	1082	1	
+SIGNAL	Uric_Acid	1083	1	
+SIGNAL	eGFR_MDRD	1084	1
+SIGNAL	eGFR_CKD_EPI	1085	1
+SIGNAL	GFR	1086	1
+#===============================================================================
+# Lab Tests - Biochem - Diabetic related
+#===============================================================================
+SIGNAL	Glucose	1090	1	
+SIGNAL	HbA1C	1091	1	
+SIGNAL	RandomGlucose	1092	1	
+#SIGNAL	Fructosamine	1093	1	# 2017/03/16 - ido - removed after found out its corrupted
+#===============================================================================
+# Lab Tests - Biochem - Hepatic
+#===============================================================================
+SIGNAL	ALT	1100	1	
+SIGNAL	AST	1101	1	
+SIGNAL	GGT	1102	1	
+SIGNAL	LDH	1103	1	
+SIGNAL	ALKP	1104	1	
+SIGNAL	Bilirubin	1105	1	
+SIGNAL	Albumin	1106	1	
+SIGNAL	Protein_Total	1107	1	
+#===============================================================================
+# Lab Tests - Biochem - ions
+#===============================================================================
+SIGNAL	Na	1110	1	
+SIGNAL	K+	1111	1	
+SIGNAL	Ca	1112	1	
+SIGNAL	CorrectedCa	1113	1	
+SIGNAL	Cl	1114	1	
+SIGNAL	Lithium	1115	1	
+SIGNAL	Mg	1116	1	
+SIGNAL	Phosphore	1117	1	
+SIGNAL	Bicarbonate	1118	1	
+SIGNAL	SerumAnionGap	1119	1	
+SIGNAL	PlasmaAnionGap	1120	1	
+#===============================================================================
+# Lab Tests - Biochem - others
+#===============================================================================
+SIGNAL	FreeT3	1200	1	
+SIGNAL	FreeT4	1201	1	
+#SIGNAL	T3	1202	1	# 2017/03/16 - ido - removed after found out its bi-modal 
+SIGNAL	T4	1203	1	
+SIGNAL	CO2	1204	1	
+SIGNAL	Digoxin	1205	1	
+SIGNAL	Globulin	1206	1	
+SIGNAL	Amylase	1207	1	
+SIGNAL	Testosterone	1208	1	
+SIGNAL	Fibrinogen	1209	1	
+SIGNAL	Prolactin	1210	1	
+SIGNAL	LuteinisingHormone	1211	1	
+SIGNAL	PSA	1212	1	
+SIGNAL	Follic_Acid	1213	1	
+SIGNAL	PFR	1214	1	
+SIGNAL	CRP	1215	1	
+SIGNAL	TSH	1216	1	
+SIGNAL	CA125	1217	1	
+SIGNAL	FSH	1218	1	
+SIGNAL	Progesterone	1219	1	
+
+#===============================================================================
+# Indications
+#===============================================================================
+SIGNAL	Cancer_Location	2300	1	Cancer Registry	1	na
+SIGNAL	RC_Demographic	2301	1	Med ReadCodes ^[0]	1	na
+SIGNAL	RC_History	2302	1	Med ReadCodes ^[12R]	1	na
+SIGNAL	RC_Diagnostic_Procedures	2303	1	Med ReadCodes ^[34]	1	na
+SIGNAL	RC_Radiology	2304	1	Med ReadCodes ^[5]	1	na
+SIGNAL	RC_Procedures	2305	1	Med ReadCodes ^[678Z]	1	na
+SIGNAL	RC_Admin	2306	1	Med ReadCodes ^[9]	1	na
+SIGNAL	RC_Diagnosis	2307	1	Med ReadCodes ^[ABCDEFGHJKLMNPQ]	1	na
+SIGNAL	RC_Injuries	2308	1	Med ReadCodes ^[STU]	1	na
+SIGNAL	RC	2309	1	Med All ReadCodes ^[0-9A-HJ-NP-U] .no I,O,V,W,X,Y	1	na
+#===============================================================================
+SIGNAL	Drug	2400	8	Drugs: date, drug code, duration in days, need to use the proper dictionary section	10	na
+
+SIGNAL	Colonscopy	2500	1	Colonoscopy result	1
+SIGNAL	FECAL_TEST	2501	1	Fecal(Faecal) test result	1
+
+#==================================================================================
+SIGNAL	Serum_Oestradiol	3001	1	Automaticaly added-please edit
+SIGNAL	Erythrocyte	3002	1	Automaticaly added-please edit
+SIGNAL	Urine_Microalbumin	3003	1	Automaticaly added-please edit
+SIGNAL	Urine_Protein_Creatinine	3004	1	Automaticaly added-please edit
+SIGNAL	LUC	3005	1	Automaticaly added-please edit
+SIGNAL	Rheumatoid_Factor	3006	1	Automaticaly added-please edit
+SIGNAL	NRBC	3007	1	Automaticaly added-please edit
+SIGNAL	TIBC	3008	1	Automaticaly added-please edit
+SIGNAL	Urine_Epithelial_Cell	3009	1	Automaticaly added-please edit
+SIGNAL	Transferrin_Saturation_Index	3010	1	Automaticaly added-please edit
+SIGNAL	Urine_Dipstick_pH	3011	1	Automaticaly added-please edit
+SIGNAL	Reticulocyte	3012	1	Automaticaly added-please edit
+SIGNAL	Sex_Hormone_Binding_Globulin	3013	1	Automaticaly added-please edit
+SIGNAL	TEMP	3014	1	Automaticaly added-please edit
+
+#=========================================================================
+SIGNAL	TroponinI	3015	1
+SIGNAL	TroponinT	3016	1
+
+#======Automaticaly added at 12-01-2017 13:50:48 =========
+SIGNAL	CHS_Sleep_Pattern	4001	1	Automaticaly added-please edit	1
+SIGNAL	Sinus_X-ray	4002	1	Automaticaly added-please edit	1
+SIGNAL	Throat_swab	4003	1	Automaticaly added-please edit	1
+SIGNAL	High_vaginal_swab	4004	1	Automaticaly added-please edit	1
+SIGNAL	Spine_X-ray	4005	1	Automaticaly added-please edit	1
+SIGNAL	Lower_leg_X-ray	4006	1	Automaticaly added-please edit	1
+SIGNAL	Other_swab	4007	1	Automaticaly added-please edit	1
+SIGNAL	Wrist_X-ray	4008	1	Automaticaly added-please edit	1
+SIGNAL	Dexa_scan_over_Bone_mineral_density	4009	1	Automaticaly added-please edit	1
+SIGNAL	Mid-stream_specimen_of_urine	4010	1	Automaticaly added-please edit	1
+SIGNAL	Ankle_X-ray	4011	1	Automaticaly added-please edit	1
+SIGNAL	Glucose_Tolerance_test	4012	1	Automaticaly added-please edit	1
+SIGNAL	Iron_studies	4013	1	Automaticaly added-please edit	1
+SIGNAL	Mammogram	4014	1	Automaticaly added-please edit	1
+SIGNAL	General_ultra_sound_scan	4015	1	Automaticaly added-please edit	1
+SIGNAL	Pulse_oximetry	4016	1	Automaticaly added-please edit	1
+SIGNAL	Glandular_Fever_Test	4017	1	Automaticaly added-please edit	1
+SIGNAL	Skin_swab	4018	1	Automaticaly added-please edit	1
+SIGNAL	Exercise_TYPE	4019	1	Automaticaly added-please edit	1
+SIGNAL	Postural_drop_in_Blood_Pressure	4020	1	Automaticaly added-please edit	1
+SIGNAL	Skin_Prick_Testing	4021	1	Automaticaly added-please edit	1
+SIGNAL	Oesophagoscopy	4022	1	Automaticaly added-please edit	1
+SIGNAL	Haemoglobin_variants	4023	1	Automaticaly added-please edit	1
+SIGNAL	Guthrie_test	4024	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Behaviour	4025	1	Automaticaly added-please edit	1
+SIGNAL	Immunoglobulin	4026	1	Automaticaly added-please edit	1
+SIGNAL	Other_drug_levels	4027	1	Automaticaly added-please edit	1
+SIGNAL	Maternity_feeding_FEEDING	4028	1	Automaticaly added-please edit	1
+SIGNAL	Plasma_electrophoresis	4029	1	Automaticaly added-please edit	1
+SIGNAL	MRI_scan	4030	1	Automaticaly added-please edit	1
+SIGNAL	Biochemical_screening_tests	4031	1	Automaticaly added-please edit	1
+SIGNAL	Genetic_observations	4032	1	Automaticaly added-please edit	1
+SIGNAL	Haematology_screening_tests	4033	1	Automaticaly added-please edit	1
+SIGNAL	Nail_clippings	4034	1	Automaticaly added-please edit	1
+SIGNAL	Elbow_X-ray	4035	1	Automaticaly added-please edit	1
+SIGNAL	Pregnancy_test	4036	1	Automaticaly added-please edit	1
+SIGNAL	Chest_X-ray	4037	1	Automaticaly added-please edit	1
+SIGNAL	Foot_X-ray	4038	1	Automaticaly added-please edit	1
+SIGNAL	Serology	4039	1	Automaticaly added-please edit	1
+SIGNAL	Upper_leg_X-ray	4040	1	Automaticaly added-please edit	1
+SIGNAL	Seminal_analysis	4041	1	Automaticaly added-please edit	1
+SIGNAL	Ambulatory_blood_pressure	4042	1	Automaticaly added-please edit	1
+SIGNAL	Abdominal_Xray	4043	1	Automaticaly added-please edit	1
+SIGNAL	Bone_Density_Studies	4044	1	Automaticaly added-please edit	1
+SIGNAL	Doppler_Ultrasound_Peripheral_Pulse	4045	1	Automaticaly added-please edit	1
+SIGNAL	Nerve_Conduction_Studies	4046	1	Automaticaly added-please edit	1
+SIGNAL	Echocardiogram	4047	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Manipulation	4048	1	Automaticaly added-please edit	1
+SIGNAL	Foot_pulse_right_leg_PRESENCE_POSTERIA_TIBIA	4049	1	Automaticaly added-please edit	1
+SIGNAL	Hand_X-ray	4050	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Muscle_tone_for_6_weeks_HEADCONTROL	4051	1	Automaticaly added-please edit	1
+SIGNAL	Passive_smoking	4052	1	Automaticaly added-please edit	1
+SIGNAL	Blood_lipids	4053	1	Automaticaly added-please edit	1
+SIGNAL	Hepatitis_A_Test	4054	1	Automaticaly added-please edit	1
+SIGNAL	Barium_meal	4055	1	Automaticaly added-please edit	1
+SIGNAL	Barium_enema	4056	1	Automaticaly added-please edit	1
+SIGNAL	Anti_Nuclear_antibodies	4057	1	Automaticaly added-please edit	1
+SIGNAL	Anti_Mitochondrial_antibodies	4058	1	Automaticaly added-please edit	1
+SIGNAL	Blood_group_antibodies	4059	1	Automaticaly added-please edit	1
+SIGNAL	Fundoscopy	4060	1	Automaticaly added-please edit	1
+SIGNAL	Spirometry	4061	1	Automaticaly added-please edit	1
+SIGNAL	Viral_studies	4062	1	Automaticaly added-please edit	1
+SIGNAL	Toxicology	4063	1	Automaticaly added-please edit	1
+SIGNAL	Urine_dipstick_for_protein	4064	1	Automaticaly added-please edit	1
+SIGNAL	Urine_Leucocytes	4065	1	Automaticaly added-please edit	1
+SIGNAL	Urine_dipstick_for_glucose	4066	1	Automaticaly added-please edit	1
+SIGNAL	Urine_Dipstick_for_Nitrites	4067	1	Automaticaly added-please edit	1
+SIGNAL	HLA_Tissue_Typing	4068	1	Automaticaly added-please edit	1
+SIGNAL	Residence_LIVE_ALONE	4069	1	Automaticaly added-please edit	1
+SIGNAL	Elderly_vision	4070	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Hearing_6_Weeks	4071	1	Automaticaly added-please edit	1
+SIGNAL	B12_And_Folate_level	4072	1	Automaticaly added-please edit	1
+SIGNAL	Gonadotrophin	4073	1	Automaticaly added-please edit	1
+SIGNAL	Endoscopy	4074	1	Automaticaly added-please edit	1
+SIGNAL	Electrocardiogram	4075	1	Automaticaly added-please edit	1
+SIGNAL	Child_development_CHS_STAGES	4076	1	Automaticaly added-please edit	1
+SIGNAL	Liver_Function_tests	4077	1	Automaticaly added-please edit	1
+SIGNAL	Intravenous_Pyelogram	4078	1	Automaticaly added-please edit	1
+SIGNAL	Drug_levels	4079	1	Automaticaly added-please edit	1
+SIGNAL	Clotting_tests	4080	1	Automaticaly added-please edit	1
+SIGNAL	Bone_studies	4081	1	Automaticaly added-please edit	1
+SIGNAL	Sigmoidoscopy	4082	1	Automaticaly added-please edit	1
+SIGNAL	Nuclear_medicine	4083	1	Automaticaly added-please edit	1
+SIGNAL	CAT_scan	4084	1	Automaticaly added-please edit	1
+SIGNAL	Differential_white_cell_count	4085	1	Automaticaly added-please edit	1
+SIGNAL	Coronary_angiogram	4086	1	Automaticaly added-please edit	1
+SIGNAL	Ear_Swab	4087	1	Automaticaly added-please edit	1
+SIGNAL	CHS_genitalia	4088	1	Automaticaly added-please edit	1
+SIGNAL	Microscopy_for_malarial_parasites	4089	1	Automaticaly added-please edit	1
+SIGNAL	Other_autoantibodies	4090	1	Automaticaly added-please edit	1
+SIGNAL	Asthma_CURRENT_STATUS	4091	1	Automaticaly added-please edit	1
+SIGNAL	Urine_Cytology_Test	4092	1	Automaticaly added-please edit	1
+SIGNAL	Heart_examination_SOUNDS	4093	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Head_Circumference_Centile	4094	1	Automaticaly added-please edit	1
+SIGNAL	Other_Diagnostic_Imaging	4095	1	Automaticaly added-please edit	1
+SIGNAL	Asthma_last_attack_date_HOSPITALISED	4096	1	Automaticaly added-please edit	1
+SIGNAL	Other_Bacteriology_Tests	4097	1	Automaticaly added-please edit	1
+SIGNAL	Urinalysis_Glucose	4098	1	Automaticaly added-please edit	1
+SIGNAL	Syphilis_test	4099	1	Automaticaly added-please edit	1
+SIGNAL	Bronchoscopy	4100	1	Automaticaly added-please edit	1
+SIGNAL	Other_Immunology_Tests	4101	1	Automaticaly added-please edit	1
+SIGNAL	Full_blood_count	4102	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Hernia_RIGHT	4103	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Hospital_Follow_Up	4104	1	Automaticaly added-please edit	1
+SIGNAL	Asthma_risk_factors	4105	1	Automaticaly added-please edit	1
+SIGNAL	Urinalysis_Protein	4106	1	Automaticaly added-please edit	1
+SIGNAL	Electroencephalography	4107	1	Automaticaly added-please edit	1
+SIGNAL	Cervical_swab	4108	1	Automaticaly added-please edit	1
+SIGNAL	Visual_Acuity_Left_Eye_VISUAL_AIDS	4109	1	Automaticaly added-please edit	1
+SIGNAL	Microscopy_culture_And_sensitivities	4110	1	Automaticaly added-please edit	1
+SIGNAL	Ante_natel_fetal_examination	4111	1	Automaticaly added-please edit	1
+SIGNAL	CAP_RAST	4112	1	Automaticaly added-please edit	1
+SIGNAL	Tactile_sensation_PRESENCE	4113	1	Automaticaly added-please edit	1
+SIGNAL	Elderly_mental_cognitive	4114	1	Automaticaly added-please edit	1
+SIGNAL	Pelvis_X-ray	4115	1	Automaticaly added-please edit	1
+SIGNAL	Abdominal_ultra-sound	4116	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Hips_RIGHT	4117	1	Automaticaly added-please edit	1
+SIGNAL	Knee_X-ray	4118	1	Automaticaly added-please edit	1
+SIGNAL	Skull_X-ray	4119	1	Automaticaly added-please edit	1
+SIGNAL	Eye_swab	4120	1	Automaticaly added-please edit	1
+SIGNAL	Cause_of_death	4121	1	Automaticaly added-please edit	1
+SIGNAL	Urine_test	4122	1	Automaticaly added-please edit	1
+SIGNAL	Shoulder_X-ray	4123	1	Automaticaly added-please edit	1
+SIGNAL	Urea_and_Electrolytes	4124	1	Automaticaly added-please edit	1
+SIGNAL	Ribs_X-ray	4125	1	Automaticaly added-please edit	1
+SIGNAL	Pelvic_ultra-sound	4126	1	Automaticaly added-please edit	1
+SIGNAL	Lower_arm_X-ray	4127	1	Automaticaly added-please edit	1
+SIGNAL	Maternity_perineum_SUTURE_REMOVE	4128	1	Automaticaly added-please edit	1
+SIGNAL	Urine_dipstick_for_blood	4129	1	Automaticaly added-please edit	1
+SIGNAL	Barium_swallow	4130	1	Automaticaly added-please edit	1
+SIGNAL	RBC_red_blood_cell_size	4131	1	Automaticaly added-please edit	1
+SIGNAL	Pulmonary_function_tests	4132	1	Automaticaly added-please edit	1
+SIGNAL	Cerebro-spinal_fluid_examination	4133	1	Automaticaly added-please edit	1
+SIGNAL	ECG_ambulatory	4134	1	Automaticaly added-please edit	1
+SIGNAL	Examination_of_Faeces	4135	1	Automaticaly added-please edit	1
+SIGNAL	ECG_exercise	4136	1	Automaticaly added-please edit	1
+SIGNAL	Stool_culture	4137	1	Automaticaly added-please edit	1
+SIGNAL	Neck_X-ray	4138	1	Automaticaly added-please edit	1
+SIGNAL	Thyroid_function	4139	1	Automaticaly added-please edit	1
+SIGNAL	Hip_X-ray	4140	1	Automaticaly added-please edit	1
+SIGNAL	Male_sex_hormone_profile	4141	1	Automaticaly added-please edit	1
+SIGNAL	Upper_arm_X-ray	4142	1	Automaticaly added-please edit	1
+SIGNAL	Urine_dipstick_for_ketones	4143	1	Automaticaly added-please edit	1
+SIGNAL	Film_report	4144	1	Automaticaly added-please edit	1
+SIGNAL	Chlamydia	4145	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Hearing_Over_6_Weeks_RIGHT	4146	1	Automaticaly added-please edit	1
+SIGNAL	Elderly_physical_health_exam	4147	1	Automaticaly added-please edit	1
+SIGNAL	Diet_TYPE	4148	1	Automaticaly added-please edit	1
+SIGNAL	Lipoprotein_electrophesis	4149	1	Automaticaly added-please edit	1
+SIGNAL	DNA_binding_autoantibodies	4150	1	Automaticaly added-please edit	1
+SIGNAL	Sputum_culture	4151	1	Automaticaly added-please edit	1
+SIGNAL	Ante_natal_blood_tests	4152	1	Automaticaly added-please edit	1
+SIGNAL	HIV_Test	4153	1	Automaticaly added-please edit	1
+SIGNAL	Infectious_titres	4154	1	Automaticaly added-please edit	1
+SIGNAL	Anti_smooth_muscle_autoantibodies	4155	1	Automaticaly added-please edit	1
+SIGNAL	Parietal_cell_autoantibodies	4156	1	Automaticaly added-please edit	1
+SIGNAL	Blood_gases	4157	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Sphincters_CLEAN_NIGHT	4158	1	Automaticaly added-please edit	1
+SIGNAL	Chemical_function_tests	4159	1	Automaticaly added-please edit	1
+SIGNAL	Maternity_pregnancy_dates_LMP_CERTAINTY	4160	1	Automaticaly added-please edit	1
+SIGNAL	Allergy_and_Intolerance_non_drug_CERTAINTY	4161	1	Automaticaly added-please edit	1
+SIGNAL	Epilepsy_Fit_details_AURA	4162	1	Automaticaly added-please edit	1
+SIGNAL	Vaginal_swab	4163	1	Automaticaly added-please edit	1
+SIGNAL	Wound_swab	4164	1	Automaticaly added-please edit	1
+SIGNAL	Sickle_cell_disease_screen	4165	1	Automaticaly added-please edit	1
+SIGNAL	Rubella_Test	4166	1	Automaticaly added-please edit	1
+SIGNAL	Elderly_hearing_Over_75	4167	1	Automaticaly added-please edit	1
+SIGNAL	Tubercullin_Test	4168	1	Automaticaly added-please edit	1
+SIGNAL	Histology	4169	1	Automaticaly added-please edit	1
+SIGNAL	Liver_enzymes	4170	1	Automaticaly added-please edit	1
+SIGNAL	Night_cough	4171	1	Automaticaly added-please edit	1
+SIGNAL	Immuno-electrophoresis	4172	1	Automaticaly added-please edit	1
+SIGNAL	Immunology_screening_tests	4173	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Squint_RIGHT	4174	1	Automaticaly added-please edit	1
+SIGNAL	Hepatitis_B_Antibody	4175	1	Automaticaly added-please edit	1
+SIGNAL	CVD_risk_STATUS	4176	1	Automaticaly added-please edit	1
+SIGNAL	Nose_swab	4177	1	Automaticaly added-please edit	1
+SIGNAL	CHS_cardio_examination_RIGHT	4178	1	Automaticaly added-please edit	1
+SIGNAL	Asthma_management_At_80_Best_Peak_Flow	4179	1	Automaticaly added-please edit	1
+SIGNAL	Ankle_neuropathy_PRESENCE_LEFT_VIB	4180	1	Automaticaly added-please edit	1
+SIGNAL	Asthma_management_At_50_Best_Peak_Flow	4181	1	Automaticaly added-please edit	1
+SIGNAL	Asthma_Inhaler_ability_EXAMINATION_TYPE	4182	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Gait	4183	1	Automaticaly added-please edit	1
+SIGNAL	Elderly_mental_emotional_state	4184	1	Automaticaly added-please edit	1
+SIGNAL	RBC_colour_over_staining	4185	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Vision_3_And_4_Years_RIGHT	4186	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Muscle_tone_for_8_months_LOCOMOTION	4187	1	Automaticaly added-please edit	1
+SIGNAL	Diabetes_current_status	4188	1	Automaticaly added-please edit	1
+SIGNAL	Female_sex_hormone_profile	4189	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Vision_6_Weeks_FOLLOWS	4190	1	Automaticaly added-please edit	1
+SIGNAL	Foot_pulse_left_leg_PRESENCE_POSTERIA_TIBIA	4191	1	Automaticaly added-please edit	1
+SIGNAL	Diabetes_annual_check_TYPE	4192	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Schooling_ATTENDS	4193	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Vision_8_Months_And_18_Months_RIGHT	4194	1	Automaticaly added-please edit	1
+SIGNAL	Blood_Group	4195	1	Automaticaly added-please edit	1
+SIGNAL	SH-antigen_hepatitis_B_test	4196	1	Automaticaly added-please edit	1
+SIGNAL	Asthma_management_At_30_Best_Peak_Flow	4197	1	Automaticaly added-please edit	1
+SIGNAL	CHS_Locomotion_18_Months_OBSERVATION	4198	1	Automaticaly added-please edit	1
+SIGNAL	Calculus_examination	4199	1	Automaticaly added-please edit	1
+SIGNAL	Sputum_examination	4200	1	Automaticaly added-please edit	1
+SIGNAL	CHS_child_feeding_APPETITE	4201	1	Automaticaly added-please edit	1
+SIGNAL	Elderly_hygiene_EXAMINATION_TYPE_PERSONAL	4202	1	Automaticaly added-please edit	1
+SIGNAL	Peripheral_oedema	4203	1	Automaticaly added-please edit	1
+SIGNAL	Treatment_compliance_EXAMINATION_TYPE	4204	1	Automaticaly added-please edit	1
+SIGNAL	Visual_Acuity_Right_Eye_VISUAL_AIDS	4205	1	Automaticaly added-please edit	1
+SIGNAL	CHS_mother_and_baby_MUM_HEALTH	4206	1	Automaticaly added-please edit	1
+SIGNAL	CHS_delivery_details_PRESENTATION	4207	1	Automaticaly added-please edit	1
+SIGNAL	CHADS2	4208	1	Chad added specially	0
+SIGNAL	CHADS2_VASC	4209	1	Chad added specially	0
+
+
+SIGNAL	pvi_urbanrural	4210	1	pvi_urbanrural	1
+SIGNAL	pvi_eth_percw	4211	1	pvi_eth_percw	1
+SIGNAL	pvi_eth_percm	4212	1	pvi_eth_percm	1
+SIGNAL	pvi_eth_percas	4213	1	pvi_eth_percas	1
+SIGNAL	pvi_eth_percb	4214	1	pvi_eth_percb	1
+SIGNAL	pvi_eth_perco	4215	1	pvi_eth_perco	1
+SIGNAL	pvi_prop_llti	4216	1	pvi_prop_llti	1
+SIGNAL	pvi_no2	4217	1	pvi_no2	1
+SIGNAL	pvi_pm10	4218	1	pvi_pm10	1
+SIGNAL	pvi_so2	4219	1	pvi_so2	1
+SIGNAL	pvi_nox	4220	1	pvi_nox	1
+SIGNAL	pvi_townsend	4221	1	pvi_townsend	1
+SIGNAL	Smoking_quantity	4222	8	Smoking_quantity
+SIGNAL	Alcohol_quantity	4223	8	Alcohol_quantity
+
+
+###### Add Hospitalization and treatment department for outpatients
+SIGNAL	Hospitalization	5001	1	inpatients departments	1
+SIGNAL	Treatment_Department	5002	1	outpatients	1
+
+###### Add Calculated Registries
+SIGNAL	HT_Registry	6001	3	Registry of HyperTension - added manualy	1	na
+SIGNAL	DM_Registry	6002	3	Registry of Diabetes Mellitus - added manualy	1	na
+SIGNAL	CVD_HeartFailure	6003	1	CVD HeartFailure	1	na
+SIGNAL	CVD_HemorhagicStroke	6004	1	CVD of Hemorhagic Stroke	1	na
+SIGNAL	CVD_IschemicStroke	6005	1	CVD of Ischemic Stroke	1	na
+SIGNAL	CVD_MI	6006	1	CVD of MI	1	na
+SIGNAL	eGFR_CKD_State	6007	1	eGFR_CKD_State	0	na
+SIGNAL	eGFR_CKD_State_Changes	6008	1	eGFR_CKD_State_Changes	0	na
+SIGNAL	Proteinuria_State	6009	1	Proteinuria_State	0	na
+SIGNAL	Proteinuria_State_Changes	6010	1	Proteinuria_State_Changes	0	na
+SIGNAL	CKD_State	6011	1	CKD_State	1	na
+SIGNAL	CKD_State_Changes	6012	1	CKD_State_Changes	0	na
+SIGNAL	CKD_Registry	6013	3	CKD_Registry	0	na
+SIGNAL	qa_b	6014	1	qa_b

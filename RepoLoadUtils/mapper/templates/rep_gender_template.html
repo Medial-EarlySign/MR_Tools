@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Distribution</title>
+    {{ js_resources|indent(4)|safe }}
+    {{ css_resources|indent(4)|safe }}
+    {{ plot_script|indent(4)|safe }}
+  </head>
+  <body>
+  {% extends "rep_index_template.html" %}
+  {% block content %}
+     <h1> {{curr_sig}} </h1>
+    {{ plot_div|indent(4)|safe }}
+    {{ table_script|indent(4)|safe }}
+      <p><b>By Gender statistics</b></p>
+    {{ table_div|indent(4)|safe }}
+  {% endblock %}
+  </body>
+</html>l>

@@ -1,0 +1,162 @@
+UrineAlbumin_over_Creatinine :: All :: With Values :: 598339 / 14446692 =  0.04 :: 598339 / 598339 =  1.00
+UrineAlbumin_over_Creatinine :: Males :: With Values :: 305472 / 6889335 =  0.04 :: 305472 / 598339 =  0.51
+UrineAlbumin_over_Creatinine :: Females :: With Values :: 292867 / 7557357 =  0.04 :: 292867 / 598339 =  0.49
+UrineAlbumin_over_Creatinine :: General :: No. of Values :: All 2100303 Male 1137757 Female 962546
+UrineAlbumin_over_Creatinine :: General :: No. of different days Values :: All 2095616 Male 1135160 Female 960456
+UrineAlbumin_over_Creatinine :: General :: Avg #values per person (all) :: All  0.15 Male  0.16 Female  0.13
+UrineAlbumin_over_Creatinine :: General :: Avg #values per person (>0)  :: All  3.50 Male  3.72 Female  3.28
+UrineAlbumin_over_Creatinine :: General :: Avg dist between tests       :: All  388.2 Male  378.3 Female  400.6
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 20 - 25 :: All ::   1484 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 25 - 30 :: All ::   2056 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 30 - 35 :: All ::   2905 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 35 - 40 :: All ::   4983 0.002
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 40 - 45 :: All ::   9402 0.004
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 45 - 50 :: All ::  15798 0.008
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 50 - 55 :: All ::  24027 0.011
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 55 - 60 :: All ::  32002 0.015
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 60 - 65 :: All ::  42826 0.020
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 65 - 70 :: All ::  56364 0.027
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 70 - 75 :: All ::  60854 0.029
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 75 - 80 :: All ::  61897 0.029
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 80 - 85 :: All ::  51962 0.025
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 85 - 90 :: All ::  33412 0.016
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 20 - 25 :: Males ::    763 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 25 - 30 :: Males ::   1007 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 30 - 35 :: Males ::   1537 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 35 - 40 :: Males ::   2741 0.002
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 40 - 45 :: Males ::   5576 0.005
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 45 - 50 :: Males ::   9422 0.008
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 50 - 55 :: Males ::  14606 0.013
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 55 - 60 :: Males ::  19534 0.017
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 60 - 65 :: Males ::  25714 0.023
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 65 - 70 :: Males ::  33109 0.029
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 70 - 75 :: Males ::  34100 0.030
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 75 - 80 :: Males ::  32739 0.029
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 80 - 85 :: Males ::  25187 0.022
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 85 - 90 :: Males ::  14411 0.013
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 20 - 25 :: Females ::    721 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 25 - 30 :: Females ::   1049 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 30 - 35 :: Females ::   1368 0.001
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 35 - 40 :: Females ::   2242 0.002
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 40 - 45 :: Females ::   3826 0.004
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 45 - 50 :: Females ::   6376 0.007
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 50 - 55 :: Females ::   9421 0.010
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 55 - 60 :: Females ::  12468 0.013
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 60 - 65 :: Females ::  17112 0.018
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 65 - 70 :: Females ::  23255 0.024
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 70 - 75 :: Females ::  26754 0.028
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 75 - 80 :: Females ::  29158 0.030
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 80 - 85 :: Females ::  26775 0.028
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 85 - 90 :: Females ::  19001 0.020
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+UrineAlbumin_over_Creatinine :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 20 - 25 :: All ::  N 5398 non-zeros 5316 Median   0.90 Mean   4.47 Std  17.03 Max 247.50
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 25 - 30 :: All ::  N 7198 non-zeros 7093 Median   0.90 Mean   5.99 Std  23.05 Max 339.80
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 30 - 35 :: All ::  N 10728 non-zeros 10574 Median   1.00 Mean   6.21 Std  25.52 Max 378.40
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 35 - 40 :: All ::  N 17377 non-zeros 17148 Median   1.00 Mean   5.12 Std  18.39 Max 280.10
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 40 - 45 :: All ::  N 29628 non-zeros 29309 Median   1.00 Mean   4.77 Std  16.79 Max 256.40
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 45 - 50 :: All ::  N 45385 non-zeros 44911 Median   1.00 Mean   4.48 Std  15.57 Max 237.00
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 50 - 55 :: All ::  N 62051 non-zeros 61359 Median   1.00 Mean   4.31 Std  15.02 Max 229.40
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 55 - 60 :: All ::  N 78768 non-zeros 77944 Median   1.00 Mean   4.31 Std  15.39 Max 235.00
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 60 - 65 :: All ::  N 101867 non-zeros 100844 Median   1.00 Mean   4.17 Std  13.96 Max 213.40
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 65 - 70 :: All ::  N 119592 non-zeros 118466 Median   1.10 Mean   4.38 Std  13.96 Max 213.40
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 70 - 75 :: All ::  N 123232 non-zeros 122117 Median   1.30 Mean   5.10 Std  15.80 Max 241.90
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 75 - 80 :: All ::  N 119131 non-zeros 118124 Median   1.50 Mean   5.87 Std  17.69 Max 271.10
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 80 - 85 :: All ::  N 96836 non-zeros 96130 Median   1.90 Mean   6.76 Std  18.91 Max 289.90
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 85 - 90 :: All ::  N 60957 non-zeros 60561 Median   2.20 Mean   7.76 Std  20.37 Max 313.20
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 90 - 95 :: All ::  N 23881 non-zeros 23749 Median   2.70 Mean   8.85 Std  22.33 Max 336.40
+UrineAlbumin_over_Creatinine :: Stats :: Age Group 95 - 100 :: All ::  N 4868 non-zeros 4834 Median   3.20 Mean  10.10 Std  24.98 Max 384.60
+UrineAlbumin_over_Creatinine :: General :: All     :: outliers ratio 0.002764
+UrineAlbumin_over_Creatinine :: General :: All     :: N 591648 non-zeros 586096 Median   1.30 Mean   5.35 Std  16.87 Max 258.30
+UrineAlbumin_over_Creatinine :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.30  21.40  86.20 214.20
+UrineAlbumin_over_Creatinine :: General :: All     :: quartiles ::   0.10   0.60   1.30   3.20 
+UrineAlbumin_over_Creatinine :: General :: Males   :: outliers ratio 0.002221
+UrineAlbumin_over_Creatinine :: General :: Males   :: N 302408 non-zeros 299907 Median   1.20 Mean   5.98 Std  19.61 Max 300.00
+UrineAlbumin_over_Creatinine :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.30  24.90  98.80 250.00
+UrineAlbumin_over_Creatinine :: General :: Males   :: quartiles ::   0.10   0.60   1.20   3.10 
+UrineAlbumin_over_Creatinine :: General :: Females :: outliers ratio 0.003325
+UrineAlbumin_over_Creatinine :: General :: Females :: N 289242 non-zeros 286176 Median   1.30 Mean   4.75 Std  14.17 Max 217.20
+UrineAlbumin_over_Creatinine :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.30  18.20  72.30 180.10
+UrineAlbumin_over_Creatinine :: General :: Females :: quartiles ::   0.10   0.70   1.40   3.20 
+UrineAlbumin_over_Creatinine :: Rounding ::  0.00 r  0.00 pct
+UrineAlbumin_over_Creatinine :: Rounding ::  0.01 r  0.07 pct
+UrineAlbumin_over_Creatinine :: Rounding ::  0.10 r  0.79 pct
+UrineAlbumin_over_Creatinine :: Rounding ::  1.00 r  0.13 pct
+UrineAlbumin_over_Creatinine :: Rounding :: 10.00 r  0.00 pct
+UrineAlbumin_over_Creatinine :: Rounding :: 100.00 r  0.00 pct
+UrineAlbumin_over_Creatinine :: Rounding :: 1000.00 r  0.00 pct
+UrineAlbumin_over_Creatinine :: Rounding :: most popular rounding for vals:  0.10
+UrineAlbumin_over_Creatinine :: Stats year :: 2000 :: All :: N 1106 non-zeros 1104 Median   1.40 Mean   4.41 Std  12.01 Max 170.80
+UrineAlbumin_over_Creatinine :: Stats year :: 2001 :: All :: N 2169 non-zeros 2168 Median   2.00 Mean   5.97 Std  17.58 Max 264.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2002 :: All :: N 7378 non-zeros 7327 Median   1.70 Mean   5.12 Std  14.24 Max 216.90
+UrineAlbumin_over_Creatinine :: Stats year :: 2003 :: All :: N 17394 non-zeros 17291 Median   1.40 Mean   4.40 Std  12.18 Max 179.70
+UrineAlbumin_over_Creatinine :: Stats year :: 2004 :: All :: N 25774 non-zeros 25693 Median   1.30 Mean   4.84 Std  14.73 Max 223.80
+UrineAlbumin_over_Creatinine :: Stats year :: 2005 :: All :: N 35723 non-zeros 35576 Median   1.30 Mean   5.10 Std  17.12 Max 261.30
+UrineAlbumin_over_Creatinine :: Stats year :: 2006 :: All :: N 60562 non-zeros 60127 Median   1.20 Mean   4.72 Std  14.72 Max 225.40
+UrineAlbumin_over_Creatinine :: Stats year :: 2007 :: All :: N 99087 non-zeros 97925 Median   1.20 Mean   4.41 Std  13.05 Max 200.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2008 :: All :: N 110272 non-zeros 109269 Median   1.20 Mean   4.56 Std  13.46 Max 206.10
+UrineAlbumin_over_Creatinine :: Stats year :: 2009 :: All :: N 167211 non-zeros 164734 Median   1.20 Mean   4.72 Std  13.70 Max 210.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2010 :: All :: N 211628 non-zeros 208898 Median   1.20 Mean   4.83 Std  14.22 Max 218.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2011 :: All :: N 221022 non-zeros 218471 Median   1.30 Mean   4.83 Std  14.20 Max 217.60
+UrineAlbumin_over_Creatinine :: Stats year :: 2012 :: All :: N 218971 non-zeros 216631 Median   1.30 Mean   5.15 Std  15.68 Max 237.90
+UrineAlbumin_over_Creatinine :: Stats year :: 2013 :: All :: N 218201 non-zeros 216786 Median   1.40 Mean   5.70 Std  17.85 Max 273.20
+UrineAlbumin_over_Creatinine :: Stats year :: 2014 :: All :: N 194052 non-zeros 193121 Median   1.40 Mean   5.98 Std  19.81 Max 302.70
+UrineAlbumin_over_Creatinine :: Stats year :: 2015 :: All :: N 146776 non-zeros 146256 Median   1.40 Mean   6.10 Std  19.92 Max 303.90
+UrineAlbumin_over_Creatinine :: Stats year :: 2016 :: All :: N 4377 non-zeros 4353 Median   1.60 Mean   7.34 Std  23.12 Max 332.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2000 :: Males   :: N 682 non-zeros 681 Median   1.40 Mean   4.76 Std  12.84 Max 170.80
+UrineAlbumin_over_Creatinine :: Stats year :: 2001 :: Males   :: N 1208 non-zeros 1207 Median   2.00 Mean   6.70 Std  19.23 Max 264.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2002 :: Males   :: N 4261 non-zeros 4236 Median   1.60 Mean   5.47 Std  15.78 Max 226.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2003 :: Males   :: N 9906 non-zeros 9853 Median   1.30 Mean   4.80 Std  14.06 Max 211.50
+UrineAlbumin_over_Creatinine :: Stats year :: 2004 :: Males   :: N 14537 non-zeros 14500 Median   1.30 Mean   5.27 Std  17.24 Max 263.60
+UrineAlbumin_over_Creatinine :: Stats year :: 2005 :: Males   :: N 20123 non-zeros 20044 Median   1.20 Mean   5.31 Std  17.73 Max 267.50
+UrineAlbumin_over_Creatinine :: Stats year :: 2006 :: Males   :: N 34045 non-zeros 33819 Median   1.20 Mean   4.96 Std  15.85 Max 242.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2007 :: Males   :: N 55476 non-zeros 54877 Median   1.20 Mean   4.64 Std  13.97 Max 212.30
+UrineAlbumin_over_Creatinine :: Stats year :: 2008 :: Males   :: N 61976 non-zeros 61474 Median   1.20 Mean   4.84 Std  14.71 Max 224.70
+UrineAlbumin_over_Creatinine :: Stats year :: 2009 :: Males   :: N 88538 non-zeros 87420 Median   1.20 Mean   5.11 Std  14.98 Max 228.20
+UrineAlbumin_over_Creatinine :: Stats year :: 2010 :: Males   :: N 109728 non-zeros 108472 Median   1.20 Mean   5.37 Std  16.17 Max 247.70
+UrineAlbumin_over_Creatinine :: Stats year :: 2011 :: Males   :: N 115762 non-zeros 114645 Median   1.20 Mean   5.42 Std  16.69 Max 255.40
+UrineAlbumin_over_Creatinine :: Stats year :: 2012 :: Males   :: N 115699 non-zeros 114683 Median   1.20 Mean   5.63 Std  17.26 Max 263.70
+UrineAlbumin_over_Creatinine :: Stats year :: 2013 :: Males   :: N 115884 non-zeros 115247 Median   1.30 Mean   6.50 Std  21.06 Max 322.10
+UrineAlbumin_over_Creatinine :: Stats year :: 2014 :: Males   :: N 103612 non-zeros 103185 Median   1.30 Mean   6.77 Std  22.47 Max 342.80
+UrineAlbumin_over_Creatinine :: Stats year :: 2015 :: Males   :: N 79315 non-zeros 79073 Median   1.40 Mean   6.97 Std  23.14 Max 354.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2016 :: Males   :: N 2438 non-zeros 2426 Median   1.60 Mean   8.74 Std  29.07 Max 434.30
+UrineAlbumin_over_Creatinine :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2000 :: Females :: N 423 non-zeros 422 Median   1.40 Mean   3.64 Std   9.89 Max 147.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2001 :: Females :: N 960 non-zeros 959 Median   2.00 Mean   4.85 Std  13.87 Max 177.40
+UrineAlbumin_over_Creatinine :: Stats year :: 2002 :: Females :: N 3115 non-zeros 3085 Median   1.70 Mean   4.58 Std  11.18 Max 162.80
+UrineAlbumin_over_Creatinine :: Stats year :: 2003 :: Females :: N 7494 non-zeros 7443 Median   1.50 Mean   4.09 Std  10.81 Max 159.40
+UrineAlbumin_over_Creatinine :: Stats year :: 2004 :: Females :: N 11242 non-zeros 11195 Median   1.40 Mean   4.43 Std  12.28 Max 184.80
+UrineAlbumin_over_Creatinine :: Stats year :: 2005 :: Females :: N 15590 non-zeros 15520 Median   1.40 Mean   4.61 Std  14.34 Max 217.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2006 :: Females :: N 26517 non-zeros 26305 Median   1.30 Mean   4.42 Std  13.33 Max 204.30
+UrineAlbumin_over_Creatinine :: Stats year :: 2007 :: Females :: N 43588 non-zeros 43029 Median   1.30 Mean   4.07 Std  11.48 Max 173.50
+UrineAlbumin_over_Creatinine :: Stats year :: 2008 :: Females :: N 48279 non-zeros 47785 Median   1.30 Mean   4.13 Std  11.27 Max 173.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2009 :: Females :: N 78666 non-zeros 77314 Median   1.30 Mean   4.33 Std  12.32 Max 189.00
+UrineAlbumin_over_Creatinine :: Stats year :: 2010 :: Females :: N 101894 non-zeros 100418 Median   1.30 Mean   4.28 Std  12.08 Max 185.20
+UrineAlbumin_over_Creatinine :: Stats year :: 2011 :: Females :: N 105296 non-zeros 103878 Median   1.30 Mean   4.29 Std  12.02 Max 184.10
+UrineAlbumin_over_Creatinine :: Stats year :: 2012 :: Females :: N 103246 non-zeros 101918 Median   1.30 Mean   4.58 Std  13.63 Max 208.80
+UrineAlbumin_over_Creatinine :: Stats year :: 2013 :: Females :: N 102343 non-zeros 101576 Median   1.40 Mean   4.91 Std  14.68 Max 224.30
+UrineAlbumin_over_Creatinine :: Stats year :: 2014 :: Females :: N 90393 non-zeros 89886 Median   1.40 Mean   4.96 Std  15.42 Max 236.10
+UrineAlbumin_over_Creatinine :: Stats year :: 2015 :: Females :: N 67473 non-zeros 67199 Median   1.50 Mean   5.15 Std  16.35 Max 250.30
+UrineAlbumin_over_Creatinine :: Stats year :: 2016 :: Females :: N 1940 non-zeros 1928 Median   1.70 Mean   5.97 Std  16.98 Max 243.50
+UrineAlbumin_over_Creatinine :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineAlbumin_over_Creatinine :: Stats month 1 :: All :: N 106299 non-zeros 105446 Median   1.40 Mean   6.40 Std  20.20 Max 308.60
+UrineAlbumin_over_Creatinine :: Stats month 2 :: All :: N 108457 non-zeros 107529 Median   1.50 Mean   6.43 Std  20.46 Max 312.00
+UrineAlbumin_over_Creatinine :: Stats month 3 :: All :: N 106422 non-zeros 105439 Median   1.50 Mean   6.60 Std  21.12 Max 323.00
+UrineAlbumin_over_Creatinine :: Stats month 4 :: All :: N 79162 non-zeros 78513 Median   1.40 Mean   6.01 Std  19.02 Max 289.80
+UrineAlbumin_over_Creatinine :: Stats month 5 :: All :: N 82483 non-zeros 81801 Median   1.40 Mean   5.93 Std  18.63 Max 285.00
+UrineAlbumin_over_Creatinine :: Stats month 6 :: All :: N 86838 non-zeros 86061 Median   1.30 Mean   5.75 Std  18.17 Max 278.10
+UrineAlbumin_over_Creatinine :: Stats month 7 :: All :: N 89649 non-zeros 88933 Median   1.30 Mean   5.62 Std  18.30 Max 279.70
+UrineAlbumin_over_Creatinine :: Stats month 8 :: All :: N 82482 non-zeros 81776 Median   1.30 Mean   5.66 Std  17.76 Max 269.90
+UrineAlbumin_over_Creatinine :: Stats month 9 :: All :: N 90106 non-zeros 89292 Median   1.40 Mean   5.82 Std  17.98 Max 275.10
+UrineAlbumin_over_Creatinine :: Stats month 10 :: All :: N 101807 non-zeros 100966 Median   1.40 Mean   5.91 Std  18.57 Max 284.20
+UrineAlbumin_over_Creatinine :: Stats month 11 :: All :: N 99285 non-zeros 98477 Median   1.40 Mean   6.18 Std  19.69 Max 300.70
+UrineAlbumin_over_Creatinine :: Stats month 12 :: All :: N 80633 non-zeros 80047 Median   1.40 Mean   6.21 Std  19.00 Max 290.00
+

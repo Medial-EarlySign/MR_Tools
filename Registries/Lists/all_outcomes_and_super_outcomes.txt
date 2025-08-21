@@ -1,0 +1,36 @@
+name	rc1	rc2	rc3	rc4	rc5	rc6	rc7	rc8	rc9	comment
+Death										#OK
+Neoplasm	B0...	B1...	B2...	B3...	B4...	B5...	B6...	B8...	B9...	#OK
+Ischemic Heart Disease	G3...									#OK
+Diabetes type II	C10..									#OK
+#Liver Disease	J60..	J61..	J62..	J63..						#very few incidents <500 per readcode!
+Chronic renal failure	K05..	1Z12.	1Z13.							#OK
+Chronic obstructive pulmonary disease	H3...									#includes asthma - is this ok?
+#Diabetic retinopathy	F420.									#very few incidents <500 per readcode!
+#Degeneration of macula and posterior pole	F425.									#extremely few incidents <100! Should we switch to maculopathy 2BBX.
+#Vertiginous syndromes, other disorders of vestibular system	F56..									#no cure
+#Calculus of kidney and ureter	K12..									#no cure
+#Osteoporosis	N330.	N331.	NyuB.							#very few incidents <500 per readcode!
+#Hyperthyroidism	C02..									#extremely few incidents <100!
+#Acquired hypothyroidism	C04..									#extremely few incidents <100!
+Gout	C34..	N023.								#OK
+Hypertensive disease	G2...									#OK
+Heart failure	G58..									#OK
+Intracerebral haemorrhage	G61..									#OK
+Infarction - cerebral	G63..	G64..	G65..	G66..						#OK
+#Peripheral vascular disease	G73..	G74..								#very few incidents <500 per readcode!
+#Haemorrhoids	G84..									#bad AUC
+#Inflammatory bowel disease	J40..	J41..								#extremely few incidents <100!
+Cirrhosis of liver NOS	J612.	J615.								#OK
+#Cholelithiasis	J64..									#extremely few incidents <100!
+Acute pancreatitis	J67..									#too few pos
+Pulmonary heart disease	G4...									#too few pos
+Cerebrovascular disease	G6...									#OK
+#Thrombosis arterial	G74..									#extremely few pos, prolly wrong readcode
+Lung_Cancer	Lung_Cancer									#OK
+#Bone_Cancer	Bone_Cancer									#some unknown bug
+Digestive_Cancer	Digestive_Cancer									#OK
+Hematologic_Cancer	Hematologic_Cancer									#OK
+Kidney_Cancer	Kidney_Cancer									#OK
+Leukemia_Cancer	Leukemia_Cancer									#OK
+Lymphoma_Cancer	Lymphoma_Cancer									#OK

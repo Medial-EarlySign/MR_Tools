@@ -1,0 +1,162 @@
+Transferrin :: All :: With Values :: 263933 / 1279479 =  0.21 :: 263933 / 263933 =  1.00
+Transferrin :: Males :: With Values ::  94265 / 622859 =  0.15 ::  94265 / 263933 =  0.36
+Transferrin :: Females :: With Values :: 169668 / 656620 =  0.26 :: 169668 / 263933 =  0.64
+Transferrin :: General :: No. of Values :: All 639342 Male 221525 Female 417817
+Transferrin :: General :: No. of different days Values :: All 639216 Male 221481 Female 417735
+Transferrin :: General :: Avg #values per person (all) :: All  0.50 Male  0.36 Female  0.64
+Transferrin :: General :: Avg #values per person (>0)  :: All  2.42 Male  2.35 Female  2.46
+Transferrin :: General :: Avg dist between tests       :: All  531.5 Male  463.9 Female  566.2
+Transferrin :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Transferrin :: Counts :: Age Group 25 - 30 :: All ::    167 0.000
+Transferrin :: Counts :: Age Group 30 - 35 :: All ::   3884 0.006
+Transferrin :: Counts :: Age Group 35 - 40 :: All ::  10834 0.017
+Transferrin :: Counts :: Age Group 40 - 45 :: All ::  15429 0.024
+Transferrin :: Counts :: Age Group 45 - 50 :: All ::  14093 0.022
+Transferrin :: Counts :: Age Group 50 - 55 :: All ::  12840 0.020
+Transferrin :: Counts :: Age Group 55 - 60 :: All ::  11253 0.018
+Transferrin :: Counts :: Age Group 60 - 65 :: All ::  11093 0.017
+Transferrin :: Counts :: Age Group 65 - 70 :: All ::  10348 0.016
+Transferrin :: Counts :: Age Group 70 - 75 :: All ::   9062 0.014
+Transferrin :: Counts :: Age Group 75 - 80 :: All ::   9578 0.015
+Transferrin :: Counts :: Age Group 80 - 85 :: All ::   8409 0.013
+Transferrin :: Counts :: Age Group 85 - 90 :: All ::   6403 0.010
+Transferrin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Transferrin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Transferrin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Transferrin :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Transferrin :: Counts :: Age Group 25 - 30 :: Males ::     32 0.000
+Transferrin :: Counts :: Age Group 30 - 35 :: Males ::    723 0.003
+Transferrin :: Counts :: Age Group 35 - 40 :: Males ::   2359 0.011
+Transferrin :: Counts :: Age Group 40 - 45 :: Males ::   3981 0.018
+Transferrin :: Counts :: Age Group 45 - 50 :: Males ::   3866 0.017
+Transferrin :: Counts :: Age Group 50 - 55 :: Males ::   4043 0.018
+Transferrin :: Counts :: Age Group 55 - 60 :: Males ::   4142 0.019
+Transferrin :: Counts :: Age Group 60 - 65 :: Males ::   4750 0.021
+Transferrin :: Counts :: Age Group 65 - 70 :: Males ::   4369 0.020
+Transferrin :: Counts :: Age Group 70 - 75 :: Males ::   4042 0.018
+Transferrin :: Counts :: Age Group 75 - 80 :: Males ::   4361 0.020
+Transferrin :: Counts :: Age Group 80 - 85 :: Males ::   3658 0.017
+Transferrin :: Counts :: Age Group 85 - 90 :: Males ::   2638 0.012
+Transferrin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Transferrin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Transferrin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Transferrin :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Transferrin :: Counts :: Age Group 25 - 30 :: Females ::    135 0.000
+Transferrin :: Counts :: Age Group 30 - 35 :: Females ::   3161 0.008
+Transferrin :: Counts :: Age Group 35 - 40 :: Females ::   8475 0.020
+Transferrin :: Counts :: Age Group 40 - 45 :: Females ::  11448 0.027
+Transferrin :: Counts :: Age Group 45 - 50 :: Females ::  10227 0.024
+Transferrin :: Counts :: Age Group 50 - 55 :: Females ::   8797 0.021
+Transferrin :: Counts :: Age Group 55 - 60 :: Females ::   7111 0.017
+Transferrin :: Counts :: Age Group 60 - 65 :: Females ::   6343 0.015
+Transferrin :: Counts :: Age Group 65 - 70 :: Females ::   5979 0.014
+Transferrin :: Counts :: Age Group 70 - 75 :: Females ::   5020 0.012
+Transferrin :: Counts :: Age Group 75 - 80 :: Females ::   5217 0.012
+Transferrin :: Counts :: Age Group 80 - 85 :: Females ::   4751 0.011
+Transferrin :: Counts :: Age Group 85 - 90 :: Females ::   3765 0.009
+Transferrin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Transferrin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Transferrin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Transferrin :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats :: Age Group 25 - 30 :: All ::  N 5421 non-zeros 5417 Median 279.00 Mean 288.26 Std  60.11 Max 614.00
+Transferrin :: Stats :: Age Group 30 - 35 :: All ::  N 22520 non-zeros 22516 Median 269.00 Mean 278.43 Std  55.09 Max 625.80
+Transferrin :: Stats :: Age Group 35 - 40 :: All ::  N 42455 non-zeros 42438 Median 268.00 Mean 276.75 Std  52.50 Max 712.00
+Transferrin :: Stats :: Age Group 40 - 45 :: All ::  N 47935 non-zeros 47919 Median 268.00 Mean 275.78 Std  49.68 Max 598.00
+Transferrin :: Stats :: Age Group 45 - 50 :: All ::  N 42667 non-zeros 42656 Median 268.90 Mean 275.58 Std  48.52 Max 532.10
+Transferrin :: Stats :: Age Group 50 - 55 :: All ::  N 37034 non-zeros 37014 Median 264.80 Mean 270.67 Std  46.76 Max 628.60
+Transferrin :: Stats :: Age Group 55 - 60 :: All ::  N 32716 non-zeros 32701 Median 260.60 Mean 265.51 Std  44.91 Max 535.00
+Transferrin :: Stats :: Age Group 60 - 65 :: All ::  N 29611 non-zeros 29593 Median 259.20 Mean 263.92 Std  47.24 Max 508.62
+Transferrin :: Stats :: Age Group 65 - 70 :: All ::  N 25750 non-zeros 25732 Median 257.70 Mean 261.50 Std  50.47 Max 587.40
+Transferrin :: Stats :: Age Group 70 - 75 :: All ::  N 22406 non-zeros 22391 Median 254.40 Mean 257.91 Std  53.26 Max 527.60
+Transferrin :: Stats :: Age Group 75 - 80 :: All ::  N 20751 non-zeros 20738 Median 247.80 Mean 250.53 Std  55.12 Max 530.00
+Transferrin :: Stats :: Age Group 80 - 85 :: All ::  N 16341 non-zeros 16330 Median 238.00 Mean 240.48 Std  56.26 Max 496.50
+Transferrin :: Stats :: Age Group 85 - 90 :: All ::  N 10659 non-zeros 10645 Median 226.30 Mean 228.86 Std  55.29 Max 516.90
+Transferrin :: Stats :: Age Group 90 - 95 :: All ::  N 4638 non-zeros 4631 Median 213.20 Mean 216.35 Std  53.13 Max 466.70
+Transferrin :: Stats :: Age Group 95 - 100 :: All ::  N 1213 non-zeros 1210 Median 206.00 Mean 208.41 Std  50.42 Max 403.00
+Transferrin :: General :: All     :: outliers ratio 0.000000
+Transferrin :: General :: All     :: N 263834 non-zeros 263698 Median 260.00 Mean 265.46 Std  52.35 Max 694.60
+Transferrin :: General :: All     :: distribution 0.001,0.01,0.05 ::  91.90 142.80 189.90 358.00 408.80 484.70
+Transferrin :: General :: All     :: quartiles ::  91.90 233.00 260.10 294.80 
+Transferrin :: General :: Males   :: outliers ratio 0.000000
+Transferrin :: General :: Males   :: N 94234 non-zeros 94169 Median 251.10 Mean 253.75 Std  48.04 Max 544.00
+Transferrin :: General :: Males   :: distribution 0.001,0.01,0.05 ::  85.00 131.60 180.00 335.90 383.00 443.00
+Transferrin :: General :: Males   :: quartiles ::  85.00 226.00 251.10 280.90 
+Transferrin :: General :: Females :: outliers ratio 0.000000
+Transferrin :: General :: Females :: N 169600 non-zeros 169516 Median 266.00 Mean 271.87 Std  53.58 Max 696.60
+Transferrin :: General :: Females :: distribution 0.001,0.01,0.05 ::  96.40 151.10 196.00 366.30 418.20 496.20
+Transferrin :: General :: Females :: quartiles ::  96.40 237.70 266.00 302.40 
+Transferrin :: Rounding ::  0.00 r  0.00 pct
+Transferrin :: Rounding ::  0.01 r  0.08 pct
+Transferrin :: Rounding ::  0.10 r  0.48 pct
+Transferrin :: Rounding ::  1.00 r  0.39 pct
+Transferrin :: Rounding :: 10.00 r  0.04 pct
+Transferrin :: Rounding :: 100.00 r  0.00 pct
+Transferrin :: Rounding :: 1000.00 r  0.00 pct
+Transferrin :: Rounding :: most popular rounding for vals:  0.10
+Transferrin :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats year :: 2001 :: All :: N 20419 non-zeros 20391 Median 274.00 Mean 278.66 Std  59.13 Max 712.00
+Transferrin :: Stats year :: 2002 :: All :: N 20224 non-zeros 20204 Median 260.30 Mean 266.15 Std  58.02 Max 695.00
+Transferrin :: Stats year :: 2003 :: All :: N 20241 non-zeros 20231 Median 269.80 Mean 276.80 Std  58.73 Max 654.80
+Transferrin :: Stats year :: 2004 :: All :: N 24454 non-zeros 24439 Median 259.90 Mean 266.15 Std  54.04 Max 578.30
+Transferrin :: Stats year :: 2005 :: All :: N 30536 non-zeros 30525 Median 256.80 Mean 264.82 Std  53.85 Max 628.60
+Transferrin :: Stats year :: 2006 :: All :: N 36325 non-zeros 36313 Median 258.00 Mean 265.48 Std  52.29 Max 696.60
+Transferrin :: Stats year :: 2007 :: All :: N 39340 non-zeros 39329 Median 257.60 Mean 263.57 Std  51.54 Max 621.00
+Transferrin :: Stats year :: 2008 :: All :: N 38117 non-zeros 38102 Median 257.70 Mean 263.24 Std  50.74 Max 580.00
+Transferrin :: Stats year :: 2009 :: All :: N 44262 non-zeros 44247 Median 264.60 Mean 270.09 Std  49.91 Max 596.70
+Transferrin :: Stats year :: 2010 :: All :: N 47749 non-zeros 47733 Median 263.00 Mean 267.98 Std  50.16 Max 562.40
+Transferrin :: Stats year :: 2011 :: All :: N 48872 non-zeros 48862 Median 265.50 Mean 270.86 Std  51.01 Max 636.40
+Transferrin :: Stats year :: 2012 :: All :: N 28635 non-zeros 28622 Median 265.00 Mean 269.37 Std  52.81 Max 608.00
+Transferrin :: Stats year :: 2013 :: All :: N 29664 non-zeros 29648 Median 259.00 Mean 261.92 Std  51.05 Max 535.00
+Transferrin :: Stats year :: 2014 :: All :: N 39767 non-zeros 39751 Median 255.00 Mean 257.69 Std  51.42 Max 550.00
+Transferrin :: Stats year :: 2015 :: All :: N 34186 non-zeros 34157 Median 256.00 Mean 259.52 Std  51.34 Max 520.00
+Transferrin :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats year :: 2001 :: Males   :: N 5479 non-zeros 5470 Median 257.00 Mean 259.06 Std  52.73 Max 487.00
+Transferrin :: Stats year :: 2002 :: Males   :: N 5874 non-zeros 5871 Median 244.70 Mean 248.48 Std  53.20 Max 695.00
+Transferrin :: Stats year :: 2003 :: Males   :: N 5678 non-zeros 5674 Median 253.80 Mean 258.14 Std  53.96 Max 555.70
+Transferrin :: Stats year :: 2004 :: Males   :: N 6688 non-zeros 6682 Median 245.70 Mean 249.89 Std  50.50 Max 542.00
+Transferrin :: Stats year :: 2005 :: Males   :: N 8829 non-zeros 8822 Median 245.00 Mean 250.09 Std  48.86 Max 532.10
+Transferrin :: Stats year :: 2006 :: Males   :: N 11153 non-zeros 11149 Median 246.20 Mean 252.22 Std  48.09 Max 530.80
+Transferrin :: Stats year :: 2007 :: Males   :: N 12364 non-zeros 12362 Median 247.90 Mean 250.52 Std  46.73 Max 515.40
+Transferrin :: Stats year :: 2008 :: Males   :: N 12206 non-zeros 12199 Median 248.50 Mean 251.18 Std  47.35 Max 567.00
+Transferrin :: Stats year :: 2009 :: Males   :: N 14726 non-zeros 14720 Median 255.60 Mean 259.09 Std  46.13 Max 530.30
+Transferrin :: Stats year :: 2010 :: Males   :: N 16202 non-zeros 16191 Median 254.90 Mean 257.76 Std  47.69 Max 525.00
+Transferrin :: Stats year :: 2011 :: Males   :: N 17305 non-zeros 17299 Median 256.90 Mean 260.93 Std  47.94 Max 545.90
+Transferrin :: Stats year :: 2012 :: Males   :: N 11288 non-zeros 11282 Median 256.60 Mean 260.19 Std  49.84 Max 510.80
+Transferrin :: Stats year :: 2013 :: Males   :: N 11836 non-zeros 11828 Median 252.00 Mean 253.48 Std  48.26 Max 503.00
+Transferrin :: Stats year :: 2014 :: Males   :: N 15719 non-zeros 15708 Median 248.00 Mean 248.39 Std  48.92 Max 544.00
+Transferrin :: Stats year :: 2015 :: Males   :: N 13603 non-zeros 13592 Median 249.00 Mean 250.08 Std  48.48 Max 448.00
+Transferrin :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats year :: 2001 :: Females :: N 14940 non-zeros 14920 Median 281.00 Mean 285.67 Std  59.68 Max 610.00
+Transferrin :: Stats year :: 2002 :: Females :: N 14350 non-zeros 14341 Median 267.60 Mean 273.66 Std  58.08 Max 694.60
+Transferrin :: Stats year :: 2003 :: Females :: N 14563 non-zeros 14556 Median 276.80 Mean 284.04 Std  58.92 Max 654.80
+Transferrin :: Stats year :: 2004 :: Females :: N 17766 non-zeros 17761 Median 266.00 Mean 272.18 Std  53.93 Max 578.30
+Transferrin :: Stats year :: 2005 :: Females :: N 21707 non-zeros 21704 Median 262.90 Mean 270.63 Std  54.66 Max 628.60
+Transferrin :: Stats year :: 2006 :: Females :: N 25172 non-zeros 25162 Median 263.90 Mean 271.43 Std  53.12 Max 696.60
+Transferrin :: Stats year :: 2007 :: Females :: N 26976 non-zeros 26968 Median 262.40 Mean 269.42 Std  52.24 Max 621.00
+Transferrin :: Stats year :: 2008 :: Females :: N 25911 non-zeros 25907 Median 262.40 Mean 269.09 Std  51.23 Max 580.00
+Transferrin :: Stats year :: 2009 :: Females :: N 29536 non-zeros 29527 Median 269.40 Mean 275.56 Std  50.78 Max 596.70
+Transferrin :: Stats year :: 2010 :: Females :: N 31547 non-zeros 31534 Median 267.80 Mean 273.05 Std  50.77 Max 562.40
+Transferrin :: Stats year :: 2011 :: Females :: N 31567 non-zeros 31561 Median 270.60 Mean 276.17 Std  51.84 Max 636.40
+Transferrin :: Stats year :: 2012 :: Females :: N 17347 non-zeros 17340 Median 270.80 Mean 275.29 Std  53.85 Max 600.10
+Transferrin :: Stats year :: 2013 :: Females :: N 17828 non-zeros 17819 Median 264.00 Mean 267.65 Std  52.21 Max 535.00
+Transferrin :: Stats year :: 2014 :: Females :: N 24048 non-zeros 24040 Median 260.00 Mean 263.57 Std  52.18 Max 550.00
+Transferrin :: Stats year :: 2015 :: Females :: N 20583 non-zeros 20570 Median 262.00 Mean 265.75 Std  52.19 Max 535.00
+Transferrin :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Transferrin :: Stats month 1 :: All :: N 34862 non-zeros 34833 Median 262.70 Mean 266.66 Std  53.90 Max 621.00
+Transferrin :: Stats month 2 :: All :: N 31718 non-zeros 31702 Median 261.60 Mean 266.13 Std  54.25 Max 695.00
+Transferrin :: Stats month 3 :: All :: N 33061 non-zeros 33039 Median 261.00 Mean 265.13 Std  54.25 Max 591.00
+Transferrin :: Stats month 4 :: All :: N 29876 non-zeros 29862 Median 260.77 Mean 264.96 Std  54.17 Max 608.10
+Transferrin :: Stats month 5 :: All :: N 36993 non-zeros 36966 Median 262.00 Mean 266.06 Std  54.05 Max 636.40
+Transferrin :: Stats month 6 :: All :: N 36957 non-zeros 36937 Median 259.50 Mean 264.12 Std  53.45 Max 610.00
+Transferrin :: Stats month 7 :: All :: N 39550 non-zeros 39525 Median 256.70 Mean 261.64 Std  53.03 Max 625.80
+Transferrin :: Stats month 8 :: All :: N 37349 non-zeros 37332 Median 256.00 Mean 261.19 Std  52.44 Max 596.70
+Transferrin :: Stats month 9 :: All :: N 30943 non-zeros 30934 Median 256.00 Mean 260.67 Std  53.14 Max 654.80
+Transferrin :: Stats month 10 :: All :: N 35613 non-zeros 35593 Median 259.00 Mean 263.99 Std  52.55 Max 614.00
+Transferrin :: Stats month 11 :: All :: N 34168 non-zeros 34147 Median 260.50 Mean 265.49 Std  52.19 Max 622.30
+Transferrin :: Stats month 12 :: All :: N 31992 non-zeros 31975 Median 260.00 Mean 264.80 Std  52.70 Max 628.60
+

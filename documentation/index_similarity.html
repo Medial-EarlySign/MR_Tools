@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="/resources/showdown.min.js"></script>
+	<script src="/resources/marked.min.js"></script>
+	<title>Ask a question</title>
+	<style>
+		p.LLM_answer {
+			white-space: pre;
+			color: black;
+			background: pink;
+			white-space: pre-wrap;
+			white-space: -moz-pre-wrap;
+			white-space: -pre-wrap;
+			white-space: -o-pre-wrap;
+			word-wrap: break-word;
+		}
+
+		thead,
+		tfoot {
+			background-color: #2c5e77;
+			color: #fff;
+		}
+
+		tbody {
+			background-color: #e4f0f5;
+		}
+
+		table {
+			border-collapse: collapse;
+			border: 2px solid rgb(140 140 140);
+			font-family: sans-serif;
+			font-size: 0.8rem;
+			letter-spacing: 1px;
+		}
+
+		caption {
+			caption-side: bottom;
+			padding: 10px;
+		}
+
+		th,
+		td {
+			border: 1px solid rgb(160 160 160);
+			padding: 8px 10px;
+		}
+
+		td {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<form>
+		<label for="w3review">Query:</label><br />
+
+		<textarea id="query" name="query" rows="10"
+			cols="50">can you show me how to train a model using Flow?</textarea><br />
+		<br />
+		<label for="top_k">k: </label>
+		<input id="top_k" type="number" value="3" min="1" max="100"></input>
+		<label for="max_length">max context length: </label>
+		<input id="max_length" type="number" value="5000" min="1000" max="100000000" step="1000"></input>
+		<label for="max_length_answer">max answer length: </label>
+		<input id="max_length_answer" type="number" value="512" min="0" max="8192" step="128"></input>
+		<br />
+		<input id="send" type="button" value="Send"></input>
+	</form>
+	<span>Response:</span>
+	<p id="answer"></p>
+	<span id="timer"></span>
+	<p id="answer_sum" class="LLM_answer"></p>
+	<span id="timer_sum"></span>
+	<script>
+
+		async function sendData(data) {
+			// Construct a FormData instance
+			document.querySelector("#answer").innerHTML = "Please wait...";
+			var startTime = performance.now();
+			var url = 'http://localhost:8001';
+			// Add a text field
+			q = document.querySelector("#query").value;
+
+			top_k = document.querySelector("#top_k").value;
+			var max_len = document.querySelector("#max_length").value;
+			var max_len_answer = document.querySelector("#max_length_answer").value;
+			var data = JSON.stringify({ "query": q, "k": top_k, "max_length": max_len, "max_len_answer": max_len_answer });
+			// Add a file
+
+			try {
+				const response = await fetch(url + '/query', {
+					method: "POST",
+					// Set the FormData instance as the request body
+					body: data,
+				});
+				resp = await response.json();
+				var endTime = performance.now();
+				var time_took_seconds = Math.floor((endTime - startTime) / 1000);
+				var unit = 'Seconds';
+				if (time_took_seconds >= 180) {
+					time_took_seconds = Math.round(time_took_seconds / 6) / 10;
+					unit = 'Minutes';
+				}
+				if ('response' in resp) {
+					result_array = resp['response'];
+					final_html_test = '<table><thead><tr><th>Internal Link</th><th>Confluence Link</th><th>Score</th></tr></thead><tbody>';
+					for (let i = 0; i < result_array.length; i++) {
+						final_html_test += '<tr><td><a href="/page/' + result_array[i]['id'] + '" target="_blank">' + result_array[i]['title'] + '</a></td><td> <a href="http://gitlab_server:81/' + result_array[i]['path'] + '" target="_blank">Confluence link</a></td><td>'+ Math.round(result_array[i]['score']*100000)/100000 +'</td></tr>';
+					}
+					final_html_test += '</tbody></table>';
+					document.querySelector("#answer").innerHTML = final_html_test;
+				}
+				else {
+					document.querySelector("#answer").innerHTML = JSON.stringify(resp);
+				}
+				document.querySelector("#timer").innerHTML = 'Took ' + time_took_seconds.toString() + ' ' + unit;
+			} catch (e) {
+				console.error(e);
+				document.querySelector("#answer").innerHTML = e;
+			}
+			try {
+				document.querySelector("#answer_sum").innerHTML = 'Wait for LLM...';
+				document.querySelector("#timer_sum").innerHTML = '';
+				startTime = performance.now();
+				if (max_len_answer > 0) {
+					const response_sum = await fetch(url + '/summerize', {
+						method: "POST",
+						// Set the FormData instance as the request body
+						body: data,
+					});
+					const reader = response_sum.body.getReader();
+					let done, value;
+					var first_token = true;
+					while (!done) {
+						({ value, done } = await reader.read());
+						if (done) {
+							break;
+						}
+						if (first_token) {
+							document.querySelector("#answer_sum").innerHTML = '';
+						}
+						const text_str = new TextDecoder().decode(value);
+						document.querySelector("#answer_sum").innerHTML = document.querySelector("#answer_sum").innerHTML + text_str;
+						first_token = false;
+					}
+				}
+				else {
+					document.querySelector("#answer_sum").innerHTML = '';
+				}
+				//resp_sum = await response_sum.text();
+				endTime = performance.now();
+				time_took_seconds = Math.floor((endTime - startTime) / 1000);
+				unit = 'Seconds';
+				if (time_took_seconds >= 180) {
+					time_took_seconds = Math.round(time_took_seconds / 6) / 10;
+					unit = 'Minutes';
+				}
+				//var converter = new showdown.Converter();
+				//var html = converter.makeHtml(text);
+				var text = document.getElementById("answer_sum").innerHTML;
+				var html = marked.parse(text);
+				document.getElementById("answer_sum").innerHTML = html;
+				//document.querySelector("#answer_sum").innerHTML= resp_sum;
+
+
+				document.querySelector("#timer_sum").innerHTML = 'Took ' + time_took_seconds.toString() + ' ' + unit + ' For LLM';
+			}
+			catch (e) {
+				console.error(e);
+				document.querySelector("#answer_sum").innerHTML = e;
+			}
+		}
+
+		const send = document.querySelector("#send");
+		send.addEventListener("click", sendData);
+	</script>
+
+</body>
+
+</html>

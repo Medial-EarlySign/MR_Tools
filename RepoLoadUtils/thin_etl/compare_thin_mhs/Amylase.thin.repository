@@ -1,0 +1,162 @@
+Amylase :: All :: With Values :: 239728 / 14446692 =  0.02 :: 239728 / 239728 =  1.00
+Amylase :: Males :: With Values :: 101225 / 6889335 =  0.01 :: 101225 / 239728 =  0.42
+Amylase :: Females :: With Values :: 138503 / 7557357 =  0.02 :: 138503 / 239728 =  0.58
+Amylase :: General :: No. of Values :: All 307337 Male 129954 Female 177383
+Amylase :: General :: No. of different days Values :: All 306282 Male 129463 Female 176819
+Amylase :: General :: Avg #values per person (all) :: All  0.02 Male  0.02 Female  0.02
+Amylase :: General :: Avg #values per person (>0)  :: All  1.28 Male  1.28 Female  1.28
+Amylase :: General :: Avg dist between tests       :: All  546.3 Male  508.3 Female  574.2
+Amylase :: Counts :: Age Group 20 - 25 :: All ::   2491 0.008
+Amylase :: Counts :: Age Group 25 - 30 :: All ::   3102 0.010
+Amylase :: Counts :: Age Group 30 - 35 :: All ::   3518 0.011
+Amylase :: Counts :: Age Group 35 - 40 :: All ::   4146 0.013
+Amylase :: Counts :: Age Group 40 - 45 :: All ::   5285 0.017
+Amylase :: Counts :: Age Group 45 - 50 :: All ::   5607 0.018
+Amylase :: Counts :: Age Group 50 - 55 :: All ::   6007 0.020
+Amylase :: Counts :: Age Group 55 - 60 :: All ::   5639 0.018
+Amylase :: Counts :: Age Group 60 - 65 :: All ::   5364 0.017
+Amylase :: Counts :: Age Group 65 - 70 :: All ::   5285 0.017
+Amylase :: Counts :: Age Group 70 - 75 :: All ::   4417 0.014
+Amylase :: Counts :: Age Group 75 - 80 :: All ::   3611 0.012
+Amylase :: Counts :: Age Group 80 - 85 :: All ::   2792 0.009
+Amylase :: Counts :: Age Group 85 - 90 :: All ::   1797 0.006
+Amylase :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Amylase :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Amylase :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Amylase :: Counts :: Age Group 20 - 25 :: Males ::    821 0.006
+Amylase :: Counts :: Age Group 25 - 30 :: Males ::   1156 0.009
+Amylase :: Counts :: Age Group 30 - 35 :: Males ::   1495 0.012
+Amylase :: Counts :: Age Group 35 - 40 :: Males ::   1852 0.014
+Amylase :: Counts :: Age Group 40 - 45 :: Males ::   2334 0.018
+Amylase :: Counts :: Age Group 45 - 50 :: Males ::   2542 0.020
+Amylase :: Counts :: Age Group 50 - 55 :: Males ::   2543 0.020
+Amylase :: Counts :: Age Group 55 - 60 :: Males ::   2441 0.019
+Amylase :: Counts :: Age Group 60 - 65 :: Males ::   2320 0.018
+Amylase :: Counts :: Age Group 65 - 70 :: Males ::   2318 0.018
+Amylase :: Counts :: Age Group 70 - 75 :: Males ::   1946 0.015
+Amylase :: Counts :: Age Group 75 - 80 :: Males ::   1493 0.011
+Amylase :: Counts :: Age Group 80 - 85 :: Males ::   1092 0.008
+Amylase :: Counts :: Age Group 85 - 90 :: Males ::    650 0.005
+Amylase :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Amylase :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Amylase :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Amylase :: Counts :: Age Group 20 - 25 :: Females ::   1670 0.009
+Amylase :: Counts :: Age Group 25 - 30 :: Females ::   1946 0.011
+Amylase :: Counts :: Age Group 30 - 35 :: Females ::   2023 0.011
+Amylase :: Counts :: Age Group 35 - 40 :: Females ::   2294 0.013
+Amylase :: Counts :: Age Group 40 - 45 :: Females ::   2951 0.017
+Amylase :: Counts :: Age Group 45 - 50 :: Females ::   3065 0.017
+Amylase :: Counts :: Age Group 50 - 55 :: Females ::   3464 0.020
+Amylase :: Counts :: Age Group 55 - 60 :: Females ::   3198 0.018
+Amylase :: Counts :: Age Group 60 - 65 :: Females ::   3044 0.017
+Amylase :: Counts :: Age Group 65 - 70 :: Females ::   2967 0.017
+Amylase :: Counts :: Age Group 70 - 75 :: Females ::   2471 0.014
+Amylase :: Counts :: Age Group 75 - 80 :: Females ::   2118 0.012
+Amylase :: Counts :: Age Group 80 - 85 :: Females ::   1700 0.010
+Amylase :: Counts :: Age Group 85 - 90 :: Females ::   1147 0.006
+Amylase :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Amylase :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Amylase :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Amylase :: Stats :: Age Group 20 - 25 :: All ::  N 12032 non-zeros 12021 Median  54.00 Mean  59.54 Std  33.10 Max 540.00
+Amylase :: Stats :: Age Group 25 - 30 :: All ::  N 14164 non-zeros 14153 Median  55.00 Mean  60.59 Std  34.59 Max 570.00
+Amylase :: Stats :: Age Group 30 - 35 :: All ::  N 15956 non-zeros 15935 Median  55.00 Mean  61.60 Std  35.24 Max 586.00
+Amylase :: Stats :: Age Group 35 - 40 :: All ::  N 18793 non-zeros 18764 Median  55.00 Mean  62.06 Std  36.99 Max 616.00
+Amylase :: Stats :: Age Group 40 - 45 :: All ::  N 22530 non-zeros 22503 Median  55.00 Mean  61.71 Std  38.03 Max 626.00
+Amylase :: Stats :: Age Group 45 - 50 :: All ::  N 23781 non-zeros 23757 Median  55.00 Mean  62.41 Std  38.65 Max 640.00
+Amylase :: Stats :: Age Group 50 - 55 :: All ::  N 23435 non-zeros 23417 Median  56.00 Mean  63.56 Std  40.21 Max 660.00
+Amylase :: Stats :: Age Group 55 - 60 :: All ::  N 22412 non-zeros 22394 Median  57.00 Mean  64.37 Std  39.21 Max 635.00
+Amylase :: Stats :: Age Group 60 - 65 :: All ::  N 21573 non-zeros 21558 Median  57.00 Mean  65.43 Std  42.79 Max 706.00
+Amylase :: Stats :: Age Group 65 - 70 :: All ::  N 19522 non-zeros 19514 Median  58.00 Mean  67.11 Std  46.12 Max 747.00
+Amylase :: Stats :: Age Group 70 - 75 :: All ::  N 15958 non-zeros 15944 Median  59.00 Mean  67.98 Std  49.25 Max 799.00
+Amylase :: Stats :: Age Group 75 - 80 :: All ::  N 13242 non-zeros 13238 Median  60.00 Mean  70.54 Std  57.05 Max 916.00
+Amylase :: Stats :: Age Group 80 - 85 :: All ::  N 9540 non-zeros 9539 Median  61.00 Mean  71.85 Std  54.95 Max 881.00
+Amylase :: Stats :: Age Group 85 - 90 :: All ::  N 5642 non-zeros 5640 Median  62.00 Mean  75.02 Std  78.97 Max 1255.00
+Amylase :: Stats :: Age Group 90 - 95 :: All ::  N 2133 non-zeros 2133 Median  61.00 Mean  87.13 Std 148.60 Max 2240.00
+Amylase :: Stats :: Age Group 95 - 100 :: All ::  N 480 non-zeros 480 Median  63.00 Mean  92.67 Std 182.95 Max 2054.00
+Amylase :: General :: All     :: outliers ratio 0.003814
+Amylase :: General :: All     :: N 225120 non-zeros 224920 Median  56.00 Mean  64.12 Std  41.14 Max 681.00
+Amylase :: General :: All     :: distribution 0.001,0.01,0.05 ::   7.00  18.00  27.00 120.00 217.00 536.00
+Amylase :: General :: All     :: quartiles ::   7.00  43.00  56.00  74.00 
+Amylase :: General :: Males   :: outliers ratio 0.003407
+Amylase :: General :: Males   :: N 95370 non-zeros 95271 Median  58.00 Mean  66.10 Std  44.67 Max 734.00
+Amylase :: General :: Males   :: distribution 0.001,0.01,0.05 ::   6.00  19.00  28.00 126.00 240.00 570.00
+Amylase :: General :: Males   :: quartiles ::   6.00  43.00  58.00  76.00 
+Amylase :: General :: Females :: outliers ratio 0.004137
+Amylase :: General :: Females :: N 129747 non-zeros 129647 Median  56.00 Mean  62.60 Std  37.47 Max 624.00
+Amylase :: General :: Females :: distribution 0.001,0.01,0.05 ::   7.00  18.00  27.00 116.00 197.00 474.00
+Amylase :: General :: Females :: quartiles ::   7.00  42.00  56.00  73.00 
+Amylase :: Rounding ::  0.00 r  0.00 pct
+Amylase :: Rounding ::  0.01 r  0.00 pct
+Amylase :: Rounding ::  0.10 r  0.00 pct
+Amylase :: Rounding ::  1.00 r  0.89 pct
+Amylase :: Rounding :: 10.00 r  0.10 pct
+Amylase :: Rounding :: 100.00 r  0.00 pct
+Amylase :: Rounding :: 1000.00 r  0.00 pct
+Amylase :: Rounding :: most popular rounding for vals:  1.00
+Amylase :: Stats year :: 2000 :: All :: N 2936 non-zeros 2912 Median  57.00 Mean  72.08 Std  68.68 Max 1058.00
+Amylase :: Stats year :: 2001 :: All :: N 3852 non-zeros 3843 Median  59.00 Mean  75.61 Std  71.30 Max 994.00
+Amylase :: Stats year :: 2002 :: All :: N 4597 non-zeros 4593 Median  59.00 Mean  77.35 Std  89.44 Max 1400.00
+Amylase :: Stats year :: 2003 :: All :: N 4926 non-zeros 4919 Median  58.00 Mean  73.25 Std  73.46 Max 1158.00
+Amylase :: Stats year :: 2004 :: All :: N 5098 non-zeros 5073 Median  57.00 Mean  72.90 Std  72.44 Max 1112.00
+Amylase :: Stats year :: 2005 :: All :: N 12664 non-zeros 12644 Median  56.00 Mean  65.80 Std  50.44 Max 803.00
+Amylase :: Stats year :: 2006 :: All :: N 14681 non-zeros 14667 Median  57.00 Mean  67.23 Std  53.94 Max 871.00
+Amylase :: Stats year :: 2007 :: All :: N 16636 non-zeros 16626 Median  57.00 Mean  66.73 Std  47.65 Max 773.00
+Amylase :: Stats year :: 2008 :: All :: N 18710 non-zeros 18691 Median  58.00 Mean  67.33 Std  49.46 Max 800.00
+Amylase :: Stats year :: 2009 :: All :: N 20644 non-zeros 20622 Median  58.00 Mean  66.14 Std  44.85 Max 725.00
+Amylase :: Stats year :: 2010 :: All :: N 21736 non-zeros 21720 Median  57.00 Mean  64.98 Std  42.31 Max 696.00
+Amylase :: Stats year :: 2011 :: All :: N 24654 non-zeros 24634 Median  56.00 Mean  63.07 Std  38.80 Max 638.00
+Amylase :: Stats year :: 2012 :: All :: N 26820 non-zeros 26794 Median  56.00 Mean  62.79 Std  37.81 Max 625.00
+Amylase :: Stats year :: 2013 :: All :: N 27808 non-zeros 27804 Median  56.00 Mean  62.85 Std  36.61 Max 600.00
+Amylase :: Stats year :: 2014 :: All :: N 27909 non-zeros 27909 Median  57.00 Mean  63.15 Std  36.06 Max 603.00
+Amylase :: Stats year :: 2015 :: All :: N 25074 non-zeros 25074 Median  57.00 Mean  63.14 Std  37.01 Max 616.00
+Amylase :: Stats year :: 2016 :: All :: N 901 non-zeros 901 Median  57.00 Mean  64.36 Std  33.04 Max 379.00
+Amylase :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Amylase :: Stats year :: 2000 :: Males   :: N 1324 non-zeros 1312 Median  57.00 Mean  76.63 Std  95.45 Max 1500.00
+Amylase :: Stats year :: 2001 :: Males   :: N 1763 non-zeros 1761 Median  59.00 Mean  77.87 Std  75.11 Max 1187.00
+Amylase :: Stats year :: 2002 :: Males   :: N 2096 non-zeros 2093 Median  59.00 Mean  77.92 Std  83.99 Max 1306.00
+Amylase :: Stats year :: 2003 :: Males   :: N 2192 non-zeros 2189 Median  58.00 Mean  75.58 Std  79.97 Max 1157.00
+Amylase :: Stats year :: 2004 :: Males   :: N 2293 non-zeros 2284 Median  57.00 Mean  75.84 Std  78.90 Max 1218.00
+Amylase :: Stats year :: 2005 :: Males   :: N 5491 non-zeros 5476 Median  57.00 Mean  67.77 Std  53.83 Max 841.00
+Amylase :: Stats year :: 2006 :: Males   :: N 6508 non-zeros 6505 Median  57.00 Mean  68.88 Std  57.93 Max 913.00
+Amylase :: Stats year :: 2007 :: Males   :: N 7185 non-zeros 7179 Median  58.00 Mean  68.89 Std  50.00 Max 769.00
+Amylase :: Stats year :: 2008 :: Males   :: N 8014 non-zeros 8004 Median  58.00 Mean  69.36 Std  53.13 Max 866.00
+Amylase :: Stats year :: 2009 :: Males   :: N 8859 non-zeros 8845 Median  58.00 Mean  68.38 Std  50.11 Max 786.00
+Amylase :: Stats year :: 2010 :: Males   :: N 9168 non-zeros 9159 Median  58.00 Mean  67.45 Std  49.37 Max 800.00
+Amylase :: Stats year :: 2011 :: Males   :: N 10281 non-zeros 10272 Median  57.00 Mean  65.85 Std  47.80 Max 780.00
+Amylase :: Stats year :: 2012 :: Males   :: N 11236 non-zeros 11221 Median  57.00 Mean  65.52 Std  44.46 Max 728.00
+Amylase :: Stats year :: 2013 :: Males   :: N 11204 non-zeros 11203 Median  58.00 Mean  64.94 Std  38.04 Max 630.00
+Amylase :: Stats year :: 2014 :: Males   :: N 11213 non-zeros 11213 Median  58.00 Mean  66.11 Std  43.45 Max 706.00
+Amylase :: Stats year :: 2015 :: Males   :: N 10212 non-zeros 10212 Median  58.00 Mean  65.00 Std  38.30 Max 628.00
+Amylase :: Stats year :: 2016 :: Males   :: N 360 non-zeros 360 Median  59.00 Mean  67.33 Std  36.90 Max 379.00
+Amylase :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Amylase :: Stats year :: 2000 :: Females :: N 1615 non-zeros 1601 Median  57.00 Mean  70.35 Std  64.00 Max 1010.00
+Amylase :: Stats year :: 2001 :: Females :: N 2094 non-zeros 2088 Median  60.00 Mean  72.85 Std  63.69 Max 994.00
+Amylase :: Stats year :: 2002 :: Females :: N 2503 non-zeros 2501 Median  59.00 Mean  78.41 Std 102.11 Max 1504.00
+Amylase :: Stats year :: 2003 :: Females :: N 2735 non-zeros 2733 Median  57.00 Mean  70.54 Std  63.00 Max 985.00
+Amylase :: Stats year :: 2004 :: Females :: N 2817 non-zeros 2809 Median  57.00 Mean  78.33 Std 121.12 Max 1880.00
+Amylase :: Stats year :: 2005 :: Females :: N 7173 non-zeros 7156 Median  55.00 Mean  64.63 Std  50.09 Max 791.00
+Amylase :: Stats year :: 2006 :: Females :: N 8165 non-zeros 8159 Median  56.00 Mean  65.52 Std  48.27 Max 784.00
+Amylase :: Stats year :: 2007 :: Females :: N 9446 non-zeros 9441 Median  56.00 Mean  64.21 Std  38.45 Max 627.00
+Amylase :: Stats year :: 2008 :: Females :: N 10692 non-zeros 10680 Median  57.00 Mean  65.68 Std  45.77 Max 732.00
+Amylase :: Stats year :: 2009 :: Females :: N 11784 non-zeros 11777 Median  57.00 Mean  64.58 Std  40.75 Max 663.00
+Amylase :: Stats year :: 2010 :: Females :: N 12577 non-zeros 12568 Median  56.00 Mean  63.43 Std  38.82 Max 621.00
+Amylase :: Stats year :: 2011 :: Females :: N 14374 non-zeros 14363 Median  55.00 Mean  61.26 Std  33.91 Max 559.00
+Amylase :: Stats year :: 2012 :: Females :: N 15579 non-zeros 15567 Median  55.00 Mean  61.02 Std  33.80 Max 544.00
+Amylase :: Stats year :: 2013 :: Females :: N 16599 non-zeros 16596 Median  55.00 Mean  61.28 Std  34.37 Max 575.00
+Amylase :: Stats year :: 2014 :: Females :: N 16703 non-zeros 16703 Median  55.00 Mean  61.54 Std  33.63 Max 527.00
+Amylase :: Stats year :: 2015 :: Females :: N 14856 non-zeros 14856 Median  56.00 Mean  61.70 Std  34.77 Max 562.00
+Amylase :: Stats year :: 2016 :: Females :: N 541 non-zeros 541 Median  55.00 Mean  62.41 Std  30.37 Max 257.00
+Amylase :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Amylase :: Stats month 1 :: All :: N 22527 non-zeros 22506 Median  57.00 Mean  66.08 Std  45.43 Max 721.00
+Amylase :: Stats month 2 :: All :: N 19922 non-zeros 19910 Median  57.00 Mean  66.21 Std  45.79 Max 751.00
+Amylase :: Stats month 3 :: All :: N 21545 non-zeros 21525 Median  57.00 Mean  65.46 Std  42.30 Max 682.00
+Amylase :: Stats month 4 :: All :: N 19578 non-zeros 19564 Median  57.00 Mean  65.13 Std  40.74 Max 660.00
+Amylase :: Stats month 5 :: All :: N 19740 non-zeros 19726 Median  57.00 Mean  66.31 Std  49.83 Max 808.00
+Amylase :: Stats month 6 :: All :: N 20503 non-zeros 20486 Median  57.00 Mean  65.22 Std  43.86 Max 719.00
+Amylase :: Stats month 7 :: All :: N 21163 non-zeros 21140 Median  56.00 Mean  65.13 Std  46.72 Max 760.00
+Amylase :: Stats month 8 :: All :: N 20385 non-zeros 20364 Median  56.00 Mean  64.20 Std  41.11 Max 677.00
+Amylase :: Stats month 9 :: All :: N 21720 non-zeros 21697 Median  57.00 Mean  64.95 Std  42.84 Max 707.00
+Amylase :: Stats month 10 :: All :: N 22090 non-zeros 22066 Median  57.00 Mean  65.21 Std  43.27 Max 706.00
+Amylase :: Stats month 11 :: All :: N 21687 non-zeros 21663 Median  57.00 Mean  65.07 Std  42.18 Max 681.00
+Amylase :: Stats month 12 :: All :: N 19230 non-zeros 19214 Median  57.00 Mean  65.79 Std  45.43 Max 747.00
+

@@ -1,0 +1,7 @@
+method	int
+minStat	float
+nBins	int
+binMethod	int
+takeSquare	int
+pDistance	float
+max_samples	int

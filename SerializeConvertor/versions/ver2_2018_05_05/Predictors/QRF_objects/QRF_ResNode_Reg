@@ -1,0 +1,10 @@
+ifeat	short
+split_val	float
+is_leaf	ABSTRACT
+left	int
+right	int
+size	int
+pred	float	
+ABSTRACT	0	QRF_Not_leaf
+ABSTRACT	1	QRF_Leaf_Regression
+#Need to support conditioning also on mode(which is another variable that is not from this object!! - folder solution) Can Be: QRF_Leaf_Regression, QRF_Leaf_Categ

@@ -1,0 +1,162 @@
+Lymphocytes# :: All :: With Values :: 948594 / 1279479 =  0.74 :: 948594 / 948594 =  1.00
+Lymphocytes# :: Males :: With Values :: 446035 / 622859 =  0.72 :: 446035 / 948594 =  0.47
+Lymphocytes# :: Females :: With Values :: 502559 / 656620 =  0.77 :: 502559 / 948594 =  0.53
+Lymphocytes# :: General :: No. of Values :: All 13836128 Male 5404014 Female 8432114
+Lymphocytes# :: General :: No. of different days Values :: All 13829771 Male 5401353 Female 8428418
+Lymphocytes# :: General :: Avg #values per person (all) :: All 10.81 Male  8.67 Female 12.84
+Lymphocytes# :: General :: Avg #values per person (>0)  :: All 14.58 Male 12.11 Female 16.77
+Lymphocytes# :: General :: Avg dist between tests       :: All  260.8 Male  292.2 Female  241.2
+Lymphocytes# :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 25 - 30 :: All ::   5345 0.000
+Lymphocytes# :: Counts :: Age Group 30 - 35 :: All :: 136729 0.010
+Lymphocytes# :: Counts :: Age Group 35 - 40 :: All :: 257334 0.019
+Lymphocytes# :: Counts :: Age Group 40 - 45 :: All :: 325929 0.024
+Lymphocytes# :: Counts :: Age Group 45 - 50 :: All :: 284647 0.021
+Lymphocytes# :: Counts :: Age Group 50 - 55 :: All :: 289648 0.021
+Lymphocytes# :: Counts :: Age Group 55 - 60 :: All :: 297426 0.021
+Lymphocytes# :: Counts :: Age Group 60 - 65 :: All :: 278699 0.020
+Lymphocytes# :: Counts :: Age Group 65 - 70 :: All :: 254386 0.018
+Lymphocytes# :: Counts :: Age Group 70 - 75 :: All :: 201387 0.015
+Lymphocytes# :: Counts :: Age Group 75 - 80 :: All :: 180898 0.013
+Lymphocytes# :: Counts :: Age Group 80 - 85 :: All :: 130542 0.009
+Lymphocytes# :: Counts :: Age Group 85 - 90 :: All ::  80841 0.006
+Lymphocytes# :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 25 - 30 :: Males ::    957 0.000
+Lymphocytes# :: Counts :: Age Group 30 - 35 :: Males ::  27205 0.005
+Lymphocytes# :: Counts :: Age Group 35 - 40 :: Males ::  65589 0.012
+Lymphocytes# :: Counts :: Age Group 40 - 45 :: Males :: 108652 0.020
+Lymphocytes# :: Counts :: Age Group 45 - 50 :: Males :: 111379 0.021
+Lymphocytes# :: Counts :: Age Group 50 - 55 :: Males :: 119016 0.022
+Lymphocytes# :: Counts :: Age Group 55 - 60 :: Males :: 126700 0.023
+Lymphocytes# :: Counts :: Age Group 60 - 65 :: Males :: 123341 0.023
+Lymphocytes# :: Counts :: Age Group 65 - 70 :: Males :: 114972 0.021
+Lymphocytes# :: Counts :: Age Group 70 - 75 :: Males ::  93184 0.017
+Lymphocytes# :: Counts :: Age Group 75 - 80 :: Males ::  82629 0.015
+Lymphocytes# :: Counts :: Age Group 80 - 85 :: Males ::  57095 0.011
+Lymphocytes# :: Counts :: Age Group 85 - 90 :: Males ::  33417 0.006
+Lymphocytes# :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 25 - 30 :: Females ::   4388 0.001
+Lymphocytes# :: Counts :: Age Group 30 - 35 :: Females :: 109524 0.013
+Lymphocytes# :: Counts :: Age Group 35 - 40 :: Females :: 191745 0.023
+Lymphocytes# :: Counts :: Age Group 40 - 45 :: Females :: 217277 0.026
+Lymphocytes# :: Counts :: Age Group 45 - 50 :: Females :: 173268 0.021
+Lymphocytes# :: Counts :: Age Group 50 - 55 :: Females :: 170632 0.020
+Lymphocytes# :: Counts :: Age Group 55 - 60 :: Females :: 170726 0.020
+Lymphocytes# :: Counts :: Age Group 60 - 65 :: Females :: 155358 0.018
+Lymphocytes# :: Counts :: Age Group 65 - 70 :: Females :: 139414 0.017
+Lymphocytes# :: Counts :: Age Group 70 - 75 :: Females :: 108203 0.013
+Lymphocytes# :: Counts :: Age Group 75 - 80 :: Females ::  98269 0.012
+Lymphocytes# :: Counts :: Age Group 80 - 85 :: Females ::  73447 0.009
+Lymphocytes# :: Counts :: Age Group 85 - 90 :: Females ::  47424 0.006
+Lymphocytes# :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Lymphocytes# :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Lymphocytes# :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats :: Age Group 25 - 30 :: All ::  N 81739 non-zeros 81715 Median   2.08 Mean   2.15 Std   0.68 Max  12.10
+Lymphocytes# :: Stats :: Age Group 30 - 35 :: All ::  N 213764 non-zeros 213709 Median   2.03 Mean   2.12 Std   0.67 Max  11.68
+Lymphocytes# :: Stats :: Age Group 35 - 40 :: All ::  N 331846 non-zeros 331753 Median   2.04 Mean   2.12 Std   0.67 Max  12.10
+Lymphocytes# :: Stats :: Age Group 40 - 45 :: All ::  N 402021 non-zeros 401912 Median   2.07 Mean   2.15 Std   0.67 Max  11.90
+Lymphocytes# :: Stats :: Age Group 45 - 50 :: All ::  N 356317 non-zeros 356197 Median   2.10 Mean   2.18 Std   0.68 Max  12.20
+Lymphocytes# :: Stats :: Age Group 50 - 55 :: All ::  N 324630 non-zeros 324504 Median   2.11 Mean   2.21 Std   0.71 Max  12.61
+Lymphocytes# :: Stats :: Age Group 55 - 60 :: All ::  N 279171 non-zeros 279039 Median   2.13 Mean   2.22 Std   0.73 Max  13.17
+Lymphocytes# :: Stats :: Age Group 60 - 65 :: All ::  N 235260 non-zeros 235122 Median   2.11 Mean   2.21 Std   0.76 Max  13.50
+Lymphocytes# :: Stats :: Age Group 65 - 70 :: All ::  N 185311 non-zeros 185153 Median   2.09 Mean   2.18 Std   0.78 Max  13.86
+Lymphocytes# :: Stats :: Age Group 70 - 75 :: All ::  N 131040 non-zeros 130870 Median   2.01 Mean   2.12 Std   0.82 Max  14.34
+Lymphocytes# :: Stats :: Age Group 75 - 80 :: All ::  N 102683 non-zeros 102502 Median   1.95 Mean   2.07 Std   0.86 Max  14.89
+Lymphocytes# :: Stats :: Age Group 80 - 85 :: All ::  N 65411 non-zeros 65277 Median   1.90 Mean   2.02 Std   0.92 Max  15.68
+Lymphocytes# :: Stats :: Age Group 85 - 90 :: All ::  N 37646 non-zeros 37570 Median   1.84 Mean   1.97 Std   0.93 Max  15.90
+Lymphocytes# :: Stats :: Age Group 90 - 95 :: All ::  N 15882 non-zeros 15829 Median   1.80 Mean   1.94 Std   0.96 Max  16.25
+Lymphocytes# :: Stats :: Age Group 95 - 100 :: All ::  N 4023 non-zeros 4015 Median   1.80 Mean   1.97 Std   1.05 Max  16.19
+Lymphocytes# :: General :: All     :: outliers ratio 0.000694
+Lymphocytes# :: General :: All     :: N 947868 non-zeros 947200 Median   2.07 Mean   2.15 Std   0.74 Max  13.20
+Lymphocytes# :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.42   0.80   1.17   3.40   4.30   6.84
+Lymphocytes# :: General :: All     :: quartiles ::   0.42   1.67   2.07   2.53 
+Lymphocytes# :: General :: Males   :: outliers ratio 0.000803
+Lymphocytes# :: General :: Males   :: N 445660 non-zeros 445306 Median   2.11 Mean   2.21 Std   0.77 Max  13.70
+Lymphocytes# :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.41   0.80   1.19   3.50   4.45   7.45
+Lymphocytes# :: General :: Males   :: quartiles ::   0.41   1.70   2.11   2.60 
+Lymphocytes# :: General :: Females :: outliers ratio 0.000537
+Lymphocytes# :: General :: Females :: N 502238 non-zeros 501926 Median   2.01 Mean   2.11 Std   0.71 Max  12.67
+Lymphocytes# :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.41   0.80   1.16   3.32   4.20   6.23
+Lymphocytes# :: General :: Females :: quartiles ::   0.41   1.64   2.01   2.48 
+Lymphocytes# :: Rounding ::  0.00 r  0.18 pct
+Lymphocytes# :: Rounding ::  0.01 r  0.60 pct
+Lymphocytes# :: Rounding ::  0.10 r  0.20 pct
+Lymphocytes# :: Rounding ::  1.00 r  0.03 pct
+Lymphocytes# :: Rounding :: 10.00 r  0.00 pct
+Lymphocytes# :: Rounding :: 100.00 r  0.00 pct
+Lymphocytes# :: Rounding :: 1000.00 r  0.00 pct
+Lymphocytes# :: Rounding :: most popular rounding for vals:  0.01
+Lymphocytes# :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats year :: 2001 :: All :: N 417044 non-zeros 416916 Median   2.10 Mean   2.15 Std   0.70 Max  12.65
+Lymphocytes# :: Stats year :: 2002 :: All :: N 405929 non-zeros 405817 Median   2.09 Mean   2.17 Std   0.71 Max  12.70
+Lymphocytes# :: Stats year :: 2003 :: All :: N 442524 non-zeros 442353 Median   2.09 Mean   2.17 Std   0.71 Max  12.83
+Lymphocytes# :: Stats year :: 2004 :: All :: N 466021 non-zeros 465844 Median   2.05 Mean   2.14 Std   0.70 Max  12.57
+Lymphocytes# :: Stats year :: 2005 :: All :: N 481205 non-zeros 481025 Median   2.06 Mean   2.14 Std   0.71 Max  12.65
+Lymphocytes# :: Stats year :: 2006 :: All :: N 492866 non-zeros 492667 Median   2.08 Mean   2.16 Std   0.72 Max  12.92
+Lymphocytes# :: Stats year :: 2007 :: All :: N 503775 non-zeros 503561 Median   2.06 Mean   2.14 Std   0.72 Max  12.84
+Lymphocytes# :: Stats year :: 2008 :: All :: N 506124 non-zeros 505882 Median   2.05 Mean   2.14 Std   0.72 Max  12.83
+Lymphocytes# :: Stats year :: 2009 :: All :: N 532974 non-zeros 532726 Median   2.03 Mean   2.13 Std   0.71 Max  12.80
+Lymphocytes# :: Stats year :: 2010 :: All :: N 531183 non-zeros 530860 Median   2.05 Mean   2.14 Std   0.72 Max  12.93
+Lymphocytes# :: Stats year :: 2011 :: All :: N 535954 non-zeros 535581 Median   2.08 Mean   2.17 Std   0.74 Max  13.19
+Lymphocytes# :: Stats year :: 2012 :: All :: N 544910 non-zeros 544525 Median   2.07 Mean   2.16 Std   0.74 Max  13.12
+Lymphocytes# :: Stats year :: 2013 :: All :: N 548974 non-zeros 548540 Median   2.06 Mean   2.15 Std   0.74 Max  13.19
+Lymphocytes# :: Stats year :: 2014 :: All :: N 544402 non-zeros 543981 Median   2.07 Mean   2.16 Std   0.74 Max  13.29
+Lymphocytes# :: Stats year :: 2015 :: All :: N 481390 non-zeros 481005 Median   2.07 Mean   2.16 Std   0.75 Max  13.38
+Lymphocytes# :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats year :: 2001 :: Males   :: N 153213 non-zeros 153170 Median   2.10 Mean   2.21 Std   0.74 Max  13.30
+Lymphocytes# :: Stats year :: 2002 :: Males   :: N 151979 non-zeros 151922 Median   2.13 Mean   2.22 Std   0.75 Max  13.38
+Lymphocytes# :: Stats year :: 2003 :: Males   :: N 168656 non-zeros 168573 Median   2.13 Mean   2.22 Std   0.75 Max  13.46
+Lymphocytes# :: Stats year :: 2004 :: Males   :: N 181219 non-zeros 181143 Median   2.10 Mean   2.18 Std   0.73 Max  13.00
+Lymphocytes# :: Stats year :: 2005 :: Males   :: N 190859 non-zeros 190761 Median   2.10 Mean   2.19 Std   0.74 Max  13.18
+Lymphocytes# :: Stats year :: 2006 :: Males   :: N 198972 non-zeros 198857 Median   2.11 Mean   2.21 Std   0.75 Max  13.49
+Lymphocytes# :: Stats year :: 2007 :: Males   :: N 206271 non-zeros 206165 Median   2.10 Mean   2.19 Std   0.75 Max  13.42
+Lymphocytes# :: Stats year :: 2008 :: Males   :: N 208301 non-zeros 208182 Median   2.10 Mean   2.18 Std   0.75 Max  13.45
+Lymphocytes# :: Stats year :: 2009 :: Males   :: N 222798 non-zeros 222684 Median   2.08 Mean   2.16 Std   0.74 Max  13.05
+Lymphocytes# :: Stats year :: 2010 :: Males   :: N 223211 non-zeros 223022 Median   2.09 Mean   2.17 Std   0.75 Max  13.46
+Lymphocytes# :: Stats year :: 2011 :: Males   :: N 227990 non-zeros 227792 Median   2.11 Mean   2.20 Std   0.77 Max  13.72
+Lymphocytes# :: Stats year :: 2012 :: Males   :: N 234251 non-zeros 234028 Median   2.10 Mean   2.19 Std   0.76 Max  13.57
+Lymphocytes# :: Stats year :: 2013 :: Males   :: N 237923 non-zeros 237699 Median   2.08 Mean   2.17 Std   0.76 Max  13.56
+Lymphocytes# :: Stats year :: 2014 :: Males   :: N 237153 non-zeros 236937 Median   2.09 Mean   2.18 Std   0.77 Max  13.66
+Lymphocytes# :: Stats year :: 2015 :: Males   :: N 208817 non-zeros 208608 Median   2.08 Mean   2.18 Std   0.78 Max  13.63
+Lymphocytes# :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats year :: 2001 :: Females :: N 263845 non-zeros 263769 Median   2.02 Mean   2.12 Std   0.68 Max  12.21
+Lymphocytes# :: Stats year :: 2002 :: Females :: N 253948 non-zeros 253888 Median   2.05 Mean   2.13 Std   0.68 Max  12.30
+Lymphocytes# :: Stats year :: 2003 :: Females :: N 273887 non-zeros 273805 Median   2.05 Mean   2.14 Std   0.69 Max  12.46
+Lymphocytes# :: Stats year :: 2004 :: Females :: N 284799 non-zeros 284702 Median   2.01 Mean   2.10 Std   0.67 Max  12.20
+Lymphocytes# :: Stats year :: 2005 :: Females :: N 290350 non-zeros 290248 Median   2.02 Mean   2.11 Std   0.68 Max  12.25
+Lymphocytes# :: Stats year :: 2006 :: Females :: N 293904 non-zeros 293802 Median   2.04 Mean   2.13 Std   0.70 Max  12.53
+Lymphocytes# :: Stats year :: 2007 :: Females :: N 297509 non-zeros 297406 Median   2.02 Mean   2.11 Std   0.69 Max  12.41
+Lymphocytes# :: Stats year :: 2008 :: Females :: N 297827 non-zeros 297719 Median   2.01 Mean   2.11 Std   0.69 Max  12.42
+Lymphocytes# :: Stats year :: 2009 :: Females :: N 310157 non-zeros 310015 Median   2.00 Mean   2.10 Std   0.69 Max  12.37
+Lymphocytes# :: Stats year :: 2010 :: Females :: N 307992 non-zeros 307848 Median   2.02 Mean   2.12 Std   0.70 Max  12.50
+Lymphocytes# :: Stats year :: 2011 :: Females :: N 307984 non-zeros 307811 Median   2.06 Mean   2.15 Std   0.71 Max  12.78
+Lymphocytes# :: Stats year :: 2012 :: Females :: N 310658 non-zeros 310484 Median   2.05 Mean   2.14 Std   0.72 Max  12.89
+Lymphocytes# :: Stats year :: 2013 :: Females :: N 311030 non-zeros 310841 Median   2.05 Mean   2.14 Std   0.71 Max  12.77
+Lymphocytes# :: Stats year :: 2014 :: Females :: N 307232 non-zeros 307032 Median   2.05 Mean   2.15 Std   0.73 Max  12.93
+Lymphocytes# :: Stats year :: 2015 :: Females :: N 272582 non-zeros 272402 Median   2.05 Mean   2.14 Std   0.73 Max  13.09
+Lymphocytes# :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Lymphocytes# :: Stats month 1 :: All :: N 375511 non-zeros 375168 Median   2.02 Mean   2.11 Std   0.76 Max  13.49
+Lymphocytes# :: Stats month 2 :: All :: N 364814 non-zeros 364492 Median   2.01 Mean   2.10 Std   0.76 Max  13.42
+Lymphocytes# :: Stats month 3 :: All :: N 375073 non-zeros 374764 Median   2.00 Mean   2.09 Std   0.75 Max  13.32
+Lymphocytes# :: Stats month 4 :: All :: N 354497 non-zeros 354120 Median   2.02 Mean   2.11 Std   0.76 Max  13.52
+Lymphocytes# :: Stats month 5 :: All :: N 402623 non-zeros 402262 Median   2.01 Mean   2.11 Std   0.75 Max  13.33
+Lymphocytes# :: Stats month 6 :: All :: N 399342 non-zeros 399000 Median   2.03 Mean   2.12 Std   0.75 Max  13.31
+Lymphocytes# :: Stats month 7 :: All :: N 406675 non-zeros 406286 Median   2.04 Mean   2.13 Std   0.75 Max  13.43
+Lymphocytes# :: Stats month 8 :: All :: N 391011 non-zeros 390643 Median   2.06 Mean   2.15 Std   0.76 Max  13.59
+Lymphocytes# :: Stats month 9 :: All :: N 345418 non-zeros 345055 Median   2.03 Mean   2.12 Std   0.76 Max  13.50
+Lymphocytes# :: Stats month 10 :: All :: N 386469 non-zeros 386121 Median   2.03 Mean   2.12 Std   0.74 Max  13.27
+Lymphocytes# :: Stats month 11 :: All :: N 368803 non-zeros 368468 Median   2.02 Mean   2.12 Std   0.75 Max  13.31
+Lymphocytes# :: Stats month 12 :: All :: N 357064 non-zeros 356702 Median   2.03 Mean   2.12 Std   0.76 Max  13.51
+

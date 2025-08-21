@@ -1,0 +1,5 @@
+ #prepare list of codes
+ tail --lines=+1 lab_result.csv |awk -F ',' '{print $3,$4}'|sort|uniq -c |sort -n >codeList
+ 
+#Generate repository  
+  Flow --rep_create --convert_conf /server/Work/Users/Coby/TrinetX/rep_configs/trinetX.convert_config  --load_args allowed_unknown_catgory_cnt=200

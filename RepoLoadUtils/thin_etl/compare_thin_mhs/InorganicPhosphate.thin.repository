@@ -1,0 +1,162 @@
+InorganicPhosphate :: All :: With Values :: 1635065 / 14446692 =  0.11 :: 1635065 / 1635065 =  1.00
+InorganicPhosphate :: Males :: With Values :: 676891 / 6889335 =  0.10 :: 676891 / 1635065 =  0.41
+InorganicPhosphate :: Females :: With Values :: 958174 / 7557357 =  0.13 :: 958174 / 1635065 =  0.59
+InorganicPhosphate :: General :: No. of Values :: All 3976235 Male 1615305 Female 2360930
+InorganicPhosphate :: General :: No. of different days Values :: All 3972928 Male 1613946 Female 2358982
+InorganicPhosphate :: General :: Avg #values per person (all) :: All  0.28 Male  0.23 Female  0.31
+InorganicPhosphate :: General :: Avg #values per person (>0)  :: All  2.43 Male  2.38 Female  2.46
+InorganicPhosphate :: General :: Avg dist between tests       :: All  498.6 Male  482.9 Female  509.1
+InorganicPhosphate :: Counts :: Age Group 20 - 25 :: All ::  18766 0.005
+InorganicPhosphate :: Counts :: Age Group 25 - 30 :: All ::  22407 0.006
+InorganicPhosphate :: Counts :: Age Group 30 - 35 :: All ::  27218 0.007
+InorganicPhosphate :: Counts :: Age Group 35 - 40 :: All ::  32938 0.008
+InorganicPhosphate :: Counts :: Age Group 40 - 45 :: All ::  43415 0.011
+InorganicPhosphate :: Counts :: Age Group 45 - 50 :: All ::  53190 0.013
+InorganicPhosphate :: Counts :: Age Group 50 - 55 :: All ::  61157 0.015
+InorganicPhosphate :: Counts :: Age Group 55 - 60 :: All ::  66540 0.017
+InorganicPhosphate :: Counts :: Age Group 60 - 65 :: All ::  74867 0.019
+InorganicPhosphate :: Counts :: Age Group 65 - 70 :: All ::  81889 0.021
+InorganicPhosphate :: Counts :: Age Group 70 - 75 :: All ::  78613 0.020
+InorganicPhosphate :: Counts :: Age Group 75 - 80 :: All ::  77018 0.019
+InorganicPhosphate :: Counts :: Age Group 80 - 85 :: All ::  66244 0.017
+InorganicPhosphate :: Counts :: Age Group 85 - 90 :: All ::  46966 0.012
+InorganicPhosphate :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+InorganicPhosphate :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+InorganicPhosphate :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+InorganicPhosphate :: Counts :: Age Group 20 - 25 :: Males ::   5637 0.003
+InorganicPhosphate :: Counts :: Age Group 25 - 30 :: Males ::   6877 0.004
+InorganicPhosphate :: Counts :: Age Group 30 - 35 :: Males ::   8959 0.006
+InorganicPhosphate :: Counts :: Age Group 35 - 40 :: Males ::  11577 0.007
+InorganicPhosphate :: Counts :: Age Group 40 - 45 :: Males ::  16284 0.010
+InorganicPhosphate :: Counts :: Age Group 45 - 50 :: Males ::  20637 0.013
+InorganicPhosphate :: Counts :: Age Group 50 - 55 :: Males ::  24931 0.015
+InorganicPhosphate :: Counts :: Age Group 55 - 60 :: Males ::  28726 0.018
+InorganicPhosphate :: Counts :: Age Group 60 - 65 :: Males ::  33692 0.021
+InorganicPhosphate :: Counts :: Age Group 65 - 70 :: Males ::  37508 0.023
+InorganicPhosphate :: Counts :: Age Group 70 - 75 :: Males ::  35749 0.022
+InorganicPhosphate :: Counts :: Age Group 75 - 80 :: Males ::  33763 0.021
+InorganicPhosphate :: Counts :: Age Group 80 - 85 :: Males ::  27353 0.017
+InorganicPhosphate :: Counts :: Age Group 85 - 90 :: Males ::  17626 0.011
+InorganicPhosphate :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+InorganicPhosphate :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+InorganicPhosphate :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+InorganicPhosphate :: Counts :: Age Group 20 - 25 :: Females ::  13129 0.006
+InorganicPhosphate :: Counts :: Age Group 25 - 30 :: Females ::  15530 0.007
+InorganicPhosphate :: Counts :: Age Group 30 - 35 :: Females ::  18259 0.008
+InorganicPhosphate :: Counts :: Age Group 35 - 40 :: Females ::  21361 0.009
+InorganicPhosphate :: Counts :: Age Group 40 - 45 :: Females ::  27131 0.011
+InorganicPhosphate :: Counts :: Age Group 45 - 50 :: Females ::  32553 0.014
+InorganicPhosphate :: Counts :: Age Group 50 - 55 :: Females ::  36226 0.015
+InorganicPhosphate :: Counts :: Age Group 55 - 60 :: Females ::  37814 0.016
+InorganicPhosphate :: Counts :: Age Group 60 - 65 :: Females ::  41175 0.017
+InorganicPhosphate :: Counts :: Age Group 65 - 70 :: Females ::  44381 0.019
+InorganicPhosphate :: Counts :: Age Group 70 - 75 :: Females ::  42864 0.018
+InorganicPhosphate :: Counts :: Age Group 75 - 80 :: Females ::  43255 0.018
+InorganicPhosphate :: Counts :: Age Group 80 - 85 :: Females ::  38891 0.016
+InorganicPhosphate :: Counts :: Age Group 85 - 90 :: Females ::  29340 0.012
+InorganicPhosphate :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+InorganicPhosphate :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+InorganicPhosphate :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+InorganicPhosphate :: Stats :: Age Group 20 - 25 :: All ::  N 77849 non-zeros 77848 Median   1.12 Mean   1.12 Std   0.20 Max   2.64
+InorganicPhosphate :: Stats :: Age Group 25 - 30 :: All ::  N 91105 non-zeros 91103 Median   1.09 Mean   1.09 Std   0.20 Max   3.80
+InorganicPhosphate :: Stats :: Age Group 30 - 35 :: All ::  N 105292 non-zeros 105287 Median   1.07 Mean   1.07 Std   0.20 Max   2.64
+InorganicPhosphate :: Stats :: Age Group 35 - 40 :: All ::  N 122898 non-zeros 122896 Median   1.07 Mean   1.07 Std   0.20 Max   2.80
+InorganicPhosphate :: Stats :: Age Group 40 - 45 :: All ::  N 151319 non-zeros 151314 Median   1.06 Mean   1.06 Std   0.19 Max   2.65
+InorganicPhosphate :: Stats :: Age Group 45 - 50 :: All ::  N 170547 non-zeros 170544 Median   1.06 Mean   1.06 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats :: Age Group 50 - 55 :: All ::  N 180225 non-zeros 180217 Median   1.08 Mean   1.08 Std   0.20 Max   2.64
+InorganicPhosphate :: Stats :: Age Group 55 - 60 :: All ::  N 185934 non-zeros 185927 Median   1.09 Mean   1.09 Std   0.20 Max   2.64
+InorganicPhosphate :: Stats :: Age Group 60 - 65 :: All ::  N 194122 non-zeros 194117 Median   1.09 Mean   1.09 Std   0.20 Max   4.00
+InorganicPhosphate :: Stats :: Age Group 65 - 70 :: All ::  N 191467 non-zeros 191457 Median   1.09 Mean   1.09 Std   0.20 Max   2.80
+InorganicPhosphate :: Stats :: Age Group 70 - 75 :: All ::  N 177000 non-zeros 176992 Median   1.09 Mean   1.09 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats :: Age Group 75 - 80 :: All ::  N 165037 non-zeros 165027 Median   1.10 Mean   1.10 Std   0.20 Max   3.00
+InorganicPhosphate :: Stats :: Age Group 80 - 85 :: All ::  N 137278 non-zeros 137269 Median   1.10 Mean   1.11 Std   0.20 Max   3.60
+InorganicPhosphate :: Stats :: Age Group 85 - 90 :: All ::  N 89879 non-zeros 89875 Median   1.12 Mean   1.12 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats :: Age Group 90 - 95 :: All ::  N 38848 non-zeros 38847 Median   1.13 Mean   1.13 Std   0.20 Max   2.64
+InorganicPhosphate :: Stats :: Age Group 95 - 100 :: All ::  N 9062 non-zeros 9062 Median   1.13 Mean   1.14 Std   0.20 Max   2.64
+InorganicPhosphate :: General :: All     :: outliers ratio 0.000011
+InorganicPhosphate :: General :: All     :: N 1528872 non-zeros 1528793 Median   1.09 Mean   1.09 Std   0.20 Max   3.80
+InorganicPhosphate :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.42   0.63   0.78   1.40   1.59   2.11
+InorganicPhosphate :: General :: All     :: quartiles ::   0.42   0.96   1.09   1.21 
+InorganicPhosphate :: General :: Males   :: outliers ratio 0.000014
+InorganicPhosphate :: General :: Males   :: N 633964 non-zeros 633934 Median   1.02 Mean   1.03 Std   0.20 Max   3.00
+InorganicPhosphate :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.38   0.60   0.73   1.36   1.56   2.15
+InorganicPhosphate :: General :: Males   :: quartiles ::   0.38   0.90   1.02   1.15 
+InorganicPhosphate :: General :: Females :: outliers ratio 0.000010
+InorganicPhosphate :: General :: Females :: N 894907 non-zeros 894866 Median   1.12 Mean   1.13 Std   0.19 Max   3.80
+InorganicPhosphate :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.47   0.69   0.82   1.42   1.60   2.07
+InorganicPhosphate :: General :: Females :: quartiles ::   0.47   1.00   1.12   1.24 
+InorganicPhosphate :: Rounding ::  0.00 r  0.23 pct
+InorganicPhosphate :: Rounding ::  0.01 r  0.63 pct
+InorganicPhosphate :: Rounding ::  0.10 r  0.11 pct
+InorganicPhosphate :: Rounding ::  1.00 r  0.03 pct
+InorganicPhosphate :: Rounding :: 10.00 r  0.00 pct
+InorganicPhosphate :: Rounding :: 100.00 r  0.00 pct
+InorganicPhosphate :: Rounding :: 1000.00 r  0.00 pct
+InorganicPhosphate :: Rounding :: most popular rounding for vals:  0.01
+InorganicPhosphate :: Stats year :: 2000 :: All :: N 26718 non-zeros 26695 Median   1.08 Mean   1.08 Std   0.21 Max   2.61
+InorganicPhosphate :: Stats year :: 2001 :: All :: N 43322 non-zeros 43302 Median   1.08 Mean   1.08 Std   0.21 Max   2.64
+InorganicPhosphate :: Stats year :: 2002 :: All :: N 61777 non-zeros 61765 Median   1.08 Mean   1.09 Std   0.22 Max   2.62
+InorganicPhosphate :: Stats year :: 2003 :: All :: N 100837 non-zeros 100820 Median   1.09 Mean   1.09 Std   0.20 Max   2.64
+InorganicPhosphate :: Stats year :: 2004 :: All :: N 134542 non-zeros 134538 Median   1.08 Mean   1.08 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats year :: 2005 :: All :: N 156014 non-zeros 156013 Median   1.08 Mean   1.08 Std   0.20 Max   3.80
+InorganicPhosphate :: Stats year :: 2006 :: All :: N 181609 non-zeros 181606 Median   1.10 Mean   1.11 Std   0.20 Max   3.70
+InorganicPhosphate :: Stats year :: 2007 :: All :: N 196253 non-zeros 196252 Median   1.10 Mean   1.11 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats year :: 2008 :: All :: N 229494 non-zeros 229492 Median   1.10 Mean   1.10 Std   0.20 Max   4.10
+InorganicPhosphate :: Stats year :: 2009 :: All :: N 238736 non-zeros 238734 Median   1.10 Mean   1.10 Std   0.20 Max   3.66
+InorganicPhosphate :: Stats year :: 2010 :: All :: N 246278 non-zeros 246277 Median   1.10 Mean   1.10 Std   0.20 Max   4.00
+InorganicPhosphate :: Stats year :: 2011 :: All :: N 263984 non-zeros 263984 Median   1.09 Mean   1.09 Std   0.20 Max   3.03
+InorganicPhosphate :: Stats year :: 2012 :: All :: N 284925 non-zeros 284922 Median   1.10 Mean   1.10 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats year :: 2013 :: All :: N 295003 non-zeros 295002 Median   1.09 Mean   1.09 Std   0.20 Max   3.00
+InorganicPhosphate :: Stats year :: 2014 :: All :: N 280828 non-zeros 280828 Median   1.07 Mean   1.07 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats year :: 2015 :: All :: N 254300 non-zeros 254300 Median   1.07 Mean   1.07 Std   0.19 Max   2.80
+InorganicPhosphate :: Stats year :: 2016 :: All :: N 10548 non-zeros 10548 Median   1.09 Mean   1.09 Std   0.19 Max   2.50
+InorganicPhosphate :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+InorganicPhosphate :: Stats year :: 2000 :: Males   :: N 10994 non-zeros 10987 Median   1.01 Mean   1.03 Std   0.21 Max   2.57
+InorganicPhosphate :: Stats year :: 2001 :: Males   :: N 17555 non-zeros 17544 Median   1.01 Mean   1.03 Std   0.21 Max   2.56
+InorganicPhosphate :: Stats year :: 2002 :: Males   :: N 25158 non-zeros 25152 Median   1.02 Mean   1.04 Std   0.22 Max   2.62
+InorganicPhosphate :: Stats year :: 2003 :: Males   :: N 41365 non-zeros 41360 Median   1.02 Mean   1.03 Std   0.20 Max   2.64
+InorganicPhosphate :: Stats year :: 2004 :: Males   :: N 55772 non-zeros 55769 Median   1.01 Mean   1.03 Std   0.20 Max   2.62
+InorganicPhosphate :: Stats year :: 2005 :: Males   :: N 64666 non-zeros 64665 Median   1.01 Mean   1.03 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats year :: 2006 :: Males   :: N 75065 non-zeros 75064 Median   1.04 Mean   1.05 Std   0.20 Max   3.00
+InorganicPhosphate :: Stats year :: 2007 :: Males   :: N 81849 non-zeros 81848 Median   1.04 Mean   1.05 Std   0.20 Max   2.63
+InorganicPhosphate :: Stats year :: 2008 :: Males   :: N 95848 non-zeros 95847 Median   1.03 Mean   1.04 Std   0.20 Max   3.94
+InorganicPhosphate :: Stats year :: 2009 :: Males   :: N 99020 non-zeros 99020 Median   1.03 Mean   1.04 Std   0.20 Max   3.74
+InorganicPhosphate :: Stats year :: 2010 :: Males   :: N 101629 non-zeros 101627 Median   1.03 Mean   1.04 Std   0.20 Max   3.00
+InorganicPhosphate :: Stats year :: 2011 :: Males   :: N 107366 non-zeros 107366 Median   1.03 Mean   1.03 Std   0.20 Max   3.49
+InorganicPhosphate :: Stats year :: 2012 :: Males   :: N 115679 non-zeros 115678 Median   1.03 Mean   1.04 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats year :: 2013 :: Males   :: N 117993 non-zeros 117992 Median   1.02 Mean   1.03 Std   0.20 Max   3.00
+InorganicPhosphate :: Stats year :: 2014 :: Males   :: N 110205 non-zeros 110205 Median   1.00 Mean   1.01 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats year :: 2015 :: Males   :: N 100209 non-zeros 100209 Median   1.00 Mean   1.01 Std   0.19 Max   2.80
+InorganicPhosphate :: Stats year :: 2016 :: Males   :: N 4210 non-zeros 4210 Median   1.03 Mean   1.04 Std   0.20 Max   2.50
+InorganicPhosphate :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+InorganicPhosphate :: Stats year :: 2000 :: Females :: N 15724 non-zeros 15708 Median   1.11 Mean   1.12 Std   0.20 Max   2.61
+InorganicPhosphate :: Stats year :: 2001 :: Females :: N 25767 non-zeros 25758 Median   1.11 Mean   1.12 Std   0.20 Max   2.64
+InorganicPhosphate :: Stats year :: 2002 :: Females :: N 36619 non-zeros 36614 Median   1.12 Mean   1.13 Std   0.21 Max   2.60
+InorganicPhosphate :: Stats year :: 2003 :: Females :: N 59473 non-zeros 59461 Median   1.12 Mean   1.13 Std   0.19 Max   2.65
+InorganicPhosphate :: Stats year :: 2004 :: Females :: N 78770 non-zeros 78768 Median   1.12 Mean   1.13 Std   0.19 Max   2.65
+InorganicPhosphate :: Stats year :: 2005 :: Females :: N 91348 non-zeros 91348 Median   1.12 Mean   1.13 Std   0.19 Max   3.80
+InorganicPhosphate :: Stats year :: 2006 :: Females :: N 106544 non-zeros 106543 Median   1.15 Mean   1.15 Std   0.19 Max   3.70
+InorganicPhosphate :: Stats year :: 2007 :: Females :: N 114403 non-zeros 114403 Median   1.15 Mean   1.15 Std   0.19 Max   2.65
+InorganicPhosphate :: Stats year :: 2008 :: Females :: N 133645 non-zeros 133645 Median   1.14 Mean   1.14 Std   0.19 Max   3.60
+InorganicPhosphate :: Stats year :: 2009 :: Females :: N 139717 non-zeros 139716 Median   1.14 Mean   1.14 Std   0.19 Max   3.66
+InorganicPhosphate :: Stats year :: 2010 :: Females :: N 144648 non-zeros 144648 Median   1.14 Mean   1.14 Std   0.19 Max   3.90
+InorganicPhosphate :: Stats year :: 2011 :: Females :: N 156620 non-zeros 156620 Median   1.13 Mean   1.13 Std   0.19 Max   2.93
+InorganicPhosphate :: Stats year :: 2012 :: Females :: N 169247 non-zeros 169246 Median   1.13 Mean   1.14 Std   0.19 Max   3.61
+InorganicPhosphate :: Stats year :: 2013 :: Females :: N 177010 non-zeros 177010 Median   1.12 Mean   1.13 Std   0.19 Max   2.65
+InorganicPhosphate :: Stats year :: 2014 :: Females :: N 170623 non-zeros 170623 Median   1.11 Mean   1.11 Std   0.18 Max   2.65
+InorganicPhosphate :: Stats year :: 2015 :: Females :: N 154091 non-zeros 154091 Median   1.11 Mean   1.11 Std   0.18 Max   2.63
+InorganicPhosphate :: Stats year :: 2016 :: Females :: N 6338 non-zeros 6338 Median   1.13 Mean   1.13 Std   0.18 Max   2.12
+InorganicPhosphate :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+InorganicPhosphate :: Stats month 1 :: All :: N 203509 non-zeros 203501 Median   1.10 Mean   1.10 Std   0.20 Max   3.32
+InorganicPhosphate :: Stats month 2 :: All :: N 188623 non-zeros 188614 Median   1.09 Mean   1.09 Std   0.20 Max   3.90
+InorganicPhosphate :: Stats month 3 :: All :: N 208162 non-zeros 208155 Median   1.09 Mean   1.09 Std   0.20 Max   3.82
+InorganicPhosphate :: Stats month 4 :: All :: N 192616 non-zeros 192613 Median   1.09 Mean   1.09 Std   0.20 Max   2.80
+InorganicPhosphate :: Stats month 5 :: All :: N 199469 non-zeros 199458 Median   1.09 Mean   1.09 Std   0.20 Max   3.00
+InorganicPhosphate :: Stats month 6 :: All :: N 205543 non-zeros 205533 Median   1.09 Mean   1.09 Std   0.21 Max   3.80
+InorganicPhosphate :: Stats month 7 :: All :: N 209603 non-zeros 209596 Median   1.09 Mean   1.09 Std   0.21 Max   2.80
+InorganicPhosphate :: Stats month 8 :: All :: N 192015 non-zeros 192010 Median   1.09 Mean   1.09 Std   0.20 Max   2.65
+InorganicPhosphate :: Stats month 9 :: All :: N 205223 non-zeros 205212 Median   1.08 Mean   1.08 Std   0.20 Max   3.49
+InorganicPhosphate :: Stats month 10 :: All :: N 210072 non-zeros 210065 Median   1.09 Mean   1.09 Std   0.20 Max   3.40
+InorganicPhosphate :: Stats month 11 :: All :: N 201132 non-zeros 201124 Median   1.09 Mean   1.09 Std   0.20 Max   3.52
+InorganicPhosphate :: Stats month 12 :: All :: N 167675 non-zeros 167675 Median   1.09 Mean   1.09 Std   0.20 Max   2.64
+

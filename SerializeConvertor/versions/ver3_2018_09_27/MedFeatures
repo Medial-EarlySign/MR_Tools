@@ -1,0 +1,4 @@
+data	map<string,vector<float>>
+weights	vector<float>
+samples	vector<MedSample>
+attributes	map<string, FeatureAttr>

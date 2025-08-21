@@ -1,0 +1,162 @@
+Cholesterol :: All :: With Values :: 934764 / 1279479 =  0.73 :: 934764 / 934764 =  1.00
+Cholesterol :: Males :: With Values :: 441305 / 622859 =  0.71 :: 441305 / 934764 =  0.47
+Cholesterol :: Females :: With Values :: 493459 / 656620 =  0.75 :: 493459 / 934764 =  0.53
+Cholesterol :: General :: No. of Values :: All 9985602 Male 4454313 Female 5531289
+Cholesterol :: General :: No. of different days Values :: All 9984312 Male 4453709 Female 5530603
+Cholesterol :: General :: Avg #values per person (all) :: All  7.80 Male  7.15 Female  8.42
+Cholesterol :: General :: Avg #values per person (>0)  :: All 10.68 Male 10.09 Female 11.21
+Cholesterol :: General :: Avg dist between tests       :: All  339.7 Male  341.6 Female  338.2
+Cholesterol :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Cholesterol :: Counts :: Age Group 25 - 30 :: All ::   1698 0.000
+Cholesterol :: Counts :: Age Group 30 - 35 :: All ::  47252 0.005
+Cholesterol :: Counts :: Age Group 35 - 40 :: All :: 116916 0.012
+Cholesterol :: Counts :: Age Group 40 - 45 :: All :: 198990 0.020
+Cholesterol :: Counts :: Age Group 45 - 50 :: All :: 211177 0.021
+Cholesterol :: Counts :: Age Group 50 - 55 :: All :: 235483 0.024
+Cholesterol :: Counts :: Age Group 55 - 60 :: All :: 256105 0.026
+Cholesterol :: Counts :: Age Group 60 - 65 :: All :: 241002 0.024
+Cholesterol :: Counts :: Age Group 65 - 70 :: All :: 216184 0.022
+Cholesterol :: Counts :: Age Group 70 - 75 :: All :: 165371 0.017
+Cholesterol :: Counts :: Age Group 75 - 80 :: All :: 138312 0.014
+Cholesterol :: Counts :: Age Group 80 - 85 :: All ::  92301 0.009
+Cholesterol :: Counts :: Age Group 85 - 90 :: All ::  52146 0.005
+Cholesterol :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Cholesterol :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Cholesterol :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Cholesterol :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Cholesterol :: Counts :: Age Group 25 - 30 :: Males ::    487 0.000
+Cholesterol :: Counts :: Age Group 30 - 35 :: Males ::  17194 0.004
+Cholesterol :: Counts :: Age Group 35 - 40 :: Males ::  48690 0.011
+Cholesterol :: Counts :: Age Group 40 - 45 :: Males ::  88805 0.020
+Cholesterol :: Counts :: Age Group 45 - 50 :: Males ::  97651 0.022
+Cholesterol :: Counts :: Age Group 50 - 55 :: Males :: 108386 0.024
+Cholesterol :: Counts :: Age Group 55 - 60 :: Males :: 115066 0.026
+Cholesterol :: Counts :: Age Group 60 - 65 :: Males :: 109848 0.025
+Cholesterol :: Counts :: Age Group 65 - 70 :: Males ::  98425 0.022
+Cholesterol :: Counts :: Age Group 70 - 75 :: Males ::  76298 0.017
+Cholesterol :: Counts :: Age Group 75 - 80 :: Males ::  62122 0.014
+Cholesterol :: Counts :: Age Group 80 - 85 :: Males ::  39472 0.009
+Cholesterol :: Counts :: Age Group 85 - 90 :: Males ::  20664 0.005
+Cholesterol :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Cholesterol :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Cholesterol :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Cholesterol :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Cholesterol :: Counts :: Age Group 25 - 30 :: Females ::   1211 0.000
+Cholesterol :: Counts :: Age Group 30 - 35 :: Females ::  30058 0.005
+Cholesterol :: Counts :: Age Group 35 - 40 :: Females ::  68226 0.012
+Cholesterol :: Counts :: Age Group 40 - 45 :: Females :: 110185 0.020
+Cholesterol :: Counts :: Age Group 45 - 50 :: Females :: 113526 0.021
+Cholesterol :: Counts :: Age Group 50 - 55 :: Females :: 127097 0.023
+Cholesterol :: Counts :: Age Group 55 - 60 :: Females :: 141039 0.025
+Cholesterol :: Counts :: Age Group 60 - 65 :: Females :: 131154 0.024
+Cholesterol :: Counts :: Age Group 65 - 70 :: Females :: 117759 0.021
+Cholesterol :: Counts :: Age Group 70 - 75 :: Females ::  89073 0.016
+Cholesterol :: Counts :: Age Group 75 - 80 :: Females ::  76190 0.014
+Cholesterol :: Counts :: Age Group 80 - 85 :: Females ::  52829 0.010
+Cholesterol :: Counts :: Age Group 85 - 90 :: Females ::  31482 0.006
+Cholesterol :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Cholesterol :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Cholesterol :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Cholesterol :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats :: Age Group 25 - 30 :: All ::  N 50673 non-zeros 50641 Median 177.40 Mean 180.93 Std  36.73 Max 670.00
+Cholesterol :: Stats :: Age Group 30 - 35 :: All ::  N 166157 non-zeros 166081 Median 183.00 Mean 186.02 Std  37.20 Max 725.00
+Cholesterol :: Stats :: Age Group 35 - 40 :: All ::  N 297334 non-zeros 297166 Median 187.00 Mean 189.76 Std  37.15 Max 714.00
+Cholesterol :: Stats :: Age Group 40 - 45 :: All ::  N 373824 non-zeros 373556 Median 192.00 Mean 194.96 Std  37.26 Max 720.00
+Cholesterol :: Stats :: Age Group 45 - 50 :: All ::  N 341831 non-zeros 341499 Median 199.80 Mean 201.62 Std  38.22 Max 711.00
+Cholesterol :: Stats :: Age Group 50 - 55 :: All ::  N 317269 non-zeros 317045 Median 205.00 Mean 206.81 Std  39.77 Max 697.00
+Cholesterol :: Stats :: Age Group 55 - 60 :: All ::  N 275440 non-zeros 275210 Median 204.00 Mean 205.66 Std  41.25 Max 669.00
+Cholesterol :: Stats :: Age Group 60 - 65 :: All ::  N 233151 non-zeros 232946 Median 199.00 Mean 201.19 Std  42.18 Max 826.00
+Cholesterol :: Stats :: Age Group 65 - 70 :: All ::  N 183806 non-zeros 183659 Median 195.00 Mean 196.73 Std  42.61 Max 608.00
+Cholesterol :: Stats :: Age Group 70 - 75 :: All ::  N 129672 non-zeros 129565 Median 190.00 Mean 192.61 Std  42.61 Max 733.00
+Cholesterol :: Stats :: Age Group 75 - 80 :: All ::  N 101193 non-zeros 101116 Median 186.00 Mean 189.72 Std  43.23 Max 747.00
+Cholesterol :: Stats :: Age Group 80 - 85 :: All ::  N 63871 non-zeros 63799 Median 185.00 Mean 188.32 Std  44.09 Max 599.00
+Cholesterol :: Stats :: Age Group 85 - 90 :: All ::  N 36075 non-zeros 36019 Median 184.00 Mean 187.47 Std  45.25 Max 478.00
+Cholesterol :: Stats :: Age Group 90 - 95 :: All ::  N 14807 non-zeros 14775 Median 184.00 Mean 187.06 Std  45.77 Max 508.00
+Cholesterol :: Stats :: Age Group 95 - 100 :: All ::  N 3636 non-zeros 3621 Median 182.00 Mean 184.27 Std  46.18 Max 464.00
+Cholesterol :: General :: All     :: outliers ratio 0.000004
+Cholesterol :: General :: All     :: N 934683 non-zeros 933722 Median 194.00 Mean 196.45 Std  40.76 Max 757.00
+Cholesterol :: General :: All     :: distribution 0.001,0.01,0.05 ::  88.00 114.00 136.00 266.00 305.00 367.00
+Cholesterol :: General :: All     :: quartiles ::  88.00 169.00 194.00 221.00 
+Cholesterol :: General :: Males   :: outliers ratio 0.000000
+Cholesterol :: General :: Males   :: N 441285 non-zeros 440704 Median 191.00 Mean 192.59 Std  40.82 Max 757.00
+Cholesterol :: General :: Males   :: distribution 0.001,0.01,0.05 ::  84.00 109.00 131.00 261.00 299.00 360.00
+Cholesterol :: General :: Males   :: quartiles ::  84.00 165.00 191.00 218.00 
+Cholesterol :: General :: Females :: outliers ratio 0.000002
+Cholesterol :: General :: Females :: N 493401 non-zeros 492997 Median 197.00 Mean 199.84 Std  40.41 Max 748.60
+Cholesterol :: General :: Females :: distribution 0.001,0.01,0.05 ::  95.00 120.00 141.00 269.00 309.00 375.00
+Cholesterol :: General :: Females :: quartiles ::  95.00 172.00 197.00 224.00 
+Cholesterol :: Rounding ::  0.00 r  0.00 pct
+Cholesterol :: Rounding ::  0.01 r  0.00 pct
+Cholesterol :: Rounding ::  0.10 r  0.03 pct
+Cholesterol :: Rounding ::  1.00 r  0.87 pct
+Cholesterol :: Rounding :: 10.00 r  0.09 pct
+Cholesterol :: Rounding :: 100.00 r  0.01 pct
+Cholesterol :: Rounding :: 1000.00 r  0.00 pct
+Cholesterol :: Rounding :: most popular rounding for vals:  1.00
+Cholesterol :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats year :: 2001 :: All :: N 328071 non-zeros 327774 Median 202.00 Mean 204.07 Std  40.22 Max 725.00
+Cholesterol :: Stats year :: 2002 :: All :: N 332006 non-zeros 331830 Median 197.30 Mean 199.62 Std  40.05 Max 796.00
+Cholesterol :: Stats year :: 2003 :: All :: N 359396 non-zeros 359210 Median 203.00 Mean 205.47 Std  41.05 Max 760.00
+Cholesterol :: Stats year :: 2004 :: All :: N 396037 non-zeros 395805 Median 202.00 Mean 204.91 Std  40.48 Max 698.00
+Cholesterol :: Stats year :: 2005 :: All :: N 418694 non-zeros 418491 Median 201.00 Mean 203.81 Std  40.35 Max 757.00
+Cholesterol :: Stats year :: 2006 :: All :: N 440624 non-zeros 440429 Median 198.00 Mean 200.52 Std  39.81 Max 684.00
+Cholesterol :: Stats year :: 2007 :: All :: N 456264 non-zeros 456101 Median 194.00 Mean 196.82 Std  39.33 Max 724.00
+Cholesterol :: Stats year :: 2008 :: All :: N 462656 non-zeros 462469 Median 192.00 Mean 194.40 Std  38.79 Max 560.00
+Cholesterol :: Stats year :: 2009 :: All :: N 496402 non-zeros 496167 Median 191.00 Mean 193.57 Std  38.95 Max 726.00
+Cholesterol :: Stats year :: 2010 :: All :: N 492833 non-zeros 492561 Median 190.00 Mean 192.71 Std  39.22 Max 670.00
+Cholesterol :: Stats year :: 2011 :: All :: N 503385 non-zeros 503176 Median 190.00 Mean 192.38 Std  39.35 Max 771.00
+Cholesterol :: Stats year :: 2012 :: All :: N 513860 non-zeros 513634 Median 191.00 Mean 193.56 Std  40.08 Max 747.00
+Cholesterol :: Stats year :: 2013 :: All :: N 522364 non-zeros 521988 Median 192.00 Mean 194.46 Std  40.85 Max 733.00
+Cholesterol :: Stats year :: 2014 :: All :: N 506782 non-zeros 506391 Median 193.00 Mean 194.89 Std  41.78 Max 749.00
+Cholesterol :: Stats year :: 2015 :: All :: N 404498 non-zeros 403985 Median 191.00 Mean 192.72 Std  43.04 Max 633.00
+Cholesterol :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats year :: 2001 :: Males   :: N 135801 non-zeros 135670 Median 199.00 Mean 200.74 Std  39.36 Max 752.00
+Cholesterol :: Stats year :: 2002 :: Males   :: N 140220 non-zeros 140141 Median 193.90 Mean 195.76 Std  39.22 Max 761.00
+Cholesterol :: Stats year :: 2003 :: Males   :: N 152179 non-zeros 152106 Median 199.00 Mean 200.99 Std  39.98 Max 714.00
+Cholesterol :: Stats year :: 2004 :: Males   :: N 169360 non-zeros 169264 Median 198.00 Mean 200.59 Std  39.87 Max 693.00
+Cholesterol :: Stats year :: 2005 :: Males   :: N 181470 non-zeros 181375 Median 197.00 Mean 199.19 Std  40.15 Max 757.00
+Cholesterol :: Stats year :: 2006 :: Males   :: N 192834 non-zeros 192719 Median 193.00 Mean 195.59 Std  40.02 Max 684.00
+Cholesterol :: Stats year :: 2007 :: Males   :: N 201089 non-zeros 200992 Median 189.00 Mean 191.52 Std  39.58 Max 724.00
+Cholesterol :: Stats year :: 2008 :: Males   :: N 204227 non-zeros 204147 Median 186.00 Mean 188.73 Std  38.88 Max 557.00
+Cholesterol :: Stats year :: 2009 :: Males   :: N 221190 non-zeros 221067 Median 185.00 Mean 187.72 Std  39.14 Max 726.00
+Cholesterol :: Stats year :: 2010 :: Males   :: N 220543 non-zeros 220412 Median 184.00 Mean 186.42 Std  39.28 Max 670.00
+Cholesterol :: Stats year :: 2011 :: Males   :: N 225499 non-zeros 225390 Median 184.00 Mean 185.84 Std  39.43 Max 671.00
+Cholesterol :: Stats year :: 2012 :: Males   :: N 231608 non-zeros 231500 Median 184.00 Mean 186.52 Std  40.08 Max 685.00
+Cholesterol :: Stats year :: 2013 :: Males   :: N 235876 non-zeros 235659 Median 185.00 Mean 186.94 Std  40.86 Max 657.00
+Cholesterol :: Stats year :: 2014 :: Males   :: N 230482 non-zeros 230229 Median 184.00 Mean 186.81 Std  41.75 Max 749.00
+Cholesterol :: Stats year :: 2015 :: Males   :: N 189837 non-zeros 189481 Median 181.00 Mean 183.18 Std  42.92 Max 826.00
+Cholesterol :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats year :: 2001 :: Females :: N 192268 non-zeros 192087 Median 204.00 Mean 206.40 Std  40.76 Max 723.00
+Cholesterol :: Stats year :: 2002 :: Females :: N 191785 non-zeros 191675 Median 200.10 Mean 202.48 Std  40.46 Max 796.00
+Cholesterol :: Stats year :: 2003 :: Females :: N 207216 non-zeros 207116 Median 206.00 Mean 208.72 Std  41.43 Max 695.00
+Cholesterol :: Stats year :: 2004 :: Females :: N 226678 non-zeros 226533 Median 206.00 Mean 208.15 Std  40.61 Max 698.00
+Cholesterol :: Stats year :: 2005 :: Females :: N 237224 non-zeros 237135 Median 205.00 Mean 207.42 Std  40.12 Max 761.00
+Cholesterol :: Stats year :: 2006 :: Females :: N 247790 non-zeros 247704 Median 202.00 Mean 204.32 Std  39.26 Max 616.00
+Cholesterol :: Stats year :: 2007 :: Females :: N 255174 non-zeros 255104 Median 198.00 Mean 200.91 Std  38.55 Max 693.00
+Cholesterol :: Stats year :: 2008 :: Females :: N 258429 non-zeros 258342 Median 196.00 Mean 198.89 Std  38.07 Max 635.00
+Cholesterol :: Stats year :: 2009 :: Females :: N 275212 non-zeros 275107 Median 196.00 Mean 198.28 Std  38.14 Max 590.00
+Cholesterol :: Stats year :: 2010 :: Females :: N 272290 non-zeros 272176 Median 195.00 Mean 197.85 Std  38.31 Max 591.00
+Cholesterol :: Stats year :: 2011 :: Females :: N 277887 non-zeros 277788 Median 195.00 Mean 197.70 Std  38.42 Max 731.00
+Cholesterol :: Stats year :: 2012 :: Females :: N 282252 non-zeros 282124 Median 197.00 Mean 199.28 Std  39.06 Max 678.00
+Cholesterol :: Stats year :: 2013 :: Females :: N 286485 non-zeros 286338 Median 198.00 Mean 200.62 Std  39.68 Max 603.00
+Cholesterol :: Stats year :: 2014 :: Females :: N 276300 non-zeros 276151 Median 199.00 Mean 201.65 Std  40.68 Max 764.00
+Cholesterol :: Stats year :: 2015 :: Females :: N 214663 non-zeros 214502 Median 199.00 Mean 201.18 Std  41.40 Max 646.00
+Cholesterol :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol :: Stats month 1 :: All :: N 309874 non-zeros 309609 Median 193.00 Mean 195.48 Std  41.00 Max 693.00
+Cholesterol :: Stats month 2 :: All :: N 301286 non-zeros 301025 Median 192.00 Mean 194.80 Std  40.98 Max 748.60
+Cholesterol :: Stats month 3 :: All :: N 307894 non-zeros 307621 Median 193.00 Mean 195.20 Std  41.16 Max 704.00
+Cholesterol :: Stats month 4 :: All :: N 288038 non-zeros 287783 Median 193.00 Mean 195.54 Std  41.31 Max 697.00
+Cholesterol :: Stats month 5 :: All :: N 338312 non-zeros 338028 Median 192.00 Mean 194.77 Std  41.15 Max 682.00
+Cholesterol :: Stats month 6 :: All :: N 332254 non-zeros 331977 Median 191.00 Mean 193.70 Std  41.24 Max 695.00
+Cholesterol :: Stats month 7 :: All :: N 338685 non-zeros 338385 Median 190.00 Mean 192.70 Std  41.11 Max 760.00
+Cholesterol :: Stats month 8 :: All :: N 322189 non-zeros 321892 Median 191.00 Mean 193.87 Std  41.52 Max 785.00
+Cholesterol :: Stats month 9 :: All :: N 273673 non-zeros 273462 Median 193.00 Mean 195.19 Std  41.96 Max 664.00
+Cholesterol :: Stats month 10 :: All :: N 320606 non-zeros 320364 Median 195.00 Mean 197.08 Std  41.83 Max 686.00
+Cholesterol :: Stats month 11 :: All :: N 311172 non-zeros 310937 Median 194.00 Mean 196.17 Std  41.29 Max 811.00
+Cholesterol :: Stats month 12 :: All :: N 294233 non-zeros 293975 Median 193.00 Mean 194.95 Std  41.04 Max 807.00
+

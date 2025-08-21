@@ -1,0 +1,162 @@
+Albumin :: All :: With Values :: 4353454 / 14446692 =  0.30 :: 4353454 / 4353454 =  1.00
+Albumin :: Males :: With Values :: 1926318 / 6889335 =  0.28 :: 1926318 / 4353454 =  0.44
+Albumin :: Females :: With Values :: 2427136 / 7557357 =  0.32 :: 2427136 / 4353454 =  0.56
+Albumin :: General :: No. of Values :: All 20802919 Male 9197710 Female 11605209
+Albumin :: General :: No. of different days Values :: All 20754133 Male 9176726 Female 11577407
+Albumin :: General :: Avg #values per person (all) :: All  1.44 Male  1.33 Female  1.53
+Albumin :: General :: Avg #values per person (>0)  :: All  4.77 Male  4.76 Female  4.77
+Albumin :: General :: Avg dist between tests       :: All  373.6 Male  366.9 Female  378.8
+Albumin :: Counts :: Age Group 20 - 25 :: All ::  89088 0.004
+Albumin :: Counts :: Age Group 25 - 30 :: All :: 105839 0.005
+Albumin :: Counts :: Age Group 30 - 35 :: All :: 130492 0.006
+Albumin :: Counts :: Age Group 35 - 40 :: All :: 159685 0.008
+Albumin :: Counts :: Age Group 40 - 45 :: All :: 218503 0.011
+Albumin :: Counts :: Age Group 45 - 50 :: All :: 274087 0.013
+Albumin :: Counts :: Age Group 50 - 55 :: All :: 326619 0.016
+Albumin :: Counts :: Age Group 55 - 60 :: All :: 369954 0.018
+Albumin :: Counts :: Age Group 60 - 65 :: All :: 431198 0.021
+Albumin :: Counts :: Age Group 65 - 70 :: All :: 472319 0.023
+Albumin :: Counts :: Age Group 70 - 75 :: All :: 446491 0.021
+Albumin :: Counts :: Age Group 75 - 80 :: All :: 411019 0.020
+Albumin :: Counts :: Age Group 80 - 85 :: All :: 329213 0.016
+Albumin :: Counts :: Age Group 85 - 90 :: All :: 212674 0.010
+Albumin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Albumin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Albumin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Albumin :: Counts :: Age Group 20 - 25 :: Males ::  28727 0.003
+Albumin :: Counts :: Age Group 25 - 30 :: Males ::  34750 0.004
+Albumin :: Counts :: Age Group 30 - 35 :: Males ::  46812 0.005
+Albumin :: Counts :: Age Group 35 - 40 :: Males ::  62727 0.007
+Albumin :: Counts :: Age Group 40 - 45 :: Males ::  91762 0.010
+Albumin :: Counts :: Age Group 45 - 50 :: Males :: 121093 0.013
+Albumin :: Counts :: Age Group 50 - 55 :: Males :: 150978 0.016
+Albumin :: Counts :: Age Group 55 - 60 :: Males :: 176173 0.019
+Albumin :: Counts :: Age Group 60 - 65 :: Males :: 210922 0.023
+Albumin :: Counts :: Age Group 65 - 70 :: Males :: 232126 0.025
+Albumin :: Counts :: Age Group 70 - 75 :: Males :: 214910 0.023
+Albumin :: Counts :: Age Group 75 - 80 :: Males :: 186745 0.020
+Albumin :: Counts :: Age Group 80 - 85 :: Males :: 139932 0.015
+Albumin :: Counts :: Age Group 85 - 90 :: Males ::  81104 0.009
+Albumin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Albumin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Albumin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Albumin :: Counts :: Age Group 20 - 25 :: Females ::  60361 0.005
+Albumin :: Counts :: Age Group 25 - 30 :: Females ::  71089 0.006
+Albumin :: Counts :: Age Group 30 - 35 :: Females ::  83680 0.007
+Albumin :: Counts :: Age Group 35 - 40 :: Females ::  96958 0.008
+Albumin :: Counts :: Age Group 40 - 45 :: Females :: 126741 0.011
+Albumin :: Counts :: Age Group 45 - 50 :: Females :: 152994 0.013
+Albumin :: Counts :: Age Group 50 - 55 :: Females :: 175641 0.015
+Albumin :: Counts :: Age Group 55 - 60 :: Females :: 193781 0.017
+Albumin :: Counts :: Age Group 60 - 65 :: Females :: 220276 0.019
+Albumin :: Counts :: Age Group 65 - 70 :: Females :: 240193 0.021
+Albumin :: Counts :: Age Group 70 - 75 :: Females :: 231581 0.020
+Albumin :: Counts :: Age Group 75 - 80 :: Females :: 224274 0.019
+Albumin :: Counts :: Age Group 80 - 85 :: Females :: 189281 0.016
+Albumin :: Counts :: Age Group 85 - 90 :: Females :: 131570 0.011
+Albumin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Albumin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Albumin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Albumin :: Stats :: Age Group 20 - 25 :: All ::  N 303047 non-zeros 302777 Median   4.40 Mean   4.40 Std   0.45 Max  10.60
+Albumin :: Stats :: Age Group 25 - 30 :: All ::  N 345689 non-zeros 345340 Median   4.40 Mean   4.35 Std   0.46 Max   9.80
+Albumin :: Stats :: Age Group 30 - 35 :: All ::  N 395628 non-zeros 395261 Median   4.40 Mean   4.33 Std   0.45 Max  10.80
+Albumin :: Stats :: Age Group 35 - 40 :: All ::  N 454385 non-zeros 453949 Median   4.40 Mean   4.32 Std   0.43 Max  10.60
+Albumin :: Stats :: Age Group 40 - 45 :: All ::  N 548820 non-zeros 548313 Median   4.30 Mean   4.30 Std   0.40 Max  10.34
+Albumin :: Stats :: Age Group 45 - 50 :: All ::  N 603077 non-zeros 602457 Median   4.30 Mean   4.28 Std   0.41 Max  10.30
+Albumin :: Stats :: Age Group 50 - 55 :: All ::  N 629076 non-zeros 628462 Median   4.30 Mean   4.27 Std   0.41 Max  10.30
+Albumin :: Stats :: Age Group 55 - 60 :: All ::  N 649240 non-zeros 648604 Median   4.30 Mean   4.25 Std   0.41 Max  10.00
+Albumin :: Stats :: Age Group 60 - 65 :: All ::  N 660125 non-zeros 659391 Median   4.30 Mean   4.22 Std   0.41 Max  10.30
+Albumin :: Stats :: Age Group 65 - 70 :: All ::  N 630500 non-zeros 629844 Median   4.20 Mean   4.17 Std   0.42 Max  10.20
+Albumin :: Stats :: Age Group 70 - 75 :: All ::  N 553403 non-zeros 552801 Median   4.20 Mean   4.12 Std   0.43 Max  10.40
+Albumin :: Stats :: Age Group 75 - 80 :: All ::  N 480569 non-zeros 480064 Median   4.10 Mean   4.06 Std   0.45 Max  10.50
+Albumin :: Stats :: Age Group 80 - 85 :: All ::  N 378736 non-zeros 378398 Median   4.00 Mean   3.98 Std   0.47 Max  10.50
+Albumin :: Stats :: Age Group 85 - 90 :: All ::  N 239903 non-zeros 239700 Median   3.90 Mean   3.88 Std   0.50 Max  11.00
+Albumin :: Stats :: Age Group 90 - 95 :: All ::  N 106667 non-zeros 106597 Median   3.80 Mean   3.78 Std   0.52 Max  10.60
+Albumin :: Stats :: Age Group 95 - 100 :: All ::  N 25983 non-zeros 25966 Median   3.70 Mean   3.67 Std   0.52 Max   8.80
+Albumin :: General :: All     :: outliers ratio 0.000032
+Albumin :: General :: All     :: N 4014612 non-zeros 4010581 Median   4.30 Mean   4.21 Std   0.47 Max  11.10
+Albumin :: General :: All     :: distribution 0.001,0.01,0.05 ::   2.10   2.90   3.50   4.90   5.10   5.40
+Albumin :: General :: All     :: quartiles ::   2.10   4.00   4.30   4.50 
+Albumin :: General :: Males   :: outliers ratio 0.000036
+Albumin :: General :: Males   :: N 1781177 non-zeros 1779404 Median   4.30 Mean   4.27 Std   0.47 Max  11.10
+Albumin :: General :: Males   :: distribution 0.001,0.01,0.05 ::   2.10   2.90   3.50   4.90   5.10   5.40
+Albumin :: General :: Males   :: quartiles ::   2.10   4.00   4.30   4.60 
+Albumin :: General :: Females :: outliers ratio 0.000025
+Albumin :: General :: Females :: N 2233445 non-zeros 2231263 Median   4.20 Mean   4.16 Std   0.46 Max  11.10
+Albumin :: General :: Females :: distribution 0.001,0.01,0.05 ::   2.10   2.80   3.40   4.80   5.00   5.30
+Albumin :: General :: Females :: quartiles ::   2.10   3.90   4.20   4.50 
+Albumin :: Rounding ::  0.00 r  0.00 pct
+Albumin :: Rounding ::  0.01 r  0.16 pct
+Albumin :: Rounding ::  0.10 r  0.74 pct
+Albumin :: Rounding ::  1.00 r  0.09 pct
+Albumin :: Rounding :: 10.00 r  0.00 pct
+Albumin :: Rounding :: 100.00 r  0.00 pct
+Albumin :: Rounding :: 1000.00 r  0.00 pct
+Albumin :: Rounding :: most popular rounding for vals:  0.10
+Albumin :: Stats year :: 2000 :: All :: N 148982 non-zeros 148036 Median   4.10 Mean   4.06 Std   0.55 Max  10.34
+Albumin :: Stats year :: 2001 :: All :: N 243132 non-zeros 242452 Median   4.10 Mean   4.09 Std   0.47 Max  10.10
+Albumin :: Stats year :: 2002 :: All :: N 344150 non-zeros 343667 Median   4.18 Mean   4.11 Std   0.44 Max  10.30
+Albumin :: Stats year :: 2003 :: All :: N 515293 non-zeros 514627 Median   4.20 Mean   4.16 Std   0.43 Max   9.90
+Albumin :: Stats year :: 2004 :: All :: N 706356 non-zeros 705923 Median   4.20 Mean   4.21 Std   0.42 Max  10.50
+Albumin :: Stats year :: 2005 :: All :: N 831369 non-zeros 831162 Median   4.20 Mean   4.22 Std   0.40 Max  10.10
+Albumin :: Stats year :: 2006 :: All :: N 919622 non-zeros 919392 Median   4.30 Mean   4.23 Std   0.40 Max  10.20
+Albumin :: Stats year :: 2007 :: All :: N 988055 non-zeros 987859 Median   4.30 Mean   4.22 Std   0.41 Max   9.20
+Albumin :: Stats year :: 2008 :: All :: N 1049556 non-zeros 1048636 Median   4.30 Mean   4.23 Std   0.43 Max  10.30
+Albumin :: Stats year :: 2009 :: All :: N 1095247 non-zeros 1093007 Median   4.30 Mean   4.25 Std   0.46 Max  11.10
+Albumin :: Stats year :: 2010 :: All :: N 1113834 non-zeros 1110288 Median   4.20 Mean   4.20 Std   0.48 Max   9.10
+Albumin :: Stats year :: 2011 :: All :: N 1143494 non-zeros 1142622 Median   4.30 Mean   4.22 Std   0.43 Max   9.10
+Albumin :: Stats year :: 2012 :: All :: N 1156060 non-zeros 1156032 Median   4.30 Mean   4.22 Std   0.43 Max   9.00
+Albumin :: Stats year :: 2013 :: All :: N 1132816 non-zeros 1132787 Median   4.20 Mean   4.21 Std   0.44 Max   8.10
+Albumin :: Stats year :: 2014 :: All :: N 1044192 non-zeros 1044192 Median   4.20 Mean   4.18 Std   0.44 Max   7.50
+Albumin :: Stats year :: 2015 :: All :: N 903282 non-zeros 903281 Median   4.20 Mean   4.13 Std   0.43 Max   7.20
+Albumin :: Stats year :: 2016 :: All :: N 43320 non-zeros 43320 Median   4.10 Mean   4.10 Std   0.45 Max   5.80
+Albumin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Albumin :: Stats year :: 2000 :: Males   :: N 63928 non-zeros 63523 Median   4.20 Mean   4.11 Std   0.56 Max  10.34
+Albumin :: Stats year :: 2001 :: Males   :: N 106080 non-zeros 105774 Median   4.20 Mean   4.14 Std   0.48 Max  10.10
+Albumin :: Stats year :: 2002 :: Males   :: N 152404 non-zeros 152208 Median   4.20 Mean   4.16 Std   0.44 Max   8.30
+Albumin :: Stats year :: 2003 :: Males   :: N 230627 non-zeros 230297 Median   4.20 Mean   4.21 Std   0.43 Max   8.90
+Albumin :: Stats year :: 2004 :: Males   :: N 318528 non-zeros 318343 Median   4.30 Mean   4.25 Std   0.42 Max  10.50
+Albumin :: Stats year :: 2005 :: Males   :: N 374770 non-zeros 374684 Median   4.30 Mean   4.27 Std   0.40 Max  10.10
+Albumin :: Stats year :: 2006 :: Males   :: N 415715 non-zeros 415618 Median   4.30 Mean   4.28 Std   0.40 Max  10.20
+Albumin :: Stats year :: 2007 :: Males   :: N 448060 non-zeros 447984 Median   4.30 Mean   4.27 Std   0.41 Max   9.20
+Albumin :: Stats year :: 2008 :: Males   :: N 475475 non-zeros 475049 Median   4.30 Mean   4.27 Std   0.43 Max  10.30
+Albumin :: Stats year :: 2009 :: Males   :: N 495121 non-zeros 494085 Median   4.30 Mean   4.30 Std   0.46 Max  11.10
+Albumin :: Stats year :: 2010 :: Males   :: N 503803 non-zeros 502238 Median   4.30 Mean   4.25 Std   0.48 Max  10.40
+Albumin :: Stats year :: 2011 :: Males   :: N 514646 non-zeros 514221 Median   4.30 Mean   4.26 Std   0.43 Max  10.70
+Albumin :: Stats year :: 2012 :: Males   :: N 519623 non-zeros 519613 Median   4.30 Mean   4.26 Std   0.42 Max   9.00
+Albumin :: Stats year :: 2013 :: Males   :: N 507734 non-zeros 507726 Median   4.30 Mean   4.25 Std   0.44 Max   8.00
+Albumin :: Stats year :: 2014 :: Males   :: N 462515 non-zeros 462515 Median   4.30 Mean   4.22 Std   0.44 Max   7.40
+Albumin :: Stats year :: 2015 :: Males   :: N 398884 non-zeros 398884 Median   4.20 Mean   4.18 Std   0.43 Max   7.20
+Albumin :: Stats year :: 2016 :: Males   :: N 19162 non-zeros 19162 Median   4.20 Mean   4.14 Std   0.45 Max   5.60
+Albumin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Albumin :: Stats year :: 2000 :: Females :: N 85054 non-zeros 84514 Median   4.10 Mean   4.03 Std   0.54 Max  10.20
+Albumin :: Stats year :: 2001 :: Females :: N 137052 non-zeros 136689 Median   4.10 Mean   4.05 Std   0.46 Max   8.20
+Albumin :: Stats year :: 2002 :: Females :: N 191747 non-zeros 191490 Median   4.10 Mean   4.07 Std   0.43 Max  10.30
+Albumin :: Stats year :: 2003 :: Females :: N 284661 non-zeros 284329 Median   4.20 Mean   4.12 Std   0.42 Max   9.90
+Albumin :: Stats year :: 2004 :: Females :: N 387823 non-zeros 387565 Median   4.20 Mean   4.17 Std   0.42 Max  10.50
+Albumin :: Stats year :: 2005 :: Females :: N 456598 non-zeros 456475 Median   4.20 Mean   4.18 Std   0.40 Max  10.10
+Albumin :: Stats year :: 2006 :: Females :: N 503907 non-zeros 503774 Median   4.20 Mean   4.19 Std   0.40 Max   9.60
+Albumin :: Stats year :: 2007 :: Females :: N 539995 non-zeros 539896 Median   4.20 Mean   4.19 Std   0.41 Max   9.20
+Albumin :: Stats year :: 2008 :: Females :: N 574079 non-zeros 573576 Median   4.20 Mean   4.19 Std   0.43 Max   9.50
+Albumin :: Stats year :: 2009 :: Females :: N 600121 non-zeros 598861 Median   4.30 Mean   4.21 Std   0.46 Max  10.60
+Albumin :: Stats year :: 2010 :: Females :: N 610033 non-zeros 608048 Median   4.20 Mean   4.16 Std   0.48 Max   9.10
+Albumin :: Stats year :: 2011 :: Females :: N 628850 non-zeros 628357 Median   4.20 Mean   4.19 Std   0.43 Max   8.30
+Albumin :: Stats year :: 2012 :: Females :: N 636436 non-zeros 636411 Median   4.20 Mean   4.18 Std   0.42 Max  10.30
+Albumin :: Stats year :: 2013 :: Females :: N 625082 non-zeros 625065 Median   4.20 Mean   4.17 Std   0.43 Max   7.50
+Albumin :: Stats year :: 2014 :: Females :: N 581677 non-zeros 581676 Median   4.20 Mean   4.14 Std   0.44 Max   7.40
+Albumin :: Stats year :: 2015 :: Females :: N 504398 non-zeros 504397 Median   4.10 Mean   4.10 Std   0.43 Max   7.60
+Albumin :: Stats year :: 2016 :: Females :: N 24158 non-zeros 24158 Median   4.10 Mean   4.07 Std   0.44 Max   5.80
+Albumin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Albumin :: Stats month 1 :: All :: N 792781 non-zeros 791992 Median   4.20 Mean   4.18 Std   0.47 Max  10.80
+Albumin :: Stats month 2 :: All :: N 751084 non-zeros 750246 Median   4.20 Mean   4.19 Std   0.47 Max  10.10
+Albumin :: Stats month 3 :: All :: N 805426 non-zeros 804623 Median   4.20 Mean   4.19 Std   0.47 Max  11.10
+Albumin :: Stats month 4 :: All :: N 741389 non-zeros 740735 Median   4.20 Mean   4.18 Std   0.46 Max  11.00
+Albumin :: Stats month 5 :: All :: N 761582 non-zeros 760888 Median   4.20 Mean   4.18 Std   0.46 Max  11.00
+Albumin :: Stats month 6 :: All :: N 784887 non-zeros 784167 Median   4.20 Mean   4.17 Std   0.46 Max  10.70
+Albumin :: Stats month 7 :: All :: N 796235 non-zeros 795393 Median   4.20 Mean   4.16 Std   0.46 Max  10.60
+Albumin :: Stats month 8 :: All :: N 751178 non-zeros 750337 Median   4.20 Mean   4.17 Std   0.47 Max  11.10
+Albumin :: Stats month 9 :: All :: N 793369 non-zeros 792593 Median   4.20 Mean   4.18 Std   0.47 Max  11.10
+Albumin :: Stats month 10 :: All :: N 819033 non-zeros 818050 Median   4.20 Mean   4.18 Std   0.47 Max  11.00
+Albumin :: Stats month 11 :: All :: N 792675 non-zeros 791825 Median   4.20 Mean   4.19 Std   0.47 Max  11.10
+Albumin :: Stats month 12 :: All :: N 666095 non-zeros 665505 Median   4.20 Mean   4.17 Std   0.47 Max  11.20
+

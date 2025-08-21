@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Distribution</title>
+    {{ js_resources|indent(4)|safe }}
+    {{ css_resources|indent(4)|safe }}
+    {{ plot_script|indent(4)|safe }}
+    {{ ag_script|indent(4)|safe }}
+  </head>
+  <body>
+  {% extends "rep_index_template.html" %}
+  {% block content %}
+     <h1> {{curr_sig}} </h1>
+    {{ plot_div|indent(4)|safe }}
+    {{ table_script|indent(4)|safe }}
+      <p><b>By age groups statistics</b></p>
+    {{ table_div|indent(4)|safe }}
+
+    <div>
+        <p><b>Select Age Group</b></p>
+        <form action="/by_age">
+            {% for ag in groups %}
+                {% if ag == curr_ag %}
+                  <input type="radio" name="age_group" checked="checked" value="{{ ag }}" >{{ ag }}<br>
+              {% else %}
+                  <input type="radio" name="age_group"  value="{{ ag }}">{{ ag }}<br>
+              {% endif %}
+            {% endfor %}
+       <input type="submit" value="Submit">
+   </form>
+        {{ ag_div|indent(2)|safe }}
+    </div>
+  {% endblock %}
+  </body>
+</html>l>

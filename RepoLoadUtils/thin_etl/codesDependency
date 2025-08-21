@@ -1,0 +1,57 @@
+Cholesterol_over_HDL	%	Total_cholesterol-HDL_ratio-44PF.00_Blood_lipid_ratios-1001400239	Pseudo%
+Cholesterol_over_HDL	%	Serum_cholesterol_Over_HDL_ratio-44lF.00_Blood_lipid_ratios-1001400239	Dummy1
+Cholesterol_over_HDL	%	Cholesterol_Over_HDL_ratio-44l2.00_Other_Biochemistry_tests-1001400276	Real%
+Cholesterol_over_HDL	%	Cholesterol_Over_HDL_ratio-44l2.00_Other_Laboratory_tests-1001400153	Dummy2
+HbA1C	NA	Haemoglobin_A1c_level-44TB.00_Blood_glucose-1001400067	NonIFCC
+HbA1C	NA	Glycated_haemoglobin-42W..12_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	Glycosylated_Hb-42W..11_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	Haemoglobin_A1c_level-44TB.00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	Hb._A1C_-_diabetic_control-42W..00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	Hb._A1C_-_diabetic_control_NOS-42WZ.00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	Hb._A1C_7-10%_-_borderline-42W2.00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	Hb._A1C_GreaterThan_10%_-_bad_control-42W3.00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	Hb._A1C_LessThan_7%_-_good_control-42W1.00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	HbA1_-_diabetic_control-42c..00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	HbA1_level_(DCCT_aligned)-42c3.00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	HbA1c_level_(DCCT_aligned)-42W4.00_Hb_A1C_-_Diabetic_control-1001400140	NonIFCC
+HbA1C	NA	HbA1c_levl_-_IFCC_standardised-42W5.00_Hb_A1C_-_Diabetic_control-1001400140	IFCC
+RandomGlucose	null value	Plasma_random_glucose_level-44g0.00_Blood_glucose-1001400067	NA
+CreatinineKinase	null value	Creatine_phosphokinase_level-44H4.11_Creatine_phosphokinase_level-1001400018	IU/L
+LDH	null value	LDH_(HBD)_level-44H6.00_Lactate_Dehydrogenase-1001400033	NA
+HDL_over_LDL	null value	HDL_-_LDL_ratio-44PA.00_Blood_lipid_ratios-1001400239	NA
+HDL_over_nonHDL	null value	Serum_HDL-non-HDL_cholesterol_ratio-44P8.00_Blood_lipid_ratios-1001400239	NA
+HDL_over_Cholesterol	null value	HDL_-_total_cholesterol_ratio-44PG.00_Blood_lipid_ratios-1001400239	NA
+PFR	null value	Peak_exp._flow_rate-_PEFR_Over_PFR-3395.00_PF_current-1001400210	NA
+Cholesterol_over_HDL	null value	Serum_cholesterol_Over_HDL_ratio-44lF.00_Blood_lipid_ratios-1001400239	NA
+Cholesterol_over_HDL	null value	Cholesterol_Over_HDL_ratio-44l2.00_Other_Biochemistry_tests-1001400276	NA
+Hematocrit	null value	Haematocrit-4258.00_Packed_Cell_Volume-1001400213	NA
+FreeT4	null value	Free_T4_level-4427.00_Free_Thyroxine-1001400266	NA
+LDL	null value	Serum_LDL_cholesterol_level-44P6.00_Low_Density_Lipoprotein-1001400035	NA
+GGT	null value	Gamma_-_G.T._level-44G4.00_Gamma_Glutamyl_Transpeptidase-1001400025	NA
+HDL	null value	Serum_HDL_cholesterol_level-44P5.00_High_Density_Lipoprotein-1001400031	NA
+Triglycerides	null value	Serum_triglycerides-44Q..00_Triglycerides-1001400045	NA
+Creatinine	null value	Serum_creatinine-44J3.00_Serum_creatinine-1001400019	NA
+RandomGlucose	null value	Plasma_random_glucose_level-44g0.00_Blood_glucose-1001400067	NA
+Cholesterol_over_HDL	null value	Total_cholesterol-HDL_ratio-44PF.00_Blood_lipid_ratios-1001400239	NA
+Bilirubin	null value	Serum_bilirubin_level-44E..00_Bilirubin-1001400009	NA
+Na	null value	Serum_sodium-44I5.00_Sodium-1001400032	NA
+Potassium	null value	Serum_potassium-44I4.00_Potassium-1001400066	NA
+MCHC	null value	Mean_corpusc._Hb._conc._(MCHC)-429..00_MCH_Hb_Concentration-1001400046	NA
+Hemoglobin	null value	Haemoglobin_estimation-423..00_Haemoglobin-1001400027	NA
+ALP	null value	Serum_alkaline_phosphatase-44F..00_Alkaline_Phosphatase-1001400004	NA
+Globulin	null value	Serum_globulin-44M5.00_Serum_globulin-1001400248	NA
+Hematocrit	null value	Haematocrit_-_PCV-425..00_Packed_Cell_Volume-1001400213	NA
+Albumin	null value	Serum_albumin-44M4.00_Albumin-1001400002	NA
+RBC	null value	Red_blood_cell_(RBC)_count-426..00_Red_blood_cell_count-1001400026	NA
+Platelets	null value	Platelet_count-42P..00_Platelets-1001400064	NA
+ALT	null value	ALT_Over_SGPT_serum_level-44G3.00_Alanine_Aminotransferase-1001400006	NA
+ALT	null value	ALT_-_blood_level-44G..11_Alanine_Aminotransferase-1001400006	NA
+WBC	null value	Total_white_cell_count-42H..00_White_blood_count-1001400056	NA
+LymphNum	null value	Lymphocyte_count-42M..00_Lymphocyte_count-1001400058	NA
+MCH	null value	Mean_corpusc._haemoglobin(MCH)-428..00_Mean_corpuscular_haemoglobin-1001400044	NA
+NeutNum	null value	Neutrophil_count-42J..00_Neutrophil_count-1001400053	NA
+MonNum	null value	Monocyte_count-42N..00_Monocyte_count-1001400050	NA
+MCV	null value	Mean_corpuscular_volume_(MCV)-42A..00_Mean_corpuscular_volume-1001400048	NA
+EosNum	null value	Eosinophil_count-42K..00_Eosinophil_count-1001400022	NA
+Urine_Microalbumin	null value	Urine_microalbumin_negative-46W1.00_Urine_microalbumin-1001400311	mg/mmol
+Urine_Microalbumin	null value	Urine_microalbumin_positive-46W0.00_Urine_microalbumin-1001400311	mg/mmol

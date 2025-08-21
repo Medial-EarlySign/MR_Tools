@@ -1,0 +1,179 @@
+SIGNAL	GENDER	100	0		0	
+SIGNAL	BYEAR	101	0		0	
+SIGNAL	BDATE	102	4			
+SIGNAL	DEATH	105	4			
+SIGNAL	TRAIN	106	0		0	
+SIGNAL	INSURANCE	109	0		0	
+SIGNAL	ETHNICITY	110	0		0	
+SIGNAL	ABP	1000	3		0	MM/HG
+SIGNAL	AlbuminELCP%	1001	3	['0: 802006010~1: Albumin (ELCP)-BL % ']	0	g/dL
+SIGNAL	Albumin	1002	3	['0: 882040010~1: Albumin-BL ']	0	g/dL
+SIGNAL	ALP	1003	3	['0: 884075010~1: Alkaline Phosphatase-BL ']	0	IU/L
+SIGNAL	Alpha1Globulin	1004	3	['0: 802007010~1: alpha1-globulin % (EP) - blood ']	0	%
+SIGNAL	Alpha2Globulin	1005	3	['0: 802009010~1: alpha2-globulin % (EP) - blood ']	0	%
+SIGNAL	ALT	1006	3	['0: 884460010~1: ALT (GPT)-BL ']	0	U/L
+SIGNAL	Amylase	1007	3	['0: 882150010~1: Amylase-BL ']	0	U/L
+SIGNAL	Urine_Amylase	1008	3	['0: 882150040~1: Amylase-UR ']	0	U/L
+SIGNAL	AST	1009	3	['0: 884450010~1: AST(GOT)-BL ']	0	IU/L
+SIGNAL	Atypical_Lymphocytes	1010	3	['0: 805116010~1: Atypical Lymphocytes (manual)  % ']	0	%
+SIGNAL	B12	1011	3	['0: 882607010~1: Vitamin B12 ']	0	ng/L
+SIGNAL	Bands%	1012	3	['0: 805111010~1: Band (manual) % ']	0	%
+SIGNAL	Bands#	1013	3	['0: 805985010~1: Bands (manual) - abs ']	0	10^9/L
+SIGNAL	Base_excess	1014	3	['0: 803558140~1: Base excess ', '0: 1001305~1: Base excess (POC) ']	0	mEq/L
+SIGNAL	Basophils#	1015	3	['0: 805025010~1: Basophils - abs ', '0: 805989010~1: Basophils[unsupported character] (manual) - abs ']	0	10*9/L
+SIGNAL	Basophils%	1016	3	['0: 805019010~1: Basophils % ', '0: 805105010~1: Basophils (manual) % ']	0	%
+SIGNAL	BetaGlobulin	1017	3	['0: 802015010~1: beta-globulin % (EP) - blood ']	0	%
+SIGNAL	Bicarbonate	1018	3	['0: 1001304~1: Bicarbonate (HCO3) (POC) ', '0: 803556140~1: Bicarbonate (HCO3) ']	0	mmol/L
+SIGNAL	Bilirubin	1019	3	['0: 882247010~1: Bilirubin Total-BL ']	0	mg/dL
+SIGNAL	Bilirubin_Direct	1020	3	['0: 882248010~1: Bilirubin Direct-BL ']	0	MG/DL
+SIGNAL	BLASTS	1021	3	['0: BLAF~1: BLASTS FLAG']	0	
+SIGNAL	Urine_RBC	1022	3	['0: 801019400~1: Blood-UR-Strip ']	0	ERY/uL
+SIGNAL	BMI	1023	3	['0: 122~1: BMI ', '0: 282~1: BMI אישפוז ']	0	kg/m2
+SIGNAL	BNP	1024	3	['0: 803176010~1: B-Type Natriuretic Peptide (BNP)-BL ']	0	PG/ML
+SIGNAL	BOWEL_MOV_COUNT	1025	3	"[""0: 73~1: יציאות מס' ""]"	0	
+SIGNAL	Ca	1026	3	['0: 882310010~1: Calcium-BL ']	0	mg/dL
+SIGNAL	freeCalcium	1027	3	['0: 882330140~1: Calcium++ ', '0: 1001306~1: Calcium++ (POC) ']	0	MMOL/L
+SIGNAL	CVP	1028	3	['0: 8~1: CVP ']	0	
+SIGNAL	Cl	1029	3	['0: 882435010~1: Chloride-BL ']	0	mmol/L
+SIGNAL	Cholesterol	1030	3	['0: 882465010~1: Cholesterol-BL ']	0	mg/dL
+SIGNAL	C3	1031	3	['0: 886160010~1: Complement C3-BL ']	0	MG/DL
+SIGNAL	C4	1032	3	['0: 805853010~1: Complement C4-BL ']	0	MG/DL
+SIGNAL	CPOT	1033	3	"['0: 88~1: CPOT ', '0: 855~1: CPOT סכ""ה ']"	0	
+SIGNAL	Creatinine	1034	3	['0: 882565010~1: Creatinine-BL ']	0	mg/dL
+SIGNAL	Creatine_Kinase	1035	3	['0: 882550010~1: Creatine Kinase (CK)-BL ']	0	IU/L
+SIGNAL	Urine_Creatinine_24h	1036	3	['0: 882570950~1: Creatinine-UR/24h ']	0	MG/24H
+SIGNAL	CRP	1037	3	['0: 802076010~1: C-Reactive Protein-BL ']	0	mg/dL
+SIGNAL	Cyclosporine_level	1038	3	['0: CYA~1: CYA-CYCLOSPORINE PARENT DRUG']	0	NG/ML
+SIGNAL	Cyclosporine	1039	3	['0: 880158010~1: Cyclosporine - blood ']	0	NG/ML
+SIGNAL	D_DIMER	1040	3	['0: 806331010~1: D-Dimer (FEU) ']	0	NG/ML
+SIGNAL	Arterial_BP_Dia	1041	3	['0: 7~1: דיאסטולי ', '0: 493~1: עורקי דיאסטולי ']	0	MMHG
+SIGNAL	Eosinophils#	1042	3	['0: 805988010~1: Eosinophils (manual) - abs ', '0: 805024010~1: Eosinophils - abs ']	0	10*9/L
+SIGNAL	Eosinophils%	1043	3	['0: 805104010~1: Eosinophils (manual) % ', '0: 805018010~1: Eosinophils % ']	0	%
+SIGNAL	ESR	1044	3	['0: 805323010~1: ERYTHROCYTE SEDIMENTATION RATE ']	0	MM/HR
+SIGNAL	ETCO2	1045	3	['0: 20~1: ETCO2 ']	0	MMHG
+SIGNAL	Ferritin	1046	3	['0: 882728010~1: Ferritin-BL ']	0	ug/L
+SIGNAL	Fibrinogen	1047	3	['0: 885384010~1: Fibrinogen ']	0	mg/dL
+SIGNAL	Fluid_Balance	1048	3	"['0: 435~1: מאזן נוזלים סה""כ 4 ']"	0	mL
+SIGNAL	Folate	1049	3	['0: 882746010~1: Folic Acid ']	0	ug/L
+SIGNAL	FreeT4	1050	3	['0: 884439010~1: FT4 (thyroxine), free ']	0	NG/DL
+SIGNAL	Hemoglobin	1051	3	['0: 1001313~1: HGB (POC) ', '0: 885018010~1: HGB ']	0	G/DL
+SIGNAL	GammaGlobulin	1052	3	['0: 802042010~1: gamma-Globulin (ELCP)-BL % ']	0	%
+SIGNAL	GGT	1053	3	['0: 882977010~1: Gamma Glutamyl Transpeptidase (GGT)-BL ']	0	IU/L
+SIGNAL	Glucose	1054	3	['0: 802194140~1: Glucose (glucometer) - whole blood ', '0: 1001308~1: Glucose-BL (POC) ', '0: 14~1: עקומת סוכר ', '0: 882947010~1: Glucose-BL ']	0	mg/dL
+SIGNAL	Urine_Glucose	1055	3	['0: 801030400~1: Glucose-UR-Strip ']	0	MG/DL
+SIGNAL	HbA1C#	1056	3	['0: 883036010~1: Hemoglobin A1C - blood ']	0	%
+SIGNAL	HDL	1057	3	['0: 883718010~1: HDL-Cholesterol-BL ']	0	mg/dL
+SIGNAL	HDW	1058	3	['0: 805010010~1: HDW ']	0	G/DL
+SIGNAL	Height	1059	3	['0: 33~1: גובה ']	0	cm
+SIGNAL	Hematocrit	1060	3	['0: 1001312~1: HCT (POC) ', '0: 805004010~1: HCT ']	0	%
+SIGNAL	Hyperchromia	1061	3	['0: 805042010~1: Hyperchromia ']	0	%
+SIGNAL	Hypochromia	1062	3	['0: 805041010~1: Hypochromia ']	0	%
+SIGNAL	IgA	1063	3	['0: 805412010~1: IgA ']	0	MG/DL
+SIGNAL	IGFL	1064	3	['0: IGFL~1: IG']	0	
+SIGNAL	IgG	1065	3	['0: 805410010~1: IgG ']	0	MG/DL
+SIGNAL	IgM	1066	3	['0: 805411010~1: IgM ']	0	MG/DL
+SIGNAL	Immature_Granulocytes%	1067	3	['0: 805980010~1: Immature Granulocytes % ']	0	%
+SIGNAL	Immature_Granulocytes#	1068	3	['0: 805979010~1: Immature Granulocytes - abs ']	0	10*9/L
+SIGNAL	ImmatureReticulocyteFraction	1069	3	['0: 805705010~1: Immature Reticulocyte Fraction (IRF) ']	0	%
+SIGNAL	Phosphate	1070	3	['0: 884100010~1: Inorganic Phosphate-BL ']	0	mg/dL
+SIGNAL	INR	1071	3	['0: 806468010~1: INR ']	0	Ratio
+SIGNAL	Iron_Fe	1072	3	['0: 883540010~1: Iron-BL ']	0	ug/dL
+SIGNAL	IV_FLUIDS	1073	3	['0: 225~1: נוזלים IV ']	0	mL
+SIGNAL	Urine_Ketone	1074	3	['0: 882009400~1: Ketones-UR strip ']	0	MG/DL
+SIGNAL	Lactate	1075	3	['0: 1001309~1: Lactate (POC) ', '0: 883605140~1: Lactate ']	0	MG/DL
+SIGNAL	LDH	1076	3	['0: 883615010~1: Lactate Dehydrogenase (LDH)-BL ']	0	U/L
+SIGNAL	LDL	1077	3	['0: 802152970~1: LDL Cholesterol (Calc)-BL ']	0	mg/dL
+SIGNAL	Urine_WBC	1078	3	['0: 805001400~1: Leucocytes-UR-Strip ']	0	1/uL
+SIGNAL	LOBULARITY_INDEX	1079	3	['0: LOBI~1: LOBULARITY INDEX']	0	
+SIGNAL	LUC	1080	3	['0: ALUC~1: LARGE UNSTAINED CELLS (ABS)', '0: 805026010~1: Large unstained cells- abs ']	0	10*9/L
+SIGNAL	LUC%	1081	3	['0: 805020010~1: Large unstained cells% ']	0	%
+SIGNAL	Lymphocytes#	1082	3	['0: 805022010~1: Lymphocytes - abs ', '0: 805986010~1: Lymphocytes (manual)  - abs ', '0: ALMP~1: LYMHOCYTES (ABS)']	0	10*9/L
+SIGNAL	Lymphocytes%	1083	3	['0: 805102010~1: Lymphocytes (manual) % ', '0: 805016010~1: Lymphocytes % ']	0	%
+SIGNAL	Macrocytosis	1084	3	['0: 805038010~1: Macrocytosis ']	0	%
+SIGNAL	Mg	1085	3	['0: 883735010~1: Magnesium-BL ']	0	MG/DL
+SIGNAL	Mg++	1086	3	['0: 802455010~1: Magnesium++ ']	0	MG/DL
+SIGNAL	Arterial_BP_Mean	1087	3	['0: 129~1: MAP ']	0	MMHG
+SIGNAL	MCH	1088	3	['0: 805006010~1: MCH ']	0	pg
+SIGNAL	MCHC-M	1089	3	['0: 805007010~1: MCHC ']	0	g/dL
+SIGNAL	MCV	1090	3	['0: 805005010~1: MCV ']	0	fL
+SIGNAL	Microcytosis	1091	3	['0: 805037010~1: Microcytosis ']	0	%
+SIGNAL	Monocytes%	1092	3	['0: MID~1: MID', '0: 805017010~1: Monocytes % ', '0: 805011010~1: MID% ', '0: 805103010~1: Monocytes (manual) % ']	0	%
+SIGNAL	Monocytes#	1093	3	['0: 805987010~1: Monocytes (manual) - abs ', '0: 805023010~1: Monocytes - abs ']	0	10*9/L
+SIGNAL	MPV	1095	3	['0: 805012010~1: MPV ']	0	fL
+SIGNAL	MPXI	1096	3	['0: MPXI~1: MYELOPEROXIDASE INDEX']	0	
+SIGNAL	Myelocytes%	1097	3	['0: 805110010~1: Myelocytes (manual) % ']	0	%
+SIGNAL	Na	1098	3	['0: 1001311~1: Sodium-BL (POC) ', '0: 884295010~1: Sodium-BL ']	0	mmol/L
+SIGNAL	Neutrophils#	1099	3	['0: 805021010~1: Neutrophils - abs ', '0: 805021970~1: Neutrophils (manual) # ']	0	10*9/L
+SIGNAL	Neutrophils%	1100	3	['0: 805015010~1: Neutrophils % ', '0: 805101010~1: Neutrophils (manual) % ']	0	%
+SIGNAL	NonHDLCholesterol	1101	3	['0: 802211010~1: Non HDL cholesterol - blood ']	0	mg/dL
+SIGNAL	NRBC	1102	3	['0: 805701010~1: NRBC - abs ']	0	10*9/L
+SIGNAL	NRBC%	1103	3	['0: 805699010~1: NRBC % ']	0	%
+SIGNAL	Osmolarity	1104	3	['0: 883930010~1: Osmolarity-BL ']	0	MOSMOL/KG
+SIGNAL	Urine_Osmolarity	1105	3	['0: 883935040~1: Osmolarity-UR ']	0	MOSMOL/KG
+SIGNAL	Pain_FLACC	1106	3	['0: 850~1: ניקוד אמדן כאב FLACC ', '0: 18~1: אמדן כאב FLACC ']	0	
+SIGNAL	PCO2	1107	3	['0: 1001302~1: PCO2 (POC) ', '0: 803554140~1: PCO2 ']	0	MMHG
+SIGNAL	PDW	1108	3	['0: 805013010~1: PDW ']	0	FL
+SIGNAL	PerZondaFluids	1109	3	['0: 234~1: נוזלים P.Z ']	0	CC
+SIGNAL	pH	1110	3	['0: 1001301~1: PH (POC) ', '0: 803553140~1: PH ']	0	PH_UNITS
+SIGNAL	Plateletcrit	1111	3	['0: 805014010~1: PCT ']	0	%
+SIGNAL	Platelets	1112	3	['0: 885049010~1: PLATELET ']	0	10*9/L
+SIGNAL	PO2	1113	3	['0: 1001303~1: PO2 (POC) ', '0: 803555140~1: PO2 ']	0	MMHG
+SIGNAL	K+	1114	3	['0: 884132010~1: Potassium-BL ', '0: 1001310~1: Potassium-BL (POC) ']	0	mmol/L
+SIGNAL	Urine_Potassium	1115	3	['0: 884133040~1: Potassium-UR ']	0	MMOL/L
+SIGNAL	PT	1116	3	['0: 806469010~1: PT ']	0	SEC
+SIGNAL	PTH	1117	3	['0: 883970010~1: PTH parathyroid horm.Intact ']	0	PG/ML
+SIGNAL	PTT	1118	3	['0: 885730010~1: A-PTT ']	0	SEC
+SIGNAL	Heart_Rate	1119	3	['0: 2~1: דופק ']	0	BPM
+SIGNAL	RBC	1120	3	['0: 885041010~1: RBC ']	0	10*12/L
+SIGNAL	RDW	1121	3	['0: 805009010~1: RDW ']	0	
+SIGNAL	Reticulocytes#	1122	3	['0: 805057010~1: Reticulocytes abs ']	0	X10^9/L
+SIGNAL	Reticulocytes%	1123	3	['0: 805056010~1: Reticulocytes % ']	0	%
+SIGNAL	Resp_Rate	1124	3	['0: 4~1: מס נשימות ']	0	1/MIN
+SIGNAL	SaO2_OXIGEN	1125	3	['0: 16~1: סטורציה עם חמצן  ']	0	%
+SIGNAL	SaO2_ROOMAIR	1126	3	['0: 17~1: סטורציה אוויר חדר ']	0	%
+SIGNAL	SaO2_VENTILATED	1127	3	['0: 100~1: סטורציה למונשם ']	0	%
+SIGNAL	SO2	1128	3	['0: 803559140~1: SO2 ']	0	%
+SIGNAL	Urine_Spec_Gravity	1129	3	['0: 801032400~1: Specific Gravity-UR Strip ']	0	G/ML
+SIGNAL	Arterial_BP_Sys	1130	3	['0: 494~1: עורקי סיסטולי ', '0: 6~1: סיסטולי ']	0	MMHG
+SIGNAL	Tacrolimus_FK	1131	3	['0: 880197010~1: Tacrolimus - blood ']	0	NG/ML
+SIGNAL	Temperature	1132	3	['0: 11~1: חום PO ', '0: 230~1: חום כללי ', '0: 467~1: חום פריפרי ', '0: 10~1: חום PR ', '0: 12~1: חום PA ']	0	DEG_C
+SIGNAL	Protein_Total	1136	3	['0: 884155010~1: Total Protein-BL ']	0	g/dL
+SIGNAL	Transferrin	1137	3	['0: 884466010~1: Transferrin-BL ']	0	mg/dL
+SIGNAL	Transferrin_Saturation_Index	1138	3	['0: 884466970~1: Transferrin, Saturation-BL ']	0	%
+SIGNAL	Triglycerides	1139	3	['0: 884478010~1: Triglycerides-BL ']	0	mg/dL
+SIGNAL	TroponinI	1140	3	['0: 884484010~1: Troponine-I ']	0	ug/L
+SIGNAL	TSH	1141	3	['0: 884443010~1: TSH-Thyroid stimulating horm ']	0	mU/L
+SIGNAL	UF	1142	3	['0: 45~1: UF ']	0	L
+SIGNAL	BUN	1143	3	['0: 802021010~1: Blood Urea Nitrogen-BL ']	0	mg/dL
+SIGNAL	Uric_Acid	1144	3	['0: 884550010~1: Uric Acid-BL ']	0	MG/DL
+SIGNAL	Urine_Catheter	1145	3	['0: 625~1: שתן קטטר ']	0	mL
+SIGNAL	Urine_PH	1146	3	['0: 801067400~1: pH-UR Strip ']	0	
+SIGNAL	Urine_Per_Hour	1147	3	['0: 523~1: שתן כמות לשעה ']	0	CC
+SIGNAL	Urine_Vol	1148	3	['0: 9~1: כמות שתן ']	0	mL
+SIGNAL	Urine_Bilirubin	1149	3	['0: 801018400~1: Bilirubin- UR-Strip ']	0	MG/DL
+SIGNAL	Urine_Creatinine	1150	3	['0: 882570040~1: Creatinine-UR ']	0	MG/DL
+SIGNAL	Urine_Sodium	1151	3	['0: 884300040~1: Sodium-UR ']	0	mmol/L
+SIGNAL	Urine_Total_Protein	1152	3	['0: 801012400~1: Protein-UR-Strip ', '0: 884155040~1: Protein-UR ']	0	g/L
+SIGNAL	Urine_Urobilinogen	1153	3	['0: 884583400~1: Urobilinogen-UR Strip ']	0	EU/DL
+SIGNAL	VAS	1154	3	['0: 53~1: אמדן כאב VAS במנוחה ', '0: 36~1: אמדן כאב VAS ']	0	
+SIGNAL	VAS_MOVEMENT	1155	3	['0: 54~1: אמדן כאב בתנועה VAS ']	0	
+SIGNAL	VENOUS_BP	1156	3	['0: 58~1: לחץ ורידי ']	0	MMHG
+SIGNAL	WBC	1157	3	['0: 805001010~1: WBC ']	0	10*9/L
+SIGNAL	Weight	1158	3	['0: 57~1: משקל סיום ', '0: 56~1: משקל התחלתי ', '0: 32~1: משקל ']	0	kg
+SIGNAL	Weight_delta	1159	3	['0: 172~1: הפרש משקל ']	0	kg
+SIGNAL	ADMISSION	2307	3		0	
+SIGNAL	ADMISSION_TYPE	2308	1		1	
+SIGNAL	DIAGNOSIS	2309	6		11	|
+SIGNAL	STAY	2310	3		1	
+SIGNAL	DRUG_ADMINISTERED	2311	12		10	|
+SIGNAL	DRUG_BACKGROUND	2312	12		10	|
+SIGNAL	DRUG_PRESCRIBED	2313	12		10	|
+SIGNAL	DRUG_RECOMMENDED	2314	12		10	|
+SIGNAL	DRUG_ADMINISTERED_RATE	2315	12		10	|
+SIGNAL	PROCEDURE	2321	6		11	|
+SIGNAL	MICROBIOLOGY	2331	12		11	|
+SIGNAL	VISIT	2333	13		11	|
+SIGNAL	CONSULTATION	2334	5		1	
+SIGNAL	DIAGNOSIS_PRIMARY	2400	1		1	
+SIGNAL	DIAGNOSIS_SECONDARY	2401	1		1	
+SIGNAL	DIAGNOSIS_PAST	2402	1		1	

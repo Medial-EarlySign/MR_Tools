@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/nas1/Work/Libs/Boost/boost_1_85_0",
+                "${MR_ROOT}/Libs",
+                "${MR_ROOT}/Libs/Internal",
+                "${MR_ROOT}/Libs/External"
+            ],
+            "defines": [],
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

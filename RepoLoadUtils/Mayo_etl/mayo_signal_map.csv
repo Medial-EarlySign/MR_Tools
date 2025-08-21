@@ -1,0 +1,24 @@
+signal	source	code	description	type
+GENDER	mayodemographic	Gender	Gender	string
+BDATE	mayodemographic	BirthDate	BirthDate	date
+BYEAR	mayodemographic	BirthDate	BirthDate	numeric
+Hemoglobin	mayolabs	Hgb	Hgb	numeric
+Hematocrit	mayolabs	Hct	Hct	numeric
+WBC	mayolabs	WBC	WBC	numeric
+Platelets	mayolabs	Platelet	Platelet	numeric
+RBC	mayolabs	RBC	RBC	numeric
+MCV	mayolabs	MCV	MCV	numeric
+RDW	mayolabs	RDW	RDW	numeric
+Neutrophils#	mayolabs	Neutro Absolute	Neutro Absolute	numeric
+Lymphocytes#	mayolabs	Lymph Absolute	Lymph Absolute	numeric
+Monocytes#	mayolabs	Mono Absolute	Mono Absolute	numeric
+Eosinophils#	mayolabs	Eos Absolute	Eos Absolute	numeric
+Basophils#	mayolabs	Baso Absolute	Baso Absolute	numeric
+Lymphocytes%	mayolabs	Lymph per	Lymph per	numeric
+Monocytes%	mayolabs	Mono per	Mono per	numeric
+Eosinophils%	mayolabs	Eos per	Eos per	numeric
+Basophils%	mayolabs	Baso per	Baso per	numeric
+Neutrophils%	mayolabs	Neutro per	Neutro per	numeric
+MCHC-M	mayolabs	MCHC	MCHC	numeric
+MCH	mayolabs	MCH	MCH	numeric
+MPV	mayolabs	MPV	MPV	numeric

@@ -1,0 +1,137 @@
+GENERIC_SIGNAL_TYPE	my_SVal	V(f)
+GENERIC_SIGNAL_TYPE	my_SInt	V(i)
+GENERIC_SIGNAL_TYPE	my_SDateVal	T(i),V(f)
+GENERIC_SIGNAL_TYPE	my_SDateInt	T(i),V(i)
+GENERIC_SIGNAL_TYPE	my_S2Date	T(i,i)
+GENERIC_SIGNAL_TYPE	my_DateShort2	T(i),V(s,s)
+GENERIC_SIGNAL_TYPE	my_DateRangeInt2	T(i,i),V(i,i)
+# SIGNAL <name> <signal id> <signal type num> <description> <is_categorical_per_val_channel> <unit_per_val_channel separated by '|' char>
+#===============================================================================
+
+#===============================================================================
+# Demographic   100-199
+#===============================================================================
+SIGNAL	GENDER	100	16:my_SInt	demographic,singleton	1
+SIGNAL	BDATE	102	16:my_SInt	demographic,singleton,date	0	date
+SIGNAL	MEMBERSHIP	103	16:my_S2Date	demographic		
+SIGNAL	DEATH	104	16:my_SInt	demographic,singleton,date	0	date
+SIGNAL	TRAIN	105	16:my_SInt	demographic,singleton	0
+SIGNAL	Race	108	16:my_SInt	demographic,singleton	1	
+SIGNAL	Ethnicity	109	16:my_SInt	demographic,singleton	1	
+
+#===============================================================================
+# Vitals   500-599
+#===============================================================================
+SIGNAL	BP	500	16:my_DateShort2	labs,vitals,systolic_diastolic	00	mmHg|mmHg
+SIGNAL	PULSE	501	16:my_SDateVal	labs,vitals	0	bpm
+SIGNAL	Fev1	502	16:my_SDateVal	labs,vitals	0	%
+SIGNAL	SpO2	503	16:my_SDateVal	labs,vitals	0	%
+SIGNAL	Temperature	504	16:my_SDateVal	labs,vitals	0	degC
+SIGNAL	Resp_Rate	505	16:my_SDateVal	labs,vitals	0	bpm
+
+#===============================================================================
+# Smoking + measurements   900-999
+#===============================================================================
+SIGNAL	BMI	902	16:my_SDateVal	labs,measurements	0	kg/m2
+SIGNAL	Weight	903	16:my_SDateVal	labs,measurements	0	kg
+SIGNAL	Height	904	16:my_SDateVal	labs,measurements	0	cm
+SIGNAL	Smoking_Status	910	16:my_SDateInt	behavioral,smoking	1	
+SIGNAL	Smoking_Quit_Date	912	16:my_SDateInt	behavioral,smoking,date	0	date
+SIGNAL	Pack_Years	913	16:my_SDateVal	behavioral,smoking	0	Year*Packs/Day
+SIGNAL	Smoking_Intensity	914	16:my_SDateVal	behavioral,smoking	0	Cigarettes/Day
+SIGNAL	Smoking_Duration	915	16:my_SDateVal	behavioral,smoking	0	Year
+
+#===============================================================================
+# Labs   1000-
+#===============================================================================
+SIGNAL	Hemoglobin	1000	16:my_SDateVal	labs,cbc	0	g/dL
+SIGNAL	RBC	1001	16:my_SDateVal	labs,cbc	0	10*12/L
+SIGNAL	Hematocrit	1002	16:my_SDateVal	labs,cbc	0	%
+SIGNAL	Platelets	1003	16:my_SDateVal	labs,cbc	0	10*9/L
+SIGNAL	WBC	1004	16:my_SDateVal	labs,cbc	0	10*9/L
+SIGNAL	MCH	1005	16:my_SDateVal	labs,cbc	0	pg
+SIGNAL	MCHC-M	1006	16:my_SDateVal	labs,cbc	0	g/dL	
+SIGNAL	MCV	1007	16:my_SDateVal	labs,cbc	0	fL
+SIGNAL	Eosinophils#	1008	16:my_SDateVal	labs,cbc	0	10*9/L
+SIGNAL	Monocytes#	1009	16:my_SDateVal	labs,cbc	0	10*9/L
+SIGNAL	Basophils#	1010	16:my_SDateVal	labs,cbc	0	10*9/L
+SIGNAL	Lymphocytes#	1011	16:my_SDateVal	labs,cbc	0	10*9/L
+SIGNAL	Neutrophils#	1012	16:my_SDateVal	labs,cbc	0	10*9/L
+SIGNAL	Eosinophils%	1013	16:my_SDateVal	labs,cbc	0	%
+SIGNAL	Monocytes%	1014	16:my_SDateVal	labs,cbc	0	%
+SIGNAL	Basophils%	1015	16:my_SDateVal	labs,cbc	0	%
+SIGNAL	Lymphocytes%	1016	16:my_SDateVal	labs,cbc	0	%
+SIGNAL	Neutrophils%	1017	16:my_SDateVal	labs,cbc	0	%
+SIGNAL	RDW	1023	16:my_SDateVal	labs,cbc	0	%
+SIGNAL	Cholesterol	1060	16:my_SDateVal	labs,biochemestry,lipids	0	mg/dL
+SIGNAL	Triglycerides	1061	16:my_SDateVal	labs,biochemestry,lipids	0	mg/dL
+SIGNAL	LDL	1062	16:my_SDateVal	labs,biochemestry,lipids	0	mg/dL
+SIGNAL	HDL	1063	16:my_SDateVal	labs,biochemestry,lipids	0	mg/dL
+SIGNAL	NonHDLCholesterol	1064	16:my_SDateVal	labs,biochemestry,lipids	0	mg/dL
+SIGNAL	Creatinine	1080	16:my_SDateVal	labs,biochemestry,renal	0	mg/dL
+SIGNAL	Urea	1081	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	Glucose	1090	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	ALT	1100	16:my_SDateVal	labs,biochemestry,liver	0	U/L
+SIGNAL	ALKP	1104	16:my_SDateVal	labs,biochemestry,liver	0	IU/L
+SIGNAL	Albumin	1106	16:my_SDateVal	labs,biochemestry	0	g/dL
+SIGNAL	Protein_Total	1107	16:my_SDateVal	labs,biochemestry	0	g/dL
+SIGNAL	Bilirubin	1108	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	Ca	1109	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	CK	1110	16:my_SDateVal	labs,biochemestry	0	IU/L
+SIGNAL	Cl	1111	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	Na	1112	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	CRP	1113	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	Ferritin	1114	16:my_SDateVal	labs,biochemestry	0	ug/L
+SIGNAL	Mg	1115	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	Rheumatoid_Factor	1116	16:my_SDateVal	labs,biochemestry	0	IU/mL
+SIGNAL	Amylase	1117	16:my_SDateVal	labs,biochemestry	0	IU/L
+SIGNAL	Testosterone	1118	16:my_SDateVal	labs,biochemestry	0	nmol/L
+SIGNAL	MPV	1119	16:my_SDateVal	labs,cbc	0	fL
+SIGNAL	Platelets_Hematocrit	1120	16:my_SDateVal	labs,cbc,calculated	0	%
+SIGNAL	INR	1121	16:my_SDateVal	labs,biochemestry,coagulation	0	ratio
+SIGNAL	UrineTotalProtein	1122	16:my_SDateVal	labs,urine	0	g/L
+SIGNAL	UrineAlbumin	1123	16:my_SDateVal	labs,urine	0	mg/L	
+SIGNAL	UrineCreatinine	1124	16:my_SDateVal	labs,urine	0	mmol/L
+SIGNAL	Urine_Microalbumin	1125	16:my_SDateVal	labs,urine	0	
+SIGNAL	UrineAlbumin_over_Creatinine	1126	16:my_SDateVal	labs,urine,calculated	0	mg/mmol
+SIGNAL	Iron_Fe	1128	16:my_SDateVal	labs,biochemestry	0	ug/dL
+SIGNAL	B12	1129	16:my_SDateVal	labs,biochemestry	0	pg/mL
+SIGNAL	VitaminD_25	1130	16:my_SDateVal	labs,biochemestry	0	nmol/L
+SIGNAL	Transferrin	1131	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	Uric_Acid	1132	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	HbA1C	1133	16:my_SDateVal	labs,biochemestry	0	%
+SIGNAL	AST	1134	16:my_SDateVal	labs,biochemestry,liver	0	IU/L
+SIGNAL	GGT	1135	16:my_SDateVal	labs,biochemestry,liver	0	IU/L
+SIGNAL	LDH	1136	16:my_SDateVal	labs,biochemestry	0	U/L
+SIGNAL	K+	1137	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	Lithium	1138	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	Phosphore	1139	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	Bicarbonate	1140	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	SerumAnionGap	1141	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	FreeT3	1200	16:my_SDateVal	labs,biochemestry	0	pmol/L
+SIGNAL	FreeT4	1201	16:my_SDateVal	labs,biochemestry	0	pmol/L
+SIGNAL	T4	1203	16:my_SDateVal	labs,biochemestry	0	nmol/L
+SIGNAL	CO2	1204	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	Digoxin	1205	16:my_SDateVal	labs,biochemestry	0	nmol/L
+SIGNAL	Globulin	1206	16:my_SDateVal	labs,biochemestry	0	g/L
+SIGNAL	Fibrinogen	1209	16:my_SDateVal	labs,biochemestry	0	mg/dL
+SIGNAL	Prolactin	1210	16:my_SDateVal	labs,biochemestry	0	mU/L
+SIGNAL	PSA	1212	16:my_SDateVal	labs,biochemestry	0	ug/L
+SIGNAL	Follic_Acid	1213	16:my_SDateVal	labs,biochemestry	0	ug/L
+SIGNAL	PFR	1214	16:my_SDateVal	labs,biochemestry	0	L/min
+SIGNAL	TSH	1216	16:my_SDateVal	labs,biochemestry	0	mU/L
+SIGNAL	C4	1220	16:my_SDateVal	labs,biochemestry	0	g/L
+SIGNAL	Cortisol	1228	16:my_SDateVal	labs,biochemestry	0	ug/dL
+SIGNAL	CEA	1231	16:my_SDateVal	labs,biochemestry	0	mmol/L
+SIGNAL	UrineSodium	1230	16:my_SDateVal	labs,urine	0	mmol/L
+SIGNAL	UrineUrate	1127	16:my_SDateVal	labs,urine	0	mmol/L
+SIGNAL	NRBC	1232	16:my_SDateVal	labs,cbc	0	10*9/L
+SIGNAL	TIBC	1233	16:my_SDateVal	labs,biochemestry	0	umol/L
+
+#===============================================================================
+# Categorical - 2000-2999
+#===============================================================================
+SIGNAL	DIAGNOSIS	2000	16:my_SDateInt	categorical,icd10	1	
+SIGNAL	Drug	2001	16:my_SDateInt	categorical,atc,atc_syn	1	
+SIGNAL	PROCEDURE	2002	16:my_SDateInt	categorical,icd10,procedure	1	
+SIGNAL	ADMISSION	2003	16:my_DateRangeInt2	categorical	11	

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Mapping Tool</title>
+  </head>
+    <body>
+        {% extends "index_template.html" %}
+        {% block content %}
+        <h1>Edit Map</h1>
+        <div>
+            <form action="/mapping" method="post" name="teamform">
+                <div>
+                    <table>
+                        <tr>
+                            <th> Code </th>
+                            <th> Description </th>
+                            <th> Count </th>
+                        </tr>
+                        {% for member in teamform.labs_members %}
+                        <tr>
+                            <td>{{ member.code }}</td>
+                            <td>{{ member.desc }}</td>
+                            <td>{{ member.count }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                    <h2>Select Signal {{ teamform.signal }}</h2>
+
+                </div>
+                <p><input type="submit" name="edit" value="Send"></p>
+                    <div>
+                        <h2>Signal Units {{ teamform.unit }}</h2>
+                            <form action="/mapping" method="post" name="teamform">
+                                <div>
+                                     <table>
+                                        <tr>
+                                            <th> Signal </th>
+                                            <th> Unit </th>
+                                            <th> Count </th>
+                                            <th> Mean </th>
+                                            <th> Median </th>
+                                            <th> std </th>
+                                            <th> min </th>
+                                            <th> max </th>
+                                            <th> muliplier </th>
+                                            <th> addition </th>
+                                            <th> round </th>
+                                            <th> final_round </th>
+                                        </tr>
+                                        {% for un in unitform.units_members %}
+                                        <tr>
+                                            <td>{{ un.signal }}</td>
+                                            <td>{{ un.unit }}</td>
+                                            <td>{{ un.count }}</td>
+                                            <td>{{ un.mean }}</td>
+                                            <td>{{ un.median }}</td>
+                                            <td>{{ un.std }}</td>
+                                            <td>{{ un.min }}</td>
+                                            <td>{{ un.max }}</td>
+                                            <td>{{ un.muliplier }}</td>
+                                            <td>{{ un.addition }}</td>
+                                            <td>{{ un.round }}</td>
+                                            <td>{{ un.final_round }}</td>
+                                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                                <p><input type="submit" name="unit_map" value="Send"></p>
+            </form>
+        </div>
+      {% endblock %}
+    </body>
+</html>

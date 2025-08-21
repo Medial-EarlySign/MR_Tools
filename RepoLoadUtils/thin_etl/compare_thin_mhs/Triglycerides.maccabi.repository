@@ -1,0 +1,162 @@
+Triglycerides :: All :: With Values :: 934714 / 1279479 =  0.73 :: 934714 / 934714 =  1.00
+Triglycerides :: Males :: With Values :: 441565 / 622859 =  0.71 :: 441565 / 934714 =  0.47
+Triglycerides :: Females :: With Values :: 493149 / 656620 =  0.75 :: 493149 / 934714 =  0.53
+Triglycerides :: General :: No. of Values :: All 9948483 Male 4445791 Female 5502692
+Triglycerides :: General :: No. of different days Values :: All 9947197 Male 4445190 Female 5502007
+Triglycerides :: General :: Avg #values per person (all) :: All  7.77 Male  7.14 Female  8.38
+Triglycerides :: General :: Avg #values per person (>0)  :: All 10.64 Male 10.07 Female 11.16
+Triglycerides :: General :: Avg dist between tests       :: All  340.2 Male  341.6 Female  339.1
+Triglycerides :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Triglycerides :: Counts :: Age Group 25 - 30 :: All ::   1657 0.000
+Triglycerides :: Counts :: Age Group 30 - 35 :: All ::  46646 0.005
+Triglycerides :: Counts :: Age Group 35 - 40 :: All :: 116453 0.012
+Triglycerides :: Counts :: Age Group 40 - 45 :: All :: 198592 0.020
+Triglycerides :: Counts :: Age Group 45 - 50 :: All :: 210754 0.021
+Triglycerides :: Counts :: Age Group 50 - 55 :: All :: 235181 0.024
+Triglycerides :: Counts :: Age Group 55 - 60 :: All :: 255733 0.026
+Triglycerides :: Counts :: Age Group 60 - 65 :: All :: 240559 0.024
+Triglycerides :: Counts :: Age Group 65 - 70 :: All :: 215563 0.022
+Triglycerides :: Counts :: Age Group 70 - 75 :: All :: 164685 0.017
+Triglycerides :: Counts :: Age Group 75 - 80 :: All :: 137510 0.014
+Triglycerides :: Counts :: Age Group 80 - 85 :: All ::  91346 0.009
+Triglycerides :: Counts :: Age Group 85 - 90 :: All ::  51535 0.005
+Triglycerides :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Triglycerides :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Triglycerides :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Triglycerides :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Triglycerides :: Counts :: Age Group 25 - 30 :: Males ::    470 0.000
+Triglycerides :: Counts :: Age Group 30 - 35 :: Males ::  17123 0.004
+Triglycerides :: Counts :: Age Group 35 - 40 :: Males ::  48775 0.011
+Triglycerides :: Counts :: Age Group 40 - 45 :: Males ::  88969 0.020
+Triglycerides :: Counts :: Age Group 45 - 50 :: Males ::  97695 0.022
+Triglycerides :: Counts :: Age Group 50 - 55 :: Males :: 108486 0.024
+Triglycerides :: Counts :: Age Group 55 - 60 :: Males :: 115030 0.026
+Triglycerides :: Counts :: Age Group 60 - 65 :: Males :: 109693 0.025
+Triglycerides :: Counts :: Age Group 65 - 70 :: Males ::  98182 0.022
+Triglycerides :: Counts :: Age Group 70 - 75 :: Males ::  75994 0.017
+Triglycerides :: Counts :: Age Group 75 - 80 :: Males ::  61712 0.014
+Triglycerides :: Counts :: Age Group 80 - 85 :: Males ::  39066 0.009
+Triglycerides :: Counts :: Age Group 85 - 90 :: Males ::  20503 0.005
+Triglycerides :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Triglycerides :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Triglycerides :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Triglycerides :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Triglycerides :: Counts :: Age Group 25 - 30 :: Females ::   1187 0.000
+Triglycerides :: Counts :: Age Group 30 - 35 :: Females ::  29523 0.005
+Triglycerides :: Counts :: Age Group 35 - 40 :: Females ::  67678 0.012
+Triglycerides :: Counts :: Age Group 40 - 45 :: Females :: 109623 0.020
+Triglycerides :: Counts :: Age Group 45 - 50 :: Females :: 113059 0.021
+Triglycerides :: Counts :: Age Group 50 - 55 :: Females :: 126695 0.023
+Triglycerides :: Counts :: Age Group 55 - 60 :: Females :: 140703 0.026
+Triglycerides :: Counts :: Age Group 60 - 65 :: Females :: 130866 0.024
+Triglycerides :: Counts :: Age Group 65 - 70 :: Females :: 117381 0.021
+Triglycerides :: Counts :: Age Group 70 - 75 :: Females ::  88691 0.016
+Triglycerides :: Counts :: Age Group 75 - 80 :: Females ::  75798 0.014
+Triglycerides :: Counts :: Age Group 80 - 85 :: Females ::  52280 0.010
+Triglycerides :: Counts :: Age Group 85 - 90 :: Females ::  31032 0.006
+Triglycerides :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Triglycerides :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Triglycerides :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Triglycerides :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats :: Age Group 25 - 30 :: All ::  N 49953 non-zeros 49924 Median  97.80 Mean 115.67 Std  69.80 Max 1161.00
+Triglycerides :: Stats :: Age Group 30 - 35 :: All ::  N 165101 non-zeros 165031 Median  99.90 Mean 120.63 Std  79.09 Max 1299.50
+Triglycerides :: Stats :: Age Group 35 - 40 :: All ::  N 296509 non-zeros 296362 Median 103.00 Mean 125.28 Std  84.61 Max 1392.00
+Triglycerides :: Stats :: Age Group 40 - 45 :: All ::  N 373046 non-zeros 372873 Median 108.00 Mean 131.98 Std  89.59 Max 1475.00
+Triglycerides :: Stats :: Age Group 45 - 50 :: All ::  N 341194 non-zeros 340978 Median 116.00 Mean 139.17 Std  90.48 Max 1495.00
+Triglycerides :: Stats :: Age Group 50 - 55 :: All ::  N 316896 non-zeros 316715 Median 123.00 Mean 144.49 Std  88.30 Max 1467.00
+Triglycerides :: Stats :: Age Group 55 - 60 :: All ::  N 275160 non-zeros 275008 Median 126.00 Mean 144.37 Std  82.28 Max 1373.60
+Triglycerides :: Stats :: Age Group 60 - 65 :: All ::  N 232928 non-zeros 232780 Median 125.00 Mean 142.62 Std  76.72 Max 1288.00
+Triglycerides :: Stats :: Age Group 65 - 70 :: All ::  N 183707 non-zeros 183611 Median 124.00 Mean 140.06 Std  71.50 Max 1212.00
+Triglycerides :: Stats :: Age Group 70 - 75 :: All ::  N 129592 non-zeros 129496 Median 122.00 Mean 136.12 Std  66.30 Max 1106.00
+Triglycerides :: Stats :: Age Group 75 - 80 :: All ::  N 101112 non-zeros 101054 Median 119.00 Mean 132.87 Std  63.65 Max 1080.00
+Triglycerides :: Stats :: Age Group 80 - 85 :: All ::  N 63770 non-zeros 63721 Median 116.00 Mean 128.85 Std  60.89 Max 924.00
+Triglycerides :: Stats :: Age Group 85 - 90 :: All ::  N 35992 non-zeros 35948 Median 111.00 Mean 124.27 Std  58.70 Max 927.00
+Triglycerides :: Stats :: Age Group 90 - 95 :: All ::  N 14704 non-zeros 14681 Median 107.10 Mean 120.75 Std  58.22 Max 784.00
+Triglycerides :: Stats :: Age Group 95 - 100 :: All ::  N 3606 non-zeros 3602 Median 104.00 Mean 117.07 Std  56.78 Max 815.00
+Triglycerides :: General :: All     :: outliers ratio 0.000419
+Triglycerides :: General :: All     :: N 934244 non-zeros 933570 Median 115.00 Mean 134.49 Std  81.92 Max 1360.00
+Triglycerides :: General :: All     :: distribution 0.001,0.01,0.05 ::  32.00  42.00  54.00 277.00 429.00 806.00
+Triglycerides :: General :: All     :: quartiles ::  32.00  82.00 115.00 163.00 
+Triglycerides :: General :: Males   :: outliers ratio 0.000521
+Triglycerides :: General :: Males   :: N 441315 non-zeros 440960 Median 126.00 Mean 149.20 Std  95.08 Max 1574.00
+Triglycerides :: General :: Males   :: distribution 0.001,0.01,0.05 ::  33.00  45.00  59.00 309.00 497.00 982.00
+Triglycerides :: General :: Males   :: quartiles ::  33.00  91.00 126.00 180.00 
+Triglycerides :: General :: Females :: outliers ratio 0.000229
+Triglycerides :: General :: Females :: N 492978 non-zeros 492701 Median 105.00 Mean 121.47 Std  67.86 Max 1139.00
+Triglycerides :: General :: Females :: distribution 0.001,0.01,0.05 ::  31.00  40.00  51.00 245.00 358.00 618.00
+Triglycerides :: General :: Females :: quartiles ::  31.00  76.00 105.00 148.00 
+Triglycerides :: Rounding ::  0.00 r  0.00 pct
+Triglycerides :: Rounding ::  0.01 r  0.01 pct
+Triglycerides :: Rounding ::  0.10 r  0.04 pct
+Triglycerides :: Rounding ::  1.00 r  0.86 pct
+Triglycerides :: Rounding :: 10.00 r  0.09 pct
+Triglycerides :: Rounding :: 100.00 r  0.01 pct
+Triglycerides :: Rounding :: 1000.00 r  0.00 pct
+Triglycerides :: Rounding :: most popular rounding for vals:  1.00
+Triglycerides :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats year :: 2001 :: All :: N 325299 non-zeros 325039 Median 125.40 Mean 146.77 Std  89.68 Max 1487.00
+Triglycerides :: Stats year :: 2002 :: All :: N 329307 non-zeros 329114 Median 122.50 Mean 142.67 Std  86.78 Max 1443.00
+Triglycerides :: Stats year :: 2003 :: All :: N 356845 non-zeros 356668 Median 123.00 Mean 143.11 Std  87.17 Max 1450.00
+Triglycerides :: Stats year :: 2004 :: All :: N 394302 non-zeros 394060 Median 123.00 Mean 143.66 Std  87.81 Max 1460.00
+Triglycerides :: Stats year :: 2005 :: All :: N 417828 non-zeros 417643 Median 123.00 Mean 142.97 Std  86.93 Max 1446.00
+Triglycerides :: Stats year :: 2006 :: All :: N 439509 non-zeros 439308 Median 119.00 Mean 138.03 Std  82.59 Max 1372.00
+Triglycerides :: Stats year :: 2007 :: All :: N 455321 non-zeros 455181 Median 113.00 Mean 131.51 Std  78.08 Max 1302.00
+Triglycerides :: Stats year :: 2008 :: All :: N 461185 non-zeros 461040 Median 117.00 Mean 135.09 Std  78.70 Max 1314.00
+Triglycerides :: Stats year :: 2009 :: All :: N 495234 non-zeros 495069 Median 117.00 Mean 135.74 Std  79.24 Max 1322.00
+Triglycerides :: Stats year :: 2010 :: All :: N 491859 non-zeros 491642 Median 118.00 Mean 136.32 Std  79.18 Max 1322.00
+Triglycerides :: Stats year :: 2011 :: All :: N 502593 non-zeros 502452 Median 117.00 Mean 135.06 Std  78.54 Max 1313.00
+Triglycerides :: Stats year :: 2012 :: All :: N 512984 non-zeros 512829 Median 118.00 Mean 136.28 Std  78.89 Max 1315.00
+Triglycerides :: Stats year :: 2013 :: All :: N 521265 non-zeros 521019 Median 119.00 Mean 137.33 Std  78.45 Max 1314.00
+Triglycerides :: Stats year :: 2014 :: All :: N 505652 non-zeros 505511 Median 117.00 Mean 135.68 Std  78.24 Max 1308.00
+Triglycerides :: Stats year :: 2015 :: All :: N 403524 non-zeros 403207 Median 120.00 Mean 138.81 Std  79.45 Max 1328.00
+Triglycerides :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats year :: 2001 :: Males   :: N 135284 non-zeros 135174 Median 139.00 Mean 164.20 Std 105.54 Max 1744.00
+Triglycerides :: Stats year :: 2002 :: Males   :: N 139373 non-zeros 139302 Median 135.00 Mean 159.07 Std 103.46 Max 1710.00
+Triglycerides :: Stats year :: 2003 :: Males   :: N 151407 non-zeros 151346 Median 136.00 Mean 159.56 Std 102.05 Max 1684.00
+Triglycerides :: Stats year :: 2004 :: Males   :: N 168901 non-zeros 168806 Median 136.00 Mean 160.36 Std 103.01 Max 1701.00
+Triglycerides :: Stats year :: 2005 :: Males   :: N 181549 non-zeros 181444 Median 135.00 Mean 159.45 Std 102.97 Max 1702.00
+Triglycerides :: Stats year :: 2006 :: Males   :: N 192628 non-zeros 192531 Median 131.00 Mean 153.29 Std  96.43 Max 1598.00
+Triglycerides :: Stats year :: 2007 :: Males   :: N 200824 non-zeros 200751 Median 124.00 Mean 145.80 Std  90.54 Max 1500.00
+Triglycerides :: Stats year :: 2008 :: Males   :: N 203728 non-zeros 203663 Median 127.00 Mean 149.07 Std  91.26 Max 1517.00
+Triglycerides :: Stats year :: 2009 :: Males   :: N 220848 non-zeros 220746 Median 128.00 Mean 150.11 Std  92.31 Max 1533.00
+Triglycerides :: Stats year :: 2010 :: Males   :: N 220234 non-zeros 220120 Median 128.00 Mean 149.99 Std  92.27 Max 1528.00
+Triglycerides :: Stats year :: 2011 :: Males   :: N 225189 non-zeros 225117 Median 127.00 Mean 148.44 Std  90.71 Max 1506.00
+Triglycerides :: Stats year :: 2012 :: Males   :: N 231250 non-zeros 231162 Median 128.00 Mean 149.14 Std  91.00 Max 1513.00
+Triglycerides :: Stats year :: 2013 :: Males   :: N 235409 non-zeros 235292 Median 128.00 Mean 149.44 Std  89.74 Max 1495.00
+Triglycerides :: Stats year :: 2014 :: Males   :: N 229934 non-zeros 229846 Median 126.00 Mean 147.16 Std  89.58 Max 1474.00
+Triglycerides :: Stats year :: 2015 :: Males   :: N 189322 non-zeros 189117 Median 127.00 Mean 148.16 Std  90.00 Max 1495.00
+Triglycerides :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats year :: 2001 :: Females :: N 190028 non-zeros 189868 Median 117.00 Mean 134.46 Std  74.98 Max 1256.50
+Triglycerides :: Stats year :: 2002 :: Females :: N 189986 non-zeros 189890 Median 114.00 Mean 131.00 Std  73.29 Max 1226.70
+Triglycerides :: Stats year :: 2003 :: Females :: N 205457 non-zeros 205352 Median 114.00 Mean 131.13 Std  73.42 Max 1214.00
+Triglycerides :: Stats year :: 2004 :: Females :: N 225428 non-zeros 225292 Median 114.00 Mean 131.28 Std  73.75 Max 1234.00
+Triglycerides :: Stats year :: 2005 :: Females :: N 236303 non-zeros 236215 Median 114.00 Mean 130.45 Std  72.30 Max 1207.00
+Triglycerides :: Stats year :: 2006 :: Females :: N 246912 non-zeros 246813 Median 110.00 Mean 126.32 Std  69.44 Max 1163.00
+Triglycerides :: Stats year :: 2007 :: Females :: N 254504 non-zeros 254428 Median 105.00 Mean 120.35 Std  65.54 Max 1102.00
+Triglycerides :: Stats year :: 2008 :: Females :: N 257474 non-zeros 257401 Median 109.00 Mean 124.03 Std  66.51 Max 1119.00
+Triglycerides :: Stats year :: 2009 :: Females :: N 274423 non-zeros 274350 Median 109.00 Mean 124.33 Std  66.35 Max 1107.00
+Triglycerides :: Stats year :: 2010 :: Females :: N 271659 non-zeros 271567 Median 110.00 Mean 125.50 Std  67.07 Max 1124.00
+Triglycerides :: Stats year :: 2011 :: Females :: N 277419 non-zeros 277345 Median 109.00 Mean 124.19 Std  65.85 Max 1089.00
+Triglycerides :: Stats year :: 2012 :: Females :: N 281762 non-zeros 281682 Median 110.00 Mean 125.91 Std  67.02 Max 1130.00
+Triglycerides :: Stats year :: 2013 :: Females :: N 285889 non-zeros 285773 Median 112.00 Mean 127.42 Std  67.28 Max 1130.00
+Triglycerides :: Stats year :: 2014 :: Females :: N 275726 non-zeros 275660 Median 111.00 Mean 126.14 Std  66.67 Max 1125.00
+Triglycerides :: Stats year :: 2015 :: Females :: N 214214 non-zeros 214088 Median 115.00 Mean 130.59 Std  68.45 Max 1142.00
+Triglycerides :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Triglycerides :: Stats month 1 :: All :: N 308343 non-zeros 308137 Median 118.00 Mean 135.94 Std  78.90 Max 1318.00
+Triglycerides :: Stats month 2 :: All :: N 300214 non-zeros 300037 Median 118.00 Mean 136.10 Std  79.23 Max 1317.00
+Triglycerides :: Stats month 3 :: All :: N 306757 non-zeros 306546 Median 117.00 Mean 135.52 Std  79.82 Max 1330.00
+Triglycerides :: Stats month 4 :: All :: N 287915 non-zeros 287718 Median 119.00 Mean 138.17 Std  81.69 Max 1354.00
+Triglycerides :: Stats month 5 :: All :: N 337513 non-zeros 337302 Median 117.00 Mean 136.72 Std  81.71 Max 1356.00
+Triglycerides :: Stats month 6 :: All :: N 330996 non-zeros 330802 Median 119.00 Mean 139.04 Std  83.89 Max 1397.00
+Triglycerides :: Stats month 7 :: All :: N 337796 non-zeros 337581 Median 120.00 Mean 140.74 Std  85.50 Max 1420.00
+Triglycerides :: Stats month 8 :: All :: N 321286 non-zeros 321052 Median 122.00 Mean 142.62 Std  85.90 Max 1431.00
+Triglycerides :: Stats month 9 :: All :: N 273787 non-zeros 273638 Median 121.00 Mean 141.41 Std  84.94 Max 1411.00
+Triglycerides :: Stats month 10 :: All :: N 320483 non-zeros 320293 Median 120.00 Mean 139.08 Std  82.07 Max 1368.00
+Triglycerides :: Stats month 11 :: All :: N 309737 non-zeros 309566 Median 119.00 Mean 137.71 Std  80.86 Max 1348.00
+Triglycerides :: Stats month 12 :: All :: N 293188 non-zeros 292996 Median 118.00 Mean 136.86 Std  79.87 Max 1334.00
+

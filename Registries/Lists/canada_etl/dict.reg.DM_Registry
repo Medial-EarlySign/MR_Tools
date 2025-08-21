@@ -1,0 +1,5 @@
+SECTION	DM_Registry
+
+DEF	0	DM_Registry_Non_diabetic
+DEF	1	DM_Registry_Pre_diabetic
+DEF	2	DM_Registry_Diabetic

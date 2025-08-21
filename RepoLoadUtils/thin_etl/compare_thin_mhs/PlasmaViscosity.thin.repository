@@ -1,0 +1,162 @@
+PlasmaViscosity :: All :: With Values :: 423629 / 14446692 =  0.03 :: 423629 / 423629 =  1.00
+PlasmaViscosity :: Males :: With Values :: 172322 / 6889335 =  0.03 :: 172322 / 423629 =  0.41
+PlasmaViscosity :: Females :: With Values :: 251307 / 7557357 =  0.03 :: 251307 / 423629 =  0.59
+PlasmaViscosity :: General :: No. of Values :: All 1152462 Male 423674 Female 728788
+PlasmaViscosity :: General :: No. of different days Values :: All 1151667 Male 423330 Female 728337
+PlasmaViscosity :: General :: Avg #values per person (all) :: All  0.08 Male  0.06 Female  0.10
+PlasmaViscosity :: General :: Avg #values per person (>0)  :: All  2.72 Male  2.46 Female  2.90
+PlasmaViscosity :: General :: Avg dist between tests       :: All  395.8 Male  414.6 Female  385.8
+PlasmaViscosity :: Counts :: Age Group 20 - 25 :: All ::   6150 0.005
+PlasmaViscosity :: Counts :: Age Group 25 - 30 :: All ::   6729 0.006
+PlasmaViscosity :: Counts :: Age Group 30 - 35 :: All ::   7990 0.007
+PlasmaViscosity :: Counts :: Age Group 35 - 40 :: All ::   9916 0.009
+PlasmaViscosity :: Counts :: Age Group 40 - 45 :: All ::  13579 0.012
+PlasmaViscosity :: Counts :: Age Group 45 - 50 :: All ::  16419 0.014
+PlasmaViscosity :: Counts :: Age Group 50 - 55 :: All ::  18914 0.016
+PlasmaViscosity :: Counts :: Age Group 55 - 60 :: All ::  20655 0.018
+PlasmaViscosity :: Counts :: Age Group 60 - 65 :: All ::  21802 0.019
+PlasmaViscosity :: Counts :: Age Group 65 - 70 :: All ::  23939 0.021
+PlasmaViscosity :: Counts :: Age Group 70 - 75 :: All ::  22737 0.020
+PlasmaViscosity :: Counts :: Age Group 75 - 80 :: All ::  21740 0.019
+PlasmaViscosity :: Counts :: Age Group 80 - 85 :: All ::  17564 0.015
+PlasmaViscosity :: Counts :: Age Group 85 - 90 :: All ::  10818 0.009
+PlasmaViscosity :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+PlasmaViscosity :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+PlasmaViscosity :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+PlasmaViscosity :: Counts :: Age Group 20 - 25 :: Males ::   1964 0.005
+PlasmaViscosity :: Counts :: Age Group 25 - 30 :: Males ::   2166 0.005
+PlasmaViscosity :: Counts :: Age Group 30 - 35 :: Males ::   2710 0.006
+PlasmaViscosity :: Counts :: Age Group 35 - 40 :: Males ::   3444 0.008
+PlasmaViscosity :: Counts :: Age Group 40 - 45 :: Males ::   4753 0.011
+PlasmaViscosity :: Counts :: Age Group 45 - 50 :: Males ::   5797 0.014
+PlasmaViscosity :: Counts :: Age Group 50 - 55 :: Males ::   7057 0.017
+PlasmaViscosity :: Counts :: Age Group 55 - 60 :: Males ::   7811 0.018
+PlasmaViscosity :: Counts :: Age Group 60 - 65 :: Males ::   8593 0.020
+PlasmaViscosity :: Counts :: Age Group 65 - 70 :: Males ::   9553 0.023
+PlasmaViscosity :: Counts :: Age Group 70 - 75 :: Males ::   8958 0.021
+PlasmaViscosity :: Counts :: Age Group 75 - 80 :: Males ::   8171 0.019
+PlasmaViscosity :: Counts :: Age Group 80 - 85 :: Males ::   6376 0.015
+PlasmaViscosity :: Counts :: Age Group 85 - 90 :: Males ::   3539 0.008
+PlasmaViscosity :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+PlasmaViscosity :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+PlasmaViscosity :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+PlasmaViscosity :: Counts :: Age Group 20 - 25 :: Females ::   4186 0.006
+PlasmaViscosity :: Counts :: Age Group 25 - 30 :: Females ::   4563 0.006
+PlasmaViscosity :: Counts :: Age Group 30 - 35 :: Females ::   5280 0.007
+PlasmaViscosity :: Counts :: Age Group 35 - 40 :: Females ::   6472 0.009
+PlasmaViscosity :: Counts :: Age Group 40 - 45 :: Females ::   8826 0.012
+PlasmaViscosity :: Counts :: Age Group 45 - 50 :: Females ::  10622 0.015
+PlasmaViscosity :: Counts :: Age Group 50 - 55 :: Females ::  11857 0.016
+PlasmaViscosity :: Counts :: Age Group 55 - 60 :: Females ::  12844 0.018
+PlasmaViscosity :: Counts :: Age Group 60 - 65 :: Females ::  13209 0.018
+PlasmaViscosity :: Counts :: Age Group 65 - 70 :: Females ::  14386 0.020
+PlasmaViscosity :: Counts :: Age Group 70 - 75 :: Females ::  13779 0.019
+PlasmaViscosity :: Counts :: Age Group 75 - 80 :: Females ::  13569 0.019
+PlasmaViscosity :: Counts :: Age Group 80 - 85 :: Females ::  11188 0.015
+PlasmaViscosity :: Counts :: Age Group 85 - 90 :: Females ::   7279 0.010
+PlasmaViscosity :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+PlasmaViscosity :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+PlasmaViscosity :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+PlasmaViscosity :: Stats :: Age Group 20 - 25 :: All ::  N 22558 non-zeros 22552 Median   1.63 Mean   1.64 Std   0.11 Max   2.93
+PlasmaViscosity :: Stats :: Age Group 25 - 30 :: All ::  N 24053 non-zeros 24049 Median   1.63 Mean   1.65 Std   0.12 Max   3.01
+PlasmaViscosity :: Stats :: Age Group 30 - 35 :: All ::  N 27308 non-zeros 27305 Median   1.64 Mean   1.65 Std   0.12 Max   2.98
+PlasmaViscosity :: Stats :: Age Group 35 - 40 :: All ::  N 32686 non-zeros 32683 Median   1.64 Mean   1.66 Std   0.12 Max   3.17
+PlasmaViscosity :: Stats :: Age Group 40 - 45 :: All ::  N 39967 non-zeros 39961 Median   1.64 Mean   1.66 Std   0.12 Max   3.35
+PlasmaViscosity :: Stats :: Age Group 45 - 50 :: All ::  N 43715 non-zeros 43705 Median   1.65 Mean   1.66 Std   0.12 Max   3.29
+PlasmaViscosity :: Stats :: Age Group 50 - 55 :: All ::  N 46107 non-zeros 46097 Median   1.66 Mean   1.67 Std   0.13 Max   3.56
+PlasmaViscosity :: Stats :: Age Group 55 - 60 :: All ::  N 47004 non-zeros 46993 Median   1.67 Mean   2.75 Std  13.25 Max 201.00
+PlasmaViscosity :: Stats :: Age Group 60 - 65 :: All ::  N 47090 non-zeros 47086 Median   1.67 Mean   2.79 Std  13.51 Max 205.00
+PlasmaViscosity :: Stats :: Age Group 65 - 70 :: All ::  N 45111 non-zeros 45103 Median   1.67 Mean   2.99 Std  14.70 Max 223.00
+PlasmaViscosity :: Stats :: Age Group 70 - 75 :: All ::  N 41259 non-zeros 41257 Median   1.68 Mean   2.96 Std  14.52 Max 213.00
+PlasmaViscosity :: Stats :: Age Group 75 - 80 :: All ::  N 37932 non-zeros 37929 Median   1.68 Mean   3.04 Std  14.95 Max 225.00
+PlasmaViscosity :: Stats :: Age Group 80 - 85 :: All ::  N 30198 non-zeros 30195 Median   1.69 Mean   3.11 Std  15.24 Max 218.00
+PlasmaViscosity :: Stats :: Age Group 85 - 90 :: All ::  N 18475 non-zeros 18469 Median   1.69 Mean   1.71 Std   0.16 Max   3.42
+PlasmaViscosity :: Stats :: Age Group 90 - 95 :: All ::  N 7465 non-zeros 7465 Median   1.68 Mean   1.71 Std   0.16 Max   4.07
+PlasmaViscosity :: Stats :: Age Group 95 - 100 :: All ::  N 1582 non-zeros 1582 Median   1.68 Mean   1.70 Std   0.17 Max   4.21
+PlasmaViscosity :: General :: All     :: outliers ratio 0.000164
+PlasmaViscosity :: General :: All     :: N 384944 non-zeros 384898 Median   1.66 Mean   2.82 Std  13.71 Max 208.00
+PlasmaViscosity :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.39   1.46   1.51   1.93   2.35 178.00
+PlasmaViscosity :: General :: All     :: quartiles ::   1.39   1.59   1.66   1.74 
+PlasmaViscosity :: General :: Males   :: outliers ratio 0.000159
+PlasmaViscosity :: General :: Males   :: N 156835 non-zeros 156818 Median   1.66 Mean   2.87 Std  14.04 Max 213.00
+PlasmaViscosity :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.39   1.45   1.51   1.95   2.42 179.00
+PlasmaViscosity :: General :: Males   :: quartiles ::   1.39   1.59   1.66   1.74 
+PlasmaViscosity :: General :: Females :: outliers ratio 0.000215
+PlasmaViscosity :: General :: Females :: N 228098 non-zeros 228067 Median   1.66 Mean   2.76 Std  13.30 Max 202.00
+PlasmaViscosity :: General :: Females :: distribution 0.001,0.01,0.05 ::   1.39   1.46   1.51   1.92   2.29 178.00
+PlasmaViscosity :: General :: Females :: quartiles ::   1.39   1.59   1.66   1.74 
+PlasmaViscosity :: Rounding ::  0.00 r  0.16 pct
+PlasmaViscosity :: Rounding ::  0.01 r  0.73 pct
+PlasmaViscosity :: Rounding ::  0.10 r  0.10 pct
+PlasmaViscosity :: Rounding ::  1.00 r  0.01 pct
+PlasmaViscosity :: Rounding :: 10.00 r  0.00 pct
+PlasmaViscosity :: Rounding :: 100.00 r  0.00 pct
+PlasmaViscosity :: Rounding :: 1000.00 r  0.00 pct
+PlasmaViscosity :: Rounding :: most popular rounding for vals:  0.01
+PlasmaViscosity :: Stats year :: 2000 :: All :: N 21179 non-zeros 21168 Median   1.65 Mean   6.27 Std  27.27 Max 256.00
+PlasmaViscosity :: Stats year :: 2001 :: All :: N 28961 non-zeros 28950 Median   1.66 Mean   6.92 Std  29.27 Max 446.00
+PlasmaViscosity :: Stats year :: 2002 :: All :: N 32597 non-zeros 32582 Median   1.67 Mean   6.17 Std  27.14 Max 359.00
+PlasmaViscosity :: Stats year :: 2003 :: All :: N 34324 non-zeros 34324 Median   1.68 Mean   6.69 Std  28.46 Max 364.00
+PlasmaViscosity :: Stats year :: 2004 :: All :: N 38145 non-zeros 38143 Median   1.68 Mean   5.04 Std  23.50 Max 256.00
+PlasmaViscosity :: Stats year :: 2005 :: All :: N 38936 non-zeros 38931 Median   1.68 Mean   1.70 Std   0.14 Max   3.72
+PlasmaViscosity :: Stats year :: 2006 :: All :: N 41026 non-zeros 40975 Median   1.67 Mean   1.69 Std   0.15 Max   3.75
+PlasmaViscosity :: Stats year :: 2007 :: All :: N 42000 non-zeros 41996 Median   1.67 Mean   1.69 Std   0.14 Max   3.73
+PlasmaViscosity :: Stats year :: 2008 :: All :: N 47413 non-zeros 47412 Median   1.67 Mean   1.68 Std   0.14 Max   3.67
+PlasmaViscosity :: Stats year :: 2009 :: All :: N 48782 non-zeros 48780 Median   1.66 Mean   1.68 Std   0.14 Max   3.40
+PlasmaViscosity :: Stats year :: 2010 :: All :: N 53842 non-zeros 53842 Median   1.66 Mean   1.68 Std   0.14 Max   3.67
+PlasmaViscosity :: Stats year :: 2011 :: All :: N 58168 non-zeros 58167 Median   1.66 Mean   1.68 Std   0.13 Max   3.54
+PlasmaViscosity :: Stats year :: 2012 :: All :: N 60811 non-zeros 60811 Median   1.66 Mean   1.68 Std   0.13 Max   3.35
+PlasmaViscosity :: Stats year :: 2013 :: All :: N 59826 non-zeros 59825 Median   1.66 Mean   1.67 Std   0.13 Max   3.41
+PlasmaViscosity :: Stats year :: 2014 :: All :: N 49604 non-zeros 49603 Median   1.66 Mean   1.68 Std   0.13 Max   3.62
+PlasmaViscosity :: Stats year :: 2015 :: All :: N 39829 non-zeros 39829 Median   1.64 Mean   1.66 Std   0.13 Max   3.20
+PlasmaViscosity :: Stats year :: 2016 :: All :: N 1885 non-zeros 1885 Median   1.67 Mean   1.69 Std   0.13 Max   2.45
+PlasmaViscosity :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+PlasmaViscosity :: Stats year :: 2000 :: Males   :: N 8284 non-zeros 8281 Median   1.65 Mean   6.04 Std  26.71 Max 247.00
+PlasmaViscosity :: Stats year :: 2001 :: Males   :: N 11364 non-zeros 11359 Median   1.66 Mean   7.28 Std  30.12 Max 234.00
+PlasmaViscosity :: Stats year :: 2002 :: Males   :: N 12526 non-zeros 12519 Median   1.67 Mean   6.73 Std  28.93 Max 359.00
+PlasmaViscosity :: Stats year :: 2003 :: Males   :: N 13063 non-zeros 13063 Median   1.68 Mean   7.19 Std  29.75 Max 285.00
+PlasmaViscosity :: Stats year :: 2004 :: Males   :: N 14915 non-zeros 14913 Median   1.68 Mean   5.60 Std  25.34 Max 256.00
+PlasmaViscosity :: Stats year :: 2005 :: Males   :: N 14878 non-zeros 14877 Median   1.68 Mean   1.70 Std   0.14 Max   3.67
+PlasmaViscosity :: Stats year :: 2006 :: Males   :: N 15654 non-zeros 15637 Median   1.67 Mean   1.69 Std   0.16 Max   3.96
+PlasmaViscosity :: Stats year :: 2007 :: Males   :: N 15927 non-zeros 15925 Median   1.67 Mean   1.69 Std   0.14 Max   3.76
+PlasmaViscosity :: Stats year :: 2008 :: Males   :: N 17899 non-zeros 17898 Median   1.66 Mean   1.68 Std   0.14 Max   3.80
+PlasmaViscosity :: Stats year :: 2009 :: Males   :: N 18730 non-zeros 18730 Median   1.66 Mean   1.68 Std   0.14 Max   3.78
+PlasmaViscosity :: Stats year :: 2010 :: Males   :: N 20648 non-zeros 20647 Median   1.65 Mean   1.67 Std   0.14 Max   3.78
+PlasmaViscosity :: Stats year :: 2011 :: Males   :: N 22206 non-zeros 22205 Median   1.65 Mean   1.67 Std   0.14 Max   3.15
+PlasmaViscosity :: Stats year :: 2012 :: Males   :: N 23319 non-zeros 23319 Median   1.65 Mean   1.67 Std   0.14 Max   3.30
+PlasmaViscosity :: Stats year :: 2013 :: Males   :: N 22952 non-zeros 22952 Median   1.65 Mean   1.67 Std   0.14 Max   3.36
+PlasmaViscosity :: Stats year :: 2014 :: Males   :: N 18851 non-zeros 18851 Median   1.65 Mean   1.68 Std   0.14 Max   3.72
+PlasmaViscosity :: Stats year :: 2015 :: Males   :: N 14969 non-zeros 14969 Median   1.64 Mean   1.66 Std   0.13 Max   3.20
+PlasmaViscosity :: Stats year :: 2016 :: Males   :: N 700 non-zeros 700 Median   1.66 Mean   1.68 Std   0.14 Max   2.45
+PlasmaViscosity :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+PlasmaViscosity :: Stats year :: 2000 :: Females :: N 12895 non-zeros 12886 Median   1.65 Mean   6.39 Std  27.52 Max 256.00
+PlasmaViscosity :: Stats year :: 2001 :: Females :: N 17596 non-zeros 17590 Median   1.67 Mean   6.61 Std  28.36 Max 405.00
+PlasmaViscosity :: Stats year :: 2002 :: Females :: N 20071 non-zeros 20061 Median   1.67 Mean   5.88 Std  26.20 Max 298.00
+PlasmaViscosity :: Stats year :: 2003 :: Females :: N 21261 non-zeros 21261 Median   1.68 Mean   6.39 Std  27.65 Max 364.00
+PlasmaViscosity :: Stats year :: 2004 :: Females :: N 23230 non-zeros 23230 Median   1.69 Mean   4.70 Std  22.31 Max 229.00
+PlasmaViscosity :: Stats year :: 2005 :: Females :: N 24061 non-zeros 24059 Median   1.68 Mean   1.70 Std   0.14 Max   3.72
+PlasmaViscosity :: Stats year :: 2006 :: Females :: N 25368 non-zeros 25337 Median   1.67 Mean   1.69 Std   0.15 Max   3.70
+PlasmaViscosity :: Stats year :: 2007 :: Females :: N 26074 non-zeros 26072 Median   1.67 Mean   1.69 Std   0.14 Max   3.70
+PlasmaViscosity :: Stats year :: 2008 :: Females :: N 29516 non-zeros 29516 Median   1.67 Mean   1.69 Std   0.13 Max   3.28
+PlasmaViscosity :: Stats year :: 2009 :: Females :: N 30053 non-zeros 30052 Median   1.66 Mean   1.68 Std   0.13 Max   3.54
+PlasmaViscosity :: Stats year :: 2010 :: Females :: N 33195 non-zeros 33195 Median   1.66 Mean   1.68 Std   0.13 Max   3.60
+PlasmaViscosity :: Stats year :: 2011 :: Females :: N 35964 non-zeros 35964 Median   1.66 Mean   1.68 Std   0.13 Max   3.54
+PlasmaViscosity :: Stats year :: 2012 :: Females :: N 37488 non-zeros 37488 Median   1.66 Mean   1.68 Std   0.13 Max   3.23
+PlasmaViscosity :: Stats year :: 2013 :: Females :: N 36875 non-zeros 36875 Median   1.66 Mean   1.68 Std   0.13 Max   3.55
+PlasmaViscosity :: Stats year :: 2014 :: Females :: N 30756 non-zeros 30755 Median   1.66 Mean   1.68 Std   0.13 Max   3.53
+PlasmaViscosity :: Stats year :: 2015 :: Females :: N 24859 non-zeros 24859 Median   1.64 Mean   1.66 Std   0.13 Max   3.12
+PlasmaViscosity :: Stats year :: 2016 :: Females :: N 1185 non-zeros 1185 Median   1.67 Mean   1.69 Std   0.13 Max   2.41
+PlasmaViscosity :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+PlasmaViscosity :: Stats month 1 :: All :: N 51689 non-zeros 51682 Median   1.67 Mean   1.69 Std   0.15 Max   3.88
+PlasmaViscosity :: Stats month 2 :: All :: N 48385 non-zeros 48378 Median   1.67 Mean   2.67 Std  12.66 Max 190.00
+PlasmaViscosity :: Stats month 3 :: All :: N 53668 non-zeros 53664 Median   1.67 Mean   2.61 Std  12.30 Max 187.00
+PlasmaViscosity :: Stats month 4 :: All :: N 50643 non-zeros 50639 Median   1.67 Mean   2.84 Std  13.73 Max 208.00
+PlasmaViscosity :: Stats month 5 :: All :: N 52292 non-zeros 52286 Median   1.67 Mean   2.87 Std  13.98 Max 212.00
+PlasmaViscosity :: Stats month 6 :: All :: N 52248 non-zeros 52243 Median   1.66 Mean   2.71 Std  13.09 Max 199.00
+PlasmaViscosity :: Stats month 7 :: All :: N 52150 non-zeros 52144 Median   1.66 Mean   1.68 Std   0.14 Max   3.53
+PlasmaViscosity :: Stats month 8 :: All :: N 49073 non-zeros 49068 Median   1.66 Mean   1.68 Std   0.14 Max   3.60
+PlasmaViscosity :: Stats month 9 :: All :: N 51301 non-zeros 51292 Median   1.66 Mean   1.68 Std   0.14 Max   3.55
+PlasmaViscosity :: Stats month 10 :: All :: N 51971 non-zeros 51970 Median   1.66 Mean   2.65 Std  12.67 Max 192.00
+PlasmaViscosity :: Stats month 11 :: All :: N 50724 non-zeros 50718 Median   1.66 Mean   1.68 Std   0.14 Max   3.78
+PlasmaViscosity :: Stats month 12 :: All :: N 43047 non-zeros 43046 Median   1.67 Mean   2.73 Std  13.08 Max 197.00
+

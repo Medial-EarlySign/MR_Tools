@@ -1,0 +1,5 @@
+generator_type	int
+names	vector<string>
+tags	vector<string>
+future_ind	string
+req_signals	vector<string>

@@ -1,0 +1,162 @@
+TSH :: All :: With Values :: 4039381 / 14446692 =  0.28 :: 4039381 / 4039381 =  1.00
+TSH :: Males :: With Values :: 1573143 / 6889335 =  0.23 :: 1573143 / 4039381 =  0.39
+TSH :: Females :: With Values :: 2466238 / 7557357 =  0.33 :: 2466238 / 4039381 =  0.61
+TSH :: General :: No. of Values :: All 14267128 Male 4755865 Female 9511263
+TSH :: General :: No. of different days Values :: All 14257437 Male 4752992 Female 9504445
+TSH :: General :: Avg #values per person (all) :: All  0.99 Male  0.69 Female  1.26
+TSH :: General :: Avg #values per person (>0)  :: All  3.53 Male  3.02 Female  3.85
+TSH :: General :: Avg dist between tests       :: All  511.0 Male  541.3 Female  497.3
+TSH :: Counts :: Age Group 20 - 25 :: All ::  82943 0.006
+TSH :: Counts :: Age Group 25 - 30 :: All :: 102362 0.007
+TSH :: Counts :: Age Group 30 - 35 :: All :: 126899 0.009
+TSH :: Counts :: Age Group 35 - 40 :: All :: 150662 0.011
+TSH :: Counts :: Age Group 40 - 45 :: All :: 188872 0.013
+TSH :: Counts :: Age Group 45 - 50 :: All :: 222575 0.016
+TSH :: Counts :: Age Group 50 - 55 :: All :: 240813 0.017
+TSH :: Counts :: Age Group 55 - 60 :: All :: 246009 0.017
+TSH :: Counts :: Age Group 60 - 65 :: All :: 262400 0.018
+TSH :: Counts :: Age Group 65 - 70 :: All :: 270900 0.019
+TSH :: Counts :: Age Group 70 - 75 :: All :: 252308 0.018
+TSH :: Counts :: Age Group 75 - 80 :: All :: 237050 0.017
+TSH :: Counts :: Age Group 80 - 85 :: All :: 196304 0.014
+TSH :: Counts :: Age Group 85 - 90 :: All :: 133436 0.009
+TSH :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+TSH :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+TSH :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+TSH :: Counts :: Age Group 20 - 25 :: Males ::  19167 0.004
+TSH :: Counts :: Age Group 25 - 30 :: Males ::  23347 0.005
+TSH :: Counts :: Age Group 30 - 35 :: Males ::  29922 0.006
+TSH :: Counts :: Age Group 35 - 40 :: Males ::  38521 0.008
+TSH :: Counts :: Age Group 40 - 45 :: Males ::  53772 0.011
+TSH :: Counts :: Age Group 45 - 50 :: Males ::  67694 0.014
+TSH :: Counts :: Age Group 50 - 55 :: Males ::  80837 0.017
+TSH :: Counts :: Age Group 55 - 60 :: Males ::  89336 0.019
+TSH :: Counts :: Age Group 60 - 65 :: Males :: 102221 0.021
+TSH :: Counts :: Age Group 65 - 70 :: Males :: 108259 0.023
+TSH :: Counts :: Age Group 70 - 75 :: Males ::  99451 0.021
+TSH :: Counts :: Age Group 75 - 80 :: Males ::  89791 0.019
+TSH :: Counts :: Age Group 80 - 85 :: Males ::  69542 0.015
+TSH :: Counts :: Age Group 85 - 90 :: Males ::  41957 0.009
+TSH :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+TSH :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+TSH :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+TSH :: Counts :: Age Group 20 - 25 :: Females ::  63776 0.007
+TSH :: Counts :: Age Group 25 - 30 :: Females ::  79015 0.008
+TSH :: Counts :: Age Group 30 - 35 :: Females ::  96977 0.010
+TSH :: Counts :: Age Group 35 - 40 :: Females :: 112141 0.012
+TSH :: Counts :: Age Group 40 - 45 :: Females :: 135100 0.014
+TSH :: Counts :: Age Group 45 - 50 :: Females :: 154881 0.016
+TSH :: Counts :: Age Group 50 - 55 :: Females :: 159976 0.017
+TSH :: Counts :: Age Group 55 - 60 :: Females :: 156673 0.016
+TSH :: Counts :: Age Group 60 - 65 :: Females :: 160179 0.017
+TSH :: Counts :: Age Group 65 - 70 :: Females :: 162641 0.017
+TSH :: Counts :: Age Group 70 - 75 :: Females :: 152857 0.016
+TSH :: Counts :: Age Group 75 - 80 :: Females :: 147259 0.015
+TSH :: Counts :: Age Group 80 - 85 :: Females :: 126762 0.013
+TSH :: Counts :: Age Group 85 - 90 :: Females ::  91479 0.010
+TSH :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+TSH :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+TSH :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+TSH :: Stats :: Age Group 20 - 25 :: All ::  N 306907 non-zeros 306860 Median   1.62 Mean   1.89 Std   1.29 Max  21.21
+TSH :: Stats :: Age Group 25 - 30 :: All ::  N 347869 non-zeros 347794 Median   1.58 Mean   1.86 Std   1.37 Max  22.40
+TSH :: Stats :: Age Group 30 - 35 :: All ::  N 391763 non-zeros 391671 Median   1.56 Mean   1.86 Std   1.48 Max  24.10
+TSH :: Stats :: Age Group 35 - 40 :: All ::  N 441434 non-zeros 441326 Median   1.58 Mean   1.90 Std   1.56 Max  25.30
+TSH :: Stats :: Age Group 40 - 45 :: All ::  N 515957 non-zeros 515817 Median   1.60 Mean   1.95 Std   1.59 Max  25.74
+TSH :: Stats :: Age Group 45 - 50 :: All ::  N 551453 non-zeros 551303 Median   1.66 Mean   2.01 Std   1.67 Max  27.00
+TSH :: Stats :: Age Group 50 - 55 :: All ::  N 546092 non-zeros 545938 Median   1.70 Mean   2.07 Std   1.78 Max  28.70
+TSH :: Stats :: Age Group 55 - 60 :: All ::  N 538066 non-zeros 537902 Median   1.72 Mean   2.11 Std   1.81 Max  29.20
+TSH :: Stats :: Age Group 60 - 65 :: All ::  N 531313 non-zeros 531159 Median   1.77 Mean   2.15 Std   1.82 Max  29.42
+TSH :: Stats :: Age Group 65 - 70 :: All ::  N 498754 non-zeros 498605 Median   1.80 Mean   2.19 Std   1.86 Max  30.03
+TSH :: Stats :: Age Group 70 - 75 :: All ::  N 440933 non-zeros 440785 Median   1.80 Mean   2.22 Std   1.94 Max  31.34
+TSH :: Stats :: Age Group 75 - 80 :: All ::  N 391546 non-zeros 391437 Median   1.80 Mean   2.26 Std   2.12 Max  34.00
+TSH :: Stats :: Age Group 80 - 85 :: All ::  N 313994 non-zeros 313910 Median   1.80 Mean   2.33 Std   2.29 Max  36.70
+TSH :: Stats :: Age Group 85 - 90 :: All ::  N 201257 non-zeros 201213 Median   1.83 Mean   2.42 Std   2.55 Max  40.60
+TSH :: Stats :: Age Group 90 - 95 :: All ::  N 88631 non-zeros 88616 Median   1.88 Mean   2.54 Std   2.78 Max  44.24
+TSH :: Stats :: Age Group 95 - 100 :: All ::  N 21264 non-zeros 21262 Median   1.93 Mean   2.73 Std   3.31 Max  52.00
+TSH :: General :: All     :: outliers ratio 0.002321
+TSH :: General :: All     :: N 3705932 non-zeros 3705110 Median   1.69 Mean   2.05 Std   1.71 Max  27.63
+TSH :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.01   0.06   0.52   4.60   8.50  20.24
+TSH :: General :: All     :: quartiles ::   0.01   1.14   1.69   2.46 
+TSH :: General :: Males   :: outliers ratio 0.002006
+TSH :: General :: Males   :: N 1456784 non-zeros 1456587 Median   1.68 Mean   1.98 Std   1.45 Max  23.80
+TSH :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.01   0.23   0.62   4.22   7.39  17.00
+TSH :: General :: Males   :: quartiles ::   0.01   1.18   1.68   2.39 
+TSH :: General :: Females :: outliers ratio 0.002492
+TSH :: General :: Females :: N 2249220 non-zeros 2248613 Median   1.70 Mean   2.10 Std   1.88 Max  30.33
+TSH :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.01   0.04   0.45   4.83   9.30  22.75
+TSH :: General :: Females :: quartiles ::   0.01   1.11   1.70   2.51 
+TSH :: Rounding ::  0.00 r  0.16 pct
+TSH :: Rounding ::  0.01 r  0.58 pct
+TSH :: Rounding ::  0.10 r  0.22 pct
+TSH :: Rounding ::  1.00 r  0.03 pct
+TSH :: Rounding :: 10.00 r  0.00 pct
+TSH :: Rounding :: 100.00 r  0.00 pct
+TSH :: Rounding :: 1000.00 r  0.00 pct
+TSH :: Rounding :: most popular rounding for vals:  0.01
+TSH :: Stats year :: 2000 :: All :: N 161182 non-zeros 161047 Median   1.63 Mean   2.30 Std   2.91 Max  45.70
+TSH :: Stats year :: 2001 :: All :: N 230154 non-zeros 230033 Median   1.60 Mean   2.21 Std   2.61 Max  41.31
+TSH :: Stats year :: 2002 :: All :: N 314220 non-zeros 314048 Median   1.63 Mean   2.18 Std   2.41 Max  38.20
+TSH :: Stats year :: 2003 :: All :: N 430460 non-zeros 430239 Median   1.66 Mean   2.21 Std   2.41 Max  38.30
+TSH :: Stats year :: 2004 :: All :: N 571390 non-zeros 571168 Median   1.66 Mean   2.17 Std   2.27 Max  36.25
+TSH :: Stats year :: 2005 :: All :: N 646932 non-zeros 646661 Median   1.70 Mean   2.18 Std   2.20 Max  35.17
+TSH :: Stats year :: 2006 :: All :: N 706390 non-zeros 706066 Median   1.71 Mean   2.18 Std   2.09 Max  33.55
+TSH :: Stats year :: 2007 :: All :: N 760760 non-zeros 760328 Median   1.70 Mean   2.16 Std   2.03 Max  32.60
+TSH :: Stats year :: 2008 :: All :: N 829801 non-zeros 829284 Median   1.70 Mean   2.15 Std   2.04 Max  32.80
+TSH :: Stats year :: 2009 :: All :: N 875334 non-zeros 874928 Median   1.70 Mean   2.16 Std   2.05 Max  32.92
+TSH :: Stats year :: 2010 :: All :: N 870468 non-zeros 869982 Median   1.72 Mean   2.14 Std   1.95 Max  31.36
+TSH :: Stats year :: 2011 :: All :: N 902097 non-zeros 901747 Median   1.78 Mean   2.22 Std   2.08 Max  33.35
+TSH :: Stats year :: 2012 :: All :: N 914824 non-zeros 914742 Median   1.79 Mean   2.22 Std   2.03 Max  32.65
+TSH :: Stats year :: 2013 :: All :: N 897463 non-zeros 897405 Median   1.74 Mean   2.13 Std   1.82 Max  29.37
+TSH :: Stats year :: 2014 :: All :: N 817662 non-zeros 817623 Median   1.71 Mean   2.09 Std   1.76 Max  28.45
+TSH :: Stats year :: 2015 :: All :: N 707639 non-zeros 707595 Median   1.70 Mean   2.09 Std   1.78 Max  28.82
+TSH :: Stats year :: 2016 :: All :: N 27171 non-zeros 27171 Median   1.88 Mean   2.46 Std   2.62 Max  41.27
+TSH :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+TSH :: Stats year :: 2000 :: Males   :: N 43456 non-zeros 43433 Median   1.60 Mean   2.10 Std   2.34 Max  36.80
+TSH :: Stats year :: 2001 :: Males   :: N 66471 non-zeros 66446 Median   1.59 Mean   2.07 Std   2.22 Max  35.11
+TSH :: Stats year :: 2002 :: Males   :: N 95338 non-zeros 95303 Median   1.60 Mean   2.06 Std   2.01 Max  32.00
+TSH :: Stats year :: 2003 :: Males   :: N 136686 non-zeros 136639 Median   1.61 Mean   2.07 Std   2.00 Max  32.06
+TSH :: Stats year :: 2004 :: Males   :: N 189072 non-zeros 189023 Median   1.64 Mean   2.06 Std   1.90 Max  30.52
+TSH :: Stats year :: 2005 :: Males   :: N 217832 non-zeros 217775 Median   1.67 Mean   2.06 Std   1.80 Max  29.00
+TSH :: Stats year :: 2006 :: Males   :: N 241394 non-zeros 241333 Median   1.70 Mean   2.10 Std   1.77 Max  28.65
+TSH :: Stats year :: 2007 :: Males   :: N 265201 non-zeros 265126 Median   1.70 Mean   2.09 Std   1.71 Max  27.72
+TSH :: Stats year :: 2008 :: Males   :: N 293581 non-zeros 293512 Median   1.70 Mean   2.07 Std   1.69 Max  27.30
+TSH :: Stats year :: 2009 :: Males   :: N 314799 non-zeros 314738 Median   1.70 Mean   2.07 Std   1.67 Max  27.11
+TSH :: Stats year :: 2010 :: Males   :: N 316787 non-zeros 316720 Median   1.73 Mean   2.09 Std   1.65 Max  26.74
+TSH :: Stats year :: 2011 :: Males   :: N 329536 non-zeros 329482 Median   1.78 Mean   2.15 Std   1.70 Max  27.72
+TSH :: Stats year :: 2012 :: Males   :: N 336955 non-zeros 336935 Median   1.80 Mean   2.15 Std   1.67 Max  27.24
+TSH :: Stats year :: 2013 :: Males   :: N 331499 non-zeros 331483 Median   1.77 Mean   2.10 Std   1.56 Max  25.42
+TSH :: Stats year :: 2014 :: Males   :: N 300600 non-zeros 300588 Median   1.74 Mean   2.07 Std   1.51 Max  24.63
+TSH :: Stats year :: 2015 :: Males   :: N 261675 non-zeros 261666 Median   1.73 Mean   2.06 Std   1.52 Max  24.70
+TSH :: Stats year :: 2016 :: Males   :: N 10022 non-zeros 10022 Median   1.90 Mean   2.35 Std   2.01 Max  32.40
+TSH :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+TSH :: Stats year :: 2000 :: Females :: N 117703 non-zeros 117597 Median   1.66 Mean   2.36 Std   3.03 Max  47.61
+TSH :: Stats year :: 2001 :: Females :: N 163668 non-zeros 163568 Median   1.62 Mean   2.26 Std   2.76 Max  43.55
+TSH :: Stats year :: 2002 :: Females :: N 218835 non-zeros 218703 Median   1.65 Mean   2.23 Std   2.55 Max  40.51
+TSH :: Stats year :: 2003 :: Females :: N 293725 non-zeros 293555 Median   1.69 Mean   2.27 Std   2.56 Max  40.60
+TSH :: Stats year :: 2004 :: Females :: N 382357 non-zeros 382187 Median   1.68 Mean   2.23 Std   2.46 Max  39.10
+TSH :: Stats year :: 2005 :: Females :: N 429084 non-zeros 428868 Median   1.70 Mean   2.24 Std   2.41 Max  38.32
+TSH :: Stats year :: 2006 :: Females :: N 465003 non-zeros 464745 Median   1.72 Mean   2.23 Std   2.26 Max  36.02
+TSH :: Stats year :: 2007 :: Females :: N 495626 non-zeros 495263 Median   1.71 Mean   2.20 Std   2.21 Max  35.27
+TSH :: Stats year :: 2008 :: Females :: N 536282 non-zeros 535825 Median   1.70 Mean   2.20 Std   2.24 Max  35.76
+TSH :: Stats year :: 2009 :: Females :: N 560510 non-zeros 560153 Median   1.70 Mean   2.20 Std   2.24 Max  35.81
+TSH :: Stats year :: 2010 :: Females :: N 553636 non-zeros 553212 Median   1.71 Mean   2.17 Std   2.10 Max  33.74
+TSH :: Stats year :: 2011 :: Females :: N 572651 non-zeros 572346 Median   1.78 Mean   2.26 Std   2.28 Max  36.40
+TSH :: Stats year :: 2012 :: Females :: N 577889 non-zeros 577823 Median   1.79 Mean   2.26 Std   2.23 Max  35.72
+TSH :: Stats year :: 2013 :: Females :: N 566052 non-zeros 566013 Median   1.73 Mean   2.15 Std   1.98 Max  31.78
+TSH :: Stats year :: 2014 :: Females :: N 517074 non-zeros 517047 Median   1.70 Mean   2.11 Std   1.90 Max  30.66
+TSH :: Stats year :: 2015 :: Females :: N 445957 non-zeros 445919 Median   1.70 Mean   2.11 Std   1.92 Max  30.82
+TSH :: Stats year :: 2016 :: Females :: N 17149 non-zeros 17149 Median   1.86 Mean   2.52 Std   2.94 Max  46.37
+TSH :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+TSH :: Stats month 1 :: All :: N 611693 non-zeros 611568 Median   1.81 Mean   2.36 Std   2.42 Max  38.55
+TSH :: Stats month 2 :: All :: N 587989 non-zeros 587810 Median   1.79 Mean   2.28 Std   2.26 Max  36.17
+TSH :: Stats month 3 :: All :: N 636017 non-zeros 635860 Median   1.73 Mean   2.21 Std   2.16 Max  34.63
+TSH :: Stats month 4 :: All :: N 584632 non-zeros 584485 Median   1.72 Mean   2.21 Std   2.18 Max  34.80
+TSH :: Stats month 5 :: All :: N 605243 non-zeros 605054 Median   1.69 Mean   2.14 Std   2.08 Max  33.40
+TSH :: Stats month 6 :: All :: N 620826 non-zeros 620664 Median   1.67 Mean   2.11 Std   2.02 Max  32.44
+TSH :: Stats month 7 :: All :: N 627914 non-zeros 627766 Median   1.67 Mean   2.10 Std   2.02 Max  32.30
+TSH :: Stats month 8 :: All :: N 589869 non-zeros 589704 Median   1.68 Mean   2.11 Std   2.02 Max  32.40
+TSH :: Stats month 9 :: All :: N 623806 non-zeros 623626 Median   1.66 Mean   2.10 Std   2.01 Max  32.30
+TSH :: Stats month 10 :: All :: N 640051 non-zeros 639901 Median   1.70 Mean   2.16 Std   2.08 Max  33.30
+TSH :: Stats month 11 :: All :: N 613024 non-zeros 612866 Median   1.74 Mean   2.22 Std   2.14 Max  34.33
+TSH :: Stats month 12 :: All :: N 494098 non-zeros 493991 Median   1.80 Mean   2.32 Std   2.35 Max  37.51
+

@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Ask a question</title>
+<style>
+ p {
+        white-space: pre;
+        color: black;
+        background: pink;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+    }
+</style>
+</head>
+<body>
+	<form>
+		<label for="w3review">Query:</label><br/>
+
+		<textarea id="query" name="query" rows="10" cols="50">can you show me how to train a model using sklearn in python</textarea><br/>
+		<input id="medial" type="checkbox" value="medial" checked></input>
+		<label for="medial"> Use Medial confluece</label>
+		<br/>
+		<label for="temperature">Temperture: </label>
+		<input id="temperature" type="text" value="0.05"></input>
+		<label for="max_new_tokens">max_new_tokens: </label>
+		<input id="max_new_tokens" type="text" value="512"></input>
+		<label for="num_beams">num_beams: </label>
+		<input id="num_beams" type="text" value="1"></input>
+		<label for="top_k">top_k: </label>
+		<input id="top_k" type="text" value="50"></input>
+		<label for="top_p">top_p: </label>
+		<input id="top_p" type="text" value="0.95"></input>
+		<br/>
+		<input id="send" type="button" value="Send"></input>
+	</form>
+	<span>Response:</span>
+	<p>
+	<code id="answer"></code>
+	</p>
+	<span id="timer"></span>
+	<script>
+async function sendData(data) {
+  // Construct a FormData instance
+  document.querySelector("#answer").innerHTML = "Please wait...";
+  var startTime = performance.now();
+  var use_medial = document.querySelector("#medial").checked;
+  var url='http://node-01:8001';
+  if (use_medial) {
+	url='http://node-01:8001/medial';
+  }
+  // Add a text field
+  q=document.querySelector("#query").value;
+  temperature = document.querySelector("#temperature").value;
+  max_new_tokens = document.querySelector("#max_new_tokens").value;
+  num_beams = document.querySelector("#num_beams").value;
+  top_k = document.querySelector("#top_k").value;
+  top_p = document.querySelector("#top_p").value;
+  var data = JSON.stringify({"query": q, "temperature": temperature, "max_new_tokens": max_new_tokens, "num_beams":num_beams, "top_k": top_k, "top_p": top_p});
+  // Add a file
+  
+
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      // Set the FormData instance as the request body
+      body: data,
+    });
+    resp = await response.json();
+	var endTime = performance.now();
+	var time_took_seconds =  Math.floor((endTime-startTime)/1000);
+	var unit = 'Seconds';
+	if (time_took_seconds >= 180) {
+		time_took_seconds = Math.round(time_took_seconds/6)/10;
+		unit = 'Minutes';
+	}
+	if ('response' in resp) {
+		text=resp['response'];
+		document.querySelector("#answer").innerHTML = text;
+	}
+	else {
+		document.querySelector("#answer").innerHTML = JSON.stringify(resp);
+	}
+	document.querySelector("#timer").innerHTML = 'Took ' + time_took_seconds.toString() + ' ' + unit;
+  } catch (e) {
+    console.error(e);
+	document.querySelector("#answer").innerHTML= e;
+  }
+}
+
+const send = document.querySelector("#send");
+send.addEventListener("click", sendData);
+</script>
+	
+</body>
+</html>

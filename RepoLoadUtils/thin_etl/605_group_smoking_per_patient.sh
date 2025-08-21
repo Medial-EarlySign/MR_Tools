@@ -1,0 +1,1 @@
+cat nlst_pre_recs.txt | grep -v numerator | perl -F"\t" -ane '{map {$F[$_]="." if ($F[$_] eq "")} (0..$#F); print join("\t", @F);}' | /server/Work/Users/Ido/bedtools2/bin/groupBy -g 1,2,3 -c 4,5,6,7,8,10 -o collapse,collapse,collapse,collapse,collapse,collapse > nlst_post_recs.txt

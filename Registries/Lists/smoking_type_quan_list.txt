@@ -1,0 +1,138 @@
+read_codes	type	quantity	desc_medical	freq_medical	freq_ahd
+1371.00	4	0	Never smoked tobacco                                        	166021.0	17470354.0
+9kn..00	4	0	Non-smoker annual review - enhanced services administration 	8683.0	
+137K.00	1	-9	Stopped smoking                                             	23488.0	314385.0
+137L.00	5	-9	Current non-smoker                                          	12758.0	2502865.0
+137N.00	1	-9	Ex pipe smoker                                              	4.0	9347.0
+137O.00	1	-9	Ex cigar smoker                                             	8.0	6655.0
+137S.00	1	-9	Ex smoker                                                   	37557.0	8431501.0
+137T.00	1	-9	Date ceased smoking                                         	8554.0	48320.0
+1377.00	1	1	Ex-trivial smoker (<1/day)                                  	28.0	53592.0
+1378.00	1	4	Ex-light smoker (1-9/day)                                   	67.0	191595.0
+1379.00	1	15	Ex-moderate smoker (10-19/day)                              	100.0	292460.0
+137A.00	1	30	Ex-heavy smoker (20-39/day)                                 	111.0	152823.0
+137B.00	1	50	Ex-very heavy smoker (40+/day)                              	13.0	33468.0
+137F.00	1	-9	Ex-smoker - amount unknown                                  	2186.0	296509.0
+137i.00	1	-9	Ex-tobacco chewer                                           	3.0	
+137j.00	1	-9	Ex-cigarette smoker                                         	376.0	8587.0
+137K000	1	-9	Recently stopped smoking                                    	16.0	3009.0
+9km..00	1	-9	Ex-smoker annual review - enhanced services administration  	56.0	
+13p4.00	1	-9	Smoking free weeks                                          	7646.0	218.0
+137l.00	1	-9			518.0
+745H.00	2	-9	Smoking cessation therapy                                   	79363.0	23.0
+745H000	2	-9	Nicotine replacement therapy using nicotine patches         	13377.0	1.0
+745H200	2	-9	Nicotine replacement therapy using nicotine inhalator       	3505.0	1.0
+745H400	2	-9	Smoking cessation drug therapy                              	10568.0	12.0
+745H500	2	-9	Varenicline therapy                                         	27.0	33.0
+E251.00	2	-9	Tobacco dependence                                          	7251.0	1.0
+137..00	3	-9	Tobacco consumption                                         	13604.0	2417294.0
+137Z.00	2	-9	Tobacco consumption NOS                                     	1145.0	13627.0
+137X.00	3	-9	Cigarette consumption                                       	47.0	20701.0
+137Y.00	2	-9	Cigar consumption                                           	1.0	6131.0
+137E.00	2	-9	Tobacco consumption unknown                                 	103.0	24097.0
+1372.00	2	1	Trivial smoker - < 1 cig/day                                	487.0	98721.0
+1373.00	2	4	Light smoker - 1-9 cigs/day                                 	5204.0	477671.0
+1374.00	2	15	Moderate smoker - 10-19 cigs/d                              	7492.0	711162.0
+1375.00	2	30	Heavy smoker - 20-39 cigs/day                               	6538.0	370390.0
+1376.00	2	50	Very heavy smoker - 40+cigs/d                               	1764.0	32928.0
+137a.00	2	-9	Pipe tobacco consumption                                    	2.0	8269.0
+137b.00	2	-9	Ready to stop smoking                                       	10582.0	3610.0
+137C.00	2	-9	Keeps trying to stop smoking                                	495.0	10363.0
+137c.00	2	-9	Thinking about stopping smoking                             	13459.0	6109.0
+137e.00	2	-9	Smoking restarted                                           	1018.0	154.0
+137G.00	2	-9	Trying to give up smoking                                   	70304.0	112832.0
+137H.00	2	-9	Pipe smoker                                                 	388.0	61043.0
+137J.00	2	-9	Cigar smoker                                                	353.0	62756.0
+137M.00	3	-9	Rolls own cigarettes                                        	595.0	97632.0
+137P.00	3	-9	Cigarette smoker                                            	61496.0	6716284.0
+137Q.00	3	-9	Smoking started                                             	1364.0	7755.0
+137R.00	3	-9	Current smoker                                              	23274.0	1509119.0
+137V.00	3	-9	Smoking reduced                                             	225.0	5171.0
+137D.00	2	-9	Admitted tobacco cons untrue ?                              	1.0	309.0
+137d.00	2	-9	Not interested in stopping smoking                          	15176.0	12556.0
+137f.00	2	-9	Reason for restarting smoking                               	201.0	21.0
+137h.00	2	-9	Minutes from waking to first tobacco consumption            	4272.0	314.0
+6791.00	2	-9	Health ed. - smoking                                        	2346671.0	462592.0
+6791000	2	-9	Health education - parental smoking                         	305.0	81.0
+137m.00	2	-9	Failed attempt to stop smoking                              	2025.0	137.0
+13p..00	2	-9	Smoking cessation milestones                                	118509.0	633.0
+13p0.00	2	-9	Negotiated date for cessation of smoking                    	68719.0	3339.0
+13p8.00	2	-9	Lost to smoking cessation follow-up                         	734.0	33.0
+38DH.00	2	-9	Fagerstr test for nicotine dep                              	418.0	461.0
+67A3.00	2	-9	Pregnancy smoking advice                                    	2562.0	947.0
+67H1.00	2	-9	Lifestyle advice regarding smoking                          	23437.0	26265.0
+67H6.00	2	-9	Brief intervention for smoking cessation                    	10024.0	7845.0
+8B2B.00	2	-9	Nicotine replacement therapy                                	65083.0	525.0
+8B3f.00	2	-9	Nicotine replacement therapy provided free                  	7443.0	2.0
+8B3Y.00	2	-9	Over the counter nicotine replacement therapy               	3363.0	5.0
+8BP3.00	2	-9	Nicotine replacement therapy provided by community pharmacis	497.0	
+8CAg.00	2	-9	Smoking cessation advice provided by community pharmacist   	1098.0	964.0
+8CAL.00	2	-9	Smoking cessation advice                                    	3757019.0	4022482.0
+8CdB.00	2	-9	Stop smoking service opportunity signposted                 	4861.0	28.0
+8H7i.00	2	-9	Referral to smoking cessation advisor                       	173949.0	6683.0
+8HBM.00	2	-9	Stop smoking face to face follow-up                         	2140.0	71.0
+8HkQ.00	2	-9	Referral to NHS stop smoking service                        	25513.0	793.0
+8HTK.00	2	-9	Referral to stop-smoking clinic                             	89974.0	1627.0
+8I2I.00	2	-9	Nicotine replacement therapy contraindicated                	12.0	12.0
+8I2J.00	2	-9	Bupropion contraindicated                                   	8.0	13.0
+8I39.00	2	-9	Nicotine replacement therapy refused                        	1757.0	
+8I3M.00	2	-9	Bupropion refused                                           	17.0	
+8I6H.00	2	-9	Smoking review not indicated                                	2294.0	
+8IAj.00	2	-9	Smoking cessation advice declined                           	69803.0	3219.0
+8IEK.00	2	-9	Smoking cessation programme declined                        	25230.0	441.0
+8IEM.00	2	-9	Smoking cessation drug therapy declined                     	38494.0	1280.0
+9hG..00	2	-9	Exception reporting: smoking quality indicators             	1280.0	
+9hG0.00	2	-9	Excepted from smoking quality indicators: Patient unsuitable	13275.0	
+9hG1.00	2	-9	Excepted from smoking quality indicators: Informed dissent  	50030.0	1.0
+9kc..00	2	-9	Smoking cessation - enhanced services administration        	2316.0	2.0
+9kc0.00	2	-9	Smoking cessatn monitor template complet - enhanc serv admin	89.0	
+9ko..00	2	-9	Current smoker annual review - enhanced services admin      	42.0	
+9N2k.00	2	-9	Seen by smoking cessation advisor                           	260319.0	3846.0
+9N4M.00	2	-9	DNA - Did not attend smoking cessation clinic               	30456.0	105.0
+9Ndg.00	2	-9	Declined consent for follow-up by smoking cessation team    	4096.0	215.0
+9NdV.00	2	-9	Consent given follow-up after smoking cessation intervention	23.0	
+9NdW.00	2	-9	Consent given for smoking cessation data sharing            	473.0	
+9NdY.00	2	-9	Declin cons follow-up evaluation after smoking cess interven	236.0	
+9NdZ.00	2	-9	Declined consent for smoking cessation data sharing         	50.0	
+9NS0200	2	-9	Referral for smoking cessation service offered              	7974.0	1810.0
+9OO..00	2	-9	Anti-smoking monitoring admin.                              	21631.0	6.0
+9OO1.00	2	-9	Attends stop smoking monitor.                               	64666.0	579.0
+9OO2.00	2	-9	Refuses stop smoking monitor                                	10480.0	3486.0
+9OO3.00	2	-9	Stop smoking monitor default                                	2052.0	34.0
+9OO4.00	2	-9	Stop smoking monitor 1st lettr                              	58703.0	1.0
+9OO5.00	2	-9	Stop smoking monitor 2nd lettr                              	6734.0	1.0
+9OO6.00	2	-9	Stop smoking monitor 3rd lettr                              	2286.0	1.0
+9OO7.00	2	-9	Stop smoking monitor verb.inv.                              	4301.0	4.0
+9OO8.00	2	-9	Stop smoking monitor phone inv                              	5854.0	
+9OO9.00	2	-9	Stop smoking monitoring delete                              	38.0	
+9OOA.00	2	-9	Stop smoking monitor.chck done                              	17807.0	146.0
+9OOB.00	2	-9	Stop smoking invitation short message service text message  	3584.0	
+9OOB000	2	-9	Stop smoking invitation first SMS text message              	2578.0	
+9OOB100	2	-9	Stop smoking invitation second SMS text message             	48.0	
+9OOB200	2	-9	Stop smoking invitation third SMS text message              	8.0	
+9OOZ.00	2	-9	Stop smoking monitor admin.NOS                              	14432.0	12.0
+E023.00	2	-9	Nicotine withdrawal                                         	1304.0	1.0
+J036400	2	-9	Tobacco deposit on teeth                                    	1.0	
+SMC..00	2	-9	Toxic effect of tobacco and nicotine                        	24.0	
+TJHy200	2	-9	Adverse reaction to nicotine                                	19.0	59.0
+U609900	2	-9	[X]Bupropion causing adverse effects in therapeutic use     	3.0	43.0
+ZV4K000	2	-9	[V]Tobacco use                                              	80.0	9.0
+ZV6D800	2	-9	[V]Tobacco abuse counselling                                	690.0	1.0
+13p5.00	2	-9	Smoking cessation programme start date                      	30594.0	2468.0
+9ko..00	2	-9	Current smoker annual review - enhanced services admin      	42.0	
+137..11	3	-9	Smoker - amount smoked                                      	1539.0	51093.0
+1371.11	4	0	Non-smoker                                                  	10408.0	843278.0
+1372.11	2	1	Occasional smoker                                           	370.0	132261.0
+137P.11	3	-9	Smoker                                                      	13291.0	296282.0
+137Q.11	3	-9	Smoking restarted                                           	498.0	7121.0
+9Ndf.00	2	-9	Consent given for follow-up by smoking cessation team       	1102.0	181.0
+9OO..12	2	-9	Stop smoking monitoring admin.                              	43244.0	141.0
+H310100	2	-9	Smokers' cough                                              	2302.0	4.0
+ZG23300	2	-9	Advice on smoking                                           	6299.0	1106.0
+13p1.00	2	-9	Smoking status at 4 weeks                                   	36076.0	1278.0
+388B.00	2	-9	Pack years                                                  	6697.0	42695.0
+137W.00	2	-9	Chews tobacco                                               	11.0	434.0
+137g.00	2	-9	Cigarette pack-years                                        	9512.0	181.0
+13p2.00	2	-9	Smoking status between 4 and 52 weeks                       	6121.0	93.0
+1PC..00	2	-9	User of electronic cigarette                                	2155.0	35.0
+67K1.00	2	-9	Contemplation stage                                         	436.0	27.0

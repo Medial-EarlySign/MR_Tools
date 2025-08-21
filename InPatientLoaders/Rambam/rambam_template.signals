@@ -1,0 +1,35 @@
+#===============================================================================
+# Signal Types
+#
+# 0 - Value (32bit)
+# 1 - Date (32bit) + Value (32bit)
+# 2 - Time (64bit) + Value (32bit)
+# 3 - RangeDate (32bit + 32bit) + Value (32bit)
+# 8 - DateShort2 (32 bit int + 16bit short + 16 bit short)
+#10 - ValShort4 : 4 x short values
+#===============================================================================
+# Demographic   100-199
+#===============================================================================
+SIGNAL	GENDER	100	0	Male=1,Female=2
+SIGNAL	BYEAR	101	0	
+SIGNAL	BDATE	102	4	
+#SIGNAL	STARTDATE	103	0	
+#SIGNAL	ENDDATE	104	0	
+SIGNAL	DEATH	105	4	
+SIGNAL	TRAIN	106	0	
+SIGNAL	INSURANCE	109	0
+SIGNAL	ETHNICITY	110	0
+
+SIGNAL	ADMISSION	2307	3	admission (ev_admissions in rambam)	0
+SIGNAL	ADMISSION_TYPE	2308	1	admission (ev_admissions in rambam)	1
+SIGNAL	DIAGNOSIS	2309	6	ICD10 diagnosis code and sequencenumber (primary/secondary/past diagnosis)	11	
+SIGNAL	STAY	2310	12	specific stay at a department (ev_transfers in rambam)	11	
+SIGNAL	DRUG_ADMINISTERED	2311	12	ev_medications_administered	10	
+SIGNAL	DRUG_BACKGROUND	2312	12	ev_medications_adm	10	
+SIGNAL	DRUG_PRESCRIBED	2313	12	ev_medications_orders	10	
+SIGNAL	DRUG_RECOMMENDED	2314	12	ev_medications_recom	10	
+SIGNAL	DRUG_ADMINISTERED_RATE	2315	12	ev_medications_administered with hourly or daily units	10	
+SIGNAL	PROCEDURE	2321	6	ev_procedures + ev_surgeries	11	
+SIGNAL	MICROBIOLOGY	2331	12	culture and test type	11	
+
+

@@ -1,0 +1,2 @@
+Signal,code_description,code_system,code,unit_from,unit_to,unit_factor
+UrineAlbumin_over_Creatinine,Albumin/Creatinine [Mass Ratio] in Urine,LOINC,9318-7,ug/mg{creat},mg/mmol,0.113

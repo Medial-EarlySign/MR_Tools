@@ -1,0 +1,6 @@
+generator_type	int
+names	vector<string>
+tags	vector<string>
+iGenerateWeights	int
+signalName	string
+req_signals	vector<string>

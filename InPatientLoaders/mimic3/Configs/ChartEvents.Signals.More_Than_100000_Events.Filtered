@@ -1,0 +1,187 @@
+27	Abdominal Assessment	TEXT	CHART_Abdominal_Asses
+31	Activity	TEXT	CHART_Activity
+39	Airway Size	TEXT	CHART_Airway_Size
+40	Airway Type	TEXT	CHART_Airway_Type
+50	Apnea Time Interval	VALUE	CHART_Apnea_Time_Interval
+51	Arterial BP [Systolic]	VALUE	CHART_Arterial_BP_Sys	
+8368	Arterial BP [Diastolic]	VALUE	CHART_Arterial_BP_Dia
+52	Arterial BP Mean	VALUE	CHART_Arterial_BP_Mean
+113	CVP	VALUE	CHART_CVP
+159	Ectopy Frequency	TEXT	CHART_Ectopy_Freq
+161	Ectopy Type	TEXT	CHART_Ectopy_Type
+189	FiO2 (Analyzed)	VALUE	CHART_FiO2
+190	FiO2 Set	VALUE	CHART_FiO2
+198	GCS Total	VALUE	CHART_GCS
+210	HOB	TEXT	CHART_Head_of_Bed
+211	Heart Rate	VALUE	CHART_Heart_Rate
+212	Heart Rhythm	TEXT	CHART_Heart_Rythm
+221	I:E Ratio	VALUE	CHART_I_E_Ratio
+432	Level of Conscious	TEXT	CHART_Level_Of_Consc
+444	Mean Airway Pressure	VALUE	CHART_Mean_Airway_Pressure
+450	Minute Volume(Obser)	VALUE	CHART_Minute_Vol
+455	NBP [Systolic]	VALUE	CHART_NonInvasive_BP_Sys
+8441	NBP [Diastolic]	VALUE	CHART_NonInvasive_BP_Dia
+456	NBP Mean	VALUE	CHART_NonInvasive_BP_Mean
+470	O2 Flow (lpm)	VALUE	CHART_O2_Flow
+491	PAP Mean	VALUE	CHART_Pulmonary_AP_Mean
+492	PAP [Systolic]	VALUE	CHART_Pulmonary_AP_Sys
+8448	PAP [Diastolic]	VALUE	CHART_Pulmonary_AP_Dia
+506	PEEP Set	VALUE	CHART_PEEP_Set
+507	PIP	VALUE	CHART_PIP
+515	Pacemaker Mode	TEXT	CHART_PaceMaker_Mode
+516	Pacemaker Type	TEXT	CHART_PaceMaker_Type
+535	Peak Insp. Pressure	VALUE	CHART_Peak_Insp_Pressure
+543	Plateau Pressure	VALUE	CHART_Plateau_Pressure
+545	Plateau-Off	TEXT	CHART_Plateau_Off
+580	Previous Weight	VALUE	CHART_Weight
+581	Previous WeightF	VALUE	CHART_Weight
+762	Admit Wt	VALUE	CHART_Weight
+763	Daily Weight	VALUE	CHART_Weight
+614	Resp Rate (Spont)	VALUE	CHART_Resp_Rate_Spont
+615	Resp Rate (Total)	VALUE	CHART_Resp_Rate_Total
+618	Respiratory Rate	VALUE	CHART_Resp_Rate
+619	Respiratory Rate Set	VALUE	CHART_Resp_Rate_Set
+646	SpO2	VALUE	CHART_SaO2
+664	Swan SVO2	VALUE	CHART_Swan_SVO2
+676	Temperature C	VALUE	CHART_Temperature
+677	Temperature C (calc)	VALUE	CHART_Temperature
+682	Tidal Volume (Obser)	VALUE	CHART_Tidal_Volume_Obser
+683	Tidal Volume (Set)	VALUE	CHART_Tidal_Volume_Set
+684	Tidal Volume (Spont)	VALUE	CHART_Tidal_Volume_Spont
+720	Ventilator Mode	TEXT	CHART_Vent_Mode
+721	Ventilator No.	TEXT	CHART_Vent_No
+722	Ventilator Type	TEXT	CHART_Vent_Type
+776	Arterial Base Excess	VALUE	CHART_Base_Excess
+777	Arterial CO2(Calc)	VALUE	CHART_BiCarbonate
+778	Arterial PaCO2	VALUE	CHART_Art_PaCO2
+779	Arterial PaO2	VALUE	CHART_Art_PaO2
+780	Arterial pH	VALUE	CHART_PH
+781	BUN (6-20)	VALUE	CHART_BUN
+786	Calcium (8.4-10.2)	VALUE	CHART_Calcium
+787	Carbon Dioxide	VALUE	CHART_BiCarbonate
+788	Chloride (100-112)	VALUE	CHART_Chloride
+791	Creatinine (0-1.3)	VALUE	CHART_Creatinine
+803	Direct Bili (0-0.3)	VALUE	CHART_Direct_Bilirubin
+848	Total Bili (0-1.5)	VALUE	CHART_Bilirubin
+807	Fingerstick Glucose	VALUE	CHART_FingerStick_Glucose
+811	Glucose (70-105)	VALUE	CHART_Glucose
+813	Hematocrit	VALUE	CHART_Hematocrit
+814	Hemoglobin	VALUE	CHART_Hemoglobin
+815	INR (2-4 ref. range)	VALUE	CHART_INR_PT_
+816	Ionized Calcium	VALUE	CHART_freeCalcium
+821	Magnesium (1.6-2.6)	VALUE	CHART_Magnesium
+824	PT(11-13.5)	VALUE	CHART_PT
+825	PTT(22-35)	VALUE	CHART_aPTT
+827	Phosphorous(2.7-4.5)	VALUE	CHART_Phosphate
+828	Platelets	VALUE	CHART_Platelets
+829	Potassium (3.5-5.3)	VALUE	CHART_Potassium
+3312	BP Cuff [Mean]	VALUE	CHART_Cuff_BP_Mean
+3313	BP Cuff [Systolic]	VALUE	CHART_Cuff_BP_Sys
+8502	BP Cuff [Diastolic]	VALUE	CHART_Cuff_BP_Dia
+3337	Breath Rate	VALUE	CHART_Resp_Rate
+3420	FIO2	VALUE	CHART_FiO2
+3422	FIO2 [Meas]	VALUE	CHART_FiO2
+3503	Mean PAW [Meas]	VALUE	CHART_PAW
+833	RBC	VALUE	CHART_RBC
+834	SaO2	VALUE	CHART_SaO2
+837	Sodium (135-148)	VALUE	CHART_Sodium
+861	WBC (4-11	VALUE	CHART_WBC
+1126	Art.pH	VALUE	CHART_PH
+1127	WBC   (4-11	VALUE	CHART_WBC
+1162	BUN	VALUE	CHART_BUN
+1286	PT	VALUE	CHART_PT
+3603	Resp Rate	VALUE	CHART_Resp_Rate
+3664	Total Fluids cc/kg/d	VALUE	CHART_Total_Fluids
+1522	Calcium	VALUE	CHART_Calcium
+1523	Chloride	VALUE	CHART_Chloride
+1525	Creatinine	VALUE	CHART_Creatinine
+1529	Glucose	VALUE	CHART_Glucose
+1530	INR	VALUE	CHART_INR_PT_
+1532	Magnesium	VALUE	CHART_Magnesium
+1533	PTT	VALUE	CHART_aPTT
+1534	Phosphorous	VALUE	CHART_Phosphate
+1535	Potassium	VALUE	CHART_Potassium
+1536	Sodium	VALUE	CHART_Sodium
+1538	Total Bili	VALUE	CHART_Bilirubin
+1542	WBC	VALUE	CHART_WBC
+3750	Creatinine (0-1.3)	VALUE	CHART_Creatinine
+3765	Indirect Bili(0-1.0)	VALUE	CHART_Indirect_Bilirubin
+1394	Height Inches	VALUE	CHART_Height
+920	Admit Ht	VALUE	CHART_Height
+917	Diagnosis/op	TEXT	CHART_Diagnosis_OP
+226871	Expiratory Ratio Expiratory Ratio metavision chartevents Respiratory None Numeric,	VALUE	CHART_ExpRatio
+226873	Inspiratory Ratio Inspiratory Ratio metavision chartevents Respiratory None Numeric,	VALUE	CHART_InspRatio
+227073	Anion gap Anion gap metavision chartevents Labs None Numeric,	VALUE	CHART_Anion_Gap
+220059	Pulmonary Artery Pressure systolic PAPs metavision chartevents Hemodynamics mmHg Numeric,	VALUE	CHART_Pulmonary_AP_Sys
+220060	Pulmonary Artery Pressure diastolic PAPd metavision chartevents Hemodynamics mmHg Numeric,	VALUE	CHART_Pulmonary_AP_Dia
+220061	Pulmonary Artery Pressure mean PAPm metavision chartevents Hemodynamics mmHg Numeric,	VALUE	CHART_Pulmonary_AP_Mean
+220074	Central Venous Pressure CVP metavision chartevents Hemodynamics mmHg Numeric,	VALUE	CHART_CVP
+220179	Non Invasive Blood Pressure systolic NBPs metavision chartevents Routine Vital Signs mmHg Numeric,	VALUE	CHART_NonInvasive_BP_Sys
+220180	Non Invasive Blood Pressure diastolic NBPd metavision chartevents Routine Vital Signs mmHg Numeric,	VALUE	CHART_NonInvasive_BP_Dia
+220181	Non Invasive Blood Pressure mean NBPm metavision chartevents Routine Vital Signs mmHg Numeric,	VALUE	CHART_NonInvasive_BP_Mean
+220210	Respiratory Rate RR metavision chartevents Respiratory insp/min Numeric,	VALUE	CHART_Resp_Rate
+220224	Arterial O2 pressure PO2 (Arterial) metavision chartevents Labs mmHg Numeric,	VALUE	CHART_Art_PaO2
+220228	Hemoglobin Hemoglobin metavision chartevents Labs g/dl Numeric,	VALUE	CHART_Hemoglobin
+220235	Arterial CO2 Pressure PCO2 (Arterial) metavision chartevents Labs mmHg Numeric,	VALUE	CHART_Art_PaCO2
+220277	O2 saturation pulseoxymetry SpO2 metavision chartevents Respiratory % Numeric,	VALUE	CHART_SaO2
+220339	PEEP set PEEP set metavision chartevents Respiratory cmH2O Numeric,	VALUE	CHART_PEEP_Set
+223761	Temperature Fahrenheit Temperature F metavision chartevents Routine Vital Signs ?F Numeric,	VALUE	CHART_Temperature
+223762	Temperature Celsius Temperature C metavision chartevents Routine Vital Signs ?C Numeric,	VALUE	CHART_Temperature
+227442	Potassium (serum) Potassium (serum) metavision chartevents Labs None Numeric with tag,	VALUE	CHART_Potassium
+227443	HCO3 (serum) HCO3 (serum) metavision chartevents Labs None Numeric with tag,	VALUE	CHART_BiCarbonate
+227457	Platelet Count Platelet Count metavision chartevents Labs None Numeric with tag,	VALUE	CHART_Platelets
+223830	PH (Arterial) PH (Arterial) metavision chartevents Labs None Numeric,	VALUE	CHART_PH
+223834	O2 Flow O2 Flow metavision chartevents Respiratory L/min Numeric,	VALUE	CHART_O2_Flow
+223835	Inspired O2 Fraction FiO2 metavision chartevents Respiratory None Numeric,	VALUE	CHART_FiO2
+223876	Apnea Interval Apnea Interval metavision chartevents Respiratory sec Numeric,	VALUE	CHART_Apnea_Time_Interval
+223900	GCS - Verbal Response Verbal Response metavision  Neurological  Text,	TEXT	CHART_GCS_Verbal
+223901	GCS - Motor Response Motor Response metavision  Neurological  Text,	TEXT	CHART_GCS_Motor
+224684	Tidal Volume (set) Tidal Volume (set) metavision chartevents Respiratory mL Numeric,	VALUE	CHART_Tidal_Volume_Set
+224685	Tidal Volume (observed) Tidal Volume (observed) metavision chartevents Respiratory mL Numeric,	VALUE	CHART_Tidal_Volume_Obser
+224686	Tidal Volume (spontaneous) Tidal Volume (spontaneous) metavision chartevents Respiratory mL Numeric,	VALUE	CHART_Tidal_Volume_Spont
+224687	Minute Volume Minute Volume metavision chartevents Respiratory L/min Numeric,	VALUE	CHART_Minute_Vol
+224688	Respiratory Rate (Set) Respiratory Rate (Set) metavision chartevents Respiratory insp/min Numeric,	VALUE	CHART_Resp_Rate_Set
+224689	Respiratory Rate (spontaneous) Respiratory Rate (spontaneous) metavision chartevents Respiratory insp/min Numeric,	VALUE	CHART_Resp_Rate_Spont
+224690	Respiratory Rate (Total) Respiratory Rate (Total) metavision chartevents Respiratory insp/min Numeric,	VALUE	CHART_Resp_Rate_Total
+224695	Peak Insp. Pressure Peak Insp. Pressure metavision chartevents Respiratory cmH2O Numeric,	VALUE	CHART_Peak_Insp_Pressure
+224697	Mean Airway Pressure Mean Airway Pressure metavision chartevents Respiratory cmH2O Numeric,	VALUE	CHART_Mean_Airway_Pressure
+224738	Inspiratory Time IT metavision chartevents Respiratory sec Numeric,	VALUE	CHART_InspTime
+225664	Glucose finger stick Glucose finger stick metavision chartevents Labs None Numeric,	VALUE	CHART_FingerStick_Glucose
+225677	Phosphorous Phosphorous metavision chartevents Labs None Numeric,	VALUE	CHART_Phosphate
+225698	TCO2 (calc) Arterial TCO2 (calc) Arterial metavision chartevents Labs None Numeric,	VALUE	CHART_BiCarbonate
+225624	BUN BUN metavision chartevents Labs None Numeric,	VALUE	CHART_BUN
+225625	Calcium non-ionized Calcium non-ionized metavision chartevents Labs None Numeric,	VALUE	CHART_Calcium
+220545	Hematocrit (serum) Hematocrit (serum) metavision chartevents Labs None Numeric,	VALUE	CHART_Hematocrit
+220546	WBC WBC metavision chartevents Labs None Numeric,	VALUE	CHART_WBC
+220602	Chloride (serum) Chloride (serum) metavision chartevents Labs None Numeric,	VALUE	CHART_Chloride
+220615	Creatinine Creatinine metavision chartevents Labs None Numeric,	VALUE	CHART_Creatinine
+220621	Glucose (serum) Glucose (serum) metavision chartevents Labs None Numeric,	VALUE	CHART_Glucose
+220635	Magnesium Magnesium metavision chartevents Labs None Numeric,	VALUE	CHART_Magnesium
+220645	Sodium (serum) Sodium (serum) metavision chartevents Labs None Numeric,	VALUE	CHART_Sodium
+220739	GCS - Eye Opening Eye Opening metavision  Neurological  Text,	TEXT	CHART_GCS_Eye
+220045	Heart Rate HR metavision chartevents Routine Vital Signs bpm Numeric,	VALUE	CHART_Heart_Rate
+220050	Arterial Blood Pressure systolic ABPs metavision chartevents Routine Vital Signs mmHg Numeric,	VALUE	CHART_Arterial_BP_Sys
+220051	Arterial Blood Pressure diastolic ABPd metavision chartevents Routine Vital Signs mmHg Numeric,	VALUE	CHART_Arterial_BP_Dia
+220052	Arterial Blood Pressure mean ABPm metavision chartevents Routine Vital Signs mmHg Numeric,	VALUE	CHART_Arterial_BP_Mean
+224828	Arterial Base Excess Arterial Base Excess metavision chartevents Labs None Numeric,	VALUE	CHART_Base_Excess
+226730	Height (cm) metavision	VALUE	CHART_Height
+224696	Plateau Pressure metavision cmH2O	VALUE	CHART_Plateau_Pressure
+220227	Arterial O2 Saturation SaO2 metavision %	VALUE	CHART_SaO2
+223772	SvO2 metavision Hemodynamics %	VALUE	CHART_Swan_SVO2
+224639	Daily Weight	VALUE	CHART_Weight
+226512	Admission Weight (Kg)	VALUE	CHART_Weight
+3353	Cardiac Murmur	TEXT	CHART_CardiacMurmur
+3373	Color (Overall)	TEXT	CHART_Color
+3412	Erythromycin Oint.	TEXT	CHART_Erythromycin_Given
+3446	Gestational Age	TEXT	CHART_GestationalAge
+4171	Time	VALUE	CHART_BirthTime
+4184	Apgar      1 min	VALUE	CHART_Apgar1Min
+4185	5 min	VALUE	CHART_Apgar5Min
+4186	10 min	VALUE	CHART_Apgar10Min
+4197	RBC(3.6-6.2)	VALUE	CHART_RBC
+3654	Temp Rectal [F]	VALUE	CHART_RectalTemperature
+3685	Vitamin K	TEXT	CHART_VitaminK_Given
+3759	HGB  (10.8-15.8)	VALUE	CHART_Hemoglobin
+3761	Hematocrit (35-51)	VALUE	CHART_Hematocrit
+3789	Platelet  (150-440)	VALUE	CHART_Platelets
+3799	Red Blood C(3.6-6.2)	VALUE	CHART_RBC

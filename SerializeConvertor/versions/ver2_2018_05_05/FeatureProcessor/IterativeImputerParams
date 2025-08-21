@@ -1,0 +1,17 @@
+features_to_impute	vector<string>
+regressor	string
+regressor_params	string
+multi_categ_classifier	string
+multi_categ_classifier_params	string
+add_ncateg_var_name	string
+round1_strata	string
+do_round1	int
+round1_moment	int
+categorial_bound	int
+max_iterations	int
+p_validation	float
+min_vals_for_training	int
+missing_value	float
+round_to_resolution	int
+verbose	int
+missing_bound	float

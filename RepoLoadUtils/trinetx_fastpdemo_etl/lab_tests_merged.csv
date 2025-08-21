@@ -1,0 +1,172 @@
+Signal,code_description,code_system,code,unit_from,unit_to,unit_factor
+Lactate,Lactate [Moles/volume] in Serum or Plasma,LOINC,2524-7,mmol/L,mg/dL,9.01
+freeCalcium,Calcium.ionized [Moles/volume] in Blood,LOINC,1994-3,mmol/L,mmol/L,1
+Urine_Hemoglobin,Hemoglobin [Presence] in Urine by Automated test strip,LOINC,57751-0,boolean,boolean,1
+Ca,Calcium [Mass/volume] in Blood,LOINC,49765-1,mg/dL,mg/dL,1
+Urine_Glucose,Glucose [Mass/volume] in Urine by Automated test strip,LOINC,53328-1,mg/dL,mg/dL,1
+UrineTotalProtein,Protein [Mass/volume] in Urine by Automated test strip,LOINC,50561-0,mg/dL,g/L,0.01
+Lipase,Lipase [Enzymatic activity/volume] in Serum or Plasma,LOINC,3040-3,U/L,U/L,1
+Urine_Dipstick_for_Nitrites,Nitrite [Presence] in Urine by Automated test strip,LOINC,50558-6,boolean,boolean,1
+NRBC,Nucleated erythrocytes [#/volume] in Blood,LOINC,30392-5,10*3/uL,10*9/L,1
+CRP,C reactive protein [Mass/volume] in Serum or Plasma,LOINC,1988-5,mg/L,mg/dL,0.1
+Urine_dipstick_for_protein,Protein [Presence] in Urine by Test strip,LOINC,20454-5,boolean,boolean,1
+Urine_Ketone,Ketones [Mass/volume] in Urine by Automated test strip,LOINC,50557-8,mg/dL,mg/dL,1
+Bilirubin,Bilirubin.total [Mass/volume] in Urine,LOINC,1978-6,mg/dL,mg/dL,1
+ALT,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by No addition of P-5'-P,LOINC,1744-2,U/L,U/L,1
+PlasmaUrate,Urate [Mass/volume] in Serum or Plasma,LOINC,3084-1,mg/dL,mg/dL,1
+TSH,Thyrotropin [Units/volume] in Serum or Plasma by Detection limit <= 0.005 mIU/L,LOINC,11580-8,m[IU]/L,mU/L,1
+Creatine_Kinase,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,LOINC,2157-6,U/L,IU/L,1
+INR,INR in Blood by Coagulation assay,LOINC,34714-6,{INR},ratio,1
+Eosinophils%,Eosinophils/100 leukocytes in Blood,LOINC,26450-7,%,%,1
+Lymphocytes#,Lymphocytes [#/volume] in Blood by Manual count,LOINC,732-8,10*3/uL,10*9/L,1
+MPV,Platelet mean volume [Entitic volume] in Blood by Rees-Ecker,LOINC,776-5,fL,fL,1
+UrineAlbumin,Albumin [Mass/volume] in Urine,LOINC,1754-1,g/dL,mg/L,0.1
+PSA,Prostate specific Ag [Mass/volume] in Serum or Plasma,LOINC,2857-1,ng/mL,ug/L,1
+FingerStick_Glucose,Glucose [Moles/volume] in Capillary blood by Glucometer,LOINC,14743-9,mmol/L,mg/dL,18
+URINE_Bilinogen,Urobilinogen [Mass/volume] in Urine,LOINC,3107-0,mg/dL,EU/DL,1
+UrineTotalProtein,Protein [Mass/volume] in Urine,LOINC,2888-6,mg/dL,g/L,0.01
+VitaminD_25,25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma,LOINC,1989-3,ng/mL,nmol/L,2.496
+Urine_PH,pH of Urine by Automated test strip,LOINC,50560-2,[pH],units,1
+B12,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,LOINC,2132-9,pg/mL,pg/mL,1
+CorrectedCalcium,Calcium [Mass/volume] corrected for albumin in Serum or Plasma,LOINC,46099-8,mg/dL,mg/dL,1
+Ferritin,Ferritin [Mass/volume] in Serum or Plasma,LOINC,2276-4,ng/mL,ug/L,1
+Iron_Fe,Iron [Mass/volume] in Serum or Plasma,LOINC,2498-4,ug/dL,ug/dL,1
+Platelets,Platelets [#/volume] in Blood,LOINC,26515-7,10*3/uL,10*9/L,1
+Bicarbonate,Bicarbonate [Moles/volume] in Arterial blood,LOINC,1960-4,mmol/L,mmol/L,1
+Urine_Spec_Gravity,Specific gravity of Urine by Refractometry automated,LOINC,50562-8,{Spec grav},g/ml,1
+URINE_Bacteria,Bacteria [#/area] in Urine sediment by Microscopy high power field,LOINC,5769-5,/[HPF],/[HPF],1
+Bicarbonate,Bicarbonate [Moles/volume] in Serum or Plasma,LOINC,1963-8,mmol/L,mmol/L,1
+Creatinine,Creatinine [Mass/volume] in Blood,LOINC,38483-4,mg/dL,mg/dL,1
+Pregnancy,Pregnancy status,LOINC,82810-3,units,units,1
+WBC,Leukocytes [#/volume] in Blood,LOINC,26464-8,10*3/uL,10*9/L,1
+pH,pH of Arterial blood,LOINC,2744-1,[pH],PH_UNITS,1
+Art_PaCO2,Carbon dioxide [Partial pressure] in Arterial blood,LOINC,2019-8,mm[Hg],mmHg,1
+Art_PaO2,Oxygen [Partial pressure] in Arterial blood,LOINC,2703-7,mm[Hg],mmHg,1
+Urine_Ketone,Ketones [Mass/volume] in Urine by Test strip,LOINC,5797-6,mg/dL,mg/dL,1
+PlasmaAnionGap,Anion gap in Blood,LOINC,41276-7,mmol/L,mmol/L,1
+ETCO2,Carbon dioxide [Partial pressure] in Exhaled gas --at end expiration,LOINC,19891-1,mm[Hg],mmHg,1
+Basophils%,Basophils/100 leukocytes in Blood,LOINC,30180-4,%,%,1
+Urine_dipstick_for_ketones,Ketones [Presence] in Urine by Test strip,LOINC,2514-8,boolean,boolean,1
+TSH,Thyrotropin [Units/volume] in Serum or Plasma by Detection limit <= 0.05 mIU/L,LOINC,11579-0,m[IU]/L,mU/L,1
+FreeT4,Thyroxine (T4) free [Mass/volume] in Serum or Plasma,LOINC,3024-7,ng/dL,pmol/L,12.9
+TroponinI,Troponin I.cardiac [Mass/volume] in Serum or Plasma,LOINC,10839-9,ng/mL,ug/L,1
+URINE_RBC,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,LOINC,13945-1,/[HPF],Ery/uL,2.222222222
+Urine_Vol,Urine output,LOINC,9187-6,cm3,cc,1
+CO2,"Carbon dioxide, total [Moles/volume] in Blood",LOINC,20565-8,mmol/L,mmol/L,1
+Urine_Hemoglobin,Hemoglobin [Presence] in Urine by Test strip,LOINC,5794-3,boolean,boolean,1
+Neutrophils%,Neutrophils/100 leukocytes in Blood,LOINC,26511-6,%,%,1
+FingerStick_Glucose,Glucose [Mass/volume] in Capillary blood,LOINC,32016-8,mg/dL,mg/dL,1
+NRBC,Nucleated erythrocytes [#/volume] in Blood by Automated count,LOINC,771-6,10*3/uL,10*9/L,1
+Urine_Glucose,Glucose [Mass/volume] in Urine by Test strip,LOINC,5792-7,mg/dL,mg/dL,1
+Immature_Granulocytes%,Immature granulocytes/100 leukocytes in Blood,LOINC,38518-7,%,%,1
+AST,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P,LOINC,30239-8,U/L,IU/L,1
+Lymphocytes%,Lymphocytes/100 leukocytes in Blood,LOINC,26478-8,%,%,1
+NRBC,Nucleated erythrocytes [#/volume] in Blood by Manual count,LOINC,772-4,10*3/uL,10*9/L,1
+UrineTotalProtein,Protein [Mass/volume] in Urine by Test strip,LOINC,5804-0,mg/dL,g/L,0.01
+Urine_Microalbumin,Microalbumin [Mass/volume] in Urine,LOINC,14957-5,mg/dL,mg/L,10
+NonHDLCholesterol,Cholesterol non HDL [Mass/volume] in Serum or Plasma,LOINC,43396-1,mg/dL,mg/dL,1
+URINE_WBC,Leukocytes [#/area] in Urine sediment by Microscopy high power field,LOINC,5821-4,/[HPF],1/uL,2.22
+TSH,Thyrotropin [Units/volume] in Serum or Plasma,LOINC,3016-3,m[IU]/L,mU/L,1
+Bilirubin_Indirect,Bilirubin.indirect [Mass/volume] in Serum or Plasma,LOINC,1971-1,mg/dL,mg/dL,1
+Urine_Leucocytes,Leukocyte esterase [Presence] in Urine by Test strip,LOINC,5799-2,boolean,boolean,1
+aPTT,aPTT in Platelet poor plasma by Coagulation assay,LOINC,14979-9,s,sec,1
+LDL,Cholesterol in LDL [Mass/volume] in Serum or Plasma,LOINC,2089-1,mg/dL,mg/dL,1
+VLDL,Cholesterol in VLDL [Mass/volume] in Serum or Plasma by calculation,LOINC,13458-5,mg/dL,mg/dL,1
+URINE_bilirubin_bin,Bilirubin.total [Presence] in Urine by Test strip,LOINC,5770-3,boolean,boolean,1
+Urine_Dipstick_for_Nitrites,Nitrite [Presence] in Urine by Test strip,LOINC,5802-4,boolean,boolean,1
+Urine_Spec_Gravity,Specific gravity of Urine by Test strip,LOINC,5811-5,{Spec grav},g/ml,1
+Cl,Chloride [Moles/volume] in Blood,LOINC,2069-3,mmol/L,mmol/L,1
+Monocytes%,Monocytes/100 leukocytes in Blood,LOINC,26485-3,%,%,1
+Base_Excess,Base excess in Arterial blood by calculation,LOINC,1925-7,mmol/L,mEq/L,1
+Cholesterol_over_HDL,Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma,LOINC,9830-1,{ratio},ratio,1
+ALT,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P,LOINC,1743-4,U/L,U/L,1
+UrineAlbumin_over_Creatinine,Albumin/Creatinine [Mass Ratio] in Urine,LOINC,9318-7,ug/mg{creat},mg/mmol,0.113
+Globulin,Globulin [Mass/volume] in Serum by calculation,LOINC,10834-0,g/L,g/L,1
+MCV,MCV [Entitic volume],LOINC,30428-7,fL,fL,1
+Urea_Over_Creatinine,Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma,LOINC,3097-3,mg/mg{creat},ratio,1
+Bilirubin_Direct,Bilirubin.direct [Mass/volume] in Serum or Plasma,LOINC,1968-7,mg/dL,mg/dL,1
+Albumin,Albumin [Mass/volume] in Serum or Plasma by Bromocresol purple (BCP) dye binding method,LOINC,61152-5,g/dL,g/dL,1
+BUN,Urea nitrogen [Mass/volume] in Blood,LOINC,6299-2,mg/dL,mg/dL,1
+Immature_Granulocytes#,Immature granulocytes [#/volume] in Blood by Automated count,LOINC,53115-2,10*3/uL,10*9/L,1
+Glucose,Glucose [Mass/volume] in Blood by Automated test strip,LOINC,2340-8,mg/dL,mg/dL,1
+Urine_PH,pH of Urine by Test strip,LOINC,5803-2,[pH],units,1
+LDL,Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation,LOINC,13457-7,mg/dL,mg/dL,1
+Albumin_Over_Globulin,Albumin/Globulin [Mass Ratio] in Serum or Plasma,LOINC,1759-0,{ratio},{ratio},1
+Urine_Creatinine,Creatinine [Mass/volume] in Urine,LOINC,2161-8,mg/dL,mmol/L,0.0884
+PlasmaAnionGap,Anion gap in Serum or Plasma,LOINC,33037-3,mmol/L,mmol/L,1
+PT,Prothrombin time (PT),LOINC,5902-2,s,second,1
+INR,INR in Platelet poor plasma by Coagulation assay,LOINC,6301-6,{INR},ratio,1
+Immature_Granulocytes%,Immature granulocytes/100 leukocytes in Blood by Automated count,LOINC,71695-1,%,%,1
+RDW_ABS,Erythrocyte distribution width [Entitic volume] by Automated count,LOINC,21000-5,fL,fL,1
+HDL,Cholesterol in HDL [Mass/volume] in Serum or Plasma,LOINC,2085-9,mg/dL,mg/dL,1
+Cholesterol,Cholesterol [Mass/volume] in Serum or Plasma,LOINC,2093-3,mg/dL,mg/dL,1
+Triglycerides,Triglyceride [Mass/volume] in Serum or Plasma,LOINC,2571-8,mg/dL,mg/dL,1
+Mg,Magnesium [Mass/volume] in Serum or Plasma,LOINC,19123-9,mg/dL,mmol/L,0.41
+Phosphate,Phosphate [Mass/volume] in Serum or Plasma,LOINC,2777-1,mg/dL,mg/dL,1
+FingerStick_Glucose,Glucose [Mass/volume] in Capillary blood by Glucometer,LOINC,41653-7,mg/dL,mg/dL,1
+HbA1C,Hemoglobin A1c/Hemoglobin.total in Blood,LOINC,4548-4,%,%,1
+Albumin,Albumin [Mass/volume] in Serum or Plasma,LOINC,1751-7,g/dL,g/dL,1
+Lymphocytes#,Lymphocytes [#/volume] in Blood by Automated count,LOINC,731-0,10*3/uL,10*9/L,1
+Eosinophils#,Eosinophils [#/volume] in Blood by Automated count,LOINC,711-2,10*3/uL,10*9/L,1
+PlasmaAnionGap,Anion gap 3 in Serum or Plasma,LOINC,10466-1,mmol/L,mmol/L,1
+Glucose,Glucose [Mass/volume] in Blood,LOINC,2339-0,mg/dL,mg/dL,1
+ALT,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,LOINC,1742-6,U/L,U/L,1
+Basophils#,Basophils [#/volume] in Blood by Automated count,LOINC,704-7,10*3/uL,10*9/L,1
+MPV,Platelet mean volume [Entitic volume] in Blood by Automated count,LOINC,32623-1,fL,fL,1
+Monocytes#,Monocytes [#/volume] in Blood by Automated count,LOINC,742-7,10*3/uL,10*9/L,1
+Monocytes%,Monocytes/100 leukocytes in Blood by Automated count,LOINC,5905-5,%,%,1
+AST,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,LOINC,1920-8,U/L,U/L,1
+Neutrophils%,Neutrophils/100 leukocytes in Blood by Automated count,LOINC,770-8,%,%,1
+Basophils%,Basophils/100 leukocytes in Blood by Automated count,LOINC,706-2,%,%,1
+Neutrophils#,Neutrophils [#/volume] in Blood by Automated count,LOINC,751-8,10*3/uL,10*9/L,1
+Lymphocytes%,Lymphocytes/100 leukocytes in Blood by Automated count,LOINC,736-9,%,%,1
+Eosinophils%,Eosinophils/100 leukocytes in Blood by Automated count,LOINC,713-8,%,%,1
+Bilirubin,Bilirubin.total [Mass/volume] in Serum or Plasma,LOINC,1975-2,mg/dL,mg/dL,1
+ALKP,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,LOINC,6768-6,U/L,IU/L,1
+Protein_Total,Protein [Mass/volume] in Serum or Plasma,LOINC,2885-2,g/dL,g/dL,1
+MCH,MCH [Entitic mass] by Automated count,LOINC,785-6,pg,pg,1
+RDW,Erythrocyte distribution width [Ratio] by Automated count,LOINC,788-0,%,%,1
+MCV,MCV [Entitic volume] by Automated count,LOINC,787-2,fL,fL,1
+WBC,Leukocytes [#/volume] in Blood by Automated count,LOINC,6690-2,10*3/uL,10*9/L,1
+Platelets,Platelets [#/volume] in Blood by Automated count,LOINC,777-3,10*3/uL,10*9/L,1
+MCHC-M,MCHC [Mass/volume] by Automated count,LOINC,786-4,g/dL,g/dL,1
+RBC,Erythrocytes [#/volume] in Blood by Automated count,LOINC,789-8,10*6/uL,10*12/L,1
+Hematocrit,Hematocrit [Volume Fraction] of Blood by Automated count,LOINC,4544-3,%,NA,1
+CO2,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",LOINC,2028-9,mmol/L,mmol/L,1
+Hemoglobin,Hemoglobin [Mass/volume] in Blood,LOINC,718-7,g/dL,g/dL,1
+Cl,Chloride [Moles/volume] in Serum or Plasma,LOINC,2075-0,mmol/L,mmol/L,1
+Ca,Calcium [Mass/volume] in Serum or Plasma,LOINC,17861-6,mg/dL,mg/dL,1
+Creatinine,Creatinine [Mass/volume] in Serum or Plasma,LOINC,2160-0,mg/dL,mg/dL,1
+BUN,Urea nitrogen [Mass/volume] in Serum or Plasma,LOINC,3094-0,mg/dL,mg/dL,1
+Na,Sodium [Moles/volume] in Serum or Plasma,LOINC,2951-2,mmol/L,mmol/L,1
+K+,Potassium [Moles/volume] in Serum or Plasma,LOINC,2823-3,mmol/L,mmol/L,1
+Glucose,Glucose [Mass/volume] in Serum or Plasma,LOINC,2345-7,mg/dL,mg/dL,1
+UrineAlbumin_over_Creatinine,Albumin/Creatinine [Mass Ratio] in Urine,LOINC,9318-7,ug/mg{creat},mg/mmol,0.113
+UrineUrate,Urate [Mass/volume] in Urine,LOINC,3086-6,mg/dL,mg/dL,1
+Urea,Urea nitrogen [Mass/volume] in Venous blood,LOINC,12962-7,mg/dL,mg/dL,2.14
+Urea,Urea nitrogen [Mass/volume] in Blood,LOINC,6299-2,mg/dL,mg/dL,2.14
+Uric_Acid,Urate [Mass/volume] in Serum or Plasma,LOINC,3084-1,mg/dL,mg/dL,1
+GGT,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,LOINC,2324-2,U/L,U/L,1
+LDH,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Pyruvate to lactate reaction,LOINC,14805-6,U/L,U/L,1
+UrineCreatinine,Creatinine [Mass/volume] in Urine,LOINC,2161-8,mg/dL,mmol/L,0.0884
+UrineCreatinine,Creatinine [Moles/volume] in Urine,LOINC,14683-7,mmol/L,mmol/L,1
+BP,Blood Pressure Systolic,LOINC,8480-6,mm[Hg],mm[Hg],1
+BP,Blood Pressure Diastolic,LOINC,8462-4,mm[Hg],mm[Hg],1
+BMI,Body Mass Index,LOINC,39156-5,kg/m2,kg/m2,1
+Weight,Body weight,LOINC,29463-7,[lb_av],kg,0.453592
+HbA1c,Hemoglobin A1c/Hemoglobin.total in Blood,LOINC,4548-4,%,%,1
+Smoking_Intensity,Cigarettes smoked current (pack per day) - Reported,LOINC,8663-7,{#}/d,{#}/d,1
+Smoking_Status,Tobacco smoking status,LOINC,72166-2,units,units,1
+Smoking_Status,Current smoker,LOINC,64234-8,units,units,1
+Glucose,Glucose [Moles/volume] in Capillary blood by Glucometer,LOINC,14743-9,mmol/L,mg/dL,9.01
+Glucose,Fasting glucose [Mass/volume] in Venous blood,LOINC,1557-8,mg/dL,mg/dL,1
+Glucose,Glucose,LOINC,LP14635-4,units,mg/dL,1
+Glucose,Glucose [Mass/volume] in Blood,LOINC,2339-0,mg/dL,mg/dL,1
+Glucose,Glucose [Mass/volume] in Blood by Automated test strip,LOINC,2340-8,mg/dL,mg/dL,1
+Glucose,Glucose [Mass/volume] in Blood by Test strip manual,LOINC,2341-6,mg/dL,mg/dL,1
+Glucose,Glucose [Mass/volume] in Capillary blood,LOINC,32016-8,mg/dL,mg/dL,1
+Glucose,Glucose [Moles/volume] in Venous blood,LOINC,39480-9,mmol/L,mg/dL,9.01
+Glucose,Glucose [Moles/volume] in Arterial blood,LOINC,39481-7,mmol/L,mg/dL,9.01
+Glucose,Glucose [Mass/volume] in Arterial blood,LOINC,41651-1,mg/dL,mg/dL,1
+Glucose,Glucose [Mass/volume] in Venous blood,LOINC,41652-9,mg/dL,mg/dL,1
+Glucose,Glucose [Mass/volume] in Capillary blood by Glucometer,LOINC,41653-7,mg/dL,mg/dL,1

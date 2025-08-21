@@ -1,0 +1,5 @@
+generator_type	int
+signalName	string
+names	vector<string>
+tags	vector<string>
+iGenerateWeights	int

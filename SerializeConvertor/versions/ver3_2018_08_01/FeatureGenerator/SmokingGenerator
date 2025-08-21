@@ -1,0 +1,8 @@
+generator_type	int
+raw_feature_names	vector<string>
+names	vector<string>
+tags	vector<string>
+iGenerateWeights	int
+smoking_method	string
+future_ind	string
+req_signals	vector<string>

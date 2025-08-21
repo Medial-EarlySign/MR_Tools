@@ -1,0 +1,8 @@
+signal	source	code	description	type
+RDW	mayolabs	RDW	RDW	numeric
+WBC	mayolabs	WBC	WBC	numeric
+Platelets	mayolabs	Platelet	Platelet	numeric
+Monocytes#	mayolabs	Mono Absolute	Mono Absolute	numeric
+Basophils#	mayolabs	Baso Absolute	Baso Absolute	numeric
+Hemoglobin	mayolabs	Hgb	Hgb	numeric
+Lymphocytes#	mayolabs	Lymph Absolute	Lymph Absolute	numeric

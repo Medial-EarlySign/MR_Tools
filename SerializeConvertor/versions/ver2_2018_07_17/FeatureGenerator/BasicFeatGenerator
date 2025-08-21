@@ -1,0 +1,17 @@
+generator_type	int
+type	int
+tags	vector<string>
+serial_id	int
+win_from	int
+win_to	int
+d_win_from	int
+d_win_to	int
+time_unit_win	int
+time_channel	int
+val_channel	int
+sum_channel	int
+signalName	string
+sets	vector<string>
+names	vector<string>
+req_signals	vector<string>
+in_set_name 	string

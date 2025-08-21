@@ -1,0 +1,162 @@
+HDL_over_nonHDL :: All :: With Values :: 3054916 / 14446692 =  0.21 :: 3054916 / 3054916 =  1.00
+HDL_over_nonHDL :: Males :: With Values :: 1486628 / 6889335 =  0.22 :: 1486628 / 3054916 =  0.49
+HDL_over_nonHDL :: Females :: With Values :: 1568288 / 7557357 =  0.21 :: 1568288 / 3054916 =  0.51
+HDL_over_nonHDL :: General :: No. of Values :: All 12806925 Male 6470262 Female 6336663
+HDL_over_nonHDL :: General :: No. of different days Values :: All 12806540 Male 6470055 Female 6336485
+HDL_over_nonHDL :: General :: Avg #values per person (all) :: All  0.89 Male  0.94 Female  0.84
+HDL_over_nonHDL :: General :: Avg #values per person (>0)  :: All  4.19 Male  4.35 Female  4.04
+HDL_over_nonHDL :: General :: Avg dist between tests       :: All  453.5 Male  442.4 Female  465.2
+HDL_over_nonHDL :: Counts :: Age Group 20 - 25 :: All ::  14244 0.001
+HDL_over_nonHDL :: Counts :: Age Group 25 - 30 :: All ::  24058 0.002
+HDL_over_nonHDL :: Counts :: Age Group 30 - 35 :: All ::  39535 0.003
+HDL_over_nonHDL :: Counts :: Age Group 35 - 40 :: All ::  62436 0.005
+HDL_over_nonHDL :: Counts :: Age Group 40 - 45 :: All :: 121454 0.009
+HDL_over_nonHDL :: Counts :: Age Group 45 - 50 :: All :: 171933 0.013
+HDL_over_nonHDL :: Counts :: Age Group 50 - 55 :: All :: 226938 0.018
+HDL_over_nonHDL :: Counts :: Age Group 55 - 60 :: All :: 272392 0.021
+HDL_over_nonHDL :: Counts :: Age Group 60 - 65 :: All :: 331012 0.026
+HDL_over_nonHDL :: Counts :: Age Group 65 - 70 :: All :: 363016 0.028
+HDL_over_nonHDL :: Counts :: Age Group 70 - 75 :: All :: 331107 0.026
+HDL_over_nonHDL :: Counts :: Age Group 75 - 80 :: All :: 277578 0.022
+HDL_over_nonHDL :: Counts :: Age Group 80 - 85 :: All :: 195259 0.015
+HDL_over_nonHDL :: Counts :: Age Group 85 - 90 :: All :: 109471 0.009
+HDL_over_nonHDL :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+HDL_over_nonHDL :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+HDL_over_nonHDL :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+HDL_over_nonHDL :: Counts :: Age Group 20 - 25 :: Males ::   6155 0.001
+HDL_over_nonHDL :: Counts :: Age Group 25 - 30 :: Males ::  10651 0.002
+HDL_over_nonHDL :: Counts :: Age Group 30 - 35 :: Males ::  19730 0.003
+HDL_over_nonHDL :: Counts :: Age Group 35 - 40 :: Males ::  33405 0.005
+HDL_over_nonHDL :: Counts :: Age Group 40 - 45 :: Males ::  64598 0.010
+HDL_over_nonHDL :: Counts :: Age Group 45 - 50 :: Males ::  92120 0.014
+HDL_over_nonHDL :: Counts :: Age Group 50 - 55 :: Males :: 121554 0.019
+HDL_over_nonHDL :: Counts :: Age Group 55 - 60 :: Males :: 144347 0.022
+HDL_over_nonHDL :: Counts :: Age Group 60 - 65 :: Males :: 175220 0.027
+HDL_over_nonHDL :: Counts :: Age Group 65 - 70 :: Males :: 191030 0.030
+HDL_over_nonHDL :: Counts :: Age Group 70 - 75 :: Males :: 168181 0.026
+HDL_over_nonHDL :: Counts :: Age Group 75 - 80 :: Males :: 133436 0.021
+HDL_over_nonHDL :: Counts :: Age Group 80 - 85 :: Males ::  88106 0.014
+HDL_over_nonHDL :: Counts :: Age Group 85 - 90 :: Males ::  44209 0.007
+HDL_over_nonHDL :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+HDL_over_nonHDL :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+HDL_over_nonHDL :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+HDL_over_nonHDL :: Counts :: Age Group 20 - 25 :: Females ::   8089 0.001
+HDL_over_nonHDL :: Counts :: Age Group 25 - 30 :: Females ::  13407 0.002
+HDL_over_nonHDL :: Counts :: Age Group 30 - 35 :: Females ::  19805 0.003
+HDL_over_nonHDL :: Counts :: Age Group 35 - 40 :: Females ::  29031 0.005
+HDL_over_nonHDL :: Counts :: Age Group 40 - 45 :: Females ::  56856 0.009
+HDL_over_nonHDL :: Counts :: Age Group 45 - 50 :: Females ::  79813 0.013
+HDL_over_nonHDL :: Counts :: Age Group 50 - 55 :: Females :: 105384 0.017
+HDL_over_nonHDL :: Counts :: Age Group 55 - 60 :: Females :: 128045 0.020
+HDL_over_nonHDL :: Counts :: Age Group 60 - 65 :: Females :: 155792 0.025
+HDL_over_nonHDL :: Counts :: Age Group 65 - 70 :: Females :: 171986 0.027
+HDL_over_nonHDL :: Counts :: Age Group 70 - 75 :: Females :: 162926 0.026
+HDL_over_nonHDL :: Counts :: Age Group 75 - 80 :: Females :: 144142 0.023
+HDL_over_nonHDL :: Counts :: Age Group 80 - 85 :: Females :: 107153 0.017
+HDL_over_nonHDL :: Counts :: Age Group 85 - 90 :: Females ::  65262 0.010
+HDL_over_nonHDL :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+HDL_over_nonHDL :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+HDL_over_nonHDL :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+HDL_over_nonHDL :: Stats :: Age Group 20 - 25 :: All ::  N 70074 non-zeros 70037 Median   0.40 Mean   0.90 Std   2.84 Max  42.50
+HDL_over_nonHDL :: Stats :: Age Group 25 - 30 :: All ::  N 109830 non-zeros 109753 Median   0.40 Mean   0.90 Std   2.92 Max  44.40
+HDL_over_nonHDL :: Stats :: Age Group 30 - 35 :: All ::  N 165206 non-zeros 165062 Median   0.40 Mean   0.80 Std   2.57 Max  38.60
+HDL_over_nonHDL :: Stats :: Age Group 35 - 40 :: All ::  N 244356 non-zeros 244169 Median   0.30 Mean   0.72 Std   2.22 Max  33.80
+HDL_over_nonHDL :: Stats :: Age Group 40 - 45 :: All ::  N 396907 non-zeros 396646 Median   0.40 Mean   0.76 Std   2.41 Max  36.70
+HDL_over_nonHDL :: Stats :: Age Group 45 - 50 :: All ::  N 485697 non-zeros 485352 Median   0.30 Mean   0.77 Std   2.43 Max  36.70
+HDL_over_nonHDL :: Stats :: Age Group 50 - 55 :: All ::  N 546802 non-zeros 546366 Median   0.40 Mean   0.80 Std   2.52 Max  38.60
+HDL_over_nonHDL :: Stats :: Age Group 55 - 60 :: All ::  N 590684 non-zeros 590250 Median   0.40 Mean   0.80 Std   2.48 Max  37.30
+HDL_over_nonHDL :: Stats :: Age Group 60 - 65 :: All ::  N 619284 non-zeros 618878 Median   0.40 Mean   0.83 Std   2.61 Max  39.90
+HDL_over_nonHDL :: Stats :: Age Group 65 - 70 :: All ::  N 590970 non-zeros 590519 Median   0.40 Mean   0.93 Std   2.97 Max  45.00
+HDL_over_nonHDL :: Stats :: Age Group 70 - 75 :: All ::  N 502717 non-zeros 502372 Median   0.40 Mean   1.00 Std   3.19 Max  48.80
+HDL_over_nonHDL :: Stats :: Age Group 75 - 80 :: All ::  N 399628 non-zeros 399384 Median   0.40 Mean   1.04 Std   3.36 Max  50.20
+HDL_over_nonHDL :: Stats :: Age Group 80 - 85 :: All ::  N 283986 non-zeros 283858 Median   0.50 Mean   1.09 Std   3.54 Max  54.10
+HDL_over_nonHDL :: Stats :: Age Group 85 - 90 :: All ::  N 157423 non-zeros 157363 Median   0.50 Mean   1.15 Std   3.80 Max  57.90
+HDL_over_nonHDL :: Stats :: Age Group 90 - 95 :: All ::  N 58483 non-zeros 58461 Median   0.50 Mean   1.23 Std   4.06 Max  61.80
+HDL_over_nonHDL :: Stats :: Age Group 95 - 100 :: All ::  N 11746 non-zeros 11746 Median   0.50 Mean   1.19 Std   3.88 Max  57.90
+HDL_over_nonHDL :: General :: All     :: outliers ratio 0.000431
+HDL_over_nonHDL :: General :: All     :: N 2992075 non-zeros 2990253 Median   0.40 Mean   0.85 Std   2.71 Max  41.20
+HDL_over_nonHDL :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.20   1.10  16.40  30.90
+HDL_over_nonHDL :: General :: All     :: quartiles ::   0.10   0.30   0.40   0.50 
+HDL_over_nonHDL :: General :: Males   :: outliers ratio 0.000461
+HDL_over_nonHDL :: General :: Males   :: N 1455910 non-zeros 1454915 Median   0.30 Mean   0.77 Std   2.42 Max  36.70
+HDL_over_nonHDL :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.10   0.20   1.00  14.20  28.30
+HDL_over_nonHDL :: General :: Males   :: quartiles ::   0.10   0.30   0.30   0.50 
+HDL_over_nonHDL :: General :: Females :: outliers ratio 0.000364
+HDL_over_nonHDL :: General :: Females :: N 1536225 non-zeros 1535437 Median   0.40 Mean   0.93 Std   2.97 Max  45.20
+HDL_over_nonHDL :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.20   0.20   1.10  18.00  34.70
+HDL_over_nonHDL :: General :: Females :: quartiles ::   0.10   0.30   0.40   0.60 
+HDL_over_nonHDL :: Rounding ::  0.00 r  0.00 pct
+HDL_over_nonHDL :: Rounding ::  0.01 r  0.01 pct
+HDL_over_nonHDL :: Rounding ::  0.10 r  0.98 pct
+HDL_over_nonHDL :: Rounding ::  1.00 r  0.01 pct
+HDL_over_nonHDL :: Rounding :: 10.00 r  0.00 pct
+HDL_over_nonHDL :: Rounding :: 100.00 r  0.00 pct
+HDL_over_nonHDL :: Rounding :: 1000.00 r  0.00 pct
+HDL_over_nonHDL :: Rounding :: most popular rounding for vals:  0.10
+HDL_over_nonHDL :: Stats year :: 2000 :: All :: N 83452 non-zeros 82591 Median   0.30 Mean   0.53 Std   0.91 Max  13.80
+HDL_over_nonHDL :: Stats year :: 2001 :: All :: N 153077 non-zeros 152605 Median   0.30 Mean   0.54 Std   0.93 Max  14.30
+HDL_over_nonHDL :: Stats year :: 2002 :: All :: N 244645 non-zeros 243873 Median   0.30 Mean   0.53 Std   0.83 Max  12.80
+HDL_over_nonHDL :: Stats year :: 2003 :: All :: N 376821 non-zeros 376055 Median   0.40 Mean   0.51 Std   0.72 Max  11.20
+HDL_over_nonHDL :: Stats year :: 2004 :: All :: N 539167 non-zeros 538811 Median   0.40 Mean   0.47 Std   0.53 Max   8.30
+HDL_over_nonHDL :: Stats year :: 2005 :: All :: N 618626 non-zeros 618333 Median   0.40 Mean   0.48 Std   0.47 Max   7.50
+HDL_over_nonHDL :: Stats year :: 2006 :: All :: N 701686 non-zeros 701470 Median   0.40 Mean   0.47 Std   0.38 Max   6.20
+HDL_over_nonHDL :: Stats year :: 2007 :: All :: N 750227 non-zeros 749876 Median   0.40 Mean   0.47 Std   0.37 Max   6.00
+HDL_over_nonHDL :: Stats year :: 2008 :: All :: N 797873 non-zeros 797690 Median   0.40 Mean   0.45 Std   0.33 Max   5.40
+HDL_over_nonHDL :: Stats year :: 2009 :: All :: N 833334 non-zeros 833143 Median   0.40 Mean   0.44 Std   0.27 Max   4.50
+HDL_over_nonHDL :: Stats year :: 2010 :: All :: N 849698 non-zeros 849509 Median   0.40 Mean   0.64 Std   1.80 Max  27.40
+HDL_over_nonHDL :: Stats year :: 2011 :: All :: N 872721 non-zeros 872527 Median   0.40 Mean   0.73 Std   2.20 Max  33.50
+HDL_over_nonHDL :: Stats year :: 2012 :: All :: N 890863 non-zeros 890696 Median   0.40 Mean   0.72 Std   2.10 Max  32.20
+HDL_over_nonHDL :: Stats year :: 2013 :: All :: N 893811 non-zeros 893664 Median   0.40 Mean   0.61 Std   1.52 Max  23.20
+HDL_over_nonHDL :: Stats year :: 2014 :: All :: N 808785 non-zeros 808646 Median   0.40 Mean   1.19 Std   3.76 Max  56.60
+HDL_over_nonHDL :: Stats year :: 2015 :: All :: N 674225 non-zeros 674108 Median   0.50 Mean   3.44 Std   7.42 Max 112.00
+HDL_over_nonHDL :: Stats year :: 2016 :: All :: N 24776 non-zeros 24774 Median   0.50 Mean   5.24 Std   8.98 Max 108.10
+HDL_over_nonHDL :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL_over_nonHDL :: Stats year :: 2000 :: Males   :: N 44482 non-zeros 44057 Median   0.30 Mean   0.51 Std   0.97 Max  14.80
+HDL_over_nonHDL :: Stats year :: 2001 :: Males   :: N 80878 non-zeros 80634 Median   0.30 Mean   0.52 Std   0.97 Max  15.00
+HDL_over_nonHDL :: Stats year :: 2002 :: Males   :: N 127649 non-zeros 127287 Median   0.30 Mean   0.51 Std   0.87 Max  13.60
+HDL_over_nonHDL :: Stats year :: 2003 :: Males   :: N 193480 non-zeros 193108 Median   0.30 Mean   0.49 Std   0.75 Max  11.60
+HDL_over_nonHDL :: Stats year :: 2004 :: Males   :: N 272221 non-zeros 272025 Median   0.30 Mean   0.45 Std   0.55 Max   8.60
+HDL_over_nonHDL :: Stats year :: 2005 :: Males   :: N 310154 non-zeros 309974 Median   0.40 Mean   0.45 Std   0.48 Max   7.70
+HDL_over_nonHDL :: Stats year :: 2006 :: Males   :: N 350752 non-zeros 350611 Median   0.40 Mean   0.44 Std   0.39 Max   6.20
+HDL_over_nonHDL :: Stats year :: 2007 :: Males   :: N 376029 non-zeros 375814 Median   0.40 Mean   0.43 Std   0.37 Max   5.90
+HDL_over_nonHDL :: Stats year :: 2008 :: Males   :: N 400722 non-zeros 400613 Median   0.40 Mean   0.42 Std   0.31 Max   5.10
+HDL_over_nonHDL :: Stats year :: 2009 :: Males   :: N 417766 non-zeros 417644 Median   0.40 Mean   0.40 Std   0.25 Max   4.20
+HDL_over_nonHDL :: Stats year :: 2010 :: Males   :: N 426956 non-zeros 426842 Median   0.40 Mean   0.59 Std   1.64 Max  25.10
+HDL_over_nonHDL :: Stats year :: 2011 :: Males   :: N 437873 non-zeros 437757 Median   0.40 Mean   0.67 Std   2.05 Max  30.90
+HDL_over_nonHDL :: Stats year :: 2012 :: Males   :: N 445577 non-zeros 445472 Median   0.40 Mean   0.66 Std   1.92 Max  29.40
+HDL_over_nonHDL :: Stats year :: 2013 :: Males   :: N 444846 non-zeros 444743 Median   0.40 Mean   0.54 Std   1.26 Max  19.30
+HDL_over_nonHDL :: Stats year :: 2014 :: Males   :: N 401012 non-zeros 400908 Median   0.40 Mean   1.09 Std   3.46 Max  52.10
+HDL_over_nonHDL :: Stats year :: 2015 :: Males   :: N 335401 non-zeros 335329 Median   0.40 Mean   3.24 Std   6.97 Max 104.20
+HDL_over_nonHDL :: Stats year :: 2016 :: Males   :: N 12709 non-zeros 12709 Median   0.50 Mean   4.90 Std   8.31 Max  96.50
+HDL_over_nonHDL :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL_over_nonHDL :: Stats year :: 2000 :: Females :: N 38974 non-zeros 38532 Median   0.30 Mean   0.54 Std   0.84 Max  11.40
+HDL_over_nonHDL :: Stats year :: 2001 :: Females :: N 72199 non-zeros 71969 Median   0.40 Mean   0.56 Std   0.87 Max  13.20
+HDL_over_nonHDL :: Stats year :: 2002 :: Females :: N 116998 non-zeros 116596 Median   0.40 Mean   0.55 Std   0.78 Max  12.20
+HDL_over_nonHDL :: Stats year :: 2003 :: Females :: N 183332 non-zeros 182932 Median   0.40 Mean   0.54 Std   0.68 Max  10.70
+HDL_over_nonHDL :: Stats year :: 2004 :: Females :: N 266947 non-zeros 266779 Median   0.40 Mean   0.50 Std   0.51 Max   8.10
+HDL_over_nonHDL :: Stats year :: 2005 :: Females :: N 308485 non-zeros 308373 Median   0.40 Mean   0.52 Std   0.46 Max   7.30
+HDL_over_nonHDL :: Stats year :: 2006 :: Females :: N 350917 non-zeros 350849 Median   0.40 Mean   0.51 Std   0.38 Max   6.10
+HDL_over_nonHDL :: Stats year :: 2007 :: Females :: N 374186 non-zeros 374053 Median   0.40 Mean   0.50 Std   0.37 Max   6.00
+HDL_over_nonHDL :: Stats year :: 2008 :: Females :: N 397091 non-zeros 397023 Median   0.40 Mean   0.49 Std   0.34 Max   5.60
+HDL_over_nonHDL :: Stats year :: 2009 :: Females :: N 415487 non-zeros 415417 Median   0.40 Mean   0.48 Std   0.28 Max   4.60
+HDL_over_nonHDL :: Stats year :: 2010 :: Females :: N 422903 non-zeros 422831 Median   0.40 Mean   0.71 Std   2.05 Max  30.90
+HDL_over_nonHDL :: Stats year :: 2011 :: Females :: N 434955 non-zeros 434875 Median   0.40 Mean   0.79 Std   2.41 Max  36.70
+HDL_over_nonHDL :: Stats year :: 2012 :: Females :: N 445358 non-zeros 445285 Median   0.40 Mean   0.78 Std   2.31 Max  34.70
+HDL_over_nonHDL :: Stats year :: 2013 :: Females :: N 448708 non-zeros 448666 Median   0.40 Mean   0.66 Std   1.68 Max  25.70
+HDL_over_nonHDL :: Stats year :: 2014 :: Females :: N 407756 non-zeros 407717 Median   0.50 Mean   1.29 Std   4.01 Max  59.80
+HDL_over_nonHDL :: Stats year :: 2015 :: Females :: N 338826 non-zeros 338783 Median   0.50 Mean   3.64 Std   7.83 Max 119.70
+HDL_over_nonHDL :: Stats year :: 2016 :: Females :: N 12067 non-zeros 12065 Median   0.60 Mean   5.59 Std   9.62 Max 108.10
+HDL_over_nonHDL :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL_over_nonHDL :: Stats month 1 :: All :: N 548799 non-zeros 548498 Median   0.40 Mean   0.88 Std   2.81 Max  42.50
+HDL_over_nonHDL :: Stats month 2 :: All :: N 541000 non-zeros 540749 Median   0.40 Mean   0.72 Std   2.16 Max  32.80
+HDL_over_nonHDL :: Stats month 3 :: All :: N 564514 non-zeros 564239 Median   0.40 Mean   0.74 Std   2.28 Max  34.70
+HDL_over_nonHDL :: Stats month 4 :: All :: N 499967 non-zeros 499783 Median   0.40 Mean   0.76 Std   2.34 Max  34.70
+HDL_over_nonHDL :: Stats month 5 :: All :: N 512881 non-zeros 512652 Median   0.40 Mean   0.79 Std   2.46 Max  37.30
+HDL_over_nonHDL :: Stats month 6 :: All :: N 528097 non-zeros 527851 Median   0.40 Mean   0.95 Std   3.06 Max  46.30
+HDL_over_nonHDL :: Stats month 7 :: All :: N 537446 non-zeros 537240 Median   0.40 Mean   1.04 Std   3.37 Max  50.20
+HDL_over_nonHDL :: Stats month 8 :: All :: N 506083 non-zeros 505910 Median   0.40 Mean   1.01 Std   3.25 Max  48.30
+HDL_over_nonHDL :: Stats month 9 :: All :: N 536661 non-zeros 536438 Median   0.40 Mean   1.04 Std   3.35 Max  50.50
+HDL_over_nonHDL :: Stats month 10 :: All :: N 565246 non-zeros 565005 Median   0.40 Mean   1.05 Std   3.37 Max  50.20
+HDL_over_nonHDL :: Stats month 11 :: All :: N 551314 non-zeros 551089 Median   0.40 Mean   1.05 Std   3.36 Max  50.20
+HDL_over_nonHDL :: Stats month 12 :: All :: N 442404 non-zeros 442226 Median   0.40 Mean   1.14 Std   3.67 Max  56.00
+

@@ -1,0 +1,141 @@
+LAB_AFP	<1.0	0
+LAB_Ammonia	<6	5
+BG_Glucose	GREATER THAN 500	750
+BG_Oxygen/InspiredGas	.
+LAB_CEA	<1.0	0.5
+LAB_CO2	GREATER THAN 50	55
+LAB_CO2	LESS THAN 5	3
+LAB_CRP	<0.05	0.03
+LAB_CRP	GREATER THAN 30	40
+LAB_CRP	GREATER THAN 300	400
+LAB_Cobalamin	>2000	2010
+LAB_Cobalamin	GREATER THAN 2000	2010
+LAB_Creatinine_Kinase_MB	<1	0.5
+LAB_Creatinine_Kinase_MB	>500	800
+LAB_Creatinine_Kinase_MB	GREATER THAN 500	800
+LAB_Cyclosporine	GREATER THAN 1500	1700
+LAB_Cyclosporine	LESS THAN 25	17
+LAB_Digoxin	<0.2	0.1
+LAB_Digoxin	<0.3	0.1
+LAB_Ferritin	>2000	3000
+LAB_Ferritin	GREATER THAN 1000	2000
+LAB_Ferritin	GREATER THAN 2000	3000
+LAB_D_DIMER	1000-2000	1500
+LAB_D_DIMER	500-1000	750
+LAB_D_DIMER	<500	250
+LAB_D_DIMER	>10000	11000
+LAB_D_DIMER	>2000	5000
+LAB_Fibrinogen	<35	30
+LAB_Folate	>20	25
+LAB_Folate	>20.0	25
+LAB_Folate	GREATER THAN 20	25
+LAB_Folate	GREATER THAN 20 NG/ML	25
+LAB_Folate	GREATER THAN 20.0	25
+LAB_Gentamicin	<0.3	0.2
+LAB_Gentamicin	LESS THAN 0.3	0.2
+LAB_Haptoglobin	<20	15
+LAB_INR_PT_	>22.8	40
+LAB_INR_PT_	>66.1	70
+LAB_IgA	LESS THAN 7.5	5
+LAB_LDL	<50	25
+LAB_PSA	<0.1	0
+LAB_PSA	<0.3	0.1
+LAB_PSA	LESS THAN 0.1	0
+LAB_PT	>150	151
+LAB_Phenobarbital	<1.2	1.0
+LAB_Phenytoin	<0.6	0.5
+LAB_Phenytoin	LESS THAN 0.6	0.5
+LAB_Platelets	<5	4
+LAB_Potassium	GREATER THAN 10	11
+LAB_Potassium	GREATER THAN 10.0	11
+LAB_Sirolimus	LESS THAN 2.0	1.7
+LAB_T3	<30	25
+LAB_TSH	<0.02	0.019
+LAB_TSH	GREATER THAN 100	101
+LAB_TSH	LESS THAN 0.02	0.019
+LAB_TSH	LESS THAN 0.05	101
+LAB_Tacrolimus_FK	GREATER THAN 30	50
+LAB_Tacrolimus_FK	LESS THAN 1.5	1.2
+LAB_Transferrin	<80	50
+LAB_Troponin_I	<0.3	0.2
+LAB_Troponin_I	>50	51
+LAB_Troponin_I	GREATER THAN 50	51
+LAB_Troponin_I	GREATER THAN 50.0	51
+LAB_Troponin_I	LESS THAN 0.3	.2
+LAB_Troponin_T	<0.01	0.005
+LAB_Troponin_T	LESS THAN 0.01	0.005
+LAB_Urine_Albumin	<0.3	0.2
+LAB_Urine_Chloride	<10	9
+LAB_Urine_Chloride	LESS THAN 10	9
+LAB_Urine_Chloride	LESS THAN 20	15
+LAB_Urine_Epithelial_Cells	0-2	1
+LAB_Urine_Epithelial_Cells	11-20	15
+LAB_Urine_Epithelial_Cells	21-50	35
+LAB_Urine_Epithelial_Cells	3-5	4
+LAB_Urine_Epithelial_Cells	6-10	8
+LAB_Urine_Epithelial_Cells	<1	0
+LAB_Urine_Epithelial_Cells	<1 /HPF	0
+LAB_Urine_Epithelial_Cells	>50	75
+LAB_Urine_Glucose	>1000	1100
+LAB_Urine_Glucose	tr	1
+LAB_Urine_Granular_Casts	0-2	1
+LAB_Urine_Granular_Casts	0-2 COARSE GRANULAR CASTS	1
+LAB_Urine_Granular_Casts	11-20	15
+LAB_Urine_Granular_Casts	3-5	4
+LAB_Urine_Granular_Casts	6-10	8
+LAB_Urine_Granular_Casts	<1	0
+LAB_Urine_Hyaline_Casts	0-2	1
+LAB_Urine_Hyaline_Casts	11-20	15
+LAB_Urine_Hyaline_Casts	21-50	35
+LAB_Urine_Hyaline_Casts	3-5	4
+LAB_Urine_Hyaline_Casts	6-10	8
+LAB_Urine_Hyaline_Casts	<1	0
+LAB_Urine_Ketone	>80	150
+LAB_Urine_Ketone	tr	1
+LAB_Urine_Potassium	GREATER THAN 100	110
+LAB_Urine_Protein	>300	500
+LAB_Urine_RBC	0-2	1
+LAB_Urine_RBC	11-20	15
+LAB_Urine_RBC	21-50	35
+LAB_Urine_RBC	3-5	4
+LAB_Urine_RBC	6-10	8
+LAB_Urine_RBC	<1	0
+LAB_Urine_RBC	<1 /HPF	0
+LAB_Urine_RBC	>1000	1010
+LAB_Urine_RBC	>50	500
+LAB_Urine_Sodium	<10	7
+LAB_Urine_Sodium	LESS THAN 10	7
+LAB_Urine_Spec_Gravity	<1.005	1
+LAB_Urine_Spec_Gravity	<=1.005	1
+LAB_Urine_Spec_Gravity	>1.030	1.05
+LAB_Urine_Spec_Gravity	>1.035	1.05
+LAB_Urine_Spec_Gravity	>1.050	1.08
+LAB_Urine_Spec_Gravity	>1.080	1.081
+LAB_Urine_Spec_Gravity	>=1.030	1.05
+LAB_Urine_Spec_Gravity	>=1.035	1.05
+LAB_Urine_Total_Protein	<6	5
+LAB_Urine_Transitional_Cells	0-2	1
+LAB_Urine_Transitional_Cells	11-20	15
+LAB_Urine_Transitional_Cells	3-5	4
+LAB_Urine_Transitional_Cells	6-10	8
+LAB_Urine_Transitional_Cells	<1	0
+LAB_Urine_Transitional_Cells	<1 /HPF	0
+LAB_Urine_Urobilinogen	>8	12
+LAB_Urine_WBC	0-2	1
+LAB_Urine_WBC	11-20	15
+LAB_Urine_WBC	21-50	35
+LAB_Urine_WBC	3-5	4
+LAB_Urine_WBC	6-10	8
+LAB_Urine_WBC	<1	0
+LAB_Urine_WBC	<1 /HPF	0
+LAB_Urine_WBC	>1000	1010
+LAB_Urine_WBC	>50	500
+LAB_Valproate	<3.0	2
+LAB_Vancomycin	<1.7	1.5
+LAB_Vancomycin	<2.0	1.7
+LAB_WBC	<0.1	0
+LAB_aPTT	150 IS HIGHEST MEASURED PTT	175
+LAB_aPTT	>150	175
+LAB_proBNP	GREATER THAN 70000	80000
+LAB_Urine_Protein	TR	1
+LAB_Urine_Protein	>600	650

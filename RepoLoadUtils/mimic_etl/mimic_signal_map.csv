@@ -1,0 +1,701 @@
+signal	source	code	description	type
+AADO2	labevents	50801	Alveolar-arterial Gradient	numeric
+ALKP	labevents	50863	Alkaline Phosphatase	numeric
+ALKP	chartevents	773	Alk. Phosphate	numeric
+ALKP	chartevents	225612	Alkaline Phosphate	numeric
+ALT	labevents	50861	Alanine Aminotransferase (ALT)	numeric
+AST	labevents	50878	Asparate Aminotransferase (AST)	numeric
+Abdominal_Asses	chartevents	27	Abdominal Assessment	string
+Acanthocytes	labevents	51134	Acanthocytes	string
+Acetaminophen	labevents	50856	Acetaminophen	numeric
+Acetone	labevents	50857	Acetone	string
+Activity	chartevents	31	Activity	string
+Airway_Size	chartevents	39	Airway Size	string
+Airway_Type	chartevents	40	Airway Type	string
+Albumin	labevents	50862	Albumin	numeric
+Alpha_Fetoprotein	labevents	50864	Alpha-Fetoprotein	numeric
+Ammonia	labevents	50866	Ammonia	numeric
+Amylase	labevents	50867	Amylase	numeric
+SerumAnionGap	labevents	50868	Anion Gap	numeric
+SerumAnionGap	chartevents	227073	Anion gap	numeric
+Anisocytosis	labevents	51137	Anisocytosis	string
+Apgar10Min	chartevents	4186	10 min	numeric
+Apgar1Min	chartevents	4184	Apgar      1 min	numeric
+Apgar5Min	chartevents	4185	5 min	numeric
+Apnea_Time_Interval	chartevents	223876	Apnea Interval	numeric
+Apnea_Time_Interval	chartevents	50	Apnea Time Interval	numeric
+Art_PaCO2	chartevents	778	Arterial PaCO2	numeric
+Art_PaCO2	chartevents	220235	Arterial CO2 Pressure	numeric
+Art_PaO2	chartevents	779	Arterial PaO2	numeric
+Art_PaO2	chartevents	220224	Arterial O2 pressure	numeric
+Arterial_BP_Dia	chartevents	220051	Arterial Blood Pressure diastolic	numeric
+Arterial_BP_Dia	chartevents	8368	Arterial BP [Diastolic]	numeric
+Arterial_BP_Mean	chartevents	220052	Arterial Blood Pressure mean	numeric
+Arterial_BP_Mean	chartevents	52	Arterial BP Mean	numeric
+Arterial_BP_Sys	chartevents	51	Arterial BP [Systolic]	numeric
+Arterial_BP_Sys	chartevents	220050	Arterial Blood Pressure systolic	numeric
+Ascites_Albumin	labevents	50835	Albumin, Ascites	numeric
+Ascites_Amylase	labevents	50836	Amylase, Ascites	numeric
+Ascites_Glucose	labevents	50842	Glucose, Ascites	numeric
+Ascites_Lactate	labevents	50843	Lactate Dehydrogenase, Ascites	numeric
+Ascites_Lymphocytes%	labevents	51116	Lymphocytes	numeric
+Ascites_Macrophage%	labevents	51117	Macrophage	numeric
+Ascites_Monocytes%	labevents	51120	Monocytes	numeric
+Ascites_Polys%	labevents	51125	Polys	numeric
+Ascites_RBC	labevents	51127	RBC, Ascites	numeric
+Ascites_Protein_Total	labevents	50849	Total Protein, Ascites	numeric
+Ascites_WBC	labevents	51128	WBC, Ascites	numeric
+Atypical_Lymphocytes%	labevents	51143	Atypical Lymphocytes	numeric
+BUN	labevents	51006	Urea Nitrogen	numeric
+BUN	chartevents	225624	BUN	numeric
+BUN	chartevents	781	BUN (6-20)	numeric
+BUN	chartevents	1162	BUN	numeric
+Barbiturates	labevents	50879	Barbiturate Screen	string
+Base_excess	labevents	50802	Base Excess	numeric
+Base_excess	chartevents	224828	Arterial Base Excess	numeric
+Base_excess	chartevents	776	Arterial Base Excess	numeric
+Basophilic_Stippling	labevents	51145	Basophilic Stippling	string
+Basophils%	labevents	51146	Basophils	numeric
+Benzodiazepines	labevents	50880	Benzodiazepine Screen	string
+Bicarbonate	chartevents	227443	HCO3 (serum)	numeric
+Bicarbonate	chartevents	225698	TCO2 (calc) Arterial	numeric
+Bicarbonate	labevents	50803	Calculated Bicarbonate, Whole Blood	numeric
+Bicarbonate	chartevents	787	Carbon Dioxide	numeric
+Bicarbonate	labevents	50804	Calculated Total CO2	numeric
+Bicarbonate	chartevents	777	Arterial CO2(Calc)	numeric
+Bicarbonate	labevents	50882	Bicarbonate	numeric
+Bilirubin	labevents	50885	Bilirubin, Total	numeric
+Bilirubin	chartevents	848	Total Bili (0-1.5)	numeric
+Bilirubin	chartevents	1538	Total Bili	numeric
+Bilirubin	chartevents	225690	Total Bilirubin
+Bite_Cells	labevents	51147	Bite Cells	string
+Blasts%	labevents	51148	Blasts	numeric
+Blood_Gas_Type	labevents	50800	SPECIMEN TYPE	string
+BurrCells	labevents	51151	Burr Cells	string
+C3	labevents	50890	C3	numeric
+C4	labevents	50891	C4	numeric
+CD3	labevents	51175	CD3 Absolute Count	numeric
+CD3	labevents	51130	Absolute CD3 Count	numeric
+CD3%	labevents	51176	CD3 Cells, Percent	numeric
+CD4	labevents	51131	Absolute CD4 Count	numeric
+CD4%	labevents	51180	CD4 Cells, Percent	numeric
+CD4_Over_CD8	labevents	51181	CD4/CD8 Ratio	numeric
+CD8	labevents	51132	Absolute CD8 Count	numeric
+CD8%	labevents	51194	CD8 Cells, Percent	numeric
+CEA	labevents	50900	Carcinoembyronic Antigen (CEA)	numeric
+CK_MB_INDEX	labevents	50908	CK-MB Index	numeric
+CRP	labevents	50889	C-Reactive Protein	numeric
+CSF_Glucose	labevents	51014	Glucose, CSF	numeric
+CSF_Lymphocytes%	labevents	51351	Lymphs	numeric
+CSF_Monocytes%	labevents	51355	Monocytes	numeric
+CSF_Polys%	labevents	51360	Polys	numeric
+CSF_RBC	labevents	51362	RBC, CSF	numeric
+CSF_Protein_Total	labevents	51018	Total Protein, CSF	numeric
+CSF_WBC	labevents	51363	WBC, CSF	numeric
+CVP	chartevents	220074	Central Venous Pressure	numeric
+CVP	chartevents	113	CVP	numeric
+Ca	chartevents	225625	Calcium non-ionized	numeric
+Ca	chartevents	786	Calcium (8.4-10.2)	numeric
+Ca	labevents	50893	Calcium, Total	numeric
+Ca	chartevents	1522	Calcium	numeric
+Carboxyhemoglobin	labevents	50805	Carboxyhemoglobin	numeric
+CardiacMurmur	chartevents	3353	Cardiac Murmur	string
+Cl	labevents	50902	Chloride	numeric
+Cl	chartevents	220602	Chloride (serum)	numeric
+Cl	labevents	50806	Chloride, Whole Blood	numeric
+Cl	chartevents	788	Chloride (100-112)	numeric
+Cl	chartevents	1523	Chloride	numeric
+Cholesterol	labevents	50907	Cholesterol, Total	numeric
+B12	labevents	51010	Vitamin B12	numeric
+Color	chartevents	3373	Color (Overall)	string
+Cortisol	labevents	50909	Cortisol	numeric
+Creatinine	labevents	50912	Creatinine	numeric
+Creatinine	chartevents	791	Creatinine (0-1.3)	numeric
+Creatinine	chartevents	1525	Creatinine	numeric
+Creatinine	chartevents	3750	Creatinine   (0-0.7)	numeric
+Creatinine	chartevents	220615	Creatinine	numeric
+Creatine_Kinase	labevents	50910	Creatine Kinase (CK)	numeric
+Creatine_Kinase_MB	labevents	50911	Creatine Kinase, MB Isoenzyme	numeric
+BP_Dia_newborn	chartevents	8502	BP Cuff [Diastolic]	numeric
+BP_Mean_newborn	chartevents	3312	BP Cuff [Mean]	numeric
+BP_Sys_newborn	chartevents	3313	BP Cuff [Systolic]	numeric
+Cyclosporine	labevents	50914	Cyclosporin	numeric
+D_DIMER	labevents	50915	D-Dimer	numeric
+D_DIMER	labevents	51196	D-Dimer	numeric
+Dacrocytes	labevents	51296	Teardrop Cells	string
+Diagnosis_OP	chartevents	917	Diagnosis/op	string
+Digoxin	labevents	50917	Digoxin	numeric
+Bilirubin_Direct	chartevents	803	Direct Bili (0-0.3)	numeric
+Bilirubin_Direct	labevents	50883	Bilirubin, Direct	numeric
+Ectopy_Freq	chartevents	159	Ectopy Frequency	string
+Ectopy_Type	chartevents	161	Ectopy Type	string
+Elliptocytes	labevents	51197	Elliptocytes	string
+Eosinophils%	labevents	51200	Eosinophils	numeric
+ESR	labevents	51288	Sedimentation Rate	numeric
+Erythromycin_Given	chartevents	3412	Erythromycin Oint.	string
+Ethanol	labevents	50922	Ethanol	numeric
+ExpRatio	chartevents	226871	Expiratory Ratio	numeric
+Ferritin	labevents	50924	Ferritin	numeric
+FiO2	chartevents	189	FiO2 (Analyzed)	numeric
+FiO2	chartevents	223835	Inspired O2 Fraction	numeric
+FiO2	chartevents	3422	FIO2 [Meas]	numeric
+FiO2	chartevents	3420	FIO2	numeric
+Fibrinogen	labevents	51214	Fibrinogen, Functional	numeric
+FingerStick_Glucose	chartevents	807	Fingerstick Glucose	numeric
+FingerStick_Glucose	chartevents	225664	Glucose finger stick	numeric
+Folate	labevents	50925	Folate	numeric
+FragmentsInBlood	labevents	51216	Fragmented Cells	string
+FreeT4	labevents	50995	Thyroxine (T4), Free	numeric
+GCS_Total	chartevents	198	GCS Total	numeric
+GCS_Eye	chartevents	220739	GCS - Eye Opening	string
+GCS_Motor	chartevents	223901	GCS - Motor Response	string
+GCS_Verbal	chartevents	223900	GCS - Verbal Response	string
+GGT	labevents	50927	Gamma Glutamyltransferase	numeric
+Gentamicin	labevents	50929	Gentamicin	numeric
+GestationalAge	chartevents	3446	Gestational Age	string
+Globulin	labevents	50930	Globulin	numeric
+Glucose	chartevents	220621	Glucose (serum)	numeric
+Glucose	chartevents	1529	Glucose	numeric
+Glucose	labevents	50809	Glucose	numeric
+Glucose	chartevents	811	Glucose (70-105)	numeric
+Glucose	labevents	50931	Glucose	numeric
+Granulocytes	labevents	51218	Granulocyte Count	numeric
+HA_Ab	labevents	50937	Hepatitis A Virus Antibody	string
+HB_cAb	labevents	50942	Hepatitis B Virus Core Antibody	string
+HB_sAb	labevents	50940	Hepatitis B Surface Antibody	string
+HB_sAg	labevents	50941	Hepatitis B Surface Antigen	string
+HC_Ab	labevents	50943	Hepatitis C Virus Antibody	string
+HDL	labevents	50904	Cholesterol, HDL	numeric
+HIV_Ab	labevents	50944	HIV Antibody	string
+Haptoglobin	labevents	50935	Haptoglobin	numeric
+HbA1C	labevents	50852	% Hemoglobin A1c	numeric
+Head_of_Bed	chartevents	210	HOB	string
+Heart_Rate	chartevents	220045	Heart Rate	numeric
+Heart_Rate	chartevents	211	Heart Rate	numeric
+Heart_Rythm	chartevents	212	Heart Rhythm	string
+Height	chartevents	226707	Height	numeric
+Height	chartevents	920	Admit Ht	numeric
+Height	chartevents	226730	Height (cm)	numeric
+Hematocrit	chartevents	813	Hematocrit	numeric
+Hematocrit	labevents	50810	Hematocrit, Calculated	numeric
+Hematocrit	chartevents	220545	Hematocrit (serum)	numeric
+Hematocrit	labevents	51221	Hematocrit	numeric
+Hemoglobin	chartevents	220228	Hemoglobin	numeric
+Hemoglobin	labevents	50811	Hemoglobin	numeric
+Hemoglobin	labevents	51222	Hemoglobin	numeric
+Hemoglobin	chartevents	3759	HGB  (10.8-15.8)	numeric
+Hemoglobin	chartevents	814	Hemoglobin	numeric
+Hypochromia	labevents	51233	Hypochromia	string
+INR	labevents	51237	INR(PT)	numeric
+INR	chartevents	815	INR (2-4 ref. range)	numeric
+INR	chartevents	1530	INR	numeric
+I_E_Ratio	chartevents	221	I:E Ratio	numeric
+IgA	labevents	50949	Immunoglobulin A	numeric
+IgG	labevents	50950	Immunoglobulin G	numeric
+IgM	labevents	50951	Immunoglobulin M	numeric
+Bilirubin_Indirect	labevents	50884	Bilirubin, Indirect	numeric
+Bilirubin_Indirect	chartevents	3765	Indirect Bili(0-1.0)	numeric
+InspRatio	chartevents	226873	Inspiratory Ratio	numeric
+InspTime	chartevents	224738	Inspiratory Time	numeric
+InspTime	chartevents	2000	Inspiratory Time	numeric
+Intubated	labevents	50812	Intubated	string
+Iron_Fe	labevents	50952	Iron	numeric
+Iron_Binding_Capacity	labevents	50953	Iron Binding Capacity, Total	numeric
+LDH	labevents	50954	Lactate Dehydrogenase (LD)	numeric
+LDH	chartevents	220632	LDH	numeric
+LDH	chartevents	817	LDH	numeric
+LDL	labevents	50905	Cholesterol, LDL, Calculated	numeric
+LDL	labevents	50906	Cholesterol, LDL, Measured	numeric
+LDL	chartevents	225671	LDL calculated	numeric
+Lactate	labevents	50813	Lactate	numeric
+Level_Of_Consc	chartevents	432	Level of Conscious	string
+Lipase	labevents	50956	Lipase	numeric
+Lipase	chartevents	225672	Lipase	numeric
+Lymphocytes#	labevents	51133	Absolute Lymphocyte Count	numeric
+Lymphocytes%	labevents	51244	Lymphocytes	numeric
+Lymphocytes%	labevents	51245	Lymphocytes, Percent	numeric
+MCH	labevents	51248	MCH	numeric
+MCHC	labevents	51249	MCHC	numeric
+MCV	labevents	51250	MCV	numeric
+Mg	labevents	50960	Magnesium	numeric
+Mg	chartevents	220635	Magnesium	numeric
+Mg	chartevents	1532	Magnesium	numeric
+Mg	chartevents	821	Magnesium (1.6-2.6)	numeric
+Macrocytes	labevents	51246	Macrocytes	string
+Mean_Airway_Pressure	chartevents	444	Mean Airway Pressure	numeric
+Mean_Airway_Pressure	chartevents	224697	Mean Airway Pressure	numeric
+Mean_Airway_Pressure	chartevents	3503	Mean PAW [Meas]	numeric
+Metamyelocytes%	labevents	51251	Metamyelocytes	numeric
+Methemoglobin_Over_Hemoglobin	labevents	50814	Methemoglobin	numeric
+Microcytes	labevents	51252	Microcytes	string
+Minute_Vol	chartevents	450	Minute Volume(Obser)	numeric
+Minute_Vol	chartevents	224687	Minute Volume	numeric
+Monocytes%	labevents	51254	Monocytes	numeric
+Myelocytes%	labevents	51255	Myelocytes	numeric
+Bands%	labevents	51144	Bands	numeric
+Neutrophils%	labevents	51256	Neutrophils	numeric
+NonInvasive_BP_Dia	chartevents	220180	Non Invasive Blood Pressure diastolic	numeric
+NonInvasive_BP_Dia	chartevents	8441	NBP [Diastolic]	numeric
+NonInvasive_BP_Mean	chartevents	456	NBP Mean	numeric
+NonInvasive_BP_Mean	chartevents	220181	Non Invasive Blood Pressure mean	numeric
+NonInvasive_BP_Sys	chartevents	455	NBP [Systolic]	numeric
+NonInvasive_BP_Sys	chartevents	220179	Non Invasive Blood Pressure systolic	numeric
+NuclearAb	labevents	50873	Anti-Nuclear Antibody	string
+Nucleated_Erythrocytes%	labevents	51257	Nucleated Red Cells	numeric
+O2_Flow	chartevents	470	O2 Flow (lpm)	numeric
+O2_Flow	chartevents	471	O2 Flow (lpm) #2	numeric
+O2_Flow	labevents	50815	O2 Flow	numeric
+O2_Flow	chartevents	223834	O2 Flow	numeric
+Osmolality	labevents	50964	Osmolality, Measured	numeric
+OtherFluids_Lymphocytes%	labevents	51427	Lymphocytes	numeric
+OtherFluids_Macrophage%	labevents	51428	Macrophage	numeric
+OtherFluids_Monocytes%	labevents	51431	Monos	numeric
+OtherFluids_Polys%	labevents	51436	Polys	numeric
+OtherFluids_RBC	labevents	51438	RBC, Other Fluid	numeric
+OtherFluids_WBC	labevents	51439	WBC, Other Fluid	numeric
+Ovalocytes	labevents	51260	Ovalocytes	string
+Oxygen_Over_InspiredGas	labevents	50816	Oxygen	numeric
+PCO2	labevents	50818	pCO2	numeric
+PEEP_Set	labevents	50819	PEEP	numeric
+PEEP_Set	chartevents	220339	PEEP set	numeric
+PEEP_Set	chartevents	506	PEEP Set	numeric
+pH	chartevents	1126	Art.pH	numeric
+pH	chartevents	223830	PH (Arterial)	numeric
+pH	labevents	50820	pH	numeric
+pH	chartevents	780	Arterial pH	numeric
+pH	labevents	50831	pH	numeric
+pH	chartevents	3839	ph (other)	numeric
+pH	chartevents	4753	pH (Art)	numeric
+PIP	chartevents	507	PIP	numeric
+PIP	chartevents	3556		numeric
+PLEURAL_Albumin	labevents	51046	Albumin, Pleural	numeric
+PLEURAL_Glucose	labevents	51053	Glucose, Pleural	numeric
+PLEURAL_Lactate	labevents	51054	Lactate Dehydrogenase, Pleural	numeric
+PLEURAL_Lymphocytes%	labevents	51446	Lymphocytes	numeric
+PLEURAL_Macrophage%	labevents	51447	Macrophages	numeric
+PLEURAL_Monocytes%	labevents	51450	Monos	numeric
+PLEURAL_Polys%	labevents	51455	Polys	numeric
+PLEURAL_RBC	labevents	51457	RBC, Pleural	numeric
+PLEURAL_Protein_Total	labevents	51059	Total Protein, Pleural	numeric
+PLEURAL_WBC	labevents	51458	WBC, Pleural	numeric
+PO2	labevents	50821	pO2	numeric
+PSA	labevents	50974	Prostate Specific Antigen	numeric
+PT	labevents	51274	PT	numeric
+PT	chartevents	1286	PT	numeric
+PT	chartevents	824	PT(11-13.5)	numeric
+PaceMaker_Mode	chartevents	515	Pacemaker Mode	string
+PaceMaker_Type	chartevents	516	Pacemaker Type	string
+Parathyrin	labevents	50965	Parathyroid Hormone	numeric
+Peak_Insp_Pressure	chartevents	224695	Peak Insp. Pressure	numeric
+Peak_Insp_Pressure	chartevents	535	Peak Insp. Pressure	numeric
+Phenobarbital	labevents	50966	Phenobarbital	numeric
+Phenytoin	labevents	50967	Phenytoin	numeric
+Phenytoin	chartevents	227461	Phenytoin (Dilantin)	numeric
+Phosphate	chartevents	225677	Phosphorous	numeric
+Phosphate	chartevents	827	Phosphorous(2.7-4.5)	numeric
+Phosphate	labevents	50970	Phosphate	numeric
+Phosphate	chartevents	1534	Phosphorous	numeric
+Plateau_Off	chartevents	545	Plateau-Off	string
+Plateau_Pressure	chartevents	224696	Plateau Pressure	numeric
+Plateau_Pressure	chartevents	543	Plateau Pressure	numeric
+Platelets	labevents	51265	Platelet Count	numeric
+Platelets	chartevents	828	Platelets	numeric
+Platelets	chartevents	227457	Platelet Count	numeric
+Platelets	chartevents	3789	Platelet  (150-440)	numeric
+PlateletsLarge	labevents	51240	Large Platelets	string
+PlateletsManual	labevents	51266	Platelet Smear	string
+Poikilocytosis	labevents	51267	Poikilocytosis	string
+Polychromasia	labevents	51268	Polychromasia	string
+Potassium	labevents	50822	Potassium, Whole Blood	numeric
+Potassium	chartevents	1535	Potassium	numeric
+Potassium	labevents	50971	Potassium	numeric
+Potassium	chartevents	829	Potassium (3.5-5.3)	numeric
+Potassium	chartevents	227442	Potassium (serum)	numeric
+Promyelocytes%	labevents	51269	Promyelocytes	numeric
+PAP_Dia	chartevents	8448	PAP [Diastolic]	numeric
+PAP_Dia	chartevents	220060	Pulmonary Artery Pressure diastolic	numeric
+PAP_Mean	chartevents	491	PAP Mean	numeric
+PAP_Mean	chartevents	220061	Pulmonary Artery Pressure mean	numeric
+PAP_Sys	chartevents	492	PAP [Systolic]	numeric
+PAP_Sys	chartevents	220059	Pulmonary Artery Pressure systolic	numeric
+RBC	chartevents	833	RBC	numeric
+RBC	chartevents	4197	RBC(3.6-6.2)	numeric
+RBC	chartevents	3799	Red Blood C(3.6-6.2)	numeric
+RBC	labevents	51279	Red Blood Cells	numeric
+RBFC	labevents	51278	Red Blood Cell Fragments	string
+RDW	labevents	51277	RDW	numeric
+Req_O2	labevents	50823	Required O2	numeric
+Resp_Rate	chartevents	220210	Respiratory Rate	numeric
+Resp_Rate	chartevents	618	Respiratory Rate	numeric
+Resp_Rate	chartevents	3603	Resp Rate	numeric
+Resp_Rate	chartevents	3337	Breath Rate	numeric
+Resp_Rate_Set	chartevents	619	Respiratory Rate Set	numeric
+Resp_Rate_Set	chartevents	224688	Respiratory Rate (Set)	numeric
+Resp_Rate_Spont	chartevents	614	Resp Rate (Spont)	numeric
+Resp_Rate_Spont	chartevents	224689	Respiratory Rate (spontaneous)	numeric
+Resp_Rate_Total	chartevents	224690	Respiratory Rate (Total)	numeric
+Resp_Rate_Total	chartevents	615	Resp Rate (Total)	numeric
+Reticulocytes%	labevents	51284	Reticulocyte Count, Manual	numeric
+Reticulocytes%	labevents	51283	Reticulocyte Count, Automated	numeric
+SaO2	labevents	50817	Oxygen Saturation	numeric
+SaO2	chartevents	834	SaO2	numeric
+SaO2	chartevents	220277	O2 saturation pulseoxymetry	numeric
+SaO2	chartevents	220227	Arterial O2 Saturation	numeric
+SaO2	chartevents	646	SpO2	numeric
+Salicylate	labevents	50981	Salicylate	numeric
+Schistocytes	labevents	51287	Schistocytes	string
+Sirolimus	labevents	50978	Rapamycin	numeric
+Na	labevents	50983	Sodium	numeric
+Na	chartevents	837	Sodium (135-148)	numeric
+Na	chartevents	220645	Sodium (serum)	numeric
+Na	chartevents	1536	Sodium	numeric
+Na	labevents	50824	Sodium, Whole Blood	numeric
+Na	chartevents	226534	Sodium (whole blood)	numeric
+Na	chartevents	3803	Sodium  (135-148)	numeric
+Spherocytes	labevents	51292	Spherocytes	string
+SVO2	chartevents	223772	SvO2	numeric
+SVO2	chartevents	664	Swan SVO2	numeric
+SVO2	chartevents	838	SvO2	numeric
+T3	labevents	51001	Triiodothyronine (T3)	numeric
+T4	labevents	50994	Thyroxine (T4)	numeric
+T4	labevents	50896	Calculated Thyroxine (T4) Index	numeric
+TSH	labevents	50993	Thyroid Stimulating Hormone	numeric
+Tacrolimus	labevents	50986	tacroFK	numeric
+Tacrolimus	chartevents	227462	FK506	numeric
+Tacrolimus	chartevents	805	FK506	numeric
+Target_Cells	labevents	51294	Target Cells	string
+Temperature	labevents	50825	Temperature	numeric
+Temperature	chartevents	223761	Temperature Fahrenheit	numeric
+Temperature	chartevents	677	Temperature C (calc)	numeric
+Temperature	chartevents	223762	Temperature Celsius	numeric
+Temperature	chartevents	676	Temperature C	numeric
+Tidal_Volume_Spont	labevents	50826	Tidal Volume	numeric
+Tidal_Volume_Obser	chartevents	682	Tidal Volume (Obser)	numeric
+Tidal_Volume_Obser	chartevents	224685	Tidal Volume (observed)	numeric
+Tidal_Volume_Set	chartevents	683	Tidal Volume (Set)	numeric
+Tidal_Volume_Set	chartevents	224684	Tidal Volume (set)	numeric
+Tidal_Volume_Spont	chartevents	684	Tidal Volume (Spont)	numeric
+Tidal_Volume_Spont	chartevents	224686	Tidal Volume (spontaneous)	numeric
+Tobramycin	labevents	50997	Tobramycin	numeric
+Total_Fluids	chartevents	3664	Total Fluids cc/kg/d	numeric
+Protein_Total	labevents	50976	Protein, Total	numeric
+Transferrin	labevents	50998	Transferrin	numeric
+Tricyclic_Antidepressants	labevents	50999	Tricyclic Antidepressant Screen	string
+Triglycerides	labevents	51000	Triglycerides	numeric
+TroponinI	labevents	51002	Troponin I	numeric
+TroponinT	labevents	51003	Troponin T	numeric
+Uric_Acid	labevents	51007	Uric Acid	numeric
+Uric_Acid	chartevents	853	Uric Acid (2.7-7.0)	numeric
+Uric_Acid	chartevents	1541	Uric Acid	numeric
+Uric_Acid	chartevents	225695	Uric Acid	numeric
+UrineAlbumin	labevents	51069	Albumin, Urine	numeric
+UrineAlbumin_over_Creatinine	labevents	51070	Albumin/Creatinine, Urine	numeric
+Urine_Amorphous_Sediment	labevents	51462	Amorphous Crystals	string
+Urine_Amphetamines	labevents	51071	Amphetamine Screen, Urine	string
+Urine_Bacteria	labevents	51463	Bacteria	string
+Urine_Barbiturates	labevents	51074	Barbiturate Screen, Urine	string
+Urine_Benzodiazepines	labevents	51075	Benzodiazepine Screen, Urine	string
+Urine_Bilirubin	labevents	51464	Bilirubin	string
+Urine_Calcium_Oxalate	labevents	51469	Calcium Oxalate Crystals	string
+Urine_Chloride	labevents	51078	Chloride, Urine	numeric
+Urine_Cocaine	labevents	51079	Cocaine, Urine	string
+Urine_Creatinine	labevents	51082	Creatinine, Urine	numeric
+Urine_Eosinophils	labevents	51474	Eosinophils	string
+Urine_Epithelial_Cells	labevents	51476	Epithelial Cells	numeric
+Urine_Epithelial_Cells	labevents	51497	Renal Epithelial Cells	numeric
+Urine_Glucose	labevents	51478	Glucose	numeric
+Urine_Granular_Casts	labevents	51479	Granular Casts	numeric
+Urine_Hyaline_Casts	labevents	51482	Hyaline Casts	numeric
+Urine_Ketone	labevents	51484	Ketone	numeric
+Urine_Leukocytes	labevents	51486	Leukocytes	string
+Urine_Methadone	labevents	51090	Methadone, Urine	string
+Urine_Mucus	labevents	51512	Urine Mucous	string
+Urine_Nitrite	labevents	51487	Nitrite	string
+Urine_Opitaes	labevents	51092	Opiate Screen, Urine	string
+Urine_Osmolality	labevents	51093	Osmolality, Urine	numeric
+Urine_PH	labevents	51491	pH	numeric
+Urine_PH	labevents	51094	pH	numeric
+Urine_Phosphate	labevents	51095	Phosphate, Urine	numeric
+Urine_Potassium	labevents	51097	Potassium, Urine	numeric
+Urine_Prot_Elec	labevents	51098	Prot. Electrophoresis, Urine	string
+Urine_Total_Protein	labevents	51492	Protein	numeric
+Urine_Protein_Over_Creatinine	labevents	51099	Protein/Creatinine Ratio	numeric
+Urine_RBC	labevents	51493	RBC	numeric
+Urine_Sodium	labevents	51100	Sodium, Urine	numeric
+Urine_Spec_Gravity	labevents	51498	Specific Gravity	numeric
+Urine_Total_Protein	labevents	51102	Total Protein, Urine	numeric
+Urine_Transitional_Cells	labevents	51501	Transitional Epithelial Cells	numeric
+Urine_UreaN	labevents	51104	Urea Nitrogen, Urine	numeric
+Urine_Uric_Acid_Crystals	labevents	51505	Uric Acid Crystals	string
+Urine_Urobilinogen	labevents	51514	Urobilinogen	numeric
+Urine_WBC	labevents	51516	WBC	numeric
+Urine_Yeast	labevents	51519	Yeast	string
+Valproate_Acid	labevents	51008	Valproic Acid	numeric
+Vancomycin	labevents	51009	Vancomycin	numeric
+Vent	labevents	50828	Ventilator	string
+Vent_Mode	chartevents	720	Ventilator Mode	string
+Vent_No	chartevents	721	Ventilator No.	numeric
+Vent_Type	chartevents	722	Ventilator Type	string
+VitaminK_Given	chartevents	3685	Vitamin K	string
+WBC	chartevents	220546	WBC	numeric
+WBC	labevents	51300	WBC Count	numeric
+WBC	chartevents	861	WBC (4-11,000)	numeric
+WBC	chartevents	1542	WBC	numeric
+WBC	labevents	51301	White Blood Cells	numeric
+WBC	chartevents	1127	WBC   (4-11,000)	numeric
+WBC	chartevents	4200	WBC 4.0-11.0	numeric
+WBC_Clump	labevents	51518	WBC Clumps	string
+Weight	chartevents	763	Daily Weight	numeric
+Weight	chartevents	581	Previous WeightF	numeric
+Weight	chartevents	226512	Admission Weight (Kg)	numeric
+Weight	chartevents	224639	Daily Weight	numeric
+Weight	chartevents	762	Admit Wt	numeric
+Weight	chartevents	580	Previous Weight	numeric
+aPTT	labevents	51275	PTT	numeric
+aPTT	chartevents	1533	PTT	numeric
+aPTT	chartevents	825	PTT(22-35)	numeric
+freeCalcium	chartevents	816	Ionized Calcium	numeric
+freeCalcium	labevents	50808	Free Calcium	numeric
+NTproBNP	labevents	50963	NTproBNP	numeric
+Macrophage%	labevents	51352	Macrophage	numeric
+Mesothelial%	labevents	51118	Mesothelial Cell	numeric
+Mesothelial%	labevents	51448	Mesothelial Cells	numeric
+GENDER	patients	gender	gender	string
+BDATE	patients	dob	Birth Date	date
+BYEAR	patients	dob	Birth Date	numeric
+DEATH	patients	dod	Death Date	date
+MARITAL_STATUS	admissions	marital_status	marital_status	string
+ETHNICITY	admissions	ethnicity	ethnicity	string
+INSURANCE	admissions	insurance	insurance	string
+RELIGION	admissions	religion	religion	string
+BloodLoss	outputevents	43176	Blood Out Lab	numeric
+CalciumDialysisOut	outputevents	46712	CALCIUM-DIALYSIS	numeric
+CardiacOutput	outputevents	40909	cardiac output	numeric
+CerebralDrain	outputevents	226607	Cerebral Ventricular #2	numeric
+CerebralDrain	outputevents	226606	Cerebral Ventricular #1	numeric
+CerebralDrain	outputevents	226608	Cerebral Subdural #1	numeric
+CerebralDrain	outputevents	40058	Cerebral Drain R Ventricular Drain	numeric
+CerebralDrain	outputevents	40537	Cerebral Drain Subdural	numeric
+CerebralDrain	outputevents	41866	Cerebral Drain Other	numeric
+CerebralDrain	outputevents	40097	Cerebral Drain L Ventricular Drain	numeric
+CerebralDrain	outputevents	44719	cerebral drain right	numeric
+ChestTube	outputevents	40049	Chest Tubes Right Pleural 1	numeric
+ChestTube	outputevents	226591	L Pleural #2	numeric
+ChestTube	outputevents	40403	thoracentesis	numeric
+ChestTube	outputevents	226592	Mediastinal	numeric
+ChestTube	outputevents	226590	L Pleural #1	numeric
+ChestTube	outputevents	226593	R Pleural #1	numeric
+ChestTube	outputevents	40084	Chest Tubes Other	numeric
+ChestTube	outputevents	40050	Chest Tubes Right Pleural 2	numeric
+ChestTube	outputevents	40090	Chest Tubes Left Pleural 2	numeric
+ChestTube	outputevents	40048	Chest Tubes Left Pleural 1	numeric
+ChestTube	outputevents	41707	Chest Tubes CTICU CT 2	numeric
+ChestTube	outputevents	40076	Chest Tubes CTICU CT 1	numeric
+ChestTube	outputevents	226589	Chest Tube #2	numeric
+ChestTube	outputevents	226588	Chest Tube #1	numeric
+ChestTube	outputevents	43177	Chest Tubes Chest Tube	numeric
+ChestTube	outputevents	226595	R Pleural #2	numeric
+ChestTube	outputevents	40091	Chest Tubes Mediastinal	numeric
+DialysisOut	outputevents	41842	Dialysis Output.	numeric
+DialysisOut	outputevents	40425	dialysis output	numeric
+DialysisOut	outputevents	42536	Dialysis output	numeric
+DialysisOut	outputevents	42388	DIALYSIS OUTPUT	numeric
+DialysisOut	outputevents	46741	dialysis removed	numeric
+DialysisOut	outputevents	44901	Dialysis Removed	numeric
+DialysisOut	outputevents	43052	DIALYSIS REMOVED	numeric
+DialysisOut	outputevents	46713	KCL-10 MEQ-DIALYSIS	numeric
+DialysisOut	outputevents	41713	dialyslate out	numeric
+DialysisOut	outputevents	41112	Dialysys out	numeric
+DialysisOut	outputevents	40789	PD dialysate out	numeric
+DialysisOut	outputevents	41069	PD Dialysate Output	numeric
+DialysisOut	outputevents	44943	fluid removed dialys	numeric
+DialysisOut	outputevents	41750	dialysis  out	numeric
+DialysisOut	outputevents	43016	DIALYSIS TOTAL OUT	numeric
+DialysisOut	outputevents	40426	dialysis out	numeric
+DialysisOut	outputevents	41374	Dialysis Out	numeric
+DialysisOut	outputevents	41623	dialysate out	numeric
+DialysisOut	outputevents	40690	DIALYSIS	numeric
+DialysisOut	outputevents	40745	Dialysis	numeric
+DialysisOut	outputevents	40624	dialysis	numeric
+DialysisOut	outputevents	44027	dialysis fluid off	numeric
+DialysisOut	outputevents	46715	Citrate - dialysis	numeric
+DialysisOut	outputevents	46230	Dialysis 1.5% IN	numeric
+DialysisOut	outputevents	43687	crystalloid/dialysis	numeric
+DialysisOut	outputevents	44193	Dialysis.	numeric
+DialysisOut	outputevents	44845	Dialysis fluids	numeric
+DialysisOut	outputevents	44857	dialysis- fluid off	numeric
+DialysisOut	outputevents	41034	dialysis in	numeric
+DialysisOut	outputevents	45479	Dialysis In	numeric
+DialysisOut	outputevents	44286	Dialysis indwelling	numeric
+DialysisOut	outputevents	43941	dialysis/intake	numeric
+DialysisOut	outputevents	43115	dialysis net	numeric
+DialysisOut	outputevents	44085	DIALYSIS OFF	numeric
+DialysisOut	outputevents	42289	dialysis off	numeric
+DialysisOut	outputevents	40613	DIALYSIS OUT	numeric
+DialysisOut	outputevents	46232	dialysis flush	numeric
+DialysisOut	outputevents	40507	Dialysis out	numeric
+DrainOut	outputevents	226619	Pigtail #1	numeric
+DrainOut	outputevents	226620	Pigtail #2	numeric
+DrainOut	outputevents	226604	Hemovac #1	numeric
+DrainOut	outputevents	40287	Drain Out #4 Other	numeric
+DrainOut	outputevents	42279	Drain Out #5 Pigtail	numeric
+DrainOut	outputevents	40083	Drain Out #5 Other	numeric
+DrainOut	outputevents	226617	Sump #1	numeric
+DrainOut	outputevents	42788	Drain Out #4 T Tube	numeric
+DrainOut	outputevents	40290	Drain Out #4 Pigtail	numeric
+DrainOut	outputevents	42582	Drain Out #5 T Tube	numeric
+DrainOut	outputevents	41213	Drain Out #5 Jackson Pratt	numeric
+DrainOut	outputevents	226610	Lumbar	numeric
+DrainOut	outputevents	40470	paracentesis	numeric
+DrainOut	outputevents	43246	Repogle Tube NG	numeric
+DrainOut	outputevents	40073	PACU Out PACU Drains	numeric
+DrainOut	outputevents	226628	PACU Drains	numeric
+DrainOut	outputevents	44002	NSS VIA PIGTAIL TUBE	numeric
+DrainOut	outputevents	44201	lumbar drain	numeric
+DrainOut	outputevents	226597	JP Medial	numeric
+DrainOut	outputevents	226598	JP Lateral	numeric
+DrainOut	outputevents	226574	Jejunostomy	numeric
+DrainOut	outputevents	226602	Jackson Pratt #4	numeric
+DrainOut	outputevents	226601	Jackson Pratt #3	numeric
+DrainOut	outputevents	226600	Jackson Pratt #2	numeric
+DrainOut	outputevents	226612	Pericardial	numeric
+DrainOut	outputevents	40092	Drain Out #4 Jackson Pratt	numeric
+DrainOut	outputevents	40075	Drain Out #1 Pigtail	numeric
+DrainOut	outputevents	41898	Drain Out #3 T Tube	numeric
+DrainOut	outputevents	40066	Drain Out #1 Tap	numeric
+DrainOut	outputevents	40554	Drain Out #1 Sump	numeric
+DrainOut	outputevents	41868	Drain Out #1 Rt Nephrostomy	numeric
+DrainOut	outputevents	226605	Hemovac #2	numeric
+DrainOut	outputevents	40077	Drain Out #1 Pericardial	numeric
+DrainOut	outputevents	40294	Drain Out #1 Other	numeric
+DrainOut	outputevents	41867	Drain Out #1 Lumbar	numeric
+DrainOut	outputevents	226625	Tap	numeric
+DrainOut	outputevents	41184	Drain Out #1 Lt Nephrostomy	numeric
+DrainOut	outputevents	40703	Drain Out #1 JP Lateral	numeric
+DrainOut	outputevents	40614	Drain Out #1 Jejunostomy Tube	numeric
+DrainOut	outputevents	40071	Drain Out #1 Jackson Pratt	numeric
+DrainOut	outputevents	40070	Drain Out #1 Hemovac	numeric
+DrainOut	outputevents	42287	drain irrigant	numeric
+DrainOut	outputevents	227701	Drainage Bag	numeric
+DrainOut	outputevents	43178	Repogle Tube OGT	numeric
+DrainOut	outputevents	40926	Drain Out #1 JP Medial	numeric
+DrainOut	outputevents	40093	Drain Out #1 T Tube	numeric
+DrainOut	outputevents	226599	Jackson Pratt #1	numeric
+DrainOut	outputevents	40086	Drain Out #2 Pigtail	numeric
+DrainOut	outputevents	226603	T Tube	numeric
+DrainOut	outputevents	40292	Drain Out #2 T Tube	numeric
+DrainOut	outputevents	40538	Drain Out #2 Sump	numeric
+DrainOut	outputevents	226623	Penrose #1	numeric
+DrainOut	outputevents	40080	Drain Out #2 Other	numeric
+DrainOut	outputevents	40729	Drain Out #2 Lumbar	numeric
+DrainOut	outputevents	40088	Drain Out #3 Jackson Pratt	numeric
+DrainOut	outputevents	42945	Drain Out #3 JP Lateral	numeric
+DrainOut	outputevents	42871	Drain Out #2 JP Medial	numeric
+DrainOut	outputevents	40648	Drain Out #3 Other	numeric
+DrainOut	outputevents	42278	Drain Out #3 Pigtail	numeric
+DrainOut	outputevents	42367	Drain Out #3 Sump	numeric
+DrainOut	outputevents	41683	Drain Out #2 JP Lateral	numeric
+DrainOut	outputevents	40072	Drain Out #2 Jackson Pratt	numeric
+DrainOut	outputevents	41698	Drain Out #2 Hemovac	numeric
+DrainOut	outputevents	42983	Drain Out #3 Lumbar	numeric
+Emesis	outputevents	226571	Emesis	numeric
+Emesis	outputevents	40067	Gastric Emesis	numeric
+EstimatedBloodLoss	outputevents	40491	PACU Out EBL	numeric
+EstimatedBloodLoss	outputevents	226626	OR EBL	numeric
+EstimatedBloodLoss	outputevents	40064	OR Out EBL	numeric
+GastricOut	outputevents	226576	Oral Gastric	numeric
+GastricOut	outputevents	226575	Nasogastric	numeric
+GastricOut	outputevents	40074	PACU Out PACU NG	numeric
+GastricOut	outputevents	40406	Gastric Other	numeric
+GastricOut	outputevents	40331	Gastric Jejunostomy Tube	numeric
+GastricOut	outputevents	40059	Gastric Oral Gastric	numeric
+GastricOut	outputevents	40051	Gastric Gastric Tube	numeric
+GastricOut	outputevents	226573	Gastric Tube	numeric
+GastricOut	outputevents	40652	Gastric Blakemore	numeric
+GastricOut	outputevents	40052	Gastric Nasogastric	numeric
+HemoDialysisOut	outputevents	42928	HEMODIALYSIS.	numeric
+HemoDialysisOut	outputevents	41527	HEMODIALYSIS	numeric
+HemoDialysisOut	outputevents	42524	HemoDialysis	numeric
+HemoDialysisOut	outputevents	40881	Hemodialysis	numeric
+HemoDialysisOut	outputevents	44567	Hemodialysis.	numeric
+HemoDialysisOut	outputevents	43098	hemodialysis crystal	numeric
+HemoDialysisOut	outputevents	42868	hemodialysis off	numeric
+HemoDialysisOut	outputevents	42464	hemodialysis ultrafe	numeric
+HemoDialysisOut	outputevents	44199	HEMODIALYSIS O/P	numeric
+HemoDialysisOut	outputevents	41635	Hemodialysis removal	numeric
+HemoDialysisOut	outputevents	41500	hemodialysis output	numeric
+HemoDialysisOut	outputevents	41829	HEMODIALYSIS OUTPUT	numeric
+HemoDialysisOut	outputevents	45828	Hemo dialysis out	numeric
+HemoDialysisOut	outputevents	44216	Hemodialysis out	numeric
+HemoDialysisOut	outputevents	42972	HEMODIALYSIS OFF	numeric
+HemoDialysisOut	outputevents	40386	hemodialysis	numeric
+HemoDialysisOut	outputevents	41016	hemodialysis out	numeric
+HemoDialysisOut	outputevents	41417	Hemodialysis Out	numeric
+HemoDialysisOut	outputevents	46464	Hemodialysis OUT	numeric
+HemoDialysisOut	outputevents	41250	HEMODIALYSIS OUT	numeric
+PeritonealDialysisOut	outputevents	46394	Peritoneal dialysis	numeric
+PeritonealDialysisOut	outputevents	40910	PERITONEAL DIALYSIS	numeric
+PeritonealDialysisOut	outputevents	44843	peritoneal dialysis	numeric
+PreAdmissionOutput	outputevents	226633	Pre-Admission	numeric
+PreAdmissionOutput	outputevents	40060	Pre-Admission Output Pre-Admission Output	numeric
+StoolOut	outputevents	40053	Stool Out Fecal Bag	numeric
+StoolOut	outputevents	40054	Stool Out Stool	numeric
+StoolOut	outputevents	40388	Stool Out (non-specific)	numeric
+StoolOut	outputevents	40289	Stool Out Ostomy	numeric
+StoolOut	outputevents	40068	Stool Out Other	numeric
+StoolOut	outputevents	40367	Stool Out Rectal Tube	numeric
+StoolOut	outputevents	226579	Stool	numeric
+StoolOut	outputevents	43174	Stool .	numeric
+StoolOut	outputevents	40063	Stool Out Ileostomy	numeric
+StoolOut	outputevents	40087	Stool Out Colostomy	numeric
+StoolOut	outputevents	226580	Fecal Bag	numeric
+StoolOut	outputevents	226583	Rectal Tube	numeric
+StoolOut	outputevents	226582	Ostomy (output)	numeric
+TFResidualOut	outputevents	227510	TF Residual	numeric
+TFResidualOut	outputevents	227511	TF Residual Output	numeric
+UltrafiltrateOut	outputevents	40286	Ultrafiltrate Ultrafiltrate	numeric
+UrineProduction	outputevents	226584	Ileoconduit	numeric
+UrineProduction	outputevents	40057	Urine Out Rt Nephrostomy	numeric
+UrineProduction	outputevents	40428	Urine Out Straight Cath	numeric
+UrineProduction	outputevents	40715	Urine Out Suprapubic	numeric
+UrineProduction	outputevents	40096	Urine Out Ureteral Stent #1	numeric
+UrineProduction	outputevents	40069	Urine Out Void	numeric
+UrineProduction	outputevents	43171	URINE CC/KG/HR	numeric
+UrineProduction	outputevents	40405	Urine Out Other	numeric
+UrineProduction	outputevents	226565	L Nephrostomy	numeric
+UrineProduction	outputevents	43175	Urine .	numeric
+UrineProduction	outputevents	226561	Condom Cath	numeric
+UrineProduction	outputevents	40580	Cath Lab Output	numeric
+UrineProduction	outputevents	226632	Cath Lab	numeric
+UrineProduction	outputevents	43373	urine cc/kg/hr	numeric
+UrineProduction	outputevents	43409	Ostomies Colostomy	numeric
+UrineProduction	outputevents	226560	Void	numeric
+UrineProduction	outputevents	40056	Urine Out Lt Nephrostomy	numeric
+UrineProduction	outputevents	40473	Urine Out IleoConduit	numeric
+UrineProduction	outputevents	226564	R Nephrostomy	numeric
+UrineProduction	outputevents	226559	Foley	numeric
+UrineProduction	outputevents	226631	PACU Urine	numeric
+UrineProduction	outputevents	40288	PACU Out PACU Urine	numeric
+UrineProduction	outputevents	227489	GU Irrigant/Urine Volume Out	numeric
+UrineProduction	outputevents	226627	OR Urine	numeric
+UrineProduction	outputevents	40065	OR Out PACU Urine	numeric
+UrineProduction	outputevents	40061	OR Out OR Urine	numeric
+UrineProduction	outputevents	40085	Urine Out Incontinent	numeric
+UrineProduction	outputevents	43433	Ostomies Ileostomy	numeric
+UrineProduction	outputevents	226567	Straight Cath	numeric
+UrineProduction	outputevents	226563	Suprapubic	numeric
+UrineProduction	outputevents	40094	Urine Out Condom Cath	numeric
+UrineProduction	outputevents	40055	Urine Out Foley	numeric
+WoundVac	outputevents	226613	Wound Vac #1	numeric
+WoundVac	outputevents	42738	Drain Out #4 Wound Vac	numeric
+WoundVac	outputevents	42405	Drain Out #3 Wound Vac	numeric
+WoundVac	outputevents	40095	Drain Out #2 Wound Vac	numeric
+WoundVac	outputevents	42780	Drain Out #5 Wound Vac	numeric
+WoundVac	outputevents	226614	Wound Vac #2	numeric
+WoundVac	outputevents	40089	Drain Out #1 Wound Vac	numeric
+Eye_Opening	chartevents	184	Eye Opening	string
+Verbal_Response	chartevents	723	Verbal Response	string
+Motor_Response	chartevents	454	Motor Response	string
+Urine_Color	chartevents	706	Urine [Color]	string
+Level_of_Consciousness	chartevents	226104	Level of Consciousness	string
+

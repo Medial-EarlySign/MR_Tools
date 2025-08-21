@@ -1,0 +1,8 @@
+input_name	string
+output_name	string
+work_channel	int
+factor	float
+unconditional	bool
+req_signals	unordered_set<string>
+aff_signals	unordered_set<string>
+virtual_signals	vector<pair<string, int>>

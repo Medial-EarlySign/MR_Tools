@@ -1,0 +1,4 @@
+generator_type	int
+names	vector<string>
+tags	vector<string>
+iGenerateWeights	int

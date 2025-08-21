@@ -1,0 +1,260 @@
+data_file	code	ahd_name	column_num	column_description	type
+CLINICAL	1064200000	Diet	data1	EXAMINATION_TYPE	string
+CLINICAL	1091000000	Residence	data1	RESIDENCE_TYPE	string
+CLINICAL	1009750000	Foot pulse left leg	data1	PRESENCE(DORSALIS_PEDIS)	string
+CLINICAL	1009560000	Night cough	data1	NIGHT_COUGH	string
+CLINICAL	1007300000	Ankle neuropathy	data1	PRESENCE(RIGHT_JERK)	string
+CLINICAL	1019500000	CHS - cardio examination	data1	QUALIFIER(HEART_SOUND)	string
+CLINICAL	1051100000	CHS - Locomotion 18 Months	data1	QUALIFIER(OBSERVATION)	string
+CLINICAL	1019000000	Heart examination	data1	QUALIFIER(RHYTHMN)	string
+CLINICAL	1020100000	Asthma risk factors	data1	ASTHMA_RISK_FACTORS	string
+CLINICAL	1050200000	CHS - child feeding	data1	QUALIFIER(APPETITE)	string
+CLINICAL	1056300000	Visual Acuity Right Eye	data1	VISUAL_ACUITY	string
+CLINICAL	1012000000	Blood Group	data1	BLOOD_GROUP	string
+CLINICAL	1009510000	Asthma last attack date	data1	ORAL_STEROID(Y/N)	string
+CLINICAL	1055400000	Maternity perineum	data1	EPISIOTOMY(Y/N)	string
+CLINICAL	1009100000	Diabetes annual check	data1	PROGTYPE	string
+CLINICAL	1050100000	CHS - mother and baby	data1	FEEDING	string
+CLINICAL	1050300000	Maternity feeding	data1	FEEDING	string
+CLINICAL	1009111000	Diabetes current status	data1	DIABETIC_STATUS	string
+CLINICAL	1009700000	Foot pulse right leg	data1	PRESENCE(DORSALIS_PEDIS)	string
+CLINICAL	1064000000	Exercise	data1	EXERCISE_TYPE	string
+CLINICAL	1009610000	Asthma management At 50% Best Peak Flow	data1	ASTHMA_MANAGEMENT	string
+CLINICAL	1058000000	CHS - Schooling	data1	ATTENDS(Y/N)	string
+CLINICAL	1003040003	Passive smoking	data1	PASSIVE_SMOKE(Y/N)	string
+CLINICAL	1009581000	Asthma status	data1	CURRENT_STATUS	string
+CLINICAL	1009400000	CHS - Sphincters	data1	DRY_DAY(Y/N)	string
+CLINICAL	1016500000	Cause of death	data1	CATEGORY_DEATH	string
+CLINICAL	1051200000	CHS - Muscle tone for 6 weeks	data1	QUALIFIER(MUSCLE)	string
+CLINICAL	1048000000	Maternity pregnancy dates - event date = LMP date	data1	LMP_CERTAINTY	string
+CLINICAL	1056000000	CHS - Vision 6 Weeks	data1	QUALIFIER(FIX)	string
+CLINICAL	1066200000	Treatment compliance	data1	EXAMINATION_TYPE	string
+CLINICAL	1056350000	Visual Acuity Left Eye	data1	VISUAL_ACUITY	string
+CLINICAL	1007000000	Tactile sensation	data1	PRESENCE	string
+CLINICAL	1032000001	Allergy and Intolerance non drug	data1	REACTION_TYPE	string
+CLINICAL	1009550000	Asthma Inhaler ability	data1	EXAMINATION_TYPE(ABILITY)	string
+CLINICAL	1055500000	CHS - delivery details	data1	MODE	string
+CLINICAL	1020200000	CVD risk	data1	CVD_STATUS	string
+CLINICAL	1009620000	Asthma management At 80% Best Peak Flow	data1	ASTHMA_MANAGEMENT	string
+CLINICAL	1009600000	Asthma management At 30% Best Peak Flow	data1	ASTHMA_MANAGEMENT	string
+CLINICAL	1051250000	CHS - Muscle tone for 8 months	data1	QUALIFIER(SITTING)	string
+CLINICAL	1055100000	CHS - Hearing Over 6 Weeks	data1	QUALIFIER(LEFT_EAR)	string
+CLINICAL	1052000000	CHS - Hospital Follow Up	data1	FOLLOW_UP(Y/N)	string
+CLINICAL	1070000000	Elderly hygiene	data1	EXAMINATION_TYPE(HOME)	string
+CLINICAL	1050000000	Child development	data2	CHS_STAGES	string
+CLINICAL	1064200000	Diet	data2	DIET_TYPE	string
+CLINICAL	1091000000	Residence	data2	LIVE_ALONE(Y/N)	string
+CLINICAL	1009750000	Foot pulse left leg	data2	PRESENCE(POSTERIA_TIBIA)	string
+CLINICAL	1056390000	Elderly vision	data2	VISUAL_AIDS	string
+CLINICAL	1007300000	Ankle neuropathy	data2	PRESENCE(LEFT_JERK)	string
+CLINICAL	1007200000	Peripheral oedema	data2	SITE_IN_LEG	string
+CLINICAL	1019000000	Heart examination	data2	QUALIFIER(SIZE)	string
+CLINICAL	1009200000	Epilepsy - Fit details	data2	ASLEEP_AWAKE	string
+CLINICAL	1056300000	Visual Acuity Right Eye	data2	VISUAL_AIDS	string
+CLINICAL	1009510000	Asthma last attack date	data2	NEBULISED(Y/N)	string
+CLINICAL	1046100000	Ante natel fetal examination	data2	FETAL_HEART(Y/N)	string
+CLINICAL	1009100000	Diabetes annual check	data2	CHECK_TYPE	string
+CLINICAL	1050100000	CHS - mother and baby	data2	QUALIFIER(SLEEP)	string
+CLINICAL	1030000000	Allergy/intolerance	data2	REACTION_TYPE	string
+CLINICAL	1009700000	Foot pulse right leg	data2	PRESENCE(POSTERIA_TIBIA)	string
+CLINICAL	1009400000	CHS - Sphincters	data2	DRY_NIGHT(Y/N)	string
+CLINICAL	1051200000	CHS - Muscle tone for 6 weeks	data2	QUALIFIER(HEADCONTROL)	string
+CLINICAL	1056000000	CHS - Vision 6 Weeks	data2	QUALIFIER(LEFT_RED_REFLEX)	string
+CLINICAL	1056350000	Visual Acuity Left Eye	data2	VISUAL_AIDS	string
+CLINICAL	1032000001	Allergy and Intolerance non drug	data2	SEVERITY	string
+CLINICAL	1055500000	CHS - delivery details	data2	PRESENTATION	string
+CLINICAL	1051250000	CHS - Muscle tone for 8 months	data2	QUALIFIER(LOCOMOTION)	string
+CLINICAL	1055100000	CHS - Hearing Over 6 Weeks	data2	QUALIFIER(RIGHT_EAR)	string
+CLINICAL	1070000000	Elderly hygiene	data2	EXAMINATION_TYPE(PERSONAL)	string
+CLINICAL	1007300000	Ankle neuropathy	data3	PRESENCE(RIGHT_VIB)	string
+CLINICAL	1007200000	Peripheral oedema	data3	LATERALITY	string
+CLINICAL	1019000000	Heart examination	data3	QUALIFIER(SOUNDS)	string
+CLINICAL	1059900000	CHS - Head Circumference Centile	data3	CENTILE	string
+CLINICAL	1009200000	Epilepsy - Fit details	data3	AURA(Y/N)	string
+CLINICAL	1057000000	CHS - Hernia	data3	QUALIFIER(UMBILICAL)	string
+CLINICAL	1009510000	Asthma last attack date	data3	HOSPITALISED(Y/N)	string
+CLINICAL	1046100000	Ante natel fetal examination	data3	FETAL_MOVEMENT(Y/N)	string
+CLINICAL	1055400000	Maternity perineum	data3	SUTURE_REMOVE(Y/N)	string
+CLINICAL	1050100000	CHS - mother and baby	data3	QUALIFIER(MUM_HEALTH)	string
+CLINICAL	1030000000	Allergy/intolerance	data3	SEVERITY	string
+CLINICAL	1009400000	CHS - Sphincters	data3	CLEAN_DAY(Y/N)	string
+CLINICAL	1056000000	CHS - Vision 6 Weeks	data3	QUALIFIER(RIGHT_RED_REFLEX)	string
+CLINICAL	1032000001	Allergy and Intolerance non drug	data3	CERTAINTY	string
+CLINICAL	1007300000	Ankle neuropathy	data4	PRESENCE(LEFT_VIB)	string
+CLINICAL	1046100000	Ante natel fetal examination	data4	FETAL_PRESENTATION	string
+CLINICAL	1030000000	Allergy/intolerance	data4	CERTAINTY	string
+CLINICAL	1009400000	CHS - Sphincters	data4	CLEAN_NIGHT(Y/N)	string
+CLINICAL	1056000000	CHS - Vision 6 Weeks	data4	QUALIFIER(FOLLOWS)	string
+CLINICAL	1008050000	Cervical	data6	ADEQUATE(Y/N)	string
+CLINICAL	1090000000	Family History	data1	READ_CODE	string
+CLINICAL	1008050000	Cervical	data1	READ_CODE	string
+CLINICAL	1001400287	Scoring test result	data2	READ_CODE	string
+CLINICAL	1030000000	Allergy/intolerance	data5	READ_CODE	string
+CLINICAL	1061000000	CHS - Manipulation	data1	QUALIFIER	string
+CLINICAL	1056390000	Elderly vision	data1	QUALIFIER	string
+CLINICAL	1051300000	CHS - Gait	data1	QUALIFIER	string
+CLINICAL	1007200000	Peripheral oedema	data1	QUALIFIER	string
+CLINICAL	1001400147	Fundoscopy	data1	QUALIFIER	string
+CLINICAL	1081000000	CHS - genitalia	data1	QUALIFIER	string
+CLINICAL	1057000000	CHS - Hernia	data1	QUALIFIER(LEFT)	string
+CLINICAL	1063000000	CHS - Sleep Pattern	data1	QUALIFIER	string
+CLINICAL	1055000000	CHS - Hearing 6 Weeks	data1	QUALIFIER	string
+CLINICAL	1055200000	Elderly hearing Over 75	data1	QUALIFIER	string
+CLINICAL	1056400000	CHS - Squint	data1	QUALIFIER(LEFT)	string
+CLINICAL	1057100000	CHS - Hips	data1	QUALIFIER(LEFT)	string
+CLINICAL	1062000000	Elderly mental cognitive	data1	QUALIFIER	string
+CLINICAL	1070100000	Elderly physical health exam	data1	QUALIFIER	string
+CLINICAL	1070300000	Elderly mental emotional state	data1	QUALIFIER	string
+CLINICAL	1054000000	CHS - Behaviour	data1	QUALIFIER	string
+CLINICAL	1056200000	CHS - Vision 3 Years And 4 Years	data1	QUALIFIER(LEFT)	string
+CLINICAL	1056100000	CHS - Vision 8 Months And 18 Months	data1	QUALIFIER(LEFT)	string
+CLINICAL	1019500000	CHS - cardio examination	data2	QUALIFIER(LEFT)	string
+CLINICAL	1057000000	CHS - Hernia	data2	QUALIFIER(RIGHT)	string
+CLINICAL	1056400000	CHS - Squint	data2	QUALIFIER(RIGHT)	string
+CLINICAL	1057100000	CHS - Hips	data2	QUALIFIER(RIGHT)	string
+CLINICAL	1056200000	CHS - Vision 3 Years And 4 Years	data2	QUALIFIER(RIGHT)	string
+CLINICAL	1056100000	CHS - Vision 8 Months And 18 Months	data2	QUALIFIER(RIGHT)	string
+CLINICAL	1019500000	CHS - cardio examination	data3	QUALIFIER(RIGHT)	string
+TEST	1001400127	Skin swab	data4	QUALIFIER	string
+TEST	1001400125	Wrist X-ray	data4	QUALIFIER	string
+TEST	1001400124	Other swab	data4	QUALIFIER	string
+TEST	1001400123	Lower leg X-ray	data4	QUALIFIER	string
+TEST	1001400121	Spine X-ray	data4	QUALIFIER	string
+TEST	1001400120	High vaginal swab	data4	QUALIFIER	string
+TEST	1001400128	Throat swab	data4	QUALIFIER	string
+TEST	1001400152	Urinalysis - Protein	data4	QUALIFIER	string
+TEST	1001400150	Guthrie test	data4	QUALIFIER	string
+TEST	1001400151	Urinalysis - Glucose	data4	QUALIFIER	string
+TEST	1001400156	Immunoglobulin	data4	QUALIFIER	string
+TEST	1001400157	Other drug levels	data4	QUALIFIER	string
+TEST	1001400154	CAP (RAST)	data4	QUALIFIER	string
+TEST	1001400158	Plasma electrophoresis	data4	QUALIFIER	string
+TEST	1001400309	Urine dipstick for blood	data4	QUALIFIER	string
+TEST	1001400308	Spirometry	data4	QUALIFIER	string
+TEST	1001400307	Urine dipstick for ketones	data4	QUALIFIER	string
+TEST	1001400306	Ante natal blood tests	data4	QUALIFIER	string
+TEST	1001400305	Urine dipstick for protein	data4	QUALIFIER	string
+TEST	1001400304	Urine Leucocytes	data4	QUALIFIER	string
+TEST	1001400303	Urine dipstick for glucose	data4	QUALIFIER	string
+TEST	1001400302	Urine Dipstick for Nitrites	data4	QUALIFIER	string
+TEST	1001400300	HLA Tissue Typing	data4	QUALIFIER	string
+TEST	1001400111	Lower arm X-ray	data4	QUALIFIER	string
+TEST	1001400320	Ear Swab	data4	QUALIFIER	string
+TEST	1001400279	Microscopy for malarial parasites	data4	QUALIFIER	string
+TEST	1001400278	Other autoantibodies	data4	QUALIFIER	string
+TEST	1001400328	Pulse oximetry	data4	QUALIFIER	string
+TEST	1001400116	Eye swab	data4	QUALIFIER	string
+TEST	1001400117	Sinus X-ray	data4	QUALIFIER	string
+TEST	1001400114	Urine test	data4	QUALIFIER	string
+TEST	1001400115	Shoulder X-ray	data4	QUALIFIER	string
+TEST	1001400112	Urea and Electrolytes	data4	QUALIFIER	string
+TEST	1001400113	Ribs X-ray	data4	QUALIFIER	string
+TEST	1001400186	Blood gases	data4	QUALIFIER	string
+TEST	1001400188	Chemical function tests	data4	QUALIFIER	string
+TEST	1001400237	Histology	data4	QUALIFIER	string
+TEST	1001400235	Liver enzymes	data4	QUALIFIER	string
+TEST	1001400234	Gonadotrophin	data4	QUALIFIER	string
+TEST	1001400233	Immuno-electrophoresis	data4	QUALIFIER	string
+TEST	1001400330	Hepatitis B Antibody	data4	QUALIFIER	string
+TEST	1001400241	General ultra sound scan	data4	QUALIFIER	string
+TEST	1001400069	Blood lipids	data4	QUALIFIER	string
+TEST	1001400065	Barium meal	data4	QUALIFIER	string
+TEST	1001400062	B12 & Folate level	data4	QUALIFIER	string
+TEST	1001400063	Barium enema	data4	QUALIFIER	string
+TEST	1001400143	Anti Nuclear antibodies	data4	QUALIFIER	string
+TEST	1001400142	Anti Mitochondrial antibodies	data4	QUALIFIER	string
+TEST	1001400145	Blood group antibodies	data4	QUALIFIER	string
+TEST	1001400146	Syphilis test	data4	QUALIFIER	string
+TEST	1001400149	Viral studies	data4	QUALIFIER	string
+TEST	1001400148	Toxicology	data4	QUALIFIER	string
+TEST	1001400205	Calculus examination	data4	QUALIFIER	string
+TEST	1001400201	Sputum examination	data4	QUALIFIER	string
+TEST	1001400109	Pelvis X-ray	data4	QUALIFIER	string
+TEST	1001400108	Abdominal ultra-sound	data4	QUALIFIER	string
+TEST	1001400105	Knee X-ray	data4	QUALIFIER	string
+TEST	1001400104	Stool culture	data4	QUALIFIER	string
+TEST	1001400107	Neck X-ray	data4	QUALIFIER	string
+TEST	1001400106	Thyroid function	data4	QUALIFIER	string
+TEST	1001400101	Hip X-ray	data4	QUALIFIER	string
+TEST	1001400100	Male sex hormone profile	data4	QUALIFIER	string
+TEST	1001400103	Upper arm X-ray	data4	QUALIFIER	string
+TEST	1001400102	Sputum culture	data4	QUALIFIER	string
+TEST	1001400299	Microscopy, culture & sensitivities	data4	QUALIFIER	string
+TEST	1001400325	Dexa scan/Bone mineral density	data4	QUALIFIER	string
+TEST	1001400088	Mid-stream specimen of urine	data4	QUALIFIER	string
+TEST	1001400089	Ankle X-ray	data4	QUALIFIER	string
+TEST	1001400084	Glucose Tolerance test	data4	QUALIFIER	string
+TEST	1001400085	Iron studies	data4	QUALIFIER	string
+TEST	1001400086	Mammogram	data4	QUALIFIER	string
+TEST	1001400087	Other Diagnostic Imaging	data4	QUALIFIER	string
+TEST	1001400081	Full blood count	data4	QUALIFIER	string
+TEST	1001400083	Glandular Fever Test	data4	QUALIFIER	string
+TEST	1001400259	Postural drop in Blood Pressure	data4	QUALIFIER	string
+TEST	1001400258	Skin Prick Testing	data4	QUALIFIER	string
+TEST	1001400253	Ambulatory blood pressure	data4	QUALIFIER	string
+TEST	1001400252	Abdominal Xray	data4	QUALIFIER	string
+TEST	1001400255	Bone Density Studies	data4	QUALIFIER	string
+TEST	1001400254	Doppler Ultrasound Peripheral Pulse	data4	QUALIFIER	string
+TEST	1001400257	Nerve Conduction Studies	data4	QUALIFIER	string
+TEST	1001400256	Echocardiogram	data4	QUALIFIER	string
+TEST	1001400079	Endoscopy	data4	QUALIFIER	string
+TEST	1001400078	Electrocardiogram	data4	QUALIFIER	string
+TEST	1001400075	Liver Function tests	data4	QUALIFIER	string
+TEST	1001400074	Intravenous Pyelogram	data4	QUALIFIER	string
+TEST	1001400077	Drug levels	data4	QUALIFIER	string
+TEST	1001400076	Clotting tests	data4	QUALIFIER	string
+TEST	1001400071	Bone studies	data4	QUALIFIER	string
+TEST	1001400170	Sigmoidoscopy	data4	QUALIFIER	string
+TEST	1001400171	Nuclear medicine	data4	QUALIFIER	string
+TEST	1001400172	CAT scan	data4	QUALIFIER	string
+TEST	1001400178	Differential white cell count	data4	QUALIFIER	string
+TEST	1001400179	Coronary angiogram	data4	QUALIFIER	string
+TEST	1001400289	Other Bacteriology Tests	data4	QUALIFIER	string
+TEST	1001400282	Hepatitis A Test	data4	QUALIFIER	string
+TEST	1001400283	Urine Cytology Test	data4	QUALIFIER	string
+TEST	1001400280	Other Immunology Tests	data4	QUALIFIER	string
+TEST	1001400214	Haemoglobin variants	data4	QUALIFIER	string
+TEST	1001400217	RBC red blood cell size	data4	QUALIFIER	string
+TEST	1001400218	SH-antigen (hepatitis B) test	data4	QUALIFIER	string
+TEST	1001400130	Vaginal swab	data4	QUALIFIER	string
+TEST	1001400131	Wound swab	data4	QUALIFIER	string
+TEST	1001400134	Rubella Test	data4	QUALIFIER	string
+TEST	1001400135	Tubercullin Test	data4	QUALIFIER	string
+TEST	1001400315	Biochemical screening tests	data4	QUALIFIER	string
+TEST	1001400317	Haematology screening tests	data4	QUALIFIER	string
+TEST	1001400318	Immunology screening tests	data4	QUALIFIER	string
+TEST	1001400316	Genetic observations	data4	QUALIFIER	string
+TEST	1001400093	Elbow X-ray	data4	QUALIFIER	string
+TEST	1001400092	Pregnancy test	data4	QUALIFIER	string
+TEST	1001400091	Chest X-ray	data4	QUALIFIER	string
+TEST	1001400090	Nail clippings	data4	QUALIFIER	string
+TEST	1001400097	Foot X-ray	data4	QUALIFIER	string
+TEST	1001400096	Serology	data4	QUALIFIER	string
+TEST	1001400095	Upper leg X-ray	data4	QUALIFIER	string
+TEST	1001400094	Seminal analysis	data4	QUALIFIER	string
+TEST	1001400099	Hand X-ray	data4	QUALIFIER	string
+TEST	1001400167	Oesophagoscopy	data4	QUALIFIER	string
+TEST	1001400166	Bronchoscopy	data4	QUALIFIER	string
+TEST	1001400164	MRI scan	data4	QUALIFIER	string
+TEST	1001400298	Electroencephalography	data4	QUALIFIER	string
+TEST	1001400296	Sickle cell disease screen	data4	QUALIFIER	string
+TEST	1001400197	Barium swallow	data4	QUALIFIER	string
+TEST	1001400195	Pulmonary function tests	data4	QUALIFIER	string
+TEST	1001400192	Cerebro-spinal fluid examination	data4	QUALIFIER	string
+TEST	1001400193	ECG ambulatory	data4	QUALIFIER	string
+TEST	1001400190	Examination of Faeces	data4	QUALIFIER	string
+TEST	1001400191	ECG exercise	data4	QUALIFIER	string
+TEST	1001400220	HIV Test	data4	QUALIFIER	string
+TEST	1001400225	Infectious titres	data4	QUALIFIER	string
+TEST	1001400226	Anti smooth muscle autoantibodies	data4	QUALIFIER	string
+TEST	1001400227	Parietal cell autoantibodies	data4	QUALIFIER	string
+TEST	1001400118	Cervical swab	data4	QUALIFIER	string
+TEST	1001400119	Skull X-ray	data4	QUALIFIER	string
+TEST	1001400110	Pelvic ultra-sound	data4	QUALIFIER	string
+TEST	1001400122	Nose swab	data4	QUALIFIER	string
+TEST	1001400155	Film report	data4	QUALIFIER	string
+TEST	1001400182	Lipoprotein electrophesis	data4	QUALIFIER	string
+TEST	1001400230	DNA binding autoantibodies	data4	QUALIFIER	string
+TEST	1001400073	Chlamydia	data4	QUALIFIER	string
+TEST	1001400221	RBC colour/staining	data4	QUALIFIER	string
+TEST	1001400098	Female sex hormone profile	data4	QUALIFIER	string

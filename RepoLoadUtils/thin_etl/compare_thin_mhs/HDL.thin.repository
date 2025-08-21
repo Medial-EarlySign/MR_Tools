@@ -1,0 +1,162 @@
+HDL :: All :: With Values :: 3072285 / 14446692 =  0.21 :: 3072285 / 3072285 =  1.00
+HDL :: Males :: With Values :: 1495475 / 6889335 =  0.22 :: 1495475 / 3072285 =  0.49
+HDL :: Females :: With Values :: 1576810 / 7557357 =  0.21 :: 1576810 / 3072285 =  0.51
+HDL :: General :: No. of Values :: All 13021416 Male 6580115 Female 6441301
+HDL :: General :: No. of different days Values :: All 12964152 Male 6551964 Female 6412188
+HDL :: General :: Avg #values per person (all) :: All  0.90 Male  0.95 Female  0.85
+HDL :: General :: Avg #values per person (>0)  :: All  4.22 Male  4.38 Female  4.07
+HDL :: General :: Avg dist between tests       :: All  454.7 Male  443.6 Female  466.3
+HDL :: Counts :: Age Group 20 - 25 :: All ::  14510 0.001
+HDL :: Counts :: Age Group 25 - 30 :: All ::  24429 0.002
+HDL :: Counts :: Age Group 30 - 35 :: All ::  40299 0.003
+HDL :: Counts :: Age Group 35 - 40 :: All ::  63587 0.005
+HDL :: Counts :: Age Group 40 - 45 :: All :: 123362 0.009
+HDL :: Counts :: Age Group 45 - 50 :: All :: 174732 0.013
+HDL :: Counts :: Age Group 50 - 55 :: All :: 230740 0.018
+HDL :: Counts :: Age Group 55 - 60 :: All :: 277396 0.021
+HDL :: Counts :: Age Group 60 - 65 :: All :: 336639 0.026
+HDL :: Counts :: Age Group 65 - 70 :: All :: 369074 0.028
+HDL :: Counts :: Age Group 70 - 75 :: All :: 336887 0.026
+HDL :: Counts :: Age Group 75 - 80 :: All :: 282266 0.022
+HDL :: Counts :: Age Group 80 - 85 :: All :: 198177 0.015
+HDL :: Counts :: Age Group 85 - 90 :: All :: 110801 0.009
+HDL :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+HDL :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+HDL :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+HDL :: Counts :: Age Group 20 - 25 :: Males ::   6274 0.001
+HDL :: Counts :: Age Group 25 - 30 :: Males ::  10817 0.002
+HDL :: Counts :: Age Group 30 - 35 :: Males ::  20151 0.003
+HDL :: Counts :: Age Group 35 - 40 :: Males ::  34043 0.005
+HDL :: Counts :: Age Group 40 - 45 :: Males ::  65713 0.010
+HDL :: Counts :: Age Group 45 - 50 :: Males ::  93722 0.014
+HDL :: Counts :: Age Group 50 - 55 :: Males :: 123703 0.019
+HDL :: Counts :: Age Group 55 - 60 :: Males :: 147038 0.022
+HDL :: Counts :: Age Group 60 - 65 :: Males :: 178219 0.027
+HDL :: Counts :: Age Group 65 - 70 :: Males :: 194253 0.030
+HDL :: Counts :: Age Group 70 - 75 :: Males :: 171055 0.026
+HDL :: Counts :: Age Group 75 - 80 :: Males :: 135618 0.021
+HDL :: Counts :: Age Group 80 - 85 :: Males ::  89386 0.014
+HDL :: Counts :: Age Group 85 - 90 :: Males ::  44728 0.007
+HDL :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+HDL :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+HDL :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+HDL :: Counts :: Age Group 20 - 25 :: Females ::   8236 0.001
+HDL :: Counts :: Age Group 25 - 30 :: Females ::  13612 0.002
+HDL :: Counts :: Age Group 30 - 35 :: Females ::  20148 0.003
+HDL :: Counts :: Age Group 35 - 40 :: Females ::  29544 0.005
+HDL :: Counts :: Age Group 40 - 45 :: Females ::  57649 0.009
+HDL :: Counts :: Age Group 45 - 50 :: Females ::  81010 0.013
+HDL :: Counts :: Age Group 50 - 55 :: Females :: 107037 0.017
+HDL :: Counts :: Age Group 55 - 60 :: Females :: 130358 0.020
+HDL :: Counts :: Age Group 60 - 65 :: Females :: 158420 0.025
+HDL :: Counts :: Age Group 65 - 70 :: Females :: 174821 0.027
+HDL :: Counts :: Age Group 70 - 75 :: Females :: 165832 0.026
+HDL :: Counts :: Age Group 75 - 80 :: Females :: 146648 0.023
+HDL :: Counts :: Age Group 80 - 85 :: Females :: 108791 0.017
+HDL :: Counts :: Age Group 85 - 90 :: Females ::  66073 0.010
+HDL :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+HDL :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+HDL :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+HDL :: Stats :: Age Group 20 - 25 :: All ::  N 70584 non-zeros 70403 Median  50.19 Mean  52.33 Std  15.25 Max 274.13
+HDL :: Stats :: Age Group 25 - 30 :: All ::  N 110679 non-zeros 110386 Median  50.19 Mean  52.43 Std  15.82 Max 274.13
+HDL :: Stats :: Age Group 30 - 35 :: All ::  N 166649 non-zeros 166186 Median  50.19 Mean  51.67 Std  15.89 Max 289.58
+HDL :: Stats :: Age Group 35 - 40 :: All ::  N 246610 non-zeros 245920 Median  50.19 Mean  51.67 Std  16.06 Max 289.58
+HDL :: Stats :: Age Group 40 - 45 :: All ::  N 399944 non-zeros 398965 Median  50.19 Mean  52.79 Std  16.51 Max 297.30
+HDL :: Stats :: Age Group 45 - 50 :: All ::  N 489228 non-zeros 487993 Median  50.19 Mean  53.75 Std  16.92 Max 305.80
+HDL :: Stats :: Age Group 50 - 55 :: All ::  N 550819 non-zeros 549327 Median  54.05 Mean  54.98 Std  17.73 Max 316.60
+HDL :: Stats :: Age Group 55 - 60 :: All ::  N 595285 non-zeros 593552 Median  54.05 Mean  55.55 Std  17.80 Max 316.20
+HDL :: Stats :: Age Group 60 - 65 :: All ::  N 623473 non-zeros 621698 Median  54.05 Mean  55.69 Std  17.64 Max 319.70
+HDL :: Stats :: Age Group 65 - 70 :: All ::  N 594937 non-zeros 593253 Median  54.05 Mean  55.80 Std  17.67 Max 316.60
+HDL :: Stats :: Age Group 70 - 75 :: All ::  N 506195 non-zeros 504735 Median  54.05 Mean  56.14 Std  17.65 Max 316.20
+HDL :: Stats :: Age Group 75 - 80 :: All ::  N 402394 non-zeros 401361 Median  54.05 Mean  56.76 Std  17.82 Max 323.20
+HDL :: Stats :: Age Group 80 - 85 :: All ::  N 285813 non-zeros 285131 Median  54.05 Mean  57.57 Std  18.13 Max 322.80
+HDL :: Stats :: Age Group 85 - 90 :: All ::  N 158267 non-zeros 157934 Median  54.05 Mean  58.06 Std  18.14 Max 308.88
+HDL :: Stats :: Age Group 90 - 95 :: All ::  N 58782 non-zeros 58686 Median  54.05 Mean  57.84 Std  18.02 Max 316.60
+HDL :: Stats :: Age Group 95 - 100 :: All ::  N 11812 non-zeros 11791 Median  54.05 Mean  56.95 Std  17.46 Max 270.27
+HDL :: General :: All     :: outliers ratio 0.000720
+HDL :: General :: All     :: N 3004875 non-zeros 2997246 Median  54.05 Mean  55.25 Std  17.55 Max 318.50
+HDL :: General :: All     :: distribution 0.001,0.01,0.05 ::  19.31  27.03  34.75  84.94 108.11 154.44
+HDL :: General :: All     :: quartiles ::  19.31  42.47  54.05  65.64 
+HDL :: General :: Males   :: outliers ratio 0.000771
+HDL :: General :: Males   :: N 1462246 non-zeros 1458552 Median  46.33 Mean  49.58 Std  15.16 Max 274.13
+HDL :: General :: Males   :: distribution 0.001,0.01,0.05 ::  15.44  27.03  30.89  77.22  96.53 156.40
+HDL :: General :: Males   :: quartiles ::  15.44  38.61  46.33  57.92 
+HDL :: General :: Females :: outliers ratio 0.000693
+HDL :: General :: Females :: N 1542595 non-zeros 1538744 Median  57.92 Mean  60.62 Std  17.88 Max 328.60
+HDL :: General :: Females :: distribution 0.001,0.01,0.05 ::  23.17  30.89  38.61  92.66 111.97 158.30
+HDL :: General :: Females :: quartiles ::  23.17  50.19  57.92  69.50 
+HDL :: Rounding ::  0.00 r  0.99 pct
+HDL :: Rounding ::  0.01 r  0.00 pct
+HDL :: Rounding ::  0.10 r  0.01 pct
+HDL :: Rounding ::  1.00 r  0.00 pct
+HDL :: Rounding :: 10.00 r  0.00 pct
+HDL :: Rounding :: 100.00 r  0.00 pct
+HDL :: Rounding :: 1000.00 r  0.00 pct
+HDL :: Rounding :: most popular rounding for vals:  0.00
+HDL :: Stats year :: 2000 :: All :: N 88455 non-zeros 86868 Median  50.19 Mean  53.45 Std  21.93 Max 378.40
+HDL :: Stats year :: 2001 :: All :: N 159533 non-zeros 157121 Median  50.19 Mean  53.64 Std  20.83 Max 362.93
+HDL :: Stats year :: 2002 :: All :: N 252197 non-zeros 249545 Median  50.19 Mean  54.36 Std  19.10 Max 339.77
+HDL :: Stats year :: 2003 :: All :: N 385893 non-zeros 383539 Median  54.05 Mean  55.04 Std  18.11 Max 324.32
+HDL :: Stats year :: 2004 :: All :: N 552342 non-zeros 550103 Median  54.05 Mean  55.12 Std  17.26 Max 311.20
+HDL :: Stats year :: 2005 :: All :: N 633576 non-zeros 631524 Median  54.05 Mean  55.71 Std  17.16 Max 312.74
+HDL :: Stats year :: 2006 :: All :: N 712944 non-zeros 710985 Median  54.05 Mean  55.44 Std  17.19 Max 312.74
+HDL :: Stats year :: 2007 :: All :: N 757518 non-zeros 756075 Median  50.19 Mean  54.45 Std  16.87 Max 305.02
+HDL :: Stats year :: 2008 :: All :: N 805582 non-zeros 804354 Median  50.19 Mean  53.76 Std  16.56 Max 297.30
+HDL :: Stats year :: 2009 :: All :: N 846052 non-zeros 844863 Median  50.19 Mean  53.72 Std  16.59 Max 297.30
+HDL :: Stats year :: 2010 :: All :: N 852538 non-zeros 851258 Median  50.19 Mean  53.61 Std  16.51 Max 301.20
+HDL :: Stats year :: 2011 :: All :: N 874443 non-zeros 873053 Median  50.19 Mean  54.18 Std  16.91 Max 305.80
+HDL :: Stats year :: 2012 :: All :: N 892270 non-zeros 890947 Median  50.19 Mean  54.48 Std  17.12 Max 308.88
+HDL :: Stats year :: 2013 :: All :: N 896656 non-zeros 895692 Median  54.05 Mean  54.95 Std  17.14 Max 308.88
+HDL :: Stats year :: 2014 :: All :: N 809502 non-zeros 809479 Median  54.05 Mean  55.23 Std  17.42 Max 316.20
+HDL :: Stats year :: 2015 :: All :: N 674433 non-zeros 674415 Median  50.19 Mean  54.75 Std  17.02 Max 301.16
+HDL :: Stats year :: 2016 :: All :: N 24780 non-zeros 24780 Median  50.19 Mean  54.63 Std  17.29 Max 231.66
+HDL :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL :: Stats year :: 2000 :: Males   :: N 47110 non-zeros 46272 Median  46.33 Mean  48.79 Std  20.62 Max 343.63
+HDL :: Stats year :: 2001 :: Males   :: N 84220 non-zeros 82995 Median  46.33 Mean  48.85 Std  19.09 Max 332.05
+HDL :: Stats year :: 2002 :: Males   :: N 131643 non-zeros 130277 Median  46.33 Mean  49.44 Std  17.34 Max 305.02
+HDL :: Stats year :: 2003 :: Males   :: N 198216 non-zeros 197016 Median  46.33 Mean  49.91 Std  15.79 Max 285.71
+HDL :: Stats year :: 2004 :: Males   :: N 278793 non-zeros 277710 Median  46.33 Mean  49.93 Std  14.98 Max 274.13
+HDL :: Stats year :: 2005 :: Males   :: N 317680 non-zeros 316696 Median  46.33 Mean  50.38 Std  14.78 Max 271.80
+HDL :: Stats year :: 2006 :: Males   :: N 356432 non-zeros 355395 Median  46.33 Mean  50.06 Std  14.71 Max 270.27
+HDL :: Stats year :: 2007 :: Males   :: N 379726 non-zeros 379039 Median  46.33 Mean  49.12 Std  14.51 Max 262.55
+HDL :: Stats year :: 2008 :: Males   :: N 404905 non-zeros 404312 Median  46.33 Mean  48.42 Std  14.21 Max 259.50
+HDL :: Stats year :: 2009 :: Males   :: N 424269 non-zeros 423690 Median  46.33 Mean  48.30 Std  14.15 Max 260.60
+HDL :: Stats year :: 2010 :: Males   :: N 428378 non-zeros 427795 Median  46.33 Mean  48.22 Std  14.01 Max 254.83
+HDL :: Stats year :: 2011 :: Males   :: N 438744 non-zeros 438050 Median  46.33 Mean  48.67 Std  14.40 Max 262.55
+HDL :: Stats year :: 2012 :: Males   :: N 446358 non-zeros 445670 Median  46.33 Mean  48.87 Std  14.57 Max 266.41
+HDL :: Stats year :: 2013 :: Males   :: N 446667 non-zeros 446176 Median  46.33 Mean  49.33 Std  14.64 Max 266.41
+HDL :: Stats year :: 2014 :: Males   :: N 401420 non-zeros 401404 Median  46.33 Mean  49.50 Std  14.89 Max 271.80
+HDL :: Stats year :: 2015 :: Males   :: N 335520 non-zeros 335516 Median  46.33 Mean  49.03 Std  14.45 Max 262.55
+HDL :: Stats year :: 2016 :: Males   :: N 12708 non-zeros 12708 Median  46.33 Mean  48.89 Std  14.48 Max 231.66
+HDL :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL :: Stats year :: 2000 :: Females :: N 41349 non-zeros 40586 Median  57.92 Mean  58.69 Std  22.22 Max 386.10
+HDL :: Stats year :: 2001 :: Females :: N 75313 non-zeros 74130 Median  57.92 Mean  58.94 Std  21.15 Max 370.70
+HDL :: Stats year :: 2002 :: Females :: N 120546 non-zeros 119238 Median  57.92 Mean  59.68 Std  19.37 Max 348.30
+HDL :: Stats year :: 2003 :: Females :: N 187664 non-zeros 186450 Median  57.92 Mean  60.36 Std  18.54 Max 337.80
+HDL :: Stats year :: 2004 :: Females :: N 273532 non-zeros 272414 Median  57.92 Mean  60.42 Std  17.76 Max 324.30
+HDL :: Stats year :: 2005 :: Females :: N 315872 non-zeros 314858 Median  57.92 Mean  61.06 Std  17.71 Max 324.32
+HDL :: Stats year :: 2006 :: Females :: N 356508 non-zeros 355472 Median  57.92 Mean  60.79 Std  17.77 Max 324.30
+HDL :: Stats year :: 2007 :: Females :: N 377770 non-zeros 377012 Median  57.92 Mean  59.80 Std  17.32 Max 316.60
+HDL :: Stats year :: 2008 :: Females :: N 400670 non-zeros 400075 Median  57.92 Mean  59.17 Std  17.00 Max 310.80
+HDL :: Stats year :: 2009 :: Females :: N 421770 non-zeros 421150 Median  57.92 Mean  59.18 Std  17.05 Max 312.74
+HDL :: Stats year :: 2010 :: Females :: N 424144 non-zeros 423502 Median  57.92 Mean  59.05 Std  16.98 Max 312.74
+HDL :: Stats year :: 2011 :: Females :: N 435682 non-zeros 434991 Median  57.92 Mean  59.71 Std  17.39 Max 320.46
+HDL :: Stats year :: 2012 :: Females :: N 445905 non-zeros 445290 Median  57.92 Mean  60.10 Std  17.61 Max 315.40
+HDL :: Stats year :: 2013 :: Females :: N 449975 non-zeros 449512 Median  57.92 Mean  60.54 Std  17.64 Max 319.70
+HDL :: Stats year :: 2014 :: Females :: N 408078 non-zeros 408067 Median  57.92 Mean  60.86 Std  17.85 Max 316.20
+HDL :: Stats year :: 2015 :: Females :: N 338914 non-zeros 338901 Median  57.92 Mean  60.40 Std  17.45 Max 312.74
+HDL :: Stats year :: 2016 :: Females :: N 12072 non-zeros 12072 Median  57.92 Mean  60.70 Std  17.96 Max 208.49
+HDL :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+HDL :: Stats month 1 :: All :: N 553905 non-zeros 552367 Median  54.05 Mean  54.88 Std  17.57 Max 316.60
+HDL :: Stats month 2 :: All :: N 545944 non-zeros 544314 Median  50.19 Mean  54.54 Std  17.41 Max 315.10
+HDL :: Stats month 3 :: All :: N 569603 non-zeros 567988 Median  54.05 Mean  54.69 Std  17.36 Max 311.20
+HDL :: Stats month 4 :: All :: N 503836 non-zeros 502436 Median  54.05 Mean  54.88 Std  17.39 Max 312.74
+HDL :: Stats month 5 :: All :: N 516992 non-zeros 515582 Median  54.05 Mean  54.77 Std  17.41 Max 310.80
+HDL :: Stats month 6 :: All :: N 531939 non-zeros 530550 Median  50.19 Mean  54.46 Std  17.22 Max 312.74
+HDL :: Stats month 7 :: All :: N 541529 non-zeros 540184 Median  50.19 Mean  54.09 Std  17.04 Max 308.90
+HDL :: Stats month 8 :: All :: N 509922 non-zeros 508623 Median  50.19 Mean  54.25 Std  17.08 Max 308.88
+HDL :: Stats month 9 :: All :: N 540625 non-zeros 539267 Median  50.19 Mean  54.46 Std  17.17 Max 309.60
+HDL :: Stats month 10 :: All :: N 569670 non-zeros 568238 Median  50.19 Mean  54.55 Std  17.20 Max 311.20
+HDL :: Stats month 11 :: All :: N 555818 non-zeros 554374 Median  54.05 Mean  54.83 Std  17.37 Max 313.50
+HDL :: Stats month 12 :: All :: N 444912 non-zeros 443766 Median  50.19 Mean  54.72 Std  17.42 Max 308.50
+

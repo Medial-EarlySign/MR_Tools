@@ -1,0 +1,64 @@
+Percentage of lymphocytes (LY)	Percentage of lymphocytes (LY)
+calcium	calcium
+Urea (urgent)	Urea (urgent)
+Eosinophil percentage (EO)	Eosinophil percentage (EO)
+Free human chorionic gonadotropin	Free human chorionic gonadotropin
+Urea	Urea
+Carcinoembryonic antigen	Carcinoembryonic antigen
+Basophilic percentage (BA)	Basophilic percentage (BA)
+iron	iron
+Carbon dioxide binding force (urgent)	Carbon dioxide binding force (urgent)
+Sugar chain antigen 153	Sugar chain antigen 153
+Neuron specific enolase	Neuron specific enolase
+Neuron specific enolase (NSE)	Neuron specific enolase (NSE)
+White blood cells (WBC)	White blood cells (WBC)
+Potassium	Potassium
+Creatinine	Creatinine
+Average red blood cell volume (MCV)	Average red blood cell volume (MCV)
+Free prostate specific antigen	Free prostate specific antigen
+Non-small cell lung cancer associated antigen 21-1	Non-small cell lung cancer associated antigen 21-1
+FPSA/TPSA	FPSA/TPSA
+Carbohydrate antigen 125 (CA125)	Carbohydrate antigen 125 (CA125)
+Total iron binding	Total iron binding
+sodium	sodium
+Neutrophil percentage (NE)	Neutrophil percentage (NE)
+Percentage of monocytes (MO)	Percentage of monocytes (MO)
+Carbohydrate antigen 199 (CA199)	Carbohydrate antigen 199 (CA199)
+Alpha-fetoprotein	Alpha-fetoprotein
+Total prostate specific antigen	Total prostate specific antigen
+Platelet (PLT)	Platelet (PLT)
+Carbohydrate antigen 153 (CA153)	Carbohydrate antigen 153 (CA153)
+Cytokeratin 19 fragment	Cytokeratin 19 fragment
+Lymphocyte absolute value (LY#)	Lymphocyte absolute value (LY#)
+Uric acid	Uric acid
+Average red blood cell hemoglobin amount (MCH)	Average red blood cell hemoglobin amount (MCH)
+Alpha-fetoprotein heterogene	Alpha-fetoprotein heterogene
+Creatinine (urgent)	Creatinine (urgent)
+Sugar chain antigen 199	Sugar chain antigen 199
+Sugar chain antigen 724	Sugar chain antigen 724
+Inorganic phosphorus	Inorganic phosphorus
+Retinol binding protein	Retinol binding protein
+Eosinophil absolute value (EO#)	Eosinophil absolute value (EO#)
+Mean platelet volume (MPV)	Mean platelet volume (MPV)
+Mean erythrocyte hemoglobin concentration (MCHC)	Mean erythrocyte hemoglobin concentration (MCHC)
+Sugar chain antigen 242	Sugar chain antigen 242
+Neutrophil absolute value (NE#)	Neutrophil absolute value (NE#)
+Sugar chain antigen 125	Sugar chain antigen 125
+Alpha-fetoprotein (AFP)	Alpha-fetoprotein (AFP)
+Carbon dioxide binding	Carbon dioxide binding
+Hemoglobin (HGB)	Hemoglobin (HGB)
+Basophilic Absolute Value (BA#)	Basophilic Absolute Value (BA#)
+Carbohydrate antigen 72-4 (CA72-4)	Carbohydrate antigen 72-4 (CA72-4)
+chlorine	chlorine
+Ferritin	Ferritin
+Golgi protein 73	Golgi protein 73
+Red blood cell (RBC)	Red blood cell (RBC)
+Cystatin C	Cystatin C
+Monocyte absolute value (MO#)	Monocyte absolute value (MO#)
+Hematocrit (HCT)	Hematocrit (HCT)
+glucose	glucose
+Red blood cell distribution width (RDW)	Red blood cell distribution width (RDW)
+Platelet specific volume (PCT)	Platelet specific volume (PCT)
+Carcinoembryonic antigen (CEA)	Carcinoembryonic antigen (CEA)
+Platelet distribution width (PDW)	Platelet distribution width (PDW)
+Squamous cell carcinoma antigen	Squamous cell carcinoma antigen

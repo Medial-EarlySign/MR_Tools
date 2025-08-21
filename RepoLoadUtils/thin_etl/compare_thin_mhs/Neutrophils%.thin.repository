@@ -1,0 +1,162 @@
+Neutrophils% :: All :: With Values :: 407080 / 14446692 =  0.03 :: 407080 / 407080 =  1.00
+Neutrophils% :: Males :: With Values :: 165926 / 6889335 =  0.02 :: 165926 / 407080 =  0.41
+Neutrophils% :: Females :: With Values :: 241154 / 7557357 =  0.03 :: 241154 / 407080 =  0.59
+Neutrophils% :: General :: No. of Values :: All 1440072 Male 543207 Female 896865
+Neutrophils% :: General :: No. of different days Values :: All 1437586 Male 542174 Female 895412
+Neutrophils% :: General :: Avg #values per person (all) :: All  0.10 Male  0.08 Female  0.12
+Neutrophils% :: General :: Avg #values per person (>0)  :: All  3.53 Male  3.27 Female  3.71
+Neutrophils% :: General :: Avg dist between tests       :: All  354.7 Male  366.2 Female  348.1
+Neutrophils% :: Counts :: Age Group 20 - 25 :: All ::   9318 0.006
+Neutrophils% :: Counts :: Age Group 25 - 30 :: All ::  11279 0.008
+Neutrophils% :: Counts :: Age Group 30 - 35 :: All ::  14664 0.010
+Neutrophils% :: Counts :: Age Group 35 - 40 :: All ::  15997 0.011
+Neutrophils% :: Counts :: Age Group 40 - 45 :: All ::  18106 0.013
+Neutrophils% :: Counts :: Age Group 45 - 50 :: All ::  20482 0.014
+Neutrophils% :: Counts :: Age Group 50 - 55 :: All ::  22317 0.015
+Neutrophils% :: Counts :: Age Group 55 - 60 :: All ::  23483 0.016
+Neutrophils% :: Counts :: Age Group 60 - 65 :: All ::  25399 0.018
+Neutrophils% :: Counts :: Age Group 65 - 70 :: All ::  26492 0.018
+Neutrophils% :: Counts :: Age Group 70 - 75 :: All ::  24692 0.017
+Neutrophils% :: Counts :: Age Group 75 - 80 :: All ::  23527 0.016
+Neutrophils% :: Counts :: Age Group 80 - 85 :: All ::  20615 0.014
+Neutrophils% :: Counts :: Age Group 85 - 90 :: All ::  14212 0.010
+Neutrophils% :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Neutrophils% :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Neutrophils% :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Neutrophils% :: Counts :: Age Group 20 - 25 :: Males ::   2244 0.004
+Neutrophils% :: Counts :: Age Group 25 - 30 :: Males ::   2576 0.005
+Neutrophils% :: Counts :: Age Group 30 - 35 :: Males ::   3584 0.007
+Neutrophils% :: Counts :: Age Group 35 - 40 :: Males ::   4366 0.008
+Neutrophils% :: Counts :: Age Group 40 - 45 :: Males ::   5890 0.011
+Neutrophils% :: Counts :: Age Group 45 - 50 :: Males ::   7362 0.014
+Neutrophils% :: Counts :: Age Group 50 - 55 :: Males ::   8808 0.016
+Neutrophils% :: Counts :: Age Group 55 - 60 :: Males ::  10034 0.018
+Neutrophils% :: Counts :: Age Group 60 - 65 :: Males ::  11352 0.021
+Neutrophils% :: Counts :: Age Group 65 - 70 :: Males ::  12295 0.023
+Neutrophils% :: Counts :: Age Group 70 - 75 :: Males ::  11179 0.021
+Neutrophils% :: Counts :: Age Group 75 - 80 :: Males ::  10152 0.019
+Neutrophils% :: Counts :: Age Group 80 - 85 :: Males ::   8145 0.015
+Neutrophils% :: Counts :: Age Group 85 - 90 :: Males ::   4972 0.009
+Neutrophils% :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Neutrophils% :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Neutrophils% :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Neutrophils% :: Counts :: Age Group 20 - 25 :: Females ::   7074 0.008
+Neutrophils% :: Counts :: Age Group 25 - 30 :: Females ::   8703 0.010
+Neutrophils% :: Counts :: Age Group 30 - 35 :: Females ::  11080 0.012
+Neutrophils% :: Counts :: Age Group 35 - 40 :: Females ::  11631 0.013
+Neutrophils% :: Counts :: Age Group 40 - 45 :: Females ::  12216 0.014
+Neutrophils% :: Counts :: Age Group 45 - 50 :: Females ::  13120 0.015
+Neutrophils% :: Counts :: Age Group 50 - 55 :: Females ::  13509 0.015
+Neutrophils% :: Counts :: Age Group 55 - 60 :: Females ::  13449 0.015
+Neutrophils% :: Counts :: Age Group 60 - 65 :: Females ::  14047 0.016
+Neutrophils% :: Counts :: Age Group 65 - 70 :: Females ::  14197 0.016
+Neutrophils% :: Counts :: Age Group 70 - 75 :: Females ::  13513 0.015
+Neutrophils% :: Counts :: Age Group 75 - 80 :: Females ::  13375 0.015
+Neutrophils% :: Counts :: Age Group 80 - 85 :: Females ::  12470 0.014
+Neutrophils% :: Counts :: Age Group 85 - 90 :: Females ::   9240 0.010
+Neutrophils% :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Neutrophils% :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Neutrophils% :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Neutrophils% :: Stats :: Age Group 20 - 25 :: All ::  N 29186 non-zeros 29181 Median  58.00 Mean  57.92 Std  11.28 Max  94.00
+Neutrophils% :: Stats :: Age Group 25 - 30 :: All ::  N 34547 non-zeros 34540 Median  59.00 Mean  58.88 Std  11.06 Max  96.00
+Neutrophils% :: Stats :: Age Group 30 - 35 :: All ::  N 40080 non-zeros 40077 Median  59.00 Mean  59.43 Std  10.84 Max  96.00
+Neutrophils% :: Stats :: Age Group 35 - 40 :: All ::  N 42412 non-zeros 42409 Median  59.00 Mean  58.98 Std  10.01 Max  96.00
+Neutrophils% :: Stats :: Age Group 40 - 45 :: All ::  N 46227 non-zeros 46222 Median  58.00 Mean  58.27 Std   9.23 Max  96.00
+Neutrophils% :: Stats :: Age Group 45 - 50 :: All ::  N 48156 non-zeros 48154 Median  58.00 Mean  58.07 Std   9.07 Max  96.00
+Neutrophils% :: Stats :: Age Group 50 - 55 :: All ::  N 48409 non-zeros 48405 Median  57.00 Mean  57.29 Std   9.24 Max  95.00
+Neutrophils% :: Stats :: Age Group 55 - 60 :: All ::  N 48535 non-zeros 48528 Median  57.00 Mean  57.11 Std   9.43 Max 100.00
+Neutrophils% :: Stats :: Age Group 60 - 65 :: All ::  N 46703 non-zeros 46700 Median  57.00 Mean  57.44 Std   9.61 Max  97.00
+Neutrophils% :: Stats :: Age Group 65 - 70 :: All ::  N 42774 non-zeros 42768 Median  58.00 Mean  58.10 Std  10.06 Max  96.00
+Neutrophils% :: Stats :: Age Group 70 - 75 :: All ::  N 37673 non-zeros 37668 Median  60.00 Mean  59.58 Std  10.27 Max  98.00
+Neutrophils% :: Stats :: Age Group 75 - 80 :: All ::  N 33160 non-zeros 33156 Median  62.00 Mean  61.29 Std  10.55 Max  98.00
+Neutrophils% :: Stats :: Age Group 80 - 85 :: All ::  N 26512 non-zeros 26512 Median  63.00 Mean  62.95 Std  10.70 Max  98.00
+Neutrophils% :: Stats :: Age Group 85 - 90 :: All ::  N 16943 non-zeros 16942 Median  65.00 Mean  64.20 Std  10.95 Max  98.00
+Neutrophils% :: Stats :: Age Group 90 - 95 :: All ::  N 7655 non-zeros 7652 Median  65.00 Mean  64.79 Std  11.03 Max  98.00
+Neutrophils% :: Stats :: Age Group 95 - 100 :: All ::  N 1939 non-zeros 1939 Median  66.00 Mean  65.19 Std  11.47 Max  93.00
+Neutrophils% :: General :: All     :: outliers ratio 0.000003
+Neutrophils% :: General :: All     :: N 371358 non-zeros 371311 Median  59.00 Mean  58.90 Std  10.48 Max 100.00
+Neutrophils% :: General :: All     :: distribution 0.001,0.01,0.05 ::   5.00  34.00  42.00  76.00  83.00  91.00
+Neutrophils% :: General :: All     :: quartiles ::   5.00  52.00  59.00  66.00 
+Neutrophils% :: General :: Males   :: outliers ratio 0.000000
+Neutrophils% :: General :: Males   :: N 151508 non-zeros 151487 Median  58.00 Mean  57.88 Std  10.29 Max 100.00
+Neutrophils% :: General :: Males   :: distribution 0.001,0.01,0.05 ::   5.00  33.00  42.00  75.00  83.00  91.00
+Neutrophils% :: General :: Males   :: quartiles ::   5.00  52.00  58.00  64.00 
+Neutrophils% :: General :: Females :: outliers ratio 0.000005
+Neutrophils% :: General :: Females :: N 219850 non-zeros 219820 Median  60.00 Mean  59.59 Std  10.53 Max 100.00
+Neutrophils% :: General :: Females :: distribution 0.001,0.01,0.05 ::   4.00  34.00  43.00  77.00  83.00  91.00
+Neutrophils% :: General :: Females :: quartiles ::   4.00  53.00  60.00  66.00 
+Neutrophils% :: Rounding ::  0.00 r  0.00 pct
+Neutrophils% :: Rounding ::  0.01 r  0.00 pct
+Neutrophils% :: Rounding ::  0.10 r  0.00 pct
+Neutrophils% :: Rounding ::  1.00 r  0.89 pct
+Neutrophils% :: Rounding :: 10.00 r  0.11 pct
+Neutrophils% :: Rounding :: 100.00 r  0.00 pct
+Neutrophils% :: Rounding :: 1000.00 r  0.00 pct
+Neutrophils% :: Rounding :: most popular rounding for vals:  1.00
+Neutrophils% :: Stats year :: 2000 :: All :: N 10869 non-zeros 10867 Median  60.00 Mean  58.60 Std  15.00 Max  97.00
+Neutrophils% :: Stats year :: 2001 :: All :: N 19614 non-zeros 19612 Median  61.00 Mean  60.83 Std  10.31 Max  94.00
+Neutrophils% :: Stats year :: 2002 :: All :: N 30171 non-zeros 30161 Median  61.00 Mean  60.83 Std  10.27 Max  98.00
+Neutrophils% :: Stats year :: 2003 :: All :: N 50065 non-zeros 50058 Median  60.00 Mean  59.99 Std  10.17 Max  98.00
+Neutrophils% :: Stats year :: 2004 :: All :: N 57454 non-zeros 57438 Median  60.00 Mean  60.05 Std  10.18 Max  98.00
+Neutrophils% :: Stats year :: 2005 :: All :: N 63111 non-zeros 63102 Median  60.00 Mean  59.77 Std   9.98 Max  97.00
+Neutrophils% :: Stats year :: 2006 :: All :: N 77887 non-zeros 77876 Median  60.00 Mean  59.65 Std   9.86 Max 100.00
+Neutrophils% :: Stats year :: 2007 :: All :: N 83491 non-zeros 83484 Median  59.00 Mean  59.40 Std   9.89 Max  96.00
+Neutrophils% :: Stats year :: 2008 :: All :: N 71927 non-zeros 71924 Median  59.00 Mean  59.04 Std   9.93 Max 100.00
+Neutrophils% :: Stats year :: 2009 :: All :: N 72199 non-zeros 72196 Median  58.00 Mean  58.50 Std   9.86 Max  95.00
+Neutrophils% :: Stats year :: 2010 :: All :: N 69281 non-zeros 69273 Median  59.00 Mean  58.71 Std   9.93 Max  98.00
+Neutrophils% :: Stats year :: 2011 :: All :: N 72238 non-zeros 72233 Median  59.00 Mean  58.70 Std   9.89 Max  96.00
+Neutrophils% :: Stats year :: 2012 :: All :: N 66586 non-zeros 66583 Median  59.00 Mean  59.10 Std   9.94 Max  97.00
+Neutrophils% :: Stats year :: 2013 :: All :: N 71656 non-zeros 71656 Median  58.00 Mean  57.89 Std  10.05 Max  96.00
+Neutrophils% :: Stats year :: 2014 :: All :: N 57671 non-zeros 57670 Median  58.00 Mean  57.90 Std  10.03 Max  97.00
+Neutrophils% :: Stats year :: 2015 :: All :: N 41967 non-zeros 41967 Median  58.00 Mean  58.12 Std   9.95 Max  98.00
+Neutrophils% :: Stats year :: 2016 :: All :: N 2227 non-zeros 2227 Median  59.00 Mean  59.28 Std  10.62 Max  92.00
+Neutrophils% :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Neutrophils% :: Stats year :: 2000 :: Males   :: N 3720 non-zeros 3720 Median  59.00 Mean  57.85 Std  14.31 Max  97.00
+Neutrophils% :: Stats year :: 2001 :: Males   :: N 6831 non-zeros 6829 Median  60.00 Mean  59.70 Std  10.40 Max  97.00
+Neutrophils% :: Stats year :: 2002 :: Males   :: N 10791 non-zeros 10787 Median  60.00 Mean  59.70 Std  10.11 Max  95.00
+Neutrophils% :: Stats year :: 2003 :: Males   :: N 18220 non-zeros 18216 Median  59.00 Mean  58.81 Std  10.16 Max  96.00
+Neutrophils% :: Stats year :: 2004 :: Males   :: N 21486 non-zeros 21473 Median  59.00 Mean  59.05 Std  10.15 Max  96.00
+Neutrophils% :: Stats year :: 2005 :: Males   :: N 23894 non-zeros 23888 Median  59.00 Mean  58.90 Std   9.96 Max  95.00
+Neutrophils% :: Stats year :: 2006 :: Males   :: N 29975 non-zeros 29970 Median  59.00 Mean  58.88 Std   9.72 Max 100.00
+Neutrophils% :: Stats year :: 2007 :: Males   :: N 33002 non-zeros 32999 Median  59.00 Mean  58.59 Std   9.72 Max  96.00
+Neutrophils% :: Stats year :: 2008 :: Males   :: N 28404 non-zeros 28402 Median  58.00 Mean  58.36 Std   9.82 Max  99.00
+Neutrophils% :: Stats year :: 2009 :: Males   :: N 28842 non-zeros 28839 Median  58.00 Mean  57.84 Std   9.72 Max  95.00
+Neutrophils% :: Stats year :: 2010 :: Males   :: N 28055 non-zeros 28052 Median  58.00 Mean  58.18 Std   9.80 Max  98.00
+Neutrophils% :: Stats year :: 2011 :: Males   :: N 29337 non-zeros 29334 Median  58.00 Mean  58.08 Std   9.77 Max  96.00
+Neutrophils% :: Stats year :: 2012 :: Males   :: N 27102 non-zeros 27102 Median  59.00 Mean  58.59 Std   9.76 Max  95.00
+Neutrophils% :: Stats year :: 2013 :: Males   :: N 28472 non-zeros 28472 Median  58.00 Mean  57.43 Std   9.94 Max  96.00
+Neutrophils% :: Stats year :: 2014 :: Males   :: N 22826 non-zeros 22826 Median  58.00 Mean  57.41 Std  10.08 Max  97.00
+Neutrophils% :: Stats year :: 2015 :: Males   :: N 16956 non-zeros 16956 Median  58.00 Mean  57.84 Std   9.93 Max  98.00
+Neutrophils% :: Stats year :: 2016 :: Males   :: N 926 non-zeros 926 Median  59.00 Mean  58.91 Std  10.78 Max  91.00
+Neutrophils% :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Neutrophils% :: Stats year :: 2000 :: Females :: N 7149 non-zeros 7147 Median  61.00 Mean  58.95 Std  15.31 Max  94.00
+Neutrophils% :: Stats year :: 2001 :: Females :: N 12783 non-zeros 12781 Median  61.00 Mean  61.44 Std  10.19 Max  94.00
+Neutrophils% :: Stats year :: 2002 :: Females :: N 19380 non-zeros 19373 Median  61.00 Mean  61.46 Std  10.32 Max  98.00
+Neutrophils% :: Stats year :: 2003 :: Females :: N 31845 non-zeros 31839 Median  61.00 Mean  60.68 Std  10.15 Max  97.00
+Neutrophils% :: Stats year :: 2004 :: Females :: N 35968 non-zeros 35964 Median  60.00 Mean  60.61 Std  10.10 Max  98.00
+Neutrophils% :: Stats year :: 2005 :: Females :: N 39217 non-zeros 39212 Median  60.00 Mean  60.30 Std   9.98 Max  97.00
+Neutrophils% :: Stats year :: 2006 :: Females :: N 47912 non-zeros 47907 Median  60.00 Mean  60.14 Std   9.92 Max  97.00
+Neutrophils% :: Stats year :: 2007 :: Females :: N 50489 non-zeros 50487 Median  60.00 Mean  59.90 Std   9.93 Max  96.00
+Neutrophils% :: Stats year :: 2008 :: Females :: N 43523 non-zeros 43518 Median  59.00 Mean  59.49 Std   9.99 Max  96.00
+Neutrophils% :: Stats year :: 2009 :: Females :: N 43357 non-zeros 43356 Median  59.00 Mean  58.92 Std   9.92 Max  96.00
+Neutrophils% :: Stats year :: 2010 :: Females :: N 41226 non-zeros 41222 Median  59.00 Mean  59.06 Std   9.98 Max  96.00
+Neutrophils% :: Stats year :: 2011 :: Females :: N 42901 non-zeros 42900 Median  59.00 Mean  59.11 Std   9.94 Max  95.00
+Neutrophils% :: Stats year :: 2012 :: Females :: N 39484 non-zeros 39481 Median  60.00 Mean  59.48 Std  10.03 Max  98.00
+Neutrophils% :: Stats year :: 2013 :: Females :: N 43184 non-zeros 43184 Median  58.00 Mean  58.20 Std  10.07 Max  96.00
+Neutrophils% :: Stats year :: 2014 :: Females :: N 34845 non-zeros 34845 Median  58.00 Mean  58.24 Std  10.03 Max  96.00
+Neutrophils% :: Stats year :: 2015 :: Females :: N 25011 non-zeros 25011 Median  58.00 Mean  58.28 Std   9.95 Max  97.00
+Neutrophils% :: Stats year :: 2016 :: Females :: N 1301 non-zeros 1301 Median  59.00 Mean  59.55 Std  10.49 Max  92.00
+Neutrophils% :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Neutrophils% :: Stats month 1 :: All :: N 62416 non-zeros 62411 Median  60.00 Mean  59.61 Std  10.84 Max  98.00
+Neutrophils% :: Stats month 2 :: All :: N 59265 non-zeros 59257 Median  59.00 Mean  59.35 Std  10.89 Max  97.00
+Neutrophils% :: Stats month 3 :: All :: N 63479 non-zeros 63471 Median  59.00 Mean  59.37 Std  10.71 Max  98.00
+Neutrophils% :: Stats month 4 :: All :: N 58496 non-zeros 58487 Median  59.00 Mean  59.56 Std  10.39 Max  97.00
+Neutrophils% :: Stats month 5 :: All :: N 59642 non-zeros 59631 Median  59.00 Mean  59.55 Std  10.40 Max 100.00
+Neutrophils% :: Stats month 6 :: All :: N 61908 non-zeros 61903 Median  59.00 Mean  59.33 Std  10.40 Max  98.00
+Neutrophils% :: Stats month 7 :: All :: N 61286 non-zeros 61277 Median  59.00 Mean  59.28 Std  10.34 Max  97.00
+Neutrophils% :: Stats month 8 :: All :: N 57707 non-zeros 57704 Median  59.00 Mean  59.39 Std  10.41 Max  98.00
+Neutrophils% :: Stats month 9 :: All :: N 62000 non-zeros 61989 Median  60.00 Mean  59.61 Std  10.28 Max  98.00
+Neutrophils% :: Stats month 10 :: All :: N 63332 non-zeros 63331 Median  60.00 Mean  59.65 Std  10.26 Max  98.00
+Neutrophils% :: Stats month 11 :: All :: N 61800 non-zeros 61789 Median  60.00 Mean  59.75 Std  10.39 Max  96.00
+Neutrophils% :: Stats month 12 :: All :: N 51015 non-zeros 51011 Median  60.00 Mean  59.79 Std  10.62 Max  96.00
+

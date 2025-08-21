@@ -1,0 +1,162 @@
+CO2 :: All :: With Values ::  34284 / 14446692 =  0.00 ::  34284 /  34284 =  1.00
+CO2 :: Males :: With Values ::  15561 / 6889335 =  0.00 ::  15561 /  34284 =  0.45
+CO2 :: Females :: With Values ::  18723 / 7557357 =  0.00 ::  18723 /  34284 =  0.55
+CO2 :: General :: No. of Values :: All 196857 Male  86975 Female 109882
+CO2 :: General :: No. of different days Values :: All 196660 Male  86884 Female 109776
+CO2 :: General :: Avg #values per person (all) :: All  0.01 Male  0.01 Female  0.01
+CO2 :: General :: Avg #values per person (>0)  :: All  5.74 Male  5.58 Female  5.86
+CO2 :: General :: Avg dist between tests       :: All  263.8 Male  265.3 Female  262.7
+CO2 :: Counts :: Age Group 20 - 25 :: All ::    794 0.004
+CO2 :: Counts :: Age Group 25 - 30 :: All ::    887 0.005
+CO2 :: Counts :: Age Group 30 - 35 :: All ::   1148 0.006
+CO2 :: Counts :: Age Group 35 - 40 :: All ::   1320 0.007
+CO2 :: Counts :: Age Group 40 - 45 :: All ::   1880 0.010
+CO2 :: Counts :: Age Group 45 - 50 :: All ::   2424 0.012
+CO2 :: Counts :: Age Group 50 - 55 :: All ::   3093 0.016
+CO2 :: Counts :: Age Group 55 - 60 :: All ::   3648 0.019
+CO2 :: Counts :: Age Group 60 - 65 :: All ::   3969 0.020
+CO2 :: Counts :: Age Group 65 - 70 :: All ::   4305 0.022
+CO2 :: Counts :: Age Group 70 - 75 :: All ::   4078 0.021
+CO2 :: Counts :: Age Group 75 - 80 :: All ::   3999 0.020
+CO2 :: Counts :: Age Group 80 - 85 :: All ::   3353 0.017
+CO2 :: Counts :: Age Group 85 - 90 :: All ::   2289 0.012
+CO2 :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+CO2 :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+CO2 :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+CO2 :: Counts :: Age Group 20 - 25 :: Males ::    298 0.003
+CO2 :: Counts :: Age Group 25 - 30 :: Males ::    323 0.004
+CO2 :: Counts :: Age Group 30 - 35 :: Males ::    401 0.005
+CO2 :: Counts :: Age Group 35 - 40 :: Males ::    568 0.007
+CO2 :: Counts :: Age Group 40 - 45 :: Males ::    841 0.010
+CO2 :: Counts :: Age Group 45 - 50 :: Males ::   1058 0.012
+CO2 :: Counts :: Age Group 50 - 55 :: Males ::   1458 0.017
+CO2 :: Counts :: Age Group 55 - 60 :: Males ::   1769 0.020
+CO2 :: Counts :: Age Group 60 - 65 :: Males ::   1926 0.022
+CO2 :: Counts :: Age Group 65 - 70 :: Males ::   2079 0.024
+CO2 :: Counts :: Age Group 70 - 75 :: Males ::   1957 0.023
+CO2 :: Counts :: Age Group 75 - 80 :: Males ::   1779 0.020
+CO2 :: Counts :: Age Group 80 - 85 :: Males ::   1369 0.016
+CO2 :: Counts :: Age Group 85 - 90 :: Males ::    783 0.009
+CO2 :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+CO2 :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+CO2 :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+CO2 :: Counts :: Age Group 20 - 25 :: Females ::    496 0.005
+CO2 :: Counts :: Age Group 25 - 30 :: Females ::    564 0.005
+CO2 :: Counts :: Age Group 30 - 35 :: Females ::    747 0.007
+CO2 :: Counts :: Age Group 35 - 40 :: Females ::    752 0.007
+CO2 :: Counts :: Age Group 40 - 45 :: Females ::   1039 0.009
+CO2 :: Counts :: Age Group 45 - 50 :: Females ::   1366 0.012
+CO2 :: Counts :: Age Group 50 - 55 :: Females ::   1635 0.015
+CO2 :: Counts :: Age Group 55 - 60 :: Females ::   1879 0.017
+CO2 :: Counts :: Age Group 60 - 65 :: Females ::   2043 0.019
+CO2 :: Counts :: Age Group 65 - 70 :: Females ::   2226 0.020
+CO2 :: Counts :: Age Group 70 - 75 :: Females ::   2121 0.019
+CO2 :: Counts :: Age Group 75 - 80 :: Females ::   2220 0.020
+CO2 :: Counts :: Age Group 80 - 85 :: Females ::   1984 0.018
+CO2 :: Counts :: Age Group 85 - 90 :: Females ::   1506 0.014
+CO2 :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+CO2 :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+CO2 :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+CO2 :: Stats :: Age Group 20 - 25 :: All ::  N 2637 non-zeros 2632 Median  26.00 Mean  25.33 Std   3.83 Max  43.00
+CO2 :: Stats :: Age Group 25 - 30 :: All ::  N 2910 non-zeros 2907 Median  26.00 Mean  25.34 Std   3.71 Max  37.00
+CO2 :: Stats :: Age Group 30 - 35 :: All ::  N 3234 non-zeros 3227 Median  26.00 Mean  25.45 Std   3.70 Max  40.00
+CO2 :: Stats :: Age Group 35 - 40 :: All ::  N 3609 non-zeros 3604 Median  26.00 Mean  25.54 Std   3.50 Max  51.00
+CO2 :: Stats :: Age Group 40 - 45 :: All ::  N 4344 non-zeros 4340 Median  26.00 Mean  25.65 Std   3.53 Max  47.00
+CO2 :: Stats :: Age Group 45 - 50 :: All ::  N 4895 non-zeros 4889 Median  26.00 Mean  25.73 Std   3.50 Max  43.00
+CO2 :: Stats :: Age Group 50 - 55 :: All ::  N 5235 non-zeros 5233 Median  26.00 Mean  26.09 Std   3.22 Max  51.00
+CO2 :: Stats :: Age Group 55 - 60 :: All ::  N 5131 non-zeros 5128 Median  26.00 Mean  26.20 Std   3.46 Max  40.00
+CO2 :: Stats :: Age Group 60 - 65 :: All ::  N 4873 non-zeros 4867 Median  26.00 Mean  26.22 Std   3.68 Max  40.00
+CO2 :: Stats :: Age Group 65 - 70 :: All ::  N 4487 non-zeros 4476 Median  26.00 Mean  26.24 Std   3.77 Max  44.00
+CO2 :: Stats :: Age Group 70 - 75 :: All ::  N 3916 non-zeros 3912 Median  26.00 Mean  26.38 Std   3.64 Max  43.00
+CO2 :: Stats :: Age Group 75 - 80 :: All ::  N 3244 non-zeros 3244 Median  26.00 Mean  26.40 Std   3.82 Max  43.00
+CO2 :: Stats :: Age Group 80 - 85 :: All ::  N 2485 non-zeros 2484 Median  26.00 Mean  26.21 Std   4.01 Max  39.00
+CO2 :: Stats :: Age Group 85 - 90 :: All ::  N 1484 non-zeros 1484 Median  26.00 Mean  26.25 Std   3.92 Max  44.00
+CO2 :: Stats :: Age Group 90 - 95 :: All ::  N 709 non-zeros 709 Median  26.00 Mean  25.87 Std   4.54 Max  41.00
+CO2 :: Stats :: Age Group 95 - 100 :: All ::  N 187 non-zeros 187 Median  26.00 Mean  25.41 Std   4.66 Max  34.00
+CO2 :: General :: All     :: outliers ratio 0.000032
+CO2 :: General :: All     :: N 31501 non-zeros 31445 Median  26.00 Mean  25.65 Std   4.03 Max  51.00
+CO2 :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.00   6.00  21.00  31.00  33.00  38.00
+CO2 :: General :: All     :: quartiles ::   1.00  24.00  26.00  28.00 
+CO2 :: General :: Males   :: outliers ratio 0.000070
+CO2 :: General :: Males   :: N 14312 non-zeros 14288 Median  26.00 Mean  25.91 Std   4.04 Max  51.00
+CO2 :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.00   6.00  21.00  31.00  34.00  38.00
+CO2 :: General :: Males   :: quartiles ::   1.00  24.00  26.00  28.00 
+CO2 :: General :: Females :: outliers ratio 0.000000
+CO2 :: General :: Females :: N 17189 non-zeros 17161 Median  26.00 Mean  25.47 Std   4.00 Max  51.00
+CO2 :: General :: Females :: distribution 0.001,0.01,0.05 ::   1.00   6.00  21.00  31.00  34.00  38.00
+CO2 :: General :: Females :: quartiles ::   1.00  24.00  26.00  28.00 
+CO2 :: Rounding ::  0.00 r  0.00 pct
+CO2 :: Rounding ::  0.01 r  0.00 pct
+CO2 :: Rounding ::  0.10 r  0.00 pct
+CO2 :: Rounding ::  1.00 r  0.93 pct
+CO2 :: Rounding :: 10.00 r  0.07 pct
+CO2 :: Rounding :: 100.00 r  0.00 pct
+CO2 :: Rounding :: 1000.00 r  0.00 pct
+CO2 :: Rounding :: most popular rounding for vals:  1.00
+CO2 :: Stats year :: 2000 :: All :: N 3 non-zeros 3 Median  26.00 Mean  27.67 Std   1.70 Max  30.00
+CO2 :: Stats year :: 2001 :: All :: N 4 non-zeros 4 Median  29.00 Mean  28.75 Std   3.63 Max  33.00
+CO2 :: Stats year :: 2002 :: All :: N 88 non-zeros 88 Median  28.00 Mean  27.48 Std   3.51 Max  36.00
+CO2 :: Stats year :: 2003 :: All :: N 256 non-zeros 256 Median  28.00 Mean  27.56 Std   4.02 Max  41.00
+CO2 :: Stats year :: 2004 :: All :: N 3775 non-zeros 3775 Median  26.00 Mean  26.28 Std   3.28 Max  43.00
+CO2 :: Stats year :: 2005 :: All :: N 9578 non-zeros 9577 Median  25.00 Mean  25.09 Std   3.27 Max  43.00
+CO2 :: Stats year :: 2006 :: All :: N 10628 non-zeros 10627 Median  27.00 Mean  26.54 Std   3.16 Max  51.00
+CO2 :: Stats year :: 2007 :: All :: N 8402 non-zeros 8386 Median  28.00 Mean  27.76 Std   4.05 Max  43.00
+CO2 :: Stats year :: 2008 :: All :: N 8631 non-zeros 8608 Median  29.00 Mean  28.39 Std   4.03 Max  46.00
+CO2 :: Stats year :: 2009 :: All :: N 8128 non-zeros 8125 Median  27.00 Mean  27.34 Std   2.87 Max  39.00
+CO2 :: Stats year :: 2010 :: All :: N 8902 non-zeros 8896 Median  27.00 Mean  26.98 Std   2.96 Max  41.00
+CO2 :: Stats year :: 2011 :: All :: N 9337 non-zeros 9331 Median  26.00 Mean  26.47 Std   3.35 Max  42.00
+CO2 :: Stats year :: 2012 :: All :: N 9651 non-zeros 9648 Median  26.00 Mean  26.26 Std   3.12 Max  40.00
+CO2 :: Stats year :: 2013 :: All :: N 9767 non-zeros 9764 Median  25.00 Mean  24.88 Std   2.68 Max  38.00
+CO2 :: Stats year :: 2014 :: All :: N 9501 non-zeros 9499 Median  25.00 Mean  25.39 Std   2.71 Max  41.00
+CO2 :: Stats year :: 2015 :: All :: N 10033 non-zeros 10033 Median  25.00 Mean  25.05 Std   2.49 Max  44.00
+CO2 :: Stats year :: 2016 :: All :: N 541 non-zeros 541 Median  25.00 Mean  24.53 Std   2.41 Max  40.00
+CO2 :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+CO2 :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+CO2 :: Stats year :: 2001 :: Males   :: N 2 non-zeros 2 Median  23.00 Mean  26.00 Std   3.00 Max  29.00
+CO2 :: Stats year :: 2002 :: Males   :: N 37 non-zeros 37 Median  27.00 Mean  27.16 Std   4.41 Max  36.00
+CO2 :: Stats year :: 2003 :: Males   :: N 119 non-zeros 119 Median  27.00 Mean  27.44 Std   4.04 Max  41.00
+CO2 :: Stats year :: 2004 :: Males   :: N 1632 non-zeros 1632 Median  26.00 Mean  26.34 Std   3.26 Max  43.00
+CO2 :: Stats year :: 2005 :: Males   :: N 4273 non-zeros 4273 Median  25.00 Mean  25.20 Std   3.22 Max  39.00
+CO2 :: Stats year :: 2006 :: Males   :: N 4751 non-zeros 4751 Median  27.00 Mean  26.70 Std   2.99 Max  51.00
+CO2 :: Stats year :: 2007 :: Males   :: N 3730 non-zeros 3723 Median  28.00 Mean  28.01 Std   3.92 Max  43.00
+CO2 :: Stats year :: 2008 :: Males   :: N 3904 non-zeros 3895 Median  29.00 Mean  28.46 Std   4.10 Max  38.00
+CO2 :: Stats year :: 2009 :: Males   :: N 3715 non-zeros 3714 Median  28.00 Mean  27.55 Std   2.75 Max  38.00
+CO2 :: Stats year :: 2010 :: Males   :: N 4032 non-zeros 4031 Median  27.00 Mean  27.18 Std   2.92 Max  41.00
+CO2 :: Stats year :: 2011 :: Males   :: N 4280 non-zeros 4276 Median  27.00 Mean  26.59 Std   3.15 Max  42.00
+CO2 :: Stats year :: 2012 :: Males   :: N 4480 non-zeros 4478 Median  26.00 Mean  26.32 Std   3.07 Max  41.00
+CO2 :: Stats year :: 2013 :: Males   :: N 4490 non-zeros 4490 Median  25.00 Mean  25.04 Std   2.62 Max  36.00
+CO2 :: Stats year :: 2014 :: Males   :: N 4356 non-zeros 4355 Median  26.00 Mean  25.53 Std   2.57 Max  36.00
+CO2 :: Stats year :: 2015 :: Males   :: N 4600 non-zeros 4600 Median  25.00 Mean  25.17 Std   2.38 Max  34.00
+CO2 :: Stats year :: 2016 :: Males   :: N 252 non-zeros 252 Median  25.00 Mean  24.56 Std   2.27 Max  33.00
+CO2 :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+CO2 :: Stats year :: 2000 :: Females :: N 3 non-zeros 3 Median  26.00 Mean  28.00 Std   2.16 Max  31.00
+CO2 :: Stats year :: 2001 :: Females :: N 2 non-zeros 2 Median  30.00 Mean  31.50 Std   1.50 Max  33.00
+CO2 :: Stats year :: 2002 :: Females :: N 51 non-zeros 51 Median  28.00 Mean  27.67 Std   2.64 Max  34.00
+CO2 :: Stats year :: 2003 :: Females :: N 137 non-zeros 137 Median  28.00 Mean  27.74 Std   3.64 Max  38.00
+CO2 :: Stats year :: 2004 :: Females :: N 2143 non-zeros 2143 Median  26.00 Mean  26.25 Std   3.36 Max  44.00
+CO2 :: Stats year :: 2005 :: Females :: N 5305 non-zeros 5305 Median  25.00 Mean  25.02 Std   3.30 Max  43.00
+CO2 :: Stats year :: 2006 :: Females :: N 5877 non-zeros 5876 Median  26.00 Mean  26.40 Std   3.26 Max  51.00
+CO2 :: Stats year :: 2007 :: Females :: N 4672 non-zeros 4664 Median  28.00 Mean  27.57 Std   4.15 Max  44.00
+CO2 :: Stats year :: 2008 :: Females :: N 4727 non-zeros 4717 Median  29.00 Mean  28.37 Std   3.85 Max  46.00
+CO2 :: Stats year :: 2009 :: Females :: N 4413 non-zeros 4411 Median  27.00 Mean  27.18 Std   2.96 Max  39.00
+CO2 :: Stats year :: 2010 :: Females :: N 4870 non-zeros 4864 Median  27.00 Mean  26.87 Std   2.99 Max  41.00
+CO2 :: Stats year :: 2011 :: Females :: N 5057 non-zeros 5055 Median  26.00 Mean  26.33 Std   3.46 Max  37.00
+CO2 :: Stats year :: 2012 :: Females :: N 5171 non-zeros 5169 Median  26.00 Mean  26.21 Std   3.23 Max  40.00
+CO2 :: Stats year :: 2013 :: Females :: N 5277 non-zeros 5275 Median  25.00 Mean  24.73 Std   2.72 Max  38.00
+CO2 :: Stats year :: 2014 :: Females :: N 5145 non-zeros 5144 Median  25.00 Mean  25.28 Std   2.79 Max  44.00
+CO2 :: Stats year :: 2015 :: Females :: N 5433 non-zeros 5433 Median  25.00 Mean  24.94 Std   2.57 Max  44.00
+CO2 :: Stats year :: 2016 :: Females :: N 289 non-zeros 289 Median  25.00 Mean  24.49 Std   2.55 Max  40.00
+CO2 :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+CO2 :: Stats month 1 :: All :: N 7321 non-zeros 7319 Median  26.00 Mean  25.91 Std   3.43 Max  44.00
+CO2 :: Stats month 2 :: All :: N 6924 non-zeros 6918 Median  26.00 Mean  26.05 Std   3.54 Max  45.00
+CO2 :: Stats month 3 :: All :: N 6993 non-zeros 6984 Median  26.00 Mean  25.98 Std   3.59 Max  43.00
+CO2 :: Stats month 4 :: All :: N 6495 non-zeros 6495 Median  26.00 Mean  25.97 Std   3.42 Max  40.00
+CO2 :: Stats month 5 :: All :: N 6237 non-zeros 6230 Median  26.00 Mean  25.86 Std   3.37 Max  42.00
+CO2 :: Stats month 6 :: All :: N 6204 non-zeros 6190 Median  26.00 Mean  25.63 Std   3.79 Max  44.00
+CO2 :: Stats month 7 :: All :: N 5905 non-zeros 5891 Median  26.00 Mean  25.91 Std   3.81 Max  42.00
+CO2 :: Stats month 8 :: All :: N 5865 non-zeros 5860 Median  26.00 Mean  26.22 Std   3.47 Max  46.00
+CO2 :: Stats month 9 :: All :: N 7041 non-zeros 7038 Median  26.00 Mean  26.31 Std   3.38 Max  39.00
+CO2 :: Stats month 10 :: All :: N 7561 non-zeros 7559 Median  26.00 Mean  26.36 Std   3.46 Max  51.00
+CO2 :: Stats month 11 :: All :: N 7210 non-zeros 7202 Median  26.00 Mean  25.89 Std   3.44 Max  43.00
+CO2 :: Stats month 12 :: All :: N 6118 non-zeros 6109 Median  26.00 Mean  25.80 Std   3.53 Max  51.00
+

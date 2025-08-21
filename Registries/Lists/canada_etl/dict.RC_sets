@@ -1,0 +1,36 @@
+SECTION	RC
+DEF	500002	ischemic_heart_disease
+DEF	500003	diabetes_type_ii
+DEF	500004	chronic_renal_failure
+DEF	500005	chronic_obstructive_pulmonary_disease
+DEF	500006	gout
+DEF	500011	cirrhosis_of_liver_nos
+DEF	500012	acute_pancreatitis
+DEF	500015	IBD
+DEF	500016	coeliac
+DEF	500017	sleep_apnoea
+DEF	500018	renal_stone
+DEF	500019	pulmonary_embolism
+DEF	500020	diabetic_retinopathy
+DEF	500022	herpes_zoster
+DEF	500023	fatty_liver
+
+SET	ischemic_heart_disease	ICD-9:410	Ischaemic_and_Other_Forms_of_Heart_Disease_-_Acute_myocardial_infarction
+SET	ischemic_heart_disease	ICD-9:413	Ischaemic_Heart_Disease,_Acute
+SET	diabetes_type_ii	ICD-9:250	Diabetes_Type_II
+SET	chronic_renal_failure	ICD-9:585	Diseases_of_the_Urinary_System_-_Chronic_renal_failure,_uremia
+SET	chronic_obstructive_pulmonary_disease	ICD-9:491	Bronchitis_-_Chronic
+SET	chronic_obstructive_pulmonary_disease	ICD-9:492	Emphysema
+SET	chronic_obstructive_pulmonary_disease	ICD-9:493	Diseases_of_the_Respiratory_System_-_Asthma,_allergic_bronchitis
+SET	chronic_obstructive_pulmonary_disease	ICD-9:496	Obstructive_Pulmonary_Disease_-_Chronic,_other
+SET	gout	ICD-9:274	Nutritional_and_Metabolic_Disorders_-_Gout
+SET	cirrhosis_of_liver_nos	ICD-9:571	Other_Diseases_of_Digestive_System_-_Cirrhosis_of_the_liver_(e.g.,_alcoholic_cirrhosis,_biliary_cirrhosis)
+SET	acute_pancreatitis	ICD-9:577	Other_Diseases_of_Digestive_System_-_Diseases_of_pancreas
+SET	IBD	ICD-9:556	Colitis_-_Ulcerative
+SET	coeliac	ICD-9:579	Other_Diseases_of_Digestive_System_-_Malabsorption_syndrome,_sprue,_celiac_disease
+SET	renal_stone	ICD-9:574	Stone_(Calculus)_-_(Cholelithiasis)_with_or_without_Cholecystitis
+SET	renal_stone	ICD-9:592	Diseases_of_the_Urinary_System_-_Stone_in_kidney_or_ureter
+SET	pulmonary_embolism	ICD-9:415	Pulmonary_Embolism,_Infarction
+SET	diabetic_retinopathy	ICD-9:362	Eye_-_Hypertensive_retinopathy
+SET	herpes_zoster	ICD-9:053	Herpes_Zoster
+SET	fatty_liver	ICD-9:571	Other_Diseases_of_Digestive_System_-_Cirrhosis_of_the_liver_(e.g.,_alcoholic_cirrhosis,_biliary_cirrhosis)

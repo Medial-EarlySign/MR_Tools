@@ -1,0 +1,8 @@
+MODE	3
+SAFE_MODE	1
+SIGNAL	canada.signals
+DIR	/server/Work/Users/Ido/canada_122017_loading/
+OUTDIR	/server/Work/Users/Ido/canada_122017_loading//repo/
+
+DATA	HT_Registry
+LOAD_ONLY	HT_Registry

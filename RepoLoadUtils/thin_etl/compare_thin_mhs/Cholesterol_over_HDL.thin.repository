@@ -1,0 +1,162 @@
+Cholesterol_over_HDL :: All :: With Values :: 3063717 / 14446692 =  0.21 :: 3063717 / 3063717 =  1.00
+Cholesterol_over_HDL :: Males :: With Values :: 1490837 / 6889335 =  0.22 :: 1490837 / 3063717 =  0.49
+Cholesterol_over_HDL :: Females :: With Values :: 1572880 / 7557357 =  0.21 :: 1572880 / 3063717 =  0.51
+Cholesterol_over_HDL :: General :: No. of Values :: All 13675952 Male 6906839 Female 6769113
+Cholesterol_over_HDL :: General :: No. of different days Values :: All 12905417 Male 6520201 Female 6385216
+Cholesterol_over_HDL :: General :: Avg #values per person (all) :: All  0.89 Male  0.95 Female  0.84
+Cholesterol_over_HDL :: General :: Avg #values per person (>0)  :: All  4.21 Male  4.37 Female  4.06
+Cholesterol_over_HDL :: General :: Avg dist between tests       :: All  452.7 Male  441.6 Female  464.3
+Cholesterol_over_HDL :: Counts :: Age Group 20 - 25 :: All ::  15141 0.001
+Cholesterol_over_HDL :: Counts :: Age Group 25 - 30 :: All ::  25581 0.002
+Cholesterol_over_HDL :: Counts :: Age Group 30 - 35 :: All ::  42159 0.003
+Cholesterol_over_HDL :: Counts :: Age Group 35 - 40 :: All ::  66867 0.005
+Cholesterol_over_HDL :: Counts :: Age Group 40 - 45 :: All :: 129884 0.009
+Cholesterol_over_HDL :: Counts :: Age Group 45 - 50 :: All :: 183766 0.013
+Cholesterol_over_HDL :: Counts :: Age Group 50 - 55 :: All :: 241602 0.018
+Cholesterol_over_HDL :: Counts :: Age Group 55 - 60 :: All :: 290528 0.021
+Cholesterol_over_HDL :: Counts :: Age Group 60 - 65 :: All :: 354736 0.026
+Cholesterol_over_HDL :: Counts :: Age Group 65 - 70 :: All :: 386847 0.028
+Cholesterol_over_HDL :: Counts :: Age Group 70 - 75 :: All :: 353685 0.026
+Cholesterol_over_HDL :: Counts :: Age Group 75 - 80 :: All :: 297031 0.022
+Cholesterol_over_HDL :: Counts :: Age Group 80 - 85 :: All :: 208723 0.015
+Cholesterol_over_HDL :: Counts :: Age Group 85 - 90 :: All :: 117009 0.009
+Cholesterol_over_HDL :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Cholesterol_over_HDL :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Cholesterol_over_HDL :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Cholesterol_over_HDL :: Counts :: Age Group 20 - 25 :: Males ::   6542 0.001
+Cholesterol_over_HDL :: Counts :: Age Group 25 - 30 :: Males ::  11295 0.002
+Cholesterol_over_HDL :: Counts :: Age Group 30 - 35 :: Males ::  21059 0.003
+Cholesterol_over_HDL :: Counts :: Age Group 35 - 40 :: Males ::  35749 0.005
+Cholesterol_over_HDL :: Counts :: Age Group 40 - 45 :: Males ::  69127 0.010
+Cholesterol_over_HDL :: Counts :: Age Group 45 - 50 :: Males ::  98424 0.014
+Cholesterol_over_HDL :: Counts :: Age Group 50 - 55 :: Males :: 129523 0.019
+Cholesterol_over_HDL :: Counts :: Age Group 55 - 60 :: Males :: 153912 0.022
+Cholesterol_over_HDL :: Counts :: Age Group 60 - 65 :: Males :: 187779 0.027
+Cholesterol_over_HDL :: Counts :: Age Group 65 - 70 :: Males :: 203453 0.029
+Cholesterol_over_HDL :: Counts :: Age Group 70 - 75 :: Males :: 179439 0.026
+Cholesterol_over_HDL :: Counts :: Age Group 75 - 80 :: Males :: 142610 0.021
+Cholesterol_over_HDL :: Counts :: Age Group 80 - 85 :: Males ::  94015 0.014
+Cholesterol_over_HDL :: Counts :: Age Group 85 - 90 :: Males ::  47130 0.007
+Cholesterol_over_HDL :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Cholesterol_over_HDL :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Cholesterol_over_HDL :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Cholesterol_over_HDL :: Counts :: Age Group 20 - 25 :: Females ::   8599 0.001
+Cholesterol_over_HDL :: Counts :: Age Group 25 - 30 :: Females ::  14286 0.002
+Cholesterol_over_HDL :: Counts :: Age Group 30 - 35 :: Females ::  21100 0.003
+Cholesterol_over_HDL :: Counts :: Age Group 35 - 40 :: Females ::  31118 0.005
+Cholesterol_over_HDL :: Counts :: Age Group 40 - 45 :: Females ::  60757 0.009
+Cholesterol_over_HDL :: Counts :: Age Group 45 - 50 :: Females ::  85342 0.013
+Cholesterol_over_HDL :: Counts :: Age Group 50 - 55 :: Females :: 112079 0.017
+Cholesterol_over_HDL :: Counts :: Age Group 55 - 60 :: Females :: 136616 0.020
+Cholesterol_over_HDL :: Counts :: Age Group 60 - 65 :: Females :: 166957 0.025
+Cholesterol_over_HDL :: Counts :: Age Group 65 - 70 :: Females :: 183394 0.027
+Cholesterol_over_HDL :: Counts :: Age Group 70 - 75 :: Females :: 174246 0.026
+Cholesterol_over_HDL :: Counts :: Age Group 75 - 80 :: Females :: 154421 0.023
+Cholesterol_over_HDL :: Counts :: Age Group 80 - 85 :: Females :: 114708 0.017
+Cholesterol_over_HDL :: Counts :: Age Group 85 - 90 :: Females ::  69879 0.010
+Cholesterol_over_HDL :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Cholesterol_over_HDL :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Cholesterol_over_HDL :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Cholesterol_over_HDL :: Stats :: Age Group 20 - 25 :: All ::  N 70336 non-zeros 70291 Median   3.30 Mean   3.44 Std   1.34 Max  23.00
+Cholesterol_over_HDL :: Stats :: Age Group 25 - 30 :: All ::  N 110304 non-zeros 110209 Median   3.50 Mean   3.66 Std   1.51 Max  26.30
+Cholesterol_over_HDL :: Stats :: Age Group 30 - 35 :: All ::  N 166040 non-zeros 165839 Median   3.70 Mean   3.88 Std   1.64 Max  28.30
+Cholesterol_over_HDL :: Stats :: Age Group 35 - 40 :: All ::  N 245846 non-zeros 245582 Median   3.90 Mean   4.01 Std   1.67 Max  29.00
+Cholesterol_over_HDL :: Stats :: Age Group 40 - 45 :: All ::  N 399186 non-zeros 398776 Median   3.90 Mean   4.01 Std   1.64 Max  28.60
+Cholesterol_over_HDL :: Stats :: Age Group 45 - 50 :: All ::  N 488372 non-zeros 487870 Median   3.90 Mean   4.01 Std   1.59 Max  27.90
+Cholesterol_over_HDL :: Stats :: Age Group 50 - 55 :: All ::  N 549976 non-zeros 549323 Median   3.90 Mean   3.98 Std   1.55 Max  27.00
+Cholesterol_over_HDL :: Stats :: Age Group 55 - 60 :: All ::  N 594322 non-zeros 593633 Median   3.80 Mean   3.89 Std   1.48 Max  26.00
+Cholesterol_over_HDL :: Stats :: Age Group 60 - 65 :: All ::  N 622489 non-zeros 621776 Median   3.70 Mean   3.77 Std   1.40 Max  24.70
+Cholesterol_over_HDL :: Stats :: Age Group 65 - 70 :: All ::  N 593680 non-zeros 593052 Median   3.50 Mean   3.65 Std   1.34 Max  23.50
+Cholesterol_over_HDL :: Stats :: Age Group 70 - 75 :: All ::  N 505304 non-zeros 504778 Median   3.40 Mean   3.50 Std   1.29 Max  22.60
+Cholesterol_over_HDL :: Stats :: Age Group 75 - 80 :: All ::  N 401721 non-zeros 401361 Median   3.30 Mean   3.38 Std   1.26 Max  22.00
+Cholesterol_over_HDL :: Stats :: Age Group 80 - 85 :: All ::  N 285312 non-zeros 285148 Median   3.20 Mean   3.30 Std   1.23 Max  21.50
+Cholesterol_over_HDL :: Stats :: Age Group 85 - 90 :: All ::  N 158046 non-zeros 157982 Median   3.10 Mean   3.24 Std   1.22 Max  21.00
+Cholesterol_over_HDL :: Stats :: Age Group 90 - 95 :: All ::  N 58679 non-zeros 58667 Median   3.10 Mean   3.23 Std   1.21 Max  21.00
+Cholesterol_over_HDL :: Stats :: Age Group 95 - 100 :: All ::  N 11789 non-zeros 11788 Median   3.10 Mean   3.27 Std   1.21 Max  18.00
+Cholesterol_over_HDL :: General :: All     :: outliers ratio 0.000477
+Cholesterol_over_HDL :: General :: All     :: N 3001246 non-zeros 2998677 Median   3.60 Mean   3.75 Std   1.48 Max  25.90
+Cholesterol_over_HDL :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.20   0.20   1.90   6.20   7.80  11.90
+Cholesterol_over_HDL :: General :: All     :: quartiles ::   0.20   2.90   3.60   4.50 
+Cholesterol_over_HDL :: General :: Males   :: outliers ratio 0.000394
+Cholesterol_over_HDL :: General :: Males   :: N 1460491 non-zeros 1459094 Median   3.90 Mean   4.04 Std   1.59 Max  27.80
+Cholesterol_over_HDL :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.20   2.00   6.60   8.20  14.00
+Cholesterol_over_HDL :: General :: Males   :: quartiles ::   0.10   3.10   3.90   4.90 
+Cholesterol_over_HDL :: General :: Females :: outliers ratio 0.000553
+Cholesterol_over_HDL :: General :: Females :: N 1540758 non-zeros 1539517 Median   3.30 Mean   3.47 Std   1.31 Max  23.10
+Cholesterol_over_HDL :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.20   0.20   1.80   5.70   7.10  10.00
+Cholesterol_over_HDL :: General :: Females :: quartiles ::   0.20   2.70   3.30   4.20 
+Cholesterol_over_HDL :: Rounding ::  0.00 r  0.00 pct
+Cholesterol_over_HDL :: Rounding ::  0.01 r  0.15 pct
+Cholesterol_over_HDL :: Rounding ::  0.10 r  0.76 pct
+Cholesterol_over_HDL :: Rounding ::  1.00 r  0.09 pct
+Cholesterol_over_HDL :: Rounding :: 10.00 r  0.00 pct
+Cholesterol_over_HDL :: Rounding :: 100.00 r  0.00 pct
+Cholesterol_over_HDL :: Rounding :: 1000.00 r  0.00 pct
+Cholesterol_over_HDL :: Rounding :: most popular rounding for vals:  0.10
+Cholesterol_over_HDL :: Stats year :: 2000 :: All :: N 85400 non-zeros 83428 Median   4.20 Mean   4.41 Std   2.41 Max  40.00
+Cholesterol_over_HDL :: Stats year :: 2001 :: All :: N 158672 non-zeros 156006 Median   4.10 Mean   4.25 Std   2.02 Max  34.00
+Cholesterol_over_HDL :: Stats year :: 2002 :: All :: N 250271 non-zeros 249280 Median   3.90 Mean   4.06 Std   1.87 Max  32.00
+Cholesterol_over_HDL :: Stats year :: 2003 :: All :: N 384138 non-zeros 383876 Median   3.70 Mean   3.81 Std   1.55 Max  27.00
+Cholesterol_over_HDL :: Stats year :: 2004 :: All :: N 547009 non-zeros 546709 Median   3.70 Mean   3.70 Std   1.51 Max  26.30
+Cholesterol_over_HDL :: Stats year :: 2005 :: All :: N 629641 non-zeros 629394 Median   3.50 Mean   3.56 Std   1.48 Max  25.60
+Cholesterol_over_HDL :: Stats year :: 2006 :: All :: N 712467 non-zeros 712260 Median   3.50 Mean   3.55 Std   1.48 Max  25.50
+Cholesterol_over_HDL :: Stats year :: 2007 :: All :: N 757293 non-zeros 756935 Median   3.50 Mean   3.60 Std   1.48 Max  25.70
+Cholesterol_over_HDL :: Stats year :: 2008 :: All :: N 803737 non-zeros 803568 Median   3.50 Mean   3.65 Std   1.47 Max  25.70
+Cholesterol_over_HDL :: Stats year :: 2009 :: All :: N 843912 non-zeros 843735 Median   3.50 Mean   3.65 Std   1.47 Max  25.60
+Cholesterol_over_HDL :: Stats year :: 2010 :: All :: N 852232 non-zeros 852113 Median   3.50 Mean   3.66 Std   1.43 Max  25.00
+Cholesterol_over_HDL :: Stats year :: 2011 :: All :: N 874327 non-zeros 874218 Median   3.50 Mean   3.66 Std   1.40 Max  24.70
+Cholesterol_over_HDL :: Stats year :: 2012 :: All :: N 892215 non-zeros 892115 Median   3.50 Mean   3.74 Std   1.30 Max  23.20
+Cholesterol_over_HDL :: Stats year :: 2013 :: All :: N 896517 non-zeros 896430 Median   3.50 Mean   3.69 Std   1.24 Max  22.20
+Cholesterol_over_HDL :: Stats year :: 2014 :: All :: N 809303 non-zeros 809245 Median   3.50 Mean   3.65 Std   1.25 Max  22.20
+Cholesterol_over_HDL :: Stats year :: 2015 :: All :: N 674354 non-zeros 674342 Median   3.50 Mean   3.68 Std   1.24 Max  22.20
+Cholesterol_over_HDL :: Stats year :: 2016 :: All :: N 24777 non-zeros 24776 Median   3.60 Mean   3.79 Std   1.31 Max  21.40
+Cholesterol_over_HDL :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol_over_HDL :: Stats year :: 2000 :: Males   :: N 45550 non-zeros 44515 Median   4.40 Mean   4.64 Std   2.36 Max  40.00
+Cholesterol_over_HDL :: Stats year :: 2001 :: Males   :: N 83835 non-zeros 82424 Median   4.30 Mean   4.48 Std   2.07 Max  35.30
+Cholesterol_over_HDL :: Stats year :: 2002 :: Males   :: N 130646 non-zeros 130124 Median   4.20 Mean   4.27 Std   1.87 Max  32.00
+Cholesterol_over_HDL :: Stats year :: 2003 :: Males   :: N 197137 non-zeros 196986 Median   4.00 Mean   4.02 Std   1.61 Max  28.20
+Cholesterol_over_HDL :: Stats year :: 2004 :: Males   :: N 276178 non-zeros 276007 Median   3.90 Mean   3.90 Std   1.59 Max  27.50
+Cholesterol_over_HDL :: Stats year :: 2005 :: Males   :: N 315603 non-zeros 315465 Median   3.70 Mean   3.75 Std   1.55 Max  27.00
+Cholesterol_over_HDL :: Stats year :: 2006 :: Males   :: N 356010 non-zeros 355888 Median   3.70 Mean   3.75 Std   1.56 Max  27.00
+Cholesterol_over_HDL :: Stats year :: 2007 :: Males   :: N 379532 non-zeros 379331 Median   3.70 Mean   3.80 Std   1.57 Max  27.20
+Cholesterol_over_HDL :: Stats year :: 2008 :: Males   :: N 403935 non-zeros 403832 Median   3.80 Mean   3.86 Std   1.56 Max  27.20
+Cholesterol_over_HDL :: Stats year :: 2009 :: Males   :: N 423154 non-zeros 423059 Median   3.80 Mean   3.87 Std   1.57 Max  27.30
+Cholesterol_over_HDL :: Stats year :: 2010 :: Males   :: N 428223 non-zeros 428158 Median   3.80 Mean   3.88 Std   1.51 Max  26.20
+Cholesterol_over_HDL :: Stats year :: 2011 :: Males   :: N 438689 non-zeros 438621 Median   3.70 Mean   3.88 Std   1.49 Max  26.20
+Cholesterol_over_HDL :: Stats year :: 2012 :: Males   :: N 446346 non-zeros 446297 Median   3.80 Mean   3.96 Std   1.38 Max  24.60
+Cholesterol_over_HDL :: Stats year :: 2013 :: Males   :: N 446577 non-zeros 446537 Median   3.70 Mean   3.90 Std   1.31 Max  23.30
+Cholesterol_over_HDL :: Stats year :: 2014 :: Males   :: N 401317 non-zeros 401292 Median   3.70 Mean   3.86 Std   1.33 Max  23.70
+Cholesterol_over_HDL :: Stats year :: 2015 :: Males   :: N 335482 non-zeros 335479 Median   3.70 Mean   3.90 Std   1.31 Max  23.50
+Cholesterol_over_HDL :: Stats year :: 2016 :: Males   :: N 12711 non-zeros 12711 Median   3.80 Mean   4.01 Std   1.39 Max  21.40
+Cholesterol_over_HDL :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol_over_HDL :: Stats year :: 2000 :: Females :: N 39855 non-zeros 38924 Median   3.90 Mean   4.16 Std   2.47 Max  41.00
+Cholesterol_over_HDL :: Stats year :: 2001 :: Females :: N 74826 non-zeros 73598 Median   3.80 Mean   3.99 Std   1.94 Max  33.00
+Cholesterol_over_HDL :: Stats year :: 2002 :: Females :: N 119605 non-zeros 119135 Median   3.70 Mean   3.82 Std   1.79 Max  30.00
+Cholesterol_over_HDL :: Stats year :: 2003 :: Females :: N 186986 non-zeros 186855 Median   3.50 Mean   3.60 Std   1.44 Max  25.00
+Cholesterol_over_HDL :: Stats year :: 2004 :: Females :: N 270826 non-zeros 270708 Median   3.40 Mean   3.50 Std   1.40 Max  24.10
+Cholesterol_over_HDL :: Stats year :: 2005 :: Females :: N 314031 non-zeros 313927 Median   3.30 Mean   3.36 Std   1.37 Max  23.70
+Cholesterol_over_HDL :: Stats year :: 2006 :: Females :: N 356461 non-zeros 356377 Median   3.30 Mean   3.35 Std   1.36 Max  23.00
+Cholesterol_over_HDL :: Stats year :: 2007 :: Females :: N 377786 non-zeros 377630 Median   3.30 Mean   3.39 Std   1.35 Max  23.10
+Cholesterol_over_HDL :: Stats year :: 2008 :: Females :: N 399813 non-zeros 399720 Median   3.30 Mean   3.43 Std   1.35 Max  23.50
+Cholesterol_over_HDL :: Stats year :: 2009 :: Females :: N 420769 non-zeros 420697 Median   3.30 Mean   3.43 Std   1.34 Max  23.30
+Cholesterol_over_HDL :: Stats year :: 2010 :: Females :: N 424018 non-zeros 423960 Median   3.30 Mean   3.45 Std   1.30 Max  22.90
+Cholesterol_over_HDL :: Stats year :: 2011 :: Females :: N 435653 non-zeros 435599 Median   3.30 Mean   3.44 Std   1.28 Max  22.60
+Cholesterol_over_HDL :: Stats year :: 2012 :: Females :: N 445854 non-zeros 445808 Median   3.30 Mean   3.52 Std   1.18 Max  21.00
+Cholesterol_over_HDL :: Stats year :: 2013 :: Females :: N 449934 non-zeros 449897 Median   3.30 Mean   3.48 Std   1.13 Max  20.00
+Cholesterol_over_HDL :: Stats year :: 2014 :: Females :: N 407984 non-zeros 407958 Median   3.30 Mean   3.44 Std   1.14 Max  20.50
+Cholesterol_over_HDL :: Stats year :: 2015 :: Females :: N 338878 non-zeros 338869 Median   3.30 Mean   3.47 Std   1.13 Max  20.30
+Cholesterol_over_HDL :: Stats year :: 2016 :: Females :: N 12066 non-zeros 12065 Median   3.30 Mean   3.55 Std   1.17 Max  15.30
+Cholesterol_over_HDL :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Cholesterol_over_HDL :: Stats month 1 :: All :: N 555028 non-zeros 554771 Median   3.50 Mean   3.67 Std   1.48 Max  25.70
+Cholesterol_over_HDL :: Stats month 2 :: All :: N 547791 non-zeros 547425 Median   3.50 Mean   3.66 Std   1.48 Max  25.70
+Cholesterol_over_HDL :: Stats month 3 :: All :: N 570901 non-zeros 570475 Median   3.50 Mean   3.65 Std   1.48 Max  25.80
+Cholesterol_over_HDL :: Stats month 4 :: All :: N 505610 non-zeros 505298 Median   3.50 Mean   3.63 Std   1.45 Max  25.10
+Cholesterol_over_HDL :: Stats month 5 :: All :: N 518271 non-zeros 517921 Median   3.50 Mean   3.62 Std   1.45 Max  25.30
+Cholesterol_over_HDL :: Stats month 6 :: All :: N 533590 non-zeros 533332 Median   3.50 Mean   3.61 Std   1.46 Max  25.50
+Cholesterol_over_HDL :: Stats month 7 :: All :: N 542844 non-zeros 542577 Median   3.50 Mean   3.63 Std   1.46 Max  25.10
+Cholesterol_over_HDL :: Stats month 8 :: All :: N 511975 non-zeros 511723 Median   3.50 Mean   3.63 Std   1.47 Max  25.30
+Cholesterol_over_HDL :: Stats month 9 :: All :: N 542294 non-zeros 542039 Median   3.50 Mean   3.64 Std   1.47 Max  25.50
+Cholesterol_over_HDL :: Stats month 10 :: All :: N 570406 non-zeros 570196 Median   3.50 Mean   3.66 Std   1.45 Max  25.40
+Cholesterol_over_HDL :: Stats month 11 :: All :: N 557373 non-zeros 557106 Median   3.50 Mean   3.65 Std   1.45 Max  25.40
+Cholesterol_over_HDL :: Stats month 12 :: All :: N 446511 non-zeros 446302 Median   3.50 Mean   3.64 Std   1.44 Max  25.00
+

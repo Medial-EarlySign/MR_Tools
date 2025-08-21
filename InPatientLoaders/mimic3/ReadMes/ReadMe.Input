@@ -1,0 +1,35 @@
+#INPUT - CV
+awk -F"," '{print $6}' /home/yaron/Mimic3/INPUTEVENTS_CV.csv | grep -v ITEMID | sort | uniq -c | awk '{print $2,$1}' > cv_input.count
+awk '$2>100' cv_input.count > cv_input.more_than_100
+cat /nas1/Data/ICU/Mimic-3/D_ITEMS.csv | awk -F, '{print $2"\t"$3}' | sed 's/\"//g' | intersect.pl - cv_input.more_than_100 > cv_input.more_than_100.desc
+# /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_inputs.py check_orders > orders
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_inputs.py get_combs > combs.orig
+sort combs.orig > combs
+awk -F"\t" '($2==1 || $4==1) && $7>100' combs > BasicInfoForInputCV
+
+# Editing of fluidInstructions:
+-- create fluidInstructions file with entries for infusions etc.
+cat fluidsInstructions  | perl -ne 'chomp; @x=split /\t/,$_; if ($x[0]=~/TPN D(\S+)/) {$a=10*$1; print "$x[0]\tTPN 1.0\tDextrose $a\n"} elsif ($x[0] =~ /^D\s*(\S+)\s*W$/) {$a=10*$1; print "$x[0]\tDextrose $a\n"} else {print "$_\n"}' > x; mv x fluidsInstructions
+# Creating of rerouter
+perl -ne 'chomp; @x=split /\t/,$_ ; $t=$x[5]; $t=~s/\s+$//; $n=$x[7]; $c=$x[6]; $n=~s/\s+$// ;  if ($t eq "") {$e{$n}=1} elsif ((! exists $t{$n}) or $c{$n} < $c) {$t{$n}=$t; $c{$n}=$c;} END {foreach $n (keys %e) {if (exists $t{$n}) {print "$n\t$t{$n}\n"} elsif ($n =~ / NG$/) {print "$n\tNasogastric\n"} elsif ($n =~/ PO$/) {print "$n\tBy Mouth\n"} else {print "$n\tMissing\n"}}}' BasicInfoForInputCV   | sed 's/IV Drip/Intravenous Infusion/' | sort > rerouter
+-- Manually add missing entries in rerouter
+
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_inputs.py instructions  > cv_input_instructions 
+cp cv_input_instructions /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/
+cp rerouter /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/cv_rerouter
+cp cv_input.more_than_100.desc /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/InputEventsCVDescriptions
+
+# INPUT - MV
+awk -F"," '{print $7}' /home/yaron/Mimic3/INPUTEVENTS_MV.csv | grep -v ITEMID | sort | uniq -c | awk '{print $2,$1}' > mv_input.count
+awk '$2>100' mv_input.count > mv_input.more_than_100
+cat /nas1/Data/ICU/Mimic-3/D_ITEMS.csv | awk -F, '{print $2"\t"$3}' | sed 's/\"//g' | intersect.pl - mv_input.more_than_100 > mv_input.more_than_100.desc
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_inputs.py get_combs mv > mv_combs.orig
+sort mv_combs.orig > mv_combs
+awk -F"\t" '($2==1 || $4==1) && $7>100' mv_combs > BasicInfoForInputMV
+
+/nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Scripts/analyze_inputs.py mv_instructions  > mv_input_instructions 
+cp mv_input_instructions /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/
+cp mv_input.more_than_100.desc /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/InputEventsMVDescriptions
+cp allDrugsATC /nas1/UsersData/yaron/MR/Tools/InPatientLoaders/mimic3/Configs/input_event_atcs
+
+### HANDLING UNITS: after running

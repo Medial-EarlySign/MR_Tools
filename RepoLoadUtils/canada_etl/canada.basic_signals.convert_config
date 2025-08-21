@@ -1,0 +1,41 @@
+MODE	3
+SAFE_MODE	1
+SIGNAL	canada.signals
+DIR	/server/Work/Users/Ido/canada_122017_loading/
+OUTDIR	/server/Work/Users/Ido/canada_122017_loading//repo/
+
+DICTIONARY	dicts/dict.drugs_defs
+DICTIONARY	dicts/dict.drugs_sets
+DICTIONARY	dicts/dict.plm_drugs
+DICTIONARY	dicts/dict.Cancer_Location_defs
+DICTIONARY	dicts/dict.Cancer_Location_sets
+DICTIONARY	dicts/dict.reg.CKD_State
+DICTIONARY	dicts/dict.reg.CVD_HeartFailure
+DICTIONARY	dicts/dict.reg.CVD_HemorhagicStroke
+DICTIONARY	dicts/dict.reg.CVD_IschemicStroke
+DICTIONARY	dicts/dict.reg.CVD_MI
+DICTIONARY	dicts/dict.reg.DM_Registry
+DICTIONARY	dicts/dict.reg.HT_Registry
+DICTIONARY	dicts/dict.RC_defs
+DICTIONARY	dicts/dict.RC_sets
+
+DICTIONARY	dicts/dict.Urine_dipstick_for_blood
+DICTIONARY	dicts/dict.Urine_dipstick_for_glucose
+DICTIONARY	dicts/dict.Urine_Dipstick_for_Nitrites
+DICTIONARY	dicts/dict.Urine_dipstick_for_protein
+DICTIONARY	dicts/dict.Urine_Leucocytes
+
+DATA	demographics_data
+DATA	numeric_lab_data
+DATA	numeric_vital_data
+DATA	train_data
+DATA	bp_data
+DATA_S	diag_data
+DATA_S	drug_data
+DATA_S	cancer_data
+DATA	smoking_data
+DATA	panel_completer_completed.csv
+DATA_S	textual_lab_data
+
+FORCE_SIGNAL	GENDER,BYEAR
+CONFIG	canada.repository

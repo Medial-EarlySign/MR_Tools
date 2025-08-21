@@ -1,0 +1,11 @@
+ICD10_CODE:E08	ICD10_DESC:E08:Diabetes_mellitus_due_to_underlying_condition
+ICD10_CODE:E09	ICD10_DESC:E09:Drug_or_chemical_induced_diabetes_mellitus
+ICD10_CODE:E11	ICD10_DESC:E11:Type_2_diabetes_mellitus
+ICD10_CODE:E10	ICD10_DESC:E10:Type_1_diabetes_mellitus
+ICD10_CODE:E12	ICD10_DESC:E12:Malnutrition-related_diabetes_mellitus
+ICD10_CODE:E13	ICD10_DESC:E13:Other_specified_diabetes_mellitus
+ICD10_CODE:E14	ICD10_DESC:E14:Unspecified_diabetes_mellitus
+ICD10_CODE:O24	ICD10_DESC:O24:Diabetes_in_pregnancy_childbirth_and_the_puerperium
+
+
+

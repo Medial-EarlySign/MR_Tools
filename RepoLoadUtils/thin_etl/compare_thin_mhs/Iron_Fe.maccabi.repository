@@ -1,0 +1,162 @@
+Iron_Fe :: All :: With Values :: 628001 / 1279479 =  0.49 :: 628001 / 628001 =  1.00
+Iron_Fe :: Males :: With Values :: 247226 / 622859 =  0.40 :: 247226 / 628001 =  0.39
+Iron_Fe :: Females :: With Values :: 380775 / 656620 =  0.58 :: 380775 / 628001 =  0.61
+Iron_Fe :: General :: No. of Values :: All 2794876 Male 933350 Female 1861526
+Iron_Fe :: General :: No. of different days Values :: All 2794268 Male 933177 Female 1861091
+Iron_Fe :: General :: Avg #values per person (all) :: All  2.18 Male  1.50 Female  2.83
+Iron_Fe :: General :: Avg #values per person (>0)  :: All  4.45 Male  3.77 Female  4.89
+Iron_Fe :: General :: Avg dist between tests       :: All  522.4 Male  507.6 Female  529.3
+Iron_Fe :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Iron_Fe :: Counts :: Age Group 25 - 30 :: All ::    836 0.000
+Iron_Fe :: Counts :: Age Group 30 - 35 :: All ::  21369 0.008
+Iron_Fe :: Counts :: Age Group 35 - 40 :: All ::  48469 0.017
+Iron_Fe :: Counts :: Age Group 40 - 45 :: All ::  72171 0.026
+Iron_Fe :: Counts :: Age Group 45 - 50 :: All ::  66249 0.024
+Iron_Fe :: Counts :: Age Group 50 - 55 :: All ::  61763 0.022
+Iron_Fe :: Counts :: Age Group 55 - 60 :: All ::  55493 0.020
+Iron_Fe :: Counts :: Age Group 60 - 65 :: All ::  50141 0.018
+Iron_Fe :: Counts :: Age Group 65 - 70 :: All ::  44869 0.016
+Iron_Fe :: Counts :: Age Group 70 - 75 :: All ::  36862 0.013
+Iron_Fe :: Counts :: Age Group 75 - 80 :: All ::  36144 0.013
+Iron_Fe :: Counts :: Age Group 80 - 85 :: All ::  29496 0.011
+Iron_Fe :: Counts :: Age Group 85 - 90 :: All ::  21203 0.008
+Iron_Fe :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Iron_Fe :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Iron_Fe :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Iron_Fe :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Iron_Fe :: Counts :: Age Group 25 - 30 :: Males ::    158 0.000
+Iron_Fe :: Counts :: Age Group 30 - 35 :: Males ::   4068 0.004
+Iron_Fe :: Counts :: Age Group 35 - 40 :: Males ::  10716 0.011
+Iron_Fe :: Counts :: Age Group 40 - 45 :: Males ::  18776 0.020
+Iron_Fe :: Counts :: Age Group 45 - 50 :: Males ::  18819 0.020
+Iron_Fe :: Counts :: Age Group 50 - 55 :: Males ::  19734 0.021
+Iron_Fe :: Counts :: Age Group 55 - 60 :: Males ::  19999 0.021
+Iron_Fe :: Counts :: Age Group 60 - 65 :: Males ::  20039 0.021
+Iron_Fe :: Counts :: Age Group 65 - 70 :: Males ::  18358 0.020
+Iron_Fe :: Counts :: Age Group 70 - 75 :: Males ::  15715 0.017
+Iron_Fe :: Counts :: Age Group 75 - 80 :: Males ::  15398 0.016
+Iron_Fe :: Counts :: Age Group 80 - 85 :: Males ::  12052 0.013
+Iron_Fe :: Counts :: Age Group 85 - 90 :: Males ::   8231 0.009
+Iron_Fe :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Iron_Fe :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Iron_Fe :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Iron_Fe :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Iron_Fe :: Counts :: Age Group 25 - 30 :: Females ::    678 0.000
+Iron_Fe :: Counts :: Age Group 30 - 35 :: Females ::  17301 0.009
+Iron_Fe :: Counts :: Age Group 35 - 40 :: Females ::  37753 0.020
+Iron_Fe :: Counts :: Age Group 40 - 45 :: Females ::  53395 0.029
+Iron_Fe :: Counts :: Age Group 45 - 50 :: Females ::  47430 0.025
+Iron_Fe :: Counts :: Age Group 50 - 55 :: Females ::  42029 0.023
+Iron_Fe :: Counts :: Age Group 55 - 60 :: Females ::  35494 0.019
+Iron_Fe :: Counts :: Age Group 60 - 65 :: Females ::  30102 0.016
+Iron_Fe :: Counts :: Age Group 65 - 70 :: Females ::  26511 0.014
+Iron_Fe :: Counts :: Age Group 70 - 75 :: Females ::  21147 0.011
+Iron_Fe :: Counts :: Age Group 75 - 80 :: Females ::  20746 0.011
+Iron_Fe :: Counts :: Age Group 80 - 85 :: Females ::  17444 0.009
+Iron_Fe :: Counts :: Age Group 85 - 90 :: Females ::  12972 0.007
+Iron_Fe :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Iron_Fe :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Iron_Fe :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Iron_Fe :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats :: Age Group 25 - 30 :: All ::  N 25626 non-zeros 25390 Median  81.00 Mean  85.76 Std  41.70 Max 373.00
+Iron_Fe :: Stats :: Age Group 30 - 35 :: All ::  N 83815 non-zeros 82111 Median  81.00 Mean  84.28 Std  40.71 Max 514.00
+Iron_Fe :: Stats :: Age Group 35 - 40 :: All ::  N 142779 non-zeros 138576 Median  81.00 Mean  83.36 Std  40.48 Max 523.00
+Iron_Fe :: Stats :: Age Group 40 - 45 :: All ::  N 171989 non-zeros 166081 Median  81.00 Mean  82.94 Std  40.86 Max 421.00
+Iron_Fe :: Stats :: Age Group 45 - 50 :: All ::  N 151255 non-zeros 146051 Median  81.00 Mean  82.70 Std  39.90 Max 671.00
+Iron_Fe :: Stats :: Age Group 50 - 55 :: All ::  N 133718 non-zeros 128949 Median  83.00 Mean  84.04 Std  37.51 Max 389.00
+Iron_Fe :: Stats :: Age Group 55 - 60 :: All ::  N 116095 non-zeros 111689 Median  83.00 Mean  84.24 Std  35.72 Max 618.00
+Iron_Fe :: Stats :: Age Group 60 - 65 :: All ::  N 98558 non-zeros 94564 Median  81.00 Mean  81.93 Std  35.22 Max 385.00
+Iron_Fe :: Stats :: Age Group 65 - 70 :: All ::  N 80915 non-zeros 77604 Median  79.00 Mean  79.37 Std  35.00 Max 495.00
+Iron_Fe :: Stats :: Age Group 70 - 75 :: All ::  N 62616 non-zeros 59907 Median  75.00 Mean  75.46 Std  34.42 Max 408.00
+Iron_Fe :: Stats :: Age Group 75 - 80 :: All ::  N 54361 non-zeros 51645 Median  71.00 Mean  71.37 Std  34.00 Max 469.00
+Iron_Fe :: Stats :: Age Group 80 - 85 :: All ::  N 38584 non-zeros 36123 Median  66.00 Mean  66.10 Std  33.52 Max 425.00
+Iron_Fe :: Stats :: Age Group 85 - 90 :: All ::  N 23748 non-zeros 21682 Median  60.00 Mean  60.11 Std  33.29 Max 426.00
+Iron_Fe :: Stats :: Age Group 90 - 95 :: All ::  N 10138 non-zeros 9100 Median  55.00 Mean  55.52 Std  32.45 Max 324.00
+Iron_Fe :: Stats :: Age Group 95 - 100 :: All ::  N 2584 non-zeros 2272 Median  51.00 Mean  50.46 Std  30.37 Max 193.00
+Iron_Fe :: General :: All     :: outliers ratio 0.000002
+Iron_Fe :: General :: All     :: N 627909 non-zeros 602600 Median  79.00 Mean  81.08 Std  38.96 Max 654.00
+Iron_Fe :: General :: All     :: distribution 0.001,0.01,0.05 ::  11.00  17.00  31.00 148.00 187.00 255.00
+Iron_Fe :: General :: All     :: quartiles ::  11.00  60.00  81.00 105.00 
+Iron_Fe :: General :: Males   :: outliers ratio 0.000000
+Iron_Fe :: General :: Males   :: N 247194 non-zeros 234294 Median  85.00 Mean  85.98 Std  40.62 Max 457.00
+Iron_Fe :: General :: Males   :: distribution 0.001,0.01,0.05 ::  11.00  19.00  37.00 154.00 194.00 256.00
+Iron_Fe :: General :: Males   :: quartiles ::  11.00  66.00  87.00 112.00 
+Iron_Fe :: General :: Females :: outliers ratio 0.000000
+Iron_Fe :: General :: Females :: N 380716 non-zeros 368112 Median  76.00 Mean  77.88 Std  37.52 Max 634.00
+Iron_Fe :: General :: Females :: distribution 0.001,0.01,0.05 ::  10.00  16.00  29.00 143.00 182.00 251.00
+Iron_Fe :: General :: Females :: quartiles ::  10.00  56.00  77.00 101.00 
+Iron_Fe :: Rounding ::  0.00 r  0.00 pct
+Iron_Fe :: Rounding ::  0.01 r  0.00 pct
+Iron_Fe :: Rounding ::  0.10 r  0.00 pct
+Iron_Fe :: Rounding ::  1.00 r  0.90 pct
+Iron_Fe :: Rounding :: 10.00 r  0.09 pct
+Iron_Fe :: Rounding :: 100.00 r  0.01 pct
+Iron_Fe :: Rounding :: 1000.00 r  0.00 pct
+Iron_Fe :: Rounding :: most popular rounding for vals:  1.00
+Iron_Fe :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats year :: 2001 :: All :: N 104075 non-zeros 103357 Median  78.00 Mean  81.90 Std  38.28 Max 400.00
+Iron_Fe :: Stats year :: 2002 :: All :: N 107705 non-zeros 106513 Median  77.00 Mean  80.32 Std  37.21 Max 523.00
+Iron_Fe :: Stats year :: 2003 :: All :: N 112963 non-zeros 111597 Median  78.00 Mean  80.55 Std  37.05 Max 408.00
+Iron_Fe :: Stats year :: 2004 :: All :: N 114364 non-zeros 111999 Median  79.00 Mean  81.37 Std  38.10 Max 609.00
+Iron_Fe :: Stats year :: 2005 :: All :: N 126921 non-zeros 122761 Median  79.00 Mean  80.79 Std  38.56 Max 634.00
+Iron_Fe :: Stats year :: 2006 :: All :: N 142469 non-zeros 137921 Median  79.00 Mean  80.75 Std  38.12 Max 435.00
+Iron_Fe :: Stats year :: 2007 :: All :: N 148696 non-zeros 144459 Median  78.00 Mean  79.97 Std  37.51 Max 428.00
+Iron_Fe :: Stats year :: 2008 :: All :: N 140547 non-zeros 135783 Median  77.00 Mean  78.84 Std  37.16 Max 514.00
+Iron_Fe :: Stats year :: 2009 :: All :: N 156645 non-zeros 149781 Median  77.00 Mean  78.78 Std  37.84 Max 445.00
+Iron_Fe :: Stats year :: 2010 :: All :: N 153896 non-zeros 146416 Median  77.00 Mean  78.31 Std  38.01 Max 618.00
+Iron_Fe :: Stats year :: 2011 :: All :: N 152785 non-zeros 144688 Median  77.00 Mean  78.75 Std  38.73 Max 447.00
+Iron_Fe :: Stats year :: 2012 :: All :: N 149777 non-zeros 141056 Median  77.00 Mean  77.86 Std  38.70 Max 428.00
+Iron_Fe :: Stats year :: 2013 :: All :: N 162659 non-zeros 153289 Median  78.00 Mean  79.25 Std  38.62 Max 456.00
+Iron_Fe :: Stats year :: 2014 :: All :: N 173375 non-zeros 164201 Median  79.00 Mean  79.77 Std  38.48 Max 504.00
+Iron_Fe :: Stats year :: 2015 :: All :: N 158075 non-zeros 151398 Median  78.00 Mean  79.21 Std  37.10 Max 531.00
+Iron_Fe :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats year :: 2001 :: Males   :: N 28894 non-zeros 28702 Median  86.00 Mean  90.10 Std  38.19 Max 385.00
+Iron_Fe :: Stats year :: 2002 :: Males   :: N 31053 non-zeros 30708 Median  85.00 Mean  88.01 Std  37.35 Max 614.00
+Iron_Fe :: Stats year :: 2003 :: Males   :: N 32945 non-zeros 32479 Median  85.00 Mean  87.96 Std  37.41 Max 373.00
+Iron_Fe :: Stats year :: 2004 :: Males   :: N 33559 non-zeros 32687 Median  86.00 Mean  88.02 Std  38.79 Max 609.00
+Iron_Fe :: Stats year :: 2005 :: Males   :: N 38320 non-zeros 36553 Median  85.00 Mean  86.77 Std  40.34 Max 491.00
+Iron_Fe :: Stats year :: 2006 :: Males   :: N 44342 non-zeros 42428 Median  85.00 Mean  86.35 Std  39.46 Max 386.00
+Iron_Fe :: Stats year :: 2007 :: Males   :: N 47625 non-zeros 45793 Median  84.00 Mean  85.57 Std  38.87 Max 386.00
+Iron_Fe :: Stats year :: 2008 :: Males   :: N 45198 non-zeros 43262 Median  83.00 Mean  84.21 Std  38.58 Max 384.00
+Iron_Fe :: Stats year :: 2009 :: Males   :: N 51532 non-zeros 48584 Median  83.00 Mean  83.88 Std  39.83 Max 385.00
+Iron_Fe :: Stats year :: 2010 :: Males   :: N 51263 non-zeros 48137 Median  82.00 Mean  83.19 Std  40.16 Max 537.00
+Iron_Fe :: Stats year :: 2011 :: Males   :: N 52217 non-zeros 48646 Median  83.00 Mean  83.55 Std  41.40 Max 457.00
+Iron_Fe :: Stats year :: 2012 :: Males   :: N 53503 non-zeros 49539 Median  82.00 Mean  82.27 Std  41.12 Max 428.00
+Iron_Fe :: Stats year :: 2013 :: Males   :: N 59872 non-zeros 55615 Median  84.00 Mean  83.87 Std  41.05 Max 375.00
+Iron_Fe :: Stats year :: 2014 :: Males   :: N 65381 non-zeros 61107 Median  84.00 Mean  84.31 Std  40.74 Max 386.00
+Iron_Fe :: Stats year :: 2015 :: Males   :: N 60412 non-zeros 57321 Median  83.00 Mean  83.88 Std  39.28 Max 391.00
+Iron_Fe :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats year :: 2001 :: Females :: N 75181 non-zeros 74653 Median  75.00 Mean  78.72 Std  37.89 Max 400.00
+Iron_Fe :: Stats year :: 2002 :: Females :: N 76653 non-zeros 75814 Median  74.00 Mean  77.28 Std  36.78 Max 523.00
+Iron_Fe :: Stats year :: 2003 :: Females :: N 80018 non-zeros 79107 Median  75.00 Mean  77.58 Std  36.55 Max 451.00
+Iron_Fe :: Stats year :: 2004 :: Females :: N 80805 non-zeros 79327 Median  76.00 Mean  78.63 Std  37.51 Max 515.00
+Iron_Fe :: Stats year :: 2005 :: Females :: N 88601 non-zeros 86163 Median  76.00 Mean  78.24 Std  37.67 Max 634.00
+Iron_Fe :: Stats year :: 2006 :: Females :: N 98127 non-zeros 95510 Median  76.00 Mean  78.24 Std  37.14 Max 435.00
+Iron_Fe :: Stats year :: 2007 :: Females :: N 101071 non-zeros 98631 Median  75.00 Mean  77.36 Std  36.60 Max 428.00
+Iron_Fe :: Stats year :: 2008 :: Females :: N 95349 non-zeros 92546 Median  74.00 Mean  76.21 Std  36.20 Max 514.00
+Iron_Fe :: Stats year :: 2009 :: Females :: N 105113 non-zeros 101222 Median  74.00 Mean  76.22 Std  36.60 Max 430.00
+Iron_Fe :: Stats year :: 2010 :: Females :: N 102633 non-zeros 98366 Median  74.00 Mean  75.89 Std  36.64 Max 618.00
+Iron_Fe :: Stats year :: 2011 :: Females :: N 100568 non-zeros 95990 Median  75.00 Mean  76.20 Std  36.98 Max 447.00
+Iron_Fe :: Stats year :: 2012 :: Females :: N 96274 non-zeros 91516 Median  74.00 Mean  75.35 Std  37.03 Max 413.00
+Iron_Fe :: Stats year :: 2013 :: Females :: N 102787 non-zeros 97728 Median  75.00 Mean  76.53 Std  36.88 Max 456.00
+Iron_Fe :: Stats year :: 2014 :: Females :: N 107994 non-zeros 103047 Median  76.00 Mean  76.90 Std  36.71 Max 407.00
+Iron_Fe :: Stats year :: 2015 :: Females :: N 97663 non-zeros 94063 Median  75.00 Mean  76.24 Std  35.37 Max 531.00
+Iron_Fe :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Iron_Fe :: Stats month 1 :: All :: N 116532 non-zeros 111116 Median  77.00 Mean  78.77 Std  39.22 Max 614.00
+Iron_Fe :: Stats month 2 :: All :: N 111234 non-zeros 106304 Median  77.00 Mean  78.76 Std  39.11 Max 618.00
+Iron_Fe :: Stats month 3 :: All :: N 114492 non-zeros 109829 Median  76.00 Mean  78.16 Std  38.64 Max 523.00
+Iron_Fe :: Stats month 4 :: All :: N 106788 non-zeros 102543 Median  76.00 Mean  78.09 Std  38.24 Max 601.00
+Iron_Fe :: Stats month 5 :: All :: N 130015 non-zeros 124889 Median  76.00 Mean  78.07 Std  38.09 Max 634.00
+Iron_Fe :: Stats month 6 :: All :: N 129202 non-zeros 124049 Median  76.00 Mean  77.91 Std  37.90 Max 515.00
+Iron_Fe :: Stats month 7 :: All :: N 135387 non-zeros 129654 Median  76.00 Mean  77.83 Std  37.96 Max 553.00
+Iron_Fe :: Stats month 8 :: All :: N 128453 non-zeros 122670 Median  76.00 Mean  77.56 Std  37.96 Max 438.00
+Iron_Fe :: Stats month 9 :: All :: N 107786 non-zeros 102893 Median  76.00 Mean  77.57 Std  38.00 Max 491.00
+Iron_Fe :: Stats month 10 :: All :: N 125063 non-zeros 119075 Median  78.00 Mean  78.98 Std  38.36 Max 408.00
+Iron_Fe :: Stats month 11 :: All :: N 117527 non-zeros 111895 Median  78.00 Mean  79.43 Std  38.77 Max 469.00
+Iron_Fe :: Stats month 12 :: All :: N 108321 non-zeros 103073 Median  77.00 Mean  78.88 Std  39.22 Max 402.00
+

@@ -1,0 +1,15 @@
+featuresFile	/nas1/Work/Users/yaron/CausalEffect/ToyModel_ITE/EasyModel/TrainMatrix.bin
+nFolds	5
+eFile	ePreds
+mFile	mPreds
+out	outPredictor
+e_predictorName	lightgbm
+e_predictorParams	num_threads=15;num_trees=250;learning_rate=0.05;lambda_l2=0;metric_freq=250
+m_predictorName	lightgbm
+m_predictorParams	num_threads=15;num_trees=250;learning_rate=0.05;lambda_l2=0;metric_freq=250
+ite_predictorName	lightgbm
+ite_predictorParams	num_threads=15;num_trees=250;learning_rate=0.05;lambda_l2=0;metric_freq=250;objective=regression
+e_performanceFile	ePerformance
+m_performanceFile	mPerformance
+e_calibrationParams	calibration_type=binning;min_preds_in_bin=200;min_score_res=0.0001;min_prob_res=0.05;bins_num=50
+m_calibrationParams	calibration_type=binning;min_preds_in_bin=200;min_score_res=0.0001;min_prob_res=0.05;bins_num=50

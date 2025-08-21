@@ -1,0 +1,23 @@
+{
+	"model_json_version": "2",
+	"serialize_learning_set": "0",
+	"model_actions": [
+		{
+			"action_type": "feat_generator",
+			"fg_type": "basic",
+			"type": ["last"],
+			"window": ["win_from=0;win_to=1000"],
+			"signal": ["Hemoglobin", "EosNum"]
+		}
+		,{
+			"action_type": "feat_generator",
+			"fg_type": "age"
+			,"tags": "numeric"
+		}
+		,{
+			"action_type": "feat_generator",
+			"fg_type": "gender"
+			,"tags": "categorical"
+		}
+	]
+}

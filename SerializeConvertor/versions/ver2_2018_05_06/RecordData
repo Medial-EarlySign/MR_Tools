@@ -1,0 +1,7 @@
+id	int
+date	int
+outcomeTime	int
+split	int
+label	float
+pred	float
+weight	float

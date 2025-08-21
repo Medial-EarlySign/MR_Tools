@@ -1,0 +1,136 @@
+Name	Unit	Resolution	Ignore	Factors	FinalFactor	FinalUnit	SupposeMean	TrimMax
+ALP	IU/L	1	"mmol/L,<None>"					
+ALT	U/L	1						
+AST	IU/L	1						
+Albumin	g/L	1	mg/L		0.1			
+Amylase	U/L	1						
+PlasmaAnionGap	mmol/L	0.1						
+SerumAnionGap	mmol/L	0.1	NA					
+B12	ng/L	1						1000
+BasNum	10*9/L	0.01	"%,10*9/mL,mmol/L,x 10^9/l,x10*9/L,x10e9/l,nmol/mmol,fL"					
+BasPerc	%	1	"(pH),10*9/L,U/L"					100
+Bicarbonate	mmol/L	1						
+Bilirubin	umol/L	1	m		0.0585			
+CA125	kU/L	1	"mL/min/1.73m*2,umol/g(creat),mU/L,umol/mL/h,umol/mmol,U/g(Hb),(knk u),pg/mL,mg/dL,uu/mL,year,/mL,mmol/L,ug/mL,umol/L,mg/L,ueq,ug/min,#/[tot],g/dL,ng,1,mmol/d,U/dL,mU/mL,g/L,pmol/L,ug/g,ml/min/1.73m*2,mL,IU,1(tot),U/g,ratio,uU/L,ug/L,<None>,um,ml/min/1.73m,kg,kua/L,/uL,(bsa),ng/L,mol/L,ng/mL,MicroU/L,ug,%"		1			
+Calcium	mmol/L	0.01	"IU/L,g/L,U/L"		4			
+CO2	mmol/L	1	"NA,(ppm),%,kPa"					
+CRP	mg/L	1	"<None>,ug/L"		0.1			
+Chloride	mmol/L	1	meq/L					
+Cholesterol	mmol/L	0.1	"ratio,"		38.61			
+Cholesterol_over_HDL	ratio	0.1	"Dummy1,%"					
+CorrectedCalcium	mmol/L	0.01			4			
+Creatinine	umol/L	1	"rad,mU/L,mm(Hg),umol/min,g/L,umol/d,umol/mol(Hb),cm(H2O),nmol/L,cell/L,mmol/mmol,us,umol/mol,umol/kg,mL/min,ng/L,umol/h/g(Hb),mm/h,pmol,ml/min/1.73m*2,nmol/mmol,ratio,mg/L,mosmol/L,lm,umol/mmol,/mL,1,/day,umol/g(creat),10*9/L,mg/d,mmol/d,mU/mL,mmol/mol,mIU/L,week,umol/mL/h,uU/L,pmol/L,ft,ng,mL,1(tot),/L,L,ug/min,mol/s,nmol/mol(creat),uL,mg/mmol,IU/d,titre,mL/s,%,mg/mmol(creat),mmol,ug/L,mg/mg,g/mol,g,/uL,mm,h,m,(bsa),1/mL,um,uu/mL,u,10*3,ng/mL,U/mmol,10*-2(%),mg,mmol/mmol(creat),umol/mmol(creat),fmol,U/L,IU/L"		0.01			
+CreatinineKinase	IU/L	1	"mmol/L,umol/L"					
+Digoxin	nmol/L	0.1						
+eGFR_MDRD	mL/min	1			1			
+eGFR_CKD_EPI	mL/min	1			1			
+EosNum	10*9/L	0.1	%					
+EosPerc	%	1	"(pH),10*9/L,U/L"					100
+Ferritin	ug/L	1	"umol/L,<None>,mg/m3"		1			
+Fibrinogen	g/L	0.1		0.01	100			
+Folate	ug/L	0.1	mg/m3					20
+FreeT3	pmol/L	1	"pmol,pg/mL,mU/L,%,h,m,nmol/s,IU/mL,ng/L,uu/mL,ug/d,MicroU/L,umol/L,1,ng,mmol/L,mIU/L"		1			
+FreeT4	pmol/L	1		0.128				
+FSH	IU/L	0.1	"umol,nmol/L,uu/mL,uU/L,ratio,ng,1,pmol/L,mU/L,IU,L,uL,1(tot),kat,umol/L,mmol,ug/L,kg,/uL,h,mIU/mL,01-Jan,IU/d,kU/L,u,MicroU/L,ug,%,/L,u/mL"		1			
+GFR	mL/min	1	"mL/min/1.72m*2,umol,(bdsk u),(mclg u),rad,cm(H2O),pm,mg/dL,mg/min,year,ft,mmol/L,mm/h,ng/L,umol/L,mg/L,min,/hour,/year,#/[tot],ng,1,10*9/L,titre,mmol/mol,mIU/L,week,g/L,pmol/L,#M ( )/L,m*2,mL/h,IU/L,mL,/L,L,mol/s,/m3,1(tot),m/s2,#/HPF,mmol,%,/second,kg,d,g,nmol/L,nmol/mL/min,fL,01-Jan,(bsa),IU/mL,mol/L,mm,s,Pa,u,g/dL,meq/L,MicroU/L,mmol/mmol(creat),(cfU),1/mL,u/mL"		1			60
+eGFR	mL/min	1	"mL/min/1.72m*2,umol,(bdsk u),(mclg u),rad,cm(H2O),pm,mg/dL,mg/min,year,ft,mmol/L,mm/h,ng/L,umol/L,mg/L,min,/hour,/year,#/[tot],ng,1,10*9/L,titre,mmol/mol,mIU/L,week,g/L,pmol/L,#M ( )/L,m*2,mL/h,IU/L,mL,/L,L,mol/s,/m3,1(tot),m/s2,#/HPF,mmol,%,/second,kg,d,g,nmol/L,nmol/mL/min,fL,01-Jan,(bsa),IU/mL,mol/L,mm,s,Pa,u,g/dL,meq/L,MicroU/L,mmol/mmol(creat),(cfU),1/mL,u/mL"		1			60
+GGT	IU/L	1	uL					
+Globulin	g/L	1	%					
+Glucose	mmol/L	0.1	"h,mg/dL"		18.02	mg/dl		
+HbA1C	%	0.1	"mmol/L,umol/mol,mmol"	0.1				
+HDL	mmol/L	0.1	ratio		38.61	mg/dl		
+HDL_over_Cholesterol	NA	0.1	"IU/mL,mmol/L,%"					
+HDL_over_LDL	ratio	0.1	"R,%"		0.1			
+HDL_over_nonHDL	ratio	0.1	"mmol/L,%"					
+Hematocrit	NA	0.01		0.01	100		0.4	
+Hemoglobin	g/dL	0.1	%	0.1			13.5	
+InorganicPhosphate	mmol/L	0.01	",IU/L,kPa,mmol/d,1(tot),u/mL,mg/dL,L,g/L,mmol,U/g,U/L,h,nmol/L,second,/mL,1,ug/L,umol/L,ng,N/A,%,NA"		3.096			
+INR	ratio	0.1	"%,mg"					
+Iron	umol/L	1	",umol,umol/d,nmol/L,mg/dL,mU/L,uiu,(mclg u),mosmol/L,uU/L,mg/L,1,mmol/mol,mIU/L,g/L,ng/mL,mg/mmol,U/g,ug/dL,mmol,ug/L,<None>,ng/L,u,g/dL,U/L"		5.587			
+LDH	U/L	1	",mU/L,U/g(Hb),uiu,IU/d,mmol/L,%,/mL,10*9/L,mU/mL,g/L,IU,L,uL,U/g,umol/L,uU/L,ug/L,<None>,/uL,IU/mL,u,u/mL"		1			
+LDL	mmol/L	0.1			38.61			
+LDL_over_HDL	<None>	0.1	ratio					
+Lithium	mmol/L	0.1	"mU/L,mg/d,nmol/L,Pa,mmol/mmol,umol/L,mg/L,min,/hour,/mL,1,mmol/d,mIU/L,IU/L,mL,mol/s,mmol,ug/L,<None>,mg,d,h,g/24h,mol/L,/day,ug/d,(cfU),U/L"		1			
+LuteinisingHormone	IU/L	1	"umol,U/g(Hb),/L,mmol/L,mIU/mL,ratio,ng,1,mmol/mol,pmol/L,IU/dL,L,uL,1(tot),umol/L,mmol,ug/L,/uL,h,01-Jan,IU/d,u,ug/d,MicroU/L,%,u/mL"		1			
+LymphNum	10*9/L	0.1	%					
+LymphPerc	%	1	"(pH),U/L,10*9/L"					100
+MCH	pg	0.1		0.1				
+MCHC	g/dL	0.1	pg	10				
+MCHC-M	g/dL	0.1	"%,/L,L/L,g/dL,g/L,/L,mmol/L,pg/L,ratio,01-Jan,None"					
+MCV	fL	1	"g/dL,pg"	10				
+MonNum	10*9/L	0.1	%					
+MonPerc	%	1	"(pH),10*9/L,U/L"					100
+MPV	fL	0.1						
+Magnesium	mmol/L	0.01						
+NeutNum	10*9/L	0.1	%					
+NeutPerc	%	1	"(pH),10*9/L,U/L"					100
+NonHDLCholesterol	mmol/L	0.1			38.6			
+PDW	NA	0.1	"fL,mL/min,10*9/L,ratio,ng"		1			
+PFR	L/min	10	"%,m2"					
+PSA	ug/L	0.1	"rad,U/g(Hb),mm(Hg),IU/mL,/mL,(OD),pg/mL,nmol/L,mg/dL,mU/L,g(tot_prot),pg/L,U/L,mPas,mmol/L,mm/h,%,ug/min,ng,1,U/dL,pg,nkat,10*9,nmol/g,mU/mL,nmol/10*9(platelets),g(wet_tis),10*3,mIU/L,pmol/L,ft,ug/g,IU/dL,mL,L,ng/mL/h,uL,mg/mmol,U/g,fg,umol/L,ug/dL,mmol,mL/s,mg,cP,g,kIU/L,h,/uL,m,IU/d,s,u,ug/d,g/dL,meq/L,ug/h,ug,g/mol,fL,u/mL"		1			
+PlasmaViscosity	mPa.s	0.01						
+Plateletcrit	%	1	"mL/min,null value,10*9/L"		1			
+Platelets	10*9/L	1	"fL,ratio"					
+Potassium	mmol/L	0.1	",rad,(bdsk u),mol/kg,nmol/L,mg/dL,mmol/mmol,mmol/kg,nmol/mmol,umol/L,ng,1,10*9,10*9/L,inch,mmol/d,mmol/mol,g/L,pmol/L,L,mol/s,kat,%,mmol,ug/L,d,h,(bsa),ng/L,meq/L,U/L"		1			
+Prolactin	mU/L	1	"nmol/L,uu/mL,uiu,/mL,mmol/L,uU/L,umol/L,mg/L,mmol,10*12/L,ng,1,g/L,pmol/L,#M ( )/L,mL,%,mg/mmol(creat),mIU/mL,<None>,mg,01-Jan,mPas,IU/d,u,ng/mL,uIU/L,U/L"		1			
+Progesterone	nmol/L	1	"pmol/L,umol/L,IU/L,mU/L,NA,mmol/L,L,nmol/s,/mL,mol/L,/L,ng/mL,MicroU/L,(cfU),<None>,U/L"		1			
+RandomGlucose	mmol/L	0.1	",nmol/L,mg/dL,Pa,mmol/mmol,mosmol/L,mm/h,nmol/mmol,%,mg/L,Tcell/L,10*12/L,ng,1,mmol/d,titre,mmol/mol,week,g/L,pmol/L,ng/mL,mL,L,mol/s,mg/mmol,umol/L,mmol,g,cm(H2O),mm,h,m,mol/L,s,u,g/dL,fL,fmol"		18.02	mg/dl		
+RBC	10*12/L	0.1	"/uL,10*3(rbc),10*6/L,mm"	0.001			4.5	
+Na	mmol/L	1	"m/s,year,nmol/L,second,Pa,mmol/mmol,mol/kg,nmol/mmol,umol/L,mg/L,ng,1,mmol/d,10*9/L,titre,mmol/mol,g/L,pmol/L,IU/L,L,mol/s,1(tot),#/HPF,mmol,ug/L,mg,mmol/mmol(creat),h,01-Jan,mg/dL,ng/L,kU/L,s,mg/mmol,meq/L,%,1/mL,U/L"		1			
+T4	nmol/L	1		0.128				
+Testosterone	nmol/L	0.1	"pmol,1,mU/L,ratio,uu/mL,01-Jan,/L,L,nmol/s,umol/L,pg/mL,s,pmol/L,uiu,ng/mL,%,mmol/L,ug/L,<None>,ng/L"	0.1	10			
+TSH	mU/L	0.1	pmol/L					
+TotalProtein	g/L	1	"10*9/L,IU/L,mmol/L"		0.1			
+Transferin	g/L	0.1	"umol,%,mg/L,nmol/L,mg/dL,g/dL,ratio,ug/L,d,umol/L"		100			
+Triglycerides	mmol/L	0.1			88.5	mg/dl		
+Urate	mmol/L	0.01		0.001	16.8			
+Urea	mmol/L	0.1			6			
+UrineAlbumin	mg/L	1	"g/L,mg/mmol,null value,g/mol"					
+UrineAlbumin_over_Creatinine	mg/mmol	0.1	"g(creat),mg/L,mmol/L,mmol/mmol(creat),mmol"					
+UrineCreatinine	mmol/L	0.1	"mg/dL,mmol/d,mmol,null value"					
+UrineTotalProtein	g/L	0.01	"umol/g(creat),/L,(bdsk u),umol/d,mg/d,nmol/L,mg/dL,mg/min,mmol/L,/week,ratio,/hour,mL/min,#G ( )/L,kpal,L,(cfU),mg/mmol,%,mg/mmol(creat),mmol,<None>,mg,g,h,g/24h,null value,/day,g/dL,g/d,g/mol,g(tot_prot)"		1			
+VitaminD	nmol/L	1	"mU/L,pg/mL,mmol/L,nmol/L/h,ug/mL,nmol/mmol,umol/L,mg/L,nmol/s,/mL,nmol/L/hr,nmol/10*9(platelets),g/L,L,U/g,nmol/d,ug/dL,mmol,nm,nmol/mL/min,mol/L,meq/L,nmol/h/mLRBC,U/L"		1			
+WBC	10*9/L	0.1	"10*6/L,mm"					
+RDW	NA	0.1						
+Erythrocyte	mm/h	1	"mmol,1(tot),fL,Pa,mmol/mol,year,ng/mL,mm(Hg),u,mL,umol/h/g(Hb),cm(H2O),U/L,L/L,mmol/24h,IU/mL,nmol/g,second,ng/L,m/s,ratio,10*12/L,mL/h,Kgs,mg/L,g/dL,mL/min,1/mL,cms,s,lm/m2,meq/L,10*9/L,umol/L,titre,/minute,ml/min/1.73m*2,/L,mg,g/L,mL/s,m,min,ft,L,10*9,week,01-Jan,ng,mmol/L,mIU/L,rad,cP,mmol/d,kat,(OD)"		1			
+HCG	IU/L	1	"g/L,mU/L,kua/L,10*3/L,L/L,10*6,ueq,IU/mL,NA,/L,/uL,IU"		1			
+NRBC	10*9/L	1	"#G ( )/L,lm/m2,10*-3(%),Gcopy/L,(ppb),uU/L,#/[tot],/mL,10*9,10*3(rbc),/(hpf),10*6/L,1/mL,#M ( )/L,L,/m3,#/HPF,10*-3,10*-2,01-Jan,m,Number,s,g/dL,10*-2(%),10*9/mL,ratio"		1			
+Urine_Microalbumin	mg/L	1	"umol/g(creat),umol,lm/m2,m/s,L/min,mg/d,nmol/L,mg/dL,mg/min,mmol/mmol,mL/s,mg/kg,mL/min,%,ug/mL,nmol/mmol,umol/L,mmol/L,ug/min,/mL,1,/(hpf),pg,mg/m3,10*9/L,mmol/d,mmol/mol,mIU/L,pmol/L,ng/mL,IU/L,mL,mg/m*3,IU,L,/cu.mm,ratio,mmol,ug/L,g/mol,d,g,/uL,h,m,IU/mL,ng/L,mol/L,/day,u,g/dL,meq/L,MicroU/L,mmol/mmol(creat),/minute"		1			
+Rheumatoid_Factor	IU/mL	1	",mU/L,mm(Hg),g/L,(bdsk u),mg/dL,uu/mL,mmol/L,ug/mL,%,mg/L,/mL,1,titre,mIU/L,kua/L,pmol/L,mL,L,ratio,ug/L,mg,g,h,01-Jan,m,IU/d,/day,u,g/dL,1/mL"		1			
+Urine_Protein_Creatinine	mg/mmol	1						
+TEMP	degC	0.1	rad				37	
+PTT	NA	0.1	"s,/second"					
+Reticulocyte	10*9/L	0.1	"pg,10*9,<None>,fL,%,NA"					
+TIBC	umol/L	1	"%,g/L"					
+Serum_Oestradiol	pmol/L	1	nmol/L					
+PTH	pmol/L	0.1						
+TroponinI	ug/L	0.01	"mmol/L,ug/mL,%,mg/L,/hour,NA,#/[tot],ng,g/L,ug/g,ng/mL/h,U/g,ug/L,<None>,mg,g,/uL,h,null value,ng/L,ng/mL,MicroU/L,ug/h,U/L"		1			
+RandomLDL	mmol/L	0.01	NA					
+Sex_Hormone_Binding_Globulin	nmol/L	1	"IU/L,%,<None>"					
+UrineSodium	mmol/L	1						
+RandomTriglyceride	mmol/L	0.01						
+Teophylline	mg/L	0.1	umol/L					
+CEA	mmol/L	1	"ug/ml,/L,nmol/L,pg/L,ug/mL,""kU/L,umol/L,mg/L,ug/min,ng,1,U/dL,nkat,g/L,IU/L,mL,U/L"",U/g,ug/dL,<None>,nm,kIU/L,IU/mL,ng/L,u,meq/L,MicroU/L,ug,U/L"		1			
+LUC	10*9/L	0.01	%					
+Urine_Epithelial_Cell	/uL	1	"null value,/(hpf),#M ( )/L"					
+Transferrin_Saturation_Index	%	1	g/L					
+Urine_Dipstick_pH	NA	1	null value					
+VLDL	NA	0.1						
+CHADS2	AUTOMATIC	1						
+CHADS2_VASC	NA	1						
+TroponinT	ug/L	0.01	"(mclg u),mmol/L,ug/mL,%,mg/L,/hour,#/[tot],ng,IU/dL,mL,U/g,mmol,<None>,/uL,h,null value,IU/mL,ug/g,g/d,MicroU/L,ug/h,ug,U/L,NA"		1			
+Eosinophils#	10*9/L	0.01	"10*9/L,x10(9)/L"					
+Eosinophils%	%	1						
+Neutrophils#	10*9/L	0.1	"g/L,(pH),/L,/mL,1,10*12/L,10*9,10*9/mL,L,10*9/L,None,mmol/L"					
+Neutrophils%	%	0.1					
+Lymphocytes#	10*9/L	0.1	"(pH),*10^9/L,*10^9/l,/L,/mL,1,10*12/L,10*9,10*9/mL,10*9/L,L,g/dL,mmol/L,x 10^9/l,x10*9/L,x10*9/l,x10\S\9l,x10^9/L,x10^9/l,x10e9/l,None,g/L"					
+Lymphocytes%	%	0.1						
+Monocytes#	10*9/L	0.1						
+Monocytes%	%	0.1					
+Basophils#	10*9/L	0.01	"%,(pH),*10^9/L,*10^9/l,/L,/mL,1,10*12/L,10*9,L,10*9/L,None"					
+Basophils%	%	0.1					
+Platelets_Hematocrit	%	1					
+Cl	mmol/L	1	"None,mmol/L"					
+Height	cm	1	"None.cm"					
+Weight	kg	1	"kg,None"					
+BMI	kg/m2	0.1						

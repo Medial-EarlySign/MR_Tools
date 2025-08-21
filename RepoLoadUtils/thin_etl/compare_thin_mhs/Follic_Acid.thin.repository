@@ -1,0 +1,162 @@
+Follic_Acid :: All :: With Values :: 1231572 / 14446692 =  0.09 :: 1231572 / 1231572 =  1.00
+Follic_Acid :: Males :: With Values :: 442136 / 6889335 =  0.06 :: 442136 / 1231572 =  0.36
+Follic_Acid :: Females :: With Values :: 789436 / 7557357 =  0.10 :: 789436 / 1231572 =  0.64
+Follic_Acid :: General :: No. of Values :: All 2205973 Male 771291 Female 1434682
+Follic_Acid :: General :: No. of different days Values :: All 2203658 Male 770475 Female 1433183
+Follic_Acid :: General :: Avg #values per person (all) :: All  0.15 Male  0.11 Female  0.19
+Follic_Acid :: General :: Avg #values per person (>0)  :: All  1.79 Male  1.74 Female  1.82
+Follic_Acid :: General :: Avg dist between tests       :: All  587.5 Male  559.7 Female  601.7
+Follic_Acid :: Counts :: Age Group 20 - 25 :: All ::  13508 0.006
+Follic_Acid :: Counts :: Age Group 25 - 30 :: All ::  16412 0.007
+Follic_Acid :: Counts :: Age Group 30 - 35 :: All ::  19427 0.009
+Follic_Acid :: Counts :: Age Group 35 - 40 :: All ::  21833 0.010
+Follic_Acid :: Counts :: Age Group 40 - 45 :: All ::  26472 0.012
+Follic_Acid :: Counts :: Age Group 45 - 50 :: All ::  30962 0.014
+Follic_Acid :: Counts :: Age Group 50 - 55 :: All ::  32563 0.015
+Follic_Acid :: Counts :: Age Group 55 - 60 :: All ::  30257 0.014
+Follic_Acid :: Counts :: Age Group 60 - 65 :: All ::  31372 0.014
+Follic_Acid :: Counts :: Age Group 65 - 70 :: All ::  35416 0.016
+Follic_Acid :: Counts :: Age Group 70 - 75 :: All ::  36433 0.017
+Follic_Acid :: Counts :: Age Group 75 - 80 :: All ::  39961 0.018
+Follic_Acid :: Counts :: Age Group 80 - 85 :: All ::  39571 0.018
+Follic_Acid :: Counts :: Age Group 85 - 90 :: All ::  32450 0.015
+Follic_Acid :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Follic_Acid :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Follic_Acid :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Follic_Acid :: Counts :: Age Group 20 - 25 :: Males ::   2755 0.004
+Follic_Acid :: Counts :: Age Group 25 - 30 :: Males ::   3154 0.004
+Follic_Acid :: Counts :: Age Group 30 - 35 :: Males ::   4098 0.005
+Follic_Acid :: Counts :: Age Group 35 - 40 :: Males ::   5134 0.007
+Follic_Acid :: Counts :: Age Group 40 - 45 :: Males ::   6614 0.009
+Follic_Acid :: Counts :: Age Group 45 - 50 :: Males ::   8305 0.011
+Follic_Acid :: Counts :: Age Group 50 - 55 :: Males ::  10264 0.013
+Follic_Acid :: Counts :: Age Group 55 - 60 :: Males ::  11370 0.015
+Follic_Acid :: Counts :: Age Group 60 - 65 :: Males ::  13574 0.018
+Follic_Acid :: Counts :: Age Group 65 - 70 :: Males ::  15734 0.020
+Follic_Acid :: Counts :: Age Group 70 - 75 :: Males ::  16242 0.021
+Follic_Acid :: Counts :: Age Group 75 - 80 :: Males ::  17506 0.023
+Follic_Acid :: Counts :: Age Group 80 - 85 :: Males ::  16422 0.021
+Follic_Acid :: Counts :: Age Group 85 - 90 :: Males ::  12218 0.016
+Follic_Acid :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Follic_Acid :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Follic_Acid :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Follic_Acid :: Counts :: Age Group 20 - 25 :: Females ::  10753 0.007
+Follic_Acid :: Counts :: Age Group 25 - 30 :: Females ::  13258 0.009
+Follic_Acid :: Counts :: Age Group 30 - 35 :: Females ::  15329 0.011
+Follic_Acid :: Counts :: Age Group 35 - 40 :: Females ::  16699 0.012
+Follic_Acid :: Counts :: Age Group 40 - 45 :: Females ::  19858 0.014
+Follic_Acid :: Counts :: Age Group 45 - 50 :: Females ::  22657 0.016
+Follic_Acid :: Counts :: Age Group 50 - 55 :: Females ::  22299 0.016
+Follic_Acid :: Counts :: Age Group 55 - 60 :: Females ::  18887 0.013
+Follic_Acid :: Counts :: Age Group 60 - 65 :: Females ::  17798 0.012
+Follic_Acid :: Counts :: Age Group 65 - 70 :: Females ::  19682 0.014
+Follic_Acid :: Counts :: Age Group 70 - 75 :: Females ::  20191 0.014
+Follic_Acid :: Counts :: Age Group 75 - 80 :: Females ::  22455 0.016
+Follic_Acid :: Counts :: Age Group 80 - 85 :: Females ::  23149 0.016
+Follic_Acid :: Counts :: Age Group 85 - 90 :: Females ::  20232 0.014
+Follic_Acid :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Follic_Acid :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Follic_Acid :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Follic_Acid :: Stats :: Age Group 20 - 25 :: All ::  N 56872 non-zeros 56857 Median   6.10 Mean   7.21 Std   4.23 Max  70.50
+Follic_Acid :: Stats :: Age Group 25 - 30 :: All ::  N 66935 non-zeros 66917 Median   6.70 Mean   7.90 Std   4.66 Max  76.00
+Follic_Acid :: Stats :: Age Group 30 - 35 :: All ::  N 75996 non-zeros 75965 Median   7.10 Mean   8.36 Std   4.94 Max  78.00
+Follic_Acid :: Stats :: Age Group 35 - 40 :: All ::  N 84770 non-zeros 84728 Median   7.10 Mean   8.34 Std   4.90 Max  75.00
+Follic_Acid :: Stats :: Age Group 40 - 45 :: All ::  N 101191 non-zeros 101162 Median   6.90 Mean   8.16 Std   4.78 Max  79.50
+Follic_Acid :: Stats :: Age Group 45 - 50 :: All ::  N 111992 non-zeros 111953 Median   7.00 Mean   8.22 Std   4.75 Max  79.10
+Follic_Acid :: Stats :: Age Group 50 - 55 :: All ::  N 109912 non-zeros 109865 Median   7.40 Mean   8.64 Std   4.96 Max  79.00
+Follic_Acid :: Stats :: Age Group 55 - 60 :: All ::  N 105418 non-zeros 105355 Median   7.60 Mean   8.91 Std   5.12 Max  85.00
+Follic_Acid :: Stats :: Age Group 60 - 65 :: All ::  N 110798 non-zeros 110733 Median   7.80 Mean   9.09 Std   5.25 Max  87.00
+Follic_Acid :: Stats :: Age Group 65 - 70 :: All ::  N 116601 non-zeros 116541 Median   7.80 Mean   9.17 Std   5.32 Max  88.50
+Follic_Acid :: Stats :: Age Group 70 - 75 :: All ::  N 116426 non-zeros 116344 Median   7.70 Mean   9.08 Std   5.34 Max  89.00
+Follic_Acid :: Stats :: Age Group 75 - 80 :: All ::  N 123048 non-zeros 122976 Median   7.40 Mean   8.94 Std   5.45 Max  90.00
+Follic_Acid :: Stats :: Age Group 80 - 85 :: All ::  N 114655 non-zeros 114590 Median   7.20 Mean   8.83 Std   5.54 Max  91.00
+Follic_Acid :: Stats :: Age Group 85 - 90 :: All ::  N 82691 non-zeros 82639 Median   7.00 Mean   8.69 Std   5.63 Max  93.00
+Follic_Acid :: Stats :: Age Group 90 - 95 :: All ::  N 38189 non-zeros 38165 Median   6.70 Mean   8.52 Std   5.86 Max  93.00
+Follic_Acid :: Stats :: Age Group 95 - 100 :: All ::  N 8792 non-zeros 8789 Median   6.50 Mean   8.40 Std   5.90 Max  79.60
+Follic_Acid :: General :: All     :: outliers ratio 0.004860
+Follic_Acid :: General :: All     :: N 1154746 non-zeros 1154187 Median   7.20 Mean   8.58 Std   5.12 Max  85.00
+Follic_Acid :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.00   1.80   2.80  20.00  24.00  26.00
+Follic_Acid :: General :: All     :: quartiles ::   1.00   4.90   7.20  10.90 
+Follic_Acid :: General :: Males   :: outliers ratio 0.004787
+Follic_Acid :: General :: Males   :: N 417469 non-zeros 417309 Median   7.00 Mean   8.21 Std   4.82 Max  79.50
+Follic_Acid :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.00   1.80   2.80  19.10  24.00  25.60
+Follic_Acid :: General :: Males   :: quartiles ::   1.00   4.90   7.00  10.20 
+Follic_Acid :: General :: Females :: outliers ratio 0.004902
+Follic_Acid :: General :: Females :: N 737277 non-zeros 736888 Median   7.40 Mean   8.80 Std   5.28 Max  87.70
+Follic_Acid :: General :: Females :: distribution 0.001,0.01,0.05 ::   1.00   1.80   2.80  20.00  24.00  26.00
+Follic_Acid :: General :: Females :: quartiles ::   1.00   5.00   7.40  11.20 
+Follic_Acid :: Rounding ::  0.00 r  0.00 pct
+Follic_Acid :: Rounding ::  0.01 r  0.13 pct
+Follic_Acid :: Rounding ::  0.10 r  0.72 pct
+Follic_Acid :: Rounding ::  1.00 r  0.11 pct
+Follic_Acid :: Rounding :: 10.00 r  0.04 pct
+Follic_Acid :: Rounding :: 100.00 r  0.00 pct
+Follic_Acid :: Rounding :: 1000.00 r  0.00 pct
+Follic_Acid :: Rounding :: most popular rounding for vals:  0.10
+Follic_Acid :: Stats year :: 2000 :: All :: N 10588 non-zeros 10584 Median   7.10 Mean  26.88 Std  91.57 Max 1226.00
+Follic_Acid :: Stats year :: 2001 :: All :: N 16379 non-zeros 16376 Median   6.90 Mean  23.48 Std  82.08 Max 1228.00
+Follic_Acid :: Stats year :: 2002 :: All :: N 22568 non-zeros 22564 Median   6.80 Mean  24.42 Std  85.76 Max 1288.00
+Follic_Acid :: Stats year :: 2003 :: All :: N 32634 non-zeros 32615 Median   6.50 Mean  11.41 Std  33.86 Max 519.00
+Follic_Acid :: Stats year :: 2004 :: All :: N 47327 non-zeros 47278 Median   7.00 Mean   8.57 Std   5.63 Max  91.00
+Follic_Acid :: Stats year :: 2005 :: All :: N 58383 non-zeros 58351 Median   7.10 Mean   8.51 Std   5.45 Max  89.60
+Follic_Acid :: Stats year :: 2006 :: All :: N 70158 non-zeros 70101 Median   7.30 Mean   8.61 Std   5.30 Max  85.00
+Follic_Acid :: Stats year :: 2007 :: All :: N 82758 non-zeros 82692 Median   7.40 Mean   8.79 Std   5.49 Max  91.00
+Follic_Acid :: Stats year :: 2008 :: All :: N 99064 non-zeros 98920 Median   7.40 Mean   8.78 Std   5.35 Max  87.00
+Follic_Acid :: Stats year :: 2009 :: All :: N 128972 non-zeros 128701 Median   7.40 Mean   8.69 Std   5.21 Max  85.50
+Follic_Acid :: Stats year :: 2010 :: All :: N 149663 non-zeros 149428 Median   7.30 Mean   8.67 Std   5.24 Max  87.00
+Follic_Acid :: Stats year :: 2011 :: All :: N 180060 non-zeros 179987 Median   7.40 Mean   8.71 Std   5.15 Max  85.50
+Follic_Acid :: Stats year :: 2012 :: All :: N 214494 non-zeros 214471 Median   7.50 Mean   8.91 Std   5.30 Max  88.00
+Follic_Acid :: Stats year :: 2013 :: All :: N 236612 non-zeros 236596 Median   7.30 Mean   8.79 Std   5.21 Max  85.50
+Follic_Acid :: Stats year :: 2014 :: All :: N 236251 non-zeros 236241 Median   7.20 Mean   8.68 Std   5.17 Max  85.50
+Follic_Acid :: Stats year :: 2015 :: All :: N 229088 non-zeros 229076 Median   7.10 Mean   8.53 Std   5.03 Max  81.00
+Follic_Acid :: Stats year :: 2016 :: All :: N 8460 non-zeros 8460 Median   7.10 Mean   8.47 Std   4.97 Max  47.80
+Follic_Acid :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Follic_Acid :: Stats year :: 2000 :: Males   :: N 3357 non-zeros 3356 Median   6.90 Mean  25.88 Std  85.85 Max 1140.00
+Follic_Acid :: Stats year :: 2001 :: Males   :: N 5365 non-zeros 5363 Median   6.50 Mean  22.72 Std  78.91 Max 1000.00
+Follic_Acid :: Stats year :: 2002 :: Males   :: N 7444 non-zeros 7444 Median   6.60 Mean  23.70 Std  82.03 Max 998.00
+Follic_Acid :: Stats year :: 2003 :: Males   :: N 10903 non-zeros 10899 Median   6.30 Mean  11.17 Std  35.45 Max 542.00
+Follic_Acid :: Stats year :: 2004 :: Males   :: N 16121 non-zeros 16107 Median   6.80 Mean   8.18 Std   5.23 Max  78.00
+Follic_Acid :: Stats year :: 2005 :: Males   :: N 20076 non-zeros 20067 Median   6.90 Mean   8.18 Std   5.21 Max  86.00
+Follic_Acid :: Stats year :: 2006 :: Males   :: N 24498 non-zeros 24481 Median   7.10 Mean   8.34 Std   5.03 Max  49.00
+Follic_Acid :: Stats year :: 2007 :: Males   :: N 29021 non-zeros 29007 Median   7.10 Mean   8.50 Std   5.30 Max  87.00
+Follic_Acid :: Stats year :: 2008 :: Males   :: N 35142 non-zeros 35100 Median   7.30 Mean   8.50 Std   5.13 Max  84.00
+Follic_Acid :: Stats year :: 2009 :: Males   :: N 45720 non-zeros 45655 Median   7.10 Mean   8.36 Std   4.91 Max  77.00
+Follic_Acid :: Stats year :: 2010 :: Males   :: N 52746 non-zeros 52676 Median   7.10 Mean   8.35 Std   4.93 Max  72.00
+Follic_Acid :: Stats year :: 2011 :: Males   :: N 64017 non-zeros 64000 Median   7.20 Mean   8.38 Std   4.88 Max  75.00
+Follic_Acid :: Stats year :: 2012 :: Males   :: N 76997 non-zeros 76987 Median   7.30 Mean   8.62 Std   5.07 Max  84.00
+Follic_Acid :: Stats year :: 2013 :: Males   :: N 84221 non-zeros 84216 Median   7.10 Mean   8.43 Std   4.93 Max  78.00
+Follic_Acid :: Stats year :: 2014 :: Males   :: N 83320 non-zeros 83317 Median   7.10 Mean   8.37 Std   4.91 Max  79.50
+Follic_Acid :: Stats year :: 2015 :: Males   :: N 81280 non-zeros 81273 Median   6.90 Mean   8.20 Std   4.74 Max  63.00
+Follic_Acid :: Stats year :: 2016 :: Males   :: N 3130 non-zeros 3130 Median   7.20 Mean   8.27 Std   4.57 Max  26.00
+Follic_Acid :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Follic_Acid :: Stats year :: 2000 :: Females :: N 7231 non-zeros 7228 Median   7.10 Mean  26.84 Std  92.54 Max 1226.00
+Follic_Acid :: Stats year :: 2001 :: Females :: N 11014 non-zeros 11013 Median   7.10 Mean  23.94 Std  83.97 Max 1228.00
+Follic_Acid :: Stats year :: 2002 :: Females :: N 15125 non-zeros 15122 Median   6.90 Mean  24.50 Std  86.02 Max 1288.00
+Follic_Acid :: Stats year :: 2003 :: Females :: N 21731 non-zeros 21715 Median   6.70 Mean  11.50 Std  32.73 Max 502.00
+Follic_Acid :: Stats year :: 2004 :: Females :: N 31211 non-zeros 31177 Median   7.20 Mean   8.79 Std   5.86 Max  96.00
+Follic_Acid :: Stats year :: 2005 :: Females :: N 38313 non-zeros 38287 Median   7.30 Mean   8.70 Std   5.63 Max  93.00
+Follic_Acid :: Stats year :: 2006 :: Females :: N 45659 non-zeros 45619 Median   7.40 Mean   8.77 Std   5.44 Max  85.00
+Follic_Acid :: Stats year :: 2007 :: Females :: N 53739 non-zeros 53682 Median   7.50 Mean   8.95 Std   5.56 Max  86.00
+Follic_Acid :: Stats year :: 2008 :: Females :: N 63925 non-zeros 63823 Median   7.50 Mean   8.93 Std   5.45 Max  87.00
+Follic_Acid :: Stats year :: 2009 :: Females :: N 83248 non-zeros 83044 Median   7.50 Mean   8.86 Std   5.34 Max  84.00
+Follic_Acid :: Stats year :: 2010 :: Females :: N 96920 non-zeros 96752 Median   7.40 Mean   8.83 Std   5.37 Max  88.00
+Follic_Acid :: Stats year :: 2011 :: Females :: N 116044 non-zeros 115986 Median   7.50 Mean   8.89 Std   5.26 Max  87.00
+Follic_Acid :: Stats year :: 2012 :: Females :: N 137504 non-zeros 137492 Median   7.60 Mean   9.08 Std   5.44 Max  90.00
+Follic_Acid :: Stats year :: 2013 :: Females :: N 152395 non-zeros 152383 Median   7.50 Mean   8.99 Std   5.34 Max  81.00
+Follic_Acid :: Stats year :: 2014 :: Females :: N 152934 non-zeros 152928 Median   7.30 Mean   8.84 Std   5.29 Max  84.00
+Follic_Acid :: Stats year :: 2015 :: Females :: N 147804 non-zeros 147800 Median   7.20 Mean   8.70 Std   5.16 Max  79.50
+Follic_Acid :: Stats year :: 2016 :: Females :: N 5330 non-zeros 5330 Median   7.10 Mean   8.59 Std   5.18 Max  47.80
+Follic_Acid :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Follic_Acid :: Stats month 1 :: All :: N 126078 non-zeros 126012 Median   7.20 Mean   8.63 Std   5.26 Max  87.00
+Follic_Acid :: Stats month 2 :: All :: N 116244 non-zeros 116178 Median   7.20 Mean   8.63 Std   5.27 Max  87.00
+Follic_Acid :: Stats month 3 :: All :: N 130668 non-zeros 130593 Median   7.20 Mean   8.68 Std   5.30 Max  85.50
+Follic_Acid :: Stats month 4 :: All :: N 124198 non-zeros 124131 Median   7.20 Mean   8.71 Std   5.29 Max  87.10
+Follic_Acid :: Stats month 5 :: All :: N 128241 non-zeros 128187 Median   7.30 Mean   8.76 Std   5.35 Max  88.50
+Follic_Acid :: Stats month 6 :: All :: N 135917 non-zeros 135838 Median   7.30 Mean   8.72 Std   5.29 Max  87.00
+Follic_Acid :: Stats month 7 :: All :: N 140365 non-zeros 140282 Median   7.30 Mean   8.75 Std   5.26 Max  87.00
+Follic_Acid :: Stats month 8 :: All :: N 130215 non-zeros 130142 Median   7.40 Mean   8.78 Std   5.27 Max  87.00
+Follic_Acid :: Stats month 9 :: All :: N 137511 non-zeros 137444 Median   7.40 Mean   8.79 Std   5.23 Max  84.00
+Follic_Acid :: Stats month 10 :: All :: N 140799 non-zeros 140724 Median   7.30 Mean   8.78 Std   5.27 Max  87.00
+Follic_Acid :: Stats month 11 :: All :: N 131146 non-zeros 131077 Median   7.30 Mean   8.74 Std   5.25 Max  85.50
+Follic_Acid :: Stats month 12 :: All :: N 108393 non-zeros 108336 Median   7.20 Mean   8.70 Std   5.26 Max  87.00
+

@@ -1,0 +1,162 @@
+eGFR_CKD_EPI :: All :: With Values :: 936541 / 1279479 =  0.73 :: 936541 / 936541 =  1.00
+eGFR_CKD_EPI :: Males :: With Values :: 441388 / 622859 =  0.71 :: 441388 / 936541 =  0.47
+eGFR_CKD_EPI :: Females :: With Values :: 495153 / 656620 =  0.75 :: 495153 / 936541 =  0.53
+eGFR_CKD_EPI :: General :: No. of Values :: All 11439242 Male 5087460 Female 6351782
+eGFR_CKD_EPI :: General :: No. of different days Values :: All 11434103 Male 5084790 Female 6349313
+eGFR_CKD_EPI :: General :: Avg #values per person (all) :: All  8.94 Male  8.16 Female  9.67
+eGFR_CKD_EPI :: General :: Avg #values per person (>0)  :: All 12.21 Male 11.52 Female 12.82
+eGFR_CKD_EPI :: General :: Avg dist between tests       :: All  298.9 Male  298.8 Female  299.0
+eGFR_CKD_EPI :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 25 - 30 :: All ::   1858 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 30 - 35 :: All ::  54138 0.005
+eGFR_CKD_EPI :: Counts :: Age Group 35 - 40 :: All :: 133321 0.012
+eGFR_CKD_EPI :: Counts :: Age Group 40 - 45 :: All :: 224151 0.020
+eGFR_CKD_EPI :: Counts :: Age Group 45 - 50 :: All :: 226686 0.020
+eGFR_CKD_EPI :: Counts :: Age Group 50 - 55 :: All :: 246239 0.022
+eGFR_CKD_EPI :: Counts :: Age Group 55 - 60 :: All :: 268319 0.023
+eGFR_CKD_EPI :: Counts :: Age Group 60 - 65 :: All :: 262102 0.023
+eGFR_CKD_EPI :: Counts :: Age Group 65 - 70 :: All :: 244802 0.021
+eGFR_CKD_EPI :: Counts :: Age Group 70 - 75 :: All :: 196636 0.017
+eGFR_CKD_EPI :: Counts :: Age Group 75 - 80 :: All :: 177693 0.016
+eGFR_CKD_EPI :: Counts :: Age Group 80 - 85 :: All :: 127933 0.011
+eGFR_CKD_EPI :: Counts :: Age Group 85 - 90 :: All ::  79899 0.007
+eGFR_CKD_EPI :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 25 - 30 :: Males ::    523 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 30 - 35 :: Males ::  18382 0.004
+eGFR_CKD_EPI :: Counts :: Age Group 35 - 40 :: Males ::  50370 0.010
+eGFR_CKD_EPI :: Counts :: Age Group 40 - 45 :: Males ::  92011 0.018
+eGFR_CKD_EPI :: Counts :: Age Group 45 - 50 :: Males ::  99402 0.020
+eGFR_CKD_EPI :: Counts :: Age Group 50 - 55 :: Males :: 111203 0.022
+eGFR_CKD_EPI :: Counts :: Age Group 55 - 60 :: Males :: 121495 0.024
+eGFR_CKD_EPI :: Counts :: Age Group 60 - 65 :: Males :: 121902 0.024
+eGFR_CKD_EPI :: Counts :: Age Group 65 - 70 :: Males :: 115627 0.023
+eGFR_CKD_EPI :: Counts :: Age Group 70 - 75 :: Males ::  95018 0.019
+eGFR_CKD_EPI :: Counts :: Age Group 75 - 80 :: Males ::  83817 0.016
+eGFR_CKD_EPI :: Counts :: Age Group 80 - 85 :: Males ::  57715 0.011
+eGFR_CKD_EPI :: Counts :: Age Group 85 - 90 :: Males ::  33323 0.007
+eGFR_CKD_EPI :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 25 - 30 :: Females ::   1335 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 30 - 35 :: Females ::  35756 0.006
+eGFR_CKD_EPI :: Counts :: Age Group 35 - 40 :: Females ::  82951 0.013
+eGFR_CKD_EPI :: Counts :: Age Group 40 - 45 :: Females :: 132140 0.021
+eGFR_CKD_EPI :: Counts :: Age Group 45 - 50 :: Females :: 127284 0.020
+eGFR_CKD_EPI :: Counts :: Age Group 50 - 55 :: Females :: 135036 0.021
+eGFR_CKD_EPI :: Counts :: Age Group 55 - 60 :: Females :: 146824 0.023
+eGFR_CKD_EPI :: Counts :: Age Group 60 - 65 :: Females :: 140200 0.022
+eGFR_CKD_EPI :: Counts :: Age Group 65 - 70 :: Females :: 129175 0.020
+eGFR_CKD_EPI :: Counts :: Age Group 70 - 75 :: Females :: 101618 0.016
+eGFR_CKD_EPI :: Counts :: Age Group 75 - 80 :: Females ::  93876 0.015
+eGFR_CKD_EPI :: Counts :: Age Group 80 - 85 :: Females ::  70218 0.011
+eGFR_CKD_EPI :: Counts :: Age Group 85 - 90 :: Females ::  46576 0.007
+eGFR_CKD_EPI :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+eGFR_CKD_EPI :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+eGFR_CKD_EPI :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats :: Age Group 25 - 30 :: All ::  N 54859 non-zeros 54859 Median 100.20 Mean 100.62 Std  15.96 Max 309.73
+eGFR_CKD_EPI :: Stats :: Age Group 30 - 35 :: All ::  N 173815 non-zeros 173815 Median  96.73 Mean  95.87 Std  15.14 Max 277.70
+eGFR_CKD_EPI :: Stats :: Age Group 35 - 40 :: All ::  N 299340 non-zeros 299340 Median  95.91 Mean  98.77 Std  15.84 Max 284.47
+eGFR_CKD_EPI :: Stats :: Age Group 40 - 45 :: All ::  N 379292 non-zeros 379292 Median 100.61 Mean  97.37 Std  15.31 Max 279.48
+eGFR_CKD_EPI :: Stats :: Age Group 45 - 50 :: All ::  N 344655 non-zeros 344655 Median  93.12 Mean  92.71 Std  15.22 Max 269.08
+eGFR_CKD_EPI :: Stats :: Age Group 50 - 55 :: All ::  N 318966 non-zeros 318966 Median  86.79 Mean  88.12 Std  15.29 Max 259.43
+eGFR_CKD_EPI :: Stats :: Age Group 55 - 60 :: All ::  N 277457 non-zeros 277457 Median  83.41 Mean  84.33 Std  15.48 Max 250.97
+eGFR_CKD_EPI :: Stats :: Age Group 60 - 65 :: All ::  N 235070 non-zeros 235070 Median  80.68 Mean  81.12 Std  15.70 Max 266.57
+eGFR_CKD_EPI :: Stats :: Age Group 65 - 70 :: All ::  N 186006 non-zeros 186006 Median  76.77 Mean  76.11 Std  17.35 Max 319.49
+eGFR_CKD_EPI :: Stats :: Age Group 70 - 75 :: All ::  N 131611 non-zeros 131611 Median  72.72 Mean  70.77 Std  17.77 Max 308.45
+eGFR_CKD_EPI :: Stats :: Age Group 75 - 80 :: All ::  N 103176 non-zeros 103176 Median  65.13 Mean  65.66 Std  18.53 Max 297.81
+eGFR_CKD_EPI :: Stats :: Age Group 80 - 85 :: All ::  N 65724 non-zeros 65724 Median  60.26 Mean  60.81 Std  18.97 Max 287.53
+eGFR_CKD_EPI :: Stats :: Age Group 85 - 90 :: All ::  N 37764 non-zeros 37764 Median  57.33 Mean  57.53 Std  19.45 Max 277.59
+eGFR_CKD_EPI :: Stats :: Age Group 90 - 95 :: All ::  N 15927 non-zeros 15927 Median  54.45 Mean  54.63 Std  19.66 Max 268.04
+eGFR_CKD_EPI :: Stats :: Age Group 95 - 100 :: All ::  N 4043 non-zeros 4043 Median  50.99 Mean  52.36 Std  20.21 Max 258.20
+eGFR_CKD_EPI :: General :: All     :: outliers ratio 0.000021
+eGFR_CKD_EPI :: General :: All     :: N 936454 non-zeros 936454 Median  89.82 Mean  88.08 Std  20.73 Max 398.92
+eGFR_CKD_EPI :: General :: All     :: distribution 0.001,0.01,0.05 ::  10.02  32.49  52.81 115.40 123.48 189.68
+eGFR_CKD_EPI :: General :: All     :: quartiles ::  10.02  75.66  89.82 102.59 
+eGFR_CKD_EPI :: General :: Males   :: outliers ratio 0.000052
+eGFR_CKD_EPI :: General :: Males   :: N 441350 non-zeros 441350 Median  88.87 Mean  87.26 Std  20.74 Max 397.74
+eGFR_CKD_EPI :: General :: Males   :: distribution 0.001,0.01,0.05 ::   9.43  31.40  52.83 113.54 121.38 284.47
+eGFR_CKD_EPI :: General :: Males   :: quartiles ::   9.43  75.65  88.87 100.99 
+eGFR_CKD_EPI :: General :: Females :: outliers ratio 0.000002
+eGFR_CKD_EPI :: General :: Females :: N 495100 non-zeros 495100 Median  90.86 Mean  88.77 Std  20.61 Max 286.36
+eGFR_CKD_EPI :: General :: Females :: distribution 0.001,0.01,0.05 ::  11.37  33.79  52.87 116.73 124.69 170.55
+eGFR_CKD_EPI :: General :: Females :: quartiles ::  11.37  75.58  90.86 104.21 
+eGFR_CKD_EPI :: Rounding ::  0.00 r  0.89 pct
+eGFR_CKD_EPI :: Rounding ::  0.01 r  0.10 pct
+eGFR_CKD_EPI :: Rounding ::  0.10 r  0.01 pct
+eGFR_CKD_EPI :: Rounding ::  1.00 r  0.00 pct
+eGFR_CKD_EPI :: Rounding :: 10.00 r  0.00 pct
+eGFR_CKD_EPI :: Rounding :: 100.00 r  0.00 pct
+eGFR_CKD_EPI :: Rounding :: 1000.00 r  0.00 pct
+eGFR_CKD_EPI :: Rounding :: most popular rounding for vals:  0.00
+eGFR_CKD_EPI :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats year :: 2001 :: All :: N 330166 non-zeros 330166 Median  86.07 Mean  85.97 Std  20.98 Max 395.98
+eGFR_CKD_EPI :: Stats year :: 2002 :: All :: N 334295 non-zeros 334295 Median  78.64 Mean  78.87 Std  18.99 Max 363.11
+eGFR_CKD_EPI :: Stats year :: 2003 :: All :: N 366837 non-zeros 366837 Median  77.52 Mean  77.65 Std  18.47 Max 353.71
+eGFR_CKD_EPI :: Stats year :: 2004 :: All :: N 399707 non-zeros 399707 Median  76.23 Mean  76.38 Std  18.05 Max 347.13
+eGFR_CKD_EPI :: Stats year :: 2005 :: All :: N 419246 non-zeros 419246 Median  75.35 Mean  75.45 Std  17.47 Max 337.20
+eGFR_CKD_EPI :: Stats year :: 2006 :: All :: N 439475 non-zeros 439475 Median  76.08 Mean  76.03 Std  17.44 Max 335.36
+eGFR_CKD_EPI :: Stats year :: 2007 :: All :: N 459657 non-zeros 459657 Median  78.01 Mean  77.66 Std  17.61 Max 341.63
+eGFR_CKD_EPI :: Stats year :: 2008 :: All :: N 468751 non-zeros 468751 Median  87.31 Mean  86.30 Std  20.57 Max 393.88
+eGFR_CKD_EPI :: Stats year :: 2009 :: All :: N 500058 non-zeros 500058 Median  94.74 Mean  92.19 Std  19.53 Max 383.53
+eGFR_CKD_EPI :: Stats year :: 2010 :: All :: N 503413 non-zeros 503413 Median  93.42 Mean  90.88 Std  19.75 Max 386.09
+eGFR_CKD_EPI :: Stats year :: 2011 :: All :: N 514208 non-zeros 514208 Median  93.76 Mean  91.17 Std  19.39 Max 381.53
+eGFR_CKD_EPI :: Stats year :: 2012 :: All :: N 525526 non-zeros 525526 Median  94.21 Mean  91.41 Std  19.33 Max 380.49
+eGFR_CKD_EPI :: Stats year :: 2013 :: All :: N 533105 non-zeros 533105 Median  93.48 Mean  90.63 Std  19.36 Max 380.56
+eGFR_CKD_EPI :: Stats year :: 2014 :: All :: N 533494 non-zeros 533494 Median  91.33 Mean  88.48 Std  19.18 Max 375.95
+eGFR_CKD_EPI :: Stats year :: 2015 :: All :: N 479067 non-zeros 479067 Median  91.25 Mean  88.31 Std  19.68 Max 381.75
+eGFR_CKD_EPI :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats year :: 2001 :: Males   :: N 135869 non-zeros 135869 Median  85.31 Mean  84.63 Std  20.79 Max 395.61
+eGFR_CKD_EPI :: Stats year :: 2002 :: Males   :: N 140277 non-zeros 140277 Median  78.51 Mean  78.33 Std  18.86 Max 360.73
+eGFR_CKD_EPI :: Stats year :: 2003 :: Males   :: N 154473 non-zeros 154473 Median  77.49 Mean  77.17 Std  18.15 Max 347.93
+eGFR_CKD_EPI :: Stats year :: 2004 :: Males   :: N 169778 non-zeros 169778 Median  76.46 Mean  76.11 Std  17.61 Max 339.17
+eGFR_CKD_EPI :: Stats year :: 2005 :: Males   :: N 180076 non-zeros 180076 Median  75.84 Mean  75.43 Std  17.08 Max 330.44
+eGFR_CKD_EPI :: Stats year :: 2006 :: Males   :: N 190441 non-zeros 190441 Median  76.52 Mean  76.12 Std  17.20 Max 333.57
+eGFR_CKD_EPI :: Stats year :: 2007 :: Males   :: N 200273 non-zeros 200273 Median  78.16 Mean  77.69 Std  17.35 Max 337.93
+eGFR_CKD_EPI :: Stats year :: 2008 :: Males   :: N 204085 non-zeros 204085 Median  85.80 Mean  84.89 Std  20.20 Max 385.88
+eGFR_CKD_EPI :: Stats year :: 2009 :: Males   :: N 219050 non-zeros 219050 Median  92.66 Mean  90.07 Std  19.97 Max 389.01
+eGFR_CKD_EPI :: Stats year :: 2010 :: Males   :: N 221206 non-zeros 221206 Median  91.28 Mean  88.79 Std  20.18 Max 388.87
+eGFR_CKD_EPI :: Stats year :: 2011 :: Males   :: N 226950 non-zeros 226950 Median  91.74 Mean  89.06 Std  19.60 Max 383.06
+eGFR_CKD_EPI :: Stats year :: 2012 :: Males   :: N 233301 non-zeros 233301 Median  92.12 Mean  89.40 Std  19.95 Max 388.54
+eGFR_CKD_EPI :: Stats year :: 2013 :: Males   :: N 237436 non-zeros 237436 Median  91.36 Mean  88.64 Std  19.96 Max 386.97
+eGFR_CKD_EPI :: Stats year :: 2014 :: Males   :: N 238522 non-zeros 238522 Median  89.19 Mean  86.53 Std  19.69 Max 376.64
+eGFR_CKD_EPI :: Stats year :: 2015 :: Males   :: N 214418 non-zeros 214418 Median  89.18 Mean  86.38 Std  20.51 Max 381.75
+eGFR_CKD_EPI :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats year :: 2001 :: Females :: N 194298 non-zeros 194298 Median  86.54 Mean  86.92 Std  21.15 Max 286.36
+eGFR_CKD_EPI :: Stats year :: 2002 :: Females :: N 194025 non-zeros 194025 Median  78.77 Mean  79.24 Std  19.03 Max 284.42
+eGFR_CKD_EPI :: Stats year :: 2003 :: Females :: N 212366 non-zeros 212366 Median  77.56 Mean  78.00 Std  18.55 Max 281.82
+eGFR_CKD_EPI :: Stats year :: 2004 :: Females :: N 229915 non-zeros 229915 Median  76.04 Mean  76.57 Std  18.21 Max 280.41
+eGFR_CKD_EPI :: Stats year :: 2005 :: Females :: N 239165 non-zeros 239165 Median  74.96 Mean  75.44 Std  17.68 Max 277.36
+eGFR_CKD_EPI :: Stats year :: 2006 :: Females :: N 249028 non-zeros 249028 Median  75.62 Mean  75.95 Std  17.54 Max 276.03
+eGFR_CKD_EPI :: Stats year :: 2007 :: Females :: N 259379 non-zeros 259379 Median  77.87 Mean  77.61 Std  17.66 Max 274.55
+eGFR_CKD_EPI :: Stats year :: 2008 :: Females :: N 264658 non-zeros 264658 Median  88.67 Mean  87.30 Std  20.52 Max 272.06
+eGFR_CKD_EPI :: Stats year :: 2009 :: Females :: N 281011 non-zeros 281011 Median  96.47 Mean  93.87 Std  19.16 Max 270.24
+eGFR_CKD_EPI :: Stats year :: 2010 :: Females :: N 282212 non-zeros 282212 Median  95.05 Mean  92.51 Std  19.29 Max 268.63
+eGFR_CKD_EPI :: Stats year :: 2011 :: Females :: N 287255 non-zeros 287255 Median  95.56 Mean  92.84 Std  19.07 Max 265.61
+eGFR_CKD_EPI :: Stats year :: 2012 :: Females :: N 292235 non-zeros 292235 Median  96.02 Mean  93.07 Std  18.81 Max 265.15
+eGFR_CKD_EPI :: Stats year :: 2013 :: Females :: N 295677 non-zeros 295677 Median  95.20 Mean  92.25 Std  18.73 Max 262.96
+eGFR_CKD_EPI :: Stats year :: 2014 :: Females :: N 294972 non-zeros 294972 Median  93.04 Mean  90.07 Std  18.67 Max 261.19
+eGFR_CKD_EPI :: Stats year :: 2015 :: Females :: N 264649 non-zeros 264649 Median  92.91 Mean  89.85 Std  18.80 Max 257.66
+eGFR_CKD_EPI :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_CKD_EPI :: Stats month 1 :: All :: N 328053 non-zeros 328053 Median  88.22 Mean  85.76 Std  21.77 Max 409.61
+eGFR_CKD_EPI :: Stats month 2 :: All :: N 320935 non-zeros 320935 Median  88.25 Mean  85.83 Std  21.76 Max 403.63
+eGFR_CKD_EPI :: Stats month 3 :: All :: N 328858 non-zeros 328858 Median  88.03 Mean  85.56 Std  21.71 Max 408.96
+eGFR_CKD_EPI :: Stats month 4 :: All :: N 311423 non-zeros 311423 Median  87.52 Mean  85.07 Std  21.97 Max 405.94
+eGFR_CKD_EPI :: Stats month 5 :: All :: N 358743 non-zeros 358743 Median  87.57 Mean  85.26 Std  21.61 Max 397.22
+eGFR_CKD_EPI :: Stats month 6 :: All :: N 355643 non-zeros 355643 Median  88.01 Mean  85.46 Std  21.68 Max 405.60
+eGFR_CKD_EPI :: Stats month 7 :: All :: N 363140 non-zeros 363140 Median  87.88 Mean  85.33 Std  21.79 Max 405.19
+eGFR_CKD_EPI :: Stats month 8 :: All :: N 347112 non-zeros 347112 Median  87.33 Mean  84.98 Std  21.85 Max 407.93
+eGFR_CKD_EPI :: Stats month 9 :: All :: N 300263 non-zeros 300263 Median  87.26 Mean  84.73 Std  21.98 Max 404.91
+eGFR_CKD_EPI :: Stats month 10 :: All :: N 339101 non-zeros 339101 Median  87.70 Mean  85.27 Std  21.65 Max 407.51
+eGFR_CKD_EPI :: Stats month 11 :: All :: N 323937 non-zeros 323937 Median  88.04 Mean  85.62 Std  21.54 Max 404.28
+eGFR_CKD_EPI :: Stats month 12 :: All :: N 312042 non-zeros 312042 Median  88.37 Mean  85.92 Std  21.75 Max 409.71
+

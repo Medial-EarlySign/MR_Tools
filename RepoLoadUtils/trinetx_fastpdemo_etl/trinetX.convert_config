@@ -1,0 +1,12 @@
+#
+# convert config file
+#
+DESCRIPTION	TrinetX Fasle Positive Demo- Full 
+RELATIVE 	0
+SAFE_MODE	1
+MODE	3
+PREFIX	trinetXfpd_rep
+CONFIG	trinetXfpd.repository
+SIGNAL	trinetX.signals
+FORCE_SIGNAL	GENDER,BYEAR
+

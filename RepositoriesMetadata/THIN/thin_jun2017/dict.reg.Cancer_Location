@@ -1,0 +1,745 @@
+##############################################################################
+# Thin Cancer Registry dictionary
+##############################################################################
+SECTION	RC_Diagnosis,Cancer_Location
+
+##############################################################################
+# Cancer_Location values
+##############################################################################
+DEF	20000	Anc,CRC,Colon
+DEF	20001	Anc,na,na
+DEF	20002	Anc,Prostate,Prostate
+DEF	20003	Benign,na,na
+DEF	20004	Ca_bg,?,?
+DEF	20005	Ca_bg,Bladder,Bladder
+DEF	20006	Ca_bg,Brain,Brain
+DEF	20007	Ca_bg,Breast,Breast
+DEF	20008	Ca_bg,crc,colon
+DEF	20009	Ca_bg,crc,rectum
+DEF	20010	Ca_bg,Digestive System,na
+DEF	20011	Ca_bg,Kidney,Kidney
+DEF	20012	Ca_bg,Liver,Liver
+DEF	20013	Ca_bg,lung,lung
+DEF	20014	Ca_bg,na,na
+DEF	20015	Ca_bg,ovary,ovary
+DEF	20016	Ca_bg,prostate,prostate
+DEF	20017	Ca_bg,Skin,Skin
+DEF	20018	Ca_bg,Small intestine,Small intestine
+DEF	20019	Ca_bg,Stomach,Stomach
+DEF	20020	Cancer,?,?
+DEF	20021	Cancer,Anal,Anus
+DEF	20022	Cancer,BCC,Skin
+DEF	20023	Cancer,Biliary Tract,Biliary Tract
+DEF	20024	Cancer,Blood,ALL
+DEF	20025	Cancer,Blood,AML
+DEF	20026	Cancer,Blood,CLL
+DEF	20027	Cancer,Blood,CML
+DEF	20028	Cancer,Blood,HCL
+DEF	20029	Cancer,Blood,HODG
+DEF	20030	Cancer,Blood,LEU
+DEF	20031	Cancer,Blood,MDS
+DEF	20032	Cancer,Blood,MM
+DEF	20033	Cancer,Blood,na
+DEF	20034	Cancer,Blood,NHL
+DEF	20035	Cancer,Blood,PCV
+DEF	20036	Cancer,Blood,SID
+DEF	20037	Cancer,Blood,THR
+DEF	20038	Cancer,Blood,UNS
+DEF	20039	Cancer,Bones,Bones
+DEF	20040	Cancer,Brain,Brain
+DEF	20041	Cancer,Breast,Breast
+DEF	20042	Cancer,Breast,Female Breast
+DEF	20043	Cancer,Breast,Male Breast
+DEF	20044	Cancer,Connective tissue,Connective tissue
+DEF	20045	Cancer,Digestive System,na
+DEF	20046	Cancer,Genitourinary,na
+DEF	20047	Cancer,Kidney,Kidney
+DEF	20048	Cancer,Larynx,Larynx
+DEF	20049	Cancer,Melanoma,Skin
+DEF	20050	Cancer,na,na
+DEF	20051	Cancer,Peritoneum,Peritoneum
+DEF	20052	Cancer,Pleura,Pleura
+DEF	20053	Cancer,Respiratory tract ,na
+DEF	20054	Cancer,SCC,Skin
+DEF	20055	Cancer,Skin,Skin
+DEF	20056	Cancer,Small intestine,Small intestine
+DEF	20057	Cancer,Testis,Testis
+DEF	20058	Cancer,Thyroid,Thyroid
+DEF	20059	Cancer,Uterus,Cervix Uteri
+DEF	20060	Cancer,Uterus,Uterus
+DEF	20061	Cancer,Vagina / Vulva,Vagina / Vulva
+DEF	20062	CIS,?,?
+DEF	20063	CIS,Anal,Anus
+DEF	20064	CIS,Bladder,Bladder
+DEF	20065	CIS,Breast,Breast
+DEF	20066	CIS,CRC,Colon
+DEF	20067	CIS,CRC,Rectum
+DEF	20068	CIS,Liver,Liver
+DEF	20069	CIS,lung,lung
+DEF	20070	CIS,na,na
+DEF	20071	CIS,Oesophagus,Oesophagus
+DEF	20072	CIS,ovary,ovary
+DEF	20073	CIS,Pancreas,Pancreas
+DEF	20074	CIS,prostate,prostate
+DEF	20075	CIS,Respiratory tract ,na
+DEF	20076	CIS,SCC,Skin
+DEF	20077	CIS,Stomach,Stomach
+DEF	20078	CIS,uterus,uterus
+DEF	20079	Digestive Organs,Digestive Organs,Colon
+DEF	20080	Digestive Organs,Digestive Organs,Esophagus
+DEF	20081	Digestive Organs,Digestive Organs,Liver+intrahepatic bile
+DEF	20082	Digestive Organs,Digestive Organs,Pancreas
+DEF	20083	Digestive Organs,Digestive Organs,Rectum
+DEF	20084	Digestive Organs,Digestive Organs,Stomach
+DEF	20085	Female genital organs,Ovary,Ovary
+DEF	20086	Male genital organs,Prostate,Prostate
+DEF	20087	[M] Benign,Blood,na
+DEF	20088	[M] Benign,Brain,Brain
+DEF	20089	[M] Benign,Breast,Breast
+DEF	20090	[M] Benign,Colon,Colon
+DEF	20091	[M] Benign,na,na
+DEF	20092	[M] Benign,Ovary,Ovary
+DEF	20093	[M] Benign,Pancreas,Pancreas
+DEF	20094	[M] Benign,Pituitary,Pituitary
+DEF	20095	[M] Benign,Skin,Skin
+DEF	20096	[M] Benign,Thyroid,Thyroid
+DEF	20097	[M] Benign,Uterus,Uterus
+DEF	20098	[M] Ca_bg,na,na
+DEF	20099	[M] Cancer,Blood,AML
+DEF	20100	[M] Cancer,Blood,CLL
+DEF	20101	[M] Cancer,Blood,CML
+DEF	20102	[M] Cancer,Blood,HCL
+DEF	20103	[M] Cancer,Blood,HODG
+DEF	20104	[M] Cancer,Blood,LEU
+DEF	20105	[M] Cancer,Blood,MDS
+DEF	20106	[M] Cancer,Blood,MM
+DEF	20107	[M] Cancer,Blood,na
+DEF	20108	[M] Cancer,Blood,NHL
+DEF	20109	[M] Cancer,Blood,PV
+DEF	20110	[M] Cancer,Blood,WAL
+DEF	20111	[M] Cancer,Brain,Brain
+DEF	20112	[M] Cancer,Breast,Breast
+DEF	20113	[M] Cancer,Colon,Colon
+DEF	20114	[M] Cancer,Kidney,Kidney
+DEF	20115	[M] Cancer,Liver,Liver
+DEF	20116	[M] Cancer,Melanoma,Skin
+DEF	20117	[M] Cancer,na,na
+DEF	20118	[M] Cancer,ovary,ovary
+DEF	20119	[M] Cancer,Ovary,Ovary
+DEF	20120	[M] Cancer,pancreas,pancreas
+DEF	20121	[M] Cancer,Parathyroid,Parathyroid
+DEF	20122	[M] Cancer,Skin,Skin
+DEF	20123	[M] Cancer,Stomach,Stomach
+DEF	20124	[M] Cancer,Thyroid,Thyroid
+DEF	20125	[M] Cancer,Uterus,Uterus
+DEF	20126	[M] CIS,Breast,Breast
+DEF	20127	[M] CIS,Melanoma,Skin
+DEF	20128	[M] CIS,na,na
+DEF	20129	[M] CIS,Uterus,Cervix Uteri
+DEF	20130	Metastases To,Digestive System,na
+DEF	20131	Metastases To,Liver,Liver
+DEF	20132	Metastases To,Metastases,Bones
+DEF	20133	Metastases To,Metastases,Brain
+DEF	20134	Metastases To,Metastases,Kidney
+DEF	20135	Metastases To,Metastases,Liver
+DEF	20136	Metastases To,Metastases,Lung and Bronchus
+DEF	20137	Metastases To,Metastases,Lymph Nodes
+DEF	20138	Metastases To,Metastases,na
+DEF	20139	Metastases To,na,na
+DEF	20140	[M] Metastases To,na,na
+DEF	20141	Respiratory system,Lung and Bronchus,Unspecified
+DEF	20142	tumor;oeso,Cancer,oeso
+DEF	20143	tumor;stom,Cancer,stom
+DEF	20144	Urinary Organs,Urinary Organs,Bladder
+
+##############################################################################
+# Cancer Sets names
+##############################################################################
+#===============================================================================
+# Registry indications 21000-21999
+#===============================================================================
+DEF	21000	Colon_Cancer
+DEF	21001	CRC_Cancer
+DEF	21002	Stomach_Cancer
+DEF	21003	Rectum_Cancer
+DEF	21004	Lung_Cancer
+DEF	21005	Prostate_Cancer
+DEF	21006	Breast_Cancer
+DEF	21007	Hematologic_Cancer
+DEF	21008	Female_Genital_Cancer
+DEF	21009	Bone_Cancer
+DEF	21010	Brain_Cancer
+DEF	21011	CRC_and_Stomach_Cancer
+DEF	21012	ALL_Cancer
+DEF	21013	CLL_Cancer
+DEF	21014	AML_Cancer
+DEF	21015	CML_Cancer
+DEF	21016	MM_Cancer
+DEF	21017	Lung_SC_Cancer
+DEF	21018	Lung_NSC_Cancer
+DEF	21019	Ovarian_Cancer
+DEF	21020	Liver_Cancer
+DEF	21021	Digestive_Cancer
+DEF	21022	Bladder_Cancer
+DEF	21023	Kidney_Cancer
+DEF	21024	Hodgkins_Cancer
+DEF	21025	Non_Hodgkins_Cancer
+DEF	21026	Leukemia_Cancer
+DEF	21027	Lymphoma_Cancer
+DEF	21028	Lymphoid_Cancer
+DEF	21029	Myeloid_Cancer
+
+#===============================================================================
+# SETS
+#===============================================================================
+SET	Colon_Cancer	Digestive Organs,Digestive Organs,Colon
+SET	Colon_Cancer	CIS,CRC,Colon
+SET	Stomach_Cancer	Digestive Organs,Digestive Organs,Stomach
+SET	Stomach_Cancer	CIS,Stomach,Stomach
+SET	Rectum_Cancer	Digestive Organs,Digestive Organs,Rectum
+SET	Rectum_Cancer	CIS,CRC,Rectum
+SET	CRC_Cancer	Colon_Cancer
+SET	CRC_Cancer	Rectum_Cancer
+SET	CRC_and_Stomach_Cancer	CRC_Cancer
+SET	CRC_and_Stomach_Cancer	Stomach_Cancer
+SET	Lung_Cancer	Respiratory system,Lung and Bronchus,Unspecified
+SET	Prostate_Cancer	Male genital organs,Prostate,Prostate
+SET	Breast_Cancer	Cancer,Breast,Breast
+SET	Breast_Cancer	Cancer,Breast,Female Breast
+SET	Breast_Cancer	Cancer,Breast,Male Breast
+SET	ALL_Cancer	Cancer,Blood,ALL
+SET	AML_Cancer	Cancer,Blood,AML
+SET	CLL_Cancer	Cancer,Blood,CLL
+SET	CML_Cancer	Cancer,Blood,CML
+SET	MM_Cancer	Cancer,Blood,MM
+SET	Hodgkins_Cancer	Cancer,Blood,HODG
+SET	Non_Hodgkins_Cancer	Cancer,Blood,NHL
+SET	Lymphoid_Cancer	ALL_Cancer
+SET	Lymphoid_Cancer	CLL_Cancer
+SET	Myeloid_Cancer	AML_Cancer
+SET	Myeloid_Cancer	CML_Cancer
+SET	Leukemia_Cancer	Lymphoid_Cancer
+SET	Leukemia_Cancer	Myeloid_Cancer
+SET	Leukemia_Cancer	Cancer,Blood,LEU
+SET	Lymphoma_Cancer	Hodgkins_Cancer
+SET	Lymphoma_Cancer	Non_Hodgkins_Cancer
+SET	Hematologic_Cancer	Leukemia_Cancer
+SET	Hematologic_Cancer	MM_Cancer
+SET	Hematologic_Cancer	Lymphoma_Cancer
+SET	Hematologic_Cancer	Cancer,Blood,HCL
+SET	Hematologic_Cancer	Cancer,Blood,MDS
+SET	Hematologic_Cancer	Cancer,Blood,PCV
+SET	Hematologic_Cancer	Cancer,Blood,SID
+SET	Hematologic_Cancer	Cancer,Blood,THR
+SET	Hematologic_Cancer	Cancer,Blood,UNS
+SET	Hematologic_Cancer	Cancer,Blood,THR
+SET	Ovarian_Cancer	Female genital organs,Ovary,Ovary
+SET	Female_Genital_Cancer	Ovarian_Cancer
+SET	Female_Genital_Cancer	Cancer,Uterus,Uterus
+SET	Liver_Cancer	Digestive Organs,Digestive Organs,Liver+intrahepatic bile
+SET	Digestive_Cancer	Cancer,Digestive System,na
+SET	Digestive_Cancer	CRC_and_Stomach_Cancer
+SET	Digestive_Cancer	Liver_Cancer
+SET	Kidney_Cancer	Cancer,Kidney,Kidney
+
+
+DEF	40000	Imaging
+SET	Imaging	5....00
+SET	Imaging	G_51...
+SET	Imaging	G_52...
+SET	Imaging	G_53...
+SET	Imaging	G_54...
+SET	Imaging	G_55...
+SET	Imaging	G_56...
+
+DEF	40001	Gp_Encounter
+SET	Gp_Encounter	G_9N0..
+SET	Gp_Encounter	G_9N1..
+SET	Gp_Encounter	G_9N2..
+
+DEF	40002	Acute_Renal_Failure
+DEF	40003	Chronic_Renal_Failure
+DEF	40004	Other_Renal_Condition
+SET	Acute_Renal_Failure	G_K04..
+SET	Chronic_Renal_Failure	G_K05..
+SET	Other_Renal_Condition	G_K00..
+SET	Other_Renal_Condition	G_K01..
+SET	Other_Renal_Condition	G_K02..
+SET	Other_Renal_Condition	G_K03..
+SET	Other_Renal_Condition	G_K06..
+SET	Other_Renal_Condition	G_K07..
+SET	Other_Renal_Condition	G_K08..
+SET	Other_Renal_Condition	G_K09..
+SET	Other_Renal_Condition	G_K0A..
+SET	Other_Renal_Condition	G_K0z..
+
+DEF	40005	Diabetes
+SET	Diabetes	G_9OL..
+SET	Diabetes	G_42W..
+SET	Diabetes	G_66A..
+SET	Diabetes	G_9N1Q.
+SET	Diabetes	G_68A7.
+SET	Diabetes	G_C10..
+SET	Diabetes	G_2G5E.
+SET	Diabetes	G_2G5F.
+SET	Diabetes	G_2G5G.
+SET	Diabetes	G_2G5I.
+SET	Diabetes	G_2G5J.
+SET	Diabetes	G_2G5K.
+SET	Diabetes	G_9NND.
+SET	Diabetes	G_8B3l.
+SET	Diabetes	G_42c..
+SET	Diabetes	G_8BL2.
+SET	Diabetes	G_F420.
+
+DEF	40100	Hypertension
+SET	Hypertension	G_G20..
+
+DEF	40006	Heart_Disease
+SET	Heart_Disease	G_G3...
+
+DEF	40007	CVA
+SET	CVA	G_G66..
+SET	CVA	G_662e.
+SET	CVA	G_662M.
+SET	CVA	G_9Om..
+SET	CVA	G_8HBJ.
+SET	CVA	G_8HTQ.
+SET	CVA	G_9N0p.
+
+DEF	40008	Chronic_Lung_Disease
+SET	Chronic_Lung_Disease	G_14B3.
+SET	Chronic_Lung_Disease	G_3376.
+SET	Chronic_Lung_Disease	G_66YB.
+SET	Chronic_Lung_Disease	G_66Yd.
+SET	Chronic_Lung_Disease	G_66Ye.
+SET	Chronic_Lung_Disease	G_66Yf.
+SET	Chronic_Lung_Disease	G_66YI.
+SET	Chronic_Lung_Disease	G_66YL.
+SET	Chronic_Lung_Disease	G_66YM.
+SET	Chronic_Lung_Disease	G_679V.
+SET	Chronic_Lung_Disease	G_8CE6.
+SET	Chronic_Lung_Disease	G_8CR1.
+SET	Chronic_Lung_Disease	G_8H2R.
+SET	Chronic_Lung_Disease	G_9Oi..
+SET	Chronic_Lung_Disease	G_H3...
+
+DEF	40009	RC_Asthma
+SET	RC_Asthma	G_66Y5.
+SET	RC_Asthma	G_66Y9.
+SET	RC_Asthma	G_66YA.
+SET	RC_Asthma	G_66YC.
+SET	RC_Asthma	G_66YE.
+SET	RC_Asthma	G_66YJ.
+SET	RC_Asthma	G_66YK.
+SET	RC_Asthma	G_66YP.
+SET	RC_Asthma	G_66Yp.
+SET	RC_Asthma	G_66YQ.
+SET	RC_Asthma	G_66Yq.
+SET	RC_Asthma	G_66YR.
+SET	RC_Asthma	G_66Yr.
+SET	RC_Asthma	G_66Ys.
+SET	RC_Asthma	G_H33..
+SET	RC_Asthma	G_66YJ.
+SET	RC_Asthma	663..00
+SET	RC_Asthma	G_8B3j.
+SET	RC_Asthma	G_663O.
+SET	RC_Asthma	G_663Q.
+
+DEF	40010	Cirrhosis
+DEF	40011	Alcoholic_Fatty_liver
+DEF	40012	Alcoholic_Hepatitis
+DEF	40013	Alcoholic_Cirrhosis
+DEF	40014	Chronic_Cirrhosis
+DEF	40015	Portal_Cirrhosis
+DEF	40016	Biliary_Cirrhosis
+DEF	40017	Other_Chronic_Liver_Disease
+
+SET	Cirrhosis	J61..00
+SET	Cirrhosis	G_J615.
+SET	Alcoholic_Fatty_liver	G_J610.
+SET	Alcoholic_Fatty_liver	G_J613.
+SET	Alcoholic_Fatty_liver	G_J61y.
+SET	Alcoholic_Hepatitis	G_J611.
+SET	Alcoholic_Hepatitis	G_J617.
+SET	Alcoholic_Cirrhosis	G_J612.
+SET	Chronic_Cirrhosis	G_J614.
+SET	Portal_Cirrhosis	G_J615.
+SET	Biliary_Cirrhosis	G_J616.
+SET	Other_Chronic_Liver_Disease	G_J61z.
+
+
+DEF	40018	Parkinson
+SET	Parkinson	G_F12..
+SET	Parkinson	G567400
+SET	Parkinson	G_297A.
+SET	Parkinson	G_F121.
+SET	Parkinson	Eu02300
+SET	Parkinson	G_147F.
+
+DEF	40019	Alzheimer
+SET	Alzheimer	G_F110.
+SET	Alzheimer	G_Eu00.
+SET	Alzheimer	Eu00200
+
+# grep -i "metast" /server/Data/THIN1601/THINAncil1601/text/*Frequency*
+DEF	40020	Metastases
+SET	Metastases	G_BB03.
+SET	Metastases	G_B577.
+SET	Metastases	G_BB13.
+SET	Metastases	G_B5832
+SET	Metastases	G_1D18.
+SET	Metastases	G_BB53.
+SET	Metastases	G_B56..
+SET	Metastases	G_B57..
+SET	Metastases	G_BB2B.
+SET	Metastases	G_B5850
+SET	Metastases	G_C354A
+SET	Metastases	G_BB04.
+# grep -i "secondary" /server/Data/THIN1601/THINAncil1601/text/MedicalReadcodeFrequencyEver1601.txt | grep -i "malig\|neop\|carc"
+SET	Metastases	G_B585.
+SET	Metastases	G_B58..
+SET	Metastases	G_B570.
+SET	Metastases	G_B577.
+SET	Metastases	G_B5830
+SET	Metastases	G_B58z.
+SET	Metastases	G_B153.
+SET	Metastases	G_B583.
+SET	Metastases	G_B58y0
+SET	Metastases	G_B58y5
+SET	Metastases	G_B572.
+SET	Metastases	G_B5761
+SET	Metastases	G_B582.
+SET	Metastases	G_BB13.
+SET	Metastases	G_B58yz
+SET	Metastases	G_ByuC7
+SET	Metastases	G_B58y.
+SET	Metastases	G_B56z.
+SET	Metastases	G_BB03.
+SET	Metastases	G_B57..
+SET	Metastases	G_B580.
+SET	Metastases	G_B587.
+SET	Metastases	G_B5750
+SET	Metastases	G_B586.
+SET	Metastases	G_B5831
+SET	Metastases	G_B5630
+SET	Metastases	G_B594.
+SET	Metastases	G_B5811
+SET	Metastases	G_B5826
+
+#cat /server/Data/THIN1601/THINAncil1601/text/MedicalReadcodeFrequencyEver1601.txt | grep -i prostatectomy
+DEF	40021	Prostatectomy
+SET	Prostatectomy	G_7B390
+SET	Prostatectomy	G_7B36z
+SET	Prostatectomy	G_7B361
+SET	Prostatectomy	G_7B36.
+SET	Prostatectomy	G_7B365
+SET	Prostatectomy	G_7B39.
+SET	Prostatectomy	G_7B202
+SET	Prostatectomy	G_7B360
+SET	Prostatectomy	G_7B362
+SET	Prostatectomy	G_7B366
+SET	Prostatectomy	G_7B367
+SET	Prostatectomy	G_8L51.
+SET	Prostatectomy	G_7B363
+SET	Prostatectomy	G_7B361
+
+#consulted and filtered Prof. Ilan Leibovich 
+#cat /server/Data/THIN1601/THINAncil1601/text/MedicalReadcodeFrequencyEver1601.txt | grep -i prostatectomy | grep -i rad
+DEF	40022	Radical_Prostatectomy_With_Pelvic
+SET	Radical_Prostatectomy_With_Pelvic	7B36600
+SET	Radical_Prostatectomy_With_Pelvic	7B36700
+
+#consulted and filtered Dr. Ran Goshen
+#grep -i chemo /server/Data/THIN1601/THINAncil1601/text/*Freq*
+DEF	40023	RC_Chemotherapy
+SET	RC_Chemotherapy	8BAD.00
+SET	RC_Chemotherapy	8BA5.00
+SET	RC_Chemotherapy	7L18200
+SET	RC_Chemotherapy	8BAD000
+SET	RC_Chemotherapy	7L16100
+SET	RC_Chemotherapy	ZV07300
+SET	RC_Chemotherapy	8CV1.00
+SET	RC_Chemotherapy	65N..00
+SET	RC_Chemotherapy	8HB7.00
+SET	RC_Chemotherapy	7L19300
+SET	RC_Chemotherapy	8BAa.00
+SET	RC_Chemotherapy	8BAD100
+SET	RC_Chemotherapy	7B2C700
+SET	RC_Chemotherapy	ZV07311
+SET	RC_Chemotherapy	8BAK.00
+
+#consulted and filtered Dr. Ran Goshen
+#cat /server/Data/THIN1601/THINAncil1601/text/*Freq* | grep -i therap | grep -i radio
+DEF	40024	RC_Radiotherapy
+SET	RC_Radiotherapy	7M37100
+SET	RC_Radiotherapy	9N0D.00
+SET	RC_Radiotherapy	9N1yC00
+SET	RC_Radiotherapy	59...00
+SET	RC_Radiotherapy	8H4G.00
+SET	RC_Radiotherapy	ZL93100
+SET	RC_Radiotherapy	5154.00
+SET	RC_Radiotherapy	8H67.00
+SET	RC_Radiotherapy	59Z..00
+SET	RC_Radiotherapy	ZV58000
+SET	RC_Radiotherapy	7L2..00
+SET	RC_Radiotherapy	8HB6.00
+
+
+#grep -i "black" /server/Data/THIN1601/THINAncil1601/text/MedicalReadcodeFrequencyEver1601.txt | head -50
+DEF	40025	Black_Race
+SET	Black_Race	9S3..00
+SET	Black_Race	9iD2.00
+SET	Black_Race	9S41.00
+SET	Black_Race	9iD..00
+SET	Black_Race	9SG..00
+SET	Black_Race	9S4..00
+
+
+#grep -i "black" /server/Data/THIN1601/THINAncil1601/text/MedicalReadcodeFrequencyEver1601.txt | head -50
+DEF	40026	Black_Or_Mocca_Race
+SET	Black_Or_Mocca_Race	9S3..00
+SET	Black_Or_Mocca_Race	9S2..00
+SET	Black_Or_Mocca_Race	9i3..00
+SET	Black_Or_Mocca_Race	9i4..00
+SET	Black_Or_Mocca_Race	9iD2.00
+SET	Black_Or_Mocca_Race	9S41.00
+SET	Black_Or_Mocca_Race	9iD..00
+SET	Black_Or_Mocca_Race	9SB5.00
+SET	Black_Or_Mocca_Race	9SG..00
+SET	Black_Or_Mocca_Race	9S5..00
+SET	Black_Or_Mocca_Race	9S4..00
+SET	Black_Or_Mocca_Race	9SB6.00
+SET	Black_Or_Mocca_Race	9iD3.00
+SET	Black_Or_Mocca_Race	9iD4.00
+SET	Black_Or_Mocca_Race	9i62.00
+SET	Black_Or_Mocca_Race	9S51.00
+
+#grep -i "prostatitis" /server/Data/THIN1601/THINAncil1601/text/MedicalReadcodeFrequencyEver1601.txt
+DEF	40027	Prostatitis
+SET	Prostatitis	K21z.00
+SET	Prostatitis	K21..11
+SET	Prostatitis	K211.00
+SET	Prostatitis	K210.00
+
+#grep -i "emphysema" /server/Data/THIN1601/THINAncil1601/text/MedicalReadcodeFrequencyEver1601.txt
+DEF	40028	RC_Emphysema
+SET	RC_Emphysema	H32..00
+
+#grep -i "pneumon" /server/Data/THIN1601/THINAncil1601/text/MedicalReadcodeFrequencyEver1601.txt
+DEF	40029	Pneumonia
+SET	Pneumonia	H26..00
+SET	Pneumonia	H25..00
+SET	Pneumonia	14B2.00
+SET	Pneumonia	H21..00
+SET	Pneumonia	H2z..00
+SET	Pneumonia	H2...00
+SET	Pneumonia	H260.00
+SET	Pneumonia	H261.00
+SET	Pneumonia	H2B..00
+SET	Pneumonia	H28..00
+SET	Pneumonia	H2y..00
+SET	Pneumonia	H20..00
+SET	Pneumonia	H47..11
+SET	Pneumonia	H231.00
+SET	Pneumonia	H22z.00
+SET	Pneumonia	H20z.00
+SET	Pneumonia	H23..00
+SET	Pneumonia	H470.11
+SET	Pneumonia	H22..00
+SET	Pneumonia	H2C..00
+
+DEF	40030	ALL_CANCERS_CODE
+SET	ALL_CANCERS_CODE	Anc,CRC,Colon
+SET	ALL_CANCERS_CODE	Anc,na,na
+SET	ALL_CANCERS_CODE	Anc,Prostate,Prostate
+#SET	ALL_CANCERS_CODE	Benign,na,na
+SET	ALL_CANCERS_CODE	Ca_bg,?,?
+SET	ALL_CANCERS_CODE	Ca_bg,Bladder,Bladder
+SET	ALL_CANCERS_CODE	Ca_bg,Brain,Brain
+SET	ALL_CANCERS_CODE	Ca_bg,Breast,Breast
+SET	ALL_CANCERS_CODE	Ca_bg,crc,colon
+SET	ALL_CANCERS_CODE	Ca_bg,crc,rectum
+SET	ALL_CANCERS_CODE	Ca_bg,Digestive System,na
+SET	ALL_CANCERS_CODE	Ca_bg,Kidney,Kidney
+SET	ALL_CANCERS_CODE	Ca_bg,Liver,Liver
+SET	ALL_CANCERS_CODE	Ca_bg,lung,lung
+SET	ALL_CANCERS_CODE	Ca_bg,na,na
+SET	ALL_CANCERS_CODE	Ca_bg,ovary,ovary
+SET	ALL_CANCERS_CODE	Ca_bg,prostate,prostate
+SET	ALL_CANCERS_CODE	Ca_bg,Skin,Skin
+SET	ALL_CANCERS_CODE	Ca_bg,Small intestine,Small intestine
+SET	ALL_CANCERS_CODE	Ca_bg,Stomach,Stomach
+SET	ALL_CANCERS_CODE	Cancer,?,?
+SET	ALL_CANCERS_CODE	Cancer,Anal,Anus
+SET	ALL_CANCERS_CODE	Cancer,BCC,Skin
+SET	ALL_CANCERS_CODE	Cancer,Biliary Tract,Biliary Tract
+SET	ALL_CANCERS_CODE	Cancer,Blood,ALL
+SET	ALL_CANCERS_CODE	Cancer,Blood,AML
+SET	ALL_CANCERS_CODE	Cancer,Blood,CLL
+SET	ALL_CANCERS_CODE	Cancer,Blood,CML
+SET	ALL_CANCERS_CODE	Cancer,Blood,HCL
+SET	ALL_CANCERS_CODE	Cancer,Blood,HODG
+SET	ALL_CANCERS_CODE	Cancer,Blood,LEU
+SET	ALL_CANCERS_CODE	Cancer,Blood,MDS
+SET	ALL_CANCERS_CODE	Cancer,Blood,MM
+SET	ALL_CANCERS_CODE	Cancer,Blood,na
+SET	ALL_CANCERS_CODE	Cancer,Blood,NHL
+SET	ALL_CANCERS_CODE	Cancer,Blood,PCV
+SET	ALL_CANCERS_CODE	Cancer,Blood,SID
+SET	ALL_CANCERS_CODE	Cancer,Blood,THR
+SET	ALL_CANCERS_CODE	Cancer,Blood,UNS
+SET	ALL_CANCERS_CODE	Cancer,Bones,Bones
+SET	ALL_CANCERS_CODE	Cancer,Brain,Brain
+SET	ALL_CANCERS_CODE	Cancer,Breast,Breast
+SET	ALL_CANCERS_CODE	Cancer,Breast,Female Breast
+SET	ALL_CANCERS_CODE	Cancer,Breast,Male Breast
+SET	ALL_CANCERS_CODE	Cancer,Connective tissue,Connective tissue
+SET	ALL_CANCERS_CODE	Cancer,Digestive System,na
+SET	ALL_CANCERS_CODE	Cancer,Genitourinary,na
+SET	ALL_CANCERS_CODE	Cancer,Kidney,Kidney
+SET	ALL_CANCERS_CODE	Cancer,Larynx,Larynx
+SET	ALL_CANCERS_CODE	Cancer,Melanoma,Skin
+SET	ALL_CANCERS_CODE	Cancer,na,na
+SET	ALL_CANCERS_CODE	Cancer,Peritoneum,Peritoneum
+SET	ALL_CANCERS_CODE	Cancer,Pleura,Pleura
+SET	ALL_CANCERS_CODE	Cancer,Respiratory tract ,na
+SET	ALL_CANCERS_CODE	Cancer,SCC,Skin
+SET	ALL_CANCERS_CODE	Cancer,Skin,Skin
+SET	ALL_CANCERS_CODE	Cancer,Small intestine,Small intestine
+SET	ALL_CANCERS_CODE	Cancer,Testis,Testis
+SET	ALL_CANCERS_CODE	Cancer,Thyroid,Thyroid
+SET	ALL_CANCERS_CODE	Cancer,Uterus,Cervix Uteri
+SET	ALL_CANCERS_CODE	Cancer,Uterus,Uterus
+SET	ALL_CANCERS_CODE	Cancer,Vagina / Vulva,Vagina / Vulva
+SET	ALL_CANCERS_CODE	CIS,?,?
+SET	ALL_CANCERS_CODE	CIS,Anal,Anus
+SET	ALL_CANCERS_CODE	CIS,Bladder,Bladder
+SET	ALL_CANCERS_CODE	CIS,Breast,Breast
+SET	ALL_CANCERS_CODE	CIS,CRC,Colon
+SET	ALL_CANCERS_CODE	CIS,CRC,Rectum
+SET	ALL_CANCERS_CODE	CIS,Liver,Liver
+SET	ALL_CANCERS_CODE	CIS,lung,lung
+SET	ALL_CANCERS_CODE	CIS,na,na
+SET	ALL_CANCERS_CODE	CIS,Oesophagus,Oesophagus
+SET	ALL_CANCERS_CODE	CIS,ovary,ovary
+SET	ALL_CANCERS_CODE	CIS,Pancreas,Pancreas
+SET	ALL_CANCERS_CODE	CIS,prostate,prostate
+SET	ALL_CANCERS_CODE	CIS,Respiratory tract ,na
+SET	ALL_CANCERS_CODE	CIS,SCC,Skin
+SET	ALL_CANCERS_CODE	CIS,Stomach,Stomach
+SET	ALL_CANCERS_CODE	CIS,uterus,uterus
+SET	ALL_CANCERS_CODE	Digestive Organs,Digestive Organs,Colon
+SET	ALL_CANCERS_CODE	Digestive Organs,Digestive Organs,Esophagus
+SET	ALL_CANCERS_CODE	Digestive Organs,Digestive Organs,Liver+intrahepatic bile
+SET	ALL_CANCERS_CODE	Digestive Organs,Digestive Organs,Pancreas
+SET	ALL_CANCERS_CODE	Digestive Organs,Digestive Organs,Rectum
+SET	ALL_CANCERS_CODE	Digestive Organs,Digestive Organs,Stomach
+SET	ALL_CANCERS_CODE	Female genital organs,Ovary,Ovary
+SET	ALL_CANCERS_CODE	Male genital organs,Prostate,Prostate
+#SET	ALL_CANCERS_CODE	[M] Benign,Blood,na
+#SET	ALL_CANCERS_CODE	[M] Benign,Brain,Brain
+#SET	ALL_CANCERS_CODE	[M] Benign,Breast,Breast
+#SET	ALL_CANCERS_CODE	[M] Benign,Colon,Colon
+#SET	ALL_CANCERS_CODE	[M] Benign,na,na
+#SET	ALL_CANCERS_CODE	[M] Benign,Ovary,Ovary
+#SET	ALL_CANCERS_CODE	[M] Benign,Pancreas,Pancreas
+#SET	ALL_CANCERS_CODE	[M] Benign,Pituitary,Pituitary
+#SET	ALL_CANCERS_CODE	[M] Benign,Skin,Skin
+#SET	ALL_CANCERS_CODE	[M] Benign,Thyroid,Thyroid
+#SET	ALL_CANCERS_CODE	[M] Benign,Uterus,Uterus
+SET	ALL_CANCERS_CODE	[M] Ca_bg,na,na
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,AML
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,CLL
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,CML
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,HCL
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,HODG
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,LEU
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,MDS
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,MM
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,na
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,NHL
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,PV
+SET	ALL_CANCERS_CODE	[M] Cancer,Blood,WAL
+SET	ALL_CANCERS_CODE	[M] Cancer,Brain,Brain
+SET	ALL_CANCERS_CODE	[M] Cancer,Breast,Breast
+SET	ALL_CANCERS_CODE	[M] Cancer,Colon,Colon
+SET	ALL_CANCERS_CODE	[M] Cancer,Kidney,Kidney
+SET	ALL_CANCERS_CODE	[M] Cancer,Liver,Liver
+SET	ALL_CANCERS_CODE	[M] Cancer,Melanoma,Skin
+SET	ALL_CANCERS_CODE	[M] Cancer,na,na
+SET	ALL_CANCERS_CODE	[M] Cancer,ovary,ovary
+SET	ALL_CANCERS_CODE	[M] Cancer,Ovary,Ovary
+SET	ALL_CANCERS_CODE	[M] Cancer,pancreas,pancreas
+SET	ALL_CANCERS_CODE	[M] Cancer,Parathyroid,Parathyroid
+SET	ALL_CANCERS_CODE	[M] Cancer,Skin,Skin
+SET	ALL_CANCERS_CODE	[M] Cancer,Stomach,Stomach
+SET	ALL_CANCERS_CODE	[M] Cancer,Thyroid,Thyroid
+SET	ALL_CANCERS_CODE	[M] Cancer,Uterus,Uterus
+SET	ALL_CANCERS_CODE	[M] CIS,Breast,Breast
+SET	ALL_CANCERS_CODE	[M] CIS,Melanoma,Skin
+SET	ALL_CANCERS_CODE	[M] CIS,na,na
+SET	ALL_CANCERS_CODE	[M] CIS,Uterus,Cervix Uteri
+SET	ALL_CANCERS_CODE	Metastases To,Digestive System,na
+SET	ALL_CANCERS_CODE	Metastases To,Liver,Liver
+SET	ALL_CANCERS_CODE	Metastases To,Metastases,Bones
+SET	ALL_CANCERS_CODE	Metastases To,Metastases,Brain
+SET	ALL_CANCERS_CODE	Metastases To,Metastases,Kidney
+SET	ALL_CANCERS_CODE	Metastases To,Metastases,Liver
+SET	ALL_CANCERS_CODE	Metastases To,Metastases,Lung and Bronchus
+SET	ALL_CANCERS_CODE	Metastases To,Metastases,Lymph Nodes
+SET	ALL_CANCERS_CODE	Metastases To,Metastases,na
+SET	ALL_CANCERS_CODE	Metastases To,na,na
+SET	ALL_CANCERS_CODE	[M] Metastases To,na,na
+SET	ALL_CANCERS_CODE	Respiratory system,Lung and Bronchus,Unspecified
+SET	ALL_CANCERS_CODE	tumor;oeso,Cancer,oeso
+SET	ALL_CANCERS_CODE	tumor;stom,Cancer,stom
+SET	ALL_CANCERS_CODE	Urinary Organs,Urinary Organs,Bladder
+SET	ALL_CANCERS_CODE	Colon_Cancer
+SET	ALL_CANCERS_CODE	CRC_Cancer
+SET	ALL_CANCERS_CODE	Stomach_Cancer
+SET	ALL_CANCERS_CODE	Rectum_Cancer
+SET	ALL_CANCERS_CODE	Lung_Cancer
+SET	ALL_CANCERS_CODE	Prostate_Cancer
+SET	ALL_CANCERS_CODE	Breast_Cancer
+SET	ALL_CANCERS_CODE	Hematologic_Cancer
+SET	ALL_CANCERS_CODE	Female_Genital_Cancer
+SET	ALL_CANCERS_CODE	Bone_Cancer
+SET	ALL_CANCERS_CODE	Brain_Cancer
+SET	ALL_CANCERS_CODE	CRC_and_Stomach_Cancer
+SET	ALL_CANCERS_CODE	ALL_Cancer
+SET	ALL_CANCERS_CODE	CLL_Cancer
+SET	ALL_CANCERS_CODE	AML_Cancer
+SET	ALL_CANCERS_CODE	CML_Cancer
+SET	ALL_CANCERS_CODE	MM_Cancer
+SET	ALL_CANCERS_CODE	Lung_SC_Cancer
+SET	ALL_CANCERS_CODE	Lung_NSC_Cancer
+SET	ALL_CANCERS_CODE	Ovarian_Cancer
+SET	ALL_CANCERS_CODE	Liver_Cancer
+SET	ALL_CANCERS_CODE	Digestive_Cancer
+SET	ALL_CANCERS_CODE	Bladder_Cancer
+SET	ALL_CANCERS_CODE	Kidney_Cancer
+SET	ALL_CANCERS_CODE	Hodgkins_Cancer
+SET	ALL_CANCERS_CODE	Non_Hodgkins_Cancer
+SET	ALL_CANCERS_CODE	Leukemia_Cancer
+SET	ALL_CANCERS_CODE	Lymphoma_Cancer
+SET	ALL_CANCERS_CODE	Lymphoid_Cancer
+SET	ALL_CANCERS_CODE	Myeloid_Cancer
+SET	ALL_CANCERS_CODE	Chronic_Cirrhosis
+SET	ALL_CANCERS_CODE	Metastases
+SET	ALL_CANCERS_CODE	Prostatectomy
+SET	ALL_CANCERS_CODE	Radical_Prostatectomy_With_Pelvic
+SET	ALL_CANCERS_CODE	RC_Chemotherapy
+SET	ALL_CANCERS_CODE	RC_Radiotherapy
+
+DEF	40040	Any_Serious_Cancer
+
+SET	Any_Serious_Cancer	Lung_Cancer
+SET	Any_Serious_Cancer	Digestive_Cancer
+SET	Any_Serious_Cancer	Hematologic_Cancer
+SET	Any_Serious_Cancer	Kidney_Cancer
+SET	Any_Serious_Cancer	Leukemia_Cancer
+SET	Any_Serious_Cancer	Lymphoma_Cancer
+SET	Any_Serious_Cancer	Prostate_Cancer
+SET	Any_Serious_Cancer	Breast_Cancer
+

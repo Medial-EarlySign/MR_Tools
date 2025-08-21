@@ -1,0 +1,8 @@
+signalNames	vector<string>
+time_channels	vector<int>
+win_from	int
+win_to	int
+window_time_unit	int
+attrName	string
+req_signals	unordered_set<string>
+

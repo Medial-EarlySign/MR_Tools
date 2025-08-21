@@ -1,0 +1,16 @@
+signal	unit	muliplier	addition	round	final_round
+WBC	K/mcL	1	0	0.01	
+WBC	10(9)/L	1	0	0.01	
+WBC	x10(9)/L	1	0	0.01	
+WBC	NaN	2	0	0.01	
+WBC	x10(3)/uL	1	0	0.01	
+WBC	x10(3)uL	1	0	0.01	
+WBC	10 (3) /UL	3	0	0.01	
+WBC	unit/L	1	0	0.01	
+WBC	K/mm3	1	0	0.01	
+WBC	K/UL	5	0	0.01	
+Hemoglobin	gm/dL	1	0	0.01	
+Hemoglobin	g/dL	1	0	0.01	
+Hemoglobin	G/DL	1	0	0.01	
+Hemoglobin	NaN	1	0	0.01	
+Hemoglobin	GM/DL	1	0	0.01	

@@ -1,0 +1,5 @@
+Signal,code_description,code_system,code,unit_from,unit_to,unit_factor
+BMI,Body Mass Index,LOINC,39156-5,kg/m2,kg/m2,1
+BP,Blood Pressure Diastolic,LOINC,8462-4,mm[Hg],mm[Hg],1
+BP,Blood Pressure Systolic,LOINC,8480-6,mm[Hg],mm[Hg],1
+Weight,Body weight,LOINC,29463-7,[lb_av],kg,0.453592

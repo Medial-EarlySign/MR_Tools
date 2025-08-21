@@ -1,0 +1,14 @@
+Name	Factor	SupposeMean
+Fibrinogen	0.01	
+FreeT4	0.128	
+HbA1C	0.1	
+Hematocrit	0.01	
+Hemoglobin	0.1	
+MCH	0.1	
+MCV	10	
+Testosterone	0.1	
+LDH	2	
+MCHC-M	10	
+RBC	0.001	4.5
+Uric_Acid	0.001	
+T4	0.128	

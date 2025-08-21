@@ -1,0 +1,5 @@
+Anc,Prostate,Prostate
+Ca_bg,prostate,prostate
+CIS,prostate,prostate
+Male genital organs,Prostate,Prostate
+Prostate_Cancer

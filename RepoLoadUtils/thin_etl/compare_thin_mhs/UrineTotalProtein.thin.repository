@@ -1,0 +1,162 @@
+UrineTotalProtein :: All :: With Values :: 158593 / 14446692 =  0.01 :: 158593 / 158593 =  1.00
+UrineTotalProtein :: Males :: With Values ::  74934 / 6889335 =  0.01 ::  74934 / 158593 =  0.47
+UrineTotalProtein :: Females :: With Values ::  83659 / 7557357 =  0.01 ::  83659 / 158593 =  0.53
+UrineTotalProtein :: General :: No. of Values :: All 340226 Male 168666 Female 171560
+UrineTotalProtein :: General :: No. of different days Values :: All 339169 Male 168140 Female 171029
+UrineTotalProtein :: General :: Avg #values per person (all) :: All  0.02 Male  0.02 Female  0.02
+UrineTotalProtein :: General :: Avg #values per person (>0)  :: All  2.14 Male  2.24 Female  2.04
+UrineTotalProtein :: General :: Avg dist between tests       :: All  373.6 Male  370.5 Female  377.0
+UrineTotalProtein :: Counts :: Age Group 20 - 25 :: All ::    404 0.001
+UrineTotalProtein :: Counts :: Age Group 25 - 30 :: All ::    620 0.002
+UrineTotalProtein :: Counts :: Age Group 30 - 35 :: All ::    809 0.002
+UrineTotalProtein :: Counts :: Age Group 35 - 40 :: All ::   1002 0.003
+UrineTotalProtein :: Counts :: Age Group 40 - 45 :: All ::   1489 0.004
+UrineTotalProtein :: Counts :: Age Group 45 - 50 :: All ::   2339 0.007
+UrineTotalProtein :: Counts :: Age Group 50 - 55 :: All ::   3241 0.010
+UrineTotalProtein :: Counts :: Age Group 55 - 60 :: All ::   4327 0.013
+UrineTotalProtein :: Counts :: Age Group 60 - 65 :: All ::   5947 0.017
+UrineTotalProtein :: Counts :: Age Group 65 - 70 :: All ::   8326 0.024
+UrineTotalProtein :: Counts :: Age Group 70 - 75 :: All ::   9454 0.028
+UrineTotalProtein :: Counts :: Age Group 75 - 80 :: All ::  10134 0.030
+UrineTotalProtein :: Counts :: Age Group 80 - 85 :: All ::   9278 0.027
+UrineTotalProtein :: Counts :: Age Group 85 - 90 :: All ::   6584 0.019
+UrineTotalProtein :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+UrineTotalProtein :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+UrineTotalProtein :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+UrineTotalProtein :: Counts :: Age Group 20 - 25 :: Males ::     95 0.001
+UrineTotalProtein :: Counts :: Age Group 25 - 30 :: Males ::    168 0.001
+UrineTotalProtein :: Counts :: Age Group 30 - 35 :: Males ::    283 0.002
+UrineTotalProtein :: Counts :: Age Group 35 - 40 :: Males ::    413 0.002
+UrineTotalProtein :: Counts :: Age Group 40 - 45 :: Males ::    755 0.004
+UrineTotalProtein :: Counts :: Age Group 45 - 50 :: Males ::   1328 0.008
+UrineTotalProtein :: Counts :: Age Group 50 - 55 :: Males ::   1845 0.011
+UrineTotalProtein :: Counts :: Age Group 55 - 60 :: Males ::   2549 0.015
+UrineTotalProtein :: Counts :: Age Group 60 - 65 :: Males ::   3343 0.020
+UrineTotalProtein :: Counts :: Age Group 65 - 70 :: Males ::   4535 0.027
+UrineTotalProtein :: Counts :: Age Group 70 - 75 :: Males ::   4922 0.029
+UrineTotalProtein :: Counts :: Age Group 75 - 80 :: Males ::   5025 0.030
+UrineTotalProtein :: Counts :: Age Group 80 - 85 :: Males ::   4270 0.025
+UrineTotalProtein :: Counts :: Age Group 85 - 90 :: Males ::   2710 0.016
+UrineTotalProtein :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+UrineTotalProtein :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+UrineTotalProtein :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+UrineTotalProtein :: Counts :: Age Group 20 - 25 :: Females ::    309 0.002
+UrineTotalProtein :: Counts :: Age Group 25 - 30 :: Females ::    452 0.003
+UrineTotalProtein :: Counts :: Age Group 30 - 35 :: Females ::    526 0.003
+UrineTotalProtein :: Counts :: Age Group 35 - 40 :: Females ::    589 0.003
+UrineTotalProtein :: Counts :: Age Group 40 - 45 :: Females ::    734 0.004
+UrineTotalProtein :: Counts :: Age Group 45 - 50 :: Females ::   1011 0.006
+UrineTotalProtein :: Counts :: Age Group 50 - 55 :: Females ::   1396 0.008
+UrineTotalProtein :: Counts :: Age Group 55 - 60 :: Females ::   1778 0.010
+UrineTotalProtein :: Counts :: Age Group 60 - 65 :: Females ::   2604 0.015
+UrineTotalProtein :: Counts :: Age Group 65 - 70 :: Females ::   3791 0.022
+UrineTotalProtein :: Counts :: Age Group 70 - 75 :: Females ::   4532 0.026
+UrineTotalProtein :: Counts :: Age Group 75 - 80 :: Females ::   5109 0.030
+UrineTotalProtein :: Counts :: Age Group 80 - 85 :: Females ::   5008 0.029
+UrineTotalProtein :: Counts :: Age Group 85 - 90 :: Females ::   3874 0.023
+UrineTotalProtein :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+UrineTotalProtein :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+UrineTotalProtein :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+UrineTotalProtein :: Stats :: Age Group 20 - 25 :: All ::  N 1869 non-zeros 1860 Median   0.15 Mean   0.43 Std   1.10 Max  15.54
+UrineTotalProtein :: Stats :: Age Group 25 - 30 :: All ::  N 2527 non-zeros 2520 Median   0.14 Mean   0.39 Std   0.94 Max  14.16
+UrineTotalProtein :: Stats :: Age Group 30 - 35 :: All ::  N 3270 non-zeros 3262 Median   0.13 Mean   0.36 Std   0.79 Max  10.28
+UrineTotalProtein :: Stats :: Age Group 35 - 40 :: All ::  N 3927 non-zeros 3919 Median   0.11 Mean   0.36 Std   0.88 Max  13.35
+UrineTotalProtein :: Stats :: Age Group 40 - 45 :: All ::  N 5789 non-zeros 5779 Median   0.10 Mean   0.32 Std   0.75 Max  10.84
+UrineTotalProtein :: Stats :: Age Group 45 - 50 :: All ::  N 8250 non-zeros 8236 Median   0.10 Mean   0.28 Std   0.64 Max   9.80
+UrineTotalProtein :: Stats :: Age Group 50 - 55 :: All ::  N 10994 non-zeros 10975 Median   0.10 Mean   0.26 Std   0.67 Max  10.14
+UrineTotalProtein :: Stats :: Age Group 55 - 60 :: All ::  N 14121 non-zeros 14099 Median   0.09 Mean   0.24 Std   0.59 Max   8.77
+UrineTotalProtein :: Stats :: Age Group 60 - 65 :: All ::  N 19468 non-zeros 19441 Median   0.09 Mean   0.22 Std   0.55 Max   8.35
+UrineTotalProtein :: Stats :: Age Group 65 - 70 :: All ::  N 23605 non-zeros 23568 Median   0.09 Mean   0.21 Std   0.49 Max   7.49
+UrineTotalProtein :: Stats :: Age Group 70 - 75 :: All ::  N 25876 non-zeros 25843 Median   0.09 Mean   0.22 Std   0.49 Max   7.42
+UrineTotalProtein :: Stats :: Age Group 75 - 80 :: All ::  N 27164 non-zeros 27137 Median   0.10 Mean   0.23 Std   0.49 Max   7.58
+UrineTotalProtein :: Stats :: Age Group 80 - 85 :: All ::  N 23087 non-zeros 23060 Median   0.10 Mean   0.23 Std   0.44 Max   6.77
+UrineTotalProtein :: Stats :: Age Group 85 - 90 :: All ::  N 15156 non-zeros 15146 Median   0.10 Mean   0.24 Std   0.44 Max   6.80
+UrineTotalProtein :: Stats :: Age Group 90 - 95 :: All ::  N 5608 non-zeros 5604 Median   0.12 Mean   0.26 Std   0.46 Max   6.87
+UrineTotalProtein :: Stats :: Age Group 95 - 100 :: All ::  N 1110 non-zeros 1110 Median   0.13 Mean   0.29 Std   0.49 Max   7.40
+UrineTotalProtein :: General :: All     :: outliers ratio 0.002597
+UrineTotalProtein :: General :: All     :: N 155521 non-zeros 155284 Median   0.10 Mean   0.24 Std   0.54 Max   8.36
+UrineTotalProtein :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.01   0.02   0.03   1.00   2.77   6.52
+UrineTotalProtein :: General :: All     :: quartiles ::   0.01   0.06   0.10   0.18 
+UrineTotalProtein :: General :: Males   :: outliers ratio 0.002318
+UrineTotalProtein :: General :: Males   :: N 73611 non-zeros 73527 Median   0.10 Mean   0.29 Std   0.65 Max  10.00
+UrineTotalProtein :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.01   0.02   0.04   1.20   3.29   7.53
+UrineTotalProtein :: General :: Males   :: quartiles ::   0.01   0.07   0.10   0.21 
+UrineTotalProtein :: General :: Females :: outliers ratio 0.003056
+UrineTotalProtein :: General :: Females :: N 81893 non-zeros 81745 Median   0.09 Mean   0.20 Std   0.42 Max   6.50
+UrineTotalProtein :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.01   0.02   0.03   0.76   2.13   5.21
+UrineTotalProtein :: General :: Females :: quartiles ::   0.01   0.06   0.09   0.15 
+UrineTotalProtein :: Rounding ::  0.00 r  0.11 pct
+UrineTotalProtein :: Rounding ::  0.01 r  0.73 pct
+UrineTotalProtein :: Rounding ::  0.10 r  0.16 pct
+UrineTotalProtein :: Rounding ::  1.00 r  0.01 pct
+UrineTotalProtein :: Rounding :: 10.00 r  0.00 pct
+UrineTotalProtein :: Rounding :: 100.00 r  0.00 pct
+UrineTotalProtein :: Rounding :: 1000.00 r  0.00 pct
+UrineTotalProtein :: Rounding :: most popular rounding for vals:  0.01
+UrineTotalProtein :: Stats year :: 2000 :: All :: N 321 non-zeros 308 Median   0.15 Mean   4.06 Std  15.86 Max 151.80
+UrineTotalProtein :: Stats year :: 2001 :: All :: N 600 non-zeros 528 Median   0.10 Mean   1.98 Std   9.96 Max  72.00
+UrineTotalProtein :: Stats year :: 2002 :: All :: N 636 non-zeros 628 Median   0.18 Mean   3.98 Std  18.48 Max 281.00
+UrineTotalProtein :: Stats year :: 2003 :: All :: N 2026 non-zeros 2016 Median   0.10 Mean   1.11 Std   7.41 Max  82.00
+UrineTotalProtein :: Stats year :: 2004 :: All :: N 4457 non-zeros 4452 Median   0.10 Mean   0.30 Std   0.64 Max   8.68
+UrineTotalProtein :: Stats year :: 2005 :: All :: N 5726 non-zeros 5719 Median   0.10 Mean   0.29 Std   0.66 Max   9.75
+UrineTotalProtein :: Stats year :: 2006 :: All :: N 10747 non-zeros 10732 Median   0.10 Mean   0.26 Std   0.57 Max   8.74
+UrineTotalProtein :: Stats year :: 2007 :: All :: N 13759 non-zeros 13706 Median   0.10 Mean   0.25 Std   0.55 Max   8.40
+UrineTotalProtein :: Stats year :: 2008 :: All :: N 15234 non-zeros 15216 Median   0.10 Mean   0.26 Std   0.56 Max   8.30
+UrineTotalProtein :: Stats year :: 2009 :: All :: N 29509 non-zeros 29453 Median   0.09 Mean   0.22 Std   0.48 Max   7.42
+UrineTotalProtein :: Stats year :: 2010 :: All :: N 35548 non-zeros 35533 Median   0.09 Mean   0.21 Std   0.45 Max   6.76
+UrineTotalProtein :: Stats year :: 2011 :: All :: N 35046 non-zeros 35024 Median   0.09 Mean   0.21 Std   0.46 Max   7.10
+UrineTotalProtein :: Stats year :: 2012 :: All :: N 37307 non-zeros 37301 Median   0.09 Mean   0.22 Std   0.47 Max   7.25
+UrineTotalProtein :: Stats year :: 2013 :: All :: N 39717 non-zeros 39709 Median   0.10 Mean   0.22 Std   0.48 Max   7.21
+UrineTotalProtein :: Stats year :: 2014 :: All :: N 33246 non-zeros 33239 Median   0.10 Mean   0.22 Std   0.51 Max   7.77
+UrineTotalProtein :: Stats year :: 2015 :: All :: N 22373 non-zeros 22372 Median   0.10 Mean   0.23 Std   0.55 Max   8.41
+UrineTotalProtein :: Stats year :: 2016 :: All :: N 858 non-zeros 858 Median   0.10 Mean   0.21 Std   0.43 Max   6.17
+UrineTotalProtein :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineTotalProtein :: Stats year :: 2000 :: Males   :: N 172 non-zeros 164 Median   0.21 Mean  12.34 Std  76.50 Max 834.50
+UrineTotalProtein :: Stats year :: 2001 :: Males   :: N 289 non-zeros 259 Median   0.10 Mean   2.00 Std  11.80 Max 145.10
+UrineTotalProtein :: Stats year :: 2002 :: Males   :: N 325 non-zeros 321 Median   0.23 Mean   3.23 Std  12.93 Max  75.00
+UrineTotalProtein :: Stats year :: 2003 :: Males   :: N 1024 non-zeros 1018 Median   0.11 Mean   1.11 Std   7.14 Max  79.00
+UrineTotalProtein :: Stats year :: 2004 :: Males   :: N 2382 non-zeros 2381 Median   0.12 Mean   0.34 Std   0.71 Max   8.60
+UrineTotalProtein :: Stats year :: 2005 :: Males   :: N 3075 non-zeros 3073 Median   0.11 Mean   0.34 Std   0.74 Max  11.21
+UrineTotalProtein :: Stats year :: 2006 :: Males   :: N 5422 non-zeros 5416 Median   0.11 Mean   0.31 Std   0.66 Max   9.40
+UrineTotalProtein :: Stats year :: 2007 :: Males   :: N 7036 non-zeros 7015 Median   0.10 Mean   0.30 Std   0.63 Max   9.38
+UrineTotalProtein :: Stats year :: 2008 :: Males   :: N 7896 non-zeros 7888 Median   0.11 Mean   0.30 Std   0.62 Max   9.20
+UrineTotalProtein :: Stats year :: 2009 :: Males   :: N 14357 non-zeros 14340 Median   0.10 Mean   0.26 Std   0.57 Max   8.73
+UrineTotalProtein :: Stats year :: 2010 :: Males   :: N 17270 non-zeros 17268 Median   0.10 Mean   0.25 Std   0.55 Max   8.29
+UrineTotalProtein :: Stats year :: 2011 :: Males   :: N 17228 non-zeros 17221 Median   0.10 Mean   0.26 Std   0.57 Max   8.80
+UrineTotalProtein :: Stats year :: 2012 :: Males   :: N 18154 non-zeros 18154 Median   0.10 Mean   0.26 Std   0.56 Max   8.67
+UrineTotalProtein :: Stats year :: 2013 :: Males   :: N 19452 non-zeros 19449 Median   0.10 Mean   0.27 Std   0.58 Max   8.63
+UrineTotalProtein :: Stats year :: 2014 :: Males   :: N 16225 non-zeros 16223 Median   0.10 Mean   0.27 Std   0.63 Max   9.42
+UrineTotalProtein :: Stats year :: 2015 :: Males   :: N 10845 non-zeros 10845 Median   0.10 Mean   0.28 Std   0.65 Max   9.98
+UrineTotalProtein :: Stats year :: 2016 :: Males   :: N 421 non-zeros 421 Median   0.10 Mean   0.28 Std   0.65 Max   9.33
+UrineTotalProtein :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineTotalProtein :: Stats year :: 2000 :: Females :: N 150 non-zeros 145 Median   0.10 Mean   7.96 Std  60.13 Max 725.00
+UrineTotalProtein :: Stats year :: 2001 :: Females :: N 311 non-zeros 268 Median   0.09 Mean   2.22 Std  10.88 Max  72.00
+UrineTotalProtein :: Stats year :: 2002 :: Females :: N 312 non-zeros 308 Median   0.13 Mean   6.72 Std  38.36 Max 546.00
+UrineTotalProtein :: Stats year :: 2003 :: Females :: N 1002 non-zeros 998 Median   0.09 Mean   1.09 Std   7.66 Max  82.00
+UrineTotalProtein :: Stats year :: 2004 :: Females :: N 2076 non-zeros 2072 Median   0.10 Mean   0.26 Std   0.61 Max   8.68
+UrineTotalProtein :: Stats year :: 2005 :: Females :: N 2652 non-zeros 2647 Median   0.10 Mean   0.24 Std   0.55 Max   7.28
+UrineTotalProtein :: Stats year :: 2006 :: Females :: N 5324 non-zeros 5317 Median   0.09 Mean   0.21 Std   0.46 Max   6.97
+UrineTotalProtein :: Stats year :: 2007 :: Females :: N 6724 non-zeros 6692 Median   0.08 Mean   0.21 Std   0.46 Max   6.73
+UrineTotalProtein :: Stats year :: 2008 :: Females :: N 7331 non-zeros 7320 Median   0.09 Mean   0.21 Std   0.43 Max   6.60
+UrineTotalProtein :: Stats year :: 2009 :: Females :: N 15147 non-zeros 15108 Median   0.08 Mean   0.17 Std   0.36 Max   5.56
+UrineTotalProtein :: Stats year :: 2010 :: Females :: N 18290 non-zeros 18277 Median   0.08 Mean   0.17 Std   0.37 Max   5.70
+UrineTotalProtein :: Stats year :: 2011 :: Females :: N 17821 non-zeros 17805 Median   0.08 Mean   0.17 Std   0.34 Max   5.24
+UrineTotalProtein :: Stats year :: 2012 :: Females :: N 19149 non-zeros 19143 Median   0.08 Mean   0.17 Std   0.36 Max   5.51
+UrineTotalProtein :: Stats year :: 2013 :: Females :: N 20255 non-zeros 20250 Median   0.09 Mean   0.17 Std   0.37 Max   5.61
+UrineTotalProtein :: Stats year :: 2014 :: Females :: N 17019 non-zeros 17014 Median   0.10 Mean   0.17 Std   0.37 Max   5.64
+UrineTotalProtein :: Stats year :: 2015 :: Females :: N 11523 non-zeros 11522 Median   0.10 Mean   0.18 Std   0.40 Max   6.14
+UrineTotalProtein :: Stats year :: 2016 :: Females :: N 438 non-zeros 438 Median   0.10 Mean   0.16 Std   0.40 Max   6.17
+UrineTotalProtein :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineTotalProtein :: Stats month 1 :: All :: N 20213 non-zeros 20187 Median   0.10 Mean   0.26 Std   0.58 Max   8.94
+UrineTotalProtein :: Stats month 2 :: All :: N 21079 non-zeros 21063 Median   0.10 Mean   0.26 Std   0.60 Max   9.20
+UrineTotalProtein :: Stats month 3 :: All :: N 20461 non-zeros 20423 Median   0.10 Mean   0.26 Std   0.57 Max   8.85
+UrineTotalProtein :: Stats month 4 :: All :: N 15587 non-zeros 15577 Median   0.10 Mean   0.26 Std   0.58 Max   8.72
+UrineTotalProtein :: Stats month 5 :: All :: N 16624 non-zeros 16588 Median   0.10 Mean   0.24 Std   0.53 Max   8.07
+UrineTotalProtein :: Stats month 6 :: All :: N 17525 non-zeros 17492 Median   0.10 Mean   0.24 Std   0.53 Max   8.01
+UrineTotalProtein :: Stats month 7 :: All :: N 18247 non-zeros 18221 Median   0.10 Mean   0.24 Std   0.56 Max   8.50
+UrineTotalProtein :: Stats month 8 :: All :: N 16380 non-zeros 16364 Median   0.10 Mean   0.24 Std   0.57 Max   8.80
+UrineTotalProtein :: Stats month 9 :: All :: N 17731 non-zeros 17723 Median   0.10 Mean   0.23 Std   0.53 Max   8.12
+UrineTotalProtein :: Stats month 10 :: All :: N 20223 non-zeros 20208 Median   0.10 Mean   0.24 Std   0.55 Max   8.34
+UrineTotalProtein :: Stats month 11 :: All :: N 19100 non-zeros 19078 Median   0.10 Mean   0.25 Std   0.56 Max   8.51
+UrineTotalProtein :: Stats month 12 :: All :: N 15698 non-zeros 15679 Median   0.10 Mean   0.26 Std   0.58 Max   8.77
+

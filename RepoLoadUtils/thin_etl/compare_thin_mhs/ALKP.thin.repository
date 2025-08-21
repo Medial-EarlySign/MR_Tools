@@ -1,0 +1,162 @@
+ALKP :: All :: With Values :: 4455198 / 14446692 =  0.31 :: 4455198 / 4455198 =  1.00
+ALKP :: Males :: With Values :: 1975627 / 6889335 =  0.29 :: 1975627 / 4455198 =  0.44
+ALKP :: Females :: With Values :: 2479571 / 7557357 =  0.33 :: 2479571 / 4455198 =  0.56
+ALKP :: General :: No. of Values :: All 21451508 Male 9510368 Female 11941140
+ALKP :: General :: No. of different days Values :: All 21422498 Male 9497744 Female 11924754
+ALKP :: General :: Avg #values per person (all) :: All  1.48 Male  1.38 Female  1.58
+ALKP :: General :: Avg #values per person (>0)  :: All  4.81 Male  4.81 Female  4.81
+ALKP :: General :: Avg dist between tests       :: All  374.7 Male  368.0 Female  379.9
+ALKP :: Counts :: Age Group 20 - 25 :: All ::  91618 0.004
+ALKP :: Counts :: Age Group 25 - 30 :: All :: 108824 0.005
+ALKP :: Counts :: Age Group 30 - 35 :: All :: 134417 0.006
+ALKP :: Counts :: Age Group 35 - 40 :: All :: 164615 0.008
+ALKP :: Counts :: Age Group 40 - 45 :: All :: 225345 0.011
+ALKP :: Counts :: Age Group 45 - 50 :: All :: 283882 0.013
+ALKP :: Counts :: Age Group 50 - 55 :: All :: 339030 0.016
+ALKP :: Counts :: Age Group 55 - 60 :: All :: 384212 0.018
+ALKP :: Counts :: Age Group 60 - 65 :: All :: 447715 0.021
+ALKP :: Counts :: Age Group 65 - 70 :: All :: 488928 0.023
+ALKP :: Counts :: Age Group 70 - 75 :: All :: 461336 0.022
+ALKP :: Counts :: Age Group 75 - 80 :: All :: 422490 0.020
+ALKP :: Counts :: Age Group 80 - 85 :: All :: 336184 0.016
+ALKP :: Counts :: Age Group 85 - 90 :: All :: 215442 0.010
+ALKP :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+ALKP :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+ALKP :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+ALKP :: Counts :: Age Group 20 - 25 :: Males ::  29671 0.003
+ALKP :: Counts :: Age Group 25 - 30 :: Males ::  35912 0.004
+ALKP :: Counts :: Age Group 30 - 35 :: Males ::  48527 0.005
+ALKP :: Counts :: Age Group 35 - 40 :: Males ::  64980 0.007
+ALKP :: Counts :: Age Group 40 - 45 :: Males ::  95030 0.010
+ALKP :: Counts :: Age Group 45 - 50 :: Males :: 126056 0.013
+ALKP :: Counts :: Age Group 50 - 55 :: Males :: 157249 0.017
+ALKP :: Counts :: Age Group 55 - 60 :: Males :: 183340 0.019
+ALKP :: Counts :: Age Group 60 - 65 :: Males :: 219374 0.023
+ALKP :: Counts :: Age Group 65 - 70 :: Males :: 240520 0.025
+ALKP :: Counts :: Age Group 70 - 75 :: Males :: 222180 0.023
+ALKP :: Counts :: Age Group 75 - 80 :: Males :: 192137 0.020
+ALKP :: Counts :: Age Group 80 - 85 :: Males :: 143034 0.015
+ALKP :: Counts :: Age Group 85 - 90 :: Males ::  82335 0.009
+ALKP :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+ALKP :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+ALKP :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+ALKP :: Counts :: Age Group 20 - 25 :: Females ::  61947 0.005
+ALKP :: Counts :: Age Group 25 - 30 :: Females ::  72912 0.006
+ALKP :: Counts :: Age Group 30 - 35 :: Females ::  85890 0.007
+ALKP :: Counts :: Age Group 35 - 40 :: Females ::  99635 0.008
+ALKP :: Counts :: Age Group 40 - 45 :: Females :: 130315 0.011
+ALKP :: Counts :: Age Group 45 - 50 :: Females :: 157826 0.013
+ALKP :: Counts :: Age Group 50 - 55 :: Females :: 181781 0.015
+ALKP :: Counts :: Age Group 55 - 60 :: Females :: 200872 0.017
+ALKP :: Counts :: Age Group 60 - 65 :: Females :: 228341 0.019
+ALKP :: Counts :: Age Group 65 - 70 :: Females :: 248408 0.021
+ALKP :: Counts :: Age Group 70 - 75 :: Females :: 239156 0.020
+ALKP :: Counts :: Age Group 75 - 80 :: Females :: 230353 0.019
+ALKP :: Counts :: Age Group 80 - 85 :: Females :: 193150 0.016
+ALKP :: Counts :: Age Group 85 - 90 :: Females :: 133107 0.011
+ALKP :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+ALKP :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+ALKP :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+ALKP :: Stats :: Age Group 20 - 25 :: All ::  N 310862 non-zeros 310770 Median  69.00 Mean  77.12 Std  38.13 Max 648.00
+ALKP :: Stats :: Age Group 25 - 30 :: All ::  N 354608 non-zeros 354478 Median  67.00 Mean  74.84 Std  37.49 Max 632.00
+ALKP :: Stats :: Age Group 30 - 35 :: All ::  N 405843 non-zeros 405694 Median  67.00 Mean  75.47 Std  37.92 Max 642.00
+ALKP :: Stats :: Age Group 35 - 40 :: All ::  N 466664 non-zeros 466508 Median  67.00 Mean  75.30 Std  36.51 Max 623.00
+ALKP :: Stats :: Age Group 40 - 45 :: All ::  N 564367 non-zeros 564188 Median  68.00 Mean  75.06 Std  35.17 Max 602.00
+ALKP :: Stats :: Age Group 45 - 50 :: All ::  N 621176 non-zeros 620990 Median  70.00 Mean  77.46 Std  36.60 Max 626.00
+ALKP :: Stats :: Age Group 50 - 55 :: All ::  N 648280 non-zeros 648090 Median  74.00 Mean  82.75 Std  39.89 Max 681.00
+ALKP :: Stats :: Age Group 55 - 60 :: All ::  N 669145 non-zeros 668914 Median  77.00 Mean  86.11 Std  42.68 Max 726.00
+ALKP :: Stats :: Age Group 60 - 65 :: All ::  N 679379 non-zeros 679213 Median  77.00 Mean  86.56 Std  43.91 Max 745.00
+ALKP :: Stats :: Age Group 65 - 70 :: All ::  N 647812 non-zeros 647607 Median  77.00 Mean  87.67 Std  47.34 Max 796.00
+ALKP :: Stats :: Age Group 70 - 75 :: All ::  N 567409 non-zeros 567235 Median  78.00 Mean  89.67 Std  51.78 Max 866.00
+ALKP :: Stats :: Age Group 75 - 80 :: All ::  N 490883 non-zeros 490717 Median  80.00 Mean  93.36 Std  59.65 Max 988.00
+ALKP :: Stats :: Age Group 80 - 85 :: All ::  N 385502 non-zeros 385361 Median  82.00 Mean  97.89 Std  67.39 Max 1108.00
+ALKP :: Stats :: Age Group 85 - 90 :: All ::  N 243255 non-zeros 243178 Median  85.00 Mean 103.19 Std  76.10 Max 1242.00
+ALKP :: Stats :: Age Group 90 - 95 :: All ::  N 107883 non-zeros 107849 Median  89.00 Mean 108.94 Std  82.62 Max 1345.00
+ALKP :: Stats :: Age Group 95 - 100 :: All ::  N 26142 non-zeros 26137 Median  92.00 Mean 113.87 Std  87.42 Max 1423.00
+ALKP :: General :: All     :: outliers ratio 0.002074
+ALKP :: General :: All     :: N 4098231 non-zeros 4097041 Median  74.00 Mean  84.15 Std  48.17 Max 806.00
+ALKP :: General :: All     :: distribution 0.001,0.01,0.05 ::  24.00  35.00  44.00 160.00 276.00 594.00
+ALKP :: General :: All     :: quartiles ::  24.00  60.00  74.00  92.00 
+ALKP :: General :: Males   :: outliers ratio 0.002309
+ALKP :: General :: Males   :: N 1821939 non-zeros 1821464 Median  74.00 Mean  84.93 Std  48.24 Max 808.00
+ALKP :: General :: Males   :: distribution 0.001,0.01,0.05 ::  25.00  38.00  47.00 160.00 276.00 614.00
+ALKP :: General :: Males   :: quartiles ::  25.00  62.00  74.00  92.00 
+ALKP :: General :: Females :: outliers ratio 0.001921
+ALKP :: General :: Females :: N 2276214 non-zeros 2275538 Median  73.00 Mean  83.52 Std  48.14 Max 805.00
+ALKP :: General :: Females :: distribution 0.001,0.01,0.05 ::  23.00  34.00  42.00 160.00 275.00 574.00
+ALKP :: General :: Females :: quartiles ::  23.00  58.00  73.00  93.00 
+ALKP :: Rounding ::  0.00 r  0.00 pct
+ALKP :: Rounding ::  0.01 r  0.00 pct
+ALKP :: Rounding ::  0.10 r  0.00 pct
+ALKP :: Rounding ::  1.00 r  0.90 pct
+ALKP :: Rounding :: 10.00 r  0.09 pct
+ALKP :: Rounding :: 100.00 r  0.01 pct
+ALKP :: Rounding :: 1000.00 r  0.00 pct
+ALKP :: Rounding :: most popular rounding for vals:  1.00
+ALKP :: Stats year :: 2000 :: All :: N 155820 non-zeros 155375 Median  79.00 Mean  99.90 Std  72.52 Max 1184.00
+ALKP :: Stats year :: 2001 :: All :: N 250766 non-zeros 249916 Median  78.00 Mean  95.26 Std  65.92 Max 1080.00
+ALKP :: Stats year :: 2002 :: All :: N 358332 non-zeros 357554 Median  78.00 Mean  94.74 Std  63.35 Max 1044.00
+ALKP :: Stats year :: 2003 :: All :: N 532781 non-zeros 532605 Median  78.00 Mean  93.97 Std  58.87 Max 976.00
+ALKP :: Stats year :: 2004 :: All :: N 730489 non-zeros 730029 Median  77.00 Mean  91.68 Std  55.15 Max 917.00
+ALKP :: Stats year :: 2005 :: All :: N 859428 non-zeros 859315 Median  78.00 Mean  91.21 Std  53.88 Max 899.00
+ALKP :: Stats year :: 2006 :: All :: N 949339 non-zeros 949218 Median  78.00 Mean  90.15 Std  51.37 Max 860.00
+ALKP :: Stats year :: 2007 :: All :: N 1018580 non-zeros 1018484 Median  76.00 Mean  85.01 Std  43.36 Max 734.00
+ALKP :: Stats year :: 2008 :: All :: N 1080336 non-zeros 1080257 Median  75.00 Mean  83.78 Std  42.09 Max 715.00
+ALKP :: Stats year :: 2009 :: All :: N 1119570 non-zeros 1119469 Median  74.00 Mean  82.73 Std  40.73 Max 693.00
+ALKP :: Stats year :: 2010 :: All :: N 1130631 non-zeros 1130556 Median  74.00 Mean  81.86 Std  40.35 Max 687.00
+ALKP :: Stats year :: 2011 :: All :: N 1170457 non-zeros 1170393 Median  73.00 Mean  80.94 Std  39.42 Max 672.00
+ALKP :: Stats year :: 2012 :: All :: N 1188174 non-zeros 1188124 Median  74.00 Mean  80.66 Std  36.94 Max 634.00
+ALKP :: Stats year :: 2013 :: All :: N 1170187 non-zeros 1170162 Median  74.00 Mean  80.82 Std  36.16 Max 623.00
+ALKP :: Stats year :: 2014 :: All :: N 1078692 non-zeros 1078689 Median  75.00 Mean  81.35 Std  36.04 Max 622.00
+ALKP :: Stats year :: 2015 :: All :: N 939038 non-zeros 939034 Median  75.00 Mean  80.27 Std  32.81 Max 572.00
+ALKP :: Stats year :: 2016 :: All :: N 45086 non-zeros 45086 Median  78.00 Mean  85.72 Std  39.80 Max 672.00
+ALKP :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+ALKP :: Stats year :: 2000 :: Males   :: N 67161 non-zeros 66967 Median  79.00 Mean 101.18 Std  75.40 Max 1226.00
+ALKP :: Stats year :: 2001 :: Males   :: N 110035 non-zeros 109674 Median  78.00 Mean  96.13 Std  67.07 Max 1098.00
+ALKP :: Stats year :: 2002 :: Males   :: N 159313 non-zeros 159009 Median  78.00 Mean  95.26 Std  64.23 Max 1052.00
+ALKP :: Stats year :: 2003 :: Males   :: N 239416 non-zeros 239341 Median  78.00 Mean  93.86 Std  58.52 Max 971.00
+ALKP :: Stats year :: 2004 :: Males   :: N 330179 non-zeros 329963 Median  77.00 Mean  91.18 Std  54.88 Max 914.00
+ALKP :: Stats year :: 2005 :: Males   :: N 388275 non-zeros 388222 Median  77.00 Mean  90.34 Std  53.06 Max 885.00
+ALKP :: Stats year :: 2006 :: Males   :: N 430243 non-zeros 430184 Median  77.00 Mean  89.26 Std  50.86 Max 852.00
+ALKP :: Stats year :: 2007 :: Males   :: N 463264 non-zeros 463215 Median  75.00 Mean  84.02 Std  42.56 Max 721.00
+ALKP :: Stats year :: 2008 :: Males   :: N 490513 non-zeros 490475 Median  74.00 Mean  82.84 Std  40.85 Max 694.00
+ALKP :: Stats year :: 2009 :: Males   :: N 507006 non-zeros 506962 Median  74.00 Mean  81.97 Std  39.78 Max 678.00
+ALKP :: Stats year :: 2010 :: Males   :: N 512314 non-zeros 512287 Median  73.00 Mean  81.15 Std  39.54 Max 674.00
+ALKP :: Stats year :: 2011 :: Males   :: N 527768 non-zeros 527735 Median  72.00 Mean  80.27 Std  38.94 Max 664.00
+ALKP :: Stats year :: 2012 :: Males   :: N 535035 non-zeros 535017 Median  73.00 Mean  79.94 Std  36.05 Max 620.00
+ALKP :: Stats year :: 2013 :: Males   :: N 525820 non-zeros 525806 Median  73.00 Mean  80.25 Std  35.48 Max 611.00
+ALKP :: Stats year :: 2014 :: Males   :: N 479281 non-zeros 479279 Median  74.00 Mean  80.81 Std  35.38 Max 611.00
+ALKP :: Stats year :: 2015 :: Males   :: N 415991 non-zeros 415989 Median  74.00 Mean  79.58 Std  31.77 Max 556.00
+ALKP :: Stats year :: 2016 :: Males   :: N 19994 non-zeros 19994 Median  77.00 Mean  84.47 Std  38.61 Max 652.00
+ALKP :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+ALKP :: Stats year :: 2000 :: Females :: N 88669 non-zeros 88435 Median  79.00 Mean  99.01 Std  70.95 Max 1159.00
+ALKP :: Stats year :: 2001 :: Females :: N 140726 non-zeros 140238 Median  77.00 Mean  94.52 Std  64.49 Max 1055.00
+ALKP :: Stats year :: 2002 :: Females :: N 199021 non-zeros 198546 Median  78.00 Mean  94.30 Std  62.80 Max 1036.00
+ALKP :: Stats year :: 2003 :: Females :: N 293370 non-zeros 293276 Median  78.00 Mean  94.10 Std  59.44 Max 985.00
+ALKP :: Stats year :: 2004 :: Females :: N 400297 non-zeros 400060 Median  78.00 Mean  92.11 Std  55.52 Max 923.00
+ALKP :: Stats year :: 2005 :: Females :: N 471142 non-zeros 471077 Median  78.00 Mean  91.90 Std  54.43 Max 907.00
+ALKP :: Stats year :: 2006 :: Females :: N 519096 non-zeros 519035 Median  78.00 Mean  90.88 Std  51.74 Max 867.00
+ALKP :: Stats year :: 2007 :: Females :: N 555329 non-zeros 555276 Median  77.00 Mean  85.84 Std  44.13 Max 747.00
+ALKP :: Stats year :: 2008 :: Females :: N 589807 non-zeros 589759 Median  76.00 Mean  84.53 Std  42.94 Max 728.00
+ALKP :: Stats year :: 2009 :: Females :: N 612591 non-zeros 612541 Median  75.00 Mean  83.34 Std  41.43 Max 704.00
+ALKP :: Stats year :: 2010 :: Females :: N 618337 non-zeros 618295 Median  74.00 Mean  82.49 Std  41.21 Max 700.00
+ALKP :: Stats year :: 2011 :: Females :: N 642659 non-zeros 642629 Median  74.00 Mean  81.52 Std  39.92 Max 679.00
+ALKP :: Stats year :: 2012 :: Females :: N 653128 non-zeros 653093 Median  74.00 Mean  81.20 Std  37.43 Max 642.00
+ALKP :: Stats year :: 2013 :: Females :: N 644373 non-zeros 644359 Median  75.00 Mean  81.32 Std  36.74 Max 632.00
+ALKP :: Stats year :: 2014 :: Females :: N 599420 non-zeros 599418 Median  75.00 Mean  81.77 Std  36.49 Max 627.00
+ALKP :: Stats year :: 2015 :: Females :: N 523055 non-zeros 523052 Median  75.00 Mean  80.80 Std  33.57 Max 584.00
+ALKP :: Stats year :: 2016 :: Females :: N 25095 non-zeros 25095 Median  79.00 Mean  86.81 Std  41.16 Max 699.00
+ALKP :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+ALKP :: Stats month 1 :: All :: N 814565 non-zeros 814429 Median  76.00 Mean  87.31 Std  50.73 Max 848.00
+ALKP :: Stats month 2 :: All :: N 771364 non-zeros 771230 Median  76.00 Mean  86.77 Std  49.32 Max 826.00
+ALKP :: Stats month 3 :: All :: N 826445 non-zeros 826294 Median  76.00 Mean  86.97 Std  50.03 Max 837.00
+ALKP :: Stats month 4 :: All :: N 759413 non-zeros 759296 Median  76.00 Mean  87.08 Std  50.67 Max 847.00
+ALKP :: Stats month 5 :: All :: N 779990 non-zeros 779823 Median  76.00 Mean  86.85 Std  50.25 Max 840.00
+ALKP :: Stats month 6 :: All :: N 803335 non-zeros 803164 Median  76.00 Mean  86.41 Std  50.14 Max 838.00
+ALKP :: Stats month 7 :: All :: N 816956 non-zeros 816783 Median  75.00 Mean  85.39 Std  49.17 Max 822.00
+ALKP :: Stats month 8 :: All :: N 770678 non-zeros 770552 Median  75.00 Mean  85.48 Std  49.93 Max 834.00
+ALKP :: Stats month 9 :: All :: N 814134 non-zeros 814000 Median  75.00 Mean  85.15 Std  48.69 Max 815.00
+ALKP :: Stats month 10 :: All :: N 840373 non-zeros 840238 Median  75.00 Mean  85.29 Std  48.25 Max 809.00
+ALKP :: Stats month 11 :: All :: N 814572 non-zeros 814436 Median  75.00 Mean  85.73 Std  48.75 Max 817.00
+ALKP :: Stats month 12 :: All :: N 684592 non-zeros 684478 Median  76.00 Mean  86.73 Std  50.52 Max 844.00
+

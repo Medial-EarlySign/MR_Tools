@@ -1,0 +1,162 @@
+eGFR_MDRD :: All :: With Values :: 936541 / 1279479 =  0.73 :: 936541 / 936541 =  1.00
+eGFR_MDRD :: Males :: With Values :: 441388 / 622859 =  0.71 :: 441388 / 936541 =  0.47
+eGFR_MDRD :: Females :: With Values :: 495153 / 656620 =  0.75 :: 495153 / 936541 =  0.53
+eGFR_MDRD :: General :: No. of Values :: All 11439242 Male 5087460 Female 6351782
+eGFR_MDRD :: General :: No. of different days Values :: All 11434103 Male 5084790 Female 6349313
+eGFR_MDRD :: General :: Avg #values per person (all) :: All  8.94 Male  8.16 Female  9.67
+eGFR_MDRD :: General :: Avg #values per person (>0)  :: All 12.21 Male 11.52 Female 12.82
+eGFR_MDRD :: General :: Avg dist between tests       :: All  298.9 Male  298.8 Female  299.0
+eGFR_MDRD :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 25 - 30 :: All ::   1858 0.000
+eGFR_MDRD :: Counts :: Age Group 30 - 35 :: All ::  54138 0.005
+eGFR_MDRD :: Counts :: Age Group 35 - 40 :: All :: 133321 0.012
+eGFR_MDRD :: Counts :: Age Group 40 - 45 :: All :: 224151 0.020
+eGFR_MDRD :: Counts :: Age Group 45 - 50 :: All :: 226686 0.020
+eGFR_MDRD :: Counts :: Age Group 50 - 55 :: All :: 246239 0.022
+eGFR_MDRD :: Counts :: Age Group 55 - 60 :: All :: 268319 0.023
+eGFR_MDRD :: Counts :: Age Group 60 - 65 :: All :: 262102 0.023
+eGFR_MDRD :: Counts :: Age Group 65 - 70 :: All :: 244802 0.021
+eGFR_MDRD :: Counts :: Age Group 70 - 75 :: All :: 196636 0.017
+eGFR_MDRD :: Counts :: Age Group 75 - 80 :: All :: 177693 0.016
+eGFR_MDRD :: Counts :: Age Group 80 - 85 :: All :: 127933 0.011
+eGFR_MDRD :: Counts :: Age Group 85 - 90 :: All ::  79899 0.007
+eGFR_MDRD :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 25 - 30 :: Males ::    523 0.000
+eGFR_MDRD :: Counts :: Age Group 30 - 35 :: Males ::  18382 0.004
+eGFR_MDRD :: Counts :: Age Group 35 - 40 :: Males ::  50370 0.010
+eGFR_MDRD :: Counts :: Age Group 40 - 45 :: Males ::  92011 0.018
+eGFR_MDRD :: Counts :: Age Group 45 - 50 :: Males ::  99402 0.020
+eGFR_MDRD :: Counts :: Age Group 50 - 55 :: Males :: 111203 0.022
+eGFR_MDRD :: Counts :: Age Group 55 - 60 :: Males :: 121495 0.024
+eGFR_MDRD :: Counts :: Age Group 60 - 65 :: Males :: 121902 0.024
+eGFR_MDRD :: Counts :: Age Group 65 - 70 :: Males :: 115627 0.023
+eGFR_MDRD :: Counts :: Age Group 70 - 75 :: Males ::  95018 0.019
+eGFR_MDRD :: Counts :: Age Group 75 - 80 :: Males ::  83817 0.016
+eGFR_MDRD :: Counts :: Age Group 80 - 85 :: Males ::  57715 0.011
+eGFR_MDRD :: Counts :: Age Group 85 - 90 :: Males ::  33323 0.007
+eGFR_MDRD :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 25 - 30 :: Females ::   1335 0.000
+eGFR_MDRD :: Counts :: Age Group 30 - 35 :: Females ::  35756 0.006
+eGFR_MDRD :: Counts :: Age Group 35 - 40 :: Females ::  82951 0.013
+eGFR_MDRD :: Counts :: Age Group 40 - 45 :: Females :: 132140 0.021
+eGFR_MDRD :: Counts :: Age Group 45 - 50 :: Females :: 127284 0.020
+eGFR_MDRD :: Counts :: Age Group 50 - 55 :: Females :: 135036 0.021
+eGFR_MDRD :: Counts :: Age Group 55 - 60 :: Females :: 146824 0.023
+eGFR_MDRD :: Counts :: Age Group 60 - 65 :: Females :: 140200 0.022
+eGFR_MDRD :: Counts :: Age Group 65 - 70 :: Females :: 129175 0.020
+eGFR_MDRD :: Counts :: Age Group 70 - 75 :: Females :: 101618 0.016
+eGFR_MDRD :: Counts :: Age Group 75 - 80 :: Females ::  93876 0.015
+eGFR_MDRD :: Counts :: Age Group 80 - 85 :: Females ::  70218 0.011
+eGFR_MDRD :: Counts :: Age Group 85 - 90 :: Females ::  46576 0.007
+eGFR_MDRD :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+eGFR_MDRD :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+eGFR_MDRD :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats :: Age Group 25 - 30 :: All ::  N 54830 non-zeros 54830 Median  85.02 Mean  88.07 Std  17.11 Max 264.39
+eGFR_MDRD :: Stats :: Age Group 30 - 35 :: All ::  N 173731 non-zeros 173731 Median  82.32 Mean  84.04 Std  16.11 Max 260.88
+eGFR_MDRD :: Stats :: Age Group 35 - 40 :: All ::  N 299233 non-zeros 299233 Median  84.08 Mean  89.55 Std  20.47 Max 396.01
+eGFR_MDRD :: Stats :: Age Group 40 - 45 :: All ::  N 379176 non-zeros 379176 Median  87.70 Mean  89.53 Std  19.99 Max 389.09
+eGFR_MDRD :: Stats :: Age Group 45 - 50 :: All ::  N 344521 non-zeros 344521 Median  82.25 Mean  85.86 Std  19.08 Max 346.17
+eGFR_MDRD :: Stats :: Age Group 50 - 55 :: All ::  N 318835 non-zeros 318835 Median  78.63 Mean  82.59 Std  18.90 Max 352.96
+eGFR_MDRD :: Stats :: Age Group 55 - 60 :: All ::  N 277326 non-zeros 277326 Median  76.94 Mean  80.29 Std  19.12 Max 367.06
+eGFR_MDRD :: Stats :: Age Group 60 - 65 :: All ::  N 234938 non-zeros 234938 Median  75.69 Mean  78.68 Std  19.43 Max 361.78
+eGFR_MDRD :: Stats :: Age Group 65 - 70 :: All ::  N 185794 non-zeros 185794 Median  72.40 Mean  74.84 Std  19.72 Max 368.14
+eGFR_MDRD :: Stats :: Age Group 70 - 75 :: All ::  N 131464 non-zeros 131464 Median  70.10 Mean  70.88 Std  20.18 Max 351.09
+eGFR_MDRD :: Stats :: Age Group 75 - 80 :: All ::  N 103035 non-zeros 103035 Median  65.08 Mean  67.02 Std  20.96 Max 366.53
+eGFR_MDRD :: Stats :: Age Group 80 - 85 :: All ::  N 65627 non-zeros 65627 Median  60.22 Mean  63.60 Std  22.30 Max 362.36
+eGFR_MDRD :: Stats :: Age Group 85 - 90 :: All ::  N 37698 non-zeros 37698 Median  59.14 Mean  61.72 Std  23.51 Max 335.82
+eGFR_MDRD :: Stats :: Age Group 90 - 95 :: All ::  N 15892 non-zeros 15892 Median  57.66 Mean  60.03 Std  23.91 Max 243.43
+eGFR_MDRD :: Stats :: Age Group 95 - 100 :: All ::  N 4030 non-zeros 4030 Median  56.09 Mean  58.96 Std  24.89 Max 295.27
+eGFR_MDRD :: General :: All     :: outliers ratio 0.001084
+eGFR_MDRD :: General :: All     :: N 935459 non-zeros 935459 Median  81.02 Mean  82.84 Std  21.64 Max 404.26
+eGFR_MDRD :: General :: All     :: distribution 0.001,0.01,0.05 ::  10.59  33.48  51.94 118.72 141.96 185.65
+eGFR_MDRD :: General :: All     :: quartiles ::  10.59  69.35  81.02  94.71 
+eGFR_MDRD :: General :: Males   :: outliers ratio 0.001192
+eGFR_MDRD :: General :: Males   :: N 440847 non-zeros 440847 Median  81.22 Mean  82.43 Std  20.22 Max 383.78
+eGFR_MDRD :: General :: Males   :: distribution 0.001,0.01,0.05 ::  10.12  32.69  52.55 115.80 136.96 182.49
+eGFR_MDRD :: General :: Males   :: quartiles ::  10.12  70.07  81.22  93.99 
+eGFR_MDRD :: General :: Females :: outliers ratio 0.001018
+eGFR_MDRD :: General :: Females :: N 494597 non-zeros 494597 Median  80.79 Mean  83.19 Std  22.88 Max 404.26
+eGFR_MDRD :: General :: Females :: distribution 0.001,0.01,0.05 ::  12.03  34.66  51.47 122.35 147.15 190.37
+eGFR_MDRD :: General :: Females :: quartiles ::  12.03  68.58  80.79  95.49 
+eGFR_MDRD :: Rounding ::  0.00 r  0.91 pct
+eGFR_MDRD :: Rounding ::  0.01 r  0.08 pct
+eGFR_MDRD :: Rounding ::  0.10 r  0.01 pct
+eGFR_MDRD :: Rounding ::  1.00 r  0.00 pct
+eGFR_MDRD :: Rounding :: 10.00 r  0.00 pct
+eGFR_MDRD :: Rounding :: 100.00 r  0.00 pct
+eGFR_MDRD :: Rounding :: 1000.00 r  0.00 pct
+eGFR_MDRD :: Rounding :: most popular rounding for vals:  0.00
+eGFR_MDRD :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats year :: 2001 :: All :: N 329901 non-zeros 329901 Median  76.87 Mean  78.80 Std  19.50 Max 367.12
+eGFR_MDRD :: Stats year :: 2002 :: All :: N 334021 non-zeros 334021 Median  71.08 Mean  71.37 Std  15.28 Max 281.54
+eGFR_MDRD :: Stats year :: 2003 :: All :: N 366561 non-zeros 366561 Median  70.18 Mean  70.25 Std  14.52 Max 265.35
+eGFR_MDRD :: Stats year :: 2004 :: All :: N 399379 non-zeros 399379 Median  69.09 Mean  69.14 Std  13.99 Max 264.28
+eGFR_MDRD :: Stats year :: 2005 :: All :: N 418984 non-zeros 418984 Median  68.39 Mean  68.44 Std  13.66 Max 242.27
+eGFR_MDRD :: Stats year :: 2006 :: All :: N 439228 non-zeros 439228 Median  69.03 Mean  69.08 Std  13.80 Max 256.23
+eGFR_MDRD :: Stats year :: 2007 :: All :: N 459412 non-zeros 459412 Median  70.69 Mean  70.67 Std  14.17 Max 266.38
+eGFR_MDRD :: Stats year :: 2008 :: All :: N 468405 non-zeros 468405 Median  79.26 Mean  81.30 Std  21.21 Max 390.53
+eGFR_MDRD :: Stats year :: 2009 :: All :: N 499735 non-zeros 499735 Median  87.21 Mean  88.60 Std  21.93 Max 402.07
+eGFR_MDRD :: Stats year :: 2010 :: All :: N 503004 non-zeros 503004 Median  85.89 Mean  87.10 Std  21.57 Max 401.37
+eGFR_MDRD :: Stats year :: 2011 :: All :: N 513885 non-zeros 513885 Median  86.77 Mean  88.15 Std  22.09 Max 398.83
+eGFR_MDRD :: Stats year :: 2012 :: All :: N 525160 non-zeros 525160 Median  87.98 Mean  89.19 Std  22.55 Max 422.35
+eGFR_MDRD :: Stats year :: 2013 :: All :: N 532663 non-zeros 532663 Median  87.49 Mean  88.54 Std  22.39 Max 422.44
+eGFR_MDRD :: Stats year :: 2014 :: All :: N 533153 non-zeros 533153 Median  84.87 Mean  85.75 Std  21.40 Max 402.04
+eGFR_MDRD :: Stats year :: 2015 :: All :: N 478586 non-zeros 478586 Median  85.43 Mean  86.25 Std  21.95 Max 413.38
+eGFR_MDRD :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats year :: 2001 :: Males   :: N 135765 non-zeros 135765 Median  77.78 Mean  78.65 Std  18.43 Max 350.69
+eGFR_MDRD :: Stats year :: 2002 :: Males   :: N 140182 non-zeros 140182 Median  71.84 Mean  72.18 Std  15.19 Max 281.54
+eGFR_MDRD :: Stats year :: 2003 :: Males   :: N 154386 non-zeros 154386 Median  70.96 Mean  71.12 Std  14.42 Max 251.08
+eGFR_MDRD :: Stats year :: 2004 :: Males   :: N 169680 non-zeros 169680 Median  70.11 Mean  70.18 Std  13.89 Max 264.28
+eGFR_MDRD :: Stats year :: 2005 :: Males   :: N 180003 non-zeros 180003 Median  69.65 Mean  69.65 Std  13.64 Max 239.54
+eGFR_MDRD :: Stats year :: 2006 :: Males   :: N 190351 non-zeros 190351 Median  70.22 Mean  70.38 Std  13.80 Max 260.54
+eGFR_MDRD :: Stats year :: 2007 :: Males   :: N 200187 non-zeros 200187 Median  72.06 Mean  71.96 Std  14.22 Max 266.38
+eGFR_MDRD :: Stats year :: 2008 :: Males   :: N 203946 non-zeros 203946 Median  78.97 Mean  80.68 Std  19.90 Max 335.47
+eGFR_MDRD :: Stats year :: 2009 :: Males   :: N 218853 non-zeros 218853 Median  85.89 Mean  86.74 Std  20.60 Max 388.95
+eGFR_MDRD :: Stats year :: 2010 :: Males   :: N 220987 non-zeros 220987 Median  84.60 Mean  85.35 Std  20.33 Max 340.64
+eGFR_MDRD :: Stats year :: 2011 :: Males   :: N 226785 non-zeros 226785 Median  85.28 Mean  86.26 Std  20.77 Max 337.85
+eGFR_MDRD :: Stats year :: 2012 :: Males   :: N 233087 non-zeros 233087 Median  86.51 Mean  87.21 Std  21.36 Max 390.34
+eGFR_MDRD :: Stats year :: 2013 :: Males   :: N 237197 non-zeros 237197 Median  86.00 Mean  86.61 Std  21.33 Max 398.47
+eGFR_MDRD :: Stats year :: 2014 :: Males   :: N 238324 non-zeros 238324 Median  83.65 Mean  84.13 Std  20.63 Max 392.08
+eGFR_MDRD :: Stats year :: 2015 :: Males   :: N 214157 non-zeros 214157 Median  84.12 Mean  84.61 Std  21.38 Max 405.01
+eGFR_MDRD :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats year :: 2001 :: Females :: N 194120 non-zeros 194120 Median  76.11 Mean  78.90 Std  20.21 Max 367.12
+eGFR_MDRD :: Stats year :: 2002 :: Females :: N 193858 non-zeros 193858 Median  70.40 Mean  70.77 Std  15.36 Max 259.92
+eGFR_MDRD :: Stats year :: 2003 :: Females :: N 212191 non-zeros 212191 Median  69.42 Mean  69.63 Std  14.55 Max 265.35
+eGFR_MDRD :: Stats year :: 2004 :: Females :: N 229705 non-zeros 229705 Median  67.97 Mean  68.38 Std  14.05 Max 247.07
+eGFR_MDRD :: Stats year :: 2005 :: Females :: N 238979 non-zeros 238979 Median  67.01 Mean  67.51 Std  13.65 Max 245.70
+eGFR_MDRD :: Stats year :: 2006 :: Females :: N 248884 non-zeros 248884 Median  67.79 Mean  68.08 Std  13.70 Max 256.23
+eGFR_MDRD :: Stats year :: 2007 :: Females :: N 259258 non-zeros 259258 Median  69.73 Mean  69.68 Std  14.06 Max 250.91
+eGFR_MDRD :: Stats year :: 2008 :: Females :: N 264520 non-zeros 264520 Median  79.40 Mean  81.76 Std  22.22 Max 390.53
+eGFR_MDRD :: Stats year :: 2009 :: Females :: N 280864 non-zeros 280864 Median  88.21 Mean  90.08 Std  22.88 Max 402.07
+eGFR_MDRD :: Stats year :: 2010 :: Females :: N 282026 non-zeros 282026 Median  86.89 Mean  88.47 Std  22.44 Max 413.98
+eGFR_MDRD :: Stats year :: 2011 :: Females :: N 287081 non-zeros 287081 Median  87.81 Mean  89.65 Std  22.95 Max 402.22
+eGFR_MDRD :: Stats year :: 2012 :: Females :: N 292055 non-zeros 292055 Median  89.21 Mean  90.83 Std  23.34 Max 427.49
+eGFR_MDRD :: Stats year :: 2013 :: Females :: N 295478 non-zeros 295478 Median  88.78 Mean  90.10 Std  23.07 Max 435.03
+eGFR_MDRD :: Stats year :: 2014 :: Females :: N 294815 non-zeros 294815 Median  85.89 Mean  87.03 Std  21.93 Max 407.02
+eGFR_MDRD :: Stats year :: 2015 :: Females :: N 264441 non-zeros 264441 Median  86.57 Mean  87.58 Std  22.31 Max 387.60
+eGFR_MDRD :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+eGFR_MDRD :: Stats month 1 :: All :: N 327767 non-zeros 327767 Median  80.94 Mean  82.42 Std  23.51 Max 432.19
+eGFR_MDRD :: Stats month 2 :: All :: N 320638 non-zeros 320638 Median  81.12 Mean  82.50 Std  23.48 Max 432.05
+eGFR_MDRD :: Stats month 3 :: All :: N 328598 non-zeros 328598 Median  80.79 Mean  82.27 Std  23.48 Max 429.78
+eGFR_MDRD :: Stats month 4 :: All :: N 311145 non-zeros 311145 Median  80.49 Mean  81.90 Std  23.66 Max 431.90
+eGFR_MDRD :: Stats month 5 :: All :: N 358456 non-zeros 358456 Median  80.32 Mean  81.67 Std  23.10 Max 423.41
+eGFR_MDRD :: Stats month 6 :: All :: N 355330 non-zeros 355330 Median  80.70 Mean  81.83 Std  22.99 Max 415.37
+eGFR_MDRD :: Stats month 7 :: All :: N 362810 non-zeros 362810 Median  80.51 Mean  81.62 Std  23.04 Max 427.16
+eGFR_MDRD :: Stats month 8 :: All :: N 346786 non-zeros 346786 Median  80.10 Mean  81.30 Std  23.11 Max 407.02
+eGFR_MDRD :: Stats month 9 :: All :: N 300015 non-zeros 300015 Median  80.13 Mean  81.27 Std  23.44 Max 400.07
+eGFR_MDRD :: Stats month 10 :: All :: N 338812 non-zeros 338812 Median  80.48 Mean  81.68 Std  23.02 Max 409.97
+eGFR_MDRD :: Stats month 11 :: All :: N 323661 non-zeros 323661 Median  80.69 Mean  82.04 Std  23.08 Max 426.70
+eGFR_MDRD :: Stats month 12 :: All :: N 311751 non-zeros 311751 Median  81.24 Mean  82.63 Std  23.54 Max 434.78
+

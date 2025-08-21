@@ -1,0 +1,15 @@
+OUTPUT_CerebralDrain	ml	1.0
+OUTPUT_ChestTube	ml	1.0
+OUTPUT_Dialysis	ml	1.0
+OUTPUT_DrainOut	ml	1.0
+OUTPUT_Emssis	ml	1.0
+OUTPUT_EstimatedBloodLoss	ml	1.0
+OUTPUT_Fluid	ml	1.0
+OUTPUT_Gastric	ml	1.0
+OUTPUT_HemoDialysis	ml	1.0
+OUTPUT_StoolOut	ml	1.0
+OUTPUT_TFResidual	ml	1.0
+OUTPUT_Ultrafiltrate	ml	1.0
+OUTPUT_UrineOut	ml	1.0
+OUTPUT_UrineProduction	ml	1.0
+OUTPUT_WoundVac	ml	1.0

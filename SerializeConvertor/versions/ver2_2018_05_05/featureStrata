@@ -1,0 +1,5 @@
+name	string
+resolution	float
+min	float
+max	float
+nValues	int

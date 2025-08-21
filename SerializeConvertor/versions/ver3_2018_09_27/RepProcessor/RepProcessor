@@ -1,0 +1,15 @@
+processor_type	ABSTRACT
+ABSTRACT	0	RepMultiProcessor
+ABSTRACT	1	RepBasicOutlierCleaner
+ABSTRACT	2	RepNbrsOutlierCleaner
+ABSTRACT	3	RepConfiguredOutlierCleaner
+ABSTRACT	4	RepRuleBasedOutlierCleaner
+ABSTRACT	5	RepCalcSimpleSignals
+ABSTRACT	6	RepPanelCompleter
+ABSTRACT	7	RepCheckReq
+ABSTRACT	8	RepSimValHandler
+ABSTRACT	9	RepSignalRate
+ABSTRACT	10	RepCombineSignals
+ABSTRACT	11	RepSplitSignal
+ABSTRACT	12	RepAggregateSignal
+ABSTRACT	13	FTR_GEN_LAST

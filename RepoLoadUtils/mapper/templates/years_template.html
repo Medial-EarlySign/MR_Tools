@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Distribution</title>
+    {{ js_resources|indent(4)|safe }}
+    {{ css_resources|indent(4)|safe }}
+    {{ plot_script|indent(4)|safe }}
+    {{ mn_script|indent(4)|safe }}
+  </head>
+  <body>
+  {% extends "index_template.html" %}
+  {% block content %}
+    {{ plot_div|indent(4)|safe }}
+    {{ table_script|indent(4)|safe }}
+      <p><b>By year statistics</b></p>
+    {{ table_div|indent(4)|safe }}
+
+  <button onclick="showByMonth()">By month statistics</button>
+    <div style="display:none" id="byMonth">
+        <p><b>Select Year</b></p>
+        <form action="/by_year">
+            {% for yr in years %}
+                {% if yr == curr_year %}
+                  <input type="radio" name="year" checked="checked" value="{{ yr }}" >{{ yr }}<br>
+              {% else %}
+                  <input type="radio" name="year"  value="{{ yr }}">{{ yr }}<br>
+              {% endif %}
+            {% endfor %}
+       <input type="submit" value="Submit">
+   </form>
+        {{ mn_div|indent(4)|safe }}
+    </div>
+  <script>
+function showByMonth() {
+  var x = document.getElementById("byMonth");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+  {% endblock %}
+  </body>
+</html>l>

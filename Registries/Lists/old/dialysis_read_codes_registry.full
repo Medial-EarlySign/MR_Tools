@@ -1,0 +1,112 @@
+G_14V2. 14V2.00H/O: renal dialysis                                         
+G_14V2. 14V2.11H/O: kidney dialysis                                        
+G_4I29. 4I29.00Peritoneal dialysis sample                                  
+G_4N... 4N...00Dialysis fluid examination                                  
+G_4N0.. 4N0..00Dialysis fluid urea level                                   
+G_4N1.. 4N1..00Dialysis fluid creatinine level                             
+G_4N2.. 4N2..00Dialysis fluid glucose level                                
+G_4N3.. 4N3..00Peritoneal dialysis fluid cell count                        
+G_4N4.. 4N4..00Dialysis fluid potassium level                              
+G_4N5.. 4N5..00Dialysis fluid sodium level                                 
+G_72573 7257300Correction iridodialysis NEC                                
+G_72610 7261011Cyclodialysis                                               
+G_7A606 7A60600Creation of graft fistula for dialysis                      
+G_7A619 7A61900Ligation of arteriovenous dialysis fistula                  
+G_7A61A 7A61A00Ligation of arteriovenous dialysis graft                    
+G_7L1A. 7L1A.11Dialysis for renal failure                                  
+G_7L1A0 7L1A000Renal dialysis                                              
+G_7L1A0 7L1A011Thomas intravascular shunt for dialysis                     
+G_7L1A1 7L1A100Peritoneal dialysis                                         
+G_7L1A2 7L1A200Haemodialysis NEC                                           
+G_7L1A4 7L1A400Automated peritoneal dialysis                               
+G_7L1A5 7L1A500Continuous ambulatory peritoneal dialysis                   
+G_7L1A6 7L1A600Peritoneal dialysis NEC                                     
+G_7L1B. 7L1B.11Placement ambulatory dialysis apparatus - compens renal fail
+G_7L1B0 7L1B000Insertion of ambulatory peritoneal dialysis catheter        
+G_7L1B1 7L1B100Removal of ambulatory peritoneal dialysis catheter          
+G_7L1B2 7L1B200Flushing of peritoneal dialysis catheter                    
+G_7L1C0 7L1C000Insertion of temporary peritoneal dialysis catheter         
+G_7L1f0 7L1f000Extracorporeal albumin haemodialysis                        
+G_8882. 8882.00Intestinal dialysis                                         
+G_F4104 F410400New partial retinal detachment with retinal dialysis        
+G_F447C F447C00Iridodialysis                                               
+G_G72C. G72C.00Ruptured aneurysm of dialysis vascular access               
+G_G72D. G72D.00Aneurysm of dialysis arteriovenous fistula                  
+G_G72D0 G72D000Aneurysm of superficialised artery of dialysis AV fistula   
+G_G72D1 G72D100Aneurysm of needle site of dialysis arteriovenous fistula   
+G_G72D2 G72D200Aneurysm of anastomotic site of dialysis AV fistula         
+G_G72E. G72E.00Aneurysm of dialysis vascular access                        
+G_Gy1.. Gy1..00Stenosis of dialysis vascular access                        
+G_Gy10. Gy10.00Stenosis of dialysis arteriovenous graft                    
+G_Gy11. Gy11.00Stenosis of dialysis arteriovenous shunt                    
+G_Gy110 Gy11000Stenosis of arterial side of dialysis arteriovenous shunt   
+G_Gy111 Gy11100Stenosis of venous side of dialysis arteriovenous shunt     
+G_Gy2.. Gy2..00Thrombosis of dialysis vascular access                      
+G_Gy20. Gy20.00Thrombosis of dialysis arteriovenous graft                  
+G_Gy21. Gy21.00Thrombosis of dialysis arteriovenous fistula                
+G_Gy22. Gy22.00Thrombosis of dialysis arteriovenous shunt                  
+G_Gy3.. Gy3..00Occlusion of dialysis vascular access                       
+G_Gy30. Gy30.00Occlusion of dialysis arteriovenous graft                   
+G_Gy31. Gy31.00Occlusion of dialysis arteriovenous fistula                 
+G_Gy32. Gy32.00Occlusion of dialysis arteriovenous shunt                   
+G_Gy4.. Gy4..00Infection of dialysis vascular access                       
+G_Gy40. Gy40.00Infection of dialysis arteriovenous graft                   
+G_Gy41. Gy41.00Infection of dialysis arteriovenous fistula                 
+G_Gy42. Gy42.00Infection of dialysis arteriovenous shunt                   
+G_Gy5.. Gy5..00Haemorrhage of dialysis vascular access                     
+G_Gy50. Gy50.00Haemorrhage of dialysis arteriovenous graft                 
+G_Gy51. Gy51.00Haemorrhage of dialysis arteriovenous fistula               
+G_Gy52. Gy52.00Haemorrhage of dialysis arteriovenous shunt                 
+G_Gy6.. Gy6..00Rupture of dialysis vascular access                         
+G_Gy60. Gy60.00Rupture of dialysis arteriovenous graft                     
+G_Gy61. Gy61.00Rupture of dialysis arteriovenous fistula                   
+G_Gy62. Gy62.00Rupture of dialysis arteriovenous shunt                     
+G_SP015 SP01500Mechanical complication of dialysis catheter                
+G_SP056 SP05613[X] Peritoneal dialysis associated peritonitis              
+G_SP06B SP06B00Continuous ambulatory peritoneal dialysis associated perit  
+G_SP07G SP07G00Stenosis of arteriovenous dialysis fistula                  
+G_SP0E. SP0E.00Disorders associated with peritoneal dialysis               
+G_SP0E0 SP0E000Bloodstained peritoneal dialysis effluent                   
+G_SP0E1 SP0E100Thrombus in peritoneal dialysis catheter                    
+G_SP0F. SP0F.00Haemodialysis first use syndrome                            
+G_SP0G. SP0G.00Anaphylactoid reaction due to haemodialysis                 
+G_SP0H. SP0H.00Disorder associated with dialysis                           
+G_SP0H0 SP0H000Dialysis disequilibrium                                     
+G_SP3y9 SP3y900Acute hypercalcaemia of dialysis                            
+G_TA02. TA02.00Accid cut,puncture,perf,h'ge - kidney dialysis/oth perfusion
+G_TA020 TA02000Accid cut,puncture,perf,h'ge - kidney dialysis              
+G_TA020 TA02011Accidental cut/puncture/perf/haem'ge during renal dialysis  
+G_TA120 TA12000Foreign object left in body during kidney dialysis          
+G_TA120 TA12011Foreign object left in body during renal dialysis           
+G_TA220 TA22000Failure of sterile precautions during kidney dialysis       
+G_TA220 TA22011Failure of sterile precautions during renal dialysis        
+G_TA420 TA42000Mechanical failure of apparatus during kidney dialysis      
+G_TA420 TA42011Mechanical failure of apparatus during renal dialysis       
+G_TB11. TB11.00Kidney dialysis with complication, without blame            
+G_TB11. TB11.11Renal dialysis with complication, without blame             
+G_U641. U641.00[X]Kidny dialysis caus abn reac pt/lat comp no misad at time
+G_Z1314 Z131400Warming patient by dialysis therapy                         
+G_Z1315 Z131500Warming patient with warm haemodialysis                     
+G_Z1316 Z131600Warming patient with warm peritoneal dialysis               
+G_Z1328 Z132800Cooling patient using cool peritoneal dialysis              
+G_Z1A.. Z1A..00Dialysis training                                           
+G_Z1A1. Z1A1.00Peritoneal dialysis training                                
+G_Z1A1. Z1A1.11PD - Peritoneal dialysis training                           
+G_Z1A2. Z1A2.00Haemodialysis training                                      
+G_Z1A2. Z1A2.11HD - Haemodialysis training                                 
+G_Z919. Z919.00Care of haemodialysis equipment                             
+G_Z9191 Z919100Priming haemodialysis lines                                 
+G_Z9192 Z919200Washing back through haemodialysis lines                    
+G_Z9193 Z919300Reversing haemodialysis lines                               
+G_Z9194 Z919400Recirculation of the dialysis machine                       
+G_Z91A. Z91A.00Peritoneal dialysis bag procedure                           
+G_Z91A1 Z91A100Putting additive into peritoneal dialysis bag               
+G_ZV451 ZV45100[V]Renal dialysis status                                    
+G_ZV56. ZV56.00[V]Aftercare involving intermittent dialysis                
+G_ZV560 ZV56000[V]Aftercare involving extracorporeal dialysis              
+G_ZV560 ZV56011[V]Aftercare involving renal dialysis NOS                   
+G_ZV561 ZV56100[V]Preparatory care for dialysis                            
+G_ZV56y ZV56y00[V]Other specified aftercare involving intermittent dialysis
+G_ZV56y ZV56y11[V]Aftercare involving peritoneal dialysis                  
+G_ZV56z ZV56z00[V]Unspecified aftercare involving intermittent dialysis    
+G_ZVu3G ZVu3G00[X]Other dialysis                                           

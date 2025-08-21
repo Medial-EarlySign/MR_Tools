@@ -1,0 +1,6 @@
+Signal,code_description,code_system,code,unit_from,unit_to,unit_factor
+Urine_Creatinine,Creatinine [Mass/volume] in Urine,LOINC,2161-8,mg/dL,mmol/L,0.0884
+UrineCreatinine,Creatinine [Mass/volume] in Urine,LOINC,2161-8,mg/dL,mmol/L,0.0884
+UrineCreatinine,Creatinine [Mass/volume] in Urine,LOINC,14683-7,mg/dL,mmol/L,0.0884
+UrineAlbumin,Albumin [Mass/volume] in Urine,LOINC,1754-1,g/dL,mg/L,10000
+UrineAlbumin_over_Creatinine,Albumin/Creatinine [Mass Ratio] in Urine,LOINC,9318-7,ug/mg{creat},mg/mmol,0.113

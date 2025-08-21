@@ -1,0 +1,47 @@
+signal	source	code	description	type
+Alpha_Fetoprotein	jilinlabs	Alpha-fetoprotein	Alpha-fetoprotein	numeric
+Alpha_Fetoprotein	jilinlabs	Alpha-fetoprotein (AFP)	Alpha-fetoprotein (AFP)	numeric
+MCH	jilinlabs	Average red blood cell hemoglobin amount (MCH)	Average red blood cell hemoglobin amount (MCH)	numeric
+MCV	jilinlabs	Average red blood cell volume (MCV)	Average red blood cell volume (MCV)	numeric
+Basophils%	jilinlabs	Basophilic percentage (BA)	Basophilic percentage (BA%)	numeric
+Basophils#	jilinlabs	Basophilic Absolute Value (BA#)	Basophilic Absolute Value (BA#)	numeric
+Ca	jilinlabs	calcium	calcium	numeric
+CEA	jilinlabs	Carcinoembryonic antigen	Carcinoembryonic antigen	numeric
+CEA	jilinlabs	Carcinoembryonic antigen (CEA)	Carcinoembryonic antigen (CEA)	numeric
+Cl	jilinlabs	chlorine	chlorine	numeric
+Creatinine	jilinlabs	Creatinine	Creatinine	numeric
+Creatinine	jilinlabs	Creatinine (urgent)	Creatinine (urgent)	numeric
+Eosinophils#	jilinlabs	Eosinophil absolute value (EO#)	Eosinophil absolute value (EO#)	numeric
+Eosinophils%	jilinlabs	Eosinophil percentage (EO)	Eosinophil percentage (EO%)	numeric
+Ferritin	jilinlabs	Ferritin	Ferritin	numeric
+Glucose	jilinlabs	glucose	glucose	numeric
+Hematocrit	jilinlabs	Hematocrit (HCT)	Hematocrit (HCT)	numeric
+Hemoglobin	jilinlabs	Hemoglobin (HGB)	Hemoglobin (HGB)	numeric
+Phosphore	jilinlabs	Inorganic phosphorus	Inorganic phosphorus	numeric
+Iron_Fe	jilinlabs	iron	iron	numeric
+Lymphocytes#	jilinlabs	Lymphocyte absolute value (LY#)	Lymphocyte absolute value (LY#)	numeric
+Lymphocytes%	jilinlabs	Percentage of lymphocytes (LY)	Percentage of lymphocytes (LY%)	numeric
+MCHC-M	jilinlabs	Mean erythrocyte hemoglobin concentration (MCHC)	Mean erythrocyte hemoglobin concentration (MCHC)	numeric
+MPV	jilinlabs	Mean platelet volume (MPV)	Mean platelet volume (MPV)	numeric
+Monocytes#	jilinlabs	Monocyte absolute value (MO#)	Monocyte absolute value (MO#)	numeric
+Monocytes%	jilinlabs	Percentage of monocytes (MO)	Percentage of monocytes (MO%)	numeric
+Neutrophils#	jilinlabs	Neutrophil absolute value (NE#)	Neutrophil absolute value (NE#)	numeric
+Neutrophils%	jilinlabs	Neutrophil percentage (NE)	Neutrophil percentage (NE%)	numeric
+PDW	jilinlabs	Platelet distribution width (PDW)	Platelet distribution width (PDW)	numeric
+Platelets	jilinlabs	Platelet (PLT)	Platelet (PLT)	numeric
+Potassium	jilinlabs	Potassium	Potassium	numeric
+RDW	jilinlabs	Red blood cell distribution width (RDW)	Red blood cell distribution width (RDW)	numeric
+RBC	jilinlabs	Red blood cell (RBC)	Red blood cell (RBC)	numeric
+Na	jilinlabs	sodium	sodium	numeric
+Urea	jilinlabs	Urea	Urea	numeric
+Urea	jilinlabs	Urea (urgent)	Urea (urgent)	numeric
+Uric_Acid	jilinlabs	Uric acid	Uric acid	numeric
+WBC	jilinlabs	White blood cells (WBC)	White blood cells (WBC)	numeric
+CA125	jilinlabs	Carbohydrate antigen 125 (CA125)	Carbohydrate antigen 125 (CA125)	numeric
+CA153	jilinlabs	Carbohydrate antigen 153 (CA153)	Carbohydrate antigen 153 (CA153)	numeric
+CA199	jilinlabs	Carbohydrate antigen 199 (CA199)	Carbohydrate antigen 199 (CA199)	numeric
+CA72-4	jilinlabs	Carbohydrate antigen 72-4 (CA72-4)	Carbohydrate antigen 72-4 (CA72-4)	numeric
+PCT	jilinlabs	Platelet specific volume (PCT)	Platelet specific volume (PCT)	numeric
+TIBC	jilinlabs	Total iron binding	Total iron binding	numeric
+GENDER	jilindemographic	gender	gender	category
+BYEAR	jilindemographic	dob	dob	numeric

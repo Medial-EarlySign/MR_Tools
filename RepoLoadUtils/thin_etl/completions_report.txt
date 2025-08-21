@@ -1,0 +1,76 @@
+Completed AnionGap : 1256175 times
+Completed Basophils# : 684136 times
+Completed Basophils% : 18899888 times
+Completed Bicarbonate : 407 times
+Completed Chol=LDL+HDL+VLDL : 92930 times
+Completed Chol=NH+HDL : 16519 times
+Completed Cholesterol : 222936 times
+Completed Cholesterol_over_HDL : 2554051 times
+Completed Cl : 32 times
+Completed Eosinophils# : 84615 times
+Completed Eosinophils% : 19799407 times
+Completed HDL : 79871 times
+Completed HDL_over_Cholesterol : 12884550 times
+Completed HDL_over_LDL : 10757150 times
+Completed HDL_over_nonHDL : 12707901 times
+Completed Hematocrit : 697494 times
+Completed Hemoglobin : 88616 times
+Completed LDL : 1087632 times
+Completed LDL_over_HDL : 10992483 times
+Completed Lymphocytes# : 149198 times
+Completed Lymphocytes% : 20143252 times
+Completed MCH : 1311736 times
+Completed MCHC : 22620733 times
+Completed MCV : 132993 times
+Completed MPV : 264 times
+Completed Monocytes# : 111784 times
+Completed Monocytes% : 19922189 times
+Completed Na=AnionGap+Cl+Bicarbonate : 264 times
+Completed Neutrophils# : 98105 times
+Completed Neutrophils% : 20231049 times
+Completed NonHDLCholesterol : 12540434 times
+Completed Platelets : 412 times
+Completed Platelets_Hematocrit : 2726661 times
+Completed RBC : 700060 times
+Completed Triglycerides : 131680 times
+Completed VLDL : 131680 times
+Completed WBC : 2643 times
+Completed WBC=sum(whites) : 90468 times
+Mismatches of Basophils# : 558187 times
+Mismatches of CH=Cholesterol/HDL : 130677 times
+Mismatches of Chol=LDL+HDL+VLDL : 188517 times
+Mismatches of Chol=NH+HDL : 366676 times
+Mismatches of Eosinophils# : 477 times
+Mismatches of HC=1/CH : 1250 times
+Mismatches of HC=HDL/Chol : 8576 times
+Mismatches of HL=1/LH : 2802 times
+Mismatches of HL=HDL/LDL : 192455 times
+Mismatches of HN=HDL/NHDL : 743 times
+Mismatches of LH=LDL/HDL : 193134 times
+Mismatches of Lymphocytes# : 1088 times
+Mismatches of MCH=10*HGB/RBC : 501174 times
+Mismatches of MCV=10*HCT/RBC : 58485 times
+Mismatches of MPV=100*PH/P : 81273 times
+Mismatches of Monocytes# : 1084 times
+Mismatches of Na=AnionGap+Cl+Bicarbonate : 32433 times
+Mismatches of Neutrophils# : 1302 times
+Mismatches of WBC=sum(whites) : 36892 times
+Matches of Basophils# : 752761 times
+Matches of CH=Cholesterol/HDL : 10132821 times
+Matches of Chol=LDL+HDL+VLDL : 10822486 times
+Matches of Chol=NH+HDL : 12449694 times
+Matches of Eosinophils# : 1307186 times
+Matches of HC=1/CH : 2553575 times
+Matches of HC=HDL/Chol : 9973871 times
+Matches of HL=1/LH : 10683463 times
+Matches of HL=HDL/LDL : 79166 times
+Matches of HN=HDL/NHDL : 37 times
+Matches of LH=LDL/HDL : 158887 times
+Matches of Lymphocytes# : 1306085 times
+Matches of MCH=10*HGB/RBC : 20585551 times
+Matches of MCV=10*HCT/RBC : 21188784 times
+Matches of MPV=100*PH/P : 81600 times
+Matches of Monocytes# : 1309733 times
+Matches of Na=AnionGap+Cl+Bicarbonate : 60611 times
+Matches of Neutrophils# : 1306539 times
+Matches of WBC=sum(whites) : 20232198 times

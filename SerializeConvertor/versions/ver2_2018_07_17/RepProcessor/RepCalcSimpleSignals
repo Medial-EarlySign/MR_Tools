@@ -1,0 +1,10 @@
+calculator	string
+calc_type	int
+coeff	vector<float>
+signals	vector<string>
+V_names	vector<string>
+V_types	vector<int>
+req_signals	unordered_set<string>
+aff_signals	unordered_set<string>
+virtual_signals	vector<pair<string, int>>
+timer_signal	string

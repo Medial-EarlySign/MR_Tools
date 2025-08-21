@@ -1,0 +1,17 @@
+SECTION	Urine_dipstick_for_protein
+DEF	0	NEG
+DEF	0	NEGATIVE
+DEF	1	TRACE
+DEF	1	1+
+DEF	2	<0.3
+DEF	3	>3.0
+DEF	3	= OR >5.0
+DEF	3	>=3.0
+
+DEF	100000	Urine_dipstick_for_protein_normal
+SET	Urine_dipstick_for_protein_normal	NEG
+SET	Urine_dipstick_for_protein_normal	TRACE
+DEF	100001	Urine_dipstick_for_protein_medium
+SET	Urine_dipstick_for_protein_medium	<0.3
+DEF	100002	Urine_dipstick_for_protein_severe
+SET	Urine_dipstick_for_protein_severe	>3.0

@@ -1,0 +1,6 @@
+generator_type	int
+raw_feature_names	vector<string>
+names	vector<string>
+tags	vector<string>
+iGenerateWeights	int
+req_signals	vector<string>

@@ -1,0 +1,3 @@
+percentage	float
+missing_value	float
+selected	vector<string>

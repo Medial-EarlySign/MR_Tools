@@ -1,0 +1,9 @@
+processor_type	int
+feature_name	string
+resolved_feature_name	string
+params.doTrim	bool
+params.doRemove	bool
+trimMax	float
+trimMin	float
+removeMax	float
+removeMin	float

@@ -1,0 +1,107 @@
+signal	source	code	description	type
+Albumin	laboratory	2039	Albumin (B) Urgent	numeric
+Albumin	laboratory	2040	lAlbumin (B)	numeric
+Amylase	laboratory	2150	lAmylase (B)	numeric
+Amylase	laboratory	2151	Amylase (B) Urgent	numeric
+Bilirubin	laboratory	2247	Bilirubin Total Urgent	numeric
+Bilirubin	laboratory	2250	Bilirubin Total	numeric
+VitaminD_25	laboratory	2306	Vitamin D 25 (OH)	numeric
+Ca	laboratory	2310	Ca-Calcium (B)	numeric
+Ca	laboratory	2313	Ca-Calcium (B) Urgent	numeric
+Cl	laboratory	2435	Cl- Chloride (B)	numeric
+Cholesterol	laboratory	2465	Cholesterol	numeric
+CK	laboratory	2550	CK	numeric
+CK	laboratory	2551	CK Urgent	numeric
+Creatinine	laboratory	2565	Creatinine (B)	numeric
+B12	laboratory	2607	Vitamin B12	numeric
+Ferritin	laboratory	2728	Ferritin	numeric
+Follic_Acid	laboratory	2746	Folic Acid	numeric
+Glucose	laboratory	2947	Glucose (B)	numeric
+Glucose	laboratory	2948	Glucose (B) Urgent	numeric
+GGT	laboratory	2977	GGT	numeric
+HbA1C	laboratory	3037	HbA1C	numeric
+Iron_Fe	laboratory	3540	Fe - Iron	numeric
+LDH	laboratory	3615	LDH-Lactic Dehydrogenase	numeric
+HDL	laboratory	3718	HDL-Cholesterol	numeric
+LDL	laboratory	3719	LDL-Cholesterol	numeric
+Urine_Osmolality	laboratory	3935	Osmolality (U)	numeric
+ALKP	laboratory	4075	ALKP-Alkaline Phosphatase	numeric
+Phosphore	laboratory	4100	Phosphore (B) (PO4)	numeric
+K+	laboratory	4132	K+ Potassium (B)	numeric
+PSA	laboratory	4153	PSA Prostatic Specific Ag	numeric
+Protein_Total	laboratory	4155	Protein Total (B)	numeric
+Protein_Total	laboratory	4157	Protein Total (B) Urgent	numeric
+Na	laboratory	4295	Na- Sodium (B)	numeric
+FreeT4	laboratory	4439	Free Thyroxine (FT4)	numeric
+TSH	laboratory	4443	TSH	numeric
+AST	laboratory	4450	AST (GOT)	numeric
+AST	laboratory	4451	AST (GOT) Urgent	numeric
+ALT	laboratory	4460	ALT (GPT)	numeric
+ALT	laboratory	4461	ALT (GPT) Urgent	numeric
+Transferrin	laboratory	4466	Transferrin	numeric
+Triglycerides	laboratory	4478	Triglycerides	numeric
+TotalT3	laboratory	4480	Triiodothyronine T. (TT3)	numeric
+Urea	laboratory	4520	Urea (B)	numeric
+Urea	laboratory	4521	Urea (B) Urgent	numeric
+Uric_Acid	laboratory	4550	Uric Acid  (B)	numeric
+RBC	laboratory	5041	RBC-Red Blood Cells	numeric
+WBC	laboratory	5048	WBC-Leucocytes	numeric
+Urine_Leucocytes	laboratory	10000	Leucocytes (U)	category
+Urine_Nitrit	laboratory	10001	Nitrit (U)	category
+Urine_PH	laboratory	10002	PH (U)	category
+Urine_Protein	laboratory	10003	Protein (U)	category
+Urine_Glucose	laboratory	10004	Glucose (U)	category
+Urine_Ketone	laboratory	10005	Ketone (U)	category
+Urine_Urobilinogen	laboratory	10006	Urobilinogen (U)	category
+Urine_Bilirubin	laboratory	10007	Bilirubin (U)	category
+Urine_Erythrocytes	laboratory	10008	Erythrocytes (U)	category
+Urine_Spec_Gravity	laboratory	10009	Specific Gravity (U)	category
+Urine_Leucocytes	laboratory	10500	Leucocytes (U) Urgent	category
+Urine_Nitrit	laboratory	10501	Nitrit (U) Urgent	category
+Urine_PH	laboratory	10502	PH (U) Urgent	category
+Urine_Protein	laboratory	10503	Protein (U) Urgent	category
+Urine_Glucose	laboratory	10504	Glucose (U) Urgent	category
+Urine_Ketone	laboratory	10505	Ketone (U) Urgent	category
+Urine_Urobilinogen	laboratory	10506	Urobilinogen (U) Urgent	category
+Urine_Bilirubin	laboratory	10507	Bilirubin (U) Urgent	category
+Urine_Erythrocytes	laboratory	10508	Erythrocytes (U) Urgent	category
+eGFR	laboratory	25651	eGFR	numeric
+Free_PSA	laboratory	41410	PSA Free	numeric
+PSA	laboratory	41411	PSA TOTAL	numeric
+Urine_Protein_24hr	laboratory	41800	Protein (U)/24 hr	numeric
+Bands%	laboratory	50057	Band %	numeric
+Bands%	laboratory	50087	Band %	numeric
+MPV	laboratory	50221	MPV-Mean Platelet Volume	numeric
+Hemoglobin	laboratory	50223	Hemoglobin	numeric
+Hematocrit	laboratory	50224	Hematocrit	numeric
+MCV	laboratory	50225	MCV-Mean Cell Volume	numeric
+MCH	laboratory	50226	MCH-Mean Cell Hemoglobin	numeric
+MCHC-M	laboratory	50227	MCHC-M.Cell Hb cont.	numeric
+RDW	laboratory	50228	RDW-Red Cell Distri.Width	numeric
+Platelets	laboratory	50229	Platelets	numeric
+Eosinophils#	laboratory	50230	Eosinophils #	numeric
+Neutrophils%	laboratory	50232	Neutrophils %	numeric
+Lymphocytes%	laboratory	50233	Lymphocytes %	numeric
+Monocytes%	laboratory	50234	Monocytes %	numeric
+Eosinophils%	laboratory	50235	Eosinophils %	numeric
+Basophils%	laboratory	50236	Basophils %	numeric
+Neutrophils#	laboratory	50237	Neutrophils #	numeric
+Lymphocytes#	laboratory	50238	Lymphocytes #	numeric
+Monocytes#	laboratory	50239	Monocytes #	numeric
+Basophils#	laboratory	50241	Basophils #	numeric
+PT%	laboratory	56101	PT (%)	numeric
+PTT	laboratory	56104	PTT	numeric
+Height	measurements	20	Height	numeric
+Weight	measurements	30	Weight	numeric
+BMI	measurements	50	BMI	numeric
+Smoking_Status	measurements	40	Smoking	numeric
+Temperature	measurements	27		numeric
+Heart_Rate	measurements	72		numeric
+Resp_Rate	measurements	81		numeric
+SaO2	measurements	82		numeric
+BYEAR	demographics	customer_birth_year	customer_birth_year	numeric
+BDATE	demographics	customer_birth_year	customer_birth_year	numeric
+GENDER	demographics	customer_sex_code	customer_sex_code	string
+DEATH	demographics	date_death	date_death	numeric
+PT	laboratory	56102	PT (Seconds)	numeric
+INR	laboratory	56103	I.N.R	numeric

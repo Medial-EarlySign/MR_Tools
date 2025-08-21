@@ -1,0 +1,13 @@
+Age.min,Age.max,Sex,count
+40,44,Male,32
+45,49,Male,27
+50,54,Male,22
+55,59,Male,16
+60,64,Male,12
+65,69,Male,0
+40,44,Female,61
+45,49,Female,64
+50,54,Female,70
+55,59,Female,80
+60,64,Female,45
+65,69,Female,6

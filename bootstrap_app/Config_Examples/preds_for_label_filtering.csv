@@ -1,0 +1,17 @@
+pid	date	outcome	outcome_date	prediction	comment
+5000003	19960101	0	20090601	0.00	some NEG samples, expected to be filtered by the label filtering
+5000003	19970101	0	20090601	0.00	
+5000003	19980101	1	20090601	0.01	lots of POS samples, but from before the 1-year window, sim_time_window is expected to turn it to a NEG
+5000003	19990101	1	20090601	0.01	
+5000003	20000101	1	20090601	0.01	
+5000003	20010101	1	20090601	0.01	
+5000003	20020101	1	20090601	0.01	
+5000003	20030101	1	20090601	0.01	
+5000003	20040101	1	20090601	0.01	
+5000003	20050101	1	20090601	0.01	
+5000003	20060101	1	20090601	0.01	
+5000003	20070101	1	20090601	0.01	
+5000003	20080101	1	20090601	0.01	
+5000003	20090101	1	20090601	0.98	a POS sample which falls inside the 1-year window
+5000003	20090201	1	20090601	0.99	a POS sample which falls inside the 1-year window
+5000003	20100101	1	20090601	0.03	a POS sample which falls after the 1-year window, sim_time_window is expected to censor it

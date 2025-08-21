@@ -1,0 +1,162 @@
+UrineCreatinine :: All :: With Values :: 622227 / 14446692 =  0.04 :: 622227 / 622227 =  1.00
+UrineCreatinine :: Males :: With Values :: 310175 / 6889335 =  0.05 :: 310175 / 622227 =  0.50
+UrineCreatinine :: Females :: With Values :: 312052 / 7557357 =  0.04 :: 312052 / 622227 =  0.50
+UrineCreatinine :: General :: No. of Values :: All 2292534 Male 1198145 Female 1094389
+UrineCreatinine :: General :: No. of different days Values :: All 2286837 Male 1195060 Female 1091777
+UrineCreatinine :: General :: Avg #values per person (all) :: All  0.16 Male  0.17 Female  0.14
+UrineCreatinine :: General :: Avg #values per person (>0)  :: All  3.68 Male  3.85 Female  3.50
+UrineCreatinine :: General :: Avg dist between tests       :: All  363.6 Male  356.7 Female  371.4
+UrineCreatinine :: Counts :: Age Group 20 - 25 :: All ::   1767 0.001
+UrineCreatinine :: Counts :: Age Group 25 - 30 :: All ::   2914 0.001
+UrineCreatinine :: Counts :: Age Group 30 - 35 :: All ::   4958 0.002
+UrineCreatinine :: Counts :: Age Group 35 - 40 :: All ::   7077 0.003
+UrineCreatinine :: Counts :: Age Group 40 - 45 :: All ::  10864 0.005
+UrineCreatinine :: Counts :: Age Group 45 - 50 :: All ::  17364 0.008
+UrineCreatinine :: Counts :: Age Group 50 - 55 :: All ::  25368 0.011
+UrineCreatinine :: Counts :: Age Group 55 - 60 :: All ::  33963 0.015
+UrineCreatinine :: Counts :: Age Group 60 - 65 :: All ::  46099 0.020
+UrineCreatinine :: Counts :: Age Group 65 - 70 :: All ::  60830 0.027
+UrineCreatinine :: Counts :: Age Group 70 - 75 :: All ::  65825 0.029
+UrineCreatinine :: Counts :: Age Group 75 - 80 :: All ::  67170 0.029
+UrineCreatinine :: Counts :: Age Group 80 - 85 :: All ::  56569 0.025
+UrineCreatinine :: Counts :: Age Group 85 - 90 :: All ::  36353 0.016
+UrineCreatinine :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+UrineCreatinine :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+UrineCreatinine :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+UrineCreatinine :: Counts :: Age Group 20 - 25 :: Males ::    841 0.001
+UrineCreatinine :: Counts :: Age Group 25 - 30 :: Males ::   1346 0.001
+UrineCreatinine :: Counts :: Age Group 30 - 35 :: Males ::   2444 0.002
+UrineCreatinine :: Counts :: Age Group 35 - 40 :: Males ::   3981 0.003
+UrineCreatinine :: Counts :: Age Group 40 - 45 :: Males ::   6421 0.005
+UrineCreatinine :: Counts :: Age Group 45 - 50 :: Males ::  10272 0.009
+UrineCreatinine :: Counts :: Age Group 50 - 55 :: Males ::  15085 0.013
+UrineCreatinine :: Counts :: Age Group 55 - 60 :: Males ::  20131 0.017
+UrineCreatinine :: Counts :: Age Group 60 - 65 :: Males ::  26685 0.022
+UrineCreatinine :: Counts :: Age Group 65 - 70 :: Males ::  34299 0.029
+UrineCreatinine :: Counts :: Age Group 70 - 75 :: Males ::  35482 0.030
+UrineCreatinine :: Counts :: Age Group 75 - 80 :: Males ::  34069 0.028
+UrineCreatinine :: Counts :: Age Group 80 - 85 :: Males ::  26306 0.022
+UrineCreatinine :: Counts :: Age Group 85 - 90 :: Males ::  15012 0.013
+UrineCreatinine :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+UrineCreatinine :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+UrineCreatinine :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+UrineCreatinine :: Counts :: Age Group 20 - 25 :: Females ::    926 0.001
+UrineCreatinine :: Counts :: Age Group 25 - 30 :: Females ::   1568 0.001
+UrineCreatinine :: Counts :: Age Group 30 - 35 :: Females ::   2514 0.002
+UrineCreatinine :: Counts :: Age Group 35 - 40 :: Females ::   3096 0.003
+UrineCreatinine :: Counts :: Age Group 40 - 45 :: Females ::   4443 0.004
+UrineCreatinine :: Counts :: Age Group 45 - 50 :: Females ::   7092 0.006
+UrineCreatinine :: Counts :: Age Group 50 - 55 :: Females ::  10283 0.009
+UrineCreatinine :: Counts :: Age Group 55 - 60 :: Females ::  13832 0.013
+UrineCreatinine :: Counts :: Age Group 60 - 65 :: Females ::  19414 0.018
+UrineCreatinine :: Counts :: Age Group 65 - 70 :: Females ::  26531 0.024
+UrineCreatinine :: Counts :: Age Group 70 - 75 :: Females ::  30343 0.028
+UrineCreatinine :: Counts :: Age Group 75 - 80 :: Females ::  33101 0.030
+UrineCreatinine :: Counts :: Age Group 80 - 85 :: Females ::  30263 0.028
+UrineCreatinine :: Counts :: Age Group 85 - 90 :: Females ::  21341 0.020
+UrineCreatinine :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+UrineCreatinine :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+UrineCreatinine :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+UrineCreatinine :: Stats :: Age Group 20 - 25 :: All ::  N 6892 non-zeros 6659 Median  11.30 Mean  12.60 Std   8.30 Max  76.00
+UrineCreatinine :: Stats :: Age Group 25 - 30 :: All ::  N 9486 non-zeros 9210 Median  11.00 Mean  12.18 Std   7.99 Max 109.00
+UrineCreatinine :: Stats :: Age Group 30 - 35 :: All ::  N 13875 non-zeros 13538 Median  10.60 Mean  11.74 Std   7.47 Max 100.00
+UrineCreatinine :: Stats :: Age Group 35 - 40 :: All ::  N 20140 non-zeros 19675 Median  10.30 Mean  11.40 Std   7.21 Max 113.00
+UrineCreatinine :: Stats :: Age Group 40 - 45 :: All ::  N 31917 non-zeros 31459 Median  10.10 Mean  11.11 Std   6.66 Max  64.90
+UrineCreatinine :: Stats :: Age Group 45 - 50 :: All ::  N 47154 non-zeros 46552 Median   9.60 Mean  10.73 Std   6.51 Max 108.00
+UrineCreatinine :: Stats :: Age Group 50 - 55 :: All ::  N 63508 non-zeros 62732 Median   8.90 Mean  10.06 Std   6.17 Max 100.00
+UrineCreatinine :: Stats :: Age Group 55 - 60 :: All ::  N 81104 non-zeros 80233 Median   8.40 Mean   9.42 Std   5.69 Max  73.70
+UrineCreatinine :: Stats :: Age Group 60 - 65 :: All ::  N 105162 non-zeros 104051 Median   7.90 Mean   8.93 Std   5.41 Max  90.00
+UrineCreatinine :: Stats :: Age Group 65 - 70 :: All ::  N 123942 non-zeros 122701 Median   7.40 Mean   8.45 Std   5.09 Max  80.00
+UrineCreatinine :: Stats :: Age Group 70 - 75 :: All ::  N 126601 non-zeros 125440 Median   6.90 Mean   7.92 Std   4.83 Max  70.70
+UrineCreatinine :: Stats :: Age Group 75 - 80 :: All ::  N 122665 non-zeros 121568 Median   6.40 Mean   7.43 Std   4.55 Max  73.00
+UrineCreatinine :: Stats :: Age Group 80 - 85 :: All ::  N 99670 non-zeros 98895 Median   6.10 Mean   7.05 Std   4.29 Max  58.20
+UrineCreatinine :: Stats :: Age Group 85 - 90 :: All ::  N 62574 non-zeros 62139 Median   5.80 Mean   6.73 Std   4.07 Max  47.00
+UrineCreatinine :: Stats :: Age Group 90 - 95 :: All ::  N 24511 non-zeros 24372 Median   5.60 Mean   6.46 Std   3.90 Max  62.00
+UrineCreatinine :: Stats :: Age Group 95 - 100 :: All ::  N 4955 non-zeros 4927 Median   5.50 Mean   6.18 Std   3.62 Max  34.00
+UrineCreatinine :: General :: All     :: outliers ratio 0.000289
+UrineCreatinine :: General :: All     :: N 615109 non-zeros 608460 Median   7.40 Mean   8.68 Std   5.60 Max  92.00
+UrineCreatinine :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.20   1.40   2.50  19.30  27.20  40.30
+UrineCreatinine :: General :: All     :: quartiles ::   0.20   4.80   7.50  11.40 
+UrineCreatinine :: General :: Males   :: outliers ratio 0.000332
+UrineCreatinine :: General :: Males   :: N 306724 non-zeros 303364 Median   8.80 Mean   9.96 Std   5.89 Max  97.00
+UrineCreatinine :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.20   1.80   3.00  20.90  29.00  43.00
+UrineCreatinine :: General :: Males   :: quartiles ::   0.20   5.90   8.90  12.90 
+UrineCreatinine :: General :: Females :: outliers ratio 0.000263
+UrineCreatinine :: General :: Females :: N 308380 non-zeros 305076 Median   6.10 Mean   7.39 Std   4.95 Max  77.00
+UrineCreatinine :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.20   1.30   2.20  17.00  24.30  36.60
+UrineCreatinine :: General :: Females :: quartiles ::   0.20   4.00   6.20   9.60 
+UrineCreatinine :: Rounding ::  0.00 r  0.00 pct
+UrineCreatinine :: Rounding ::  0.01 r  0.13 pct
+UrineCreatinine :: Rounding ::  0.10 r  0.75 pct
+UrineCreatinine :: Rounding ::  1.00 r  0.11 pct
+UrineCreatinine :: Rounding :: 10.00 r  0.01 pct
+UrineCreatinine :: Rounding :: 100.00 r  0.00 pct
+UrineCreatinine :: Rounding :: 1000.00 r  0.00 pct
+UrineCreatinine :: Rounding :: most popular rounding for vals:  0.10
+UrineCreatinine :: Stats year :: 2000 :: All :: N 3116 non-zeros 2796 Median   6.70 Mean   7.59 Std   5.53 Max  46.90
+UrineCreatinine :: Stats year :: 2001 :: All :: N 4941 non-zeros 4456 Median   6.80 Mean   7.57 Std   5.57 Max  76.00
+UrineCreatinine :: Stats year :: 2002 :: All :: N 9659 non-zeros 8870 Median   6.50 Mean   7.58 Std   5.46 Max  50.00
+UrineCreatinine :: Stats year :: 2003 :: All :: N 22665 non-zeros 21599 Median   7.00 Mean   8.01 Std   5.45 Max  87.00
+UrineCreatinine :: Stats year :: 2004 :: All :: N 48175 non-zeros 47025 Median   7.10 Mean   8.20 Std   5.34 Max  73.00
+UrineCreatinine :: Stats year :: 2005 :: All :: N 64406 non-zeros 63074 Median   7.10 Mean   8.21 Std   5.32 Max  87.00
+UrineCreatinine :: Stats year :: 2006 :: All :: N 82608 non-zeros 81343 Median   7.20 Mean   8.40 Std   5.37 Max  81.00
+UrineCreatinine :: Stats year :: 2007 :: All :: N 96058 non-zeros 94463 Median   7.20 Mean   8.42 Std   5.38 Max  62.00
+UrineCreatinine :: Stats year :: 2008 :: All :: N 109633 non-zeros 108478 Median   7.30 Mean   8.47 Std   5.38 Max  82.00
+UrineCreatinine :: Stats year :: 2009 :: All :: N 175793 non-zeros 174521 Median   7.20 Mean   8.44 Std   5.35 Max  75.50
+UrineCreatinine :: Stats year :: 2010 :: All :: N 208499 non-zeros 207414 Median   7.20 Mean   8.44 Std   5.29 Max  75.90
+UrineCreatinine :: Stats year :: 2011 :: All :: N 217239 non-zeros 215518 Median   7.20 Mean   8.41 Std   5.27 Max  80.60
+UrineCreatinine :: Stats year :: 2012 :: All :: N 230067 non-zeros 228646 Median   7.20 Mean   8.45 Std   5.29 Max  71.30
+UrineCreatinine :: Stats year :: 2013 :: All :: N 240042 non-zeros 238623 Median   7.20 Mean   8.46 Std   5.31 Max  79.60
+UrineCreatinine :: Stats year :: 2014 :: All :: N 205701 non-zeros 205253 Median   7.20 Mean   8.44 Std   5.23 Max  78.00
+UrineCreatinine :: Stats year :: 2015 :: All :: N 155903 non-zeros 155824 Median   7.20 Mean   8.43 Std   5.21 Max  75.20
+UrineCreatinine :: Stats year :: 2016 :: All :: N 5123 non-zeros 5123 Median   7.40 Mean   8.59 Std   5.27 Max  42.30
+UrineCreatinine :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineCreatinine :: Stats year :: 2000 :: Males   :: N 1789 non-zeros 1585 Median   7.70 Mean   8.44 Std   5.88 Max  38.90
+UrineCreatinine :: Stats year :: 2001 :: Males   :: N 2764 non-zeros 2493 Median   7.80 Mean   8.55 Std   6.01 Max  92.00
+UrineCreatinine :: Stats year :: 2002 :: Males   :: N 5465 non-zeros 5018 Median   7.70 Mean   8.58 Std   5.87 Max  50.00
+UrineCreatinine :: Stats year :: 2003 :: Males   :: N 12615 non-zeros 12013 Median   8.20 Mean   9.04 Std   5.70 Max  73.00
+UrineCreatinine :: Stats year :: 2004 :: Males   :: N 26592 non-zeros 25933 Median   8.30 Mean   9.30 Std   5.60 Max  90.00
+UrineCreatinine :: Stats year :: 2005 :: Males   :: N 35639 non-zeros 34924 Median   8.30 Mean   9.32 Std   5.59 Max  90.50
+UrineCreatinine :: Stats year :: 2006 :: Males   :: N 44873 non-zeros 44215 Median   8.60 Mean   9.59 Std   5.64 Max  80.00
+UrineCreatinine :: Stats year :: 2007 :: Males   :: N 52156 non-zeros 51325 Median   8.60 Mean   9.59 Std   5.61 Max  59.10
+UrineCreatinine :: Stats year :: 2008 :: Males   :: N 59660 non-zeros 59037 Median   8.60 Mean   9.64 Std   5.64 Max  75.90
+UrineCreatinine :: Stats year :: 2009 :: Males   :: N 89569 non-zeros 88900 Median   8.60 Mean   9.71 Std   5.62 Max  75.50
+UrineCreatinine :: Stats year :: 2010 :: Males   :: N 104054 non-zeros 103504 Median   8.60 Mean   9.71 Std   5.56 Max  72.60
+UrineCreatinine :: Stats year :: 2011 :: Males   :: N 109485 non-zeros 108615 Median   8.60 Mean   9.69 Std   5.55 Max  80.60
+UrineCreatinine :: Stats year :: 2012 :: Males   :: N 116772 non-zeros 116054 Median   8.60 Mean   9.71 Std   5.56 Max  71.30
+UrineCreatinine :: Stats year :: 2013 :: Males   :: N 122141 non-zeros 121414 Median   8.60 Mean   9.70 Std   5.57 Max  79.60
+UrineCreatinine :: Stats year :: 2014 :: Males   :: N 105249 non-zeros 105025 Median   8.60 Mean   9.67 Std   5.49 Max  91.00
+UrineCreatinine :: Stats year :: 2015 :: Males   :: N 80955 non-zeros 80907 Median   8.50 Mean   9.63 Std   5.46 Max  75.20
+UrineCreatinine :: Stats year :: 2016 :: Males   :: N 2769 non-zeros 2769 Median   8.50 Mean   9.59 Std   5.41 Max  45.10
+UrineCreatinine :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineCreatinine :: Stats year :: 2000 :: Females :: N 1331 non-zeros 1205 Median   5.60 Mean   6.53 Std   4.94 Max  38.60
+UrineCreatinine :: Stats year :: 2001 :: Females :: N 2178 non-zeros 1967 Median   5.40 Mean   6.42 Std   5.21 Max  76.00
+UrineCreatinine :: Stats year :: 2002 :: Females :: N 4193 non-zeros 3843 Median   5.40 Mean   6.28 Std   4.60 Max  48.00
+UrineCreatinine :: Stats year :: 2003 :: Females :: N 10045 non-zeros 9593 Median   5.70 Mean   6.69 Std   4.68 Max  57.40
+UrineCreatinine :: Stats year :: 2004 :: Females :: N 21585 non-zeros 21081 Median   5.80 Mean   6.86 Std   4.67 Max  73.00
+UrineCreatinine :: Stats year :: 2005 :: Females :: N 28768 non-zeros 28161 Median   5.70 Mean   6.82 Std   4.60 Max  60.00
+UrineCreatinine :: Stats year :: 2006 :: Females :: N 37736 non-zeros 37128 Median   5.80 Mean   7.01 Std   4.71 Max  66.00
+UrineCreatinine :: Stats year :: 2007 :: Females :: N 43896 non-zeros 43129 Median   5.90 Mean   7.02 Std   4.71 Max  57.20
+UrineCreatinine :: Stats year :: 2008 :: Females :: N 49976 non-zeros 49441 Median   5.90 Mean   7.08 Std   4.69 Max  66.00
+UrineCreatinine :: Stats year :: 2009 :: Females :: N 86223 non-zeros 85616 Median   5.90 Mean   7.12 Std   4.69 Max  69.10
+UrineCreatinine :: Stats year :: 2010 :: Females :: N 104448 non-zeros 103911 Median   6.00 Mean   7.17 Std   4.65 Max  72.00
+UrineCreatinine :: Stats year :: 2011 :: Females :: N 107753 non-zeros 106896 Median   6.00 Mean   7.11 Std   4.62 Max  74.00
+UrineCreatinine :: Stats year :: 2012 :: Females :: N 113297 non-zeros 112587 Median   6.00 Mean   7.16 Std   4.64 Max  63.90
+UrineCreatinine :: Stats year :: 2013 :: Females :: N 117895 non-zeros 117210 Median   6.00 Mean   7.18 Std   4.69 Max  66.80
+UrineCreatinine :: Stats year :: 2014 :: Females :: N 100453 non-zeros 100224 Median   6.00 Mean   7.16 Std   4.62 Max  64.30
+UrineCreatinine :: Stats year :: 2015 :: Females :: N 74947 non-zeros 74917 Median   6.00 Mean   7.14 Std   4.59 Max  69.40
+UrineCreatinine :: Stats year :: 2016 :: Females :: N 2354 non-zeros 2354 Median   6.20 Mean   7.43 Std   4.89 Max  42.30
+UrineCreatinine :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+UrineCreatinine :: Stats month 1 :: All :: N 111639 non-zeros 110678 Median   7.40 Mean   8.61 Std   5.45 Max  73.00
+UrineCreatinine :: Stats month 2 :: All :: N 112611 non-zeros 111554 Median   7.30 Mean   8.47 Std   5.37 Max  75.50
+UrineCreatinine :: Stats month 3 :: All :: N 111511 non-zeros 110556 Median   7.20 Mean   8.41 Std   5.32 Max  87.00
+UrineCreatinine :: Stats month 4 :: All :: N 84031 non-zeros 83299 Median   7.30 Mean   8.52 Std   5.41 Max  80.00
+UrineCreatinine :: Stats month 5 :: All :: N 87911 non-zeros 87158 Median   7.20 Mean   8.41 Std   5.36 Max  87.00
+UrineCreatinine :: Stats month 6 :: All :: N 93526 non-zeros 92747 Median   7.20 Mean   8.41 Std   5.40 Max  69.40
+UrineCreatinine :: Stats month 7 :: All :: N 97571 non-zeros 96756 Median   7.20 Mean   8.52 Std   5.58 Max  83.00
+UrineCreatinine :: Stats month 8 :: All :: N 90437 non-zeros 89647 Median   7.00 Mean   8.31 Std   5.41 Max  86.00
+UrineCreatinine :: Stats month 9 :: All :: N 97892 non-zeros 97089 Median   7.00 Mean   8.26 Std   5.34 Max  75.90
+UrineCreatinine :: Stats month 10 :: All :: N 109102 non-zeros 108336 Median   7.10 Mean   8.31 Std   5.29 Max  81.70
+UrineCreatinine :: Stats month 11 :: All :: N 104848 non-zeros 104038 Median   7.20 Mean   8.38 Std   5.27 Max  74.00
+UrineCreatinine :: Stats month 12 :: All :: N 84813 non-zeros 84126 Median   7.50 Mean   8.76 Std   5.56 Max  76.00
+

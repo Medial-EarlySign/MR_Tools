@@ -1,0 +1,11 @@
+generator_type	int
+signalName	string
+type	int
+win_from	int
+win_to	int
+val_channel	int
+names	vector<string>
+tags	vector<string>
+req_signals	vector<string>
+sets	vector<string>
+check_first	int

@@ -1,0 +1,1134 @@
+signal	source_file	type	ahdcode	readcode	value_field	unitcode_field	value1	value2	regex
+ALCOHOL	ahd	numeric	1003050000		data1				
+ALKP	ahd	numeric		44F3.00	data2	data3			
+ALKP	ahd	numeric		44FD.00	data2	data3			
+ALKP	ahd	numeric		44FZ.00	data2	data3			
+ALKP	ahd	numeric		44F..00	data2	data3			
+ALKP	ahd	numeric		44F1.00	data2	data3			
+ALKP	ahd	numeric		44CU.00	data2	data3			
+ALT	ahd	numeric		44G..11	data2	data3			
+ALT	ahd	numeric		44G3100	data2	data3			
+ALT	ahd	numeric		44GB.00	data2	data3			
+ALT	ahd	numeric		44GA.00	data2	data3			
+ALT	ahd	numeric		44G..00	data2	data3			
+ALT	ahd	numeric		44G3000	data2	data3			
+ALT	ahd	numeric		44G3.00	data2	data3			
+AST	ahd	numeric		44H5.11	data2	data3			
+AST	ahd	numeric		44H5000	data2	data3			
+AST	ahd	numeric		44H5.00	data2	data3			
+AST	ahd	numeric		44HC.00	data2	data3			
+AST	ahd	numeric		44H5200	data2	data3			
+AST	ahd	numeric		44H5100	data2	data3			
+AST	ahd	numeric		44HB.00	data2	data3			
+Abdominal_Xray	ahd	string	1001400252		data4				
+Abdominal_ultra-sound	ahd	string	1001400108		data4				
+Albmin_over_Creatinine	ahd	numeric		44J7.00	data2	data3			
+Albumin	ahd	numeric		44MI.00	data2	data3			
+Albumin	ahd	numeric		44M4100	data2	data3			
+Albumin	ahd	numeric		44M4000	data2	data3			
+Albumin	ahd	numeric		44M4.00	data2	data3			
+Alcohol_quantity	ahd	numeric		136..00			100	-9	
+Alcohol_quantity	medical	numeric		136X.00			2	-9	
+Alcohol_quantity	medical	numeric		136Q.00			2	70	
+Alcohol_quantity	medical	numeric		E250000			2	-9	
+Alcohol_quantity	medical	numeric		136W.00			2	-9	
+Alcohol_quantity	medical	numeric		9k11.00			2	-9	
+Alcohol_quantity	medical	numeric		E250.00			2	-9	
+Alcohol_quantity	medical	numeric		136T.00			2	-9	
+Alcohol_quantity	medical	numeric		E23..00			5	-9	
+Alcohol_quantity	medical	numeric		E23..11			5	-9	
+Alcohol_quantity	medical	numeric		J612.00			5	-9	
+Alcohol_quantity	medical	numeric		8IAF.00			2	-9	
+Alcohol_quantity	medical	numeric		8IAJ.00			2	-9	
+Alcohol_quantity	medical	numeric		Z786200			2	-9	
+Alcohol_quantity	medical	numeric		8BA8.00			5	-9	
+Alcohol_quantity	medical	numeric		E250200			2	-9	
+Alcohol_quantity	medical	numeric		136S.00			2	-9	
+Alcohol_quantity	medical	numeric		136P.00			2	56	
+Alcohol_quantity	medical	numeric		E23..12			5	-9	
+Alcohol_quantity	medical	numeric		1363.00			2	7	
+Alcohol_quantity	medical	numeric		136L.00			2	7	
+Alcohol_quantity	medical	numeric		1367.00			1	-9	
+Alcohol_quantity	medical	numeric		6792.00			2	-9	
+Alcohol_quantity	medical	numeric		1364.00			2	30	
+Alcohol_quantity	medical	numeric		1361.12			3	0	
+Alcohol_quantity	medical	numeric		1361.11			3	0	
+Alcohol_quantity	medical	numeric		136M.00			4	0	
+Alcohol_quantity	medical	numeric		136K.00			5	-9	
+Alcohol_quantity	medical	numeric		8CAM.00			2	-9	
+Alcohol_quantity	medical	numeric		1365.00			2	56	
+Alcohol_quantity	medical	numeric		67H0.00			2	-9	
+Alcohol_quantity	medical	numeric		1366.00			2	70	
+Alcohol_quantity	medical	numeric		136F.00			2	-9	
+Alcohol_quantity	medical	numeric		136R.00			2	-9	
+Alcohol_quantity	medical	numeric		Eu10211			5	-9	
+Alcohol_quantity	medical	numeric		1362.00			2	1	
+Alcohol_quantity	medical	numeric		13Y8.00			2	-9	
+Alcohol_quantity	medical	numeric		8H7p.00			2	-9	
+Alcohol_quantity	medical	numeric		E010.00			5	-9	
+Alcohol_quantity	medical	numeric		F11x011			5	-9	
+Alcohol_quantity	medical	numeric		E231z00			5	-9	
+Alcohol_quantity	medical	numeric		E23z.00			5	-9	
+Alcohol_quantity	medical	numeric		Eu10712			5	-9	
+Alcohol_quantity	medical	numeric		F375.00			5	-9	
+Alcohol_quantity	medical	numeric		E011000			5	-9	
+Alcohol_quantity	medical	numeric		J617000			5	-9	
+Alcohol_quantity	medical	numeric		E231100			5	-9	
+Alcohol_quantity	medical	numeric		Eu10200			5	-9	
+Alcohol_quantity	medical	numeric		E230000			5	-9	
+Alcohol_quantity	medical	numeric		E013.00			5	-9	
+Alcohol_quantity	medical	numeric		E230z00			5	-9	
+Alcohol_quantity	medical	numeric		Eu10411			5	-9	
+Alcohol_quantity	medical	numeric		E231300			5	-9	
+Alcohol_quantity	medical	numeric		G852300			5	-9	
+Alcohol_quantity	medical	numeric		8HkG.00			2	-9	
+Alcohol_quantity	medical	numeric		J153.00			2	-9	
+Alcohol_quantity	medical	numeric		Eu10.00			2	-9	
+Alcohol_quantity	medical	numeric		E250.14			2	-9	
+Alcohol_quantity	medical	numeric		G555.00			5	-9	
+Alcohol_quantity	medical	numeric		E230.00			5	-9	
+Alcohol_quantity	medical	numeric		9k1B.00			2	-9	
+Alcohol_quantity	medical	numeric		9k14.00			2	-9	
+Alcohol_quantity	medical	numeric		ZV4KC00			2	-9	
+Alcohol_quantity	medical	numeric		J611.00			2	-9	
+Alcohol_quantity	medical	numeric		8HkJ.00			2	-9	
+Alcohol_quantity	medical	numeric		E231.00			5	-9	
+Alcohol_quantity	medical	numeric		J613000			2	-9	
+Alcohol_quantity	medical	numeric		E250100			2	-9	
+Alcohol_quantity	medical	numeric		Eu10212			5	-9	
+Alcohol_quantity	medical	numeric		J617.00			2	-9	
+Alcohol_quantity	medical	numeric		E01y000			5	-9	
+Alcohol_quantity	medical	numeric		J610.00			2	-9	
+Alcohol_quantity	medical	numeric		1362.11			2	1	
+Alcohol_quantity	medical	numeric		136Z.00			2	-9	
+Alcohol_quantity	ahd	numeric		136F.00			2	-9	
+Alcohol_quantity	ahd	numeric		136P.00			2	56	
+Alcohol_quantity	ahd	numeric		136S.00			2	-9	
+Alcohol_quantity	ahd	numeric		136T.00			2	-9	
+Alcohol_quantity	ahd	numeric		136D.00			1	56	
+Alcohol_quantity	ahd	numeric		136A.00			1	1	
+Alcohol_quantity	ahd	numeric		136E.00			1	70	
+Alcohol_quantity	ahd	numeric		136C.00			1	30	
+Alcohol_quantity	ahd	numeric		136B.00			1	7	
+Alcohol_quantity	ahd	numeric		136Q.00			2	70	
+Alcohol_quantity	ahd	numeric		E250000			2	-9	
+Alcohol_quantity	ahd	numeric		136W.00			2	-9	
+Alcohol_quantity	ahd	numeric		136H.00			2	-9	
+Alcohol_quantity	ahd	numeric		9k11.00			2	-9	
+Alcohol_quantity	ahd	numeric		8CAv.00			2	-9	
+Alcohol_quantity	ahd	numeric		136b.00			2	-9	
+Alcohol_quantity	ahd	numeric		E23..00			5	-9	
+Alcohol_quantity	ahd	numeric		E250200			2	-9	
+Alcohol_quantity	ahd	numeric		E23..11			5	-9	
+Alcohol_quantity	ahd	numeric		J612.00			5	-9	
+Alcohol_quantity	ahd	numeric		8IAF.00			2	-9	
+Alcohol_quantity	ahd	numeric		8IAJ.00			2	-9	
+Alcohol_quantity	ahd	numeric		Z786200			2	-9	
+Alcohol_quantity	ahd	numeric		8BA8.00			5	-9	
+Alcohol_quantity	ahd	numeric		Eu10211			5	-9	
+Alcohol_quantity	ahd	numeric		E250.00			2	-9	
+Alcohol_quantity	ahd	numeric		136O.00			2	30	
+Alcohol_quantity	ahd	numeric		136X.00			2	-9	
+Alcohol_quantity	ahd	numeric		136R.00			2	-9	
+Alcohol_quantity	ahd	numeric		1362.11			2	1	
+Alcohol_quantity	ahd	numeric		1362.00			2	1	
+Alcohol_quantity	ahd	numeric		1363.00			2	7	
+Alcohol_quantity	ahd	numeric		38D4.00			1	-9	
+Alcohol_quantity	ahd	numeric		136L.00			2	7	
+Alcohol_quantity	ahd	numeric		388u.00			1	-9	
+Alcohol_quantity	ahd	numeric		1367.00			1	-9	
+Alcohol_quantity	ahd	numeric		E23..12			5	-9	
+Alcohol_quantity	ahd	numeric		1364.00			2	30	
+Alcohol_quantity	ahd	numeric		1361.12			3	0	
+Alcohol_quantity	ahd	numeric		1361.11			3	0	
+Alcohol_quantity	ahd	numeric		136M.00			4	0	
+Alcohol_quantity	ahd	numeric		136Z.00			2	-9	
+Alcohol_quantity	ahd	numeric		6792.00			2	-9	
+Alcohol_quantity	ahd	numeric		38D3.00			1	-9	
+Alcohol_quantity	ahd	numeric		136J.00			100	-9	
+Alcohol_quantity	ahd	numeric		136N.00			2	7	
+Alcohol_quantity	ahd	numeric		1366.00			2	70	
+Alcohol_quantity	ahd	numeric		67H0.00			2	-9	
+Alcohol_quantity	ahd	numeric		1365.00			2	56	
+Alcohol_quantity	ahd	numeric		1362.12			100	-9	
+Alcohol_quantity	ahd	numeric		136G.00			100	-9	
+Alcohol_quantity	ahd	numeric		136V.00			100	-9	
+Alcohol_quantity	ahd	numeric		8CAM.00			2	-9	
+Alcohol_quantity	ahd	numeric		136K.00			5	-9	
+Alcohol_quantity	ahd	numeric		136I.00			100	-9	
+Allergy_and_Intolerance_non_drug_CERTAINTY	ahd	string	1032000001		data3				
+Allergy_and_Intolerance_non_drug_REACTION_TYPE	ahd	string	1032000001		data1				
+Allergy_and_Intolerance_non_drug_SEVERITY	ahd	string	1032000001		data2				
+Allergy_over_intolerance_CERTAINTY	ahd	string	1030000000		data4				
+Allergy_over_intolerance_REACTION_TYPE	ahd	string	1030000000		data2				
+Allergy_over_intolerance_SEVERITY	ahd	string	1030000000		data3				
+Ambulatory_blood_pressure	ahd	string	1001400253		data4				
+Amylase	ahd	numeric		44C4100	data2	data3			
+Amylase	ahd	numeric		44CT.00	data2	data3			
+Amylase	ahd	numeric		44CN.00	data2	data3			
+Amylase	ahd	numeric		44C4.00	data2	data3			
+Amylase	ahd	numeric		44C4000	data2	data3			
+Ankle_X-ray	ahd	string	1001400089		data4				
+Ankle_neuropathy_PRESENCE_LEFT_JERK	ahd	string	1007300000		data2				
+Ankle_neuropathy_PRESENCE_LEFT_VIB	ahd	string	1007300000		data4				
+Ankle_neuropathy_PRESENCE_RIGHT_JERK	ahd	string	1007300000		data1				
+Ankle_neuropathy_PRESENCE_RIGHT_VIB	ahd	string	1007300000		data3				
+Ante_natal_blood_tests	ahd	string	1001400306		data4				
+Ante_natel_fetal_examination_FETAL_HEART	ahd	string	1046100000		data2				
+Ante_natel_fetal_examination_FETAL_MOVEMENT	ahd	string	1046100000		data3				
+Ante_natel_fetal_examination_FETAL_PRESENTATION	ahd	string	1046100000		data4				
+Anti_Mitochondrial_antibodies	ahd	string	1001400142		data4				
+Anti_Nuclear_antibodies	ahd	string	1001400143		data4				
+Anti_smooth_muscle_autoantibodies	ahd	string	1001400226		data4				
+Asthma_Inhaler_ability	ahd	string	1009550000		data1				
+Asthma_last_attack_date_HOSPITALISED	ahd	string	1009510000		data3				
+Asthma_last_attack_date_NEBULISED	ahd	string	1009510000		data2				
+Asthma_last_attack_date_ORAL_STEROID	ahd	string	1009510000		data1				
+Asthma_management_At_30_Best_Peak_Flow	ahd	string	1009600000		data1				
+Asthma_management_At_50_Best_Peak_Flow	ahd	string	1009610000		data1				
+Asthma_management_At_80_Best_Peak_Flow	ahd	string	1009620000		data1				
+Asthma_risk_factors	ahd	string	1020100000		data1				
+Asthma_status	ahd	string	1009581000		data1				
+B12	ahd	numeric		42TZ.00	data2	data3			
+B12	ahd	numeric		42T1.00	data2	data3			
+B12	ahd	numeric		42T3.00	data2	data3			
+B12	ahd	numeric		44Le.00	data2	data3			
+B12	ahd	numeric		42T2.00	data2	data3			
+B12	ahd	numeric		42T..00	data2	data3			
+B12	ahd	numeric		44Lc.00	data2	data3			
+B12_and_Folate_level	ahd	string	1001400062		data4				
+BMI	ahd	numeric	1005010200		data3				
+BP	ahd	numeric	1005010500		['data1', 'data2']				
+Barium_enema	ahd	string	1001400063		data4				
+Barium_meal	ahd	string	1001400065		data4				
+Barium_swallow	ahd	string	1001400197		data4				
+Basophils#	ahd	numeric		42L3.00	data2	data3			
+Basophils#	ahd	numeric		42L1.00	data2	data3			
+Basophils#	ahd	numeric		42L2.00	data2	data3			
+Basophils#	ahd	numeric		42L..00	data2	data3			
+Basophils#	ahd	numeric		42LZ.00	data2	data3			
+Basophils%	ahd	numeric		42b3.00	data2	data3			
+Bicarbonate	ahd	numeric		44I7000	data2	data3			
+Bicarbonate	ahd	numeric		44I7.00	data2	data3			
+Bicarbonate	ahd	numeric		44h3.00	data2	data3			
+Bicarbonate	ahd	numeric		44i0.00	data2	data3			
+Bicarbonate	ahd	numeric		44I7100	data2	data3			
+Bilirubin	ahd	numeric		44E1.00	data2	data3			
+Bilirubin	ahd	numeric		44E..00	data2	data3			
+Bilirubin	ahd	numeric		44E2.00	data2	data3			
+Bilirubin	ahd	numeric		44E7.00	data2	data3			
+Bilirubin	ahd	numeric		44E6.00	data2	data3			
+Bilirubin	ahd	numeric		44E8.00	data2	data3			
+Bilirubin	ahd	numeric		44EB.00	data2	data3			
+Bilirubin	ahd	numeric		44E3.00	data2	data3			
+Bilirubin	ahd	numeric		44EC.00	data2	data3			
+Bilirubin	ahd	numeric		44E9.00	data2	data3			
+Bilirubin	ahd	numeric		44EZ.00	data2	data3			
+Biochemical_screening_tests	ahd	string	1001400315		data4				
+Blood_Group	ahd	string	1012000000		data1				
+Blood_gases	ahd	string	1001400186		data4				
+Blood_group_antibodies	ahd	string	1001400145		data4				
+Blood_lipids	ahd	string	1001400069		data4				
+Bone_Density_Studies	ahd	string	1001400255		data4				
+Bone_studies	ahd	string	1001400071		data4				
+Bronchoscopy	ahd	string	1001400166		data4				
+C3	ahd	numeric		43I1.00	data2	data3			
+C4	ahd	numeric		43I2.00	data2	data3			
+CA125	ahd	numeric		44a6000	data2	data3			
+CA125	ahd	numeric		44a1.00	data2	data3			
+CA125	ahd	numeric		44a0.00	data2	data3			
+CA125	ahd	numeric		44a6.00	data2	data3			
+CA153	ahd	numeric		44a2.00	data2	data3			
+CA199	ahd	numeric		44a3.00	data2	data3			
+CAP_RAST	ahd	string	1001400154		data4				
+CAT_scan	ahd	string	1001400172		data4				
+CEA	ahd	numeric		44a0.11	data2	data3			
+CHADS2	ahd	numeric		38DE.11	data1				
+CHADS2	ahd	numeric		38DE.00	data1				
+CHADS2_VASC	ahd	numeric		38DE000	data1				
+CHS_Behaviour	ahd	string	1054000000		data1				
+CHS_Gait	ahd	string	1051300000		data1				
+CHS_Head_Circumference_Centile	ahd	string	1059900000		data3				
+CHS_Hearing_6_Weeks	ahd	string	1055000000		data1				
+CHS_Hearing_Over_6_Weeks_LEFT_EAR	ahd	string	1055100000		data1				
+CHS_Hearing_Over_6_Weeks_RIGHT_EAR	ahd	string	1055100000		data2				
+CHS_Hernia_LEFT	ahd	string	1057000000		data1				
+CHS_Hernia_RIGHT	ahd	string	1057000000		data2				
+CHS_Hernia_UMBILICAL	ahd	string	1057000000		data3				
+CHS_Hips_LEFT	ahd	string	1057100000		data1				
+CHS_Hips_RIGHT	ahd	string	1057100000		data2				
+CHS_Hospital_Follow_Up	ahd	string	1052000000		data1				
+CHS_Locomotion_18_Months	ahd	string	1051100000		data1				
+CHS_Manipulation	ahd	string	1061000000		data1				
+CHS_Muscle_tone_for_6_weeks_HEADCONTROL	ahd	string	1051200000		data2				
+CHS_Muscle_tone_for_6_weeks_MUSCLE	ahd	string	1051200000		data1				
+CHS_Muscle_tone_for_8_months_LOCOMOTION	ahd	string	1051250000		data2				
+CHS_Muscle_tone_for_8_months_SITTING	ahd	string	1051250000		data1				
+CHS_Schooling	ahd	string	1058000000		data1				
+CHS_Sleep_Pattern	ahd	string	1063000000		data1				
+CHS_Sphincters_CLEAN_DAY	ahd	string	1009400000		data3				
+CHS_Sphincters_CLEAN_NIGHT	ahd	string	1009400000		data4				
+CHS_Sphincters_DRY_DAY	ahd	string	1009400000		data1				
+CHS_Sphincters_DRY_NIGHT	ahd	string	1009400000		data2				
+CHS_Squint_LEFT	ahd	string	1056400000		data1				
+CHS_Squint_RIGHT	ahd	string	1056400000		data2				
+CHS_Vision_3_Years_And_4_Years_LEFT	ahd	string	1056200000		data1				
+CHS_Vision_3_Years_And_4_Years_RIGHT	ahd	string	1056200000		data2				
+CHS_Vision_6_Weeks_FIX	ahd	string	1056000000		data1				
+CHS_Vision_6_Weeks_FOLLOWS	ahd	string	1056000000		data4				
+CHS_Vision_6_Weeks_LEFT_RED_REFLEX	ahd	string	1056000000		data2				
+CHS_Vision_6_Weeks_RIGHT_RED_REFLEX	ahd	string	1056000000		data3				
+CHS_Vision_8_Months_And_18_Months_LEFT	ahd	string	1056100000		data1				
+CHS_Vision_8_Months_And_18_Months_RIGHT	ahd	string	1056100000		data2				
+CHS_cardio_examination_HEART_SOUND	ahd	string	1019500000		data1				
+CHS_cardio_examination_LEFT	ahd	string	1019500000		data2				
+CHS_cardio_examination_RIGHT	ahd	string	1019500000		data3				
+CHS_child_feeding	ahd	string	1050200000		data1				
+CHS_delivery_details_MODE	ahd	string	1055500000		data1				
+CHS_delivery_details_PRESENTATION	ahd	string	1055500000		data2				
+CHS_genitalia	ahd	string	1081000000		data1				
+CHS_mother_and_baby_FEEDING	ahd	string	1050100000		data1				
+CHS_mother_and_baby_MUM_HEALTH	ahd	string	1050100000		data3				
+CHS_mother_and_baby_SLEEP	ahd	string	1050100000		data2				
+CK	ahd	numeric		44H4.00	data2	data3			
+CK	ahd	numeric		44HE.00	data2	data3			
+CK	ahd	numeric		44HG.00	data2	data3			
+CK	ahd	numeric		44H4.11	data2	data3			
+CO2	ahd	numeric		44hA.00	data2	data3			
+CRP	ahd	numeric		44CC000	data2	data3			
+CRP	ahd	numeric		44CS.00	data2	data3			
+CRP	ahd	numeric		44CC.00	data2	data3			
+CRP	ahd	numeric		44CC100	data2	data3			
+CVD_risk	ahd	string	1020200000		data1				
+Ca	ahd	numeric		44h4.00	data2	data3			
+Ca	ahd	numeric		44I8.00	data2	data3			
+Ca	ahd	numeric		44I8100	data2	data3			
+Ca	ahd	numeric		44h7.00	data2	data3			
+Ca	ahd	numeric		44I8000	data2	data3			
+Ca	ahd	numeric		4Q72.00	data2	data3			
+Calculus_examination	ahd	string	1001400205		data4				
+Cause_of_death	ahd	string	1016500000		data1				
+Cerebro-spinal_fluid_examination	ahd	string	1001400192		data4				
+Cervical	ahd	string	1008050000		data6				
+Cervical_swab	ahd	string	1001400118		data4				
+Chemical_function_tests	ahd	string	1001400188		data4				
+Chest_X-ray	ahd	string	1001400091		data4				
+Child_development	ahd	string	1050000000		data2				
+Chlamydia	ahd	string	1001400073		data4				
+Cholesterol	ahd	numeric		44P..00	data2	data3			
+Cholesterol	ahd	numeric		44PK.00	data2	data3			
+Cholesterol	ahd	numeric		44PJ.00	data2	data3			
+Cholesterol	ahd	numeric		44OE.00	data2	data3			
+Cholesterol	ahd	numeric		44PZ.00	data2	data3			
+Cholesterol	ahd	numeric		44P2.00	data2	data3			
+Cholesterol	ahd	numeric		44P3.00	data2	data3			
+Cholesterol	ahd	numeric		44P1.00	data2	data3			
+Cholesterol	ahd	numeric		44P4.00	data2	data3			
+Cholesterol	ahd	numeric		44PH.00	data2	data3			
+HDL_over_Cholesterol	ahd	numeric		44PF.00	data2	data3			
+Cholesterol_over_HDL	ahd	numeric		44lG.00	data2	data3			
+Cholesterol_over_HDL	ahd	numeric		44PG.00	data2	data3			
+Cholesterol_over_HDL	ahd	numeric		44lF.00	data2	data3			
+Cholesterol_over_HDL	ahd	numeric		44l2.00	data2	data3			
+Cl	ahd	numeric		44I6000	data2	data3			
+Cl	ahd	numeric		44I6.00	data2	data3			
+Cl	ahd	numeric		44I6100	data2	data3			
+Cl	ahd	numeric		44h2.00	data2	data3			
+Cl	ahd	numeric		44i1.00	data2	data3			
+Clotting_tests	ahd	string	1001400076		data4				
+Colonoscopy	ahd	string	1001400169		data4				
+Coronary_angiogram	ahd	string	1001400179		data4				
+CorrectedCa	ahd	numeric		44IC000	data2	data3			
+CorrectedCa	ahd	numeric		44h9.00	data2	data3			
+CorrectedCa	ahd	numeric		4Q72100	data2	data3			
+CorrectedCa	ahd	numeric		44IC.00	data2	data3			
+CorrectedCa	ahd	numeric		44IC.11	data2	data3			
+CorrectedCa	ahd	numeric		44h9000	data2	data3			
+Cortisol	ahd	numeric		4482.00	data2	data3			
+Creatinine	ahd	numeric		44J3200	data2	data3			
+Creatinine	ahd	numeric		44JF.00	data2	data3			
+Creatinine	ahd	numeric		44J3300	data2	data3			
+Creatinine	ahd	numeric		44J3.00	data2	data3			
+Creatinine	ahd	numeric		44J3z00	data2	data3			
+Creatinine	ahd	numeric		44J3100	data2	data3			
+Creatinine	ahd	numeric		44J3000	data2	data3			
+DNA_binding_autoantibodies	ahd	string	1001400230		data4				
+Dexa_scan_over_Bone_mineral_density	ahd	string	1001400325		data4				
+Diabetes_annual_check_CHECK_TYPE	ahd	string	1009100000		data2				
+Diabetes_annual_check_PROGTYPE	ahd	string	1009100000		data1				
+Diabetes_current_status	ahd	string	1009111000		data1				
+Diet	ahd	string	1064200000		data2				
+Differential_white_cell_count	ahd	string	1001400178		data4				
+Digoxin	ahd	numeric		44W9000	data2	data3			
+Digoxin	ahd	numeric		44W9.11	data2	data3			
+Digoxin	ahd	numeric		44W9100	data2	data3			
+Digoxin	ahd	numeric		44W9.00	data2	data3			
+Digoxin	ahd	numeric		44W9200	data2	data3			
+Doppler_Ultrasound_Peripheral_Pulse	ahd	string	1001400254		data4				
+Drug	therapy	string							
+Drug_levels	ahd	string	1001400077		data4				
+ECG_ambulatory	ahd	string	1001400193		data4				
+ECG_exercise	ahd	string	1001400191		data4				
+Ear_Swab	ahd	string	1001400320		data4				
+Echocardiogram	ahd	string	1001400256		data4				
+Elbow_X-ray	ahd	string	1001400093		data4				
+Elderly_hearing_Over_75	ahd	string	1055200000		data1				
+Elderly_hygiene_EXAMINATION_TYPE_HOME	ahd	string	1070000000		data1				
+Elderly_hygiene_EXAMINATION_TYPE_PERSONAL	ahd	string	1070000000		data2				
+Elderly_mental_cognitive	ahd	string	1062000000		data1				
+Elderly_mental_emotional_state	ahd	string	1070300000		data1				
+Elderly_physical_health_exam	ahd	string	1070100000		data1				
+Elderly_vision	ahd	string	1056390000		data1				
+Elderly_vision_VISUAL_AIDS	ahd	string	1056390000		data2				
+Electrocardiogram	ahd	string	1001400078		data4				
+Electroencephalography	ahd	string	1001400298		data4				
+Endoscopy	ahd	string	1001400079		data4				
+Eosinophils#	ahd	numeric		42K1.00	data2	data3			
+Eosinophils#	ahd	numeric		42KZ.00	data2	data3			
+Eosinophils#	ahd	numeric		42K..00	data2	data3			
+Eosinophils#	ahd	numeric		42K3.00	data2	data3			
+Eosinophils#	ahd	numeric		42K2.00	data2	data3			
+Eosinophils%	ahd	numeric		42b9.00	data2	data3			
+Epilepsy_Fit_details_ASLEEP_AWAKE	ahd	string	1009200000		data2				
+Epilepsy_Fit_details_AURA	ahd	string	1009200000		data3				
+Erythrocyte	ahd	numeric		42B6.00	data2	data3			
+Erythrocyte	ahd	numeric		42B6200	data2	data3			
+Erythrocyte	ahd	numeric		42B6100	data2	data3			
+Erythrocyte	ahd	numeric		42B6000	data2	data3			
+Erythrocyte	ahd	numeric		42B6z00	data2	data3			
+Erythrocyte	ahd	numeric		42B6300	data2	data3			
+Examination_of_Faeces	ahd	string	1001400190		data4				
+Exercise	ahd	string	1064000000		data1				
+Eye_swab	ahd	string	1001400116		data4				
+FECAL_TEST	ahd	string	1001400080		data4				
+FSH	ahd	numeric		4434100	data2	data3			
+FSH	ahd	numeric		443i.00	data2	data3			
+FSH	ahd	numeric		4434.00	data2	data3			
+FSH	ahd	numeric		4434000	data2	data3			
+FSH	ahd	numeric		443h.00	data2	data3			
+FSH	ahd	numeric		4434.11	data2	data3			
+Female_sex_hormone_profile	ahd	string	1001400098		data4				
+Ferritin	ahd	numeric		42R4300	data2	data3			
+Ferritin	ahd	numeric		42R4100	data2	data3			
+Ferritin	ahd	numeric		42R4.00	data2	data3			
+Ferritin	ahd	numeric		42d4.00	data2	data3			
+Ferritin	ahd	numeric		42R4200	data2	data3			
+Ferritin	ahd	numeric		42R4.11	data2	data3			
+Fev1	ahd	numeric		339O.00	data2	data3			
+Fev1_over_Fvc	ahd	numeric		339M.00	data2	data3			
+Fev1_over_Fvc	ahd	numeric		339R.00	data2	data3			
+Fibrinogen	ahd	numeric		42Q9.00	data2	data3			
+Fibrinogen	ahd	numeric		42Qn.00	data2	data3			
+Film_report	ahd	string	1001400155		data4				
+Follic_Acid	ahd	numeric		42U1.00	data2	data3			
+Follic_Acid	ahd	numeric		42UZ.00	data2	data3			
+Follic_Acid	ahd	numeric		42U5.00	data2	data3			
+Follic_Acid	ahd	numeric		42U..00	data2	data3			
+Follic_Acid	ahd	numeric		42U6.00	data2	data3			
+Follic_Acid	ahd	numeric		42U..11	data2	data3			
+Follic_Acid	ahd	numeric		42U3.00	data2	data3			
+Follic_Acid	ahd	numeric		42U2.00	data2	data3			
+Follic_Acid	ahd	numeric		42UE.00	data2	data3			
+Foot_X-ray	ahd	string	1001400097		data4				
+Foot_pulse_left_leg_PRESENCE_DORSALIS_PEDIS	ahd	string	1009750000		data1				
+Foot_pulse_left_leg_PRESENCE_POSTERIA_TIBIA	ahd	string	1009750000		data2				
+Foot_pulse_right_leg_PRESENCE_DORSALIS_PEDIS	ahd	string	1009700000		data1				
+Foot_pulse_right_leg_PRESENCE_POSTERIA_TIBIA	ahd	string	1009700000		data2				
+FreeT3	ahd	numeric		442U.00	data2	data3			
+FreeT3	ahd	numeric		4425.00	data2	data3			
+FreeT4	ahd	numeric		442c.00	data2	data3			
+FreeT4	ahd	numeric		442V.00	data2	data3			
+FreeT4	ahd	numeric		4427.00	data2	data3			
+Fructosamine	ahd	numeric		44Z1.00	data2	data3			
+Full_blood_count	ahd	string	1001400081		data4				
+Fundoscopy	ahd	string	1001400147		data1				
+Fvc	ahd	numeric		3396.00	data2	data3			
+GGT	ahd	numeric		44G4.00	data2	data3			
+GGT	ahd	numeric		44G4100	data2	data3			
+GGT	ahd	numeric		44G4000	data2	data3			
+GGT	ahd	numeric		44G9.00	data2	data3			
+GGT	ahd	numeric		44G7.00	data2	data3			
+General_ultra_sound_scan	ahd	string	1001400241		data4				
+Genetic_observations	ahd	string	1001400316		data4				
+Glandular_Fever_Test	ahd	string	1001400083		data4				
+Globulin	ahd	numeric		44M5100	data2	data3			
+Globulin	ahd	numeric		44M5.00	data2	data3			
+Globulin	ahd	numeric		44MP000	data2	data3			
+Globulin	ahd	numeric		44M5000	data2	data3			
+Globulin	ahd	numeric		44MP.00	data2	data3			
+Glucose	ahd	numeric		44U8.00	data2	data3			
+Glucose	ahd	numeric		44U9.00	data2	data3			
+Glucose	ahd	numeric		44U1.00	data2	data3			
+Glucose	ahd	numeric		44T5.00	data2	data3			
+Glucose	ahd	numeric		44TJ.00	data2	data3			
+Glucose	ahd	numeric		44U5.00	data2	data3			
+Glucose	ahd	numeric		44U..00	data2	data3			
+Glucose	ahd	numeric		44U..12	data2	data3			
+Glucose	ahd	numeric		44U3.00	data2	data3			
+Glucose	ahd	numeric		44U6.00	data2	data3			
+Glucose	ahd	numeric		44UZ.00	data2	data3			
+Glucose	ahd	numeric		44g..00	data2	data3			
+Glucose	ahd	numeric		4Q80.00	data2	data3			
+Glucose	ahd	numeric		44U7.00	data2	data3			
+Glucose	ahd	numeric		44U4.00	data2	data3			
+Glucose	ahd	numeric		44f..00	data2	data3			
+Glucose	ahd	numeric		44T..00	data2	data3			
+Glucose	ahd	numeric		44TK.00	data2	data3			
+Glucose	ahd	numeric		44T9.00	data2	data3			
+Glucose	ahd	numeric		44Uz.11	data2	data3			
+Glucose	ahd	numeric		44T..11	data2	data3			
+Glucose	ahd	numeric		44f1.00	data2	data3			
+Glucose	ahd	numeric		44U..11	data2	data3			
+Glucose	ahd	numeric		44Uz.00	data2	data3			
+Glucose	ahd	numeric		44TA.00	data2	data3			
+Glucose	ahd	numeric		44U2.00	data2	data3			
+Glucose	ahd	numeric		44g1.00	data2	data3			
+Glucose	ahd	numeric		44T2.00	data2	data3			
+Glucose_Tolerance_test	ahd	string	1001400084		data4				
+Gonadotrophin	ahd	string	1001400234		data4				
+GtanNum	ahd	numeric		42J..11	data2	data3			
+Guthrie_test	ahd	string	1001400150		data4				
+HCG	ahd	numeric		44Z3.00	data2	data3			
+HDL	ahd	numeric		44P5.00	data2	data3			
+HDL	ahd	numeric		44PB.00	data2	data3			
+HDL	ahd	numeric		44d3.00	data2	data3			
+HDL	ahd	numeric		44dA.00	data2	data3			
+HDL_over_LDL	ahd	numeric		44PA.00	data2	data3			
+HDL_over_nonHDL	ahd	numeric		44P8.00	data2	data3			
+HIV_Test	ahd	string	1001400220		data4				
+HLA_Tissue_Typing	ahd	string	1001400300		data4				
+Haematology_screening_tests	ahd	string	1001400317		data4				
+Haemoglobin_variants	ahd	string	1001400214		data4				
+Hand_X-ray	ahd	string	1001400099		data4				
+HbA1C	ahd	numeric		42W3.00	data2	data3			
+HbA1C	ahd	numeric		42W1.00	data2	data3			
+HbA1C	ahd	numeric		42W4.00	data2	data3			
+HbA1C	ahd	numeric		42W2.00	data2	data3			
+HbA1C	ahd	numeric		42WZ.00	data2	data3			
+HbA1C	ahd	numeric		42W..00	data2	data3			
+HbA1C	ahd	numeric		44TB.00	data2	data3			
+HbA1C	ahd	numeric		42W5.00	data2	data3			
+HbA1C	ahd	numeric		42c2.00	data2	data3			
+HbA1C	ahd	numeric		42W..11	data2	data3			
+HbA1C	ahd	numeric		42W..12	data2	data3			
+HbA1C	ahd	numeric		42c0.00	data2	data3			
+HbA1C	ahd	numeric		42c1.00	data2	data3			
+HbA1C	ahd	numeric		44TB000	data2	data3			
+HbA1C	ahd	numeric		44TB100	data2	data3			
+HbA1C	ahd	numeric		42c..00	data2	data3			
+HbA1C	ahd	numeric		42c3.00	data2	data3			
+Heart_examination_RHYTHMN	ahd	string	1019000000		data1				
+Heart_examination_SIZE	ahd	string	1019000000		data2				
+Heart_examination_SOUNDS	ahd	string	1019000000		data3				
+Height	ahd	numeric	1005010100		data1				
+Hematocrit	ahd	numeric		425..00	data2	data3			
+Hematocrit	ahd	numeric		4257.00	data2	data3			
+Hematocrit	ahd	numeric		4258.00	data2	data3			
+Hematocrit	ahd	numeric		425Z.00	data2	data3			
+Hematocrit	ahd	numeric		4255.00	data2	data3			
+Hematocrit	ahd	numeric		4251.00	data2	data3			
+Hematocrit	ahd	numeric		4252.00	data2	data3			
+Hematocrit	ahd	numeric		4256.00	data2	data3			
+Hematocrit	ahd	numeric		425..11	data2	data3			
+Hematocrit	ahd	numeric		4254.00	data2	data3			
+Hematocrit	ahd	numeric		4253.00	data2	data3			
+Hemoglobin	ahd	numeric		423B.00	data2	data3			
+Hemoglobin	ahd	numeric		4237.00	data2	data3			
+Hemoglobin	ahd	numeric		4239.00	data2	data3			
+Hemoglobin	ahd	numeric		423..00	data2	data3			
+Hemoglobin	ahd	numeric		423..11	data2	data3			
+Hemoglobin	ahd	numeric		423Z.00	data2	data3			
+Hemoglobin	ahd	numeric		4235.00	data2	data3			
+Hemoglobin	ahd	numeric		4234.00	data2	data3			
+Hemoglobin	ahd	numeric		424..00	data2	data3			
+Hemoglobin	ahd	numeric		4238.00	data2	data3			
+Hemoglobin	ahd	numeric		4236.00	data2	data3			
+Hepatitis_A_Test	ahd	string	1001400282		data4				
+Hepatitis_B_Antibody	ahd	string	1001400330		data4				
+High_vaginal_swab	ahd	string	1001400120		data4				
+Hip_X-ray	ahd	string	1001400101		data4				
+Histology	ahd	string	1001400237		data4				
+INR	ahd	numeric		42QE000	data2	data3			
+INR	ahd	numeric		42QE100	data2	data3			
+INR	ahd	numeric		9k21.00	data2	data3			
+INR	ahd	numeric		42QE.00	data2	data3			
+Immuno-electrophoresis	ahd	string	1001400233		data4				
+Immunoglobulin	ahd	string	1001400156		data4				
+Immunology_screening_tests	ahd	string	1001400318		data4				
+Infectious_titres	ahd	string	1001400225		data4				
+Intravenous_Pyelogram	ahd	string	1001400074		data4				
+Iron_Fe	ahd	numeric		42RZ.00	data2	data3			
+Iron_Fe	ahd	numeric		42R..00	data2	data3			
+Iron_Fe	ahd	numeric		42R7.00	data2	data3			
+Iron_Fe	ahd	numeric		42R6.00	data2	data3			
+Iron_Fe	ahd	numeric		42R1.00	data2	data3			
+Iron_Fe	ahd	numeric		42R2.00	data2	data3			
+Iron_Fe	ahd	numeric		42d2.00	data2	data3			
+Iron_Fe	ahd	numeric		42R3.00	data2	data3			
+Iron_studies	ahd	string	1001400085		data4				
+K+	ahd	numeric		44I4100	data2	data3			
+K+	ahd	numeric		44h0.00	data2	data3			
+K+	ahd	numeric		44I4.00	data2	data3			
+K+	ahd	numeric		44h8.00	data2	data3			
+K+	ahd	numeric		44I4000	data2	data3			
+K+	ahd	numeric		44I4200	data2	data3			
+Knee_X-ray	ahd	string	1001400105		data4				
+LDH	ahd	numeric		44HD.00	data2	data3			
+LDH	ahd	numeric		44HA.00	data2	data3			
+LDH	ahd	numeric		44H6.11	data2	data3			
+LDH	ahd	numeric		44H6.00	data2	data3			
+LDH	ahd	numeric		44HF.00	data2	data3			
+LDL	ahd	numeric		44PD.00	data2	data3			
+LDL	ahd	numeric		44dB.00	data2	data3			
+LDL	ahd	numeric		44PI.00	data2	data3			
+LDL	ahd	numeric		44d5.00	data2	data3			
+LDL	ahd	numeric		44P6.00	data2	data3			
+LDL_over_HDL	ahd	numeric		44lL.00	data2	data3			
+LUC	ahd	numeric		42ZD.00	data2	data3			
+Lipoprotein_electrophesis	ahd	string	1001400182		data4				
+Lithium	ahd	numeric		44W8100	data2	data3			
+Lithium	ahd	numeric		44W8.00	data2	data3			
+Lithium	ahd	numeric		44W8000	data2	data3			
+Lithium	ahd	numeric		44W8.11	data2	data3			
+Lithium	ahd	numeric		44W8200	data2	data3			
+Liver_Function_tests	ahd	string	1001400075		data4				
+Liver_enzymes	ahd	string	1001400235		data4				
+Lower_arm_X-ray	ahd	string	1001400111		data4				
+Lower_leg_X-ray	ahd	string	1001400123		data4				
+LuteinisingHormone	ahd	numeric		4433000	data2	data3			
+LuteinisingHormone	ahd	numeric		4433.11	data2	data3			
+LuteinisingHormone	ahd	numeric		443e.00	data2	data3			
+LuteinisingHormone	ahd	numeric		4433.12	data2	data3			
+LuteinisingHormone	ahd	numeric		4433100	data2	data3			
+LuteinisingHormone	ahd	numeric		4433.13	data2	data3			
+LuteinisingHormone	ahd	numeric		4433.00	data2	data3			
+LuteinisingHormone	ahd	numeric		443f.00	data2	data3			
+Lymphocytes#	ahd	numeric		42M4.00	data2	data3			
+Lymphocytes#	ahd	numeric		42M..00	data2	data3			
+Lymphocytes#	ahd	numeric		42M2.00	data2	data3			
+Lymphocytes#	ahd	numeric		42MZ.00	data2	data3			
+Lymphocytes#	ahd	numeric		42MG.00	data2	data3			
+Lymphocytes#	ahd	numeric		42M1.00	data2	data3			
+Lymphocytes#	ahd	numeric		42M5.00	data2	data3			
+Lymphocytes%	ahd	numeric		42b1.00	data2	data3			
+MCH	ahd	numeric		4282.00	data2	data3			
+MCH	ahd	numeric		4283.00	data2	data3			
+MCH	ahd	numeric		4285.00	data2	data3			
+MCH	ahd	numeric		428..11	data2	data3			
+MCH	ahd	numeric		4281.00	data2	data3			
+MCH	ahd	numeric		4286.00	data2	data3			
+MCH	ahd	numeric		428Z.00	data2	data3			
+MCH	ahd	numeric		4284.00	data2	data3			
+MCH	ahd	numeric		428..00	data2	data3			
+MCHC-M	ahd	numeric		4291.00	data2	data3			
+MCHC-M	ahd	numeric		4292.00	data2	data3			
+MCHC-M	ahd	numeric		4293.00	data2	data3			
+MCHC-M	ahd	numeric		4294.00	data2	data3			
+MCHC-M	ahd	numeric		429..00	data2	data3			
+MCHC-M	ahd	numeric		429Z.00	data2	data3			
+MCHC-M	ahd	numeric		4295.00	data2	data3			
+MCV	ahd	numeric		42A3.00	data2	data3			
+MCV	ahd	numeric		42A..00	data2	data3			
+MCV	ahd	numeric		42AZ.00	data2	data3			
+MCV	ahd	numeric		42A..11	data2	data3			
+MCV	ahd	numeric		42A4.00	data2	data3			
+MCV	ahd	numeric		42A1.00	data2	data3			
+MCV	ahd	numeric		42A5.00	data2	data3			
+MCV	ahd	numeric		42A2.00	data2	data3			
+MPV	ahd	numeric		42Z5.00	data2	data3			
+MRI_scan	ahd	string	1001400164		data4				
+Male_sex_hormone_profile	ahd	string	1001400100		data4				
+Mammogram	ahd	string	1001400086		data4				
+Maternity_feeding	ahd	string	1050300000		data1				
+Maternity_perineum_EPISIOTOMY	ahd	string	1055400000		data1				
+Maternity_perineum_SUTURE_REMOVE	ahd	string	1055400000		data3				
+Maternity_pregnancy_LMP_certency	ahd	string	1048000000		data1				
+Maternity_pregnancy_LMP_EDD	ahd	numeric	1048000000		data2				
+Mg	ahd	numeric		44LH.00	data2	data3			
+Mg	ahd	numeric		44L2.00	data2	data3			
+Mg	ahd	numeric		44LD.00	data2	data3			
+Mg	ahd	numeric		44L2.11	data2	data3			
+Mg	ahd	numeric		44L2000	data2	data3			
+Microscopy_culture_and_sensitivities	ahd	string	1001400299		data4				
+Microscopy_for_malarial_parasites	ahd	string	1001400279		data4				
+Mid-stream_specimen_of_urine	ahd	string	1001400088		data4				
+Monocytes#	ahd	numeric		42N..00	data2	data3			
+Monocytes#	ahd	numeric		42NZ.00	data2	data3			
+Monocytes#	ahd	numeric		42N2.00	data2	data3			
+Monocytes#	ahd	numeric		42N1.00	data2	data3			
+Monocytes#	ahd	numeric		42N4.00	data2	data3			
+Monocytes#	ahd	numeric		42N3.00	data2	data3			
+Monocytes%	ahd	numeric		42b2.00	data2	data3			
+NRBC	ahd	numeric		4266.00	data2	data3			
+Na	ahd	numeric		44h1.00	data2	data3			
+Na	ahd	numeric		44I5100	data2	data3			
+Na	ahd	numeric		44h6.00	data2	data3			
+Na	ahd	numeric		44I5.00	data2	data3			
+Na	ahd	numeric		44I5000	data2	data3			
+Nail_clippings	ahd	string	1001400090		data4				
+Neck_X-ray	ahd	string	1001400107		data4				
+Nerve_Conduction_Studies	ahd	string	1001400257		data4				
+Neutrophils#	ahd	numeric		42J..00	data2	data3			
+Neutrophils#	ahd	numeric		42J1.00	data2	data3			
+Neutrophils#	ahd	numeric		42J2.00	data2	data3			
+Neutrophils#	ahd	numeric		42JZ.00	data2	data3			
+Neutrophils#	ahd	numeric		42J4.00	data2	data3			
+Neutrophils#	ahd	numeric		42J3.00	data2	data3			
+Neutrophils%	ahd	numeric		42b0.00	data2	data3			
+Night_cough	ahd	string	1009560000		data1				
+NonHDLCholesterol	ahd	numeric		44PL.00	data2	data3			
+NonHDLCholesterol	ahd	numeric		44PL000	data2	data3			
+Nose_swab	ahd	string	1001400122		data4				
+Nuclear_medicine	ahd	string	1001400171		data4				
+Oesophagoscopy	ahd	string	1001400167		data4				
+Other_Bacteriology_Tests	ahd	string	1001400289		data4				
+Other_Diagnostic_Imaging	ahd	string	1001400087		data4				
+Other_Immunology_Tests	ahd	string	1001400280		data4				
+Other_autoantibodies	ahd	string	1001400278		data4				
+Other_drug_levels	ahd	string	1001400157		data4				
+Other_swab	ahd	string	1001400124		data4				
+PDW	ahd	numeric		42P5.00	data2	data3			
+PFR	ahd	numeric		3395.11	data2	data3			
+PFR	ahd	numeric		3395.13	data2	data3			
+PFR	ahd	numeric		339g.00	data2	data3			
+PFR	ahd	numeric		339A.00	data2	data3			
+PFR	ahd	numeric		339B.00	data2	data3			
+PFR	ahd	numeric		3395.00	data2	data3			
+PFR	ahd	numeric		339o.00	data2	data3			
+PFR	ahd	numeric		66YX.00	data2	data3			
+PFR	ahd	numeric		3395.12	data2	data3			
+PFR	ahd	numeric		339D.00	data2	data3			
+PFR	ahd	numeric		339d.00	data2	data3			
+PFR	ahd	numeric		339g.11	data2	data3			
+PFR	ahd	numeric		3395.11	data2	data3			
+PSA	ahd	numeric		43Z2.00	data2	data3			
+PSA	ahd	numeric		43Z2.11	data2	data3			
+PSA	ahd	numeric		43Z2100	data2	data3			
+PSA	ahd	numeric		43Z2200	data2	data3			
+PSA	ahd	numeric		43Z2000	data2	data3			
+PSA	ahd	numeric		43ZF.00	data2	data3			
+PT	ahd	numeric		42Q5.00	data2	data3			
+PTH	ahd	numeric		44AJ.00	data2	data3			
+PTH	ahd	numeric		44AM.00	data2	data3			
+APTT	ahd	numeric		42j9.00	data2	data3			
+APTT	ahd	numeric		42Qw.00	data2	data3			
+PTT	ahd	numeric		42Qu.00	data2	data3			
+PTT	ahd	numeric		42Qt.00	data2	data3			
+PTT	ahd	numeric		42Q6.00	data2	data3			
+PULSE	ahd	numeric	1009300000		data1				
+Parietal_cell_autoantibodies	ahd	string	1001400227		data4				
+Passive_smoking	ahd	string	1003040003		data1				
+Pelvic_ultra-sound	ahd	string	1001400110		data4				
+Pelvis_X-ray	ahd	string	1001400109		data4				
+Peripheral_oedema	ahd	string	1007200000		data1				
+Peripheral_oedema_LATERALITY	ahd	string	1007200000		data3				
+Peripheral_oedema_SITE_IN_LEG	ahd	string	1007200000		data2				
+Phosphore	ahd	numeric		44i2.00	data2	data3			
+Phosphore	ahd	numeric		44I9.00	data2	data3			
+Phosphore	ahd	numeric		44h5.00	data2	data3			
+PlasmaAnionGap	ahd	numeric		44IA.00	data2	data3			
+PlasmaViscosity	ahd	numeric		42B3.00	data2	data3			
+PlasmaViscosity	ahd	numeric		42B..00	data2	data3			
+PlasmaViscosity	ahd	numeric		42B2.00	data2	data3			
+PlasmaViscosity	ahd	numeric		42B1.00	data2	data3			
+PlasmaViscosity	ahd	numeric		42B4.00	data2	data3			
+PlasmaViscosity	ahd	numeric		42B5.00	data2	data3			
+PlasmaViscosity	ahd	numeric		42B..11	data2	data3			
+PlasmaVolume	ahd	numeric		42Z2.00	data2	data3			
+Plasma_electrophoresis	ahd	string	1001400158		data4				
+Platelets	ahd	numeric		42PZ.00	data2	data3			
+Platelets	ahd	numeric		42P1.00	data2	data3			
+Platelets	ahd	numeric		42P..00	data2	data3			
+Platelets_Hematocrit	ahd	numeric		42P9.00	data2	data3			
+Postural_drop_in_Blood_Pressure	ahd	string	1001400259		data4				
+Pregnancy_test	ahd	string	1001400092		data4				
+Progesterone	ahd	numeric		4463000	data2	data3			
+Progesterone	ahd	numeric		4463.00	data2	data3			
+Progesterone	ahd	numeric		4463100	data2	data3			
+Prolactin	ahd	numeric		4435.00	data2	data3			
+Prolactin	ahd	numeric		443j.00	data2	data3			
+Prolactin	ahd	numeric		4435100	data2	data3			
+Prolactin	ahd	numeric		4435000	data2	data3			
+Protein_Total	ahd	numeric		44MZ.00	data2	data3			
+Protein_Total	ahd	numeric		44M3000	data2	data3			
+Protein_Total	ahd	numeric		44M3100	data2	data3			
+Protein_Total	ahd	numeric		44M3.00	data2	data3			
+Protein_Total	ahd	numeric		44M9.00	data2	data3			
+Protein_Total	ahd	numeric		44M..00	data2	data3			
+Protein_Total	ahd	numeric		44M8.00	data2	data3			
+Protein_Total	ahd	numeric		44M2.00	data2	data3			
+Protein_Total	ahd	numeric		44MA.00	data2	data3			
+Protein_Total	ahd	numeric		44M6.00	data2	data3			
+Protein_Total	ahd	numeric		44MV.00	data2	data3			
+Protein_Total	ahd	numeric		44M1.00	data2	data3			
+Protein_Total	ahd	numeric		44M7.00	data2	data3			
+Pulmonary_function_tests	ahd	string	1001400195		data4				
+Pulse_oximetry	ahd	string	1001400328		data4				
+RBC	ahd	numeric		426..00	data2	data3			
+RBC	ahd	numeric		4263.00	data2	data3			
+RBC	ahd	numeric		4264.00	data2	data3			
+RBC	ahd	numeric		426Z.00	data2	data3			
+RBC	ahd	numeric		4267.00	data2	data3			
+RBC	ahd	numeric		4262.00	data2	data3			
+RBC	ahd	numeric		42U4.00	data2	data3			
+RBC_colour_over_staining	ahd	string	1001400221		data4				
+RBC_red_blood_cell_size	ahd	string	1001400217		data4				
+RC	ahd	readcode							^[0-9A-HJ-NP-U]
+RC	medical	readcode							^[0-9A-HJ-NP-U]
+RC_Admin	medical	readcode							^[9]
+RC_Admin	ahd	readcode							^[9]
+RC_Demographic	ahd	readcode							^[0]
+RC_Demographic	medical	readcode							^[0]
+RC_Diagnosis	ahd	readcode							^[ABCDEFGHJKLMNPQ]
+RC_Diagnosis	medical	readcode							^[ABCDEFGHJKLMNPQ]
+RC_Diagnostic_Procedures	ahd	readcode							^[34]
+RC_Diagnostic_Procedures	medical	readcode							^[34]
+RC_History	ahd	readcode							^[12R]
+RC_History	medical	readcode							^[12R]
+RC_Injuries	ahd	readcode							^[STU]
+RC_Injuries	medical	readcode							^[STU]
+RC_Procedures	ahd	readcode							^[678Z]
+RC_Procedures	medical	readcode							^[678Z]
+RC_Radiology	medical	readcode							^[5]
+RC_Radiology	ahd	readcode							^[5]
+RandomGlucose	ahd	numeric		44T1000	data2	data3			
+RandomGlucose	ahd	numeric		44T1200	data2	data3			
+RandomGlucose	ahd	numeric		44f0.00	data2	data3			
+RandomGlucose	ahd	numeric		44T1100	data2	data3			
+RandomGlucose	ahd	numeric		44g0.00	data2	data3			
+RandomGlucose	ahd	numeric		44T1.00	data2	data3			
+RandomHDL	ahd	numeric		44PC.00	data2	data3			
+RandomLDL	ahd	numeric		44PE.00	data2	data3			
+RandomTriglyceride	ahd	numeric		44Q5.00	data2	data3			
+Residence_LIVE_ALONE	ahd	string	1091000000		data2				
+Residence_RESIDENCE_TYPE	ahd	string	1091000000		data1				
+Reticulocyte	ahd	numeric		42X0.00	data2	data3			
+Reticulocyte	ahd	numeric		42X..00	data2	data3			
+Reticulocyte	ahd	numeric		42X1.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43FA.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43F8.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43F6.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43FZ.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43F1.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43F5.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43F7.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43F..00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43F3.00	data2	data3			
+Rheumatoid_Factor	ahd	numeric		43F2.00	data2	data3			
+Ribs_X-ray	ahd	string	1001400113		data4				
+Rubella_Test	ahd	string	1001400134		data4				
+SH-antigen_hepatitis_B_test	ahd	string	1001400218		data4				
+SMOKING	ahd	numeric	1003040000		data1				
+STOPPED_SMOKING	ahd	numeric	1003040000		data6				
+Seminal_analysis	ahd	string	1001400094		data4				
+Serology	ahd	string	1001400096		data4				
+SerumAnionGap	ahd	numeric		44IB.00	data2	data3			
+Serum_Oestradiol	ahd	numeric		4465.00	data2	data3			
+Serum_Oestradiol	ahd	numeric		4465000	data2	data3			
+Sex_Hormone_Binding_Globulin	ahd	numeric		44CD.00	data2	data3			
+Shoulder_X-ray	ahd	string	1001400115		data4				
+Sickle_cell_disease_screen	ahd	string	1001400296		data4				
+Sigmoidoscopy	ahd	string	1001400170		data4				
+Sinus_X-ray	ahd	string	1001400117		data4				
+Skin_Prick_Testing	ahd	string	1001400258		data4				
+Skin_swab	ahd	string	1001400127		data4				
+Skull_X-ray	ahd	string	1001400119		data4				
+Smoking_quantity	medical	numeric		137E.00			2	-9	
+Smoking_quantity	medical	numeric		137Z.00			2	-9	
+Smoking_quantity	medical	numeric		E251.00			2	-9	
+Smoking_quantity	medical	numeric		745H400			2	-9	
+Smoking_quantity	medical	numeric		745H200			2	-9	
+Smoking_quantity	medical	numeric		745H000			2	-9	
+Smoking_quantity	medical	numeric		137j.00			1	-9	
+Smoking_quantity	medical	numeric		13p4.00			1	-9	
+Smoking_quantity	medical	numeric		137F.00			1	-9	
+Smoking_quantity	medical	numeric		137A.00			1	30	
+Smoking_quantity	medical	numeric		137S.00			1	-9	
+Smoking_quantity	medical	numeric		745H.00			2	-9	
+Smoking_quantity	medical	numeric		137T.00			1	-9	
+Smoking_quantity	medical	numeric		1372.00			2	1	
+Smoking_quantity	medical	numeric		1374.00			2	15	
+Smoking_quantity	medical	numeric		8IEM.00			2	-9	
+Smoking_quantity	medical	numeric		9hG1.00			2	-9	
+Smoking_quantity	medical	numeric		9kc..00			2	-9	
+Smoking_quantity	medical	numeric		9N2k.00			2	-9	
+Smoking_quantity	medical	numeric		9N4M.00			2	-9	
+Smoking_quantity	medical	numeric		9Ndg.00			2	-9	
+Smoking_quantity	medical	numeric		9NS0200			2	-9	
+Smoking_quantity	medical	numeric		9OO..00			2	-9	
+Smoking_quantity	medical	numeric		9OO1.00			2	-9	
+Smoking_quantity	medical	numeric		9OO2.00			2	-9	
+Smoking_quantity	medical	numeric		9OO3.00			2	-9	
+Smoking_quantity	medical	numeric		9OO4.00			2	-9	
+Smoking_quantity	medical	numeric		9OO5.00			2	-9	
+Smoking_quantity	medical	numeric		9OO6.00			2	-9	
+Smoking_quantity	medical	numeric		8IEK.00			2	-9	
+Smoking_quantity	medical	numeric		9OO7.00			2	-9	
+Smoking_quantity	medical	numeric		9OOZ.00			2	-9	
+Smoking_quantity	medical	numeric		E023.00			2	-9	
+Smoking_quantity	medical	numeric		ZV6D800			2	-9	
+Smoking_quantity	medical	numeric		13p5.00			2	-9	
+Smoking_quantity	medical	numeric		1371.11			3	0	
+Smoking_quantity	medical	numeric		1372.11			2	1	
+Smoking_quantity	medical	numeric		9Ndf.00			2	-9	
+Smoking_quantity	medical	numeric		9OO..12			2	-9	
+Smoking_quantity	medical	numeric		H310100			2	-9	
+Smoking_quantity	medical	numeric		ZG23300			2	-9	
+Smoking_quantity	medical	numeric		13p1.00			2	-9	
+Smoking_quantity	medical	numeric		388B.00			2	-9	
+Smoking_quantity	medical	numeric		137g.00			2	-9	
+Smoking_quantity	medical	numeric		13p2.00			2	-9	
+Smoking_quantity	medical	numeric		9OOA.00			2	-9	
+Smoking_quantity	medical	numeric		1373.00			2	4	
+Smoking_quantity	medical	numeric		8IAj.00			2	-9	
+Smoking_quantity	medical	numeric		8HkQ.00			2	-9	
+Smoking_quantity	medical	numeric		1375.00			2	30	
+Smoking_quantity	medical	numeric		1376.00			2	50	
+Smoking_quantity	medical	numeric		137b.00			2	-9	
+Smoking_quantity	medical	numeric		137C.00			2	-9	
+Smoking_quantity	medical	numeric		137c.00			2	-9	
+Smoking_quantity	medical	numeric		137e.00			2	-9	
+Smoking_quantity	medical	numeric		137G.00			2	-9	
+Smoking_quantity	medical	numeric		137H.00			2	-9	
+Smoking_quantity	medical	numeric		137J.00			2	-9	
+Smoking_quantity	medical	numeric		137d.00			2	-9	
+Smoking_quantity	medical	numeric		137f.00			2	-9	
+Smoking_quantity	medical	numeric		137h.00			2	-9	
+Smoking_quantity	medical	numeric		6791.00			2	-9	
+Smoking_quantity	medical	numeric		6791000			2	-9	
+Smoking_quantity	medical	numeric		8HTK.00			2	-9	
+Smoking_quantity	medical	numeric		137m.00			2	-9	
+Smoking_quantity	medical	numeric		13p0.00			2	-9	
+Smoking_quantity	medical	numeric		13p8.00			2	-9	
+Smoking_quantity	medical	numeric		38DH.00			2	-9	
+Smoking_quantity	medical	numeric		67A3.00			2	-9	
+Smoking_quantity	medical	numeric		67H1.00			2	-9	
+Smoking_quantity	medical	numeric		67H6.00			2	-9	
+Smoking_quantity	medical	numeric		8B2B.00			2	-9	
+Smoking_quantity	medical	numeric		8B3f.00			2	-9	
+Smoking_quantity	medical	numeric		8B3Y.00			2	-9	
+Smoking_quantity	medical	numeric		8CAg.00			2	-9	
+Smoking_quantity	medical	numeric		8CAL.00			2	-9	
+Smoking_quantity	medical	numeric		8CdB.00			2	-9	
+Smoking_quantity	medical	numeric		8H7i.00			2	-9	
+Smoking_quantity	medical	numeric		8HBM.00			2	-9	
+Smoking_quantity	medical	numeric		13p..00			2	-9	
+Smoking_quantity	medical	numeric		137L.00			4	0	
+Smoking_quantity	ahd	numeric		137Z.00			2	-9	
+Smoking_quantity	medical	numeric		1371.00			3	0	
+Smoking_quantity	ahd	numeric		137D.00			2	-9	
+Smoking_quantity	ahd	numeric		137d.00			2	-9	
+Smoking_quantity	ahd	numeric		137h.00			2	-9	
+Smoking_quantity	ahd	numeric		6791.00			2	-9	
+Smoking_quantity	ahd	numeric		137m.00			2	-9	
+Smoking_quantity	ahd	numeric		13p..00			2	-9	
+Smoking_quantity	ahd	numeric		13p0.00			2	-9	
+Smoking_quantity	ahd	numeric		38DH.00			2	-9	
+Smoking_quantity	ahd	numeric		67A3.00			2	-9	
+Smoking_quantity	ahd	numeric		67H1.00			2	-9	
+Smoking_quantity	ahd	numeric		67H6.00			2	-9	
+Smoking_quantity	ahd	numeric		8B2B.00			2	-9	
+Smoking_quantity	ahd	numeric		8CAg.00			2	-9	
+Smoking_quantity	ahd	numeric		8CAL.00			2	-9	
+Smoking_quantity	ahd	numeric		8H7i.00			2	-9	
+Smoking_quantity	ahd	numeric		8HkQ.00			2	-9	
+Smoking_quantity	ahd	numeric		8HTK.00			2	-9	
+Smoking_quantity	ahd	numeric		137V.00			100	-9	
+Smoking_quantity	ahd	numeric		8IAj.00			2	-9	
+Smoking_quantity	ahd	numeric		137R.00			100	-9	
+Smoking_quantity	ahd	numeric		137P.00			100	-9	
+Smoking_quantity	ahd	numeric		137X.00			100	-9	
+Smoking_quantity	ahd	numeric		137Y.00			2	-9	
+Smoking_quantity	ahd	numeric		137E.00			2	-9	
+Smoking_quantity	ahd	numeric		1372.00			2	1	
+Smoking_quantity	ahd	numeric		1373.00			2	4	
+Smoking_quantity	ahd	numeric		1374.00			2	15	
+Smoking_quantity	ahd	numeric		1375.00			2	30	
+Smoking_quantity	ahd	numeric		1376.00			2	50	
+Smoking_quantity	ahd	numeric		137a.00			2	-9	
+Smoking_quantity	ahd	numeric		137b.00			2	-9	
+Smoking_quantity	ahd	numeric		137C.00			2	-9	
+Smoking_quantity	ahd	numeric		137c.00			2	-9	
+Smoking_quantity	ahd	numeric		137e.00			2	-9	
+Smoking_quantity	ahd	numeric		137G.00			2	-9	
+Smoking_quantity	ahd	numeric		137H.00			2	-9	
+Smoking_quantity	ahd	numeric		137J.00			2	-9	
+Smoking_quantity	ahd	numeric		137M.00			100	-9	
+Smoking_quantity	ahd	numeric		137Q.00			100	-9	
+Smoking_quantity	medical	numeric		137K.00			1	-9	
+Smoking_quantity	ahd	numeric		8IEK.00			2	-9	
+Smoking_quantity	ahd	numeric		9N2k.00			2	-9	
+Smoking_quantity	ahd	numeric		137K000			1	-9	
+Smoking_quantity	ahd	numeric		137j.00			1	-9	
+Smoking_quantity	ahd	numeric		137F.00			1	-9	
+Smoking_quantity	ahd	numeric		137B.00			1	50	
+Smoking_quantity	ahd	numeric		137A.00			1	30	
+Smoking_quantity	ahd	numeric		1379.00			1	15	
+Smoking_quantity	ahd	numeric		1378.00			1	4	
+Smoking_quantity	ahd	numeric		1377.00			1	1	
+Smoking_quantity	medical	numeric		1PC..00			2	-9	
+Smoking_quantity	ahd	numeric		137T.00			1	-9	
+Smoking_quantity	ahd	numeric		137S.00			1	-9	
+Smoking_quantity	ahd	numeric		137O.00			1	-9	
+Smoking_quantity	ahd	numeric		137N.00			1	-9	
+Smoking_quantity	ahd	numeric		137L.00			4	0	
+Smoking_quantity	ahd	numeric		137K.00			1	-9	
+Smoking_quantity	ahd	numeric		1371.00			3	0	
+Smoking_quantity	ahd	numeric		137..00			100	-9	
+Smoking_quantity	ahd	numeric		13p4.00			1	-9	
+Smoking_quantity	ahd	numeric		8IEM.00			2	-9	
+Smoking_quantity	ahd	numeric		137l.00			1	-9	
+Smoking_quantity	ahd	numeric		137W.00			2	-9	
+Smoking_quantity	ahd	numeric		9N4M.00			2	-9	
+Smoking_quantity	ahd	numeric		9Ndg.00			2	-9	
+Smoking_quantity	ahd	numeric		9NS0200			2	-9	
+Smoking_quantity	ahd	numeric		9OO1.00			2	-9	
+Smoking_quantity	ahd	numeric		9OO2.00			2	-9	
+Smoking_quantity	ahd	numeric		9OOA.00			2	-9	
+Smoking_quantity	ahd	numeric		13p5.00			2	-9	
+Smoking_quantity	ahd	numeric		137..11			100	-9	
+Smoking_quantity	ahd	numeric		1371.11			3	0	
+Smoking_quantity	ahd	numeric		1372.11			2	1	
+Smoking_quantity	ahd	numeric		137P.11			100	-9	
+Smoking_quantity	ahd	numeric		137Q.11			100	-9	
+Smoking_quantity	ahd	numeric		9Ndf.00			2	-9	
+Smoking_quantity	ahd	numeric		9OO..12			2	-9	
+Smoking_quantity	ahd	numeric		ZG23300			2	-9	
+Smoking_quantity	ahd	numeric		13p1.00			2	-9	
+Smoking_quantity	ahd	numeric		388B.00			2	-9	
+Smoking_quantity	ahd	numeric		137g.00			2	-9	
+Smoking_quantity	medical	numeric		67K1.00			2	-9	
+Spine_X-ray	ahd	string	1001400121		data4				
+Spirometry	ahd	string	1001400308		data4				
+Sputum_culture	ahd	string	1001400102		data4				
+Sputum_examination	ahd	string	1001400201		data4				
+Stool_culture	ahd	string	1001400104		data4				
+Syphilis_test	ahd	string	1001400146		data4				
+T3	ahd	numeric		4424.00	data2	data3			
+T4	ahd	numeric		4426000	data2	data3			
+T4	ahd	numeric		442b.00	data2	data3			
+T4	ahd	numeric		4426.00	data2	data3			
+T4	ahd	numeric		4426100	data2	data3			
+T4	ahd	numeric		442a.00	data2	data3			
+Temperature	ahd	numeric		2E35.00	data2	data3			
+Temperature	ahd	numeric		2E32.00	data2	data3			
+Temperature	ahd	numeric		2E3..00	data2	data3			
+Temperature	ahd	numeric		2E3..11	data2	data3			
+Temperature	ahd	numeric		2E34.00	data2	data3			
+Temperature	ahd	numeric		2E31.00	data2	data3			
+Temperature	ahd	numeric		2E3Z.00	data2	data3			
+Temperature	ahd	numeric		2E27.00	data2	data3			
+Temperature	ahd	numeric		2E33.00	data2	data3			
+TIBC	ahd	numeric		42R5000	data2	data3			
+TIBC	ahd	numeric		42R5.00	data2	data3			
+TSH	ahd	numeric		442A000	data2	data3			
+TSH	ahd	numeric		442W.00	data2	data3			
+TSH	ahd	numeric		442A.00	data2	data3			
+TSH	ahd	numeric		442A100	data2	data3			
+TSH	ahd	numeric		442X.00	data2	data3			
+TSH	ahd	numeric		442..12	data2	data3			
+TSH	ahd	numeric		442..00	data2	data3			
+Tactile_sensation	ahd	string	1007000000		data1				
+Teophylline	ahd	numeric		44Wl.00	data2	data3			
+Testosterone	ahd	numeric		4473100	data2	data3			
+Testosterone	ahd	numeric		4473000	data2	data3			
+Testosterone	ahd	numeric		4473.00	data2	data3			
+Throat_swab	ahd	string	1001400128		data4				
+Thyroid_function	ahd	string	1001400106		data4				
+Toxicology	ahd	string	1001400148		data4				
+Transferrin	ahd	numeric		44CB.00	data2	data3			
+Transferrin_Saturation_Index	ahd	numeric		42d1.00	data2	data3			
+Treatment_compliance	ahd	string	1066200000		data1				
+Triglycerides	ahd	numeric		44e1.00	data2	data3			
+Triglycerides	ahd	numeric		44e..00	data2	data3			
+Triglycerides	ahd	numeric		44QZ.00	data2	data3			
+Triglycerides	ahd	numeric		44Q4.00	data2	data3			
+Triglycerides	ahd	numeric		44Q1.00	data2	data3			
+Triglycerides	ahd	numeric		44Q3.00	data2	data3			
+Triglycerides	ahd	numeric		44Q2.00	data2	data3			
+Triglycerides	ahd	numeric		44Q..00	data2	data3			
+Triglycerides	ahd	numeric		44e0.00	data2	data3			
+TroponinI	ahd	numeric		44ME.00	data2	data3			
+TroponinI	ahd	numeric		44MG.00	data2	data3			
+TroponinT	ahd	numeric		44MC.00	data2	data3			
+Tubercullin_Test	ahd	string	1001400135		data4				
+Upper_arm_X-ray	ahd	string	1001400103		data4				
+Upper_leg_X-ray	ahd	string	1001400095		data4				
+Urea	ahd	numeric		44JA.00	data2	data3			
+Urea	ahd	numeric		44J8.00	data2	data3			
+Urea	ahd	numeric		44J..11	data2	data3			
+Urea	ahd	numeric		44J..00	data2	data3			
+Urea	ahd	numeric		44JZ.00	data2	data3			
+Urea	ahd	numeric		44J2.00	data2	data3			
+Urea	ahd	numeric		44J1.00	data2	data3			
+Urea	ahd	numeric		44J9.00	data2	data3			
+Urea_and_Electrolytes	ahd	string	1001400112		data4				
+Uric_Acid	ahd	numeric		44K3.00	data2	data3			
+Uric_Acid	ahd	numeric		44K..11	data2	data3			
+Uric_Acid	ahd	numeric		44K..00	data2	data3			
+Uric_Acid	ahd	numeric		44K1.00	data2	data3			
+Uric_Acid	ahd	numeric		44K2.11	data2	data3			
+Uric_Acid	ahd	numeric		44K4.00	data2	data3			
+Uric_Acid	ahd	numeric		44K2.00	data2	data3			
+Uric_Acid	ahd	numeric		44KZ.00	data2	data3			
+Uric_Acid	ahd	numeric		44K6.00	data2	data3			
+Uric_Acid	ahd	numeric		44K5.00	data2	data3			
+Urinalysis_Glucose	ahd	string	1001400151		data4				
+Urinalysis_Protein	ahd	string	1001400152		data4				
+UrineAlbumin	ahd	numeric		46N4.00	data2	data3			
+UrineAlbumin_over_Creatinine	ahd	numeric		46TC.00	data2	data3			
+UrineCreatinine	ahd	numeric		46M8.00	data2	data3			
+UrineCreatinine	ahd	numeric		46M7.00	data2	data3			
+UrineSodium	ahd	numeric		46M4.00	data2	data3			
+UrineTotalProtein	ahd	numeric		46N..00	data2	data3			
+UrineTotalProtein	ahd	numeric		46N3.00	data2	data3			
+UrineTotalProtein	ahd	numeric		46N1.00	data2	data3			
+UrineTotalProtein	ahd	numeric		46NZ.00	data2	data3			
+UrineTotalProtein	ahd	numeric		46N2.00	data2	data3			
+UrineUrate	ahd	numeric		46M5.00	data2	data3			
+Urine_Cytology_Test	ahd	string	1001400283		data4				
+Urine_Dipstick_for_Nitrites	ahd	string	1001400302		data4				
+Urine_Dipstick_pH	ahd	numeric		46A9.00	data2	data3			
+Urine_Epithelial_Cell	ahd	numeric		4KH0.00	data2	data3			
+Urine_Leucocytes	ahd	string	1001400304		data4				
+Urine_Microalbumin	ahd	numeric		46W2.00	data2	data3			
+Urine_Microalbumin	ahd	numeric		46W0.00	data2	data3			
+Urine_Microalbumin	ahd	numeric		46W1.00	data2	data3			
+Urine_Microalbumin	ahd	numeric		46W..00	data2	data3			
+Urine_Protein_Creatinine	ahd	numeric		44lD.00	data2	data3			
+Urine_dipstick_for_blood	ahd	string	1001400309		data4				
+Urine_dipstick_for_glucose	ahd	string	1001400303		data4				
+Urine_dipstick_for_ketones	ahd	string	1001400307		data4				
+Urine_dipstick_for_protein	ahd	string	1001400305		data4				
+Urine_test	ahd	string	1001400114		data4				
+VLDL	ahd	numeric		44P7.00	data2	data3			
+Vaginal_swab	ahd	string	1001400130		data4				
+Viral_studies	ahd	string	1001400149		data4				
+Visual_Acuity_Left_Eye_VISUAL_ACUITY	ahd	string	1056350000		data1				
+Visual_Acuity_Left_Eye_VISUAL_AIDS	ahd	string	1056350000		data2				
+Visual_Acuity_Right_Eye_VISUAL_ACUITY	ahd	string	1056300000		data1				
+Visual_Acuity_Right_Eye_VISUAL_AIDS	ahd	string	1056300000		data2				
+VitaminD2	ahd	numeric		44Lg.00	data2	data3			
+VitaminD_25	ahd	numeric		44LA.00	data2	data3			
+VitaminLevel	ahd	numeric		44Ld.00	data2	data3			
+WBC	ahd	numeric		42H..12	data2	data3			
+WBC	ahd	numeric		42H7.00	data2	data3			
+WBC	ahd	numeric		42H1.00	data2	data3			
+WBC	ahd	numeric		42H..11	data2	data3			
+WBC	ahd	numeric		42H..00	data2	data3			
+Weight	ahd	numeric	1005010200		data1				
+Wound_swab	ahd	string	1001400131		data4				
+Wrist_X-ray	ahd	string	1001400125		data4				
+Zinc	ahd	numeric		44Z4.00	data2	data3			
+eGFR	ahd	numeric		451N.00	data2	data3			
+eGFR	ahd	numeric		451G.00	data2	data3			
+eGFR	ahd	numeric		451E.00	data2	data3			
+GFR	ahd	numeric		451F.00	data2	data3			
+Cancer_Location		string							
+STARTDATE	patient	numeric			startdate				
+BYEAR	patient	numeric			dob				
+DEATH	patient	numeric			deathdte				
+ENDDATE	patient	numeric			enddate				
+GENDER	patient	numeric			sex				
+Censor	patient	numeric							
+PRAC	patient	string			pracid				

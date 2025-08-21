@@ -1,0 +1,162 @@
+Monocytes% :: All :: With Values :: 407582 / 14446692 =  0.03 :: 407582 / 407582 =  1.00
+Monocytes% :: Males :: With Values :: 166147 / 6889335 =  0.02 :: 166147 / 407582 =  0.41
+Monocytes% :: Females :: With Values :: 241435 / 7557357 =  0.03 :: 241435 / 407582 =  0.59
+Monocytes% :: General :: No. of Values :: All 1440533 Male 543419 Female 897114
+Monocytes% :: General :: No. of different days Values :: All 1438403 Male 542520 Female 895883
+Monocytes% :: General :: Avg #values per person (all) :: All  0.10 Male  0.08 Female  0.12
+Monocytes% :: General :: Avg #values per person (>0)  :: All  3.53 Male  3.27 Female  3.71
+Monocytes% :: General :: Avg dist between tests       :: All  354.3 Male  365.9 Female  347.5
+Monocytes% :: Counts :: Age Group 20 - 25 :: All ::   9321 0.006
+Monocytes% :: Counts :: Age Group 25 - 30 :: All ::  11291 0.008
+Monocytes% :: Counts :: Age Group 30 - 35 :: All ::  14661 0.010
+Monocytes% :: Counts :: Age Group 35 - 40 :: All ::  15992 0.011
+Monocytes% :: Counts :: Age Group 40 - 45 :: All ::  18132 0.013
+Monocytes% :: Counts :: Age Group 45 - 50 :: All ::  20490 0.014
+Monocytes% :: Counts :: Age Group 50 - 55 :: All ::  22329 0.016
+Monocytes% :: Counts :: Age Group 55 - 60 :: All ::  23504 0.016
+Monocytes% :: Counts :: Age Group 60 - 65 :: All ::  25456 0.018
+Monocytes% :: Counts :: Age Group 65 - 70 :: All ::  26532 0.018
+Monocytes% :: Counts :: Age Group 70 - 75 :: All ::  24703 0.017
+Monocytes% :: Counts :: Age Group 75 - 80 :: All ::  23552 0.016
+Monocytes% :: Counts :: Age Group 80 - 85 :: All ::  20596 0.014
+Monocytes% :: Counts :: Age Group 85 - 90 :: All ::  14222 0.010
+Monocytes% :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Monocytes% :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Monocytes% :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Monocytes% :: Counts :: Age Group 20 - 25 :: Males ::   2246 0.004
+Monocytes% :: Counts :: Age Group 25 - 30 :: Males ::   2578 0.005
+Monocytes% :: Counts :: Age Group 30 - 35 :: Males ::   3590 0.007
+Monocytes% :: Counts :: Age Group 35 - 40 :: Males ::   4361 0.008
+Monocytes% :: Counts :: Age Group 40 - 45 :: Males ::   5902 0.011
+Monocytes% :: Counts :: Age Group 45 - 50 :: Males ::   7370 0.014
+Monocytes% :: Counts :: Age Group 50 - 55 :: Males ::   8816 0.016
+Monocytes% :: Counts :: Age Group 55 - 60 :: Males ::  10032 0.018
+Monocytes% :: Counts :: Age Group 60 - 65 :: Males ::  11369 0.021
+Monocytes% :: Counts :: Age Group 65 - 70 :: Males ::  12321 0.023
+Monocytes% :: Counts :: Age Group 70 - 75 :: Males ::  11172 0.021
+Monocytes% :: Counts :: Age Group 75 - 80 :: Males ::  10159 0.019
+Monocytes% :: Counts :: Age Group 80 - 85 :: Males ::   8141 0.015
+Monocytes% :: Counts :: Age Group 85 - 90 :: Males ::   4974 0.009
+Monocytes% :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Monocytes% :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Monocytes% :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Monocytes% :: Counts :: Age Group 20 - 25 :: Females ::   7075 0.008
+Monocytes% :: Counts :: Age Group 25 - 30 :: Females ::   8713 0.010
+Monocytes% :: Counts :: Age Group 30 - 35 :: Females ::  11071 0.012
+Monocytes% :: Counts :: Age Group 35 - 40 :: Females ::  11631 0.013
+Monocytes% :: Counts :: Age Group 40 - 45 :: Females ::  12230 0.014
+Monocytes% :: Counts :: Age Group 45 - 50 :: Females ::  13120 0.015
+Monocytes% :: Counts :: Age Group 50 - 55 :: Females ::  13513 0.015
+Monocytes% :: Counts :: Age Group 55 - 60 :: Females ::  13472 0.015
+Monocytes% :: Counts :: Age Group 60 - 65 :: Females ::  14087 0.016
+Monocytes% :: Counts :: Age Group 65 - 70 :: Females ::  14211 0.016
+Monocytes% :: Counts :: Age Group 70 - 75 :: Females ::  13531 0.015
+Monocytes% :: Counts :: Age Group 75 - 80 :: Females ::  13393 0.015
+Monocytes% :: Counts :: Age Group 80 - 85 :: Females ::  12455 0.014
+Monocytes% :: Counts :: Age Group 85 - 90 :: Females ::   9248 0.010
+Monocytes% :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Monocytes% :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Monocytes% :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Monocytes% :: Stats :: Age Group 20 - 25 :: All ::  N 29179 non-zeros 29143 Median   7.00 Mean   7.17 Std   2.53 Max  41.00
+Monocytes% :: Stats :: Age Group 25 - 30 :: All ::  N 34526 non-zeros 34482 Median   7.00 Mean   7.02 Std   2.45 Max  38.00
+Monocytes% :: Stats :: Age Group 30 - 35 :: All ::  N 40095 non-zeros 40020 Median   7.00 Mean   6.93 Std   2.42 Max  43.00
+Monocytes% :: Stats :: Age Group 35 - 40 :: All ::  N 42411 non-zeros 42370 Median   7.00 Mean   7.03 Std   2.38 Max  29.00
+Monocytes% :: Stats :: Age Group 40 - 45 :: All ::  N 46302 non-zeros 46268 Median   7.00 Mean   7.20 Std   2.36 Max  38.00
+Monocytes% :: Stats :: Age Group 45 - 50 :: All ::  N 48231 non-zeros 48195 Median   7.00 Mean   7.32 Std   2.40 Max  40.00
+Monocytes% :: Stats :: Age Group 50 - 55 :: All ::  N 48480 non-zeros 48429 Median   7.00 Mean   7.38 Std   2.40 Max  37.00
+Monocytes% :: Stats :: Age Group 55 - 60 :: All ::  N 48634 non-zeros 48579 Median   7.00 Mean   7.43 Std   2.44 Max  40.00
+Monocytes% :: Stats :: Age Group 60 - 65 :: All ::  N 46801 non-zeros 46750 Median   7.00 Mean   7.55 Std   2.47 Max  41.00
+Monocytes% :: Stats :: Age Group 65 - 70 :: All ::  N 42846 non-zeros 42787 Median   8.00 Mean   7.70 Std   2.57 Max  46.00
+Monocytes% :: Stats :: Age Group 70 - 75 :: All ::  N 37672 non-zeros 37612 Median   8.00 Mean   7.79 Std   2.63 Max  40.00
+Monocytes% :: Stats :: Age Group 75 - 80 :: All ::  N 33176 non-zeros 33134 Median   8.00 Mean   7.89 Std   2.76 Max  45.00
+Monocytes% :: Stats :: Age Group 80 - 85 :: All ::  N 26503 non-zeros 26465 Median   8.00 Mean   7.98 Std   2.87 Max  45.00
+Monocytes% :: Stats :: Age Group 85 - 90 :: All ::  N 16939 non-zeros 16921 Median   8.00 Mean   8.09 Std   3.04 Max  53.00
+Monocytes% :: Stats :: Age Group 90 - 95 :: All ::  N 7657 non-zeros 7646 Median   8.00 Mean   8.19 Std   3.18 Max  53.00
+Monocytes% :: Stats :: Age Group 95 - 100 :: All ::  N 1940 non-zeros 1936 Median   8.00 Mean   8.18 Std   3.38 Max  49.00
+Monocytes% :: General :: All     :: outliers ratio 0.000051
+Monocytes% :: General :: All     :: N 371867 non-zeros 371283 Median   7.00 Mean   7.40 Std   2.57 Max  44.00
+Monocytes% :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.00   3.00   4.00  12.00  15.00  22.00
+Monocytes% :: General :: All     :: quartiles ::   1.00   6.00   7.00   9.00 
+Monocytes% :: General :: Males   :: outliers ratio 0.000033
+Monocytes% :: General :: Males   :: N 151727 non-zeros 151553 Median   8.00 Mean   7.92 Std   2.65 Max  47.00
+Monocytes% :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.00   3.00   4.00  12.00  16.00  24.00
+Monocytes% :: General :: Males   :: quartiles ::   1.00   6.00   8.00   9.00 
+Monocytes% :: General :: Females :: outliers ratio 0.000064
+Monocytes% :: General :: Females :: N 220140 non-zeros 219733 Median   7.00 Mean   7.05 Std   2.45 Max  43.00
+Monocytes% :: General :: Females :: distribution 0.001,0.01,0.05 ::   1.00   3.00   4.00  11.00  14.00  20.00
+Monocytes% :: General :: Females :: quartiles ::   1.00   5.00   7.00   8.00 
+Monocytes% :: Rounding ::  0.00 r  0.00 pct
+Monocytes% :: Rounding ::  0.01 r  0.00 pct
+Monocytes% :: Rounding ::  0.10 r  0.00 pct
+Monocytes% :: Rounding ::  1.00 r  0.92 pct
+Monocytes% :: Rounding :: 10.00 r  0.08 pct
+Monocytes% :: Rounding :: 100.00 r  0.00 pct
+Monocytes% :: Rounding :: 1000.00 r  0.00 pct
+Monocytes% :: Rounding :: most popular rounding for vals:  1.00
+Monocytes% :: Stats year :: 2000 :: All :: N 10868 non-zeros 10573 Median   8.00 Mean   7.68 Std   2.95 Max  36.00
+Monocytes% :: Stats year :: 2001 :: All :: N 19376 non-zeros 19353 Median   8.00 Mean   7.75 Std   2.70 Max  40.00
+Monocytes% :: Stats year :: 2002 :: All :: N 30214 non-zeros 30082 Median   7.00 Mean   7.10 Std   2.67 Max  45.00
+Monocytes% :: Stats year :: 2003 :: All :: N 49942 non-zeros 49887 Median   7.00 Mean   7.04 Std   2.54 Max  43.00
+Monocytes% :: Stats year :: 2004 :: All :: N 57323 non-zeros 57264 Median   6.00 Mean   6.83 Std   2.57 Max  44.00
+Monocytes% :: Stats year :: 2005 :: All :: N 64699 non-zeros 64659 Median   7.00 Mean   6.92 Std   2.66 Max  44.00
+Monocytes% :: Stats year :: 2006 :: All :: N 77792 non-zeros 77763 Median   7.00 Mean   7.10 Std   2.60 Max  46.00
+Monocytes% :: Stats year :: 2007 :: All :: N 83378 non-zeros 83351 Median   7.00 Mean   7.31 Std   2.61 Max  46.00
+Monocytes% :: Stats year :: 2008 :: All :: N 71885 non-zeros 71853 Median   8.00 Mean   7.76 Std   2.58 Max  44.00
+Monocytes% :: Stats year :: 2009 :: All :: N 72198 non-zeros 72181 Median   8.00 Mean   7.87 Std   2.41 Max  42.00
+Monocytes% :: Stats year :: 2010 :: All :: N 69234 non-zeros 69222 Median   7.00 Mean   7.65 Std   2.43 Max  40.00
+Monocytes% :: Stats year :: 2011 :: All :: N 72214 non-zeros 72197 Median   8.00 Mean   7.81 Std   2.36 Max  39.00
+Monocytes% :: Stats year :: 2012 :: All :: N 66589 non-zeros 66584 Median   7.00 Mean   7.37 Std   2.39 Max  43.00
+Monocytes% :: Stats year :: 2013 :: All :: N 71659 non-zeros 71648 Median   7.00 Mean   7.45 Std   2.36 Max  38.00
+Monocytes% :: Stats year :: 2014 :: All :: N 57667 non-zeros 57661 Median   7.00 Mean   7.62 Std   2.46 Max  42.00
+Monocytes% :: Stats year :: 2015 :: All :: N 41964 non-zeros 41961 Median   8.00 Mean   8.38 Std   2.38 Max  43.00
+Monocytes% :: Stats year :: 2016 :: All :: N 2226 non-zeros 2226 Median   8.00 Mean   8.51 Std   2.48 Max  34.00
+Monocytes% :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Monocytes% :: Stats year :: 2000 :: Males   :: N 3718 non-zeros 3648 Median   8.00 Mean   8.38 Std   3.05 Max  26.00
+Monocytes% :: Stats year :: 2001 :: Males   :: N 6746 non-zeros 6740 Median   8.00 Mean   8.40 Std   2.87 Max  47.00
+Monocytes% :: Stats year :: 2002 :: Males   :: N 10804 non-zeros 10764 Median   7.00 Mean   7.66 Std   2.76 Max  39.00
+Monocytes% :: Stats year :: 2003 :: Males   :: N 18208 non-zeros 18188 Median   7.00 Mean   7.56 Std   2.65 Max  40.00
+Monocytes% :: Stats year :: 2004 :: Males   :: N 21441 non-zeros 21419 Median   7.00 Mean   7.33 Std   2.67 Max  44.00
+Monocytes% :: Stats year :: 2005 :: Males   :: N 24443 non-zeros 24427 Median   7.00 Mean   7.41 Std   2.75 Max  44.00
+Monocytes% :: Stats year :: 2006 :: Males   :: N 29940 non-zeros 29930 Median   7.00 Mean   7.61 Std   2.64 Max  41.00
+Monocytes% :: Stats year :: 2007 :: Males   :: N 32968 non-zeros 32955 Median   8.00 Mean   7.81 Std   2.69 Max  43.00
+Monocytes% :: Stats year :: 2008 :: Males   :: N 28398 non-zeros 28384 Median   8.00 Mean   8.28 Std   2.64 Max  38.00
+Monocytes% :: Stats year :: 2009 :: Males   :: N 28857 non-zeros 28850 Median   8.00 Mean   8.37 Std   2.46 Max  42.00
+Monocytes% :: Stats year :: 2010 :: Males   :: N 28047 non-zeros 28042 Median   8.00 Mean   8.14 Std   2.53 Max  45.00
+Monocytes% :: Stats year :: 2011 :: Males   :: N 29332 non-zeros 29324 Median   8.00 Mean   8.29 Std   2.40 Max  38.00
+Monocytes% :: Stats year :: 2012 :: Males   :: N 27104 non-zeros 27102 Median   8.00 Mean   7.82 Std   2.43 Max  43.00
+Monocytes% :: Stats year :: 2013 :: Males   :: N 28473 non-zeros 28469 Median   8.00 Mean   7.89 Std   2.46 Max  42.00
+Monocytes% :: Stats year :: 2014 :: Males   :: N 22826 non-zeros 22824 Median   8.00 Mean   8.09 Std   2.54 Max  42.00
+Monocytes% :: Stats year :: 2015 :: Males   :: N 16955 non-zeros 16954 Median   9.00 Mean   8.94 Std   2.42 Max  39.00
+Monocytes% :: Stats year :: 2016 :: Males   :: N 926 non-zeros 926 Median   9.00 Mean   9.14 Std   2.44 Max  25.00
+Monocytes% :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Monocytes% :: Stats year :: 2000 :: Females :: N 7150 non-zeros 6922 Median   7.00 Mean   7.33 Std   2.84 Max  36.00
+Monocytes% :: Stats year :: 2001 :: Females :: N 12630 non-zeros 12613 Median   7.00 Mean   7.40 Std   2.53 Max  40.00
+Monocytes% :: Stats year :: 2002 :: Females :: N 19410 non-zeros 19322 Median   7.00 Mean   6.79 Std   2.56 Max  45.00
+Monocytes% :: Stats year :: 2003 :: Females :: N 31734 non-zeros 31700 Median   6.00 Mean   6.75 Std   2.43 Max  37.00
+Monocytes% :: Stats year :: 2004 :: Females :: N 35881 non-zeros 35843 Median   6.00 Mean   6.53 Std   2.47 Max  40.00
+Monocytes% :: Stats year :: 2005 :: Females :: N 40258 non-zeros 40233 Median   6.00 Mean   6.62 Std   2.56 Max  44.00
+Monocytes% :: Stats year :: 2006 :: Females :: N 47849 non-zeros 47828 Median   6.00 Mean   6.77 Std   2.50 Max  42.00
+Monocytes% :: Stats year :: 2007 :: Females :: N 50408 non-zeros 50391 Median   7.00 Mean   6.99 Std   2.51 Max  43.00
+Monocytes% :: Stats year :: 2008 :: Females :: N 43488 non-zeros 43472 Median   7.00 Mean   7.43 Std   2.47 Max  44.00
+Monocytes% :: Stats year :: 2009 :: Females :: N 43343 non-zeros 43334 Median   7.00 Mean   7.53 Std   2.31 Max  42.00
+Monocytes% :: Stats year :: 2010 :: Females :: N 41188 non-zeros 41182 Median   7.00 Mean   7.32 Std   2.33 Max  37.00
+Monocytes% :: Stats year :: 2011 :: Females :: N 42882 non-zeros 42873 Median   7.00 Mean   7.48 Std   2.27 Max  39.00
+Monocytes% :: Stats year :: 2012 :: Females :: N 39484 non-zeros 39479 Median   7.00 Mean   7.05 Std   2.30 Max  35.00
+Monocytes% :: Stats year :: 2013 :: Females :: N 43186 non-zeros 43178 Median   7.00 Mean   7.15 Std   2.26 Max  38.00
+Monocytes% :: Stats year :: 2014 :: Females :: N 34841 non-zeros 34838 Median   7.00 Mean   7.32 Std   2.35 Max  37.00
+Monocytes% :: Stats year :: 2015 :: Females :: N 25007 non-zeros 25002 Median   8.00 Mean   8.00 Std   2.27 Max  38.00
+Monocytes% :: Stats year :: 2016 :: Females :: N 1300 non-zeros 1300 Median   8.00 Mean   8.06 Std   2.43 Max  34.00
+Monocytes% :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Monocytes% :: Stats month 1 :: All :: N 62570 non-zeros 62465 Median   7.00 Mean   7.62 Std   2.68 Max  44.00
+Monocytes% :: Stats month 2 :: All :: N 59227 non-zeros 59077 Median   7.00 Mean   7.55 Std   2.68 Max  47.00
+Monocytes% :: Stats month 3 :: All :: N 63435 non-zeros 63297 Median   7.00 Mean   7.47 Std   2.65 Max  47.00
+Monocytes% :: Stats month 4 :: All :: N 58759 non-zeros 58720 Median   7.00 Mean   7.44 Std   2.60 Max  45.00
+Monocytes% :: Stats month 5 :: All :: N 60014 non-zeros 59958 Median   7.00 Mean   7.37 Std   2.61 Max  40.00
+Monocytes% :: Stats month 6 :: All :: N 61800 non-zeros 61756 Median   7.00 Mean   7.41 Std   2.56 Max  38.00
+Monocytes% :: Stats month 7 :: All :: N 61407 non-zeros 61365 Median   7.00 Mean   7.42 Std   2.55 Max  43.00
+Monocytes% :: Stats month 8 :: All :: N 57762 non-zeros 57724 Median   7.00 Mean   7.46 Std   2.58 Max  45.00
+Monocytes% :: Stats month 9 :: All :: N 62252 non-zeros 62206 Median   7.00 Mean   7.48 Std   2.57 Max  41.00
+Monocytes% :: Stats month 10 :: All :: N 63445 non-zeros 63424 Median   7.00 Mean   7.52 Std   2.60 Max  46.00
+Monocytes% :: Stats month 11 :: All :: N 61926 non-zeros 61892 Median   7.00 Mean   7.53 Std   2.61 Max  41.00
+Monocytes% :: Stats month 12 :: All :: N 51013 non-zeros 50981 Median   7.00 Mean   7.69 Std   2.68 Max  45.00
+

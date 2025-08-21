@@ -1,0 +1,9 @@
+SECTION	CVD_HemorhagicStroke
+
+DEF	1	CVD_HemorhagicStroke_Confirmed_Event
+DEF	2	CVD_HemorhagicStroke_Untimed_Event
+DEF	3	CVD_HemorhagicStroke_History
+
+DEF	40060	CVD_Untimed_Event_Or_History
+SET	CVD_Untimed_Event_Or_History	CVD_HemorhagicStroke_Untimed_Event
+SET	CVD_Untimed_Event_Or_History	CVD_HemorhagicStroke_History

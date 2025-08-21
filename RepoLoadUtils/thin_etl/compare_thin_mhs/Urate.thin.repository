@@ -1,0 +1,162 @@
+Urate :: All :: With Values :: 582644 / 14446692 =  0.04 :: 582644 / 582644 =  1.00
+Urate :: Males :: With Values :: 306478 / 6889335 =  0.04 :: 306478 / 582644 =  0.53
+Urate :: Females :: With Values :: 276166 / 7557357 =  0.04 :: 276166 / 582644 =  0.47
+Urate :: General :: No. of Values :: All 1017262 Male 584183 Female 433079
+Urate :: General :: No. of different days Values :: All 1016624 Male 583864 Female 432760
+Urate :: General :: Avg #values per person (all) :: All  0.07 Male  0.08 Female  0.06
+Urate :: General :: Avg #values per person (>0)  :: All  1.74 Male  1.91 Female  1.57
+Urate :: General :: Avg dist between tests       :: All  643.4 Male  653.7 Female  625.2
+Urate :: Counts :: Age Group 20 - 25 :: All ::   2513 0.002
+Urate :: Counts :: Age Group 25 - 30 :: All ::   4107 0.004
+Urate :: Counts :: Age Group 30 - 35 :: All ::   6462 0.006
+Urate :: Counts :: Age Group 35 - 40 :: All ::   8605 0.008
+Urate :: Counts :: Age Group 40 - 45 :: All ::  11602 0.011
+Urate :: Counts :: Age Group 45 - 50 :: All ::  15005 0.015
+Urate :: Counts :: Age Group 50 - 55 :: All ::  18567 0.018
+Urate :: Counts :: Age Group 55 - 60 :: All ::  21094 0.021
+Urate :: Counts :: Age Group 60 - 65 :: All ::  22633 0.022
+Urate :: Counts :: Age Group 65 - 70 :: All ::  22294 0.022
+Urate :: Counts :: Age Group 70 - 75 :: All ::  20874 0.021
+Urate :: Counts :: Age Group 75 - 80 :: All ::  19027 0.019
+Urate :: Counts :: Age Group 80 - 85 :: All ::  15083 0.015
+Urate :: Counts :: Age Group 85 - 90 :: All ::   9198 0.009
+Urate :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Urate :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Urate :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Urate :: Counts :: Age Group 20 - 25 :: Males ::    754 0.001
+Urate :: Counts :: Age Group 25 - 30 :: Males ::   1484 0.003
+Urate :: Counts :: Age Group 30 - 35 :: Males ::   2758 0.005
+Urate :: Counts :: Age Group 35 - 40 :: Males ::   4568 0.008
+Urate :: Counts :: Age Group 40 - 45 :: Males ::   7101 0.012
+Urate :: Counts :: Age Group 45 - 50 :: Males ::   9492 0.016
+Urate :: Counts :: Age Group 50 - 55 :: Males ::  11694 0.020
+Urate :: Counts :: Age Group 55 - 60 :: Males ::  13038 0.022
+Urate :: Counts :: Age Group 60 - 65 :: Males ::  14178 0.024
+Urate :: Counts :: Age Group 65 - 70 :: Males ::  13982 0.024
+Urate :: Counts :: Age Group 70 - 75 :: Males ::  12618 0.022
+Urate :: Counts :: Age Group 75 - 80 :: Males ::  10734 0.018
+Urate :: Counts :: Age Group 80 - 85 :: Males ::   7936 0.014
+Urate :: Counts :: Age Group 85 - 90 :: Males ::   4390 0.008
+Urate :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Urate :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Urate :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Urate :: Counts :: Age Group 20 - 25 :: Females ::   1759 0.004
+Urate :: Counts :: Age Group 25 - 30 :: Females ::   2623 0.006
+Urate :: Counts :: Age Group 30 - 35 :: Females ::   3704 0.009
+Urate :: Counts :: Age Group 35 - 40 :: Females ::   4037 0.009
+Urate :: Counts :: Age Group 40 - 45 :: Females ::   4501 0.010
+Urate :: Counts :: Age Group 45 - 50 :: Females ::   5513 0.013
+Urate :: Counts :: Age Group 50 - 55 :: Females ::   6873 0.016
+Urate :: Counts :: Age Group 55 - 60 :: Females ::   8056 0.019
+Urate :: Counts :: Age Group 60 - 65 :: Females ::   8455 0.020
+Urate :: Counts :: Age Group 65 - 70 :: Females ::   8312 0.019
+Urate :: Counts :: Age Group 70 - 75 :: Females ::   8256 0.019
+Urate :: Counts :: Age Group 75 - 80 :: Females ::   8293 0.019
+Urate :: Counts :: Age Group 80 - 85 :: Females ::   7147 0.017
+Urate :: Counts :: Age Group 85 - 90 :: Females ::   4808 0.011
+Urate :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Urate :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Urate :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Urate :: Stats :: Age Group 20 - 25 :: All ::  N 12720 non-zeros 12693 Median   4.70 Mean   5.00 Std   1.66 Max  15.62
+Urate :: Stats :: Age Group 25 - 30 :: All ::  N 19555 non-zeros 19517 Median   4.87 Mean   5.21 Std   1.84 Max  16.30
+Urate :: Stats :: Age Group 30 - 35 :: All ::  N 28193 non-zeros 28126 Median   5.04 Mean   5.42 Std   1.91 Max  14.62
+Urate :: Stats :: Age Group 35 - 40 :: All ::  N 36490 non-zeros 36422 Median   5.38 Mean   5.61 Std   1.93 Max  14.28
+Urate :: Stats :: Age Group 40 - 45 :: All ::  N 47066 non-zeros 46951 Median   5.54 Mean   5.73 Std   1.91 Max  16.30
+Urate :: Stats :: Age Group 45 - 50 :: All ::  N 57674 non-zeros 57541 Median   5.54 Mean   5.81 Std   1.85 Max  17.14
+Urate :: Stats :: Age Group 50 - 55 :: All ::  N 67324 non-zeros 67188 Median   5.71 Mean   5.83 Std   1.78 Max  16.97
+Urate :: Stats :: Age Group 55 - 60 :: All ::  N 72846 non-zeros 72656 Median   5.71 Mean   5.89 Std   1.74 Max  17.14
+Urate :: Stats :: Age Group 60 - 65 :: All ::  N 72555 non-zeros 72391 Median   5.88 Mean   5.99 Std   1.76 Max  28.56
+Urate :: Stats :: Age Group 65 - 70 :: All ::  N 68414 non-zeros 68250 Median   5.88 Mean   6.11 Std   1.81 Max  18.31
+Urate :: Stats :: Age Group 70 - 75 :: All ::  N 60993 non-zeros 60832 Median   6.05 Mean   6.23 Std   1.90 Max  28.56
+Urate :: Stats :: Age Group 75 - 80 :: All ::  N 52639 non-zeros 52494 Median   6.22 Mean   6.35 Std   2.01 Max  16.97
+Urate :: Stats :: Age Group 80 - 85 :: All ::  N 38163 non-zeros 38057 Median   6.22 Mean   6.50 Std   2.15 Max  17.30
+Urate :: Stats :: Age Group 85 - 90 :: All ::  N 21219 non-zeros 21166 Median   6.38 Mean   6.63 Std   2.24 Max  17.47
+Urate :: Stats :: Age Group 90 - 95 :: All ::  N 7632 non-zeros 7614 Median   6.55 Mean   6.78 Std   2.31 Max  15.96
+Urate :: Stats :: Age Group 95 - 100 :: All ::  N 1659 non-zeros 1657 Median   6.55 Mean   6.80 Std   2.33 Max  15.12
+Urate :: General :: All     :: outliers ratio 0.000698
+Urate :: General :: All     :: N 548202 non-zeros 546850 Median   5.71 Mean   5.86 Std   1.89 Max  28.56
+Urate :: General :: All     :: distribution 0.001,0.01,0.05 ::   1.18   2.52   3.19   9.24  11.09  13.78
+Urate :: General :: All     :: quartiles ::   1.18   4.54   5.71   7.06 
+Urate :: General :: Males   :: outliers ratio 0.000731
+Urate :: General :: Males   :: N 289871 non-zeros 289167 Median   6.38 Mean   6.55 Std   1.74 Max  28.56
+Urate :: General :: Males   :: distribution 0.001,0.01,0.05 ::   1.18   3.19   4.03   9.58  11.26  13.94
+Urate :: General :: Males   :: quartiles ::   1.18   5.38   6.38   7.56 
+Urate :: General :: Females :: outliers ratio 0.000700
+Urate :: General :: Females :: N 258321 non-zeros 257651 Median   4.87 Mean   5.09 Std   1.76 Max  28.56
+Urate :: General :: Females :: distribution 0.001,0.01,0.05 ::   1.18   2.18   2.86   8.57  10.75  13.78
+Urate :: General :: Females :: quartiles ::   1.18   3.86   4.87   5.88 
+Urate :: Rounding ::  0.00 r  0.67 pct
+Urate :: Rounding ::  0.01 r  0.33 pct
+Urate :: Rounding ::  0.10 r  0.00 pct
+Urate :: Rounding ::  1.00 r  0.00 pct
+Urate :: Rounding :: 10.00 r  0.00 pct
+Urate :: Rounding :: 100.00 r  0.00 pct
+Urate :: Rounding :: 1000.00 r  0.00 pct
+Urate :: Rounding :: most popular rounding for vals:  0.00
+Urate :: Stats year :: 2000 :: All :: N 17341 non-zeros 17262 Median   5.71 Mean   5.97 Std   2.03 Max  16.97
+Urate :: Stats year :: 2001 :: All :: N 24774 non-zeros 24719 Median   5.71 Mean   5.87 Std   1.96 Max  34.10
+Urate :: Stats year :: 2002 :: All :: N 31625 non-zeros 31471 Median   5.71 Mean   5.88 Std   1.97 Max  18.31
+Urate :: Stats year :: 2003 :: All :: N 41645 non-zeros 41254 Median   5.71 Mean   5.87 Std   2.00 Max  28.56
+Urate :: Stats year :: 2004 :: All :: N 52230 non-zeros 51763 Median   5.71 Mean   5.95 Std   2.02 Max  16.46
+Urate :: Stats year :: 2005 :: All :: N 56875 non-zeros 56703 Median   5.88 Mean   6.03 Std   1.98 Max  21.67
+Urate :: Stats year :: 2006 :: All :: N 57761 non-zeros 57704 Median   5.88 Mean   6.05 Std   1.94 Max  19.82
+Urate :: Stats year :: 2007 :: All :: N 55247 non-zeros 55203 Median   5.88 Mean   6.02 Std   1.92 Max  28.56
+Urate :: Stats year :: 2008 :: All :: N 59704 non-zeros 59640 Median   5.88 Mean   6.06 Std   1.92 Max  17.30
+Urate :: Stats year :: 2009 :: All :: N 60765 non-zeros 60731 Median   5.88 Mean   6.08 Std   1.92 Max  16.97
+Urate :: Stats year :: 2010 :: All :: N 60909 non-zeros 60874 Median   5.88 Mean   6.09 Std   1.90 Max  16.46
+Urate :: Stats year :: 2011 :: All :: N 60290 non-zeros 60250 Median   5.88 Mean   6.13 Std   1.91 Max  17.47
+Urate :: Stats year :: 2012 :: All :: N 62467 non-zeros 62449 Median   6.05 Mean   6.20 Std   1.90 Max  17.47
+Urate :: Stats year :: 2013 :: All :: N 62999 non-zeros 62947 Median   6.05 Mean   6.20 Std   1.91 Max  17.14
+Urate :: Stats year :: 2014 :: All :: N 59011 non-zeros 58921 Median   5.88 Mean   6.15 Std   1.88 Max  17.30
+Urate :: Stats year :: 2015 :: All :: N 49104 non-zeros 49028 Median   5.88 Mean   6.09 Std   1.87 Max  17.30
+Urate :: Stats year :: 2016 :: All :: N 1901 non-zeros 1897 Median   6.05 Mean   6.27 Std   1.92 Max  15.12
+Urate :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urate :: Stats year :: 2000 :: Males   :: N 9827 non-zeros 9783 Median   6.55 Mean   6.60 Std   1.87 Max  16.63
+Urate :: Stats year :: 2001 :: Males   :: N 13832 non-zeros 13803 Median   6.38 Mean   6.49 Std   1.79 Max  15.46
+Urate :: Stats year :: 2002 :: Males   :: N 17531 non-zeros 17440 Median   6.38 Mean   6.50 Std   1.81 Max  16.63
+Urate :: Stats year :: 2003 :: Males   :: N 23025 non-zeros 22803 Median   6.38 Mean   6.51 Std   1.85 Max  28.56
+Urate :: Stats year :: 2004 :: Males   :: N 28827 non-zeros 28579 Median   6.55 Mean   6.60 Std   1.88 Max  16.46
+Urate :: Stats year :: 2005 :: Males   :: N 31633 non-zeros 31539 Median   6.55 Mean   6.69 Std   1.80 Max  16.97
+Urate :: Stats year :: 2006 :: Males   :: N 32178 non-zeros 32154 Median   6.55 Mean   6.69 Std   1.76 Max  16.80
+Urate :: Stats year :: 2007 :: Males   :: N 31034 non-zeros 31006 Median   6.55 Mean   6.67 Std   1.74 Max  16.30
+Urate :: Stats year :: 2008 :: Males   :: N 33759 non-zeros 33720 Median   6.55 Mean   6.69 Std   1.75 Max  16.13
+Urate :: Stats year :: 2009 :: Males   :: N 34589 non-zeros 34568 Median   6.55 Mean   6.70 Std   1.74 Max  16.97
+Urate :: Stats year :: 2010 :: Males   :: N 34773 non-zeros 34762 Median   6.55 Mean   6.70 Std   1.73 Max  16.46
+Urate :: Stats year :: 2011 :: Males   :: N 34785 non-zeros 34758 Median   6.72 Mean   6.73 Std   1.73 Max  17.47
+Urate :: Stats year :: 2012 :: Males   :: N 36287 non-zeros 36277 Median   6.72 Mean   6.77 Std   1.74 Max  17.47
+Urate :: Stats year :: 2013 :: Males   :: N 36885 non-zeros 36853 Median   6.72 Mean   6.76 Std   1.76 Max  16.46
+Urate :: Stats year :: 2014 :: Males   :: N 34486 non-zeros 34443 Median   6.55 Mean   6.72 Std   1.75 Max  17.30
+Urate :: Stats year :: 2015 :: Males   :: N 28950 non-zeros 28913 Median   6.55 Mean   6.63 Std   1.74 Max  16.63
+Urate :: Stats year :: 2016 :: Males   :: N 1142 non-zeros 1140 Median   6.72 Mean   6.78 Std   1.77 Max  13.94
+Urate :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urate :: Stats year :: 2000 :: Females :: N 7513 non-zeros 7474 Median   4.87 Mean   5.12 Std   1.92 Max  16.97
+Urate :: Stats year :: 2001 :: Females :: N 10940 non-zeros 10914 Median   4.70 Mean   5.07 Std   1.86 Max  15.96
+Urate :: Stats year :: 2002 :: Females :: N 14094 non-zeros 14031 Median   4.70 Mean   5.11 Std   1.89 Max  18.31
+Urate :: Stats year :: 2003 :: Females :: N 18619 non-zeros 18449 Median   4.70 Mean   5.09 Std   1.89 Max  17.47
+Urate :: Stats year :: 2004 :: Females :: N 23405 non-zeros 23189 Median   4.87 Mean   5.16 Std   1.92 Max  16.46
+Urate :: Stats year :: 2005 :: Females :: N 25242 non-zeros 25160 Median   4.87 Mean   5.19 Std   1.86 Max  21.67
+Urate :: Stats year :: 2006 :: Females :: N 25582 non-zeros 25550 Median   4.87 Mean   5.24 Std   1.84 Max  19.82
+Urate :: Stats year :: 2007 :: Females :: N 24212 non-zeros 24201 Median   4.87 Mean   5.19 Std   1.81 Max  28.56
+Urate :: Stats year :: 2008 :: Females :: N 25945 non-zeros 25919 Median   4.87 Mean   5.25 Std   1.83 Max  16.13
+Urate :: Stats year :: 2009 :: Females :: N 26177 non-zeros 26162 Median   4.87 Mean   5.25 Std   1.84 Max  24.86
+Urate :: Stats year :: 2010 :: Females :: N 26136 non-zeros 26113 Median   4.87 Mean   5.29 Std   1.83 Max  15.79
+Urate :: Stats year :: 2011 :: Females :: N 25503 non-zeros 25488 Median   5.04 Mean   5.32 Std   1.85 Max  15.96
+Urate :: Stats year :: 2012 :: Females :: N 26177 non-zeros 26168 Median   5.04 Mean   5.39 Std   1.83 Max  17.14
+Urate :: Stats year :: 2013 :: Females :: N 26116 non-zeros 26096 Median   5.04 Mean   5.41 Std   1.83 Max  17.14
+Urate :: Stats year :: 2014 :: Females :: N 24524 non-zeros 24479 Median   5.04 Mean   5.38 Std   1.80 Max  17.14
+Urate :: Stats year :: 2015 :: Females :: N 20156 non-zeros 20117 Median   5.04 Mean   5.34 Std   1.79 Max  15.96
+Urate :: Stats year :: 2016 :: Females :: N 759 non-zeros 757 Median   5.21 Mean   5.51 Std   1.89 Max  15.12
+Urate :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Urate :: Stats month 1 :: All :: N 59569 non-zeros 59428 Median   5.88 Mean   6.01 Std   1.92 Max  17.14
+Urate :: Stats month 2 :: All :: N 55747 non-zeros 55616 Median   5.71 Mean   5.94 Std   1.91 Max  16.97
+Urate :: Stats month 3 :: All :: N 61906 non-zeros 61777 Median   5.71 Mean   5.94 Std   1.93 Max  18.31
+Urate :: Stats month 4 :: All :: N 59121 non-zeros 58990 Median   5.71 Mean   5.98 Std   1.93 Max  28.56
+Urate :: Stats month 5 :: All :: N 61667 non-zeros 61506 Median   5.88 Mean   6.00 Std   1.94 Max  28.56
+Urate :: Stats month 6 :: All :: N 64127 non-zeros 63986 Median   5.88 Mean   6.05 Std   1.93 Max  17.30
+Urate :: Stats month 7 :: All :: N 65150 non-zeros 64973 Median   5.88 Mean   6.08 Std   1.95 Max  17.47
+Urate :: Stats month 8 :: All :: N 59545 non-zeros 59417 Median   5.88 Mean   6.10 Std   1.93 Max  17.30
+Urate :: Stats month 9 :: All :: N 60948 non-zeros 60824 Median   5.88 Mean   5.99 Std   1.90 Max  17.14
+Urate :: Stats month 10 :: All :: N 60460 non-zeros 60312 Median   5.71 Mean   5.94 Std   1.89 Max  17.30
+Urate :: Stats month 11 :: All :: N 57424 non-zeros 57314 Median   5.71 Mean   5.95 Std   1.89 Max  21.67
+Urate :: Stats month 12 :: All :: N 47709 non-zeros 47620 Median   5.71 Mean   5.96 Std   1.92 Max  17.30
+

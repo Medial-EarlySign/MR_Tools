@@ -1,0 +1,162 @@
+Protein_Total :: All :: With Values :: 2977447 / 14446692 =  0.21 :: 2977447 / 2977447 =  1.00
+Protein_Total :: Males :: With Values :: 1315418 / 6889335 =  0.19 :: 1315418 / 2977447 =  0.44
+Protein_Total :: Females :: With Values :: 1662029 / 7557357 =  0.22 :: 1662029 / 2977447 =  0.56
+Protein_Total :: General :: No. of Values :: All 13051013 Male 5779468 Female 7271545
+Protein_Total :: General :: No. of different days Values :: All 13036407 Male 5773390 Female 7263017
+Protein_Total :: General :: Avg #values per person (all) :: All  0.90 Male  0.84 Female  0.96
+Protein_Total :: General :: Avg #values per person (>0)  :: All  4.38 Male  4.39 Female  4.37
+Protein_Total :: General :: Avg dist between tests       :: All  373.1 Male  366.1 Female  378.7
+Protein_Total :: Counts :: Age Group 20 - 25 :: All ::  54276 0.004
+Protein_Total :: Counts :: Age Group 25 - 30 :: All ::  64594 0.005
+Protein_Total :: Counts :: Age Group 30 - 35 :: All ::  78506 0.006
+Protein_Total :: Counts :: Age Group 35 - 40 :: All ::  96618 0.007
+Protein_Total :: Counts :: Age Group 40 - 45 :: All :: 133589 0.010
+Protein_Total :: Counts :: Age Group 45 - 50 :: All :: 169168 0.013
+Protein_Total :: Counts :: Age Group 50 - 55 :: All :: 202993 0.016
+Protein_Total :: Counts :: Age Group 55 - 60 :: All :: 231833 0.018
+Protein_Total :: Counts :: Age Group 60 - 65 :: All :: 271818 0.021
+Protein_Total :: Counts :: Age Group 65 - 70 :: All :: 298568 0.023
+Protein_Total :: Counts :: Age Group 70 - 75 :: All :: 283367 0.022
+Protein_Total :: Counts :: Age Group 75 - 80 :: All :: 260799 0.020
+Protein_Total :: Counts :: Age Group 80 - 85 :: All :: 209855 0.016
+Protein_Total :: Counts :: Age Group 85 - 90 :: All :: 137474 0.011
+Protein_Total :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Protein_Total :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Protein_Total :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Protein_Total :: Counts :: Age Group 20 - 25 :: Males ::  17393 0.003
+Protein_Total :: Counts :: Age Group 25 - 30 :: Males ::  21348 0.004
+Protein_Total :: Counts :: Age Group 30 - 35 :: Males ::  28195 0.005
+Protein_Total :: Counts :: Age Group 35 - 40 :: Males ::  38077 0.007
+Protein_Total :: Counts :: Age Group 40 - 45 :: Males ::  56338 0.010
+Protein_Total :: Counts :: Age Group 45 - 50 :: Males ::  74875 0.013
+Protein_Total :: Counts :: Age Group 50 - 55 :: Males ::  93890 0.016
+Protein_Total :: Counts :: Age Group 55 - 60 :: Males :: 110112 0.019
+Protein_Total :: Counts :: Age Group 60 - 65 :: Males :: 133264 0.023
+Protein_Total :: Counts :: Age Group 65 - 70 :: Males :: 146861 0.025
+Protein_Total :: Counts :: Age Group 70 - 75 :: Males :: 136524 0.024
+Protein_Total :: Counts :: Age Group 75 - 80 :: Males :: 118585 0.021
+Protein_Total :: Counts :: Age Group 80 - 85 :: Males ::  89730 0.016
+Protein_Total :: Counts :: Age Group 85 - 90 :: Males ::  52542 0.009
+Protein_Total :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Protein_Total :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Protein_Total :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Protein_Total :: Counts :: Age Group 20 - 25 :: Females ::  36883 0.005
+Protein_Total :: Counts :: Age Group 25 - 30 :: Females ::  43246 0.006
+Protein_Total :: Counts :: Age Group 30 - 35 :: Females ::  50311 0.007
+Protein_Total :: Counts :: Age Group 35 - 40 :: Females ::  58541 0.008
+Protein_Total :: Counts :: Age Group 40 - 45 :: Females ::  77251 0.011
+Protein_Total :: Counts :: Age Group 45 - 50 :: Females ::  94293 0.013
+Protein_Total :: Counts :: Age Group 50 - 55 :: Females :: 109103 0.015
+Protein_Total :: Counts :: Age Group 55 - 60 :: Females :: 121721 0.017
+Protein_Total :: Counts :: Age Group 60 - 65 :: Females :: 138554 0.019
+Protein_Total :: Counts :: Age Group 65 - 70 :: Females :: 151707 0.021
+Protein_Total :: Counts :: Age Group 70 - 75 :: Females :: 146843 0.020
+Protein_Total :: Counts :: Age Group 75 - 80 :: Females :: 142214 0.020
+Protein_Total :: Counts :: Age Group 80 - 85 :: Females :: 120125 0.017
+Protein_Total :: Counts :: Age Group 85 - 90 :: Females ::  84932 0.012
+Protein_Total :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Protein_Total :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Protein_Total :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Protein_Total :: Stats :: Age Group 20 - 25 :: All ::  N 190880 non-zeros 190880 Median   7.30 Mean   7.29 Std   0.48 Max  10.70
+Protein_Total :: Stats :: Age Group 25 - 30 :: All ::  N 217675 non-zeros 217666 Median   7.30 Mean   7.26 Std   0.49 Max  13.10
+Protein_Total :: Stats :: Age Group 30 - 35 :: All ::  N 248006 non-zeros 247999 Median   7.20 Mean   7.25 Std   0.49 Max  13.50
+Protein_Total :: Stats :: Age Group 35 - 40 :: All ::  N 287249 non-zeros 287249 Median   7.20 Mean   7.23 Std   0.47 Max  13.90
+Protein_Total :: Stats :: Age Group 40 - 45 :: All ::  N 352433 non-zeros 352433 Median   7.20 Mean   7.20 Std   0.46 Max  13.80
+Protein_Total :: Stats :: Age Group 45 - 50 :: All ::  N 391132 non-zeros 391132 Median   7.20 Mean   7.18 Std   0.46 Max  13.60
+Protein_Total :: Stats :: Age Group 50 - 55 :: All ::  N 411211 non-zeros 411211 Median   7.20 Mean   7.17 Std   0.46 Max  12.80
+Protein_Total :: Stats :: Age Group 55 - 60 :: All ::  N 430248 non-zeros 430248 Median   7.10 Mean   7.15 Std   0.46 Max  14.00
+Protein_Total :: Stats :: Age Group 60 - 65 :: All ::  N 442352 non-zeros 442352 Median   7.10 Mean   7.12 Std   0.47 Max  14.00
+Protein_Total :: Stats :: Age Group 65 - 70 :: All ::  N 425186 non-zeros 425168 Median   7.10 Mean   7.09 Std   0.48 Max  14.30
+Protein_Total :: Stats :: Age Group 70 - 75 :: All ::  N 375226 non-zeros 375205 Median   7.10 Mean   7.07 Std   0.50 Max  13.80
+Protein_Total :: Stats :: Age Group 75 - 80 :: All ::  N 326974 non-zeros 326962 Median   7.00 Mean   7.03 Std   0.53 Max  14.90
+Protein_Total :: Stats :: Age Group 80 - 85 :: All ::  N 259463 non-zeros 259451 Median   7.00 Mean   6.98 Std   0.56 Max  14.90
+Protein_Total :: Stats :: Age Group 85 - 90 :: All ::  N 164557 non-zeros 164550 Median   6.90 Mean   6.90 Std   0.59 Max  14.60
+Protein_Total :: Stats :: Age Group 90 - 95 :: All ::  N 72555 non-zeros 72553 Median   6.80 Mean   6.81 Std   0.62 Max  14.70
+Protein_Total :: Stats :: Age Group 95 - 100 :: All ::  N 17430 non-zeros 17428 Median   6.70 Mean   6.72 Std   0.64 Max  12.30
+Protein_Total :: General :: All     :: outliers ratio 0.000016
+Protein_Total :: General :: All     :: N 2764231 non-zeros 2764108 Median   7.10 Mean   7.14 Std   0.51 Max  14.60
+Protein_Total :: General :: All     :: distribution 0.001,0.01,0.05 ::   5.00   5.80   6.30   7.90   8.30   9.00
+Protein_Total :: General :: All     :: quartiles ::   5.00   6.80   7.10   7.50 
+Protein_Total :: General :: Males   :: outliers ratio 0.000022
+Protein_Total :: General :: Males   :: N 1225269 non-zeros 1225225 Median   7.20 Mean   7.18 Std   0.51 Max  14.40
+Protein_Total :: General :: Males   :: distribution 0.001,0.01,0.05 ::   5.00   5.90   6.40   8.00   8.40   9.10
+Protein_Total :: General :: Males   :: quartiles ::   5.00   6.90   7.20   7.50 
+Protein_Total :: General :: Females :: outliers ratio 0.000018
+Protein_Total :: General :: Females :: N 1538951 non-zeros 1538864 Median   7.10 Mean   7.10 Std   0.51 Max  14.60
+Protein_Total :: General :: Females :: distribution 0.001,0.01,0.05 ::   5.00   5.80   6.30   7.90   8.30   9.00
+Protein_Total :: General :: Females :: quartiles ::   5.00   6.80   7.10   7.40 
+Protein_Total :: Rounding ::  0.00 r  0.00 pct
+Protein_Total :: Rounding ::  0.01 r  0.02 pct
+Protein_Total :: Rounding ::  0.10 r  0.88 pct
+Protein_Total :: Rounding ::  1.00 r  0.11 pct
+Protein_Total :: Rounding :: 10.00 r  0.00 pct
+Protein_Total :: Rounding :: 100.00 r  0.00 pct
+Protein_Total :: Rounding :: 1000.00 r  0.00 pct
+Protein_Total :: Rounding :: most popular rounding for vals:  0.10
+Protein_Total :: Stats year :: 2000 :: All :: N 70802 non-zeros 70785 Median   7.10 Mean   7.12 Std   0.57 Max  13.90
+Protein_Total :: Stats year :: 2001 :: All :: N 138564 non-zeros 138534 Median   7.10 Mean   7.12 Std   0.54 Max  13.30
+Protein_Total :: Stats year :: 2002 :: All :: N 209681 non-zeros 209597 Median   7.10 Mean   7.14 Std   0.53 Max  14.30
+Protein_Total :: Stats year :: 2003 :: All :: N 337497 non-zeros 337470 Median   7.20 Mean   7.16 Std   0.52 Max  14.10
+Protein_Total :: Stats year :: 2004 :: All :: N 472651 non-zeros 472639 Median   7.20 Mean   7.18 Std   0.50 Max  14.20
+Protein_Total :: Stats year :: 2005 :: All :: N 559702 non-zeros 559692 Median   7.20 Mean   7.18 Std   0.50 Max  14.70
+Protein_Total :: Stats year :: 2006 :: All :: N 612337 non-zeros 612324 Median   7.20 Mean   7.19 Std   0.50 Max  13.80
+Protein_Total :: Stats year :: 2007 :: All :: N 637009 non-zeros 636993 Median   7.20 Mean   7.17 Std   0.50 Max  14.30
+Protein_Total :: Stats year :: 2008 :: All :: N 675082 non-zeros 675051 Median   7.20 Mean   7.19 Std   0.52 Max  14.80
+Protein_Total :: Stats year :: 2009 :: All :: N 728575 non-zeros 728565 Median   7.20 Mean   7.18 Std   0.51 Max  14.30
+Protein_Total :: Stats year :: 2010 :: All :: N 723395 non-zeros 723387 Median   7.10 Mean   7.07 Std   0.49 Max  13.80
+Protein_Total :: Stats year :: 2011 :: All :: N 744781 non-zeros 744775 Median   7.00 Mean   7.05 Std   0.48 Max  14.00
+Protein_Total :: Stats year :: 2012 :: All :: N 736403 non-zeros 736395 Median   7.10 Mean   7.07 Std   0.48 Max  14.20
+Protein_Total :: Stats year :: 2013 :: All :: N 686330 non-zeros 686330 Median   7.10 Mean   7.08 Std   0.47 Max  13.70
+Protein_Total :: Stats year :: 2014 :: All :: N 635163 non-zeros 635163 Median   7.00 Mean   7.05 Std   0.46 Max  13.90
+Protein_Total :: Stats year :: 2015 :: All :: N 568663 non-zeros 568663 Median   7.00 Mean   7.05 Std   0.46 Max  12.80
+Protein_Total :: Stats year :: 2016 :: All :: N 27480 non-zeros 27480 Median   7.10 Mean   7.06 Std   0.48 Max  11.20
+Protein_Total :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Protein_Total :: Stats year :: 2000 :: Males   :: N 30756 non-zeros 30745 Median   7.20 Mean   7.16 Std   0.58 Max  13.90
+Protein_Total :: Stats year :: 2001 :: Males   :: N 60712 non-zeros 60702 Median   7.20 Mean   7.16 Std   0.54 Max  13.30
+Protein_Total :: Stats year :: 2002 :: Males   :: N 92597 non-zeros 92558 Median   7.20 Mean   7.18 Std   0.53 Max  14.30
+Protein_Total :: Stats year :: 2003 :: Males   :: N 150850 non-zeros 150835 Median   7.20 Mean   7.19 Std   0.51 Max  14.10
+Protein_Total :: Stats year :: 2004 :: Males   :: N 212942 non-zeros 212938 Median   7.20 Mean   7.22 Std   0.49 Max  13.90
+Protein_Total :: Stats year :: 2005 :: Males   :: N 252292 non-zeros 252286 Median   7.20 Mean   7.21 Std   0.50 Max  14.40
+Protein_Total :: Stats year :: 2006 :: Males   :: N 276547 non-zeros 276540 Median   7.20 Mean   7.23 Std   0.49 Max  13.80
+Protein_Total :: Stats year :: 2007 :: Males   :: N 288461 non-zeros 288454 Median   7.20 Mean   7.20 Std   0.50 Max  13.80
+Protein_Total :: Stats year :: 2008 :: Males   :: N 305673 non-zeros 305659 Median   7.20 Mean   7.23 Std   0.51 Max  14.80
+Protein_Total :: Stats year :: 2009 :: Males   :: N 329188 non-zeros 329186 Median   7.20 Mean   7.21 Std   0.51 Max  14.30
+Protein_Total :: Stats year :: 2010 :: Males   :: N 327502 non-zeros 327498 Median   7.10 Mean   7.10 Std   0.48 Max  13.40
+Protein_Total :: Stats year :: 2011 :: Males   :: N 335691 non-zeros 335689 Median   7.10 Mean   7.08 Std   0.47 Max  13.40
+Protein_Total :: Stats year :: 2012 :: Males   :: N 330979 non-zeros 330976 Median   7.10 Mean   7.10 Std   0.47 Max  13.70
+Protein_Total :: Stats year :: 2013 :: Males   :: N 308152 non-zeros 308152 Median   7.10 Mean   7.11 Std   0.47 Max  13.40
+Protein_Total :: Stats year :: 2014 :: Males   :: N 281531 non-zeros 281531 Median   7.10 Mean   7.08 Std   0.46 Max  13.70
+Protein_Total :: Stats year :: 2015 :: Males   :: N 251991 non-zeros 251991 Median   7.10 Mean   7.08 Std   0.46 Max  12.80
+Protein_Total :: Stats year :: 2016 :: Males   :: N 12198 non-zeros 12198 Median   7.10 Mean   7.10 Std   0.47 Max   9.30
+Protein_Total :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Protein_Total :: Stats year :: 2000 :: Females :: N 40045 non-zeros 40034 Median   7.10 Mean   7.09 Std   0.57 Max  12.50
+Protein_Total :: Stats year :: 2001 :: Females :: N 77853 non-zeros 77828 Median   7.10 Mean   7.09 Std   0.55 Max  12.60
+Protein_Total :: Stats year :: 2002 :: Females :: N 117083 non-zeros 117031 Median   7.10 Mean   7.10 Std   0.53 Max  12.90
+Protein_Total :: Stats year :: 2003 :: Females :: N 186647 non-zeros 186635 Median   7.10 Mean   7.13 Std   0.52 Max  14.00
+Protein_Total :: Stats year :: 2004 :: Females :: N 259707 non-zeros 259701 Median   7.20 Mean   7.15 Std   0.50 Max  14.20
+Protein_Total :: Stats year :: 2005 :: Females :: N 307410 non-zeros 307405 Median   7.10 Mean   7.15 Std   0.50 Max  13.90
+Protein_Total :: Stats year :: 2006 :: Females :: N 335791 non-zeros 335786 Median   7.20 Mean   7.17 Std   0.50 Max  13.50
+Protein_Total :: Stats year :: 2007 :: Females :: N 348549 non-zeros 348542 Median   7.10 Mean   7.14 Std   0.50 Max  14.30
+Protein_Total :: Stats year :: 2008 :: Females :: N 369410 non-zeros 369397 Median   7.20 Mean   7.16 Std   0.52 Max  13.40
+Protein_Total :: Stats year :: 2009 :: Females :: N 399388 non-zeros 399382 Median   7.10 Mean   7.15 Std   0.52 Max  12.30
+Protein_Total :: Stats year :: 2010 :: Females :: N 395892 non-zeros 395887 Median   7.00 Mean   7.05 Std   0.49 Max  13.80
+Protein_Total :: Stats year :: 2011 :: Females :: N 409089 non-zeros 409084 Median   7.00 Mean   7.03 Std   0.48 Max  14.00
+Protein_Total :: Stats year :: 2012 :: Females :: N 405425 non-zeros 405422 Median   7.00 Mean   7.05 Std   0.48 Max  14.20
+Protein_Total :: Stats year :: 2013 :: Females :: N 378175 non-zeros 378175 Median   7.10 Mean   7.06 Std   0.47 Max  13.70
+Protein_Total :: Stats year :: 2014 :: Females :: N 353631 non-zeros 353631 Median   7.00 Mean   7.03 Std   0.46 Max  13.90
+Protein_Total :: Stats year :: 2015 :: Females :: N 316673 non-zeros 316673 Median   7.00 Mean   7.03 Std   0.46 Max  11.70
+Protein_Total :: Stats year :: 2016 :: Females :: N 15282 non-zeros 15282 Median   7.00 Mean   7.03 Std   0.48 Max  11.20
+Protein_Total :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Protein_Total :: Stats month 1 :: All :: N 519446 non-zeros 519426 Median   7.10 Mean   7.11 Std   0.52 Max  14.20
+Protein_Total :: Stats month 2 :: All :: N 491315 non-zeros 491300 Median   7.10 Mean   7.11 Std   0.51 Max  13.40
+Protein_Total :: Stats month 3 :: All :: N 527007 non-zeros 526995 Median   7.10 Mean   7.12 Std   0.51 Max  14.20
+Protein_Total :: Stats month 4 :: All :: N 485010 non-zeros 484998 Median   7.10 Mean   7.11 Std   0.51 Max  14.40
+Protein_Total :: Stats month 5 :: All :: N 498895 non-zeros 498884 Median   7.10 Mean   7.10 Std   0.51 Max  14.30
+Protein_Total :: Stats month 6 :: All :: N 513453 non-zeros 513443 Median   7.10 Mean   7.09 Std   0.51 Max  14.70
+Protein_Total :: Stats month 7 :: All :: N 520521 non-zeros 520512 Median   7.10 Mean   7.08 Std   0.51 Max  14.20
+Protein_Total :: Stats month 8 :: All :: N 485410 non-zeros 485398 Median   7.10 Mean   7.08 Std   0.51 Max  14.30
+Protein_Total :: Stats month 9 :: All :: N 516371 non-zeros 516358 Median   7.10 Mean   7.10 Std   0.51 Max  14.30
+Protein_Total :: Stats month 10 :: All :: N 531307 non-zeros 531292 Median   7.10 Mean   7.10 Std   0.51 Max  13.60
+Protein_Total :: Stats month 11 :: All :: N 515767 non-zeros 515756 Median   7.10 Mean   7.11 Std   0.51 Max  14.40
+Protein_Total :: Stats month 12 :: All :: N 431196 non-zeros 431181 Median   7.10 Mean   7.09 Std   0.52 Max  14.60
+

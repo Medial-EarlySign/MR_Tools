@@ -1,0 +1,162 @@
+Platelets_Hematocrit :: All :: With Values ::  49735 / 14446692 =  0.00 ::  49735 /  49735 =  1.00
+Platelets_Hematocrit :: Males :: With Values ::  20849 / 6889335 =  0.00 ::  20849 /  49735 =  0.42
+Platelets_Hematocrit :: Females :: With Values ::  28886 / 7557357 =  0.00 ::  28886 /  49735 =  0.58
+Platelets_Hematocrit :: General :: No. of Values :: All 163823 Male  64193 Female  99630
+Platelets_Hematocrit :: General :: No. of different days Values :: All 163639 Male  64122 Female  99517
+Platelets_Hematocrit :: General :: Avg #values per person (all) :: All  0.01 Male  0.01 Female  0.01
+Platelets_Hematocrit :: General :: Avg #values per person (>0)  :: All  3.29 Male  3.08 Female  3.45
+Platelets_Hematocrit :: General :: Avg dist between tests       :: All  299.1 Male  299.9 Female  298.6
+Platelets_Hematocrit :: Counts :: Age Group 20 - 25 :: All ::   1021 0.006
+Platelets_Hematocrit :: Counts :: Age Group 25 - 30 :: All ::   1074 0.007
+Platelets_Hematocrit :: Counts :: Age Group 30 - 35 :: All ::   1429 0.009
+Platelets_Hematocrit :: Counts :: Age Group 35 - 40 :: All ::   1566 0.010
+Platelets_Hematocrit :: Counts :: Age Group 40 - 45 :: All ::   2047 0.012
+Platelets_Hematocrit :: Counts :: Age Group 45 - 50 :: All ::   2375 0.014
+Platelets_Hematocrit :: Counts :: Age Group 50 - 55 :: All ::   2636 0.016
+Platelets_Hematocrit :: Counts :: Age Group 55 - 60 :: All ::   2514 0.015
+Platelets_Hematocrit :: Counts :: Age Group 60 - 65 :: All ::   2711 0.017
+Platelets_Hematocrit :: Counts :: Age Group 65 - 70 :: All ::   3113 0.019
+Platelets_Hematocrit :: Counts :: Age Group 70 - 75 :: All ::   2967 0.018
+Platelets_Hematocrit :: Counts :: Age Group 75 - 80 :: All ::   2887 0.018
+Platelets_Hematocrit :: Counts :: Age Group 80 - 85 :: All ::   2570 0.016
+Platelets_Hematocrit :: Counts :: Age Group 85 - 90 :: All ::   1812 0.011
+Platelets_Hematocrit :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Platelets_Hematocrit :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Platelets_Hematocrit :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Platelets_Hematocrit :: Counts :: Age Group 20 - 25 :: Males ::    305 0.005
+Platelets_Hematocrit :: Counts :: Age Group 25 - 30 :: Males ::    293 0.005
+Platelets_Hematocrit :: Counts :: Age Group 30 - 35 :: Males ::    374 0.006
+Platelets_Hematocrit :: Counts :: Age Group 35 - 40 :: Males ::    522 0.008
+Platelets_Hematocrit :: Counts :: Age Group 40 - 45 :: Males ::    700 0.011
+Platelets_Hematocrit :: Counts :: Age Group 45 - 50 :: Males ::    834 0.013
+Platelets_Hematocrit :: Counts :: Age Group 50 - 55 :: Males ::   1011 0.016
+Platelets_Hematocrit :: Counts :: Age Group 55 - 60 :: Males ::   1051 0.016
+Platelets_Hematocrit :: Counts :: Age Group 60 - 65 :: Males ::   1246 0.019
+Platelets_Hematocrit :: Counts :: Age Group 65 - 70 :: Males ::   1453 0.023
+Platelets_Hematocrit :: Counts :: Age Group 70 - 75 :: Males ::   1304 0.020
+Platelets_Hematocrit :: Counts :: Age Group 75 - 80 :: Males ::   1277 0.020
+Platelets_Hematocrit :: Counts :: Age Group 80 - 85 :: Males ::   1128 0.018
+Platelets_Hematocrit :: Counts :: Age Group 85 - 90 :: Males ::    645 0.010
+Platelets_Hematocrit :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Platelets_Hematocrit :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Platelets_Hematocrit :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Platelets_Hematocrit :: Counts :: Age Group 20 - 25 :: Females ::    716 0.007
+Platelets_Hematocrit :: Counts :: Age Group 25 - 30 :: Females ::    781 0.008
+Platelets_Hematocrit :: Counts :: Age Group 30 - 35 :: Females ::   1055 0.011
+Platelets_Hematocrit :: Counts :: Age Group 35 - 40 :: Females ::   1044 0.010
+Platelets_Hematocrit :: Counts :: Age Group 40 - 45 :: Females ::   1347 0.014
+Platelets_Hematocrit :: Counts :: Age Group 45 - 50 :: Females ::   1541 0.015
+Platelets_Hematocrit :: Counts :: Age Group 50 - 55 :: Females ::   1625 0.016
+Platelets_Hematocrit :: Counts :: Age Group 55 - 60 :: Females ::   1463 0.015
+Platelets_Hematocrit :: Counts :: Age Group 60 - 65 :: Females ::   1465 0.015
+Platelets_Hematocrit :: Counts :: Age Group 65 - 70 :: Females ::   1660 0.017
+Platelets_Hematocrit :: Counts :: Age Group 70 - 75 :: Females ::   1663 0.017
+Platelets_Hematocrit :: Counts :: Age Group 75 - 80 :: Females ::   1610 0.016
+Platelets_Hematocrit :: Counts :: Age Group 80 - 85 :: Females ::   1442 0.014
+Platelets_Hematocrit :: Counts :: Age Group 85 - 90 :: Females ::   1167 0.012
+Platelets_Hematocrit :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Platelets_Hematocrit :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Platelets_Hematocrit :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Platelets_Hematocrit :: Stats :: Age Group 20 - 25 :: All ::  N 3238 non-zeros 3232 Median  28.30 Mean  28.99 Std   6.96 Max  59.20
+Platelets_Hematocrit :: Stats :: Age Group 25 - 30 :: All ::  N 3595 non-zeros 3583 Median  28.50 Mean  29.03 Std   7.13 Max  54.00
+Platelets_Hematocrit :: Stats :: Age Group 30 - 35 :: All ::  N 4092 non-zeros 4087 Median  28.00 Mean  28.80 Std   7.05 Max  75.00
+Platelets_Hematocrit :: Stats :: Age Group 35 - 40 :: All ::  N 4440 non-zeros 4437 Median  28.00 Mean  28.76 Std   6.92 Max  95.00
+Platelets_Hematocrit :: Stats :: Age Group 40 - 45 :: All ::  N 5261 non-zeros 5256 Median  28.00 Mean  28.38 Std   6.82 Max  87.00
+Platelets_Hematocrit :: Stats :: Age Group 45 - 50 :: All ::  N 5830 non-zeros 5823 Median  28.00 Mean  28.41 Std   6.99 Max  83.00
+Platelets_Hematocrit :: Stats :: Age Group 50 - 55 :: All ::  N 5727 non-zeros 5721 Median  28.00 Mean  28.31 Std   7.07 Max  83.00
+Platelets_Hematocrit :: Stats :: Age Group 55 - 60 :: All ::  N 5207 non-zeros 5201 Median  27.70 Mean  28.12 Std   7.17 Max 113.00
+Platelets_Hematocrit :: Stats :: Age Group 60 - 65 :: All ::  N 5235 non-zeros 5229 Median  27.00 Mean  27.91 Std   7.12 Max  68.00
+Platelets_Hematocrit :: Stats :: Age Group 65 - 70 :: All ::  N 5228 non-zeros 5215 Median  27.00 Mean  27.53 Std   7.53 Max 111.00
+Platelets_Hematocrit :: Stats :: Age Group 70 - 75 :: All ::  N 4559 non-zeros 4549 Median  27.00 Mean  27.39 Std   7.91 Max  87.00
+Platelets_Hematocrit :: Stats :: Age Group 75 - 80 :: All ::  N 4104 non-zeros 4098 Median  26.60 Mean  27.26 Std   8.02 Max  88.00
+Platelets_Hematocrit :: Stats :: Age Group 80 - 85 :: All ::  N 3341 non-zeros 3335 Median  26.30 Mean  27.10 Std   8.20 Max 142.00
+Platelets_Hematocrit :: Stats :: Age Group 85 - 90 :: All ::  N 2177 non-zeros 2174 Median  26.00 Mean  27.21 Std   8.23 Max 107.00
+Platelets_Hematocrit :: Stats :: Age Group 90 - 95 :: All ::  N 987 non-zeros 985 Median  26.00 Mean  27.22 Std   9.21 Max 125.00
+Platelets_Hematocrit :: Stats :: Age Group 95 - 100 :: All ::  N 283 non-zeros 283 Median  26.00 Mean  27.70 Std  12.73 Max 190.00
+Platelets_Hematocrit :: General :: All     :: outliers ratio 0.001052
+Platelets_Hematocrit :: General :: All     :: N 45597 non-zeros 45534 Median  27.40 Mean  28.01 Std   7.49 Max 130.00
+Platelets_Hematocrit :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.20  13.00  18.00  40.70  47.80  64.00
+Platelets_Hematocrit :: General :: All     :: quartiles ::   0.20  23.00  27.40  32.20 
+Platelets_Hematocrit :: General :: Males   :: outliers ratio 0.001098
+Platelets_Hematocrit :: General :: Males   :: N 19104 non-zeros 19073 Median  26.00 Mean  26.72 Std   7.39 Max 115.00
+Platelets_Hematocrit :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.20  12.00  16.90  39.30  46.10  64.00
+Platelets_Hematocrit :: General :: Males   :: quartiles ::   0.20  22.00  26.00  31.00 
+Platelets_Hematocrit :: General :: Females :: outliers ratio 0.000867
+Platelets_Hematocrit :: General :: Females :: N 26497 non-zeros 26451 Median  28.20 Mean  28.93 Std   7.42 Max 125.00
+Platelets_Hematocrit :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.20  14.00  19.00  41.40  48.70  62.00
+Platelets_Hematocrit :: General :: Females :: quartiles ::   0.20  24.00  28.30  33.10 
+Platelets_Hematocrit :: Rounding ::  0.00 r  0.00 pct
+Platelets_Hematocrit :: Rounding ::  0.01 r  0.05 pct
+Platelets_Hematocrit :: Rounding ::  0.10 r  0.30 pct
+Platelets_Hematocrit :: Rounding ::  1.00 r  0.59 pct
+Platelets_Hematocrit :: Rounding :: 10.00 r  0.07 pct
+Platelets_Hematocrit :: Rounding :: 100.00 r  0.00 pct
+Platelets_Hematocrit :: Rounding :: 1000.00 r  0.00 pct
+Platelets_Hematocrit :: Rounding :: most popular rounding for vals:  1.00
+Platelets_Hematocrit :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats year :: 2001 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats year :: 2002 :: All :: N 7 non-zeros 7 Median  21.00 Mean  24.86 Std   4.64 Max  32.00
+Platelets_Hematocrit :: Stats year :: 2003 :: All :: N 51 non-zeros 51 Median  23.00 Mean  25.16 Std   6.82 Max  43.00
+Platelets_Hematocrit :: Stats year :: 2004 :: All :: N 28 non-zeros 28 Median 2600.00 Mean 2170.33 Std 1515.41 Max 4700.00
+Platelets_Hematocrit :: Stats year :: 2005 :: All :: N 928 non-zeros 926 Median  30.50 Mean 252.75 Std 822.05 Max 4690.00
+Platelets_Hematocrit :: Stats year :: 2006 :: All :: N 4191 non-zeros 4176 Median  30.40 Mean  30.58 Std   7.21 Max  58.50
+Platelets_Hematocrit :: Stats year :: 2007 :: All :: N 5028 non-zeros 5012 Median  30.50 Mean  30.74 Std   7.08 Max  57.80
+Platelets_Hematocrit :: Stats year :: 2008 :: All :: N 11886 non-zeros 11875 Median  28.00 Mean  28.62 Std   7.09 Max  80.00
+Platelets_Hematocrit :: Stats year :: 2009 :: All :: N 14909 non-zeros 14883 Median  28.00 Mean  28.51 Std   7.15 Max 130.00
+Platelets_Hematocrit :: Stats year :: 2010 :: All :: N 15980 non-zeros 15951 Median  28.00 Mean  28.67 Std   7.12 Max  92.00
+Platelets_Hematocrit :: Stats year :: 2011 :: All :: N 16439 non-zeros 16408 Median  28.00 Mean  28.88 Std   7.28 Max  86.00
+Platelets_Hematocrit :: Stats year :: 2012 :: All :: N 10668 non-zeros 10659 Median  27.00 Mean  27.46 Std   7.22 Max 107.00
+Platelets_Hematocrit :: Stats year :: 2013 :: All :: N 8981 non-zeros 8976 Median  27.00 Mean  27.34 Std   6.93 Max  91.00
+Platelets_Hematocrit :: Stats year :: 2014 :: All :: N 9253 non-zeros 9249 Median  26.00 Mean  26.61 Std   7.77 Max 117.00
+Platelets_Hematocrit :: Stats year :: 2015 :: All :: N 6188 non-zeros 6186 Median  24.00 Mean  24.59 Std   6.98 Max 111.00
+Platelets_Hematocrit :: Stats year :: 2016 :: All :: N 248 non-zeros 247 Median  26.00 Mean  27.11 Std   7.71 Max  70.00
+Platelets_Hematocrit :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats year :: 2001 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats year :: 2002 :: Males   :: N 4 non-zeros 4 Median  20.00 Mean  22.25 Std   3.96 Max  29.00
+Platelets_Hematocrit :: Stats year :: 2003 :: Males   :: N 15 non-zeros 15 Median  21.00 Mean  22.13 Std   4.08 Max  31.00
+Platelets_Hematocrit :: Stats year :: 2004 :: Males   :: N 10 non-zeros 10 Median 2430.00 Mean 2318.12 Std 1296.27 Max 4080.00
+Platelets_Hematocrit :: Stats year :: 2005 :: Males   :: N 359 non-zeros 358 Median  30.40 Mean 312.86 Std 899.05 Max 4300.00
+Platelets_Hematocrit :: Stats year :: 2006 :: Males   :: N 1596 non-zeros 1591 Median  30.20 Mean  30.27 Std   7.08 Max  51.20
+Platelets_Hematocrit :: Stats year :: 2007 :: Males   :: N 1984 non-zeros 1976 Median  30.40 Mean  30.40 Std   6.95 Max  57.80
+Platelets_Hematocrit :: Stats year :: 2008 :: Males   :: N 4782 non-zeros 4778 Median  26.50 Mean  27.24 Std   7.01 Max  78.00
+Platelets_Hematocrit :: Stats year :: 2009 :: Males   :: N 5989 non-zeros 5977 Median  26.80 Mean  27.30 Std   7.15 Max  95.00
+Platelets_Hematocrit :: Stats year :: 2010 :: Males   :: N 6480 non-zeros 6471 Median  26.70 Mean  27.40 Std   7.14 Max  92.00
+Platelets_Hematocrit :: Stats year :: 2011 :: Males   :: N 6622 non-zeros 6609 Median  27.00 Mean  27.54 Std   7.21 Max  68.00
+Platelets_Hematocrit :: Stats year :: 2012 :: Males   :: N 4294 non-zeros 4290 Median  25.00 Mean  25.86 Std   7.32 Max 107.00
+Platelets_Hematocrit :: Stats year :: 2013 :: Males   :: N 3664 non-zeros 3662 Median  25.00 Mean  25.37 Std   6.48 Max  70.00
+Platelets_Hematocrit :: Stats year :: 2014 :: Males   :: N 3650 non-zeros 3649 Median  24.00 Mean  24.61 Std   7.70 Max 117.00
+Platelets_Hematocrit :: Stats year :: 2015 :: Males   :: N 2495 non-zeros 2494 Median  22.00 Mean  22.89 Std   6.81 Max 111.00
+Platelets_Hematocrit :: Stats year :: 2016 :: Males   :: N 115 non-zeros 114 Median  25.00 Mean  24.41 Std   6.28 Max  40.60
+Platelets_Hematocrit :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats year :: 2001 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats year :: 2002 :: Females :: N 3 non-zeros 3 Median  25.00 Mean  28.33 Std   2.87 Max  32.00
+Platelets_Hematocrit :: Stats year :: 2003 :: Females :: N 36 non-zeros 36 Median  25.00 Mean  26.09 Std   8.08 Max  49.00
+Platelets_Hematocrit :: Stats year :: 2004 :: Females :: N 18 non-zeros 18 Median 2600.00 Mean 2088.23 Std 1618.61 Max 4700.00
+Platelets_Hematocrit :: Stats year :: 2005 :: Females :: N 569 non-zeros 568 Median  30.50 Mean 227.33 Std 792.82 Max 4690.00
+Platelets_Hematocrit :: Stats year :: 2006 :: Females :: N 2595 non-zeros 2588 Median  30.70 Mean  30.84 Std   7.30 Max  58.50
+Platelets_Hematocrit :: Stats year :: 2007 :: Females :: N 3044 non-zeros 3034 Median  30.60 Mean  30.91 Std   7.19 Max  56.70
+Platelets_Hematocrit :: Stats year :: 2008 :: Females :: N 7104 non-zeros 7096 Median  29.00 Mean  29.52 Std   7.10 Max  80.00
+Platelets_Hematocrit :: Stats year :: 2009 :: Females :: N 8920 non-zeros 8906 Median  29.00 Mean  29.34 Std   7.11 Max 125.00
+Platelets_Hematocrit :: Stats year :: 2010 :: Females :: N 9500 non-zeros 9480 Median  29.00 Mean  29.56 Std   7.01 Max 101.00
+Platelets_Hematocrit :: Stats year :: 2011 :: Females :: N 9817 non-zeros 9800 Median  29.00 Mean  29.77 Std   7.19 Max  86.00
+Platelets_Hematocrit :: Stats year :: 2012 :: Females :: N 6374 non-zeros 6368 Median  28.00 Mean  28.47 Std   6.81 Max  63.00
+Platelets_Hematocrit :: Stats year :: 2013 :: Females :: N 5317 non-zeros 5314 Median  28.00 Mean  28.71 Std   6.95 Max  91.00
+Platelets_Hematocrit :: Stats year :: 2014 :: Females :: N 5603 non-zeros 5600 Median  28.00 Mean  27.92 Std   7.58 Max  67.00
+Platelets_Hematocrit :: Stats year :: 2015 :: Females :: N 3693 non-zeros 3692 Median  25.00 Mean  25.72 Std   6.76 Max  83.00
+Platelets_Hematocrit :: Stats year :: 2016 :: Females :: N 133 non-zeros 133 Median  28.00 Mean  29.41 Std   7.89 Max  70.00
+Platelets_Hematocrit :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets_Hematocrit :: Stats month 1 :: All :: N 7575 non-zeros 7563 Median  28.00 Mean  28.58 Std   7.66 Max 142.00
+Platelets_Hematocrit :: Stats month 2 :: All :: N 7418 non-zeros 7399 Median  28.00 Mean  28.58 Std   7.53 Max  86.00
+Platelets_Hematocrit :: Stats month 3 :: All :: N 7273 non-zeros 7263 Median  28.00 Mean  28.27 Std   7.43 Max 100.00
+Platelets_Hematocrit :: Stats month 4 :: All :: N 6777 non-zeros 6768 Median  28.00 Mean  28.32 Std   7.51 Max 115.00
+Platelets_Hematocrit :: Stats month 5 :: All :: N 6836 non-zeros 6820 Median  27.30 Mean  28.03 Std   7.41 Max  95.00
+Platelets_Hematocrit :: Stats month 6 :: All :: N 7382 non-zeros 7372 Median  27.00 Mean  27.94 Std   7.51 Max 119.00
+Platelets_Hematocrit :: Stats month 7 :: All :: N 7298 non-zeros 7282 Median  27.00 Mean  27.63 Std   7.34 Max  81.00
+Platelets_Hematocrit :: Stats month 8 :: All :: N 6859 non-zeros 6850 Median  27.00 Mean  27.84 Std   7.34 Max 130.00
+Platelets_Hematocrit :: Stats month 9 :: All :: N 7684 non-zeros 7667 Median  27.70 Mean  28.18 Std   7.55 Max 114.00
+Platelets_Hematocrit :: Stats month 10 :: All :: N 8015 non-zeros 7995 Median  28.00 Mean  28.25 Std   7.66 Max 101.00
+Platelets_Hematocrit :: Stats month 11 :: All :: N 7316 non-zeros 7297 Median  28.00 Mean  28.12 Std   8.16 Max  64.00
+Platelets_Hematocrit :: Stats month 12 :: All :: N 5928 non-zeros 5920 Median  28.00 Mean  28.59 Std   7.71 Max 117.00
+

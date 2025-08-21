@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+     <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+     <link rel="stylesheet" href="{{ url_for('static',     filename='css/template.css') }}">
+    <title>Distribution</title>
+     <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #AED6F1;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+
+        .active {
+          background-color: #1B4F72;
+        }
+</style>
+ </head>
+ <body>
+    <header>
+      <!-- Tabs Above -->
+        <div class='nav'>
+            <ul id="myTab-tabs-above" class="nav" role="tablist">
+                <li class="nav-item"><a class="nav-link active" id="home-tab-tabs-above" href="{{ url_for('index') }}" role="tab" data-toggle="tab"></i> Main</a></li>
+                <li class="nav-item"><a class="nav-link" id="units-tab-tabs-above" href="{{ url_for('units') }}" role="tab-kv" data-toggle="tab"></i> Units</a></li>
+                <li class="nav-item"><a class="nav-link" id="years-tab-tabs-above" href="{{ url_for('by_year') }}" role="tab-kv" data-toggle="tab"></i> Years</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    {% block content %}
+    {% endblock %}
+
+ </body>
+</html>

@@ -1,0 +1,2641 @@
+signal	unit	muliplier	addition	Round	
+Weight	lbs	0.4536	0	0.01	1
+Height	in	2.54	0	0.01	1
+SpO2	%	1	0	1	
+Temperature	[degF]	0.5555555555555556	-17.77777777777778	0.01	0.1
+Temperature	[degC]	1	0	0.1	0.1
+BP	mm[Hg]	1	0	1	
+Resp_Rate	None	1	0	2
+ALKP	U/L	1	0	1
+ALKP	IU/L	1	0	1
+ALKP	NOT REPORTED	1	0	1
+ALT	U/L	1	0	1
+ALT	IU/L	1	0	1
+ALT	NOT REPORTED	1	0	1
+AST	U/L	1	0	1
+AST	NOT REPORTED	1	0	1
+AST	IU/L	1	0	1
+Acetaminophen	UG/ML	1	0	1
+Acetaminophen	MCG/ML	1	0	1
+Acetaminophen	NOT REPORTED	1	0	1
+Albumin	G/DL	1	0	0.1
+Albumin	GM/DL	1	0	0.1
+Albumin	NOT REPORTED	1	0	0.1
+Amylase	U/L	1	0	1
+Amylase	NOT REPORTED	1	0	1
+B12	PG/ML	1	0	1
+B12	NOT REPORTED	1	0	1
+B12	PG/DL	1	0	1
+BUN	MG/DL	1	0	1
+BUN	NOT REPORTED	1	0	1
+Bands#	K/UL	1	0	0.01
+Bands#	NOT REPORTED	1	0	0.01
+Bands%	%	1	0	1
+Bands%	NOT REPORTED	1	0	1
+Base_excess	MMOL/L	1	0	1
+Base_excess	NOT REPORTED	1	0	1
+Base_excess	MEQ/L	1	0	1
+Basophils#	K/UL	1	0	0.01
+Basophils#	10-3/UL	1	0	0.01
+Basophils#	X 10 3	1	0	0.01
+Basophils#	X10-3	1	0	0.01
+Basophils#	X 10 3/UL	1	0	0.01
+Basophils#	NOT REPORTED	1	0	0.01
+Basophils#	X10E3/UL	1	0	0.01
+Basophils#	X10^3/UL	1	0	0.01
+Basophils%	%	1	0	0.01
+Basophils%	NOT REPORTED	1	0	0.01
+Basophils%	NEGATIVE	1	0	0.01
+Bicarbonate	MMOL/L	1	0	0.1
+Bicarbonate	NOT REPORTED	1	0	0.1
+Bicarbonate	MEQ/L	1	0	0.1
+Bilirubin	MG/DL	1	0	0.1
+Bilirubin	MG./DL.	1	0	0.1
+Bilirubin	NOT REPORTED	1	0	0.1
+Bilirubin_Direct	MG/DL	1	0	0.1
+Bilirubin_Direct	NOT REPORTED	1	0	0.1
+C3	MG/DL	1	0	1
+C3	MG/DL ADULT	1	0	1
+C4	MG/DL	1	0	1
+C4	MG/DL ADULT	1	0	1
+CEA	NG/ML	1	0	0.1
+CEA	NOT REPORTED	1	0	0.1
+CK	U/L	1	0	1
+CK	IU/L	1	0	1
+CK	NOT REPORTED	1	0	1
+CO2	MMOL/L	1	0	1
+CO2	MM/L	1	0	1
+CO2	MEQ/L	1	0	1
+CO2	NOT REPORTED	1	0	1
+CO2	MMOLL	1	0	1
+CRP	MG/L	1	0	1
+CRP	NOT REPORTED	1	0	1
+CRP	MG/DL	1	0	1
+CYCLOSPORINE	NG/ML	1	0	0.01
+CYCLOSPORINE	NOT REPORTED	1	0	0.01
+Ca	MG/DL	1	0	0.1
+Ca	MG./DL.	1	0	0.1
+Ca	NOT REPORTED	1	0	0.1
+Ca	MMOL/L	1	0	0.1
+Cholesterol	MG/DL	1	0	1
+Cholesterol	NOT REPORTED	1	0	1
+Cholesterol	MG	1	0	1
+Cholesterol	MGDL	1	0	1
+Cholesterol	ML/MIN	1	0	1
+Cholesterol	MG-DL	1	0	1
+Cholesterol	MG.DL	1	0	1
+Cholesterol	MD/DL	1	0	1
+Cholesterol	MG/D	1	0	1
+Cholesterol	MMOL/L	1	0	1
+Cholesterol	MG/LD	1	0	1
+Cholesterol	M/DL	1	0	1
+Cholesterol	MG/ML	1	0	1
+Cholesterol	MG//DL	1	0	1
+Cholesterol	MGM	1	0	1
+Cholesterol	NG/DL	1	0	1
+Cholesterol	MG/L	1	0	1
+Cholesterol	G	1	0	1
+Cholesterol	MG/DK	1	0	1
+Cholesterol	200	1	0	1
+Cholesterol	G/DL	1	0	1
+Cholesterol	MG/D;	1	0	1
+Cholesterol	MF/DL	1	0	1
+Cholesterol	MG./DL	1	0	1
+Cholesterol	MG/DKL	1	0	1
+Cholesterol	<200	1	0	1
+Cholesterol	MG/D/	1	0	1
+Cholesterol	MG/DL`	1	0	1
+Cholesterol	MG/DLK	1	0	1
+Cholesterol	MG\DL	1	0	1
+Cholesterol	MH	1	0	1
+Cholesterol	UG/DL	1	0	1
+Cholesterol	MG/	1	0	1
+Cholesterol	MG/DL;	1	0	1
+Cholesterol	199	1	0	1
+Cholesterol	MG/SL	1	0	1
+Cholesterol	MG/.DL	1	0	1
+Cholesterol	MG/CL	1	0	1
+Cholesterol	MG'DL	1	0	1
+Cholesterol	MG/D;L	1	0	1
+Cholesterol	%	1	0	1
+Cholesterol	MG/FL	1	0	1
+Cholesterol	MG;DL	1	0	1
+Cholesterol	ML/DL	1	0	1
+Cholesterol	MS/DL	1	0	1
+Cholesterol	.	1	0	1
+Cholesterol	GM/DL	1	0	1
+Cholesterol	NG.DK	1	0	1
+Cholesterol	NO RANGE	1	0	1
+Cholesterol	RH/SP	1	0	1
+Cholesterol	MG/DL:	1	0	1
+Cholesterol	MG/DL100	1	0	1
+Cholesterol	MG/DL56	1	0	1
+Cholesterol	MG/DLH	1	0	1
+Cholesterol	MG/DMG/DLL	1	0	1
+Cholesterol	MG/DLD	1	0	1
+Cholesterol	MG/GL	1	0	1
+Cholesterol	ML/MIN 1.73 M2	1	0	1
+Cholesterol	MMOL	1	0	1
+Cholesterol	MG?DL	1	0	1
+Cholesterol	MGD/DL	1	0	1
+Cholesterol	MLG/DL	1	0	1
+Cholesterol	MT/DL	1	0	1
+Cholesterol	`MG/DL	1	0	1
+Cholesterol	MG/DG	1	0	1
+Cholesterol	MG/DI	1	0	1
+Cholesterol	(CALC)	1	0	1
+Cholesterol	,GD;	1	0	1
+Cholesterol	170	1	0	1
+Cholesterol	GMD/L	1	0	1
+Cholesterol	,G/DL	1	0	1
+Cholesterol	NO VALUE	1	0	1
+Cholesterol	MGD/	1	0	1
+Cholesterol	MGD/L	1	0	1
+Cholesterol	MG/DLL	1	0	1
+Cholesterol	MG/OL	1	0	1
+Cholesterol	MG/DL51	1	0	1
+Cholesterol	MG/DL,	1	0	1
+Cholesterol	IU/L	1	0	1
+Cholesterol	M/GLD	1	0	1
+Cholesterol	MB/DL	1	0	1
+Cholesterol	MD/GL	1	0	1
+Cholesterol	MG.DK	1	0	1
+Cholesterol	MG/ DL	1	0	1
+Cholesterol_over_HDL	NOT REPORTED	1	0	0.1
+Cholesterol_over_HDL	RATIO	1	0	0.1
+Cholesterol_over_HDL	%	1	0	0.1
+Cholesterol_over_HDL	MG/DL	1	0	0.1
+Cholesterol_over_HDL	CALC	1	0	0.1
+Cholesterol_over_HDL	(CALC)	1	0	0.1
+Cholesterol_over_HDL	MG	1	0	0.1
+Cholesterol_over_HDL	RATIO UNITS	1	0	0.01
+Cholesterol_over_HDL	RATION	1	0	0.1
+Cholesterol_over_HDL	<OR=5.0	1	0	0.1
+Cholesterol_over_HDL	RATIO UNIT	1	0	0.1
+Cholesterol_over_HDL	NOT SPECIFIED	1	0	0.1
+Cholesterol_over_HDL	MMOL/L	1	0	0.1
+Cholesterol_over_HDL	NM	1	0	0.1
+Cholesterol_over_HDL	NO RANGE	1	0	0.1
+Cholesterol_over_HDL	MMOL	1	0	0.1
+Cholesterol_over_HDL	4.5	1	0	0.1
+Cholesterol_over_HDL	NO RANGE GIVEN	1	0	0.1
+Cholesterol_over_HDL	MD/DL	1	0	0.1
+Cholesterol_over_HDL	RATIO/UNITS	1	0	0.1
+Cholesterol_over_HDL	MG/DL (CALC)	1	0	0.1
+Cholesterol_over_HDL	MG/G	1	0	0.1
+Cholesterol_over_HDL	RANGE	1	0	0.1
+Cholesterol_over_HDL	M/DL	1	0	0.1
+Cholesterol_over_HDL	NO VALUE	1	0	0.1
+Cholesterol_over_HDL	4.97	1	0	0.1
+Cholesterol_over_HDL	CAL	1	0	0.1
+Cholesterol_over_HDL	RATION UNITS	1	0	0.1
+Cholesterol_over_HDL	U	1	0	0.1
+Cholesterol_over_HDL	RATIIO	1	0	0.1
+Cholesterol_over_HDL	4.44	1	0	0.1
+Cholesterol_over_HDL	<5.0	1	0	0.1
+Cholesterol_over_HDL	3.3	1	0	0.1
+Cholesterol_over_HDL	(CAL)	1	0	0.1
+Cholesterol_over_HDL	< OR = 5.0	1	0	0.1
+Cholesterol_over_HDL	<=5.0	1	0	0.1
+Cholesterol_over_HDL	4.45	1	0	0.1
+Cholesterol_over_HDL	CLAC	1	0	0.1
+Cholesterol_over_HDL	T	1	0	0.1
+Cholesterol_over_HDL	UIU/ML	1	0	0.1
+Cholesterol_over_HDL	U/L	1	0	0.1
+Cholesterol_over_HDL	UIIU/ML	1	0	0.1
+Cholesterol_over_HDL	&	1	0	0.1
+Cholesterol_over_HDL	G/DL	1	0	0.1
+Cholesterol_over_HDL	INDEX	1	0	0.1
+Cholesterol_over_HDL	RATIE	1	0	0.1
+Cholesterol_over_HDL	5.0	1	0	0.1
+Cholesterol_over_HDL	.	1	0	0.1
+Cholesterol_over_HDL	`	1	0	0.1
+Cholesterol_over_HDL	MG/D;	1	0	0.1
+Cholesterol_over_HDL	ML/MIN	1	0	0.1
+Cholesterol_over_HDL	NG/ML	1	0	0.1
+Cholesterol_over_HDL	5	1	0	0.1
+Cholesterol_over_HDL	6.09	1	0	0.1
+Cholesterol_over_HDL	G	1	0	0.1
+Cholesterol_over_HDL	M	1	0	0.1
+Cholesterol_over_HDL	MG/L	1	0	0.1
+Cholesterol_over_HDL	MH	1	0	0.1
+Cholesterol_over_HDL	N/A	1	0	0.1
+Cholesterol_over_HDL	N=MG	1	0	0.1
+Cholesterol_over_HDL	<OR=5.0 (CALC)	1	0	0.1
+Cholesterol_over_HDL	<OR=50	1	0	0.1
+Cholesterol_over_HDL	5.0 (CALC)	1	0	0.1
+Cholesterol_over_HDL	CALV	1	0	0.1
+Cholesterol_over_HDL	MG/DL(CALC)	1	0	0.1
+Cholesterol_over_HDL	MGDL	1	0	0.1
+Cholesterol_over_HDL	MNG/DL	1	0	0.1
+Cholesterol_over_HDL	PERCENT	1	0	0.1
+Cholesterol_over_HDL	RATION/UNITS	1	0	0.1
+Cholesterol_over_HDL	<4.4	1	0	0.1
+Cl	MMOL/L	1	0	1
+Cl	MM/L	1	0	1
+Cl	MEQ/L	1	0	1
+Cl	MMOLL	1	0	1
+Cl	NOT REPORTED	1	0	1
+Cortisol	UG/DL	1	0	0.1
+Cortisol	NOT REPORTED	1	0	0.1
+Creatine_Kinase_MB	NG/ML	1	0	0.1
+Creatine_Kinase_MB	NOT REPORTED	1	0	0.1
+Creatinine	MG/DL	1	0	0.1
+Creatinine	NOT REPORTED	1	0	0.1
+Creatinine	MG	1	0	0.1
+Creatinine	MG.DL	1	0	0.1
+Creatinine	MG/ML	1	0	0.1
+Creatinine	MMOL/L	1	0	0.1
+Creatinine	G/DL	1	0	0.1
+Creatinine	MGDL	1	0	0.1
+Creatinine	ML/MIN	1	0	0.1
+Creatinine	MD/DL	1	0	0.1
+Creatinine	MG/D	1	0	0.1
+Creatinine	M/DL	1	0	0.1
+Creatinine	MG/GL	1	0	0.1
+Creatinine	MG/CL	1	0	0.1
+Creatinine	MG/SL	1	0	0.1
+Creatinine	ML/DL	1	0	0.1
+Creatinine	MG/LD	1	0	0.1
+Creatinine	MG./DL	1	0	0.1
+Creatinine	MG/L	1	0	0.1
+Creatinine	NG/DL	1	0	0.1
+Creatinine	MG//DL	1	0	0.1
+Creatinine	MGD/L	1	0	0.1
+Creatinine	ML/MIN/1.73M2	1	0	0.1
+Creatinine	UMOL/L	1	0	0.1
+Creatinine	ML	1	0	0.1
+Creatinine	MG/DLT	1	0	0.1
+Creatinine	MG\DL	1	0	0.1
+Creatinine	MG/.DL	1	0	0.1
+Creatinine	MG/DK	1	0	0.1
+Creatinine	GM/DL	1	0	0.1
+Creatinine	MG/FL	1	0	0.1
+Creatinine	MG-DL	1	0	0.1
+Creatinine	MG/DLK	1	0	0.1
+Creatinine	MH/DL	1	0	0.1
+Creatinine	MG/D;	1	0	0.1
+Creatinine	MG./DL.	1	0	0.1
+Creatinine	MGM	1	0	0.1
+Creatinine	MC/DL	1	0	0.1
+Creatinine	MG /DL	1	0	0.1
+Creatinine	ML/MIN./1.73M^2	1	0	0.1
+Creatinine	MEQ/L	1	0	0.1
+Creatinine	MF/DL	1	0	0.1
+Creatinine	1.00	1	0	0.1
+Creatinine	ML/MIN/1.73	1	0	0.1
+Creatinine	MG/DL;	1	0	0.1
+Creatinine	.	1	0	0.1
+Creatinine	1.30	1	0	0.1
+Creatinine	M/GLD	1	0	0.1
+Creatinine	MG/ DL	1	0	0.1
+Creatinine	MG/D/	1	0	0.1
+Creatinine	1.20	1	0	0.1
+Creatinine	MGD/DL	1	0	0.1
+Creatinine	MLG/DL	1	0	0.1
+Creatinine	%	1	0	0.1
+Creatinine	MGD/	1	0	0.1
+Creatinine	1.3	1	0	0.1
+Creatinine	MG/DKL	1	0	0.1
+Creatinine	MG/DO	1	0	0.1
+Creatinine	MGLDL	1	0	0.1
+Creatinine	NG/ML	1	0	0.1
+Creatinine	MMOLL	1	0	0.1
+Creatinine	U/L	1	0	0.1
+Creatinine	ML/MIN.1.73M^2	1	0	0.1
+Creatinine	MGL	1	0	0.1
+Creatinine	MG/DLQ	1	0	0.1
+Creatinine	MM/L	1	0	0.1
+Creatinine	MMG/DL	1	0	0.1
+Creatinine	NG.DK	1	0	0.1
+Creatinine	MGM/DL	1	0	0.1
+Creatinine	MG/DJ	1	0	0.1
+Creatinine	.99	1	0	0.1
+Creatinine	`MG/DL	1	0	0.1
+Creatinine	,GD;	1	0	0.1
+Creatinine	,MG/DL	1	0	0.1
+Creatinine	NG.DL	1	0	0.1
+Creatinine	ML/MIN/1.73M^2	1	0	0.1
+Creatinine	UNITS	1	0	0.1
+Creatinine	MNG/DL	1	0	0.1
+Creatinine	NO RANGE GIVEN	1	0	0.1
+Creatinine	ML/M^1.7	1	0	0.1
+Creatinine	ML/MIN/1.7M^2	1	0	0.1
+Creatinine	1.03	1	0	0.1
+Creatinine	1.10	1	0	0.1
+Creatinine	1.5	1	0	0.1
+Creatinine	MG/MIN	1	0	0.1
+Creatinine	MG/DL.	1	0	0.1
+Creatinine	U	1	0	0.1
+Creatinine	,G/DL	1	0	0.1
+Creatinine	MB/DL	1	0	0.1
+Creatinine	MD/GL	1	0	0.1
+Creatinine	MG.DL.	1	0	0.1
+Creatinine	MG/DD	1	0	0.1
+Creatinine	MG/DL-	1	0	0.1
+Creatinine	MG/\DL	1	0	0.1
+Creatinine	MG/D.	1	0	0.1
+Creatinine	MD.SL	1	0	0.1
+Creatinine	MG/DL`	1	0	0.1
+Creatinine	MG/DL4.6	1	0	0.1
+Creatinine	MG/DL6/18/2015	1	0	0.1
+Creatinine	MG/DL74	1	0	0.1
+Creatinine	MG/DLL	1	0	0.1
+Creatinine	MG/DLML/MIN	1	0	0.1
+Creatinine	MG/DOL	1	0	0.1
+Creatinine	MG/FDL	1	0	0.1
+Creatinine	MGLD	1	0	0.1
+Creatinine	MGLD/	1	0	0.1
+Creatinine	MGMG/DL	1	0	0.1
+Creatinine	545794	1	0	0.1
+Creatinine	GM	1	0	0.1
+Creatinine	1.2	1	0	0.1
+Creatinine	1.05	1	0	0.1
+Creatinine	MG/DL/ML/MIN	1	0	0.1
+Creatinine	MG/DL48	1	0	0.1
+Creatinine	MG/DLCH	1	0	0.1
+Creatinine	MG/DLO	1	0	0.1
+Creatinine	MG/DML	1	0	0.1
+Creatinine	MG/.DMG/DLL	1	0	0.1
+Creatinine	MG/D/L	1	0	0.1
+Creatinine	ML/MIN./1.73M^3	1	0	0.1
+Creatinine	MM	1	0	0.1
+Creatinine	MML/L	1	0	0.1
+Creatinine	MMOL/M	1	0	0.1
+Creatinine	UMOL/DL	1	0	0.1
+Creatinine	NL/MIN./1.73M^2	1	0	0.1
+Creatinine	,OPL/L	1	0	0.1
+Creatinine	ML/MIN/1.73SQ.M	1	0	0.1
+Creatinine	MMOL2/L2	1	0	0.1
+Creatinine	MGMDL	1	0	0.1
+Creatinine	MIN/ML	1	0	0.1
+Creatinine	MKG/DL	1	0	0.1
+Creatinine	ML/MI	1	0	0.1
+Creatinine	MGG/DL	1	0	0.1
+Creatinine	MG/G	1	0	0.1
+Creatinine	MG/GLD	1	0	0.1
+Creatinine	MG/MG	1	0	0.1
+Creatinine	MG/DCL	1	0	0.1
+Creatinine	MG/DFL	1	0	0.1
+Creatinine	MG/DG	1	0	0.1
+Creatinine	1.4	1	0	0.1
+Creatinine	105	1	0	0.1
+Creatinine	DG/ML	1	0	0.1
+Creatinine	G//DL	1	0	0.1
+Creatinine	G/MG/DL	1	0	0.1
+Creatinine	GDL	1	0	0.1
+Creatinine	GM/24HR	1	0	0.1
+Creatinine	M/GDL	1	0	0.1
+Creatinine	1.02	1	0	0.1
+Creatinine	MD//DL	1	0	0.1
+Creatinine	MG/D'	1	0	0.1
+Creatinine	MG/DDL	1	0	0.1
+Creatinine	MG/DL82	1	0	0.1
+Creatinine	ML/MIN PER 1.73 M2	1	0	0.1
+Creatinine	ML/MIN/A	1	0	0.1
+Creatinine	MM/DL	1	0	0.1
+Creatinine	MG/LG	1	0	0.1
+Creatinine	MG;/DL	1	0	0.1
+Creatinine	MGL/DL	1	0	0.1
+Creatinine	NMG/DL	1	0	0.1
+Creatinine	NO RANGE	1	0	0.1
+Creatinine	NOT GIVEN	1	0	0.1
+Creatinine	MMOL	1	0	0.1
+Creatinine	MGT/DL	1	0	0.1
+Creatinine	ML/GL	1	0	0.1
+Creatinine	MMMG/DLOL/L	1	0	0.1
+Creatinine	NG	1	0	0.1
+Creatinine	NG===MG/DL	1	0	0.1
+Digoxin	NG/ML	1	0	0.1
+Digoxin	NOT REPORTED	1	0	0.1
+Eosinophils#	K/UL	1	0	0.01
+Eosinophils#	10-3/UL	1	0	0.01
+Eosinophils#	X10*3	1	0	0.01
+Eosinophils#	X 10 3	1	0	0.01
+Eosinophils#	X10-3	1	0	0.01
+Eosinophils#	NOT REPORTED	1	0	0.01
+Eosinophils#	/UL	1	0	0.01
+Eosinophils#	X10E3/UL	1	0	0.01
+Eosinophils#	X10^3/UL	1	0	0.01
+Eosinophils%	%	1	0	1
+Eosinophils%	NOT REPORTED	1	0	1
+FSH	MIU/ML	1	0	0.1
+FSH	MIU/M	1	0	0.1
+Ferritin	NG/ML	1	0	0.01
+Ferritin	NOT REPORTED	1	0	0.01
+FiO2	%	1	0	1
+FiO2	NOT REPORTED	1	0	1
+Fibrinogen	MG/DL	1	0	1
+Fibrinogen	NOT REPORTED	1	0	1
+FreeT3	PG/ML	1	0	0.1
+FreeT3	NOT REPORTED	1	0	0.1
+FreeT4	NG/DL	1	0	0.01
+FreeT4	NOT REPORTED	1	0	0.01
+GFR	NOT REPORTED	1	0	0.01
+Gentamicin	NOT REPORTED	1	0	1
+Gentamicin	MG/L	1	0	1
+Globulin	G/DL (CALC)	1	0	0.1
+Globulin	NOT REPORTED	1	0	0.1
+Globulin	G/DL	1	0	0.1
+Globulin	GM/DL	1	0	0.1
+Glucose	MG/DL	1	0	1
+Glucose	NOT REPORTED	1	0	1
+Glucose	MG./DL.	1	0	1
+Glucose	MG	1	0	1
+Glucose	MGDL	1	0	1
+Glucose	MMOL/L	1	0	1
+Glucose	MG.DL	1	0	1
+Glucose	MG/ML	1	0	1
+Glucose	M/DL	1	0	1
+Glucose	MG/L	1	0	1
+Glucose	ML/MIN	1	0	1
+Glucose	MG/GL	1	0	1
+Glucose	MD/DL	1	0	1
+Glucose	MG/D	1	0	1
+Glucose	MG/D;	1	0	1
+Glucose	MG//DL	1	0	1
+Glucose	MG./DL	1	0	1
+Glucose	MEQ/L	1	0	1
+Glucose	G/DL	1	0	1
+Glucose	U/L	1	0	1
+Glucose	MG/LD	1	0	1
+Glucose	MGD/L	1	0	1
+Glucose	MG\DL	1	0	1
+Glucose	MG/.DL	1	0	1
+Glucose	,G/DL	1	0	1
+Glucose	MG/SL	1	0	1
+Glucose	MH/DL	1	0	1
+Glucose	MG/DK	1	0	1
+Glucose	MG/FL	1	0	1
+Glucose	NG/DL	1	0	1
+Glucose	MG/D;L	1	0	1
+Glucose	MH	1	0	1
+Glucose	ML/MIN 1.73 M2	1	0	1
+Glucose	99	1	0	1
+Glucose	MG/CL	1	0	1
+Glucose	ML	1	0	1
+Glucose	MG/DLK	1	0	1
+Glucose	M/GDL	1	0	1
+Glucose	MG/	1	0	1
+Glucose	MG-DL	1	0	1
+Glucose	,MG/DL	1	0	1
+Glucose	MG/DLL	1	0	1
+Glucose	MG.DK	1	0	1
+Glucose	.	1	0	1
+Glucose	MNG/DL	1	0	1
+Glucose	ML/MIN/1.73M2	1	0	1
+Glucose	MGLD/	1	0	1
+Glucose	MG/ DL	1	0	1
+Glucose	MG/DOL	1	0	1
+Glucose	NG.DK	1	0	1
+Glucose	MMG/DL	1	0	1
+Glucose	GM/DL	1	0	1
+Glucose	,GD;	1	0	1
+Glucose	MC/DL	1	0	1
+Glucose	MG/DL0	1	0	1
+Glucose	MG/DL9	1	0	1
+Glucose	ML/MI	1	0	1
+Glucose	MF/DL	1	0	1
+Glucose	NG	1	0	1
+Glucose	MG/D/L	1	0	1
+Glucose	MGLDL	1	0	1
+Glucose	MMOL	1	0	1
+Glucose	SQM	1	0	1
+Glucose	110	1	0	1
+Glucose	IU/L	1	0	1
+Glucose	MEQ	1	0	1
+Glucose	MG/DDL	1	0	1
+Glucose	MG/EL	1	0	1
+Glucose	MG/FDL	1	0	1
+Glucose	MG/DL.	1	0	1
+Glucose	MG/D/	1	0	1
+Glucose	MG/DO	1	0	1
+Glucose	MQ/DL	1	0	1
+Glucose	%	1	0	1
+Glucose	,=MG/DL	1	0	1
+Glucose	100	1	0	1
+Glucose	106	1	0	1
+Glucose	CHEM	1	0	1
+Glucose	CHRM	1	0	1
+Glucose	FMG/DL	1	0	1
+Glucose	MHDL	1	0	1
+Glucose	MHG/DL	1	0	1
+Glucose	MLG/DL	1	0	1
+Glucose	MMO/L	1	0	1
+Glucose	MD/GL	1	0	1
+Glucose	MG/DD	1	0	1
+Glucose	MG/DL-	1	0	1
+Glucose	MG/DL`	1	0	1
+Glucose	MG/DL74	1	0	1
+Glucose	MGD/DL	1	0	1
+Glucose	MG/DL12	1	0	1
+Glucose	MG/DLC	1	0	1
+Glucose	MG/DLQ	1	0	1
+Glucose	MG /DL	1	0	1
+Glucose	MG./DL.DK	1	0	1
+Glucose	MG.CL	1	0	1
+Glucose	MG.ML	1	0	1
+Glucose	`MG/DL	1	0	1
+Glucose	109	1	0	1
+Glucose	129	1	0	1
+Glucose	M	1	0	1
+Glucose	M /DL	1	0	1
+Glucose	M/GLD	1	0	1
+Glucose	3G/ML	1	0	1
+Glucose	5.2	1	0	1
+Glucose	70	1	0	1
+Glucose	G	1	0	1
+Glucose	GRAMS	1	0	1
+Glucose	ML/MIN/1.73M	1	0	1
+Glucose	MM/L	1	0	1
+Glucose	MG;/DL	1	0	1
+Glucose	MG?/DL	1	0	1
+Glucose	MJG/DL	1	0	1
+Glucose	MMOL/DL	1	0	1
+Glucose	MG;DL	1	0	1
+Glucose	NG/ML	1	0	1
+Glucose	0MG/DL	1	0	1
+Glucose	103	1	0	1
+Glucose	105	1	0	1
+Glucose	98	1	0	1
+Glucose	C	1	0	1
+Glucose	JMG/DL	1	0	1
+Glucose	M,G/DL	1	0	1
+Glucose	MG%	1	0	1
+Glucose	MG'DL	1	0	1
+Glucose	MG./ DL	1	0	1
+Glucose	MG/DL /	1	0	1
+Glucose	MG/DL>60	1	0	1
+Glucose	MG/DL1	1	0	1
+Glucose	MG/DL22	1	0	1
+Glucose	MG/DLO	1	0	1
+Glucose	MG/DQ	1	0	1
+Glucose	MG/EDL	1	0	1
+Glucose	UG/DL	1	0	1
+Glucose	MKG/DL	1	0	1
+Glucose	MGD/	1	0	1
+Glucose	MGF	1	0	1
+Glucose	MGG/DL	1	0	1
+Glucose	MGL/	1	0	1
+Glucose	MG/DP	1	0	1
+Glucose	MG/MG	1	0	1
+Glucose	MG/NL	1	0	1
+Glucose	MG/DL128	1	0	1
+Glucose	MG/DI	1	0	1
+Glucose	MD.DL	1	0	1
+Glucose	MF	1	0	1
+HDL	MG/DL	1	0	1
+HDL	MG./DL.	1	0	1
+HDL	NOT REPORTED	1	0	1
+HDL	MG	1	0	1
+HDL	%	1	0	1
+HDL	MMOL/L	1	0	1
+HDL	ML/MIN	1	0	1
+HDL	MD/DL	1	0	1
+HDL	MG.DL	1	0	1
+HDL	MGDL	1	0	1
+HDL	MG-DL	1	0	1
+HDL	MG/D	1	0	1
+HDL	M/DL	1	0	1
+HDL	ML/DL	1	0	1
+HDL	MG/L	1	0	1
+HDL	MG/SL	1	0	1
+HDL	MG/D;	1	0	1
+HDL	G/DL	1	0	1
+HDL	MG/LD	1	0	1
+HDL	MG/ML	1	0	1
+HDL	MG/DLK	1	0	1
+HDL	>OR=46MG/DL	1	0	1
+HDL	>40	1	0	1
+HDL	MG/CL	1	0	1
+HDL	U/L	1	0	1
+HDL	,GD;	1	0	1
+HDL	NG/DL	1	0	1
+HDL	MG//DL	1	0	1
+HDL	MGD/L	1	0	1
+HDL	>OR=40MG/DL	1	0	1
+HDL	NO RANGE	1	0	1
+HDL	RATIO	1	0	1
+HDL	MH/DL	1	0	1
+HDL	MF/DL	1	0	1
+HDL	MG/FL	1	0	1
+HDL	MG./DL	1	0	1
+HDL	IU/L	1	0	1
+HDL	>39MG/DL	1	0	1
+HDL	,G/DL	1	0	1
+HDL	60	1	0	1
+HDL	CALC	1	0	1
+HDL	MG/GL	1	0	1
+HDL	>39	1	0	1
+HDL	MLG/DL	1	0	1
+HDL	MG/DLL	1	0	1
+HDL	MG/ DL	1	0	1
+HDL	MGM	1	0	1
+HDL	MH	1	0	1
+HDL	NO VALUE	1	0	1
+HDL	MG/DL;	1	0	1
+HDL	MG/DL6.5	1	0	1
+HDL	NG/ML	1	0	1
+HDL	NMG	1	0	1
+HDL	.MG/DL	1	0	1
+HDL	>OR=46	1	0	1
+HDL	85.0	1	0	1
+HDL	JMG/DL	1	0	1
+HDL	MDG/L	1	0	1
+HDL	MG/SDL	1	0	1
+HDL	MG/\DL	1	0	1
+HDL	MG?DL	1	0	1
+HDL	MNG/DL	1	0	1
+HDL	NO RANGE GIVEN	1	0	1
+HDL	NOT IDENTIFIED	1	0	1
+HDL	ML/MIN/1.73M2	1	0	1
+HDL	DL	1	0	1
+HDL	M,G/DL	1	0	1
+HDL	M/GL	1	0	1
+HDL	.	1	0	1
+HDL	<40 MG/DL	1	0	1
+HDL	>=40	1	0	1
+HDL	MGD;	1	0	1
+HDL	MGLDL	1	0	1
+HDL	MGL/DL	1	0	1
+HDL	ML/MIN 1.73 M2	1	0	1
+HDL	MG /DL	1	0	1
+HDL	MG/.DL	1	0	1
+HDL	MG/DDL	1	0	1
+HDL	>60	1	0	1
+HDL	>OR=40 MG/DL	1	0	1
+HDL	`MG/DL	1	0	1
+HDL	53.2	1	0	1
+HDL	56	1	0	1
+HDL	59.0	1	0	1
+HDL	>	1	0	1
+HDL	> OR = 46 MG/DL	1	0	1
+HDL	NG.DK	1	0	1
+HDL	RH/SP	1	0	1
+HDL	U	1	0	1
+HDL	UMOL/L	1	0	1
+HDL	MB/DL	1	0	1
+HDL	0	1	0	1
+HDL	46	1	0	1
+HDL	60.0	1	0	1
+HDL	G	1	0	1
+Haptoglobin	MG/DL	1	0	1
+Haptoglobin	NOT REPORTED	1	0	1
+HbA1C	%	1	0	0.1
+HbA1C	NOT REPORTED	1	0	0.1
+Hematocrit	%	1	0	0.1
+Hematocrit	NOT REPORTED	1	0	0.1
+Hemoglobin	G/DL	1	0	0.1
+Hemoglobin	GM/DL	1	0	0.1
+Hemoglobin	NOT REPORTED	1	0	0.1
+Hemoglobin	G/ML	1	0	0.1
+Hemoglobin	MG/DL	1	0	0.1
+Hemoglobin	GR/DL	1	0	0.1
+Hemoglobin	%	1	0	0.1
+Hemoglobin	G.DL	1	0	0.1
+Hemoglobin	G/L	1	0	0.1
+Hemoglobin	GDL	1	0	0.1
+Hemoglobin	U/L	1	0	0.1
+Hemoglobin	G\DL	1	0	0.1
+Hemoglobin	15.0	1	0	0.1
+Hemoglobin	16.0	1	0	0.1
+Hemoglobin	D/GL	1	0	0.1
+Hemoglobin	G/.DL	1	0	0.1
+Hemoglobin	GD;	1	0	0.1
+Hemoglobin	15.5	1	0	0.1
+Hemoglobin	15.7	1	0	0.1
+Hemoglobin	18.0	1	0	0.1
+Hemoglobin	G/SL	1	0	0.1
+Hemoglobin	Q/DL	1	0	0.1
+Hemoglobin	G/GL	1	0	0.1
+Hemoglobin	G/D	1	0	0.1
+Hemoglobin	G//DL	1	0	0.1
+Hemoglobin	G/D;	1	0	0.1
+Hemoglobin	/DL	1	0	0.1
+Hemoglobin	16.6	1	0	0.1
+Hemoglobin	17.5	1	0	0.1
+Hemoglobin	GM /DL	1	0	0.1
+Hemoglobin	G/LD	1	0	0.1
+Hemoglobin	G.DK	1	0	0.1
+Hemoglobin	17.7	1	0	0.1
+Hemoglobin	G/D/	1	0	0.1
+Hemoglobin	G/DLK	1	0	0.1
+Hemoglobin	M/UL	1	0	0.1
+Hemoglobin	GM.DL	1	0	0.1
+Hemoglobin	G./DL	1	0	0.1
+Hemoglobin	D/DL	1	0	0.1
+Hemoglobin	17.1	1	0	0.1
+Hemoglobin	H/DL	1	0	0.1
+Hemoglobin	GL/DL	1	0	0.1
+Hemoglobin	G/FL	1	0	0.1
+Hemoglobin	GD/L	1	0	0.1
+Hemoglobin	15.4	1	0	0.1
+Hemoglobin	GMD/L	1	0	0.1
+Hemoglobin	15.3	1	0	0.1
+Hemoglobin	G/DDL	1	0	0.1
+Hemoglobin	G/CL	1	0	0.1
+Hemoglobin	100639	1	0	0.1
+Hemoglobin	GN/DL	1	0	0.1
+Hemoglobin	GR.DL	1	0	0.1
+Hemoglobin	GM %	1	0	0.1
+Hemoglobin	U	1	0	0.1
+Hemoglobin	UIU/ML	1	0	0.1
+Hemoglobin	G/UL	1	0	0.1
+Hemoglobin	16.2	1	0	0.1
+Hemoglobin	F/SL	1	0	0.1
+Hemoglobin	G	1	0	0.1
+Hemoglobin	NEG	1	0	0.1
+Hemoglobin	G/DL;	1	0	0.1
+Hemoglobin	G/DL2	1	0	0.1
+Hemoglobin	G/DO	1	0	0.1
+Hemoglobin	GD	1	0	0.1
+Hemoglobin	GF/DL	1	0	0.1
+Hemoglobin	G/D;L	1	0	0.1
+Hemoglobin	17.3	1	0	0.1
+Hemoglobin	G?DL	1	0	0.1
+Hemoglobin	GG/DL	1	0	0.1
+Hemoglobin	MMOL/L	1	0	0.1
+Hemoglobin	.90	1	0	0.1
+Hemoglobin	GM/FL	1	0	0.1
+Hemoglobin	GM/SL	1	0	0.1
+Hemoglobin	GMD/	1	0	0.1
+Hemoglobin	HG/DL	1	0	0.1
+Hemoglobin	HGB	1	0	0.1
+Hemoglobin	M/DL	1	0	0.1
+Hemoglobin	GR/GL	1	0	0.1
+Hemoglobin	L	1	0	0.1
+Hemoglobin	ML/UL	1	0	0.1
+Hemoglobin	UL/	1	0	0.1
+Hemoglobin	GM\DL	1	0	0.1
+Hemoglobin	GMS/DL	1	0	0.1
+Hemoglobin	MG/D;L	1	0	0.1
+Hemoglobin	MIL/L	1	0	0.1
+Hemoglobin	ML/MIN	1	0	0.1
+Hemoglobin	T/DL	1	0	0.1
+Hemoglobin	15.9	1	0	0.1
+Hemoglobin	16.10	1	0	0.1
+Hemoglobin	18	1	0	0.1
+Hemoglobin	`G/DL	1	0	0.1
+Hemoglobin	DM/DL	1	0	0.1
+Hemoglobin	F.SL	1	0	0.1
+Hemoglobin	F/DL	1	0	0.1
+Hemoglobin	G/ DL	1	0	0.1
+Hemoglobin	14.2	1	0	0.1
+Hemoglobin	15.1	1	0	0.1
+Hemoglobin	7 OF TOTAL HGB	1	0	0.1
+Hemoglobin	CHEM	1	0	0.1
+Hemoglobin	G/D L	1	0	0.1
+Hemoglobin	G/D.	1	0	0.1
+Hemoglobin	1	1	0	0.1
+Hemoglobin	GM//DL	1	0	0.1
+Hemoglobin	GMM/DL	1	0	0.1
+Hemoglobin	GH/DL	1	0	0.1
+Hemoglobin	G/DLS	1	0	0.1
+Hemoglobin	G/DL^G.DL	1	0	0.1
+Hemoglobin	G/DLT	1	0	0.1
+Hemoglobin	GM/CL	1	0	0.1
+Hemoglobin	GM/L	1	0	0.1
+Hemoglobin	MG/G	1	0	0.1
+Hemoglobin	MGG/DL	1	0	0.1
+Hemoglobin	G/DLC	1	0	0.1
+Hemoglobin	G/DLCHEM	1	0	0.1
+Hemoglobin	G/G,	1	0	0.1
+Hemoglobin	16.9	1	0	0.1
+Hemoglobin	UG/DL	1	0	0.1
+Hemoglobin	% OF TOTAL	1	0	0.1
+Hemoglobin	% OF TOTAL HGB	1	0	0.1
+Hemoglobin	.26	1	0	0.1
+Hemoglobin	.83	1	0	0.1
+INR	NOT REPORTED	1	0	0.01
+INR	INR	1	0	0.01
+INR	SECONDS	1	0	0.01
+IgA	MG/DL	1	0	1
+IgA	NOT REPORTED	1	0	1
+IgM	MG/DL	1	0	1
+IgM	NOT REPORTED	1	0	1
+Immature_Granulocytes#	K/UL	1	0	0.01
+Immature_Granulocytes#	K/ML	1	0	0.01
+Immature_Granulocytes#	10-3/UL	1	0	0.01
+Immature_Granulocytes#	X10*3	1	0	0.01
+Immature_Granulocytes#	X10-3	1	0	0.01
+Immature_Granulocytes#	NOT REPORTED	1	0	0.01
+Immature_Granulocytes%	%	1	0	0.1
+Immature_Granulocytes%	NOT REPORTED	1	0	0.1
+Iron_Binding_Capacity	UG/DL	1	0	1
+Iron_Binding_Capacity	MCG/DL	1	0	1
+Iron_Binding_Capacity	NOT REPORTED	1	0	1
+Iron_Fe	UG/DL	1	0	1
+Iron_Fe	MCG/DL	1	0	1
+Iron_Fe	NOT REPORTED	1	0	1
+LDL	MG/DL	1	0	1
+LDL	MG./DL.	1	0	1
+LDL	NOT REPORTED	1	0	1
+LDL	MG	1	0	1
+LDL	MG/DL(CALC)	1	0	1
+LDL	CALC	1	0	1
+LDL	MGDL	1	0	1
+LDL	MG/DL (CALC)	1	0	1
+LDL	MG.DL	1	0	1
+LDL	MD/DL	1	0	1
+LDL	MG-DL	1	0	1
+LDL	MG/D	1	0	1
+LDL	MG/ML	1	0	1
+LDL	M/DL	1	0	1
+LDL	%	1	0	1
+LDL	MMOL/L	1	0	1
+LDL	<130	1	0	1
+LDL	MGD/L	1	0	1
+LDL	<130MG/DL	1	0	1
+LDL	ML/DL	1	0	1
+LDL	MG/LD	1	0	1
+LDL	MG/D;	1	0	1
+LDL	,G/DL	1	0	1
+LDL	RATIO	1	0	1
+LDL	MG/DL CALC	1	0	1
+LDL	MG/SL	1	0	1
+LDL	NO RANGE	1	0	1
+LDL	G/DL	1	0	1
+LDL	MG/GL	1	0	1
+LDL	MG/D;L	1	0	1
+LDL	MG/DL(CAL)	1	0	1
+LDL	MG/L	1	0	1
+LDL	MG\DL	1	0	1
+LDL	MGD/	1	0	1
+LDL	U/L	1	0	1
+LDL	MH/DL	1	0	1
+LDL	MG/DLL	1	0	1
+LDL	IU/L	1	0	1
+LDL	,GD;	1	0	1
+LDL	ML/MIN	1	0	1
+LDL	NG/DL	1	0	1
+LDL	NG/ML	1	0	1
+LDL	130	1	0	1
+LDL	MG /DL	1	0	1
+LDL	MG/.DL	1	0	1
+LDL	MG/CL	1	0	1
+LDL	100.0	1	0	1
+LDL	MG/DKL	1	0	1
+LDL	100	1	0	1
+LDL	MG/D'	1	0	1
+LDL	MG/DDL	1	0	1
+LDL	NONE	1	0	1
+LDL	MG./DL	1	0	1
+LDL	MG//DL	1	0	1
+LDL	G	1	0	1
+LDL	<130 MG/DL	1	0	1
+LDL	MKG/DL	1	0	1
+LDL	N/A	1	0	1
+LDL	MGG/DL	1	0	1
+LDL	MGM	1	0	1
+LDL	MIU/L	1	0	1
+LDL	MG/ DL	1	0	1
+LDL	MG/D/	1	0	1
+LDL	MG/DD	1	0	1
+LDL	MG'/DL	1	0	1
+LDL	MG,DL	1	0	1
+LDL	MG/DLK	1	0	1
+LDL	MT/DL	1	0	1
+LDL	NO RANGE GIVEN	1	0	1
+LDL	NOT IDENTIFIED	1	0	1
+LDL	MG/DOL	1	0	1
+LDL	MG/EL	1	0	1
+LDL	MH	1	0	1
+LDL	NO VALUE	1	0	1
+LDL	3.64	1	0	1
+LDL	M/GLD	1	0	1
+LDL	MB/DL	1	0	1
+LDL	MCG/DL	1	0	1
+LDL	MGLD	1	0	1
+LDL	MGMG/DL	1	0	1
+LDL	V	1	0	1
+LDL	(CALC)	1	0	1
+LDL	MG/DL/	1	0	1
+LDL	<100	1	0	1
+LDL	<131	1	0	1
+LDL	125	1	0	1
+LDL	2	1	0	1
+LDL	CA;C	1	0	1
+LDL	CLC	1	0	1
+LDL	COMMONWEALTH HEALTH	1	0	1
+LDL	M/GDL	1	0	1
+LDL	MC/DL	1	0	1
+LDL	MG/D/L	1	0	1
+LDL	NO UNITS GIVEN	1	0	1
+LDL	MG/DL09192019	1	0	1
+LDL	MG/DL22	1	0	1
+LDL	MG/DLA	1	0	1
+LDL	MG/DLH	1	0	1
+LDL	MG/FL	1	0	1
+LDL	MG/DK	1	0	1
+LDL	MG/LDL	1	0	1
+LDL	MG;/DL	1	0	1
+LDL	MMOL	1	0	1
+LDL	MDL	1	0	1
+LDL	MF/SL	1	0	1
+LDL	99	1	0	1
+LDL	CALCULATED	1	0	1
+LDL	CAL	1	0	1
+LDL	CALC.	1	0	1
+LDL	GM/DL	1	0	1
+LDL	MG'DL	1	0	1
+LDL	NOT GIVEN	1	0	1
+LDL	PSA	1	0	1
+LDL	RH/SP	1	0	1
+LDL	.	1	0	1
+LDL	<130 MG/DL (CALC)	1	0	1
+LDL	MG/DLQ	1	0	1
+Lactate	MMOL/L	1	0	0.1
+Lactate	NOT REPORTED	1	0	0.1
+Lipase	U/L	1	0	1
+Lipase	NOT REPORTED	1	0	1
+Lithium	MMOL/L	1	0	0.1
+Lithium	MEQ/L	1	0	0.1
+Lithium	MM/L	1	0	0.1
+Lithium	MMOLL	1	0	0.1
+Lithium	NOT REPORTED	1	0	0.1
+Lymphocytes#	K/UL	1	0	0.1
+Lymphocytes#	10-3/UL	1	0	0.1
+Lymphocytes#	X 10 3	1	0	0.1
+Lymphocytes#	X10-3	1	0	0.1
+Lymphocytes#	X 10 3/UL	1	0	0.1
+Lymphocytes#	NOT REPORTED	1	0	0.1
+Lymphocytes#	X10E3/UL	1	0	0.1
+Lymphocytes#	X10^3/UL	1	0	0.1
+Lymphocytes%	%	1	0	1
+Lymphocytes%	NOT REPORTED	1	0	1
+MCH	PG	1	0	0.1
+MCH	NOT REPORTED	1	0	0.1
+MCHC	G/DL	1	0	0.1
+MCHC	GM/DL	1	0	0.1
+MCHC	NOT REPORTED	1	0	0.1
+MCV	FL	1	0	0.01
+MCV	NOT REPORTED	1	0	0.01
+MPV	FL	1	0	0.1
+MPV	NOT REPORTED	1	0	0.1
+Metamyelocytes#	K/UL	1	0	0.01
+Metamyelocytes%	%	1	0	1
+Mg	MG/DL	1	0	0.1
+Mg	NOT REPORTED	1	0	0.1
+Microcytosis	NOT REPORTED	1	0	0.01
+Monocytes#	K/UL	1	0	0.01
+Monocytes#	%	1	0	0.01
+Monocytes#	10-3/UL	1	0	0.01
+Monocytes#	X 10 3	1	0	0.01
+Monocytes#	X10-3	1	0	0.01
+Monocytes#	X 10 3/UL	1	0	0.01
+Monocytes#	NOT REPORTED	1	0	0.01
+Monocytes#	X10E3/UL	1	0	0.01
+Monocytes#	X10(3)/MCL	1	0	0.01
+Monocytes#	X10^3/UL	1	0	0.01
+Monocytes%	%	1	0	1
+Monocytes%	NOT REPORTED	1	0	1
+NRBC%	/100 WBCS	1	0	1
+NRBC%	%	1	0	1
+NRBC%	NOT REPORTED	1	0	1
+Na	MMOL/L	1	0	1
+Na	MM/L	1	0	1
+Na	MEQ/L	1	0	1
+Na	MMOLL	1	0	1
+Na	NOT REPORTED	1	0	1
+Neutrophils#	K/UL	1	0	0.01
+Neutrophils#	X10*3	1	0	0.01
+Neutrophils#	X 10 3	1	0	0.01
+Neutrophils#	X 10 3/UL	1	0	0.01
+Neutrophils#	NOT REPORTED	1	0	0.01
+Neutrophils%	%	1	0	1
+Neutrophils%	NOT REPORTED	1	0	1
+NonHDLCholesterol	MG/DL	1	0	1
+NonHDLCholesterol	MG/DL (CALC)	1	0	1
+NonHDLCholesterol	NOT REPORTED	1	0	1
+Osmolality	MOSM/KG	1	0	1
+Osmolality	MOSM/L	1	0	1
+Osmolality	NOT REPORTED	1	0	1
+Osmolality	MOSM/K	1	0	1
+Osmolality	MOSM.KG	1	0	1
+PCO2	MM HG	1	0	0.1
+PO2	MM HG	1	0	0.01
+PSA	NG/ML	1	0	0.01
+PSA	NOT REPORTED	1	0	0.01
+PSA	NG./ML.	1	0	0.01
+PSA	NG/DL	1	0	0.01
+PSA	MG/DL	1	0	0.01
+PSA	NG/MG	1	0	0.01
+PSA	MG/ML	1	0	0.01
+PSA	NG.ML	1	0	0.01
+PSA	%	1	0	0.01
+PSA	NG	1	0	0.01
+PSA	NG/L	1	0	0.01
+PSA	NG/NL	1	0	0.01
+PSA	<4.00NG/ML	1	0	0.01
+PSA	PG/ML	1	0	0.01
+PSA	4.00	1	0	0.01
+PSA	NG/DML	1	0	0.01
+PSA	NG/M;	1	0	0.01
+PSA	U	1	0	0.01
+PSA	UIU/ML	1	0	0.01
+PSA	NG//ML	1	0	0.01
+PSA	MNG/ML	1	0	0.01
+PSA	4.0	1	0	0.01
+PSA	<OR=4.0	1	0	0.01
+PSA	NGML	1	0	0.01
+PSA	NG-ML	1	0	0.01
+PSA	NG.DL	1	0	0.01
+PSA	G/DL	1	0	0.01
+PSA	NG/ ML	1	0	0.01
+PSA	NG/,L	1	0	0.01
+PSA	NG/M	1	0	0.01
+PSA	ND/ML	1	0	0.01
+PSA	NF	1	0	0.01
+PSA	NG/ML'	1	0	0.01
+PSA	NG/MLD	1	0	0.01
+PSA	NG/G	1	0	0.01
+PSA	NT/ML	1	0	0.01
+PSA	U/L	1	0	0.01
+PSA	UG/ML	1	0	0.01
+PSA	MD/DL	1	0	0.01
+PSA	MG.DL	1	0	0.01
+PSA	MG/MI	1	0	0.01
+PSA	<=4.0	1	0	0.01
+PSA	<OR-4.0	1	0	0.01
+PSA	MG/MG	1	0	0.01
+PSA	NO VALUE	1	0	0.01
+PSA	NG/ML;	1	0	0.01
+PSA	NG/MLCH	1	0	0.01
+PSA	4	1	0	0.01
+PSA	BG/ML	1	0	0.01
+PSA	UL/ML	1	0	0.01
+PSA	N G/ML	1	0	0.01
+PSA	NC/ML	1	0	0.01
+PSA	ND/DL	1	0	0.01
+PSA	NG/D	1	0	0.01
+PSA	MN/ML	1	0	0.01
+PSA	AG/ML	1	0	0.01
+PSA	MG.ML	1	0	0.01
+PSA	MG/DK	1	0	0.01
+PSA	NG/MLW	1	0	0.01
+PSA	NS/ML	1	0	0.01
+PSA	UNITS	1	0	0.01
+PSA	<OR=4.0NG/ML	1	0	0.01
+PSA	3.10	1	0	0.01
+PSA	NG/MO	1	0	0.01
+PTH	PG/ML	1	0	1
+PTH	NOT REPORTED	1	0	1
+Phenytoin	UG/ML	1	0	0.1
+Phenytoin	MCG/ML	1	0	0.1
+Phenytoin	NOT REPORTED	1	0	0.1
+Phosphore	MG/DL	1	0	0.1
+Phosphore	NOT REPORTED	1	0	0.1
+Phosphore	MG	1	0	0.1
+Phosphore	U/L	1	0	0.1
+Phosphore	GM/DL	1	0	0.1
+Phosphore	G/DL	1	0	0.1
+Phosphore	IU/L	1	0	0.1
+Phosphore	MMOL/L	1	0	0.1
+Phosphore	NG/DL	1	0	0.1
+Phosphore	NG/ML	1	0	0.1
+Phosphore	MEQ/L	1	0	0.1
+Phosphore	IU	1	0	0.1
+Phosphore	PG/ML	1	0	0.1
+Phosphore	MG/ML	1	0	0.1
+Phosphore	MGDL	1	0	0.1
+Phosphore	%	1	0	0.1
+Phosphore	MD/DL	1	0	0.1
+Phosphore	MG.DL	1	0	0.1
+Phosphore	MG\DL	1	0	0.1
+Phosphore	4.8	1	0	0.1
+Phosphore	M/DL	1	0	0.1
+Phosphore	MG/.DL	1	0	0.1
+Phosphore	UI/L	1	0	0.1
+Phosphore	UNIT/L	1	0	0.1
+Phosphore	MMOL	1	0	0.1
+Phosphore	MG/GL	1	0	0.1
+Phosphore	G,/DL	1	0	0.1
+Phosphore	MCIU/ML	1	0	0.1
+Phosphore	MEQ	1	0	0.1
+Phosphore	MF/SL	1	0	0.1
+Phosphore	MG./DL	1	0	0.1
+Phosphore	MILLION/UL	1	0	0.1
+Phosphore	MMG	1	0	0.1
+Phosphore	C	1	0	0.1
+Phosphore	MG./DL.	1	0	0.1
+Phosphore	MG//DL	1	0	0.1
+Phosphore	MG/L	1	0	0.1
+Phosphore	4.6	1	0	0.1
+Phosphore	M/GLD	1	0	0.1
+Phosphore	5.0	1	0	0.1
+Phosphore	MG/SL	1	0	0.1
+Phosphore	MG?DL	1	0	0.1
+Platelets	K/UL	1	0	1
+Platelets	X10*3	1	0	1
+Platelets	10-3/UL	1	0	1
+Platelets	NOT REPORTED	1	0	1
+Platelets	X10-3	1	0	1
+Platelets	10*3/UL	1	0	1
+Potassium	MMOL/L	1	0	0.1
+Potassium	MEQ/L	1	0	0.1
+Potassium	NOT REPORTED	1	0	0.1
+Potassium	MMOL	1	0	0.1
+Potassium	MMOLL	1	0	0.1
+Potassium	MM/L	1	0	0.1
+Potassium	MEQ	1	0	0.1
+Potassium	MG/DL	1	0	0.1
+Potassium	MNOL/L	1	0	0.1
+Potassium	MML/L	1	0	0.1
+Potassium	MEQ/DL	1	0	0.1
+Potassium	MEG/L	1	0	0.1
+Potassium	MMOL.L	1	0	0.1
+Potassium	MMO/L	1	0	0.1
+Potassium	MOL/L	1	0	0.1
+Potassium	MMOL/	1	0	0.1
+Potassium	MMMOL/L	1	0	0.1
+Potassium	MMOL /L	1	0	0.1
+Potassium	G/DL	1	0	0.1
+Potassium	MMOL/MIN	1	0	0.1
+Potassium	MMOL/.L	1	0	0.1
+Potassium	MMOL./L	1	0	0.1
+Potassium	ML/MIN 1.73 M2	1	0	0.1
+Potassium	ML/MIN	1	0	0.1
+Potassium	NNOL/L	1	0	0.1
+Potassium	MMOL/;L	1	0	0.1
+Potassium	MMOL/K	1	0	0.1
+Potassium	MRQ/L	1	0	0.1
+Potassium	MMOL/LL	1	0	0.1
+Potassium	5.1	1	0	0.1
+Potassium	MMOL//L	1	0	0.1
+Potassium	,MMOL/L	1	0	0.1
+Potassium	MMOL/DL	1	0	0.1
+Potassium	MM0L/L	1	0	0.1
+Potassium	MG	1	0	0.1
+Potassium	MMOL\L	1	0	0.1
+Potassium	MMOL/M	1	0	0.1
+Potassium	MMOL/ML	1	0	0.1
+Potassium	.MMOL/L	1	0	0.1
+Potassium	MMIL/L	1	0	0.1
+Potassium	MMOL/LK	1	0	0.1
+Potassium	MMOL/L.	1	0	0.1
+Potassium	MMOL/L;	1	0	0.1
+Potassium	MMOI/L	1	0	0.1
+Potassium	MML	1	0	0.1
+Potassium	MMOL?L	1	0	0.1
+Potassium	MMOL/LQ	1	0	0.1
+Potassium	MM	1	0	0.1
+Potassium	MM\L	1	0	0.1
+Potassium	MEQL	1	0	0.1
+Potassium	MEQ.L	1	0	0.1
+Potassium	MMO1/L	1	0	0.1
+Potassium	MMOL/L`	1	0	0.1
+Potassium	MWQ/L	1	0	0.1
+Potassium	MG/L	1	0	0.1
+Potassium	MNMOL/L	1	0	0.1
+Potassium	MMOML/L	1	0	0.1
+Potassium	MMOL/ L	1	0	0.1
+Potassium	MEQL/L	1	0	0.1
+Potassium	.	1	0	0.1
+Potassium	MMOLL/L	1	0	0.1
+Potassium	NEQ/L	1	0	0.1
+Potassium	MQ/L	1	0	0.1
+Potassium	MMO;/L	1	0	0.1
+Potassium	MMOLO/L	1	0	0.1
+Potassium	MMD/L	1	0	0.1
+Potassium	MMNOL/L	1	0	0.1
+Potassium	MMOIL	1	0	0.1
+Potassium	MMO	1	0	0.1
+Potassium	MMOIL/L	1	0	0.1
+Potassium	MMOL/.	1	0	0.1
+Potassium	MMOL/O	1	0	0.1
+Potassium	ML	1	0	0.1
+Potassium	ML/MIN/1.73M2	1	0	0.1
+Potassium	MGQ/L	1	0	0.1
+Potassium	MEQ\L	1	0	0.1
+Potassium	MMOL//	1	0	0.1
+Potassium	MMOL/KL	1	0	0.1
+Potassium	N=MMOL/L	1	0	0.1
+Potassium	MMOL;/L	1	0	0.1
+Potassium	5.3	1	0	0.1
+Potassium	MMOOL/L	1	0	0.1
+Potassium	MMPL/L	1	0	0.1
+Potassium	MD/DL	1	0	0.1
+Potassium	MML/M	1	0	0.1
+Potassium	ML/MIN/1.73	1	0	0.1
+Potassium	MEQ/;	1	0	0.1
+Potassium	MED/L	1	0	0.1
+Potassium	MEW/L	1	0	0.1
+Potassium	,,P;;	1	0	0.1
+Potassium	MMOL/LO	1	0	0.1
+Potassium	NEQ	1	0	0.1
+Potassium	MOML/L	1	0	0.1
+Potassium	MMMOLL	1	0	0.1
+Potassium	MMO1/1	1	0	0.1
+Potassium	MMOL / L	1	0	0.1
+Potassium	MMOL/L83	1	0	0.1
+Potassium	5.0	1	0	0.1
+Potassium	GM/DL	1	0	0.1
+Potassium	MDQ/L	1	0	0.1
+Potassium	MEW	1	0	0.1
+Potassium	ML/L	1	0	0.1
+Potassium	MKEQ/L	1	0	0.1
+Potassium	MEQ/L V	1	0	0.1
+Potassium	MMILL	1	0	0.1
+Potassium	MMJ1/L	1	0	0.1
+Potassium	ML/MIN 17.3 M2	1	0	0.1
+Potassium	MM/LK	1	0	0.1
+Potassium	MM/OL	1	0	0.1
+Potassium	MEQ L	1	0	0.1
+Potassium	MEQ-L	1	0	0.1
+Potassium	MEQ/'	1	0	0.1
+Potassium	MEQ//L	1	0	0.1
+Potassium	KMMOL/L	1	0	0.1
+Potassium	M EQ	1	0	0.1
+Potassium	5.5	1	0	0.1
+Potassium	`	1	0	0.1
+Potassium	.6	1	0	0.1
+Potassium	MMOL/LCHEM	1	0	0.1
+Potassium	MMOL/LE	1	0	0.1
+Potassium	MMOL/LG	1	0	0.1
+Potassium	MMOL/L120	1	0	0.1
+Potassium	MMOL/L65	1	0	0.1
+Potassium	MMOL/  L	1	0	0.1
+Potassium	MMMOL	1	0	0.1
+Potassium	MNIL/L	1	0	0.1
+Potassium	MMOL/1	1	0	0.1
+Potassium	MMOL?	1	0	0.1
+Potassium	U/L	1	0	0.1
+Potassium	NG/ML	1	0	0.1
+Potassium	NMOL/L	1	0	0.1
+Potassium	NOL/L	1	0	0.1
+Potassium	,,OL/L	1	0	0.1
+Potassium	MOL	1	0	0.1
+Potassium	MOOL/L	1	0	0.1
+Potassium	MQ	1	0	0.1
+Potassium	MQL/L	1	0	0.1
+Potassium	MMOL/OL	1	0	0.1
+Potassium	MMOL1/L	1	0	0.1
+Potassium	MMOLD/	1	0	0.1
+Potassium	MMQ/L	1	0	0.1
+Potassium	MMO9L/L	1	0	0.1
+Potassium	.86	1	0	0.1
+Potassium	3.1	1	0	0.1
+Potassium	K/UL	1	0	0.1
+Potassium	MEO/L	1	0	0.1
+Potassium	MEWQ/L	1	0	0.1
+Potassium	MG/CL	1	0	0.1
+Potassium	MMDL	1	0	0.1
+Potassium	MM/M	1	0	0.1
+Potassium	MM01	1	0	0.1
+Potassium	MG/DMMOL/LL	1	0	0.1
+Potassium	MG/GL	1	0	0.1
+Potassium	MEQ/	1	0	0.1
+Potassium	MEEQ/L	1	0	0.1
+Potassium	MEG/DL	1	0	0.1
+Potassium	MEG/L87	1	0	0.1
+Potassium	MEQ/ L	1	0	0.1
+Potassium	3MMOL/L	1	0	0.1
+Potassium	4.6	1	0	0.1
+Potassium	M,MOL/L	1	0	0.1
+Potassium	MBQ/L	1	0	0.1
+Potassium	ME/QL	1	0	0.1
+Potassium	MEQ/L.	1	0	0.1
+Potassium	MEQ=L	1	0	0.1
+Potassium	MEQ?L	1	0	0.1
+Potassium	MG-DL	1	0	0.1
+Potassium	ML/MIN/1.73SQM	1	0	0.1
+Potassium	ML/MOI=IN 1.73 M2	1	0	0.1
+Potassium	MLMOL/L	1	0	0.1
+Potassium	MML/	1	0	0.1
+Potassium	MMLL	1	0	0.1
+Potassium	MMLOL/L	1	0	0.1
+Potassium	MMMOL//L	1	0	0.1
+Potassium	MMO/L/	1	0	0.1
+Potassium	MMO/L/L	1	0	0.1
+Potassium	MMO;	1	0	0.1
+Potassium	MMOL/L/	1	0	0.1
+Potassium	MMOL/L95	1	0	0.1
+Potassium	MMOL/LM	1	0	0.1
+Potassium	MMOL/\L	1	0	0.1
+Potassium	MMOL/I	1	0	0.1
+Potassium	ME1/L	1	0	0.1
+Potassium	MEG	1	0	0.1
+Potassium	MNL/L	1	0	0.1
+Potassium	EMQ/L	1	0	0.1
+Potassium	M/EQL	1	0	0.1
+Potassium	M/M/L	1	0	0.1
+Potassium	MMOL1.73 M2	1	0	0.1
+Potassium	MMON/L	1	0	0.1
+Potassium	NNOL	1	0	0.1
+Potassium	TM/L	1	0	0.1
+Potassium	,,P;:	1	0	0.1
+Potassium	,EQ/L	1	0	0.1
+Potassium	MMOL/LMG/DL	1	0	0.1
+Potassium	MMOL/L101	1	0	0.1
+Potassium	MMOL/L107	1	0	0.1
+Potassium	MMOL/L,	1	0	0.1
+Potassium	MMO.L/L	1	0	0.1
+Potassium	MMOL/F	1	0	0.1
+Potassium	MMO/LS	1	0	0.1
+Potassium	MMOL/;	1	0	0.1
+Potassium	MMOL/LITER	1	0	0.1
+Potassium	NEQ.L	1	0	0.1
+Potassium	NO RANGE GIVEN	1	0	0.1
+Potassium	%	1	0	0.1
+Potassium	MEQ/LL	1	0	0.1
+Potassium	MEQ\DL	1	0	0.1
+Potassium	MG.DL	1	0	0.1
+Potassium	MG/DLMMOL/L	1	0	0.1
+Potassium	MG/SL	1	0	0.1
+Potassium	MGDL	1	0	0.1
+Potassium	ML/MIIN 1.73 M2	1	0	0.1
+Potassium	ML/MIN/1,73M2	1	0	0.1
+Potassium	MMMOL/	1	0	0.1
+Potassium	MMMOL/DL	1	0	0.1
+Potassium	MMO,/L	1	0	0.1
+Progesterone	NG/ML	1	0	0.1
+Progesterone	NG./ML.	1	0	0.1
+Prolactin	NG/ML	1	0	0.1
+Prolactin	NOT REPORTED	1	0	0.1
+Protein_Total	G/DL	1	0	0.1
+Protein_Total	GM/DL	1	0	0.1
+Protein_Total	NOT REPORTED	1	0	0.1
+Protein_Total	MG/DL	1	0	0.1
+Protein_Total	NEG	1	0	0.1
+Protein_Total	MG	1	0	0.1
+RBC	M/UL	1	0	0.01
+RBC	X10*6	1	0	0.01
+RBC	10-6/UL	1	0	0.01
+RBC	X 10 6	1	0	0.01
+RBC	10*6/UL	1	0	0.01
+RBC	NOT REPORTED	1	0	0.01
+RBC	X10-6	1	0	0.01
+RBC	X 10 6/UL	1	0	0.01
+RDW	%	1	0	0.1
+RDW	NOT REPORTED	1	0	0.1
+SerumAnionGap	MMOL/L	1	0	1
+SerumAnionGap	MEQ/L	1	0	1
+SerumAnionGap	NOT REPORTED	1	0	1
+SerumAnionGap	MMOLL	1	0	1
+T4	UG/DL	1	0	0.1
+T4	MCG/DL	1	0	0.1
+T4	NOT REPORTED	1	0	0.1
+T4	MCG/L	1	0	0.1
+T4	UG/ML	1	0	0.1
+TSH	UIU/ML	1	0	0.01
+TSH	IU/ML	1	0	0.01
+TSH	MIU/L	1	0	0.01
+TSH	MCIU/ML	1	0	0.01
+TSH	MIU/ML	1	0	0.01
+TSH	NOT REPORTED	1	0	0.01
+TSH	UIU	1	0	0.01
+TSH	UIUML	1	0	0.01
+TSH	MIU	1	0	0.01
+TSH	UIU/L	1	0	0.01
+TSH	MCIU	1	0	0.01
+TSH	MG/DL	1	0	0.01
+TSH	MCLU/ML	1	0	0.01
+TSH	IUI/ML	1	0	0.01
+TSH	MCIU/L	1	0	0.01
+TSH	MCUI/ML	1	0	0.01
+TSH	ULU/ML	1	0	0.01
+TSH	G/DL	1	0	0.01
+TSH	NG/DL	1	0	0.01
+TSH	U	1	0	0.01
+TSH	UIU/ ML	1	0	0.01
+TSH	U/L	1	0	0.01
+TSH	UIU.ML	1	0	0.01
+TSH	MU/ML	1	0	0.01
+TSH	MCIU.ML	1	0	0.01
+TSH	MU/L	1	0	0.01
+TSH	%	1	0	0.01
+TSH	UU/ML	1	0	0.01
+TSH	MICU/ML	1	0	0.01
+TSH	MOIU/ML	1	0	0.01
+TSH	NG/ML	1	0	0.01
+TSH	MLU/L	1	0	0.01
+TSH	UI/ML	1	0	0.01
+TSH	MCIUNIT/ML	1	0	0.01
+TSH	MCU/ML	1	0	0.01
+TSH	4.500	1	0	0.01
+TSH	UIIU/ML	1	0	0.01
+TSH	4.50	1	0	0.01
+TSH	MCL/ML	1	0	0.01
+TSH	UIU//ML	1	0	0.01
+TSH	MIN/L	1	0	0.01
+TSH	MUI/ML	1	0	0.01
+TSH	IU/L	1	0	0.01
+TSH	5.50	1	0	0.01
+TSH	UIUI/ML	1	0	0.01
+TSH	MCIU,ML	1	0	0.01
+TSH	UIU/M	1	0	0.01
+TSH	UCIU/ML	1	0	0.01
+TSH	MCUL/ML	1	0	0.01
+TSH	MCI/ML	1	0	0.01
+TSH	,IU/L	1	0	0.01
+TSH	IUIU/ML	1	0	0.01
+TSH	CHEM	1	0	0.01
+TSH	MVIU/ML	1	0	0.01
+TSH	MCIIU/ML	1	0	0.01
+TSH	UIU/MI	1	0	0.01
+TSH	IUI/L	1	0	0.01
+TSH	4.67	1	0	0.01
+TSH	U/UML	1	0	0.01
+TSH	MUI/L	1	0	0.01
+TSH	MMOL/L	1	0	0.01
+TSH	MIUL/L	1	0	0.01
+TSH	IIU/ML	1	0	0.01
+TSH	MCIU/MNL	1	0	0.01
+TSH	IUU/ML	1	0	0.01
+TSH	MIU/DL	1	0	0.01
+TSH	MCIY/ML	1	0	0.01
+TSH	MCUIU/ML	1	0	0.01
+TSH	MIUML	1	0	0.01
+TSH	UNIT/L	1	0	0.01
+TSH	UTU/ML	1	0	0.01
+TSH	UIU/MLML	1	0	0.01
+TSH	UIU/MMOL	1	0	0.01
+TSH	ML	1	0	0.01
+TSH	MNIU/ML	1	0	0.01
+TSH	MOLU/ML	1	0	0.01
+TSH	MU/MI	1	0	0.01
+TSH	MUI	1	0	0.01
+TSH	NCIU.ML	1	0	0.01
+TSH	NCLU.L	1	0	0.01
+TSH	U/ML	1	0	0.01
+TSH	MIU/,	1	0	0.01
+TSH	MIU/M	1	0	0.01
+TSH	MCG/DL	1	0	0.01
+TSH	MCINTLUNIT/ML	1	0	0.01
+TSH	ULUML	1	0	0.01
+TSH	UNIU/ML	1	0	0.01
+TSH	UUI/ML	1	0	0.01
+TSH	3.600	1	0	0.01
+TSH	3.900	1	0	0.01
+TSH	4.680	1	0	0.01
+TSH	MCIUML	1	0	0.01
+TSH	MCIU.,L	1	0	0.01
+TSH	MCIU/DL	1	0	0.01
+TSH	MIUY	1	0	0.01
+TSH	MICRO U /ML	1	0	0.01
+TSH	MU	1	0	0.01
+TSH	MUIU/ML	1	0	0.01
+TSH	T	1	0	0.01
+TSH	UILU/ML	1	0	0.01
+TSH	5.80	1	0	0.01
+TSH	CIU/L	1	0	0.01
+TSH	MCIU /ML	1	0	0.01
+TSH	UIU,ML	1	0	0.01
+TSH	UIU/KML	1	0	0.01
+TSH	(L)	1	0	0.01
+TSH	0123	1	0	0.01
+TSH	MCOIU/ML	1	0	0.01
+TSH	MIU, L	1	0	0.01
+TSH	MIU.ML	1	0	0.01
+TSH	MIU/UL	1	0	0.01
+TSH	M/IU/L	1	0	0.01
+TSH	MC//ML	1	0	0.01
+TSH	MCG/G CREAT	1	0	0.01
+TSH	MCIULML	1	0	0.01
+TSH	IUI	1	0	0.01
+TSH	UIU/MLC	1	0	0.01
+TSH	ULI/ML	1	0	0.01
+TSH	URU/ML	1	0	0.01
+TSH	AIU/ML	1	0	0.01
+TSH	CIU/ML	1	0	0.01
+TSH	,CIU/ML	1	0	0.01
+TSH	0MCIU/ML	1	0	0.01
+TSH	UIU/ML^UIU/ML	1	0	0.01
+TSH	UIU/,;	1	0	0.01
+TSH	UIU./ML	1	0	0.01
+TSH	MCLU.ML	1	0	0.01
+TSH	MI/L	1	0	0.01
+TSH	MICIU/ML	1	0	0.01
+TSH	MOIU	1	0	0.01
+TSH	MUNIT(S)/L	1	0	0.01
+TSH	MUNIT/ML	1	0	0.01
+TSH	NCIU/ML	1	0	0.01
+TSH	MUI,L	1	0	0.01
+TSH	MUI,ML	1	0	0.01
+TSH	MIU/NL	1	0	0.01
+TSH	MIUL	1	0	0.01
+TSH	UIL	1	0	0.01
+TSH	UIU/M;L	1	0	0.01
+TSH	NIU/ML	1	0	0.01
+TSH	U/IU/ML	1	0	0.01
+TSH	M/L	1	0	0.01
+TSH	GM/DL	1	0	0.01
+TSH	,IU/ML	1	0	0.01
+TSH	6.00	1	0	0.01
+TSH	MCI/UL	1	0	0.01
+TSH	MCIU//ML	1	0	0.01
+TSH	MCIU/LML	1	0	0.01
+TSH	MCIUL/ML	1	0	0.01
+TSH	MCUIN/ML	1	0	0.01
+TSH	MCUL/L	1	0	0.01
+TSH	MICROINTL UNITS/ML	1	0	0.01
+TSH	MIL/L	1	0	0.01
+TSH	MIU//	1	0	0.01
+TSH	MIU/L.	1	0	0.01
+Tacrolimus	NG/ML	1	0	0.1
+Tacrolimus	NOT REPORTED	1	0	0.1
+Tacrolimus	MCG/L	1	0	0.1
+Temperature	DEGREE C	1	0	0.01
+Temperature	NOT REPORTED	1	0	0.01
+Testosterone	NG/DL	1	0	1
+Testosterone	NG/ML	10	0	0.01	1
+Testosterone	NOT REPORTED	1	0	1
+Tobramycin	NOT REPORTED	1	0	0.01
+Tobramycin	MG/L	1	0	0.01
+Transferrin	MG/DL	1	0	1
+Transferrin	NOT REPORTED	1	0	1
+Transferrin_Saturation_Index	%	1	0	1
+Transferrin_Saturation_Index	NOT REPORTED	1	0	1
+Triglycerides	MG/DL	1	0	1
+Triglycerides	MG./DL.	1	0	1
+Triglycerides	NOT REPORTED	1	0	1
+Triglycerides	MG	1	0	1
+Triglycerides	MG.DL	1	0	1
+Triglycerides	MGDL	1	0	1
+Triglycerides	MG-DL	1	0	1
+Triglycerides	MD/DL	1	0	1
+Triglycerides	<150MG/DL	1	0	1
+Triglycerides	MG/D	1	0	1
+Triglycerides	M/DL	1	0	1
+Triglycerides	MG/GL	1	0	1
+Triglycerides	MGD/L	1	0	1
+Triglycerides	<150	1	0	1
+Triglycerides	MG/D;	1	0	1
+Triglycerides	MG/L	1	0	1
+Triglycerides	MMOL/L	1	0	1
+Triglycerides	MG/.DL	1	0	1
+Triglycerides	MG//DL	1	0	1
+Triglycerides	NG/DL	1	0	1
+Triglycerides	G/DL	1	0	1
+Triglycerides	MG/DLK	1	0	1
+Triglycerides	MG/DLL	1	0	1
+Triglycerides	MG/LD	1	0	1
+Triglycerides	MGM	1	0	1
+Triglycerides	MG\DL	1	0	1
+Triglycerides	MG/DL;	1	0	1
+Triglycerides	MG/CL	1	0	1
+Triglycerides	MG/DK	1	0	1
+Triglycerides	MH/DL	1	0	1
+Triglycerides	MG/ML	1	0	1
+Triglycerides	MG?DL	1	0	1
+Triglycerides	MG/D/	1	0	1
+Triglycerides	MF/DL	1	0	1
+Triglycerides	MG;DL	1	0	1
+Triglycerides	MG/DL'	1	0	1
+Triglycerides	MG./DL	1	0	1
+Triglycerides	MG/DKL	1	0	1
+Triglycerides	NO RANGE	1	0	1
+Triglycerides	,GD;	1	0	1
+Triglycerides	MG/FL	1	0	1
+Triglycerides	,MG/DL	1	0	1
+Triglycerides	>OR=46 MG/DL	1	0	1
+Triglycerides	RH/SP	1	0	1
+Triglycerides	U	1	0	1
+Triglycerides	NG.DK	1	0	1
+Triglycerides	MMOL	1	0	1
+Triglycerides	MG/DDL	1	0	1
+Triglycerides	<200	1	0	1
+Triglycerides	MG/DL42.6	1	0	1
+Triglycerides	MG/DLOK	1	0	1
+Triglycerides	MGD/	1	0	1
+Triglycerides	MG/DFL	1	0	1
+Triglycerides	MG/DL (CALC)	1	0	1
+Triglycerides	MG/	1	0	1
+Triglycerides	MH	1	0	1
+Triglycerides	NO VALUE	1	0	1
+Triglycerides	MGG/DL	1	0	1
+Triglycerides	,G/DL	1	0	1
+Triglycerides	< 150 MG/DL	1	0	1
+Triglycerides	<130 MG/DL	1	0	1
+Triglycerides	MG/DMG/DLL	1	0	1
+Triglycerides	ML/DL	1	0	1
+Triglycerides	NG/ML	1	0	1
+Triglycerides	U/L	1	0	1
+Triglycerides	GM/DL	1	0	1
+Triglycerides	M G/DL	1	0	1
+Triglycerides	ML/MIN/1.73M2	1	0	1
+Triglycerides	NOT IDENTIFIED	1	0	1
+Triglycerides	.	1	0	1
+Triglycerides	149	1	0	1
+Triglycerides	MG/DL(CALC)	1	0	1
+Triglycerides	MG/DL.	1	0	1
+Triglycerides	MG/DL`	1	0	1
+Triglycerides	MG\/DL	1	0	1
+Triglycerides	150	1	0	1
+Triglycerides	MG/ DL	1	0	1
+Triglycerides	MD/GL	1	0	1
+Triglycerides	MDL/D	1	0	1
+Triglycerides	ME/DL	1	0	1
+Triglycerides	MG.DK	1	0	1
+TroponinI	NG/ML	1	0	0.01
+TroponinT	NG/ML	1	0	1
+TroponinT	NG/L	1	0	1
+TroponinT	NOT REPORTED	1	0	1
+Uric_Acid	MG/DL	1	0	0.1
+Uric_Acid	NOT REPORTED	1	0	0.1
+UrineAlbumin_over_Creatinine	MG/G CREAT	1	0	1
+UrineAlbumin_over_Creatinine	UG/MG CREAT	1	0	1
+UrineAlbumin_over_Creatinine	MG/GM	1	0	1
+UrineAlbumin_over_Creatinine	UG/MG C	1	0	1
+UrineAlbumin_over_Creatinine	NOT REPORTED	1	0	1
+UrineAlbumin_over_Creatinine	MG/DL	1	0	1
+Urine_Creatinine	MG/DL	1	0	1
+Urine_Creatinine	NOT REPORTED	1	0	1
+Urine_Glucose	MG/DL	1	0	0.01
+Urine_Glucose	NOT REPORTED	1	0	0.01
+Urine_Glucose	MG./DL.	1	0	0.01
+Urine_Glucose	>=1000 MG/DL	1	0	0.01
+Urine_Glucose	100 MG/DL	1	0	0.01
+Urine_Glucose	TRACE	1	0	0.01
+Urine_Glucose	500 MG/ DL	1	0	0.01
+Urine_Glucose	2000	1	0	0.01
+Urine_Glucose	MG/ML	1	0	0.01
+Urine_Glucose	LG KEATONES	1	0	0.01
+Urine_Glucose	*	1	0	0.01
+Urine_Glucose	>=1000 MG / DL*	1	0	0.01
+Urine_Glucose	1000 MG / DL	1	0	0.01
+Urine_Glucose	2+	1	0	0.01
+Urine_Glucose	100 MG / DL	1	0	0.01
+Urine_Glucose	100 MG /DL	1	0	0.01
+Urine_Glucose	>=1000MG/DL	1	0	0.01
+Urine_Glucose	100MG/DL	1	0	0.01
+Urine_Glucose	2000 OR MORE	1	0	0.01
+Urine_Glucose	500 MG/DL	1	0	0.01
+Urine_Glucose	+++	1	0	0.01
+Urine_Glucose	>1000MG/DL	1	0	0.01
+Urine_Glucose	2 OR MORE/2000 OR MORE	1	0	0.01
+Urine_Glucose	2,000	1	0	0.01
+Urine_Glucose	250 MG/DL	1	0	0.01
+Urine_Glucose	500	1	0	0.01
+Urine_Ketone	MG/DL	1	0	0.01
+Urine_Ketone	NOT REPORTED	1	0	0.01
+Urine_Ketone	TRACE	1	0	0.01
+Urine_Ketone	15 MG / DL	1	0	0.01
+Urine_Ketone	15 MG/DL	1	0	0.01
+Urine_Ketone	15MG/DL	1	0	0.01
+Urine_Ketone	160	1	0	0.01
+Urine_Ketone	LARGE	1	0	0.01
+Urine_Ketone	15 MG /DL	1	0	0.01
+Urine_Ketone	40 MG / DL	1	0	0.01
+Urine_Ketone	80 MG / DL	1	0	0.01
+Urine_Ketone	Q	1	0	0.01
+Urine_Ketone	SMALL	1	0	0.01
+Urine_Ketone	1.0	1	0	0.01
+Urine_Ketone	+	1	0	0.01
+Urine_Ketone	40 MG/DL	1	0	0.01
+Urine_Leukocyte_Esterase	NOT REPORTED	1	0	0.01
+Urine_Leukocyte_Esterase	SMALL	1	0	0.01
+Urine_Leukocyte_Esterase	TRACE	1	0	0.01
+Urine_Leukocyte_Esterase	MODERATE	1	0	0.01
+Urine_Leukocyte_Esterase	LARGE	1	0	0.01
+Urine_Leukocyte_Esterase	++	1	0	0.01
+Urine_Leukocyte_Esterase	2+	1	0	0.01
+Urine_Leukocyte_Esterase	+++	1	0	0.01
+Urine_Leukocyte_Esterase	15	1	0	0.01
+Urine_Leukocyte_Esterase	++ MODERATE	1	0	0.01
+Urine_Leukocyte_Esterase	1+	1	0	0.01
+Urine_Leukocyte_Esterase	+	1	0	0.01
+Urine_Leukocyte_Esterase	MODERATE ++	1	0	0.01
+Urine_Leukocyte_Esterase	N	1	0	0.01
+Urine_Leukocyte_Esterase	+++LARGE	1	0	0.01
+Urine_Leukocyte_Esterase	+ TRACE	1	0	0.01
+Urine_Leukocyte_Esterase	ASYMPTOMATIC	1	0	0.01
+Urine_Leukocyte_Esterase	+++ LARGE	1	0	0.01
+Urine_Microalbumin	MG/DL	1	0	0.1
+Urine_Microalbumin	NOT REPORTED	1	0	0.1
+Urine_Microalbumin	%	1	0	0.1
+Urine_Nitrite	NOT REPORTED	1	0	0.01
+Urine_Nitrite	UG/ML	1	0	0.01
+Urine_Nitrite	+	1	0	0.01
+Urine_Nitrite	URINE SENT FOR CULTURE.	1	0	0.01
+Urine_Nitrite	+++	1	0	0.01
+Urine_Nitrite	`	1	0	0.01
+Urine_Nitrite	2-3	1	0	0.01
+Urine_Osmolality	MOSM/KG	1	0	1
+Urine_Osmolality	NOT REPORTED	1	0	1
+Urine_Osmolality	MOMS/KG	1	0	1
+Urine_PH	UNITS	1	0	1
+Urine_PH	NOT REPORTED	1	0	1
+Urine_PH	6.0	1	0	1
+Urine_PH	.	1	0	1
+Urine_PH	2+	1	0	1
+Urine_Spec_Gravity	NOT REPORTED	1	0	0.01
+Urine_Spec_Gravity	SMALL	1	0	0.01
+Urine_Spec_Gravity	>=1.030	1	0	0.01
+Urine_Total_Protein	MG/DL	1	0	0.01
+Urine_Total_Protein	NOT REPORTED	1	0	0.01
+Urine_Total_Protein	TRACE	1	0	0.01
+Urine_Total_Protein	30 MG/DL	1	0	0.01
+Urine_Total_Protein	30 MG / DL	1	0	0.01
+Urine_Total_Protein	30 MG /DL	1	0	0.01
+Urine_Total_Protein	100 MG/DL	1	0	0.01
+Urine_Total_Protein	100 MG / DL	1	0	0.01
+Urine_Total_Protein	+	1	0	0.01
+Urine_Total_Protein	0.15	1	0	0.01
+Urine_Total_Protein	30 MG/ DL	1	0	0.01
+Urine_Total_Protein	++	1	0	0.01
+Urine_Total_Protein	100 MG /DL	1	0	0.01
+Urine_Total_Protein	100 MG/ DL	1	0	0.01
+Urine_Total_Protein	1+	1	0	0.01
+Urine_Total_Protein	30MG/DL	1	0	0.01
+Urine_Total_Protein	30	1	0	0.01
+Urine_Total_Protein	>=300 MG/DL	1	0	0.01
+Urine_Total_Protein	+ 30	1	0	0.01
+Urine_Total_Protein	++ 100	1	0	0.01
+Urine_Total_Protein	3+	1	0	0.01
+Urine_Total_Protein	>=300MG/DL	1	0	0.01
+Urine_Total_Protein	MODERATE	1	0	0.01
+Urine_Total_Protein	>=300 MG /DL	1	0	0.01
+Urine_Total_Protein	100MG/DL	1	0	0.01
+Urine_Total_Protein	30MG DL	1	0	0.01
+Urine_Total_Protein	+1	1	0	0.01
+Urine_Total_Protein	2+	1	0	0.01
+Urine_Total_Protein	30.0	1	0	0.01
+Urine_Urobilinogen	EU/DL	1	0	0.01
+Urine_Urobilinogen	NOT REPORTED	1	0	0.01
+Urine_Urobilinogen	MG/DL	1	0	0.01
+Urine_Urobilinogen	3.5	1	0	0.01
+Urine_Urobilinogen	0.2	1	0	0.01
+Urine_Urobilinogen	E.U./DL	1	0	0.01
+Urine_Urobilinogen	>=8.0 E.U. /DL	1	0	0.01
+Urine_Urobilinogen	2.0 E.U./DL	1	0	0.01
+Urine_Urobilinogen	4	1	0	0.01
+Urine_Urobilinogen	1+	1	0	0.01
+Urine_Urobilinogen	1.0 E.U./DL	1	0	0.01
+Urine_Urobilinogen	2.0 E.U. /DL	1	0	0.01
+Urine_Urobilinogen	4.0 E.U./ DL	1	0	0.01
+Urine_Urobilinogen	E.U. / DL	1	0	0.01
+Urine_WBC	/HPF	1	0	0.01
+Urine_WBC	WBC/HPF	1	0	0.01
+Urine_WBC	NOT REPORTED	1	0	0.01
+Urine_WBC	HPF	1	0	0.01
+Vancomycin	NOT REPORTED	1	0	0.01
+Vancomycin	MG/L	1	0	0.01
+VitaminD_25	NG/ML	1	0	1
+VitaminD_25	NOT REPORTED	1	0	1
+VitaminD_25	MG/DL	1	0	1
+WBC	K/UL	1	0	0.1
+WBC	X10*3	1	0	0.1
+WBC	10-3/UL	1	0	0.1
+WBC	X 10 3	1	0	0.1
+WBC	NOT REPORTED	1	0	0.1
+WBC	10*3/UL	1	0	0.1
+WBC	X10-3	1	0	0.1
+WBC	X 10 3/UL	1	0	0.1
+aPTT	SECONDS	1	0	1
+aPTT	SECOND(S)	1	0	1
+aPTT	NOT REPORTED	1	0	1
+aPTT	SEC	1	0	1
+eGFR	NOT REPORTED	1	0	1
+eGFR	ML/MIN	1	0	1
+eGFR	ML/MIN/1.73M2	1	0	1
+eGFR	ML/MIN/1.73M²	1	0	1
+eGFR	ML/MIN 1.73 M2	1	0	1
+eGFR	ML/MIN/1.73SQ.M	1	0	1
+eGFR	ML/MIN/1.73	1	0	1
+eGFR	ML	1	0	1
+eGFR	UNITS	1	0	1
+eGFR	ML/MIN./1.73	1	0	1
+eGFR	GFR	1	0	1
+eGFR	ML/MI	1	0	1
+eGFR	ML/MIN/1.73SQM	1	0	1
+eGFR	ML/MIN/1.73ME2	1	0	1
+eGFR	MG/DL	1	0	1
+eGFR	ML/MIN/SQM	1	0	1
+eGFR	ML/MIN/1.73M^2	1	0	1
+eGFR	ML/MIN/1.73MZ	1	0	1
+eGFR	ML/MIN/1.73 M2	1	0	1
+eGFR	ML/MIN 1.73	1	0	1
+eGFR	ML/MIN/1.73M	1	0	1
+eGFR	ML/MIN/1.73 SQM	1	0	1
+eGFR	ML/MIN1.73 M2	1	0	1
+eGFR	ML/MN	1	0	1
+eGFR	ML/MIN PER 1.73 M2	1	0	1
+eGFR	ML/MIN/	1	0	1
+eGFR	MM/H	1	0	1
+eGFR	ML/MIN 1.73M2	1	0	1
+eGFR	ML/MIN/1.7	1	0	1
+eGFR	ML.MIN	1	0	1
+eGFR	ML/MIN1.73M2	1	0	1
+eGFR	ML/MN 1.73 M2	1	0	1
+eGFR	MLMIN	1	0	1
+eGFR	ML/MIN./1.73M^2	1	0	1
+eGFR	ML/MIN/1.73/M2	1	0	1
+eGFR	ML/M^1.7	1	0	1
+eGFR	ML/MIN/1.73SQ.M.	1	0	1
+eGFR	ML/MIN PER 1.73M2	1	0	1
+eGFR	MMOL/L	1	0	1
+eGFR	MG	1	0	1
+eGFR	1.73ME2	1	0	1
+eGFR	ML/MIN\1.73M2	1	0	1
+eGFR	ML/ MIN	1	0	1
+eGFR	ML/MIN1.73	1	0	1
+eGFR	ML/MIN/1	1	0	1
+eGFR	MI/MIN	1	0	1
+eGFR	ML/ML	1	0	1
+eGFR	MIN/ML	1	0	1
+eGFR	ML/MIN/1.	1	0	1
+eGFR	ML/MIN 173 M2	1	0	1
+eGFR	ML/MIN 1.73 M	1	0	1
+eGFR	ML/MIN.1.73M2	1	0	1
+eGFR	ML/DL	1	0	1
+eGFR	MG/MIN	1	0	1
+eGFR	MG/ML	1	0	1
+eGFR	ML/MIN/173M2	1	0	1
+eGFR	ML/MIN/1.73M SQ	1	0	1
+eGFR	ML/MI 1.73 M2	1	0	1
+eGFR	ML//MIN	1	0	1
+eGFR	ML/MIN//1.73M2	1	0	1
+eGFR	ML/MIN/1.7M32	1	0	1
+eGFR	ML/MIN/1.73M**2	1	0	1
+eGFR	ML./MIN	1	0	1
+eGFR	NL/MIN	1	0	1
+eGFR	ML/MIN/1.73SQ M	1	0	1
+eGFR	ML/MIN/1.73SQ	1	0	1
+eGFR	M/MIN	1	0	1
+eGFR	ML/MIN.	1	0	1
+eGFR	ML/LMIN	1	0	1
+eGFR	ML/MM	1	0	1
+eGFR	ML/MIN/1.73M.SQ	1	0	1
+eGFR	>OR=60ML/MIN/1.73M2	1	0	1
+eGFR	ML/MIN 1.3 M2	1	0	1
+eGFR	ML.MIN/1.73M2	1	0	1
+eGFR	ML/ MI	1	0	1
+eGFR	ML/MIN/M2	1	0	1
+eGFR	ML/MOIN 1.73 M2	1	0	1
+eGFR	ML/MIIN	1	0	1
+eGFR	ML/MIM/1.73SQ.M	1	0	1
+eGFR	ML/MIM/1.73M2	1	0	1
+eGFR	>60	1	0	1
+eGFR	ML/MIN 10.73 M2	1	0	1
+eGFR	ML/MIN/1.73/ME2	1	0	1
+eGFR	ML/MN/1.73M2	1	0	1
+eGFR	ML/MIN/1.72M2	1	0	1
+eGFR	>=60ML/MIN	1	0	1
+eGFR	ML/MIN/1.73M2`	1	0	1
+eGFR	ML/MIN/1.7M2	1	0	1
+eGFR	ML.MIN/1.73SQM	1	0	1
+eGFR	60ML/MIN/1.73ME2	1	0	1
+eGFR	NL/MIN 1.73 M2	1	0	1
+eGFR	MIN/ML/1.73M2	1	0	1
+eGFR	M/MIN 1.73 M2	1	0	1
+eGFR	ML/MIN/1.73M2Q	1	0	1
+eGFR	ML/MIN/1.73M3	1	0	1
+eGFR	ML/MIN/1.73 SQ M	1	0	1
+eGFR	ML/MIN 1073 M2	1	0	1
+eGFR	ML/MIN/1.73.M2	1	0	1
+eGFR	ML/MIN/1.73M.SQ.	1	0	1
+eGFR	ML/MIN/1.73M*2	1	0	1
+eGFR	ML/MIN/1.73MW	1	0	1
+eGFR	ML/MIN/1,73SQ.M	1	0	1
+eGFR	ML /MIN	1	0	1
+eGFR	ML//MIN/1.73M2	1	0	1
+eGFR	ML/MIM	1	0	1
+eGFR	ML/MIN/1/73M2	1	0	1
+eGFR	ML/MIN/BSA	1	0	1
+eGFR	MLMIN 1.73 M2	1	0	1
+eGFR	ML/MIN/1.73MLSQ	1	0	1
+eGFR	ML/MIN/1.73SQ/M	1	0	1
+eGFR	ML/MIN/1.732	1	0	1
+eGFR	U/L	1	0	1
+eGFR	ML/MN 1.73	1	0	1
+eGFR	ML/MIN/1.73 SQ.M	1	0	1
+eGFR	MLMI	1	0	1
+eGFR	ML/MIN/1.73S	1	0	1
+eGFR	ML/IN/1.73M2	1	0	1
+eGFR	>=60/MIN	1	0	1
+eGFR	MIL/MIN	1	0	1
+eGFR	ML/M/1.7	1	0	1
+eGFR	MLL/MIN/1.73M2	1	0	1
+eGFR	MML/MIN	1	0	1
+eGFR	ML/.MIN	1	0	1
+eGFR	ML/MIN .73 M2	1	0	1
+eGFR	ML/MN/SA	1	0	1
+eGFR	ML/MON	1	0	1
+eGFR	ML/MIN/1.732M2	1	0	1
+eGFR	ML/MIN/1.7.3M2	1	0	1
+eGFR	ML.MIN/1.73	1	0	1
+eGFR	ML/L	1	0	1
+eGFR	G/DL	1	0	1
+eGFR	ML/MIN/.73M2	1	0	1
+eGFR	ML/MIN/`.73M2	1	0	1
+eGFR	ML/MIN`	1	0	1
+eGFR	ML/MIN PER 1.73	1	0	1
+eGFR	ML/MIN/1.73 SQ.M.	1	0	1
+eGFR	ML//MIN 1.73 M2	1	0	1
+eGFR	ML/MIN/1.73N2	1	0	1
+eGFR	ML.MIN/1.73SQ.M	1	0	1
+eGFR	MG/ML/1.73	1	0	1
+eGFR	MML/MIN/1.73M2	1	0	1
+eGFR	MLMIN/1.73M2	1	0	1
+eGFR	ML/MI/1.73M2	1	0	1
+eGFR	ML/MIN/1.73 METERS SQUARED	1	0	1
+eGFR	,L/MIN 1.73 M2	1	0	1
+eGFR	ML/MIN/1.73MSQ	1	0	1
+eGFR	ML/MIN/A	1	0	1
+eGFR	,L/MIN/1.73M2	1	0	1
+eGFR	ML/IN	1	0	1
+eGFR	ML/MOIN/1.73M2	1	0	1
+eGFR	ML/.MIN/1.73M2	1	0	1
+eGFR	M/M/1.73	1	0	1
+eGFR	ML/MIN/1.73 SQ METERS	1	0	1
+eGFR	ML/MIN/1.72	1	0	1
+eGFR	ML/MIN 1.72 M2	1	0	1
+eGFR	ML/MIN 7.3 M2	1	0	1
+eGFR	NA	1	0	1
+eGFR	ML.MIN 1.73 M2	1	0	1
+eGFR	ML/MIN/1.73 SQUARE METERS	1	0	1
+eGFR	ML/MIN/1.73M(SQ)	1	0	1
+eGFR	ML/MIN/1.73ML	1	0	1
+eGFR	ML/MIN/1.73M21	1	0	1
+eGFR	ML/MIN/1.73^2	1	0	1
+eGFR	ML/MIN.1.73	1	0	1
+eGFR	ML/MIN PER1.73M2	1	0	1
+eGFR	ML/MIN/ 1.73M2	1	0	1
+eGFR	%	1	0	1
+eGFR	ML/MIN/SQ	1	0	1
+eGFR	ML/MIN?1.73M2	1	0	1
+eGFR	ML/MIN.1.73SQM	1	0	1
+eGFR	> OR = 60 ML/MIN/1.73M2	1	0	1
+eGFR	ML/MIM/1.73	1	0	1
+eGFR	ML/MIM1.73 M2	1	0	1
+eGFR	ML/M^2	1	0	1
+eGFR	ML/M1.7	1	0	1
+eGFR	ML/MIN,	1	0	1
+eGFR	ML/MIN 1.773 M2	1	0	1
+eGFR	ML/MI/1.73	1	0	1
+eGFR	L/MIN	1	0	1
+eGFR	L/MIN 1.73 M2	1	0	1
+eGFR	M/MIN/1.73SQ.M	1	0	1
+eGFR	ML/MIN/.1.73M2	1	0	1
+eGFR	ML/MIN/1.72SQM	1	0	1
+eGFR	ML/MIN/1.73SQ. M	1	0	1
+eGFR	ML/MIN/SQ.M	1	0	1
+eGFR	ML/MING	1	0	1
+eGFR	ML/MINI	1	0	1
+eGFR	MLL/MIN	1	0	1
+eGFR	ML?MIN 1.73 M2	1	0	1
+eGFR	ML/MIN/SA	1	0	1
+eGFR	ML/MIN/L	1	0	1
+eGFR	ML/MIN/1.743M2	1	0	1
+eGFR	.	1	0	1
+eGFR	ML/MIN1.73SQ.M	1	0	1
+eGFR	ML/MIN PER 1.73 METERS SQUARED	1	0	1
+eGFR	ML/MIKN	1	0	1
+eGFR	ML/MIN/1.73 M^2	1	0	1
+eGFR	ML/MIN/1.73M. SQ	1	0	1
+eGFR	ML/MIN/1.73,2	1	0	1
+eGFR	ML/MIN/1.73SQ,M	1	0	1
+eGFR	ML/MIN/1.73M12	1	0	1
+eGFR	ML/MIN/1.7M^2	1	0	1
+eGFR	ML/MIN/11.73M2	1	0	1
+eGFR	ML/NIN	1	0	1
+eGFR	ML/MIN/7.73M2	1	0	1
+eGFR	ML /MI	1	0	1
+eGFR	ML./MIN/1.73M2	1	0	1
+eGFR	MIL/MIN/1.73M2	1	0	1
+eGFR	ML/MIN 1.73 MM2	1	0	1
+eGFR	ML/MIIN 1.73 M2	1	0	1
+eGFR	ML/MIKN/1.73M2	1	0	1
+eGFR	ML/LMIN/1.73M2	1	0	1
+eGFR	ML/MIN/1,73M2	1	0	1
+eGFR	ML/MIN/1.373M2	1	0	1
+eGFR	ML/MIN/.173M2	1	0	1
+eGFR	ML/MIN/.73SQ.M	1	0	1
+eGFR	UNITES	1	0	1
+eGFR	ML-MIN	1	0	1
+eGFR	MI/MIN/1.73M2	1	0	1
+eGFR	MLK/MIN	1	0	1
+eGFR	ML\MIN/1.73M2	1	0	1
+eGFR	>=60	1	0	1
+eGFR	>=60 ML/MIN/1.73M2	1	0	1
+eGFR	1.73	1	0	1
+eGFR	ML/MIN 1.73 ,M2	1	0	1
+eGFR	ML/MIKN/1.73SQ.M	1	0	1
+eGFR	>60ML/MIN/1.73M2	1	0	1
+eGFR	M/MIN/1.73M2	1	0	1
+eGFR	ML/ MIN/1.73M2	1	0	1
+eGFR	ML./MIN/1.73	1	0	1
+eGFR	ML/MIN/CG	1	0	1
+eGFR	ML/MIN\1.73SQM	1	0	1
+eGFR	ML/MINUTE	1	0	1
+eGFR	ML/MIN/1.73.SQ.M	1	0	1
+eGFR	ML/MIN/.73	1	0	1
+eGFR	ML/MIN/1.73/SQM	1	0	1
+eGFR	ML/MIN/1.73 SOM	1	0	1
+eGFR	ML/MIN/1.73M32	1	0	1
+eGFR	ML/MIN/1.743SQM	1	0	1
+eGFR	ML/MINM/1.73M2	1	0	1
+eGFR	ML/MINMMOL/L	1	0	1
+eGFR	ML/MINS	1	0	1
+eGFR	ML/MON/1.73	1	0	1
+eGFR	ML/MIN/1.73SQMN	1	0	1
+eGFR	ML/MIN/1.73PHS	1	0	1
+eGFR	ML/MIN/1.73Q.M	1	0	1
+eGFR	ML/MIN/1.76M2	1	0	1
+eGFR	M/LMIN	1	0	1
+eGFR	MIN/L	1	0	1
+eGFR	,L/MIN	1	0	1
+eGFR	ML/MIN 1.7	1	0	1
+eGFR	ML/MIN 1.7 M2	1	0	1
+eGFR	ML/MIIN/1.73M2	1	0	1
+eGFR	ML/MG	1	0	1
+eGFR	ML/MIN 173	1	0	1
+eGFR	MLK/MIN/1.73M2	1	0	1
+eGFR	MOL/MIN 1.73 M2	1	0	1
+eGFR	NL	1	0	1
+eGFR	NL/MIN/1.73	1	0	1
+eGFR	NO RANGE	1	0	1
+eGFR	NON AF AM	1	0	1
+eGFR	MMOL	1	0	1
+eGFR	ML/,IM	1	0	1
+eGFR	M;L/MIN/1.73M2	1	0	1
+eGFR	M/MIN/1.73SQM	1	0	1
+eGFR	L	1	0	1
+eGFR	ML/MIN./1.73^2	1	0	1
+eGFR	ML/MIN./1.73M2	1	0	1
+eGFR	ML/MIN/1.3M2	1	0	1
+eGFR	ML/MIM/1.73ME2	1	0	1
+eGFR	ML/MIN//1.73SQM	1	0	1
+eGFR	ML/MIN/1.7.M2	1	0	1
+eGFR	ML/MIN/1.73 ME2	1	0	1
+eGFR	ML/M,IN	1	0	1
+eGFR	ML/MIN 1.73 MN2	1	0	1
+eGFR	ML/MIN N1.73 M2	1	0	1
+eGFR	ML/MIN PER 1.73 SQUARE METERS	1	0	1
+eGFR	ML/MIN 1.73  M2	1	0	1
+eGFR	ML/MIN 1.73 M 2	1	0	1
+eGFR	ML/MIN 1.73 M3	1	0	1
+eGFR	ML/MIM/1.73SQM	1	0	1
+eGFR	ML/MIMMOL/LN	1	0	1
+eGFR	MGL/MIN	1	0	1
+eGFR	MIN/DL	1	0	1
+eGFR	ML-MIN/1.73M2	1	0	1
+eGFR	ML/M	1	0	1
+eGFR	ML/M IN	1	0	1
+eGFR	ML/M2	1	0	1
+eGFR	ML?MIN/1.73SQ.M	1	0	1
+eGFR	NO RANGE GIVEN	1	0	1
+eGFR	>=60ML/MIN/1.73M2	1	0	1
+eGFR	M./MIN	1	0	1
+eGFR	1.73M2	1	0	1
+eGFR	MM	1	0	1
+eGFR	ML/MMIN	1	0	1
+eGFR	ML/MON 1.73 M2	1	0	1
+eGFR	ML;/MIN/1.73M2	1	0	1
+eGFR	ML/MIN/PER1.73SQM	1	0	1
+eGFR	ML/MIN/S1M	1	0	1
+eGFR	ML/MINN	1	0	1
+eGFR	ML/MINS/1.73	1	0	1
+eGFR	ML/MINSQM	1	0	1
+eGFR	ML/MIN/173	1	0	1
+eGFR	ML/MIN/173ME2	1	0	1
+eGFR	ML/MIN/173SQM	1	0	1
+eGFR	ML/MIN/HB	1	0	1
+eGFR	ML/MIN/1.83M2	1	0	1
+eGFR	ML/MIN/1073M2	1	0	1
+eGFR	ML/MIN/1.73SQ.METERS	1	0	1
+eGFR	ML/MIN/1.73M,2	1	0	1
+eGFR	ML/MIN/1.73MSQM	1	0	1
+eGFR	ML/MIN/1.73,M2	1	0	1
+eGFR	ML/MIN/1.37M2	1	0	1
+eGFR	ML/MIN 1.73 M22	1	0	1
+eGFR	ML/MIN 11.73 M2	1	0	1
+eGFR	ML/MION 1.73 M2	1	0	1
+eGFR	ML/MMIN 1.73 M2	1	0	1
+eGFR	ML/MMIN/1.73M2	1	0	1
+eGFR	ML?MIN	1	0	1
+eGFR	ML/N=MIN 1.73 M2	1	0	1
+eGFR	MML/MIN/1.73	1	0	1
+eGFR	ML/MIN/1.73SQ.M2	1	0	1
+eGFR	ML/MIN/2.73M2	1	0	1
+eGFR	ML/MIN/M(2)	1	0	1
+eGFR	ML/MIN?1.73ME2	1	0	1
+eGFR	ML/MIN7.3 M2	1	0	1
+eGFR	ML/MINI/1.73M2	1	0	1
+eGFR	ML/MINK/1.73M2	1	0	1
+eGFR	ML?MIN/1.73M2	1	0	1
+eGFR	ML;MIN	1	0	1
+eGFR	ML\MIN\1.73M2	1	0	1
+eGFR	MLL/MIN/SQM	1	0	1
+eGFR	ML/MINPER1.73M2	1	0	1
+eGFR	ML/MIN1.73M	1	0	1
+eGFR	ML/MIN\1.73	1	0	1
+eGFR	ML/MIN/1073	1	0	1
+eGFR	ML/MIN/1.76	1	0	1
+eGFR	ML/MIN/1.73M2W	1	0	1
+eGFR	ML/MIN/M	1	0	1
+eGFR	ML/MIN/17.3M2	1	0	1
+eGFR	ML/MIN/1.73SQ.,	1	0	1
+eGFR	ML/MIN/1.73SQ.N	1	0	1
+eGFR	ML/MIN/1.73SQM,	1	0	1
+eGFR	ML/MIN/1.73MS	1	0	1
+eGFR	ML/MIN//1.73	1	0	1
+eGFR	MEQ/L	1	0	1
+eGFR	ML/	1	0	1
+eGFR	L/MIN/1.73M2	1	0	1
+eGFR	>60ML/MIN/1.73SQM	1	0	1
+eGFR	ML/MIL	1	0	1
+eGFR	ML//MIN/1.73	1	0	1
+eGFR	ML/MIN.1.73SQ.M	1	0	1
+eGFR	ML/MIN 1.873 M2	1	0	1
+eGFR	ML/MIN 4.73 M2	1	0	1
+eGFR	ML/MIN PER  1.73 M2	1	0	1
+eGFR	ML/MIN PER 1.73 M 2	1	0	1
+eGFR	ML/MIN PER1.73 M2	1	0	1
+eGFR	ML/MIN 1.	1	0	1
+eGFR	ML/MIN 1.73 2	1	0	1
+eGFR	ML/MIN 1.73.M2	1	0	1
+eGFR	ML/MIN 1.73M	1	0	1
+eGFR	ML/MIN 1.76 M2	1	0	1
+eGFR	ML/MIN./1.7M^2	1	0	1
+eGFR	ML/MIN.1.73M^2	1	0	1
+eGFR	ML/MIN 1.83 M2	1	0	1
+eGFR	ML/MIN,SQM	1	0	1
+eGFR	ML/;MIN/1.73M2	1	0	1
+eGFR	ML/IN1.73 M2	1	0	1
+eGFR	ML/MI 1.73	1	0	1
+eGFR	ML/MIL/1.73ME2	1	0	1
+eGFR	ML/MIMN1.73 M2	1	0	1
+eGFR	ML/MI N1.72 M2	1	0	1
+eGFR	>OR = 60 ML/MIN/1.73M2	1	0	1
+eGFR	>+60ML/MIN	1	0	1
+eGFR	AML/MIN	1	0	1
+eGFR	100ML/MIN/1.73M2	1	0	1
+eGFR	L1ML/MINPER1.73	1	0	1
+eGFR	M,G/DL	1	0	1
+eGFR	M./MIN/1.73M2	1	0	1
+eGFR	M.MM	1	0	1
+eGFR	M/-MIN	1	0	1
+eGFR	M//MIN 1.73 M2	1	0	1
+eGFR	M//MIN PER 1.73 M2	1	0	1
+eGFR	M/\MIN\1.73M2	1	0	1
+eGFR	ML/,MIN	1	0	1
+eGFR	MGL/MIN/1.73M2	1	0	1
+eGFR	MI/MIN/1.73	1	0	1
+eGFR	MI/MIN/1.73SQM	1	0	1
+eGFR	MIN,ML	1	0	1
+eGFR	MIN/MIN/1.73M2	1	0	1
+eGFR	ML,MIN	1	0	1
+eGFR	GM/DL	1	0	1
+eGFR	M/ML/MIN 1.73 M2	1	0	1
+eGFR	M;,OM	1	0	1
+eGFR	M1/MIN/1.73M^2	1	0	1
+eGFR	ML/MIN/.73SQ	1	0	1
+eGFR	ML/MIN/.173	1	0	1
+eGFR	ML/MIN/.73 M2	1	0	1
+eGFR	ML/MIN/ 1.73 M2	1	0	1
+eGFR	ML/MIN/1.73.	1	0	1
+eGFR	ML/MIN/1.73/M	1	0	1
+eGFR	ML/MIN/1.73/SQ.M.	1	0	1
+eGFR	ML/MIN/07.73M2	1	0	1
+eGFR	ML/MIN/1.3SQ.M	1	0	1
+eGFR	ML/MIN/1.3SQM	1	0	1
+eGFR	ML/MIN/1.73SN	1	0	1
+eGFR	ML/MIN/1.73M*M	1	0	1
+eGFR	ML/MIN/1.73M2'	1	0	1
+eGFR	ML/MIN/1.73SQN	1	0	1
+eGFR	ML/MIN/1.72 M2	1	0	1
+eGFR	ML/MIN/1.73DQM	1	0	1
+eGFR	ML/MIN/1.73METERS SQUARED	1	0	1
+eGFR	ML/MIN/1.73MJ2	1	0	1
+eGFR	ML/MIN/1.73ML2	1	0	1
+eGFR	ML/MIN/17.3SQM	1	0	1
+eGFR	ML/MIN/BA	1	0	1
+eGFR	ML/MIN/I.73	1	0	1
+eGFR	ML/MIN/L.73M2	1	0	1
+eGFR	ML/MIN/Q.M	1	0	1
+eGFR	ML/MIN/SQ METERS	1	0	1
+eGFR	ML/MIN/1.763SQ.M	1	0	1
+eGFR	ML/MIN/1.79SQM	1	0	1
+eGFR	ML/MIN/1.7M	1	0	1
+eGFR	ML/MIN/14.73M2	1	0	1
+eGFR	ML/MIN/1.7M3M2	1	0	1
+eGFR	ML/MIN\1.73 SQM	1	0	1
+eGFR	ML/MIN?1.73SQ.M	1	0	1
+eGFR	ML/MIN1.73 SQ.M	1	0	1
+eGFR	ML/MINM 1.73 M2	1	0	1
+eGFR	ML/MINM/1.73SQM	1	0	1
+eGFR	ML/MINMMOL/LMG/DL	1	0	1
+eGFR	ML/MINHB	1	0	1
+eGFR	ML/MIN1.73MZ	1	0	1
+eGFR	ML/MIN1/.73	1	0	1
+eGFR	ML/MION/1.73	1	0	1
+eGFR	ML/MIUN	1	0	1
+eGFR	ML/MIUN/1.73M2	1	0	1
+eGFR	ML/MNIN/1.73M2	1	0	1
+eGFR	ML/ML/MIN/1.73M2	1	0	1
+eGFR	ML/MMOL	1	0	1
+eGFR	MLLMIN	1	0	1
+eGFR	MLMIN/1.73	1	0	1
+eGFR	MLMIN/BSA	1	0	1
+eGFR	MM01/L	1	0	1
+eGFR	MML	1	0	1
+eGFR	MNL/MIN	1	0	1
+eGFR	NG/ML	1	0	1
+eGFR	NK.NUB/1.73M2	1	0	1
+eGFR	NK/MIN	1	0	1
+eGFR	NL.MIN/1.73M2	1	0	1
+eGFR	ZZ	1	0	1
+eGFR	ML\/MIN/1.73M2	1	0	1
+eGFR	ML/NIM/1.73ME2	1	0	1
+eGFR	ML/MINL1.73M^2	1	0	1
+eGFR	ML/MINM2	1	0	1
+eGFR	ML/MINQ	1	0	1
+eGFR	ML/MIN\1.7	1	0	1
+eGFR	ML/MIN\1.73M,2	1	0	1
+eGFR	ML/MIN1.73 SM	1	0	1
+eGFR	ML/MIN1.73M3	1	0	1
+eGFR	ML/MIN/MIN1.73M2	1	0	1
+eGFR	ML/MIN/PER 1.73SQM	1	0	1
+eGFR	ML/MIN/F1.73M2	1	0	1
+eGFR	ML/MIN/21.73M2	1	0	1
+eGFR	ML/MIN/1.7SQ.M	1	0	1
+eGFR	ML/MIN/1.7SQM	1	0	1
+eGFR	ML/MIN/12.73M2	1	0	1
+eGFR	ML/MIN/13.73SQM	1	0	1
+eGFR	ML/MIN/173MX2	1	0	1
+eGFR	ML/MIN/1.73SQD	1	0	1
+eGFR	ML/MIN/1.73SQ METER	1	0	1
+eGFR	ML/MIN/1.74M2	1	0	1
+eGFR	ML/MIN/1.763M2	1	0	1
+eGFR	ML/MIN/1.76M.SQ.	1	0	1
+eGFR	MS/MIN 1.73 M2	1	0	1
+eGFR	N/A	1	0	1
+eGFR	NL/MIN PER 1.73M2	1	0	1
+eGFR	NL/MIN/1.73 M2	1	0	1
+eGFR	NL/MIN/1.73SQ.M	1	0	1
+eGFR	ML/NIB	1	0	1
+eGFR	SML/MIN/BSA	1	0	1
+eGFR	. OR = 60ML/MIN/1.73M2	1	0	1
+eGFR	/MIN	1	0	1
+eGFR	/MIN/1.73ME2	1	0	1
+eGFR	> = 60 ML/MIN/1.73M2	1	0	1
+eGFR	MLG/MIN	1	0	1
+eGFR	MLL/MIN/1.73	1	0	1
+eGFR	MLM/IN	1	0	1
+eGFR	ML/MON/1.72M2	1	0	1
+eGFR	ML/MNIN	1	0	1
+eGFR	ML/MNN	1	0	1
+eGFR	ML/MN .73 M2	1	0	1
+eGFR	ML/MN 1.873 M2	1	0	1
+eGFR	ML/MN.1.73M2	1	0	1
+eGFR	ML/MN/1.73	1	0	1
+eGFR	ML/MN/1.7M32	1	0	1
+eGFR	ML/MION1.73 M2	1	0	1
+eGFR	ML/MLN/1.73SQ.M	1	0	1
+eGFR	ML/MIN4.2	1	0	1
+eGFR	ML/MIN 173M2	1	0	1
+eGFR	ML/MIN 21.73 M2	1	0	1
+eGFR	ML/MIN 7.13 M2	1	0	1
+eGFR	ML/MIN 73 M2	1	0	1
+eGFR	ML/MIN PER 1.73M	1	0	1
+eGFR	ML/MIN PER 1.73 M	1	0	1
+eGFR	ML/MIN/ 1.73SQ.M	1	0	1
+eGFR	ML/MIN/.1.73SQM	1	0	1
+eGFR	ML/MIN//173M2	1	0	1
+eGFR	ML/MIN/1,73	1	0	1
+eGFR	ML/MIN PER1.73SQM	1	0	1
+eGFR	ML/MIN-PER 1.73 M2	1	0	1
+eGFR	ML/MIN./1.73ME2	1	0	1
+eGFR	ML/MIN.;	1	0	1
+eGFR	ML/MIN.1.7	1	0	1
+eGFR	ML/MIN 1.73 MD	1	0	1
+eGFR	ML/MIN 1.73 METERS SQUARED	1	0	1
+eGFR	ML/MIN 1.73 MW	1	0	1
+eGFR	ML/MIN 1.73 SQM	1	0	1
+eGFR	ML/MIN 1.732 M2	1	0	1
+eGFR	ML/MIN 1.73MW	1	0	1
+eGFR	ML/MIN 1.7M2	1	0	1
+eGFR	ML/MIN 1.M2	1	0	1
+eGFR	ML/MIL/1.73M2	1	0	1
+eGFR	ML/MIM/1.73SQ/M	1	0	1
+eGFR	ML/MIN  PER 1.73M2	1	0	1
+eGFR	ML/MIN / SQM	1	0	1
+eGFR	ML/MIN 1.7 MD	1	0	1
+eGFR	ML/MIN 1.73 M2`	1	0	1
+eGFR	ML/MIN/1.37SQM	1	0	1
+eGFR	ML/MIN/1.073	1	0	1
+eGFR	ML/MIN/1.19M2	1	0	1
+eGFR	ML/MIN/1.210	1	0	1
+eGFR	ML/MIN/1.73.SQM	1	0	1
+eGFR	ML/MIN/1.73,^2	1	0	1
+eGFR	ML/MIN/1.73 SQ	1	0	1
+eGFR	ML/MIN/1.73 ,M2	1	0	1
+eGFR	ML/MIN/1.73ML SQ	1	0	1
+eGFR	ML/MIN/1.73MSQ2	1	0	1
+eGFR	ML/MIN/1.73MSQD	1	0	1
+eGFR	ML/MIN/1.732SQM	1	0	1
+eGFR	ML/MIN/1.73E2	1	0	1
+eGFR	ML/MIN/1.73M (SQ)	1	0	1
+eGFR	ML/MIN/1.73M2SQM	1	0	1
+eGFR	ML/MIN/1.73ME	1	0	1
+eGFR	ML/MIN/1.73MEQ	1	0	1
+eGFR	ML/MIN/1.73M. SQ.	1	0	1
+eGFR	ML/MIN/1.73M^2A	1	0	1
+eGFR	ML/MIN/1.73M1	1	0	1
+eGFR	ML/MIN/1.73.ME2	1	0	1
+eGFR	ML/MIN/1.73/SQ.	1	0	1
+eGFR	ML/MIN/1.73LM2	1	0	1
+eGFR	ML/MIN/1.73M 2	1	0	1
+eGFR	ML/MIN/1.73SQ2	1	0	1
+eGFR	ML/MIN/1.783	1	0	1
+eGFR	ML/MIN/1.73SM2	1	0	1
+eGFR	ML/MIN/1.73SMZ	1	0	1
+eGFR	ML/MIN/1.73SQ METS	1	0	1
+eGFR	ML/MIN/1.73M23	1	0	1
+eGFR	ML/MIN/1.873M2	1	0	1
+eGFR	ML/MIN/100639	1	0	1
+eGFR	ML/MIN/M^2	1	0	1
+eGFR	ML/MIN/MIN/1.73M2	1	0	1
+eGFR	ML/MIN/PER 1.73 M2	1	0	1
+eGFR	ML/MIN/1L.73M2	1	0	1
+eGFR	ML/MINUTE/1.73M2	1	0	1
+eGFR	ML/MION/1.73M2	1	0	1
+eGFR	ML/MKN	1	0	1
+eGFR	ML/MLN	1	0	1
+eGFR	ML/MIN/SOM	1	0	1
+eGFR	ML/MIN/SQ.METERS	1	0	1
+eGFR	ML/MIN1.7	1	0	1
+eGFR	ML/MIN1.73M^2	1	0	1
+eGFR	ML/MIN1.73SQ M	1	0	1
+eGFR	ML/MIN1.73SQM	1	0	1
+eGFR	ML/MIN1.7M2	1	0	1
+eGFR	ML/MIN1/73M2	1	0	1
+eGFR	ML/MINB	1	0	1
+eGFR	ML/MINK	1	0	1
+eGFR	ML/MINM	1	0	1
+eGFR	ML/MINM/1.73	1	0	1
+eGFR	ML?MIN/1.73	1	0	1
+eGFR	MLM/MIN	1	0	1
+eGFR	ML;/MIN	1	0	1
+eGFR	ML/MIN/DG	1	0	1
+eGFR	ML/MNI/1.73M2	1	0	1
+eGFR	ML/MOIN 173 M2	1	0	1
+eGFR	ML/MOIN1.73	1	0	1
+eGFR	MMIN/L	1	0	1
+eGFR	MN/MIN	1	0	1
+eGFR	MN/MIN/1.73M2	1	0	1
+eGFR	,;/MIN 1.73M2	1	0	1
+eGFR	,=ML/MIN 1.73 M2	1	0	1
+eGFR	,L/MIN1.73 M2	1	0	1
+eGFR	,ML/MIN/1.73	1	0	1
+eGFR	,ML/MIN/1.73M2	1	0	1
+eGFR	> = 60 ML/MIN/1.7	1	0	1
+eGFR	> OR = 60 ML/MIN/1.73.M2	1	0	1
+eGFR	> OR = 60 ML/MIN1.73M2	1	0	1
+eGFR	>=60LM/MIN	1	0	1
+eGFR	60ML/MIN/1.73E2	1	0	1
+eGFR	60ML/MON/1.73ME2	1	0	1
+eGFR	LM/MIN	1	0	1
+eGFR	M/L MIN G1.73 M2	1	0	1
+eGFR	M/L/MIN\1.73SQM	1	0	1
+eGFR	M/MIN1.73 M2	1	0	1
+eGFR	>ML/MIN/1.73M. SQ	1	0	1
+eGFR	NL/M^2	1	0	1
+eGFR	NL/MIN/1.73M2	1	0	1
+eGFR	NL/MIN1.73 M2	1	0	1
+eGFR	ML/MG/1.73SQ.M	1	0	1
+eGFR	ML/M 1.73 M2	1	0	1
+eGFR	ML/MIIN.	1	0	1
+eGFR	ML/MI/1.73SQ.M	1	0	1
+eGFR	ML/MI/M2	1	0	1
+eGFR	ML//MIN 1.73	1	0	1
+eGFR	ML/1.73ME2	1	0	1
+eGFR	ML/LMI	1	0	1
+eGFR	ML/ MN 1.73 M2	1	0	1
+eGFR	ML/,IN/1.73SQM	1	0	1
+eGFR	ML/,MIN 1.73 M2	1	0	1
+eGFR	ML.MIN.1.73M2	1	0	1
+eGFR	ML.MIN/ 1.73	1	0	1
+eGFR	MIN/MIN	1	0	1
+eGFR	MK/MIN 1.73 KM2	1	0	1
+eGFR	MGM	1	0	1
+eGFR	MIN/1.73ME2	1	0	1
+eGFR	ML/MIN / 1.73M2	1	0	1
+eGFR	ML/MIN PER 1.73SQ.M	1	0	1
+eGFR	ML/MIN SQM	1	0	1
+eGFR	ML/MIN 1.73 SQ M	1	0	1
+eGFR	ML/MIN 1.73M^2	1	0	1
+eGFR	ML/MIN 1.783	1	0	1
+eGFR	ML/MIN 107. M2	1	0	1
+eGFR	ML/MIN 107.M2	1	0	1
+eGFR	ML/M 1.7	1	0	1
+eGFR	ML//MIN/1.7M32	1	0	1
+eGFR	ML/]MIN	1	0	1
+eGFR	ML/CMIN	1	0	1
+eGFR	ML/KMIN	1	0	1
+eGFR	ML/MIM/1.32M2	1	0	1
+eGFR	ML/MIJN/1.73M2	1	0	1
+eGFR	ML/MII	1	0	1
+eGFR	ML/MG/1.73M2	1	0	1
+eGFR	ML/MIN/1.73 SM	1	0	1
+eGFR	ML/MIN/1.73 SQ. M.	1	0	1
+eGFR	ML/MIN/1.73 SQUARE METERES	1	0	1
+eGFR	ML/MIN/1..73 M2	1	0	1
+eGFR	ML/MIN/1.72 SQM	1	0	1
+eGFR	ML/MIN/1.723M2	1	0	1
+eGFR	ML/MIN/1.72M3	1	0	1
+eGFR	ML/MIN/1.73  M2	1	0	1
+eGFR	ML/MIN/1.7.3ME2	1	0	1
+eGFR	ML/MIN/1.7.3SQ.M	1	0	1
+eGFR	ML/MIN.1.73M	1	0	1
+eGFR	ML/MIN/ PER 1.73SQ.M	1	0	1
+eGFR	ML/MIN//1.73M2,	1	0	1
+eGFR	ML/MIN//1.73ME2	1	0	1
+eGFR	M//MIN	1	0	1
+eGFR	M/L/MIN/1.73M2	1	0	1
+eGFR	M/LMIN 1.73 M	1	0	1
+eGFR	M/LMIN/1.73M2	1	0	1
+eGFR	M;/MIN/1.73M2	1	0	1
+eGFR	M;L/MIN 1.73 M2	1	0	1
+eGFR	MD/DL	1	0	1
+eGFR	MG.DL	1	0	1
+eGFR	MG/ DL	1	0	1
+eGFR	MG/DL1.73SQM	1	0	1
+eGFR	MG/MIL/1.73M2	1	0	1
+eGFR	*	1	0	1
+eGFR	MG/MIN/1.73M2	1	0	1
+eGFR	ML/,OM/1.73	1	0	1
+eGFR	ML.NIB	1	0	1
+eGFR	ML/ MIN 1.73 M2	1	0	1
+eGFR	ML/ MIN/ 1.73M2	1	0	1
+eGFR	MIN/1.73SQM.ML	1	0	1
+eGFR	MIN/MIN/	1	0	1
+eGFR	MIN/ML/1.73	1	0	1
+eGFR	MIN/NL	1	0	1
+eGFR	MK/MIN/1.73	1	0	1
+eGFR	MH/MIN	1	0	1
+eGFR	SQMML/MIN/1.73	1	0	1
+eGFR	U	1	0	1
+eGFR	MN/MIL1.73 M2	1	0	1
+eGFR	MNL/MIN/1.73M2	1	0	1
+eGFR	MLMIN PER 1.73M2	1	0	1
+eGFR	MM/L	1	0	1
+eGFR	MLL/MIN/1.73ME2	1	0	1
+eGFR	ML/MOM1.73 M2	1	0	1
+eGFR	ML\MIN/1.73SQM	1	0	1
+eGFR	ML\MIN\1.73M	1	0	1
+eGFR	ML\MIN\1.73SQM	1	0	1
+eGFR	ML\MINL1.73SQM	1	0	1
+eGFR	MLD/MIN PER 1.73 M2	1	0	1
+eGFR	1.73ML/MIN/1.73ME2	1	0	1
+eGFR	13/MIN/1.73M2	1	0	1
+eGFR	60ML/MIN/ 1.73ME2	1	0	1
+eGFR	CKD-EPI	1	0	1
+eGFR	>60ML/MIN/1.73	1	0	1
+eGFR	>60ML/MIN/1.73ME2	1	0	1
+eGFR	>OR=60	1	0	1
+eGFR	>=60 ML/MIN/1.73M3	1	0	1
+eGFR	>=60MIN/ML	1	0	1
+eGFR	,L/MIN/1.73	1	0	1
+eGFR	.73M2	1	0	1
+eGFR	/ML/MIN1.73SQ.M	1	0	1
+eGFR	<60.0	1	0	1
+eGFR	ML/MIN 7.3	1	0	1
+eGFR	ML/MIN 7.3M2	1	0	1
+eGFR	ML/MIN PER .73 M2	1	0	1
+eGFR	ML/MIN 1.73SQM	1	0	1
+eGFR	ML/MIN 1.743 M2	1	0	1
+eGFR	ML/MIN 1.73 M2Q	1	0	1
+eGFR	ML/MIN 1.732	1	0	1
+eGFR	ML/MIN PER 1.73 SQ.M	1	0	1
+eGFR	ML/MIN PER 1.73M^2	1	0	1
+eGFR	ML/MIN,/1.73M^2	1	0	1
+eGFR	ML/MIN./	1	0	1
+eGFR	ML/MIN./1073M^2	1	0	1
+eGFR	ML/MIN.173M2	1	0	1
+eGFR	ML/MIN/ 1.73M^2	1	0	1
+eGFR	ML/MI N1.73 M2	1	0	1
+eGFR	ML/MI/1.73SP.M	1	0	1
+eGFR	ML/M/IN/1.73M2	1	0	1
+eGFR	ML/MF	1	0	1
+eGFR	ML.MIN/	1	0	1
+eGFR	ML.MIN/SQM	1	0	1
+eGFR	ML/MIN 1.7. M2	1	0	1
+eGFR	ML/MIM 1.73 M2	1	0	1
+eGFR	ML/MIN 073 M2	1	0	1
+eGFR	ML/MIN 1.73 KM2	1	0	1
+eGFR	ML/MIN 1.73 M,2	1	0	1
+eGFR	ML/MIN 1.73 M1	1	0	1
+eGFR	> OR = 60 ML/MIN/1.73	1	0	1
+eGFR	>60ML/MIN/A	1	0	1
+eGFR	>OR=60.00	1	0	1
+eGFR	>OR=60ML/MIN1.73M2	1	0	1
+eGFR	1.73ML/MIN	1	0	1
+eGFR	CALC	1	0	1
+eGFR	CDK/EPI	1	0	1
+eGFR	JL/MIN/1.73 SQM	1	0	1
+eGFR	M,L/MIN	1	0	1
+eGFR	M,L/MIN/1.73	1	0	1
+eGFR	M,L/MIN1.73 M2	1	0	1
+eGFR	MIN/MIL/1.73M2	1	0	1
+eGFR	ML/,IN/1.73	1	0	1
+eGFR	ML/.MIN 1.73 M2	1	0	1
+eGFR	ML//MIN PER 1.73 M2	1	0	1
+eGFR	M;/MIN	1	0	1
+eGFR	M;/MINPER1.73	1	0	1
+eGFR	M9 W SQ METERS	1	0	1
+eGFR	MG/DK	1	0	1
+eGFR	MIN 1.73 M2	1	0	1
+eGFR	MIN/1.73M2	1	0	1
+eGFR	MG/DL/MIN/1.73M2	1	0	1
+eGFR	MG/MIN/1.73SQ.M	1	0	1
+eGFR	ML/MIN/1.78	1	0	1
+eGFR	ML/MIN/1.873SQ.M	1	0	1
+eGFR	ML/MIN/1/73 M2	1	0	1
+eGFR	ML/MIN/1/73MZ	1	0	1
+eGFR	ML/MIN/17.3	1	0	1
+eGFR	ML/MIN/173 M2	1	0	1
+eGFR	ML/MIN/1.73SQQ.M	1	0	1
+eGFR	ML/MIN1.73 METERS SQ	1	0	1
+eGFR	ML/MIN17.7 M2	1	0	1
+eGFR	ML/MINI/SQM	1	0	1
+eGFR	ML/MINK/1.73SQ.M	1	0	1
+eGFR	ML/MIN/PER173SQM	1	0	1
+eGFR	ML/MIN\/1.73M2	1	0	1
+eGFR	ML/MON/1.73M2	1	0	1
+eGFR	ML/MON/1.73SQM	1	0	1
+eGFR	ML/MOON1.73 M2	1	0	1
+eGFR	ML/NI	1	0	1
+eGFR	ML;MIN/1.73M2	1	0	1
+eGFR	ML\MIN/	1	0	1
+eGFR	ML\MIN/1.7	1	0	1
+eGFR	ML/MIN/1.763	1	0	1
+eGFR	ML/MN/1.73SQM	1	0	1
+eGFR	ML/MIN/1.73MC	1	0	1
+eGFR	ML/MIN/1.73ML^2	1	0	1
+eGFR	ML/MIN/1.73MM2	1	0	1
+eGFR	ML/MIN/1.73M2 SQM	1	0	1
+eGFR	ML/MIN/1.73M2+	1	0	1
+eGFR	ML/MIN/1.73M2>OR = 60 U	1	0	1
+eGFR	ML/MIN/1.73M22	1	0	1
+eGFR	ML/MIN/1.73MW2	1	0	1
+eGFR	ML/MIN/1.73SQ,.M	1	0	1
+eGFR	ML/MIN/1.73SQ. M.	1	0	1
+eGFR	ML/MIN/1.73SQ..	1	0	1
+eGFR	ML/MIN/1.73CM2	1	0	1
+eGFR	ML/MIN/1.73M SQUARED	1	0	1
+eGFR	ML/MIN/1.73/SQ.M	1	0	1
+eGFR	ML/MIN/.73ME2	1	0	1
+eGFR	ML/MIN/1.73 SQUARE	1	0	1
+eGFR	ML/MIN/1.373M	1	0	1
+eGFR	ML/MIN/1.73 M	1	0	1
+eGFR	ML/MIN/1.73 METERS SQ.	1	0	1
+eGFR	ML/MIN/1.73 MSQ	1	0	1
+freeCalcium	MMOL/L	1	0	0.01
+freeCalcium	NOT REPORTED	1	0	0.01
+pH	UNITS	1	0	0.01
+pH	NOT REPORTED	1	0	0.01
+Urine_Protein_Over_Creatinine	NOT REPORTED	100	0	0.01	1
+Urine_Protein_Over_Creatinine	MG/G	1	0	1
+Urine_Protein_Over_Creatinine	MG/MG CREAT.	1	0	1
+Urine_Protein_Over_Creatinine	MG/DL	1	0	1
+Urine_Protein_Over_Creatinine	MG/G CREAT	1	0	1
+D_DIMER	UG/ML FEU	1	0	0.01
+D_DIMER	 MCG/ML FEU	1	0	0.01
+D_DIMER	MCG/ML	1	0	0.01
+D_DIMER	NOT REPORTED	1	0	0.01
+D_DIMER	NG/ML	1	0	0.01
+ESR	MM/HOUR	1	0	1
+ESR	MM/HR	1	0	1
+ESR	NOT REPORTED	1	0	1
+ESR	MM/H	1	0	1
+ESR	MG/DL	1	0	1
+ESR	NM/H	1	0	1
+CA199	U/ML	1	0	0.1
+CA199	UNIT/ML	1	0	0.1
+SaO2	%	1	0	0.01
+SaO2	% TOTAL HGB	1	0	0.01
+SaO2	NOT REPORTED	1	0	0.01
+Tacrolimus	NG/ML	1	0	0.01
+Tacrolimus	NOT REPORTED	1	0	0.01
+Tacrolimus	MCG/L	1	0	0.01
+LuteinisingHormone	MIU/ML	1	0	0.01
+LuteinisingHormone	MIU/M	1	0	0.01
+BNP	PG/ML	1	0	1
+BNP	NOT REPORTED	1	0	1
+Reticulocytes%	%	1	0	0.01
+Reticulocytes%	NOT REPORTED	1	0	0.01
+Reticulocytes#	K/UL	1	0	0.1
+Reticulocytes#	X10*6	1	0	0.1
+Reticulocytes#	NOT REPORTED	1	0	0.1
+LDH	U/L	1	0	1
+LDH	NOT REPORTED	1	0	1
+LDH	IU/L	1	0	1
+GGT	U/L	1	0	1
+GGT	NOT REPORTED	1	0	1
+GGT	IU/L	1	0	1
+Chloride	MMOL/L	1	0	1
+Chloride	NOT REPORTED	1	0	1
+CK_MB_INDEX	%	1	0	0.1
+CK_MB_INDEX	NOT REPORTED	1	0	0.1
+CA125	 U/ML	1	0	0.1
+CA125	NOT REPORTED	1	0	0.1
+IgG	G/DL	1	0	0.01
+IgG	MG/DL	1	0	0.01
+IgG	NOT REPORTED	1	0	0.01
+Blasts%	%	1	0	1
+BLASTS	K/UL	1	0	0.1
+Myelocytes%	%	1	0	1
+Myelocytes#	K/UL	1	0	0.01

@@ -1,0 +1,2 @@
+ICD-9:435	Cerebrovascular_Disease_-_Transient_cerebral_ischaemia
+ICD-9:436	Cerbro-vascular_Accident,_Acute_(C.V.A.),Stroke,_Thrombosis,_CVA

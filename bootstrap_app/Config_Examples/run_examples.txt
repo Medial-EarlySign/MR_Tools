@@ -1,0 +1,14 @@
+
+********************************
+without sim_time_window example:
+bootstrap takes all samples per selected pid, and censors POS samples before and after the time window and NEG samples too close to the enddate:
+h:\MR\Tools\bootstrap_app\x64\Release\bootstrap_app.exe --input h:\MR\Tools\bootstrap_app\Config_Examples\preds_for_sim_time_window.csv --output h:\analysis_output --cohorts h:\MR\Tools\bootstrap_app\Config_Examples\cohorts.txt --nbootstrap 10 --use_censor=0 --output_raw
+
+the same example, with sim_time_window: 
+instead of censoring POS samples from before the time window, now bootstrap changes them to NEG
+h:\MR\Tools\bootstrap_app\x64\Release\bootstrap_app.exe --input h:\MR\Tools\bootstrap_app\Config_Examples\preds_for_sim_time_window.csv --output h:\analysis_output --cohorts h:\MR\Tools\bootstrap_app\Config_Examples\cohorts.txt --nbootstrap 10 --use_censor=0 --sim_time_window --output_raw 
+
+********************************
+filter by Label example:
+
+h:\MR\Tools\bootstrap_app\x64\Release\bootstrap_app.exe --input h:\MR\Tools\bootstrap_app\Config_Examples\preds_for_label_filtering.csv --output h:\analysis_output --cohorts h:\MR\Tools\bootstrap_app\Config_Examples\cohorts_for_label_filtering.txt --nbootstrap 10 --use_censor=0 --sample_per_pid=0 --sim_time_window --output_raw 

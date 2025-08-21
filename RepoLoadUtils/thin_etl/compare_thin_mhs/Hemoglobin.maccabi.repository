@@ -1,0 +1,162 @@
+Hemoglobin :: All :: With Values :: 948640 / 1279479 =  0.74 :: 948640 / 948640 =  1.00
+Hemoglobin :: Males :: With Values :: 446066 / 622859 =  0.72 :: 446066 / 948640 =  0.47
+Hemoglobin :: Females :: With Values :: 502574 / 656620 =  0.77 :: 502574 / 948640 =  0.53
+Hemoglobin :: General :: No. of Values :: All 13838849 Male 5404984 Female 8433865
+Hemoglobin :: General :: No. of different days Values :: All 13832817 Male 5402441 Female 8430376
+Hemoglobin :: General :: Avg #values per person (all) :: All 10.81 Male  8.67 Female 12.84
+Hemoglobin :: General :: Avg #values per person (>0)  :: All 14.58 Male 12.11 Female 16.77
+Hemoglobin :: General :: Avg dist between tests       :: All  260.6 Male  291.8 Female  241.1
+Hemoglobin :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Hemoglobin :: Counts :: Age Group 25 - 30 :: All ::   5362 0.000
+Hemoglobin :: Counts :: Age Group 30 - 35 :: All :: 136867 0.010
+Hemoglobin :: Counts :: Age Group 35 - 40 :: All :: 257392 0.019
+Hemoglobin :: Counts :: Age Group 40 - 45 :: All :: 325972 0.024
+Hemoglobin :: Counts :: Age Group 45 - 50 :: All :: 284688 0.021
+Hemoglobin :: Counts :: Age Group 50 - 55 :: All :: 289684 0.021
+Hemoglobin :: Counts :: Age Group 55 - 60 :: All :: 297476 0.021
+Hemoglobin :: Counts :: Age Group 60 - 65 :: All :: 278723 0.020
+Hemoglobin :: Counts :: Age Group 65 - 70 :: All :: 254418 0.018
+Hemoglobin :: Counts :: Age Group 70 - 75 :: All :: 201419 0.015
+Hemoglobin :: Counts :: Age Group 75 - 80 :: All :: 180925 0.013
+Hemoglobin :: Counts :: Age Group 80 - 85 :: All :: 130572 0.009
+Hemoglobin :: Counts :: Age Group 85 - 90 :: All ::  80845 0.006
+Hemoglobin :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Hemoglobin :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Hemoglobin :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Hemoglobin :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Hemoglobin :: Counts :: Age Group 25 - 30 :: Males ::    961 0.000
+Hemoglobin :: Counts :: Age Group 30 - 35 :: Males ::  27252 0.005
+Hemoglobin :: Counts :: Age Group 35 - 40 :: Males ::  65608 0.012
+Hemoglobin :: Counts :: Age Group 40 - 45 :: Males :: 108672 0.020
+Hemoglobin :: Counts :: Age Group 45 - 50 :: Males :: 111394 0.021
+Hemoglobin :: Counts :: Age Group 50 - 55 :: Males :: 119026 0.022
+Hemoglobin :: Counts :: Age Group 55 - 60 :: Males :: 126707 0.023
+Hemoglobin :: Counts :: Age Group 60 - 65 :: Males :: 123347 0.023
+Hemoglobin :: Counts :: Age Group 65 - 70 :: Males :: 114983 0.021
+Hemoglobin :: Counts :: Age Group 70 - 75 :: Males ::  93195 0.017
+Hemoglobin :: Counts :: Age Group 75 - 80 :: Males ::  82643 0.015
+Hemoglobin :: Counts :: Age Group 80 - 85 :: Males ::  57112 0.011
+Hemoglobin :: Counts :: Age Group 85 - 90 :: Males ::  33424 0.006
+Hemoglobin :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Hemoglobin :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Hemoglobin :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Hemoglobin :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Hemoglobin :: Counts :: Age Group 25 - 30 :: Females ::   4401 0.001
+Hemoglobin :: Counts :: Age Group 30 - 35 :: Females :: 109615 0.013
+Hemoglobin :: Counts :: Age Group 35 - 40 :: Females :: 191784 0.023
+Hemoglobin :: Counts :: Age Group 40 - 45 :: Females :: 217300 0.026
+Hemoglobin :: Counts :: Age Group 45 - 50 :: Females :: 173294 0.021
+Hemoglobin :: Counts :: Age Group 50 - 55 :: Females :: 170658 0.020
+Hemoglobin :: Counts :: Age Group 55 - 60 :: Females :: 170769 0.020
+Hemoglobin :: Counts :: Age Group 60 - 65 :: Females :: 155376 0.018
+Hemoglobin :: Counts :: Age Group 65 - 70 :: Females :: 139435 0.017
+Hemoglobin :: Counts :: Age Group 70 - 75 :: Females :: 108224 0.013
+Hemoglobin :: Counts :: Age Group 75 - 80 :: Females ::  98282 0.012
+Hemoglobin :: Counts :: Age Group 80 - 85 :: Females ::  73460 0.009
+Hemoglobin :: Counts :: Age Group 85 - 90 :: Females ::  47421 0.006
+Hemoglobin :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Hemoglobin :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Hemoglobin :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Hemoglobin :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats :: Age Group 25 - 30 :: All ::  N 81823 non-zeros 81816 Median  13.00 Mean  13.15 Std   1.61 Max  23.20
+Hemoglobin :: Stats :: Age Group 30 - 35 :: All ::  N 213860 non-zeros 213828 Median  13.20 Mean  13.28 Std   1.67 Max  25.10
+Hemoglobin :: Stats :: Age Group 35 - 40 :: All ::  N 331909 non-zeros 331881 Median  13.50 Mean  13.49 Std   1.64 Max  24.80
+Hemoglobin :: Stats :: Age Group 40 - 45 :: All ::  N 402086 non-zeros 402016 Median  13.60 Mean  13.64 Std   1.58 Max  24.20
+Hemoglobin :: Stats :: Age Group 45 - 50 :: All ::  N 356412 non-zeros 356348 Median  13.80 Mean  13.76 Std   1.55 Max  20.50
+Hemoglobin :: Stats :: Age Group 50 - 55 :: All ::  N 324767 non-zeros 324706 Median  13.90 Mean  13.89 Std   1.44 Max  23.30
+Hemoglobin :: Stats :: Age Group 55 - 60 :: All ::  N 279348 non-zeros 279308 Median  13.90 Mean  13.91 Std   1.37 Max  20.90
+Hemoglobin :: Stats :: Age Group 60 - 65 :: All ::  N 235519 non-zeros 235459 Median  13.80 Mean  13.82 Std   1.39 Max  20.90
+Hemoglobin :: Stats :: Age Group 65 - 70 :: All ::  N 185560 non-zeros 185523 Median  13.70 Mean  13.67 Std   1.43 Max  21.20
+Hemoglobin :: Stats :: Age Group 70 - 75 :: All ::  N 131263 non-zeros 131240 Median  13.50 Mean  13.44 Std   1.48 Max  21.20
+Hemoglobin :: Stats :: Age Group 75 - 80 :: All ::  N 102910 non-zeros 102888 Median  13.20 Mean  13.15 Std   1.54 Max  21.80
+Hemoglobin :: Stats :: Age Group 80 - 85 :: All ::  N 65561 non-zeros 65550 Median  12.90 Mean  12.81 Std   1.59 Max  19.50
+Hemoglobin :: Stats :: Age Group 85 - 90 :: All ::  N 37729 non-zeros 37716 Median  12.50 Mean  12.42 Std   1.65 Max  19.00
+Hemoglobin :: Stats :: Age Group 90 - 95 :: All ::  N 15915 non-zeros 15911 Median  12.20 Mean  12.12 Std   1.65 Max  19.00
+Hemoglobin :: Stats :: Age Group 95 - 100 :: All ::  N 4029 non-zeros 4027 Median  11.90 Mean  11.84 Std   1.67 Max  19.00
+Hemoglobin :: General :: All     :: outliers ratio 0.000000
+Hemoglobin :: General :: All     :: N 948572 non-zeros 948384 Median  13.70 Mean  13.60 Std   1.62 Max  24.20
+Hemoglobin :: General :: All     :: distribution 0.001,0.01,0.05 ::   7.30   9.40  10.90  16.10  16.90  18.00
+Hemoglobin :: General :: All     :: quartiles ::   7.30  12.60  13.70  14.80 
+Hemoglobin :: General :: Males   :: outliers ratio 0.000000
+Hemoglobin :: General :: Males   :: N 446049 non-zeros 445938 Median  14.70 Mean  14.59 Std   1.38 Max  21.90
+Hemoglobin :: General :: Males   :: distribution 0.001,0.01,0.05 ::   7.70  10.00  12.10  16.50  17.30  18.30
+Hemoglobin :: General :: Males   :: quartiles ::   7.70  14.00  14.70  15.40 
+Hemoglobin :: General :: Females :: outliers ratio 0.000000
+Hemoglobin :: General :: Females :: N 502523 non-zeros 502444 Median  12.80 Mean  12.73 Std   1.27 Max  22.00
+Hemoglobin :: General :: Females :: distribution 0.001,0.01,0.05 ::   7.10   9.10  10.50  14.60  15.40  16.40
+Hemoglobin :: General :: Females :: quartiles ::   7.10  12.00  12.80  13.60 
+Hemoglobin :: Rounding ::  0.00 r  0.00 pct
+Hemoglobin :: Rounding ::  0.01 r  0.06 pct
+Hemoglobin :: Rounding ::  0.10 r  0.84 pct
+Hemoglobin :: Rounding ::  1.00 r  0.10 pct
+Hemoglobin :: Rounding :: 10.00 r  0.00 pct
+Hemoglobin :: Rounding :: 100.00 r  0.00 pct
+Hemoglobin :: Rounding :: 1000.00 r  0.00 pct
+Hemoglobin :: Rounding :: most popular rounding for vals:  0.10
+Hemoglobin :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats year :: 2001 :: All :: N 417939 non-zeros 417917 Median  13.40 Mean  13.47 Std   1.53 Max  21.30
+Hemoglobin :: Stats year :: 2002 :: All :: N 406244 non-zeros 406223 Median  13.40 Mean  13.47 Std   1.53 Max  22.20
+Hemoglobin :: Stats year :: 2003 :: All :: N 442785 non-zeros 442756 Median  13.40 Mean  13.38 Std   1.51 Max  23.20
+Hemoglobin :: Stats year :: 2004 :: All :: N 466303 non-zeros 466255 Median  13.40 Mean  13.40 Std   1.50 Max  22.40
+Hemoglobin :: Stats year :: 2005 :: All :: N 481526 non-zeros 481468 Median  13.40 Mean  13.44 Std   1.50 Max  21.70
+Hemoglobin :: Stats year :: 2006 :: All :: N 493195 non-zeros 493128 Median  13.50 Mean  13.48 Std   1.52 Max  25.10
+Hemoglobin :: Stats year :: 2007 :: All :: N 504110 non-zeros 504076 Median  13.60 Mean  13.58 Std   1.54 Max  22.90
+Hemoglobin :: Stats year :: 2008 :: All :: N 506514 non-zeros 506470 Median  13.50 Mean  13.55 Std   1.52 Max  22.80
+Hemoglobin :: Stats year :: 2009 :: All :: N 533346 non-zeros 533301 Median  13.60 Mean  13.60 Std   1.50 Max  23.20
+Hemoglobin :: Stats year :: 2010 :: All :: N 531559 non-zeros 531507 Median  13.60 Mean  13.59 Std   1.49 Max  24.80
+Hemoglobin :: Stats year :: 2011 :: All :: N 536328 non-zeros 536292 Median  13.60 Mean  13.63 Std   1.49 Max  23.70
+Hemoglobin :: Stats year :: 2012 :: All :: N 545296 non-zeros 545242 Median  13.60 Mean  13.63 Std   1.49 Max  25.20
+Hemoglobin :: Stats year :: 2013 :: All :: N 549368 non-zeros 549312 Median  13.70 Mean  13.66 Std   1.49 Max  20.50
+Hemoglobin :: Stats year :: 2014 :: All :: N 544848 non-zeros 544745 Median  13.60 Mean  13.64 Std   1.50 Max  21.20
+Hemoglobin :: Stats year :: 2015 :: All :: N 481959 non-zeros 481708 Median  13.50 Mean  13.51 Std   1.52 Max  24.20
+Hemoglobin :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats year :: 2001 :: Males   :: N 153657 non-zeros 153649 Median  14.80 Mean  14.72 Std   1.21 Max  20.60
+Hemoglobin :: Stats year :: 2002 :: Males   :: N 152158 non-zeros 152145 Median  14.80 Mean  14.68 Std   1.24 Max  22.20
+Hemoglobin :: Stats year :: 2003 :: Males   :: N 168786 non-zeros 168778 Median  14.60 Mean  14.55 Std   1.23 Max  23.20
+Hemoglobin :: Stats year :: 2004 :: Males   :: N 181374 non-zeros 181361 Median  14.60 Mean  14.53 Std   1.24 Max  23.50
+Hemoglobin :: Stats year :: 2005 :: Males   :: N 191024 non-zeros 191004 Median  14.60 Mean  14.54 Std   1.25 Max  21.50
+Hemoglobin :: Stats year :: 2006 :: Males   :: N 199149 non-zeros 199122 Median  14.70 Mean  14.57 Std   1.29 Max  24.50
+Hemoglobin :: Stats year :: 2007 :: Males   :: N 206444 non-zeros 206433 Median  14.80 Mean  14.66 Std   1.31 Max  22.30
+Hemoglobin :: Stats year :: 2008 :: Males   :: N 208505 non-zeros 208487 Median  14.70 Mean  14.60 Std   1.32 Max  21.80
+Hemoglobin :: Stats year :: 2009 :: Males   :: N 223013 non-zeros 222990 Median  14.70 Mean  14.61 Std   1.30 Max  21.80
+Hemoglobin :: Stats year :: 2010 :: Males   :: N 223402 non-zeros 223374 Median  14.70 Mean  14.58 Std   1.31 Max  24.80
+Hemoglobin :: Stats year :: 2011 :: Males   :: N 228177 non-zeros 228158 Median  14.70 Mean  14.59 Std   1.32 Max  24.00
+Hemoglobin :: Stats year :: 2012 :: Males   :: N 234462 non-zeros 234434 Median  14.70 Mean  14.57 Std   1.33 Max  25.20
+Hemoglobin :: Stats year :: 2013 :: Males   :: N 238135 non-zeros 238109 Median  14.70 Mean  14.58 Std   1.34 Max  20.50
+Hemoglobin :: Stats year :: 2014 :: Males   :: N 237403 non-zeros 237332 Median  14.70 Mean  14.55 Std   1.37 Max  21.70
+Hemoglobin :: Stats year :: 2015 :: Males   :: N 209134 non-zeros 208976 Median  14.50 Mean  14.39 Std   1.43 Max  24.20
+Hemoglobin :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats year :: 2001 :: Females :: N 264282 non-zeros 264271 Median  12.80 Mean  12.75 Std   1.19 Max  20.00
+Hemoglobin :: Stats year :: 2002 :: Females :: N 254086 non-zeros 254071 Median  12.80 Mean  12.74 Std   1.19 Max  22.00
+Hemoglobin :: Stats year :: 2003 :: Females :: N 273999 non-zeros 273986 Median  12.70 Mean  12.66 Std   1.17 Max  21.00
+Hemoglobin :: Stats year :: 2004 :: Females :: N 284929 non-zeros 284897 Median  12.80 Mean  12.68 Std   1.17 Max  20.10
+Hemoglobin :: Stats year :: 2005 :: Females :: N 290502 non-zeros 290481 Median  12.80 Mean  12.72 Std   1.17 Max  20.30
+Hemoglobin :: Stats year :: 2006 :: Females :: N 294046 non-zeros 294011 Median  12.80 Mean  12.75 Std   1.19 Max  19.70
+Hemoglobin :: Stats year :: 2007 :: Females :: N 297666 non-zeros 297649 Median  12.90 Mean  12.83 Std   1.20 Max  19.10
+Hemoglobin :: Stats year :: 2008 :: Females :: N 298009 non-zeros 297990 Median  12.90 Mean  12.82 Std   1.18 Max  19.80
+Hemoglobin :: Stats year :: 2009 :: Females :: N 310333 non-zeros 310315 Median  12.90 Mean  12.87 Std   1.18 Max  20.20
+Hemoglobin :: Stats year :: 2010 :: Females :: N 308157 non-zeros 308125 Median  13.00 Mean  12.88 Std   1.17 Max  19.50
+Hemoglobin :: Stats year :: 2011 :: Females :: N 308151 non-zeros 308132 Median  13.00 Mean  12.91 Std   1.17 Max  20.20
+Hemoglobin :: Stats year :: 2012 :: Females :: N 310834 non-zeros 310811 Median  13.00 Mean  12.92 Std   1.18 Max  21.20
+Hemoglobin :: Stats year :: 2013 :: Females :: N 311233 non-zeros 311213 Median  13.00 Mean  12.95 Std   1.18 Max  19.60
+Hemoglobin :: Stats year :: 2014 :: Females :: N 307445 non-zeros 307407 Median  13.00 Mean  12.93 Std   1.19 Max  20.10
+Hemoglobin :: Stats year :: 2015 :: Females :: N 272825 non-zeros 272737 Median  12.90 Mean  12.83 Std   1.20 Max  20.60
+Hemoglobin :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hemoglobin :: Stats month 1 :: All :: N 375312 non-zeros 375242 Median  13.50 Mean  13.44 Std   1.63 Max  24.00
+Hemoglobin :: Stats month 2 :: All :: N 365426 non-zeros 365350 Median  13.40 Mean  13.42 Std   1.62 Max  25.20
+Hemoglobin :: Stats month 3 :: All :: N 375284 non-zeros 375199 Median  13.40 Mean  13.38 Std   1.62 Max  22.20
+Hemoglobin :: Stats month 4 :: All :: N 354594 non-zeros 354506 Median  13.40 Mean  13.36 Std   1.62 Max  24.20
+Hemoglobin :: Stats month 5 :: All :: N 402999 non-zeros 402924 Median  13.40 Mean  13.36 Std   1.60 Max  21.10
+Hemoglobin :: Stats month 6 :: All :: N 399623 non-zeros 399542 Median  13.40 Mean  13.35 Std   1.59 Max  23.70
+Hemoglobin :: Stats month 7 :: All :: N 407411 non-zeros 407336 Median  13.40 Mean  13.35 Std   1.59 Max  21.60
+Hemoglobin :: Stats month 8 :: All :: N 391746 non-zeros 391667 Median  13.40 Mean  13.32 Std   1.59 Max  21.80
+Hemoglobin :: Stats month 9 :: All :: N 345738 non-zeros 345671 Median  13.30 Mean  13.29 Std   1.60 Max  21.80
+Hemoglobin :: Stats month 10 :: All :: N 387298 non-zeros 387245 Median  13.40 Mean  13.39 Std   1.59 Max  24.80
+Hemoglobin :: Stats month 11 :: All :: N 369094 non-zeros 369044 Median  13.50 Mean  13.44 Std   1.61 Max  20.30
+Hemoglobin :: Stats month 12 :: All :: N 357908 non-zeros 357848 Median  13.50 Mean  13.44 Std   1.63 Max  23.40
+

@@ -1,0 +1,2367 @@
+{
+   "ThemeConfiguration": {
+      "ThemeClasses": [
+         {
+            "ThemeClassId": 1,
+            "ThemeClassName": "Heart Disease and Stroke Data",
+            "SortPreference": 5,
+            "ThemeSubClasses": [
+               {
+                  "ThemeSubClassId": 11,
+                  "ThemeSubClassName": "Total Cardiovascular Disease",
+                  "Themes": [
+                     {
+                        "ThemeId": 29,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 30,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 31,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 1,
+                  "ThemeSubClassName": "All Heart Disease",
+                  "Themes": [
+                     {
+                        "ThemeId": 1,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 2,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           5,
+                           1,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 4,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           3,
+                           5,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 2,
+                  "ThemeSubClassName": "Coronary Heart Disease",
+                  "Themes": [
+                     {
+                        "ThemeId": 5,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 6,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 7,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 3,
+                  "ThemeSubClassName": "Acute Myocardial Infarction",
+                  "Themes": [
+                     {
+                        "ThemeId": 8,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 9,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 10,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 4,
+                  "ThemeSubClassName": "Cardiac Dysrhythmia",
+                  "Themes": [
+                     {
+                        "ThemeId": 11,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 12,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 13,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 5,
+                  "ThemeSubClassName": "Heart Failure",
+                  "Themes": [
+                     {
+                        "ThemeId": 14,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 15,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 16,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 9,
+                  "ThemeSubClassName": "Hypertension",
+                  "Themes": [
+                     {
+                        "ThemeId": 17,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 18,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 19,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 6,
+                  "ThemeSubClassName": "All Stroke",
+                  "Themes": [
+                     {
+                        "ThemeId": 3,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 20,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 21,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 7,
+                  "ThemeSubClassName": "Ischemic Stroke",
+                  "Themes": [
+                     {
+                        "ThemeId": 22,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 23,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 24,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 8,
+                  "ThemeSubClassName": "Hemorrhagic Stroke",
+                  "Themes": [
+                     {
+                        "ThemeId": 25,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           4,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 26,
+                        "Name": "Hospitalizations",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     },
+                     {
+                        "ThemeId": 27,
+                        "Name": "Hospital Discharge Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           8,
+                           1,
+                           5,
+                           3,
+                           6,
+                           7
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 10,
+                  "ThemeSubClassName": "Preventable / Avoidable Death",
+                  "Themes": [
+                     {
+                        "ThemeId": 28,
+                        "Name": "Deaths",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": null,
+                        "Year": null,
+                        "ThemeFilterIds": [
+                           9,
+                           2,
+                           3,
+                           11,
+                           7
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "ThemeClassId": 5,
+            "ThemeClassName": "Risk Factors",
+            "SortPreference": 10,
+            "ThemeSubClasses": [
+               {
+                  "ThemeSubClassId": 20,
+                  "ThemeSubClassName": "Diagnosed Diabetes",
+                  "Themes": [
+                     {
+                        "ThemeId": 62,
+                        "Name": "Diabetes Percentage",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "BRFSS",
+                        "Year": 2015,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 21,
+                  "ThemeSubClassName": "Obesity",
+                  "Themes": [
+                     {
+                        "ThemeId": 63,
+                        "Name": "Obesity Percentage",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "BRFSS",
+                        "Year": 2015,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 22,
+                  "ThemeSubClassName": "Leisure-Time Physical Inactivity",
+                  "Themes": [
+                     {
+                        "ThemeId": 64,
+                        "Name": "Physical Inactivity Percentage",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "BRFSS",
+                        "Year": 2015,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "ThemeClassId": 2,
+            "ThemeClassName": "Social and Economic Data",
+            "SortPreference": 15,
+            "ThemeSubClasses": [
+               {
+                  "ThemeSubClassId": 12,
+                  "ThemeSubClassName": "Social Environment",
+                  "Themes": [
+                     {
+                        "ThemeId": 36,
+                        "Name": "Education - Less than High School (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 37,
+                        "Name": "Education - Less than College (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 32,
+                        "Name": "Female-Headed Households (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 41,
+                        "Name": "Food stamp/SNAP recipients (%)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Area Resource File",
+                        "Year": 2015,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 35,
+                        "Name": "Median Home Value ($)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 54,
+                        "Name": "Median Household Income ($)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Census Small Area Income and Poverty Estimates",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 60,
+                        "Name": "Income Inequality",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 52,
+                        "Name": "Poverty (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Census Small Area Income and Poverty Estimates",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 33,
+                        "Name": "Unemployment Rate",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of Labor Statistics",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 13,
+                  "ThemeSubClassName": "Demographics",
+                  "Themes": [
+                     {
+                        "ThemeId": 39,
+                        "Name": "American Indian/Alaska Native (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 40,
+                        "Name": "Asian (%)/Native Hawaiian/Other Pacific Islander (%)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 38,
+                        "Name": "Black (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 55,
+                        "Name": "White (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 56,
+                        "Name": "Hispanic/Latino (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 34,
+                        "Name": "Aged 65 and Older (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 57,
+                        "Name": "Total Population",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Bureau of the Census",
+                        "Year": 2017,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 16,
+                  "ThemeSubClassName": "Physical Environment",
+                  "Themes": [
+                     {
+                        "ThemeId": 73,
+                        "Name": "Air Quality (Annual PM2.5 Level)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Environmental Public Health Tracking Network",
+                        "Year": 2015,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 61,
+                        "Name": "Park Access (%)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "NAVTEQ and Bureau of the Census",
+                        "Year": 2010,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 74,
+                        "Name": "Severe Housing Problems (%)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "County Health Rankings & Roadmaps",
+                        "Year": 2015,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 18,
+                  "ThemeSubClassName": "Urban-Rural Status",
+                  "Themes": [
+                     {
+                        "ThemeId": 59,
+                        "Name": "Urban-Rural Status",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "NCHS",
+                        "Year": 2013,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "ThemeClassId": 3,
+            "ThemeClassName": "Health Care Delivery and Insurance",
+            "SortPreference": 20,
+            "ThemeSubClasses": [
+               {
+                  "ThemeSubClassId": 19,
+                  "ThemeSubClassName": "Blood Pressure Medication Nonadherence",
+                  "Themes": [
+                     {
+                        "ThemeId": 65,
+                        "Name": "Blood Pressure Medicine Combined",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Medicare Part D",
+                        "Year": 2015,
+                        "ThemeFilterIds": [
+                           18
+                        ]
+                     },
+                     {
+                        "ThemeId": 71,
+                        "Name": "Diuretic only",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Medicare Part D",
+                        "Year": 2015,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 72,
+                        "Name": "Renin-Angiotensin System only",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Medicare Part D",
+                        "Year": 2015,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 14,
+                  "ThemeSubClassName": "Hospitals and Pharmacies",
+                  "Themes": [
+                     {
+                        "ThemeId": 43,
+                        "Name": "Hospitals (#)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Area Resource File",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 44,
+                        "Name": "Hospitals with Listed Services (#)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Area Resource File",
+                        "Year": 2016,
+                        "ThemeFilterIds": [
+                           19
+                        ]
+                     },
+                     {
+                        "ThemeId": 58,
+                        "Name": "Pharmacies and Drug Stores (#)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "County Business Patterns",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 15,
+                  "ThemeSubClassName": "Physicians and Specialists",
+                  "Themes": [
+                     {
+                        "ThemeId": 49,
+                        "Name": "Primary Care Physicians",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Area Resource File",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 48,
+                        "Name": "Cardiovascular Disease Physicians",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Area Resource File",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 50,
+                        "Name": "Neurologists",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Area Resource File",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 51,
+                        "Name": "Neurosurgeons",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Area Resource File",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               },
+               {
+                  "ThemeSubClassId": 17,
+                  "ThemeSubClassName": "Insurance",
+                  "Themes": [
+                     {
+                        "ThemeId": 53,
+                        "Name": "Health Insurance Status (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Census Small Area Health Insurance Estimates",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     },
+                     {
+                        "ThemeId": 42,
+                        "Name": "Medicaid eligible (%)",
+                        "IsAvailableAtTractLevel": true,
+                        "Source": "Area Resource File",
+                        "Year": 2012,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "ThemeClassId": 4,
+            "ThemeClassName": "Health Care Costs",
+            "SortPreference": 30,
+            "ThemeSubClasses": [
+               {
+                  "ThemeSubClassId": 23,
+                  "ThemeSubClassName": "Medicare Beneficiaries with Heart Disease",
+                  "Themes": [
+                     {
+                        "ThemeId": 80,
+                        "Name": "Costs per Capita ($)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Centers for Medicare & Medicaid Services’ (CMS) Chronic Conditions Data Warehouse",
+                        "Year": 2016,
+                        "ThemeFilterIds": [
+                           17
+                        ]
+                     },
+                     {
+                        "ThemeId": 76,
+                        "Name": "Incremental Costs ($)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Centers for Medicare & Medicaid Services’ (CMS) Chronic Conditions Data Warehouse",
+                        "Year": 2016,
+                        "ThemeFilterIds": [
+                           17
+                        ]
+                     },
+                     {
+                        "ThemeId": 75,
+                        "Name": "Heart Disease Prevalence (%)",
+                        "IsAvailableAtTractLevel": false,
+                        "Source": "Centers for Medicare & Medicaid Services’ (CMS) Chronic Conditions Data Warehouse",
+                        "Year": 2016,
+                        "ThemeFilterIds": []
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "ThemeFilters": [
+         {
+            "ThemeFilterId": 1,
+            "ThemeFilterType": "Time Period",
+            "ThemeFilterDisplayText": "Year",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "2014-2016"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "2013-2015"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "2012-2014"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "2011-2013"
+               },
+               {
+                  "FilterOptionId": 5,
+                  "DisplayText": "2010-2012"
+               },
+               {
+                  "FilterOptionId": 6,
+                  "DisplayText": "2009-2011"
+               },
+               {
+                  "FilterOptionId": 7,
+                  "DisplayText": "2008-2010"
+               },
+               {
+                  "FilterOptionId": 8,
+                  "DisplayText": "2007-2009"
+               },
+               {
+                  "FilterOptionId": 9,
+                  "DisplayText": "2006-2008"
+               },
+               {
+                  "FilterOptionId": 10,
+                  "DisplayText": "2005-2007"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 2,
+            "ThemeFilterType": "Race",
+            "ThemeFilterDisplayText": "Race/Ethnicity",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "All Races/Ethnicities"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "Black (Non-Hispanic)"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "White (Non-Hispanic)"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "Hispanic"
+               },
+               {
+                  "FilterOptionId": 5,
+                  "DisplayText": "American Indian and Alaskan Native"
+               },
+               {
+                  "FilterOptionId": 6,
+                  "DisplayText": "Asian and Pacific Islander"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 3,
+            "ThemeFilterType": "Gender",
+            "ThemeFilterDisplayText": "Gender",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "Both Genders"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "Men"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "Women"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 4,
+            "ThemeFilterType": "Age",
+            "ThemeFilterDisplayText": "Age",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "35+"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "45 to 64"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "65+"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "Under 75"
+               },
+               {
+                  "FilterOptionId": 5,
+                  "DisplayText": "All Ages"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 5,
+            "ThemeFilterType": "Race",
+            "ThemeFilterDisplayText": "Race/Ethnicity",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "All Races/Ethnicities"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "Black"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "White"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "Hispanic"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 6,
+            "ThemeFilterType": "Age",
+            "ThemeFilterDisplayText": "Age",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "65+"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 7,
+            "ThemeFilterType": "Smoothing",
+            "ThemeFilterDisplayText": "Spatial Smoothing",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "Smoothed"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "Not Smoothed"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 8,
+            "ThemeFilterType": "Discharge",
+            "ThemeFilterDisplayText": "Discharge",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "Discharged Home"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "Discharged to Acute Care Facility"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "Discharged to Other Health Care Facility"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "Died Before Discharge"
+               },
+               {
+                  "FilterOptionId": 5,
+                  "DisplayText": "Other Discharge"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 9,
+            "ThemeFilterType": "Time Period",
+            "ThemeFilterDisplayText": "Year",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "2014-2016"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "2013-2015"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "2012-2014"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "2011-2013"
+               },
+               {
+                  "FilterOptionId": 5,
+                  "DisplayText": "2010-2012"
+               },
+               {
+                  "FilterOptionId": 6,
+                  "DisplayText": "2009-2011"
+               },
+               {
+                  "FilterOptionId": 7,
+                  "DisplayText": "2008-2010"
+               },
+               {
+                  "FilterOptionId": 8,
+                  "DisplayText": "2007-2009"
+               },
+               {
+                  "FilterOptionId": 9,
+                  "DisplayText": "2006-2008"
+               },
+               {
+                  "FilterOptionId": 10,
+                  "DisplayText": "2005-2007"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 10,
+            "ThemeFilterType": "Smoothed",
+            "ThemeFilterDisplayText": "Smoothed",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": " – Smoothed"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": ""
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 11,
+            "ThemeFilterType": "Age",
+            "ThemeFilterDisplayText": "Age",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "Under 75"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 12,
+            "ThemeFilterType": "Time Period",
+            "ThemeFilterDisplayText": "Year",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "2008-2010"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 13,
+            "ThemeFilterType": "Time Period",
+            "ThemeFilterDisplayText": "Year",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "2014"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 14,
+            "ThemeFilterType": "Race",
+            "ThemeFilterDisplayText": "Race/Ethnicity",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "All Races/Ethnicities"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 15,
+            "ThemeFilterType": "Gender",
+            "ThemeFilterDisplayText": "Gender",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "Both Genders"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 17,
+            "ThemeFilterType": "Patient Type",
+            "ThemeFilterDisplayText": "Patient Type",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "Total"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "Inpatient"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "Outpatient"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "Post-Acute Care"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 18,
+            "ThemeFilterType": "Race",
+            "ThemeFilterDisplayText": "Race/Ethnicity",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "All Races/Ethnicities"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "Black (Non-Hispanic)"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "White (Non-Hispanic)"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "Hispanic"
+               },
+               {
+                  "FilterOptionId": 5,
+                  "DisplayText": "American Indian and Alaskan Native"
+               },
+               {
+                  "FilterOptionId": 6,
+                  "DisplayText": "Asian and Pacific Islander"
+               }
+            ]
+         },
+         {
+            "ThemeFilterId": 19,
+            "ThemeFilterType": "Hospital Services",
+            "ThemeFilterDisplayText": "Hospital Services",
+            "ThemeFilterOptions": [
+               {
+                  "FilterOptionId": 1,
+                  "DisplayText": "Cardiac Intensive Care"
+               },
+               {
+                  "FilterOptionId": 2,
+                  "DisplayText": "Cardiac Rehabilitation"
+               },
+               {
+                  "FilterOptionId": 3,
+                  "DisplayText": "Emergency Department"
+               },
+               {
+                  "FilterOptionId": 4,
+                  "DisplayText": "Neurological Services"
+               }
+            ]
+         }
+      ]
+   },
+   "States": [
+      {
+         "Abbreviation": "AL",
+         "Fips": "01",
+         "Name": "Alabama"
+      },
+      {
+         "Abbreviation": "AK",
+         "Fips": "02",
+         "Name": "Alaska"
+      },
+      {
+         "Abbreviation": "AZ",
+         "Fips": "04",
+         "Name": "Arizona"
+      },
+      {
+         "Abbreviation": "AR",
+         "Fips": "05",
+         "Name": "Arkansas"
+      },
+      {
+         "Abbreviation": "CA",
+         "Fips": "06",
+         "Name": "California"
+      },
+      {
+         "Abbreviation": "CO",
+         "Fips": "08",
+         "Name": "Colorado"
+      },
+      {
+         "Abbreviation": "CT",
+         "Fips": "09",
+         "Name": "Connecticut"
+      },
+      {
+         "Abbreviation": "DE",
+         "Fips": "10",
+         "Name": "Delaware"
+      },
+      {
+         "Abbreviation": "DC",
+         "Fips": "11",
+         "Name": "District of Columbia"
+      },
+      {
+         "Abbreviation": "FL",
+         "Fips": "12",
+         "Name": "Florida"
+      },
+      {
+         "Abbreviation": "GA",
+         "Fips": "13",
+         "Name": "Georgia"
+      },
+      {
+         "Abbreviation": "HI",
+         "Fips": "15",
+         "Name": "Hawaii"
+      },
+      {
+         "Abbreviation": "ID",
+         "Fips": "16",
+         "Name": "Idaho"
+      },
+      {
+         "Abbreviation": "IL",
+         "Fips": "17",
+         "Name": "Illinois"
+      },
+      {
+         "Abbreviation": "IN",
+         "Fips": "18",
+         "Name": "Indiana"
+      },
+      {
+         "Abbreviation": "IA",
+         "Fips": "19",
+         "Name": "Iowa"
+      },
+      {
+         "Abbreviation": "KS",
+         "Fips": "20",
+         "Name": "Kansas"
+      },
+      {
+         "Abbreviation": "KY",
+         "Fips": "21",
+         "Name": "Kentucky"
+      },
+      {
+         "Abbreviation": "LA",
+         "Fips": "22",
+         "Name": "Louisiana"
+      },
+      {
+         "Abbreviation": "ME",
+         "Fips": "23",
+         "Name": "Maine"
+      },
+      {
+         "Abbreviation": "MD",
+         "Fips": "24",
+         "Name": "Maryland"
+      },
+      {
+         "Abbreviation": "MA",
+         "Fips": "25",
+         "Name": "Massachusetts"
+      },
+      {
+         "Abbreviation": "MI",
+         "Fips": "26",
+         "Name": "Michigan"
+      },
+      {
+         "Abbreviation": "MN",
+         "Fips": "27",
+         "Name": "Minnesota"
+      },
+      {
+         "Abbreviation": "MS",
+         "Fips": "28",
+         "Name": "Mississippi"
+      },
+      {
+         "Abbreviation": "MO",
+         "Fips": "29",
+         "Name": "Missouri"
+      },
+      {
+         "Abbreviation": "MT",
+         "Fips": "30",
+         "Name": "Montana"
+      },
+      {
+         "Abbreviation": "NE",
+         "Fips": "31",
+         "Name": "Nebraska"
+      },
+      {
+         "Abbreviation": "NV",
+         "Fips": "32",
+         "Name": "Nevada"
+      },
+      {
+         "Abbreviation": "NH",
+         "Fips": "33",
+         "Name": "New Hampshire"
+      },
+      {
+         "Abbreviation": "NJ",
+         "Fips": "34",
+         "Name": "New Jersey"
+      },
+      {
+         "Abbreviation": "NM",
+         "Fips": "35",
+         "Name": "New Mexico"
+      },
+      {
+         "Abbreviation": "NY",
+         "Fips": "36",
+         "Name": "New York"
+      },
+      {
+         "Abbreviation": "NC",
+         "Fips": "37",
+         "Name": "North Carolina"
+      },
+      {
+         "Abbreviation": "ND",
+         "Fips": "38",
+         "Name": "North Dakota"
+      },
+      {
+         "Abbreviation": "OH",
+         "Fips": "39",
+         "Name": "Ohio"
+      },
+      {
+         "Abbreviation": "OK",
+         "Fips": "40",
+         "Name": "Oklahoma"
+      },
+      {
+         "Abbreviation": "OR",
+         "Fips": "41",
+         "Name": "Oregon"
+      },
+      {
+         "Abbreviation": "PA",
+         "Fips": "42",
+         "Name": "Pennsylvania"
+      },
+      {
+         "Abbreviation": "RI",
+         "Fips": "44",
+         "Name": "Rhode Island"
+      },
+      {
+         "Abbreviation": "SC",
+         "Fips": "45",
+         "Name": "South Carolina"
+      },
+      {
+         "Abbreviation": "SD",
+         "Fips": "46",
+         "Name": "South Dakota"
+      },
+      {
+         "Abbreviation": "TN",
+         "Fips": "47",
+         "Name": "Tennessee"
+      },
+      {
+         "Abbreviation": "TX",
+         "Fips": "48",
+         "Name": "Texas"
+      },
+      {
+         "Abbreviation": "UT",
+         "Fips": "49",
+         "Name": "Utah"
+      },
+      {
+         "Abbreviation": "VT",
+         "Fips": "50",
+         "Name": "Vermont"
+      },
+      {
+         "Abbreviation": "VA",
+         "Fips": "51",
+         "Name": "Virginia"
+      },
+      {
+         "Abbreviation": "WA",
+         "Fips": "53",
+         "Name": "Washington"
+      },
+      {
+         "Abbreviation": "WV",
+         "Fips": "54",
+         "Name": "West Virginia"
+      },
+      {
+         "Abbreviation": "WI",
+         "Fips": "55",
+         "Name": "Wisconsin"
+      },
+      {
+         "Abbreviation": "WY",
+         "Fips": "56",
+         "Name": "Wyoming"
+      },
+      {
+         "Abbreviation": "AS",
+         "Fips": "60",
+         "Name": "American Samoa"
+      },
+      {
+         "Abbreviation": "GU",
+         "Fips": "66",
+         "Name": "Guam"
+      },
+      {
+         "Abbreviation": "MP",
+         "Fips": "69",
+         "Name": "Northern Mariana Islands"
+      },
+      {
+         "Abbreviation": "PR",
+         "Fips": "72",
+         "Name": "Puerto Rico"
+      },
+      {
+         "Abbreviation": "VI",
+         "Fips": "78",
+         "Name": "Virgin Islands"
+      }
+   ],
+   "QuickZooms": [
+      {
+         "QuickZoomId": 1,
+         "DisplayText": "Continental U.S.",
+         "ImageFileName": "conus.png",
+         "Extent": {
+            "XMax": -7400000,
+            "XMin": -1.4E7,
+            "YMax": 6400000,
+            "YMin": 2500000
+         }
+      },
+      {
+         "QuickZoomId": 2,
+         "DisplayText": "Alaska",
+         "ImageFileName": "alaska.png",
+         "Extent": {
+            "XMax": -1.44E7,
+            "XMin": -2.0E7,
+            "YMax": 1.15E7,
+            "YMin": 6600000
+         }
+      },
+      {
+         "QuickZoomId": 3,
+         "DisplayText": "Hawaii",
+         "ImageFileName": "hawaii.png",
+         "Extent": {
+            "XMax": -1.6955194E7,
+            "XMin": -1.7933588E7,
+            "YMax": 2691197.8,
+            "YMin": 1957402.4
+         }
+      },
+      {
+         "QuickZoomId": 4,
+         "DisplayText": "Puerto Rico",
+         "ImageFileName": "puerto_rico.png",
+         "Extent": {
+            "XMax": -7269025,
+            "XMin": -7513623.5,
+            "YMax": 2149551,
+            "YMin": 1966102.1
+         }
+      },
+      {
+         "QuickZoomId": 5,
+         "DisplayText": "U.S. Virgin Islands",
+         "ImageFileName": "virgin_islands.png",
+         "Extent": {
+            "XMax": -7073585.5,
+            "XMin": -7318184,
+            "YMax": 2111800,
+            "YMin": 1928351.1
+         }
+      },
+      {
+         "QuickZoomId": 6,
+         "DisplayText": "Guam",
+         "ImageFileName": "guam.png",
+         "Extent": {
+            "XMax": 1.6175961E7,
+            "XMin": 1.6053661E7,
+            "YMax": 1546827.2,
+            "YMin": 1455102.9
+         }
+      },
+      {
+         "QuickZoomId": 7,
+         "DisplayText": "American Samoa",
+         "ImageFileName": "american_samoa.png",
+         "Extent": {
+            "XMax": -1.885E7,
+            "XMin": -1.905E7,
+            "YMax": -1570000,
+            "YMin": -1630000
+         }
+      },
+      {
+         "QuickZoomId": 8,
+         "DisplayText": "Northern Mariana Islands",
+         "ImageFileName": "northern_mariana_islands.png",
+         "Extent": {
+            "XMax": 1.6436444E7,
+            "XMin": 1.5947247E7,
+            "YMax": 2250000,
+            "YMin": 1561000
+         }
+      }
+   ],
+   "WhatsNewItems": [
+      {
+         "whatsnewid": 1,
+         "title": "Updated Data Available",
+         "description": "Heart disease and stroke hospitalization data, health care costs, social and economic data, and overlay features, (e.g., new stroke center certifications) were updated or added.",
+         "url": "https://www.cdc.gov/dhdsp/maps/atlas/data-sources.html"
+      },
+      {
+         "whatsnewid": 3,
+         "title": "Download GIS Data",
+         "description": "Download map data as a shape file or geodatabase to be used in another mapping program.",
+         "url": "https://www.cdc.gov/dhdsp/maps/atlas/how-to-download-the-data.html"
+      },
+      {
+         "whatsnewid": 4,
+         "title": "Census Tract Data",
+         "description": "Updated Social and Economic data can be viewed at the census tract level when you select a state from the drop-down map area menu, then check “Show Census Tracts.”",
+         "url": "https://www.cdc.gov/dhdsp/maps/atlas/maps-of-other-data.html"
+      }
+   ],
+   "OverlayCategories": [
+      {
+         "OverlayCategoryId": 1,
+         "OverlayCategoryName": "Health Centers",
+         "Overlays": [
+            {
+               "OverlayId": 1,
+               "OverlayName": "Federally Qualified Health Centers",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 0,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            }
+         ]
+      },
+      {
+         "OverlayCategoryId": 4,
+         "OverlayCategoryName": "Hospitals with Listed Services",
+         "Overlays": [
+            {
+               "OverlayId": 3,
+               "OverlayName": "Hospitals (Short Term General)",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 1,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 7,
+               "OverlayName": "Emergency Departments",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 2,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 15,
+               "OverlayName": "Cardiac Catheterization",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 3,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 5,
+               "OverlayName": "Cardiac Intensive Care",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 4,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 6,
+               "OverlayName": "Cardiac Rehabilitation",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 5,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 16,
+               "OverlayName": "Cardiac Surgery",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 6,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 8,
+               "OverlayName": "Neurological Services",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 7,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 17,
+               "OverlayName": "Telehealth Stroke Care",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 8,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            }
+         ]
+      },
+      {
+         "OverlayCategoryId": 5,
+         "OverlayCategoryName": "Stroke Centers by Certification",
+         "Overlays": [
+            {
+               "OverlayId": 27,
+               "OverlayName": "Comprehensive - DNV GL",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 9,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 28,
+               "OverlayName": "Comprehensive - HFAP",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 10,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 26,
+               "OverlayName": "Comprehensive - Joint Commission ",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 11,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 2,
+               "OverlayName": "Primary - DNV GL",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 12,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 30,
+               "OverlayName": "Primary - HFAP",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 13,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 29,
+               "OverlayName": "Primary - Joint Commission",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 14,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 2048,
+               "OverlayName": "Acute Stroke Ready - DNV GL",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 15,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 2049,
+               "OverlayName": "Acute Stroke Ready - HFAP",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 16,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 2050,
+               "OverlayName": "Acute Stroke Ready - Joint Commission",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 17,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 2051,
+               "OverlayName": "Stroke Rehabilitation - Joint Commission",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 18,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 2052,
+               "OverlayName": "Thrombectomy Capable - Joint Commission",
+               "MapServiceName": "cdc_hospitals",
+               "LayerId": 19,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            }
+         ]
+      },
+      {
+         "OverlayCategoryId": 2,
+         "OverlayCategoryName": "Roads and Cities",
+         "Overlays": [
+            {
+               "OverlayId": 9,
+               "OverlayName": "Major Highways",
+               "MapServiceName": "cdc_base",
+               "LayerId": 1,
+               "DefaultVisible": false,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": false,
+               "Labels_Visible": false,
+               "Labels_Field": null,
+               "Labels_TextSymbol": null
+            },
+            {
+               "OverlayId": 10,
+               "OverlayName": "Large Cities",
+               "MapServiceName": "cdc_base",
+               "LayerId": 0,
+               "DefaultVisible": true,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": [
+                  {
+                     "levels": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                     ],
+                     "definition": "PCLASS >= QUOTE7QUOTE"
+                  },
+                  {
+                     "levels": [
+                        7,
+                        8
+                     ],
+                     "definition": "PCLASS >= QUOTE6QUOTE"
+                  },
+                  {
+                     "levels": [
+                        9,
+                        10
+                     ],
+                     "definition": "PCLASS >= QUOTE3QUOTE"
+                  },
+                  {
+                     "levels": [
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                     ],
+                     "definition": "PCLASS >= QUOTE2QUOTE"
+                  }
+               ],
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": true,
+               "Labels_Visible": true,
+               "Labels_Field": "NAME",
+               "Labels_TextSymbol": {
+                  "type": "esriTS",
+                  "color": [
+                     0,
+                     0,
+                     0,
+                     255
+                  ],
+                  "rightToLeft": false,
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "font": {
+                     "family": "Arial",
+                     "size": 8,
+                     "style": "normal",
+                     "weight": "bold",
+                     "decoration": "none"
+                  }
+               }
+            }
+         ]
+      },
+      {
+         "OverlayCategoryId": 3,
+         "OverlayCategoryName": "Other Boundaries",
+         "Overlays": [
+            {
+               "OverlayId": 11,
+               "OverlayName": "Congressional Districts (115th)",
+               "MapServiceName": "cdc_base",
+               "LayerId": 2,
+               "DefaultVisible": false,
+               "Filter": true,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": true,
+               "Labels_Visible": false,
+               "Labels_Field": "districtName",
+               "Labels_TextSymbol": {
+                  "type": "esriTS",
+                  "color": [
+                     0,
+                     77,
+                     168,
+                     255
+                  ],
+                  "rightToLeft": false,
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "font": {
+                     "family": "Arial",
+                     "size": 8,
+                     "style": "normal",
+                     "weight": "bold",
+                     "decoration": "none"
+                  }
+               }
+            },
+            {
+               "OverlayId": 14,
+               "OverlayName": "State Boundaries",
+               "MapServiceName": "cdc_boundaries",
+               "LayerId": 0,
+               "DefaultVisible": true,
+               "Filter": false,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": true,
+               "Labels_Visible": false,
+               "Labels_Field": "state_abbr",
+               "Labels_TextSymbol": {
+                  "type": "esriTS",
+                  "color": [
+                     0,
+                     0,
+                     0,
+                     255
+                  ],
+                  "rightToLeft": false,
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "font": {
+                     "family": "Arial",
+                     "size": 11,
+                     "style": "normal",
+                     "weight": "bold",
+                     "decoration": "none"
+                  }
+               }
+            },
+            {
+               "OverlayId": 20,
+               "OverlayName": "County Boundaries",
+               "MapServiceName": "cdc_boundaries",
+               "LayerId": 1,
+               "DefaultVisible": false,
+               "Filter": true,
+               "Override": null,
+               "OnTop": true,
+               "LayerDefs": null,
+               "ScaleDependent": false,
+               "Labels_StandaloneLayer": true,
+               "Labels_Visible": false,
+               "Labels_Field": "cnty_name",
+               "Labels_TextSymbol": {
+                  "type": "esriTS",
+                  "color": [
+                     0,
+                     0,
+                     0,
+                     255
+                  ],
+                  "rightToLeft": false,
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "font": {
+                     "family": "Arial",
+                     "size": 8,
+                     "style": "normal",
+                     "weight": "bold",
+                     "decoration": "none"
+                  }
+               }
+            },
+            {
+               "OverlayId": 23,
+               "OverlayName": "ZIP Code Boundaries",
+               "MapServiceName": "cdc_boundaries",
+               "LayerId": 3,
+               "DefaultVisible": false,
+               "Filter": true,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": true,
+               "Labels_StandaloneLayer": true,
+               "Labels_Visible": false,
+               "Labels_Field": "ZIP",
+               "Labels_TextSymbol": {
+                  "type": "esriTS",
+                  "color": [
+                     0,
+                     0,
+                     0,
+                     255
+                  ],
+                  "rightToLeft": false,
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "font": {
+                     "family": "Arial",
+                     "size": 7,
+                     "style": "normal",
+                     "weight": "bold",
+                     "decoration": "none"
+                  }
+               }
+            },
+            {
+               "OverlayId": 24,
+               "OverlayName": "Census Tract",
+               "MapServiceName": "cdc_boundaries",
+               "LayerId": 2,
+               "DefaultVisible": false,
+               "Filter": true,
+               "Override": null,
+               "OnTop": false,
+               "LayerDefs": null,
+               "ScaleDependent": true,
+               "Labels_StandaloneLayer": true,
+               "Labels_Visible": false,
+               "Labels_Field": "NAME",
+               "Labels_TextSymbol": {
+                  "type": "esriTS",
+                  "color": [
+                     0,
+                     0,
+                     0,
+                     255
+                  ],
+                  "rightToLeft": false,
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "font": {
+                     "family": "Arial",
+                     "size": 7,
+                     "style": "normal",
+                     "weight": "bold",
+                     "decoration": "none"
+                  }
+               }
+            }
+         ]
+      }
+   ],
+   "VectorLayers": [
+      {
+         "VectorLayerId": 1,
+         "VectorLayerName": "US_COUNTIES",
+         "GeographyType": "county",
+         "IdFieldName": "cnty_fips",
+         "FilterFieldName": "state_fips",
+         "SearchFieldNames": [
+            "cnty_name",
+            "state_abbr"
+         ],
+         "MapServiceUrl": "/arcgis/rest/services/CDC_Boundaries/MapServer/1"
+      },
+      {
+         "VectorLayerId": 2,
+         "VectorLayerName": "US_STATES",
+         "GeographyType": "state",
+         "IdFieldName": "state_fips",
+         "FilterFieldName": null,
+         "SearchFieldNames": [
+            "state_name",
+            "state_abbr"
+         ],
+         "MapServiceUrl": "/arcgis/rest/services/CDC_Boundaries/MapServer/0"
+      }
+   ]
+}

@@ -1,0 +1,2846 @@
+RC	RN
+I4	Body Fl C4
+es	PLT Estimate
+d3	Uric Acid
+bd	# Band
+ba	# Basophils
+eo	# Eosinophils
+ly	# Lymphocytes
+mt	# Meta
+mx	# Mixed
+mo	# Monocytes
+nt	# Neutrophils
+pm	# Promyelo
+A0	# Sperm / 25HPF
+B3	#Baso's
+BJ	#Baso's
+bl	#Blasts
+my	#Myelo
+BG	#Other Cells
+iD	% Albumin
+iS	% Albumin
+iE	% Alpha 1
+iT	% Alpha 1
+iF	% Alpha 2
+iU	% Alpha 2
+B4	% BASOPHILS
+b1	% Bands
+bD	% Bands
+b.	% Basophils
+bA	% Basophils
+iG	% Beta
+iV	% Beta
+b2	% Blasts
+bL	% Blasts
+BF	% Crenated RBC
+uN	% EOS
+BB	% Eosinophils
+BO	% Eosinophils
+e.	% Eosinophils
+eO	% Eosinophils
+hh	% Fetal RBC
+Z7	% Free Testosterone
+BE	% Fresh RBC's
+iH	% Gamma
+iW	% Gamma
+BC	% Lg Mono Cells
+BQ	% Lg Mono Cells
+BA	% Lymphocytes
+BN	% Lymphocytes
+l1	% Lymphocytes
+lY	% Lymphocytes
+Hg	% M-protein
+WB	% M-protein
+mT	% Metamyelocyte
+m2	% Metamyelos
+m1	% Mixed
+C4	% Mixed Cells
+m.	% Monocytes
+mO	% Monocytes
+m3	% Myelocytes
+mY	% Myelocytes
+BM	% Neutrophils
+Bz	% Neutrophils
+n1	% Neutrophils
+nT	% Neutrophils
+uO	% Neuts
+OB	% Parasitemia
+p.	% Promyelocytes
+pM	% Promyelocytes
+rw	% RDW
+r2	% Retic Manual
+r3	% Retic auto
+kv	% Sat/R
+BK	%Basophils
+BH	%Other Cells
+BR	%Other Cells
+iM	%Total Urine
+fn	0.5 Hr Glucose
+fo	1 Hr Glucose
+fs	1 Hr Glucose
+fI	1 Hr. Glucose
+fJ	1.5 Hr Glucose
+fp	1.5 Hr Glucose
+2c	10 Min Post Ex:
+t1	105 Min. GH Stim
+Y4	11-Deoxycortisol
+t2	120 Min.GH Glu Suppression
+t3	135 Min. GH Stim
+MJ	15 Min ACTH
+MK	15 Min Cortisol
+sS	15 Min. GH Stim
+fF	15 min. Glucose
+t4	150 Min. GH Stim
+lD	17-Ketogenic Steroids
+Xp	17-Ketosteroids
+Z3	17-OH-Pregnenolone
+YD	17-OH-Progesterone
+UO	17-OHP Comments
+Xo	17OH Corticosteroids Ur
+As	1:1 Mix 0 Min.
+Ak	1:1 Mix 0 min.
+An	1:1 Mix 60 min.
+Av	1:1 Mix, 60 Min.
+fk	1:128
+fh	1:16
+fd	1:2
+fi	1:32
+fe	1:4
+fj	1:64
+fg	1:8
+fD	2 Hr Glucose
+fK	2 Hr Glucose
+fq	2 Hr Glucose
+ft	2 Hr Glucose
+Ov	20% Bile
+QT	25 Degree Growth
+fu	3 Hr Glucose
+fv	3 Hr Glucose
+MH	30 Min ACTH
+Eb	30 Min Cortisol
+sT	30 min. GH Stim
+fG	30 min. Glucose
+QV	37 Degree Growth
+fw	4 Hr Glucose
+QS	42 Degree Growth
+QW	45 Degree Growth
+MI	45 Min ACTH
+ML	45 Min Cortisol
+Ml	45 Min Cortisol
+sU	45 min. GH Stim
+fH	45 min. Glucose
+fx	5 Hr Glucose
+2a	5 Min Post Ex:
+QO	5% NaCl (AFB)
+Xk	5'Nucleotidase
+18	5-Flucytosine
+Xm	5-HIAA Urine
+fy	6 Hr Glucose
+Pt	6.5% NaCl
+MP	60 Min ACTH
+Ec	60 Min Cortisol
+sV	60 Min. GH Stim
+su	75 Min. GH Stim
+t0	90 Min. GH Stim
+se	A-O Smear
+gd	A1 Antitrypsin
+3y	A1C Total Hgb
+2i	A1C Validation
+WC	A1C-2
+Fh	ABO AND RH TYPING
+HD	ABO Type
+Fr	ACTH
+0X	ADDBIO
+0W	ADDDNA
+ns	AER
+GH	AF-AFP (ug/ml)
+GJ	AF-AFP Comment
+GI	AF-AFP MoM
+sq	AFB Final Result
+p7	AFB Sensitivities
+sx	AFB Smear
+QP	AFB Urease
+ss	AFB............:
+f3	AFP
+IJ	AFP (ng/mL)
+IK	AFP MoM
+Ho	AFP MoM-AF
+q8	AFP Tumor Marker CSF
+Hn	AFP-Amniotic Fluid
+ZU	AGBM Ab, EIA
+QE	ALA
+HM	ALT
+cv	ALT (SGPT)
+ms	ANA (SYNOVIAL FLUID)
+jR	ANA Pattern
+4R	ANA Titer:
+MQ	APC Resistance Ratio
+R3	API 20C
+0A	APTT
+Ad	APTT
+Ud	APTT
+k0	APTT Control
+kZ	APTT Patient
+1Q	ARC Ab Identification
+kC	ASO Titer
+cu	AST (GOT)
+nu	AaDO2
+ar	Absolute Retic
+ax	Absolute Retic
+HA	Accession Number (BB)
+eF	Acet LD Date
+eG	Acet LD Time
+eH	Acet ND Date
+eI	Acet ND Time
+QU	Acetamide
+eE	Acetaminophen
+P5	Acetate
+hE	Acetycholinesterase, Amn FLld
+YH	Acetylcholine Recep Binding
+=f	Acid Fast Stain
+oT	Acid Hemolysis Test
+lF	Acid P'tase, Prostatic
+ek	Acid Phos
+hP	Acute/Convalesence
+Vk	Acylcarnitine
+gB	Additional Notes:
+vU	Adeno
+Qn	Adenovirus
+zE	Adneosine Deaminase Pleural Fl
+K6	Adrenal(CAH)-Wash. NB Screen
+=1	Aer Def ID
+sv	Aerobic Final
+Sw	Aerobic Sub Culture
+TB	Age at Collection
+Q5	Air/Ana Tolerence
+J9	Albumin
+LC	Albumin
+cs	Albumin
+iN	Albumin
+T3	Albumin (SPE)
+KY	Albumin Index
+AN	Albumin, CSF
+Lq	Albumin, CSF
+MY	Albumin,CSF
+AM	Albumin- BF..:
+er	Alcohol
+Vo	Alcohol (Ur) OD
+N7	Alder tree
+N8	Alder tree
+YL	Aldolase
+Xr	Aldosterone Ur
+YS	Aldosterone, by RIA
+YN	Alk. Phos Isoenzymes
+cw	Alkaline Phos
+Bs	All CSF mononuclear cells
+8d	Allergen QC d1
+8g	Allergen QC g6
+KJ	Allergens (Patient)
+p9	Allopurinol
+zz	Almond
+yo	Almond IgE
+MZ	Alpha 1
+iO	Alpha 1
+iz	Alpha 1
+a5	Alpha 1 Antitryp MA
+Mb	Alpha 2
+iA	Alpha 2
+iP	Alpha 2
+Yw	Alpha Subunit
+Ne	Alternaris alternata mold
+Nf	Alternaris alternata mold
+bn	Aluminum, Serum
+eW	Ami + Nor
+Pw	Amikacin
+qL	Amikacin
+bh	Amiodarone, Serum
+eX	Amitrip LD Date
+kH	Amitrip LD Date
+eY	Amitrip LD Time
+kI	Amitrip LD Time
+eZ	Amitrip ND Date
+kJ	Amitrip ND Date
+i5	Amitrip ND Time
+kK	Amitrip ND Time
+eV	Amitriptyline
+kn	Amitriptyline, Serum
+pp	Ammonia Arterial
+em	Ammonia Venous
+Zm	Amorphous
+uw	Amorphous
+qI	Amoxapine
+RJ	Amp/Sulbactam
+JO	Amphetamine Confirm (OB)
+JM	Amphetamine Sc (OB)
+Gk	Amphetamines Screen
+gn	Amphetamines:
+tH	Amphetamines:
+0l	Amphotericin B
+RH	Ampicillin
+d5	Amy Ur Random
+cx	Amylase
+LE	Amylase (clinic)
+d6	Amylase Urine
+d7	Amylase Urine
+AL	Amylase- BF...:
+p0	Anaerobe E-test
+Sx	Anaerobic Subculture
+P7	Andrades Adonitol
+P6	Andrades Arabinose
+PE	Andrades Raffinose
+PF	Andrades Salicin
+PG	Andrades Sorbitol
+PI	Andrades Xylose
+PA	Andrades lactose
+PD	Andrades maltose
+YX	Androstenedione
+rS	Angelman
+rr	Angelman D15S10 probe
+rq	Angelman FISH analysis
+ro	Angelman SNRPN probe
+7C	Anidulafungin
+3a	Anion Gap
+yu	Anion Gap
+3H	Anti Endomysial Ab
+bO	Anti Sperm Antibody
+ld	Anti-Adrenal AB, IFA
+Eu	Anti-Cardiolipin Anti IgA
+jX	Anti-Cent Titer
+jW	Anti-Centromere AB
+jq	Anti-DNA AB
+a3	Anti-ENA
+jv	Anti-Microsome (TPO) Ab
+jY	Anti-Mitoch AB
+jZ	Anti-Mitoch Titer
+mk	Anti-Myocardial Ab, IFA
+29	Anti-Ovary Ab Titer
+j2	Anti-Parietal Cell AB
+j4	Anti-Parietal Titer
+on	Anti-Skin Antibodies, IFA
+j0	Anti-Smooth Muscle AB
+j1	Anti-Smooth Muscle Titer
+jp	Anti-nDNA Titer
+ZD	AntiThrom III
+Fk	Antib. ID for Type and Screen
+ot	Antibiotic Sensitivity Testing
+vA	Antibiotics:
+Fj	Antibody Identification
+Fi	Antibody Screen
+HB	Antibody Titer (BB)
+HC	Antigen Typing (BB)
+jQ	Antinuclear AB Screen
+2j	Appearance
+Bq	Appearance
+Zf	Appearance
+ed	Appearance
+uj	Appearance
+iy	Approved By
+n0	Arbovirus IgG Ab Panel
+lu	CMV IgM Ab, EIA
+tQ	CMV,Rubella,Herpes
+C9	CMVG QC
+t5	CO-GM1 Triad Auto Ab
+cd	CO2
+EI	COHb
+Hz	CSF IgA
+s2	CSF IgA, IgM, IgG Quant
+Hy	CSF IgG
+I5	CSF IgM
+lR	CSF Protein Electro
+PO	CTA Arabinose
+P8	CTA Dextrose
+P9	CTA Inositol
+PP	CTA Lactose
+PQ	CTA Mannitol
+PR	CTA Raffinose
+PS	CTA Sorbitol
+PH	CTA Sucrose
+rD	CTA fructose
+PB	CTA maltose
+rE	CTA trehalose
+VI	CTRL-QUAD
+1T	CYST FLUID PTH
+dZ	Ca Urine Random
+bp	Cadmium, Blood
+n3	Cadmium, Urine
+Vq	Caffeic acid
+lN	Caffeine, Serum
+A9	Calc. Factor
+Bi	Calc. Factor
+Yo	Calcitonin
+ck	Calcium
+dO	Calcium Urine
+qW	Calcium, Frac. Excretion
+dN	Calcium, Urine
+s1	Calcium, Urine
+AD	Calcium- BF..:
+Xw	Calculated Total (E+NE)
+X1	Called to:
+Da	Calprotectin, Stool
+Sh	Camp Test
+PL	Campy Growth
+Gm	Cannabinoid Screen
+tI	Cannabinoids(THC):
+2z	Cannabinoids:
+6M	Cannabinoids:
+gj	Cannabinoids:
+cJ	Carbam LD Date
+kP	Carbam LD Date
+cK	Carbam LD Time
+kQ	Carbam LD Time
+kR	Carbam ND Date
+cL	Carbam ND Time
+cM	Carbam ND Time
+kS	Carbam ND Time
+cD	Carbamazepine
+kb	Carbamazepine
+o6	Carbamazepine free
+RL	Carbenicillin
+Ew	Carboxyhemoglo
+XE	Cardiolipin Antibody IgM
+Et	Cardiolipin IgG, EIA
+Ev	Cardiolipin IgM, EIA
+os	Carisoprodol
+zY	Carnitine
+zZ	Carnitine Urine
+XN	Carotene
+zp	Cashew
+zs	Cashew
+20	Caspofungin
+1r	Cast/uL
+QJ	Cat 15%
+NT	Cat dander
+NU	Cat dander
+QI	Catalase
+QL	Catalase Heat Stable
+Xu	Catecholamine Frac Urine
+Z0	Catecholamines, Total
+0P	Cefaclor
+RO	Cefazolin
+RP	Cefepime
+Pi	Cefixime
+RR	Cefoperazone
+RS	Cefotaxime
+RU	Cefotetan
+D1	Cefoxitin
+RT	Cefoxitin
+28	Cefoxitin Screen
+SD	Cefpodoxime
+Uk	Cefpodoxime
+RV	Ceftazidime
+sN	Ceftriax/Cefotax
+=B	Ceftriaxone
+D2	Ceftriaxone
+RX	Ceftriaxone
+0Q	Ceftriaxone mening
+aw	Ceftriaxone non-men
+S8	Cefuroxime
+Un	Cefuroxime
+=5	Cefuroxime Axetil
+FX	Cells Analyzed
+FY	Cells Karyotyped
+RY	Cephalothin
+gb	Ceruloplasmin
+KP	Cesarean Scheduled?
+tW	Chlam Sp Diff Ab Panel
+Sc	Chlamydia Confirmation
+sP	Chlamydia Final Results
+aW	Chlamydia Group Ab, IF
+Qf	Chlamydia IFA
+jO	Chlamydia Prelim 1
+jP	Chlamydia culture final result
+3Q	Chlamydia trach
+3U	Chlamydia trach.
+jw	Chlamydia:
+le	Chloral Hydrate
+Pr	Chloramphenicol
+mC	Chloramphenicol
+mD	Chlordiazepoxide
+cc	Chloride
+yA	Chloride POCT
+ni	Chloride Urine
+nj	Chloride Urine
+qo	Chloride, WB
+Ax	Chloride- BF.:
+nI	Chlorpromazine (Thorazine)
+i9	Choc/Sub
+RW	Chocolate
+AA	Chol- BF.....:
+gJ	Chol/HDL Chol
+ee	Cholesterol
+Dz	Cholinest Dibuc
+XJ	Cholinesterase, RBC
+mf	Chromium 24 Hr Urine
+fL	Chromium, plasma
+W4	Chromogranin A
+K8	Chylomicrons
+ec	Chylomicrons
+oi	Cimetidine
+Ra	Ciprofloxacin
+3K	Circulating Immune Panel
+lt	Citrate, 24 hr Urine
+Vh	Citrulline (CCP) Antibody
+nh	Cl Urine Random
+Nb	Cladosporium herbarum mold
+Nd	Cladosporium herbarum mold
+0N	Clarithromycin
+d8	Clearance
+Re	Clindamycin
+LV	Clinical Brief
+wj	Clinical Indic
+KN	Clinical Indication
+ZZ	Clinical Information:
+uH	Clinitest
+br	Clomipramine, Serum
+bb	Clonazepam, Serum
+m8	Clonidine (Catapres)
+h9	Clorazepate (Tranzene)
+pS	Clostridium difficile toxin
+QR	Clotest
+mE	Clozapine (Clozaril)
+tx	Clue Cells
+Cz	Co-Path Case No.:
+Dt	Co-receptor Tropism
+wN	CoPath Case No.:
+oG	Cobalt
+go	Cocaine Metabol:
+tJ	Cocaine Metabolite:
+Gn	Cocaine Metabolites Screen
+XB	Cocaine and Metabol Screen
+wA	Coccidio immitis ID by DNA Prb
+pH	Coccidioides Ab Panel
+lw	Coccidioides immitis, CF
+O9	Codfish
+OA	Codfish
+jt	Cold Agglutinin Titer
+ju	Cold Aggultinin
+23	Colistin
+=F	Colistin
+QB	Colistin (10ug)
+3O	Collagen/ADP
+3N	Collagen/EPI
+CF	Collect and Hold
+M_	Collection Methods
+XL	Collection Period
+A3	Collection Time
+2D	Collection site:
+Pd	Coloney Count
+st	Colony Count
+2h	Color
+Bp	Color
+Yd	Color
+Ze	Color
+ub	Color
+pi	Colorado Tick Fever
+bt	Combined Total
+bx	Combined Total
+Rc	Comment
+Yl	Comment
+1d	Comments
+AZ	Comments
+Ly	Comments
+ZA	Comments
+hc	Comments
+pD	Comments
+uS	Comments
+1f	Comments for ABS
+1e	Comments for DAT
+te	Comments:
+o0	Complement Component C6
+o1	Complement Component C7
+o5	Complement Component C8
+o4	Complement Component C9
+r5	Complement Total
+ZX	Complement, Total (CH50)
+Fo	Component Availability
+G6	Component Disposition #1
+G7	Component Disposition #2
+2J	Concentration expected:
+2L	Concentration:
+1n	Conductivity
+2U	Confirm actual collection time
+sX	Contaminated Blood Culture
+Wa	Control Cold
+Wb	Control warm
+oO	Cooper, Liver Tissue
+rp	Copper
+bZ	Copper, 24 Hr Urine
+f0	Copper, Serum
+zd	Corn
+ze	Corn
+ZF	Cort,Dexam.Sup
+li	Corticosterone, Serum
+2E	Cortisol
+fZ	Cortisol
+WK	Cortisol Free Serum
+7K	Cortisol, 60 min
+7J	Cortisol, Baseline
+0C	Cortisol, Salivary
+ND	Cottonwood tree
+NE	Cottonwood tree
+Ab	Coumadin Ther?
+mF	Coumadin, Plasma
+Bc	Count
+Bl	Count
+Ba	Count 1
+Bj	Count 1
+Bb	Count 2
+Bk	Count 2
+ua	County of Residence:
+d1	Creat Ur Random
+ky	Creat Urine
+dV	Creat, Urine
+wI	Creatine
+qJ	Creatine, Urine
+yw	Creatinine POCT
+Xt	Creatinine Random Urine
+ci	Creatinine Ser
+Xn	Creatinine Ur
+Xj	Creatinine Urine
+gm	Creatinine, Random Urine
+s0	Creatinine, Ur
+6A	Creatinine, Urine
+qv	Creatinine, WB
+bc	Creatinine- BF:
+pG	Creutzfeldt-Jacob Detctor
+p5	Crossmatch Analysis
+jN	Cryofibrinogen
+lO	Cryoglobulins, Quant
+2u	Cryptococcus Ag CSF
+tB	Cryptococcus Ag Serum
+tb	Cryptosporidium Exam:
+R4	Cryptosporidium FA
+Bo	Crystal Exam, BF
+VK	Culture Report
+Mc	Culture Result.:
+sa	Culture Site
+ux	Cultured
+mG	Cyanide, Blood
+pV	Cyclic AMP
+z5	Cyclo LD Date
+z6	Cyclo LD Time
+z7	Cyclo ND Date
+z8	Cyclo ND Time
+lq	Cyclospora Exam
+1J	Cyclosporin, EIA
+CY	Cyclosporine
+jM	Cyroglobulin
+q7	Cysticercosis Ab, CSF
+m7	Cysticercosis Ab, Serum
+ff	Cystine
+h0	Cystine, Qual, Urine
+G5	Cyto Number
+u8	Cyto Sputum Biling
+xn	Cytogen Communication
+vC	Cytology Washings
+Ah	D-Dimer
+Ai	D-Dimer, Semiquantitative
+oN	D-Lactate Acid
+r7	D-Zone
+Gw	DD Ordered to
+NO	DF Dust Mite
+NN	DF dust mite
+kq	DHEA Sulfate
+GD	DIAGNOSIS
+Fp	DIRECTOR:
+as	DNA Estraction
+VD	DNASE-QUAD
+bU	DNase-B Ab
+NQ	DP Dust Mite
+NP	DP dust mite
+7e	DVV confirm Ratio
+7d	DVV test
+27	DZONE
+=D	Daptomycin
+Us	Daptomycin
+IE	Date (Gest.Age Based On)
+GZ	Date End Collection (Urine)
+KO	Date If Cesarean?
+6Y	Date Orig Coll
+GX	Date Start Collection (urine)
+qd	Date of Culture
+IW	Days Gest. Age Based On
+oU	Delta Aminolevulinic Acid
+Y6	Deoxycorticosterone
+Xi	Deoxypyridinoline 24 Hr Urine
+2W	Derivative Lot
+bi	Desethylamiodarone
+e2	Desip LD Date
+e3	Desip LD Time
+e4	Desip ND Date
+e5	Desip ND Time
+e1	Desipramine
+kl	Desipramine Serum
+kj	Desipramine/R
+PJ	Arginine
+Y9	Arginine Vasopressin
+bo	Arsenic, 24 hr Urine
+bk	Arsenic, Blood
+Wp	Arsenic, Urine
+nH	Ascorbic Acid
+NX	Aspergillus fumigatus mold
+NY	Aspergillus fumigatus mold
+3P	Aspirin Intake
+SC	Augmentin
+Sz	Augmentin
+NV	Aus.Parrot/Parakeet Feath
+NW	Aus.Parrot/Parakeet Feath
+Ic	Ave. Risk for Mat Age 1:
+IR	Ave. Risk for Maternal Age
+0O	Azithromycin
+Pu	Aztreonam
+zT	B Cell Clonality by PCR
+lj	B pertussis Ab Panel
+n9	B pertussis IgG Immune
+QF	B-glu
+Os	B-lact
+ae	B.henselae IgM
+4B	B.pertussis DNA,PCR
+af	B.quintana IgG
+ag	B.quintana IgM
+Gr	B12
+f1	B12
+Gj	B2 Microglb,CSF
+oe	B2 Transferrin
+I8	BB Miscellaneous
+pu	BIO Evaluation
+HZ	BIO Results
+2A	BNP
+Uy	BR Direct Tube Coag
+cj	BUN
+yx	BUN POCT
+qp	BUN, WB
+3r	B_FLH
+3o	B_FSC
+3q	B_FSCW
+Q6	Ba/Mac
+1s	Bact/uL
+Zi	Bacteria
+us	Bacteria
+o8	Bacterial Meningitis CSF
+rb	Band 5-1-1(p)/c100(p)
+4N	Band Methodology
+rd	Band NS5
+GK	Band Resolution
+GT	Band Resolution
+rf	Band c22p
+re	Band c33C
+rg	Band hSOD
+Gp	Barbiturates
+gk	Barbiturates:
+tL	Barbiturates:
+ad	Bartonella Ab Panel
+g8	Base Excess
+gO	Base Excess
+if	Base Excess
+at	Base Excess-POC
+2X	Baseline 1:
+2Y	Baseline 2:
+MG	Baseline ACTH
+Ea	Baseline Cort
+sR	Baseline GH Glu Suppression
+H3	Benzodiazepine Confirmation
+Gl	Benzodiazepines Screen
+d9	Benzodiazepines:
+tG	Benzodiazepines:
+lc	Beryllium Exposure Biouptake
+iB	Beta
+iQ	Beta
+Md	Beta Globulin,CSF
+V8	Beta Hemolysis
+W5	Beta Hydroxybutyrate
+h4	Bile Acids
+m9	Bile Acids (Cholylglycine)
+PK	Bile Esculin
+On	Bile Solubility
+cr	Bili
+Zc	Bilirubin
+Zt	Bilirubin
+uo	Bilirubin
+AE	Bilirubin- BF.:
+Gf	Bill Item
+Hq	Bill Item (Salem Panel)
+WO	Bill MWB
+bR	Binding Location IgA
+bP	Binding Location IgG
+bT	Binding Location IgM
+pW	Bioavailable Testosterone
+pY	Biotinidase
+N5	Birch tree
+N6	Birch tree
+TA	Birth Weight
+m6	Bismuth, Serum
+Ag	Bleeding Time
+Zd	Blood
+Zy	Blood
+uF	Blood
+up	Blood
+VJ	Blood Culture Result:
+2V	Blood Derivative Description
+p1	Blood Product Description
+F7	Body Fluid Occult Blood
+Qy	Boiled VI
+YQ	Bone Isoenzyme
+bJ	Bone Marrow Prep
+Lx	Bordetella Pertussis
+zf	Brazil nut
+zg	Brazil nut
+m0	Bromides, Serum
+iI	Bruc/Sub
+wi	Brucella Ab IgG,IgM
+lK	Bupropion
+mA	Butalbital, Serum
+X2	By:
+gh	C Reactive Prot
+Ym	C-Peptide
+3V	C.Trachomatis
+9V	C.diff PCR
+jf	C.diff Toxin/Ag
+aD	C1 Esterase Inhib, Total
+a2	C1 Esterase Inhibitor
+lL	C1Q Binding Assay
+aE	C1Q, Complement
+lP	C1q Binding Assay
+a6	C2, Serum
+gf	C3
+aC	C3b Binding Assay
+gg	C4
+YI	CA 19-9
+lM	CA 27.29
+2m	CA-125
+0j	CA-125, CIA
+WQ	CA-125, CIA, Old
+iX	CA-125, RIA
+T8	CAH Comments
+wo	CAR Auto Antibody
+bf	CBC Comments
+o2	CBG-Free Cortisol
+Qz	CCA
+Dq	CCP Intrepretation
+tT	CD4 % (T Cell)
+tS	CD4 (T Cell)
+xS	CD4/CD8 Ratio
+wq	CD59 on RBC's
+Wm	CD66b on WBC's
+Vd	CD8
+wP	CD8 %
+mw	CEA
+Cb	CEA, Body Fluid
+6Q	CEA, Immulite
+T7	CH Comments
+cz	CK
+de	CK sequence #
+cE	CK,Cardiac
+cF	CKMB RLB
+LH	CKMB - BKC
+2r	CLARITHROMYCIN SUSCEP
+sI	CMG Rate from Axsym
+WN	CMV DNA QUANT by PCR
+oK	CMV DNA by PCR
+wz	CMV DNA by PCR
+Qk	CMV IFA
+Lo	CMV IgG Ab
+mX	Mixed
+C5	Mixed Cells Absolute
+gY	Mode
+QZ	Modified Acid Fast
+=p	Mold Def ID
+MT	Mono
+je	Mono
+ln	Moricizine (Ethmozine)
+RC	Morph Comment
+A1	Motility
+A7	Motility
+PW	Motility
+Rs	Motility (Room Temp)
+5K	Moxifloxacin
+uu	Mucous
+Zk	Mucus
+y5	Mugwort
+y6	Mugwort
+IX	Multiple Births?
+Nh	Multiple Sclerosis Panel
+ap	Mumps Ab IgM, IFA
+aV	Mumps IgG Ab
+wv	Mumps Viral Culture
+Db	MumpsG QC
+aU	Muramidase (Lysozyme), Serum
+n5	Muramidase (Lysozyme), Urine
+ya	Mutation Detected
+s3	Mycobac TB.DNA,PCR
+zO	Mycophenolic Acid
+ws	Mycoplas/Ureaplas Clt
+oJ	Mycoplasma pneumo DNA
+Qa	Mycosel
+YT	Myelin Basic Protein
+Xc	Myeloperoxidase Ab
+XD	Myocplasma pneumo Ab by CF
+uI	Myoglobin Screen
+rz	Myoglobin, Quant, Ur
+4E	N Gonorrhoeae
+sB	N Men A C Y W135
+sD	N Men B/E coli K1
+3R	N. gonorrhoeae
+c8	NAPA
+i1	NAPA
+j7	NAPA/R
+KF	NBS Kit Number
+2f	NCC's / cu mm
+R0	NF Plus
+M9	NMP-22
+Pm	NOVO (0-16 R)
+nr	NRBC
+nb	Na Urine Random
+Pp	Naladixic Acid
+1V	Negative Conctrol
+�0	Neogen Screen pending
+W1	Neopterin
+W6	Neuron Specific Enolase
+oD	Neuronal Nuclear Hu Ab
+ts	Neutral Fat
+Bv	Neutrophils Counted
+HW	Newborn Screen
+ED	Next Dose Date
+EE	Next Dose Time
+Px	Niacin
+nV	Nickel, 24 hour urine
+ll	Nickel, Serum
+n6	Nicotine and Metabolites
+nU	Nifedipine
+PY	Nitrate
+pA	Nitrate, Blood
+Ow	Nitrate-Anaerobic
+B6	Nitrite
+Zv	Nitrite
+uD	Nitrite
+ug	Nitrite
+uh	Nitrite
+Rq	Nitrofurantoin
+t7	No of Cells Counted
+x6	Nocardia Screen
+ik	Non-Glyco Fr Y
+tu	Non-Stool Results
+uZ	Nor Last Dose Date
+bw	Nordoxepin
+Yy	Norepinephrine
+Xv	Norepinephrine 24Hr Urine
+Po	Norfloxacin
+by	Norfluoxetine, Serum
+Aj	Norm Pool, 0 min.
+AV	Normal Forms
+Aq	Normal Pool 0 Min.
+At	Normal Pool 60 Min.
+Al	Normal Pool 60 min
+LA	Normetanephrine
+J0	Norpace LD Date
+u0	Norpace LD Time
+u1	Norpace ND Date
+u2	Norpace ND Time
+eR	Nortrip LD Date
+kL	Nortrip LD Date
+eS	Nortrip LD Time
+kM	Nortrip LD Time
+eT	Nortrip ND Date
+eU	Nortrip ND Time
+kO	Nortrip ND Time
+kN	Nortrip next dose date
+Oj	Nortriptyline
+Ok	Nortriptyline
+eQ	Nortriptyline
+km	Nortriptyline
+UK	Nucleated Cells
+b4	O2 Saturation
+g9	O2 Saturation
+gP	O2 Saturation
+ig	O2 Saturation
+yp	O2HB POC
+EF	O2Hb
+JN	OD Amphetamine (OB)
+Vy	OD-Alcohol Urine
+Ia	OD-Amphetamine Screen
+Ig	OD-Barbiturate Screen
+ha	OD-Benzodiazipine
+JT	OD-Cannabinoids
+Ij	OD-Cocaine Metabolite
+C3	OD-Fentanyl
+Ih	OD-Methadone Screen
+Ii	OD-Opiate Screen
+4H	OD-Oxycodone
+JU	OD-Phencyclidine
+JV	OD-Propoxyphene
+PZ	OF Dextrose
+Pe	OF Lactose
+Pf	OF Maltose
+Pg	OF Mannitol
+Ph	OF Sucrose
+3F	OHSU Pharmacy #:
+5D	OHSU Pt location
+VE	ONPG-MOT
+Le	OSB Risk Flag
+NF	Oak tree
+NG	Oak tree
+1b	Occ Health Panel Spec Gr Item
+0B	Occ Health Panel Spec Item
+1a	Occ Health Panel Spec Item
+1c	Occ Health Panel Spec Item
+Pl	Ofloxacin
+Mf	Oligoclonal Bands
+DN	Oncotype DX
+H4	Opi,Oxy Conf.
+Go	Opiates Screen
+gq	Opiates:
+tK	Opiates:
+35	Organic Bases, Screen
+Gq	Organic Bases, Screen
+KA	Organic Bases, Screen
+21	Organism:
+Ya	Origin
+ce	Osmolality
+cf	Osmolality Ur
+YJ	Osteocacin, Human
+Xs	Osteomark with Creat
+Zn	Other
+uy	Other
+iw	Other Hgb:
+1t	Others
+lh	Ovary Antibody, IFA
+Ru	Oxacillin
+j3	Oxacillin Well Sub
+lx	Oxalate, Timed Urine
+hA	Oxazepam, Serum
+Vg	Oxcarbazepine Metab(Trileptal)
+Py	Oxidase
+gW	Oximetry
+v9	Oximetry
+q6	Oxycodone:
+zG	Oxycodone:
+lm	PAI-1 Activity
+FW	PC CM H20
+y8	PCA3 Plus (Prostate)
+mW	PCBs,Serum/Plasma
+ZW	PCNA Ab
+g5	PCO2
+gL	PCO2
+ic	PCO2
+n7	PCP (Phencyclidine), Serum
+gX	PEEP
+yS	PF4
+ui	PH
+g2	PIP/PS
+v3	PIP/PS
+T5	PKU Comments
+ps	PKU Evaluation
+HX	PKU Results
+K5	PKU-Wash. NB Screen
+oC	PM SCL Ab
+=k	PNEUMOSLIDE
+Ob	PNH Defect
+g6	PO2
+gM	PO2
+id	PO2
+y0	POCT Activated Clotting Time
+xh	PORPHOBILINOGEN SCN UR, Ran
+9N	PR3 QC
+9J	PRE or POST?
+6J	PREGNANCY INVOLVED?
+gE	PRELIMINARY RESULTS:
+6I	PREVIOUS CF SCREEN?
+FV	PS CM H2O
+qq	PS/PC
+Wk	PSA Monitoring
+el	PSA Screen
+3X	PSA Total
+YK	PSA Ultrasens
+3Y	PSA, % Free
+h7	PSA, % Free
+hn	PSA, % Free
+h5	PSA, Free
+hm	PSA, Free
+h6	PSA, Total
+l7	PSA, Total
+Ft	PTH Intact
+ZN	PTH Related Protein
+cC	PTN LD Date
+db	PTN LD Time
+dc	PTN ND Date
+dd	PTN ND Time
+Pz	PYR
+Yu	Pancreatic Polypeptide
+CQ	Paper Wasp
+CR	Paper Wasp
+ta	Para Exam Source:
+pQ	Paradione
+vQ	Parainfluenza 1
+vR	Parainfluenza 2
+vS	Parainfluenza 3
+Qq	Parainfluenzae 1 virus
+Qp	Parainfluenzae 2 virus
+Qo	Parainfluenzae 3 virus
+fB	Paroxetin
+bH	Parvovirus Ab B19 IgG
+aq	Parvovirus Ab B19 IgM
+vW	Parvovirus B19 IgG
+l9	Parvovirus B19 IgM
+oI	Parvovirus DNA - PCR
+1y	Path CAST
+V1	Path Comments, PLATELETS
+V0	Path Comments, RED CELLS:
+V2	Path Comments, WBC:
+AI	Path. Review
+AJ	Path. Review
+tA	Pathologist
+B2	Pathologist ID:
+iL	Pathologist ID:
+Lf	Pathologist Review
+ZB	Pathologists
+t8	Pathology/Cytology
+Au	Patient 60 Min.
+KG	Patient Given Metopirone
+LZ	Patient Notification
+KL	Patient Pregnant?
+IT	Patient Risk 1:
+Ib	Patient Risk 1:
+IQ	Patient Risk - Down Synd.
+uc	Patient Status:
+Uo	Patient Warm
+XG	Patient, 0 Min.
+Ap	Patient, 0 min.
+Am	Patient, 60 min
+O5	Peanut
+O6	Peanut
+zj	Pecan
+zo	Pecan
+Ui	Pediatric A1C
+0H	Pediatric Estradiol
+0G	Pediatric FSH
+0I	Pediatric LH
+vY	Peds Endocrin Panel
+v4	Peep
+qr	Peep/CPAP
+oZ	Pemoline
+vi	Pen Allergic?
+4D	Pen/cephalosp allergy?
+=A	Penicillin
+Pk	Penicillin
+pe	Penicillin
+6V	Penicillin IV
+6W	Penicillin Oral
+pT	Penicilloyl V (c2)
+mV	Pentobarbital, Serum
+Yg	Percent
+Yi	Percent
+Yk	Percent
+iJ	Percent Total
+N1	Perennial Rye grass
+N2	Perennial Rye grass
+V3	Performed on:
+oW	Perphenazine (Trilafon)
+MO	Pertussis DFA
+M0	Pertussis DFA Bill Item
+nN	Phenacemide
+gs	Phencyclidine:
+t9	Phencylidine(PCP):
+n8	Phenelzine (Nardil)
+df	Pheno LD Date
+dg	Pheno LD Time
+dh	Pheno ND Date
+di	Pheno ND Time
+da	Phenobarbital
+w0	Phenobarbital
+Hh	Phenothiazine Screen
+UP	Phenotype Comments
+oj	Phensuximide
+UL	Phenylalanine Comments
+cB	Phenytoin
+Oa	Phenytoin % Bnd
+G8	Phone Date
+d0	Phos Ur Random
+dP	Phos Urine
+dQ	Phos Urine
+dR	Phos Urine
+wD	Phospholipid Antibody Panel
+cm	Phosphorus
+S2	Pigment
+QM	Pigment A
+Dw	Pine nut
+Dx	Pine nut
+tg	Pinworm Prep:
+Rb	Pip/Tazo
+Rw	Piperacillin
+zb	Pistachio
+zc	Pistachio
+Sj	Pitting Colony
+YP	Placental Isoenzyme
+SJ	Plate Date
+SK	Plate Time
+pl	Platelets
+PC	Plt Comment
+lI	Pneumococcal Ab IgG
+ab	Polio Type 2, Titer
+ac	Polio Type 3, Titer
+aa	Poliovirus 1-3 (CF)
+HG	Poly AHG (DAT)
+Ox	Poly B
+i0	Polyethylene Debris
+Ll	Pop. Rsk, Spina Bifida
+M6	Porphobilinogen
+nn	Porphobilinogen
+fS	Porphobilinogen 24 hr Ur
+jo	Porphyrin Scrn
+pI	Porphyrins, 24 hr Feces
+of	Porphyrins, Fractionation
+lv	Porphyrins,UR,24HR
+no	Porphyrins,UR,Random
+4F	Pos HAS Worklist only
+6N	Pos HIG Worklist only
+30	Posaconazole
+sY	Positive Cultures
+Bf	Post-Wash Volume
+cb	Potassium
+RF	Potassium POCT
+nf	Potassium Urine
+ng	Potassium Urine
+1M	Potassium, WB
+qj	Potassium, WB
+Aw	Potassium- BF:
+hk	Potassium-Dialysate
+rR	Prader-Willi
+ru	Prader-Willi D15S10 probe
+rZ	Prader-Willi FISH analysis
+rt	Prader-Willi/SNRPN probe
+KQ	Pre or Post Vaccine?
+A6	Pre-Wash Volume
+gi	Prealbumin
+MX	Prealbumin,CSF
+nZ	Pregnanetriol Urine
+pP	Pregnenadiol, 24 Hr Urine
+jE	Prelim 1
+ja	Prelim 1
+jx	Prelim 1
+rB	Prelim 1
+sj	Prelim 1.......:
+jF	Prelim 2
+jb	Prelim 2
+jy	Prelim 2
+jG	Prelim 3
+jc	Prelim 3
+jz	Prelim 3
+jC	Prelim Report
+sk	Preliminary 2
+sm	Preliminary 4
+Hl	Preliminary Results
+Nm	Preliminary results
+KZ	Preservative
+Hm	Presumptive ID-Other Drug
+gF	Presumptive ID:
+cO	Prim LD Date
+cP	Prim LD Time
+cQ	Prim ND Date
+cR	Prim ND Time
+cN	Primidone
+mb	Print Microbiology Label?
+xp	Prior Therapy/Transplant
+C7	Prior Therapy:
+3S	Pro/Creat Ratio
+c9	Procain + NAPA
+j8	Procain + NAPA
+c4	Procain LD Date
+kD	Procain LD Date
+c5	Procain LD Time
+kE	Procain LD Time
+c6	Procain ND Date
+kF	Procain ND Date
+c7	Procain ND Time
+kG	Procain ND Time
+c3	Procainamide
+iZ	Procainamide
+j6	Procainamide
+SM	Procedure
+FN	Progesterone
+A8	Progression
+AQ	Progressive Motility
+Bh	Progressive Motility
+lk	Proinsulin, Plasma
+fU	Prolactin
+nF	Propafenone (Rhythmol)
+nG	Propoxyphene, GCMS, Serum
+1E	Propoxyphene:
+gr	Propoxyphene:
+mH	Propranolol
+nk	Prot Ur Random
+B9	Protein
+Zw	Protein
+uB	Protein
+uk	Protein
+ZO	Protein C
+aG	Protein S
+nl	Protein Urine
+nm	Protein Urine
+oa	Protein Urine
+rT	Protein Urine
+rV	Protein Urine
+rU	Protein mg/interval
+AG	Protein, BF
+AF	Protein, CSF
+Hd	Protein, CSF
+Xa	Proteinase 3 Ab
+08	Protime
+Aa	Protime
+Ue	Protime
+Uf	Protime
+pU	Protoporphyrin, Free
+nS	Protriptyline
+9K	Purifier Source
+bN	Purkinje Cell Ab
+Xh	Pyridinium Cross Links
+oL	Pyruvate Kinase
+ai	Q Fever IgG, Phase II
+aj	Q Fever IgM, Phase I
+ak	Q Fever IgM, Phase II
+ah	Q Fever Phase I & II
+5c	QC Conjugated Bili VITROS
+2Q	QC Hep B Confirm
+5u	QC Unconjugated Bili VITROS
+Rn	Quadferm
+Ie	Quant Hepatitis OD
+dv	Quin LD Date
+kT	Quin LD Date
+dw	Quin LD Time
+kU	Quin LD Time
+dx	Quin ND Date
+kV	Quin ND Date
+dy	Quin ND Time
+kW	Quin ND Time
+du	Quinidine
+j5	Quinidine, Serum
+Hf	RA Factor, B.Fluid
+Vp	RAPID ANA
+Zh	RBC
+rc	RBC
+1o	RBC /uL
+G2	RBC Folate,Corr
+qw	RBC Fragility
+mp	RBC Morphology
+BD	RBC's / cu mm
+uW	RBC/HPF
+ur	RBC/HPF
+rW	RDW-SD
+jV	RF Titer
+HJ	RHIG Component Disposition
+og	RI Autoantibody Test
+nw	RI(T)
+jS	RPR Screen
+jT	RPR Titer
+gT	RR
+v5	RR
+Qm	RSV
+vT	RSV
+jh	RSV (Virus)
+Qi	RSV Screen
+Ej	RSV Source
+Ek	RSV/R
+k2	RVVT Control
+K1	RVVT Patient
+nK	Rabies Virus Antibody
+qg	Race
+tZ	Rapamycin (Sirolimus)
+bs	Desmethylclomipramine
+hu	DiGeorge/VCF
+LW	Diagnosis
+KI	Diagnosis of Patient
+mZ	Diazepam
+sW	Difco Loading Time
+DC	Diff Comment
+a0	Dig LD Date
+cZ	Dig LD Date
+c0	Dig LD Time
+c1	Dig ND Date
+c2	Dig ND Time
+XO	Digitoxin
+cY	Digoxin
+Y5	Dihydrotestosterone
+aO	Diphtheria Antibody
+co	Direct Bili
+X5	Direct Bili Neonatal
+HF	Direct Coombs(DAT)
+Uv	Direct FOX (18-20 I)
+Vr	Direct Germ Tube
+If	Direct LDL Chol
+KU	Disease? of Patient
+uY	Disopyramide (Norpace)
+PM	Dnase
+Np	Dockweed
+Nq	Dockweed
+NS	Dog Dander
+NR	Dog dander
+dL	Donath Landsteiner:
+A5	Donor Number
+Yz	Dopamine
+Xx	Dopamine 24 Hr Urine
+=E	Doripenem
+Ut	Doripenem
+5X	Dosage:
+IP	Down Syndrome Risk
+Lc	Downs Risk Flag
+bv	Doxepin
+5M	Doxycycline
+FF	Drug
+FG	Drug
+p8	Drug Expanded Sedative
+Hj	Drug Requested
+2I	Drug expected:
+2K	Drug identified:
+5W	Drug:
+zB	Duck Feathers
+vf	Dummy A1c no.1
+vg	Dummy A1c no.2
+sh	E Coli 0157:H7.:
+sJ	E#
+Si	E-Test
+aL	E. histolytica Ab, IHA
+tN	E.R. Drug Screen billing item
+Xg	EBNA IgG Ab
+Xe	EBV Capsid IgG Ab
+Xd	EBV Capsid IgM Ab
+Xf	EBV EA (D) Ab IgG Ab
+XI	EBV Heterophil IgM Ab
+Dp	EBVCAG QC
+Dh	EBVCAM QC
+Dj	EBVEAG QC
+Dg	EBVHM QC
+Di	EBVNAG QC
+1q	EC/uL
+=e	EC0157 LATEX
+yX	EGFR BY PCR
+xN	EGFR Fish
+b9	EH Scrn Status
+zH	EML-ALK Lung
+AS	EPI's
+34	ESBL
+r6	ESBL CAZ/CAZ-CL
+r4	ESBL CFT/CFT-Cl
+6E	ETHNICITY:
+JP	Early Reminder
+lS	Echinococcosis Ab IgG
+pF	Echinococcus IgG Ab WB
+Nz	Egg white
+O0	Egg white
+y9	Egg yolk
+za	Egg yolk
+N9	Elm tree
+wy	Elm tree
+lb	Encainide
+g3	End Tidal CO2
+va	End Tidal CO2
+wx	Endomysial AB IGA Titer
+zL	Endomysial AB IGA reflx Titer
+aT	Endomysial Ab IgA Titer
+Mq	English Plantain weed
+Mr	English Plantain weed
+2G	Entamoeba Histolytica AB
+ou	Entamoeba histolytica Ag
+rA	Enterovirus Culture:
+Qj	Enterovirus IFA
+Vj	Enterovirus RNA by PCR
+8C	Enterovirus,CSF
+=4	Enzyme Detection
+Bx	Eos's Counted
+ut	Epi
+Yx	Epinephrine
+0R	Ertapenem
+Rg	Erythromycin
+ZM	Erythropoietin
+kY	Erythropoietin
+PN	Esculin
+T2	Estimated GFR
+kh	Estradiol
+rs	Estradiol
+pZ	Estradiol/Proges Recptr
+IL	Estriol (uE3 ng/mL)
+IM	Estriol MoM
+aJ	Estriol, Serum
+lT	Estrogen Fractionation
+lU	Estrogen, Total 24 Hr Ur
+WL	Estrogens Fractionated
+Z2	Estrogens Total, Serum
+Y3	Estrone, Serum
+Rh	Ethambutol
+Vn	Ethanol Confirm (Urine)
+XP	Ethosuximide
+yh	Exon 12, 13 Reflex MPL
+KK	Exposure Date
+xd	Extended Diff
+sn	FA Stain.......:
+P0	FA Strep Screen
+6H	FAMILY HISTORY?:
+gR	FIO2
+xE	FISH TO REF LAB?
+6U	FISH,Interphase
+Lz	FK506 (Tacrolimus)
+1j	FL
+1k	FL2
+r8	FOX (6-21 R)
+f5	FSH
+rI	FTA
+ks	FTA (Hearing Loss)
+fY	FTI
+ve	Factor VII Act. Comment
+vd	Factor VII Activity
+Eo	Factor VIII Activity
+fC	Fasting Glucose
+fE	Fasting Glucose
+fm	Fasting Glucose
+fr	Fasting Glucose
+1P	Fasting status:
+tt	Fatty Acids
+RA	Fax to Epidemiology
+qF	Fecal Electrolytes
+VV	Fecal Fat Qual
+tp	Fecal Leukocytes
+mu	Fecal Lipids,Total
+nJ	Fecal Trypsin Screen
+f6	Felbamate
+CW	Fentanyl:
+ej	Ferritin
+I7	Fetal Hemoglobin Screen
+HK	Fetal-Maternal Hemorrhage Scr.
+Af	Fibrinogen
+F0	Final
+jD	Final Report
+sw	Final Report
+sf	Final Report...:
+jH	Final Results:
+be	Flecainide
+QY	Flourochrome
+xY	Flu A,H1N1,B PCR:
+15	Fluconazole
+Yv	Fluid HCT
+ov	Fluoride, Plasma
+lV	Fluoride, Random Urine
+bz	Fluoxetine, Serum
+Gs	Folate
+f2	Folate
+VW	Folate, RBC
+GG	For Neogen Worklist only
+oF	Formic Acid, Urine
+lE	Fractionated Amylase
+CC	Free Kappa Light Chains
+CA	Free Lambda Light Chains
+G4	Free Phenytoin
+Xy	Free T3
+Gu	Free T4
+i8	Freeze Bug
+na	Fructosamine
+AY	Fructose
+1i	Fsc
+1l	Fscw
+2k	Ftl Fibronectin
+vx	Fungus Billing
+vo	Fungus Source
+mM	Furosemide (Lasix)
+ZE	G-6-PD, RBC
+hN	GAD-65 Ab
+pt	GAL Evaluation
+I0	GAL Results
+4a	GAMMA INTERFERON TB
+9M	GBM QC
+05	GBS
+Gc	GC Culture
+gc	GC Culture
+sc	GC Culture.....:
+Nj	GC/Chlam Probe
+9E	GFR AA CKD-EPI
+0a	GFR AfrAmer
+9F	GFR nonAA CKD-EPI
+0b	GFR nonAfrAmer
+V9	GLU-QUAD
+aY	GM1 IgM Ab
+LF	GTT urine testing location
+px	GUT Evaluation
+I2	GUT Results
+bm	Gabapentin
+iC	Gamma
+iR	Gamma
+cy	Gamma GT
+Me	Gamma Globulin
+aX	Ganglioside Ab
+0Z	Gas
+YU	Gastrin, Fasting
+5L	Gatifloxacin
+HN	Generic Stat Test
+sb	Genital Culture
+GR	Genomic Array
+6K	Genotype results:
+6P	Genotype results:
+6k	Genotype results:
+yb	Genotype results:
+dp	Gent LD Date
+dq	Gent LD Time
+dr	Gent ND Date
+ds	Gent ND Time
+hl	Gent Random
+nx	Gent Tr LD Date
+ny	Gent Tr LD Time
+nz	Gent Tr ND Date
+oc	Gent Tr ND Time
+nA	Gent next dose time
+Ri	Gentamicin
+do	Gentamicin Peak
+S7	Gentamicin Synergy
+dt	Gentamicin Tr
+Pn	Germ Tube
+IB	Gest. age based on:
+GB	Gestation (weeks)
+KM	Gestational Age
+IV	Gestational Age-Days
+IA	Gestational Age-Weeks
+th	Giardia lamblia EIA
+aH	Gliadin Ab IGA
+aI	Gliadin Ab IgG
+7E	Glu, Baseline
+cg	Glu, Fasting
+ql	Glu, Nonfast, WB
+ch	Glu, Nonfasting
+qS	Glu, Nonfasting
+TL	Glu, WB by Meter
+7F	Glu,15 Min
+7G	Glu,30 Min
+7H	Glu,45 Min
+7I	Glu,60 Min
+YM	Glucagon, Plasma
+Za	Glucose
+Zx	Glucose
+fA	Glucose
+uE	Glucose
+ul	Glucose
+fz	Glucose (Timed)
+oM	Glucose Phos Isomerase
+dT	Glucose Urine
+dU	Glucose Urine
+fl	Glucose Urine
+Zz	Glucose by dipstick for Reduc
+Ay	Glucose, CSF
+dS	Glucose, Urine
+1S	Glucose,Blood
+Az	Glucose- BF..:
+ij	Glyco Fract [X]
+il	Glyco Hgb
+Sg	Gonococcus Confirmation
+RD	Good Growth
+Sp	Good Growth
+yW	Goose down
+yY	Goose down
+zC	Goose/Duck Feathers/Down
+R5	Gram Stain
+sd	Gram Stain Comment
+Mi	Gram Stain.....:
+o3	Growth Hormone Bind Pro
+5S	Grp B Strep DNA,PCR
+zy	H Pylori Ab IgM
+sA	H influenzae type B
+sK	H.influenzae Type B Ag
+aP	H.influenzae Type B IgG
+Xb	H.pyl IgG
+0T	H2S
+yU	HAL
+WD	HB-2
+aQ	HBV Viral Load bDNA
+IN	HCG (IU/mL)
+IO	HCG MoM
+ka	HCG Quant STAT
+fR	HCG Serum Qualatative
+b0	HCO3
+g7	HCO3
+gN	HCO3
+ie	HCO3
+rh	HCV Ab, RIBA
+lZ	HCV Qual RT-PCR/ALT
+CD	HCV RNA
+gG	HDL Chol
+dF	HDL Non-Fasting
+2s	HEP B DRUG RESISTANCE GENO
+UT	HER-2/neu (c-erb B2)
+pw	HGB Evaluation
+HS	HGB Results
+Fq	HGH
+7L	HGH, Baseline
+7S	HGH,105 Min
+7T	HGH,120 Min
+7U	HGH,135 Min
+7M	HGH,15 Min
+7V	HGH,150 Min
+7N	HGH,30 Min
+7O	HGH,45 Min
+7P	HGH,60 Min
+7Q	HGH,75 Min
+7R	HGH,90 Min
+EJ	HHb
+3C	HIV 1/2 Scrn S/CO
+oB	HIV 2 Serology
+lp	HIV-1 DNA QL(PCR) Eval
+rJ	HIV-1 Genotyping
+q5	HIV-1 Western Blot
+ml	HIV-1 p24 Antigen
+b7	HIV-1/2 OD Panel
+b8	HIV-1/2 Screen
+po	HIV-1/2 Western Blot
+q3	HIV-1/2 Western Blot
+q4	HIV-2 Western Blot
+Hv	HIV1 RNA copies/mL
+Hu	HIV1 RNA log copies/mL
+lo	HLA Antigen B5
+Lw	HLA B27
+zP	HLA Typing for Celiac Disease
+1U	HOB/HBA Confirm
+0U	HP2
+x0	HPV DNA
+06	HPV DNA, High Risk, CX
+hK	HSV 1 DNA
+hL	HSV 2 DNA
+hJ	HSV Ab Type 1&2, DNA
+aM	HSV-1 IgG Ab
+Ds	HSV-2 IgG Ab
+Df	HSVG-1 QC
+Dd	HSVG-2 QC
+9A	HTLV 1&2 WESTERN BLOT
+9B	HTLV 1&2 WESTERN BLOT
+lW	Haloperidol, Serum
+BU	Hapt Age Reflex
+ge	Haptoglobin
+N3	Hazel Nut Tree
+N4	Hazel Nut Tree
+zh	Hazel nut tree
+zi	Hazel nut tree
+ii	HbA1c
+xa	Hct POCT
+lB	Heavy Metal Group, Blood
+XV	Heavy Metals Panel
+hz	Heinz Bodies
+XZ	Helicobacter pylori IgG
+NZ	Helminth. halodes mold
+Na	Helminth. halodes mold
+ht	Hematocrit
+qm	Hematocrit
+1N	Hematocrit, Whole Blood
+hb	Hemoglobin
+qn	Hemoglobin
+T9	Hemoglobin comments
+gu	Hemoglobin, Plasma
+1O	Hemoglobin, Whole Blood
+K7	Hemoglobin-Wash.NB Screen
+8H	Hemolysis Index
+uR	Hemosiderin
+3A	Hep A AB Tot S/CO
+1X	Hep A Ab IgM S/CO
+1W	Hep A Total OD
+3D	Hep B Ab IgM S/CO
+3B	Hep B CR Ab S/CO
+Em	Hep B Core AB IgM
+2M	Hep B Core Ab IgM Specific OD
+GN	Hep B Employ Status
+Id	Hep B Surface Ab (Emp Scrn)
+I9	Hep B Surface Ab, Quant
+3E	Hep C Ab S/CO
+lX	Hep C Genotyping
+aK	Hep C Quant RNA
+zI	Hep C RNA log IU/mL
+4A	Heparin Enox LMW
+Ae	Heparin Ther?
+CE	Heparin Ther?
+Uh	Heparin Ther?
+jk	Hepatitis A Ab, Igm
+3G	Hepatitis A Ab, Total
+j9	Hepatitis A Ab, Total
+jl	Hepatitis B AB
+Lt	Hepatitis B Core AB
+En	Hepatitis B Core Ab, IgM
+El	Hepatitis B Core Ab, Total
+JF	Hepatitis B Core Ab, Total
+jj	Hepatitis B Surface Ab
+ji	Hepatitis B Surface Ag
+jm	Hepatitis B Surface Ag(OB)
+kd	Hepatitis BE Antibody
+ke	Hepatitis BE Antigen
+ra	Hepatitis C Ab
+kc	Hepatitis C Antibody
+LQ	Hepatitis C S/CO
+3L	Hepatitis D IgM Ab
+Z4	Hepatitis Delta Ab
+3J	Hepatitis Delta Ag
+Ji	Hepatitis OD Panel
+LK	Hepatitis OD Panel
+LL	Hepatitis OD Panel
+LM	Hepatitis OD Panel
+LN	Hepatitis OD Panel
+LO	Hepatitis OD Panel
+LP	Hepatitis OD Panel
+LR	Hepatitis OD Panel
+LS	Hepatitis OD Panel
+bK	Herpes Ab IgM
+bM	Herpes Ab IgM, Type 2
+jd	Herpes Final
+Qg	Herpes IFA
+6C	Herpes IgM Titer
+aR	Herpes Simplex Ab IgM
+mg	Herpes Simplex Virus, PCR
+yZ	Herpes Simplex by PCR CSF
+7c	Hexagonal PL PTT
+q1	Hgb 1st Spec Eval
+HT	Hgb 1st Specimen
+HU	Hgb 2nd Specimen
+iv	Hgb A2:
+iq	Hgb A:
+it	Hgb C:
+iu	Hgb E:
+ir	Hgb F:
+yF	Hgb POCT
+HV	Hgb Repeat
+is	Hgb S:
+QG	Hippurate
+oE	Hippuric Acid Urine
+la	Histamine, 24 Hr
+hM	Histamine, 24 hr Urine
+mq	Histamine, Plasma
+ZR	Histone Ab, Qual
+Oi	Histoplasma Ab Mycelial Ag
+OM	Histoplasma Ab Panel
+Oh	Histoplasma Ab Yeast Ag
+wd	Histoplasma Ag Urine
+3T	Homocysteine
+Gb	Homocysteine
+nW	Homovanillic Acid
+CS	Honey Bee
+CT	Honey Bee
+YA	Human Insulin Antibody
+pX	Human Placental Lactogen
+uv	Hyal Casts
+qG	Hydroxyproline, Total 24Hr
+Zl	Hyln Casts
+3Z	Hyperaldost Screen
+uT	ID (MD)
+R7	ID CARD
+gA	ID:
+gl	ID:
+gt	ID:
+gv	ID:
+gw	ID:
+gx	ID:
+gz	ID:
+Gy	ID: Barbiturates
+Gx	ID: Amphetamines
+Gz	ID: Cannabinoids
+Lu	ID: Cannabinoids
+H0	ID: Cocaine
+Lv	ID: Cocaine
+H5	ID: Methadone
+H6	ID: Organic Drug Base
+4I	ID: Oxycodone
+H1	ID: Phencyclidine
+H2	ID: Propoxyphene
+8A	ID:THC by GC/MS
+II	IDDM
+yV	IGE CONCENTRATION
+YF	IGF Binding Protein-3
+G3	IGF-1
+4C	IGF-1 Referred
+a7	IGG Subclasses 1,2,3,4
+Sr	IMO
+VG	IND-MOT
+6G	INDICATION:
+2o	INH Inhibin A
+09	INR
+Ac	INR
+Ug	INR
+GE	INTERPRETATION
+Sv	IPA
+VH	IPA-MOT
+5U	IRIS Counts QC
+qH	Ibuprofen
+8I	Icterus Index
+f8	IgA
+hs	IgA, Secretory
+ga	IgE
+f7	IgG
+a8	IgG 2
+a9	IgG 3
+aA	IgG 4
+HH	IgG AHG (DAT)
+KX	IgG Index
+Mj	IgG Index,CSF
+aB	IgG Serum
+KW	IgG Synthesis Rate
+qR	IgG Synthesis Rate
+hp	IgG, Body Fluid
+Mh	IgG, CSF
+Mg	IgG, Serum
+f9	IgM
+hq	IgM, Body Fluid
+e7	Imip + Desip
+e8	Imip LD Date
+e9	Imip LD Time
+fa	Imip ND Date
+fb	Imip ND Time
+Pq	Imipenem
+e6	Imipramine
+ki	Imipramine, Serum
+v0	Immunocomprimised:
+1m	Imp
+Ni	Impression:
+pc	Impression:
+QH	India Ink
+tC	India Ink Mount
+P1	Indole
+rK	Influ Flu A
+rL	Influ Flu B
+vO	Influenza A
+vP	Influenza B
+OX	Influenza Group
+OY	Influenza Virus Ab type B
+hY	Influenzae A
+Pv	Influenzae A virus
+rG	Influenzae B
+P4	Influenzae B virus
+WR	Inhibin A (pg/mL)
+XC	Inhibin A MoM
+Ao	Inhibitor Screen:
+tf	Insect Identification
+W3	Insect Venom IgG
+C6	Instrument
+YB	Insulin Ab Titer
+ow	Insulin, 5 specimens
+Y8	Insulin, Fasting
+Y2	Insulin, Free
+Y7	Insulin, total
+F9	Intensity
+2p	Interop PTH
+0i	Interpretation
+22	Interpretation
+2q	Interpretation
+IY	Interpretation
+IZ	Interpretation
+Lp	Interpretation
+iK	Interpretation
+qX	Interpretation
+uX	Interpretation
+1A	Interpretation:
+Ge	Interpretation:
+L$	Interpretation:
+Ln	Interpretation:
+Tm	Interpretation:
+Vb	Interpretation:
+ix	Interpretation:
+qf	Interpretation:
+Fv	Interval
+dH	Interval
+pJ	Interval
+r0	Interval
+YO	Intestine Isoenzyme
+YZ	Intrinsic Factor Block Ab
+Ws	Iodine 24 hr. Urine
+ox	Iodine Inorganic
+XR	Ionized Calcium
+k4	Ionized Calcium
+ri	Ionized Calcium
+ef	Iron
+mI	Iron, 24 Hour Urine
+me	Iron, Liver Tissue
+kt	Iron/R
+ZQ	Islet Cell Ab
+HL	Isohemagglutinin Titer
+FH	Isolate
+Rk	Isoniazid
+mj	Isoniazid (INH), Serum
+mL	Isopropanol, Blood
+lr	Isospora exam
+16	Itraconazole
+vc	Itraconazole
+ym	JAK2 Exons 12, 13 Qual Reflex
+yn	JAK2 Qual Mutation Analysis
+yj	JAK2 Reflex Exon 12,13 & MPL
+ZT	Jo-1 Ab
+Mx	June grass
+My	June grass
+ne	K Urine Random
+zN	KRAS,ONLY
+Rl	Kanamycin
+QC	Kanamycin(100ug)
+vh	Kaolin Clotting Time
+6b	Kappa/Lambda
+wh	Kappa/Lambda Urine
+17	Ketoconazole
+Zb	Ketones
+Zr	Ketones
+un	Ketones
+fc	Ketones Undil
+RN	Kirby-Bauer
+mJ	L. pneumonphilia IgM
+VB	LAC-QUAD
+24	LAP
+hd	LAP High
+he	LAP Negative
+hy	LAP Normal
+ls	LAP Score
+cA	LD
+lA	LD Isoenzymes
+AH	LD- BF.......:
+gH	LDL Chol
+pv	LEU Evaluation
+HY	LEU Results
+f4	LH
+Ss	LIA
+By	LMN's Counted
+mK	LSD Quant Ur
+sG	LSD Screen,Reflex Quant
+Qd	Lab (Fungus)
+Qe	Lab (Mold)
+ep	Lactate Art
+yr	Lactate POCT
+en	Lactate Plasma
+6R	Lactate, WB
+Mt	Lamb's Quarter(Goose foot)
+Mu	Lamb's Quarter(Goose foot)
+fN	Lamotrigine
+EB	Last Dose Date
+EC	Last Dose Time
+rN	Latex
+zw	Latex
+pb	Lead - Blood
+XY	Lead, 24 Hr Urine
+mN	Lead, 24 Hr Urine
+tY	Legionella DFA
+vV	Legionella Ur Ag
+W2	Leptin
+uC	Leucocytes
+uf	Leucocytes
+B5	Leukocytes
+Zu	Leukocytes
+ue	Leukocytes
+Ve	Levetiracetam (Keppra)
+Rm	Levofloxacin
+zJ	Limulus Amebocyte Lysate
+sO	Linezolid
+8L	Lipemia Index
+XM	Lipids Total Stool
+aF	Lipoprotein A (Lp(a))
+mi	Lipoprotein Electro
+ev	Lith LD Date
+ew	Lith LD Time
+ex	Lith ND Date
+ey	Lith ND Time
+eu	Lithium
+YR	Liver Isoenzyme
+am	Liver Kidney Mic Titer
+al	Liver Kidney Microsomal
+S9	Lomefloxacin
+SA	Loracarbef
+qM	Lorazepam
+7a	Lupus Inhibitor Interpretation
+q2	Lyme Ab West Blot
+kr	Lyme Disease Serology
+Bw	Lymph's Counted
+PT	Lysine
+WA	M-Pprotein
+HO	M-protein
+mm	M. pneumoniae IgG Ab
+kX	M. pneumoniae IgM Ab
+hT	MAC/SORB-S
+mP	MAG Antibody, ELISA
+VA	MAL-QUAD
+P2	MAV Probe
+0V	MAVPR
+cI	MB Index
+cG	MB-Index
+LI	MB-Index BKC
+Oz	MCAT
+mh	MCH
+mc	MCHC
+mv	MCV
+Q1	MDASE
+Iw	ME 6-Monoacetyl Morphine
+J6	ME Acetone
+JD	ME Age at Time of Death
+In	ME Amphetamine Confirm
+Im	ME Amphetamine Screen
+Iy	ME Barbituate Screen
+Iz	ME Benzodiazepines:
+Ir	ME Benzoylecgonine
+J3	ME Blood Organic Base
+J1	ME Cannabinoids:
+J8	ME Carbon Monoxide
+JK	ME Cocaethylene
+Ip	ME Cocaine Screen
+Iv	ME Codeine
+JC	ME Date of Death
+1C	ME Diphenhydramine QC
+Is	ME Ecgonine Methyl Ester
+J4	ME Ethanol
+Ix	ME Free Morphine
+1G	ME Hydrocodone QC
+J7	ME Isopropanol
+1D	ME Methadone QC
+J5	ME Methanol
+LG	ME Miscellaneous
+1F	ME Nortriptyline QC
+JI	ME Number
+It	ME Opiates Screen
+1H	ME Oxycodone QC
+Iq	ME Quant Cocaine
+Io	ME Quant Metamphetamines
+JG	ME Referring Labs
+JB	ME Requesting County
+JE	ME Requesting Pathologist
+JJ	ME Sample Type (Alcohol)
+JH	ME Sedative Screen
+JL	ME Specimen Type
+Iu	ME Total Morphine
+J2	ME Urine Organic Base
+1I	ME Verapramil QC
+JA	ME Vitreous Fl. Source
+Q2	MGP
+=m	MIDI
+sp	MLS Processed..:
+yi	MPL w515 and MPL s505
+9L	MPO QC
+MV	MPV
+6T	MRSA DNA PCR:
+Qc	MRSA Screen Plate
+l4	MS PURITY
+l5	MS TRAY CHECK
+Q9	MS-UR7
+BY	MTB DNA PCR SPUTUM
+P3	MTB Probe
+Qb	MTM
+RM	MUG
+VF	MUG-MOT
+Sk	MacKonkey Growth
+Du	Macadamia nut
+Dv	Macadamia nut
+tU	Macroprolactin Screen
+cp	Magnesium
+om	Magnesium, 24 hr Urine
+Ma	Malarial Search
+PU	Malonate
+fM	Manganese
+l6	Manitol Salt
+PV	Mannitol
+Fn	Manual Fn
+NH	Maple(box elder) tree
+NI	Maple(box elder) tree
+or	Maprotiline
+Ld	Mat Age Risk Flag
+IF	Maternal Age at Term(Yrs)
+IH	Maternal Race
+IG	Maternal Weight(lbs)
+Mz	Meadow fescue grass
+N0	Meadow fescue grass
+Dc	MeasIG QC
+oA	Meconium Drug Screen
+KH	Medications (Patient)
+KT	Medications of Patient
+vB	Medium for Collection:
+Lg	Menstrual History
+mQ	Mephenytoin & Metabolite
+im	Mephob LD Date
+in	Mephob LD Time
+io	Mephob ND Date
+ip	Mephob ND Time
+mS	Meprobamate, Serum
+od	Mercury 24 Hr Urine
+XX	Mercury, 24 Hr Urine
+bq	Mercury, Blood
+0M	Meropenem
+mn	Mesoridazine
+hG	Mesoridazine, Serum
+EH	Met Hb
+LB	Metanephrine, Frac
+kz	Metanephrines Total
+Gh	Metanephrines, plasma
+2B	Methadone:
+gp	Methadone:
+7g	Methamphetamine:
+Ex	Methemoglobin
+Fs	Methotrexate
+pC	Methylhippuric Acid
+h3	Methylmalonic Acid, Serum
+hO	Methylmalonic Acid, Urine
+mU	Mexiletine (Mexitil)
+SB	Mezlocillin
+Ul	Mezlocillin
+7D	Micafungin
+Ms	Micro Sensitivity
+nq	Microalb 24 hr
+np	Microalb Screen
+VY	Microalb/Creat
+Uu	Microbiology
+iY	Microglob. B2
+R6	Microscan
+n4	Microsporidia Detection
+Nx	Milk
+Ny	Milk
+Q3	Minocycline
+g1	Minute Volume
+v2	Minute Volume
+jL	Misc Viral Final
+jI	Misc Viral Prelim 1
+jJ	Misc Viral Prelim 2
+jK	Misc Viral Prelim 3
+Ux	Rapid ANA
+5T	Rapid HIV Test
+R1	Rapid NHID
+==	Raw Micro Chemistry
+C1	Reason for Referral:
+4M	Receipt Date:
+H8	Red Cell Unit No. #2
+H7	Red cell unit number #1
+uK	Reducing Subtances STOOL
+GA	Referral Reason
+Fc	Referred Test
+l	Referred Test
+rj	Referred Test
+qa	Referring MD:
+B7	Reflex Culture
+GF	Related Testing
+YG	Renin Activity Plasma
+tn	Report
+to	Report Action
+G9	Report Date
+vK	Respiratory DFA
+vL	Respiratory DFA Panel
+sz	Result
+td	Result
+X4	Result name
+6S	Resulting Dr:
+Yf	Results
+Yh	Results
+Yj	Results
+k3	Results
+tE	Results
+tj	Results
+tz	Results
+qe	Results:
+rx	Retic QC RBC-X
+ry	Retic QC item RBC-y
+lJ	Reticulin IgA Ab
+Wn	Reviewed By
+HE	Rh Type
+jU	Rheumatoid Fac
+aZ	Ribosomal P Ab
+Pj	Rifampin
+h8	Risk of Prostate Cancer
+IS	Risk, Open Spina Bifida
+qA	Ritalin
+jg	Rotavirus
+Mv	Rough Pigweed
+Mw	Rough Pigweed
+aN	Rubella IbM Ab
+jn	Rubella IgG Ab
+jr	Rubeola IgG Ab
+Ht	Rubeola Antibody IGM
+KR	Run as Paired Sera?
+25	SATELLITING
+Q8	SENSI
+Oy	SPS
+1x	SRC
+ZY	SS-A Ab
+Zs	SS-B Ab
+qb	SSN:
+2y	STL OCC BLD, IA OUTREACH
+VC	SUC-QUAD
+3k	S_FLH
+3l	S_FLL
+3m	S_FLLW
+3n	S_SSC
+hX	Sab Sub
+Nr	Sage pollen
+Ns	Sage pollen
+eA	Sal LD Date
+eB	Sal LD Time
+eC	Sal ND Date
+eD	Sal ND Time
+ez	Salicylate
+Qt	Salm D1
+Qs	Salm Vi
+oy	Salmonella Antibodies
+pf	Sample site
+ti	Scabies/Mites Exam:
+ZV	Scl-70 Ab, EIA
+Nt	Scotch Broom weed
+Nu	Scotch Broom weed
+ma	Secobarbital, Serum
+sr	Sed Rate
+XQ	Sedative Screen Expanded
+eb	Selenium
+pn	Selenium Urine
+7j	Semi Quant Opiate2
+7k	Semi Quant Opiate3
+7m	Semi Quant THC
+Sm	Send to State
+BT	Sendout Item
+4J	Sensitivity Staph
+4L	Sensitivity Cath Tip
+4K	Sensitivity Sterility Cul
+ZP	Serotonin, Blood
+nL	Sertraline, (Zoloft)
+fT	Serum HCG Quant
+Fb	Serum HCG Scr
+Fa	Serum HCG Scrn
+Hw	Serum Immunofix
+lz	Serum Lipase
+K9	Serum appear
+Z5	Sex Hormone Binding Globulin
+qc	Sex:
+pz	Sezary Cells
+Ye	Shape
+zD	Sheep sorrel weed
+zF	Sheep sorrel weed
+jB	Shell Vial 24 hr results:
+Jb	Shell Vial results:
+Qu	Shig Poly A
+Qv	Shig Poly B
+Qw	Shig Poly C
+Qx	Shig Poly D
+O7	Shrimp
+O8	Shrimp
+sC	Sickle Cell Screen:
+oY	Silicon, Blood
+Yb	Size
+Hc	Size in mm
+Yc	Size in mm
+pq	Sjogren's Antibodies
+Ol	Slide Coag
+Lk	Slide Count
+a4	Sm/RNP Ab
+sy	Smear Processing
+Uz	Smear Review by:
+si	Smear..........:
+rP	Smith-Magenis
+rn	Smith-Magenis FISH analysis
+rk	Smith-Magenis probe
+IU	Sodium
+ca	Sodium
+hj	Sodium Dialysate
+yL	Sodium POCT
+nc	Sodium Urine
+nd	Sodium Urine
+1L	Sodium, WB
+qi	Sodium, WB
+Ar	Sodium- BF...:
+Sn	Sorb Mac
+nR	Sotalol
+9H	Source
+9I	Source
+Hb	Source
+LT	Source
+Zo	Source
+Zp	Source
+b6	Source
+uP	Source
+vb	Source
+I6	Source for APT
+u9	Source for Pertussis:
+BI	Source- BF...:
+Kk	Source- BF...:
+Kl	Source- BF...:
+Km	Source- BF...:
+Kn	Source- BF...:
+SI	Source.......
+V4	Source........:
+O3	Soybean
+O4	Soybean
+fO	Spec Gravity
+fP	Spec Gravity
+ud	Spec Gravity
+uz	Spec Gravity
+ty	Spec Quality
+ZC	Specific Gravity
+A2	Specimen
+tD	Specimen
+LX	Specimen Quality
+Hk	Specimen Submitted
+TR	Specimen Type
+UQ	Specimen Type
+et	Specimen Type
+qY	Specimen Type
+qZ	Specimen Type:
+7h	Specimen information
+H9	Specimen outdate (BB)
+rX	Specimens Received
+1u	Sperm
+bQ	Sperm Ab IgA
+bS	Sperm Ab IgM
+AW	Sperm Concentration
+ZL	Split Fat
+KV	Spouse's HR Number
+hx	Spun Hct
+Zj	Squam Epi
+vz	Staphaurex
+z2	Stat Ionized Ca
+Va	State Med Invest.No.
+KE	State Where Marriage Performed
+p6	Status of Unit
+oz	Steroids
+tm	Stool Occult Blood
+31	Stool Occult Blood IA
+qN	Stool Osmolality
+tq	Stool Phenolphthalein
+tr	Stool Porphyrin
+n2	Strep Group B Ag
+sF	Strep group B
+we	Strep pneumo Antigens
+sE	Strep pneumoniae
+=h	Streptex A
+=b	Streptex B
+=c	Streptex C
+=j	Streptex D
+=i	Streptex F
+=g	Streptex G
+kB	Strepto AB Scr
+Ry	Streptomycin
+Um	Streptomycin synergy
+lG	Striated Muscle Ab
+Up	Suc Control
+Su	Sucrose Hemolysis
+LY	Suggested Follow-Up
+pO	Sulfadiazine
+Uj	Sulfamethoxazole
+oq	Sulfonylurea Hypoglycemic Scrn
+qQ	Sulftide Ab
+mz	Summary Comment
+Qr	Superoxyl 30% H2O2
+WW	Surf Mark Bone Marrow
+9D	Surface Markers
+9G	Surface Markers
+um	Symptomatic:
+sQ	Synercid
+pL	Synergy Studies
+pN	Synergy Studies
+Mk	Synthesis Rate IgG,CSF
+ol	System Delivery
+Ca	T Cell Clonality by PCR
+Es	T. gondii IgM Ab, EIA
+fX	T3 Uptake
+Xz	T3, Total
+UM	T4 Comments
+pr	T4 Evaluation
+BW	T4 Free (By Dialysis)
+HQ	T4 Results
+0Y	TB SUSCEP
+ph	TBI Immunoglob
+v7	TC PCO2
+v8	TC PCO2
+kg	THC (Marijuana)
+GV	THC Quant (ng/mL)
+LJ	THC/Creat Ratio (ng/mg)
+eg	TIBC
+ku	TIBC/R
+GS	TOTAL CELLS
+=n	TOXIN 1
+=o	TOXIN 2
+RE	TSA Growth
+RB	TSA Slant
+Q7	TSA for subs
+hW	TSA/Choc
+VM	TSA/MAC Sub
+fW	TSH
+UN	TSH Comments
+py	TSH Evaluation
+HR	TSH Results
+0h	TSH repeat
+sM	TSH(Reflex T4F)
+T6	TSH, Newborn Screen
+Sq	TSI
+Ot	Taxo A
+Ou	Taxo P (6-14 Neg)
+Dr	Tay Sachs Carrier,Serum
+gV	Tc PCO2
+gU	Tc PO2
+nM	Teichoic acid Ab, ID
+v6	Temp
+gS	Temp.
+01	Test 01
+02	Test 02
+TS	Test Item
+0D	Test Name
+0d	Test Name
+F6	Test Name
+FM	Testosterone
+Z8	Testosterone Free
+Z6	Testosterone,Free & Total
+an	Tetanus Ab Titer
+Rz	Tetracycline
+nQ	Thallium Blood
+cq	Thallium, 24 hr Urine
+dA	Theo LD Date
+dB	Theo LD Time
+dC	Theo ND Date
+dD	Theo ND Time
+dz	Theophylline
+Lh	Therapy
+nP	Thiazide Diuretic Survey
+Nn	Thick Smear
+tl	Thick Smear
+tk	Thin Smear
+No	Thin smear
+hI	Thioridazine, (Mellaril)
+md	Thiothixene (Navane)
+u4	Thrombin Clotting Time
+lH	Thyroglb Ab
+Y0	Thyroglob Cyst Fluid
+Y1	Thyroglobulin
+Z1	Thyroid Stim Immunoglob
+2n	Thyroperoxidase Ab.
+YV	Thyroxine Binding Globulin
+BV	Thyroxine T4 - Total
+pj	Tiagabine
+S0	Ticarcillin
+g0	Tidal Volume
+26	Tigecycline
+Ga	Time Ended Collection
+6Z	Time Orig Coll
+A4	Time Received
+GY	Time Start Collection (urine)
+6X	Time in hours
+X3	Time of call:
+S1	Timentin
+Nv	Timothy grass
+Nw	Timothy grass
+aS	Tiss TG IgA Ab
+GC	Tissue
+zQ	Tissue Transglutaminase IGG
+tF	Titer
+nB	Tob Pk LD Date
+nC	Tob Pk LD Time
+nD	Tob Pk ND Date
+nE	Tob Pk ND Time
+cT	Tob Tr LD Date
+cU	Tob Tr LD Time
+cV	Tob Tr ND Date
+cW	Tob Tr ND Time
+S3	Tobramycin
+cS	Tobramycin Peak
+Ct	Tobramycin Ran
+cX	Tobramycin Tr
+eP	Vancom Trough
+=C	Vancomycin
+S6	Vancomycin
+QA	Vancomycin (5ug)
+2t	Vancomycin CSF
+eJ	Vancomycin Peak
+lg	Vancomycin, Quan CSF
+Xq	Vanilmandelic Acid HPLC
+hQ	Varicella Ab
+hR	Varicella ID
+js	Varicella Zoster IgG
+YW	Vasoactive Intestinal Polypep
+FU	Ve-L
+pg	Vent
+gZ	Vent Rate
+oS	Verapamil
+sg	Vibrio Culture.:
+CZ	Viral Load
+CX	Viral Load Collection Date:
+AU	Viscosity
+ZS	Viscosity, Serum
+YY	Vit B12 Binding Capacity
+Yn	Vit D 1,25-Dihydroxy
+2e	Vit D 25OH, D2
+2d	Vit D 25OH, D3
+YC	Vitamin A
+qP	Vitamin B1 (Thiamine)
+Xl	Vitamin B6
+W0	Vitamin D 125
+wE	Vitamin D 25-Hydroxy
+lC	Vitamin E
+AT	Volume
+Fu	Volume
+GL	Volume
+dM	Volume
+qz	Volume
+GM	Volume on site
+Eq	Von W Activity
+OS	Von Will factor multimers
+19	Voriconazole
+FS	Vt Machine
+v1	Vt Machine
+FT	Vt Spontaneous
+pa	Vt/Ve
+2S	W-LMV QC
+2R	W-SMV QC
+Zg	WBC
+uM	WBC
+w.	WBC
+wc	WBC
+2l	WBC CSF/ cu mm
+AR	WBC's
+Br	WBC's / cu mm
+uq	WBC/HPF
+1p	WBC/uL
+NJ	Walnut Tree
+NK	Walnut Tree
+zt	Walnut tree, Californian
+zx	Walnut tree, Californian
+K4	Washington Newborn Screen
+IC	Weeks Gest. Age Based On
+hF	Weeks of Gestation
+xv	West Nile Ab CSF
+O1	Wheat
+O2	Wheat
+NL	White Ash tree
+NM	White Ash tree
+CO	White Faced Hornet
+CP	White Faced Hornet
+KS	Wife Pregnant?
+rQ	Williams
+rl	Williams FISH analysis
+rm	Williams probe
+NB	Willow tree
+NC	Willow tree
+SL	Workup
+tc	Worm Identification
+sZ	Wound Culture Type
+1v	X'tal
+hU	XLD Sub
+RG	XXAmikacin
+RI	XXAztreonam
+RQ	XXCefixime
+RZ	XXChloramphenicol
+Rj	XXImipenem
+Rp	XXNaladixic Acid
+Rr	XXNorfloxacin
+Rt	XXOfloxacin
+Rv	XXPenicillin
+Rx	XXRifampin
+qK	Xanax
+2g	Xanthochromia
+1w	YLC
+tw	Yeast
+yc	Yeast Culture
+CK	Yellow Hornet
+CL	Yellow Hornet
+CI	Yellow Jacket
+CJ	Yellow Jacket
+oh	Yersinia Ab
+ys	Yersinia Culture
+=3	Yst Def ID
+I3	ZU Body Fl C3
+Hs	ZU IGG Synthesis Rate
+so	Zeil-Nelson....:
+QX	Ziel Nielsen
+zn	Zinc - Plasma
+e0	Zinc Protoporphrin
+ob	Zinc, 24 Hr Urine
+bu	Zinc, Plasma
+X8	Zonisamide (Zonegran[R])
+nv	a/A
+7b	aPTT for Lupus Panel
+R2	api 20E
+0L	comment for aml
+Ez	ctO2
+mr	d-Xylose
+oX	d-Xylose, 1 Hr
+7f	dRVVT Confirm for Inet use.
+q9	hCG Tumor Marker CSF
+/1	hl7 only
+/2	hl7 only
+/3	hl7 only
+/4	hl7 only
+/5	hl7 only
+/6	hl7 only
+/7	hl7 only
+/8	hl7 only
+/9	hl7 only
+3M	hs Cardiac CRP
+l8	iCa POCT
+Hi	msAFP Only (OHSU)
+i4	msAFP Screen
+2x	organic base worklist
+ay	pCO2
+B8	pH
+b5	pH
+g4	pH
+gK	pH
+ib	pH
+uL	pH STOOL
+eq	pH Scalp
+Zq	pH Urine
+qk	pH, WB
+OW	pH,Pleural Fl.
+AK	pH- BF.......:
+az	pO2
+s7	qc item
+EG	sO2
+yq	sO2 POC
+wW	tHB POC
+Ey	tHb
+Gv	temp rh
+r1	type of heparin
+Gg	used in ali
+Ep	vonWillebrand Ag
+oQ	Tocainide, Serum
+ZI	Topiramate (Topomax)
+Bd	Total
+Bm	Total
+kk	Total
+kp	Total
+cH	Total Bili Neonatal
+cn	Total Bilirubin
+2C	Total CO2
+b3	Total CO2
+gQ	Total CO2
+ia	Total CO2
+ih	Total CO2
+yv	Total CO2 POCT
+2F	Total Cell Count
+BL	Total Cells Ct
+Bu	Total Cells Ct
+hg	Total Fetal RBC
+I1	Total Galactose
+Ls	Total Hgb
+Be	Total Motile
+Bn	Total Motile/Insemination
+AP	Total Motility
+Bg	Total Motility
+OZ	Total Phenytoin
+6F	Total Protein
+ct	Total Protein
+MW	Total Protein, CSF
+MU	Total Protein,Serum
+hf	Total RBC
+AX	Total Sperm Number
+G0	Total T3
+fV	Total T4
+Gt	Total T4 (OHSU Only)
+Fz	Total Vit D
+kx	Total Vol 24 Hr
+pK	Total Weight
+XK	Total Weight (Fecal Fat)
+Sl	Touch Prep
+wp	Toxoplas DNA Qual
+Er	Toxoplasmosis Anti IgG
+i2	Toxoplasmosis CSF
+i3	Toxoplasmosis IgG Ab
+Lm	Toxoplasmosis IgG Ab
+eh	Transferrin Sat
+a1	Transferrin, Serum
+HI	Transfusion Rx Workup
+C2	Transplant History:
+bg	Trazodone, Serum
+rC	Trehalose
+qy	Tri18 Interpretation
+s6	Tri18 Pat Risk Calc
+qt	Tri18 Patient Risk
+qu	Tri18 Risk Flag
+qx	Tri18 Screen Result
+o7	Trichinella Antibodies
+nO	Trichloroacetic Acid
+tv	Trichomonas
+tM	Tricyclic Antidepressants:
+tR	Tricyclic Confirm Urine
+wF	Tricyclics ID and Quant
+lf	Trifluoperazine (Stelazine)
+AB	Triglycer, BF
+KB	Triglycer,Fast
+dE	Triglycer,Fast
+ea	Triglycer,NF
+oR	Trihexyphenidyl
+S5	Trimeth/Sulfa
+nY	Trimethadione
+S4	Trimethoprim
+m4	Trimipramine
+WP	Troponin I
+MM	Troponin-I
+xV	TruCount High QC
+x3	TruCount Low QC
+xX	TruCount Med QC
+h2	Trypsin, Serum
+h1	Tryptase
+oH	Tryptase
+nX	Tryptophan
+hi	Tube #
+Om	Tube Coag
+QN	Tween 80
+hr	Type of Fluid
+Mm	Type of Heparin
+2b	U2 Review Wet/Dry
+tO	UA Tested at:
+ei	UIBC
+Fx	UR Free Cort
+dY	UUN Random
+QD	UV
+p3	Unit ABO
+p2	Unit Number
+p4	Unit Rh
+ko	Ur Amp (QC)
+k1	Ur BE (QC)
+l2	Ur Codeine (QC)
+VX	Ur Creat g/L
+Fw	Ur Free Cort
+7W	Ur Hydrocodone (QC)
+7X	Ur Hydromorphone (QC)
+3W	Ur MDMA (QC)
+9e	Ur MDMA (QC)
+l0	Ur Metaamp (QC)
+tP	Ur Micro Tested at:
+l3	Ur Morphine (QC)
+7Y	Ur Oxycodone (QC)
+7Z	Ur Oxymorphone (QC)
+s9	Ur. Ca
+dW	Ur. Creat.
+dX	Ur. Creatinine
+Ps	Urea
+dI	Urea Urine
+dJ	Urea Urine
+dK	Urea Urine
+AO	Urea, BF
+ok	Ureaplasma Urealyticum Clt
+d4	Uric Ac Random
+cl	Uric Acid
+d2	Uric Acid Urine
+AC	Uric Acid- BF:
+rY	Urinary Calculi
+Ha	Urine Creat
+He	Urine Creat
+gy	Urine Drug Screen
+kf	Urine Drug Screen/Ref
+Gi	Urine Ethanol
+FE	Urine Ethanol:
+LD	Urine Glucose
+fQ	Urine HCG
+Hx	Urine Immunofixation
+=2	Urine Pres ID
+rv	Urine Specimen Type
+3h	Urine culture for DYNAMB
+dG	Urine volume
+s8	Urine. Ca
+uJ	Urobilinogen
+m5	Urobilinogen, Urine
+oo	Uroporphyrinogen-1 Syn
+lQ	Uroporphyrinogen-1-Synthase
+gI	VLDL Chol
+kA	VMA
+PX	VP
+jA	VZ Final
+Qh	VZ IFA
+ao	VZV Ab IgM, IFA
+C8	VZVG QCem
+0S	Va Disk (6-14 R)
+04	Va well/sub
+dk	Valpro LD Date
+k6	Valpro LD Date
+dl	Valpro LD Time
+k7	Valpro LD Time
+dm	Valpro ND Date
+k8	Valpro ND Date
+dn	Valpro ND Time
+k9	Valpro ND Time
+dj	Valproic Acid
+kw	Valproic Acid
+EK	Vanc LD Date
+EL	Vanc LD Time
+EM	Vanc ND Date
+EN	Vanc ND Time
+eK	Vanc Pk LD Date
+eL	Vanc Pk LD Time
+eM	Vanc Pk ND Date
+eN	Vanc Pk ND Time
+ES	Vancom Random

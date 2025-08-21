@@ -1,0 +1,6 @@
+params	MedGDLMParams
+n_ftrs	int
+b	vector<float>
+b0	float
+model_features	vector<string>
+features_count	int

@@ -1,0 +1,10 @@
+calculator	string
+calculator_init_params	string
+max_time_search_range	int
+signals_time_unit	int
+signals	vector<string>
+V_names	vector<string>
+req_signals	unordered_set<string>
+aff_signals	unordered_set<string>
+virtual_signals	vector<pair<string, int>>
+work_channel	int

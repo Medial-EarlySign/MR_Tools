@@ -1,0 +1,53 @@
+universe = vanilla
+
+rank = memory
+
+request_memory = 10000
+
+should_transfer_files = NO
+
+log = analyze_res.log
+
+request_cpus = 4
+
+executable = /server/UsersData/ido/MR/Tools/RepoLoadUtils/maccabi_etl/analyze_resolution.py 
+
+arguments = " --in_signal_file=lab/crp_new --out_analysis_file=res/crp_new.csv " 
+queue
+   
+arguments = " --in_signal_file=lab/lab2004.part0 --out_analysis_file=res/lab2004.part0.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2004.part1 --out_analysis_file=res/lab2004.part1.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2008.part0 --out_analysis_file=res/lab2008.part0.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2008.part1 --out_analysis_file=res/lab2008.part1.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2008.part2 --out_analysis_file=res/lab2008.part2.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2012.part0 --out_analysis_file=res/lab2012.part0.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2012.part1 --out_analysis_file=res/lab2012.part1.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2012.part2 --out_analysis_file=res/lab2012.part2.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2015.part0 --out_analysis_file=res/lab2015.part0.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2015.part1 --out_analysis_file=res/lab2015.part1.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab2015.part2 --out_analysis_file=res/lab2015.part2.csv " 
+queue
+
+arguments = " --in_signal_file=lab/lab_crp.part0 --out_analysis_file=res/lab_crp.part0.csv " 
+queue
+

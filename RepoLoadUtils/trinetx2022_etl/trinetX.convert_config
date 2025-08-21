@@ -1,0 +1,12 @@
+#
+# convert config file
+#
+DESCRIPTION	TrinetX22 - Full 
+RELATIVE 	0
+SAFE_MODE	1
+MODE	3
+PREFIX	trinetX22_rep
+CONFIG	trinetX22.repository
+SIGNAL	trinetX.signals
+FORCE_SIGNAL	GENDER,BYEAR
+OUTDIR	/server/Work/Repositories/trinetX22

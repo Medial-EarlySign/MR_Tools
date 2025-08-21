@@ -1,0 +1,14 @@
+generator_type	ABSTRACT
+ABSTRACT	0	FTR_GEN_NOT_SET
+ABSTRACT	1	BasicFeatGenerator
+ABSTRACT	2	AgeGenerator
+ABSTRACT	3	SingletonGenerator
+ABSTRACT	4	GenderGenerator
+ABSTRACT	5	BinnedLmEstimates
+ABSTRACT	6	SmokingGenerator
+ABSTRACT	7	KpSmokingGenerator
+ABSTRACT	8	RangeFeatGenerator
+ABSTRACT	9	DrugIntakeGenerator
+ABSTRACT	10	AlcoholGenerator
+ABSTRACT	11	ModelFeatGenerator
+ABSTRACT	12	FTR_GEN_LAST

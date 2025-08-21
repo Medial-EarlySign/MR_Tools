@@ -1,0 +1,33 @@
+14AN.00	H/O: atrial fibrillation                                    
+14AR.00	History of atrial flutter                                   
+212R.00	Atrial fibrillation resolved                                
+3272.00	ECG: atrial fibrillation                                    
+3273.00	ECG: atrial flutter                                         
+662S.00	Atrial fibrillation monitoring                              
+6A9..00	Atrial fibrillation annual review                           
+8CMW200	Atrial fibrillation care pathway                            
+8HTy.00	Referral to atrial fibrillation clinic                      
+9hF..00	Exception reporting: atrial fibrillation quality indicators 
+9hF0.00	Except from atr fib quality indicators: Patient unsuitable  
+9hF1.00	Excepted from atrial fibrillation qual indic: Inform dissent
+9Os..00	Atrial fibrillation monitoring administration               
+9Os0.00	Atrial fibrillation monitoring first letter                 
+9Os1.00	Atrial fibrillation monitoring second letter                
+9Os2.00	Atrial fibrillation monitoring third letter                 
+9Os3.00	Atrial fibrillation monitoring verbal invite                
+9Os4.00	Atrial fibrillation monitoring telephone invite             
+G573.00	Atrial fibrillation and flutter                             
+G573000	Atrial fibrillation                                         
+G573100	Atrial flutter                                              
+G573200	Paroxysmal atrial fibrillation                              
+G573300	Non-rheumatic atrial fibrillation                           
+G573400	Permanent atrial fibrillation                               
+G573500	Persistent atrial fibrillation                              
+G573600	Paroxysmal atrial flutter                                   
+G573z00	Atrial fibrillation and flutter NOS
+790G200	Percutaneous_occlusion_of_left_atrial_appendage
+790G300	Exclusion_of_left_atrial_appendage
+7936A00	Implant_intravenous_pacemaker_for_atrial_fibrillation
+793M100	Perc_transluminal_ablation_of_atrial_wall_for_atrial_flutter
+793M300	Perc_translum_ablat_conduct_sys_heart_for_atrial_flutter_NEC
+8OAD.00	Provision_of_written_information_about_atrial_fibrillation

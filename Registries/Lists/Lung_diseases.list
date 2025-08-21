@@ -1,0 +1,344 @@
+663..00	Respiratory disease monitoring
+663..11	Asthma monitoring
+663..12	Chronic resp. dis. monitoring
+6631.00	Initial resp. assessment
+6632.00	Follow-up resp. assessment
+6633.00	Oral steroids last used
+6634.00	Intermittent drugs used more
+6635.00	Increasing exercise wheeze
+6636.00	Inhaler technique shown
+6637.00	Inhaler technique observed
+6638.00	Home nebuliser
+6638.11	Nebuliser at home
+6639.00	Home oxygen supply
+6639.11	Home oxygen supply started
+6639.12	Oxygen at home
+663a.00	Oral steroids used since last appointment
+663A.00	Resp. drug side effects
+663b.00	Home nebuliser used since last appointment
+663B.00	Resp. treatment changed
+663B.11	Resp.dis.-treatment changed
+663c.00	Nebulisation since last appointment
+663C.00	Resp.dis.treatment started
+663d.00	Emergency asthma admission since last appointment
+663D.00	Resp.dis.treatment stopped
+663e.00	Asthma restricts exercise
+663E.00	Home oxygen supply stopped
+663e000	Asthma sometimes restricts exercise
+663e100	Asthma severely restricts exercise
+663f.00	Asthma never restricts exercise
+663F.00	Oral steroids started
+663g.00	Inhaled steroids use
+663G.00	Oral steroids stopped
+663g000	Not using inhaled steroids
+663g100	Using inhaled steroids - normal dose
+663g200	Using inhaled steroids - high dose
+663g300	Increases inhaled steroids appropriately
+663g400	Using inhaled steroids - low dose
+663h.00	Asthma - currently dormant
+663H.00	Inhaler technique - good
+663I.00	Inhaler technique - poor
+663i.00	Non-invasive ventilation therapy review
+663J.00	Airways obstruction reversible
+663j.00	Asthma - currently active
+663K.00	Airways obstructn irreversible
+663k.00	Reversibility trial by steroids
+663L.00	Bronchodilators used more than once daily
+663l.00	Spacer device in use
+663m.00	Asthma accident and emergency attendance since last visit
+663M.00	Bronchodilators used a maximum of once daily
+663N.00	Asthma disturbing sleep
+663n.00	Asthma treatment compliance satisfactory
+663N000	Asthma causing night waking
+663N100	Asthma disturbs sleep weekly
+663N200	Asthma disturbs sleep frequently
+663O.00	Asthma not disturbing sleep
+663o.00	Declined to perform inhaler technique
+663O000	Asthma never disturbs sleep
+663P.00	Asthma limiting activities
+663p.00	Asthma treatment compliance unsatisfactory
+663P000	Asthma limits activities 1 to 2 times per month
+663P100	Asthma limits activities 1 to 2 times per week
+663P200	Asthma limits activities most days
+663q.00	Asthma daytime symptoms
+663Q.00	Asthma not limiting activities
+663r.00	Asthma causes night symptoms 1 to 2 times per month
+663R.00	Service of nebuliser
+663s.00	Asthma never causes daytime symptoms
+663S.00	Peak flow meter at home
+663t.00	Asthma causes daytime symptoms 1 to 2 times per month
+663T.00	No peak flow meter at home
+663u.00	Asthma causes daytime symptoms 1 to 2 times per week
+663U.00	Asthma management plan given
+663v.00	Asthma causes daytime symptoms most days
+663V.00	Asthma severity
+663V000	Occasional asthma
+663V100	Mild asthma
+663V200	Moderate asthma
+663V300	Severe asthma
+663w.00	Asthma limits walking up hills or stairs
+663W.00	Asthma prophylactic medication used
+663x.00	Asthma limits walking on the flat
+663X.00	Irritable airways
+663y.00	Number of asthma exacerbations in past year
+663Y.00	Steroid dose inhaled daily
+663z.00	Number of times bronchodilator used in one week
+663Z.00	Resp. disease monitoring NOS
+663Z000	Bronchodilator used infrequently
+663Z100	Bronchodilator not used in last month
+66Y0.00	Number of times bronchodilator used in 24 hours
+66Y5.00	Change in asthma management plan
+66Y9.00	Step up change in asthma management plan
+66Ya.00	Reversibility trial by bronchodilator
+66YA.00	Step down change in asthma management plan
+66YB.00	Chronic obstructive pulmonary disease monitoring
+66Yb.00	Reversibility trial by anticholinergic
+66YB000	Chronic obstructive pulmonary disease 3 monthly review
+66YB100	Chronic obstructive pulmonary disease 6 monthly review
+66YB200	Telehealth chronic obstructive pulmonary disease monitoring
+66YC.00	Absent from work or school due to asthma
+66Yc.00	Number of cons days less than 80% peak expiratory flow rate
+66YD.00	Chronic obstructive pulmonary disease monitoring due
+66Yd.00	COPD accident and emergency attendance since last visit
+66YE.00	Asthma monitoring due
+66Ye.00	Emergency COPD admission since last appointment
+66YF.00	Nebulizer technique good
+66Yf.00	Number of COPD exacerbations in past year
+66Yg.00	Chronic obstructive pulmonary disease disturbs sleep
+66YG.00	Nebulizer technique poor
+66YH.00	Attends respiratory support group
+66Yh.00	Chronic obstructive pulmonary disease does not disturb sleep
+66YI.00	COPD self-management plan given
+66Yi.00	Multiple COPD emergency hospital admissions
+66YJ.00	Asthma annual review
+66Yj.00	Home oxygen supply - cylinder
+66YK.00	Asthma follow-up
+66Yk.00	Home oxygen supply - concentrator
+66YL.00	Chronic obstructive pulmonary disease follow-up
+66Yl.00	Home oxygen supply - liquid oxygen
+66YL.11	COPD follow-up
+66YL.12	COAD follow-up
+66YM.00	Chronic obstructive pulmonary disease annual review
+66Ym.00	Inhaler device in use
+66Yn.00	Oxygen therapy initial assessment
+66YN.00	Peak expiratory flow rate compliance
+66Yo.00	Oxygen therapy follow up assessment
+66YO.00	Peak expiratory flow rate technique
+66YP.00	Asthma night-time symptoms
+66Yp.00	Asthma review using Roy Colleg of Physicians three questions
+66Yq.00	Asthma causes night time symptoms 1 to 2 times per week
+66YQ.00	Asthma monitoring by nurse
+66Yr.00	Asthma causes symptoms most nights
+66YR.00	Asthma monitoring by doctor
+66Ys.00	Asthma never causes night symptoms
+66YS.00	Chronic obstructive pulmonary disease monitoring by nurse
+66YT.00	Chronic obstructive pulmonary disease monitoring by doctor
+66Yt.00	Spirometric lung age
+66Yu.00	Number days absent from school due to asthma in past 6 month
+66YV.00	Does not use spacer device
+66Yv.00	Inhaler technique not checked
+66Yw.00	Alveolar volume
+66YW.00	No nebulisation since last appointment
+66Yx.00	Bronchodilators used once daily
+66YX.00	Peak expiratory flow rate monitoring
+66YY.00	Peak expiratory flow rate monitoring using diary
+66Yy.00	Review of inhaler technique using inhaler checking device
+66YY.11	PEFR monitoring using diary
+66YZ.00	Does not have asthma management plan
+66Yz.00	Other respiratory disease monitoring - additional
+66Yz000	Asthma management plan declined
+66Yz100	Chronic obstruct pulmonary disease management plan declined
+66Yz500	Telehealth asthma monitoring
+8H2R.00	Admit COPD emergency
+H3...00	Chronic obstructive pulmonary disease
+H3...11	Chronic obstructive airways disease
+H30..00	Bronchitis unspecified
+H30..11	Chest infection - unspecified bronchitis
+H30..12	Recurrent wheezy bronchitis
+H300.00	Tracheobronchitis NOS
+H301.00	Laryngotracheobronchitis
+H302.00	Wheezy bronchitis
+H30z.00	Bronchitis NOS
+H31..00	Chronic bronchitis
+H310.00	Simple chronic bronchitis
+H310000	Chronic catarrhal bronchitis
+H310100	Smokers' cough
+H310z00	Simple chronic bronchitis NOS
+H311.00	Mucopurulent chronic bronchitis
+H311000	Purulent chronic bronchitis
+H311100	Fetid chronic bronchitis
+H311z00	Mucopurulent chronic bronchitis NOS
+H312.00	Obstructive chronic bronchitis
+H312000	Chronic asthmatic bronchitis
+H312011	Chronic wheezy bronchitis
+H312100	Emphysematous bronchitis
+H312200	Acute exacerbation of chronic obstructive airways disease
+H312300	Bronchiolitis obliterans
+H312z00	Obstructive chronic bronchitis NOS
+H313.00	Mixed simple and mucopurulent chronic bronchitis
+H31y.00	Other chronic bronchitis
+H31y000	Chronic tracheitis
+H31y100	Chronic tracheobronchitis
+H31yz00	Other chronic bronchitis NOS
+H31z.00	Chronic bronchitis NOS
+H32..00	Emphysema
+H320.00	Chronic bullous emphysema
+H320000	Segmental bullous emphysema
+H320100	Zonal bullous emphysema
+H320200	Giant bullous emphysema
+H320300	Bullous emphysema with collapse
+H320311	Tension pneumatocoele
+H320z00	Chronic bullous emphysema NOS
+H321.00	Panlobular emphysema
+H322.00	Centrilobular emphysema
+h323.00	
+H32y.00	Other emphysema
+H32y000	Acute vesicular emphysema
+H32y100	Atrophic (senile) emphysema
+H32y111	Acute interstitial emphysema
+H32y200	MacLeod's unilateral emphysema
+H32yz00	Other emphysema NOS
+H32z.00	Emphysema NOS
+H33..00	Asthma
+H33..11	Bronchial asthma
+H330.00	Extrinsic (atopic) asthma
+H330.11	Allergic asthma
+H330.12	Childhood asthma
+H330.13	Hay fever with asthma
+H330.14	Pollen asthma
+H330000	Extrinsic asthma without status asthmaticus
+H330011	Hay fever with asthma
+H330100	Extrinsic asthma with status asthmaticus
+H330111	Extrinsic asthma with asthma attack
+H330z00	Extrinsic asthma NOS
+H331.00	Intrinsic asthma
+H331.11	Late onset asthma
+H331000	Intrinsic asthma without status asthmaticus
+H331100	Intrinsic asthma with status asthmaticus
+H331111	Intrinsic asthma with asthma attack
+H331z00	Intrinsic asthma NOS
+H332.00	Mixed asthma
+H333.00	Acute exacerbation of asthma
+H334.00	Brittle asthma
+H335.00	Chronic asthma with fixed airflow obstruction
+H33z.00	Asthma unspecified
+h33z.00	
+H33z.11	Hyperreactive airways disease
+H33z000	Status asthmaticus NOS
+H33z011	Severe asthma attack
+H33z100	Asthma attack
+h33z100	
+H33z111	Asthma attack NOS
+H33z200	Late-onset asthma
+H33zz00	Asthma NOS
+H33zz11	Exercise induced asthma
+H33zz12	Allergic asthma NEC
+H33zz13	Allergic bronchitis NEC
+H34..00	Bronchiectasis
+H340.00	Recurrent bronchiectasis
+H341.00	Post-infective bronchiectasis
+h341.00	
+h342.00	
+H34z.00	Bronchiectasis NOS
+H36..00	Mild chronic obstructive pulmonary disease
+H37..00	Moderate chronic obstructive pulmonary disease
+H38..00	Severe chronic obstructive pulmonary disease
+H39..00	Very severe chronic obstructive pulmonary disease
+H3A..00	End stage chronic obstructive airways disease
+H3B..00	Asthma-chronic obstructive pulmonary disease overlap syndrom
+h3GQ.00	
+h3GU.00	
+H3y..00	Other specified chronic obstructive airways disease
+H3y..11	Other specified chronic obstructive pulmonary disease
+H3y0.00	Chronic obstruct pulmonary dis with acute lower resp infectn
+H3y1.00	Chron obstruct pulmonary dis wth acute exacerbation, unspec
+H3z..00	Chronic obstructive airways disease NOS
+H3z..11	Chronic obstructive pulmonary disease NOS
+663..00	Respiratory disease monitoring
+663..11	Asthma monitoring
+663..12	Chronic resp. dis. monitoring
+6631.00	Initial resp. assessment
+6632.00	Follow-up resp. assessment
+6633.00	Oral steroids last used
+6634.00	Intermittent drugs used more
+6635.00	Increasing exercise wheeze
+6636.00	Inhaler technique shown
+6637.00	Inhaler technique observed
+6638.00	Home nebuliser
+6638.11	Nebuliser at home
+6639.00	Home oxygen supply
+6639.11	Home oxygen supply started
+6639.12	Oxygen at home
+663a.00	Oral steroids used since last appointment
+663A.00	Resp. drug side effects
+663b.00	Home nebuliser used since last appointment
+663B.00	Resp. treatment changed
+663B.11	Resp.dis.-treatment changed
+663c.00	Nebulisation since last appointment
+663C.00	Resp.dis.treatment started
+663d.00	Emergency asthma admission since last appointment
+663D.00	Resp.dis.treatment stopped
+663e.00	Asthma restricts exercise
+663E.00	Home oxygen supply stopped
+663e000	Asthma sometimes restricts exercise
+663e100	Asthma severely restricts exercise
+663f.00	Asthma never restricts exercise
+663F.00	Oral steroids started
+663g.00	Inhaled steroids use
+663G.00	Oral steroids stopped
+663g000	Not using inhaled steroids
+663g100	Using inhaled steroids - normal dose
+663g200	Using inhaled steroids - high dose
+663g300	Increases inhaled steroids appropriately
+663g400	Using inhaled steroids - low dose
+663h.00	Asthma - currently dormant
+663H.00	Inhaler technique - good
+663I.00	Inhaler technique - poor
+663i.00	Non-invasive ventilation therapy review
+663J.00	Airways obstruction reversible
+663j.00	Asthma - currently active
+663K.00	Airways obstructn irreversible
+663k.00	Reversibility trial by steroids
+663L.00	Bronchodilators used more than once daily
+663l.00	Spacer device in use
+663m.00	Asthma accident and emergency attendance since last visit
+663M.00	Bronchodilators used a maximum of once daily
+663N.00	Asthma disturbing sleep
+663n.00	Asthma treatment compliance satisfactory
+663N000	Asthma causing night waking
+663N100	Asthma disturbs sleep weekly
+663N200	Asthma disturbs sleep frequently
+663O.00	Asthma not disturbing sleep
+663o.00	Declined to perform inhaler technique
+663O000	Asthma never disturbs sleep
+663P.00	Asthma limiting activities
+663p.00	Asthma treatment compliance unsatisfactory
+663P000	Asthma limits activities 1 to 2 times per month
+663P100	Asthma limits activities 1 to 2 times per week
+663P200	Asthma limits activities most days
+663q.00	Asthma daytime symptoms
+663Q.00	Asthma not limiting activities
+663r.00	Asthma causes night symptoms 1 to 2 times per month
+663R.00	Service of nebuliser
+663s.00	Asthma never causes daytime symptoms
+663S.00	Peak flow meter at home
+663t.00	Asthma causes daytime symptoms 1 to 2 times per month
+663T.00	No peak flow meter at home
+663u.00	Asthma causes daytime symptoms 1 to 2 times per week
+663U.00	Asthma management plan given
+663v.00	Asthma causes daytime symptoms most days
+663V.00	Asthma severity
+663V000	Occasional asthma
+663V100	Mild asthma
+663V200	Moderate asthma
+663V300	Severe asthma
+663w.00	Asthma limits walking up hills or stairs
+663W.00	Asthma prophylactic medication used
+663x.00	Asthma limits walking on the flat
+663X.00	Irritable airways
+663y.00	Number of asthma exacerbations in past year
+663Y.00	Steroid dose inhaled daily
+663z.00	Number of times bronchodilator used in one week
+663Z.00	Resp. disease monitoring NOS
+663Z000	Bronchodilator used infrequently
+663Z100	Bronchodilator not used in last month

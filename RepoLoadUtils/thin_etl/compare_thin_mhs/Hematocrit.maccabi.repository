@@ -1,0 +1,162 @@
+Hematocrit :: All :: With Values :: 948626 / 1279479 =  0.74 :: 948626 / 948626 =  1.00
+Hematocrit :: Males :: With Values :: 446057 / 622859 =  0.72 :: 446057 / 948626 =  0.47
+Hematocrit :: Females :: With Values :: 502569 / 656620 =  0.77 :: 502569 / 948626 =  0.53
+Hematocrit :: General :: No. of Values :: All 13838913 Male 5404961 Female 8433952
+Hematocrit :: General :: No. of different days Values :: All 13832529 Male 5402275 Female 8430254
+Hematocrit :: General :: Avg #values per person (all) :: All 10.81 Male  8.67 Female 12.84
+Hematocrit :: General :: Avg #values per person (>0)  :: All 14.58 Male 12.11 Female 16.77
+Hematocrit :: General :: Avg dist between tests       :: All  260.6 Male  291.8 Female  241.1
+Hematocrit :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Hematocrit :: Counts :: Age Group 25 - 30 :: All ::   5362 0.000
+Hematocrit :: Counts :: Age Group 30 - 35 :: All :: 136866 0.010
+Hematocrit :: Counts :: Age Group 35 - 40 :: All :: 257399 0.019
+Hematocrit :: Counts :: Age Group 40 - 45 :: All :: 325970 0.024
+Hematocrit :: Counts :: Age Group 45 - 50 :: All :: 284686 0.021
+Hematocrit :: Counts :: Age Group 50 - 55 :: All :: 289679 0.021
+Hematocrit :: Counts :: Age Group 55 - 60 :: All :: 297474 0.021
+Hematocrit :: Counts :: Age Group 60 - 65 :: All :: 278723 0.020
+Hematocrit :: Counts :: Age Group 65 - 70 :: All :: 254413 0.018
+Hematocrit :: Counts :: Age Group 70 - 75 :: All :: 201418 0.015
+Hematocrit :: Counts :: Age Group 75 - 80 :: All :: 180925 0.013
+Hematocrit :: Counts :: Age Group 80 - 85 :: All :: 130573 0.009
+Hematocrit :: Counts :: Age Group 85 - 90 :: All ::  80845 0.006
+Hematocrit :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Hematocrit :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Hematocrit :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Hematocrit :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Hematocrit :: Counts :: Age Group 25 - 30 :: Males ::    961 0.000
+Hematocrit :: Counts :: Age Group 30 - 35 :: Males ::  27252 0.005
+Hematocrit :: Counts :: Age Group 35 - 40 :: Males ::  65609 0.012
+Hematocrit :: Counts :: Age Group 40 - 45 :: Males :: 108669 0.020
+Hematocrit :: Counts :: Age Group 45 - 50 :: Males :: 111391 0.021
+Hematocrit :: Counts :: Age Group 50 - 55 :: Males :: 119024 0.022
+Hematocrit :: Counts :: Age Group 55 - 60 :: Males :: 126705 0.023
+Hematocrit :: Counts :: Age Group 60 - 65 :: Males :: 123344 0.023
+Hematocrit :: Counts :: Age Group 65 - 70 :: Males :: 114981 0.021
+Hematocrit :: Counts :: Age Group 70 - 75 :: Males ::  93196 0.017
+Hematocrit :: Counts :: Age Group 75 - 80 :: Males ::  82641 0.015
+Hematocrit :: Counts :: Age Group 80 - 85 :: Males ::  57112 0.011
+Hematocrit :: Counts :: Age Group 85 - 90 :: Males ::  33422 0.006
+Hematocrit :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Hematocrit :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Hematocrit :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Hematocrit :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Hematocrit :: Counts :: Age Group 25 - 30 :: Females ::   4401 0.001
+Hematocrit :: Counts :: Age Group 30 - 35 :: Females :: 109614 0.013
+Hematocrit :: Counts :: Age Group 35 - 40 :: Females :: 191790 0.023
+Hematocrit :: Counts :: Age Group 40 - 45 :: Females :: 217301 0.026
+Hematocrit :: Counts :: Age Group 45 - 50 :: Females :: 173295 0.021
+Hematocrit :: Counts :: Age Group 50 - 55 :: Females :: 170655 0.020
+Hematocrit :: Counts :: Age Group 55 - 60 :: Females :: 170769 0.020
+Hematocrit :: Counts :: Age Group 60 - 65 :: Females :: 155379 0.018
+Hematocrit :: Counts :: Age Group 65 - 70 :: Females :: 139432 0.017
+Hematocrit :: Counts :: Age Group 70 - 75 :: Females :: 108222 0.013
+Hematocrit :: Counts :: Age Group 75 - 80 :: Females ::  98284 0.012
+Hematocrit :: Counts :: Age Group 80 - 85 :: Females ::  73461 0.009
+Hematocrit :: Counts :: Age Group 85 - 90 :: Females ::  47423 0.006
+Hematocrit :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Hematocrit :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Hematocrit :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Hematocrit :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats :: Age Group 25 - 30 :: All ::  N 81822 non-zeros 81816 Median  38.70 Mean  38.91 Std   4.42 Max  64.50
+Hematocrit :: Stats :: Age Group 30 - 35 :: All ::  N 213860 non-zeros 213823 Median  39.50 Mean  39.52 Std   4.48 Max  68.70
+Hematocrit :: Stats :: Age Group 35 - 40 :: All ::  N 331908 non-zeros 331865 Median  40.40 Mean  40.37 Std   4.33 Max  66.60
+Hematocrit :: Stats :: Age Group 40 - 45 :: All ::  N 402079 non-zeros 402044 Median  41.00 Mean  40.97 Std   4.08 Max  71.20
+Hematocrit :: Stats :: Age Group 45 - 50 :: All ::  N 356399 non-zeros 356377 Median  41.50 Mean  41.39 Std   3.95 Max  63.30
+Hematocrit :: Stats :: Age Group 50 - 55 :: All ::  N 324753 non-zeros 324721 Median  41.80 Mean  41.77 Std   3.74 Max  70.30
+Hematocrit :: Stats :: Age Group 55 - 60 :: All ::  N 279340 non-zeros 279309 Median  41.90 Mean  41.94 Std   3.61 Max  61.90
+Hematocrit :: Stats :: Age Group 60 - 65 :: All ::  N 235507 non-zeros 235487 Median  41.80 Mean  41.79 Std   3.68 Max  66.20
+Hematocrit :: Stats :: Age Group 65 - 70 :: All ::  N 185550 non-zeros 185535 Median  41.50 Mean  41.44 Std   3.83 Max  67.90
+Hematocrit :: Stats :: Age Group 70 - 75 :: All ::  N 131258 non-zeros 131243 Median  41.00 Mean  40.90 Std   4.02 Max  66.40
+Hematocrit :: Stats :: Age Group 75 - 80 :: All ::  N 102904 non-zeros 102895 Median  40.40 Mean  40.18 Std   4.21 Max  62.00
+Hematocrit :: Stats :: Age Group 80 - 85 :: All ::  N 65560 non-zeros 65553 Median  39.60 Mean  39.30 Std   4.45 Max  59.70
+Hematocrit :: Stats :: Age Group 85 - 90 :: All ::  N 37728 non-zeros 37722 Median  38.60 Mean  38.33 Std   4.66 Max  59.50
+Hematocrit :: Stats :: Age Group 90 - 95 :: All ::  N 15914 non-zeros 15910 Median  37.80 Mean  37.50 Std   4.76 Max  56.10
+Hematocrit :: Stats :: Age Group 95 - 100 :: All ::  N 4029 non-zeros 4027 Median  37.10 Mean  36.81 Std   4.92 Max  59.30
+Hematocrit :: General :: All     :: outliers ratio 0.000000
+Hematocrit :: General :: All     :: N 948558 non-zeros 948420 Median  41.20 Mean  40.96 Std   4.31 Max  66.40
+Hematocrit :: General :: All     :: distribution 0.001,0.01,0.05 ::  24.10  29.60  33.50  47.40  49.80  53.00
+Hematocrit :: General :: All     :: quartiles ::  24.10  38.30  41.20  44.00 
+Hematocrit :: General :: Males   :: outliers ratio 0.000000
+Hematocrit :: General :: Males   :: N 446040 non-zeros 445978 Median  43.80 Mean  43.47 Std   3.65 Max  73.70
+Hematocrit :: General :: Males   :: distribution 0.001,0.01,0.05 ::  24.60  31.30  37.20  48.50  50.70  53.90
+Hematocrit :: General :: Males   :: quartiles ::  24.60  41.70  43.80  45.70 
+Hematocrit :: General :: Females :: outliers ratio 0.000000
+Hematocrit :: General :: Females :: N 502518 non-zeros 502438 Median  39.00 Mean  38.75 Std   3.57 Max  67.90
+Hematocrit :: General :: Females :: distribution 0.001,0.01,0.05 ::  23.70  29.00  32.50  44.00  46.30  49.50
+Hematocrit :: General :: Females :: quartiles ::  23.70  36.70  39.10  41.10 
+Hematocrit :: Rounding ::  0.00 r  0.00 pct
+Hematocrit :: Rounding ::  0.01 r  0.19 pct
+Hematocrit :: Rounding ::  0.10 r  0.70 pct
+Hematocrit :: Rounding ::  1.00 r  0.09 pct
+Hematocrit :: Rounding :: 10.00 r  0.01 pct
+Hematocrit :: Rounding :: 100.00 r  0.00 pct
+Hematocrit :: Rounding :: 1000.00 r  0.00 pct
+Hematocrit :: Rounding :: most popular rounding for vals:  0.10
+Hematocrit :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats year :: 2001 :: All :: N 417940 non-zeros 417914 Median  39.80 Mean  39.85 Std   4.21 Max  65.90
+Hematocrit :: Stats year :: 2002 :: All :: N 406241 non-zeros 406192 Median  40.50 Mean  40.43 Std   4.11 Max  72.50
+Hematocrit :: Stats year :: 2003 :: All :: N 442785 non-zeros 442760 Median  40.10 Mean  40.08 Std   3.99 Max  66.20
+Hematocrit :: Stats year :: 2004 :: All :: N 466302 non-zeros 466242 Median  40.20 Mean  40.21 Std   3.98 Max  66.30
+Hematocrit :: Stats year :: 2005 :: All :: N 481527 non-zeros 481455 Median  40.40 Mean  40.38 Std   3.98 Max  66.70
+Hematocrit :: Stats year :: 2006 :: All :: N 493195 non-zeros 493105 Median  40.70 Mean  40.69 Std   4.03 Max  73.70
+Hematocrit :: Stats year :: 2007 :: All :: N 504110 non-zeros 504066 Median  40.90 Mean  40.87 Std   3.96 Max  68.80
+Hematocrit :: Stats year :: 2008 :: All :: N 506514 non-zeros 506467 Median  41.00 Mean  40.98 Std   3.95 Max  67.00
+Hematocrit :: Stats year :: 2009 :: All :: N 533345 non-zeros 533300 Median  41.30 Mean  41.25 Std   3.98 Max  67.60
+Hematocrit :: Stats year :: 2010 :: All :: N 531559 non-zeros 531496 Median  41.20 Mean  41.17 Std   3.94 Max  73.20
+Hematocrit :: Stats year :: 2011 :: All :: N 536329 non-zeros 536290 Median  41.40 Mean  41.37 Std   3.92 Max  69.20
+Hematocrit :: Stats year :: 2012 :: All :: N 545295 non-zeros 545249 Median  41.50 Mean  41.43 Std   3.92 Max  71.20
+Hematocrit :: Stats year :: 2013 :: All :: N 549365 non-zeros 549327 Median  41.50 Mean  41.40 Std   3.90 Max  64.90
+Hematocrit :: Stats year :: 2014 :: All :: N 544835 non-zeros 544797 Median  41.50 Mean  41.44 Std   3.93 Max  64.30
+Hematocrit :: Stats year :: 2015 :: All :: N 481842 non-zeros 481801 Median  41.10 Mean  41.00 Std   3.90 Max  71.20
+Hematocrit :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats year :: 2001 :: Males   :: N 153657 non-zeros 153646 Median  43.40 Mean  43.19 Std   3.34 Max  68.50
+Hematocrit :: Stats year :: 2002 :: Males   :: N 152156 non-zeros 152143 Median  43.70 Mean  43.53 Std   3.32 Max  65.00
+Hematocrit :: Stats year :: 2003 :: Males   :: N 168786 non-zeros 168775 Median  43.20 Mean  43.04 Std   3.26 Max  69.40
+Hematocrit :: Stats year :: 2004 :: Males   :: N 181373 non-zeros 181346 Median  43.30 Mean  43.07 Std   3.30 Max  71.30
+Hematocrit :: Stats year :: 2005 :: Males   :: N 191024 non-zeros 190984 Median  43.40 Mean  43.16 Std   3.35 Max  66.70
+Hematocrit :: Stats year :: 2006 :: Males   :: N 199149 non-zeros 199104 Median  43.60 Mean  43.40 Std   3.44 Max  73.70
+Hematocrit :: Stats year :: 2007 :: Males   :: N 206444 non-zeros 206428 Median  43.70 Mean  43.50 Std   3.38 Max  71.30
+Hematocrit :: Stats year :: 2008 :: Males   :: N 208505 non-zeros 208481 Median  43.80 Mean  43.56 Std   3.43 Max  66.60
+Hematocrit :: Stats year :: 2009 :: Males   :: N 223013 non-zeros 222995 Median  44.10 Mean  43.79 Std   3.45 Max  67.10
+Hematocrit :: Stats year :: 2010 :: Males   :: N 223403 non-zeros 223371 Median  43.90 Mean  43.62 Std   3.48 Max  73.20
+Hematocrit :: Stats year :: 2011 :: Males   :: N 228177 non-zeros 228157 Median  44.00 Mean  43.78 Std   3.49 Max  69.20
+Hematocrit :: Stats year :: 2012 :: Males   :: N 234460 non-zeros 234437 Median  44.00 Mean  43.77 Std   3.53 Max  70.30
+Hematocrit :: Stats year :: 2013 :: Males   :: N 238133 non-zeros 238118 Median  44.00 Mean  43.68 Std   3.53 Max  60.80
+Hematocrit :: Stats year :: 2014 :: Males   :: N 237393 non-zeros 237380 Median  44.00 Mean  43.69 Std   3.59 Max  63.60
+Hematocrit :: Stats year :: 2015 :: Males   :: N 209055 non-zeros 209033 Median  43.50 Mean  43.16 Std   3.65 Max  71.20
+Hematocrit :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats year :: 2001 :: Females :: N 264283 non-zeros 264271 Median  38.10 Mean  37.90 Std   3.36 Max  65.90
+Hematocrit :: Stats year :: 2002 :: Females :: N 254085 non-zeros 254063 Median  38.80 Mean  38.57 Std   3.33 Max  71.30
+Hematocrit :: Stats year :: 2003 :: Females :: N 273999 non-zeros 273981 Median  38.50 Mean  38.26 Std   3.24 Max  71.30
+Hematocrit :: Stats year :: 2004 :: Females :: N 284929 non-zeros 284898 Median  38.60 Mean  38.39 Std   3.25 Max  60.70
+Hematocrit :: Stats year :: 2005 :: Females :: N 290503 non-zeros 290470 Median  38.70 Mean  38.56 Std   3.25 Max  63.30
+Hematocrit :: Stats year :: 2006 :: Females :: N 294046 non-zeros 294000 Median  39.00 Mean  38.86 Std   3.31 Max  61.90
+Hematocrit :: Stats year :: 2007 :: Females :: N 297666 non-zeros 297639 Median  39.20 Mean  39.04 Std   3.24 Max  62.50
+Hematocrit :: Stats year :: 2008 :: Females :: N 298009 non-zeros 297987 Median  39.40 Mean  39.18 Std   3.22 Max  63.40
+Hematocrit :: Stats year :: 2009 :: Females :: N 310332 non-zeros 310307 Median  39.60 Mean  39.42 Std   3.26 Max  62.40
+Hematocrit :: Stats year :: 2010 :: Females :: N 308156 non-zeros 308124 Median  39.60 Mean  39.39 Std   3.23 Max  60.80
+Hematocrit :: Stats year :: 2011 :: Females :: N 308152 non-zeros 308126 Median  39.80 Mean  39.60 Std   3.22 Max  66.60
+Hematocrit :: Stats year :: 2012 :: Females :: N 310835 non-zeros 310819 Median  39.90 Mean  39.67 Std   3.22 Max  66.40
+Hematocrit :: Stats year :: 2013 :: Females :: N 311232 non-zeros 311214 Median  39.80 Mean  39.66 Std   3.22 Max  63.80
+Hematocrit :: Stats year :: 2014 :: Females :: N 307442 non-zeros 307415 Median  39.90 Mean  39.70 Std   3.24 Max  60.50
+Hematocrit :: Stats year :: 2015 :: Females :: N 272787 non-zeros 272757 Median  39.50 Mean  39.34 Std   3.22 Max  67.60
+Hematocrit :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Hematocrit :: Stats month 1 :: All :: N 375500 non-zeros 375451 Median  40.90 Mean  40.74 Std   4.36 Max  71.30
+Hematocrit :: Stats month 2 :: All :: N 365340 non-zeros 365285 Median  40.90 Mean  40.70 Std   4.34 Max  71.20
+Hematocrit :: Stats month 3 :: All :: N 375822 non-zeros 375774 Median  40.70 Mean  40.55 Std   4.34 Max  64.70
+Hematocrit :: Stats month 4 :: All :: N 354985 non-zeros 354934 Median  40.70 Mean  40.50 Std   4.34 Max  71.30
+Hematocrit :: Stats month 5 :: All :: N 403535 non-zeros 403487 Median  40.70 Mean  40.50 Std   4.30 Max  66.30
+Hematocrit :: Stats month 6 :: All :: N 399740 non-zeros 399682 Median  40.60 Mean  40.45 Std   4.27 Max  69.40
+Hematocrit :: Stats month 7 :: All :: N 407583 non-zeros 407532 Median  40.60 Mean  40.40 Std   4.25 Max  62.50
+Hematocrit :: Stats month 8 :: All :: N 391442 non-zeros 391398 Median  40.50 Mean  40.31 Std   4.23 Max  70.30
+Hematocrit :: Stats month 9 :: All :: N 346094 non-zeros 346036 Median  40.40 Mean  40.21 Std   4.31 Max  65.20
+Hematocrit :: Stats month 10 :: All :: N 387019 non-zeros 386968 Median  40.80 Mean  40.60 Std   4.27 Max  70.90
+Hematocrit :: Stats month 11 :: All :: N 368985 non-zeros 368927 Median  40.90 Mean  40.74 Std   4.31 Max  64.50
+Hematocrit :: Stats month 12 :: All :: N 357801 non-zeros 357741 Median  40.90 Mean  40.75 Std   4.37 Max  74.80
+

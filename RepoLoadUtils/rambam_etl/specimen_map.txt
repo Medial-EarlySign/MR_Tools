@@ -1,0 +1,90 @@
+מזון להזנה ורידית	EXTERNAL
+שערות	SKIN
+נוזל פריקרדיאלי	PERICARDIAL
+לחמית-עין	EYE
+פצע כוויה	WOUND
+שאיבה מטובוס	BRONCHIAL
+פצע	WOUND
+נוזל פריטוניאלי	PERITONEAL
+נוזל אמניוטי	AMNIO
+דם נימי	BLOOD
+כיח	SPUTUM
+ביופסיה מרקמה	TISSUE
+מי שפיר	AMNIO
+משטח עין	EYE
+בדיקת מזון	EXTERNAL
+צוואר הרחם	VAGINAL
+נקז	CATHETER
+TNUHS	CATHETER
+דם	BLOOD
+שופכה	URINE
+משטח אוזן	EAR
+מח עצם	BONE MARROW
+רקטום)פי-הטבעת(	STOOL
+קצה LA	CATHETER
+מברשת	SWAB
+סרום	BLOOD
+נוזלים שונים	OTHER
+בלוק פרפין	EXTERNAL
+משטח וגינלי	VAGINAL
+דם-ורידי היקפי	BLOOD
+לשכה-עין	EYE
+אויר	EXTERNAL
+משטח אף	NOSE	
+מטוש	SWAB	
+שטיפה ברונכאלית	BRONCHIAL
+סינוס	NOSE
+פריטונ. דיאליזה	EXTERNAL
+נוזל מניקור	EXTERNAL
+ניתוח)נ.ע.שדרה(	TISSUE
+משטח דם	BLOOD
+משטח לוע	SWAB
+נוזל המטומה	ABSCESS
+נוזל עמוד שדרה	CSF
+כיח דרך טובוס	BRONCHIAL
+משטח רקטום	STOOL
+שתל	OTHER
+לשד עצם	BONE MARROW
+זן פטריה	OTHER
+חדר )מוח(	CSF
+אינטרקט	CATHETHER
+משטח	SWAB
+ראה הערות	OTHER
+נוזל כיס מרה	BILE
+צנתר פריפרי	CATHETER
+איסוף תאי אב	OTHER
+מיץ קיבה	BILE
+קצה קטטר	CATHETER
+נוזל עדשות מגע	EXTERNAL
+קרנית-עין	EYE
+לא מוגדר	OTHER
+קשקשים	SKIN
+הפרשה	OTHER
+דם-משטח	BLOOD
+רוק מלא	SPUTUM
+מוגלה	ABSCESS
+התקן תוך רחמי	OTHER
+נוזל זרע	SPERM
+צלחת אגר	OTHER
+None	OTHER
+בקבוק תרבית דם	OTHER
+שתן	URINE
+דם-היקמן	CATHETER
+שונות	OTHER
+רקמת כוויה	TISSUE
+דנ"א	OTHER
+דרן	CATHETER
+צפורן	SKIN
+קצה PVC	CATHETER
+דם-צנתר ורידי	CATHETER
+משטח פה	SWAB
+פצע ניתוח	WOUND
+עור	SKIN
+שקית חיצונית-PL	EXTERNAL
+פריקרדיאלי	PERICARDIAL
+דם-ברוביאק	CATHETER
+צואה	STOOL
+זן חיידק	OTHER
+נוזל סינוביאלי	JOINT
+נוזל פלוירלי	PLEURAL
+מסתם מלאכותי	OTHER

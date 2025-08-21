@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlgoMarker python API &#8212; AlgoMarker 1.0.0 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">AlgoMarker 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">AlgoMarker python API</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-AlgoMarker">
+<span id="algomarker-python-api"></span><h1>AlgoMarker python API<a class="headerlink" href="#module-AlgoMarker" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="AlgoMarker.AlgoMarker">
+<em class="property">class </em><code class="sig-prename descclassname">AlgoMarker.</code><code class="sig-name descname">AlgoMarker</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">amconfig_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">libpath</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>str<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#AlgoMarker.AlgoMarker" title="Permalink to this definition">¶</a></dt>
+<dd><p>AlgoMarker object that holds full model pipeline to calculate meaningfull insights from EMR raw data.</p>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#AlgoMarker.AlgoMarker.calculate" title="AlgoMarker.AlgoMarker.calculate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">calculate</span></code></a>(request_json)</p></td>
+<td><p>Recieved json request for calculation and returns json string responde object with the result .</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#AlgoMarker.AlgoMarker.discovery" title="AlgoMarker.AlgoMarker.discovery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discovery</span></code></a>()</p></td>
+<td><p>Returns information about the Algomarkers in json format - input signals, name, version, etc.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#AlgoMarker.AlgoMarker.dispose" title="AlgoMarker.AlgoMarker.dispose"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dispose</span></code></a>()</p></td>
+<td><p>Disposes the AlgoMarker object and frees the memory</p></td>
+</tr>
+</tbody>
+</table>
+<p>AlgoMarker constractor - receives AlgoMarker configuration file path “amconfig”.
+Optional path to C shared library file. If we want to use other version, not default
+library that is packed in this module.</p>
+
+<dl class="py method">
+<dt id="AlgoMarker.AlgoMarker.calculate">
+<code class="sig-name descname">calculate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_json</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; str<a class="headerlink" href="#AlgoMarker.AlgoMarker.calculate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recieved json request for calculation and returns json string responde object with the result</p>
+<p class="rubric">Notes</p>
+<p>The input json request and json response results are documented in a different document</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="AlgoMarker.AlgoMarker.create_request_json">
+<em class="property">static </em><code class="sig-name descname">create_request_json</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">patient_id</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">prediction_time</span><span class="p">:</span> <span class="n">int</span></em><span class="sig-paren">)</span> &#x2192; str<a class="headerlink" href="#AlgoMarker.AlgoMarker.create_request_json" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates and returns a string json request for patient_id and prediction_time</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="AlgoMarker.AlgoMarker.discovery">
+<code class="sig-name descname">discovery</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; str<a class="headerlink" href="#AlgoMarker.AlgoMarker.discovery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns information about the Algomarkers in json format - input signals, name, version, etc.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="AlgoMarker.AlgoMarker.dispose">
+<code class="sig-name descname">dispose</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#AlgoMarker.AlgoMarker.dispose" title="Permalink to this definition">¶</a></dt>
+<dd><p>Disposes the AlgoMarker object and frees the memory</p>
+</dd></dl>
+
+</dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">AlgoMarker python API</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">AlgoMarker 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">AlgoMarker python API</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023, Alon Lanyado.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.2.
+    </div>
+  </body>
+</html>

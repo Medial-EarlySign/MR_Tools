@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Distribution</title>
+    {{ js_resources|indent(4)|safe }}
+    {{ css_resources|indent(4)|safe }}
+    {{ plot_script|indent(4)|safe }}
+
+  </head>
+  <body>
+  <p><b>Select Labs</b></p>
+  <form action="/">
+       <select name='Labs' multiple size="15">
+            {% for lab in lab_list %}
+                <option value="{{ lab }}">{{ lab }}</option>
+            {% endfor %}
+       </select>
+       <input type="submit" value="Submit">
+   </form>
+
+  <form action="/">
+          {% for feature in feature_names %}
+              {% if feature in current_feature_name %}
+                  <input type="checkbox" name="code"  value="{{ feature }}" checked>{{ feature }}<br>
+              {% else %}
+                  <input type="checkbox" name="code"  value="{{ feature }}">{{ feature }}<br>
+              {% endif %}
+          {% endfor %}
+    <input type="submit" value="Update">
+  </form>
+
+    {{ plot_div|indent(4)|safe }}
+    {{ vc_script|indent(4)|safe }}
+      <p><b>Value Counts</b></p>
+     {{ vc_div|indent(4)|safe }}
+  </body>
+</html>

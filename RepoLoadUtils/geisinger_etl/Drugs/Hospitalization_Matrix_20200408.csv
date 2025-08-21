@@ -1,0 +1,336 @@
+Hospitalization_Type,Admit_Type,Specialty,Count_5years
+Emergency,Emergency,Emergency Medicine,1060390
+Emergency,Emergency,Medical/Surgical,1
+Emergency,Emergency,Other,14
+Emergency,Emergency,Surgery,4
+Emergency,Other,Radiology,6
+Emergency,Routine,Emergency Medicine,143
+Emergency,Trauma,Emergency Medicine,470
+Emergency,Urgent,Emergency Medicine,3598
+Inpatient,Emergency,AICU IP,473
+Inpatient,Emergency,Cardiac Cath Lab,6
+Inpatient,Emergency,Center 3 IP GWV,122
+Inpatient,Emergency,D2 Intensive Care,22
+Inpatient,Emergency,EACU IP HSH,103
+Inpatient,Emergency,Emergency Medicine,903
+Inpatient,Emergency,Endoscopy,6
+Inpatient,Emergency,GERO PSYCH GSACH,23
+Inpatient,Emergency,Gynecology Obstetrics,301
+Inpatient,Emergency,Intensive Care,9679
+Inpatient,Emergency,Interventional Radiology,2
+Inpatient,Emergency,Medical/Surgical,126079
+Inpatient,Emergency,Newborn,9
+Inpatient,Emergency,Oncology,12943
+Inpatient,Emergency,Operating Room GCMC,2
+Inpatient,Emergency,Operating Room HSH,1
+Inpatient,Emergency,Orthopaedics,1853
+Inpatient,Emergency,Other,432
+Inpatient,Emergency,Outpatient Clinics GMC,1
+Inpatient,Emergency,Outpatient Clinics GWV,3
+Inpatient,Emergency,Palliative Care/Hospice,1034
+Inpatient,Emergency,Pediatrics,6082
+Inpatient,Emergency,Psychiatry,13065
+Inpatient,Emergency,Step Down,32339
+Inpatient,Emergency,Surgery,11
+Inpatient,Newborn,Gynecology Obstetrics,1
+Inpatient,Newborn,Intensive Care,2794
+Inpatient,Newborn,Newborn,23001
+Inpatient,Newborn,Pediatrics,36
+Inpatient,Other,AICU IP,1
+Inpatient,Other,Biocontainment Unit,1
+Inpatient,Other,Gynecology Obstetrics,24
+Inpatient,Other,Intensive Care,5
+Inpatient,Other,Medical/Surgical,88
+Inpatient,Other,Newborn,9
+Inpatient,Other,Oncology,20
+Inpatient,Other,Out of Rehab,2
+Inpatient,Other,Pediatrics,9
+Inpatient,Other,Psychiatry,11
+Inpatient,Other,Radiology,731
+Inpatient,Other,Rehabilitation,542
+Inpatient,Other,Skilled Nursing,4
+Inpatient,Other,Step Down,5
+Inpatient,Routine,AICU IP,171
+Inpatient,Routine,Biocontainment Unit,3
+Inpatient,Routine,Cardiac Cath Lab,4
+Inpatient,Routine,Center 3 IP GWV,7
+Inpatient,Routine,D2 Intensive Care,3
+Inpatient,Routine,EACU IP HSH,15
+Inpatient,Routine,Emergency Medicine,5
+Inpatient,Routine,Endoscopy,1
+Inpatient,Routine,GERO PSYCH GSACH,2
+Inpatient,Routine,Gynecology Obstetrics,9542
+Inpatient,Routine,Intensive Care,2643
+Inpatient,Routine,Interventional Radiology,2
+Inpatient,Routine,Medical/Surgical,32046
+Inpatient,Routine,Newborn,10
+Inpatient,Routine,Oncology,2360
+Inpatient,Routine,Operating Room GCMC,5
+Inpatient,Routine,Operating Room HSH,4
+Inpatient,Routine,Orthopaedics,3299
+Inpatient,Routine,Other,486
+Inpatient,Routine,Out of Rehab,2
+Inpatient,Routine,Outpatient Clinics GMC,2
+Inpatient,Routine,Palliative Care/Hospice,69
+Inpatient,Routine,Pediatrics,2677
+Inpatient,Routine,Psychiatry,551
+Inpatient,Routine,Rehabilitation,1029
+Inpatient,Routine,Skilled Nursing,494
+Inpatient,Routine,Step Down,7536
+Inpatient,Routine,Surgery,94
+Inpatient,Trauma,AICU IP,131
+Inpatient,Trauma,Emergency Medicine,130
+Inpatient,Trauma,Gynecology Obstetrics,12
+Inpatient,Trauma,Intensive Care,1032
+Inpatient,Trauma,Medical/Surgical,12104
+Inpatient,Trauma,Oncology,296
+Inpatient,Trauma,Operating Room GCMC,1
+Inpatient,Trauma,Orthopaedics,455
+Inpatient,Trauma,Other,2
+Inpatient,Trauma,Palliative Care/Hospice,53
+Inpatient,Trauma,Pediatrics,1213
+Inpatient,Trauma,Psychiatry,50
+Inpatient,Trauma,Rehabilitation,44
+Inpatient,Trauma,Skilled Nursing,10
+Inpatient,Trauma,Step Down,4942
+Inpatient,Trauma,Surgery,8
+Inpatient,Urgent,AICU IP,329
+Inpatient,Urgent,Cardiac Cath Lab,3
+Inpatient,Urgent,Center 3 IP GWV,14
+Inpatient,Urgent,D2 Intensive Care,3
+Inpatient,Urgent,EACU IP HSH,49
+Inpatient,Urgent,Emergency Medicine,26
+Inpatient,Urgent,Endoscopy,1
+Inpatient,Urgent,GERO PSYCH GSACH,16
+Inpatient,Urgent,Gynecology Obstetrics,17142
+Inpatient,Urgent,Intensive Care,4957
+Inpatient,Urgent,Medical/Surgical,28215
+Inpatient,Urgent,Newborn,13
+Inpatient,Urgent,Oncology,3801
+Inpatient,Urgent,Operating Room GCMC,1
+Inpatient,Urgent,Operating Room HSH,2
+Inpatient,Urgent,Orthopaedics,202
+Inpatient,Urgent,Other,144
+Inpatient,Urgent,Out of Rehab,1
+Inpatient,Urgent,Outpatient Clinics GMC,9
+Inpatient,Urgent,Palliative Care/Hospice,526
+Inpatient,Urgent,Pediatrics,6846
+Inpatient,Urgent,Psychiatry,4694
+Inpatient,Urgent,Rehabilitation,232
+Inpatient,Urgent,Skilled Nursing,92
+Inpatient,Urgent,Step Down,5412
+Inpatient,Urgent,Surgery,20
+Observation,Emergency,AICU IP,18
+Observation,Emergency,Cardiac Cath Lab,6
+Observation,Emergency,Center 3 IP GWV,8
+Observation,Emergency,Emergency Medicine,1606
+Observation,Emergency,Endoscopy,1
+Observation,Emergency,Gynecology Obstetrics,164
+Observation,Emergency,Intensive Care,1275
+Observation,Emergency,Medical/Surgical,45383
+Observation,Emergency,Newborn,1
+Observation,Emergency,Oncology,2936
+Observation,Emergency,Operating Room HSH,17
+Observation,Emergency,Orthopaedics,570
+Observation,Emergency,Other,108
+Observation,Emergency,Palliative Care/Hospice,159
+Observation,Emergency,Pediatrics,3705
+Observation,Emergency,Step Down,10717
+Observation,Emergency,Surgery,38
+Observation,Newborn,Medical/Surgical,1
+Observation,Other,Gynecology Obstetrics,4
+Observation,Other,Medical/Surgical,6
+Observation,Other,Oncology,2
+Observation,Other,Radiology,9
+Observation,Routine,AICU IP,2
+Observation,Routine,Cardiac Cath Lab,1
+Observation,Routine,Emergency Medicine,3
+Observation,Routine,Endoscopy,1
+Observation,Routine,Gynecology Obstetrics,1039
+Observation,Routine,Intensive Care,31
+Observation,Routine,Medical/Surgical,1623
+Observation,Routine,Oncology,123
+Observation,Routine,Operating Room HSH,82
+Observation,Routine,Orthopaedics,110
+Observation,Routine,Other,18
+Observation,Routine,Palliative Care/Hospice,6
+Observation,Routine,Pediatrics,319
+Observation,Routine,Step Down,272
+Observation,Routine,Surgery,28
+Observation,Trauma,Emergency Medicine,155
+Observation,Trauma,Gynecology Obstetrics,10
+Observation,Trauma,Intensive Care,157
+Observation,Trauma,Medical/Surgical,3045
+Observation,Trauma,Oncology,65
+Observation,Trauma,Orthopaedics,62
+Observation,Trauma,Other,1
+Observation,Trauma,Palliative Care/Hospice,7
+Observation,Trauma,Pediatrics,618
+Observation,Trauma,Step Down,644
+Observation,Trauma,Surgery,8
+Observation,Urgent,Cardiac Cath Lab,6
+Observation,Urgent,Emergency Medicine,15
+Observation,Urgent,Gynecology Obstetrics,1363
+Observation,Urgent,Intensive Care,121
+Observation,Urgent,Medical/Surgical,4114
+Observation,Urgent,Oncology,294
+Observation,Urgent,Operating Room HSH,113
+Observation,Urgent,Orthopaedics,34
+Observation,Urgent,Other,21
+Observation,Urgent,Outpatient Clinics GMC,2
+Observation,Urgent,Palliative Care/Hospice,52
+Observation,Urgent,Pediatrics,2346
+Observation,Urgent,Psychiatry,2
+Observation,Urgent,Step Down,497
+Observation,Urgent,Surgery,10
+Outpatient,Emergency,Cardiac Cath Lab,109
+Outpatient,Emergency,Emergency Medicine,55
+Outpatient,Emergency,Endoscopy,138
+Outpatient,Emergency,Gynecology Obstetrics,602
+Outpatient,Emergency,Intensive Care,4
+Outpatient,Emergency,Interventional Radiology,19
+Outpatient,Emergency,Medical/Surgical,28
+Outpatient,Emergency,Oncology,5
+Outpatient,Emergency,Operating Room GCMC,81
+Outpatient,Emergency,Operating Room HSH,1
+Outpatient,Emergency,Other,16
+Outpatient,Emergency,Outpatient Clinics GMC,23
+Outpatient,Emergency,Pediatrics,3
+Outpatient,Emergency,Step Down,4
+Outpatient,Emergency,Surgery,1348
+Outpatient,Newborn,Cardiac Cath Lab,2
+Outpatient,Newborn,Endoscopy,22
+Outpatient,Newborn,Hospice SWB,2
+Outpatient,Newborn,Interventional Radiology,1
+Outpatient,Newborn,Operating Room GCMC,1
+Outpatient,Newborn,Surgery,7
+Outpatient,Other,Endoscopy,20
+Outpatient,Other,Gynecology Obstetrics,9
+Outpatient,Other,Hospice GCMC,45
+Outpatient,Other,Hospice SWB,82
+Outpatient,Other,Interventional Radiology,51
+Outpatient,Other,Medical/Surgical,1
+Outpatient,Other,Operating Room GCMC,9
+Outpatient,Other,Radiology,167
+Outpatient,Other,Surgery,16
+Outpatient,Routine,AICU IP,2
+Outpatient,Routine,Cardiac Cath Lab,20874
+Outpatient,Routine,Cosmetic Surgery at Woodbine,129
+Outpatient,Routine,Emergency Medicine,14
+Outpatient,Routine,Endoscopy,137293
+Outpatient,Routine,Gynecology Obstetrics,4998
+Outpatient,Routine,Hospice GCMC,459
+Outpatient,Routine,Hospice SWB,2092
+Outpatient,Routine,Intensive Care,11
+Outpatient,Routine,Interventional Radiology,35556
+Outpatient,Routine,Intraop SWB,12
+Outpatient,Routine,Medical/Surgical,342
+Outpatient,Routine,Oncology,25
+Outpatient,Routine,Operating Room GCMC,6622
+Outpatient,Routine,Operating Room HSH,5
+Outpatient,Routine,Orthopaedics,10
+Outpatient,Routine,Other,2714
+Outpatient,Routine,Outpatient Clinics GMC,8
+Outpatient,Routine,Outpatient Clinics GWV,1
+Outpatient,Routine,Pediatrics,15
+Outpatient,Routine,SWB,1201
+Outpatient,Routine,Skilled Nursing,1
+Outpatient,Routine,Step Down,36
+Outpatient,Routine,Surgery,213476
+Outpatient,Trauma,Emergency Medicine,3
+Outpatient,Trauma,Endoscopy,3
+Outpatient,Trauma,Gynecology Obstetrics,7
+Outpatient,Trauma,Hospice GCMC,1
+Outpatient,Trauma,Hospice SWB,1
+Outpatient,Trauma,Interventional Radiology,6
+Outpatient,Trauma,Medical/Surgical,4
+Outpatient,Trauma,Orthopaedics,1
+Outpatient,Trauma,Other,1
+Outpatient,Trauma,Outpatient Clinics GMC,2
+Outpatient,Trauma,Step Down,1
+Outpatient,Trauma,Surgery,65
+Outpatient,Urgent,Cardiac Cath Lab,57
+Outpatient,Urgent,Emergency Medicine,1
+Outpatient,Urgent,Endoscopy,27
+Outpatient,Urgent,Gynecology Obstetrics,18761
+Outpatient,Urgent,Hospice GCMC,83
+Outpatient,Urgent,Hospice SWB,263
+Outpatient,Urgent,Intensive Care,1
+Outpatient,Urgent,Interventional Radiology,118
+Outpatient,Urgent,Medical/Surgical,31
+Outpatient,Urgent,Oncology,8
+Outpatient,Urgent,Operating Room GCMC,10
+Outpatient,Urgent,Other,9
+Outpatient,Urgent,Outpatient Clinics GMC,19
+Outpatient,Urgent,Pediatrics,6
+Outpatient,Urgent,Psychiatry,1
+Outpatient,Urgent,Step Down,4
+Outpatient,Urgent,Surgery,294
+SORU (23 hr Surgical Overnight),Emergency,Cardiac Cath Lab,28
+SORU (23 hr Surgical Overnight),Emergency,D2 Intensive Care,1
+SORU (23 hr Surgical Overnight),Emergency,Emergency Medicine,26
+SORU (23 hr Surgical Overnight),Emergency,Gynecology Obstetrics,14
+SORU (23 hr Surgical Overnight),Emergency,Intensive Care,32
+SORU (23 hr Surgical Overnight),Emergency,Interventional Radiology,1
+SORU (23 hr Surgical Overnight),Emergency,Medical/Surgical,2262
+SORU (23 hr Surgical Overnight),Emergency,Oncology,372
+SORU (23 hr Surgical Overnight),Emergency,Operating Room GCMC,4
+SORU (23 hr Surgical Overnight),Emergency,Orthopaedics,47
+SORU (23 hr Surgical Overnight),Emergency,Other,7
+SORU (23 hr Surgical Overnight),Emergency,Palliative Care/Hospice,3
+SORU (23 hr Surgical Overnight),Emergency,Pediatrics,523
+SORU (23 hr Surgical Overnight),Emergency,Step Down,200
+SORU (23 hr Surgical Overnight),Emergency,Surgery,171
+SORU (23 hr Surgical Overnight),Newborn,Medical/Surgical,1
+SORU (23 hr Surgical Overnight),Newborn,Surgery,1
+SORU (23 hr Surgical Overnight),Other,Medical/Surgical,4
+SORU (23 hr Surgical Overnight),Other,Oncology,1
+SORU (23 hr Surgical Overnight),Other,Radiology,13
+SORU (23 hr Surgical Overnight),Other,Surgery,1
+SORU (23 hr Surgical Overnight),Routine,AICU IP,1
+SORU (23 hr Surgical Overnight),Routine,Cardiac Cath Lab,2384
+SORU (23 hr Surgical Overnight),Routine,Center 3 IP GWV,1
+SORU (23 hr Surgical Overnight),Routine,Endoscopy,1
+SORU (23 hr Surgical Overnight),Routine,Gynecology Obstetrics,109
+SORU (23 hr Surgical Overnight),Routine,Intensive Care,241
+SORU (23 hr Surgical Overnight),Routine,Interventional Radiology,123
+SORU (23 hr Surgical Overnight),Routine,Medical/Surgical,17175
+SORU (23 hr Surgical Overnight),Routine,Oncology,1402
+SORU (23 hr Surgical Overnight),Routine,Operating Room GCMC,255
+SORU (23 hr Surgical Overnight),Routine,Operating Room HSH,206
+SORU (23 hr Surgical Overnight),Routine,Orthopaedics,2466
+SORU (23 hr Surgical Overnight),Routine,Other,986
+SORU (23 hr Surgical Overnight),Routine,Outpatient Clinics GMC,1
+SORU (23 hr Surgical Overnight),Routine,Palliative Care/Hospice,29
+SORU (23 hr Surgical Overnight),Routine,Pediatrics,2768
+SORU (23 hr Surgical Overnight),Routine,Step Down,1585
+SORU (23 hr Surgical Overnight),Routine,Surgery,4802
+SORU (23 hr Surgical Overnight),Trauma,Cardiac Cath Lab,3
+SORU (23 hr Surgical Overnight),Trauma,Emergency Medicine,4
+SORU (23 hr Surgical Overnight),Trauma,Intensive Care,6
+SORU (23 hr Surgical Overnight),Trauma,Interventional Radiology,1
+SORU (23 hr Surgical Overnight),Trauma,Medical/Surgical,530
+SORU (23 hr Surgical Overnight),Trauma,Oncology,14
+SORU (23 hr Surgical Overnight),Trauma,Operating Room GCMC,4
+SORU (23 hr Surgical Overnight),Trauma,Operating Room HSH,1
+SORU (23 hr Surgical Overnight),Trauma,Orthopaedics,43
+SORU (23 hr Surgical Overnight),Trauma,Other,7
+SORU (23 hr Surgical Overnight),Trauma,Palliative Care/Hospice,1
+SORU (23 hr Surgical Overnight),Trauma,Pediatrics,261
+SORU (23 hr Surgical Overnight),Trauma,Step Down,90
+SORU (23 hr Surgical Overnight),Trauma,Surgery,101
+SORU (23 hr Surgical Overnight),Urgent,Cardiac Cath Lab,648
+SORU (23 hr Surgical Overnight),Urgent,Gynecology Obstetrics,27
+SORU (23 hr Surgical Overnight),Urgent,Intensive Care,28
+SORU (23 hr Surgical Overnight),Urgent,Interventional Radiology,18
+SORU (23 hr Surgical Overnight),Urgent,Medical/Surgical,3013
+SORU (23 hr Surgical Overnight),Urgent,Oncology,226
+SORU (23 hr Surgical Overnight),Urgent,Operating Room GCMC,11
+SORU (23 hr Surgical Overnight),Urgent,Operating Room HSH,124
+SORU (23 hr Surgical Overnight),Urgent,Orthopaedics,84
+SORU (23 hr Surgical Overnight),Urgent,Other,452
+SORU (23 hr Surgical Overnight),Urgent,Outpatient Clinics GMC,1
+SORU (23 hr Surgical Overnight),Urgent,Palliative Care/Hospice,6
+SORU (23 hr Surgical Overnight),Urgent,Pediatrics,448
+SORU (23 hr Surgical Overnight),Urgent,Step Down,1020
+SORU (23 hr Surgical Overnight),Urgent,Surgery,351

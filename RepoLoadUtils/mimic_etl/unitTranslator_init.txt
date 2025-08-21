@@ -1,0 +1,18 @@
+signal	unit	muliplier	addition
+C3	mg/dL	0.01	0
+C4	mg/dL	0.01	0
+CEA
+Digoxin	ng/mL	1.281	0
+FiO2	null	0.01
+FiO2	%	
+FiO2	torr
+FreeT4	ng/dl	12.872
+T4	ng/dl	12.872
+Height	Inch	2.54	0
+Height	inches	2.54	0
+Height	null	2.54	0
+Lactate	mmol/L	9.009	0
+Mg	mg/dL	0.4114	0
+Temperature	?F	0.5555	-17.777
+
+

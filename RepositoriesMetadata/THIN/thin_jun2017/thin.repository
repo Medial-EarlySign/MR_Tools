@@ -1,0 +1,27 @@
+DIR	/home/Repositories/THIN/thin_jun2017/
+METADATA_DIR	.
+
+DICTIONARY	dict.read_codes
+DICTIONARY	dict.reg.Cancer_Location
+DICTIONARY	dict.reg.CKD_State
+DICTIONARY	dict.reg.CVD_HeartFailure
+DICTIONARY	dict.reg.CVD_HemorhagicStroke
+DICTIONARY	dict.reg.CVD_IschemicStroke
+DICTIONARY	dict.reg.CVD_MI
+DICTIONARY	dict.reg.DEATH
+DICTIONARY	dict.reg.DM_Registry
+DICTIONARY	dict.reg.HT_Registry
+DICTIONARY	dict.drugs_defs
+DICTIONARY	dict.drugs_sets
+DICTIONARY	dict.drugs_nice_names
+DICTIONARY	dict.prac
+DICTIONARY	dict.pvi
+DICTIONARY	dict.ahdlookups
+DICTIONARY	dict.hospitalizations
+DICTIONARY	dict.plm_comorbidities
+DICTIONARY	dict.plm_drugs
+DICTIONARY	thin.signals
+
+SIGNAL	thin.signals
+MODE	3
+PREFIX	thin_rep

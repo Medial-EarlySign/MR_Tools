@@ -1,0 +1,162 @@
+Na :: All :: With Values :: 915887 / 1279479 =  0.72 :: 915887 / 915887 =  1.00
+Na :: Males :: With Values :: 429729 / 622859 =  0.69 :: 429729 / 915887 =  0.47
+Na :: Females :: With Values :: 486158 / 656620 =  0.74 :: 486158 / 915887 =  0.53
+Na :: General :: No. of Values :: All 9391291 Male 4131211 Female 5260080
+Na :: General :: No. of different days Values :: All 9386885 Male 4129101 Female 5257784
+Na :: General :: Avg #values per person (all) :: All  7.34 Male  6.63 Female  8.01
+Na :: General :: Avg #values per person (>0)  :: All 10.25 Male  9.61 Female 10.81
+Na :: General :: Avg dist between tests       :: All  336.1 Male  338.0 Female  334.6
+Na :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Na :: Counts :: Age Group 25 - 30 :: All ::   1482 0.000
+Na :: Counts :: Age Group 30 - 35 :: All ::  43758 0.005
+Na :: Counts :: Age Group 35 - 40 :: All :: 105379 0.011
+Na :: Counts :: Age Group 40 - 45 :: All :: 177428 0.019
+Na :: Counts :: Age Group 45 - 50 :: All :: 180825 0.019
+Na :: Counts :: Age Group 50 - 55 :: All :: 197299 0.021
+Na :: Counts :: Age Group 55 - 60 :: All :: 216891 0.023
+Na :: Counts :: Age Group 60 - 65 :: All :: 212516 0.023
+Na :: Counts :: Age Group 65 - 70 :: All :: 199988 0.021
+Na :: Counts :: Age Group 70 - 75 :: All :: 162761 0.017
+Na :: Counts :: Age Group 75 - 80 :: All :: 150645 0.016
+Na :: Counts :: Age Group 80 - 85 :: All :: 112478 0.012
+Na :: Counts :: Age Group 85 - 90 :: All ::  73652 0.008
+Na :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Na :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Na :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Na :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Na :: Counts :: Age Group 25 - 30 :: Males ::    440 0.000
+Na :: Counts :: Age Group 30 - 35 :: Males ::  14972 0.004
+Na :: Counts :: Age Group 35 - 40 :: Males ::  40110 0.010
+Na :: Counts :: Age Group 40 - 45 :: Males ::  72626 0.018
+Na :: Counts :: Age Group 45 - 50 :: Males ::  78882 0.019
+Na :: Counts :: Age Group 50 - 55 :: Males ::  88586 0.021
+Na :: Counts :: Age Group 55 - 60 :: Males ::  97441 0.024
+Na :: Counts :: Age Group 60 - 65 :: Males ::  97986 0.024
+Na :: Counts :: Age Group 65 - 70 :: Males ::  93506 0.023
+Na :: Counts :: Age Group 70 - 75 :: Males ::  77441 0.019
+Na :: Counts :: Age Group 75 - 80 :: Males ::  69643 0.017
+Na :: Counts :: Age Group 80 - 85 :: Males ::  49308 0.012
+Na :: Counts :: Age Group 85 - 90 :: Males ::  29726 0.007
+Na :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Na :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Na :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Na :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Na :: Counts :: Age Group 25 - 30 :: Females ::   1042 0.000
+Na :: Counts :: Age Group 30 - 35 :: Females ::  28786 0.005
+Na :: Counts :: Age Group 35 - 40 :: Females ::  65269 0.012
+Na :: Counts :: Age Group 40 - 45 :: Females :: 104802 0.020
+Na :: Counts :: Age Group 45 - 50 :: Females :: 101943 0.019
+Na :: Counts :: Age Group 50 - 55 :: Females :: 108713 0.021
+Na :: Counts :: Age Group 55 - 60 :: Females :: 119450 0.023
+Na :: Counts :: Age Group 60 - 65 :: Females :: 114530 0.022
+Na :: Counts :: Age Group 65 - 70 :: Females :: 106482 0.020
+Na :: Counts :: Age Group 70 - 75 :: Females ::  85320 0.016
+Na :: Counts :: Age Group 75 - 80 :: Females ::  81002 0.015
+Na :: Counts :: Age Group 80 - 85 :: Females ::  63170 0.012
+Na :: Counts :: Age Group 85 - 90 :: Females ::  43926 0.008
+Na :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Na :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Na :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Na :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats :: Age Group 25 - 30 :: All ::  N 47181 non-zeros 47181 Median 141.00 Mean 140.89 Std   2.34 Max 157.00
+Na :: Stats :: Age Group 30 - 35 :: All ::  N 153454 non-zeros 153454 Median 140.00 Mean 140.13 Std   2.28 Max 156.00
+Na :: Stats :: Age Group 35 - 40 :: All ::  N 268623 non-zeros 268623 Median 140.00 Mean 139.70 Std   2.19 Max 154.00
+Na :: Stats :: Age Group 40 - 45 :: All ::  N 341075 non-zeros 341075 Median 139.00 Mean 139.52 Std   2.17 Max 155.00
+Na :: Stats :: Age Group 45 - 50 :: All ::  N 314072 non-zeros 314072 Median 140.00 Mean 139.70 Std   2.24 Max 163.00
+Na :: Stats :: Age Group 50 - 55 :: All ::  N 295944 non-zeros 295944 Median 140.00 Mean 140.09 Std   2.31 Max 164.00
+Na :: Stats :: Age Group 55 - 60 :: All ::  N 261187 non-zeros 261187 Median 140.00 Mean 140.21 Std   2.32 Max 162.00
+Na :: Stats :: Age Group 60 - 65 :: All ::  N 223273 non-zeros 223273 Median 140.00 Mean 140.20 Std   2.41 Max 160.00
+Na :: Stats :: Age Group 65 - 70 :: All ::  N 177785 non-zeros 177785 Median 140.00 Mean 140.19 Std   2.52 Max 161.00
+Na :: Stats :: Age Group 70 - 75 :: All ::  N 126868 non-zeros 126868 Median 140.00 Mean 140.25 Std   2.66 Max 177.00
+Na :: Stats :: Age Group 75 - 80 :: All ::  N 100157 non-zeros 100157 Median 140.00 Mean 140.14 Std   2.85 Max 177.00
+Na :: Stats :: Age Group 80 - 85 :: All ::  N 64108 non-zeros 64108 Median 140.00 Mean 139.90 Std   3.10 Max 183.00
+Na :: Stats :: Age Group 85 - 90 :: All ::  N 37018 non-zeros 37018 Median 140.00 Mean 139.60 Std   3.45 Max 174.00
+Na :: Stats :: Age Group 90 - 95 :: All ::  N 15654 non-zeros 15654 Median 140.00 Mean 139.35 Std   3.81 Max 179.00
+Na :: Stats :: Age Group 95 - 100 :: All ::  N 4012 non-zeros 3993 Median 139.00 Mean 138.40 Std  10.44 Max 177.00
+Na :: General :: All     :: outliers ratio 0.000961
+Na :: General :: All     :: N 914937 non-zeros 914937 Median 140.00 Mean 139.84 Std   2.41 Max 173.00
+Na :: General :: All     :: distribution 0.001,0.01,0.05 :: 128.00 134.00 136.00 144.00 146.00 148.00
+Na :: General :: All     :: quartiles :: 128.00 138.00 140.00 141.00 
+Na :: General :: Males   :: outliers ratio 0.001089
+Na :: General :: Males   :: N 429243 non-zeros 429243 Median 140.00 Mean 139.99 Std   2.39 Max 173.00
+Na :: General :: Males   :: distribution 0.001,0.01,0.05 :: 128.00 134.00 136.00 144.00 146.00 149.00
+Na :: General :: Males   :: quartiles :: 128.00 139.00 140.00 141.00 
+Na :: General :: Females :: outliers ratio 0.000899
+Na :: General :: Females :: N 485669 non-zeros 485669 Median 140.00 Mean 139.71 Std   2.44 Max 173.00
+Na :: General :: Females :: distribution 0.001,0.01,0.05 :: 128.00 134.00 136.00 144.00 146.00 148.00
+Na :: General :: Females :: quartiles :: 128.00 138.00 140.00 141.00 
+Na :: Rounding ::  0.00 r  0.00 pct
+Na :: Rounding ::  0.01 r  0.00 pct
+Na :: Rounding ::  0.10 r  0.00 pct
+Na :: Rounding ::  1.00 r  0.80 pct
+Na :: Rounding :: 10.00 r  0.20 pct
+Na :: Rounding :: 100.00 r  0.00 pct
+Na :: Rounding :: 1000.00 r  0.00 pct
+Na :: Rounding :: most popular rounding for vals:  1.00
+Na :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats year :: 2001 :: All :: N 281223 non-zeros 281223 Median 142.00 Mean 141.62 Std   2.55 Max 168.00
+Na :: Stats year :: 2002 :: All :: N 292852 non-zeros 292852 Median 142.00 Mean 141.70 Std   2.23 Max 170.00
+Na :: Stats year :: 2003 :: All :: N 318150 non-zeros 318150 Median 141.00 Mean 140.76 Std   2.33 Max 170.00
+Na :: Stats year :: 2004 :: All :: N 345691 non-zeros 345691 Median 141.00 Mean 140.53 Std   2.35 Max 168.00
+Na :: Stats year :: 2005 :: All :: N 359166 non-zeros 359166 Median 140.00 Mean 140.29 Std   2.39 Max 167.00
+Na :: Stats year :: 2006 :: All :: N 375031 non-zeros 375031 Median 140.00 Mean 139.70 Std   2.25 Max 172.00
+Na :: Stats year :: 2007 :: All :: N 392324 non-zeros 392324 Median 140.00 Mean 139.99 Std   2.22 Max 173.00
+Na :: Stats year :: 2008 :: All :: N 402466 non-zeros 402466 Median 140.00 Mean 139.79 Std   2.19 Max 169.00
+Na :: Stats year :: 2009 :: All :: N 433166 non-zeros 433166 Median 140.00 Mean 139.67 Std   2.16 Max 170.00
+Na :: Stats year :: 2010 :: All :: N 435234 non-zeros 435234 Median 140.00 Mean 139.65 Std   2.19 Max 170.00
+Na :: Stats year :: 2011 :: All :: N 445157 non-zeros 445157 Median 140.00 Mean 139.81 Std   2.28 Max 174.00
+Na :: Stats year :: 2012 :: All :: N 451196 non-zeros 451196 Median 140.00 Mean 139.56 Std   2.32 Max 174.00
+Na :: Stats year :: 2013 :: All :: N 459176 non-zeros 459176 Median 139.00 Mean 139.17 Std   2.30 Max 167.00
+Na :: Stats year :: 2014 :: All :: N 460232 non-zeros 460232 Median 139.00 Mean 139.24 Std   2.31 Max 172.00
+Na :: Stats year :: 2015 :: All :: N 408617 non-zeros 408617 Median 139.00 Mean 139.33 Std   2.28 Max 173.00
+Na :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats year :: 2001 :: Males   :: N 115313 non-zeros 115313 Median 142.00 Mean 141.99 Std   2.53 Max 168.00
+Na :: Stats year :: 2002 :: Males   :: N 122517 non-zeros 122517 Median 142.00 Mean 141.92 Std   2.18 Max 170.00
+Na :: Stats year :: 2003 :: Males   :: N 133875 non-zeros 133875 Median 141.00 Mean 140.96 Std   2.27 Max 173.00
+Na :: Stats year :: 2004 :: Males   :: N 146523 non-zeros 146523 Median 141.00 Mean 140.72 Std   2.30 Max 161.00
+Na :: Stats year :: 2005 :: Males   :: N 154143 non-zeros 154143 Median 140.00 Mean 140.46 Std   2.34 Max 163.00
+Na :: Stats year :: 2006 :: Males   :: N 162573 non-zeros 162573 Median 140.00 Mean 139.83 Std   2.20 Max 171.00
+Na :: Stats year :: 2007 :: Males   :: N 170994 non-zeros 170994 Median 140.00 Mean 140.09 Std   2.15 Max 170.00
+Na :: Stats year :: 2008 :: Males   :: N 175358 non-zeros 175358 Median 140.00 Mean 139.90 Std   2.14 Max 160.00
+Na :: Stats year :: 2009 :: Males   :: N 189548 non-zeros 189548 Median 140.00 Mean 139.78 Std   2.12 Max 170.00
+Na :: Stats year :: 2010 :: Males   :: N 191021 non-zeros 191021 Median 140.00 Mean 139.73 Std   2.15 Max 170.00
+Na :: Stats year :: 2011 :: Males   :: N 196447 non-zeros 196447 Median 140.00 Mean 139.88 Std   2.24 Max 168.00
+Na :: Stats year :: 2012 :: Males   :: N 200169 non-zeros 200169 Median 140.00 Mean 139.62 Std   2.27 Max 168.00
+Na :: Stats year :: 2013 :: Males   :: N 203952 non-zeros 203952 Median 139.00 Mean 139.20 Std   2.26 Max 164.00
+Na :: Stats year :: 2014 :: Males   :: N 205094 non-zeros 205094 Median 139.00 Mean 139.26 Std   2.27 Max 170.00
+Na :: Stats year :: 2015 :: Males   :: N 181305 non-zeros 181305 Median 139.00 Mean 139.33 Std   2.25 Max 173.00
+Na :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats year :: 2001 :: Females :: N 165901 non-zeros 165901 Median 141.00 Mean 141.38 Std   2.55 Max 167.00
+Na :: Stats year :: 2002 :: Females :: N 170355 non-zeros 170355 Median 142.00 Mean 141.55 Std   2.25 Max 164.00
+Na :: Stats year :: 2003 :: Females :: N 184263 non-zeros 184263 Median 141.00 Mean 140.62 Std   2.35 Max 169.00
+Na :: Stats year :: 2004 :: Females :: N 199156 non-zeros 199156 Median 140.00 Mean 140.40 Std   2.39 Max 169.00
+Na :: Stats year :: 2005 :: Females :: N 205046 non-zeros 205046 Median 140.00 Mean 140.17 Std   2.42 Max 170.00
+Na :: Stats year :: 2006 :: Females :: N 212469 non-zeros 212469 Median 140.00 Mean 139.59 Std   2.28 Max 172.00
+Na :: Stats year :: 2007 :: Females :: N 221329 non-zeros 221329 Median 140.00 Mean 139.91 Std   2.25 Max 168.00
+Na :: Stats year :: 2008 :: Females :: N 227114 non-zeros 227114 Median 140.00 Mean 139.70 Std   2.23 Max 173.00
+Na :: Stats year :: 2009 :: Females :: N 243609 non-zeros 243609 Median 140.00 Mean 139.59 Std   2.20 Max 169.00
+Na :: Stats year :: 2010 :: Females :: N 244204 non-zeros 244204 Median 140.00 Mean 139.58 Std   2.22 Max 172.00
+Na :: Stats year :: 2011 :: Females :: N 248704 non-zeros 248704 Median 140.00 Mean 139.75 Std   2.31 Max 173.00
+Na :: Stats year :: 2012 :: Females :: N 251025 non-zeros 251025 Median 140.00 Mean 139.51 Std   2.34 Max 174.00
+Na :: Stats year :: 2013 :: Females :: N 255211 non-zeros 255211 Median 139.00 Mean 139.15 Std   2.33 Max 170.00
+Na :: Stats year :: 2014 :: Females :: N 255149 non-zeros 255149 Median 139.00 Mean 139.23 Std   2.34 Max 172.00
+Na :: Stats year :: 2015 :: Females :: N 227334 non-zeros 227334 Median 139.00 Mean 139.32 Std   2.30 Max 173.00
+Na :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Na :: Stats month 1 :: All :: N 287340 non-zeros 287340 Median 140.00 Mean 139.84 Std   2.48 Max 177.00
+Na :: Stats month 2 :: All :: N 280391 non-zeros 280391 Median 140.00 Mean 139.81 Std   2.45 Max 175.00
+Na :: Stats month 3 :: All :: N 287777 non-zeros 287777 Median 140.00 Mean 139.74 Std   2.45 Max 174.00
+Na :: Stats month 4 :: All :: N 272194 non-zeros 272194 Median 140.00 Mean 139.73 Std   2.46 Max 174.00
+Na :: Stats month 5 :: All :: N 315325 non-zeros 315325 Median 140.00 Mean 139.67 Std   2.44 Max 176.00
+Na :: Stats month 6 :: All :: N 310716 non-zeros 310716 Median 140.00 Mean 139.49 Std   2.44 Max 168.00
+Na :: Stats month 7 :: All :: N 318199 non-zeros 318199 Median 140.00 Mean 139.59 Std   2.51 Max 175.00
+Na :: Stats month 8 :: All :: N 303168 non-zeros 303168 Median 140.00 Mean 139.56 Std   2.52 Max 177.00
+Na :: Stats month 9 :: All :: N 261429 non-zeros 261429 Median 140.00 Mean 139.49 Std   2.52 Max 173.00
+Na :: Stats month 10 :: All :: N 298686 non-zeros 298686 Median 140.00 Mean 139.65 Std   2.46 Max 175.00
+Na :: Stats month 11 :: All :: N 282387 non-zeros 282387 Median 140.00 Mean 139.69 Std   2.45 Max 170.00
+Na :: Stats month 12 :: All :: N 271425 non-zeros 271425 Median 140.00 Mean 139.76 Std   2.46 Max 174.00
+

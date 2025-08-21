@@ -1,0 +1,3 @@
+majority	int
+counts[0]	int
+counts[1]	int

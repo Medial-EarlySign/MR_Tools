@@ -1,0 +1,9 @@
+feature_name	string
+index_feature_prefix	string
+other_feature_name	string
+removed_feature_name	string
+rem_origin	bool
+add_other	bool
+remove_last	bool
+allow_other	bool
+value2feature	map<float,string>

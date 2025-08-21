@@ -1,0 +1,15 @@
+SECTION	DIAGNOSIS
+DEF	111	DTYPE_ID:B
+DEF	116	DTYPE_ID:F
+DEF	187	DTYPE_ID:87
+DEF	107	DTYPE_ID:7
+DEF	108	DTYPE_ID:8
+DEF	101	DTYPE_ID:1
+DEF	102	DTYPE_ID:2
+DEF	111	DTYPE_ID:None
+DEF	116	DTYPE_ID:neonatal_diagnosis
+DEF	187	DTYPE_ID:suspected_past_diagnosis
+DEF	107	DTYPE_ID:suspected_diagnosis
+DEF	108	DTYPE_ID:past_diagnosis
+DEF	101	DTYPE_ID:primary_diagnosis
+DEF	102	DTYPE_ID:secondary_diagnosis

@@ -1,0 +1,162 @@
+Creatinine :: All :: With Values :: 936541 / 1279479 =  0.73 :: 936541 / 936541 =  1.00
+Creatinine :: Males :: With Values :: 441388 / 622859 =  0.71 :: 441388 / 936541 =  0.47
+Creatinine :: Females :: With Values :: 495153 / 656620 =  0.75 :: 495153 / 936541 =  0.53
+Creatinine :: General :: No. of Values :: All 11439242 Male 5087460 Female 6351782
+Creatinine :: General :: No. of different days Values :: All 11434103 Male 5084790 Female 6349313
+Creatinine :: General :: Avg #values per person (all) :: All  8.94 Male  8.16 Female  9.67
+Creatinine :: General :: Avg #values per person (>0)  :: All 12.21 Male 11.52 Female 12.82
+Creatinine :: General :: Avg dist between tests       :: All  298.9 Male  298.8 Female  299.0
+Creatinine :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Creatinine :: Counts :: Age Group 25 - 30 :: All ::   1858 0.000
+Creatinine :: Counts :: Age Group 30 - 35 :: All ::  54138 0.005
+Creatinine :: Counts :: Age Group 35 - 40 :: All :: 133321 0.012
+Creatinine :: Counts :: Age Group 40 - 45 :: All :: 224151 0.020
+Creatinine :: Counts :: Age Group 45 - 50 :: All :: 226686 0.020
+Creatinine :: Counts :: Age Group 50 - 55 :: All :: 246239 0.022
+Creatinine :: Counts :: Age Group 55 - 60 :: All :: 268319 0.023
+Creatinine :: Counts :: Age Group 60 - 65 :: All :: 262102 0.023
+Creatinine :: Counts :: Age Group 65 - 70 :: All :: 244802 0.021
+Creatinine :: Counts :: Age Group 70 - 75 :: All :: 196636 0.017
+Creatinine :: Counts :: Age Group 75 - 80 :: All :: 177693 0.016
+Creatinine :: Counts :: Age Group 80 - 85 :: All :: 127933 0.011
+Creatinine :: Counts :: Age Group 85 - 90 :: All ::  79899 0.007
+Creatinine :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Creatinine :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Creatinine :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Creatinine :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Creatinine :: Counts :: Age Group 25 - 30 :: Males ::    523 0.000
+Creatinine :: Counts :: Age Group 30 - 35 :: Males ::  18382 0.004
+Creatinine :: Counts :: Age Group 35 - 40 :: Males ::  50370 0.010
+Creatinine :: Counts :: Age Group 40 - 45 :: Males ::  92011 0.018
+Creatinine :: Counts :: Age Group 45 - 50 :: Males ::  99402 0.020
+Creatinine :: Counts :: Age Group 50 - 55 :: Males :: 111203 0.022
+Creatinine :: Counts :: Age Group 55 - 60 :: Males :: 121495 0.024
+Creatinine :: Counts :: Age Group 60 - 65 :: Males :: 121902 0.024
+Creatinine :: Counts :: Age Group 65 - 70 :: Males :: 115627 0.023
+Creatinine :: Counts :: Age Group 70 - 75 :: Males ::  95018 0.019
+Creatinine :: Counts :: Age Group 75 - 80 :: Males ::  83817 0.016
+Creatinine :: Counts :: Age Group 80 - 85 :: Males ::  57715 0.011
+Creatinine :: Counts :: Age Group 85 - 90 :: Males ::  33323 0.007
+Creatinine :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Creatinine :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Creatinine :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Creatinine :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Creatinine :: Counts :: Age Group 25 - 30 :: Females ::   1335 0.000
+Creatinine :: Counts :: Age Group 30 - 35 :: Females ::  35756 0.006
+Creatinine :: Counts :: Age Group 35 - 40 :: Females ::  82951 0.013
+Creatinine :: Counts :: Age Group 40 - 45 :: Females :: 132140 0.021
+Creatinine :: Counts :: Age Group 45 - 50 :: Females :: 127284 0.020
+Creatinine :: Counts :: Age Group 50 - 55 :: Females :: 135036 0.021
+Creatinine :: Counts :: Age Group 55 - 60 :: Females :: 146824 0.023
+Creatinine :: Counts :: Age Group 60 - 65 :: Females :: 140200 0.022
+Creatinine :: Counts :: Age Group 65 - 70 :: Females :: 129175 0.020
+Creatinine :: Counts :: Age Group 70 - 75 :: Females :: 101618 0.016
+Creatinine :: Counts :: Age Group 75 - 80 :: Females ::  93876 0.015
+Creatinine :: Counts :: Age Group 80 - 85 :: Females ::  70218 0.011
+Creatinine :: Counts :: Age Group 85 - 90 :: Females ::  46576 0.007
+Creatinine :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Creatinine :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Creatinine :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Creatinine :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats :: Age Group 25 - 30 :: All ::  N 54863 non-zeros 54823 Median   0.90 Mean   0.88 Std   0.18 Max   3.40
+Creatinine :: Stats :: Age Group 30 - 35 :: All ::  N 173836 non-zeros 173699 Median   0.90 Mean   0.90 Std   0.18 Max   3.50
+Creatinine :: Stats :: Age Group 35 - 40 :: All ::  N 299359 non-zeros 299189 Median   0.83 Mean   0.85 Std   0.19 Max   3.71
+Creatinine :: Stats :: Age Group 40 - 45 :: All ::  N 379292 non-zeros 379058 Median   0.80 Mean   0.84 Std   0.19 Max   3.71
+Creatinine :: Stats :: Age Group 45 - 50 :: All ::  N 344629 non-zeros 344374 Median   0.83 Mean   0.86 Std   0.20 Max   3.80
+Creatinine :: Stats :: Age Group 50 - 55 :: All ::  N 318867 non-zeros 318630 Median   0.87 Mean   0.87 Std   0.21 Max   3.92
+Creatinine :: Stats :: Age Group 55 - 60 :: All ::  N 277333 non-zeros 277093 Median   0.88 Mean   0.88 Std   0.22 Max   4.24
+Creatinine :: Stats :: Age Group 60 - 65 :: All ::  N 234896 non-zeros 234662 Median   0.88 Mean   0.89 Std   0.25 Max   4.60
+Creatinine :: Stats :: Age Group 65 - 70 :: All ::  N 185743 non-zeros 185545 Median   0.90 Mean   0.93 Std   0.29 Max   5.32
+Creatinine :: Stats :: Age Group 70 - 75 :: All ::  N 131466 non-zeros 131323 Median   0.90 Mean   0.97 Std   0.36 Max   6.40
+Creatinine :: Stats :: Age Group 75 - 80 :: All ::  N 103097 non-zeros 102969 Median   0.95 Mean   1.02 Std   0.44 Max   7.60
+Creatinine :: Stats :: Age Group 80 - 85 :: All ::  N 65704 non-zeros 65620 Median   1.00 Mean   1.08 Std   0.51 Max   8.70
+Creatinine :: Stats :: Age Group 85 - 90 :: All ::  N 37756 non-zeros 37690 Median   1.00 Mean   1.11 Std   0.55 Max   9.10
+Creatinine :: Stats :: Age Group 90 - 95 :: All ::  N 15926 non-zeros 15891 Median   1.00 Mean   1.12 Std   0.54 Max   8.00
+Creatinine :: Stats :: Age Group 95 - 100 :: All ::  N 4043 non-zeros 4030 Median   1.00 Mean   1.14 Std   0.60 Max   9.72
+Creatinine :: General :: All     :: outliers ratio 0.001005
+Creatinine :: General :: All     :: N 935533 non-zeros 934566 Median   0.88 Mean   0.89 Std   0.26 Max   4.83
+Creatinine :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.39   0.50   0.59   1.29   1.70   3.40
+Creatinine :: General :: All     :: quartiles ::   0.39   0.71   0.88   1.00 
+Creatinine :: General :: Males   :: outliers ratio 0.001328
+Creatinine :: General :: Males   :: N 440787 non-zeros 440282 Median   1.00 Mean   1.01 Std   0.26 Max   4.98
+Creatinine :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.48   0.60   0.70   1.38   1.91   3.80
+Creatinine :: General :: Males   :: quartiles ::   0.48   0.88   1.00   1.10 
+Creatinine :: General :: Females :: outliers ratio 0.000939
+Creatinine :: General :: Females :: N 494636 non-zeros 494150 Median   0.78 Mean   0.78 Std   0.20 Max   3.82
+Creatinine :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.36   0.46   0.53   1.10   1.40   2.60
+Creatinine :: General :: Females :: quartiles ::   0.36   0.66   0.78   0.90 
+Creatinine :: Rounding ::  0.00 r  0.08 pct
+Creatinine :: Rounding ::  0.01 r  0.30 pct
+Creatinine :: Rounding ::  0.10 r  0.52 pct
+Creatinine :: Rounding ::  1.00 r  0.10 pct
+Creatinine :: Rounding :: 10.00 r  0.00 pct
+Creatinine :: Rounding :: 100.00 r  0.00 pct
+Creatinine :: Rounding :: 1000.00 r  0.00 pct
+Creatinine :: Rounding :: most popular rounding for vals:  0.10
+Creatinine :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats year :: 2001 :: All :: N 329919 non-zeros 329644 Median   0.90 Mean   0.91 Std   0.24 Max   4.40
+Creatinine :: Stats year :: 2002 :: All :: N 334067 non-zeros 333743 Median   1.00 Mean   0.98 Std   0.23 Max   4.40
+Creatinine :: Stats year :: 2003 :: All :: N 366565 non-zeros 366223 Median   1.00 Mean   0.99 Std   0.23 Max   4.44
+Creatinine :: Stats year :: 2004 :: All :: N 399412 non-zeros 399005 Median   1.00 Mean   1.00 Std   0.23 Max   4.40
+Creatinine :: Stats year :: 2005 :: All :: N 418958 non-zeros 418589 Median   1.00 Mean   1.01 Std   0.23 Max   4.44
+Creatinine :: Stats year :: 2006 :: All :: N 439197 non-zeros 438844 Median   1.00 Mean   1.00 Std   0.23 Max   4.42
+Creatinine :: Stats year :: 2007 :: All :: N 459351 non-zeros 459020 Median   0.96 Mean   0.98 Std   0.23 Max   4.36
+Creatinine :: Stats year :: 2008 :: All :: N 468418 non-zeros 468096 Median   0.87 Mean   0.89 Std   0.25 Max   4.62
+Creatinine :: Stats year :: 2009 :: All :: N 499653 non-zeros 499341 Median   0.80 Mean   0.82 Std   0.24 Max   4.40
+Creatinine :: Stats year :: 2010 :: All :: N 502970 non-zeros 502585 Median   0.80 Mean   0.83 Std   0.24 Max   4.48
+Creatinine :: Stats year :: 2011 :: All :: N 513725 non-zeros 513447 Median   0.80 Mean   0.82 Std   0.24 Max   4.40
+Creatinine :: Stats year :: 2012 :: All :: N 525006 non-zeros 524686 Median   0.80 Mean   0.82 Std   0.25 Max   4.52
+Creatinine :: Stats year :: 2013 :: All :: N 532550 non-zeros 532169 Median   0.78 Mean   0.82 Std   0.25 Max   4.56
+Creatinine :: Stats year :: 2014 :: All :: N 532888 non-zeros 532607 Median   0.80 Mean   0.84 Std   0.26 Max   4.68
+Creatinine :: Stats year :: 2015 :: All :: N 478500 non-zeros 478093 Median   0.79 Mean   0.84 Std   0.26 Max   4.80
+Creatinine :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats year :: 2001 :: Males   :: N 135740 non-zeros 135612 Median   1.00 Mean   1.05 Std   0.24 Max   4.70
+Creatinine :: Stats year :: 2002 :: Males   :: N 140143 non-zeros 140002 Median   1.10 Mean   1.12 Std   0.24 Max   4.60
+Creatinine :: Stats year :: 2003 :: Males   :: N 154346 non-zeros 154194 Median   1.10 Mean   1.13 Std   0.23 Max   4.60
+Creatinine :: Stats year :: 2004 :: Males   :: N 169640 non-zeros 169449 Median   1.10 Mean   1.14 Std   0.23 Max   4.53
+Creatinine :: Stats year :: 2005 :: Males   :: N 179932 non-zeros 179758 Median   1.10 Mean   1.14 Std   0.22 Max   4.50
+Creatinine :: Stats year :: 2006 :: Males   :: N 190306 non-zeros 190094 Median   1.10 Mean   1.13 Std   0.23 Max   4.52
+Creatinine :: Stats year :: 2007 :: Males   :: N 200122 non-zeros 199951 Median   1.10 Mean   1.11 Std   0.23 Max   4.50
+Creatinine :: Stats year :: 2008 :: Males   :: N 203877 non-zeros 203734 Median   1.00 Mean   1.02 Std   0.25 Max   4.70
+Creatinine :: Stats year :: 2009 :: Males   :: N 218786 non-zeros 218619 Median   0.90 Mean   0.96 Std   0.24 Max   4.53
+Creatinine :: Stats year :: 2010 :: Males   :: N 220910 non-zeros 220710 Median   0.90 Mean   0.97 Std   0.24 Max   4.60
+Creatinine :: Stats year :: 2011 :: Males   :: N 226642 non-zeros 226504 Median   0.90 Mean   0.96 Std   0.24 Max   4.60
+Creatinine :: Stats year :: 2012 :: Males   :: N 232963 non-zeros 232793 Median   0.90 Mean   0.95 Std   0.25 Max   4.71
+Creatinine :: Stats year :: 2013 :: Males   :: N 237063 non-zeros 236875 Median   0.91 Mean   0.95 Std   0.25 Max   4.74
+Creatinine :: Stats year :: 2014 :: Males   :: N 238132 non-zeros 237981 Median   0.93 Mean   0.97 Std   0.26 Max   4.91
+Creatinine :: Stats year :: 2015 :: Males   :: N 214065 non-zeros 213847 Median   0.93 Mean   0.97 Std   0.27 Max   5.09
+Creatinine :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats year :: 2001 :: Females :: N 194157 non-zeros 193987 Median   0.80 Mean   0.82 Std   0.18 Max   3.40
+Creatinine :: Stats year :: 2002 :: Females :: N 193864 non-zeros 193692 Median   0.90 Mean   0.88 Std   0.17 Max   3.30
+Creatinine :: Stats year :: 2003 :: Females :: N 212193 non-zeros 212017 Median   0.90 Mean   0.89 Std   0.17 Max   3.40
+Creatinine :: Stats year :: 2004 :: Females :: N 229722 non-zeros 229502 Median   0.90 Mean   0.90 Std   0.17 Max   3.40
+Creatinine :: Stats year :: 2005 :: Females :: N 238947 non-zeros 238759 Median   0.90 Mean   0.91 Std   0.16 Max   3.33
+Creatinine :: Stats year :: 2006 :: Females :: N 248806 non-zeros 248659 Median   0.90 Mean   0.90 Std   0.16 Max   3.33
+Creatinine :: Stats year :: 2007 :: Females :: N 259150 non-zeros 259030 Median   0.89 Mean   0.88 Std   0.16 Max   3.33
+Creatinine :: Stats year :: 2008 :: Females :: N 264481 non-zeros 264351 Median   0.80 Mean   0.79 Std   0.19 Max   3.68
+Creatinine :: Stats year :: 2009 :: Females :: N 280801 non-zeros 280665 Median   0.70 Mean   0.72 Std   0.17 Max   3.30
+Creatinine :: Stats year :: 2010 :: Females :: N 281994 non-zeros 281822 Median   0.70 Mean   0.73 Std   0.18 Max   3.40
+Creatinine :: Stats year :: 2011 :: Females :: N 287018 non-zeros 286867 Median   0.70 Mean   0.72 Std   0.18 Max   3.40
+Creatinine :: Stats year :: 2012 :: Females :: N 291970 non-zeros 291811 Median   0.70 Mean   0.71 Std   0.18 Max   3.40
+Creatinine :: Stats year :: 2013 :: Females :: N 295405 non-zeros 295232 Median   0.69 Mean   0.71 Std   0.18 Max   3.45
+Creatinine :: Stats year :: 2014 :: Females :: N 294682 non-zeros 294540 Median   0.71 Mean   0.73 Std   0.19 Max   3.51
+Creatinine :: Stats year :: 2015 :: Females :: N 264361 non-zeros 264183 Median   0.70 Mean   0.73 Std   0.19 Max   3.60
+Creatinine :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Creatinine :: Stats month 1 :: All :: N 327722 non-zeros 327424 Median   0.84 Mean   0.89 Std   0.32 Max   5.70
+Creatinine :: Stats month 2 :: All :: N 320635 non-zeros 320350 Median   0.83 Mean   0.89 Std   0.32 Max   5.71
+Creatinine :: Stats month 3 :: All :: N 328530 non-zeros 328271 Median   0.84 Mean   0.89 Std   0.33 Max   5.75
+Creatinine :: Stats month 4 :: All :: N 311105 non-zeros 310832 Median   0.84 Mean   0.90 Std   0.34 Max   5.94
+Creatinine :: Stats month 5 :: All :: N 358379 non-zeros 358080 Median   0.85 Mean   0.90 Std   0.32 Max   5.74
+Creatinine :: Stats month 6 :: All :: N 355241 non-zeros 354935 Median   0.84 Mean   0.89 Std   0.32 Max   5.70
+Creatinine :: Stats month 7 :: All :: N 362766 non-zeros 362441 Median   0.84 Mean   0.90 Std   0.33 Max   5.84
+Creatinine :: Stats month 8 :: All :: N 346734 non-zeros 346396 Median   0.85 Mean   0.90 Std   0.33 Max   5.85
+Creatinine :: Stats month 9 :: All :: N 299953 non-zeros 299705 Median   0.85 Mean   0.90 Std   0.33 Max   5.92
+Creatinine :: Stats month 10 :: All :: N 338771 non-zeros 338486 Median   0.84 Mean   0.89 Std   0.32 Max   5.71
+Creatinine :: Stats month 11 :: All :: N 323604 non-zeros 323328 Median   0.84 Mean   0.89 Std   0.31 Max   5.57
+Creatinine :: Stats month 12 :: All :: N 311708 non-zeros 311422 Median   0.83 Mean   0.89 Std   0.32 Max   5.71
+

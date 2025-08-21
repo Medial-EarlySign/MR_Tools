@@ -1,0 +1,13 @@
+mode	ABSTRACT
+n_categ	int
+qtrees.size	int
+get_only_this_categ	int
+get_counts_flag	int
+keep_all_values	bool
+quantiles	vector<float>
+sorted_values	vector<int>
+ABSTRACT	0	QRF_ResTree_Categ[qtrees.size]
+ABSTRACT	1	QRF_ResTree_Reg[qtrees.size]
+ABSTRACT	2	QRF_ResTree_Categ[qtrees.size]
+ABSTRACT	3	QRF_ResTree_Categ[qtrees.size]
+ABSTRACT	4	QRF_Last

@@ -1,0 +1,162 @@
+Bicarbonate :: All :: With Values :: 691907 / 14446692 =  0.05 :: 691907 / 691907 =  1.00
+Bicarbonate :: Males :: With Values :: 306848 / 6889335 =  0.04 :: 306848 / 691907 =  0.44
+Bicarbonate :: Females :: With Values :: 385059 / 7557357 =  0.05 :: 385059 / 691907 =  0.56
+Bicarbonate :: General :: No. of Values :: All 2930976 Male 1297659 Female 1633317
+Bicarbonate :: General :: No. of different days Values :: All 2928422 Male 1296452 Female 1631970
+Bicarbonate :: General :: Avg #values per person (all) :: All  0.20 Male  0.19 Female  0.22
+Bicarbonate :: General :: Avg #values per person (>0)  :: All  4.23 Male  4.23 Female  4.24
+Bicarbonate :: General :: Avg dist between tests       :: All  314.1 Male  309.9 Female  317.5
+Bicarbonate :: Counts :: Age Group 20 - 25 :: All ::  10375 0.004
+Bicarbonate :: Counts :: Age Group 25 - 30 :: All ::  12663 0.004
+Bicarbonate :: Counts :: Age Group 30 - 35 :: All ::  15362 0.005
+Bicarbonate :: Counts :: Age Group 35 - 40 :: All ::  19351 0.007
+Bicarbonate :: Counts :: Age Group 40 - 45 :: All ::  27478 0.009
+Bicarbonate :: Counts :: Age Group 45 - 50 :: All ::  36110 0.012
+Bicarbonate :: Counts :: Age Group 50 - 55 :: All ::  43556 0.015
+Bicarbonate :: Counts :: Age Group 55 - 60 :: All ::  51258 0.017
+Bicarbonate :: Counts :: Age Group 60 - 65 :: All ::  59995 0.020
+Bicarbonate :: Counts :: Age Group 65 - 70 :: All ::  65111 0.022
+Bicarbonate :: Counts :: Age Group 70 - 75 :: All ::  64441 0.022
+Bicarbonate :: Counts :: Age Group 75 - 80 :: All ::  63111 0.022
+Bicarbonate :: Counts :: Age Group 80 - 85 :: All ::  53210 0.018
+Bicarbonate :: Counts :: Age Group 85 - 90 :: All ::  34627 0.012
+Bicarbonate :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Bicarbonate :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Bicarbonate :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Bicarbonate :: Counts :: Age Group 20 - 25 :: Males ::   3351 0.003
+Bicarbonate :: Counts :: Age Group 25 - 30 :: Males ::   3979 0.003
+Bicarbonate :: Counts :: Age Group 30 - 35 :: Males ::   5393 0.004
+Bicarbonate :: Counts :: Age Group 35 - 40 :: Males ::   7381 0.006
+Bicarbonate :: Counts :: Age Group 40 - 45 :: Males ::  11606 0.009
+Bicarbonate :: Counts :: Age Group 45 - 50 :: Males ::  15975 0.012
+Bicarbonate :: Counts :: Age Group 50 - 55 :: Males ::  20159 0.016
+Bicarbonate :: Counts :: Age Group 55 - 60 :: Males ::  24733 0.019
+Bicarbonate :: Counts :: Age Group 60 - 65 :: Males ::  29921 0.023
+Bicarbonate :: Counts :: Age Group 65 - 70 :: Males ::  32380 0.025
+Bicarbonate :: Counts :: Age Group 70 - 75 :: Males ::  31206 0.024
+Bicarbonate :: Counts :: Age Group 75 - 80 :: Males ::  28843 0.022
+Bicarbonate :: Counts :: Age Group 80 - 85 :: Males ::  22373 0.017
+Bicarbonate :: Counts :: Age Group 85 - 90 :: Males ::  12849 0.010
+Bicarbonate :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Bicarbonate :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Bicarbonate :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Bicarbonate :: Counts :: Age Group 20 - 25 :: Females ::   7024 0.004
+Bicarbonate :: Counts :: Age Group 25 - 30 :: Females ::   8684 0.005
+Bicarbonate :: Counts :: Age Group 30 - 35 :: Females ::   9969 0.006
+Bicarbonate :: Counts :: Age Group 35 - 40 :: Females ::  11970 0.007
+Bicarbonate :: Counts :: Age Group 40 - 45 :: Females ::  15872 0.010
+Bicarbonate :: Counts :: Age Group 45 - 50 :: Females ::  20135 0.012
+Bicarbonate :: Counts :: Age Group 50 - 55 :: Females ::  23397 0.014
+Bicarbonate :: Counts :: Age Group 55 - 60 :: Females ::  26525 0.016
+Bicarbonate :: Counts :: Age Group 60 - 65 :: Females ::  30074 0.018
+Bicarbonate :: Counts :: Age Group 65 - 70 :: Females ::  32731 0.020
+Bicarbonate :: Counts :: Age Group 70 - 75 :: Females ::  33235 0.020
+Bicarbonate :: Counts :: Age Group 75 - 80 :: Females ::  34268 0.021
+Bicarbonate :: Counts :: Age Group 80 - 85 :: Females ::  30837 0.019
+Bicarbonate :: Counts :: Age Group 85 - 90 :: Females ::  21778 0.013
+Bicarbonate :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Bicarbonate :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Bicarbonate :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Bicarbonate :: Stats :: Age Group 20 - 25 :: All ::  N 36746 non-zeros 36743 Median  26.00 Mean  25.92 Std   2.95 Max  70.00
+Bicarbonate :: Stats :: Age Group 25 - 30 :: All ::  N 42208 non-zeros 42203 Median  26.00 Mean  25.98 Std   2.99 Max  60.00
+Bicarbonate :: Stats :: Age Group 30 - 35 :: All ::  N 48738 non-zeros 48730 Median  26.00 Mean  26.12 Std   3.00 Max  70.00
+Bicarbonate :: Stats :: Age Group 35 - 40 :: All ::  N 58188 non-zeros 58179 Median  26.00 Mean  26.23 Std   2.91 Max  60.00
+Bicarbonate :: Stats :: Age Group 40 - 45 :: All ::  N 72196 non-zeros 72183 Median  26.00 Mean  26.30 Std   2.87 Max  65.00
+Bicarbonate :: Stats :: Age Group 45 - 50 :: All ::  N 81207 non-zeros 81196 Median  27.00 Mean  26.46 Std   2.86 Max  64.00
+Bicarbonate :: Stats :: Age Group 50 - 55 :: All ::  N 86843 non-zeros 86829 Median  27.00 Mean  26.77 Std   2.94 Max  70.00
+Bicarbonate :: Stats :: Age Group 55 - 60 :: All ::  N 92815 non-zeros 92799 Median  27.00 Mean  26.97 Std   2.96 Max  68.00
+Bicarbonate :: Stats :: Age Group 60 - 65 :: All ::  N 95224 non-zeros 95208 Median  27.00 Mean  27.02 Std   3.02 Max  72.00
+Bicarbonate :: Stats :: Age Group 65 - 70 :: All ::  N 90920 non-zeros 90897 Median  27.00 Mean  27.04 Std   3.11 Max  53.00
+Bicarbonate :: Stats :: Age Group 70 - 75 :: All ::  N 83458 non-zeros 83439 Median  27.00 Mean  27.07 Std   3.25 Max  66.00
+Bicarbonate :: Stats :: Age Group 75 - 80 :: All ::  N 75318 non-zeros 75300 Median  27.00 Mean  27.03 Std   3.39 Max  73.00
+Bicarbonate :: Stats :: Age Group 80 - 85 :: All ::  N 59372 non-zeros 59357 Median  27.00 Mean  26.94 Std   3.52 Max  76.00
+Bicarbonate :: Stats :: Age Group 85 - 90 :: All ::  N 37407 non-zeros 37404 Median  27.00 Mean  26.85 Std   3.70 Max  79.00
+Bicarbonate :: Stats :: Age Group 90 - 95 :: All ::  N 16045 non-zeros 16042 Median  27.00 Mean  26.79 Std   3.83 Max  74.00
+Bicarbonate :: Stats :: Age Group 95 - 100 :: All ::  N 3798 non-zeros 3798 Median  27.00 Mean  26.72 Std   3.96 Max  42.00
+Bicarbonate :: General :: All     :: outliers ratio 0.000187
+Bicarbonate :: General :: All     :: N 636709 non-zeros 636556 Median  27.00 Mean  26.62 Std   3.19 Max  74.00
+Bicarbonate :: General :: All     :: distribution 0.001,0.01,0.05 ::  12.00  19.00  21.00  31.00  34.00  39.00
+Bicarbonate :: General :: All     :: quartiles ::  12.00  25.00  27.00  29.00 
+Bicarbonate :: General :: Males   :: outliers ratio 0.000208
+Bicarbonate :: General :: Males   :: N 283760 non-zeros 283688 Median  27.00 Mean  26.90 Std   3.15 Max  70.00
+Bicarbonate :: General :: Males   :: distribution 0.001,0.01,0.05 ::  11.00  19.00  22.00  31.00  34.00  38.00
+Bicarbonate :: General :: Males   :: quartiles ::  11.00  25.00  27.00  29.00 
+Bicarbonate :: General :: Females :: outliers ratio 0.000164
+Bicarbonate :: General :: Females :: N 352951 non-zeros 352862 Median  26.00 Mean  26.39 Std   3.21 Max  74.00
+Bicarbonate :: General :: Females :: distribution 0.001,0.01,0.05 ::  12.00  19.00  21.00  31.00  34.00  39.00
+Bicarbonate :: General :: Females :: quartiles ::  12.00  24.00  26.00  28.00 
+Bicarbonate :: Rounding ::  0.00 r  0.00 pct
+Bicarbonate :: Rounding ::  0.01 r  0.00 pct
+Bicarbonate :: Rounding ::  0.10 r  0.00 pct
+Bicarbonate :: Rounding ::  1.00 r  0.91 pct
+Bicarbonate :: Rounding :: 10.00 r  0.09 pct
+Bicarbonate :: Rounding :: 100.00 r  0.00 pct
+Bicarbonate :: Rounding :: 1000.00 r  0.00 pct
+Bicarbonate :: Rounding :: most popular rounding for vals:  1.00
+Bicarbonate :: Stats year :: 2000 :: All :: N 39342 non-zeros 39312 Median  28.00 Mean  27.55 Std   3.09 Max  46.00
+Bicarbonate :: Stats year :: 2001 :: All :: N 60798 non-zeros 60784 Median  28.00 Mean  27.55 Std   3.02 Max  53.00
+Bicarbonate :: Stats year :: 2002 :: All :: N 77176 non-zeros 77162 Median  27.00 Mean  27.30 Std   3.08 Max  73.00
+Bicarbonate :: Stats year :: 2003 :: All :: N 95527 non-zeros 95510 Median  27.00 Mean  27.21 Std   3.00 Max  70.00
+Bicarbonate :: Stats year :: 2004 :: All :: N 111173 non-zeros 111143 Median  28.00 Mean  27.39 Std   3.21 Max  71.00
+Bicarbonate :: Stats year :: 2005 :: All :: N 120708 non-zeros 120700 Median  28.00 Mean  27.52 Std   3.02 Max  70.00
+Bicarbonate :: Stats year :: 2006 :: All :: N 139824 non-zeros 139801 Median  27.00 Mean  27.16 Std   2.90 Max  68.00
+Bicarbonate :: Stats year :: 2007 :: All :: N 158897 non-zeros 158870 Median  27.00 Mean  26.72 Std   3.20 Max  64.00
+Bicarbonate :: Stats year :: 2008 :: All :: N 156262 non-zeros 156250 Median  27.00 Mean  26.45 Std   3.21 Max  60.00
+Bicarbonate :: Stats year :: 2009 :: All :: N 151189 non-zeros 151188 Median  27.00 Mean  26.76 Std   2.96 Max  65.00
+Bicarbonate :: Stats year :: 2010 :: All :: N 149065 non-zeros 149062 Median  27.00 Mean  26.71 Std   2.96 Max  69.00
+Bicarbonate :: Stats year :: 2011 :: All :: N 149819 non-zeros 149818 Median  27.00 Mean  26.86 Std   3.00 Max  66.00
+Bicarbonate :: Stats year :: 2012 :: All :: N 126458 non-zeros 126456 Median  26.00 Mean  26.23 Std   3.01 Max  48.00
+Bicarbonate :: Stats year :: 2013 :: All :: N 81452 non-zeros 81452 Median  26.00 Mean  25.82 Std   3.05 Max  70.00
+Bicarbonate :: Stats year :: 2014 :: All :: N 79892 non-zeros 79892 Median  26.00 Mean  25.86 Std   3.13 Max  52.00
+Bicarbonate :: Stats year :: 2015 :: All :: N 76257 non-zeros 76257 Median  26.00 Mean  26.20 Std   2.94 Max  49.00
+Bicarbonate :: Stats year :: 2016 :: All :: N 3919 non-zeros 3919 Median  26.00 Mean  25.90 Std   2.88 Max  42.00
+Bicarbonate :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Bicarbonate :: Stats year :: 2000 :: Males   :: N 17291 non-zeros 17284 Median  28.00 Mean  27.76 Std   2.98 Max  45.00
+Bicarbonate :: Stats year :: 2001 :: Males   :: N 26702 non-zeros 26693 Median  28.00 Mean  27.80 Std   2.96 Max  53.00
+Bicarbonate :: Stats year :: 2002 :: Males   :: N 33858 non-zeros 33853 Median  28.00 Mean  27.52 Std   3.01 Max  42.00
+Bicarbonate :: Stats year :: 2003 :: Males   :: N 42203 non-zeros 42195 Median  28.00 Mean  27.41 Std   2.94 Max  50.00
+Bicarbonate :: Stats year :: 2004 :: Males   :: N 50103 non-zeros 50088 Median  28.00 Mean  27.54 Std   3.17 Max  49.00
+Bicarbonate :: Stats year :: 2005 :: Males   :: N 54061 non-zeros 54056 Median  28.00 Mean  27.66 Std   2.99 Max  70.00
+Bicarbonate :: Stats year :: 2006 :: Males   :: N 62791 non-zeros 62780 Median  27.00 Mean  27.31 Std   2.85 Max  47.00
+Bicarbonate :: Stats year :: 2007 :: Males   :: N 71853 non-zeros 71840 Median  27.00 Mean  26.85 Std   3.16 Max  60.00
+Bicarbonate :: Stats year :: 2008 :: Males   :: N 70230 non-zeros 70228 Median  27.00 Mean  26.59 Std   3.19 Max  47.00
+Bicarbonate :: Stats year :: 2009 :: Males   :: N 68014 non-zeros 68013 Median  27.00 Mean  26.93 Std   2.94 Max  50.00
+Bicarbonate :: Stats year :: 2010 :: Males   :: N 66982 non-zeros 66980 Median  27.00 Mean  26.88 Std   2.94 Max  60.00
+Bicarbonate :: Stats year :: 2011 :: Males   :: N 67592 non-zeros 67592 Median  27.00 Mean  27.02 Std   2.98 Max  55.00
+Bicarbonate :: Stats year :: 2012 :: Males   :: N 56736 non-zeros 56735 Median  26.00 Mean  26.38 Std   2.98 Max  48.00
+Bicarbonate :: Stats year :: 2013 :: Males   :: N 36531 non-zeros 36531 Median  26.00 Mean  25.95 Std   3.03 Max  69.00
+Bicarbonate :: Stats year :: 2014 :: Males   :: N 35187 non-zeros 35186 Median  26.00 Mean  26.01 Std   3.11 Max  51.00
+Bicarbonate :: Stats year :: 2015 :: Males   :: N 33693 non-zeros 33693 Median  26.00 Mean  26.33 Std   2.91 Max  45.00
+Bicarbonate :: Stats year :: 2016 :: Males   :: N 1719 non-zeros 1719 Median  26.00 Mean  25.93 Std   2.82 Max  34.00
+Bicarbonate :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Bicarbonate :: Stats year :: 2000 :: Females :: N 22051 non-zeros 22027 Median  27.00 Mean  27.38 Std   3.17 Max  72.00
+Bicarbonate :: Stats year :: 2001 :: Females :: N 34096 non-zeros 34091 Median  27.00 Mean  27.36 Std   3.05 Max  48.00
+Bicarbonate :: Stats year :: 2002 :: Females :: N 43319 non-zeros 43310 Median  27.00 Mean  27.13 Std   3.14 Max  73.00
+Bicarbonate :: Stats year :: 2003 :: Females :: N 53325 non-zeros 53317 Median  27.00 Mean  27.06 Std   3.03 Max  70.00
+Bicarbonate :: Stats year :: 2004 :: Females :: N 61070 non-zeros 61054 Median  27.00 Mean  27.26 Std   3.26 Max  71.00
+Bicarbonate :: Stats year :: 2005 :: Females :: N 66646 non-zeros 66643 Median  27.00 Mean  27.39 Std   3.05 Max  70.00
+Bicarbonate :: Stats year :: 2006 :: Females :: N 77031 non-zeros 77019 Median  27.00 Mean  27.05 Std   2.93 Max  68.00
+Bicarbonate :: Stats year :: 2007 :: Females :: N 87045 non-zeros 87028 Median  27.00 Mean  26.61 Std   3.24 Max  64.00
+Bicarbonate :: Stats year :: 2008 :: Females :: N 86033 non-zeros 86023 Median  26.00 Mean  26.32 Std   3.23 Max  60.00
+Bicarbonate :: Stats year :: 2009 :: Females :: N 83174 non-zeros 83174 Median  27.00 Mean  26.63 Std   2.98 Max  65.00
+Bicarbonate :: Stats year :: 2010 :: Females :: N 82084 non-zeros 82083 Median  27.00 Mean  26.58 Std   2.97 Max  69.00
+Bicarbonate :: Stats year :: 2011 :: Females :: N 82226 non-zeros 82224 Median  27.00 Mean  26.71 Std   3.02 Max  66.00
+Bicarbonate :: Stats year :: 2012 :: Females :: N 69723 non-zeros 69721 Median  26.00 Mean  26.11 Std   3.03 Max  46.00
+Bicarbonate :: Stats year :: 2013 :: Females :: N 44922 non-zeros 44922 Median  26.00 Mean  25.71 Std   3.07 Max  70.00
+Bicarbonate :: Stats year :: 2014 :: Females :: N 44705 non-zeros 44705 Median  26.00 Mean  25.73 Std   3.14 Max  52.00
+Bicarbonate :: Stats year :: 2015 :: Females :: N 42564 non-zeros 42564 Median  26.00 Mean  26.10 Std   2.97 Max  52.00
+Bicarbonate :: Stats year :: 2016 :: Females :: N 2200 non-zeros 2200 Median  26.00 Mean  25.87 Std   2.92 Max  42.00
+Bicarbonate :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Bicarbonate :: Stats month 1 :: All :: N 116950 non-zeros 116926 Median  27.00 Mean  26.81 Std   3.23 Max  74.00
+Bicarbonate :: Stats month 2 :: All :: N 110124 non-zeros 110113 Median  27.00 Mean  26.85 Std   3.17 Max  62.00
+Bicarbonate :: Stats month 3 :: All :: N 117558 non-zeros 117541 Median  27.00 Mean  26.80 Std   3.20 Max  71.00
+Bicarbonate :: Stats month 4 :: All :: N 109713 non-zeros 109701 Median  27.00 Mean  26.73 Std   3.17 Max  74.00
+Bicarbonate :: Stats month 5 :: All :: N 114442 non-zeros 114430 Median  27.00 Mean  26.62 Std   3.21 Max  70.00
+Bicarbonate :: Stats month 6 :: All :: N 113454 non-zeros 113434 Median  27.00 Mean  26.41 Std   3.18 Max  59.00
+Bicarbonate :: Stats month 7 :: All :: N 113417 non-zeros 113396 Median  26.00 Mean  26.25 Std   3.20 Max  73.00
+Bicarbonate :: Stats month 8 :: All :: N 108887 non-zeros 108872 Median  26.00 Mean  26.38 Std   3.14 Max  73.00
+Bicarbonate :: Stats month 9 :: All :: N 113589 non-zeros 113577 Median  27.00 Mean  26.51 Std   3.15 Max  70.00
+Bicarbonate :: Stats month 10 :: All :: N 114426 non-zeros 114408 Median  27.00 Mean  26.62 Std   3.17 Max  70.00
+Bicarbonate :: Stats month 11 :: All :: N 112899 non-zeros 112889 Median  27.00 Mean  26.76 Std   3.13 Max  68.00
+Bicarbonate :: Stats month 12 :: All :: N 96156 non-zeros 96149 Median  27.00 Mean  26.77 Std   3.18 Max  68.00
+

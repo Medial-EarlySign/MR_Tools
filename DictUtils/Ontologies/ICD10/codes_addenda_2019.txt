@@ -1,0 +1,631 @@
+Add:         001U072 Bypass Spinal Canal to Atrium with Autologous Tissue Substitute, Open Approach
+Add:         001U0J2 Bypass Spinal Canal to Atrium with Synthetic Substitute, Open Approach
+Add:         001U0K2 Bypass Spinal Canal to Atrium with Nonautologous Tissue Substitute, Open Approach
+Add:         001U372 Bypass Spinal Canal to Atrium with Autologous Tissue Substitute, Percutaneous Approach
+Add:         001U3J2 Bypass Spinal Canal to Atrium with Synthetic Substitute, Percutaneous Approach
+Add:         001U3K2 Bypass Spinal Canal to Atrium with Nonautologous Tissue Substitute, Percutaneous Approach
+Add:         001U472 Bypass Spinal Canal to Atrium with Autologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U474 Bypass Spinal Canal to Pleural Cavity with Autologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U476 Bypass Spinal Canal to Peritoneal Cavity with Autologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U477 Bypass Spinal Canal to Urinary Tract with Autologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U479 Bypass Spinal Canal to Fallopian Tube with Autologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U4J2 Bypass Spinal Canal to Atrium with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         001U4J4 Bypass Spinal Canal to Pleural Cavity with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         001U4J6 Bypass Spinal Canal to Peritoneal Cavity with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         001U4J7 Bypass Spinal Canal to Urinary Tract with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         001U4J9 Bypass Spinal Canal to Fallopian Tube with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         001U4K2 Bypass Spinal Canal to Atrium with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U4K4 Bypass Spinal Canal to Pleural Cavity with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U4K6 Bypass Spinal Canal to Peritoneal Cavity with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U4K7 Bypass Spinal Canal to Urinary Tract with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         001U4K9 Bypass Spinal Canal to Fallopian Tube with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach
+Add:         021W08F Bypass Thoracic Aorta, Descending to Abdominal Artery with Zooplastic Tissue, Open Approach
+Add:         021W08G Bypass Thoracic Aorta, Descending to Axillary Artery with Zooplastic Tissue, Open Approach
+Add:         021W08H Bypass Thoracic Aorta, Descending to Brachial Artery with Zooplastic Tissue, Open Approach
+Add:         021W08V Bypass Thoracic Aorta, Descending to Lower Extremity Artery with Zooplastic Tissue, Open Approach
+Add:         021W09F Bypass Thoracic Aorta, Descending to Abdominal Artery with Autologous Venous Tissue, Open Approach
+Add:         021W09G Bypass Thoracic Aorta, Descending to Axillary Artery with Autologous Venous Tissue, Open Approach
+Add:         021W09H Bypass Thoracic Aorta, Descending to Brachial Artery with Autologous Venous Tissue, Open Approach
+Add:         021W09V Bypass Thoracic Aorta, Descending to Lower Extremity Artery with Autologous Venous Tissue, Open Approach
+Add:         021W0AF Bypass Thoracic Aorta, Descending to Abdominal Artery with Autologous Arterial Tissue, Open Approach
+Add:         021W0AG Bypass Thoracic Aorta, Descending to Axillary Artery with Autologous Arterial Tissue, Open Approach
+Add:         021W0AH Bypass Thoracic Aorta, Descending to Brachial Artery with Autologous Arterial Tissue, Open Approach
+Add:         021W0AV Bypass Thoracic Aorta, Descending to Lower Extremity Artery with Autologous Arterial Tissue, Open Approach
+Add:         021W0JF Bypass Thoracic Aorta, Descending to Abdominal Artery with Synthetic Substitute, Open Approach
+Add:         021W0JV Bypass Thoracic Aorta, Descending to Lower Extremity Artery with Synthetic Substitute, Open Approach
+Add:         021W0KF Bypass Thoracic Aorta, Descending to Abdominal Artery with Nonautologous Tissue Substitute, Open Approach
+Add:         021W0KV Bypass Thoracic Aorta, Descending to Lower Extremity Artery with Nonautologous Tissue Substitute, Open Approach
+Add:         031509T Bypass Right Axillary Artery to Abdominal Artery with Autologous Venous Tissue, Open Approach
+Add:         03150AT Bypass Right Axillary Artery to Abdominal Artery with Autologous Arterial Tissue, Open Approach
+Add:         03150JT Bypass Right Axillary Artery to Abdominal Artery with Synthetic Substitute, Open Approach
+Add:         03150KT Bypass Right Axillary Artery to Abdominal Artery with Nonautologous Tissue Substitute, Open Approach
+Add:         03150ZT Bypass Right Axillary Artery to Abdominal Artery, Open Approach
+Add:         031609T Bypass Left Axillary Artery to Abdominal Artery with Autologous Venous Tissue, Open Approach
+Add:         03160AT Bypass Left Axillary Artery to Abdominal Artery with Autologous Arterial Tissue, Open Approach
+Add:         03160JT Bypass Left Axillary Artery to Abdominal Artery with Synthetic Substitute, Open Approach
+Add:         03160KT Bypass Left Axillary Artery to Abdominal Artery with Nonautologous Tissue Substitute, Open Approach
+Add:         03160ZT Bypass Left Axillary Artery to Abdominal Artery, Open Approach
+Add:         031H09Y Bypass Right Common Carotid Artery to Upper Artery with Autologous Venous Tissue, Open Approach
+Add:         031H0AY Bypass Right Common Carotid Artery to Upper Artery with Autologous Arterial Tissue, Open Approach
+Add:         031H0JY Bypass Right Common Carotid Artery to Upper Artery with Synthetic Substitute, Open Approach
+Add:         031H0KY Bypass Right Common Carotid Artery to Upper Artery with Nonautologous Tissue Substitute, Open Approach
+Add:         031H0ZY Bypass Right Common Carotid Artery to Upper Artery, Open Approach
+Add:         031J09Y Bypass Left Common Carotid Artery to Upper Artery with Autologous Venous Tissue, Open Approach
+Add:         031J0AY Bypass Left Common Carotid Artery to Upper Artery with Autologous Arterial Tissue, Open Approach
+Add:         031J0JY Bypass Left Common Carotid Artery to Upper Artery with Synthetic Substitute, Open Approach
+Add:         031J0KY Bypass Left Common Carotid Artery to Upper Artery with Nonautologous Tissue Substitute, Open Approach
+Add:         031J0ZY Bypass Left Common Carotid Artery to Upper Artery, Open Approach
+Add:         03700D1 Dilation of Right Internal Mammary Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03700Z1 Dilation of Right Internal Mammary Artery using Drug-Coated Balloon, Open Approach
+Add:         03703D1 Dilation of Right Internal Mammary Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03703Z1 Dilation of Right Internal Mammary Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03704D1 Dilation of Right Internal Mammary Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03704Z1 Dilation of Right Internal Mammary Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03710D1 Dilation of Left Internal Mammary Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03710Z1 Dilation of Left Internal Mammary Artery using Drug-Coated Balloon, Open Approach
+Add:         03713D1 Dilation of Left Internal Mammary Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03713Z1 Dilation of Left Internal Mammary Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03714D1 Dilation of Left Internal Mammary Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03714Z1 Dilation of Left Internal Mammary Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03720D1 Dilation of Innominate Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03720Z1 Dilation of Innominate Artery using Drug-Coated Balloon, Open Approach
+Add:         03723D1 Dilation of Innominate Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03723Z1 Dilation of Innominate Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03724D1 Dilation of Innominate Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03724Z1 Dilation of Innominate Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03730D1 Dilation of Right Subclavian Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03730Z1 Dilation of Right Subclavian Artery using Drug-Coated Balloon, Open Approach
+Add:         03733D1 Dilation of Right Subclavian Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03733Z1 Dilation of Right Subclavian Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03734D1 Dilation of Right Subclavian Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03734Z1 Dilation of Right Subclavian Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03740D1 Dilation of Left Subclavian Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03740Z1 Dilation of Left Subclavian Artery using Drug-Coated Balloon, Open Approach
+Add:         03743D1 Dilation of Left Subclavian Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03743Z1 Dilation of Left Subclavian Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03744D1 Dilation of Left Subclavian Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03744Z1 Dilation of Left Subclavian Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03750D1 Dilation of Right Axillary Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03750Z1 Dilation of Right Axillary Artery using Drug-Coated Balloon, Open Approach
+Add:         03753D1 Dilation of Right Axillary Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03753Z1 Dilation of Right Axillary Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03754D1 Dilation of Right Axillary Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03754Z1 Dilation of Right Axillary Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03760D1 Dilation of Left Axillary Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03760Z1 Dilation of Left Axillary Artery using Drug-Coated Balloon, Open Approach
+Add:         03763D1 Dilation of Left Axillary Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03763Z1 Dilation of Left Axillary Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03764D1 Dilation of Left Axillary Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03764Z1 Dilation of Left Axillary Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03770D1 Dilation of Right Brachial Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03770Z1 Dilation of Right Brachial Artery using Drug-Coated Balloon, Open Approach
+Add:         03773D1 Dilation of Right Brachial Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03773Z1 Dilation of Right Brachial Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03774D1 Dilation of Right Brachial Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03774Z1 Dilation of Right Brachial Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03780D1 Dilation of Left Brachial Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03780Z1 Dilation of Left Brachial Artery using Drug-Coated Balloon, Open Approach
+Add:         03783D1 Dilation of Left Brachial Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03783Z1 Dilation of Left Brachial Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03784D1 Dilation of Left Brachial Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03784Z1 Dilation of Left Brachial Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03790D1 Dilation of Right Ulnar Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         03790Z1 Dilation of Right Ulnar Artery using Drug-Coated Balloon, Open Approach
+Add:         03793D1 Dilation of Right Ulnar Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         03793Z1 Dilation of Right Ulnar Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         03794D1 Dilation of Right Ulnar Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03794Z1 Dilation of Right Ulnar Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         037A0D1 Dilation of Left Ulnar Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         037A0Z1 Dilation of Left Ulnar Artery using Drug-Coated Balloon, Open Approach
+Add:         037A3D1 Dilation of Left Ulnar Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         037A3Z1 Dilation of Left Ulnar Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         037A4D1 Dilation of Left Ulnar Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         037A4Z1 Dilation of Left Ulnar Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         037B0D1 Dilation of Right Radial Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         037B0Z1 Dilation of Right Radial Artery using Drug-Coated Balloon, Open Approach
+Add:         037B3D1 Dilation of Right Radial Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         037B3Z1 Dilation of Right Radial Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         037B4D1 Dilation of Right Radial Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         037B4Z1 Dilation of Right Radial Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         037C0D1 Dilation of Left Radial Artery with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         037C0Z1 Dilation of Left Radial Artery using Drug-Coated Balloon, Open Approach
+Add:         037C3D1 Dilation of Left Radial Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         037C3Z1 Dilation of Left Radial Artery using Drug-Coated Balloon, Percutaneous Approach
+Add:         037C4D1 Dilation of Left Radial Artery with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         037C4Z1 Dilation of Left Radial Artery using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         03CG3Z7 Extirpation of Matter from Intracranial Artery using Stent Retriever, Percutaneous Approach
+Add:         03CH3Z7 Extirpation of Matter from Right Common Carotid Artery using Stent Retriever, Percutaneous Approach
+Add:         03CJ3Z7 Extirpation of Matter from Left Common Carotid Artery using Stent Retriever, Percutaneous Approach
+Add:         03CK3Z7 Extirpation of Matter from Right Internal Carotid Artery using Stent Retriever, Percutaneous Approach
+Add:         03CL3Z7 Extirpation of Matter from Left Internal Carotid Artery using Stent Retriever, Percutaneous Approach
+Add:         03CM3Z7 Extirpation of Matter from Right External Carotid Artery using Stent Retriever, Percutaneous Approach
+Add:         03CN3Z7 Extirpation of Matter from Left External Carotid Artery using Stent Retriever, Percutaneous Approach
+Add:         03CP3Z7 Extirpation of Matter from Right Vertebral Artery using Stent Retriever, Percutaneous Approach
+Add:         03CQ3Z7 Extirpation of Matter from Left Vertebral Artery using Stent Retriever, Percutaneous Approach
+Add:         041K3JQ Bypass Right Femoral Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041K3JS Bypass Right Femoral Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041L3JQ Bypass Left Femoral Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041L3JS Bypass Left Femoral Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041M3JQ Bypass Right Popliteal Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041M3JS Bypass Right Popliteal Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041N3JQ Bypass Left Popliteal Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041N3JS Bypass Left Popliteal Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041P0JQ Bypass Right Anterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Open Approach
+Add:         041P0JS Bypass Right Anterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Open Approach
+Add:         041P3JQ Bypass Right Anterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041P3JS Bypass Right Anterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041P4JQ Bypass Right Anterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         041P4JS Bypass Right Anterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         041Q0JQ Bypass Left Anterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Open Approach
+Add:         041Q0JS Bypass Left Anterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Open Approach
+Add:         041Q3JQ Bypass Left Anterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041Q3JS Bypass Left Anterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041Q4JQ Bypass Left Anterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         041Q4JS Bypass Left Anterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         041R0JQ Bypass Right Posterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Open Approach
+Add:         041R0JS Bypass Right Posterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Open Approach
+Add:         041R3JQ Bypass Right Posterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041R3JS Bypass Right Posterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041R4JQ Bypass Right Posterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         041R4JS Bypass Right Posterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         041S0JQ Bypass Left Posterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Open Approach
+Add:         041S0JS Bypass Left Posterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Open Approach
+Add:         041S3JQ Bypass Left Posterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041S3JS Bypass Left Posterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041S4JQ Bypass Left Posterior Tibial Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         041S4JS Bypass Left Posterior Tibial Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         041T3JQ Bypass Right Peroneal Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041T3JS Bypass Right Peroneal Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041U3JQ Bypass Left Peroneal Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041U3JS Bypass Left Peroneal Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041V3JQ Bypass Right Foot Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041V3JS Bypass Right Foot Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         041W3JQ Bypass Left Foot Artery to Lower Extremity Artery with Synthetic Substitute, Percutaneous Approach
+Add:         041W3JS Bypass Left Foot Artery to Lower Extremity Vein with Synthetic Substitute, Percutaneous Approach
+Add:         05730D1 Dilation of Right Innominate Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         05730Z1 Dilation of Right Innominate Vein using Drug-Coated Balloon, Open Approach
+Add:         05733D1 Dilation of Right Innominate Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         05733Z1 Dilation of Right Innominate Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         05734D1 Dilation of Right Innominate Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05734Z1 Dilation of Right Innominate Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05740D1 Dilation of Left Innominate Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         05740Z1 Dilation of Left Innominate Vein using Drug-Coated Balloon, Open Approach
+Add:         05743D1 Dilation of Left Innominate Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         05743Z1 Dilation of Left Innominate Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         05744D1 Dilation of Left Innominate Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05744Z1 Dilation of Left Innominate Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05750D1 Dilation of Right Subclavian Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         05750Z1 Dilation of Right Subclavian Vein using Drug-Coated Balloon, Open Approach
+Add:         05753D1 Dilation of Right Subclavian Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         05753Z1 Dilation of Right Subclavian Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         05754D1 Dilation of Right Subclavian Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05754Z1 Dilation of Right Subclavian Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05760D1 Dilation of Left Subclavian Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         05760Z1 Dilation of Left Subclavian Vein using Drug-Coated Balloon, Open Approach
+Add:         05763D1 Dilation of Left Subclavian Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         05763Z1 Dilation of Left Subclavian Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         05764D1 Dilation of Left Subclavian Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05764Z1 Dilation of Left Subclavian Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05770D1 Dilation of Right Axillary Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         05770Z1 Dilation of Right Axillary Vein using Drug-Coated Balloon, Open Approach
+Add:         05773D1 Dilation of Right Axillary Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         05773Z1 Dilation of Right Axillary Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         05774D1 Dilation of Right Axillary Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05774Z1 Dilation of Right Axillary Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05780D1 Dilation of Left Axillary Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         05780Z1 Dilation of Left Axillary Vein using Drug-Coated Balloon, Open Approach
+Add:         05783D1 Dilation of Left Axillary Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         05783Z1 Dilation of Left Axillary Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         05784D1 Dilation of Left Axillary Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05784Z1 Dilation of Left Axillary Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05790D1 Dilation of Right Brachial Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         05790Z1 Dilation of Right Brachial Vein using Drug-Coated Balloon, Open Approach
+Add:         05793D1 Dilation of Right Brachial Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         05793Z1 Dilation of Right Brachial Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         05794D1 Dilation of Right Brachial Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         05794Z1 Dilation of Right Brachial Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057A0D1 Dilation of Left Brachial Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         057A0Z1 Dilation of Left Brachial Vein using Drug-Coated Balloon, Open Approach
+Add:         057A3D1 Dilation of Left Brachial Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         057A3Z1 Dilation of Left Brachial Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         057A4D1 Dilation of Left Brachial Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057A4Z1 Dilation of Left Brachial Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057B0D1 Dilation of Right Basilic Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         057B0Z1 Dilation of Right Basilic Vein using Drug-Coated Balloon, Open Approach
+Add:         057B3D1 Dilation of Right Basilic Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         057B3Z1 Dilation of Right Basilic Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         057B4D1 Dilation of Right Basilic Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057B4Z1 Dilation of Right Basilic Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057C0D1 Dilation of Left Basilic Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         057C0Z1 Dilation of Left Basilic Vein using Drug-Coated Balloon, Open Approach
+Add:         057C3D1 Dilation of Left Basilic Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         057C3Z1 Dilation of Left Basilic Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         057C4D1 Dilation of Left Basilic Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057C4Z1 Dilation of Left Basilic Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057D0D1 Dilation of Right Cephalic Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         057D0Z1 Dilation of Right Cephalic Vein using Drug-Coated Balloon, Open Approach
+Add:         057D3D1 Dilation of Right Cephalic Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         057D3Z1 Dilation of Right Cephalic Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         057D4D1 Dilation of Right Cephalic Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057D4Z1 Dilation of Right Cephalic Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057F0D1 Dilation of Left Cephalic Vein with Intraluminal Device, using Drug-Coated Balloon, Open Approach
+Add:         057F0Z1 Dilation of Left Cephalic Vein using Drug-Coated Balloon, Open Approach
+Add:         057F3D1 Dilation of Left Cephalic Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach
+Add:         057F3Z1 Dilation of Left Cephalic Vein using Drug-Coated Balloon, Percutaneous Approach
+Add:         057F4D1 Dilation of Left Cephalic Vein with Intraluminal Device, using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         057F4Z1 Dilation of Left Cephalic Vein using Drug-Coated Balloon, Percutaneous Endoscopic Approach
+Add:         093K7ZZ Control Bleeding in Nasal Mucosa and Soft Tissue, Via Natural or Artificial Opening
+Add:         093K8ZZ Control Bleeding in Nasal Mucosa and Soft Tissue, Via Natural or Artificial Opening Endoscopic
+Add:         0F500ZF Destruction of Liver using Irreversible Electroporation, Open Approach
+Add:         0F503ZF Destruction of Liver using Irreversible Electroporation, Percutaneous Approach
+Add:         0F504ZF Destruction of Liver using Irreversible Electroporation, Percutaneous Endoscopic Approach
+Add:         0F510ZF Destruction of Right Lobe Liver using Irreversible Electroporation, Open Approach
+Add:         0F513ZF Destruction of Right Lobe Liver using Irreversible Electroporation, Percutaneous Approach
+Add:         0F514ZF Destruction of Right Lobe Liver using Irreversible Electroporation, Percutaneous Endoscopic Approach
+Add:         0F520ZF Destruction of Left Lobe Liver using Irreversible Electroporation, Open Approach
+Add:         0F523ZF Destruction of Left Lobe Liver using Irreversible Electroporation, Percutaneous Approach
+Add:         0F524ZF Destruction of Left Lobe Liver using Irreversible Electroporation, Percutaneous Endoscopic Approach
+Add:         0F5G0ZF Destruction of Pancreas using Irreversible Electroporation, Open Approach
+Add:         0F5G3ZF Destruction of Pancreas using Irreversible Electroporation, Percutaneous Approach
+Add:         0F5G4ZF Destruction of Pancreas using Irreversible Electroporation, Percutaneous Endoscopic Approach
+Add:         0FD03ZX Extraction of Liver, Percutaneous Approach, Diagnostic
+Add:         0FD04ZX Extraction of Liver, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD13ZX Extraction of Right Lobe Liver, Percutaneous Approach, Diagnostic
+Add:         0FD14ZX Extraction of Right Lobe Liver, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD23ZX Extraction of Left Lobe Liver, Percutaneous Approach, Diagnostic
+Add:         0FD24ZX Extraction of Left Lobe Liver, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD43ZX Extraction of Gallbladder, Percutaneous Approach, Diagnostic
+Add:         0FD44ZX Extraction of Gallbladder, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD48ZX Extraction of Gallbladder, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FD53ZX Extraction of Right Hepatic Duct, Percutaneous Approach, Diagnostic
+Add:         0FD54ZX Extraction of Right Hepatic Duct, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD58ZX Extraction of Right Hepatic Duct, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FD63ZX Extraction of Left Hepatic Duct, Percutaneous Approach, Diagnostic
+Add:         0FD64ZX Extraction of Left Hepatic Duct, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD68ZX Extraction of Left Hepatic Duct, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FD73ZX Extraction of Common Hepatic Duct, Percutaneous Approach, Diagnostic
+Add:         0FD74ZX Extraction of Common Hepatic Duct, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD78ZX Extraction of Common Hepatic Duct, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FD83ZX Extraction of Cystic Duct, Percutaneous Approach, Diagnostic
+Add:         0FD84ZX Extraction of Cystic Duct, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD88ZX Extraction of Cystic Duct, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FD93ZX Extraction of Common Bile Duct, Percutaneous Approach, Diagnostic
+Add:         0FD94ZX Extraction of Common Bile Duct, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FD98ZX Extraction of Common Bile Duct, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FDC3ZX Extraction of Ampulla of Vater, Percutaneous Approach, Diagnostic
+Add:         0FDC4ZX Extraction of Ampulla of Vater, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FDC8ZX Extraction of Ampulla of Vater, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FDD3ZX Extraction of Pancreatic Duct, Percutaneous Approach, Diagnostic
+Add:         0FDD4ZX Extraction of Pancreatic Duct, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FDD8ZX Extraction of Pancreatic Duct, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FDF3ZX Extraction of Accessory Pancreatic Duct, Percutaneous Approach, Diagnostic
+Add:         0FDF4ZX Extraction of Accessory Pancreatic Duct, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FDF8ZX Extraction of Accessory Pancreatic Duct, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0FDG3ZX Extraction of Pancreas, Percutaneous Approach, Diagnostic
+Add:         0FDG4ZX Extraction of Pancreas, Percutaneous Endoscopic Approach, Diagnostic
+Add:         0FDG8ZX Extraction of Pancreas, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Delete:      0RG00Z0 Fusion of Occipital-cervical Joint, Anterior Approach, Anterior Column, Open Approach
+Delete:      0RG00Z1 Fusion of Occipital-cervical Joint, Posterior Approach, Posterior Column, Open Approach
+Delete:      0RG00ZJ Fusion of Occipital-cervical Joint, Posterior Approach, Anterior Column, Open Approach
+Delete:      0RG03Z0 Fusion of Occipital-cervical Joint, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG03Z1 Fusion of Occipital-cervical Joint, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0RG03ZJ Fusion of Occipital-cervical Joint, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG04Z0 Fusion of Occipital-cervical Joint, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG04Z1 Fusion of Occipital-cervical Joint, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG04ZJ Fusion of Occipital-cervical Joint, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG10Z0 Fusion of Cervical Vertebral Joint, Anterior Approach, Anterior Column, Open Approach
+Delete:      0RG10Z1 Fusion of Cervical Vertebral Joint, Posterior Approach, Posterior Column, Open Approach
+Delete:      0RG10ZJ Fusion of Cervical Vertebral Joint, Posterior Approach, Anterior Column, Open Approach
+Delete:      0RG13Z0 Fusion of Cervical Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG13Z1 Fusion of Cervical Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0RG13ZJ Fusion of Cervical Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG14Z0 Fusion of Cervical Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG14Z1 Fusion of Cervical Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG14ZJ Fusion of Cervical Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG20Z0 Fusion of 2 or more Cervical Vertebral Joints, Anterior Approach, Anterior Column, Open Approach
+Delete:      0RG20Z1 Fusion of 2 or more Cervical Vertebral Joints, Posterior Approach, Posterior Column, Open Approach
+Delete:      0RG20ZJ Fusion of 2 or more Cervical Vertebral Joints, Posterior Approach, Anterior Column, Open Approach
+Delete:      0RG23Z0 Fusion of 2 or more Cervical Vertebral Joints, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG23Z1 Fusion of 2 or more Cervical Vertebral Joints, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0RG23ZJ Fusion of 2 or more Cervical Vertebral Joints, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG24Z0 Fusion of 2 or more Cervical Vertebral Joints, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG24Z1 Fusion of 2 or more Cervical Vertebral Joints, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG24ZJ Fusion of 2 or more Cervical Vertebral Joints, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG40Z0 Fusion of Cervicothoracic Vertebral Joint, Anterior Approach, Anterior Column, Open Approach
+Delete:      0RG40Z1 Fusion of Cervicothoracic Vertebral Joint, Posterior Approach, Posterior Column, Open Approach
+Delete:      0RG40ZJ Fusion of Cervicothoracic Vertebral Joint, Posterior Approach, Anterior Column, Open Approach
+Delete:      0RG43Z0 Fusion of Cervicothoracic Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG43Z1 Fusion of Cervicothoracic Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0RG43ZJ Fusion of Cervicothoracic Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG44Z0 Fusion of Cervicothoracic Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG44Z1 Fusion of Cervicothoracic Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG44ZJ Fusion of Cervicothoracic Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG60Z0 Fusion of Thoracic Vertebral Joint, Anterior Approach, Anterior Column, Open Approach
+Delete:      0RG60Z1 Fusion of Thoracic Vertebral Joint, Posterior Approach, Posterior Column, Open Approach
+Delete:      0RG60ZJ Fusion of Thoracic Vertebral Joint, Posterior Approach, Anterior Column, Open Approach
+Delete:      0RG63Z0 Fusion of Thoracic Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG63Z1 Fusion of Thoracic Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0RG63ZJ Fusion of Thoracic Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG64Z0 Fusion of Thoracic Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG64Z1 Fusion of Thoracic Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG64ZJ Fusion of Thoracic Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG70Z0 Fusion of 2 to 7 Thoracic Vertebral Joints, Anterior Approach, Anterior Column, Open Approach
+Delete:      0RG70Z1 Fusion of 2 to 7 Thoracic Vertebral Joints, Posterior Approach, Posterior Column, Open Approach
+Delete:      0RG70ZJ Fusion of 2 to 7 Thoracic Vertebral Joints, Posterior Approach, Anterior Column, Open Approach
+Delete:      0RG73Z0 Fusion of 2 to 7 Thoracic Vertebral Joints, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG73Z1 Fusion of 2 to 7 Thoracic Vertebral Joints, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0RG73ZJ Fusion of 2 to 7 Thoracic Vertebral Joints, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG74Z0 Fusion of 2 to 7 Thoracic Vertebral Joints, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG74Z1 Fusion of 2 to 7 Thoracic Vertebral Joints, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG74ZJ Fusion of 2 to 7 Thoracic Vertebral Joints, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG80Z0 Fusion of 8 or more Thoracic Vertebral Joints, Anterior Approach, Anterior Column, Open Approach
+Delete:      0RG80Z1 Fusion of 8 or more Thoracic Vertebral Joints, Posterior Approach, Posterior Column, Open Approach
+Delete:      0RG80ZJ Fusion of 8 or more Thoracic Vertebral Joints, Posterior Approach, Anterior Column, Open Approach
+Delete:      0RG83Z0 Fusion of 8 or more Thoracic Vertebral Joints, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG83Z1 Fusion of 8 or more Thoracic Vertebral Joints, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0RG83ZJ Fusion of 8 or more Thoracic Vertebral Joints, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RG84Z0 Fusion of 8 or more Thoracic Vertebral Joints, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG84Z1 Fusion of 8 or more Thoracic Vertebral Joints, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0RG84ZJ Fusion of 8 or more Thoracic Vertebral Joints, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RGA0Z0 Fusion of Thoracolumbar Vertebral Joint, Anterior Approach, Anterior Column, Open Approach
+Delete:      0RGA0Z1 Fusion of Thoracolumbar Vertebral Joint, Posterior Approach, Posterior Column, Open Approach
+Delete:      0RGA0ZJ Fusion of Thoracolumbar Vertebral Joint, Posterior Approach, Anterior Column, Open Approach
+Delete:      0RGA3Z0 Fusion of Thoracolumbar Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RGA3Z1 Fusion of Thoracolumbar Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0RGA3ZJ Fusion of Thoracolumbar Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0RGA4Z0 Fusion of Thoracolumbar Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RGA4Z1 Fusion of Thoracolumbar Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0RGA4ZJ Fusion of Thoracolumbar Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0RGC0ZZ Fusion of Right Temporomandibular Joint, Open Approach
+Delete:      0RGC3ZZ Fusion of Right Temporomandibular Joint, Percutaneous Approach
+Delete:      0RGC4ZZ Fusion of Right Temporomandibular Joint, Percutaneous Endoscopic Approach
+Delete:      0RGD0ZZ Fusion of Left Temporomandibular Joint, Open Approach
+Delete:      0RGD3ZZ Fusion of Left Temporomandibular Joint, Percutaneous Approach
+Delete:      0RGD4ZZ Fusion of Left Temporomandibular Joint, Percutaneous Endoscopic Approach
+Delete:      0RGE0ZZ Fusion of Right Sternoclavicular Joint, Open Approach
+Delete:      0RGE3ZZ Fusion of Right Sternoclavicular Joint, Percutaneous Approach
+Delete:      0RGE4ZZ Fusion of Right Sternoclavicular Joint, Percutaneous Endoscopic Approach
+Delete:      0RGF0ZZ Fusion of Left Sternoclavicular Joint, Open Approach
+Delete:      0RGF3ZZ Fusion of Left Sternoclavicular Joint, Percutaneous Approach
+Delete:      0RGF4ZZ Fusion of Left Sternoclavicular Joint, Percutaneous Endoscopic Approach
+Delete:      0RGG0ZZ Fusion of Right Acromioclavicular Joint, Open Approach
+Delete:      0RGG3ZZ Fusion of Right Acromioclavicular Joint, Percutaneous Approach
+Delete:      0RGG4ZZ Fusion of Right Acromioclavicular Joint, Percutaneous Endoscopic Approach
+Delete:      0RGH0ZZ Fusion of Left Acromioclavicular Joint, Open Approach
+Delete:      0RGH3ZZ Fusion of Left Acromioclavicular Joint, Percutaneous Approach
+Delete:      0RGH4ZZ Fusion of Left Acromioclavicular Joint, Percutaneous Endoscopic Approach
+Delete:      0RGJ0ZZ Fusion of Right Shoulder Joint, Open Approach
+Delete:      0RGJ3ZZ Fusion of Right Shoulder Joint, Percutaneous Approach
+Delete:      0RGJ4ZZ Fusion of Right Shoulder Joint, Percutaneous Endoscopic Approach
+Delete:      0RGK0ZZ Fusion of Left Shoulder Joint, Open Approach
+Delete:      0RGK3ZZ Fusion of Left Shoulder Joint, Percutaneous Approach
+Delete:      0RGK4ZZ Fusion of Left Shoulder Joint, Percutaneous Endoscopic Approach
+Delete:      0RGL0ZZ Fusion of Right Elbow Joint, Open Approach
+Delete:      0RGL3ZZ Fusion of Right Elbow Joint, Percutaneous Approach
+Delete:      0RGL4ZZ Fusion of Right Elbow Joint, Percutaneous Endoscopic Approach
+Delete:      0RGM0ZZ Fusion of Left Elbow Joint, Open Approach
+Delete:      0RGM3ZZ Fusion of Left Elbow Joint, Percutaneous Approach
+Delete:      0RGM4ZZ Fusion of Left Elbow Joint, Percutaneous Endoscopic Approach
+Delete:      0RGN0ZZ Fusion of Right Wrist Joint, Open Approach
+Delete:      0RGN3ZZ Fusion of Right Wrist Joint, Percutaneous Approach
+Delete:      0RGN4ZZ Fusion of Right Wrist Joint, Percutaneous Endoscopic Approach
+Delete:      0RGP0ZZ Fusion of Left Wrist Joint, Open Approach
+Delete:      0RGP3ZZ Fusion of Left Wrist Joint, Percutaneous Approach
+Delete:      0RGP4ZZ Fusion of Left Wrist Joint, Percutaneous Endoscopic Approach
+Delete:      0RGQ0ZZ Fusion of Right Carpal Joint, Open Approach
+Delete:      0RGQ3ZZ Fusion of Right Carpal Joint, Percutaneous Approach
+Delete:      0RGQ4ZZ Fusion of Right Carpal Joint, Percutaneous Endoscopic Approach
+Delete:      0RGR0ZZ Fusion of Left Carpal Joint, Open Approach
+Delete:      0RGR3ZZ Fusion of Left Carpal Joint, Percutaneous Approach
+Delete:      0RGR4ZZ Fusion of Left Carpal Joint, Percutaneous Endoscopic Approach
+Delete:      0RGS0ZZ Fusion of Right Carpometacarpal Joint, Open Approach
+Delete:      0RGS3ZZ Fusion of Right Carpometacarpal Joint, Percutaneous Approach
+Delete:      0RGS4ZZ Fusion of Right Carpometacarpal Joint, Percutaneous Endoscopic Approach
+Delete:      0RGT0ZZ Fusion of Left Carpometacarpal Joint, Open Approach
+Delete:      0RGT3ZZ Fusion of Left Carpometacarpal Joint, Percutaneous Approach
+Delete:      0RGT4ZZ Fusion of Left Carpometacarpal Joint, Percutaneous Endoscopic Approach
+Delete:      0RGU0ZZ Fusion of Right Metacarpophalangeal Joint, Open Approach
+Delete:      0RGU3ZZ Fusion of Right Metacarpophalangeal Joint, Percutaneous Approach
+Delete:      0RGU4ZZ Fusion of Right Metacarpophalangeal Joint, Percutaneous Endoscopic Approach
+Delete:      0RGV0ZZ Fusion of Left Metacarpophalangeal Joint, Open Approach
+Delete:      0RGV3ZZ Fusion of Left Metacarpophalangeal Joint, Percutaneous Approach
+Delete:      0RGV4ZZ Fusion of Left Metacarpophalangeal Joint, Percutaneous Endoscopic Approach
+Delete:      0RGW0ZZ Fusion of Right Finger Phalangeal Joint, Open Approach
+Delete:      0RGW3ZZ Fusion of Right Finger Phalangeal Joint, Percutaneous Approach
+Delete:      0RGW4ZZ Fusion of Right Finger Phalangeal Joint, Percutaneous Endoscopic Approach
+Delete:      0RGX0ZZ Fusion of Left Finger Phalangeal Joint, Open Approach
+Delete:      0RGX3ZZ Fusion of Left Finger Phalangeal Joint, Percutaneous Approach
+Delete:      0RGX4ZZ Fusion of Left Finger Phalangeal Joint, Percutaneous Endoscopic Approach
+Delete:      0SG00Z0 Fusion of Lumbar Vertebral Joint, Anterior Approach, Anterior Column, Open Approach
+Delete:      0SG00Z1 Fusion of Lumbar Vertebral Joint, Posterior Approach, Posterior Column, Open Approach
+Delete:      0SG00ZJ Fusion of Lumbar Vertebral Joint, Posterior Approach, Anterior Column, Open Approach
+Delete:      0SG03Z0 Fusion of Lumbar Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0SG03Z1 Fusion of Lumbar Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0SG03ZJ Fusion of Lumbar Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0SG04Z0 Fusion of Lumbar Vertebral Joint, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG04Z1 Fusion of Lumbar Vertebral Joint, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG04ZJ Fusion of Lumbar Vertebral Joint, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG10Z0 Fusion of 2 or more Lumbar Vertebral Joints, Anterior Approach, Anterior Column, Open Approach
+Delete:      0SG10Z1 Fusion of 2 or more Lumbar Vertebral Joints, Posterior Approach, Posterior Column, Open Approach
+Delete:      0SG10ZJ Fusion of 2 or more Lumbar Vertebral Joints, Posterior Approach, Anterior Column, Open Approach
+Delete:      0SG13Z0 Fusion of 2 or more Lumbar Vertebral Joints, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0SG13Z1 Fusion of 2 or more Lumbar Vertebral Joints, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0SG13ZJ Fusion of 2 or more Lumbar Vertebral Joints, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0SG14Z0 Fusion of 2 or more Lumbar Vertebral Joints, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG14Z1 Fusion of 2 or more Lumbar Vertebral Joints, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG14ZJ Fusion of 2 or more Lumbar Vertebral Joints, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG30Z0 Fusion of Lumbosacral Joint, Anterior Approach, Anterior Column, Open Approach
+Delete:      0SG30Z1 Fusion of Lumbosacral Joint, Posterior Approach, Posterior Column, Open Approach
+Delete:      0SG30ZJ Fusion of Lumbosacral Joint, Posterior Approach, Anterior Column, Open Approach
+Delete:      0SG33Z0 Fusion of Lumbosacral Joint, Anterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0SG33Z1 Fusion of Lumbosacral Joint, Posterior Approach, Posterior Column, Percutaneous Approach
+Delete:      0SG33ZJ Fusion of Lumbosacral Joint, Posterior Approach, Anterior Column, Percutaneous Approach
+Delete:      0SG34Z0 Fusion of Lumbosacral Joint, Anterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG34Z1 Fusion of Lumbosacral Joint, Posterior Approach, Posterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG34ZJ Fusion of Lumbosacral Joint, Posterior Approach, Anterior Column, Percutaneous Endoscopic Approach
+Delete:      0SG50ZZ Fusion of Sacrococcygeal Joint, Open Approach
+Delete:      0SG53ZZ Fusion of Sacrococcygeal Joint, Percutaneous Approach
+Delete:      0SG54ZZ Fusion of Sacrococcygeal Joint, Percutaneous Endoscopic Approach
+Delete:      0SG60ZZ Fusion of Coccygeal Joint, Open Approach
+Delete:      0SG63ZZ Fusion of Coccygeal Joint, Percutaneous Approach
+Delete:      0SG64ZZ Fusion of Coccygeal Joint, Percutaneous Endoscopic Approach
+Delete:      0SG70ZZ Fusion of Right Sacroiliac Joint, Open Approach
+Delete:      0SG73ZZ Fusion of Right Sacroiliac Joint, Percutaneous Approach
+Delete:      0SG74ZZ Fusion of Right Sacroiliac Joint, Percutaneous Endoscopic Approach
+Delete:      0SG80ZZ Fusion of Left Sacroiliac Joint, Open Approach
+Delete:      0SG83ZZ Fusion of Left Sacroiliac Joint, Percutaneous Approach
+Delete:      0SG84ZZ Fusion of Left Sacroiliac Joint, Percutaneous Endoscopic Approach
+Delete:      0SG90ZZ Fusion of Right Hip Joint, Open Approach
+Delete:      0SG93ZZ Fusion of Right Hip Joint, Percutaneous Approach
+Delete:      0SG94ZZ Fusion of Right Hip Joint, Percutaneous Endoscopic Approach
+Delete:      0SGB0ZZ Fusion of Left Hip Joint, Open Approach
+Delete:      0SGB3ZZ Fusion of Left Hip Joint, Percutaneous Approach
+Delete:      0SGB4ZZ Fusion of Left Hip Joint, Percutaneous Endoscopic Approach
+Delete:      0SGC0ZZ Fusion of Right Knee Joint, Open Approach
+Delete:      0SGC3ZZ Fusion of Right Knee Joint, Percutaneous Approach
+Delete:      0SGC4ZZ Fusion of Right Knee Joint, Percutaneous Endoscopic Approach
+Delete:      0SGD0ZZ Fusion of Left Knee Joint, Open Approach
+Delete:      0SGD3ZZ Fusion of Left Knee Joint, Percutaneous Approach
+Delete:      0SGD4ZZ Fusion of Left Knee Joint, Percutaneous Endoscopic Approach
+Delete:      0SGF0ZZ Fusion of Right Ankle Joint, Open Approach
+Delete:      0SGF3ZZ Fusion of Right Ankle Joint, Percutaneous Approach
+Delete:      0SGF4ZZ Fusion of Right Ankle Joint, Percutaneous Endoscopic Approach
+Delete:      0SGG0ZZ Fusion of Left Ankle Joint, Open Approach
+Delete:      0SGG3ZZ Fusion of Left Ankle Joint, Percutaneous Approach
+Delete:      0SGG4ZZ Fusion of Left Ankle Joint, Percutaneous Endoscopic Approach
+Delete:      0SGH0ZZ Fusion of Right Tarsal Joint, Open Approach
+Delete:      0SGH3ZZ Fusion of Right Tarsal Joint, Percutaneous Approach
+Delete:      0SGH4ZZ Fusion of Right Tarsal Joint, Percutaneous Endoscopic Approach
+Delete:      0SGJ0ZZ Fusion of Left Tarsal Joint, Open Approach
+Delete:      0SGJ3ZZ Fusion of Left Tarsal Joint, Percutaneous Approach
+Delete:      0SGJ4ZZ Fusion of Left Tarsal Joint, Percutaneous Endoscopic Approach
+Delete:      0SGK0ZZ Fusion of Right Tarsometatarsal Joint, Open Approach
+Delete:      0SGK3ZZ Fusion of Right Tarsometatarsal Joint, Percutaneous Approach
+Delete:      0SGK4ZZ Fusion of Right Tarsometatarsal Joint, Percutaneous Endoscopic Approach
+Delete:      0SGL0ZZ Fusion of Left Tarsometatarsal Joint, Open Approach
+Delete:      0SGL3ZZ Fusion of Left Tarsometatarsal Joint, Percutaneous Approach
+Delete:      0SGL4ZZ Fusion of Left Tarsometatarsal Joint, Percutaneous Endoscopic Approach
+Delete:      0SGM0ZZ Fusion of Right Metatarsal-Phalangeal Joint, Open Approach
+Delete:      0SGM3ZZ Fusion of Right Metatarsal-Phalangeal Joint, Percutaneous Approach
+Delete:      0SGM4ZZ Fusion of Right Metatarsal-Phalangeal Joint, Percutaneous Endoscopic Approach
+Delete:      0SGN0ZZ Fusion of Left Metatarsal-Phalangeal Joint, Open Approach
+Delete:      0SGN3ZZ Fusion of Left Metatarsal-Phalangeal Joint, Percutaneous Approach
+Delete:      0SGN4ZZ Fusion of Left Metatarsal-Phalangeal Joint, Percutaneous Endoscopic Approach
+Delete:      0SGP0ZZ Fusion of Right Toe Phalangeal Joint, Open Approach
+Delete:      0SGP3ZZ Fusion of Right Toe Phalangeal Joint, Percutaneous Approach
+Delete:      0SGP4ZZ Fusion of Right Toe Phalangeal Joint, Percutaneous Endoscopic Approach
+Delete:      0SGQ0ZZ Fusion of Left Toe Phalangeal Joint, Open Approach
+Delete:      0SGQ3ZZ Fusion of Left Toe Phalangeal Joint, Percutaneous Approach
+Delete:      0SGQ4ZZ Fusion of Left Toe Phalangeal Joint, Percutaneous Endoscopic Approach
+Add:         0SP90EZ Removal of Articulating Spacer from Right Hip Joint, Open Approach
+Add:         0SPB0EZ Removal of Articulating Spacer from Left Hip Joint, Open Approach
+Add:         0SPC0EZ Removal of Articulating Spacer from Right Knee Joint, Open Approach
+Add:         0SPC0LZ Removal of Medial Unicondylar Synthetic Substitute from Right Knee Joint, Open Approach
+Add:         0SPC0MZ Removal of Lateral Unicondylar Synthetic Substitute from Right Knee Joint, Open Approach
+Add:         0SPC0NZ Removal of Patellofemoral Synthetic Substitute from Right Knee Joint, Open Approach
+Add:         0SPC3LZ Removal of Medial Unicondylar Synthetic Substitute from Right Knee Joint, Percutaneous Approach
+Add:         0SPC3MZ Removal of Lateral Unicondylar Synthetic Substitute from Right Knee Joint, Percutaneous Approach
+Add:         0SPC3NZ Removal of Patellofemoral Synthetic Substitute from Right Knee Joint, Percutaneous Approach
+Add:         0SPC4LZ Removal of Medial Unicondylar Synthetic Substitute from Right Knee Joint, Percutaneous Endoscopic Approach
+Add:         0SPC4MZ Removal of Lateral Unicondylar Synthetic Substitute from Right Knee Joint, Percutaneous Endoscopic Approach
+Add:         0SPC4NZ Removal of Patellofemoral Synthetic Substitute from Right Knee Joint, Percutaneous Endoscopic Approach
+Add:         0SPD0EZ Removal of Articulating Spacer from Left Knee Joint, Open Approach
+Add:         0SPD0LZ Removal of Medial Unicondylar Synthetic Substitute from Left Knee Joint, Open Approach
+Add:         0SPD0MZ Removal of Lateral Unicondylar Synthetic Substitute from Left Knee Joint, Open Approach
+Add:         0SPD0NZ Removal of Patellofemoral Synthetic Substitute from Left Knee Joint, Open Approach
+Add:         0SPD3LZ Removal of Medial Unicondylar Synthetic Substitute from Left Knee Joint, Percutaneous Approach
+Add:         0SPD3MZ Removal of Lateral Unicondylar Synthetic Substitute from Left Knee Joint, Percutaneous Approach
+Add:         0SPD3NZ Removal of Patellofemoral Synthetic Substitute from Left Knee Joint, Percutaneous Approach
+Add:         0SPD4LZ Removal of Medial Unicondylar Synthetic Substitute from Left Knee Joint, Percutaneous Endoscopic Approach
+Add:         0SPD4MZ Removal of Lateral Unicondylar Synthetic Substitute from Left Knee Joint, Percutaneous Endoscopic Approach
+Add:         0SPD4NZ Removal of Patellofemoral Synthetic Substitute from Left Knee Joint, Percutaneous Endoscopic Approach
+Add:         0SR90EZ Replacement of Right Hip Joint with Articulating Spacer, Open Approach
+Add:         0SRB0EZ Replacement of Left Hip Joint with Articulating Spacer, Open Approach
+Add:         0SRC0EZ Replacement of Right Knee Joint with Articulating Spacer, Open Approach
+Revise from: 0SRC0L9 Replacement of Right Knee Joint with Unicondylar Synthetic Substitute, Cemented, Open Approach
+Revise to:   0SRC0L9 Replacement of Right Knee Joint with Medial Unicondylar Synthetic Substitute, Cemented, Open Approach
+Revise from: 0SRC0LA Replacement of Right Knee Joint with Unicondylar Synthetic Substitute, Uncemented, Open Approach
+Revise to:   0SRC0LA Replacement of Right Knee Joint with Medial Unicondylar Synthetic Substitute, Uncemented, Open Approach
+Revise from: 0SRC0LZ Replacement of Right Knee Joint with Unicondylar Synthetic Substitute, Open Approach
+Revise to:   0SRC0LZ Replacement of Right Knee Joint with Medial Unicondylar Synthetic Substitute, Open Approach
+Add:         0SRC0M9 Replacement of Right Knee Joint with Lateral Unicondylar Synthetic Substitute, Cemented, Open Approach
+Add:         0SRC0MA Replacement of Right Knee Joint with Lateral Unicondylar Synthetic Substitute, Uncemented, Open Approach
+Add:         0SRC0MZ Replacement of Right Knee Joint with Lateral Unicondylar Synthetic Substitute, Open Approach
+Add:         0SRC0N9 Replacement of Right Knee Joint with Patellofemoral Synthetic Substitute, Cemented, Open Approach
+Add:         0SRC0NA Replacement of Right Knee Joint with Patellofemoral Synthetic Substitute, Uncemented, Open Approach
+Add:         0SRC0NZ Replacement of Right Knee Joint with Patellofemoral Synthetic Substitute, Open Approach
+Add:         0SRD0EZ Replacement of Left Knee Joint with Articulating Spacer, Open Approach
+Revise from: 0SRD0L9 Replacement of Left Knee Joint with Unicondylar Synthetic Substitute, Cemented, Open Approach
+Revise to:   0SRD0L9 Replacement of Left Knee Joint with Medial Unicondylar Synthetic Substitute, Cemented, Open Approach
+Revise from: 0SRD0LA Replacement of Left Knee Joint with Unicondylar Synthetic Substitute, Uncemented, Open Approach
+Revise to:   0SRD0LA Replacement of Left Knee Joint with Medial Unicondylar Synthetic Substitute, Uncemented, Open Approach
+Revise from: 0SRD0LZ Replacement of Left Knee Joint with Unicondylar Synthetic Substitute, Open Approach
+Revise to:   0SRD0LZ Replacement of Left Knee Joint with Medial Unicondylar Synthetic Substitute, Open Approach
+Add:         0SRD0M9 Replacement of Left Knee Joint with Lateral Unicondylar Synthetic Substitute, Cemented, Open Approach
+Add:         0SRD0MA Replacement of Left Knee Joint with Lateral Unicondylar Synthetic Substitute, Uncemented, Open Approach
+Add:         0SRD0MZ Replacement of Left Knee Joint with Lateral Unicondylar Synthetic Substitute, Open Approach
+Add:         0SRD0N9 Replacement of Left Knee Joint with Patellofemoral Synthetic Substitute, Cemented, Open Approach
+Add:         0SRD0NA Replacement of Left Knee Joint with Patellofemoral Synthetic Substitute, Uncemented, Open Approach
+Add:         0SRD0NZ Replacement of Left Knee Joint with Patellofemoral Synthetic Substitute, Open Approach
+Add:         0UY90Z0 Transplantation of Uterus, Allogeneic, Open Approach
+Add:         0UY90Z1 Transplantation of Uterus, Syngeneic, Open Approach
+Add:         0UY90Z2 Transplantation of Uterus, Zooplastic, Open Approach
+Add:         0VXT0ZD Transfer Prepuce to Urethra, Open Approach
+Add:         0VXT0ZS Transfer Prepuce to Penis, Open Approach
+Add:         0VXTXZD Transfer Prepuce to Urethra, External Approach
+Add:         0VXTXZS Transfer Prepuce to Penis, External Approach
+Add:         0W190JW Bypass Right Pleural Cavity to Upper Vein with Synthetic Substitute, Open Approach
+Add:         0W193J9 Bypass Right Pleural Cavity to Right Pleural Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W193JB Bypass Right Pleural Cavity to Left Pleural Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W193JG Bypass Right Pleural Cavity to Peritoneal Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W193JJ Bypass Right Pleural Cavity to Pelvic Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W193JW Bypass Right Pleural Cavity to Upper Vein with Synthetic Substitute, Percutaneous Approach
+Add:         0W193JY Bypass Right Pleural Cavity to Lower Vein with Synthetic Substitute, Percutaneous Approach
+Add:         0W194JW Bypass Right Pleural Cavity to Upper Vein with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         0W1B0JW Bypass Left Pleural Cavity to Upper Vein with Synthetic Substitute, Open Approach
+Add:         0W1B3J9 Bypass Left Pleural Cavity to Right Pleural Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1B3JB Bypass Left Pleural Cavity to Left Pleural Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1B3JG Bypass Left Pleural Cavity to Peritoneal Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1B3JJ Bypass Left Pleural Cavity to Pelvic Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1B3JW Bypass Left Pleural Cavity to Upper Vein with Synthetic Substitute, Percutaneous Approach
+Add:         0W1B3JY Bypass Left Pleural Cavity to Lower Vein with Synthetic Substitute, Percutaneous Approach
+Add:         0W1B4JW Bypass Left Pleural Cavity to Upper Vein with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         0W1G0JW Bypass Peritoneal Cavity to Upper Vein with Synthetic Substitute, Open Approach
+Add:         0W1G3J9 Bypass Peritoneal Cavity to Right Pleural Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1G3JB Bypass Peritoneal Cavity to Left Pleural Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1G3JG Bypass Peritoneal Cavity to Peritoneal Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1G3JJ Bypass Peritoneal Cavity to Pelvic Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1G3JW Bypass Peritoneal Cavity to Upper Vein with Synthetic Substitute, Percutaneous Approach
+Add:         0W1G3JY Bypass Peritoneal Cavity to Lower Vein with Synthetic Substitute, Percutaneous Approach
+Add:         0W1G4JW Bypass Peritoneal Cavity to Upper Vein with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         0W1J0JW Bypass Pelvic Cavity to Upper Vein with Synthetic Substitute, Open Approach
+Add:         0W1J3J9 Bypass Pelvic Cavity to Right Pleural Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1J3JB Bypass Pelvic Cavity to Left Pleural Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1J3JG Bypass Pelvic Cavity to Peritoneal Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1J3JJ Bypass Pelvic Cavity to Pelvic Cavity with Synthetic Substitute, Percutaneous Approach
+Add:         0W1J3JW Bypass Pelvic Cavity to Upper Vein with Synthetic Substitute, Percutaneous Approach
+Add:         0W1J3JY Bypass Pelvic Cavity to Lower Vein with Synthetic Substitute, Percutaneous Approach
+Add:         0W1J4JW Bypass Pelvic Cavity to Upper Vein with Synthetic Substitute, Percutaneous Endoscopic Approach
+Delete:      0W4M0Z0 Creation of Vagina in Male Perineum, Open Approach
+Delete:      0W4N0Z1 Creation of Penis in Female Perineum, Open Approach
+Revise from: 10D00Z0 Extraction of Products of Conception, Classical, Open Approach
+Revise to:   10D00Z0 Extraction of Products of Conception, High, Open Approach
+Revise from: 10D00Z1 Extraction of Products of Conception, Low Cervical, Open Approach
+Revise to:   10D00Z1 Extraction of Products of Conception, Low, Open Approach
+Add:         3E02340 Introduction of Influenza Vaccine into Muscle, Percutaneous Approach
+Delete:      5A15223 Extracorporeal Membrane Oxygenation, Continuous
+Add:         5A1522F Extracorporeal Oxygenation, Membrane, Central
+Add:         5A1522G Extracorporeal Oxygenation, Membrane, Peripheral Veno-arterial
+Add:         5A1522H Extracorporeal Oxygenation, Membrane, Peripheral Veno-venous
+Add:         XV508A4 Destruction of Prostate using Robotic Waterjet Ablation, Via Natural or Artificial Opening Endoscopic, New Technology Group 4
+Add:         XW033G4 Introduction of Plazomicin Anti-infective into Peripheral Vein, Percutaneous Approach, New Technology Group 4
+Add:         XW033H4 Introduction of Synthetic Human Angiotensin II into Peripheral Vein, Percutaneous Approach, New Technology Group 4
+Add:         XW043G4 Introduction of Plazomicin Anti-infective into Central Vein, Percutaneous Approach, New Technology Group 4
+Add:         XW043H4 Introduction of Synthetic Human Angiotensin II into Central Vein, Percutaneous Approach, New Technology Group 4
+
+Codes
+  78705 codes in icd10pcs_codes_2018.txt
+  78881 codes in icd10pcs_codes_2019.txt
+    392 additions
+    216 deletions
+      8 revisions

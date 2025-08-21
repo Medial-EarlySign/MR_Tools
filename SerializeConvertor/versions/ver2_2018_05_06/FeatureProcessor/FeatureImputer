@@ -1,0 +1,11 @@
+processor_type	int
+feature_name	string
+resolved_feature_name	string
+missing_value	float
+imputerStrata	featureSetStrata	
+moment_type	int
+moments	vector<float>
+histograms	vector<vector<pair<float,float>>>
+strata_sizes	vector<int>
+default_moment	float
+default_histogram	vector<pair<float,float>>

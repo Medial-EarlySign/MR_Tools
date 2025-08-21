@@ -1,0 +1,548 @@
+141E.00	History of hepatitis B
+141F.00	History of viral hepatitis
+14i..00	H/O hepatitis C antiviral drug therapy
+2126700	Hepatitis C resolved
+2J1..00	Hepatitis C status
+2J11.00	Hepatitis C immune
+2J12.00	Hepatitis C non immune
+2J2..00	Hepatitis A status
+2J21.00	Hepatitis A immune
+2J22.00	Hepatitis A non immune
+2J23.00	Hepatitis A - current infection
+43B..00	SH-antigen (hepatitis B) test
+43B..12	Hepatitis B immunity test
+43B2.00	Hepatitis B immune
+43B2.11	Hepatitis B antibody present
+43B4.00	Hepatitis B surface antig +ve
+43B5.00	Hepatitis e antigen present
+43B6.00	Hepatitis B non immune
+43B7.00	Hepatitis C non-immune
+43B8.00	Hepatitis B core antigen test
+43B9.00	Hepatitis B e antigen test
+43BA.00	Hepatitis B surface antigen negative
+43d8.00	Hepatitis B surface antibody level
+43d9.00	Hepatitis B surface antigen level
+43dA.00	Hepatitis B core IgM level
+43dB.00	Hepatitis B core antibody level
+43dC.00	Hepatitis B e antibody level
+43dD.00	Hepatitis C recombinant immunoblot assay
+43h3.00	Hepatitis C PCR
+43j5.00	Hepatitis C nucleic acid detection
+43j5000	Hepatitis C nucleic acid detection assay
+43jG.00	Hepatitis B nucleic acid detection
+43JI.00	Hepatitis A IgG level
+43JJ.00	Hepatitis A IgM level
+43jJ.00	Hepatitis D nucleic acid detection
+43JK.00	Hepatitis C IgG level
+43jW.00	Hepatitis E nucleic acid detection
+43k0.00	Hepatitis B e antigen level
+43k1.00	Hepatitis C antigen level
+43M..00	Hepatitis A test
+43M1.00	Hepatitis A test negative
+43M2.00	Hepatitis A test positive
+43q..00	Hepatitis C virus RNA assay
+43X..00	Hepatitis antibody test
+43X0.00	Hepatitis A IgM antibody test
+43X1.00	Hepatitis A antibody test
+43X2.00	Hepatitis C antibody test
+43X3.00	Hepatitis C antibody test positive
+43X4.00	Hepatitis C antibody test negative
+43X5.00	Hepatitis A antibody level
+43X6.00	Hepatitis C antibody level
+43X7.00	Hepatitis E antibody level
+43X9.00	Hepatitis E IgG level
+43XA.00	Hepatitis B core antibody positive
+4J3B.00	Hepatitis C viral load
+4J3D.00	Hepatitis B viral load
+4JDJ.00	Hepatitis G serology
+4JDK.00	Hepatitis E serology
+4JDY.00	Hepatitis D serology
+4JQ3.00	Hepatitis C virus genotype
+4JQC.00	Hepatitis C viral ribonucleic acid PCR negative
+4JQC.11	Hepatitis C PCR negative
+4JQD.00	Hepatitis C viral ribonucleic acid PCR positive
+4JQD.11	Hepatitis C PCR positive
+4JQE.00	Hepatitis C antigen negative
+4JQF.00	Hepatitis C antigen positive
+5775.00	Hepatitis ant.radioimmunoassay
+65PL.00	Hepatitis B contact
+65PM.00	Hepatitis C contact
+65Q7.00	Viral hepatitis carrier
+65V3.11	Hepatitis notification
+65W5.00	Requires a course of hepatitis B
+65WE.00	Requires hepatitis B booster
+7801500	Left hepatic trisegmentectomy
+7801600	Right hepatic trisegmentectomy
+7808000	Percutaneous transluminal embolisation of hepatic artery
+7808600	Arteriography of hepatic artery
+780D.00	Transjugular intrahepatic operations blood vessel of liver
+780D000	Transjugular intrahepatic angioplasty of portal vein
+780D200	Transjugular intrahepatic thrombolysis of portal vein
+780D300	Transjugular intrahepatic creation of portosystemic shunt
+780D400	Transjugular intrahepatic venography of portal vein
+780D500	Transjugular intrahepatic pressure measurements portal vein
+780D600	Transjugular intrahepatic pressure measurements hepatic vein
+780Dy00	OS transjugular intrahepatic operations blood vessel liver
+780Dz00	Transjugular intrahepatic operations blood vessel liver NOS
+780E000	Percutan transluminal insertion stent graft hepatic artery
+780E100	Percutaneous transluminal insertion stent hepatic artery NEC
+780G.00	Oth transjugular intrahepatic operations blood vessel liver
+780G000	Transjugular intrahepatic insertion stent into portal vein
+780G100	Transjugular intrahepatic ins stent graft into portal vein
+780Gz00	Other transjugular intrahepatic op on blood vessel liver NOS
+780H000	Percutaneous transhepatic portal venous sampling
+7820400	Excision of extrahepatic bile ducts HFQ
+7822.00	Connection of hepatic duct
+7822.11	Anastomosis of hepatic duct
+7822000	Anast hepatic duct to transp jejunum+insert tubal prosth
+7822100	Anastomosis of hepatic duct to jejunum NEC
+7822200	Revision of anastomosis of hepatic duct
+7822300	Open dilation of anastomosis of hepatic duct
+7822y00	Other specified connection of hepatic duct
+7822z00	Connection of hepatic duct NOS
+7824000	Open insert tubal prosthes in both hepatic+common bile ducts
+7824100	Open insert tubal prosthes in one hepatic+common bile ducts
+782D000	Endosc retrograde insert tubal prosth in both hepatic ducts
+782L200	Percutan insert tubal prosthesis into left hepatic duct NEC
+782L300	Percutaneous insert tubal prosthesis into hepatic duct NEC
+782M400	Percutaneous transhepatic biliary drainage multiple
+782M500	Percutaneous transhepatic biliary drainage single
+782P400	Percutaneous transhepatic cholangiography
+782P700	Percutaneous transhepatic cholangioscopy
+782T000	Percutaneous transhepatic removal of calculus from bile duct
+7H62500	Excision or biopsy of porta hepatis lymph node
+7Q05200	Hepatitis B treatment drugs band 1
+7Q05300	RSV treatment and Hepatitis C treatment drugs band 1
+8BB5.00	12 week virologic response to hepatitis C treatment
+9kR..00	Chronic hepatitis annual review - enhanced services admin
+9kV..00	Hepatitis C screening positive - enhanced services admin
+9kV..11	Hepatitis C screening positive
+9kX..00	Hepatitis status 6 months post treatment - enhanced serv adm
+9kZ..00	Hepatitis B screening positive - enhanced services admin
+9kZ..11	Hepatitis B screening positive
+9NgR.00	On hepatitis C treatment plan
+A70..00	Viral hepatitis
+A700.00	Viral hepatitis A with coma
+A701.00	Viral (infectious) hepatitis A
+A701.11	Infective hepatitis
+A702.00	Viral hepatitis B with coma
+A703.00	Viral (serum) hepatitis B
+A704.00	Other specified viral hepatitis with coma
+A704000	Viral hepatitis C with coma
+A704z00	Other specified viral hepatitis with hepatic coma NOS
+A705.00	Other specified viral hepatitis without coma
+A705000	Viral hepatitis C without mention of hepatic coma
+A705100	Acute delta-(super)infection of hepatitis B carrier
+A705200	Acute hepatitis E
+A705400	Hepatitis non A non B
+A705z00	Other specified viral hepatitis without mention of coma NOS
+A706.00	Unspecified viral hepatitis with coma
+A707.00	Chronic viral hepatitis
+A707000	Chronic viral hepatitis B with delta-agent
+A707100	Chronic viral hepatitis B without delta-agent
+A707200	Chronic viral hepatitis C
+A707300	Chronic viral hepatitis B
+A707X00	Chronic viral hepatitis, unspecified
+A708.00	Viral hepatitis with hepatic coma
+A709.00	Viral hepatitis without hepatic coma
+A70A.00	Hepatitis C genotype 1
+A70B.00	Hepatitis C genotype 2
+A70C.00	Hepatitis C genotype 3
+A70D.00	Hepatitis C genotype 4
+A70G.00	Acute hepatitis C
+A70z.00	Unspecified viral hepatitis
+A70z000	Hepatitis C
+A70z100	Acute viral hepatitis NOS
+A72x000	Mumps hepatitis
+A785200	Cytomegaloviral hepatitis
+A916100	Secondary syphilitic hepatitis
+A98yy11	Gonococcal hepatitis
+AC8y100	Capillaria hepatica
+AD05.00	Toxoplasma hepatitis
+AE23.00	Sequelae of viral hepatitis
+AyuB.00	[X]Viral hepatitis
+AyuB000	[X]Other specified acute viral hepatitis
+AyuB100	[X]Other chronic viral hepatitis
+AyuB200	[X]Chronic viral hepatitis, unspecified
+AyuB400	[X]Unspecified viral hepatitis without coma
+AyuJ900	[X]Sequelae of viral hepatitis
+C310400	Glycogenosis with hepatic cirrhosis
+C32y511	Hepatic familial steatosis
+C350012	Pigmentary cirrhosis of liver
+C370800	Cystic fibrosis related cirrhosis
+C376100	Alpha-1-antitrypsin hepatitis
+G72yA00	Aneurysm of hepatic artery
+G74y900	Embolism and thrombosis of the hepatic artery
+G820.00	Budd - Chiari syndrome (hepatic vein thrombosis)
+G820.11	Hepatic vein thrombosis
+G852200	Oesophageal varices in cirrhosis of the liver
+G852300	Oesophageal varices in alcoholic cirrhosis of the liver
+J....	Digestive system diseases
+J552000	Subhepatic abscess
+J57yJ00	Hepatic flexure syndrome
+J6...00	Liver, biliary, pancreas + gastrointestinal diseases NEC
+J60..00	Acute and subacute liver necrosis
+J600.00	Acute necrosis of liver
+J600000	Acute hepatic failure
+J600011	Acute liver failure
+J600100	Acute hepatitis - noninfective
+J600200	Acute yellow atrophy
+J600z00	Acute necrosis of liver NOS
+J601.00	Subacute necrosis of liver
+J601000	Subacute hepatic failure
+J601100	Subacute hepatitis - noninfective
+J601200	Subacute yellow atrophy
+J601z00	Subacute necrosis of liver NOS
+J60z.00	Acute and subacute liver necrosis NOS
+J61..00	Cirrhosis and chronic liver disease
+J610.00	Alcoholic fatty liver
+J611.00	Acute alcoholic hepatitis
+j611.00	
+J612.00	Alcoholic cirrhosis of liver
+j612.00	
+J612.11	Florid cirrhosis
+J612.12	Laennec's cirrhosis
+J612000	Alcoholic fibrosis and sclerosis of liver
+J613.00	Alcoholic liver damage unspecified
+J613000	Alcoholic hepatic failure
+J614.00	Chronic hepatitis
+J614000	Chronic persistent hepatitis
+J614100	Chronic active hepatitis
+J614111	Autoimmune chronic active hepatitis
+J614200	Chronic aggressive hepatitis
+J614300	Recurrent hepatitis
+J614400	Chronic lobular hepatitis
+J614y00	Chronic hepatitis unspecified
+J614z00	Chronic hepatitis NOS
+J615.00	Cirrhosis - non alcoholic
+J615.11	Portal cirrhosis
+J615100	Multilobular portal cirrhosis
+J615200	Mixed portal cirrhosis
+J615300	Diffuse nodular cirrhosis
+J615400	Fatty portal cirrhosis
+J615500	Hypertrophic portal cirrhosis
+J615600	Capsular portal cirrhosis
+J615700	Cardiac portal cirrhosis
+J615711	Congestive cirrhosis
+J615800	Juvenile portal cirrhosis
+J615C00	Xanthomatous portal cirrhosis
+J615G00	Zooparasitic portal cirrhosis
+J615H00	Infectious cirrhosis NOS
+J615y00	Portal cirrhosis unspecified
+J615z00	Non-alcoholic cirrhosis NOS
+J615z11	Macronodular cirrhosis of liver
+J615z12	Cryptogenic cirrhosis of liver
+J615z13	Cirrhosis of liver NOS
+J615z15	Hepatic fibrosis
+J616.00	Biliary cirrhosis
+J616000	Primary biliary cirrhosis
+J616100	Secondary biliary cirrhosis
+J616200	Biliary cirrhosis of children
+J616z00	Biliary cirrhosis NOS
+J617.00	Alcoholic hepatitis
+J617000	Chronic alcoholic hepatitis
+J61y.00	Other non-alcoholic chronic liver disease
+J61y100	Non-alcoholic fatty liver
+J61y200	Hepatosplenomegaly
+J61y300	Portal fibrosis without cirrhosis
+J61y400	Hepatic fibrosis
+J61y500	Hepatic sclerosis
+J61y600	Hepatic fibrosis with hepatic sclerosis
+J61y700	Steatosis of liver
+J61y800	Nonalcoholic steatohepatitis
+J61y900	Fatty change of liver
+J61y911	Fatty liver
+J61yz00	Other non-alcoholic chronic liver disease NOS
+J61z.00	Chronic liver disease NOS
+J62..00	Liver abscess and sequelae of chronic liver disease
+J620.00	Liver abscess - excluding amoebic liver abscess
+J620000	Liver abscess due to portal pyaemia
+J620100	Liver abscess due to cholangitis
+J620200	Liver abscess via hepatic artery
+J620300	Liver abscess via umbilicus
+J620z00	Liver abscess NOS
+J621.00	Portal pyaemia
+J621.11	Phlebitis of portal vein
+J622.00	Hepatic coma
+j622.00	
+J622.11	Encephalopathy - hepatic
+J623.00	Portal hypertension
+J624.00	Hepatorenal syndrome
+J625.00	[X] Hepatic failure
+J625.11	[X] Liver failure
+J62y.00	Other sequelae of chronic liver disease
+J62y.11	Hepatic failure NOS
+J62y.12	Liver failure NOS
+J62y.13	Hepatic failure
+J62z.00	Liver abscess and chronic liver disease causing sequelae NOS
+J63..00	Other liver disorders
+J630.00	Chronic passive liver congestion
+J631.00	Hepatitis in viral diseases EC
+J631000	Hepatitis in coxsackie virus
+J631100	Hepatitis in cytomegalic inclusion virus
+J631200	Hepatitis in infectious mononucleosis
+J631300	Hepatitis in mumps
+J631500	Hepatitis in other viral disease
+J631z00	Hepatitis in viral diseases EC NOS
+J632.00	Hepatitis in other infectious diseases EC
+J632000	Hepatitis in malaria
+J632200	Hepatitis in secondary syphilis
+J632z00	Hepatitis in infectious diseases EC NOS
+J633.00	Hepatitis unspecified
+J633000	Toxic hepatitis
+J633z00	Hepatitis unspecified NOS
+J634.00	Hepatic infarction
+J635.00	Toxic liver disease
+J635000	Toxic liver disease with cholestasis
+J635100	Toxic liver disease with hepatic necrosis
+J635200	Toxic liver disease with acute hepatitis
+J635300	Toxic liver disease with chronic persistent hepatitis
+J635500	Toxic liver disease with chronic active hepatitis
+J635600	Toxic liver disease with fibrosis and cirrhosis of liver
+J635700	Acute hepatic failure due to drugs
+J635X00	Toxic liver disease, unspecified
+J636.00	Central haemorrhagic necrosis of liver
+J637.00	Hepatic veno-occlusive disease
+J638.00	Peliosis hepatis
+J639.00	Hepatic granulomas in berylliosis
+J63A.00	Hepatic granulomas in sarcoidosis
+J63B.00	Autoimmune hepatitis
+J63X.00	Granulomatous hepatitis, not elsewhere classified
+J63y.00	Other specified liver disorder
+J63y000	Hepatoptosis
+J63y100	Nonspecific reactive hepatitis
+J63y200	Liver cyst
+J63yz00	Other specified liver disorder NOS
+J63z.00	Liver disorder NOS
+J64..00	Cholelithiasis
+J64..11	Bile duct calculus
+J64..12	Calculus - biliary
+J64..13	Cystic duct calculus
+J64..14	Gallbladder calculus
+J64..15	Gallstones
+J64..16	Stone - biliary
+J640.00	Gallbladder calculus with acute cholecystitis
+J640000	Gallbladder calculus with acute cholecystitis +no obstruct
+J640100	Gallbladder calculus with acute cholecystitis + obstruction
+J640z00	Gallbladder calculus with acute cholecystitis - obst NOS
+J641.00	Gallbladder calculus with other cholecystitis
+J641000	Gallbladder calculus with other cholecystitis +no obstruct
+J641100	Gallbladder calculus with other cholecystitis + obstruct
+J641z00	Gallbladder calculus with other cholecystitis - obstruct NOS
+J642.00	Gallbladder calculus without mention of cholecystitis
+J642.11	Gallbladder calculus without mention of cholecystitis
+J642000	Gallbladder calculus without mention cholecystitis +no obstr
+J642100	Gallbladder calculus without mention cholecystitis + obstruc
+J642200	Biliary colic
+J642z00	Gallbladder calculus without cholecystitis and obstruct NOS
+J643.00	Bile duct calculus with acute cholecystitis
+J643000	Bile duct calculus + acute cholecystitis and no obstruction
+J643100	Bile duct calculus + acute cholecystitis and obstruction
+J643z00	Bile duct calculus + acute cholecystitis - obstruct NOS
+J644.00	Bile duct calculus with other cholecystitis
+J644000	Bile duct calculus + other cholecystitis and no obstruction
+J644100	Bile duct calculus + other cholecystitis and obstruction
+J644z00	Bile duct calculus + other cholecystitis - obstruction NOS
+J645.00	Bile duct calculus without mention of cholecystitis
+J645.11	Choledocholithiasis
+J645000	Bile duct calculus without cholecystitis, no obstruction
+J645100	Bile duct calculus without cholecystitis with obstruction
+J645200	Bile duct calculus NOS
+J645z00	Bile duct calculus without cholecystitis NOS
+J646.00	Calculus of bile duct with cholangitis
+J64z.00	Cholelithiasis NOS
+J64z000	Cholelithiasis without obstruction NOS
+J64z100	Cholelithiasis with obstruction NOS
+J64zz00	Cholelithiasis NOS
+J65..00	Other gallbladder disorders
+J650.00	Acute cholecystitis
+J650.11	Abscess of gallbladder
+J650.12	Empyema of gallbladder
+J650000	Acute cholecystitis unspecified
+J650100	Acute angiocholecystitis
+J650200	Acute emphysematous cholecystitis
+J650300	Acute suppurative cholecystitis
+J650400	Acute gangrenous cholecystitis
+J650z00	Acute cholecystitis NOS
+J651.00	Other cholecystitis
+J651000	Chronic cholecystitis
+J651y00	Other cholecystitis OS
+J651z00	Cholecystitis NOS
+J652.00	Obstruction of gallbladder
+J652100	Stenosis of gallbladder
+J652200	Occlusion of cystic duct
+J652300	Stenosis of cystic duct
+J652z00	Obstruction of gallbladder NOS
+J653.00	Mucocele of gallbladder
+J653.11	Hydrops of gallbladder
+J654.00	Perforation of gallbladder
+J654000	Rupture of gallbladder
+J654100	Rupture of cystic duct
+J654z00	Perforation of gallbladder NOS
+J655.00	Fistula of gallbladder
+J655000	Biliary fistula
+J655100	Cholecystogastric fistula
+J655200	Cholecystoduodenal fistula
+J655300	Cholecystoenteric fistula
+J655z00	Fistula of gallbladder NOS
+J656.00	Cholesterolosis of gallbladder
+J656.11	Strawberry gallbladder
+J65y.00	Other specified gallbladder disorders
+J65y000	Adhesions of gallbladder
+J65y200	Atrophy of gallbladder
+J65y300	Atrophy of cystic duct
+J65y400	Cyst of gallbladder
+J65y500	Cyst of cystic duct
+J65y600	Hypertrophy of gallbladder
+J65y700	Hypertrophy of cystic duct
+J65yA00	Nonfunctioning gallbladder
+J65yB00	Biliary dyskinesia
+J65yC00	Polyp of gallbladder
+J65yz00	Other specified gallbladder disorder NOS
+J65z.00	Other gallbladder disorders NOS
+J66..00	Other biliary tract disorders
+J660.00	Postcholecystectomy syndrome
+J661.00	Cholangitis
+J661000	Acute cholangitis
+J661100	Chronic cholangitis
+J661200	Recurrent cholangitis
+J661300	Suppurative cholangitis
+J661400	Ascending cholangitis
+J661500	Cholangitis lenta
+J661600	Obliterative cholangitis
+J661700	Primary sclerosing cholangitis
+J661800	Secondary sclerosing cholangitis
+J661900	Sclerosing cholangitis unspecified
+J661y00	Other cholangitis
+J661z00	Cholangitis NOS
+J662.00	Obstruction of bile duct
+J662000	Occlusion of bile duct
+J662100	Stricture of bile duct
+J662z00	Obstruction of bile duct NOS
+J663.00	Perforation of bile duct
+J664.00	Fistula of bile duct
+J664000	Choledochoduodenal fistula
+J665.00	Spasm of sphincter of Oddi
+J666.00	Biliary sepsis
+J66y.00	Other bile duct disorders
+J66y200	Cyst of bile duct
+J66y300	Hypertrophy of bile duct
+J66y400	Stasis of bile duct
+J66y600	Obstructive jaundice NOS
+J66y700	Post cholecystectomy bile leakage
+J66yz00	Other bile duct disorder NOS
+J66z.00	Bile duct disorder NOS
+J67..00	Diseases of pancreas
+J670.00	Acute pancreatitis
+J670000	Acute pancreatitis unspecified
+J670100	Acute recurrent pancreatitis
+J670200	Acute haemorrhagic pancreatitis
+J670300	Acute suppurative pancreatitis
+J670400	Subacute pancreatitis
+J670500	Gallstone acute pancreatitis
+J670600	Idiopathic acute pancreatitis
+J670700	Biliary acute pancreatitis
+J670800	Alcohol-induced acute pancreatitis
+J670900	Drug-induced acute pancreatitis
+J670y00	Other acute pancreatitis
+J670z00	Acute pancreatitis NOS
+J670z11	Pancreatitis
+J671.00	Chronic pancreatitis
+J671000	Alcohol-induced chronic pancreatitis
+J671100	Gallstone chronic pancreatitis
+J672.00	Cyst and pseudocyst of pancreas
+J672000	Pancreatic cyst
+J672100	Pseudocyst of pancreas
+J672z00	Pancreatic cyst and pseudocyst NOS
+J67y.00	Other diseases of pancreas
+J67y000	Atrophy of pancreas
+J67y100	Calculus of pancreas
+J67y200	Fibrosis of pancreas
+J67y300	Aseptic necrosis of pancreas
+J67y400	Fat necrosis of pancreas
+J67y500	Pancreatic insufficiency
+J67y600	Exocrine pancreatic insufficiency
+J67yz00	Other diseases of pancreas NOS
+J67z.00	Diseases of pancreas NOS
+J68..00	Gastrointestinal haemorrhage
+J680.00	Haematemesis
+J680.11	Vomiting of blood
+J681.00	Melaena
+J681.11	Blood in stool
+J681.12	Altered blood in stools
+J681.13	Blood in stools altered
+J68z.00	Gastrointestinal haemorrhage unspecified
+J68z.11	GIB - Gastrointestinal bleeding
+J68z000	Gastric haemorrhage NOS
+J68z100	Intestinal haemorrhage NOS
+J68z200	Upper gastrointestinal haemorrhage
+J68zz00	Gastrointestinal tract haemorrhage NOS
+J69..00	Intestinal malabsorption
+J690.00	Coeliac disease
+J690.11	Coeliac rickets
+J690.12	Gee - Herter disease
+J690.13	Gluten enteropathy
+J690.14	Sprue - nontropical
+J690.15	Steatorrhea - idiopathic
+J690.16	Villous atrophy
+J690.17	Partial villous atrophy
+J690.18	Gluten intolerance
+J690000	Congenital coeliac disease
+J690100	Acquired coeliac disease
+J690z00	Coeliac disease NOS
+J691.00	Tropical sprue
+J692.00	Blind loop syndrome
+J693.00	Other postsurgical nonabsorption
+J693.11	Postsurgical malabsorption - other
+J693000	Post gastrointestinal tract surgery hypoglycaemia
+J693100	Post gastrointestinal tract surgery malnutrition
+J693z00	Postsurgical nonabsorption NOS
+J694.00	Pancreatic steatorrhoea
+J695.00	Non-coeliac gluten sensitivity
+J695.11	Non-coeliac gluten intolerance
+J69y.00	Other intestinal malabsorption
+J69y000	Chronic steatorrhoea
+J69y011	Malabsorption due to intolerance to fat
+J69y100	Protein-losing enteropathy
+J69y200	Intestinal malabsorption of protein
+J69y300	Intestinal malabsorption of carbohydrate
+J69y400	Cow's milk intolerance
+J69y500	Soya protein intolerance
+J69y600	Intestinal malabsorption of fat
+J69y700	Malabsorption - iron
+J69yz00	Other gastrointestinal tract malabsorption NOS
+J69yz11	Fat intolerance NEC
+J69yz12	Food intolerance NEC
+J69yz13	Malabsorption syndrome NOS
+J69yz14	Milk intolerance NEC
+J69z.00	Intestinal malabsorption NOS
+J6A..00	Gastroenteritis and colitis of unknown origin
+J6y..00	Liver, biliary, pancreas + gastrointestinal diseases OS
+J6z..00	Liver, biliary, pancreas + gastrointestinal diseases NOS
+Jyu7100	[X]Other and unspecified cirrhosis of liver
+Jyu7700	[X]Granulomatous hepatitis, not elsewhere classified
+L176500	Viral hepatitis comp pregnancy, childbirth & the puerperium
+P744.00	Portal vein - hepatic artery fistula
+PB61411	Intrahepatic atresia of bile duct
+PB61412	Extrahepatic atresia of bile duct
+PB61500	Congenital absence of hepatic ducts
+PB61600	Atresia of hepatic ducts
+PB62.11	Congenital hepatic cyst
+PB6y400	Intrahepatic gallbladder
+PB6yy00	Other congenital anomaly of hepatic or bile ducts
+Q409.00	Congenital viral hepatitis
+Q409000	Congenital hepatitis A infection
+Q409100	Congenital hepatitis B infection
+Q409z00	Congenital viral hepatitis NOS
+Q434000	Perinatal hepatitis causing jaundice, unspecified
+Q434100	Giant cell hepatitis causing neonatal jaundice
+Q48yz11	Congenital hepatic fibrosis
+SB21100	Hepatic vein injury
+SB22200	Hepatic artery injury
+SP14200	Hepatic failure as a complication of care
+ZC2CH00	Dietary advice for hepatic disorder
+ZV01B00	[V]Contact with and exposure to viral hepatitis
+ZV02600	[V]Viral hepatitis carrier
+ZV02612	[V]Hepatitis Australia antigen carrier
+ZV02B00	[V]Hepatitis B carrier
+ZV02C00	[V]Hepatitis C carrier

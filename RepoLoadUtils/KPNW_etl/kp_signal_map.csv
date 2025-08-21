@@ -1,0 +1,237 @@
+signal	source	code	description	type
+GENDER	medial_flu_pat	GENDER	GENDER	string
+BYEAR	medial_flu_pat	YR_OF_BIRTH	YR_OF_BIRTH	numeric
+DEATH	medial_flu_pat	DCSD_DT_GEN	DCSD_DT_GEN	date
+DEAD	medial_flu_pat	DCSD_FLG	DCSD_FLG	date
+ETHNICITY	medial_flu_pat	ETHNCT	ETHNCT	string
+RACE	medial_flu_pat	RACE	RACE	string
+ZIP3	medial_flu_pat	ZIP_FIRST_THREE	ZIP_FIRST_THREE	string
+OCCUPATION	medial_flu_pat	OCCUPATION	OCCUPATION	string
+Albumin	kpnwlabs	18842116	Albumin	numeric
+Albumin	kpnwlabs2	cs	Albumin	numeric
+ALKP	kpnwlabs	18842494	Alk Phos	numeric
+ALKP	kpnwlabs2	cw	Alkaline Phos	numeric
+ALT	kpnwlabs	18840588	ALT	numeric
+ALT	kpnwlabs2	cv	ALT (SGPT)	numeric
+AST	kpnwlabs	18840946	AST	numeric
+AST	kpnwlabs2	cu	AST (GOT)	numeric
+B12	kpnwlabs	18842130	Vitamin B12	numeric
+B12	kpnwlabs2	f1	B12	numeric
+Bands#	kpnwlabs	18824417	Bands Abs Man	numeric
+Bands#	kpnwlabs2	bd	# Band	numeric
+Bands%	kpnwlabs	18824415	Band Man	numeric
+Bands%	kpnwlabs2	b1	percent Bands	numeric
+Basophils#	kpnwlabs	18824419	Baso Abs Auto	numeric
+Basophils#	kpnwlabs2	ba	# Basophils	numeric
+Basophils%	kpnwlabs	18824423	Basophil Auto	numeric
+Basophils%	kpnwlabs2	b.	percent Basophils	numeric
+Bilirubin	kpnwlabs	18842282	Bili Total	numeric
+Bilirubin	kpnwlabs2	cn	Total Bilirubin	numeric
+Bilirubin_Direct	kpnwlabs	18840938	Bili Direct	numeric
+Bilirubin_Direct	kpnwlabs2	co	Direct Bili	numeric
+Blood_Type	kpnwlabs	18876154	ABO Type	string
+Blood_Type	kpnwlabs2	HD	ABO Type	string
+BUN	kpnwlabs	18840364	BUN	numeric
+BUN	kpnwlabs2	cj	BUN	numeric
+Ca	kpnwlabs	18840316	Calcium	numeric
+Ca	kpnwlabs2	ck	Calcium	numeric
+Cholesterol	kpnwlabs	18824757	Chol	numeric
+Cholesterol	kpnwlabs2	ee	Cholesterol	numeric
+CK	kpnwlabs	18843216	Total CK	numeric
+CK	kpnwlabs2	cE	CK,Cardiac	numeric
+Cl	kpnwlabs	18824751	Chloride	numeric
+Cl	kpnwlabs2	cc	Chloride	numeric
+CO2	kpnwlabs	18824753	CO2	numeric
+CO2	kpnwlabs2	cd	CO2	numeric
+Creatinine	kpnwlabs	2700655	Creatinine	numeric
+Creatinine	kpnwlabs2	ci	Creatinine Ser	numeric
+CRP	kpnwlabs	18843142	CRP	numeric
+Eosinophils#	kpnwlabs	18824429	Eos Abs Auto	numeric
+Eosinophils#	kpnwlabs2	eo	# Eosinophils	numeric
+Eosinophils%	kpnwlabs	18824433	Eos Auto	numeric
+Eosinophils%	kpnwlabs2	e.	percent Eosinophils	numeric
+Ferritin	kpnwlabs	18842014	Ferritin	numeric
+Ferritin	kpnwlabs2	ej	Ferritin	numeric
+FreeT4	kpnwlabs	18842976	T4 Free	numeric
+Glucose	kpnwlabs	18846272	Glucose	numeric
+Glucose	kpnwlabs2	ch	Glu, Nonfasting	numeric
+Glucose	kpnwlabs2	cg	Glu, Fasting	numeric
+HbA1C	kpnwlabs	18841130	Hgb A1c	numeric
+HbA1C	kpnwlabs	22897436	HbA1c Screen	numeric
+HbA1C	kpnwlabs	22897433	HbA1c Monitor	numeric
+HbA1C	kpnwlabs2	ii	HbA1c	numeric
+HDL	kpnwlabs	18824759	HDL	numeric
+HDL	kpnwlabs2	gG	HDL Chol	numeric
+Hematocrit	kpnwlabs	18824369	Hct	numeric
+Hematocrit	kpnwlabs2	ht	Hematocrit	numeric
+Hemoglobin	kpnwlabs	18824371	Hgb	numeric
+Hemoglobin	kpnwlabs2	hb	Hemoglobin	numeric
+HepatitisC	kpnwlabs2	ra	Hepatitis C Ab	string
+HepatitisC	kpnwlabs	18840374	Hep C Ab	string
+Immature_Granulocytes#	kpnwlabs	23080503	Imm Gran Abs Auto	numeric
+Immature_Granulocytes%	kpnwlabs	23080506	Imm Gran Auto	numeric
+INR	kpnwlabs	18840528	INR	numeric
+INR	kpnwlabs2	Ac	INR	numeric
+Iron_Fe	kpnwlabs	18842530	Iron	numeric
+Iron_Fe	kpnwlabs2	ef	Iron	numeric
+LDH	kpnwlabs	18840686	LDH	numeric
+LDL	kpnwlabs	18824761	LDL Direct	numeric
+LDL	kpnwlabs	18842634	LDL	numeric
+LDL	kpnwlabs2	gH	LDL Chol	numeric
+LDL	kpnwlabs2	If	Direct LDL Chol	numeric
+Lipase	kpnwlabs	18846274	Lipase	numeric
+Lipase	kpnwlabs2	lz	Serum Lipase	numeric
+Lymphocytes#	kpnwlabs	18824441	Lymph Abs Auto	numeric
+Lymphocytes#	kpnwlabs2	ly	# Lymphocytes	numeric
+Lymphocytes%	kpnwlabs	18824443	Lymph Auto	numeric
+Lymphocytes%	kpnwlabs2	l1	percent Lymphocytes	numeric
+MCH	kpnwlabs	18824653	MCH	numeric
+MCH	kpnwlabs2	mh	MCH	numeric
+MCHC-M	kpnwlabs	18824655	MCHC	numeric
+MCHC-M	kpnwlabs2	mc	MCHC	numeric
+MCV	kpnwlabs	18824657	MCV	numeric
+MCV	kpnwlabs2	mv	MCV	numeric
+Mg	kpnwlabs	18841124	Magnesium	numeric
+Mg	kpnwlabs2	cp	Magnesium	numeric
+Monocytes#	kpnwlabs	18824449	Mono Abs Auto	numeric
+Monocytes#	kpnwlabs2	mo	# Monocytes	numeric
+Monocytes%	kpnwlabs	18824445	Mono Auto	numeric
+Monocytes%	kpnwlabs2	m.	percent Monocytes	numeric
+MPV	kpnwlabs	18824659	MPV	numeric
+MPV	kpnwlabs2	MV	MPV	numeric
+Na	kpnwlabs	18824749	Sodium	numeric
+Na	kpnwlabs2	ca	Sodium	numeric
+Neutrophils#	kpnwlabs	18824437	Neutro Abs Auto	numeric
+Neutrophils#	kpnwlabs2	nt	# Neutrophils	numeric
+Neutrophils%	kpnwlabs	18824439	Neutro Auto	numeric
+Neutrophils%	kpnwlabs2	n1	percent Neutrophils	numeric
+Phosphore	kpnwlabs	18842244	Phosphorus	numeric
+Phosphore	kpnwlabs2	cm	Phosphorus	numeric
+Platelets	kpnwlabs	18824367	Platelet	numeric
+Platelets	kpnwlabs2	pl	Platelets	numeric
+Potassium	kpnwlabs	18824747	Potassium	numeric
+Potassium	kpnwlabs2	cb	Potassium	numeric
+Protein_Total	kpnwlabs	18841696	Total Protein	numeric
+Protein_Total	kpnwlabs2	ct	Total Protein	numeric
+PSA	kpnwlabs	18824375	PSA	numeric
+PSA	kpnwlabs2	el	PSA Screen	numeric
+RBC	kpnwlabs	18824361	RBC	numeric
+RBC	kpnwlabs2	rc	RBC	numeric
+RDW	kpnwlabs	18824363	RDW CV	numeric
+RDW	kpnwlabs2	rw	percent RDW	numeric
+RDW_SD	kpnwlabs	18824365	RDW SD	numeric
+RDW_SD	kpnwlabs2	rW	RDW-SD	numeric
+SerumAnionGap	kpnwlabs	18824755	AGAP	numeric
+SerumAnionGap	kpnwlabs2	3a	Anion Gap	numeric
+TIBC	kpnwlabs	18841868	TIBC	numeric
+TIBC	kpnwlabs2	eg	TIBC	numeric
+Triglycerides	kpnwlabs	18824763	Trig	numeric
+Triglycerides	kpnwlabs	18842478	Trig Fasting	numeric
+Triglycerides	kpnwlabs2	dE	Triglycer,Fast	numeric
+Triglycerides	kpnwlabs2	ea	Triglycer,NF	numeric
+TroponinI	kpnwlabs	18840378	Troponin-I	numeric
+TroponinI	kpnwlabs2	WP	Troponin I	numeric
+TSH	kpnwlabs	18840490	TSH Reflex	numeric
+TSH	kpnwlabs	18842594	TSH	numeric
+TSH	kpnwlabs2	sM	TSH(Reflex T4F)	numeric
+TSH	kpnwlabs2	fW	TSH	numeric
+Uric_Acid	kpnwlabs	18842920	Uric Acid	numeric
+Uric_Acid	kpnwlabs2	cl	Uric Acid	numeric
+Urine_Bacteria	kpnwlabs	18824197	UA Bacteria	string
+Urine_Bacteria	kpnwlabs2	Zi	Bacteria	string
+Urine_Bilirubin	kpnwlabs	18824201	UA Bili	string
+Urine_Bilirubin	kpnwlabs2	Zc	Bilirubin	string
+Urine_Blood	kpnwlabs	18824203	UA Blood	string
+Urine_Blood	kpnwlabs2	Zd	Blood	string
+Urine_Color	kpnwlabs	18824219	UA Color	string
+Urine_Color	kpnwlabs2	Ze	Color	string
+Urine_Creatinine	kpnwlabs	18842158	U Creat	numeric
+Urine_Creatinine	kpnwlabs	18842294	Ur Creat	numeric
+Urine_Creatinine	kpnwlabs	18824685	U Creatinine	numeric
+Urine_Creatinine	kpnwlabs2	6A	Creatinine, Urine	numeric
+Urine_Epithelial_Cells	kpnwlabs	18824269	UA Squam Epithelial	string
+Urine_Epithelial_Cells	kpnwlabs2	Zj	Urine_Epithelial_Cells	string
+Urine_Glucose	kpnwlabs	18824231	UA Glucose	string
+Urine_Glucose	kpnwlabs2	Za	Glucose	string
+Urine_Ketones	kpnwlabs	18824239	UA Ketones	string
+Urine_Ketones	kpnwlabs2	Zb	Ketones	string
+Urine_Leukocyte_Esterase	kpnwlabs	18824243	UA Leuk Est	string
+Urine_Leukocyte_Esterase	kpnwlabs2	B5	Leukocytes	string
+Urine_Microalbumin	kpnwlabs	19129391	U Microalb	numeric
+Urine_Nitrite	kpnwlabs	18824251	UA Nitrite	string
+Urine_Nitrite	kpnwlabs2	B6	Nitrite	string
+Urine_PH	kpnwlabs	18824255	UA pH	numeric
+Urine_PH	kpnwlabs2	B8	pH	numeric
+Urine_RBC	kpnwlabs	18824259	UA RBC	string
+Urine_RBC	kpnwlabs2	Zh	RBC	string
+Urine_Spec_Gravity	kpnwlabs	18824265	UA Spec Grav	numeric
+Urine_Spec_Gravity	kpnwlabs	18841074	U Specific Gravity	numeric
+Urine_Spec_Gravity	kpnwlabs2	uz	Spec Gravity	numeric
+Urine_Spec_Gravity	kpnwlabs2	fP	Spec Gravity	numeric
+Urine_Total_Protein	kpnwlabs	18824257	UA Protein	string
+Urine_Total_Protein	kpnwlabs2	B9	Protein	string
+Urine_WBC	kpnwlabs	18824285	UA WBC	string
+Urine_WBC	kpnwlabs2	Zg	WBC	string
+UrineAlbumin	kpnwlabs	23102696	U Alb	numeric
+UrineAlbumin_over_Creatinine	kpnwlabs	23102699	Ur Alb/Creat	numeric
+VitaminD_25	kpnwlabs	18841688	Vitamin D 25 OH	numeric
+VitaminD_25	kpnwlabs2	Fz	Total Vit D	numeric
+WBC	kpnwlabs	18824187	WBC	numeric
+WBC	kpnwlabs2	w.	WBC	numeric
+BP	kpnwvitals	BP	BLOOD PRESSURE	numeric
+PULSE	kpnwvitals	Pulse	PULSE	numeric
+PULSE	kpnwvitals	PULSE	PULSE	numeric
+Weight	kpnwvitals	Weight	WEIGHT/SCALE	numeric
+Weight	kpnwvitals	WT	WEIGHT/SCALE	numeric
+Temperature	kpnwvitals	Temp	TEMPERATURE	numeric
+Temperature	kpnwvitals	TEMP	TEMPERATURE	numeric
+Resp_Rate	kpnwvitals	Resp	RESPIRATIONS	numeric
+Resp_Rate	kpnwvitals	RESP	RESPIRATIONS	numeric
+SpO2	kpnwvitals	SpO2	PULSE OXIMETRY	numeric
+SpO2	kpnwvitals	SPO2	PULSE OXIMETRY	numeric
+Height	kpnwvitals	Height	HEIGHT	numeric
+Height	kpnwvitals	HT	HEIGHT	numeric
+TOBACCO_PAK_PER_DY	medial_flu_behav_char	TOBACCO_PAK_PER_DY	TOBACCO_PAK_PER_DY	numeric
+TOBACCO_USED_YEARS	medial_flu_behav_char	TOBACCO_USED_YEARS	TOBACCO_USED_YEARS	numeric
+SMOKING_QUIT_DATE	medial_flu_behav_char	SMOKING_QUIT_DATE	SMOKING_QUIT_DATE	numeric
+CIGARETTES_YN	medial_flu_behav_char	CIGARETTES_YN	CIGARETTES_YN	numeric
+PIPES_YN	medial_flu_behav_char	PIPES_YN	PIPES_YN	numeric
+CIGARS_YN	medial_flu_behav_char	CIGARS_YN	CIGARS_YN	numeric
+SNUFF_YN	medial_flu_behav_char	SNUFF_YN	SNUFF_YN	numeric
+CHEW_YN	medial_flu_behav_char	CHEW_YN	CHEW_YN	numeric
+ALCOHOL_OZ_PER_WK	medial_flu_behav_char	ALCOHOL_OZ_PER_WK	ALCOHOL_OZ_PER_WK	numeric
+IV_DRUG_USER_YN	medial_flu_behav_char	IV_DRUG_USER_YN	IV_DRUG_USER_YN	numeric
+ILLICIT_DRUG_FREQ	medial_flu_behav_char	ILLICIT_DRUG_FREQ	ILLICIT_DRUG_FREQ	numeric
+FEMALE_PARTNER_YN	medial_flu_behav_char	FEMALE_PARTNER_YN	FEMALE_PARTNER_YN	numeric
+MALE_PARTNER_YN	medial_flu_behav_char	MALE_PARTNER_YN	MALE_PARTNER_YN	numeric
+CONDOM_YN	medial_flu_behav_char	CONDOM_YN	CONDOM_YN	numeric
+PILL_YN	medial_flu_behav_char	PILL_YN	PILL_YN	numeric
+DIAPHRAGM_YN	medial_flu_behav_char	DIAPHRAGM_YN	DIAPHRAGM_YN	numeric
+IUD_YN	medial_flu_behav_char	IUD_YN	IUD_YN	numeric
+SURGICAL_YN	medial_flu_behav_char	SURGICAL_YN	SURGICAL_YN	numeric
+SPERMICIDE_YN	medial_flu_behav_char	SPERMICIDE_YN	SPERMICIDE_YN	numeric
+IMPLANT_YN	medial_flu_behav_char	IMPLANT_YN	IMPLANT_YN	numeric
+RHYTHM_YN	medial_flu_behav_char	RHYTHM_YN	RHYTHM_YN	numeric
+INJECTION_YN	medial_flu_behav_char	INJECTION_YN	INJECTION_YN	numeric
+SPONGE_YN	medial_flu_behav_char	SPONGE_YN	SPONGE_YN	numeric
+INSERTS_YN	medial_flu_behav_char	INSERTS_YN	INSERTS_YN	numeric
+ABSTINENCE_YN	medial_flu_behav_char	ABSTINENCE_YN	ABSTINENCE_YN	numeric
+YEARS_EDUCATION	medial_flu_behav_char	YEARS_EDUCATION	YEARS_EDUCATION	string
+TOB_SRC_C	medial_flu_behav_char	TOB_SRC_C	TOB_SRC_C	numeric
+ALCOHOL_SRC_C	medial_flu_behav_char	ALCOHOL_SRC_C	ALCOHOL_SRC_C	numeric
+DRUG_SRC_C	medial_flu_behav_char	DRUG_SRC_C	DRUG_SRC_C	numeric
+SEX_SRC_C	medial_flu_behav_char	SEX_SRC_C	SEX_SRC_C	numeric
+ALCOHOL_USE_C	medial_flu_behav_char	ALCOHOL_USE_C	ALCOHOL_USE_C	numeric
+ILL_DRUG_USER_C	medial_flu_behav_char	ILL_DRUG_USER_C	ILL_DRUG_USER_C	numeric
+SEXUALLY_ACTIVE_C	medial_flu_behav_char	SEXUALLY_ACTIVE_C	SEXUALLY_ACTIVE_C	numeric
+TOBACCO_USER_C	medial_flu_behav_char	TOBACCO_USER_C	TOBACCO_USER_C	numeric
+ALCOHOL_FREQ_C	medial_flu_behav_char	ALCOHOL_FREQ_C	ALCOHOL_FREQ_C	numeric
+ALC_FREQ_SRC_C	medial_flu_behav_char	ALC_FREQ_SRC_C	ALC_FREQ_SRC_C	numeric
+SMOKELESS_TOB_USE_C	medial_flu_behav_char	SMOKELESS_TOB_USE_C	SMOKELESS_TOB_USE_C	numeric
+SMOKELESS_QUIT_DATE	medial_flu_behav_char	SMOKELESS_QUIT_DATE	SMOKELESS_QUIT_DATE	numeric
+SMOKING_TOB_USE_C	medial_flu_behav_char	SMOKING_TOB_USE_C	SMOKING_TOB_USE_C	numeric
+UNKNOWN_FAM_HX_YN	medial_flu_behav_char	UNKNOWN_FAM_HX_YN	UNKNOWN_FAM_HX_YN	numeric
+SMOKING_START_DATE	medial_flu_behav_char	SMOKING_START_DATE	SMOKING_START_DATE	numeric
+COVID19_TEST	kpnwlabs	27420803	COVID Result	string
+COVID19_TEST	kpnwlabs	27460754	COVID19 Interp	string
+

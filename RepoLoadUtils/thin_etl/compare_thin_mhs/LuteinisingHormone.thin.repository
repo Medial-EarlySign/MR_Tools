@@ -1,0 +1,162 @@
+LuteinisingHormone :: All :: With Values :: 525784 / 14446692 =  0.04 :: 525784 / 525784 =  1.00
+LuteinisingHormone :: Males :: With Values ::  39295 / 6889335 =  0.01 ::  39295 / 525784 =  0.07
+LuteinisingHormone :: Females :: With Values :: 486489 / 7557357 =  0.06 :: 486489 / 525784 =  0.93
+LuteinisingHormone :: General :: No. of Values :: All 760848 Male  48506 Female 712342
+LuteinisingHormone :: General :: No. of different days Values :: All 757943 Male  48438 Female 709505
+LuteinisingHormone :: General :: Avg #values per person (all) :: All  0.05 Male  0.01 Female  0.09
+LuteinisingHormone :: General :: Avg #values per person (>0)  :: All  1.44 Male  1.23 Female  1.46
+LuteinisingHormone :: General :: Avg dist between tests       :: All  827.5 Male  477.5 Female  841.8
+LuteinisingHormone :: Counts :: Age Group 20 - 25 :: All ::   9783 0.013
+LuteinisingHormone :: Counts :: Age Group 25 - 30 :: All ::  12995 0.017
+LuteinisingHormone :: Counts :: Age Group 30 - 35 :: All ::  16502 0.022
+LuteinisingHormone :: Counts :: Age Group 35 - 40 :: All ::  17832 0.023
+LuteinisingHormone :: Counts :: Age Group 40 - 45 :: All ::  23337 0.031
+LuteinisingHormone :: Counts :: Age Group 45 - 50 :: All ::  31178 0.041
+LuteinisingHormone :: Counts :: Age Group 50 - 55 :: All ::  23836 0.031
+LuteinisingHormone :: Counts :: Age Group 55 - 60 :: All ::   6874 0.009
+LuteinisingHormone :: Counts :: Age Group 60 - 65 :: All ::   2218 0.003
+LuteinisingHormone :: Counts :: Age Group 65 - 70 :: All ::   1617 0.002
+LuteinisingHormone :: Counts :: Age Group 70 - 75 :: All ::    838 0.001
+LuteinisingHormone :: Counts :: Age Group 75 - 80 :: All ::    507 0.001
+LuteinisingHormone :: Counts :: Age Group 80 - 85 :: All ::    292 0.000
+LuteinisingHormone :: Counts :: Age Group 85 - 90 :: All ::    133 0.000
+LuteinisingHormone :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+LuteinisingHormone :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+LuteinisingHormone :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+LuteinisingHormone :: Counts :: Age Group 20 - 25 :: Males ::    452 0.009
+LuteinisingHormone :: Counts :: Age Group 25 - 30 :: Males ::    414 0.009
+LuteinisingHormone :: Counts :: Age Group 30 - 35 :: Males ::    566 0.012
+LuteinisingHormone :: Counts :: Age Group 35 - 40 :: Males ::    618 0.013
+LuteinisingHormone :: Counts :: Age Group 40 - 45 :: Males ::    731 0.015
+LuteinisingHormone :: Counts :: Age Group 45 - 50 :: Males ::    939 0.019
+LuteinisingHormone :: Counts :: Age Group 50 - 55 :: Males ::   1145 0.024
+LuteinisingHormone :: Counts :: Age Group 55 - 60 :: Males ::   1133 0.023
+LuteinisingHormone :: Counts :: Age Group 60 - 65 :: Males ::   1053 0.022
+LuteinisingHormone :: Counts :: Age Group 65 - 70 :: Males ::   1060 0.022
+LuteinisingHormone :: Counts :: Age Group 70 - 75 :: Males ::    598 0.012
+LuteinisingHormone :: Counts :: Age Group 75 - 80 :: Males ::    347 0.007
+LuteinisingHormone :: Counts :: Age Group 80 - 85 :: Males ::    191 0.004
+LuteinisingHormone :: Counts :: Age Group 85 - 90 :: Males ::     79 0.002
+LuteinisingHormone :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+LuteinisingHormone :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+LuteinisingHormone :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+LuteinisingHormone :: Counts :: Age Group 20 - 25 :: Females ::   9331 0.013
+LuteinisingHormone :: Counts :: Age Group 25 - 30 :: Females ::  12581 0.018
+LuteinisingHormone :: Counts :: Age Group 30 - 35 :: Females ::  15936 0.022
+LuteinisingHormone :: Counts :: Age Group 35 - 40 :: Females ::  17214 0.024
+LuteinisingHormone :: Counts :: Age Group 40 - 45 :: Females ::  22606 0.032
+LuteinisingHormone :: Counts :: Age Group 45 - 50 :: Females ::  30239 0.042
+LuteinisingHormone :: Counts :: Age Group 50 - 55 :: Females ::  22691 0.032
+LuteinisingHormone :: Counts :: Age Group 55 - 60 :: Females ::   5741 0.008
+LuteinisingHormone :: Counts :: Age Group 60 - 65 :: Females ::   1165 0.002
+LuteinisingHormone :: Counts :: Age Group 65 - 70 :: Females ::    557 0.001
+LuteinisingHormone :: Counts :: Age Group 70 - 75 :: Females ::    240 0.000
+LuteinisingHormone :: Counts :: Age Group 75 - 80 :: Females ::    160 0.000
+LuteinisingHormone :: Counts :: Age Group 80 - 85 :: Females ::    101 0.000
+LuteinisingHormone :: Counts :: Age Group 85 - 90 :: Females ::     54 0.000
+LuteinisingHormone :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+LuteinisingHormone :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+LuteinisingHormone :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+LuteinisingHormone :: Stats :: Age Group 20 - 25 :: All ::  N 45327 non-zeros 45285 Median   6.40 Mean   8.53 Std   8.65 Max 136.60
+LuteinisingHormone :: Stats :: Age Group 25 - 30 :: All ::  N 56633 non-zeros 56589 Median   6.00 Mean   8.26 Std   9.01 Max 137.00
+LuteinisingHormone :: Stats :: Age Group 30 - 35 :: All ::  N 65045 non-zeros 65000 Median   5.30 Mean   7.56 Std   8.88 Max 137.80
+LuteinisingHormone :: Stats :: Age Group 35 - 40 :: All ::  N 73161 non-zeros 73122 Median   5.00 Mean   7.87 Std  10.27 Max 152.00
+LuteinisingHormone :: Stats :: Age Group 40 - 45 :: All ::  N 97696 non-zeros 97640 Median   5.80 Mean  11.39 Std  14.55 Max 214.20
+LuteinisingHormone :: Stats :: Age Group 45 - 50 :: All ::  N 109761 non-zeros 109730 Median   9.70 Mean  17.99 Std  18.38 Max 260.00
+LuteinisingHormone :: Stats :: Age Group 50 - 55 :: All ::  N 63093 non-zeros 63066 Median  23.00 Mean  25.04 Std  19.13 Max 200.00
+LuteinisingHormone :: Stats :: Age Group 55 - 60 :: All ::  N 17665 non-zeros 17657 Median  22.90 Mean  23.71 Std  18.27 Max 270.00
+LuteinisingHormone :: Stats :: Age Group 60 - 65 :: All ::  N 8096 non-zeros 8085 Median   7.10 Mean  15.15 Std  15.29 Max 114.00
+LuteinisingHormone :: Stats :: Age Group 65 - 70 :: All ::  N 5382 non-zeros 5374 Median   6.20 Mean  12.37 Std  13.02 Max 101.50
+LuteinisingHormone :: Stats :: Age Group 70 - 75 :: All ::  N 2872 non-zeros 2871 Median   6.60 Mean  12.12 Std  12.57 Max  92.70
+LuteinisingHormone :: Stats :: Age Group 75 - 80 :: All ::  N 1758 non-zeros 1758 Median   7.70 Mean  13.14 Std  13.24 Max 109.40
+LuteinisingHormone :: Stats :: Age Group 80 - 85 :: All ::  N 912 non-zeros 911 Median  10.60 Mean  15.64 Std  13.97 Max  99.40
+LuteinisingHormone :: Stats :: Age Group 85 - 90 :: All ::  N 401 non-zeros 401 Median  12.90 Mean  15.96 Std  14.35 Max 107.70
+LuteinisingHormone :: Stats :: Age Group 90 - 95 :: All ::  N 124 non-zeros 124 Median  22.60 Mean  25.43 Std  19.64 Max 108.80
+LuteinisingHormone :: Stats :: Age Group 95 - 100 :: All ::  N 20 non-zeros 20 Median  21.50 Mean  24.78 Std  15.55 Max  51.00
+LuteinisingHormone :: General :: All     :: outliers ratio 0.000064
+LuteinisingHormone :: General :: All     :: N 470021 non-zeros 469761 Median   6.70 Mean  13.24 Std  15.52 Max 234.00
+LuteinisingHormone :: General :: All     :: distribution 0.001,0.01,0.05 ::   0.10   0.30   1.30  47.00  69.00 102.90
+LuteinisingHormone :: General :: All     :: quartiles ::   0.10   3.90   6.70  16.00 
+LuteinisingHormone :: General :: Males   :: outliers ratio 0.000360
+LuteinisingHormone :: General :: Males   :: N 36142 non-zeros 36116 Median   4.20 Mean   5.33 Std   5.03 Max  80.60
+LuteinisingHormone :: General :: Males   :: distribution 0.001,0.01,0.05 ::   0.10   0.10   1.20  12.70  27.60  53.00
+LuteinisingHormone :: General :: Males   :: quartiles ::   0.10   2.90   4.20   6.10 
+LuteinisingHormone :: General :: Females :: outliers ratio 0.000058
+LuteinisingHormone :: General :: Females :: N 433871 non-zeros 433654 Median   7.10 Mean  13.89 Std  15.90 Max 250.90
+LuteinisingHormone :: General :: Females :: distribution 0.001,0.01,0.05 ::   0.10   0.30   1.40  48.00  70.00 104.50
+LuteinisingHormone :: General :: Females :: quartiles ::   0.10   4.00   7.10  17.70 
+LuteinisingHormone :: Rounding ::  0.00 r  0.00 pct
+LuteinisingHormone :: Rounding ::  0.01 r  0.12 pct
+LuteinisingHormone :: Rounding ::  0.10 r  0.65 pct
+LuteinisingHormone :: Rounding ::  1.00 r  0.22 pct
+LuteinisingHormone :: Rounding :: 10.00 r  0.01 pct
+LuteinisingHormone :: Rounding :: 100.00 r  0.00 pct
+LuteinisingHormone :: Rounding :: 1000.00 r  0.00 pct
+LuteinisingHormone :: Rounding :: most popular rounding for vals:  0.10
+LuteinisingHormone :: Stats year :: 2000 :: All :: N 14074 non-zeros 14052 Median   7.00 Mean  14.21 Std  17.36 Max 250.00
+LuteinisingHormone :: Stats year :: 2001 :: All :: N 19299 non-zeros 19286 Median   6.80 Mean  13.73 Std  16.63 Max 166.00
+LuteinisingHormone :: Stats year :: 2002 :: All :: N 24780 non-zeros 24759 Median   6.80 Mean  13.22 Std  15.90 Max 234.00
+LuteinisingHormone :: Stats year :: 2003 :: All :: N 30642 non-zeros 30625 Median   6.70 Mean  13.23 Std  15.72 Max 186.30
+LuteinisingHormone :: Stats year :: 2004 :: All :: N 35659 non-zeros 35634 Median   6.70 Mean  13.42 Std  16.06 Max 234.00
+LuteinisingHormone :: Stats year :: 2005 :: All :: N 40514 non-zeros 40479 Median   6.90 Mean  13.60 Std  15.93 Max 187.60
+LuteinisingHormone :: Stats year :: 2006 :: All :: N 43755 non-zeros 43725 Median   6.70 Mean  13.14 Std  15.44 Max 218.00
+LuteinisingHormone :: Stats year :: 2007 :: All :: N 45191 non-zeros 45180 Median   6.50 Mean  12.90 Std  15.14 Max 203.00
+LuteinisingHormone :: Stats year :: 2008 :: All :: N 48630 non-zeros 48616 Median   6.70 Mean  13.12 Std  15.13 Max 189.60
+LuteinisingHormone :: Stats year :: 2009 :: All :: N 51081 non-zeros 51049 Median   6.70 Mean  13.25 Std  15.37 Max 200.00
+LuteinisingHormone :: Stats year :: 2010 :: All :: N 48602 non-zeros 48582 Median   6.80 Mean  13.17 Std  15.25 Max 195.20
+LuteinisingHormone :: Stats year :: 2011 :: All :: N 49301 non-zeros 49282 Median   7.00 Mean  13.29 Std  15.25 Max 200.00
+LuteinisingHormone :: Stats year :: 2012 :: All :: N 48126 non-zeros 48101 Median   7.00 Mean  13.48 Std  15.49 Max 200.00
+LuteinisingHormone :: Stats year :: 2013 :: All :: N 46789 non-zeros 46758 Median   7.00 Mean  13.44 Std  15.40 Max 214.00
+LuteinisingHormone :: Stats year :: 2014 :: All :: N 43647 non-zeros 43626 Median   7.00 Mean  13.52 Std  15.46 Max 225.00
+LuteinisingHormone :: Stats year :: 2015 :: All :: N 36004 non-zeros 35995 Median   6.90 Mean  13.26 Std  15.25 Max 200.00
+LuteinisingHormone :: Stats year :: 2016 :: All :: N 1007 non-zeros 1006 Median   7.70 Mean  14.16 Std  15.20 Max  98.40
+LuteinisingHormone :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LuteinisingHormone :: Stats year :: 2000 :: Males   :: N 563 non-zeros 562 Median   4.00 Mean   5.10 Std   4.39 Max  40.00
+LuteinisingHormone :: Stats year :: 2001 :: Males   :: N 853 non-zeros 852 Median   4.10 Mean   5.46 Std   6.46 Max  92.70
+LuteinisingHormone :: Stats year :: 2002 :: Males   :: N 1045 non-zeros 1045 Median   4.10 Mean   5.30 Std   5.76 Max  91.00
+LuteinisingHormone :: Stats year :: 2003 :: Males   :: N 1489 non-zeros 1488 Median   4.00 Mean   5.09 Std   4.55 Max  54.30
+LuteinisingHormone :: Stats year :: 2004 :: Males   :: N 1560 non-zeros 1560 Median   4.20 Mean   5.41 Std   5.09 Max  61.40
+LuteinisingHormone :: Stats year :: 2005 :: Males   :: N 1842 non-zeros 1835 Median   4.10 Mean   5.30 Std   5.07 Max  74.50
+LuteinisingHormone :: Stats year :: 2006 :: Males   :: N 2048 non-zeros 2045 Median   4.00 Mean   5.17 Std   5.02 Max  75.90
+LuteinisingHormone :: Stats year :: 2007 :: Males   :: N 2335 non-zeros 2334 Median   4.00 Mean   5.19 Std   5.18 Max  76.00
+LuteinisingHormone :: Stats year :: 2008 :: Males   :: N 2732 non-zeros 2730 Median   4.00 Mean   5.39 Std   5.89 Max  89.50
+LuteinisingHormone :: Stats year :: 2009 :: Males   :: N 3320 non-zeros 3318 Median   4.00 Mean   5.32 Std   5.25 Max  75.50
+LuteinisingHormone :: Stats year :: 2010 :: Males   :: N 3718 non-zeros 3715 Median   4.10 Mean   5.30 Std   5.01 Max  75.10
+LuteinisingHormone :: Stats year :: 2011 :: Males   :: N 3737 non-zeros 3728 Median   4.10 Mean   5.37 Std   5.17 Max  66.70
+LuteinisingHormone :: Stats year :: 2012 :: Males   :: N 3958 non-zeros 3951 Median   4.20 Mean   5.43 Std   5.48 Max  80.60
+LuteinisingHormone :: Stats year :: 2013 :: Males   :: N 4319 non-zeros 4311 Median   4.30 Mean   5.41 Std   5.07 Max  72.20
+LuteinisingHormone :: Stats year :: 2014 :: Males   :: N 3902 non-zeros 3901 Median   4.20 Mean   5.42 Std   5.33 Max  76.10
+LuteinisingHormone :: Stats year :: 2015 :: Males   :: N 3265 non-zeros 3263 Median   4.10 Mean   5.34 Std   5.34 Max  74.40
+LuteinisingHormone :: Stats year :: 2016 :: Males   :: N 75 non-zeros 75 Median   4.20 Mean   5.37 Std   3.42 Max  16.00
+LuteinisingHormone :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LuteinisingHormone :: Stats year :: 2000 :: Females :: N 13511 non-zeros 13489 Median   7.30 Mean  14.62 Std  17.59 Max 250.00
+LuteinisingHormone :: Stats year :: 2001 :: Females :: N 18446 non-zeros 18433 Median   7.00 Mean  14.12 Std  16.84 Max 166.00
+LuteinisingHormone :: Stats year :: 2002 :: Females :: N 23735 non-zeros 23712 Median   7.00 Mean  13.57 Std  16.13 Max 234.00
+LuteinisingHormone :: Stats year :: 2003 :: Females :: N 29153 non-zeros 29136 Median   7.00 Mean  13.64 Std  15.99 Max 186.30
+LuteinisingHormone :: Stats year :: 2004 :: Females :: N 34098 non-zeros 34069 Median   7.00 Mean  13.78 Std  16.24 Max 234.00
+LuteinisingHormone :: Stats year :: 2005 :: Females :: N 38671 non-zeros 38640 Median   7.00 Mean  13.96 Std  16.10 Max 187.60
+LuteinisingHormone :: Stats year :: 2006 :: Females :: N 41705 non-zeros 41679 Median   7.00 Mean  13.51 Std  15.63 Max 218.00
+LuteinisingHormone :: Stats year :: 2007 :: Females :: N 42855 non-zeros 42844 Median   6.80 Mean  13.31 Std  15.38 Max 203.00
+LuteinisingHormone :: Stats year :: 2008 :: Females :: N 45898 non-zeros 45887 Median   7.00 Mean  13.59 Std  15.39 Max 189.60
+LuteinisingHormone :: Stats year :: 2009 :: Females :: N 47761 non-zeros 47734 Median   7.00 Mean  13.82 Std  15.70 Max 200.00
+LuteinisingHormone :: Stats year :: 2010 :: Females :: N 44884 non-zeros 44866 Median   7.10 Mean  13.82 Std  15.59 Max 195.20
+LuteinisingHormone :: Stats year :: 2011 :: Females :: N 45564 non-zeros 45552 Median   7.30 Mean  13.94 Std  15.60 Max 200.00
+LuteinisingHormone :: Stats year :: 2012 :: Females :: N 44169 non-zeros 44154 Median   7.30 Mean  14.16 Std  15.87 Max 250.90
+LuteinisingHormone :: Stats year :: 2013 :: Females :: N 42469 non-zeros 42445 Median   7.40 Mean  14.27 Std  15.88 Max 247.80
+LuteinisingHormone :: Stats year :: 2014 :: Females :: N 39743 non-zeros 39722 Median   7.50 Mean  14.33 Std  15.90 Max 195.00
+LuteinisingHormone :: Stats year :: 2015 :: Females :: N 32739 non-zeros 32731 Median   7.40 Mean  14.05 Std  15.64 Max 200.00
+LuteinisingHormone :: Stats year :: 2016 :: Females :: N 932 non-zeros 931 Median   8.20 Mean  14.87 Std  15.56 Max  98.40
+LuteinisingHormone :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LuteinisingHormone :: Stats month 1 :: All :: N 43927 non-zeros 43899 Median   7.00 Mean  13.72 Std  15.65 Max 183.30
+LuteinisingHormone :: Stats month 2 :: All :: N 45141 non-zeros 45125 Median   6.90 Mean  13.54 Std  15.71 Max 200.00
+LuteinisingHormone :: Stats month 3 :: All :: N 49933 non-zeros 49908 Median   6.90 Mean  13.60 Std  15.79 Max 214.20
+LuteinisingHormone :: Stats month 4 :: All :: N 45601 non-zeros 45572 Median   7.00 Mean  13.83 Std  15.97 Max 250.90
+LuteinisingHormone :: Stats month 5 :: All :: N 47576 non-zeros 47551 Median   7.00 Mean  13.62 Std  15.76 Max 186.30
+LuteinisingHormone :: Stats month 6 :: All :: N 47925 non-zeros 47903 Median   6.80 Mean  13.40 Std  15.61 Max 225.00
+LuteinisingHormone :: Stats month 7 :: All :: N 48905 non-zeros 48883 Median   6.90 Mean  13.48 Std  15.70 Max 209.00
+LuteinisingHormone :: Stats month 8 :: All :: N 45969 non-zeros 45938 Median   7.00 Mean  13.76 Std  15.89 Max 200.00
+LuteinisingHormone :: Stats month 9 :: All :: N 50745 non-zeros 50720 Median   6.90 Mean  13.65 Std  15.88 Max 234.00
+LuteinisingHormone :: Stats month 10 :: All :: N 50965 non-zeros 50931 Median   6.90 Mean  13.65 Std  15.91 Max 250.00
+LuteinisingHormone :: Stats month 11 :: All :: N 47064 non-zeros 47041 Median   6.90 Mean  13.62 Std  15.77 Max 234.00
+LuteinisingHormone :: Stats month 12 :: All :: N 34652 non-zeros 34634 Median   6.90 Mean  13.44 Std  15.72 Max 188.20
+

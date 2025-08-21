@@ -1,0 +1,162 @@
+Platelets :: All :: With Values :: 948634 / 1279479 =  0.74 :: 948634 / 948634 =  1.00
+Platelets :: Males :: With Values :: 446063 / 622859 =  0.72 :: 446063 / 948634 =  0.47
+Platelets :: Females :: With Values :: 502571 / 656620 =  0.77 :: 502571 / 948634 =  0.53
+Platelets :: General :: No. of Values :: All 13839099 Male 5405051 Female 8434048
+Platelets :: General :: No. of different days Values :: All 13832704 Male 5402378 Female 8430326
+Platelets :: General :: Avg #values per person (all) :: All 10.81 Male  8.67 Female 12.84
+Platelets :: General :: Avg #values per person (>0)  :: All 14.58 Male 12.11 Female 16.77
+Platelets :: General :: Avg dist between tests       :: All  260.6 Male  291.8 Female  241.1
+Platelets :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+Platelets :: Counts :: Age Group 25 - 30 :: All ::   5363 0.000
+Platelets :: Counts :: Age Group 30 - 35 :: All :: 136869 0.010
+Platelets :: Counts :: Age Group 35 - 40 :: All :: 257399 0.019
+Platelets :: Counts :: Age Group 40 - 45 :: All :: 325977 0.024
+Platelets :: Counts :: Age Group 45 - 50 :: All :: 284691 0.021
+Platelets :: Counts :: Age Group 50 - 55 :: All :: 289684 0.021
+Platelets :: Counts :: Age Group 55 - 60 :: All :: 297477 0.021
+Platelets :: Counts :: Age Group 60 - 65 :: All :: 278727 0.020
+Platelets :: Counts :: Age Group 65 - 70 :: All :: 254423 0.018
+Platelets :: Counts :: Age Group 70 - 75 :: All :: 201417 0.015
+Platelets :: Counts :: Age Group 75 - 80 :: All :: 180932 0.013
+Platelets :: Counts :: Age Group 80 - 85 :: All :: 130572 0.009
+Platelets :: Counts :: Age Group 85 - 90 :: All ::  80845 0.006
+Platelets :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+Platelets :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+Platelets :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+Platelets :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+Platelets :: Counts :: Age Group 25 - 30 :: Males ::    961 0.000
+Platelets :: Counts :: Age Group 30 - 35 :: Males ::  27252 0.005
+Platelets :: Counts :: Age Group 35 - 40 :: Males ::  65609 0.012
+Platelets :: Counts :: Age Group 40 - 45 :: Males :: 108669 0.020
+Platelets :: Counts :: Age Group 45 - 50 :: Males :: 111394 0.021
+Platelets :: Counts :: Age Group 50 - 55 :: Males :: 119028 0.022
+Platelets :: Counts :: Age Group 55 - 60 :: Males :: 126708 0.023
+Platelets :: Counts :: Age Group 60 - 65 :: Males :: 123346 0.023
+Platelets :: Counts :: Age Group 65 - 70 :: Males :: 114990 0.021
+Platelets :: Counts :: Age Group 70 - 75 :: Males ::  93193 0.017
+Platelets :: Counts :: Age Group 75 - 80 :: Males ::  82644 0.015
+Platelets :: Counts :: Age Group 80 - 85 :: Males ::  57111 0.011
+Platelets :: Counts :: Age Group 85 - 90 :: Males ::  33423 0.006
+Platelets :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+Platelets :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+Platelets :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+Platelets :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+Platelets :: Counts :: Age Group 25 - 30 :: Females ::   4402 0.001
+Platelets :: Counts :: Age Group 30 - 35 :: Females :: 109617 0.013
+Platelets :: Counts :: Age Group 35 - 40 :: Females :: 191790 0.023
+Platelets :: Counts :: Age Group 40 - 45 :: Females :: 217308 0.026
+Platelets :: Counts :: Age Group 45 - 50 :: Females :: 173297 0.021
+Platelets :: Counts :: Age Group 50 - 55 :: Females :: 170656 0.020
+Platelets :: Counts :: Age Group 55 - 60 :: Females :: 170769 0.020
+Platelets :: Counts :: Age Group 60 - 65 :: Females :: 155381 0.018
+Platelets :: Counts :: Age Group 65 - 70 :: Females :: 139433 0.017
+Platelets :: Counts :: Age Group 70 - 75 :: Females :: 108224 0.013
+Platelets :: Counts :: Age Group 75 - 80 :: Females ::  98288 0.012
+Platelets :: Counts :: Age Group 80 - 85 :: Females ::  73461 0.009
+Platelets :: Counts :: Age Group 85 - 90 :: Females ::  47422 0.006
+Platelets :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+Platelets :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+Platelets :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+Platelets :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats :: Age Group 25 - 30 :: All ::  N 81820 non-zeros 81784 Median 232.00 Mean 237.86 Std  59.52 Max 980.00
+Platelets :: Stats :: Age Group 30 - 35 :: All ::  N 213857 non-zeros 213698 Median 234.00 Mean 239.27 Std  60.18 Max 1108.00
+Platelets :: Stats :: Age Group 35 - 40 :: All ::  N 331904 non-zeros 331591 Median 238.00 Mean 243.96 Std  61.36 Max 1163.00
+Platelets :: Stats :: Age Group 40 - 45 :: All ::  N 402077 non-zeros 401665 Median 243.00 Mean 248.96 Std  62.70 Max 1186.00
+Platelets :: Stats :: Age Group 45 - 50 :: All ::  N 356403 non-zeros 355998 Median 244.00 Mean 250.70 Std  63.84 Max 1205.00
+Platelets :: Stats :: Age Group 50 - 55 :: All ::  N 324755 non-zeros 324358 Median 242.00 Mean 247.35 Std  63.37 Max 1166.00
+Platelets :: Stats :: Age Group 55 - 60 :: All ::  N 279339 non-zeros 278990 Median 238.00 Mean 243.79 Std  63.22 Max 1182.00
+Platelets :: Stats :: Age Group 60 - 65 :: All ::  N 235513 non-zeros 235170 Median 236.00 Mean 241.66 Std  65.24 Max 1206.00
+Platelets :: Stats :: Age Group 65 - 70 :: All ::  N 185554 non-zeros 185246 Median 232.00 Mean 238.82 Std  67.31 Max 1245.00
+Platelets :: Stats :: Age Group 70 - 75 :: All ::  N 131255 non-zeros 131007 Median 229.00 Mean 236.43 Std  70.61 Max 1218.00
+Platelets :: Stats :: Age Group 75 - 80 :: All ::  N 102907 non-zeros 102675 Median 227.00 Mean 235.11 Std  73.33 Max 1132.00
+Platelets :: Stats :: Age Group 80 - 85 :: All ::  N 65560 non-zeros 65410 Median 227.00 Mean 235.96 Std  78.16 Max 1288.00
+Platelets :: Stats :: Age Group 85 - 90 :: All ::  N 37726 non-zeros 37596 Median 227.00 Mean 238.11 Std  82.98 Max 1439.00
+Platelets :: Stats :: Age Group 90 - 95 :: All ::  N 15913 non-zeros 15823 Median 227.00 Mean 238.57 Std  85.85 Max 1322.00
+Platelets :: Stats :: Age Group 95 - 100 :: All ::  N 4029 non-zeros 4005 Median 230.00 Mean 240.38 Std  84.76 Max 805.00
+Platelets :: General :: All     :: outliers ratio 0.000020
+Platelets :: General :: All     :: N 948547 non-zeros 947186 Median 237.00 Mean 243.86 Std  66.66 Max 1238.00
+Platelets :: General :: All     :: distribution 0.001,0.01,0.05 ::  52.00 115.00 153.00 355.00 441.00 637.00
+Platelets :: General :: All     :: quartiles ::  52.00 201.00 238.00 279.00 
+Platelets :: General :: Males   :: outliers ratio 0.000020
+Platelets :: General :: Males   :: N 446037 non-zeros 445316 Median 225.00 Mean 230.73 Std  62.64 Max 1163.00
+Platelets :: General :: Males   :: distribution 0.001,0.01,0.05 ::  50.00 111.00 147.00 334.00 421.00 630.00
+Platelets :: General :: Males   :: quartiles ::  50.00 192.00 225.00 263.00 
+Platelets :: General :: Females :: outliers ratio 0.000034
+Platelets :: General :: Females :: N 502503 non-zeros 501875 Median 249.00 Mean 255.45 Std  67.88 Max 1236.00
+Platelets :: General :: Females :: distribution 0.001,0.01,0.05 ::  54.00 121.00 162.00 369.00 454.00 645.00
+Platelets :: General :: Females :: quartiles ::  54.00 212.00 250.00 292.00 
+Platelets :: Rounding ::  0.00 r  0.00 pct
+Platelets :: Rounding ::  0.01 r  0.00 pct
+Platelets :: Rounding ::  0.10 r  0.00 pct
+Platelets :: Rounding ::  1.00 r  0.90 pct
+Platelets :: Rounding :: 10.00 r  0.09 pct
+Platelets :: Rounding :: 100.00 r  0.01 pct
+Platelets :: Rounding :: 1000.00 r  0.00 pct
+Platelets :: Rounding :: most popular rounding for vals:  1.00
+Platelets :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats year :: 2001 :: All :: N 417931 non-zeros 417884 Median 235.00 Mean 241.09 Std  62.61 Max 1161.00
+Platelets :: Stats year :: 2002 :: All :: N 406234 non-zeros 406030 Median 236.00 Mean 242.02 Std  63.69 Max 1125.00
+Platelets :: Stats year :: 2003 :: All :: N 442783 non-zeros 442360 Median 233.00 Mean 239.26 Std  62.90 Max 1132.00
+Platelets :: Stats year :: 2004 :: All :: N 466294 non-zeros 465650 Median 232.00 Mean 237.97 Std  62.68 Max 1178.00
+Platelets :: Stats year :: 2005 :: All :: N 481524 non-zeros 480754 Median 235.00 Mean 241.18 Std  63.79 Max 1186.00
+Platelets :: Stats year :: 2006 :: All :: N 493184 non-zeros 492475 Median 242.00 Mean 247.40 Std  64.95 Max 1210.00
+Platelets :: Stats year :: 2007 :: All :: N 504103 non-zeros 503398 Median 242.00 Mean 247.54 Std  65.32 Max 1180.00
+Platelets :: Stats year :: 2008 :: All :: N 506506 non-zeros 505757 Median 240.00 Mean 245.83 Std  65.17 Max 1191.00
+Platelets :: Stats year :: 2009 :: All :: N 533340 non-zeros 532589 Median 239.00 Mean 244.70 Std  64.34 Max 1202.00
+Platelets :: Stats year :: 2010 :: All :: N 531549 non-zeros 530811 Median 239.00 Mean 244.68 Std  64.61 Max 1192.00
+Platelets :: Stats year :: 2011 :: All :: N 536318 non-zeros 535553 Median 238.00 Mean 244.11 Std  65.06 Max 1219.00
+Platelets :: Stats year :: 2012 :: All :: N 545284 non-zeros 544467 Median 238.00 Mean 243.84 Std  65.14 Max 1199.00
+Platelets :: Stats year :: 2013 :: All :: N 549352 non-zeros 548555 Median 238.00 Mean 243.84 Std  65.35 Max 1212.00
+Platelets :: Stats year :: 2014 :: All :: N 544836 non-zeros 544066 Median 241.00 Mean 246.78 Std  66.37 Max 1219.00
+Platelets :: Stats year :: 2015 :: All :: N 481905 non-zeros 481111 Median 238.00 Mean 243.98 Std  66.83 Max 1245.00
+Platelets :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats year :: 2001 :: Males   :: N 153654 non-zeros 153632 Median 221.00 Mean 227.12 Std  59.16 Max 1052.00
+Platelets :: Stats year :: 2002 :: Males   :: N 152153 non-zeros 152072 Median 220.00 Mean 225.86 Std  59.43 Max 1098.00
+Platelets :: Stats year :: 2003 :: Males   :: N 168784 non-zeros 168605 Median 217.00 Mean 222.94 Std  58.39 Max 1098.00
+Platelets :: Stats year :: 2004 :: Males   :: N 181373 non-zeros 181108 Median 216.00 Mean 221.66 Std  58.04 Max 1060.00
+Platelets :: Stats year :: 2005 :: Males   :: N 191019 non-zeros 190671 Median 219.00 Mean 224.70 Std  59.24 Max 1074.00
+Platelets :: Stats year :: 2006 :: Males   :: N 199145 non-zeros 198789 Median 226.00 Mean 231.01 Std  60.59 Max 1120.00
+Platelets :: Stats year :: 2007 :: Males   :: N 206436 non-zeros 206074 Median 226.00 Mean 231.02 Std  60.97 Max 1129.00
+Platelets :: Stats year :: 2008 :: Males   :: N 208503 non-zeros 208144 Median 224.00 Mean 229.07 Std  60.76 Max 1129.00
+Platelets :: Stats year :: 2009 :: Males   :: N 223006 non-zeros 222608 Median 223.00 Mean 228.45 Std  60.05 Max 1125.00
+Platelets :: Stats year :: 2010 :: Males   :: N 223394 non-zeros 223017 Median 223.00 Mean 228.25 Std  60.53 Max 1132.00
+Platelets :: Stats year :: 2011 :: Males   :: N 228168 non-zeros 227782 Median 222.00 Mean 227.43 Std  60.71 Max 1104.00
+Platelets :: Stats year :: 2012 :: Males   :: N 234451 non-zeros 234062 Median 222.00 Mean 227.17 Std  60.65 Max 1130.00
+Platelets :: Stats year :: 2013 :: Males   :: N 238127 non-zeros 237737 Median 221.00 Mean 226.93 Std  60.88 Max 1127.00
+Platelets :: Stats year :: 2014 :: Males   :: N 237395 non-zeros 236980 Median 224.00 Mean 229.49 Std  61.79 Max 1153.00
+Platelets :: Stats year :: 2015 :: Males   :: N 209090 non-zeros 208635 Median 221.00 Mean 226.69 Std  62.30 Max 1154.00
+Platelets :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats year :: 2001 :: Females :: N 264279 non-zeros 264251 Median 243.00 Mean 249.26 Std  63.07 Max 1122.00
+Platelets :: Stats year :: 2002 :: Females :: N 254080 non-zeros 253952 Median 246.00 Mean 251.66 Std  64.10 Max 1133.00
+Platelets :: Stats year :: 2003 :: Females :: N 273996 non-zeros 273762 Median 244.00 Mean 249.32 Std  63.37 Max 1148.00
+Platelets :: Stats year :: 2004 :: Females :: N 284919 non-zeros 284563 Median 243.00 Mean 248.40 Std  63.01 Max 1190.00
+Platelets :: Stats year :: 2005 :: Females :: N 290501 non-zeros 290075 Median 247.00 Mean 252.02 Std  64.13 Max 1171.00
+Platelets :: Stats year :: 2006 :: Females :: N 294041 non-zeros 293668 Median 253.00 Mean 258.49 Std  65.51 Max 1196.00
+Platelets :: Stats year :: 2007 :: Females :: N 297659 non-zeros 297294 Median 253.00 Mean 258.95 Std  65.72 Max 1235.00
+Platelets :: Stats year :: 2008 :: Females :: N 298005 non-zeros 297621 Median 252.00 Mean 257.52 Std  65.67 Max 1224.00
+Platelets :: Stats year :: 2009 :: Females :: N 310330 non-zeros 309974 Median 251.00 Mean 256.40 Std  64.76 Max 1214.00
+Platelets :: Stats year :: 2010 :: Females :: N 308155 non-zeros 307780 Median 251.00 Mean 256.62 Std  65.01 Max 1214.00
+Platelets :: Stats year :: 2011 :: Females :: N 308144 non-zeros 307768 Median 251.00 Mean 256.46 Std  65.55 Max 1226.00
+Platelets :: Stats year :: 2012 :: Females :: N 310828 non-zeros 310425 Median 251.00 Mean 256.34 Std  65.27 Max 1201.00
+Platelets :: Stats year :: 2013 :: Females :: N 311223 non-zeros 310835 Median 251.00 Mean 256.75 Std  65.48 Max 1200.00
+Platelets :: Stats year :: 2014 :: Females :: N 307436 non-zeros 307082 Median 254.00 Mean 260.22 Std  66.73 Max 1236.00
+Platelets :: Stats year :: 2015 :: Females :: N 272806 non-zeros 272437 Median 251.00 Mean 257.13 Std  66.98 Max 1250.00
+Platelets :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+Platelets :: Stats month 1 :: All :: N 375081 non-zeros 374482 Median 241.00 Mean 247.23 Std  70.63 Max 1294.00
+Platelets :: Stats month 2 :: All :: N 365707 non-zeros 365107 Median 240.00 Mean 246.72 Std  70.91 Max 1245.00
+Platelets :: Stats month 3 :: All :: N 376262 non-zeros 375658 Median 239.00 Mean 245.79 Std  70.32 Max 1288.00
+Platelets :: Stats month 4 :: All :: N 354862 non-zeros 354306 Median 237.00 Mean 243.68 Std  69.69 Max 1264.00
+Platelets :: Stats month 5 :: All :: N 402982 non-zeros 402322 Median 236.00 Mean 242.11 Std  68.25 Max 1226.00
+Platelets :: Stats month 6 :: All :: N 399447 non-zeros 398793 Median 235.00 Mean 241.21 Std  67.95 Max 1224.00
+Platelets :: Stats month 7 :: All :: N 407088 non-zeros 406398 Median 234.00 Mean 240.61 Std  67.70 Max 1254.00
+Platelets :: Stats month 8 :: All :: N 391810 non-zeros 391159 Median 235.00 Mean 240.90 Std  67.84 Max 1212.00
+Platelets :: Stats month 9 :: All :: N 345862 non-zeros 345290 Median 235.00 Mean 241.50 Std  68.91 Max 1259.00
+Platelets :: Stats month 10 :: All :: N 387146 non-zeros 386566 Median 237.00 Mean 242.70 Std  68.14 Max 1262.00
+Platelets :: Stats month 11 :: All :: N 369207 non-zeros 368643 Median 238.00 Mean 244.59 Std  68.46 Max 1226.00
+Platelets :: Stats month 12 :: All :: N 358201 non-zeros 357623 Median 240.00 Mean 246.66 Std  69.99 Max 1244.00
+

@@ -1,0 +1,162 @@
+LDL :: All :: With Values :: 931061 / 1279479 =  0.73 :: 931061 / 931061 =  1.00
+LDL :: Males :: With Values :: 439647 / 622859 =  0.71 :: 439647 / 931061 =  0.47
+LDL :: Females :: With Values :: 491414 / 656620 =  0.75 :: 491414 / 931061 =  0.53
+LDL :: General :: No. of Values :: All 9603348 Male 4306066 Female 5297282
+LDL :: General :: No. of different days Values :: All 9602202 Male 4305543 Female 5296659
+LDL :: General :: Avg #values per person (all) :: All  7.50 Male  6.91 Female  8.07
+LDL :: General :: Avg #values per person (>0)  :: All 10.31 Male  9.79 Female 10.78
+LDL :: General :: Avg dist between tests       :: All  345.9 Male  347.4 Female  344.7
+LDL :: Counts :: Age Group 20 - 25 :: All ::      0 0.000
+LDL :: Counts :: Age Group 25 - 30 :: All ::   1290 0.000
+LDL :: Counts :: Age Group 30 - 35 :: All ::  40690 0.004
+LDL :: Counts :: Age Group 35 - 40 :: All :: 108230 0.011
+LDL :: Counts :: Age Group 40 - 45 :: All :: 190111 0.020
+LDL :: Counts :: Age Group 45 - 50 :: All :: 203416 0.021
+LDL :: Counts :: Age Group 50 - 55 :: All :: 228203 0.024
+LDL :: Counts :: Age Group 55 - 60 :: All :: 249119 0.026
+LDL :: Counts :: Age Group 60 - 65 :: All :: 235225 0.024
+LDL :: Counts :: Age Group 65 - 70 :: All :: 210620 0.022
+LDL :: Counts :: Age Group 70 - 75 :: All :: 160714 0.017
+LDL :: Counts :: Age Group 75 - 80 :: All :: 133768 0.014
+LDL :: Counts :: Age Group 80 - 85 :: All ::  88299 0.009
+LDL :: Counts :: Age Group 85 - 90 :: All ::  49270 0.005
+LDL :: Counts :: Age Group 90 - 95 :: All ::      0 0.000
+LDL :: Counts :: Age Group 95 - 100 :: All ::      0 0.000
+LDL :: Counts :: Age Group 100 - 105 :: All ::      0 0.000
+LDL :: Counts :: Age Group 20 - 25 :: Males ::      0 0.000
+LDL :: Counts :: Age Group 25 - 30 :: Males ::    375 0.000
+LDL :: Counts :: Age Group 30 - 35 :: Males ::  15274 0.004
+LDL :: Counts :: Age Group 35 - 40 :: Males ::  45892 0.011
+LDL :: Counts :: Age Group 40 - 45 :: Males ::  85733 0.020
+LDL :: Counts :: Age Group 45 - 50 :: Males ::  94677 0.022
+LDL :: Counts :: Age Group 50 - 55 :: Males :: 105542 0.025
+LDL :: Counts :: Age Group 55 - 60 :: Males :: 112064 0.026
+LDL :: Counts :: Age Group 60 - 65 :: Males :: 107153 0.025
+LDL :: Counts :: Age Group 65 - 70 :: Males ::  95923 0.022
+LDL :: Counts :: Age Group 70 - 75 :: Males ::  74145 0.017
+LDL :: Counts :: Age Group 75 - 80 :: Males ::  60051 0.014
+LDL :: Counts :: Age Group 80 - 85 :: Males ::  37807 0.009
+LDL :: Counts :: Age Group 85 - 90 :: Males ::  19699 0.005
+LDL :: Counts :: Age Group 90 - 95 :: Males ::      0 0.000
+LDL :: Counts :: Age Group 95 - 100 :: Males ::      0 0.000
+LDL :: Counts :: Age Group 100 - 105 :: Males ::      0 0.000
+LDL :: Counts :: Age Group 20 - 25 :: Females ::      0 0.000
+LDL :: Counts :: Age Group 25 - 30 :: Females ::    915 0.000
+LDL :: Counts :: Age Group 30 - 35 :: Females ::  25416 0.005
+LDL :: Counts :: Age Group 35 - 40 :: Females ::  62338 0.012
+LDL :: Counts :: Age Group 40 - 45 :: Females :: 104378 0.020
+LDL :: Counts :: Age Group 45 - 50 :: Females :: 108739 0.021
+LDL :: Counts :: Age Group 50 - 55 :: Females :: 122661 0.023
+LDL :: Counts :: Age Group 55 - 60 :: Females :: 137055 0.026
+LDL :: Counts :: Age Group 60 - 65 :: Females :: 128072 0.024
+LDL :: Counts :: Age Group 65 - 70 :: Females :: 114697 0.022
+LDL :: Counts :: Age Group 70 - 75 :: Females ::  86569 0.016
+LDL :: Counts :: Age Group 75 - 80 :: Females ::  73717 0.014
+LDL :: Counts :: Age Group 80 - 85 :: Females ::  50492 0.010
+LDL :: Counts :: Age Group 85 - 90 :: Females ::  29571 0.006
+LDL :: Counts :: Age Group 90 - 95 :: Females ::      0 0.000
+LDL :: Counts :: Age Group 95 - 100 :: Females ::      0 0.000
+LDL :: Counts :: Age Group 100 - 105 :: Females ::      0 0.000
+LDL :: Stats :: Age Group 20 - 25 :: All ::  N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats :: Age Group 25 - 30 :: All ::  N 43930 non-zeros 43739 Median 104.00 Mean 106.94 Std  31.16 Max 421.00
+LDL :: Stats :: Age Group 30 - 35 :: All ::  N 155785 non-zeros 155167 Median 110.10 Mean 112.89 Std  31.75 Max 514.00
+LDL :: Stats :: Age Group 35 - 40 :: All ::  N 289401 non-zeros 285083 Median 113.10 Mean 114.60 Std  33.80 Max 548.90
+LDL :: Stats :: Age Group 40 - 45 :: All ::  N 368032 non-zeros 359314 Median 117.10 Mean 117.50 Std  35.93 Max 533.00
+LDL :: Stats :: Age Group 45 - 50 :: All ::  N 337845 non-zeros 329070 Median 122.20 Mean 121.87 Std  37.39 Max 553.30
+LDL :: Stats :: Age Group 50 - 55 :: All ::  N 314646 non-zeros 306574 Median 125.70 Mean 125.07 Std  38.79 Max 576.70
+LDL :: Stats :: Age Group 55 - 60 :: All ::  N 274003 non-zeros 267537 Median 124.30 Mean 123.76 Std  39.29 Max 696.80
+LDL :: Stats :: Age Group 60 - 65 :: All ::  N 231891 non-zeros 226491 Median 119.50 Mean 119.44 Std  39.49 Max 477.60
+LDL :: Stats :: Age Group 65 - 70 :: All ::  N 182952 non-zeros 179463 Median 114.80 Mean 115.75 Std  38.85 Max 494.70
+LDL :: Stats :: Age Group 70 - 75 :: All ::  N 128960 non-zeros 127109 Median 110.40 Mean 112.63 Std  37.91 Max 500.00
+LDL :: Stats :: Age Group 75 - 80 :: All ::  N 100519 non-zeros 99292 Median 107.50 Mean 110.53 Std  37.65 Max 381.50
+LDL :: Stats :: Age Group 80 - 85 :: All ::  N 63183 non-zeros 62487 Median 106.40 Mean 109.96 Std  37.93 Max 371.14
+LDL :: Stats :: Age Group 85 - 90 :: All ::  N 35447 non-zeros 35088 Median 107.20 Mean 110.81 Std  38.35 Max 420.70
+LDL :: Stats :: Age Group 90 - 95 :: All ::  N 14403 non-zeros 14246 Median 109.50 Mean 112.24 Std  38.42 Max 330.60
+LDL :: Stats :: Age Group 95 - 100 :: All ::  N 3490 non-zeros 3461 Median 109.70 Mean 112.14 Std  37.60 Max 292.00
+LDL :: General :: All     :: outliers ratio 0.000002
+LDL :: General :: All     :: N 930977 non-zeros 911137 Median 117.00 Mean 117.64 Std  37.68 Max 576.10
+LDL :: General :: All     :: distribution 0.001,0.01,0.05 ::  33.00  52.00  69.50 178.80 210.70 259.00
+LDL :: General :: All     :: quartiles ::  33.00  96.50 117.90 141.10 
+LDL :: General :: Males   :: outliers ratio 0.000000
+LDL :: General :: Males   :: N 439625 non-zeros 425505 Median 117.00 Mean 116.08 Std  39.65 Max 605.30
+LDL :: General :: Males   :: distribution 0.001,0.01,0.05 ::  30.60  49.60  67.30 178.10 208.00 252.00
+LDL :: General :: Males   :: quartiles ::  30.60  96.10 118.30 141.50 
+LDL :: General :: Females :: outliers ratio 0.000002
+LDL :: General :: Females :: N 491353 non-zeros 485635 Median 117.00 Mean 118.98 Std  35.82 Max 621.60
+LDL :: General :: Females :: distribution 0.001,0.01,0.05 ::  35.50  54.50  71.00 179.40 213.00 264.90
+LDL :: General :: Females :: quartiles ::  35.50  96.90 117.50 140.70 
+LDL :: Rounding ::  0.00 r  0.01 pct
+LDL :: Rounding ::  0.01 r  0.13 pct
+LDL :: Rounding ::  0.10 r  0.65 pct
+LDL :: Rounding ::  1.00 r  0.19 pct
+LDL :: Rounding :: 10.00 r  0.02 pct
+LDL :: Rounding :: 100.00 r  0.00 pct
+LDL :: Rounding :: 1000.00 r  0.00 pct
+LDL :: Rounding :: most popular rounding for vals:  0.10
+LDL :: Stats year :: 2000 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats year :: 2001 :: All :: N 295808 non-zeros 290398 Median 124.60 Mean 125.25 Std  37.82 Max 527.20
+LDL :: Stats year :: 2002 :: All :: N 308896 non-zeros 307194 Median 119.00 Mean 120.91 Std  34.81 Max 477.60
+LDL :: Stats year :: 2003 :: All :: N 339586 non-zeros 339376 Median 125.40 Mean 127.84 Std  34.64 Max 422.60
+LDL :: Stats year :: 2004 :: All :: N 381197 non-zeros 380932 Median 125.50 Mean 127.78 Std  33.84 Max 475.80
+LDL :: Stats year :: 2005 :: All :: N 404700 non-zeros 404466 Median 124.70 Mean 126.93 Std  33.50 Max 593.20
+LDL :: Stats year :: 2006 :: All :: N 430424 non-zeros 430172 Median 120.60 Mean 122.96 Std  33.93 Max 575.80
+LDL :: Stats year :: 2007 :: All :: N 448368 non-zeros 448200 Median 117.90 Mean 120.40 Std  33.74 Max 529.10
+LDL :: Stats year :: 2008 :: All :: N 453535 non-zeros 453336 Median 115.10 Mean 117.60 Std  33.11 Max 458.10
+LDL :: Stats year :: 2009 :: All :: N 490342 non-zeros 475063 Median 113.00 Mean 112.85 Std  37.99 Max 546.00
+LDL :: Stats year :: 2010 :: All :: N 487283 non-zeros 470059 Median 112.00 Mean 111.59 Std  38.49 Max 555.00
+LDL :: Stats year :: 2011 :: All :: N 498907 non-zeros 482044 Median 111.80 Mean 111.38 Std  38.48 Max 553.30
+LDL :: Stats year :: 2012 :: All :: N 509592 non-zeros 491305 Median 112.50 Mean 111.94 Std  39.47 Max 604.50
+LDL :: Stats year :: 2013 :: All :: N 518309 non-zeros 499580 Median 112.80 Mean 112.22 Std  39.88 Max 676.00
+LDL :: Stats year :: 2014 :: All :: N 502586 non-zeros 485363 Median 113.40 Mean 112.93 Std  40.13 Max 576.70
+LDL :: Stats year :: 2015 :: All :: N 400542 non-zeros 385418 Median 112.40 Mean 111.47 Std  41.54 Max 521.00
+LDL :: Stats year :: 2016 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats year :: 2017 :: All :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats year :: 2000 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats year :: 2001 :: Males   :: N 125065 non-zeros 121435 Median 124.80 Mean 124.05 Std  39.20 Max 461.40
+LDL :: Stats year :: 2002 :: Males   :: N 132734 non-zeros 131547 Median 119.60 Mean 120.91 Std  35.10 Max 404.00
+LDL :: Stats year :: 2003 :: Males   :: N 145699 non-zeros 145582 Median 125.80 Mean 127.70 Std  34.09 Max 421.00
+LDL :: Stats year :: 2004 :: Males   :: N 164679 non-zeros 164555 Median 125.60 Mean 127.38 Std  33.66 Max 428.00
+LDL :: Stats year :: 2005 :: Males   :: N 176241 non-zeros 176113 Median 124.10 Mean 126.00 Std  33.72 Max 527.00
+LDL :: Stats year :: 2006 :: Males   :: N 188927 non-zeros 188789 Median 120.10 Mean 122.14 Std  34.38 Max 477.00
+LDL :: Stats year :: 2007 :: Males   :: N 198417 non-zeros 198327 Median 117.10 Mean 119.40 Std  34.33 Max 514.00
+LDL :: Stats year :: 2008 :: Males   :: N 200176 non-zeros 200076 Median 114.10 Mean 116.26 Std  33.71 Max 437.00
+LDL :: Stats year :: 2009 :: Males   :: N 218979 non-zeros 208704 Median 110.10 Mean 109.03 Std  40.38 Max 546.00
+LDL :: Stats year :: 2010 :: Males   :: N 218569 non-zeros 206996 Median 109.00 Mean 107.08 Std  40.85 Max 555.00
+LDL :: Stats year :: 2011 :: Males   :: N 223918 non-zeros 212599 Median 108.40 Mean 106.85 Std  40.75 Max 605.30
+LDL :: Stats year :: 2012 :: Males   :: N 230029 non-zeros 217951 Median 108.70 Mean 106.97 Std  41.51 Max 530.80
+LDL :: Stats year :: 2013 :: Males   :: N 234294 non-zeros 222081 Median 108.70 Mean 107.06 Std  41.89 Max 676.00
+LDL :: Stats year :: 2014 :: Males   :: N 228831 non-zeros 217577 Median 108.70 Mean 107.39 Std  41.80 Max 533.00
+LDL :: Stats year :: 2015 :: Males   :: N 188160 non-zeros 178424 Median 105.80 Mean 104.98 Std  42.64 Max 521.00
+LDL :: Stats year :: 2016 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats year :: 2017 :: Males   :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats year :: 2000 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats year :: 2001 :: Females :: N 170743 non-zeros 168934 Median 124.49 Mean 126.11 Std  36.76 Max 500.00
+LDL :: Stats year :: 2002 :: Females :: N 176162 non-zeros 175594 Median 118.38 Mean 120.85 Std  34.64 Max 521.40
+LDL :: Stats year :: 2003 :: Females :: N 193887 non-zeros 193778 Median 125.10 Mean 127.93 Std  35.01 Max 419.00
+LDL :: Stats year :: 2004 :: Females :: N 216520 non-zeros 216387 Median 125.40 Mean 128.10 Std  33.97 Max 506.00
+LDL :: Stats year :: 2005 :: Females :: N 228460 non-zeros 228360 Median 125.00 Mean 127.69 Std  33.29 Max 535.20
+LDL :: Stats year :: 2006 :: Females :: N 241496 non-zeros 241392 Median 120.80 Mean 123.60 Std  33.55 Max 458.00
+LDL :: Stats year :: 2007 :: Females :: N 249951 non-zeros 249877 Median 118.10 Mean 121.12 Std  33.23 Max 529.10
+LDL :: Stats year :: 2008 :: Females :: N 253359 non-zeros 253266 Median 116.00 Mean 118.73 Std  32.70 Max 458.10
+LDL :: Stats year :: 2009 :: Females :: N 271363 non-zeros 266316 Median 114.90 Mean 115.88 Std  35.66 Max 378.00
+LDL :: Stats year :: 2010 :: Females :: N 268714 non-zeros 262997 Median 114.50 Mean 115.27 Std  36.09 Max 523.80
+LDL :: Stats year :: 2011 :: Females :: N 274989 non-zeros 269389 Median 114.20 Mean 115.08 Std  36.18 Max 461.50
+LDL :: Stats year :: 2012 :: Females :: N 279563 non-zeros 273358 Median 115.30 Mean 116.02 Std  37.18 Max 566.20
+LDL :: Stats year :: 2013 :: Females :: N 284016 non-zeros 277436 Median 115.90 Mean 116.47 Std  37.67 Max 494.20
+LDL :: Stats year :: 2014 :: Females :: N 273755 non-zeros 267769 Median 116.80 Mean 117.48 Std  38.04 Max 576.70
+LDL :: Stats year :: 2015 :: Females :: N 212383 non-zeros 207043 Median 117.40 Mean 117.24 Std  39.59 Max 531.40
+LDL :: Stats year :: 2016 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats year :: 2017 :: Females :: N 0 non-zeros 0 Median   0.00 Mean   -nan Std   -nan Max   0.00
+LDL :: Stats month 1 :: All :: N 300974 non-zeros 294582 Median 114.20 Mean 114.97 Std  37.80 Max 604.50
+LDL :: Stats month 2 :: All :: N 293269 non-zeros 286743 Median 113.60 Mean 114.32 Std  37.97 Max 521.00
+LDL :: Stats month 3 :: All :: N 299520 non-zeros 292300 Median 114.25 Mean 114.80 Std  38.37 Max 455.50
+LDL :: Stats month 4 :: All :: N 281229 non-zeros 273835 Median 114.40 Mean 114.72 Std  38.86 Max 523.70
+LDL :: Stats month 5 :: All :: N 329924 non-zeros 321528 Median 114.50 Mean 114.98 Std  38.63 Max 691.30
+LDL :: Stats month 6 :: All :: N 324494 non-zeros 315647 Median 113.70 Mean 113.99 Std  38.83 Max 561.90
+LDL :: Stats month 7 :: All :: N 330534 non-zeros 321245 Median 112.90 Mean 113.13 Std  38.75 Max 576.70
+LDL :: Stats month 8 :: All :: N 314646 non-zeros 305162 Median 113.60 Mean 113.70 Std  39.41 Max 533.00
+LDL :: Stats month 9 :: All :: N 266807 non-zeros 259466 Median 114.40 Mean 114.87 Std  39.48 Max 529.70
+LDL :: Stats month 10 :: All :: N 313044 non-zeros 304994 Median 116.20 Mean 116.77 Std  39.45 Max 546.00
+LDL :: Stats month 11 :: All :: N 302898 non-zeros 295850 Median 115.50 Mean 116.21 Std  38.54 Max 676.00
+LDL :: Stats month 12 :: All :: N 286879 non-zeros 280460 Median 114.00 Mean 114.62 Std  38.01 Max 553.30
+

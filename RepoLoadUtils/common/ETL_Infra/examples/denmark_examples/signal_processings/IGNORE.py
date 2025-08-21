@@ -1,0 +1,1 @@
+df= df[df['signal']!='IGNORE'].reset_index(drop=True)
