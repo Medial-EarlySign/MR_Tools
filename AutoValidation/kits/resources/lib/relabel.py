@@ -13,14 +13,33 @@ parser.add_argument('--time_window_case_maximal_before', type=int, required=True
 parser.add_argument('--future_cases_as_control', type=int, required=True, help='should we consider cases as control more than cases_max_time_before_cancer years?')
 parser.add_argument("--output", help="output sampples after relabeling", required=True)
 parser.add_argument("--output_dropout", help="output samples excluded", required=True)
+parser.add_argument("--rep", help="repo path", default='')
+parser.add_argument("--signal", default='DIAGNOSIS', help="signal name")
+parser.add_argument("--exclude_diagnosis_in_history", help="list of codes for exclusions from the cohort", default='')
 parser.add_argument("--sub_codes", help="list of sub codes groups", default='')
 
 args = parser.parse_args()
+
+
 
 samples = pd.read_csv(args.samples, sep='\t')
 print(f'Input has {len(samples)} samples')
 registry = pd.read_csv(args.registry, sep='\t', names=['id', 'start_time', 'end_time', 'value', 'diag'])
 print(f'registry has {registry.id.nunique()} IDs with {registry[registry.value==1].id.nunique()} cases')
+exclude_diag_history_list = []
+if len(args.exclude_diagnosis_in_history) > 0:
+    assert(len(args.rep) > 0), "When exclude_diagnosis_in_history is set, rep must be set too"
+    rep=med.PidRepository()
+    rep.read_all(args.rep, [], [args.signal])
+    sig_section_id = rep.dict.section_id(args.signal)
+    sig : pd.DataFrame = rep.get_sig(args.signal, translate=False)
+    exclude_diag_history_list = pd.read_csv(args.exclude_diagnosis_in_history, header=None)[0].tolist()
+    print(f"Read {len(exclude_diag_history_list)} exclusion codes from {args.exclude_diagnosis_in_history}")
+    exclude_diag_history_lut = rep.dict.prep_sets_lookup_table(sig_section_id, exclude_diag_history_list)
+    history_diag = sig[exclude_diag_history_lut[sig["val0"].astype(int)]!=0].copy()
+    history_diag = history_diag.groupby("pid")[["time0", "val0"]].min().reset_index().rename(columns={"time0":"history_time", "val0":"diag", "pid":"id"})
+    history_diag["diag"] = history_diag["diag"].apply(lambda x: rep.dict.name(sig_section_id, x))
+    
 dropout = pd.DataFrame({'EVENT_FIELDS':[], 'id':[], 'time':[], 'outcome':[], 'outcomeTime':[], 'split':[], 'str_attr_reason':[]})
 dropout_ls = [dropout]
 samples['id_time'] = samples['id'].astype(str)+'_' + samples['time'].astype(str)
@@ -39,6 +58,17 @@ far_cases['outcomeTime'] = far_cases['start_time']
 close_cases['outcomeTime'] = close_cases['start_time']
 after_cases['outcomeTime'] = after_cases['start_time']
 
+# past exclusion:
+if len(args.exclude_diagnosis_in_history) > 0:
+    cases = cases.drop(columns=["diag"]).set_index('id').join(history_diag.set_index('id'), how='left').reset_index()
+    excluded_past_cases = cases[(~cases["history_time"].isnull()) & (cases["history_time"] < cases["time"])].reset_index(drop=True).copy()
+    cases = cases[(cases["history_time"].isnull()) | (cases["history_time"] >= cases["time"])].reset_index(drop=True)
+    excluded_past_cases['outcome'] = 1
+    excluded_past_cases['str_attr_reason'] = 'cases, history diagnosis codes'
+    excluded_past_cases = excluded_past_cases[['EVENT_FIELDS', 'id', 'time', 'outcome', 'outcomeTime', 'split', 'str_attr_reason', 'diag']]
+    dropout_ls.append(excluded_past_cases)
+
+
 cases['outcome'] = 1
 cases['outcomeTime'] = cases['start_time']
 #remove those samples from further evaluation:
@@ -48,10 +78,12 @@ samples = samples[~samples['id_time'].isin(close_cases['id_time'])].reset_index(
 samples = samples[~samples['id_time'].isin(after_cases['id_time'])].reset_index(drop=True)
 
 after_cases['str_attr_reason'] = 'cases, sample after diagnosis'
+after_cases["outcome"] = 1
 after_cases = after_cases[['EVENT_FIELDS', 'id', 'time', 'outcome', 'outcomeTime', 'split', 'str_attr_reason', 'diag']]
 dropout_ls.append(after_cases)
 
 close_cases['str_attr_reason'] = 'cases, too_close_to_outcome'
+close_cases["outcome"] = 1
 close_cases = close_cases[['EVENT_FIELDS', 'id', 'time', 'outcome', 'outcomeTime', 'split', 'str_attr_reason', 'diag']]
 dropout_ls.append(close_cases)
 
@@ -69,6 +101,7 @@ if args.future_cases_as_control:
     cases = pd.concat([cases, far_cases], ignore_index=True)
 else:
     far_cases['str_attr_reason'] = 'cases, too_far_from_outcome'
+    far_cases["outcome"] = 1
     far_cases = far_cases[['EVENT_FIELDS', 'id', 'time', 'outcome', 'outcomeTime', 'split', 'str_attr_reason', 'diag']]
     dropout_ls.append(far_cases)
     
@@ -99,6 +132,16 @@ samples = samples[~samples['id_time'].isin(dropped_controls['id_time'])].reset_i
 dropped_controls = dropped_controls[['EVENT_FIELDS', 'id', 'time', 'outcome', 'outcomeTime', 'split', 'str_attr_reason']]
 dropout_ls.append(dropped_controls)
 
+# Mark previous diagnosis for controls
+if len(args.exclude_diagnosis_in_history) > 0:
+    controls = controls.set_index('id').join(history_diag.set_index('id'), how='left').reset_index()
+    excluded_past_controls = controls[(~controls["history_time"].isnull()) & (controls["history_time"] < controls["time"])].reset_index(drop=True).copy()
+    controls = controls[(controls["history_time"].isnull()) | (controls["history_time"] > controls["time"])].reset_index(drop=True)
+    excluded_past_controls['outcome'] = 0
+    excluded_past_controls['str_attr_reason'] = 'controls, history diagnosis codes'
+    excluded_past_controls = excluded_past_controls[['EVENT_FIELDS', 'id', 'time', 'outcome', 'outcomeTime', 'split', 'str_attr_reason', 'diag']]
+    dropout_ls.append(excluded_past_controls)
+
 #Mark all what's left in controls: not in registry or no registry before prediction time
 samples['outcome'] = -1
 samples['outcomeTime'] = -1
@@ -108,6 +151,11 @@ dropout_ls.append(samples)
 
 #finish
 dropout = pd.concat(dropout_ls, ignore_index=True).sort_values(['id', 'time']).reset_index(drop=True)
+dropout["id"] = dropout["id"].astype(int)
+dropout["time"] = dropout["time"].astype(int)
+dropout["outcomeTime"] = dropout["outcomeTime"].astype(int)
+dropout["outcome"] = dropout["outcome"].astype(int)
+dropout["split"] = dropout["split"].astype(int)
 dropout.to_csv(args.output_dropout, sep='\t', index=False)
 print(f'Wrote {len(dropout)} in {args.output_dropout}')
 print(dropout.str_attr_reason.value_counts())
@@ -124,5 +172,6 @@ if len(args.sub_codes) > 0:
 
 final_samples = pd.concat([controls, cases], ignore_index=True).sort_values(['id', 'time']).reset_index(drop=True)
 final_samples.drop(columns='diag', inplace=True)
+final_samples["outcomeTime"] = final_samples["outcomeTime"].astype(int)
 final_samples.to_csv(args.output, sep='\t', index=False)
 print(f'Wrote {len(final_samples)} in {args.output} with {final_samples[final_samples.outcome==1].id.nunique()} unique cases and {final_samples[final_samples.outcome==0].id.nunique()} unique controls')
