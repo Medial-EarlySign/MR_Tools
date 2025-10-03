@@ -23,7 +23,7 @@ from .env import *
 
 
 def read_signals_defs():
-    codedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    codedir = get_codedir()
     return load_signals_map(FULL_SIGNALS_TYPES, codedir)
 
 
@@ -39,7 +39,7 @@ def generate_labs_mapping_and_units_config(
     :param df: the dataframe to process. have columns : signal, unit
     :param samples_per_signal: how many example values to fecth for each signal+unit combination
     """
-    codedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    codedir = get_codedir()
     cfg_dir = os.path.join(codedir, "configs")
     os.makedirs(cfg_dir, exist_ok=True)
     map_unit_cfg = os.path.join(cfg_dir, "map_units_stats.cfg")
@@ -59,7 +59,7 @@ def map_and_fix_units(df: pd.DataFrame) -> pd.DataFrame:
 
     :param df:  the dataframe to process. have columns : signal, unit
     """
-    codedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    codedir = get_codedir()
     map_unit_cfg = os.path.join(codedir, "configs", "map_units_stats.cfg")
     if not (os.path.exists(map_unit_cfg)):
         raise NameError(
@@ -247,7 +247,7 @@ def process_and_open_shell_when_needed(
 ):
     if not (interactive):
         editor = None
-    code_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    code_dir = get_codedir()
     _locals = locals()
     process_log_file = os.path.join(
         workdir, "signal_processings_log", f"process_{signal_name}.log"
@@ -280,7 +280,7 @@ def process_and_open_shell_when_needed(
         if done_succ:
             df = _locals["df"]
             if signal_name == "labs":
-                codedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+                codedir = get_codedir()
                 map_unit_cfg = os.path.join(codedir, "configs", "map_units_stats.cfg")
                 if os.path.exists(map_unit_cfg) and "unit" in df.columns:
                     print("In labs fixing units...")
@@ -296,8 +296,8 @@ def process_and_open_shell_when_needed(
 
     if not (os.path.exists(_store_clean_path)):
         print(
-            'Code block for signal "%s" is missing (code block name "%s") - creating it'
-            % (signal_name, code_block_name),
+            'Code block for signal "%s" is missing (code block name "%s") - creating it under \"%s\"'
+            % (signal_name, code_block_name, _store_clean_path),
             flush=True,
         )
     else:
@@ -427,7 +427,7 @@ def process_and_open_shell_when_needed(
         store_clean_path, _locals, process_log_file, batch_num
     )  # Excute
     if signal_name == "labs":
-        codedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+        codedir = get_codedir()
         map_unit_cfg = os.path.join(codedir, "configs", "map_units_stats.cfg")
         if os.path.exists(map_unit_cfg) and "unit" in df.columns:
             print("In labs fixing units...")
@@ -448,7 +448,7 @@ def process_and_open_shell_when_needed(
 
 
 def get_code_name(signal_name, workdir, sig_types):
-    code_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    code_dir = get_codedir()
     base_dir = os.path.join(code_dir, "signal_processings")
     store_clean_path = os.path.join(base_dir, signal_name + ".py")
     if signal_name not in sig_types:
@@ -481,7 +481,7 @@ def filter_cols(col_name, good_cols):
 
 
 def test_if_has_code_to_execute(signal_name, workdir, sig_types):
-    code_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    code_dir = get_codedir()
     code_block_name = get_code_name(signal_name, workdir, sig_types)
     store_clean_path = os.path.join(code_dir, "signal_processings", signal_name + ".py")
     _store_clean_path = store_clean_path
@@ -509,7 +509,7 @@ def fetch_signal(
     full_log_path = os.path.join(
         workdir, "signal_processings_log", signal_name + ".log"
     )
-    code_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    code_dir = get_codedir()
     os.makedirs(os.path.join(code_dir, "signal_processings"), exist_ok=True)
     store_clean_path = os.path.join(code_dir, "signal_processings", signal_name + ".py")
 
@@ -762,7 +762,7 @@ def map_fetch_and_process(
     os.makedirs(workdir, exist_ok=True)
     sig_load_status = get_load_status(workdir)
     sig_load_batches = get_load_batch_status(workdir)
-    codedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    codedir = get_codedir()
     # sigs=list(set(df['signal'].values))
     # Test all intersection  with classes
     flat_cls = set()
@@ -1126,7 +1126,7 @@ def finish_prepare_load(
     """
 
     os.makedirs(os.path.join(workdir, "rep_configs"), exist_ok=True)
-    codedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    codedir = get_codedir()
     signal_types = read_signals_defs()
     finish_prepare_dicts(workdir, signal_types, override=override)
     generate_signals_file(codedir, workdir, dest_rep)

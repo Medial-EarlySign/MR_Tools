@@ -15,7 +15,7 @@ def read_signals_defs() -> Dict[str, SignalInfo]:
     """
     :meta private:
     """
-    codedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    codedir = get_codedir()
     return load_signals_map(FULL_SIGNALS_TYPES, codedir)
 
 
