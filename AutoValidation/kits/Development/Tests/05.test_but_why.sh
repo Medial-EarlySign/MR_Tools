@@ -26,4 +26,8 @@ feature_importance_printer.py --report_path ${WORK_DIR}/ButWhy/shapley.report --
 
 feature_importance_printer.py --report_path ${WORK_DIR}/ButWhy/shapley.report --num_format %2.4f --feature_name "" --max_count 30 --force_many_graph 1 --print_multiple_graphs 1 --output_path ${WORK_DIR}/ButWhy/single_features
 
+# Fix Plotly html links:
+sed -i 's|"/nas1/Work/Graph_Infra/plotly-latest.min.js"|"../js/plotly.js"|g' ${WORK_DIR}/ButWhy/*.html 
+sed -i 's|"/nas1/Work/Graph_Infra/plotly-latest.min.js"|"../../js/plotly.js"|g' ${WORK_DIR}/ButWhy/single_features/*.html 
+
 echo "Please refer to ${WORK_DIR}/ButWhy folder"
