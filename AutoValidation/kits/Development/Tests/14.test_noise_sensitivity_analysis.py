@@ -98,6 +98,9 @@ def generate_analysis(param, noise_list):
             float_noise= float_noise/10.0
 
         #res_df[f'{param}_noise'] = float_noise
+        if len(res_df) == 0:
+            print("Skip - no results")
+            continue
         res_df = res_df[(res_df['Measurement'].str.contains('AUC')) |
                          (res_df['Measurement'].str.contains('SENS@FPR_05')) | (res_df['Measurement'].str.contains('SENS@FPR_10'))].reset_index(drop=True)
         res_df = res_df[(res_df['Measurement'].str.contains('_Mean')) | (res_df['Measurement'].str.contains('_CI.Lower.95'))
@@ -109,6 +112,8 @@ def generate_analysis(param, noise_list):
         res_df_pivot.columns.name=None
         scores.append(res_df_pivot)
 
+    if len(scores) == 0:
+        return pd.DataFrame({"Empty_too_few_cases_controls_maybe":[]})
     df_scores = pd.concat(scores, ignore_index=True)
     return df_scores
 
