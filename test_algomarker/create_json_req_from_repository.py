@@ -39,9 +39,8 @@ def __generate_data(
     if len(df_pid) == 0:
         print(f"Pid {pid} has no data - skip")
         return None
-    pid = df_pid["pid"].iloc[0]
     req_time = df_pid["time"].iloc[0]
-    pid_req = {"patient_id": pid, "time": req_time}
+    pid_req = {"patient_id": int(pid), "time": int(req_time)}
     pid_req["data"] = {"signals": []}
     # code, unit, data{value[], timestamp[]}
     for key, sig_df in df_pid.groupby("signal"):
@@ -55,6 +54,7 @@ def __generate_data(
             axis=1,
         )
         sig_data["data"] = list(all_js_vals.values)
+        pid_req["data"]["signals"].append(sig_data)
     return pid_req
 
 
@@ -78,12 +78,16 @@ def generate_data_from_rep(
     data = []
     for sig in signal_list:
         sig_df: pd.DataFrame = rep.get_sig(sig)  # type: ignore
-        sig_df = sig_df.merge(pid_time_df, on="pid", how="inner")
-        sig_df = (
-            sig_df[sig_df["time"] >= sig_df["time_0"]]
-            .reset_index(drop=True)
-            .drop(columns=["time"])
-        )  # Filter data for each patient till that time
+        sig_df = sig_df.rename(
+            columns={"time0": "time_0", "val0": "value_0"}, errors="ignore"
+        )
+        if "time_0" in sig_df.columns: #Otherwise static signal
+            sig_df = sig_df.merge(pid_time_df, on="pid", how="inner")
+            sig_df = (
+                sig_df[sig_df["time"] >= sig_df["time_0"]]
+                .reset_index(drop=True)
+                .drop(columns=["time"])
+            )  # Filter data for each patient till that time
         sig_df["signal"] = sig
         data.append(sig_df)
     data = pd.concat(data, ignore_index=True)
