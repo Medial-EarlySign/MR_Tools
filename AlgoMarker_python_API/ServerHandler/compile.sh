@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 version_txt=$(date +'Build_On_%Y%m%d_%H:%M:%S')
-touch ${0%/*}/../utils.h
 
 rm ${0%/*}/build/ -fr
 mkdir ${0%/*}/build
