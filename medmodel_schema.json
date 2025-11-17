@@ -1,0 +1,255 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "MedModel Configuration",
+    "type": "object",
+    "properties": {
+        "model_json_version": {
+            "type": "string"
+        },
+        "serialize_learning_set": {
+            "type": "string",
+            "default": "0"
+        },
+        "generate_masks_for_features": {
+            "type": "string",
+            "default": "0"
+        },
+        "max_data_in_mem": {
+            "type": "integer",
+            "default": 0
+        },
+        "take_mean_pred": {
+            "type": "string",
+            "default": "1"
+        },
+        "model_actions": {
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/action"
+            }
+        }
+    },
+    "required": [
+        "model_actions",
+        "model_json_version"
+    ],
+    "$defs": {
+        "signal": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "action": {
+            "title": "Model Component Action",
+            "type": "object",
+            "oneOf": [
+                {
+                    "title": "Feature Generator Action - Age/Gender",
+                    "properties": {
+                        "action_type": {
+                            "const": "feat_generator"
+                        },
+                        "fg_type": {
+                            "type": "string",
+                            "enum": [
+                                "age",
+                                "gender"
+                            ]
+                        },
+                        "members": false
+                    },
+                    "required": [
+                        "action_type",
+                        "fg_type"
+                    ],
+                    "additionalProperties": true
+                },
+                {
+                    "title": "Feature Generator Action - Basic",
+                    "properties": {
+                        "action_type": {
+                            "const": "feat_generator"
+                        },
+                        "fg_type": {
+                            "const": "basic"
+                        },
+                        "type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "enum": [
+                                        "last",
+                                        "first",
+                                        "last2",
+                                        "avg",
+                                        "max",
+                                        "min",
+                                        "std",
+                                        "last_delta",
+                                        "last_time",
+                                        "last2_time",
+                                        "slope",
+                                        "win_delta",
+                                        "category_set",
+                                        "category_set_count",
+                                        "nsamples",
+                                        "exists",
+                                        "category_set_first",
+                                        "max_diff",
+                                        "category_set_sum",
+                                        "first_time",
+                                        "range_width",
+                                        "category_set_first_time",
+                                        "sum",
+                                        "last_nth",
+                                        "category_set_last_nth",
+                                        "time_since_last_change"
+                                    ]
+                                },
+                                {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string",
+                                        "enum": [
+                                            "last",
+                                            "first",
+                                            "last2",
+                                            "avg",
+                                            "max",
+                                            "min",
+                                            "std",
+                                            "last_delta",
+                                            "last_time",
+                                            "last2_time",
+                                            "slope",
+                                            "win_delta",
+                                            "category_set",
+                                            "category_set_count",
+                                            "nsamples",
+                                            "exists",
+                                            "category_set_first",
+                                            "max_diff",
+                                            "category_set_sum",
+                                            "first_time",
+                                            "range_width",
+                                            "category_set_first_time",
+                                            "sum",
+                                            "last_nth",
+                                            "category_set_last_nth",
+                                            "time_since_last_change"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "signal": {
+                            "$ref": "#/$defs/signal"
+                        },
+                        "members": false
+                    },
+                    "required": [
+                        "action_type",
+                        "fg_type",
+                        "type",
+                        "signal"
+                    ],
+                    "additionalProperties": true
+                },
+                {
+                    "title": "Feature Generator Action - Smoking",
+                    "properties": {
+                        "action_type": {
+                            "const": "feat_generator"
+                        },
+                        "fg_type": {
+                            "const": "unified_smoking"
+                        },
+                      
+                        "smoking_features": {
+                            "type": "string"
+                        },
+                        "members": false
+                    },
+                    "required": [
+                        "action_type",
+                        "fg_type",
+                        "smoking_features"
+                    ],
+                    "additionalProperties": true
+                },
+                {
+                    "title": "Repository Processor Action",
+                    "properties": {
+                        "action_type": {
+                            "const": "rp_set"
+                        },
+                        "members": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "rp_type": {
+                                        "type": "string",
+                                        "enum": [
+                                            "basic_cln",
+                                            "basic_outlier_cleaner",
+                                            "nbrs_outlier_cleaner",
+                                            "nbrs_cln",
+                                            "configured_outlier_cleaner",
+                                            "conf_cln",
+                                            "rulebased_outlier_cleaner",
+                                            "rule_cln",
+                                            "calc_signals",
+                                            "calculator",
+                                            "complete",
+                                            "req",
+                                            "requirements",
+                                            "sim_val",
+                                            "sim_val_handler",
+                                            "signal_rate",
+                                            "combine",
+                                            "split",
+                                            "aggregation_period",
+                                            "basic_range_cleaner",
+                                            "range_cln",
+                                            "aggregate",
+                                            "history_limit",
+                                            "create_registry",
+                                            "bit_signal",
+                                            "category_descenders",
+                                            "reoder_channels",
+                                            "filter_channels",
+                                            "numeric_noiser",
+                                            "filter_by_diag"
+                                        ]
+                                    },
+                                    "signal": {
+                                        "$ref": "#/$defs/signal"
+                                    },
+                                    "required": [
+                                        "rp_type",
+                                        "signal"
+                                    ],
+                                    "additionalProperties": true
+                                }
+                            }
+                        },
+                        "required": [
+                            "action_type",
+                            "members"
+                        ],
+                        "additionalProperties": true
+                    }
+                }
+            ]
+        }
+    }
+}
