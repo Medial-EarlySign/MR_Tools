@@ -26,10 +26,10 @@ fr.close()
 rep = med.PidRepository()
 rep.read_all(REP, [], ['BDATE', signal])
 lut = rep.dict.prep_sets_lookup_table(rep.dict.section_id(signal), codes)
-sig = rep.get_sig(signal, translate=False)
-bdate = rep.get_sig('BDATE').rename(columns={'val0':'bdate'})
+sig = rep.get_sig(signal, translate=False).rename(columns={'val':'val0', "date":"time0"}, errors='ignore')
+bdate = rep.get_sig('BDATE').rename(columns={'val0':'bdate', 'val':'bdate'})
 
-cases = sig[(lut[sig.val0] != 0)].sort_values('time0').drop_duplicates(subset=['pid'])[['pid', 'time0']].rename(columns={'time0':'start_time'})
+cases = sig[(lut[sig.val0.astype(int)] != 0)].sort_values('time0').drop_duplicates(subset=['pid'])[['pid', 'time0']].rename(columns={'time0':'start_time'})
 cases['end_time'] = 30000101
 cases['value'] = 1
 cases = cases[['pid', 'start_time', 'end_time', 'value']]
