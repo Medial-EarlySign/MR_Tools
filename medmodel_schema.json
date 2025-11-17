@@ -1,22 +1,27 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "MedModel Configuration",
+    "description": "Defines the actions and settings for a model run. This schema provides basic validation and autocompletion. For a full list of all possible attributes and best practices, see the Wiki.",
     "type": "object",
     "properties": {
         "model_json_version": {
-            "type": "string"
+            "type": "string",
+            "default": "2.0"
         },
         "serialize_learning_set": {
             "type": "string",
-            "default": "0"
+            "default": "0",
+            "description": "If true will store training samples in the model"
         },
         "generate_masks_for_features": {
             "type": "string",
-            "default": "0"
+            "default": "0",
+            "description": "If true will store missing values in the features before imputations"
         },
         "max_data_in_mem": {
             "type": "integer",
-            "default": 0
+            "default": 0,
+            "description": "If >0, will limit the maximal array size in memory to break into batches. All the features * Nrows is array size. 0 means no limit."
         },
         "take_mean_pred": {
             "type": "string",
@@ -24,11 +29,13 @@
         },
         "model_actions": {
             "type": "array",
+            "description": "Model Components",
             "items": {
                 "$ref": "#/$defs/action"
             }
         },
         "predictor": {
+            "description": "Medial MedPredictor type",
             "type": "string",
             "enum": [
                 "linear_model",
@@ -51,6 +58,7 @@
             ]
         },
         "predictor_params": {
+            "description": "parameters that will be passed to MedPredictor as key=value",
             "type": "string"
         }
     },
@@ -97,6 +105,7 @@
                 },
                 {
                     "title": "Feature Generator Action - Basic",
+                    "description": "Most Common and Basic Feature generator based on a single signal",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
