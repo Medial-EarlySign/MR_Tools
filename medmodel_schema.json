@@ -27,6 +27,31 @@
             "items": {
                 "$ref": "#/$defs/action"
             }
+        },
+        "predictor": {
+            "type": "string",
+            "enum": [
+                "linear_model",
+                "qrf",
+                "knn",
+                "BP",
+                "gdlm",
+                "xgb",
+                "lasso",
+                "micNet",
+                "deep_bit",
+                "lightgbm",
+                "svm",
+                "linear_sgd",
+                "tqrf",
+                "bart",
+                "external_nn",
+                "simple_ensemble",
+                "by_missing_value_subset"
+            ]
+        },
+        "predictor_params": {
+            "type": "string"
         }
     },
     "required": [
@@ -47,9 +72,7 @@
                 }
             ]
         },
-        "action": {
-            "title": "Model Component Action",
-            "type": "object",
+        "feature_generator": {
             "oneOf": [
                 {
                     "title": "Feature Generator Action - Age/Gender",
@@ -172,7 +195,6 @@
                         "fg_type": {
                             "const": "unified_smoking"
                         },
-                      
                         "smoking_features": {
                             "type": "string"
                         },
@@ -184,6 +206,265 @@
                         "smoking_features"
                     ],
                     "additionalProperties": true
+                },
+                {
+                    "title": "Feature Generator Action - Time",
+                    "properties": {
+                        "action_type": {
+                            "const": "feat_generator"
+                        },
+                        "fg_type": {
+                            "const": "time"
+                        },
+                        "time_bins": {
+                            "type": "string"
+                        },
+                        "members": false
+                    },
+                    "required": [
+                        "action_type",
+                        "fg_type",
+                        "time_bins"
+                    ],
+                    "additionalProperties": true
+                },
+                {
+                    "title": "Feature Generator Action - singleton",
+                    "properties": {
+                        "action_type": {
+                            "const": "feat_generator"
+                        },
+                        "fg_type": {
+                            "const": "singleton"
+                        },
+                        "signal": {
+                            "$ref": "#/$defs/signal"
+                        },
+                        "sets": {
+                            "oneOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            ]
+                        },
+                        "in_set_name": {
+                            "type": "string"
+                        },
+                        "members": false
+                    },
+                    "required": [
+                        "action_type",
+                        "fg_type",
+                        "signal"
+                    ],
+                    "additionalProperties": true
+                },
+                {
+                    "title": "Feature Generator Action - binnedLM",
+                    "properties": {
+                        "action_type": {
+                            "const": "feat_generator"
+                        },
+                        "fg_type": {
+                            "type": "string",
+                            "enum": [
+                                "binnedLm",
+                                "binnedLM"
+                            ]
+                        },
+                        "signal": {
+                            "$ref": "#/$defs/signal"
+                        },
+                        "estimation_points": {
+                            "oneOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            ]
+                        },
+                        "rfactor": {
+                            "type": "string"
+                        },
+                        "min_period": {
+                            "type": "string"
+                        },
+                        "max_period": {
+                            "type": "string"
+                        },
+                        "members": false
+                    },
+                    "required": [
+                        "action_type",
+                        "fg_type",
+                        "signal",
+                        "estimation_points"
+                    ],
+                    "additionalProperties": true
+                },
+                {
+                    "title": "Feature Generator Action - Range",
+                    "properties": {
+                        "action_type": {
+                            "const": "feat_generator"
+                        },
+                        "fg_type": {
+                            "const": "range"
+                        },
+                        "signal": {
+                            "$ref": "#/$defs/signal"
+                        },
+                        "type": {
+                            "type": "string",
+                            "enum": [
+                                "current",
+                                "latest",
+                                "min",
+                                "max",
+                                "ever",
+                                "time_diff",
+                                "time_covered",
+                                "last_nth_time_len",
+                                "time_inside"
+                            ]
+                        },
+                        "sets": {
+                            "oneOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            ]
+                        },
+                        "div_factor": {
+                            "type": "string"
+                        },
+                        "Nth": {
+                            "type": "string"
+                        },
+                        "members": false
+                    },
+                    "required": [
+                        "action_type",
+                        "fg_type",
+                        "signal",
+                        "type"
+                    ],
+                    "additionalProperties": true
+                },
+                {
+                    "title": "Feature Generator Action - Category Depend",
+                    "properties": {
+                        "action_type": {
+                            "const": "feat_generator"
+                        },
+                        "fg_type": {
+                            "const": "category_depend"
+                        },
+                        "signal": {
+                            "$ref": "#/$defs/signal"
+                        },
+                        "val_channel": {
+                            "type": "string"
+                        },
+                        "time_channel": {
+                            "type": "string"
+                        },
+                        "regex_filter": {
+                            "type": "string"
+                        },
+                        "remove_regex_filter": {
+                            "type": "string"
+                        },
+                        "min_age": {
+                            "type": "string"
+                        },
+                        "max_age": {
+                            "type": "string"
+                        },
+                        "age_bin": {
+                            "type": "string"
+                        },
+                        "min_code_cnt": {
+                            "type": "string"
+                        },
+                        "fdr": {
+                            "type": "string"
+                        },
+                        "take_top": {
+                            "type": "string"
+                        },
+                        "filter_hierarchy": {
+                            "type": "string"
+                        },
+                        "lift_below": {
+                            "type": "string"
+                        },
+                        "sort_by_chi": {
+                            "type": "string"
+                        },
+                        "minimal_chi_cnt": {
+                            "type": "string"
+                        },
+                        "use_fixed_lift": {
+                            "type": "string"
+                        },
+                        "feature_prefix": {
+                            "type": "string"
+                        },
+                        "stat_metric": {
+                            "type": "string",
+                            "enum": [
+                                "chi-square",
+                                "mcnemar"
+                            ]
+                        },
+                        "max_depth": {
+                            "type": "string"
+                        },
+                        "max_parents": {
+                            "type": "string"
+                        },
+                        "lift_above": {
+                            "type": "string"
+                        },
+                        "generate_with_counts": {
+                            "type": "string"
+                        },
+                        "members": false
+                    },
+                    "required": [
+                        "action_type",
+                        "fg_type",
+                        "signal"
+                    ],
+                    "additionalProperties": true
+                }
+            ]
+        },
+        "action": {
+            "title": "Model Component Action",
+            "type": "object",
+            "oneOf": [
+                {
+                    "title": "Feature Generator Action",
+                    "$ref": "#/$defs/feature_generator"
                 },
                 {
                     "title": "Repository Processor Action",
@@ -237,6 +518,105 @@
                                     "required": [
                                         "rp_type",
                                         "signal"
+                                    ],
+                                    "additionalProperties": true
+                                }
+                            }
+                        },
+                        "required": [
+                            "action_type",
+                            "members"
+                        ],
+                        "additionalProperties": true
+                    }
+                },
+                {
+                    "title": "Feature Processor Action",
+                    "properties": {
+                        "action_type": {
+                            "const": "fp_set"
+                        },
+                        "members": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "rp_type": {
+                                        "type": "string",
+                                        "enum": [
+                                            "basic_cleaner",
+                                            "basic_outlier_cleaner",
+                                            "normalizer",
+                                            "imputer",
+                                            "do_calc",
+                                            "univariate_selector",
+                                            "mrmr",
+                                            "mrmr_selector",
+                                            "lasso",
+                                            "tags_selector",
+                                            "importance_selector",
+                                            "iterative_selector",
+                                            "remove_deg",
+                                            "iterative_imputer",
+                                            "pca",
+                                            "one_hot",
+                                            "get_prob",
+                                            "predcitor_imputer",
+                                            "multiplier",
+                                            "resample_with_missing",
+                                            "duplicate",
+                                            "missing_indicator",
+                                            "binning"
+                                        ]
+                                    },
+                                    "signal": {
+                                        "$ref": "#/$defs/signal"
+                                    },
+                                    "required": [
+                                        "fp_type",
+                                        "signal"
+                                    ],
+                                    "duplicate": {
+                                        "type": "string"
+                                    },
+                                    "additionalProperties": true
+                                }
+                            }
+                        },
+                        "required": [
+                            "action_type",
+                            "members"
+                        ],
+                        "additionalProperties": true
+                    }
+                },
+                {
+                    "title": "Post Processor Action",
+                    "properties": {
+                        "action_type": {
+                            "const": "pp_set"
+                        },
+                        "members": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "pp_type": {
+                                        "type": "string",
+                                        "enum": [
+                                            "calibrator",
+                                            "lime_shap",
+                                            "shapley",
+                                            "missing_shap",
+                                            "iterative_set",
+                                            "tree_shap",
+                                            "aggregate_preds",
+                                            "adjust_probs",
+                                            "fairness_adjust"
+                                        ]
+                                    },
+                                    "required": [
+                                        "pp_type"
                                     ],
                                     "additionalProperties": true
                                 }
