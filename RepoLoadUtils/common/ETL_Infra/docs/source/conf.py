@@ -8,10 +8,10 @@
 import sys, os
 sys.path.insert(0, os.path.abspath('../..'))
 
-project = 'ETL Infrastructure'
-copyright = '2024, Medial Earlysign'
+project = 'MES Python API'
+copyright = '2025, Medial Earlysign'
 author = 'Alon Lanyado'
-release = '1.0.0'
+release = ''
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -27,7 +27,7 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'classic'
-html_static_path = ['_static']
+# html_static_path = ['_static']
 
 autoclass_content = 'both'
 autodoc_typehints = "description"

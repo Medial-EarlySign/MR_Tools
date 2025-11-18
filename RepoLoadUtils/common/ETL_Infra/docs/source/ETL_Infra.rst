@@ -20,7 +20,7 @@ ETL\_Infra.plot\_graph module
    :show-inheritance:
 
 ETL\_Infra.etl\_unit_conversions module
------------------------------
+---------------------------------------
 
 .. automodule:: ETL_Infra.unit_conversions
    :members:

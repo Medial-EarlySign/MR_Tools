@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ETL Infrastructure's documentation!
-==============================================
+Medial EarlySign ETL documentation
+==================================
 
 .. toctree::
    :maxdepth: 7
@@ -12,6 +12,15 @@ Welcome to ETL Infrastructure's documentation!
    
    data_fetcher/data_fethcer
    ETL_Infra
+
+
+MedPython API documentation
+===========================
+.. toctree::
+   :maxdepth: 7
+   :caption: Contents:
+
+   MedPython
 
 Indices and tables
 ==================
