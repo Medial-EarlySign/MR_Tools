@@ -29,7 +29,6 @@ jobs:
       run: |
         export ETL_DIR=$(realpath RepoLoadUtils/common)
         cd RepoLoadUtils/common/ETL_Infra/docs
-        apt install wget
         wget https://github.com/Medial-EarlySign/MR_LIBS/releases/download/V1.0/MES_V1.0.tar.bz2
         tar -xf MES_V1.0.tar.bz2
         export MED_PYTHON=$(realpath MES_V1.0/MedPython)
