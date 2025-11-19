@@ -1,7 +1,7 @@
 // This is an example JSON file with comments. If your editor does not support comments in JSON, you may need to remove them.
 {
-    "$schema": "./medmodel_schema.json",
-    "model_json_version": "2.0",
+    "$schema": "https://raw.githubusercontent.com/Medial-EarlySign/MR_Tools/refs/heads/main/medmodel_schema.json",
+    "model_json_version": 2,
     "model_actions": [
         // Iteratively trim raw signal values that are beyond 7 standard deviations until no more values are trimmed.
         // Remove input values that are beyond 14 standard deviations.
@@ -58,7 +58,7 @@
                     ]
                 }
             ]
-        }
+        },
         // Impute missing signal values using other signals where possible (e.g., MCH = (Hemoglobin / RBC) * 10).
         {
             "action_type": "rp_set",

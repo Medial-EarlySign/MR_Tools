@@ -5,8 +5,8 @@
     "type": "object",
     "properties": {
         "model_json_version": {
-            "type": "string",
-            "default": "2.0",
+            "type": "integer",
+            "default": 2,
             "description": "Version of the model JSON schema."
         },
         "serialize_learning_set": {
