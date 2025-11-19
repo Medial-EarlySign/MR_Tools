@@ -85,401 +85,881 @@
             ]
         },
         "feature_generator": {
+            "title": "Feature Generator",
+            "description": "A single feature generator configuration.",
+            "type": "object",
+            "required": [
+                "fg_type"
+            ],
+            "properties": {
+                "fg_type": {
+                    "type": "string",
+                    "enum": [
+                        "basic",
+                        "age",
+                        "gender",
+                        "singleton",
+                        "binnedLm",
+                        "binnedLM",
+                        "unified_smoking",
+                        "alcohol",
+                        "range",
+                        "drugIntake",
+                        "model",
+                        "time",
+                        "attribute",
+                        "category_depend",
+                        "embedding",
+                        "extract_tbl",
+                        "diabetes_finder"
+                    ]
+                }
+            },
             "oneOf": [
                 {
-                    "title": "Feature Generator: Age/Gender",
-                    "description": "Generates features for age or gender.",
-                    "properties": {
-                        "action_type": {
-                            "const": "feat_generator"
-                        },
-                        "fg_type": {
-                            "type": "string",
-                            "enum": [
-                                "age",
-                                "gender"
-                            ]
-                        },
-                        "members": false
-                    },
-                    "required": [
-                        "action_type",
-                        "fg_type"
-                    ],
-                    "additionalProperties": true
+                    "$ref": "#/$defs/fg_basic"
                 },
                 {
-                    "title": "Feature Generator: Basic",
-                    "description": "The most common feature generator, creating features from a single signal based on various aggregation types.",
+                    "$ref": "#/$defs/fg_age"
+                },
+                {
+                    "$ref": "#/$defs/fg_gender"
+                },
+                {
+                    "$ref": "#/$defs/fg_singleton"
+                },
+                {
+                    "$ref": "#/$defs/fg_binnedLm"
+                },
+                {
+                    "$ref": "#/$defs/fg_binnedLM"
+                },
+                {
+                    "$ref": "#/$defs/fg_unified_smoking"
+                },
+                {
+                    "$ref": "#/$defs/fg_alcohol"
+                },
+                {
+                    "$ref": "#/$defs/fg_range"
+                },
+                {
+                    "$ref": "#/$defs/fg_drugIntake"
+                },
+                {
+                    "$ref": "#/$defs/fg_model"
+                },
+                {
+                    "$ref": "#/$defs/fg_time"
+                },
+                {
+                    "$ref": "#/$defs/fg_attribute"
+                },
+                {
+                    "$ref": "#/$defs/fg_category_depend"
+                },
+                {
+                    "$ref": "#/$defs/fg_embedding"
+                },
+                {
+                    "$ref": "#/$defs/fg_extract_tbl"
+                },
+                {
+                    "$ref": "#/$defs/fg_diabetes_finder"
+                }
+            ]
+        },
+        "fg_basic_properties": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "last",
+                        "first",
+                        "last2",
+                        "avg",
+                        "max",
+                        "min",
+                        "std",
+                        "last_delta",
+                        "last_time",
+                        "last2_time",
+                        "slope",
+                        "win_delta",
+                        "category_set",
+                        "category_set_count",
+                        "category_set_sum",
+                        "nsamples",
+                        "exists",
+                        "range_width",
+                        "max_diff",
+                        "first_time",
+                        "category_set_first",
+                        "category_set_first_time",
+                        "time_since_last_change"
+                    ],
+                    "description": "The type of statistic to calculate."
+                },
+                "win_from": {
+                    "type": "integer",
+                    "description": "Start of the time window in 'time_unit' before the prediction time."
+                },
+                "win_to": {
+                    "type": "integer",
+                    "description": "End of the time window in 'time_unit' before the prediction time."
+                },
+                "d_win_from": {
+                    "type": "integer",
+                    "description": "Start of the second time window for 'win_delta' type."
+                },
+                "d_win_to": {
+                    "type": "integer",
+                    "description": "End of the second time window for 'win_delta' type."
+                },
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "time_unit": {
+                    "type": "string",
+                    "description": "Time unit for the windows (e.g., 'days', 'hours')."
+                },
+                "time_channel": {
+                    "type": "integer",
+                    "description": "Time channel of the signal to use."
+                },
+                "val_channel": {
+                    "type": "integer",
+                    "description": "Value channel of the signal to use."
+                },
+                "sum_channel": {
+                    "type": "integer",
+                    "description": "Value channel to use for summation in 'category_set_sum'."
+                },
+                "sets": {
+                    "type": "string",
+                    "description": "Comma-separated list of category names for 'category_set' types."
+                },
+                "in_set_name": {
+                    "type": "string",
+                    "description": "A name for the set to be used in the feature name."
+                },
+                "bound_outcomeTime": {
+                    "type": "boolean",
+                    "description": "If true, the window is bounded by the outcome time."
+                },
+                "time_range_signal": {
+                    "type": "string",
+                    "description": "A signal that defines a dynamic time range."
+                },
+                "time_range_signal_type": {
+                    "type": "string",
+                    "enum": [
+                        "current",
+                        "before"
+                    ],
+                    "description": "How to use the time_range_signal."
+                },
+                "min_value": {
+                    "type": "number",
+                    "description": "Minimum value for a signal to be considered."
+                },
+                "max_value": {
+                    "type": "number",
+                    "description": "Maximum value for a signal to be considered."
+                },
+                "Nth": {
+                    "type": "integer",
+                    "description": "Index for 'last_nth' type features (0-based)."
+                },
+                "zero_missing": {
+                    "type": "boolean",
+                    "description": "If true, missing values will be replaced by 'zero_missing_val'."
+                },
+                "zero_missing_val": {
+                    "type": "number",
+                    "description": "The value to use when 'zero_missing' is true."
+                },
+                "missing_value": {
+                    "type": "number",
+                    "description": "The value that represents a missing observation."
+                },
+                "full_name": {
+                    "type": "boolean",
+                    "description": "If true, forces the inclusion of channel numbers in the feature name."
+                },
+                "rename_signal": {
+                    "type": "string",
+                    "description": "A new name for the signal part of the feature name."
+                }
+            },
+            "required": [
+                "type",
+                "signal"
+            ]
+        },
+        "fg_basic": {
+            "title": "FG: Basic Statistics",
+            "description": "Generates features based on simple statistics (e.g., last, avg, max) of a signal's values within a specified time window.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_basic_properties"
+                },
+                {
                     "properties": {
-                        "action_type": {
-                            "const": "feat_generator"
-                        },
                         "fg_type": {
                             "const": "basic"
-                        },
-                        "type": {
-                            "oneOf": [
-                                {
-                                    "type": "string",
-                                    "enum": [
-                                        "last",
-                                        "first",
-                                        "last2",
-                                        "avg",
-                                        "max",
-                                        "min",
-                                        "std",
-                                        "last_delta",
-                                        "last_time",
-                                        "last2_time",
-                                        "slope",
-                                        "win_delta",
-                                        "category_set",
-                                        "category_set_count",
-                                        "nsamples",
-                                        "exists",
-                                        "category_set_first",
-                                        "max_diff",
-                                        "category_set_sum",
-                                        "first_time",
-                                        "range_width",
-                                        "category_set_first_time",
-                                        "sum",
-                                        "last_nth",
-                                        "category_set_last_nth",
-                                        "time_since_last_change"
-                                    ]
-                                },
-                                {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "string",
-                                        "enum": [
-                                            "last",
-                                            "first",
-                                            "last2",
-                                            "avg",
-                                            "max",
-                                            "min",
-                                            "std",
-                                            "last_delta",
-                                            "last_time",
-                                            "last2_time",
-                                            "slope",
-                                            "win_delta",
-                                            "category_set",
-                                            "category_set_count",
-                                            "nsamples",
-                                            "exists",
-                                            "category_set_first",
-                                            "max_diff",
-                                            "category_set_sum",
-                                            "first_time",
-                                            "range_width",
-                                            "category_set_first_time",
-                                            "sum",
-                                            "last_nth",
-                                            "category_set_last_nth",
-                                            "time_since_last_change"
-                                        ]
-                                    }
-                                }
-                            ]
-                        },
-                        "signal": {
-                            "$ref": "#/$defs/signal"
-                        },
-                        "members": false
-                    },
-                    "required": [
-                        "action_type",
-                        "fg_type",
-                        "type",
-                        "signal"
-                    ],
-                    "additionalProperties": true
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_age_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "type": "string",
+                    "description": "The signal containing birth date/year information (e.g., 'BDATE', 'BYEAR')."
+                }
+            }
+        },
+        "fg_age": {
+            "title": "FG: Age",
+            "description": "Calculates the age of the patient at the time of each sample.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_age_properties"
                 },
                 {
-                    "title": "Feature Generator: Unified Smoking",
-                    "description": "Generates features related to smoking status.",
                     "properties": {
-                        "action_type": {
-                            "const": "feat_generator"
-                        },
                         "fg_type": {
-                            "const": "unified_smoking"
-                        },
-                        "smoking_features": {
-                            "type": "string",
-                            "description": "Comma-separated list of smoking features to generate."
-                        },
-                        "members": false
-                    },
-                    "required": [
-                        "action_type",
-                        "fg_type",
-                        "smoking_features"
-                    ],
-                    "additionalProperties": true
+                            "const": "age"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_gender_properties": {
+            "type": "object",
+            "properties": {}
+        },
+        "fg_gender": {
+            "title": "FG: Gender",
+            "description": "Extracts the gender of the patient. Requires the 'GENDER' signal.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_gender_properties"
                 },
                 {
-                    "title": "Feature Generator: Time",
-                    "description": "Generates features based on time, such as day of the week or month.",
                     "properties": {
-                        "action_type": {
-                            "const": "feat_generator"
-                        },
                         "fg_type": {
-                            "const": "time"
-                        },
-                        "time_bins": {
-                            "type": "string",
-                            "description": "Configuration for time-based features."
-                        },
-                        "members": false
-                    },
-                    "required": [
-                        "action_type",
-                        "fg_type",
-                        "time_bins"
-                    ],
-                    "additionalProperties": true
+                            "const": "gender"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_singleton_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal",
+                    "description": "The singleton (timeless) signal to use."
+                },
+                "sets": {
+                    "type": "string",
+                    "description": "If specified, creates a binary feature indicating if the signal's value is in this comma-separated set of categories."
+                },
+                "in_set_name": {
+                    "type": "string",
+                    "description": "A name for the set to be used in the feature name."
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "fg_singleton": {
+            "title": "FG: Singleton",
+            "description": "Generates a feature from a singleton signal (a signal with a single, timeless value per patient).",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_singleton_properties"
                 },
                 {
-                    "title": "Feature Generator: Singleton",
-                    "description": "Generates a binary feature indicating if a categorical signal's value is in a given set.",
                     "properties": {
-                        "action_type": {
-                            "const": "feat_generator"
-                        },
                         "fg_type": {
                             "const": "singleton"
-                        },
-                        "signal": {
-                            "$ref": "#/$defs/signal"
-                        },
-                        "sets": {
-                            "oneOf": [
-                                {
-                                    "type": "string"
-                                },
-                                {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "string"
-                                    }
-                                }
-                            ],
-                            "description": "Set of categories to check for."
-                        },
-                        "in_set_name": {
-                            "type": "string",
-                            "description": "Name of the generated feature."
-                        },
-                        "members": false
-                    },
-                    "required": [
-                        "action_type",
-                        "fg_type",
-                        "signal"
-                    ],
-                    "additionalProperties": true
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_binned_lm_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "bin_bounds": {
+                    "type": "string",
+                    "description": "Comma-separated values for bin boundaries."
+                },
+                "min_period": {
+                    "type": "integer"
+                },
+                "max_period": {
+                    "type": "integer"
+                },
+                "rfactor": {
+                    "type": "number"
+                },
+                "estimation_points": {
+                    "type": "string",
+                    "description": "Comma-separated time points for estimation."
+                },
+                "sampling_strategy": {
+                    "type": "string",
+                    "enum": [
+                        "all",
+                        "first",
+                        "last"
+                    ]
+                },
+                "time_unit_periods": {
+                    "type": "string"
+                },
+                "time_channel": {
+                    "type": "integer"
+                },
+                "val_channel": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "fg_binnedLm": {
+            "title": "FG: Binned Linear Model",
+            "description": "Generates features by applying a series of binned linear models.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_binned_lm_properties"
                 },
                 {
-                    "title": "Feature Generator: BinnedLM",
-                    "description": "Generates features using a binned linear model.",
                     "properties": {
-                        "action_type": {
-                            "const": "feat_generator"
-                        },
                         "fg_type": {
-                            "type": "string",
-                            "enum": [
-                                "binnedLm",
-                                "binnedLM"
-                            ]
-                        },
-                        "signal": {
-                            "$ref": "#/$defs/signal"
-                        },
-                        "estimation_points": {
-                            "oneOf": [
-                                {
-                                    "type": "string"
-                                },
-                                {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "string"
-                                    }
-                                }
-                            ],
-                            "description": "Points for estimation."
-                        },
-                        "rfactor": {
-                            "type": "string"
-                        },
-                        "min_period": {
-                            "type": "string"
-                        },
-                        "max_period": {
-                            "type": "string"
-                        },
-                        "members": false
-                    },
-                    "required": [
-                        "action_type",
-                        "fg_type",
-                        "signal",
-                        "estimation_points"
-                    ],
-                    "additionalProperties": true
+                            "const": "binnedLm"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_binnedLM": {
+            "title": "FG: Binned Linear Model (Alias)",
+            "description": "Generates features by applying a series of binned linear models.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_binned_lm_properties"
                 },
                 {
-                    "title": "Feature Generator: Range",
-                    "description": "Generates features from signals that represent time ranges.",
                     "properties": {
-                        "action_type": {
-                            "const": "feat_generator"
-                        },
+                        "fg_type": {
+                            "const": "binnedLM"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_unified_smoking_properties": {
+            "type": "object",
+            "properties": {
+                "smoking_features": {
+                    "type": "string",
+                    "description": "Comma-separated list of smoking sub-features to generate."
+                }
+            }
+        },
+        "fg_unified_smoking": {
+            "title": "FG: Unified Smoking",
+            "description": "A unified generator for various smoking-related features.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_unified_smoking_properties"
+                },
+                {
+                    "properties": {
+                        "fg_type": {
+                            "const": "unified_smoking"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_alcohol_properties": {
+            "type": "object",
+            "properties": {},
+            "description": "Specific properties for the 'alcohol' generator are not detailed in the provided code."
+        },
+        "fg_alcohol": {
+            "title": "FG: Alcohol",
+            "description": "Generates features related to alcohol consumption.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_alcohol_properties"
+                },
+                {
+                    "properties": {
+                        "fg_type": {
+                            "const": "alcohol"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_range_properties": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "current",
+                        "latest",
+                        "max",
+                        "min",
+                        "ever",
+                        "time_diff",
+                        "recurrence_count",
+                        "time_covered",
+                        "last_nth_time_len",
+                        "time_diff_start",
+                        "time_inside"
+                    ],
+                    "description": "The type of feature to generate from the time-range signal."
+                },
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "win_from": {
+                    "type": "integer"
+                },
+                "win_to": {
+                    "type": "integer"
+                },
+                "win_time_unit": {
+                    "type": "string"
+                },
+                "val_channel": {
+                    "type": "integer"
+                },
+                "sets": {
+                    "type": "string",
+                    "description": "Comma-separated list of categories for 'ever', 'time_diff', etc."
+                },
+                "check_first": {
+                    "type": "boolean",
+                    "description": "For 'time_diff', if true, check from the first occurrence, otherwise from the last."
+                },
+                "time_range_signal": {
+                    "type": "string"
+                },
+                "time_range_signal_type": {
+                    "type": "string",
+                    "enum": [
+                        "current",
+                        "before"
+                    ]
+                },
+                "recurrence_delta": {
+                    "type": "integer",
+                    "description": "Time delta for defining a recurrence."
+                },
+                "min_range_time": {
+                    "type": "integer",
+                    "description": "Minimum duration for a range to be considered."
+                },
+                "div_factor": {
+                    "type": "number",
+                    "description": "A division factor, used by 'time_covered'."
+                },
+                "Nth": {
+                    "type": "integer",
+                    "description": "The 0-based index for 'last_nth_time_len'."
+                },
+                "zero_missing": {
+                    "type": "boolean"
+                },
+                "strict_times": {
+                    "type": "boolean"
+                },
+                "conditional_channel": {
+                    "type": "integer"
+                },
+                "first_evidence_time_channel": {
+                    "type": "integer"
+                },
+                "regex_on_sets": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "type",
+                "signal"
+            ]
+        },
+        "fg_range": {
+            "title": "FG: Range",
+            "description": "Generates features from signals that represent a time range with a value (e.g., medication intake).",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_range_properties"
+                },
+                {
+                    "properties": {
                         "fg_type": {
                             "const": "range"
-                        },
-                        "signal": {
-                            "$ref": "#/$defs/signal"
-                        },
-                        "type": {
-                            "type": "string",
-                            "enum": [
-                                "current",
-                                "latest",
-                                "min",
-                                "max",
-                                "ever",
-                                "time_diff",
-                                "time_covered",
-                                "last_nth_time_len",
-                                "time_inside"
-                            ]
-                        },
-                        "sets": {
-                            "oneOf": [
-                                {
-                                    "type": "string"
-                                },
-                                {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "string"
-                                    }
-                                }
-                            ]
-                        },
-                        "div_factor": {
-                            "type": "string"
-                        },
-                        "Nth": {
-                            "type": "string"
-                        },
-                        "members": false
-                    },
-                    "required": [
-                        "action_type",
-                        "fg_type",
-                        "signal",
-                        "type"
-                    ],
-                    "additionalProperties": true
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_drug_intake_properties": {
+            "type": "object",
+            "properties": {},
+            "description": "Specific properties for the 'drugIntake' generator are not detailed in the provided code."
+        },
+        "fg_drugIntake": {
+            "title": "FG: Drug Intake",
+            "description": "Generates features related to drug intake coverage over time.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_drug_intake_properties"
                 },
                 {
-                    "title": "Feature Generator: Category Dependent",
-                    "description": "Generates features based on statistical dependency between categorical signals.",
                     "properties": {
-                        "action_type": {
-                            "const": "feat_generator"
-                        },
+                        "fg_type": {
+                            "const": "drugIntake"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_model_properties": {
+            "type": "object",
+            "properties": {
+                "model_file": {
+                    "type": "string",
+                    "description": "Path to a serialized model file to be used for generating features."
+                },
+                "model_name": {
+                    "type": "string",
+                    "description": "Name for the generated feature."
+                },
+                "model_json": {
+                    "type": "string",
+                    "description": "Path to a model JSON to train a sub-model."
+                },
+                "model_train_samples": {
+                    "type": "string",
+                    "description": "Path to samples for training the sub-model."
+                },
+                "ensure_patient_ids": {
+                    "type": "boolean"
+                },
+                "n_preds": {
+                    "type": "integer",
+                    "description": "Number of predictions (features) to generate."
+                },
+                "impute_existing_feature": {
+                    "type": "boolean",
+                    "description": "If true, use the model to impute an existing feature instead of creating a new one."
+                },
+                "use_overriden_predictions": {
+                    "type": "boolean"
+                },
+                "times": {
+                    "type": "string",
+                    "description": "Comma-separated list of times."
+                }
+            }
+        },
+        "fg_model": {
+            "title": "FG: Model",
+            "description": "Uses a pre-trained model to generate features from its predictions.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_model_properties"
+                },
+                {
+                    "properties": {
+                        "fg_type": {
+                            "const": "model"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_time_properties": {
+            "type": "object",
+            "properties": {
+                "time_unit": {
+                    "type": "string",
+                    "enum": [
+                        "year",
+                        "month",
+                        "day_in_month",
+                        "day_in_week",
+                        "hour",
+                        "minute",
+                        "date"
+                    ],
+                    "description": "The time unit to extract."
+                },
+                "time_bins": {
+                    "type": "string",
+                    "description": "Defines binning for the extracted time unit."
+                }
+            },
+            "required": [
+                "time_unit"
+            ]
+        },
+        "fg_time": {
+            "title": "FG: Time",
+            "description": "Generates features from the timestamp of the samples themselves (e.g., month, day of week, hour).",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_time_properties"
+                },
+                {
+                    "properties": {
+                        "fg_type": {
+                            "const": "time"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_attribute_properties": {
+            "type": "object",
+            "properties": {
+                "attribute": {
+                    "type": "string",
+                    "description": "The name of the sample attribute to use as a feature."
+                },
+                "ftr_name": {
+                    "type": "string",
+                    "description": "An optional new name for the generated feature."
+                }
+            },
+            "required": [
+                "attribute"
+            ]
+        },
+        "fg_attribute": {
+            "title": "FG: Attribute",
+            "description": "Creates a feature directly from a sample attribute.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_attribute_properties"
+                },
+                {
+                    "properties": {
+                        "fg_type": {
+                            "const": "attribute"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_category_depend_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "time_channel": {
+                    "type": "integer"
+                },
+                "val_channel": {
+                    "type": "integer"
+                },
+                "win_from": {
+                    "type": "integer"
+                },
+                "win_to": {
+                    "type": "integer"
+                },
+                "time_unit": {
+                    "type": "string"
+                },
+                "min_age": {
+                    "type": "integer"
+                },
+                "max_age": {
+                    "type": "integer"
+                },
+                "age_bin": {
+                    "type": "integer"
+                },
+                "regex_filter": {
+                    "type": "string"
+                },
+                "remove_regex_filter": {
+                    "type": "string"
+                },
+                "min_code_cnt": {
+                    "type": "integer"
+                },
+                "fdr": {
+                    "type": "number"
+                },
+                "take_top": {
+                    "type": "integer"
+                },
+                "lift_below": {
+                    "type": "number"
+                },
+                "lift_above": {
+                    "type": "number"
+                },
+                "filter_child_pval_diff": {
+                    "type": "number"
+                },
+                "filter_child_lift_ratio": {
+                    "type": "number"
+                },
+                "filter_child_count_ratio": {
+                    "type": "number"
+                },
+                "filter_child_removed_ratio": {
+                    "type": "number"
+                },
+                "stat_metric": {
+                    "type": "string",
+                    "enum": [
+                        "chi_square",
+                        "mcnemar"
+                    ]
+                },
+                "chi_square_at_least": {
+                    "type": "number"
+                },
+                "minimal_chi_cnt": {
+                    "type": "integer"
+                },
+                "sort_by_chi": {
+                    "type": "boolean"
+                },
+                "max_depth": {
+                    "type": "integer"
+                },
+                "max_parents": {
+                    "type": "integer"
+                },
+                "use_fixed_lift": {
+                    "type": "boolean"
+                },
+                "filter_hierarchy": {
+                    "type": "boolean"
+                },
+                "verbose": {
+                    "type": "boolean"
+                },
+                "verbose_full": {
+                    "type": "boolean"
+                },
+                "verbose_full_file": {
+                    "type": "string"
+                },
+                "feature_prefix": {
+                    "type": "string"
+                },
+                "generate_with_counts": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "fg_category_depend": {
+            "title": "FG: Category Dependency",
+            "description": "Discovers and creates features from categorical signals that show strong statistical dependency with the outcome, potentially stratified by age and gender.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_category_depend_properties"
+                },
+                {
+                    "properties": {
                         "fg_type": {
                             "const": "category_depend"
-                        },
-                        "signal": {
-                            "$ref": "#/$defs/signal"
-                        },
-                        "val_channel": {
-                            "type": "string"
-                        },
-                        "time_channel": {
-                            "type": "string"
-                        },
-                        "regex_filter": {
-                            "type": "string"
-                        },
-                        "remove_regex_filter": {
-                            "type": "string"
-                        },
-                        "min_age": {
-                            "type": "string"
-                        },
-                        "max_age": {
-                            "type": "string"
-                        },
-                        "age_bin": {
-                            "type": "string"
-                        },
-                        "min_code_cnt": {
-                            "type": "string"
-                        },
-                        "fdr": {
-                            "type": "string"
-                        },
-                        "take_top": {
-                            "type": "string"
-                        },
-                        "filter_hierarchy": {
-                            "type": "string"
-                        },
-                        "lift_below": {
-                            "type": "string"
-                        },
-                        "sort_by_chi": {
-                            "type": "string"
-                        },
-                        "minimal_chi_cnt": {
-                            "type": "string"
-                        },
-                        "use_fixed_lift": {
-                            "type": "string"
-                        },
-                        "feature_prefix": {
-                            "type": "string"
-                        },
-                        "stat_metric": {
-                            "type": "string",
-                            "enum": [
-                                "chi-square",
-                                "mcnemar"
-                            ]
-                        },
-                        "max_depth": {
-                            "type": "string"
-                        },
-                        "max_parents": {
-                            "type": "string"
-                        },
-                        "lift_above": {
-                            "type": "string"
-                        },
-                        "generate_with_counts": {
-                            "type": "string"
-                        },
-                        "members": false
-                    },
-                    "required": [
-                        "action_type",
-                        "fg_type",
-                        "signal"
-                    ],
-                    "additionalProperties": true
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_embedding_properties": {
+            "type": "object",
+            "properties": {},
+            "description": "Specific properties for the 'embedding' generator are not detailed in the provided code."
+        },
+        "fg_embedding": {
+            "title": "FG: Embedding",
+            "description": "Applies a pre-trained embedding model to generate features.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_embedding_properties"
+                },
+                {
+                    "properties": {
+                        "fg_type": {
+                            "const": "embedding"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_extract_tbl_properties": {
+            "type": "object",
+            "properties": {},
+            "description": "Specific properties for the 'extract_tbl' generator are not detailed in the provided code."
+        },
+        "fg_extract_tbl": {
+            "title": "FG: Extract Table",
+            "description": "Extracts values from a lookup table based on keys and join rules.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_extract_tbl_properties"
+                },
+                {
+                    "properties": {
+                        "fg_type": {
+                            "const": "extract_tbl"
+                        }
+                    }
+                }
+            ]
+        },
+        "fg_diabetes_finder_properties": {
+            "type": "object",
+            "properties": {},
+            "description": "Specific properties for the 'diabetes_finder' generator are not detailed in the provided code."
+        },
+        "fg_diabetes_finder": {
+            "title": "FG: Diabetes Finder",
+            "description": "A specialized generator to find and feature-ize diabetes-related information.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fg_diabetes_finder_properties"
+                },
+                {
+                    "properties": {
+                        "fg_type": {
+                            "const": "diabetes_finder"
+                        }
+                    }
                 }
             ]
         },
