@@ -177,31 +177,66 @@
             "type": "object",
             "properties": {
                 "type": {
-                    "type": "string",
-                    "enum": [
-                        "last",
-                        "first",
-                        "last2",
-                        "avg",
-                        "max",
-                        "min",
-                        "std",
-                        "last_delta",
-                        "last_time",
-                        "last2_time",
-                        "slope",
-                        "win_delta",
-                        "category_set",
-                        "category_set_count",
-                        "category_set_sum",
-                        "nsamples",
-                        "exists",
-                        "range_width",
-                        "max_diff",
-                        "first_time",
-                        "category_set_first",
-                        "category_set_first_time",
-                        "time_since_last_change"
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "enum": [
+                                "last",
+                                "first",
+                                "last2",
+                                "avg",
+                                "max",
+                                "min",
+                                "std",
+                                "last_delta",
+                                "last_time",
+                                "last2_time",
+                                "slope",
+                                "win_delta",
+                                "category_set",
+                                "category_set_count",
+                                "category_set_sum",
+                                "nsamples",
+                                "exists",
+                                "range_width",
+                                "max_diff",
+                                "first_time",
+                                "category_set_first",
+                                "category_set_first_time",
+                                "time_since_last_change"
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "last",
+                                    "first",
+                                    "last2",
+                                    "avg",
+                                    "max",
+                                    "min",
+                                    "std",
+                                    "last_delta",
+                                    "last_time",
+                                    "last2_time",
+                                    "slope",
+                                    "win_delta",
+                                    "category_set",
+                                    "category_set_count",
+                                    "category_set_sum",
+                                    "nsamples",
+                                    "exists",
+                                    "range_width",
+                                    "max_diff",
+                                    "first_time",
+                                    "category_set_first",
+                                    "category_set_first_time",
+                                    "time_since_last_change"
+                                ]
+                            }
+                        }
                     ],
                     "description": "The type of statistic to calculate."
                 },
@@ -296,11 +331,7 @@
                     "type": "string",
                     "description": "A new name for the signal part of the feature name."
                 }
-            },
-            "required": [
-                "type",
-                "signal"
-            ]
+            }
         },
         "fg_basic": {
             "title": "FG: Basic Statistics",
@@ -316,6 +347,10 @@
                         }
                     }
                 }
+            ],
+            "required": [
+                "type",
+                "signal"
             ]
         },
         "fg_age_properties": {
@@ -1385,11 +1420,11 @@
             },
             "required": [
                 "name"
-            ],
-            "additionalProperties": true
+            ]
         },
         "fp_basic_outlier_cleaner": {
             "title": "FP: Basic Outlier Cleaner",
+            "description": "Cleans a feature by removing or trimming outlier values based on standard deviation, quantiles, or a defined range.",
             "allOf": [
                 {
                     "$ref": "#/$defs/fp_basic_outlier_cleaner_properties"
@@ -2332,10 +2367,84 @@
                 "print_summary_critical_cleaned": {
                     "type": "number",
                     "description": "Cleaning ratio threshold to trigger a critical warning."
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "iterative",
+                        "quantile"
+                    ],
+                    "description": "The type of cleaning method to use. 'quantile' for quantile-based, and 'iterative' for iterativly applying quantile cleaning till no effect."
+                },
+                "take_log": {
+                    "type": "integer",
+                    "description": "If non-zero, applies a logarithmic transformation to the feature before cleaning. Useful for log-normally distributed data."
+                },
+                "missing_value": {
+                    "type": "number",
+                    "description": "Specifies the numeric value that represents a missing observation in the feature's data."
+                },
+                "trimming_sd_num": {
+                    "type": "number",
+                    "description": "For 'sd' type. Number of standard deviations from the mean. Values outside this range are trimmed (capped at the boundary)."
+                },
+                "removing_sd_num": {
+                    "type": "number",
+                    "description": "For 'sd' type. Number of standard deviations from the mean. Values outside this range are removed (set to missing)."
+                },
+                "nbrs_sd_num": {
+                    "type": "number",
+                    "description": "For 'sd' type. Number of standard deviations for neighborhood-based outlier detection."
+                },
+                "quantile": {
+                    "type": "number",
+                    "description": "For 'quantile' type. The quantile (e.g., 0.95 for 95th percentile) to use for defining outlier thresholds."
+                },
+                "trimming_quantile_factor": {
+                    "type": "number",
+                    "description": "For 'quantile' type. A factor to multiply the quantile range for trimming."
+                },
+                "removing_quantile_factor": {
+                    "type": "number",
+                    "description": "For 'quantile' type. A factor to multiply the quantile range for removing."
+                },
+                "nbrs_quantile_factor": {
+                    "type": "number",
+                    "description": "For 'quantile' type. A factor for neighborhood-based cleaning using quantiles."
+                },
+                "doTrim": {
+                    "type": "boolean",
+                    "description": "If true, perform trimming of outlier values."
+                },
+                "doRemove": {
+                    "type": "boolean",
+                    "description": "If true, perform removal of outlier values (set to missing)."
+                },
+                "range_min": {
+                    "type": "number",
+                    "description": "For 'range' type. The absolute minimum valid value. Values below this are considered outliers."
+                },
+                "range_max": {
+                    "type": "number",
+                    "description": "For 'range' type. The absolute maximum valid value. Values above this are considered outliers."
+                },
+                "trim_range_min": {
+                    "type": "number",
+                    "description": "The minimum value to which lower-bound outliers are trimmed."
+                },
+                "trim_range_max": {
+                    "type": "number",
+                    "description": "The maximum value to which upper-bound outliers are trimmed."
+                },
+                "max_samples": {
+                    "type": "integer",
+                    "default": 10000,
+                    "description": "Maximum number of samples to use when learning the cleaning parameters (e.g., mean, std dev, quantiles)."
                 }
             },
             "required": [
-                "signal"
+                "signal",
+                "type"
             ]
         },
         "rp_basic_outlier_cleaner": {
@@ -2582,7 +2691,17 @@
                     "description": "Cleaning ratio threshold to trigger a critical warning."
                 },
                 "consideredRules": {
-                    "type": "string",
+                    "oneOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    ],
                     "description": "Comma-separated list of rule IDs to consider."
                 }
             }
@@ -2704,45 +2823,37 @@
         "rp_complete_properties": {
             "type": "object",
             "properties": {
-                "red_line_signals": {
-                    "type": "string",
-                    "description": "Comma-separated list of signals for the red blood cell panel."
-                },
-                "white_line_signals": {
-                    "type": "string",
-                    "description": "Comma-separated list of signals for the white blood cell panel."
-                },
-                "platelets_signals": {
-                    "type": "string",
-                    "description": "Comma-separated list of signals for the platelets panel."
-                },
-                "lipids_signals": {
-                    "type": "string",
-                    "description": "Comma-separated list of signals for the lipids panel."
-                },
-                "egfr_signals": {
-                    "type": "string",
-                    "description": "Comma-separated list of signals for the eGFR calculation."
-                },
-                "bmi_signals": {
-                    "type": "string",
-                    "description": "Comma-separated list of signals for the BMI calculation."
-                },
-                "gcs_signals": {
-                    "type": "string",
-                    "description": "Comma-separated list of signals for the Glasgow Coma Scale."
-                },
                 "panels": {
-                    "type": "string",
-                    "description": "Comma-separated list of panels to complete (e.g., 'red_line,lipids')."
-                },
-                "gender_signal": {
-                    "type": "string",
-                    "description": "The signal containing gender information."
-                },
-                "missing_val_ind": {
-                    "type": "number",
-                    "description": "The value indicating a missing observation."
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "enum": [
+                                "red_line",
+                                "white_line",
+                                "platelets",
+                                "lipids",
+                                "egfr",
+                                "bmi",
+                                "gcs"
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "red_line",
+                                    "white_line",
+                                    "platelets",
+                                    "lipids",
+                                    "egfr",
+                                    "bmi",
+                                    "gcs"
+                                ]
+                            }
+                        }
+                    ],
+                    "description": "list of panels to complete (e.g., 'red_line,lipids')."
                 },
                 "sim_val_handler": {
                     "type": "string",
@@ -2750,11 +2861,14 @@
                         "first",
                         "last",
                         "mean",
-                        "remove"
+                        "remove",
+                        "remove_diff",
+                        "min",
+                        "max"
                     ],
-                    "description": "How to handle simultaneous values."
+                    "description": "How to handle values on the same date."
                 },
-                "metadata_file": {
+                "config": {
                     "type": "string",
                     "description": "Path to metadata file with signal resolutions and conversion factors."
                 }
@@ -2845,7 +2959,7 @@
                     "type": "string",
                     "description": "Comma-separated list of time channels."
                 },
-                "handler_type": {
+                "type": {
                     "type": "string",
                     "enum": [
                         "first",
@@ -2872,7 +2986,7 @@
             },
             "required": [
                 "signal",
-                "handler_type"
+                "type"
             ]
         },
         "rp_sim_val": {
