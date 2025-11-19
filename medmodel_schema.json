@@ -1,41 +1,43 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "MedModel Configuration",
-    "description": "Defines the actions and settings for a model run. This schema provides basic validation and autocompletion. For a full list of all possible attributes and best practices, see the Wiki.",
+    "title": "Medical Model Configuration Schema",
+    "description": "This schema defines the structure for configuring medical model pipelines, including data preprocessing, feature generation, and prediction. It is used for validation and to provide autocompletion in compatible editors.",
     "type": "object",
     "properties": {
         "model_json_version": {
             "type": "string",
-            "default": "2.0"
+            "default": "2.0",
+            "description": "Version of the model JSON schema."
         },
         "serialize_learning_set": {
             "type": "string",
             "default": "0",
-            "description": "If true will store training samples in the model"
+            "description": "If '1' or 'true', the training samples (learning set) will be serialized and stored within the model file. This is useful for debugging and reproducibility, but increases file size."
         },
         "generate_masks_for_features": {
             "type": "string",
             "default": "0",
-            "description": "If true will store missing values in the features before imputations"
+            "description": "If '1' or 'true', a binary mask will be generated for features with missing values before any imputation is performed. This allows the model to potentially learn from the pattern of missingness."
         },
         "max_data_in_mem": {
             "type": "integer",
             "default": 0,
-            "description": "If >0, will limit the maximal array size in memory to break into batches. All the features * Nrows is array size. 0 means no limit."
+            "description": "Maximum size of data (in terms of array elements, i.e., features * rows) to hold in memory at once. If the dataset exceeds this limit, it will be processed in batches. A value of 0 means no limit."
         },
         "take_mean_pred": {
             "type": "string",
-            "default": "1"
+            "default": "1",
+            "description": "For models that produce multiple predictions (e.g., ensembles), this setting determines if the mean of the predictions should be taken. '1' for true, '0' for false."
         },
         "model_actions": {
             "type": "array",
-            "description": "Model Components",
+            "description": "An array of components that define the model's pipeline. Actions are executed in the order they appear.",
             "items": {
                 "$ref": "#/$defs/action"
             }
         },
         "predictor": {
-            "description": "Medial MedPredictor type",
+            "description": "The machine learning algorithm to be used for prediction.",
             "type": "string",
             "enum": [
                 "linear_model",
@@ -58,7 +60,7 @@
             ]
         },
         "predictor_params": {
-            "description": "parameters that will be passed to MedPredictor as key=value",
+            "description": "A string of key-value pairs (e.g., 'param1=value1,param2=value2') that will be passed to the predictor for configuration.",
             "type": "string"
         }
     },
@@ -70,20 +72,23 @@
         "signal": {
             "oneOf": [
                 {
-                    "type": "string"
+                    "type": "string",
+                    "description": "A single signal name."
                 },
                 {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "An array of signal names."
                 }
             ]
         },
         "feature_generator": {
             "oneOf": [
                 {
-                    "title": "Feature Generator Action - Age/Gender",
+                    "title": "Feature Generator: Age/Gender",
+                    "description": "Generates features for age or gender.",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
@@ -104,8 +109,8 @@
                     "additionalProperties": true
                 },
                 {
-                    "title": "Feature Generator Action - Basic",
-                    "description": "Most Common and Basic Feature generator based on a single signal",
+                    "title": "Feature Generator: Basic",
+                    "description": "The most common feature generator, creating features from a single signal based on various aggregation types.",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
@@ -196,7 +201,8 @@
                     "additionalProperties": true
                 },
                 {
-                    "title": "Feature Generator Action - Smoking",
+                    "title": "Feature Generator: Unified Smoking",
+                    "description": "Generates features related to smoking status.",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
@@ -205,7 +211,8 @@
                             "const": "unified_smoking"
                         },
                         "smoking_features": {
-                            "type": "string"
+                            "type": "string",
+                            "description": "Comma-separated list of smoking features to generate."
                         },
                         "members": false
                     },
@@ -217,7 +224,8 @@
                     "additionalProperties": true
                 },
                 {
-                    "title": "Feature Generator Action - Time",
+                    "title": "Feature Generator: Time",
+                    "description": "Generates features based on time, such as day of the week or month.",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
@@ -226,7 +234,8 @@
                             "const": "time"
                         },
                         "time_bins": {
-                            "type": "string"
+                            "type": "string",
+                            "description": "Configuration for time-based features."
                         },
                         "members": false
                     },
@@ -238,7 +247,8 @@
                     "additionalProperties": true
                 },
                 {
-                    "title": "Feature Generator Action - singleton",
+                    "title": "Feature Generator: Singleton",
+                    "description": "Generates a binary feature indicating if a categorical signal's value is in a given set.",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
@@ -260,10 +270,12 @@
                                         "type": "string"
                                     }
                                 }
-                            ]
+                            ],
+                            "description": "Set of categories to check for."
                         },
                         "in_set_name": {
-                            "type": "string"
+                            "type": "string",
+                            "description": "Name of the generated feature."
                         },
                         "members": false
                     },
@@ -275,7 +287,8 @@
                     "additionalProperties": true
                 },
                 {
-                    "title": "Feature Generator Action - binnedLM",
+                    "title": "Feature Generator: BinnedLM",
+                    "description": "Generates features using a binned linear model.",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
@@ -301,7 +314,8 @@
                                         "type": "string"
                                     }
                                 }
-                            ]
+                            ],
+                            "description": "Points for estimation."
                         },
                         "rfactor": {
                             "type": "string"
@@ -323,7 +337,8 @@
                     "additionalProperties": true
                 },
                 {
-                    "title": "Feature Generator Action - Range",
+                    "title": "Feature Generator: Range",
+                    "description": "Generates features from signals that represent time ranges.",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
@@ -378,7 +393,8 @@
                     "additionalProperties": true
                 },
                 {
-                    "title": "Feature Generator Action - Category Depend",
+                    "title": "Feature Generator: Category Dependent",
+                    "description": "Generates features based on statistical dependency between categorical signals.",
                     "properties": {
                         "action_type": {
                             "const": "feat_generator"
@@ -469,6 +485,7 @@
         },
         "action": {
             "title": "Model Component Action",
+            "description": "A single step in the model processing pipeline.",
             "type": "object",
             "oneOf": [
                 {
@@ -476,7 +493,8 @@
                     "$ref": "#/$defs/feature_generator"
                 },
                 {
-                    "title": "Repository Processor Action",
+                    "title": "Repository Processor Action Set",
+                    "description": "A set of repository processors to be applied to the data. These processors perform data cleaning, transformation, and virtual signal creation.",
                     "properties": {
                         "action_type": {
                             "const": "rp_set"
@@ -484,63 +502,19 @@
                         "members": {
                             "type": "array",
                             "items": {
-                                "type": "object",
-                                "properties": {
-                                    "rp_type": {
-                                        "type": "string",
-                                        "enum": [
-                                            "basic_cln",
-                                            "basic_outlier_cleaner",
-                                            "nbrs_outlier_cleaner",
-                                            "nbrs_cln",
-                                            "configured_outlier_cleaner",
-                                            "conf_cln",
-                                            "rulebased_outlier_cleaner",
-                                            "rule_cln",
-                                            "calc_signals",
-                                            "calculator",
-                                            "complete",
-                                            "req",
-                                            "requirements",
-                                            "sim_val",
-                                            "sim_val_handler",
-                                            "signal_rate",
-                                            "combine",
-                                            "split",
-                                            "aggregation_period",
-                                            "basic_range_cleaner",
-                                            "range_cln",
-                                            "aggregate",
-                                            "history_limit",
-                                            "create_registry",
-                                            "bit_signal",
-                                            "category_descenders",
-                                            "reoder_channels",
-                                            "filter_channels",
-                                            "numeric_noiser",
-                                            "filter_by_diag"
-                                        ]
-                                    },
-                                    "signal": {
-                                        "$ref": "#/$defs/signal"
-                                    },
-                                    "required": [
-                                        "rp_type",
-                                        "signal"
-                                    ],
-                                    "additionalProperties": true
-                                }
+                                "$ref": "#/$defs/repository_processor"
                             }
-                        },
-                        "required": [
-                            "action_type",
-                            "members"
-                        ],
-                        "additionalProperties": true
-                    }
+                        }
+                    },
+                    "required": [
+                        "action_type",
+                        "members"
+                    ],
+                    "additionalProperties": true
                 },
                 {
-                    "title": "Feature Processor Action",
+                    "title": "Feature Processor Action Set",
+                    "description": "A set of processors that are applied to the generated features.",
                     "properties": {
                         "action_type": {
                             "const": "fp_set"
@@ -548,59 +522,19 @@
                         "members": {
                             "type": "array",
                             "items": {
-                                "type": "object",
-                                "properties": {
-                                    "rp_type": {
-                                        "type": "string",
-                                        "enum": [
-                                            "basic_cleaner",
-                                            "basic_outlier_cleaner",
-                                            "normalizer",
-                                            "imputer",
-                                            "do_calc",
-                                            "univariate_selector",
-                                            "mrmr",
-                                            "mrmr_selector",
-                                            "lasso",
-                                            "tags_selector",
-                                            "importance_selector",
-                                            "iterative_selector",
-                                            "remove_deg",
-                                            "iterative_imputer",
-                                            "pca",
-                                            "one_hot",
-                                            "get_prob",
-                                            "predcitor_imputer",
-                                            "multiplier",
-                                            "resample_with_missing",
-                                            "duplicate",
-                                            "missing_indicator",
-                                            "binning"
-                                        ]
-                                    },
-                                    "signal": {
-                                        "$ref": "#/$defs/signal"
-                                    },
-                                    "required": [
-                                        "fp_type",
-                                        "signal"
-                                    ],
-                                    "duplicate": {
-                                        "type": "string"
-                                    },
-                                    "additionalProperties": true
-                                }
+                                "$ref": "#/$defs/feature_processor"
                             }
-                        },
-                        "required": [
-                            "action_type",
-                            "members"
-                        ],
-                        "additionalProperties": true
-                    }
+                        }
+                    },
+                    "required": [
+                        "action_type",
+                        "members"
+                    ],
+                    "additionalProperties": true
                 },
                 {
-                    "title": "Post Processor Action",
+                    "title": "Post Processor Action Set",
+                    "description": "A set of processors applied after the model prediction.",
                     "properties": {
                         "action_type": {
                             "const": "pp_set"
@@ -623,22 +557,2228 @@
                                             "adjust_probs",
                                             "fairness_adjust"
                                         ]
-                                    },
-                                    "required": [
-                                        "pp_type"
-                                    ],
-                                    "additionalProperties": true
-                                }
+                                    }
+                                },
+                                "required": [
+                                    "pp_type"
+                                ],
+                                "additionalProperties": true
                             }
-                        },
-                        "required": [
-                            "action_type",
-                            "members"
-                        ],
-                        "additionalProperties": true
+                        }
+                    },
+                    "required": [
+                        "action_type",
+                        "members"
+                    ],
+                    "additionalProperties": true
+                }
+            ]
+        },
+        "repository_processor": {
+            "title": "Repository Processor",
+            "description": "A single repository processor configuration.",
+            "type": "object",
+            "required": [
+                "rp_type"
+            ],
+            "oneOf": [
+                {
+                    "$ref": "#/$defs/rp_basic_outlier_cleaner"
+                },
+                {
+                    "$ref": "#/$defs/rp_basic_cln"
+                },
+                {
+                    "$ref": "#/$defs/rp_nbrs_outlier_cleaner"
+                },
+                {
+                    "$ref": "#/$defs/rp_nbrs_cln"
+                },
+                {
+                    "$ref": "#/$defs/rp_configured_outlier_cleaner"
+                },
+                {
+                    "$ref": "#/$defs/rp_conf_cln"
+                },
+                {
+                    "$ref": "#/$defs/rp_rulebased_outlier_cleaner"
+                },
+                {
+                    "$ref": "#/$defs/rp_rule_cln"
+                },
+                {
+                    "$ref": "#/$defs/rp_calc_signals"
+                },
+                {
+                    "$ref": "#/$defs/rp_calculator"
+                },
+                {
+                    "$ref": "#/$defs/rp_complete"
+                },
+                {
+                    "$ref": "#/$defs/rp_req"
+                },
+                {
+                    "$ref": "#/$defs/rp_requirements"
+                },
+                {
+                    "$ref": "#/$defs/rp_sim_val"
+                },
+                {
+                    "$ref": "#/$defs/rp_sim_val_handler"
+                },
+                {
+                    "$ref": "#/$defs/rp_signal_rate"
+                },
+                {
+                    "$ref": "#/$defs/rp_combine"
+                },
+                {
+                    "$ref": "#/$defs/rp_split"
+                },
+                {
+                    "$ref": "#/$defs/rp_aggregation_period"
+                },
+                {
+                    "$ref": "#/$defs/rp_basic_range_cleaner"
+                },
+                {
+                    "$ref": "#/$defs/rp_range_cln"
+                },
+                {
+                    "$ref": "#/$defs/rp_aggregate"
+                },
+                {
+                    "$ref": "#/$defs/rp_history_limit"
+                },
+                {
+                    "$ref": "#/$defs/rp_create_registry"
+                },
+                {
+                    "$ref": "#/$defs/rp_bit_signal"
+                },
+                {
+                    "$ref": "#/$defs/rp_category_descenders"
+                },
+                {
+                    "$ref": "#/$defs/rp_reorder_channels"
+                },
+                {
+                    "$ref": "#/$defs/rp_filter_channels"
+                },
+                {
+                    "$ref": "#/$defs/rp_numeric_noiser"
+                },
+                {
+                    "$ref": "#/$defs/rp_filter_by_diag"
+                }
+            ]
+        },
+        "feature_processor": {
+            "title": "Feature Processor",
+            "description": "A single feature processor configuration.",
+            "type": "object",
+            "required": [
+                "fp_type"
+            ],
+            "oneOf": [
+                {
+                    "$ref": "#/$defs/fp_basic_outlier_cleaner"
+                },
+                {
+                    "$ref": "#/$defs/fp_basic_cleaner"
+                },
+                {
+                    "$ref": "#/$defs/fp_basic_cln"
+                },
+                {
+                    "$ref": "#/$defs/fp_normalizer"
+                },
+                {
+                    "$ref": "#/$defs/fp_imputer"
+                },
+                {
+                    "$ref": "#/$defs/fp_iterative_imputer"
+                },
+                {
+                    "$ref": "#/$defs/fp_do_calc"
+                },
+                {
+                    "$ref": "#/$defs/fp_univariate_selector"
+                },
+                {
+                    "$ref": "#/$defs/fp_mrmr"
+                },
+                {
+                    "$ref": "#/$defs/fp_mrmr_selector"
+                },
+                {
+                    "$ref": "#/$defs/fp_lasso"
+                },
+                {
+                    "$ref": "#/$defs/fp_remove_deg"
+                },
+                {
+                    "$ref": "#/$defs/fp_tags_selector"
+                },
+                {
+                    "$ref": "#/$defs/fp_importance_selector"
+                },
+                {
+                    "$ref": "#/$defs/fp_iterative_selector"
+                },
+                {
+                    "$ref": "#/$defs/fp_pca"
+                },
+                {
+                    "$ref": "#/$defs/fp_one_hot"
+                },
+                {
+                    "$ref": "#/$defs/fp_get_prob"
+                },
+                {
+                    "$ref": "#/$defs/fp_predictor_imputer"
+                },
+                {
+                    "$ref": "#/$defs/fp_multiplier"
+                },
+                {
+                    "$ref": "#/$defs/fp_resample_with_missing"
+                },
+                {
+                    "$ref": "#/$defs/fp_duplicate"
+                },
+                {
+                    "$ref": "#/$defs/fp_missing_indicator"
+                },
+                {
+                    "$ref": "#/$defs/fp_binning"
+                }
+            ]
+        },
+        "fp_basic_outlier_cleaner_properties": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Name of the feature to clean."
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "additionalProperties": true
+        },
+        "fp_basic_outlier_cleaner": {
+            "title": "FP: Basic Outlier Cleaner",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_basic_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "basic_outlier_cleaner"
+                        }
                     }
                 }
             ]
+        },
+        "fp_basic_cleaner": {
+            "title": "FP: Basic Outlier Cleaner (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_basic_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "basic_cleaner"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_basic_cln": {
+            "title": "FP: Basic Outlier Cleaner (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_basic_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "basic_cln"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_normalizer_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "type": "string",
+                    "description": "Feature name to normalize."
+                },
+                "missing_value": {
+                    "type": "number"
+                },
+                "normalizeSd": {
+                    "type": "boolean",
+                    "description": "If true, normalize by standard deviation."
+                },
+                "resolution_only": {
+                    "type": "boolean"
+                },
+                "fillMissing": {
+                    "type": "boolean",
+                    "description": "If true, fill missing values with the mean."
+                },
+                "max_samples": {
+                    "type": "integer"
+                },
+                "resolution": {
+                    "type": "integer"
+                },
+                "resolution_bin": {
+                    "type": "number"
+                },
+                "vorbosity": {
+                    "type": "integer"
+                },
+                "use_linear_transform": {
+                    "type": "boolean"
+                },
+                "max_val_prctile": {
+                    "type": "number"
+                },
+                "prctile_th": {
+                    "type": "number"
+                },
+                "max_val_for_triming": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "fp_normalizer": {
+            "title": "FP: Normalizer",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_normalizer_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "normalizer"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_imputer_properties": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Feature name to impute."
+                },
+                "min_samples": {
+                    "type": "integer"
+                },
+                "moment_type": {
+                    "type": "string",
+                    "enum": [
+                        "mean",
+                        "median",
+                        "common",
+                        "sample"
+                    ]
+                },
+                "learn_moment_type": {
+                    "type": "string",
+                    "enum": [
+                        "mean",
+                        "median",
+                        "common",
+                        "sample"
+                    ]
+                },
+                "apply_moment_type": {
+                    "type": "string",
+                    "enum": [
+                        "mean",
+                        "median",
+                        "common",
+                        "sample"
+                    ]
+                },
+                "max_samples": {
+                    "type": "integer"
+                },
+                "strata": {
+                    "type": "string",
+                    "description": "Colon-separated strata definitions (e.g., 'Age,40,80,5:Gender,1,2,1')."
+                },
+                "verbose": {
+                    "type": "boolean"
+                },
+                "verbose_learn": {
+                    "type": "boolean"
+                },
+                "round_to_existing_value": {
+                    "type": "boolean"
+                },
+                "leave_missing_for_small_stratas": {
+                    "type": "boolean"
+                },
+                "impute_strata_with_missing": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "name"
+            ]
+        },
+        "fp_imputer": {
+            "title": "FP: Imputer",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_imputer_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "imputer"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_iterative_imputer": {
+            "title": "FP: Iterative Imputer",
+            "properties": {
+                "fp_type": {
+                    "const": "iterative_imputer"
+                }
+            },
+            "additionalProperties": true
+        },
+        "fp_do_calc": {
+            "title": "FP: Do Calc",
+            "properties": {
+                "fp_type": {
+                    "const": "do_calc"
+                }
+            },
+            "additionalProperties": true
+        },
+        "fp_univariate_selector_properties": {
+            "type": "object",
+            "properties": {
+                "method": {
+                    "type": "string",
+                    "enum": [
+                        "pearson",
+                        "mi",
+                        "dcorr"
+                    ]
+                },
+                "minStat": {
+                    "type": "number"
+                },
+                "nBins": {
+                    "type": "integer"
+                },
+                "binMethod": {
+                    "type": "string",
+                    "enum": [
+                        "equi_dist",
+                        "equi_size"
+                    ]
+                },
+                "takeSquare": {
+                    "type": "integer"
+                },
+                "pDistance": {
+                    "type": "number"
+                },
+                "max_samples": {
+                    "type": "integer"
+                }
+            }
+        },
+        "fp_univariate_selector": {
+            "title": "FP: Univariate Selector",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_univariate_selector_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "univariate_selector"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_mrmr_selector_properties": {
+            "type": "object",
+            "properties": {
+                "penalty": {
+                    "type": "number"
+                },
+                "penaltyMethod": {
+                    "type": "string",
+                    "enum": [
+                        "max",
+                        "mean"
+                    ]
+                }
+            }
+        },
+        "fp_mrmr": {
+            "title": "FP: mRMR Selector",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_univariate_selector_properties"
+                },
+                {
+                    "$ref": "#/$defs/fp_mrmr_selector_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "mrmr"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_mrmr_selector": {
+            "title": "FP: mRMR Selector (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_univariate_selector_properties"
+                },
+                {
+                    "$ref": "#/$defs/fp_mrmr_selector_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "mrmr_selector"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_lasso_properties": {
+            "type": "object",
+            "properties": {
+                "initMaxLambda": {
+                    "type": "number"
+                },
+                "lambdaRatio": {
+                    "type": "number"
+                },
+                "lax_lasso_features": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "rate": {
+                    "type": "number"
+                },
+                "momentum": {
+                    "type": "number"
+                },
+                "stop_at_err": {
+                    "type": "number"
+                }
+            }
+        },
+        "fp_lasso": {
+            "title": "FP: Lasso Selector",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_lasso_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "lasso"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_remove_deg_properties": {
+            "type": "object",
+            "properties": {
+                "percentage": {
+                    "type": "number",
+                    "description": "The percentage of a single value that defines a feature as degenerate."
+                }
+            }
+        },
+        "fp_remove_deg": {
+            "title": "FP: Remove Degenerate",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_remove_deg_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "remove_deg"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_tags_selector_properties": {
+            "type": "object",
+            "properties": {
+                "selected_tags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "removed_tags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "verbose": {
+                    "type": "integer"
+                }
+            }
+        },
+        "fp_tags_selector": {
+            "title": "FP: Tags Selector",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_tags_selector_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "tags_selector"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_importance_selector_properties": {
+            "type": "object",
+            "properties": {
+                "predictor": {
+                    "type": "string"
+                },
+                "predictor_params": {
+                    "type": "string"
+                },
+                "importance_params": {
+                    "type": "string"
+                },
+                "minStat": {
+                    "type": "number"
+                },
+                "verbose": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "fp_importance_selector": {
+            "title": "FP: Importance Selector",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_importance_selector_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "importance_selector"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_iterative_selector_properties": {
+            "type": "object",
+            "properties": {
+                "predictor": {
+                    "type": "string"
+                },
+                "predictor_params": {
+                    "type": "string"
+                },
+                "predictor_params_file": {
+                    "type": "string"
+                },
+                "nfolds": {
+                    "type": "integer"
+                },
+                "do_internal_cv": {
+                    "type": "boolean"
+                },
+                "folds": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                },
+                "mode": {
+                    "type": "string",
+                    "enum": [
+                        "top2bottom",
+                        "bottom2top"
+                    ]
+                },
+                "rates": {
+                    "type": "string"
+                },
+                "cohort_params": {
+                    "type": "string"
+                },
+                "bootstrap_params": {
+                    "type": "string"
+                },
+                "msr_params": {
+                    "type": "string"
+                },
+                "work_on_sets": {
+                    "type": "boolean"
+                },
+                "group_to_sigs": {
+                    "type": "boolean"
+                },
+                "ungroupd_names": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "ignored": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "verbose": {
+                    "type": "boolean"
+                },
+                "progress_file_path": {
+                    "type": "string"
+                },
+                "grouping_mode": {
+                    "type": "string"
+                }
+            }
+        },
+        "fp_iterative_selector": {
+            "title": "FP: Iterative Selector",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_iterative_selector_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "iterative_selector"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_pca_properties": {
+            "type": "object",
+            "properties": {
+                "pca_top": {
+                    "type": "integer"
+                },
+                "pca_cutoff": {
+                    "type": "number"
+                },
+                "subsample_count": {
+                    "type": "integer"
+                }
+            }
+        },
+        "fp_pca": {
+            "title": "FP: PCA",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_pca_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "pca"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_one_hot_properties": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Feature name to encode."
+                },
+                "prefix": {
+                    "type": "string"
+                },
+                "remove_origin": {
+                    "type": "boolean"
+                },
+                "add_other": {
+                    "type": "boolean"
+                },
+                "allow_other": {
+                    "type": "boolean"
+                },
+                "remove_last": {
+                    "type": "boolean"
+                },
+                "max_values": {
+                    "type": "integer"
+                },
+                "regex_list": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "regex_list_names": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "other_suffix": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name"
+            ]
+        },
+        "fp_one_hot": {
+            "title": "FP: One-Hot Encoder",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_one_hot_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "one_hot"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_get_prob_properties": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Feature name."
+                },
+                "missing_value": {
+                    "type": "number"
+                },
+                "overall_count": {
+                    "type": "integer"
+                },
+                "min_obs": {
+                    "type": "integer"
+                },
+                "remove_origin": {
+                    "type": "boolean"
+                },
+                "target_labels": {
+                    "type": "string"
+                },
+                "all_labels": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "name"
+            ]
+        },
+        "fp_get_prob": {
+            "title": "FP: Get Probability",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_get_prob_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "get_prob"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_predictor_imputer": {
+            "title": "FP: Predictor Imputer",
+            "properties": {
+                "fp_type": {
+                    "const": "predictor_imputer"
+                }
+            },
+            "additionalProperties": true
+        },
+        "fp_multiplier_properties": {
+            "type": "object",
+            "properties": {
+                "selected_tags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "multiplier_name": {
+                    "type": "string"
+                },
+                "divide": {
+                    "type": "boolean"
+                },
+                "verbose": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "fp_multiplier": {
+            "title": "FP: Multiplier",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_multiplier_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "multiplier"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_resample_with_missing": {
+            "title": "FP: Resample With Missing",
+            "properties": {
+                "fp_type": {
+                    "const": "resample_with_missing"
+                }
+            },
+            "additionalProperties": true
+        },
+        "fp_duplicate": {
+            "title": "FP: Duplicate",
+            "properties": {
+                "fp_type": {
+                    "const": "duplicate"
+                }
+            },
+            "additionalProperties": true
+        },
+        "fp_missing_indicator_properties": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "missing_value": {
+                    "type": "number"
+                },
+                "replace_value": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "name"
+            ]
+        },
+        "fp_missing_indicator": {
+            "title": "FP: Missing Indicator",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_missing_indicator_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "missing_indicator"
+                        }
+                    }
+                }
+            ]
+        },
+        "fp_binning_properties": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "missing_value": {
+                    "type": "number"
+                },
+                "missing_target_val": {
+                    "type": "number"
+                },
+                "remove_origin": {
+                    "type": "boolean"
+                },
+                "one_hot": {
+                    "type": "boolean"
+                },
+                "keep_original_val": {
+                    "type": "boolean"
+                },
+                "bin_format": {
+                    "type": "string"
+                },
+                "bin_sett": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name"
+            ]
+        },
+        "fp_binning": {
+            "title": "FP: Binning",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/fp_binning_properties"
+                },
+                {
+                    "properties": {
+                        "fp_type": {
+                            "const": "binning"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_basic_outlier_cleaner_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "time_channel": {
+                    "type": "integer",
+                    "description": "Time channel to use for cleaning."
+                },
+                "val_channel": {
+                    "type": "integer",
+                    "description": "Value channel to use for cleaning."
+                },
+                "nrem_attr": {
+                    "type": "string",
+                    "description": "Attribute name to store the number of removed values."
+                },
+                "ntrim_attr": {
+                    "type": "string",
+                    "description": "Attribute name to store the number of trimmed values."
+                },
+                "nrem_suff": {
+                    "type": "string",
+                    "description": "Suffix for the attribute name for removed values."
+                },
+                "ntrim_suff": {
+                    "type": "string",
+                    "description": "Suffix for the attribute name for trimmed values."
+                },
+                "verbose_file": {
+                    "type": "string",
+                    "description": "File path for verbose logging."
+                },
+                "unconditional": {
+                    "type": "boolean",
+                    "description": "If true, the processor is always applied."
+                },
+                "print_summary": {
+                    "type": "boolean",
+                    "description": "If true, a summary of the cleaning is printed."
+                },
+                "print_summary_critical_cleaned": {
+                    "type": "number",
+                    "description": "Cleaning ratio threshold to trigger a critical warning."
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "rp_basic_outlier_cleaner": {
+            "title": "RP: Basic Outlier Cleaner",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_basic_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "basic_outlier_cleaner"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_basic_cln": {
+            "title": "RP: Basic Outlier Cleaner (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_basic_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "basic_cln"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_nbrs_outlier_cleaner_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "time_channel": {
+                    "type": "integer"
+                },
+                "val_channel": {
+                    "type": "integer"
+                },
+                "nrem_attr": {
+                    "type": "string"
+                },
+                "ntrim_attr": {
+                    "type": "string"
+                },
+                "nrem_suff": {
+                    "type": "string"
+                },
+                "ntrim_suff": {
+                    "type": "string"
+                },
+                "time_unit": {
+                    "type": "string"
+                },
+                "nbr_time_unit": {
+                    "type": "string"
+                },
+                "nbr_time_width": {
+                    "type": "integer"
+                },
+                "unconditional": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "rp_nbrs_outlier_cleaner": {
+            "title": "RP: Neighbors Outlier Cleaner",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_nbrs_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "nbrs_outlier_cleaner"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_nbrs_cln": {
+            "title": "RP: Neighbors Outlier Cleaner (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_nbrs_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "nbrs_cln"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_configured_outlier_cleaner_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "time_channel": {
+                    "type": "integer"
+                },
+                "val_channel": {
+                    "type": "integer"
+                },
+                "nrem_attr": {
+                    "type": "string"
+                },
+                "ntrim_attr": {
+                    "type": "string"
+                },
+                "nrem_suff": {
+                    "type": "string"
+                },
+                "ntrim_suff": {
+                    "type": "string"
+                },
+                "conf_file": {
+                    "type": "string",
+                    "description": "Path to the configuration file for outlier parameters."
+                },
+                "clean_method": {
+                    "type": "string",
+                    "description": "Cleaning method to use."
+                },
+                "unconditional": {
+                    "type": "boolean"
+                },
+                "verbose_file": {
+                    "type": "string"
+                },
+                "print_summary": {
+                    "type": "boolean"
+                },
+                "print_summary_critical_cleaned": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "signal",
+                "conf_file"
+            ]
+        },
+        "rp_configured_outlier_cleaner": {
+            "title": "RP: Configured Outlier Cleaner",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_configured_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "configured_outlier_cleaner"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_conf_cln": {
+            "title": "RP: Configured Outlier Cleaner (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_configured_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "conf_cln"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_rulebased_outlier_cleaner_properties": {
+            "type": "object",
+            "properties": {
+                "rules2Signals": {
+                    "type": "string",
+                    "description": "Path to file defining which signals participate in which rule."
+                },
+                "signal_channels": {
+                    "type": "string",
+                    "description": "Path to file defining time and value channels for signals."
+                },
+                "time_window": {
+                    "type": "integer",
+                    "description": "Time window in which to look for signals to apply a rule."
+                },
+                "nrem_attr": {
+                    "type": "string"
+                },
+                "verbose_file": {
+                    "type": "string"
+                },
+                "nrem_suff": {
+                    "type": "string"
+                },
+                "tolerance": {
+                    "type": "number"
+                },
+                "calc_res": {
+                    "type": "number"
+                },
+                "unconditional": {
+                    "type": "boolean"
+                },
+                "print_summary": {
+                    "type": "boolean"
+                },
+                "print_summary_critical_cleaned": {
+                    "type": "number"
+                },
+                "consideredRules": {
+                    "type": "string",
+                    "description": "Comma-separated list of rule IDs to consider."
+                }
+            }
+        },
+        "rp_rulebased_outlier_cleaner": {
+            "title": "RP: Rule-Based Outlier Cleaner",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_rulebased_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "rulebased_outlier_cleaner"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_rule_cln": {
+            "title": "RP: Rule-Based Outlier Cleaner (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_rulebased_outlier_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "rule_cln"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_calc_signals_properties": {
+            "type": "object",
+            "properties": {
+                "calculator": {
+                    "type": "string",
+                    "description": "The type of calculation to perform."
+                },
+                "signals": {
+                    "oneOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    ],
+                    "description": "Input signals for the calculation."
+                },
+                "V_names": {
+                    "type": "string",
+                    "description": "Names for the output virtual signals."
+                },
+                "work_channel": {
+                    "type": "integer"
+                },
+                "time_channel": {
+                    "type": "integer"
+                },
+                "output_signal_type": {
+                    "type": "string"
+                },
+                "max_time_search_range": {
+                    "type": "integer"
+                },
+                "signals_time_unit": {
+                    "type": "string"
+                },
+                "calculator_init_params": {
+                    "type": "string",
+                    "description": "Initialization parameters for the calculator."
+                }
+            },
+            "required": [
+                "calculator"
+            ]
+        },
+        "rp_calc_signals": {
+            "title": "RP: Calculate Signals",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_calc_signals_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "calc_signals"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_calculator": {
+            "title": "RP: Calculate Signals (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_calc_signals_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "calculator"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_complete_properties": {
+            "type": "object",
+            "properties": {
+                "red_line_signals": {
+                    "type": "string"
+                },
+                "white_line_signals": {
+                    "type": "string"
+                },
+                "platelets_signals": {
+                    "type": "string"
+                },
+                "lipids_signals": {
+                    "type": "string"
+                },
+                "egfr_signals": {
+                    "type": "string"
+                },
+                "bmi_signals": {
+                    "type": "string"
+                },
+                "gcs_signals": {
+                    "type": "string"
+                },
+                "panels": {
+                    "type": "string",
+                    "description": "Comma-separated list of panels to complete (e.g., 'red_line,lipids')."
+                },
+                "gender_signal": {
+                    "type": "string"
+                },
+                "missing_val_ind": {
+                    "type": "number"
+                },
+                "sim_val_handler": {
+                    "type": "string",
+                    "enum": [
+                        "first",
+                        "last",
+                        "mean",
+                        "remove"
+                    ]
+                },
+                "metadata_file": {
+                    "type": "string",
+                    "description": "Path to metadata file with signal resolutions and conversion factors."
+                }
+            }
+        },
+        "rp_complete": {
+            "title": "RP: Panel Completer",
+            "description": "Completes (fills-in) missing values in common medical panels where signals are physiologically related.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_complete_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "complete"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_check_req_properties": {
+            "type": "object",
+            "properties": {
+                "signals": {
+                    "type": "string",
+                    "description": "Comma-separated list of required signals."
+                },
+                "time_channels": {
+                    "type": "string",
+                    "description": "Comma-separated list of time channels for each signal."
+                },
+                "win_from": {
+                    "type": "integer"
+                },
+                "win_to": {
+                    "type": "integer"
+                },
+                "window_time_unit": {
+                    "type": "string"
+                },
+                "attrName": {
+                    "type": "string",
+                    "description": "Attribute name to store the compliance check result."
+                }
+            }
+        },
+        "rp_req": {
+            "title": "RP: Check Requirements",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_check_req_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "req"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_requirements": {
+            "title": "RP: Check Requirements (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_check_req_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "requirements"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_sim_val_handler_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "time_channels": {
+                    "type": "string"
+                },
+                "handler_type": {
+                    "type": "string",
+                    "enum": [
+                        "first",
+                        "last",
+                        "mean",
+                        "remove",
+                        "rem_diff",
+                        "min",
+                        "max"
+                    ]
+                },
+                "nHandle_attr": {
+                    "type": "string"
+                },
+                "nHandle_attr_suffix": {
+                    "type": "string"
+                },
+                "debug": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "signal",
+                "handler_type"
+            ]
+        },
+        "rp_sim_val": {
+            "title": "RP: Simultaneous Value Handler",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_sim_val_handler_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "sim_val"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_sim_val_handler": {
+            "title": "RP: Simultaneous Value Handler (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_sim_val_handler_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "sim_val_handler"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_signal_rate_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "output_name": {
+                    "type": "string"
+                },
+                "work_channel": {
+                    "type": "integer"
+                },
+                "factor": {
+                    "type": "number"
+                },
+                "output_signal_type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "rp_signal_rate": {
+            "title": "RP: Signal Rate",
+            "description": "Calculates a rate by dividing a signal's value by time.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_signal_rate_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "signal_rate"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_combine_properties": {
+            "type": "object",
+            "properties": {
+                "output_name": {
+                    "type": "string"
+                },
+                "signals": {
+                    "type": "string",
+                    "description": "Comma-separated list of signals to combine."
+                },
+                "factors": {
+                    "type": "string",
+                    "description": "Comma-separated list of factors for each signal."
+                },
+                "factor_channel": {
+                    "type": "integer"
+                },
+                "signal_type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "output_name",
+                "signals"
+            ]
+        },
+        "rp_combine": {
+            "title": "RP: Combine Signals",
+            "description": "Combines multiple signals into a single virtual signal.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_combine_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "combine"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_split_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "output_names": {
+                    "type": "string",
+                    "description": "Comma-separated names for the output signals."
+                },
+                "factors": {
+                    "type": "string"
+                },
+                "sets": {
+                    "type": "string",
+                    "description": "Semicolon-separated lists of categories to define the split."
+                },
+                "val_channel": {
+                    "type": "integer"
+                },
+                "output_signal_type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "signal",
+                "output_names",
+                "sets"
+            ]
+        },
+        "rp_split": {
+            "title": "RP: Split Signal",
+            "description": "Splits a signal into multiple virtual signals based on categorical values.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_split_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "split"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_aggregation_period_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "output_name": {
+                    "type": "string"
+                },
+                "sets": {
+                    "type": "string"
+                },
+                "period": {
+                    "type": "integer"
+                },
+                "time_unit_win": {
+                    "type": "string"
+                },
+                "time_unit_sig": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "signal",
+                "output_name"
+            ]
+        },
+        "rp_aggregation_period": {
+            "title": "RP: Aggregation Period",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_aggregation_period_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "aggregation_period"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_basic_range_cleaner_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "ranges_name": {
+                    "type": "string"
+                },
+                "output_name": {
+                    "type": "string"
+                },
+                "time_channel": {
+                    "type": "integer"
+                },
+                "range_time_channel": {
+                    "type": "integer"
+                },
+                "output_type": {
+                    "oneOf": [
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "get_values_in_range": {
+                    "type": "integer"
+                },
+                "range_operator": {
+                    "type": "string",
+                    "enum": [
+                        "all",
+                        "first",
+                        "last"
+                    ]
+                },
+                "range_val_channel": {
+                    "type": "integer"
+                },
+                "sets": {
+                    "type": "string"
+                },
+                "regex_on_sets": {
+                    "type": "boolean"
+                },
+                "last_n": {
+                    "type": "integer"
+                },
+                "do_on_last_n": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "signal",
+                "ranges_name"
+            ]
+        },
+        "rp_basic_range_cleaner": {
+            "title": "RP: Basic Range Cleaner",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_basic_range_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "basic_range_cleaner"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_range_cln": {
+            "title": "RP: Basic Range Cleaner (alias)",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_basic_range_cleaner_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "range_cln"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_aggregate_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "output_name": {
+                    "type": "string"
+                },
+                "work_channel": {
+                    "type": "integer"
+                },
+                "start_time_channel": {
+                    "type": "integer"
+                },
+                "end_time_channel": {
+                    "type": "integer"
+                },
+                "factor": {
+                    "type": "number"
+                },
+                "time_window": {
+                    "type": "integer"
+                },
+                "time_unit": {
+                    "type": "string"
+                },
+                "drop_missing_rate": {
+                    "type": "number"
+                },
+                "buffer_first": {
+                    "type": "boolean"
+                },
+                "output_signal_type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "signal",
+                "output_name"
+            ]
+        },
+        "rp_aggregate": {
+            "title": "RP: Aggregate Signal",
+            "description": "Aggregates a signal's values over a sliding time window.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_aggregate_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "aggregate"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_history_limit_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "time_channel": {
+                    "type": "integer"
+                },
+                "truncate_time_channel": {
+                    "type": "integer"
+                },
+                "win_time_unit": {
+                    "type": "string"
+                },
+                "rep_time_unit": {
+                    "type": "string"
+                },
+                "win_from": {
+                    "type": "integer"
+                },
+                "win_to": {
+                    "type": "integer"
+                },
+                "delete_sig": {
+                    "type": "integer"
+                },
+                "take_last_events": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "rp_history_limit": {
+            "title": "RP: History Limit",
+            "description": "Limits the history of a signal to a specified time window relative to the prediction point.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_history_limit_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "history_limit"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_create_registry": {
+            "title": "RP: Create Registry",
+            "description": "Creates a registry signal (e.g., for diagnoses or conditions).",
+            "properties": {
+                "rp_type": {
+                    "const": "create_registry"
+                }
+            },
+            "additionalProperties": true
+        },
+        "rp_bit_signal_properties": {
+            "type": "object",
+            "properties": {
+                "in_sig": {
+                    "type": "string"
+                },
+                "out_virtual": {
+                    "type": "string"
+                },
+                "t_chan": {
+                    "type": "integer"
+                },
+                "c_chan": {
+                    "type": "integer"
+                },
+                "duration_chan": {
+                    "type": "integer"
+                },
+                "min_duration": {
+                    "type": "integer"
+                },
+                "min_durations": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                },
+                "max_duration": {
+                    "type": "integer"
+                },
+                "duration_add": {
+                    "type": "number"
+                },
+                "duration_mult": {
+                    "type": "number"
+                },
+                "dont_look_back": {
+                    "type": "integer"
+                },
+                "min_clip_time": {
+                    "type": "integer"
+                },
+                "last_clip_period": {
+                    "type": "integer"
+                },
+                "min_jitters": {
+                    "type": "string"
+                },
+                "categories_names": {
+                    "type": "string"
+                },
+                "categories_sets": {
+                    "type": "string"
+                },
+                "time_unit_sig": {
+                    "type": "string"
+                },
+                "time_unit_duration": {
+                    "type": "string"
+                },
+                "change_at_prescription_mode": {
+                    "type": "boolean"
+                },
+                "print_dict": {
+                    "type": "string"
+                },
+                "time_channels": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "in_sig",
+                "out_virtual",
+                "categories_names",
+                "categories_sets"
+            ]
+        },
+        "rp_bit_signal": {
+            "title": "RP: Create Bit Signal",
+            "description": "Creates a virtual signal where each bit represents the state of a category (e.g., a medication).",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_bit_signal_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "bit_signal"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_category_descenders": {
+            "title": "RP: Category Descenders",
+            "description": "Creates all descender values for each category value.",
+            "properties": {
+                "rp_type": {
+                    "const": "category_descenders"
+                },
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                }
+            },
+            "required": [
+                "signal"
+            ],
+            "additionalProperties": true
+        },
+        "rp_reorder_channels_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "new_order": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    },
+                    "description": "An array specifying the new order of channels."
+                }
+            },
+            "required": [
+                "signal",
+                "new_order"
+            ]
+        },
+        "rp_reorder_channels": {
+            "title": "RP: Reorder Channels",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_reorder_channels_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "reoder_channels"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_filter_channels_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "output_name": {
+                    "type": "string"
+                },
+                "val_channel": {
+                    "type": "integer"
+                },
+                "sets": {
+                    "type": "string"
+                },
+                "keep_values_in_set": {
+                    "type": "integer"
+                },
+                "output_type": {
+                    "oneOf": [
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "rp_filter_channels": {
+            "title": "RP: Filter by Channels",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_filter_channels_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "filter_channels"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_numeric_noiser_properties": {
+            "type": "object",
+            "properties": {
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                },
+                "val_channel": {
+                    "type": "integer"
+                },
+                "time_channel": {
+                    "type": "integer"
+                },
+                "time_noise": {
+                    "type": "integer"
+                },
+                "value_noise": {
+                    "type": "number"
+                },
+                "truncation": {
+                    "type": "integer"
+                },
+                "drop_probability": {
+                    "type": "number"
+                },
+                "apply_in_test": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "signal"
+            ]
+        },
+        "rp_numeric_noiser": {
+            "title": "RP: Numeric Noiser",
+            "description": "Adds Gaussian noise to values and uniform noise to time for a numeric signal.",
+            "allOf": [
+                {
+                    "$ref": "#/$defs/rp_numeric_noiser_properties"
+                },
+                {
+                    "properties": {
+                        "rp_type": {
+                            "const": "numeric_noiser"
+                        }
+                    }
+                }
+            ]
+        },
+        "rp_filter_by_diag": {
+            "title": "RP: Filter by Diagnosis",
+            "description": "Clears a signal based on diagnosis codes.",
+            "properties": {
+                "rp_type": {
+                    "const": "filter_by_diag"
+                },
+                "signal": {
+                    "$ref": "#/$defs/signal"
+                }
+            },
+            "required": [
+                "signal"
+            ],
+            "additionalProperties": true
         }
     }
 }
