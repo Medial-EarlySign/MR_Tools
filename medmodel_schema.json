@@ -92,6 +92,10 @@
                 "fg_type"
             ],
             "properties": {
+                "action_type": {
+                    "const": "feat_generator",
+                    "type": "string"
+                },
                 "fg_type": {
                     "type": "string",
                     "enum": [
@@ -1106,7 +1110,21 @@
                     ],
                     "additionalProperties": true
                 }
-            ]
+            ],
+            "required": [
+                "action_type"
+            ],
+            "properties": {
+                "action_type": {
+                    "type": "string",
+                    "enum": [
+                        "rp_set",
+                        "feat_generator",
+                        "fp_set",
+                        "pp_set"
+                    ]
+                }
+            }
         },
         "repository_processor": {
             "title": "Repository Processor",
