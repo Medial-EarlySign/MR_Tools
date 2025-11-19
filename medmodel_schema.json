@@ -399,20 +399,24 @@
             "type": "object",
             "properties": {
                 "signal": {
-                    "$ref": "#/$defs/signal"
+                    "$ref": "#/$defs/signal",
+                    "description": "The signal to apply the binned linear model to."
                 },
                 "bin_bounds": {
                     "type": "string",
                     "description": "Comma-separated values for bin boundaries."
                 },
                 "min_period": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Minimum time period for a bin to be considered valid."
                 },
                 "max_period": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum time period for a bin to be considered valid."
                 },
                 "rfactor": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Regularization factor, decrease in learning rate in each cycle."
                 },
                 "estimation_points": {
                     "type": "string",
@@ -424,16 +428,20 @@
                         "all",
                         "first",
                         "last"
-                    ]
+                    ],
+                    "description": "The sampling strategy to use within each bin."
                 },
                 "time_unit_periods": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for min_period and max_period (e.g., 'days', 'hours')."
                 },
                 "time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The channel index for the timestamp in the signal."
                 },
                 "val_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The channel index for the value in the signal."
                 }
             },
             "required": [
@@ -542,16 +550,20 @@
                     "$ref": "#/$defs/signal"
                 },
                 "win_from": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Start of the time window in 'win_time_unit' before the prediction time."
                 },
                 "win_to": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "End of the time window in 'win_time_unit' before the prediction time."
                 },
                 "win_time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for the windows (e.g., 'days', 'hours')."
                 },
                 "val_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Value channel of the signal to use."
                 },
                 "sets": {
                     "type": "string",
@@ -562,14 +574,16 @@
                     "description": "For 'time_diff', if true, check from the first occurrence, otherwise from the last."
                 },
                 "time_range_signal": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "A signal that defines a dynamic time range."
                 },
                 "time_range_signal_type": {
                     "type": "string",
                     "enum": [
                         "current",
                         "before"
-                    ]
+                    ],
+                    "description": "How to use the time_range_signal."
                 },
                 "recurrence_delta": {
                     "type": "integer",
@@ -588,19 +602,24 @@
                     "description": "The 0-based index for 'last_nth_time_len'."
                 },
                 "zero_missing": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, missing values will be replaced by 0."
                 },
                 "strict_times": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, the time range must be strictly within the window."
                 },
                 "conditional_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "A channel to use for conditional calculations."
                 },
                 "first_evidence_time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The channel containing the first evidence time."
                 },
                 "regex_on_sets": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, the 'sets' property will be treated as a regex."
                 }
             },
             "required": [
@@ -665,7 +684,8 @@
                     "description": "Path to samples for training the sub-model."
                 },
                 "ensure_patient_ids": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, ensures that patient IDs are consistent between the main model and the sub-model."
                 },
                 "n_preds": {
                     "type": "integer",
@@ -676,7 +696,8 @@
                     "description": "If true, use the model to impute an existing feature instead of creating a new one."
                 },
                 "use_overriden_predictions": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, allows the sub-model's predictions to be overridden."
                 },
                 "times": {
                     "type": "string",
@@ -777,107 +798,140 @@
             "type": "object",
             "properties": {
                 "signal": {
-                    "$ref": "#/$defs/signal"
+                    "$ref": "#/$defs/signal",
+                    "description": "The categorical signal to analyze."
                 },
                 "time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Time channel of the signal."
                 },
                 "val_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Value channel of the signal."
                 },
                 "win_from": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Start of the time window."
                 },
                 "win_to": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "End of the time window."
                 },
                 "time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for the window."
                 },
                 "min_age": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Minimum age for a patient to be included."
                 },
                 "max_age": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum age for a patient to be included."
                 },
                 "age_bin": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Age bin size for stratification."
                 },
                 "regex_filter": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Regex to filter categories."
                 },
                 "remove_regex_filter": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Regex to remove categories."
                 },
                 "min_code_cnt": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Minimum count for a category to be considered."
                 },
                 "fdr": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "False Discovery Rate for statistical tests."
                 },
                 "take_top": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Take the top N features."
                 },
                 "lift_below": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Filter features with lift below this value."
                 },
                 "lift_above": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Filter features with lift above this value."
                 },
                 "filter_child_pval_diff": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "P-value difference threshold for filtering child categories."
                 },
                 "filter_child_lift_ratio": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Lift ratio threshold for filtering child categories."
                 },
                 "filter_child_count_ratio": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Count ratio threshold for filtering child categories."
                 },
                 "filter_child_removed_ratio": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Removed ratio threshold for filtering child categories."
                 },
                 "stat_metric": {
                     "type": "string",
                     "enum": [
                         "chi_square",
                         "mcnemar"
-                    ]
+                    ],
+                    "description": "Statistical metric to use for dependency calculation."
                 },
                 "chi_square_at_least": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Minimum chi-square value."
                 },
                 "minimal_chi_cnt": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Minimum count for chi-square calculation."
                 },
                 "sort_by_chi": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, sort features by chi-square value."
                 },
                 "max_depth": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum depth in the category hierarchy."
                 },
                 "max_parents": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum number of parents for a category."
                 },
                 "use_fixed_lift": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, use a fixed lift value."
                 },
                 "filter_hierarchy": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, filter based on the category hierarchy."
                 },
                 "verbose": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Enable verbose output."
                 },
                 "verbose_full": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Enable full verbose output."
                 },
                 "verbose_full_file": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "File to write full verbose output to."
                 },
                 "feature_prefix": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Prefix for generated feature names."
                 },
                 "generate_with_counts": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, generate features with counts."
                 }
             },
             "required": [
@@ -1369,42 +1423,52 @@
                     "description": "Feature name to normalize."
                 },
                 "missing_value": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "The value that represents a missing observation."
                 },
                 "normalizeSd": {
                     "type": "boolean",
                     "description": "If true, normalize by standard deviation."
                 },
                 "resolution_only": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, only apply resolution transformation."
                 },
                 "fillMissing": {
                     "type": "boolean",
                     "description": "If true, fill missing values with the mean."
                 },
                 "max_samples": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum number of samples to use for learning normalization parameters."
                 },
                 "resolution": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Resolution for discretization."
                 },
                 "resolution_bin": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Bin size for resolution."
                 },
                 "vorbosity": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Verbosity level."
                 },
                 "use_linear_transform": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, apply a linear transformation."
                 },
                 "max_val_prctile": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Percentile for trimming maximum values."
                 },
                 "prctile_th": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Threshold for percentile trimming."
                 },
                 "max_val_for_triming": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Maximum value for trimming."
                 }
             },
             "required": [
@@ -1434,7 +1498,8 @@
                     "description": "Feature name to impute."
                 },
                 "min_samples": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Minimum number of samples required to compute the imputation value."
                 },
                 "moment_type": {
                     "type": "string",
@@ -1443,7 +1508,8 @@
                         "median",
                         "common",
                         "sample"
-                    ]
+                    ],
+                    "description": "The type of statistic to use for imputation (e.g., mean, median)."
                 },
                 "learn_moment_type": {
                     "type": "string",
@@ -1452,7 +1518,8 @@
                         "median",
                         "common",
                         "sample"
-                    ]
+                    ],
+                    "description": "The type of statistic to learn from the data."
                 },
                 "apply_moment_type": {
                     "type": "string",
@@ -1461,29 +1528,36 @@
                         "median",
                         "common",
                         "sample"
-                    ]
+                    ],
+                    "description": "The type of statistic to apply for imputation."
                 },
                 "max_samples": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum number of samples to use for learning imputation values."
                 },
                 "strata": {
                     "type": "string",
                     "description": "Colon-separated strata definitions (e.g., 'Age,40,80,5:Gender,1,2,1')."
                 },
                 "verbose": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Enable verbose output."
                 },
                 "verbose_learn": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Enable verbose output during learning."
                 },
                 "round_to_existing_value": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, round the imputed value to the nearest existing value."
                 },
                 "leave_missing_for_small_stratas": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, do not impute for small strata."
                 },
                 "impute_strata_with_missing": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, impute strata that have missing values."
                 }
             },
             "required": [
@@ -1532,29 +1606,36 @@
                         "pearson",
                         "mi",
                         "dcorr"
-                    ]
+                    ],
+                    "description": "The statistical method to use for feature selection."
                 },
                 "minStat": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "The minimum statistic value for a feature to be selected."
                 },
                 "nBins": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Number of bins for discretization when using 'mi' or 'dcorr'."
                 },
                 "binMethod": {
                     "type": "string",
                     "enum": [
                         "equi_dist",
                         "equi_size"
-                    ]
+                    ],
+                    "description": "The method to use for binning."
                 },
                 "takeSquare": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "If 1, use the square of the statistic."
                 },
                 "pDistance": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Power for the distance correlation ('dcorr') method."
                 },
                 "max_samples": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum number of samples to use for calculation."
                 }
             }
         },
@@ -1577,14 +1658,16 @@
             "type": "object",
             "properties": {
                 "penalty": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "The penalty coefficient for the mRMR calculation."
                 },
                 "penaltyMethod": {
                     "type": "string",
                     "enum": [
                         "max",
                         "mean"
-                    ]
+                    ],
+                    "description": "The method to apply the penalty ('max' or 'mean')."
                 }
             }
         },
@@ -1628,25 +1711,31 @@
             "type": "object",
             "properties": {
                 "initMaxLambda": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Initial maximum lambda value for the LASSO path."
                 },
                 "lambdaRatio": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Ratio for decreasing lambda in the LASSO path."
                 },
                 "lax_lasso_features": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "List of features to which LASSO is applied more leniently."
                 },
                 "rate": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Learning rate for the LASSO solver."
                 },
                 "momentum": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Momentum for the LASSO solver."
                 },
                 "stop_at_err": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Error threshold to stop the LASSO solver."
                 }
             }
         },
@@ -1696,16 +1785,19 @@
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "An array of tags. Features with any of these tags will be selected."
                 },
                 "removed_tags": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "An array of tags. Features with any of these tags will be removed."
                 },
                 "verbose": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Verbosity level."
                 }
             }
         },
@@ -1728,19 +1820,24 @@
             "type": "object",
             "properties": {
                 "predictor": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The predictor to use for calculating feature importance."
                 },
                 "predictor_params": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Parameters for the predictor."
                 },
                 "importance_params": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Parameters for the importance calculation."
                 },
                 "minStat": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Minimum importance score for a feature to be selected."
                 },
                 "verbose": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Enable verbose output."
                 }
             }
         },
@@ -1763,71 +1860,89 @@
             "type": "object",
             "properties": {
                 "predictor": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The predictor to use for iterative selection."
                 },
                 "predictor_params": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Parameters for the predictor."
                 },
                 "predictor_params_file": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Path to a file with predictor parameters."
                 },
                 "nfolds": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Number of folds for cross-validation."
                 },
                 "do_internal_cv": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, perform internal cross-validation."
                 },
                 "folds": {
                     "type": "array",
                     "items": {
                         "type": "integer"
-                    }
+                    },
+                    "description": "Array of fold assignments for each sample."
                 },
                 "mode": {
                     "type": "string",
                     "enum": [
                         "top2bottom",
                         "bottom2top"
-                    ]
+                    ],
+                    "description": "Direction of iterative selection ('top2bottom' or 'bottom2top')."
                 },
                 "rates": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of rates for feature removal/addition."
                 },
                 "cohort_params": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Parameters for cohort selection."
                 },
                 "bootstrap_params": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Parameters for bootstrapping."
                 },
                 "msr_params": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Parameters for measurement."
                 },
                 "work_on_sets": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, work on sets of features."
                 },
                 "group_to_sigs": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, group features by signal."
                 },
                 "ungroupd_names": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "List of feature names to not group."
                 },
                 "ignored": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "List of features to ignore."
                 },
                 "verbose": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Enable verbose output."
                 },
                 "progress_file_path": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Path to a file to save progress."
                 },
                 "grouping_mode": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Mode for grouping features."
                 }
             }
         },
@@ -1850,13 +1965,16 @@
             "type": "object",
             "properties": {
                 "pca_top": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Number of top principal components to keep."
                 },
                 "pca_cutoff": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Cumulative variance cutoff for selecting principal components."
                 },
                 "subsample_count": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Number of samples to use for PCA."
                 }
             }
         },
@@ -1883,37 +2001,46 @@
                     "description": "Feature name to encode."
                 },
                 "prefix": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Prefix for the new one-hot encoded feature names."
                 },
                 "remove_origin": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, remove the original categorical feature."
                 },
                 "add_other": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, add an 'other' category for infrequent values."
                 },
                 "allow_other": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, allow an 'other' category."
                 },
                 "remove_last": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, remove the last category to avoid multicollinearity."
                 },
                 "max_values": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum number of unique values to encode. Others will be grouped into 'other'."
                 },
                 "regex_list": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "List of regex patterns to group values."
                 },
                 "regex_list_names": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "Names for the groups defined by 'regex_list'."
                 },
                 "other_suffix": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Suffix for the 'other' category name."
                 }
             },
             "required": [
@@ -1943,22 +2070,28 @@
                     "description": "Feature name."
                 },
                 "missing_value": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Value to use for missing probabilities."
                 },
                 "overall_count": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Overall count of observations."
                 },
                 "min_obs": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Minimum number of observations for a category to calculate its probability."
                 },
                 "remove_origin": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, remove the original feature."
                 },
                 "target_labels": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of target labels."
                 },
                 "all_labels": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, calculate probabilities for all labels."
                 }
             },
             "required": [
@@ -1996,16 +2129,20 @@
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "description": "Array of tags to select features for multiplication."
                 },
                 "multiplier_name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name of the feature to use as a multiplier."
                 },
                 "divide": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, divide instead of multiply."
                 },
                 "verbose": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Enable verbose output."
                 }
             }
         },
@@ -2046,13 +2183,16 @@
             "type": "object",
             "properties": {
                 "name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name of the feature to create an indicator for."
                 },
                 "missing_value": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "The value that represents a missing observation."
                 },
                 "replace_value": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "The value to fill in the original feature after creating the indicator."
                 }
             },
             "required": [
@@ -2078,28 +2218,36 @@
             "type": "object",
             "properties": {
                 "name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name of the feature to bin."
                 },
                 "missing_value": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "The value that represents a missing observation."
                 },
                 "missing_target_val": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "The value to assign to the missing bin."
                 },
                 "remove_origin": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, remove the original feature."
                 },
                 "one_hot": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, create one-hot encoded features for the bins."
                 },
                 "keep_original_val": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, keep the original binned value as a feature."
                 },
                 "bin_format": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Format for the bin names."
                 },
                 "bin_sett": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Settings for the binning process."
                 }
             },
             "required": [
@@ -2215,28 +2363,36 @@
                     "type": "integer"
                 },
                 "nrem_attr": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Attribute name to store the number of removed values."
                 },
                 "ntrim_attr": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Attribute name to store the number of trimmed values."
                 },
                 "nrem_suff": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Suffix for the attribute name for removed values."
                 },
                 "ntrim_suff": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Suffix for the attribute name for trimmed values."
                 },
                 "time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for the signal."
                 },
                 "nbr_time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for the neighbor search window."
                 },
                 "nbr_time_width": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Width of the neighbor search window."
                 },
                 "unconditional": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, the processor is always applied."
                 }
             },
             "required": [
@@ -2286,16 +2442,20 @@
                     "type": "integer"
                 },
                 "nrem_attr": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Attribute name to store the number of removed values."
                 },
                 "ntrim_attr": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Attribute name to store the number of trimmed values."
                 },
                 "nrem_suff": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Suffix for the attribute name for removed values."
                 },
                 "ntrim_suff": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Suffix for the attribute name for trimmed values."
                 },
                 "conf_file": {
                     "type": "string",
@@ -2309,13 +2469,16 @@
                     "type": "boolean"
                 },
                 "verbose_file": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "File path for verbose logging."
                 },
                 "print_summary": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, a summary of the cleaning is printed."
                 },
                 "print_summary_critical_cleaned": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Cleaning ratio threshold to trigger a critical warning."
                 }
             },
             "required": [
@@ -2369,28 +2532,36 @@
                     "description": "Time window in which to look for signals to apply a rule."
                 },
                 "nrem_attr": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Attribute name to store the number of removed values."
                 },
                 "verbose_file": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "File path for verbose logging."
                 },
                 "nrem_suff": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Suffix for the attribute name for removed values."
                 },
                 "tolerance": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Tolerance for rule matching."
                 },
                 "calc_res": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Resolution for calculations."
                 },
                 "unconditional": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, the processor is always applied."
                 },
                 "print_summary": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, a summary of the cleaning is printed."
                 },
                 "print_summary_critical_cleaned": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Cleaning ratio threshold to trigger a critical warning."
                 },
                 "consideredRules": {
                     "type": "string",
@@ -2454,19 +2625,24 @@
                     "description": "Names for the output virtual signals."
                 },
                 "work_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The channel to use for calculations."
                 },
                 "time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The time channel to use."
                 },
                 "output_signal_type": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The type of the output signal."
                 },
                 "max_time_search_range": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum time range to search for signals."
                 },
                 "signals_time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit of the input signals."
                 },
                 "calculator_init_params": {
                     "type": "string",
@@ -2511,35 +2687,44 @@
             "type": "object",
             "properties": {
                 "red_line_signals": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of signals for the red blood cell panel."
                 },
                 "white_line_signals": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of signals for the white blood cell panel."
                 },
                 "platelets_signals": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of signals for the platelets panel."
                 },
                 "lipids_signals": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of signals for the lipids panel."
                 },
                 "egfr_signals": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of signals for the eGFR calculation."
                 },
                 "bmi_signals": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of signals for the BMI calculation."
                 },
                 "gcs_signals": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of signals for the Glasgow Coma Scale."
                 },
                 "panels": {
                     "type": "string",
                     "description": "Comma-separated list of panels to complete (e.g., 'red_line,lipids')."
                 },
                 "gender_signal": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The signal containing gender information."
                 },
                 "missing_val_ind": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "The value indicating a missing observation."
                 },
                 "sim_val_handler": {
                     "type": "string",
@@ -2548,7 +2733,8 @@
                         "last",
                         "mean",
                         "remove"
-                    ]
+                    ],
+                    "description": "How to handle simultaneous values."
                 },
                 "metadata_file": {
                     "type": "string",
@@ -2584,13 +2770,16 @@
                     "description": "Comma-separated list of time channels for each signal."
                 },
                 "win_from": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Start of the time window."
                 },
                 "win_to": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "End of the time window."
                 },
                 "window_time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for the window."
                 },
                 "attrName": {
                     "type": "string",
@@ -2635,7 +2824,8 @@
                     "$ref": "#/$defs/signal"
                 },
                 "time_channels": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of time channels."
                 },
                 "handler_type": {
                     "type": "string",
@@ -2650,13 +2840,16 @@
                     ]
                 },
                 "nHandle_attr": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Attribute name to store the number of handled values."
                 },
                 "nHandle_attr_suffix": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Suffix for the attribute name."
                 },
                 "debug": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Enable debug mode."
                 }
             },
             "required": [
@@ -2701,16 +2894,20 @@
                     "$ref": "#/$defs/signal"
                 },
                 "output_name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name for the output rate signal."
                 },
                 "work_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The value channel to use for the rate calculation."
                 },
                 "factor": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "A multiplication factor to apply to the calculated rate."
                 },
                 "output_signal_type": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The type of the output signal."
                 }
             },
             "required": [
@@ -2748,10 +2945,12 @@
                     "description": "Comma-separated list of factors for each signal."
                 },
                 "factor_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The channel containing the factors."
                 },
                 "signal_type": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The type of the output signal."
                 }
             },
             "required": [
@@ -2786,17 +2985,20 @@
                     "description": "Comma-separated names for the output signals."
                 },
                 "factors": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of factors for each split signal."
                 },
                 "sets": {
                     "type": "string",
                     "description": "Semicolon-separated lists of categories to define the split."
                 },
                 "val_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The value channel to use for splitting."
                 },
                 "output_signal_type": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The type of the output signals."
                 }
             },
             "required": [
@@ -2828,19 +3030,24 @@
                     "$ref": "#/$defs/signal"
                 },
                 "output_name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name for the output aggregated signal."
                 },
                 "sets": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of categories to aggregate."
                 },
                 "period": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The aggregation period."
                 },
                 "time_unit_win": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for the aggregation window."
                 },
                 "time_unit_sig": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit of the input signal."
                 }
             },
             "required": [
@@ -2870,16 +3077,20 @@
                     "$ref": "#/$defs/signal"
                 },
                 "ranges_name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name of the signal containing the ranges."
                 },
                 "output_name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name for the output signal."
                 },
                 "time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Time channel of the input signal."
                 },
                 "range_time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Time channel of the range signal."
                 },
                 "output_type": {
                     "oneOf": [
@@ -2889,10 +3100,12 @@
                         {
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "description": "Type of the output signal."
                 },
                 "get_values_in_range": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "If 1, get values within the range."
                 },
                 "range_operator": {
                     "type": "string",
@@ -2900,22 +3113,28 @@
                         "all",
                         "first",
                         "last"
-                    ]
+                    ],
+                    "description": "Operator to use for range matching."
                 },
                 "range_val_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Value channel of the range signal."
                 },
                 "sets": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of categories to filter by."
                 },
                 "regex_on_sets": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, treat 'sets' as regex."
                 },
                 "last_n": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Consider only the last N ranges."
                 },
                 "do_on_last_n": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, perform the operation on the last N ranges."
                 }
             },
             "required": [
@@ -2960,34 +3179,44 @@
                     "$ref": "#/$defs/signal"
                 },
                 "output_name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name for the output aggregated signal."
                 },
                 "work_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The value channel to aggregate."
                 },
                 "start_time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The channel for the start time of the aggregation window."
                 },
                 "end_time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The channel for the end time of the aggregation window."
                 },
                 "factor": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "A multiplication factor to apply to the aggregated value."
                 },
                 "time_window": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The size of the time window for aggregation."
                 },
                 "time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The time unit for the time window."
                 },
                 "drop_missing_rate": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Drop samples with a missing rate higher than this value."
                 },
                 "buffer_first": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, buffer the first value."
                 },
                 "output_signal_type": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "The type of the output signal."
                 }
             },
             "required": [
@@ -3018,28 +3247,36 @@
                     "$ref": "#/$defs/signal"
                 },
                 "time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The time channel of the signal."
                 },
                 "truncate_time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "The channel to use for truncating time."
                 },
                 "win_time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for the history window."
                 },
                 "rep_time_unit": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit for reporting."
                 },
                 "win_from": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Start of the history window."
                 },
                 "win_to": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "End of the history window."
                 },
                 "delete_sig": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "If 1, delete the original signal."
                 },
                 "take_last_events": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Take only the last N events."
                 }
             },
             "required": [
@@ -3076,70 +3313,91 @@
             "type": "object",
             "properties": {
                 "in_sig": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Input signal."
                 },
                 "out_virtual": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Output virtual signal."
                 },
                 "t_chan": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Time channel."
                 },
                 "c_chan": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Category channel."
                 },
                 "duration_chan": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Duration channel."
                 },
                 "min_duration": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Minimum duration."
                 },
                 "min_durations": {
                     "type": "array",
                     "items": {
                         "type": "integer"
-                    }
+                    },
+                    "description": "Array of minimum durations."
                 },
                 "max_duration": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Maximum duration."
                 },
                 "duration_add": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Value to add to duration."
                 },
                 "duration_mult": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Value to multiply duration by."
                 },
                 "dont_look_back": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "If 1, don't look back in time."
                 },
                 "min_clip_time": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Minimum clip time."
                 },
                 "last_clip_period": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Last clip period."
                 },
                 "min_jitters": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Minimum jitters."
                 },
                 "categories_names": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Names of the categories."
                 },
                 "categories_sets": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Sets of categories."
                 },
                 "time_unit_sig": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit of the signal."
                 },
                 "time_unit_duration": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Time unit of the duration."
                 },
                 "change_at_prescription_mode": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, change at prescription mode."
                 },
                 "print_dict": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Print dictionary."
                 },
                 "time_channels": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Time channels."
                 }
             },
             "required": [
@@ -3222,16 +3480,20 @@
                     "$ref": "#/$defs/signal"
                 },
                 "output_name": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name for the output signal."
                 },
                 "val_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Value channel to filter by."
                 },
                 "sets": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Comma-separated list of values to keep or remove."
                 },
                 "keep_values_in_set": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "If 1, keep values in the set. If 0, remove them."
                 },
                 "output_type": {
                     "oneOf": [
@@ -3241,7 +3503,8 @@
                         {
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "description": "Type of the output signal."
                 }
             },
             "required": [
@@ -3270,25 +3533,32 @@
                     "$ref": "#/$defs/signal"
                 },
                 "val_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Value channel to add noise to."
                 },
                 "time_channel": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Time channel to add noise to."
                 },
                 "time_noise": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Amount of noise to add to time."
                 },
                 "value_noise": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Amount of noise to add to value."
                 },
                 "truncation": {
-                    "type": "integer"
+                    "type": "integer",
+                    "description": "Truncation for the noise."
                 },
                 "drop_probability": {
-                    "type": "number"
+                    "type": "number",
+                    "description": "Probability of dropping a value."
                 },
                 "apply_in_test": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "If true, apply noise during testing as well."
                 }
             },
             "required": [
