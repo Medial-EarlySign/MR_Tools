@@ -581,6 +581,43 @@
             "required": [
                 "rp_type"
             ],
+            "properties": {
+                "rp_type": {
+                    "type": "string",
+                    "enum": [
+                        "basic_outlier_cleaner",
+                        "basic_cln",
+                        "nbrs_outlier_cleaner",
+                        "nbrs_cln",
+                        "configured_outlier_cleaner",
+                        "conf_cln",
+                        "rulebased_outlier_cleaner",
+                        "rule_cln",
+                        "calc_signals",
+                        "calculator",
+                        "complete",
+                        "req",
+                        "requirements",
+                        "sim_val",
+                        "sim_val_handler",
+                        "signal_rate",
+                        "combine",
+                        "split",
+                        "aggregation_period",
+                        "basic_range_cleaner",
+                        "range_cln",
+                        "aggregate",
+                        "history_limit",
+                        "create_registry",
+                        "bit_signal",
+                        "category_descenders",
+                        "reorder_channels",
+                        "filter_channels",
+                        "numeric_noiser",
+                        "filter_by_diag"
+                    ]
+                }
+            },
             "oneOf": [
                 {
                     "$ref": "#/$defs/rp_basic_outlier_cleaner"
@@ -681,6 +718,36 @@
             "required": [
                 "fp_type"
             ],
+            "properties": {
+                "fp_type": {
+                    "type": "string",
+                    "enum": [
+                        "basic_outlier_cleaner",
+                        "basic_cleaner",
+                        "normalizer",
+                        "imputer",
+                        "iterative_imputer",
+                        "do_calc",
+                        "univariate_selector",
+                        "mrmr",
+                        "mrmr_selector",
+                        "lasso",
+                        "remove_deg",
+                        "tags_selector",
+                        "importance_selector",
+                        "iterative_selector",
+                        "pca",
+                        "one_hot",
+                        "get_prob",
+                        "predictor_imputer",
+                        "multiplier",
+                        "resample_with_missing",
+                        "duplicate",
+                        "missing_indicator",
+                        "binning"
+                    ]
+                }
+            },
             "oneOf": [
                 {
                     "$ref": "#/$defs/fp_basic_outlier_cleaner"
@@ -2662,7 +2729,7 @@
                 {
                     "properties": {
                         "rp_type": {
-                            "const": "reoder_channels"
+                            "const": "reorder_channels"
                         }
                     }
                 }
