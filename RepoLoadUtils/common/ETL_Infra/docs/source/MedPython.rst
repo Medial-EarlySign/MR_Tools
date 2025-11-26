@@ -10,4 +10,5 @@ MedPython module
 .. automodule:: med
    :members:
    :show-inheritance:
+   :imported-members:
 

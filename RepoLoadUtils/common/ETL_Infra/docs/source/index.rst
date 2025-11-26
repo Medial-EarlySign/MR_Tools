@@ -15,6 +15,13 @@ Medial EarlySign ETL documentation
    data_fetcher/data_fethcer
    ETL_Infra
 
+AlgoMarker API documentation
+============================
+.. toctree::
+   :maxdepth: 7
+   :caption: Contents:
+
+   AlgoMarker
 
 MedPython API documentation
 ===========================
