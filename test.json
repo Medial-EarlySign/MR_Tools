@@ -1,0 +1,105 @@
+// This is an example JSON file with comments. If your editor does not support comments in JSON, you may need to remove them.
+{
+    "$schema": "https://raw.githubusercontent.com/Medial-EarlySign/MR_Tools/refs/heads/main/medmodel_schema.json",
+    "model_json_version": 2,
+    "model_actions": [
+        // Iteratively trim raw signal values that are beyond 7 standard deviations until no more values are trimmed.
+        // Remove input values that are beyond 14 standard deviations.
+        // A high cutoff of 7 standard deviations is used because extreme values are possible in medical data.
+        {
+            "action_type": "rp_set",
+            "members": [
+                {
+                    "rp_type": "basic_cln",
+                    "signal": [
+                        "Hemoglobin",
+                        "RBC",
+                        "MCH",
+                        "Hematocrit"
+                    ],
+                    "type": "iterative",
+                    "take_log": 0,
+                    "trimming_sd_num": 7,
+                    "removing_sd_num": 14,
+                    "range_min": 0
+                }
+            ]
+        },
+        // Remove signal measurements that have different values on the same date.
+        {
+            "action_type": "rp_set",
+            "members": [
+                {
+                    "rp_type": "sim_val",
+                    "signal": [
+                        "Hemoglobin",
+                        "RBC",
+                        "MCH",
+                        "Hematocrit"
+                    ],
+                    "type": "rem_diff"
+                }
+            ]
+        },
+        // Remove values that contradict Rule 2 with a tolerance of 0.1 (10%).
+        // Rule 2: MCH = (Hemoglobin / RBC) * 10
+        // For more information on rules, see: https://medial-earlysign.github.io/MR_LIBS/classRepRuleBasedOutlierCleaner.html
+        {
+            "action_type": "rp_set",
+            "members": [
+                {
+                    "rp_type": "rule_cln",
+                    "addRequiredSignals": "1",
+                    "time_window": 0,
+                    "tolerance": 0.1,
+                    "calc_res": 0.1,
+                    "consideredRules": [
+                        "2"
+                    ]
+                }
+            ]
+        },
+        // Impute missing signal values using other signals where possible (e.g., MCH = (Hemoglobin / RBC) * 10).
+        {
+            "action_type": "rp_set",
+            "members": [
+                {
+                    "rp_type": "complete",
+                    "panels": [
+                        "red_line"
+                    ],
+                    "config": "path_rel:config_panels.tsv"
+                }
+            ]
+        },
+        // Feature Generation: Create the 'Age' feature from the 'BDATE' signal.
+        {
+            "action_type": "feat_generator",
+            "fg_type": "age"
+        },
+        // Feature Generation: Create features for the last and minimum signal values within the last 1095 days.
+        {
+            "action_type": "feat_generator",
+            "fg_type": "basic",
+            "type": [
+                "last",
+                "min"
+            ],
+            "win_from": 0,
+            "win_to": 1095,
+            "signal": [
+                "Hemoglobin",
+                "RBC",
+                "MCH",
+                "Hematocrit"
+            ]
+            // Alternatively, the window can be defined as: "window": [ "win_from=0;win_to=1095" ]
+            // This is useful for defining multiple time windows.
+        }
+    ],
+    // Define the predictor type as xgboost.
+    "predictor": "xgb",
+    "predictor_params": "tree_method=auto;booster=gbtree;objective=binary:logistic"
+    // Signal names (e.g., "Hemoglobin", "RBC", "MCH", "Hematocrit") can be stored in a file (one per line)
+    // and referenced using "file_rel:relative_path/to/the/signals/file".
+}

@@ -613,6 +613,7 @@ def generate_flow_script(workdir, dest_folder, dest_rep):
     os.makedirs(os.path.join(workdir, 'rep_configs'), exist_ok=True)
     convert_cfg_path = os.path.join(workdir, 'rep_configs', dest_rep+'.convert_config')
     flow_script=os.path.join(workdir, 'rep_configs', 'load_with_flow.sh')
+    py_load_script=os.path.join(workdir, 'rep_configs', 'load_with_medpython.py')
     err_file=os.path.join(workdir, 'outputs', 'flow_loading_err.log')
     log_file=os.path.join(workdir, 'outputs', 'flow_loading.log')
     load_args='check_for_error_pid_cnt=500000;allowed_missing_pids_from_forced_ratio=0.1;max_bad_line_ratio=0.05;allowed_unknown_catgory_cnt=1000;run_parallel=0;run_parallel_files=0;allowed_missing_pids_from_forced_cnt=0;read_lines_buffer=100000'
@@ -625,21 +626,38 @@ def generate_flow_script(workdir, dest_folder, dest_rep):
     lines=list(filter(lambda x: x.startswith('DATA'), lines))
     load_data_files_cnt=len(lines)
     
-    fw=open(flow_script, 'w')
-    fw.write('#!/bin/bash\n\n')
-    fw.write('set -e\n')
-    fw.write('export OMP_NUM_THREADS=1\n')
-    if load_data_files_cnt > 1000:
-        print(f'There are many input files ({load_data_files_cnt}) - you will need to increase system limit of open files',flush=True)
-        fw.write('ulimit -Sn 9999\n')
-    fw.write(f'Flow --rep_create --convert_conf {convert_cfg_path} --load_err_file {err_file} --load_args "{load_args}" 2>&1 | tee {log_file}\n')
-    fw.write('\n')
-    fw.write(f'Flow --rep_create_pids --rep {repository_final_dest}\n')
-    fw.write('\n')
-    fw.close()
+    with open(flow_script, 'w') as fw:
+        fw.write('#!/bin/bash\n\n')
+        fw.write('set -e\n')
+        fw.write('export OMP_NUM_THREADS=1\n')
+        if load_data_files_cnt > 1000:
+            print(f'There are many input files ({load_data_files_cnt}) - you will need to increase system limit of open files',flush=True)
+            fw.write('ulimit -Sn 9999\n')
+        fw.write(f'Flow --rep_create --convert_conf {convert_cfg_path} --load_err_file {err_file} --load_args "{load_args}" 2>&1 | tee {log_file}\n')
+        fw.write('\n')
+        fw.write(f'Flow --rep_create_pids --rep {repository_final_dest}\n')
+        fw.write('\n')
+        fw.close()
     os.chmod(flow_script, 0o777)
+    # Generte python script:
+    load_args += f";full_error_file={err_file}"
+    with open(py_load_script, "w") as fw:
+        fw.write('#/usr/bin/env python\n\n')
+        fw.write('# You might want to limit number of threads by executing before running this script:\n')
+        fw.write('# export OMP_NUM_THREADS=X\n')
+        if load_data_files_cnt > 1000:
+            fw.write('# You might need to increase number of oped files by executing before running this script:\n')
+            fw.write('# ulimit -Sn 9999\n')
+        fw.write('import med\n')
+        fw.write('loader = med.MedConvert()\n')
+        fw.write(f'loader.init_load_params("{load_args}")\n')
+        fw.write(f'loader.create_rep("{convert_cfg_path}")\n')
+        fw.write(f'loader.create_index("{repository_final_dest}")\n')
+        fw.write('\n')
+    os.chmod(py_load_script, 0o777)
     print('Target Repository: %s'%(repository_final_dest), flush=True)
-    print('Full script to execute :\n%s'%(flow_script), flush=True)
+    print('Full script to execute (Using Old Flow) :\n%s'%(flow_script), flush=True)
+    print('Full script to execute (Using medPython) :\n%s'%(py_load_script), flush=True)
 
 def get_parent(x):
     if len(x)<=1 or x.find('_CODE:')<0:
