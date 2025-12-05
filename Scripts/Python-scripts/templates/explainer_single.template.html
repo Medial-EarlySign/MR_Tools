@@ -1,0 +1,113 @@
+<html>
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.1.1/plotly.min.js"></script>
+</head>
+<body>
+  <div id="myDiv" align="center"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <script>
+    <!-- JAVASCRIPT CODE GOES HERE -->
+//Change GRAPH_TITLE, FEATURE_NAMES, SHAP_VEC
+var yValue = [$SHAP_VEC$]
+var feat_names =  [$FEATURE_NAMES$];
+var text_labels= [$TEXT_LABELS$];
+var graph_title= '$GRAPH_TITLE$';
+var color_vec = [];
+
+NEG_COLOR='rgba(222,45,38,0.8)';
+POS_COLOR='rgba(50,171,96,0.7)';
+
+for (i=0;i<yValue.length;i++) {
+	if (yValue[i] < 0) {
+		color_vec.push(NEG_COLOR);
+	}
+	else {
+		color_vec.push(POS_COLOR);
+	}
+}
+
+var mark_bold = true;
+//add bold to feat_names:
+var i = 0;
+if (mark_bold) {
+	for (i=0;i<feat_names.length;i++) {
+		feat_names[i] =  "<b>" + feat_names[i] + "</b>";
+	}
+}
+
+//split into pos and negative:
+var feat_names_p=[];
+var yValue_p=[];
+var text_labels_p=[];
+var feat_names_n=[];
+var yValue_n=[];
+var text_labels_n=[];
+
+for (i=0;i<yValue.length;i++) {
+	if (yValue[i] < 0) {
+		feat_names_n.push(feat_names[i]);
+		yValue_n.push(yValue[i]);
+		text_labels_n.push(text_labels[i]);
+	}
+	else {
+		feat_names_p.push(feat_names[i]);
+		yValue_p.push(yValue[i]);
+		text_labels_p.push(text_labels[i]);
+	}
+} 
+
+var series0 = {
+ type: 'bar',
+ y: feat_names_p, 
+ x: yValue_p
+ ,text: text_labels_p
+ ,textposition: 'auto'
+ ,hoverinfo: 'none'
+, name: 'Positive' 
+, orientation: 'h'
+, marker:{
+    color: POS_COLOR,
+	opacity: 0.6,
+    line: {
+      color: 'rbg(8,48,107)',
+      width: 1.5
+    }
+  }
+};
+
+var series1 = {
+ type: 'bar',
+ y: feat_names_n, 
+ x: yValue_n
+ ,text: text_labels_n
+ ,textposition: 'auto'
+ ,hoverinfo: 'none'
+, name: 'Negative' 
+, orientation: 'h'
+, marker:{
+    color: NEG_COLOR,
+	opacity: 0.6,
+    line: {
+      color: 'rbg(8,48,107)',
+      width: 1.5
+    }
+  }
+};
+
+var data = [series1, series0];
+
+var layout = {
+  title: graph_title,
+  yaxis: { automargin: true, showticklabels: true, type:'category', dtick:1 }, 
+  xaxis: { title: 'Contribution', automargin: true},
+  autosize: true,
+  height: 800
+};
+
+Plotly.newPlot('myDiv', data, layout, {showSendToCloud:false});
+
+  </script>
+    
+</body>
+
+</html>

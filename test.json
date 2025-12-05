@@ -43,7 +43,7 @@
         },
         // Remove values that contradict Rule 2 with a tolerance of 0.1 (10%).
         // Rule 2: MCH = (Hemoglobin / RBC) * 10
-        // For more information on rules, see: https://medial-earlysign.github.io/MR_LIBS/classRepRuleBasedOutlierCleaner.html
+        // For more information on rules, see: https://Medial-EarlySign.github.io/medpython/classRepRuleBasedOutlierCleaner.html
         {
             "action_type": "rp_set",
             "members": [

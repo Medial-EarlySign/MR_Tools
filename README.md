@@ -1,7 +1,7 @@
 ## Overview
 
 Tools that Utilize MES Infrastructure. 
-The tools are written in python and C++  and uses [MR_LIBS](https://github.com/Medial-EarlySign/MR_LIBS) libraries.
+The tools are written in python and C++  and uses [medpython](https://github.com/Medial-EarlySign/medpython) libraries.
 
 ## Documentation
 

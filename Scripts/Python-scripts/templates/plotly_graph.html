@@ -1,0 +1,67 @@
+<html>
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.1.1/plotly.min.jss"></script>
+</head>
+
+<body>
+  <div id="myDiv" align="center"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <script>
+    <!-- JAVASCRIPT CODE GOES HERE -->
+
+	$DATA_CODE
+	
+	function searchXY() {
+		sNum = parseInt(document.getElementById('seriesNum').value);
+		x = parseFloat(document.getElementById('xVal').value);
+		y = parseFloat(document.getElementById('yVal').value);
+		var ser = data[sNum];
+		
+		if ('z' in ser) { //search in 3D Graph
+			var ind = ser.x.indexOf(x) + (ser.y.indexOf(y) % ser.x.length);
+			document.getElementById('res').innerHTML = ser.z[ind];
+			return ser.z[ind];
+		}
+		else {
+		var minDistance = NaN;
+		var minDistanceInd = NaN;
+			if (!isNaN(x)) {
+				for (i=0; i< ser.x.length; ++i) {
+					if (isNaN(minDistance) || Math.abs(ser.x[i] - x) < minDistance) {
+						minDistance = Math.abs(ser.x[i] - x);
+						minDistanceInd = i;
+					}
+				}
+				document.getElementById('xVal').value = ser.x[minDistanceInd];
+				document.getElementById('yVal').value = ser.y[minDistanceInd];
+			}
+			else if(!isNaN(y)) {
+				for (i=0; i< ser.y.length; ++i) {
+					if (isNaN(minDistance) || Math.abs(ser.y[i] - y) < minDistance) {
+						minDistance = Math.abs(ser.y[i] - y);
+						minDistanceInd = i;
+					}
+				}
+				document.getElementById('xVal').value = ser.x[minDistanceInd];
+				document.getElementById('yVal').value = ser.y[minDistanceInd];
+			}
+			
+		}
+	}
+	
+  </script>
+  
+  <h3 align="center">Search for values in graph (leave x or y empty to search for the other value)</h3>
+   <p align="center"> 
+   <label for "seriesNum">series number (top is 0)</label>
+   <input type="number" name="seriesNum" id="seriesNum" value="0"></input>
+  <label for="xVal">x</label>
+  <input type="number" name="xVal" id="xVal"></input>
+  <label for="xVal">y</label>
+  <input type="number" name="yVal" id="yVal"></input>
+  <input type="button" value="search" onclick="searchXY();"></input>
+  </p>
+  <span id="res"></span>
+  
+</body>
+</html>

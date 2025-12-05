@@ -1,0 +1,50 @@
+<html>
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.1.1/plotly.min.js"></script>
+</head>
+<body>
+  <div id="myDiv" align="center"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <script>
+    <!-- JAVASCRIPT CODE GOES HERE -->
+//Change GRAPH_TITLE, TITLES, SHAP_VEC, COLOR_VAL
+
+var xValue = [$TITLES$];
+
+var yValue = [$SHAP_VEC$];
+
+var color_vec = [$COLOR_VAL$];
+
+var trace1 = {
+  x: xValue, 
+  y: yValue,
+  type: 'bar',
+  text: yValue,
+  textposition: 'auto',
+  hoverinfo: 'none',
+   marker:{
+    color: color_vec,
+	opacity: 0.6,
+    line: {
+      color: 'rbg(8,48,107)',
+      width: 1.5
+    }
+  }
+};
+
+var data = [trace1];
+
+var layout = {
+  title: '$GRAPH_TITLE$',
+  autosize: true,
+  width: 800,
+  height: 400,
+};
+
+Plotly.newPlot('myDiv', data, layout, {showSendToCloud:true});
+
+  </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,372 @@
+<html>
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.1.1/plotly.min.js"></script>
+</head>
+<body>
+  <div id="myDiv" align="center"><!-- Plotly chart will be drawn inside this DIV --></div>
+    <div id="buttons"></div>
+  <script>
+    <!-- JAVASCRIPT CODE GOES HERE -->
+//Change GRAPH_TITLE, TITLES, SHAP_VEC, COLOR_VAL
+
+var xValue = [$TITLES$];
+var yValue = [$SHAP_VEC$];
+var color_vec = [$COLOR_VAL$];
+var contrib_errors_min = [$CONTRIB_ERROR_BAR_MIN$];
+var contrib_errors_max = [$CONTRIB_ERROR_BAR_MAX$];
+var x_errors_min = [$X_ERROR_BAR_MIN$];
+var x_errors_max = [$X_ERROR_BAR_MAX$];
+var outcome_means = [$OUTCOMES_ARRAY$];
+var counts = [$COUNTS_ARRAY$];
+var score_means = [$SCORES_ARRAY$];
+
+var outcome_min = [$OUTCOMES_ARRAY_MIN$];
+var outcome_max = [$OUTCOMES_ARRAY_MAX$];
+var score_min = [$SCORES_ARRAY_MIN$];
+var score_max = [$SCORES_ARRAY_MAX$];
+
+var contrib_errors_up = [];
+var contrib_errors_down = [];
+var i = 0;
+for (i=0; i< contrib_errors_min.length; i++) {
+	contrib_errors_up.push(contrib_errors_max[i] - yValue[i]);
+	contrib_errors_down.push(yValue[i] - contrib_errors_min[i]);
+}
+var x_errors_up = [];
+var x_errors_down = [];
+for (i=0; i< x_errors_max.length; i++) {
+	x_errors_up.push(x_errors_max[i] - xValue[i]);
+	x_errors_down.push(xValue[i] - x_errors_min[i]);
+}
+
+var outcome_errors_up = [];
+var outcome_errors_down = [];
+for (i=0; i< outcome_max.length; i++) {
+	outcome_errors_up.push(outcome_max[i] - outcome_means[i]);
+	outcome_errors_down.push(outcome_means[i] - outcome_min[i]);
+}
+
+var score_errors_up = [];
+var score_errors_down = [];
+for (i=0; i< score_max.length; i++) {
+	score_errors_up.push(score_max[i] - score_means[i]);
+	score_errors_down.push(score_means[i] - score_min[i]);
+}
+
+var pdf_counts = counts.slice();
+for (i=pdf_counts.length-1; i>0 ; i--) {
+	pdf_counts[i] = pdf_counts[i] - pdf_counts[i-1];
+}
+
+var trace1 = {
+  x: xValue, 
+  y: yValue,
+  type: 'scatter',
+  mode: 'markers+lines',
+  marker:{
+    color: color_vec,
+	opacity: 0.6
+  },
+  error_y: {
+     type : 'data',
+	 symmetric: false,
+	 array: contrib_errors_up,
+	 arrayminus: contrib_errors_down,
+	 color: 'lightblue',
+	 visible: true
+  },
+  error_x: {
+     type : 'data',
+	 symmetric: false,
+	 array: x_errors_up,
+	 arrayminus: x_errors_down,
+	 color: 'lightblue',
+	 visible: false
+  },
+  name: 'feature contrib',
+  yaxis : 'y2'
+};
+
+var trace2 = {
+	x: xValue,
+	y: outcome_means,
+	type: 'scatter',
+    mode: 'markers+lines',
+	marker:{ color: 'orange', opacity: 0.6 },
+	name: 'mean outcome',
+	error_x: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+	error_y: { type : 'data', symmetric: false, 
+	array: outcome_errors_up, //array: [], 
+	arrayminus: outcome_errors_down, //arrayminus: [],
+	visible: true}
+};
+
+var trace3 = {
+	x: xValue,
+	y: score_means,
+	type: 'scatter',
+    mode: 'markers+lines',
+	marker:{ color: 'black', opacity: 0.6 },
+	name: 'mean score',
+	error_x: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+	error_y: { type : 'data', symmetric: false, array: score_errors_up, arrayminus: score_errors_down, visible: false}
+};
+
+var trace4 = {
+	x: xValue,
+	y: counts,
+	type: 'scatter',
+    mode: 'markers+lines',
+	marker:{ color: 'red', opacity: 0.6 },
+	name: 'cumulative cover',
+	error_x: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+	error_y: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+	visible: 'legendonly'
+};
+
+var trace5 = {
+	x: xValue,
+	y: pdf_counts,
+	type: 'scatter',
+    mode: 'markers+lines',
+	marker:{ color: 'red', opacity: 0.6 },
+	name: 'Feature pdf',
+	error_x: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+	error_y: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+	visible: 'legendonly'
+};
+
+var data = [trace1];
+if (outcome_means.length  > 0) {
+	data.push(trace2);
+}
+if (score_means.length > 0) {
+	data.push(trace3);
+}
+if (counts.length > 0) {
+	data.push(trace4);
+}
+if (pdf_counts.length > 0) {
+	data.push(trace5);
+}
+
+var show_msn=true;
+var wd=-1;
+var msn_x=xValue[0];
+if (isNaN(xValue[0])) {
+	if (xValue.length > 2) {
+		msn_x=xValue[1]-Math.abs(xValue[2]-xValue[1]);
+	}
+	else {
+		show_msn=true;
+		msn_x=-1; //to slience errors
+	}
+}
+else { //first value is not NaN - no missing value
+	show_msn=false;
+}
+if (!(isNaN(xValue[0]))) {
+	wd=-Math.abs(xValue[1]-xValue[0]);
+}
+
+var trace1_msn = {
+		x: [msn_x], 
+		y: [yValue[0]],
+		type: 'scatter',
+		mode: 'markers',
+		name: 'feature contrib',
+		marker:{ color: [color_vec[0]],opacity: 0.6 },
+		error_y: {
+			type : 'data',
+			symmetric: false,
+			array: [contrib_errors_up[0]],
+			arrayminus: [contrib_errors_down[0]],
+			color: 'lightblue',
+			visible: true
+		},
+		error_x: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+		yaxis : 'y2', showlegend:false
+	};
+	var outcome_msn=[-1]; var ci_pu_out=[]; var ci_down_out=[];
+	if (outcome_means.length > 0) {
+		outcome_msn=[outcome_means[0]];
+		ci_pu_out=[outcome_errors_up[0]];
+		ci_down_out=[outcome_errors_down[0]];
+	}
+	var trace2_msn = {
+		x: [msn_x],
+		y: outcome_msn,
+		name: 'mean outcome',
+		type: 'scatter',
+		mode: 'markers',
+		marker:{ color: 'orange', opacity: 0.6 },
+		error_x: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+		error_y: { type : 'data', symmetric: false, 
+		array: ci_pu_out, 
+		arrayminus: ci_down_out, 
+		visible: true},
+		showlegend:false
+	}
+	var score_means_msn=[NaN]; var ci_pu_out2=[]; var ci_down_out2=[];
+	if (score_means.length > 0) {
+		score_means_msn=[score_means[0]];
+		ci_pu_out2=[score_errors_up[0]];
+		ci_down_out2=[score_errors_down[0]];
+	}
+	var trace3_msn = {
+		x: [msn_x],
+		y: [score_means[0]],
+		type: 'scatter',
+		mode: 'markers',
+		name: 'mean score',
+		marker:{ color: 'black', opacity: 0.6 },
+		error_x: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+		error_y: { type : 'data', symmetric: false, array: ci_pu_out2, arrayminus: ci_down_out2, visible: false},
+		showlegend:false
+	};
+	var pdf_msn=[NaN];
+	if (pdf_counts.length > 0) {
+		pdf_msn=[pdf_counts[0]];
+	}
+	var trace5_msn = {
+		x: [msn_x],
+		y: pdf_msn,
+		type: 'scatter',
+		mode: 'markers',
+		name: 'Missing Value percentage',
+		marker:{ color: 'red', opacity: 0.6 },
+		error_x: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+		error_y: { type : 'data', symmetric: false, array: [], arrayminus: [], visible: false},
+		showlegend:false
+	};
+
+if (show_msn) {
+	data.push(trace1_msn);
+	if (outcome_means.length > 0) {
+		data.push(trace2_msn);
+	}
+	if (score_means.length > 0) {
+		data.push(trace3_msn);
+	}
+	if (pdf_counts.length > 0) {
+		data.push(trace5_msn);
+	}
+}
+
+var ann= {
+      x: msn_x,
+      y: outcome_msn[0],
+      xref: 'x',
+      yref: 'y',
+      text: 'Missing Value',
+      showarrow: true,
+      font: {
+        family: 'Courier New, monospace',
+        size: 12,
+        color: '#ffffff'
+      },
+      align: 'center',
+      arrowhead: 2,
+      arrowsize: 1,
+      arrowwidth: 2,
+      arrowcolor: '#636363',
+      ax: wd,
+      ay: 50,
+      bordercolor: '#c7c7c7',
+      borderwidth: 2,
+      borderpad: 4,
+      bgcolor: '#ff7f0e',
+      opacity: 0.8,
+	  visible: show_msn
+    };
+
+var layout = {
+  title: '$GRAPH_TITLE$',
+  autosize: true,
+  width: 1200,
+  height: 600,
+  yaxis : {title: 'Percentage', overlaying : 'y2', side:'left'},
+  yaxis2 : {title: 'Contribution', side:'right'},
+  xaxis : { title: 'Feature Value' },
+  updatemenus : [ {
+        y: 1, x: 1, yanchor: 'top', type: 'dropdown', method: 'update',
+        buttons: [ 
+			{  method: 'restyle', label: 'Contrib error bars', args: [{'error_x.visible' : false,  'error_y.visible' : true } ] },
+			{  method: 'restyle', label: 'Feature error bars', args: [{'error_x.visible' : true,  'error_y.visible' : false }]},
+			{  method: 'restyle', label: 'Both error bars', args: [{'error_x.visible' : true,  'error_y.visible' : true }]},
+			{  method: 'restyle', label: 'Off', args: [{'error_x.visible' : false,  'error_y.visible' : false }]}
+		]	
+    },
+	{
+        y: 0.9, x: 1, yanchor: 'top', type: 'dropdown',
+        buttons: [ 
+			{  method: 'restyle', label: 'Line+Markers', args: ['mode', 'markers+lines']},
+			{  method: 'restyle', label: 'Markers', args: ['mode', 'markers']}
+		]	
+    } 
+	],
+	annotations: [ann]
+};
+
+Plotly.newPlot('myDiv', data, layout, {showSendToCloud:false});
+
+function toggle_missing_values() {
+		if (!show_msn) {
+			return;
+		}
+		var btn = document.getElementById('tgl_msn');
+		var need_to_hide=btn.innerText.indexOf('Hide') >= 0;
+		var data = [trace1];
+		if (outcome_means.length  > 0) {
+			data.push(trace2);
+		}
+		if (score_means.length > 0) {
+			data.push(trace3);
+		}
+		if (counts.length > 0) {
+			data.push(trace4);
+		}
+		if (pdf_counts.length > 0) {
+			data.push(trace5);
+		}
+		
+		if (need_to_hide) {
+			//show_msn=false;
+			btn.innerText='Show Missing Values';
+			layout.annotations=[];
+			
+			Plotly.purge('myDiv');
+			Plotly.newPlot('myDiv', data, layout);
+		}
+		else {
+			//show_msn=true;
+			btn.innerText='Hide Missing Values';
+			if (outcome_means.length  > 0) {
+				data.push(trace2_msn);
+			}
+			if (score_means.length > 0) {
+				data.push(trace3_msn);
+			}
+			if (pdf_counts.length > 0) {
+				data.push(trace5_msn);
+			}
+			layout.annotations=[ann];
+			
+			Plotly.purge('myDiv');
+			Plotly.newPlot('myDiv', data, layout);
+		}
+	}
+	
+	if (show_msn) {
+		var b=document.createElement('button');
+		b.setAttribute("id", "tgl_msn");
+		b.setAttribute("onclick", "toggle_missing_values()");
+		b.innerText='Hide Missing Values';
+		document.getElementById("buttons").appendChild(b);
+	}
+
+  </script>
+</body>
+
+</html>

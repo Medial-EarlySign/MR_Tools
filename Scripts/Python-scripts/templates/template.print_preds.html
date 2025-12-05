@@ -1,0 +1,149 @@
+<html>
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.1.1/plotly.min.js"></script>
+</head>
+
+<body>
+  <div id="myDiv" align="center"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <div id="buttons" align="center">
+	<button id="change_to_bar" onclick="change_to_bar()">Change To Bar</button>
+  </div>
+  <script>
+    <!-- JAVASCRIPT CODE GOES HERE -->
+
+	{0}
+
+Plotly.newPlot('myDiv', data, layout);
+	
+	function searchXY() {
+		sNum = parseInt(document.getElementById('seriesNum').value);
+		x = parseFloat(document.getElementById('xVal').value);
+		y = parseFloat(document.getElementById('yVal').value);
+		var ser = data[sNum];
+		
+		if ('z' in ser) { //search in 3D Graph
+			var ind = ser.x.indexOf(x) + (ser.y.indexOf(y) % ser.x.length);
+			document.getElementById('res').innerHTML = ser.z[ind];
+			return ser.z[ind];
+		}
+		else {
+		var minDistance = NaN;
+		var minDistanceInd = NaN;
+			if (!isNaN(x)) {
+				for (i=0; i< ser.x.length; ++i) {
+					if (isNaN(minDistance) || Math.abs(ser.x[i] - x) < minDistance) {
+						minDistance = Math.abs(ser.x[i] - x);
+						minDistanceInd = i;
+					}
+				}
+				document.getElementById('xVal').value = ser.x[minDistanceInd];
+				document.getElementById('yVal').value = ser.y[minDistanceInd];
+			}
+			else if(!isNaN(y)) {
+				for (i=0; i< ser.y.length; ++i) {
+					if (isNaN(minDistance) || Math.abs(ser.y[i] - y) < minDistance) {
+						minDistance = Math.abs(ser.y[i] - y);
+						minDistanceInd = i;
+					}
+				}
+				document.getElementById('xVal').value = ser.x[minDistanceInd];
+				document.getElementById('yVal').value = ser.y[minDistanceInd];
+			}
+			
+		}
+	}
+	
+	var show_msn=false;
+	if (isNaN(data[0].x[0]) || data[0].x[0] == -65336) {
+		show_msn=true;
+	}
+	var msn_data=[];
+	if (show_msn) {
+		for (i=0; i< data.length; ++i) {
+			var ser_i=[];
+			ser_i.push(data[i].x[0]);
+			ser_i.push(data[i].y[0]);
+			msn_data.push(ser_i);
+		}
+	}
+	
+	function toggle_missing_values() {
+		if (!show_msn) {
+			return;
+		}
+		var btn = document.getElementById('tgl_msn');
+		var need_to_hide=btn.innerText.indexOf('Hide') >= 0;
+		
+		if (need_to_hide) {
+			//show_msn=false;
+			btn.innerText='Show Missing Values';
+			//update data
+			for (i=0; i< data.length; ++i) {
+				data[i].x.shift();
+				data[i].y.shift();
+			}
+			
+			Plotly.purge('myDiv');
+			Plotly.newPlot('myDiv', data, layout);
+		}
+		else {
+			//show_msn=true;
+			btn.innerText='Hide Missing Values';
+			//update data - Add missings:
+			for (i=0; i< data.length; ++i) {
+				data[i].x.unshift(msn_data[i][0]);
+				data[i].y.unshift(msn_data[i][1]);
+			}
+			
+			Plotly.purge('myDiv');
+			Plotly.newPlot('myDiv', data, layout);
+		}
+	}
+	
+	if (show_msn) {
+		var b=document.createElement('button');
+		b.setAttribute("id", "tgl_msn");
+		b.setAttribute("onclick", "toggle_missing_values()");
+		b.innerText='Hide Missing Values';
+		document.getElementById("buttons").appendChild(b);
+	}
+	
+	function change_to_bar() {
+		var btn = document.getElementById('change_to_bar');
+		var need_to_bar=btn.innerText.indexOf('Bar') >= 0;
+		
+		if (need_to_bar) {
+			for (i=0; i< data.length; ++i) {
+				data[i].type='bar';
+			}
+			btn.innerText='Change To Scatter';
+			Plotly.purge('myDiv');
+			Plotly.newPlot('myDiv', data, layout);
+		}
+		else {
+			for (i=0; i< data.length; ++i) {
+				data[i].type='scatter';
+			}
+			btn.innerText='Change To Bar';
+			Plotly.purge('myDiv');
+			Plotly.newPlot('myDiv', data, layout);
+		}
+	}
+	
+  </script>
+  
+  <h3 align="center">Search for values in graph (leave x or y empty to search for the other value)</h3>
+   <p align="center"> 
+   <label for "seriesNum">series number (top is 0)</label>
+   <input type="number" name="seriesNum" id="seriesNum" value="0"></input>
+  <label for="xVal">x</label>
+  <input type="number" name="xVal" id="xVal"></input>
+  <label for="xVal">y</label>
+  <input type="number" name="yVal" id="yVal"></input>
+  <input type="button" value="search" onclick="searchXY();"></input>
+  </p>
+  <span id="res"></span>
+  
+</body>
+</html>

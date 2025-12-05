@@ -1,0 +1,44 @@
+<html>
+<script src="/static/jquery/jquery.min.js"></script>
+<script src="/static/bootstrap/bootstrap.min.js"></script>
+<link rel="stylesheet" style="text/css" href="/static/bootstrap/bootstrap.min.css" />
+<head><title>All Viewers</title></head>
+<style>
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+</style>
+<body>
+<h1>All Repositories</h1>
+<table class="table table-hover table-bordered">
+    <thead>
+        <th>Repository</th>
+		<th>Link</th>
+		<th>Crash Count</th>
+		<th>Up Time</th>
+		<th>Request Counts</th>
+		<th>Last Error</th>
+    </thead>
+    <tbody>
+%s
+    </tbody>
+</table>
+<p>
+	Start service by: 
+	<blockquote><p>
+	$> viewers start
+	</p></blockquote>
+	Close service by: 
+	<blockquote><p>
+	$> viewers stop
+	</p></blockquote>
+</p>
+</body>
+</html>

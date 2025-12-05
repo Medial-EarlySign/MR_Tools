@@ -1,0 +1,49 @@
+<html>
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.1.1/plotly.min.js"></script>
+</head>
+<body>
+  <div id="myDiv" align="center"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <script>
+    <!-- JAVASCRIPT CODE GOES HERE -->
+//Change GRAPH_TITLE, FEATURE_NAMES, SHAP_VEC
+var yValue = [$SHAP_VEC$]
+var feat_names =  [$FEATURE_NAMES$];
+var mark_bold = true;
+//add bold to feat_names:
+var i = 0;
+if (mark_bold) {
+	for (i=0;i<feat_names.length;i++) {
+		feat_names[i] =  "<b>" + feat_names[i] + "</b>";
+	}
+}
+
+var series0 = {
+ type: 'bar',
+ y: feat_names, 
+ x: yValue
+ ,text: yValue
+ ,textposition: 'auto'
+, name: 'Features' 
+, orientation: 'h'
+};
+
+var data = [series0];
+
+var layout = {
+  title: '$GRAPH_TITLE$',
+  yaxis: { automargin: true, showticklabels: true, type:'category', dtick:1 }, 
+  xaxis: { title: 'Contribution', automargin: true},
+  autosize: true,
+  height: 800, 
+  font: { 'size': 14 }
+};
+
+Plotly.newPlot('myDiv', data, layout, {showSendToCloud:false});
+
+  </script>
+    
+</body>
+
+</html>

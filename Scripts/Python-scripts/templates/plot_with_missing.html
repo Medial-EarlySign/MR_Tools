@@ -1,0 +1,128 @@
+<html>
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.1.1/plotly.min.js"></script>
+</head>
+
+<body>
+  <div id="myDiv" align="center"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <script>
+    <!-- JAVASCRIPT CODE GOES HERE -->
+
+	{0}
+
+	Plotly.newPlot('myDiv', data, layout);
+	
+	function toggleMissingAll(data) {
+		for (var i=0;i<data.length;i++) {
+			toggleMissing(data[i]);
+		}
+		Plotly.redraw('myDiv', data, layout);
+	}
+	
+	function toggleMissing(trace) {
+		var show_msn=true;
+		if ('show_msn' in trace) {
+			show_msn=trace.show_msn;
+			if (show_msn) {
+				if (trace.msn_state) {
+					trace.msn_state=false;
+					trace.x = trace.x.slice(1);
+					trace.y = trace.y.slice(1);
+					trace.text = [];
+					trace.mode = trace.old_mode;
+				}
+				else {
+					trace.msn_state=true;
+					trace.x.unshift(trace.msn_x);
+					trace.y.unshift(trace.msn_y);
+					trace.text=['Missing_value'];
+					trace.mode = trace.old_mode + '+text';
+				}
+			}
+			return;
+		}
+		var msn_x=trace.x[0];
+		if (show_msn && (trace.x[0] <= -65336)) {
+			if (trace.x.length > 2) {
+				msn_x=trace.x[1]-Math.abs(trace.x[2]-trace.x[1]);
+			}
+			else {
+				show_msn=true;
+				msn_x=-1; //to slience errors
+			}
+		}
+		else { //first value is not missing_value - no missing value
+			show_msn=false;
+		}
+		
+		
+		trace.x[0] = msn_x;
+		trace['show_msn']=show_msn;
+		trace['msn_x']=msn_x;
+		trace['msn_y']=trace.y[0];
+		trace['msn_state']=show_msn;
+		trace['old_mode']=trace.mode;
+		if (show_msn) {
+			trace['text']=['Missing_value'];
+			trace.mode = trace.mode + '+text';
+		}
+	}
+	
+	function searchXY() {
+		sNum = parseInt(document.getElementById('seriesNum').value);
+		x = parseFloat(document.getElementById('xVal').value);
+		y = parseFloat(document.getElementById('yVal').value);
+		var ser = data[sNum];
+		
+		if ('z' in ser) { //search in 3D Graph
+			var ind = ser.x.indexOf(x) + (ser.y.indexOf(y) % ser.x.length);
+			document.getElementById('res').innerHTML = ser.z[ind];
+			return ser.z[ind];
+		}
+		else {
+		var minDistance = NaN;
+		var minDistanceInd = NaN;
+			if (!isNaN(x)) {
+				for (i=0; i< ser.x.length; ++i) {
+					if (isNaN(minDistance) || Math.abs(ser.x[i] - x) < minDistance) {
+						minDistance = Math.abs(ser.x[i] - x);
+						minDistanceInd = i;
+					}
+				}
+				document.getElementById('xVal').value = ser.x[minDistanceInd];
+				document.getElementById('yVal').value = ser.y[minDistanceInd];
+			}
+			else if(!isNaN(y)) {
+				for (i=0; i< ser.y.length; ++i) {
+					if (isNaN(minDistance) || Math.abs(ser.y[i] - y) < minDistance) {
+						minDistance = Math.abs(ser.y[i] - y);
+						minDistanceInd = i;
+					}
+				}
+				document.getElementById('xVal').value = ser.x[minDistanceInd];
+				document.getElementById('yVal').value = ser.y[minDistanceInd];
+			}
+			
+		}
+	}
+	
+  </script>
+  
+  <h3 align="center">Search for values in graph (leave x or y empty to search for the other value)</h3>
+   <p align="center"> 
+   <label for "seriesNum">series number (top is 0)</label>
+   <input type="number" name="seriesNum" id="seriesNum" value="0"></input>
+  <label for="xVal">x</label>
+  <input type="number" name="xVal" id="xVal"></input>
+  <label for="xVal">y</label>
+  <input type="number" name="yVal" id="yVal"></input>
+  <input type="button" value="search" onclick="searchXY();"></input>
+  </p>
+  <p>
+  <input type="button" value="Toggle missing value" onclick="toggleMissingAll(data);"></input>
+  </p>
+  <span id="res"></span>
+  
+</body>
+</html>
