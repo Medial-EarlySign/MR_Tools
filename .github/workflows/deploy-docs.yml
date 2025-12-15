@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install sphinx numpy pandas ipython plotly sqlalchemy
+        python -m pip install sphinx numpy pandas plotly sqlalchemy
         python -m pip install medpython
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Build docs

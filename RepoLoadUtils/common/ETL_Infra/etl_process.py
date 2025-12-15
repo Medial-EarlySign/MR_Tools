@@ -5,7 +5,6 @@ ETL Infra
 import sys, re, subprocess, os, traceback
 import pandas as pd
 import numpy as np
-from IPython import embed
 from traitlets.config import get_config
 from typing import Optional, Generator, List, Callable, Literal
 
@@ -21,6 +20,11 @@ from .unit_conversions import process_unit_conversion, fix_units
 
 from .env import *
 
+try:
+    from IPython import embed
+    HAS_IPYTHON = True
+except:
+    HAS_IPYTHON = False
 
 def read_signals_defs():
     codedir = get_codedir()
@@ -382,6 +386,8 @@ def process_and_open_shell_when_needed(
     if not (interactive):
         return df, False
 
+    if not(HAS_IPYTHON):
+        raise Exception("To use Interactive mode, please install ipython. pip install ipython")
     print("Opening debug shell...", flush=True)
     global_logger.change_log_file(full_log_path, "w")
     sys.stdout = global_logger
