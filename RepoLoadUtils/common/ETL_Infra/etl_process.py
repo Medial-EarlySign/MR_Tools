@@ -5,7 +5,6 @@ ETL Infra
 import sys, re, subprocess, os, traceback
 import pandas as pd
 import numpy as np
-from traitlets.config import get_config
 from typing import Optional, Generator, List, Callable, Literal
 
 from .logger import Tee, Logger
@@ -22,6 +21,7 @@ from .env import *
 
 try:
     from IPython import embed
+    from traitlets.config import get_config
     HAS_IPYTHON = True
 except:
     HAS_IPYTHON = False
