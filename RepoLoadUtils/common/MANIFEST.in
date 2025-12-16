@@ -1,0 +1,7 @@
+# Include the copied C++ source
+recursive-include src/ETL_Infra/dicts *
+recursive-include src/ETL_Infra/rep_signals *
+include pyproject.toml
+include README.md
+include setup.py
+include LICENCE
