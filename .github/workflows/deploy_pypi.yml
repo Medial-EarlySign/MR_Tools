@@ -19,17 +19,6 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v6
 
-      - name: Free Disk Space (Ubuntu)
-        uses: jlumbroso/free-disk-space@main
-        with:
-          tool-cache: true
-          android: true
-          dotnet: true
-          haskell: true
-          large-packages: true
-          docker-images: true
-          swap-storage: true
-
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -57,7 +46,7 @@ jobs:
         with:
           name: py-wheels
           # We grab the repaired wheels from wheelhouse
-          path: dist/*
+          path: build/dist/*
           retention-days: 1
       # - name: Test MedPython
       #   run: |
