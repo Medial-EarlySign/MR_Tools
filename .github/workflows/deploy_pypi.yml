@@ -30,12 +30,12 @@ jobs:
       # --- BUILD PYTHON PACKAGE ---
       - name: Build Python Packages
         run: |
-          mkdir -p build/src
-          cp -R RepoLoadUtils/common/ETL_Infra/*.py build/src
-          cp -R RepoLoadUtils/common/ETL_Infra/tests build/src
-          cp -R RepoLoadUtils/common/ETL_Infra/rep_signals build/src
-          cp -R RepoLoadUtils/common/ETL_Infra/data_fetcher build/src
-          cp -R RepoLoadUtils/common/ETL_Infra/dicts build/src
+          mkdir -p build/src/ETL_Infra
+          cp -R RepoLoadUtils/common/ETL_Infra/*.py build/src/ETL_Infra
+          cp -R RepoLoadUtils/common/ETL_Infra/tests build/src/ETL_Infra
+          cp -R RepoLoadUtils/common/ETL_Infra/rep_signals build/src/ETL_Infra
+          cp -R RepoLoadUtils/common/ETL_Infra/data_fetcher build/src/ETL_Infra
+          cp -R RepoLoadUtils/common/ETL_Infra/dicts build/src/ETL_Infra
           cp RepoLoadUtils/common/MANIFEST.in RepoLoadUtils/common/pyproject.toml RepoLoadUtils/common/README.md RepoLoadUtils/common/LICENCE build
           cd build
           python -m build . --outdir dist
