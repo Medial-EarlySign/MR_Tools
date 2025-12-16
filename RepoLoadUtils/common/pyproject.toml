@@ -31,3 +31,6 @@ Wiki = "https://medial-earlysign.github.io/MR_Wiki/"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools]
+include-package-data = true

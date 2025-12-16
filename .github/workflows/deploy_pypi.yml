@@ -1,0 +1,83 @@
+name: Build medpython-etl PyPi
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_to_pypi:
+        description: 'Publish to PyPI?'
+        required: true
+        default: false
+        type: boolean
+
+jobs:
+  build_py_package:
+    name: Build on Linux
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v6
+
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
+      # --- BUILD PYTHON PACKAGE ---
+      - name: Build Python Packages
+        run: |
+          mkdir -p build/src
+          cp -R RepoLoadUtils/common/ETL_Infra/*.py build/src
+          cp -R RepoLoadUtils/common/ETL_Infra/tests build/src
+          cp -R RepoLoadUtils/common/ETL_Infra/rep_signals build/src
+          cp -R RepoLoadUtils/common/ETL_Infra/data_fetcher build/src
+          cp -R RepoLoadUtils/common/ETL_Infra/dicts build/src
+          cp RepoLoadUtils/common/MANIFEST.in RepoLoadUtils/common/pyproject.toml RepoLoadUtils/common/README.md RepoLoadUtils/common/LICENCE build
+          cd build
+          python -m build . --outdir dist
+          
+      # --- UPLOAD ARTIFACT (Prepare for Job 2) ---
+      - name: Upload Wheels
+        uses: actions/upload-artifact@v4
+        with:
+          name: py-wheels
+          # We grab the repaired wheels from wheelhouse
+          path: dist/*
+          retention-days: 1
+      # - name: Test MedPython
+      #   run: |
+      #     python -c 'import med'
+
+
+# --- JOB 2: PUBLISH (Runs on Linux) ---
+  publish_to_pypi:
+    name: Publish to PyPI
+    needs: build_py_package
+    runs-on: ubuntu-latest
+    if: ${{ inputs.publish_to_pypi == true }}
+    environment:
+      name: pypi
+      url: https://pypi.org/project/medpython-etl
+
+    permissions:
+      contents: read
+      id-token: write
+    
+    steps:
+      - name: Download Wheels
+        uses: actions/download-artifact@v4
+        with:
+          name: py-wheels
+          path: dist/  # Put them in a 'dist' folder for the publisher
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/

@@ -1,7 +1,11 @@
-# Include the copied C++ source
-recursive-include src/ETL_Infra/dicts *
-recursive-include src/ETL_Infra/rep_signals *
+graft src
+
+# 2. Include project metadata
 include pyproject.toml
 include README.md
-include setup.py
-include LICENCE
+include LICENSE
+
+# 3. Exclude garbage we never want
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
