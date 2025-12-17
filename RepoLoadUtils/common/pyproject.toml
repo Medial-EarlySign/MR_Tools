@@ -25,9 +25,13 @@ dependencies = [
     "plotly", 
 ]
 
+[project.optional-dependencies]
+interactive = ["ipython"]
+sql = ["sqlalchemy"]
+
 [project.urls]
-Github = "https://github.com/Medial-EarlySign/MR_Tools"
-Wiki = "https://medial-earlysign.github.io/MR_Wiki/"
+Homepage = "https://github.com/Medial-EarlySign/MR_Tools"
+Documentation = "https://medial-earlysign.github.io/MR_Wiki/"
 
 [tool.setuptools.packages.find]
 where = ["src"]
