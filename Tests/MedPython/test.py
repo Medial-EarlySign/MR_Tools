@@ -16,6 +16,8 @@ MDL_PATH = os.path.join(
     "LGI-ColonFlag-3.1.model",
 )
 
+SAMPLES = "/tmp/NHANES/outputs/Samples.crc/relabeled.samples"
+REP = '/tmp/repository/NHANES/nhanes.repository'
 
 def test_export_model():
     m = med.Model()
@@ -70,3 +72,27 @@ def print_info():
     print(m.print_feature_generator_by_index(1))
 
     print(m.print_feature_processor_by_index(1))
+
+def feature_contrib():
+    m = med.Model()
+    m.read_from_file(MDL_PATH)
+    predictor: med.Predictor = m.predictor
+
+    s = med.Samples()
+    s.read_from_file(SAMPLES)
+    ids = s.get_ids()
+
+    rep = med.PidRepository()
+    rep.init(REP)
+
+    m.fit_for_repository(rep)
+    signalNamesSet = m.get_required_signal_names()
+    rep.read_all(REP, ids, signalNamesSet) #read needed repository data
+
+    m.apply(rep, s, 0, 4)
+
+    shap_results = med.Features()
+    predictor.calc_feature_contribs(m.features, shap_results)
+    return shap_results
+
+
