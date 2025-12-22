@@ -642,7 +642,7 @@ def generate_flow_script(workdir, dest_folder, dest_rep):
     # Generte python script:
     load_args += f";full_error_file={err_file}"
     with open(py_load_script, "w") as fw:
-        fw.write('#/usr/bin/env python\n\n')
+        fw.write('#!/usr/bin/env python\n\n')
         fw.write('# You might want to limit number of threads by executing before running this script:\n')
         fw.write('# export OMP_NUM_THREADS=X\n')
         if load_data_files_cnt > 1000:
