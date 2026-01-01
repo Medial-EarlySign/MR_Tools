@@ -2,7 +2,7 @@ import os
 import sys
 
 def get_codedir()-> str:
-    if 'ipykernel' in sys.modules:
+    if 'ipykernel' in sys.modules or sys.argv[0] == "":
         #In Jupyter
         return os.getcwd()
     # Normal terminal
