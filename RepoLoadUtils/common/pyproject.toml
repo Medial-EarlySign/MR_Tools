@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "medpython-etl"
-version = "1.0.2"
+version = "1.0.3"
 description = "Medial EarlySign ETL Library"
 readme = "README.md"
 license = {text = "MIT" }

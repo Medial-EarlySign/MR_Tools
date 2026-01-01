@@ -346,7 +346,7 @@ def _setup_plotly_js(workdir):
         return
     # Create file
     js = get_plotly_js()
-    fw = open(file_path, "w")
+    fw = open(file_path, "w", encoding="utf-8")
     fw.write(js)
     fw.close()
 
