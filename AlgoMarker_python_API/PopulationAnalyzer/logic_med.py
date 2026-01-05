@@ -258,7 +258,7 @@ def recalc_scores(
     model.read_from_file(model_path)
 
     logger.info(pre_rep_json)
-    model.add_pre_processors_json_string_to_model(pre_rep_json, "")
+    model.add_pre_processors_json_string_to_model(pre_rep_json, "", True)
 
     rep = med.PidRepository()
     rep.init(repo_path)
