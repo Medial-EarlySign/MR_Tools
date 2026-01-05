@@ -4,14 +4,15 @@ from contextlib import redirect_stdout, redirect_stderr
 from datetime import datetime
 from io import StringIO
 import json
+from multiprocessing import freeze_support
 import os
 import re
 import sys
 import traceback
 from typing import Tuple
 import pandas as pd
-from logger import logger, logging_cache
-from logic import StrataStats, full_run, get_bt, get_incidence, get_weights
+#from logger import logger, logging_cache
+from logic import StrataRange, StrataStats, full_run, get_bt, get_incidence, get_weights
 from nicegui import run, ui, events, app
 from models import *
 from config import retrieve_config, unfix_name
@@ -35,6 +36,12 @@ from logic_med import (
 )
 import plotly.graph_objects as go
 
+class Logger:
+    def info(self, msg):
+        print(msg)
+    def error(self, msg):
+        print(msg)
+logger = Logger()
 
 global strata_data
 global strata_name
@@ -50,15 +57,15 @@ global strata_data_raw
 
 model_to_data = {}
 selected_model = None
-strata_data: List[StrataStats] = None
+strata_data: List[StrataStats]|None = None
 selected_region = None
 selected_cohort = None
 last_run_params = None
-strata_name: str = None
-strata_data_inc: List[StrataStats] = None
-strata_name_inc: str = None
+strata_name: str|None = None
+strata_data_inc: List[StrataStats]|None = None
+strata_name_inc: str|None = None
 strata_data_raw: pd.DataFrame | None = None
-strata_name_raw: str = None
+strata_name_raw: str|None = None
 
 model_to_info = retrieve_config()
 
@@ -77,6 +84,7 @@ async def get_age_from_info(strata_data: List[StrataStats]) -> pd.DataFrame:
         if len(age_bin_s) == 0:
             continue
         age_bin_s = age_bin_s[0]
+        assert(isinstance(age_bin_s, StrataRange))
         all_data.append(
             {
                 "age.min": age_bin_s.min_range,
@@ -116,6 +124,7 @@ async def get_age_from_info_avg(
         if len(age_bin_s) == 0:
             continue
         age_bin_s = age_bin_s[0]
+        assert(isinstance(age_bin_s, StrataRange))
         all_data.append(
             {
                 "age.min": age_bin_s.min_range,
@@ -234,27 +243,28 @@ def main():
 
     PREFIX_CHECKBOX_EXISTS = "Availability of analytes: "
 
-    def file_upload(e: events.UploadEventArguments):
+    async def file_upload(e: events.UploadEventArguments):
         MIN_OBS = 200
         global strata_data
         global strata_name
-        file_content = e.content.read().decode("utf-8")
+        file_content = await e.file.text()
         has_error = True
+        error_msg = ""
         try:
             res = parse_file_content(file_content, min_obs=MIN_OBS)
             strata_data = res
-            upload_status.set_text(f"Loaded completed for {e.name}")
+            upload_status.set_text(f"Loaded completed for {e.file.name}")
             err_file_upload.set_visibility(False)
             has_error = False
-            strata_name = e.name
-        except ErrorFewObs as e:
+            strata_name = e.file.name
+        except ErrorFewObs as err:
             res = None
             strata_data = None
-            error_msg = f"CSV File doesn't Has too few observation {e.tot_count} (<1000) - please upload file based on larger population"
-        except ErrorNotDistribution as e:
+            error_msg = f"CSV File doesn't Has too few observation {err.tot_count} (<1000) - please upload file based on larger population"
+        except ErrorNotDistribution as err:
             res = None
             strata_data = None
-            error_msg = f"CSV File doesn't seems to be a distribution. distribution must sum up all probabilities to 1 or 100. Got {e.tot_prob}"
+            error_msg = f"CSV File doesn't seems to be a distribution. distribution must sum up all probabilities to 1 or 100. Got {err.tot_prob}"
         except:
             res = None
             strata_data = None
@@ -264,7 +274,7 @@ def main():
         upload_status.classes.clear()
         if has_error:
             upload_status.set_text(error_msg)
-            upload_status.tailwind("text-red-600")
+            upload_status.classes("text-red-600")
         upload_status.set_visibility(True)
 
     def select_model(mdl: str):
@@ -448,7 +458,7 @@ def main():
         if selected_region not in specific_model_info.model_references:
             res_label.set_text("Please select valid region!")
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             return
         if cohort_options.visible:
             found_cohorts = list(
@@ -635,7 +645,7 @@ def main():
             upload_status_data.set_visibility(False)
             res_label.set_text("Please fill in all required inputs")
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             clear_result_form()
             return
         specific_model_info = fetch_model_info(save_selected_model)
@@ -645,7 +655,7 @@ def main():
                 "Please ask MES to define match_important_features in this model"
             )
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             clear_result_form()
             return
         cohort_info = found_cohorts[0]
@@ -672,7 +682,7 @@ def main():
         cases_weight = None
 
         res_label.classes.clear()
-        res_label.tailwind("font-bold").text_color("blue-800")
+        res_label.classes("font-bold blue-800")
         res_table.set_visibility(False)
 
         for ele in graphic_elements:
@@ -847,18 +857,18 @@ def main():
             err_model_selection.set_visibility(True)
             res_label.set_text("Please fill in all required inputs")
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             has_error = True
         if selected_model is not None and selected_region is None:
             res_label.set_text("Please select region!")
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             has_error = True
         selected_cohort, found_cohorts = fetch_selected_cohort()
         if selected_cohort is None:
             res_label.set_text(f"Please select cohort! {cohort_options.value}")
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             has_error = True
         if has_error:
             clear_result_form()
@@ -870,7 +880,7 @@ def main():
                 upload_status.set_visibility(False)
                 res_label.set_text("Please fill in all required inputs")
                 res_label.classes.clear()
-                res_label.tailwind("font-bold").text_color("red-600")
+                res_label.classes("font-bold").text_color("red-600")
                 has_error = True
             if has_error:
                 clear_result_form()
@@ -888,7 +898,7 @@ def main():
             go_button.enable()
             res_label.set_text(f"Error {traceback.format_exc()}")
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             res_icon.props("name=running_with_errors")
             res_icon.set_visibility(True)
             raise
@@ -942,7 +952,7 @@ def main():
             strata_file_name_inc = str(strata_name_inc)
         logger.info(f"Strata file name is {strata_file_name}")
         res_label.classes.clear()
-        res_label.tailwind("font-bold").text_color("blue-800")
+        res_label.classes("font-bold blue-800")
         res_table.set_visibility(False)
 
         for ele in graphic_elements:
@@ -1083,7 +1093,7 @@ def main():
             go_button.enable()
             res_label.set_text(f"Error {error_msg}")
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             res_label.style("white-space: pre-wrap")
             res_icon.props("name=running_with_errors")
             res_icon.set_visibility(True)
@@ -1157,7 +1167,7 @@ def main():
             else:
                 res_label.set_text(general_text)
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("blue-800")
+            res_label.classes("font-bold blue-800")
             res_label.style("white-space: pre-wrap")
         else:
             res_label.set_text(
@@ -1166,7 +1176,7 @@ def main():
                 + "unrepresented population. Please ensure the reference dataset is representative of the target cohort."
             )
             res_label.classes.clear()
-            res_label.tailwind("font-bold").text_color("red-600")
+            res_label.classes("font-bold red-600")
             res_label.style("white-space: pre-wrap")
             res_icon.props("name=priority_high")
             res_icon.set_visibility(True)
@@ -1253,11 +1263,12 @@ def main():
         else:
             clear_data_spec_csv()
 
-    def file_upload_inc(e: events.UploadEventArguments):
+    async def file_upload_inc(e: events.UploadEventArguments):
         global strata_data_inc
         global strata_name_inc
-        file_content = e.content.read().decode("utf-8")
+        file_content = await e.file.text()
         has_error = True
+        error_msg=""
         try:
             res = parse_file_content_non_dist(file_content)
             # Test all values are between 0 to 10e5:
@@ -1268,14 +1279,14 @@ def main():
             for s in res:
                 s.prob = s.prob / 1e5
             strata_data_inc = res
-            upload_status_inc.set_text(f"Loaded completed for {e.name}")
+            upload_status_inc.set_text(f"Loaded completed for {e.file.name}")
             has_error = False
-            strata_name_inc = e.name
-        except ErrorFewObs as e:
+            strata_name_inc = e.file.name
+        except ErrorFewObs as err:
             res = None
             strata_data_inc = None
-            error_msg = f"CSV File doesn't Has too few observation {e.tot_count} (<1000) - please upload file based on larger population"
-        except ErrorNotDistribution as e:
+            error_msg = f"CSV File doesn't Has too few observation {err.tot_count} (<1000) - please upload file based on larger population"
+        except ErrorNotDistribution as err:
             res = None
             strata_data_inc = None
             error_msg = f"CSV File doesn't seems to be a incidence rate per 100K. Values should be between 0 to 100000"
@@ -1288,23 +1299,24 @@ def main():
         upload_status_inc.classes.clear()
         if has_error:
             upload_status_inc.set_text(error_msg)
-            upload_status_inc.tailwind("text-red-600")
+            upload_status_inc.classes("text-red-600")
         upload_status_inc.set_visibility(True)
 
-    def file_upload_data_spec(e: events.UploadEventArguments):
+    async def file_upload_data_spec(e: events.UploadEventArguments):
         global strata_data_raw
         global strata_name_raw
-        file_content = e.content.read().decode("utf-8")
+        file_content = await e.file.text()
         has_error = True
+        error_msg = ""
         try:
             clients_input = pd.read_csv(
                 StringIO(file_content), sep="\t", dtype={"value": "str"}
             )
             err_file_upload_data.set_visibility(False)
             strata_data_raw = clients_input
-            upload_status_data.set_text(f"Loaded completed for {e.name}")
+            upload_status_data.set_text(f"Loaded completed for {e.file.name}")
             has_error = False
-            strata_name_raw = e.name
+            strata_name_raw = e.file.name
         except:
             strata_data_raw = None
             error_msg = f"Bad File format: {traceback.format_exc()}"
@@ -1312,7 +1324,7 @@ def main():
         upload_status_data.classes.clear()
         if has_error:
             upload_status_data.set_text(error_msg)
-            upload_status_data.tailwind("text-red-600")
+            upload_status_data.classes("text-red-600")
         upload_status_data.set_visibility(True)
 
     def setup_file_ui():
@@ -1430,7 +1442,7 @@ def main():
         if CENTER_ELEMENTS:
             ui.space()
         ui.image("resources/icons/logo-mes.svg").classes("w-16")
-        ui.html("<h2>Model Performance Evaluation for Client Configurations</h2>")
+        ui.html("<h2>Model Performance Evaluation for Client Configurations</h2>", sanitize=False)
         if CENTER_ELEMENTS:
             ui.space()
 
@@ -1751,7 +1763,7 @@ The file must have the following headers:
     SET_COHORT_SIZE = 1000000
 
 
-@ui.page("/console", title="Logging")
+#@ui.page("/console", title="Logging")
 def logging_verbose():
     def clear_all():
         logging_cache.clear_log()
@@ -1781,6 +1793,7 @@ def shutdown_event():
 
 
 if __name__ in {"__main__", "__mp_main__"}:
+    freeze_support()
     main()
     app.on_shutdown(shutdown_event)
     app.add_static_files("/download", "tests/data")
