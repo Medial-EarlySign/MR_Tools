@@ -11,7 +11,7 @@ import sys
 import traceback
 from typing import Tuple
 import pandas as pd
-#from logger import logger, logging_cache
+from logger import logger
 from logic import StrataRange, StrataStats, full_run, get_bt, get_incidence, get_weights
 from nicegui import run, ui, events, app
 from models import *
@@ -239,6 +239,7 @@ def get_data_for_graphs(
     return plt_data_before, plt_data_after
 
 
+@ui.page('/')
 def main():
 
     PREFIX_CHECKBOX_EXISTS = "Availability of analytes: "
@@ -1763,14 +1764,15 @@ The file must have the following headers:
     SET_COHORT_SIZE = 1000000
 
 
-#@ui.page("/console", title="Logging")
+@ui.page("/console", title="Logging")
 def logging_verbose():
     def clear_all():
-        logging_cache.clear_log()
+        #logging_cache.clear_log()
         log_e.clear()
 
     def update_log():
-        msgs = logging_cache.get_messages()
+        #msgs = logging_cache.get_messages()
+        msgs = []
         # global_logger.clear_log() # Might miss some logs in between. not that important
         log_e.clear()
         log_e.push("\n".join(msgs))
@@ -1779,7 +1781,7 @@ def logging_verbose():
         )
 
     log_e = (
-        ui.log(max_lines=logging_cache.max_messages)
+        ui.log(max_lines=100)
         .classes("w-full")
         .style("height:800px")
     )
@@ -1794,7 +1796,6 @@ def shutdown_event():
 
 if __name__ in {"__main__", "__mp_main__"}:
     freeze_support()
-    main()
     app.on_shutdown(shutdown_event)
     app.add_static_files("/download", "tests/data")
     ui.run(port=3764, favicon="resources/icons/faveicon.svg", reload=True, show=False)

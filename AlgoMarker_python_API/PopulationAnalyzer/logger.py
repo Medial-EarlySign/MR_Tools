@@ -60,10 +60,10 @@ class ListHandler(logging.Handler):
         return list(self.messages)
 
 
-que_log = multiprocessing.Manager().Queue()
+#que_log = multiprocessing.Manager().Queue()
 logger = logging.getLogger()
-logging_cache = ListHandler(que_log)
+#logging_cache = ListHandler(que_log)
 stream_handler = logging.StreamHandler(sys.stdout)
-logger.addHandler(logging_cache)
+#logger.addHandler(logging_cache)
 logger.addHandler(stream_handler)
 logger.setLevel(logging.INFO)
