@@ -304,7 +304,7 @@ async def ensure_adjust_model(
     reference_info: ReferenceInfo_minimal,
     model_name: str,
     model_path: str,
-    ui_notifcation: ui.notification = None,
+    ui_notifcation: ui.notification | None = None,
 ) -> str:
     os.makedirs(cache_dir, exist_ok=True)
     if reference_info.repository_path:
@@ -329,6 +329,8 @@ async def ensure_adjust_model(
                     reference_info.repository_path,
                     full_model_output,
                 )
+    else:
+        raise Exception("Missing repository_path in reference")
     return full_model_output
 
 
@@ -343,7 +345,7 @@ async def get_final_scores(
     reference_info: ReferenceInfo_minimal,
     missing_signals_options: Dict[str, str | bool],
     signals_info: List[InputSignals],
-    ui_notifcation: ui.notification = None,
+    ui_notifcation: ui.notification | None = None,
 ) -> tuple[pd.DataFrame, str]:
     # Prepare model if not in cache:
     model_name_f = unfix_name(model_name)
@@ -463,7 +465,7 @@ async def get_final_matrix(
     reference_info: ReferenceInfo_minimal,
     missing_signals_options: Dict[str, str | bool],
     signals_info: List[InputSignals],
-    ui_notifcation: ui.notification = None,
+    ui_notifcation: ui.notification | None = None,
 ) -> tuple[pd.DataFrame, str, str]:
     model_name_f = unfix_name(model_name)
     full_model_output = await ensure_adjust_model(
@@ -833,5 +835,7 @@ def full_matching_propensity(
         model_path, repository_path, clients_inputs_data, samples
     )
     # Compare clients_matrix to current_ref_matrix
-    ref_matrix_weighted, not_represented = compare_feature_matrices(current_ref_matrix, clients_matrix)
+    ref_matrix_weighted, not_represented = compare_feature_matrices(
+        current_ref_matrix, clients_matrix
+    )
     # res = get_bt(ref_matrix_weighted.drop(columns=['weight']), ref_matrix_weighted['weight'], sample_per_pid, top_n_value, thresholds_values)
