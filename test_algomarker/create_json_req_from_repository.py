@@ -6,6 +6,14 @@ import pandas as pd
 import argparse
 import json
 
+_TQDM = False
+try:
+    from tqdm import tqdm
+
+    _TQDM = True
+except:
+    print("pip install tqdm to see progress bar")
+
 
 def __get_signal_units(rep_config: str):
     with open(rep_config, "r") as fr:
@@ -40,7 +48,7 @@ def __generate_data(
         print(f"Pid {pid} has no data - skip")
         return None
     req_time = df_pid["time"].iloc[0]
-    pid_req = {"patient_id": int(pid), "time": int(req_time)}
+    pid_req: dict[str, Any] = {"patient_id": int(pid), "time": int(req_time)}
     pid_req["data"] = {"signals": []}
     # code, unit, data{value[], timestamp[]}
     for key, sig_df in df_pid.groupby("signal"):
@@ -50,7 +58,10 @@ def __generate_data(
         # time_vals = list(filter(lambda x: x.startswith("time_"), sig_df.columns))
         # val_vals = list(filter(lambda x: x.startswith("value_"), sig_df.columns))
         all_js_vals = sig_df.apply(
-            lambda row: {"timestamp": [row["time_0"]], "value": [row["value_0"]]},
+            lambda row: {
+                "timestamp": [int(row["time_0"])] if pd.notna(row["time_0"]) else [],
+                "value": [row["value_0"]] if pd.notna(row["value_0"]) else [],
+            },
             axis=1,
         )
         sig_data["data"] = list(all_js_vals.values)
@@ -76,12 +87,16 @@ def generate_data_from_rep(
         raise Exception(f"Error in reading repository {rep_path}")
     # Generate data for all patients
     data = []
-    for sig in signal_list:
+    if _TQDM:
+        signal_list_iter = tqdm(signal_list, desc="Collecting data for signals") # type: ignore
+    else:
+        signal_list_iter = signal_list
+    for sig in signal_list_iter:
         sig_df: pd.DataFrame = rep.get_sig(sig)  # type: ignore
         sig_df = sig_df.rename(
             columns={"time0": "time_0", "val0": "value_0"}, errors="ignore"
         )
-        if "time_0" in sig_df.columns: #Otherwise static signal
+        if "time_0" in sig_df.columns:  # Otherwise static signal
             sig_df = sig_df.merge(pid_time_df, on="pid", how="inner")
             sig_df = (
                 sig_df[sig_df["time"] >= sig_df["time_0"]]
@@ -95,7 +110,11 @@ def generate_data_from_rep(
     # Convert to json data and request:
     sig_units = __get_signal_units(rep_path)
     all_data = []
-    for pid in pid_list:
+    if _TQDM:
+        pid_list_iter = tqdm(pid_list, desc="Generating data for each pid")
+    else:
+        pid_list_iter = pid_list
+    for pid in pid_list_iter:
         js_pid = __generate_data(data, sig_units, pid)
         if js_pid is not None:
             all_data.append(js_pid)
@@ -122,16 +141,19 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     signals_list = get_model_signals(args.model_path)
-    pid_time_df = pd.read_csv(args.pid_time_file, sep="\t").rename(columns={"id":"pid"}, errors="ignore")[["pid", "time"]]
+    pid_time_df = pd.read_csv(args.pid_time_file, sep="\t").rename(
+        columns={"id": "pid"}, errors="ignore"
+    )[["pid", "time"]]
     js_requests_data = generate_data_from_rep(args.rep_path, signals_list, pid_time_df)
 
     full_request = {
         "type": "request",
         "request_id": "TEST_REQUEST_ID",
-        "exports": {"prediction": "pred_0"},
+        "export": {"prediction": "pred_0"},
         "load": 1,
         "requests": js_requests_data,
     }
     # Store this in output
     with open(args.output, "w") as fw:
         fw.write(json.dumps(full_request, indent=True))
+    print(f"Wrote {args.output}")
