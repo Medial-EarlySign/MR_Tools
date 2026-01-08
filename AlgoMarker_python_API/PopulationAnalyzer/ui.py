@@ -11,7 +11,7 @@ import sys
 import traceback
 from typing import Tuple
 import pandas as pd
-from logger import logger
+from logger import logger, logging_cache
 from logic import StrataRange, StrataStats, full_run, get_bt, get_incidence, get_weights
 from nicegui import run, ui, events, app
 from models import *
@@ -35,13 +35,6 @@ from logic_med import (
     process_res,
 )
 import plotly.graph_objects as go
-
-class Logger:
-    def info(self, msg):
-        print(msg)
-    def error(self, msg):
-        print(msg)
-logger = Logger()
 
 global strata_data
 global strata_name
@@ -1767,12 +1760,11 @@ The file must have the following headers:
 @ui.page("/console", title="Logging")
 def logging_verbose():
     def clear_all():
-        #logging_cache.clear_log()
+        logging_cache.clear_log()
         log_e.clear()
 
     def update_log():
-        #msgs = logging_cache.get_messages()
-        msgs = []
+        msgs = logging_cache.get_messages()
         # global_logger.clear_log() # Might miss some logs in between. not that important
         log_e.clear()
         log_e.push("\n".join(msgs))
