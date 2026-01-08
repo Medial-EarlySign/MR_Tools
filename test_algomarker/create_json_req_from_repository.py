@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     signals_list = get_model_signals(args.model_path)
-    pid_time_df = pd.read_csv(args.pid_time_file, sep="\t")[["pid", "time"]]
+    pid_time_df = pd.read_csv(args.pid_time_file, sep="\t").rename(columns={"id":"pid"}, errors="ignore")[["pid", "time"]]
     js_requests_data = generate_data_from_rep(args.rep_path, signals_list, pid_time_df)
 
     full_request = {
