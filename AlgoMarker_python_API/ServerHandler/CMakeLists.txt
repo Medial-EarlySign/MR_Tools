@@ -23,11 +23,9 @@ utils.cpp
 main.cpp)
 
 set(BOOST_LIBS
-    regex
-    filesystem
     system
     program_options
-)  # for certain version, you might need to add "atomic" also, in some other cases remove system
+)
 
 find_package(Boost REQUIRED)
 if(Boost_VERSION VERSION_GREATER_EQUAL "1.69") # 1.69 is represented as 106900 in CMake
@@ -78,8 +76,7 @@ IF (WIN32)
     set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -fpermissive")
     target_include_directories(AlgoMarker_Server SYSTEM PRIVATE $ENV{BOOST_HOME} )
     target_link_libraries(AlgoMarker_Server ${ADDITIONAL_LINK_FLAGS} -Wl,-Bstatic,--whole-archive -LC:/Boost/boost_1_67_0/stage/lib
-    -lboost_regex-mgw132-mt-x64-1_67  -lboost_program_options-mgw132-mt-x64-1_67
-     -lboost_filesystem-mgw132-mt-x64-1_67 -lboost_system-mgw132-mt-x64-1_67 -Wl,-no-whole-archive -Wl,-Bdynamic -lwsock32
+      -lboost_program_options-mgw132-mt-x64-1_67 -Wl,-no-whole-archive -Wl,-Bdynamic -lwsock32
       )
       target_link_libraries(AlgoMarker_Server ws2_32)
 ELSE()

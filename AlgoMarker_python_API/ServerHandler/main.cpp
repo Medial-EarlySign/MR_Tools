@@ -2,7 +2,7 @@
 #include <iostream>
 #include <boost/beast/core.hpp>
 #include <boost/beast/http.hpp>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include <boost/algorithm/string.hpp>
 #include <signal.h>
 #include <fstream>
@@ -32,7 +32,7 @@ public:
 		lib_path = _lib_path;
 		silent = _silent;
 		if (lib_path.empty()) //Default
-			lib_path = boost::filesystem::path(algomarker_path).parent_path().string() + "/lib/" + "libdyn_AlgoMarker.so"; 
+			lib_path = std::filesystem::path(algomarker_path).parent_path().string() + "/lib/" + "libdyn_AlgoMarker.so"; 
 		MLOG(false, "server setup: AlgoMarker => %s\n", algomarker_path.c_str());
 		MLOG(false, "server setup: Library => %s\n", lib_path.c_str());
 
