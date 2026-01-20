@@ -462,9 +462,8 @@ int main(int argc, char* argv[])
 {
 	signal(SIGINT, exit_handler);
 	ProgramArgs args;
-	if (args.parse_parameters(argc, argv) < 0)
+	if (args.parse_parameters(argc, argv))
 		return -1;
-
 	// Check if we are inside docker and have limits:
 	string cpu_limit_path = "/sys/fs/cgroup/cpu/cpu.cfs_quota_us";
 	ifstream cpu_f(cpu_limit_path);
