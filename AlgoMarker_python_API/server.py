@@ -11,6 +11,8 @@ from fastapi.openapi.docs import (
 )
 import os
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
 description = """
 AlgoMarker API helps you do awesome stuff. 🚀
 
@@ -51,7 +53,7 @@ app = FastAPI(
     lifespan=startup_event
 )
 app.algomarker = None
-app.mount("/swagger", StaticFiles(directory="swagger"), name="swagger")
+app.mount("/swagger", StaticFiles(directory=os.path.join(current_dir,"swagger")), name="swagger")
 
 
 @app.get(app.swagger_ui_oauth2_redirect_url, include_in_schema=False)
