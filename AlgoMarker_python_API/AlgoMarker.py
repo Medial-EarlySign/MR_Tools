@@ -349,22 +349,22 @@ class AlgoMarker:
                     f"Error in add_data_simple - all values must have the same size, but got {len(elem.values)} != {values_size}"
                 )
 
-            # Convert to ctypes arrays
-            c_times = (ctypes.c_long * len(flat_times))(*flat_times)
-            c_values = (ctypes.c_float * len(flat_values))(*flat_values)
-            res = self.__lib.AM_API_AddData(
-                self.__obj,
-                patient_id,
-                ctypes.create_string_buffer(signal_name.encode("ascii")),
-                len(flat_times),
-                c_times,
-                len(flat_values),
-                c_values,
-            )
-            if res != 0:
-                msg = f"Error in add_data_simple - error code {res} for patient_id {patient_id}, signal_name {signal_name}, data: {elem}"
-                print(msg)
-                messages.append(msg)
+        # Convert to ctypes arrays
+        c_times = (ctypes.c_long * len(flat_times))(*flat_times)
+        c_values = (ctypes.c_float * len(flat_values))(*flat_values)
+        res = self.__lib.AM_API_AddData(
+            self.__obj,
+            patient_id,
+            ctypes.create_string_buffer(signal_name.encode("ascii")),
+            len(flat_times),
+            c_times,
+            len(flat_values),
+            c_values,
+        )
+        if res != 0:
+            msg = f"Error in add_data_simple - error code {res} for patient_id {patient_id}, signal_name {signal_name}, data: {elem}"
+            print(msg)
+            messages.append(msg)
         # No return value, errors are handled by the library
         return messages
 
