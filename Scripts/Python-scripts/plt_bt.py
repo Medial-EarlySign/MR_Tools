@@ -18,14 +18,19 @@ def fetch_number(s:str):
 def merge_rows(filtered_rows: list[list], filtered_rows2: list[list], op_metric:bool) -> list[list]:
     # str, float, float in each list
     assert(len(filtered_rows)== len(filtered_rows2))
+    filter_row_clean = []
     for i in range(len(filtered_rows)):
         row1 = filtered_rows[i]
         row2 = filtered_rows2[i]
         assert(row1[0] == row2[0]) # same cohort
         assert(row1[1] == row2[1]) # same measre
         if op_metric:
-            row2[2] = str(100 - float(row2[2]))
-        filtered_rows[i][1] = row2[2] # override with value from filtered_rows2
+            if  float(row2[2]) > -65336:
+                row2[2] = str(100 - float(row2[2]))
+        if float(row2[2]) <= -65336:
+            continue
+        row1[1] = row2[2] # override with value from filtered_rows2
+        filter_row_clean.append(row1)
     return filtered_rows
 
 def perpare_bt_graph(input_path: str, measure: str, filter_cohorts, take_mean=True, show_ci = False, set_metric_x: str = '', op_metric: bool = False):
