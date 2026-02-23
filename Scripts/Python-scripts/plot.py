@@ -290,9 +290,9 @@ def generate_graph_(data_rows, input_file, has_header, html_template, output_pat
     data_js += """ 
     
     var layout = { 
-      title: '%s',
-      xaxis: { title : '%s'}, 
-      yaxis: { title: '%s'},
+      title: { text: '%s' },
+      xaxis: { title : { text: '%s' } }, 
+      yaxis: { title:  { text: '%s' } },
       height: 800, 
       width: 1200
       %s

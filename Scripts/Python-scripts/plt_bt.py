@@ -127,7 +127,7 @@ if __name__ == '__main__':
         all_datasets = all_datasets + data
         
     if args.add_y_eq_x:
-        print('Add y==x graph')
+        #print('Add y==x graph')
         x_vals = sorted(set(map(lambda x: float(x[1]) ,all_datasets[1:])))
         if args.show_ci:
             add_d = list(map(lambda x: ['Y=X', str(x), str(x),str(x) , str(x)] ,x_vals))
@@ -138,7 +138,7 @@ if __name__ == '__main__':
     name = args.input[0]
     if len(args.input) > 1:
         name = 'multiple'
-    additional_ly_s='showlegend: true, legend: {x: 0.5, y: 1 }'
+    additional_ly_s='showlegend: true, legend: {x: 0.9, y: 0.1 }'
     if not(args.show_ci):
         generate_graph_(all_datasets, name, 'true', args.html_template, args.output, '\t', [1], [2], [0], -65336, additional_ly_str=additional_ly_s)
     else:
