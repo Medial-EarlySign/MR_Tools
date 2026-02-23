@@ -3,7 +3,7 @@ from plot import *
 import argparse, os, re
 #generate bootstrap graphs from bootstrap results
 
-def fetch_number(s):
+def fetch_number(s:str):
     number_fetcher = re.compile(r'_([0-9]+)_|_([0-9]+\.[0-9]+)_')
     res = number_fetcher.findall(s)
     if len(res)==1:
@@ -15,7 +15,20 @@ def fetch_number(s):
         return res
     return None
 
-def perpare_bt_graph(input_path, measure, filter_cohorts, take_mean=True, show_ci = False):
+def merge_rows(filtered_rows: list[list], filtered_rows2: list[list], op_metric:bool) -> list[list]:
+    # str, float, float in each list
+    assert(len(filtered_rows)== len(filtered_rows2))
+    for i in range(len(filtered_rows)):
+        row1 = filtered_rows[i]
+        row2 = filtered_rows2[i]
+        assert(row1[0] == row2[0]) # same cohort
+        assert(row1[1] == row2[1]) # same measre
+        if op_metric:
+            row2[2] = str(100 - float(row2[2]))
+        filtered_rows[i][1] = row2[2] # override with value from filtered_rows2
+    return filtered_rows
+
+def perpare_bt_graph(input_path: str, measure: str, filter_cohorts, take_mean=True, show_ci = False, set_metric_x: str = '', op_metric: bool = False):
     #print('Reading %s'%(input_path))
     data_rows=read_data(input_path, '\t')
     data_rows = data_rows[1:]
@@ -33,6 +46,23 @@ def perpare_bt_graph(input_path, measure, filter_cohorts, take_mean=True, show_c
         filtered_rows = list(filter(lambda x: x[1].endswith('_Obs') ,filtered_rows_main))
     
     filtered_rows = list(map(lambda x : [x[0], fetch_number(x[1]), x[2]], filtered_rows))
+
+    if set_metric_x != '':
+        suffix_measure = measure.split('@')[1]
+        filtered_rows_main2 = list(filter(lambda x: x[1].startswith(set_metric_x + '@' + suffix_measure) ,filtered_rows_main))
+        if (len(filtered_rows_main2) == 0):
+            filtered_rows_main2 = list(filter(lambda x: x[1].find(set_metric_x + '@' + suffix_measure) >= 0 ,data_rows))
+        if filter_cohorts is not None and len(filter_cohorts) > 0:
+            filter_reg = re.compile(filter_cohorts)
+            filtered_rows_main2 = list(filter(lambda x: len(filter_reg.findall(x[0])) > 0 ,filtered_rows_main2))
+        if take_mean:
+            filtered_rows2 = list(filter(lambda x: x[1].endswith('_Mean') ,filtered_rows_main2))
+        else:
+            filtered_rows2 = list(filter(lambda x: x[1].endswith('_Obs') ,filtered_rows_main2))
+        filtered_rows2 = list(map(lambda x : [x[0], fetch_number(x[1]), x[2]], filtered_rows2))
+        # Update filtered_rows with filtered_rows2: replace 1 with this matching results:
+        filtered_rows = merge_rows(filtered_rows, filtered_rows2, op_metric)
+
     if show_ci:
         ci_rows_low = list(filter(lambda x: x[1].endswith('_CI.Lower.95')  ,filtered_rows_main))
         ci_rows_high = list(filter(lambda x: x[1].endswith('_CI.Upper.95') ,filtered_rows_main))
@@ -70,11 +100,13 @@ if __name__ == '__main__':
     parser.add_argument("--take_mean",help="If true will print Mean, otherwise Obs", type=str2bool,default=True)
     parser.add_argument("--show_ci",help="If true will also output CI", type=str2bool,default=False)
     parser.add_argument("--add_y_eq_x",help="If true will add y=x graph", type=str2bool,default=False)
+    parser.add_argument("--set_metric_x",help="Control metric to fetch from X@ pattern to set as X input", default='')
+    parser.add_argument("--op_metric_x",help="if ttue will do 100-X in x axis", type=str2bool, default=False)
     args = parser.parse_args()
 
     all_datasets=[]
     for i, inp in enumerate(args.input):
-        data=perpare_bt_graph(inp, args.measure, args.filter_cohorts, args.take_mean, args.show_ci)
+        data=perpare_bt_graph(inp, args.measure, args.filter_cohorts, args.take_mean, args.show_ci, args.set_metric_x, args.op_metric_x)
         if len(args.input) > 1:
             inp_name=os.path.basename(inp)
             if len(args.names) != len(args.input):
@@ -93,9 +125,9 @@ if __name__ == '__main__':
         print('Add y==x graph')
         x_vals = sorted(set(map(lambda x: float(x[1]) ,all_datasets[1:])))
         if args.show_ci:
-            add_d = map(lambda x: ['Y=X', str(x), str(x),str(x) , str(x)] ,x_vals)
+            add_d = list(map(lambda x: ['Y=X', str(x), str(x),str(x) , str(x)] ,x_vals))
         else:
-            add_d = map(lambda x: ['Y=X', str(x), str(x)] ,x_vals)
+            add_d = list(map(lambda x: ['Y=X', str(x), str(x)] ,x_vals))
         all_datasets = all_datasets + add_d
 
     name = args.input[0]
