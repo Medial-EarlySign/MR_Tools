@@ -52,7 +52,7 @@ if len(args.sub_codes) > 0:
         fr.close()
         lut = rep.dict.prep_sets_lookup_table(rep.dict.section_id(signal), codes)
         sig = rep.get_sig(signal, translate=False).rename(columns={'val':'val0', "date":"time0"}, errors='ignore')
-        sig = sig[(lut[sig.val0] != 0)].sort_values('time0').drop_duplicates(subset=['pid'])[['pid', 'time0']].rename(columns={'time0':'group_time'})
+        sig = sig[(lut[sig.val0.astype(int)] != 0)].sort_values('time0').drop_duplicates(subset=['pid'])[['pid', 'time0']].rename(columns={'time0':'group_time'})
         cases_g = cases[cases.pid.isin(sig.pid.tolist())].copy()
         cases_ng = cases[~cases.pid.isin(sig.pid.tolist())]
         cases_g = cases_g.merge(sig, on='pid')
