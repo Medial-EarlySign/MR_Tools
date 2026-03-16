@@ -16,7 +16,7 @@
 #include <MedUtils/MedUtils/MedIO.h>
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/xml_parser.hpp>
-#include <boost/regex.hpp>
+#include <regex>
 #include <RapidXML/rapidxml.hpp>
 
 #include <unordered_map>
@@ -317,12 +317,12 @@ int append_labs_data_rapid(parser_params &prm, xml_document<> &xmldoc, int pid)
 	return 0;
 }
 
-const boost::regex e("0:.(\\d+)~1.+");
+const std::regex e("0:.(\\d+)~1.+");
 // Hier contains a leading-zeros version of val, e.g. 0: 00774~ for val 774
 // which is important to save as-is as 00774 can be a different code than 774 :(
 void fix_code_according_to_hier(const string& name, const string& hier, string& val) {
 	boost::smatch what;
-	bool match_found = boost::regex_match(hier, what, e);
+	bool match_found = std::regex_match(hier, what, e);
 	if (match_found  && what.size() > 1) {
 		if (med_stoi(val) != med_stoi(what[1]))
 			MTHROW_AND_ERR("name [%s] mismatch between val [%s] and hier [%s]\n", name.c_str(), val.c_str(), what[1].str().c_str());

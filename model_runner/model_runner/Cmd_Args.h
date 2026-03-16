@@ -5,7 +5,7 @@
 #include <boost/program_options.hpp>
 #include <boost/spirit/home/support/detail/hold_any.hpp>
 #include <boost/algorithm/string.hpp>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include "MedUtils/MedUtils/MedUtils.h"
 #include "MedUtils/MedUtils/MedEnums.h"
 #include "Logger/Logger/Logger.h"
@@ -37,9 +37,9 @@ string get_time_str() {
 	return date_format;
 }
 void set_logging(const string &base_path, bool debug) {
-	boost::filesystem::create_directories(base_path.data());
+	std::filesystem::create_directories(base_path.data());
 	string log_dir = base_path + path_sep() + "run_logs";
-	boost::filesystem::create_directories(log_dir.data());
+	std::filesystem::create_directories(log_dir.data());
 
 	string time_str = get_time_str();
 	FILE *inf;

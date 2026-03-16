@@ -6,7 +6,7 @@
 #include "xls.h"
 
 #include <iostream>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include <algorithm>
 
 std::string g_book;// Replace Excel book with directory
@@ -14,7 +14,7 @@ std::string g_book;// Replace Excel book with directory
 void xls_create(const char *_path)
 {
 	g_book = string(_path);
-	boost::filesystem::path p{ g_book };
+	std::filesystem::path p{ g_book };
 	try {
 		create_directory(p);
 	}

@@ -31,10 +31,10 @@ public:
 map<string, metric_val> extract_measurements(const map<string, float> &res, const string &regex) {
 	map<string, metric_val> ret;
 	//Aggregate with confidence intervals
-	boost::regex reg_pat(regex);
+	std::regex reg_pat(regex);
 	for (auto & it : res)
 	{
-		bool found = boost::regex_search(it.first, reg_pat);
+		bool found = std::regex_search(it.first, reg_pat);
 		if (!found)
 			continue;
 		string metric_name = it.first;

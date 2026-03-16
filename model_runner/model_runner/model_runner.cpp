@@ -5,6 +5,7 @@
 #include <fstream>
 #include <iostream>
 #include <algorithm>
+#include <filesystem>
 #include <boost/algorithm/string.hpp>
 #include "Logger/Logger/Logger.h"
 #include "MedUtils/MedUtils/MedRegistry.h"
@@ -176,9 +177,9 @@ int main(int argc, char *argv[]) {
 	string results_folder_name = "results";
 	string config_folder_name = args.config_folder_name;
 	string bootstrap_folder_name = args.bootstrap_folder_name;
-	boost::filesystem::create_directories(args.output_folder + path_sep() + results_folder_name);
-	boost::filesystem::create_directories(args.output_folder + path_sep() + config_folder_name);
-	boost::filesystem::create_directories(args.output_folder + path_sep() + bootstrap_folder_name);
+	std::filesystem::create_directories(args.output_folder + path_sep() + results_folder_name);
+	std::filesystem::create_directories(args.output_folder + path_sep() + config_folder_name);
+	std::filesystem::create_directories(args.output_folder + path_sep() + bootstrap_folder_name);
 
 	if (args.skip_to_compare) {
 		if (args.load_test_samples.empty() || args.load_train_samples.empty())
@@ -234,7 +235,7 @@ int main(int argc, char *argv[]) {
 						base_stats_path = args.output_folder + path_sep() + args.dictonary_folder_name + path_sep();
 						MLOG_D("Using relative path %s for searching dicts\n", base_stats_path.c_str());
 					}
-					boost::filesystem::create_directories(base_stats_path.data());
+					std::filesystem::create_directories(base_stats_path.data());
 					char str_buff[500];
 					snprintf(str_buff, sizeof(str_buff),
 						"start_age=%d;end_age=%d;age_bin=%d"

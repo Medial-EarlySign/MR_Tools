@@ -1,6 +1,6 @@
 #include <string>
-#include <boost/filesystem.hpp>
-#include <boost/regex.hpp>
+#include <filesystem>
+#include <regex>
 #include <iostream>
 #include <MedProcessTools/MedProcessTools/MedModel.h>
 #include <MedUtils/MedUtils/MedRegistry.h>
@@ -720,7 +720,7 @@ void test_preformace(const vector<MedSample> &model_result, bool test_kaplan_mei
 }
 
 string get_filename_no_ext(const string &fp) {
-	boost::filesystem::path file_p(fp);
+	std::filesystem::path file_p(fp);
 	string fname = file_p.filename().string();
 
 	if (fname.find(".") != string::npos)
@@ -837,8 +837,8 @@ void test_calibration(const string &rep_path, const vector<Calibration_Test> &te
 			MLOG("Wrote file [%s]\n", (output + addition_split_info + ".bootstrap.pivot_txt").c_str());
 			//Print graph for each cohort:
 			if (!bootstrap_graphs_path.empty()) {
-				boost::regex bt_points("^OBSERVED_PROB@PREDICTED_PROB_");
-				boost::filesystem::create_directories(bootstrap_graphs_path);
+				std::regex bt_points("^OBSERVED_PROB@PREDICTED_PROB_");
+				std::filesystem::create_directories(bootstrap_graphs_path);
 				for (const auto &cohort_res : res.bootstrap_results)
 				{
 					string file_name = addition_split_info + "." + cohort_res.first + ".html";
@@ -865,14 +865,14 @@ void test_calibration(const string &rep_path, const vector<Calibration_Test> &te
 
 					vector<pair<float, float>> perfect_ref, graph_observed_calibration,
 						ci_lower, ci_upper;
-					boost::regex bt_neg("^NNEG@PREDICTED_PROB_");
-					boost::regex bt_pos("^NPOS@PREDICTED_PROB_");
+					std::regex bt_neg("^NNEG@PREDICTED_PROB_");
+					std::regex bt_pos("^NPOS@PREDICTED_PROB_");
 					map<float, float> bin_sizes;
 					//scan c_res to build graph:
 					for (const auto &it : c_res)
 					{
 						const string &m_name = it.first;
-						if (boost::regex_search(m_name, bt_points)) {
+						if (std::regex_search(m_name, bt_points)) {
 							//fetch ref from name:
 							float ref_val = fetch_ref(m_name);
 
@@ -890,7 +890,7 @@ void test_calibration(const string &rep_path, const vector<Calibration_Test> &te
 							}
 						}
 						//NNEG, NPOS - count bin size
-						if (boost::regex_search(m_name, bt_neg) || boost::regex_search(m_name, bt_pos)) {
+						if (std::regex_search(m_name, bt_neg) || std::regex_search(m_name, bt_pos)) {
 							if (boost::ends_with(m_name, "_Obs")) {
 								float ref_val = fetch_ref(m_name);
 								bin_sizes[ref_val] += it.second;

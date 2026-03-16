@@ -4,7 +4,7 @@
 #include "cbc_stats.h"
 #include "demography_stats.h"
 #include <boost/math/distributions/students_t.hpp>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include "xls.h"
 
 using namespace std;
@@ -314,8 +314,8 @@ int reference_data_set_t::read( char* path )
 int reference_data_set_t::save( char *_path, data_set_t& ds )
 {
 
-	boost::filesystem::path p{ _path };
-	if ( !boost::filesystem::is_directory(_path)) {
+	std::filesystem::path p{ _path };
+	if ( !std::filesystem::is_directory(_path)) {
 		try {
 			create_directory(p);
 		}

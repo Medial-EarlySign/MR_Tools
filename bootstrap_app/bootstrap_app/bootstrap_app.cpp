@@ -9,8 +9,6 @@
 #include "MedUtils/MedUtils/MedRegistry.h"
 #include "MedUtils/MedUtils/MedSamplingStrategy.h"
 #include "InfraMed/InfraMed/InfraMed.h"
-#include <boost/filesystem/path.hpp>
-#include <boost/filesystem.hpp>
 
 using namespace std;
 

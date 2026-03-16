@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <random>
 #include <cmath>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include <boost/algorithm/string.hpp>
 #include <MedProcessTools/MedProcessTools/MedModel.h>
 #include <MedStat/MedStat/MedBootstrap.h>
@@ -30,10 +30,10 @@ void read_features_binning_config(const string &file_path,
 		BinSettings bs;
 		bs.init_from_string(boost::trim_copy(tokens[1]));
 		//find in regex:
-		boost::regex reg_pat = boost::regex(boost::trim_copy(tokens[0]));
+		std::regex reg_pat = std::regex(boost::trim_copy(tokens[0]));
 		for (const string &feat_name : all_feat_names)
 		{
-			if (boost::regex_search(feat_name, reg_pat)) {
+			if (std::regex_search(feat_name, reg_pat)) {
 				if (res.find(feat_name) != res.end())
 					MWARN("WARNING : Error feature %s has more than 1 matching regex\n",
 						feat_name.c_str());
@@ -1044,7 +1044,7 @@ void compare_model_by_repositories(const ProgramArgs &args) {
 	//Apply on test:
 	propensity_predictor->predict(propensity_features);
 	if (args.output != "/dev/null") {
-		boost::filesystem::create_directories(args.output);
+		std::filesystem::create_directories(args.output);
 		MedSamples pred_samples;
 		pred_samples.import_from_sample_vec(propensity_features.samples);
 		pred_samples.write_to_file(args.output + path_sep() + "test_propensity.preds");
@@ -1297,7 +1297,7 @@ void compare_model_by_repositories(const ProgramArgs &args) {
 		if (!args.additional_importance_to_rank.empty() && !reranked)
 			load_additional_rank(args.additional_importance_to_rank, ranked);
 		string folder_feat = args.output + path_sep() + "features_diff";
-		boost::filesystem::create_directories(folder_feat);
+		std::filesystem::create_directories(folder_feat);
 
 		//Calibrate scores to probs
 		unique_ptr<PostProcessor> pp_cal = unique_ptr<PostProcessor>(PostProcessor::make_processor("calibrator", args.calibration_init_str));

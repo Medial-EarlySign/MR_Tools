@@ -8,7 +8,7 @@
 #include "MedProcessTools/MedProcessTools/Calibration.h"
 #include "Helper.h"
 #include "Cmd_Args.h"
-#include <boost/filesystem.hpp>
+#include <filesystem>
 
 #define LOCAL_SECTION LOG_APP
 #define LOCAL_LEVEL LOG_DEF_LEVEL
@@ -348,10 +348,10 @@ int main(int argc, char *argv[])
 	global_logger.levels[LOG_MEDALGO] = MAX_LOG_LEVEL;
 	MedProgress progress("Bootstrap_action_effect", args.nbootstrap, 30, 1);
 
-	string base_log_folder = boost::filesystem::path(args.output.c_str()).parent_path().string() +
+	string base_log_folder = std::filesystem::path(args.output.c_str()).parent_path().string() +
 							 path_sep() + "bootstrap_loop";
 	if (args.nbootstrap > 1 && args.debug && args.output != "/dev/null")
-		boost::filesystem::create_directories(base_log_folder);
+		std::filesystem::create_directories(base_log_folder);
 
 	for (int loop = 0; loop < args.nbootstrap; ++loop)
 	{

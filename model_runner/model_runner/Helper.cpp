@@ -3,7 +3,6 @@
 #include <fstream>
 #include <boost/algorithm/string.hpp>
 #include <boost/spirit/home/support/detail/hold_any.hpp>
-#include <boost/filesystem.hpp>
 #include "MedAlgo/MedAlgo/BinSplitOptimizer.h"
 #include "MedProcessTools/MedProcessTools/Calibration.h"
 #include <omp.h>

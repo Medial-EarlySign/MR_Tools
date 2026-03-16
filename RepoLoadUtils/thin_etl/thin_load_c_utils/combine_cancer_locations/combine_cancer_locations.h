@@ -15,7 +15,6 @@
 #include <boost/serialization/utility.hpp>
 #include <boost/algorithm/string/classification.hpp>
 #include <boost/algorithm/string/split.hpp>
-#include <boost/filesystem.hpp>
 #include <omp.h>
 
 #include <algorithm>
@@ -27,7 +26,6 @@
 
 using namespace std;
 namespace po = boost::program_options;
-namespace fs = boost::filesystem;
 
 // Functions
 void read_run_params(int argc, char **argv, po::variables_map& vm);

@@ -7,7 +7,7 @@
 #include <boost/algorithm/string/classification.hpp>
 #include <boost/algorithm/string/split.hpp>
 #include "MedProcessTools/MedProcessTools/MedModel.h"
-#include "boost/filesystem.hpp"   // includes all needed Boost.Filesystem declarations
+#include "filesystem"   // includes all needed Boost.Filesystem declarations
 
 #include <algorithm>
 #include <time.h>
@@ -15,7 +15,6 @@
 
 using namespace std;
 namespace po = boost::program_options;
-namespace fs = boost::filesystem;
 
 // Functions
 void read_run_params(int argc, char **argv, po::variables_map& vm);

@@ -6,8 +6,7 @@
 #include "Cmd_Args.h"
 #include <MedProcessTools/MedProcessTools/MedModel.h>
 #include <boost/algorithm/string.hpp>
-#include <boost/regex.hpp>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include <boost/algorithm/string_regex.hpp>
 #include "CommonLib/CommonLib/commonHeader.h"
 
@@ -78,7 +77,7 @@ int main(int argc, char *argv[])
 	// Add pre-processors
 	if (!args.preProcessors.empty()) {
 		MLOG("Adding pre-processors\n");
-		run_current_path = boost::filesystem::path(args.preProcessors).parent_path().string();
+		run_current_path = std::filesystem::path(args.preProcessors).parent_path().string();
 		int fp_set = (int)model.rep_processors.size(); //will add from this pos
 		MLOG("%s\n", medial::io::get_list(args.alt_json).c_str());
 		
@@ -118,7 +117,7 @@ int main(int argc, char *argv[])
 		}
 		else
 			start_from = (int)model.post_processors.size();
-		run_current_path = boost::filesystem::path(args.postProcessors).parent_path().string();
+		run_current_path = std::filesystem::path(args.postProcessors).parent_path().string();
 		if (model.add_post_processors_json_string_to_model("", args.postProcessors, args.alt_json) < 0)
 			MTHROW_AND_ERR("adding post processor failed\n");
 

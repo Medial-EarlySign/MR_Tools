@@ -5,9 +5,8 @@
 #include <fstream>
 #include <random>
 #include <omp.h>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include <boost/algorithm/string.hpp>
-#include <boost/regex.hpp>
 #include <regex>
 #include <MedAlgo/MedAlgo/BinSplitOptimizer.h>
 #include <MedIO/MedIO/MedIO.h>
@@ -152,14 +151,14 @@ void test_problems(const vector<float> &data, const test_params &pr, const strin
 }
 
 void print_options(const string &pt, const string &rep_path) {
-	boost::filesystem::path p(pt);
+	std::filesystem::path p(pt);
 	MLOG("Options are:\n");
 	if (!pt.empty()) {
-		boost::regex re("[0-9]+$");
+		std::regex re("[0-9]+$");
 		unordered_set<string> names;
-		for (auto& entry : boost::make_iterator_range(boost::filesystem::directory_iterator(p), {})) {
+		for (auto& entry : boost::make_iterator_range(std::filesystem::directory_iterator(p), {})) {
 			string cand = entry.path().filename().generic_string();
-			cand = boost::regex_replace(cand, re, "");
+			cand = std::regex_replace(cand, re, "");
 			names.insert(cand);
 		}
 		vector<string> sorted(names.begin(), names.end());
@@ -337,10 +336,10 @@ void print_graph(const ProgramArgs &args) {
 	if (args.output.empty())
 		MTHROW_AND_ERR("Error - please provide output argument in this mode\n");
 	string bp_path = args.base_path;
-	boost::filesystem::path p(bp_path);
+	std::filesystem::path p(bp_path);
 	random_device rd;
 
-	boost::filesystem::create_directories(args.output);
+	std::filesystem::create_directories(args.output);
 	string f_log_file = args.output + path_sep() + "all_tests.log";
 	ofstream fw(f_log_file);
 	if (!fw.good())
@@ -369,7 +368,7 @@ void print_graph(const ProgramArgs &args) {
 		vector<string> fnames;
 		regex match_nm(signal_nm);
 		if (!bp_path.empty())
-			for (auto& entry : boost::make_iterator_range(boost::filesystem::directory_iterator(p), {})) {
+			for (auto& entry : boost::make_iterator_range(std::filesystem::directory_iterator(p), {})) {
 				string cand = entry.path().filename().generic_string();
 				if (regex_match(cand, match_nm))
 					fnames.push_back(entry.path().generic_string());

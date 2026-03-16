@@ -2329,8 +2329,8 @@ void try_change_name(const vector<vector<string>> &all_names_before, const vecto
 		MTHROW_AND_ERR("Error can't find feature bucket in model\n");
 	//try search and replace of ".%s." and see if that worked?
 	string cp_f = f_name;
-	boost::regex reg_start("^" + signal + "\\.");
-	f_name = move(boost::regex_replace(f_name, reg_start, signal_new_name + "."));
+	std::regex reg_start("^" + signal + "\\.");
+	f_name = move(std::regex_replace(f_name, reg_start, signal_new_name + "."));
 	boost::replace_first(f_name, "." + signal + ".", "." + signal_new_name + ".");
 	unordered_set<string> snames(all_names_after[bucket_idx].begin(), all_names_after[bucket_idx].end());
 	if (snames.find(f_name) == snames.end())

@@ -3,7 +3,7 @@
 #include <MedProcessTools/MedProcessTools/FeatureGenerator.h>
 
 #include "Catch-master/single_include/catch.hpp"
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include "Logger/Logger/Logger.h"
 #define LOCAL_SECTION LOG_APP
 #define LOCAL_LEVEL	LOG_DEF_LEVEL
@@ -67,7 +67,7 @@ TEST_CASE("Test binned lm estimates", "[binnedLM]") {
 	// Read Repository
 	string config_file;
 	for (string s : {"/server/Work/CancerData/Repositories/THIN/build_jan2017/thin.repository", "W:\\CancerData\\Repositories\\THIN\\build_nov2016\\thin.repository"})
-		if (boost::filesystem::exists(s)) {
+		if (std::filesystem::exists(s)) {
 			MLOG("[%s] exists, let's use it\n", s.c_str());
 			config_file = s;
 			break;

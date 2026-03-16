@@ -1,15 +1,15 @@
 #include "Cmd_Args.h"
 #include <InfraMed/InfraMed/InfraMed.h>
-#include <boost/regex.hpp>
+#include <regex>
 
 #define LOCAL_SECTION LOG_APP
 #define LOCAL_LEVEL LOG_DEF_LEVEL
 
-bool is_target_regex(int code_id, int section_id, MedRepository &rep, boost::regex &regex_code) {
+bool is_target_regex(int code_id, int section_id, MedRepository &rep, std::regex &regex_code) {
 	const vector<string> &names = rep.dict.dicts[section_id].Id2Names.at(code_id);
 	bool is_target = false;
 	for (const string &nm : names)
-		if (boost::regex_search(nm, regex_code)) {
+		if (std::regex_search(nm, regex_code)) {
 			is_target = true;
 			break;
 		}
@@ -31,7 +31,7 @@ int main(int argc, char * argv[]) {
 	if (sid < 0)
 		MTHROW_AND_ERR("Error unable to find signal %s\n", args.sig.c_str());
 	int section_id = rep.dict.section_id(args.sig);
-	boost::regex regex_code(args.regex_target);
+	std::regex regex_code(args.regex_target);
 
 
 	ofstream fw_out(args.output_path);

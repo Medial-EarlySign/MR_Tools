@@ -1,5 +1,5 @@
 #include "Cmd_Args.h"
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include <MedUtils/MedUtils/MedPlot.h>
 #include <MedIO/MedIO/MedIO.h>
 #include <MedAlgo/MedAlgo/BinSplitOptimizer.h>
@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 	ProgramArgs args;
 	if (args.parse_parameters(argc, argv) < 0)
 		return -1;
-	boost::filesystem::create_directories(args.output);
+	std::filesystem::create_directories(args.output);
 	MedSamples samples;
 	MedFeatures matrix;
 	if (args.feature_name.empty())

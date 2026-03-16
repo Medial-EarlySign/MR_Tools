@@ -2,7 +2,7 @@
 #include <MedProcessTools/MedProcessTools/StripComments.h>
 #include "Cmd_Args.h"
 #include <cctype>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include <MedIO/MedIO/MedIO.h>
 
 void store_comments_position(const string &str, map<int, string> &comments_pos) {
@@ -188,8 +188,8 @@ int main(int argc, char *argv[]) {
 	//save
 	string output_path = args.output;
 	if (output_path.empty()) {
-		string pdir = boost::filesystem::path(args.input.c_str()).parent_path().string();
-		string file_name = boost::filesystem::path(args.input.c_str()).filename().string();
+		string pdir = std::filesystem::path(args.input.c_str()).parent_path().string();
+		string file_name = std::filesystem::path(args.input.c_str()).filename().string();
 		file_name = file_name.substr(0, file_name.rfind('.'))+".pretify.json";
 		output_path = pdir + path_sep() + file_name;
 	}

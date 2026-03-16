@@ -1,6 +1,6 @@
 #include "Cmd_Args.h"
 #include <fenv.h>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include "Helper.h"
 #include <random>
 #include <algorithm>
@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
 	if (args.parse_parameters(argc, argv) < 0)
 		return 1;
 
-	boost::filesystem::create_directories(args.result_folder);
-	boost::filesystem::create_directories(args.config_folder);
+	std::filesystem::create_directories(args.result_folder);
+	std::filesystem::create_directories(args.config_folder);
 	string full_name = "exported_full_model.medmdl";
 	string progress_path = args.result_folder + path_sep() + "optimize.progress.txt";
 

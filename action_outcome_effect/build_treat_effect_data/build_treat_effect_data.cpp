@@ -4,7 +4,7 @@
 #include "InfraMed/InfraMed/InfraMed.h"
 #include "MedUtils/MedUtils/MedRegistry.h"
 #include "MedProcessTools/MedProcessTools/MedModel.h"
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include "Cmd_Args.h"
 #include "Helper.h"
 
@@ -209,7 +209,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	medial::print::print_reg_stats(registry->registry_records);
-	boost::filesystem::create_directories(output_folder.c_str());
+	std::filesystem::create_directories(output_folder.c_str());
 	MedRegistry *censor_reg = NULL;
 	read_active_periods(args.registry_active_periods, args.registry_active_periods_sig, args.censor_registry_type,
 		args.censor_registry_init, args.repo_path, repo, medial::repository::fix_method::none, censor_reg);

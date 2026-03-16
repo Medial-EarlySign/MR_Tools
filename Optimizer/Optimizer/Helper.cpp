@@ -1,6 +1,6 @@
 #include "Helper.h"
-#include <boost/filesystem.hpp>
-#include <boost/regex.hpp>
+#include <filesystem>
+#include <regex>
 #include <MedAlgo/MedAlgo/MedAlgo.h>
 #include <MedProcessTools/MedProcessTools/MedModel.h>
 #include <MedStat/MedStat/MedBootstrap.h>
@@ -1851,13 +1851,13 @@ void write_progress_header(const string &folder, const string &fname, const full
 }
 
 void load_all_progress_files(const string &folder, vector<full_train_args> &already_done) {
-	boost::filesystem::path p(folder);
-	boost::regex selection_model_pattern("model_selection\\..+\\.progress\\.log"); //no need to read "full" - if has one will skip externally.
+	std::filesystem::path p(folder);
+	std::regex selection_model_pattern("model_selection\\..+\\.progress\\.log"); //no need to read "full" - if has one will skip externally.
 
-	for (auto& entry : boost::make_iterator_range(boost::filesystem::directory_iterator(p), {})) {
+	for (auto& entry : boost::make_iterator_range(std::filesystem::directory_iterator(p), {})) {
 		string file_full_path = entry.path().string();
 		string file_name = entry.path().filename().string();
-		bool is_prog_file = boost::regex_match(file_name, selection_model_pattern);
+		bool is_prog_file = std::regex_match(file_name, selection_model_pattern);
 		if (!is_prog_file)
 			continue;
 		string line;

@@ -20,21 +20,10 @@ endif()
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -Wall -Wno-write-strings -Wno-sign-compare -Wno-reorder -Wno-unknown-pragmas -Wno-unused-function -ldl  --param inline-unit-growth=1000000 -msse4 -DGIT_HEAD_VERSION='\"'$(GIT_HEAD_VERSION)'\"'")
 
 set(BOOST_LIBS
-    regex
-    filesystem
-    system
     program_options
 )  # for certain version, you might need to add "atomic"
 
 find_package(Boost REQUIRED)
-if(Boost_VERSION VERSION_GREATER_EQUAL "1.69") # 1.69 is represented as 106900 in CMake
-    # Remove "system" for newer versions (>= 1.69)
-    # The list(REMOVE_ITEM) command is used to remove a specific item from a list variable.
-    list(REMOVE_ITEM BOOST_LIBS "system")
-    message(STATUS "Boost version is ${Boost_VERSION} (>= 1.69), removing 'system' from BOOST_LIBS.")
-else()
-    message(STATUS "Boost version is ${Boost_VERSION} (< 1.69), keeping 'system' in BOOST_LIBS.")
-endif()
 
 set (MEDIAL_INTERNAL_LIBS InfraMed Logger MedAlgo MedEmbed MedIO MedMat MedPlotly MedProcessTools MedSparseMat MedSplit MedStat MedTime MedUtils QRF SerializableObject TQRF micNet CommonLib
 ) #CommonLib if needed
