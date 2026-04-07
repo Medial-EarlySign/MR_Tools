@@ -1,0 +1,18 @@
+{
+    "type": "response",
+    "request_id": "VALID_REQUEST",
+    "responses": [
+        {
+            "patient_id": "93709",
+            "time": "20170101",
+            "messages": [
+                "(332)Bad signal structure for signal: DIAGNOSIS in patient 93709. Received 0 value instead of 1",
+                "(334)Bad format for signal: DIAGNOSIS in patient 93709. value element should be string."
+            ],
+            "prediction": "0.022429",
+            "flag_threshold": "USPSTF_50-80$PR_03.000",
+            "flag_threshold_numeric": 0.05156730115413666,
+            "flag_result": 0
+        }
+    ]
+}

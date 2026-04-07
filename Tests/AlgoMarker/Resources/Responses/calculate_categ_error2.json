@@ -1,0 +1,18 @@
+{
+    "type": "response",
+    "request_id": "VALID_REQUEST",
+    "responses": [
+        {
+            "patient_id": "93709",
+            "time": "20170101",
+            "messages": [
+                "(334)Bad format for signal: DIAGNOSIS in patient 93709. value element should be string.",
+                "(320)Unrecognized DIAGNOSIS codes: 'Unknown categ'"
+            ],
+            "prediction": "0.013726",
+            "flag_threshold": "USPSTF_50-80$PR_03.000",
+            "flag_threshold_numeric": 0.05156730115413666,
+            "flag_result": 0
+        }
+    ]
+}

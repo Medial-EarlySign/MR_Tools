@@ -1,0 +1,17 @@
+{
+    "type": "response",
+    "request_id": "Value_ERROR_IN_CREATNINE",
+    "responses": [
+        {
+            "patient_id": "93709",
+            "time": "20170101",
+            "messages": [
+                "(334)Error in AddDataStr_data :: patient 93709, signal Creatinine, index 0, channel 0, value abcd is non-numeric"
+            ],
+            "prediction": "0.013726",
+            "flag_threshold": "USPSTF_50-80$PR_03.000",
+            "flag_threshold_numeric": 0.05156730115413666,
+            "flag_result": 0
+        }
+    ]
+}
