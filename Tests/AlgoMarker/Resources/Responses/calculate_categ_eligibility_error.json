@@ -1,0 +1,15 @@
+{
+ "type": "response",
+ "request_id": "SMOKING_STATUS_ERROR",
+ "responses": [
+  {
+   "patient_id": "93709",
+   "time": "20170101",
+   "messages": [
+    "(311)Invalid Smoking_Status 'Current1'",
+    "ERROR: did not get result for field prediction : pred_0"
+   ],
+   "prediction": "-9999.990000"
+  }
+ ]
+}

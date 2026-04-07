@@ -1,0 +1,89 @@
+{
+    "type": "request",
+    "request_id": "Value_ERROR_IN_CREATNINE",
+    "export": {
+        "prediction": "pred_0"
+    },
+    "load": 1,
+    "requests": [
+        {
+            "patient_id": 93709,
+            "time": 20170101,
+            "data": {
+                "signals": [
+                    {
+                        "code": "BDATE",
+                        "data": [
+                            {
+                                "timestamp": [],
+                                "value": [
+                                    "19460101"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "SEX",
+                        "data": [
+                            {
+                                "timestamp": [],
+                                "value": [
+                                    "Female"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "Smoking_Status",
+                        "data": [
+                            {
+                                "timestamp": [
+                                    20160101
+                                ],
+                                "value": [
+                                    "Current"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "Smoking_Quit_Date",
+                        "data": [
+                            {
+                                "timestamp": [
+                                    20261201
+                                ],
+                                "value": [
+                                    "19460108"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "Creatinine",
+                        "data": [
+                            {
+                                "timestamp": [
+                                    20150101
+                                ],
+                                "value": [
+                                    "12"
+                                ]
+                            },
+                            {
+                                "timestamp": [
+                                    20160101
+                                ],
+                                "value": [
+                                    "asdsd"
+                                ]
+                            }
+                        ],
+                        "unit": "mg/dL"
+                    }
+                ],
+                "threshold": "USPSTF_50-80$PR_3.000"
+            }
+        }
+    ]
+}
