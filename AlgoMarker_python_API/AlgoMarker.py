@@ -219,6 +219,128 @@ class AlgoMarker:
         self.__name = None
         self.__amconfig_path = amconfig_path
         self.__load_algomarker(amconfig_path)
+        self.__discovery_full = None
+
+    def __parse_config_amfile(self):
+        if self.__discovery_full is not None:
+            return self.__discovery_full
+        
+        self.__discovery_full = {"name": self.get_name(), "version": ""}
+        with open(self.__amconfig_path, "r") as f:
+            lines = f.readlines()
+        lines = list(
+            filter(lambda x: x.strip() != "" or not (x.strip().startswith("#")), lines)
+        )
+        rep_path = list(filter(lambda x: x.startswith("REPOSITORY\t"),lines))
+        if len(rep_path)==1:
+            rep_path = rep_path[0].split("\t")[1].strip()
+            # Read rep_path - relative to current amconfig:
+            if not os.path.isabs(rep_path):
+                rep_path = os.path.join(os.path.dirname(self.__amconfig_path), rep_path)
+        else:
+            rep_path = None
+        
+        if rep_path is None:
+            return self.__discovery_full
+        
+        with open(rep_path, "r") as f:
+            lines_rep = f.readlines()
+        signals = list(filter(lambda x: x.startswith("SIGNAL") ,lines_rep))
+        signals = list(map(lambda x: x.split("\t")[1].strip() ,signals))
+        dicts_lines = list(filter(lambda x: x.startswith("DICTIONARY") ,lines_rep))
+        dicts_lines = list(map(lambda x: x.split("\t")[1].strip() ,dicts_lines))
+        if len(signals) ==0:
+            return self.__discovery_full
+        signals = signals[0]
+        if not os.path.isabs(signals):
+            signals = os.path.join(os.path.dirname(rep_path), signals)
+        with open(signals, "r") as f:
+            lines_signals = f.readlines()
+        sigs_in_signals = list(filter(lambda x: x.startswith("SIGNAL") ,lines_signals))
+        self.__discovery_full["signals"] = []
+        for sig in sigs_in_signals:
+            tokens = sig.split("\t")
+            sig_name = tokens[1].strip()
+            unit = "" if len(tokens) < 7 else tokens[6].strip()
+            sig_type = tokens[3].strip()
+            sig_categ = [] if len(tokens) < 6 else tokens[5].strip().split(",")
+            if sig_type == "0":
+                sig_type = "V(f)"
+            elif sig_type == "1":
+                sig_type = "T(i),V(f)"
+            elif sig_type == "2":
+                sig_type = "T(l),V(f),p,p,p,p"
+            elif sig_type == "3":
+                sig_type = "T(i,i),V(f)"
+            elif sig_type == "4":
+                sig_type = "T(l)"
+            elif sig_type == "5":
+                sig_type = "T(l,l),V(f),p,p,p,p"
+            elif sig_type == "6":
+                sig_type = "T(i),V(f,us),p,p"
+            elif sig_type == "7":
+                sig_type = "T(l),V(l)"
+            elif sig_type == "8":
+                sig_type = "T(i),V(s,s)"
+            elif sig_type == "9":
+                sig_type = "V(s,s)"
+            elif sig_type == "10":
+                sig_type = "V(s,s,s,s)"
+            elif sig_type == "11":
+                sig_type = "T(us),V(us)"
+            elif sig_type == "12":
+                sig_type = "T(i,i),V(f,f)"
+            elif sig_type == "13":
+                sig_type = "T(i),V(f,f)"
+            elif sig_type == "14":
+                sig_type = "T(l,l)"
+            elif sig_type == "15":
+                sig_type = "T(i),p,p,p,p,V(s,s,s,s)"
+            sig_block : dict[str, Any] = {
+                "code": sig_name,
+                "unit": unit,
+                "type": sig_type,
+            }
+            if len(sig_categ) > 0:
+                sig_block["categorical_channels"] = sig_categ
+                # Try to fetch category values and populate:
+                if len(list(filter(lambda x: x > "0", sig_categ))) > 0:
+                    pass
+                    for d in dicts_lines:
+                        if not os.path.isabs(d):
+                            d = os.path.join(os.path.dirname(rep_path), d)
+                        with open(d, "r") as f:
+                            lines_dict = f.readlines()
+                        section = list(filter(lambda x: x.startswith("SECTION"),lines_dict))
+                        if len(section) == 0:
+                            continue
+                        section = section[0]
+                        all_sigs = section.split("\t")[1].strip().split(",")
+                        if sig_name not in all_sigs:
+                            continue
+                        lines_dict = list(filter(lambda x: x.startswith("DEF"),lines_dict))
+                        # Add this dict only if less than 10 categories:
+                        full_dict = {}
+                        for line in lines_dict:
+                            tokens = line.split("\t")
+                            id = tokens[1]
+                            val = tokens[2].strip()
+                            if id not in full_dict or len(val) > len(full_dict[id]):
+                                full_dict[id] = val
+                        if len(full_dict) < 10:
+                            sig_block["categorical_values"] = []
+                            for id, val in full_dict.items():
+                                sig_block["categorical_values"].append(val)
+                else:
+                    sig_block["categorical_values"] = []
+
+                #sig_block["categorical_values"]
+
+            self.__discovery_full["signals"].append(sig_block)
+
+
+        
+        return self.__discovery_full
 
     def __load_algomarker(self, amconfig_path: str):
         if not (os.path.exists(amconfig_path)):
@@ -297,7 +419,8 @@ class AlgoMarker:
         """Returns information about the Algomarkers in json format - input signals, name, version, etc."""
         assert self.__lib is not None
         if self.api_version == 1:
-            return self.get_name()
+            js_res = self.__parse_config_amfile()
+            return js_res
         res_discovery = ctypes.c_char_p()
         self.__lib.AM_API_Discovery(self.__obj, ctypes.byref(res_discovery))
         try:
@@ -416,7 +539,7 @@ class AlgoMarker:
         assert self.__lib is not None
         if self.api_version == 1:
             res = self.__add_data_old_api(json_data)
-            if len(res)> 0:
+            if len(res) > 0:
                 return "\n".join(res)
             else:
                 return None
@@ -456,7 +579,7 @@ class AlgoMarker:
         load_data = js_req.get("load", 0)
         pids = []
         times = []
-        load_err_msgs= []
+        load_err_msgs = []
         for req in requests:
             if "patient_id" not in req or "time" not in req:
                 raise ValueError(
