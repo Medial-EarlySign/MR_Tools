@@ -224,8 +224,8 @@ class AlgoMarker:
     def __parse_config_amfile(self):
         if self.__discovery_full is not None:
             return self.__discovery_full
-        
-        self.__discovery_full = {"name": self.get_name(), "version": ""}
+        self.__discovery_full = self.get_name()
+        self.__discovery_full["version"] = ""
         with open(self.__amconfig_path, "r") as f:
             lines = f.readlines()
         lines = list(
