@@ -7,7 +7,13 @@ endif()
 
 set(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/Linux/${CMAKE_BUILD_TYPE}")
 
-SET(LIBS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../../MR_LIBS") #Path to libs
+if(DEFINED ENV{LIBS_PATH})
+    message(STATUS "LIBS_PATH is set to: $ENV{LIBS_PATH}")
+    set(LIBS_PATH "$ENV{LIBS_PATH}")
+else()
+    SET(LIBS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../../MR_LIBS") #Path to libs
+    message(STATUS "LIBS_PATH is set to: ${LIBS_PATH}")
+endif()
 
 if(DEFINED ENV{BOOST_ROOT})
     message(STATUS "BOOST_ROOT is set to: $ENV{BOOST_ROOT}")
