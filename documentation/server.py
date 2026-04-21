@@ -10,7 +10,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer, util
 
 
-def fetch_data() -> list[str]:
+def fetch_data() -> list[dict[str, str]]:
     root_base = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
     wiki_home = os.path.join(root_base, "MR_WIKI")
     path_pattern = f"{wiki_home}/**/*.md"
@@ -18,7 +18,9 @@ def fetch_data() -> list[str]:
     res = []
     for file in files:
         with open(file, "r") as f:
-            res.append(f.read())
+            content = f.read()
+            file_name = file[len(wiki_home) :]
+            res.append({"name": file_name, "text": content})
     return res
 
 
@@ -26,9 +28,9 @@ def search(
     model: SentenceTransformer,
     corpus_embeddings,
     query: str,
-    docs: list[str],
+    docs: list[dict[str, str]],
     k: int = 10,
-) -> list[str]:
+) -> list[dict[str, str]]:
     query_embedding = model.encode(query, convert_to_tensor=True)
     hits = util.cos_sim(query_embedding, corpus_embeddings)[0]
     top_results = np.argpartition(-hits.cpu(), range(k))[:k]
@@ -47,7 +49,7 @@ async def startup_event(app: FastAPI):
         "sentence-transformers/all-MiniLM-L6-v2"
     )
     app.state.embd = app.state.search_model.encode(
-        app.state.docs, convert_to_tensor=True
+        [doc["text"] for doc in app.state.docs], convert_to_tensor=True
     )
     yield
 
@@ -84,7 +86,7 @@ def get_result(js_data_str, response: Response):
     docs = search(app.state.search_model, app.state.embd, prompt, app.state.docs, _k)
     backgroud_info = ""
     for doc in docs[:_k]:
-        backgroud_info += doc + "\n"
+        backgroud_info += doc["text"] + "\n"
     if len(backgroud_info) > max_length:
         print(
             f"Query is too long - truncating from {len(backgroud_info)} to {max_length} "
@@ -100,7 +102,7 @@ def get_result(js_data_str, response: Response):
         }
     ]
     answer, messages = simple_predict(app.state.model, prompt, messages)
-    res = {"response": answer}
+    res = {"response": answer, "sources": [doc["name"] for doc in docs[:_k]]}
     # print (res)
     return res
 
