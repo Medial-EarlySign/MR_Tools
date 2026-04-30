@@ -2,7 +2,7 @@
 set -e -o pipefail
 CURR_PT=${2}
 # please edit this part, BEGIN
-REQ_PARAMS=(WORK_DIR) # Required parameters
+REQ_PARAMS=(WORK_DIR DIAG_PREFIX) # Required parameters
 DEPENDS=() # Specify dependent tests to run
 # END.
 . ${CURR_PT}/resources/lib/init_infra.sh
@@ -19,11 +19,6 @@ fi
 REP_PATH=${WORK_DIR}/rep/test.repository
 
 TEST_SAMPLES=${WORK_DIR}/predictions/all.preds
-
-if [ -z "${DIAG_PREFIX}" ]; then
-        echo "DIAG_PREFIX s missing in enviroment - skipping test ${TEST_NAME}"
-        exit 1
-fi
 
 
 OUT_PATH=${WORK_DIR}/unmapped_diagnosis
