@@ -31,6 +31,98 @@ set(BOOST_LIBS
 
 find_package(Boost REQUIRED)
 
+## Eigen
+find_package(Eigen3 QUIET)
+
+if(Eigen3_FOUND)
+    message(STATUS "Eigen3 found. Using system headers at: ${EIGEN3_INCLUDE_DIR}")
+    include_directories(SYSTEM ${EIGEN3_INCLUDE_DIR})
+else()
+    message(STATUS "Eigen3 not found. Downloading headers from source...")
+    include(FetchContent)
+    FetchContent_Declare(
+        eigen_headers
+        URL      https://gitlab.com/libeigen/eigen/-/archive/3.4.1/eigen-3.4.1.tar.gz
+        SOURCE_SUBDIR pathThatDoesNotExist
+        DOWNLOAD_EXTRACT_TIMESTAMP ON
+    )
+    
+    FetchContent_GetProperties(eigen_headers)
+    if(NOT eigen_headers_POPULATED)
+        FetchContent_MakeAvailable(eigen_headers)
+    endif()
+
+    #include_directories(SYSTEM ${eigen_headers_SOURCE_DIR})
+    set(EIGEN_RAW_PATH "${eigen_headers_SOURCE_DIR}")
+endif()
+# Json:
+# https://github.com/nlohmann/json/releases/download/v3.11.2/json.hpp include.zip
+include(FetchContent)
+FetchContent_Declare(
+    json_headers
+    URL      https://github.com/nlohmann/json/releases/download/v3.11.2/include.zip
+    SOURCE_SUBDIR pathThatDoesNotExist
+    DOWNLOAD_EXTRACT_TIMESTAMP ON
+)
+FetchContent_GetProperties(json_headers)
+if(NOT json_headers_POPULATED)
+    FetchContent_MakeAvailable(json_headers)
+endif()
+set(JSON_RAW_PATH "${json_headers_SOURCE_DIR}/single_include")
+
+# XGboost
+FetchContent_Declare(
+    xgboost
+    URL      https://github.com/dmlc/xgboost/releases/download/v2.0.3/xgboost-2.0.3.tar.gz
+    DOWNLOAD_EXTRACT_TIMESTAMP ON
+    SOURCE_SUBDIR cpp_src
+)
+
+set(BUILD_STATIC_LIB OFF CACHE BOOL "Build XGBoost as a dynamic library" FORCE)
+set(BUILD_SHARED_LIBS ON CACHE BOOL "Build static libs" FORCE)
+set(XGBOOST_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+
+FetchContent_MakeAvailable(xgboost)
+
+include_directories(SYSTEM ${xgboost_SOURCE_DIR}/cpp_src/include)          
+include_directories(SYSTEM ${xgboost_SOURCE_DIR}/cpp_src/rabit/include)
+include_directories(SYSTEM ${xgboost_SOURCE_DIR}/cpp_src/dmlc-core/include)
+
+# LightGBM
+FetchContent_Declare(
+    lightgbm
+    URL      https://github.com/lightgbm-org/LightGBM/releases/download/v4.6.0/lightgbm-4.6.0.tar.gz
+    DOWNLOAD_EXTRACT_TIMESTAMP ON
+)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(BUILD_CLI OFF CACHE INTERNAL "")
+FetchContent_MakeAvailable(lightgbm)
+
+include_directories(SYSTEM ${lightgbm_SOURCE_DIR}/include)     
+include_directories(SYSTEM ${lightgbm_SOURCE_DIR}/external_libs/fast_double_parser/include) 
+include_directories(SYSTEM ${lightgbm_SOURCE_DIR}/external_libs/fmt/include) 
+
+
+set(VIRTUAL_INC_ROOT "${CMAKE_CURRENT_BINARY_DIR}/VirtualIncludes")
+set(VIRTUAL_EXT_DIR "${VIRTUAL_INC_ROOT}/External")
+
+if(NOT EXISTS "${VIRTUAL_EXT_DIR}/Eigen")
+    message(STATUS "Structuring Eigen for <External/Eigen/...> includes...")
+    file(MAKE_DIRECTORY "${VIRTUAL_EXT_DIR}")
+    # Copy the raw Eigen folder into our virtual External folder
+    file(COPY "${EIGEN_RAW_PATH}/Eigen" DESTINATION "${VIRTUAL_EXT_DIR}")
+endif()
+if(NOT EXISTS "${VIRTUAL_EXT_DIR}/json")
+    message(STATUS "Structuring nlohmann_json for <External/json/...> includes...")
+    file(MAKE_DIRECTORY "${VIRTUAL_EXT_DIR}/json")
+    # Copy the json.hpp header (and any internal files) into VirtualIncludes/External/json/
+    file(COPY "${JSON_RAW_PATH}/nlohmann/json.hpp" DESTINATION "${VIRTUAL_EXT_DIR}/json")
+endif()
+
+include_directories(SYSTEM "${VIRTUAL_INC_ROOT}")
+include_directories(SYSTEM "${VIRTUAL_INC_ROOT}/External")
+## End
+
 set (MEDIAL_INTERNAL_LIBS InfraMed Logger MedAlgo MedEmbed MedIO MedMat MedPlotly MedProcessTools MedSparseMat MedSplit MedStat MedTime MedUtils QRF SerializableObject TQRF micNet CommonLib
 ) #CommonLib if needed
 
@@ -66,14 +158,8 @@ function(add_linking_flags_static TARGET_NAME)
 endfunction()
 
 include_directories(${LIBS_PATH})
-include_directories(${LIBS_PATH}/External)
 include_directories(${LIBS_PATH}/Internal)
 include_directories(${PROJECT_SOURCE_DIR})
-include_directories(${LIBS_PATH}/External/xgboost/src)
-include_directories(${LIBS_PATH}/External/xgboost/include)
-include_directories(${LIBS_PATH}/External/xgboost/rabit/include)
-include_directories(${LIBS_PATH}/External/xgboost/dmlc-core/include)
-include_directories(${LIBS_PATH}/External/LightGBM_2.2.3/LightGBM-2.2.3/include)
 
 # Find Boost
 find_package(OpenMP REQUIRED)
@@ -88,11 +174,6 @@ include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
 foreach(mes_lib IN LISTS MEDIAL_INTERNAL_LIBS)
     add_subdirectory(${LIBS_PATH}/Internal/${mes_lib}/${mes_lib} ${mes_lib})
 endforeach()
-
-# External Libraries
-add_subdirectory(${LIBS_PATH}/External/xgboost xgboost)
-add_subdirectory(${LIBS_PATH}/External/LightGBM_2.2.3/LightGBM-2.2.3 _lightgbm)
-
 
 # Or add each project:
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../Flow/Flow Flow)

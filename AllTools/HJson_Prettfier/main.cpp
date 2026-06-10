@@ -4,6 +4,7 @@
 #include <cctype>
 #include <filesystem>
 #include <MedIO/MedIO/MedIO.h>
+using json = nlohmann::json;
 
 void store_comments_position(const string &str, map<int, string> &comments_pos) {
 	int pos = 0;
