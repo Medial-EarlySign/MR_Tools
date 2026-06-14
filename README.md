@@ -11,7 +11,7 @@ pip install medpython-etl
 
 Build from source:
 ```bash
-python -m pip install -v "MR_Tools @ git+https://github.com/Medial-EarlySign/MR_Tools.git/#subdirectory=RepoLoadUtils/common"
+python -m pip install -v "medpython-etl @ git+https://github.com/Medial-EarlySign/MR_Tools.git/#subdirectory=RepoLoadUtils/common"
 ```
 
 To explore the code:
@@ -21,4 +21,4 @@ To explore the code:
 ## Documentation
 
 * Please refer to [MR_WIKI](https://medial-earlysign.github.io/MR_Wiki/)
-* [Python API]([https://medial-earlysign.github.io/MR_Wiki/Infrastructure%20Library/Medial%20Tools](https://medial-earlysign.github.io/MR_Tools/))
+* [Python API](https://medial-earlysign.github.io/MR_Tools/)
