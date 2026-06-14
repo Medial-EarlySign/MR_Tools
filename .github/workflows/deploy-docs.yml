@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v6
     - name: Set up Python 3.12
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v6
       with:
         python-version: "3.12"
     - name: Install dependencies
@@ -28,12 +28,12 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Build docs
       run: |
-        export ETL_DIR=$(realpath RepoLoadUtils/common)
-        cd RepoLoadUtils/common/ETL_Infra/docs
+        export ETL_DIR=$(realpath RepoLoadUtils/common/src)
+        cd RepoLoadUtils/common/src/ETL_Infra/docs
         export PYTHONPATH=${ETL_DIR}
         make html
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: RepoLoadUtils/common/ETL_Infra/docs/build/html
