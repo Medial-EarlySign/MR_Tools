@@ -36,6 +36,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: RepoLoadUtils/common/ETL_Infra/docs/build/html
+        publish_dir: RepoLoadUtils/common/src/ETL_Infra/docs/build/html
         publish_branch: doc-pages
         force_orphan: true
