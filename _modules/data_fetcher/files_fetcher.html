@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>data_fetcher.files_fetcher &#8212; MES Python API  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/classic.css?v=2bf1fcf8" />
+    
+    <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MES Python API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">data_fetcher.files_fetcher</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for data_fetcher.files_fetcher</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">re</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Generator</span><span class="p">,</span> <span class="n">Callable</span>
+
+<span class="c1"># Please use to return function that accepts 2 arguments: [batch_size, start_batch] in order to use in &quot;prepare_final_signals&quot;</span>
+
+
+<span class="c1"># basic data fetcher - the batch will be by batches</span>
+<span class="c1"># files - list of full paths</span>
+<span class="c1"># batch_size - batch size in rows/files/your decision. 0 - means read all</span>
+<span class="c1"># file_parser - function that recieve (file_path) and returns parsed dataframe</span>
+<div class="viewcode-block" id="files_fetcher">
+<a class="viewcode-back" href="../../data_fetcher/data_fethcer.html#data_fetcher.files_fetcher.files_fetcher">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">files_fetcher</span><span class="p">(</span>
+    <span class="n">files</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+    <span class="n">batch_size</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+    <span class="n">file_parser</span><span class="p">:</span> <span class="n">Callable</span><span class="p">[[</span><span class="nb">str</span><span class="p">],</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">],</span>
+    <span class="n">start_batch</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A helper function to create data generator from list of files. \n</span>
+<span class="sd">    The batching is done in the level of each file.\n</span>
+<span class="sd">    So &quot;1&quot; means process each file in separate batch, 0 - no batches</span>
+
+<span class="sd">    :param files: list of file paths to process</span>
+<span class="sd">    :param batch_size: the batch size in number of files to process</span>
+<span class="sd">    :param file_parser: a function to &quot;read&quot; each file path into dataframe with at least &quot;pid&quot; column</span>
+<span class="sd">    :param start_batch: Staring position of the batch</span>
+
+<span class="sd">    :return: a lazy data generator to fetch the Dataframes</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">all_data</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">curr_data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">full_f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">[</span><span class="n">start_batch</span> <span class="o">*</span> <span class="n">batch_size</span> <span class="p">:]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Process file </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">full_f</span><span class="p">),</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">file_parser</span><span class="p">(</span><span class="n">full_f</span><span class="p">)</span>
+        <span class="n">curr_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Done reading&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">batch_size</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">curr_data</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">batch_size</span><span class="p">):</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">curr_data</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+            <span class="n">curr_data</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">yield</span> <span class="n">data</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">curr_data</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">curr_data</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">yield</span> <span class="n">data</span></div>
+
+
+
+<div class="viewcode-block" id="big_files_fetcher">
+<a class="viewcode-back" href="../../data_fetcher/data_fethcer.html#data_fetcher.files_fetcher.big_files_fetcher">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">big_files_fetcher</span><span class="p">(</span>
+    <span class="n">files</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+    <span class="n">batch_size</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+    <span class="n">file_parser</span><span class="p">:</span> <span class="n">Callable</span><span class="p">[[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">],</span> <span class="n">Generator</span><span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">]],</span>
+    <span class="n">has_header</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="n">start_batch</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A helper function to create data generator from list of big files. \n</span>
+<span class="sd">    The batching is done in the level of #rows. So &quot;1&quot; means process 1 row, 0 - no batches, read all \n</span>
+<span class="sd">    It will read several files till it reaches &quot;batch_size&quot; or part of 1 \n</span>
+<span class="sd">    file if the file is bigger than &quot;batch_size&quot;</span>
+
+<span class="sd">    :param files: list of file paths to process</span>
+<span class="sd">    :param batch_size: the batch size in number of rows to process</span>
+<span class="sd">    :param file_parser: a function to &quot;read&quot; each file path into dataframe with at least &quot;pid&quot; column</span>
+<span class="sd">     The function recieves file path, number of lines to read from (batch_size) the file and how many lines to skip from file (start_from) </span>
+<span class="sd">     usefull when we want to continue run from the middle in big file. Example reading with pandas:</span>
+<span class="sd">     df_i=pd.read_csv($FILE_PATH, skiprows=start_from_row, chunksize=batch_size)</span>
+<span class="sd">    :param has_header: A flag to indicate if file contains header</span>
+<span class="sd">    :param start_batch: Staring position of the batch</span>
+
+<span class="sd">    :return: a lazy data generator to fetch the Dataframes</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">all_data</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">curr_data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">curr_size</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">start_from_row</span> <span class="o">=</span> <span class="n">start_batch</span> <span class="o">*</span> <span class="n">batch_size</span>
+    <span class="k">for</span> <span class="n">full_f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Process file </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">full_f</span><span class="p">),</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">data_it</span> <span class="o">=</span> <span class="n">file_parser</span><span class="p">(</span><span class="n">full_f</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">start_from_row</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">pd</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">EmptyDataError</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">full_f</span><span class="p">,</span> <span class="s2">&quot;rbU&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">num_lines</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">f</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">has_header</span><span class="p">:</span>
+                <span class="n">num_lines</span> <span class="o">=</span> <span class="n">num_lines</span> <span class="o">-</span> <span class="mi">1</span>  <span class="c1"># remove header from count</span>
+            <span class="n">start_from_row</span> <span class="o">=</span> <span class="n">start_from_row</span> <span class="o">-</span> <span class="n">num_lines</span>
+            <span class="k">if</span> <span class="n">start_from_row</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>  <span class="c1"># not suppose to happen</span>
+                <span class="n">start_from_row</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="c1"># Update start_from_row by rows size and continue</span>
+            <span class="k">continue</span>
+        <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">data_it</span><span class="p">):</span>
+            <span class="n">curr_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+            <span class="n">curr_size</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Done reading batch </span><span class="si">{</span><span class="n">ii</span><span class="si">}</span><span class="s2"> in file </span><span class="si">{</span><span class="n">full_f</span><span class="si">}</span><span class="s2">, current buffer size </span><span class="si">{</span><span class="n">curr_size</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">batch_size</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">curr_size</span> <span class="o">&gt;=</span> <span class="n">batch_size</span><span class="p">):</span>
+                <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">curr_data</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+                <span class="n">curr_data</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="n">curr_size</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="k">yield</span> <span class="n">data</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Done processing file </span><span class="si">{</span><span class="n">full_f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">curr_data</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">curr_data</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">yield</span> <span class="n">data</span></div>
+
+
+
+<div class="viewcode-block" id="list_directory_files">
+<a class="viewcode-back" href="../../data_fetcher/data_fethcer.html#data_fetcher.files_fetcher.list_directory_files">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">list_directory_files</span><span class="p">(</span><span class="n">base_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">file_search</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A helper function to list all files in directory that matches a certain regex</span>
+
+<span class="sd">    :param base_path: the directory path</span>
+<span class="sd">    :param file_search: the regex to search in the directory</span>
+<span class="sd">    :return: list of files matches the regex</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">reg_se</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">file_search</span><span class="p">)</span>
+    <span class="n">files</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">reg_se</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">base_path</span><span class="p">)))</span>
+    <span class="n">files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">files</span><span class="p">)</span>
+    <span class="n">files</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_path</span><span class="p">,</span> <span class="n">x</span><span class="p">),</span> <span class="n">files</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">files</span></div>
+
+
+
+<span class="c1"># TODO: when single file is big - split to batches not needed currently</span>
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MES Python API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">data_fetcher.files_fetcher</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Medial Earlysign.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

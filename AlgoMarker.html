@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>AlgoMarker package &#8212; MES Python API  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=2bf1fcf8" />
+    
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="MedPython package" href="MedPython.html" />
+    <link rel="prev" title="ETL_Infra package" href="ETL_Infra.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="MedPython.html" title="MedPython package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ETL_Infra.html" title="ETL_Infra package"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">MES Python API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">AlgoMarker package</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="algomarker-package">
+<h1>AlgoMarker package<a class="headerlink" href="#algomarker-package" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<section id="module-AlgoMarker">
+<span id="algomarker-module"></span><h2>AlgoMarker module<a class="headerlink" href="#module-AlgoMarker" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="AlgoMarker.AlgoMarker">
+<span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">AlgoMarker.</span></span><span class="sig-name descname"><span class="pre">AlgoMarker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">amconfig_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">libpath</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoMarker.AlgoMarker" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>AlgoMarker object that holds full model pipeline to calculate meaningfull insights from EMR raw data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>amconfig_path</strong> (<em>str</em>)</p></li>
+<li><p><strong>libpath</strong> (<em>str</em><em> | </em><em>None</em>)</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoMarker.AlgoMarker.calculate">
+<span class="sig-name descname"><span class="pre">calculate</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.calculate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoMarker.AlgoMarker.calculate" title="Link to this definition">¶</a></dt>
+<dd><p>recieves a request for execution of the model pipeline and returns a responde</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>request_json</strong> (<em>str</em>)</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="MedPython.html#med.PidRepository.dict" title="med.PidRepository.dict">dict</a>[str, <em>Any</em>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoMarker.AlgoMarker.discovery">
+<span class="sig-name descname"><span class="pre">discovery</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.discovery"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoMarker.AlgoMarker.discovery" title="Link to this definition">¶</a></dt>
+<dd><p>returns a json specification of the AlgoMarker information, inputs, etc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="MedPython.html#med.PidRepository.dict" title="med.PidRepository.dict">dict</a>[str, <em>Any</em>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoMarker.AlgoMarker.dispose">
+<span class="sig-name descname"><span class="pre">dispose</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.dispose"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoMarker.AlgoMarker.dispose" title="Link to this definition">¶</a></dt>
+<dd><p>Release object memory - recomanded to use “with” statement</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoMarker.AlgoMarker.clear_data">
+<span class="sig-name descname"><span class="pre">clear_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.clear_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoMarker.AlgoMarker.clear_data" title="Link to this definition">¶</a></dt>
+<dd><p>clears AlgoMarker patient data repository memory</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoMarker.AlgoMarker.add_data">
+<span class="sig-name descname"><span class="pre">add_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.add_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoMarker.AlgoMarker.add_data" title="Link to this definition">¶</a></dt>
+<dd><p>loads the AlgoMarker patient data repository memory with patient data</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>json_data</strong> (<em>str</em>)</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p>AlgoMarker constractor - receives AlgoMarker configuration file path “amconfig”.
+Optional path to C shared library file. If we want to use other version, not default
+library that is packed in this module.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="id0">
+<span class="sig-name descname"><span class="pre">add_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">json_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.add_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id0" title="Link to this definition">¶</a></dt>
+<dd><p>This function recieves data json object and loads the data into the algomarker patient data repository.
+Errors are collected in a string - each error in separate line. When there are no errors, the output is None.</p>
+<p class="rubric">Notes</p>
+<p>The input data json request is documented in different document and the potential errors</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>json_data</strong> (<em>str</em>)</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id1">
+<span class="sig-name descname"><span class="pre">calculate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request_json</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.calculate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id1" title="Link to this definition">¶</a></dt>
+<dd><p>Recieved json request for calculation and returns json string responde object with the result</p>
+<p class="rubric">Notes</p>
+<p>The input json request and json response results are documented in a different document</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>request_json</strong> (<em>str</em>)</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="MedPython.html#med.PidRepository.dict" title="med.PidRepository.dict">dict</a>[str, <em>Any</em>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id2">
+<span class="sig-name descname"><span class="pre">clear_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.clear_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id2" title="Link to this definition">¶</a></dt>
+<dd><p>Frees the algomarker patient data repository</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoMarker.AlgoMarker.create_request_json">
+<span class="property"><span class="k"><span class="pre">static</span></span><span class="w"> </span></span><span class="sig-name descname"><span class="pre">create_request_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">patient_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prediction_time</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.create_request_json"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoMarker.AlgoMarker.create_request_json" title="Link to this definition">¶</a></dt>
+<dd><p>Creates and returns a string json request for patient_id and prediction_time</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>patient_id</strong> (<em>int</em>)</p></li>
+<li><p><strong>prediction_time</strong> (<em>int</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id3">
+<span class="sig-name descname"><span class="pre">discovery</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.discovery"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id3" title="Link to this definition">¶</a></dt>
+<dd><p>Returns information about the Algomarkers in json format - input signals, name, version, etc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="MedPython.html#med.PidRepository.dict" title="med.PidRepository.dict">dict</a>[str, <em>Any</em>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id4">
+<span class="sig-name descname"><span class="pre">dispose</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.dispose"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id4" title="Link to this definition">¶</a></dt>
+<dd><p>Disposes the AlgoMarker object and frees the memory</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoMarker.AlgoMarker.get_name">
+<span class="sig-name descname"><span class="pre">get_name</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoMarker/AlgoMarker.html#AlgoMarker.get_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoMarker.AlgoMarker.get_name" title="Link to this definition">¶</a></dt>
+<dd><p>Returns information about the Algomarkers in json format - input signals, name, version, etc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="MedPython.html#med.PidRepository.dict" title="med.PidRepository.dict">dict</a>[str, <em>Any</em>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">AlgoMarker package</a><ul>
+<li><a class="reference internal" href="#module-AlgoMarker">AlgoMarker module</a><ul>
+<li><a class="reference internal" href="#AlgoMarker.AlgoMarker"><code class="docutils literal notranslate"><span class="pre">AlgoMarker</span></code></a><ul>
+<li><a class="reference internal" href="#AlgoMarker.AlgoMarker.calculate"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.calculate()</span></code></a></li>
+<li><a class="reference internal" href="#AlgoMarker.AlgoMarker.discovery"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.discovery()</span></code></a></li>
+<li><a class="reference internal" href="#AlgoMarker.AlgoMarker.dispose"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.dispose()</span></code></a></li>
+<li><a class="reference internal" href="#AlgoMarker.AlgoMarker.clear_data"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.clear_data()</span></code></a></li>
+<li><a class="reference internal" href="#AlgoMarker.AlgoMarker.add_data"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.add_data()</span></code></a></li>
+<li><a class="reference internal" href="#id0"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.add_data()</span></code></a></li>
+<li><a class="reference internal" href="#id1"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.calculate()</span></code></a></li>
+<li><a class="reference internal" href="#id2"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.clear_data()</span></code></a></li>
+<li><a class="reference internal" href="#AlgoMarker.AlgoMarker.create_request_json"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.create_request_json()</span></code></a></li>
+<li><a class="reference internal" href="#id3"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.discovery()</span></code></a></li>
+<li><a class="reference internal" href="#id4"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.dispose()</span></code></a></li>
+<li><a class="reference internal" href="#AlgoMarker.AlgoMarker.get_name"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.get_name()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="ETL_Infra.html"
+                          title="previous chapter">ETL_Infra package</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="MedPython.html"
+                          title="next chapter">MedPython package</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/AlgoMarker.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="MedPython.html" title="MedPython package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ETL_Infra.html" title="ETL_Infra package"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">MES Python API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">AlgoMarker package</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Medial Earlysign.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>data_fetcher.db_fetcher &#8212; MES Python API  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/classic.css?v=2bf1fcf8" />
+    
+    <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MES Python API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">data_fetcher.db_fetcher</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for data_fetcher.db_fetcher</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">sqlalchemy</span><span class="w"> </span><span class="kn">import</span> <span class="n">create_engine</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Generator</span><span class="p">,</span> <span class="n">Optional</span>
+
+<span class="c1">#Helper</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">postgres_connection_string</span><span class="p">(</span><span class="n">user</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">password</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">host</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">port</span><span class="p">:</span><span class="nb">int</span><span class="p">,</span> <span class="n">database</span><span class="p">:</span><span class="nb">str</span><span class="p">):</span>
+    <span class="n">connection_string</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;postgresql+psycopg2://</span><span class="si">{</span><span class="n">user</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">password</span><span class="si">}</span><span class="s2">@</span><span class="si">{</span><span class="n">host</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">port</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">database</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="k">return</span> <span class="n">connection_string</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">A Helper class to handle database access.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">DB_Access</span><span class="p">:</span>
+  <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">connection_string</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">connect_args</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Initialize database object with conncetion string</span>
+<span class="sd">    </span>
+<span class="sd">    :param connection_string: the connection string</span>
+<span class="sd">    :param connect_args: Additional connection arguments to sqlalchemy &quot;connect_args&quot; in create_engine</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">connection_string</span><span class="o">=</span><span class="n">connection_string</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">conn_args</span> <span class="o">=</span> <span class="n">connect_args</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">engine</span><span class="o">=</span><span class="kc">None</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">conn</span><span class="o">=</span><span class="kc">None</span>
+    
+  <span class="k">def</span><span class="w"> </span><span class="nf">connect</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">engine</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+      <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">conn_args</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">engine</span> <span class="o">=</span> <span class="n">create_engine</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">connection_string</span><span class="p">,</span> <span class="n">connect_args</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">conn_args</span><span class="p">)</span>
+      <span class="k">else</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">engine</span> <span class="o">=</span> <span class="n">create_engine</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">connection_string</span><span class="p">)</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Created engine&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">conn</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">conn</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">engine</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span><span class="o">.</span><span class="n">execution_options</span><span class="p">(</span><span class="n">stream_results</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Created connection&#39;</span><span class="p">)</span>
+  <span class="k">def</span><span class="w"> </span><span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">conn</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Closed connection&#39;</span><span class="p">)</span>
+    <span class="c1">#if self.engine is not None:</span>
+    <span class="c1">#  self.engine.dispose()</span>
+    <span class="c1">#  print(&#39;Closed engine&#39;)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">conn</span><span class="o">=</span><span class="kc">None</span>
+    <span class="c1">#self.engine=None</span>
+  <span class="k">def</span><span class="w"> </span><span class="fm">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+  <span class="k">def</span><span class="w"> </span><span class="nf">execute_query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">:</span><span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span><span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">conn</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Connection before execute query in first time&#39;</span><span class="p">)</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span>
+    <span class="c1">#print(f&#39;Execute {query}\nbatch_size={batch_size}&#39;)</span>
+    <span class="k">if</span> <span class="n">batch_size</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="n">batch_size</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql_query</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">conn</span><span class="p">,</span> <span class="n">chunksize</span><span class="o">=</span><span class="n">batch_size</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df</span>
+
+
+<div class="viewcode-block" id="db_fetcher">
+<a class="viewcode-back" href="../../data_fetcher/data_fethcer.html#data_fetcher.db_fetcher.db_fetcher">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">db_fetcher</span><span class="p">(</span><span class="n">db</span><span class="p">:</span><span class="n">DB_Access</span><span class="p">,</span> <span class="n">sql_query</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">:</span><span class="nb">int</span><span class="p">,</span> <span class="n">start_batch</span><span class="p">:</span><span class="nb">int</span><span class="p">,</span> <span class="n">batch_mapper</span><span class="p">:</span><span class="n">Dict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span><span class="nb">str</span><span class="p">])</span> \
+    <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span><span class="kc">None</span><span class="p">,</span><span class="kc">None</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A helper function to retrieve data from DB in batches.\n</span>
+<span class="sd">    This will add sorting of the query by &quot;pid&quot; to allow fetching in batches\n</span>
+<span class="sd">    and continue from where we stoped. It will store last patient id \n</span>
+<span class="sd">    we reached in each batch under batch_mapper</span>
+<span class="sd">    </span>
+<span class="sd">    :param db: The database object DB_Access</span>
+<span class="sd">    :param sql_query: The sql query to fetch results</span>
+<span class="sd">    :param batch_size: The size of the batch, number of rows to read from each batch</span>
+<span class="sd">    :param start_batch: The starting point, to continue exection from the middle</span>
+<span class="sd">    :param batch_mapper: A dictionary to map batch starting point to last patient id read in that batch</span>
+<span class="sd">    :return: lazy data iterator to retrieve the data</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#Handle query - assume have pid</span>
+    <span class="k">if</span> <span class="n">batch_size</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">start_batch</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">batch_mapper</span><span class="p">:</span> <span class="c1">#first batch or no batches:</span>
+        <span class="n">sql_query</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;SELECT * from (</span><span class="si">{</span><span class="n">sql_query</span><span class="si">}</span><span class="s1">) tmp ORDER by pid&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">start_batch</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">batch_mapper</span><span class="p">:</span>
+           <span class="k">if</span> <span class="n">start_batch</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+              <span class="k">raise</span> <span class="ne">NameError</span><span class="p">(</span><span class="s1">&#39;Warning batch_mapper has no memory&#39;</span><span class="p">)</span>
+           <span class="k">else</span><span class="p">:</span>
+              <span class="n">last_pid</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">else</span><span class="p">:</span>
+          <span class="n">last_pid</span><span class="o">=</span><span class="n">batch_mapper</span><span class="p">[</span><span class="n">start_batch</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">last_pid</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+           <span class="n">sql_query</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;SELECT * from (</span><span class="si">{</span><span class="n">sql_query</span><span class="si">}</span><span class="s1">) tmp ORDER by pid&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+          <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">last_pid</span><span class="p">)</span> <span class="o">==</span> <span class="nb">str</span><span class="p">:</span>
+              <span class="n">sql_query</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;SELECT * from (</span><span class="si">{</span><span class="n">sql_query</span><span class="si">}</span><span class="s1">) tmp WHERE pid &gt;= </span><span class="se">\&#39;</span><span class="si">{</span><span class="n">last_pid</span><span class="si">}</span><span class="se">\&#39;</span><span class="s1"> ORDER by pid&#39;</span>
+          <span class="k">else</span><span class="p">:</span>
+              <span class="n">sql_query</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;SELECT * from (</span><span class="si">{</span><span class="n">sql_query</span><span class="si">}</span><span class="s1">) tmp WHERE pid &gt;= </span><span class="si">{</span><span class="n">last_pid</span><span class="si">}</span><span class="s1"> ORDER by pid&#39;</span>
+    <span class="k">for</span> <span class="n">idx_fetch_batch</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">_db_fetcher</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">sql_query</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="s1">&#39;pid&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NameError</span><span class="p">(</span><span class="s1">&#39;DataFrame must return pid column&#39;</span><span class="p">)</span>
+        <span class="n">last_pid</span><span class="o">=</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;pid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+        <span class="n">batch_mapper</span><span class="p">[</span><span class="n">start_batch</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">last_pid</span>
+        <span class="k">yield</span> <span class="n">data</span></div>
+
+
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">_db_fetcher</span><span class="p">(</span><span class="n">db</span><span class="p">:</span><span class="n">DB_Access</span><span class="p">,</span> <span class="n">sql_query</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span><span class="kc">None</span><span class="p">,</span><span class="kc">None</span><span class="p">]:</span>
+    <span class="n">df_iterator</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">execute_query</span><span class="p">(</span><span class="n">sql_query</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">df_iterator</span><span class="p">)</span> <span class="o">==</span> <span class="nb">type</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;No batches - process all in one batch&#39;</span><span class="p">)</span>
+        <span class="k">yield</span> <span class="n">df_iterator</span>
+        <span class="k">return</span>
+    <span class="k">for</span> <span class="n">idx_fetch_batch</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">df_iterator</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Process batch </span><span class="si">%d</span><span class="s1">&#39;</span><span class="o">%</span><span class="p">(</span><span class="n">idx_fetch_batch</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">yield</span> <span class="n">data</span>
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MES Python API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">data_fetcher.db_fetcher</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Medial Earlysign.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

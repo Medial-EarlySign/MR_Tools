@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ETL_Infra package &#8212; MES Python API  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=2bf1fcf8" />
+    
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="AlgoMarker package" href="AlgoMarker.html" />
+    <link rel="prev" title="ETL_Infra data retrieval" href="data_fetcher/data_fethcer.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="AlgoMarker.html" title="AlgoMarker package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="data_fetcher/data_fethcer.html" title="ETL_Infra data retrieval"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">MES Python API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ETL_Infra package</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="etl-infra-package">
+<h1>ETL_Infra package<a class="headerlink" href="#etl-infra-package" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<section id="module-ETL_Infra.etl_process">
+<span id="etl-infra-etl-process-module"></span><h2>ETL_Infra.etl_process module<a class="headerlink" href="#module-ETL_Infra.etl_process" title="Link to this heading">¶</a></h2>
+<p>ETL Infra</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.etl_process.create_train_signal">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.etl_process.</span></span><span class="sig-name descname"><span class="pre">create_train_signal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">work_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">old_train_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/etl_process.html#create_train_signal"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.etl_process.create_train_signal" title="Link to this definition">¶</a></dt>
+<dd><p>_summary_</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>work_dir</strong> (<em>str</em>) – Working directory where the FinalSignals are stored.</p></li>
+<li><p><strong>old_train_path</strong> (<em>pd.DataFrame</em><em> | </em><em>None</em><em>, </em><em>optional</em>) – if given a dataframe with “pid” and “val” of old train value. Defaults to None.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.etl_process.finish_prepare_load">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.etl_process.</span></span><span class="sig-name descname"><span class="pre">finish_prepare_load</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">workdir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dest_folder</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dest_rep</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">to_remove</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">load_only</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">override</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/etl_process.html#finish_prepare_load"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.etl_process.finish_prepare_load" title="Link to this definition">¶</a></dt>
+<dd><p>Finalize and prepare Flow load command to execute to complete the load</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>workdir</strong> (<em>str</em>) – The working directory where we stored all the ETL outputs</p></li>
+<li><p><strong>dest_folder</strong> (<em>str</em>) – The path to create the final repository. A Directory</p></li>
+<li><p><strong>dest_rep</strong> (<em>str</em>) – The name of the repository, to contorl the name of NAME.repository file</p></li>
+<li><p><strong>to_remove</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – optional list of signals to skip from loading</p></li>
+<li><p><strong>load_only</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – optional list of signals to load only if exist</p></li>
+<li><p><strong>override</strong> (<em>bool</em>) – If true will override all process</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.etl_process.generate_labs_mapping_and_units_config">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.etl_process.</span></span><span class="sig-name descname"><span class="pre">generate_labs_mapping_and_units_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">samples_per_signal</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/etl_process.html#generate_labs_mapping_and_units_config"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.etl_process.generate_labs_mapping_and_units_config" title="Link to this definition">¶</a></dt>
+<dd><p>Creates a config table for signal+unit under CODE_DIR/config/map_units_stats.cfg</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df</strong> (<em>DataFrame</em>) – the dataframe to process. have columns : signal, unit</p></li>
+<li><p><strong>samples_per_signal</strong> (<em>int</em>) – how many example values to fecth for each signal+unit combination</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.etl_process.map_and_fix_units">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.etl_process.</span></span><span class="sig-name descname"><span class="pre">map_and_fix_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/etl_process.html#map_and_fix_units"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.etl_process.map_and_fix_units" title="Link to this definition">¶</a></dt>
+<dd><p>Uses the configuration file of the units to convert the units</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>DataFrame</em>) – the dataframe to process. have columns : signal, unit</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><em>DataFrame</em></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.etl_process.prepare_dicts">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.etl_process.</span></span><span class="sig-name descname"><span class="pre">prepare_dicts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">workdir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">signal</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">def_dict</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">set_dict</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">add_missing_codes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/etl_process.html#prepare_dicts"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.etl_process.prepare_dicts" title="Link to this definition">¶</a></dt>
+<dd><p>Main for preparing dicts - workdir, signal, 2 additional argument to add cusom client dicts for this signal</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>workdir</strong> (<em>str</em>) – The working directory where we stored all the ETL outputs</p></li>
+<li><p><strong>signal</strong> (<em>str</em>) – The name of the signal or several signals with comma seperated</p></li>
+<li><p><strong>def_dict</strong> (<em>DataFrame</em><em> | </em><em>None</em>) – Optional DataFrame with 2 columns, the first column is the internal code and the value we used in the
+loading files. The second column is the description of this code that we will be able to see it next to the internla code
+or query the code by the description</p></li>
+<li><p><strong>set_dict</strong> (<em>DataFrame</em><em> | </em><em>None</em>) – Optional if we have sets inside the client dictionary.</p></li>
+<li><p><strong>add_missing_codes</strong> (<em>bool</em>) – If true will try to “trim” long codes to shorter ones and search for matching</p></li>
+</ul>
+</dd>
+<dt class="field-even">Todo<span class="colon">:</span></dt>
+<dd class="field-even"><p>change signal to List</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.etl_process.prepare_final_signals">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.etl_process.</span></span><span class="sig-name descname"><span class="pre">prepare_final_signals</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">workdir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sigs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_write_batch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_batch_tests</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">editor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">map_editor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">override</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'n'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">interactive</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/etl_process.html#prepare_final_signals"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.etl_process.prepare_final_signals" title="Link to this definition">¶</a></dt>
+<dd><p>The main function to generate FinalSignals using batches of DataFrames.</p>
+<p>The code will do the following for each batch:</p>
+<ol class="arabic simple">
+<li><p>When pid is not numeric a conversion is needed. If the signal is part of “demographic”</p></li>
+</ol>
+<p>it will creating a mappsing file from the string to numeric number. If the signal is not demographic,</p>
+<p>it will use the mapping to convert it to numeric. The mapping will be stored inside workdir/FinalSignals/ID2NR</p>
+<ol class="arabic simple" start="2">
+<li><p>If we have “signals” column and the signal is “unknown” it will try to use “config/map.tsv”</p></li>
+</ol>
+<p>to map the signal to existing signal.</p>
+<ol class="arabic simple" start="3">
+<li><p>Running The suitable processing unit from CODE_DIR/signal_processings/$SIGNAL_NAME_OR_PROCESSING_UNIT_NAME_OR_TAG.py</p></li>
+</ol>
+<p>The most specific code will be called. There is a logic like class inheritance.</p>
+<p>If my signal is Hemoglobin, it is also tagged and “cbc” and “labs”.</p>
+<p>It will first look for “Hemoglobin.py”, then “cbc.py” and then “labs.py”.</p>
+<p>If the code file is missing/directory doesn’t exist - the code will create the directory and a file with instructions</p>
+<p>The signal will be determined by “signal” column if not Null, otherwise it will use the “sigs” parameter.</p>
+<ol class="arabic simple" start="4">
+<li><p>Testing the result dataframe - first signal format testing, time channel is integer and in valid dates, value is numeric</p></li>
+</ol>
+<p>Categorical values doens’t contains invalid characters, etc. Then deeper tests that can be expended based on the signal labels</p>
+<p>Will be executes, like testing the value range.</p>
+<ol class="arabic simple" start="5">
+<li><p>Sorting, and storing the file in the right place under - WORK_DIR/FinalSignals</p></li>
+</ol>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>Callable</em><em>[</em><em>[</em><em>int</em><em>, </em><em>int</em><em>]</em><em>, </em><em>Generator</em><em>[</em><em>DataFrame</em><em>, </em><em>None</em><em>, </em><em>None</em><em>]</em><em>] </em><em>| </em><em>DataFrame</em>) – A lazy iterator of DataFrame, the only constraint is to have “pid” column. To use this iterator, we need to specify 2
+integers - batch size and starting batch position.</p></li>
+<li><p><strong>workdir</strong> (<em>str</em>) – The working directory where we stored all the ETL outputs</p></li>
+<li><p><strong>sigs</strong> (<em>str</em>) – comma separeted names of logic units to execute on each DataFrame on records without “signal” value</p></li>
+<li><p><strong>batch_size</strong> (<em>int</em>) – A parameter to control batch size of the lazy iterator to pass to it</p></li>
+<li><p><strong>start_write_batch</strong> (<em>int</em><em> | </em><em>None</em>) – If multiple data sources wants to generate the same “signal” we wants to avoid override in
+FinalSignals. This is our way tp handle this. To give each call od prepare_final_signals a different “batch” number
+for writing the output</p></li>
+<li><p><strong>skip_batch_tests</strong> (<em>bool</em>) – This controls if to skip tests in between batches</p></li>
+<li><p><strong>override</strong> (<em>Literal</em><em>[</em><em>'y'</em><em>, </em><em>'n'</em><em>]</em>) – If “y” will redo again and will not take into account current status. The default is “n” - no.
+To use current state, and to skip completed batches or skip all this processing if all batches are completed.</p></li>
+<li><p><strong>editor</strong> (<em>str</em><em> | </em><em>None</em>)</p></li>
+<li><p><strong>map_editor</strong> (<em>str</em><em> | </em><em>None</em>)</p></li>
+<li><p><strong>interactive</strong> (<em>bool</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True is finished succesfully.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-plot_graph">
+<span id="etl-infra-plot-graph-module"></span><h2>ETL_Infra.plot_graph module<a class="headerlink" href="#module-plot_graph" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="plot_graph.get_plotly_js">
+<span class="sig-prename descclassname"><span class="pre">plot_graph.</span></span><span class="sig-name descname"><span class="pre">get_plotly_js</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/plot_graph.html#get_plotly_js"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#plot_graph.get_plotly_js" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="plot_graph.plot_graph">
+<span class="sig-prename descclassname"><span class="pre">plot_graph.</span></span><span class="sig-name descname"><span class="pre">plot_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">obj</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Test'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'markers+lines'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">javascript_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'W:\\Graph_Infra\\plotly-latest.min.js'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/plot_graph.html#plot_graph"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#plot_graph.plot_graph" title="Link to this definition">¶</a></dt>
+<dd><p>Method to plot graph using plotly</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>obj</strong> (<em>Dict</em><em>[</em><em>str</em><em>, </em><em>DataFrame</em><em>] </em><em>| </em><em>DataFrame</em>) – dictioanry from the name of the series into Dataframe with the data. The first column is x, 2nd is y axis data</p></li>
+<li><p><strong>save_path</strong> (<em>str</em>) – path to store the html file</p></li>
+<li><p><strong>title</strong> (<em>str</em>) – The graph title</p></li>
+<li><p><strong>mode</strong> (<em>str</em>) – controls the graph type: “bar” or options for scatter</p></li>
+<li><p><strong>javascript_path</strong> (<em>str</em>) – controls the path to javascript</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-ETL_Infra.unit_conversions">
+<span id="etl-infra-etl-unit-conversions-module"></span><h2>ETL_Infra.etl_unit_conversions module<a class="headerlink" href="#module-ETL_Infra.unit_conversions" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult">
+<span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">ETL_Infra.unit_conversions.</span></span><span class="sig-name descname"><span class="pre">SuggestionResult</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">direction</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_bias</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_factor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_distance</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_desc</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_target</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_grp_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_current_median</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_expected_median</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/unit_conversions.html#SuggestionResult"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class that holds unit suggestion linear transformation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>direction</strong> (<em>bool</em>)</p></li>
+<li><p><strong>_bias</strong> (<em>float</em>)</p></li>
+<li><p><strong>_factor</strong> (<em>float</em>)</p></li>
+<li><p><strong>_distance</strong> (<em>float</em>)</p></li>
+<li><p><strong>_desc</strong> (<em>str</em>)</p></li>
+<li><p><strong>_target</strong> (<em>str</em>)</p></li>
+<li><p><strong>_grp_size</strong> (<em>int</em>)</p></li>
+<li><p><strong>_current_median</strong> (<em>float</em>)</p></li>
+<li><p><strong>_expected_median</strong> (<em>float</em>)</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.bias">
+<span class="sig-name descname"><span class="pre">bias</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.bias" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.current_median">
+<span class="sig-name descname"><span class="pre">current_median</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.current_median" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.description">
+<span class="sig-name descname"><span class="pre">description</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.description" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.distance">
+<span class="sig-name descname"><span class="pre">distance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.distance" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.expected_median">
+<span class="sig-name descname"><span class="pre">expected_median</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.expected_median" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.factor">
+<span class="sig-name descname"><span class="pre">factor</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.factor" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.group_size">
+<span class="sig-name descname"><span class="pre">group_size</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.group_size" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.opposite_transformation">
+<span class="sig-name descname"><span class="pre">opposite_transformation</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.opposite_transformation" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.SuggestionResult.target_unit">
+<span class="sig-name descname"><span class="pre">target_unit</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#ETL_Infra.unit_conversions.SuggestionResult.target_unit" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.find_best_unit_suggestion">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.unit_conversions.</span></span><span class="sig-name descname"><span class="pre">find_best_unit_suggestion</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allow_op</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">diff_threshold_percentage</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">diff_threshold_ratio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">min_grp_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">500</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/unit_conversions.html#find_best_unit_suggestion"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.unit_conversions.find_best_unit_suggestion" title="Link to this definition">¶</a></dt>
+<dd><p>Function that recieves dataframe with multiple signals, units and breaks down results by each group of signal,unit to rank of most suitable
+units linear transformation [bias + factor] for this group. IT will also return the distance from expected median value of target unit</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df</strong> (<em>DataFrame</em>) – DataFrame input with signal, value_0 column</p></li>
+<li><p><strong>allow_op</strong> (<em>bool</em>) – If true will allow to test also the opposite transformation of the linear suggestion.</p></li>
+<li><p><strong>diff_threshold_percentage</strong> (<em>float</em>) – How much in percentage [0-1] difference from best match continue to suggest other options</p></li>
+<li><p><strong>min_grp_size</strong> (<em>int</em>) – Group size that below this value we will ignore</p></li>
+<li><p><strong>diff_threshold_ratio</strong> (<em>float</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><em>Dict</em>[<em>Tuple</em>[str, str] | str, <em>List</em>[<a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult" title="ETL_Infra.unit_conversions.SuggestionResult"><em>SuggestionResult</em></a>]]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.find_best_unit_suggestion_to_group">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.unit_conversions.</span></span><span class="sig-name descname"><span class="pre">find_best_unit_suggestion_to_group</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">optional_factors</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allow_op</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">diff_threshold_percentage</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">diff_threshold_ratio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">signal_value_stats_df</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit_suggestion_cfg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">signal_info</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/unit_conversions.html#find_best_unit_suggestion_to_group"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.unit_conversions.find_best_unit_suggestion_to_group" title="Link to this definition">¶</a></dt>
+<dd><p>Function that recieve dataframe with raw value and optional tranformation Tuple [bias, factor] and chooses best</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df</strong> (<em>DataFrame</em>) – DataFrame input with signal, value_0 column</p></li>
+<li><p><strong>optional_factors</strong> (<em>List</em><em>[</em><em>Tuple</em><em>[</em><em>float</em><em>, </em><em>float</em><em>, </em><em>str</em><em>]</em><em>] </em><em>| </em><em>None</em>) – List of options for linear tranformations - Each tuple is based on [bias, factor]</p></li>
+<li><p><strong>allow_op</strong> (<em>bool</em>) – If true will allow to test also the opposite transformation of the linear suggestion.</p></li>
+<li><p><strong>diff_threshold_percentage</strong> (<em>float</em>) – How much in percentage [0-1] difference from best match continue to suggest other options</p></li>
+<li><p><strong>signal_value_stats_df</strong> (<em>DataFrame</em><em> | </em><em>None</em>) – A dataframe with signal and percentile stats - median value. If not given will read again from resources directroy.</p></li>
+<li><p><strong>unit_suggestion_cfg</strong> (<em>DataFrame</em><em> | </em><em>None</em>) – A dataframe with signal unit suggestion transormations for each signal,unit. If not given will read again from resources directroy.</p></li>
+<li><p><strong>signal_info</strong> (<em>Dict</em><em>[</em><em>str</em><em>, </em><em>SignalInfo</em><em>] </em><em>| </em><em>None</em>) – An object that holds signals information, what is the target unit. If None, will read from resource directory</p></li>
+<li><p><strong>diff_threshold_ratio</strong> (<em>float</em>)</p></li>
+<li><p><strong>group_name</strong> (<em>tuple</em><em>[</em><em>str</em><em>, </em><em>str</em><em>] </em><em>| </em><em>None</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><em>List</em>[<a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult" title="ETL_Infra.unit_conversions.SuggestionResult"><em>SuggestionResult</em></a>] | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ETL_Infra.unit_conversions.try_get_quantile">
+<span class="sig-prename descclassname"><span class="pre">ETL_Infra.unit_conversions.</span></span><span class="sig-name descname"><span class="pre">try_get_quantile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">signal_value_stats_df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prc</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">signal_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ETL_Infra/unit_conversions.html#try_get_quantile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#ETL_Infra.unit_conversions.try_get_quantile" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>signal_value_stats_df</strong> (<em>DataFrame</em>)</p></li>
+<li><p><strong>prc</strong> (<em>float</em>)</p></li>
+<li><p><strong>signal_name</strong> (<em>str</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">ETL_Infra package</a><ul>
+<li><a class="reference internal" href="#module-ETL_Infra.etl_process">ETL_Infra.etl_process module</a><ul>
+<li><a class="reference internal" href="#ETL_Infra.etl_process.create_train_signal"><code class="docutils literal notranslate"><span class="pre">create_train_signal()</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.etl_process.finish_prepare_load"><code class="docutils literal notranslate"><span class="pre">finish_prepare_load()</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.etl_process.generate_labs_mapping_and_units_config"><code class="docutils literal notranslate"><span class="pre">generate_labs_mapping_and_units_config()</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.etl_process.map_and_fix_units"><code class="docutils literal notranslate"><span class="pre">map_and_fix_units()</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.etl_process.prepare_dicts"><code class="docutils literal notranslate"><span class="pre">prepare_dicts()</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.etl_process.prepare_final_signals"><code class="docutils literal notranslate"><span class="pre">prepare_final_signals()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-plot_graph">ETL_Infra.plot_graph module</a><ul>
+<li><a class="reference internal" href="#plot_graph.get_plotly_js"><code class="docutils literal notranslate"><span class="pre">get_plotly_js()</span></code></a></li>
+<li><a class="reference internal" href="#plot_graph.plot_graph"><code class="docutils literal notranslate"><span class="pre">plot_graph()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-ETL_Infra.unit_conversions">ETL_Infra.etl_unit_conversions module</a><ul>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult"><code class="docutils literal notranslate"><span class="pre">SuggestionResult</span></code></a><ul>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.bias"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.bias</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.current_median"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.current_median</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.description"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.description</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.distance"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.distance</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.expected_median"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.expected_median</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.factor"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.factor</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.group_size"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.group_size</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.opposite_transformation"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.opposite_transformation</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.SuggestionResult.target_unit"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.target_unit</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.find_best_unit_suggestion"><code class="docutils literal notranslate"><span class="pre">find_best_unit_suggestion()</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.find_best_unit_suggestion_to_group"><code class="docutils literal notranslate"><span class="pre">find_best_unit_suggestion_to_group()</span></code></a></li>
+<li><a class="reference internal" href="#ETL_Infra.unit_conversions.try_get_quantile"><code class="docutils literal notranslate"><span class="pre">try_get_quantile()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="data_fetcher/data_fethcer.html"
+                          title="previous chapter">ETL_Infra data retrieval</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="AlgoMarker.html"
+                          title="next chapter">AlgoMarker package</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/ETL_Infra.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="AlgoMarker.html" title="AlgoMarker package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="data_fetcher/data_fethcer.html" title="ETL_Infra data retrieval"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">MES Python API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ETL_Infra package</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Medial Earlysign.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ETL_Infra.unit_conversions &#8212; MES Python API  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/classic.css?v=2bf1fcf8" />
+    
+    <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MES Python API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ETL_Infra.unit_conversions</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for ETL_Infra.unit_conversions</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python</span>
+<span class="c1"># coding: utf-8</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">argparse</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">dt</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Tuple</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">.env</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">.define_signals</span><span class="w"> </span><span class="kn">import</span> <span class="n">SignalInfo</span><span class="p">,</span> <span class="n">load_signals_map</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">read_signals_defs</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">SignalInfo</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    :meta private:</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">codedir</span> <span class="o">=</span> <span class="n">get_codedir</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">load_signals_map</span><span class="p">(</span><span class="n">FULL_SIGNALS_TYPES</span><span class="p">,</span> <span class="n">codedir</span><span class="p">)</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">get_stats</span><span class="p">(</span><span class="n">fullDFi</span><span class="p">,</span> <span class="n">inFile</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">signals_def</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">samples_per_signal</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    :meta private:</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">fullDF</span> <span class="o">=</span> <span class="n">fullDFi</span><span class="p">[</span><span class="n">fullDFi</span><span class="p">[</span><span class="s2">&quot;unit&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">()]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">fullDF</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">freqSignal</span> <span class="o">=</span> <span class="n">fullDF</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+    <span class="n">freqUnit</span> <span class="o">=</span> <span class="n">fullDF</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">],</span> <span class="n">dropna</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s2">&quot;index&quot;</span> <span class="ow">in</span> <span class="n">freqSignal</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
+        <span class="n">freqSignal</span> <span class="o">=</span> <span class="n">freqSignal</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;signal&quot;</span><span class="p">:</span> <span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="s2">&quot;index&quot;</span><span class="p">:</span> <span class="s2">&quot;signal&quot;</span><span class="p">})</span>
+    <span class="n">inData</span> <span class="o">=</span> <span class="n">freqSignal</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span>
+        <span class="n">freqUnit</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span>
+        <span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+        <span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="s2">&quot;unitCount&quot;</span><span class="p">,</span> <span class="s2">&quot;count&quot;</span><span class="p">:</span> <span class="s2">&quot;unitCount&quot;</span><span class="p">}),</span>
+        <span class="n">on</span><span class="o">=</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span>
+        <span class="n">how</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">,</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unitCount&quot;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">inData</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">inData</span><span class="p">[</span><span class="s2">&quot;unit&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">(),</span> <span class="s2">&quot;unit&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="n">inData</span><span class="p">[</span><span class="s2">&quot;unit&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">inData</span><span class="p">[</span><span class="s2">&quot;unit&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span>
+        <span class="nb">str</span>
+    <span class="p">)</span>  <span class="c1"># in case they are all nulls  and read as floats</span>
+    <span class="k">if</span> <span class="n">inFile</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="ow">not</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">inFile</span><span class="p">)):</span>
+        <span class="n">inTable</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+            <span class="n">columns</span><span class="o">=</span><span class="p">[</span>
+                <span class="s2">&quot;signal&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;unit&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;to_signal&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;to_unit&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;multiple_by&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;additive_b0&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">,</span>
+            <span class="p">]</span>
+        <span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">inTable</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
+            <span class="n">inFile</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">converters</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;signal&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">}</span>
+        <span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;value_0&quot;</span><span class="p">:</span> <span class="s2">&quot;value&quot;</span><span class="p">})</span>
+        <span class="n">inTable</span> <span class="o">=</span> <span class="n">inTable</span><span class="p">[</span><span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span>
+            <span class="n">drop</span><span class="o">=</span><span class="kc">True</span>
+        <span class="p">)</span>  <span class="c1"># Remvoe empty lines</span>
+        <span class="k">if</span> <span class="n">inTable</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
+            <span class="n">inTable</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+                <span class="n">columns</span><span class="o">=</span><span class="p">[</span>
+                    <span class="s2">&quot;signal&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;unit&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;to_signal&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;to_unit&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;multiple_by&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;additive_b0&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">,</span>
+                <span class="p">]</span>
+            <span class="p">)</span>
+
+    <span class="n">inTable</span> <span class="o">=</span> <span class="n">inTable</span><span class="p">[</span><span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">()]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;unit&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;unit&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+    <span class="n">outTable</span> <span class="o">=</span> <span class="n">inData</span><span class="p">[[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">,</span> <span class="s2">&quot;unitCount&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span>
+        <span class="n">inTable</span><span class="p">[</span>
+            <span class="p">[</span>
+                <span class="s2">&quot;signal&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;unit&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;to_signal&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;to_unit&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;multiple_by&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;additive_b0&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">,</span>
+            <span class="p">]</span>
+        <span class="p">],</span>
+        <span class="n">how</span><span class="o">=</span><span class="s2">&quot;outer&quot;</span><span class="p">,</span>
+        <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">],</span>
+    <span class="p">)</span>
+    <span class="n">outTable</span> <span class="o">=</span> <span class="n">outTable</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="s2">&quot;unitCount&quot;</span><span class="p">})</span>
+    <span class="k">if</span> <span class="n">signals_def</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>  <span class="c1"># Fetch Target unit from known signal</span>
+        <span class="n">sig_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">signals_def</span><span class="o">.</span><span class="n">items</span><span class="p">()))</span>
+        <span class="n">unit_vec</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+            <span class="nb">map</span><span class="p">(</span>
+                <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">units</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">else</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="n">signals_def</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+        <span class="n">df_unit</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">:</span> <span class="n">sig_names</span><span class="p">,</span> <span class="s2">&quot;unit_official&quot;</span><span class="p">:</span> <span class="n">unit_vec</span><span class="p">})</span>
+        <span class="n">df_unit</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_unit</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+        <span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;to_signal&quot;</span><span class="p">]</span>
+        <span class="n">filter_cond</span> <span class="o">=</span> <span class="p">(</span><span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">())</span> <span class="o">|</span> <span class="p">(</span>
+            <span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span>
+        <span class="p">)</span>
+        <span class="n">outTable</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">filter_cond</span><span class="p">,</span> <span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">outTable</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">filter_cond</span><span class="p">,</span> <span class="s2">&quot;signal&quot;</span><span class="p">]</span>
+        <span class="n">outTable</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">(),</span> <span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+        <span class="n">outTable</span> <span class="o">=</span> <span class="n">outTable</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df_unit</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;to_signal_f&quot;</span><span class="p">])</span>
+        <span class="n">filter_cond</span> <span class="o">=</span> <span class="p">(</span><span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;unit_official&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">())</span> <span class="o">&amp;</span> <span class="p">(</span>
+            <span class="n">outTable</span><span class="p">[</span><span class="s2">&quot;unit_official&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span>
+        <span class="p">)</span>
+        <span class="n">outTable</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">filter_cond</span><span class="p">,</span> <span class="s2">&quot;to_unit&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">outTable</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span>
+            <span class="n">filter_cond</span><span class="p">,</span> <span class="s2">&quot;unit_official&quot;</span>
+        <span class="p">]</span>
+        <span class="n">outTable</span> <span class="o">=</span> <span class="n">outTable</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;unit_official&quot;</span><span class="p">,</span> <span class="s2">&quot;to_signal_f&quot;</span><span class="p">])</span>
+
+    <span class="n">samples</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">fullDF</span><span class="p">[[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">,</span> <span class="s2">&quot;value_0&quot;</span><span class="p">]]</span>
+        <span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">])</span>
+        <span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="n">samples_per_signal</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="p">)</span>
+    <span class="n">outTableSample</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">outTable</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">samples</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">],</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">)</span>
+        <span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">],</span> <span class="n">dropna</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+        <span class="o">.</span><span class="n">aggregate</span><span class="p">(</span><span class="k">lambda</span> <span class="n">tdf</span><span class="p">:</span> <span class="n">tdf</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+    <span class="p">)</span>
+    <span class="c1"># Remove Empty &quot;value 0&quot;</span>
+    <span class="k">if</span> <span class="s2">&quot;value&quot;</span> <span class="ow">in</span> <span class="n">outTableSample</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>  <span class="c1"># Try fix nan</span>
+        <span class="n">outTableSample</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span>
+            <span class="n">outTableSample</span><span class="p">[</span><span class="s2">&quot;value_0&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">all</span><span class="p">()),</span> <span class="s2">&quot;value_0&quot;</span>
+        <span class="p">]</span> <span class="o">=</span> <span class="n">outTableSample</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span>
+            <span class="n">outTableSample</span><span class="p">[</span><span class="s2">&quot;value_0&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">all</span><span class="p">()),</span> <span class="s2">&quot;value&quot;</span>
+        <span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
+            <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">eval</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="p">)</span>
+        <span class="n">outTableSample</span> <span class="o">=</span> <span class="n">outTableSample</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+        <span class="n">outTable</span> <span class="o">=</span> <span class="n">outTable</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+    <span class="n">outTableSample1</span> <span class="o">=</span> <span class="n">outTable</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span>
+        <span class="n">outTableSample</span><span class="p">[</span><span class="s2">&quot;value_0&quot;</span><span class="p">],</span> <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">],</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;left&quot;</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">outTableSample1</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">process_unit_conversion</span><span class="p">(</span>
+    <span class="n">fullDF</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">outFile</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">signals_def</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">samples_per_signal</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    :meta private:</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Start analyzing signal+units...&quot;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">outTable</span> <span class="o">=</span> <span class="n">get_stats</span><span class="p">(</span><span class="n">fullDF</span><span class="p">,</span> <span class="n">outFile</span><span class="p">,</span> <span class="n">signals_def</span><span class="p">,</span> <span class="n">samples_per_signal</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">outTable</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">outTable</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">outFile</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&gt;&gt;&gt;&gt;&gt; outTable written to </span><span class="si">{</span><span class="n">outFile</span><span class="si">}</span><span class="s2"> &lt;&lt;&lt;&lt;&lt;&lt;&quot;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">fix_units</span><span class="p">(</span><span class="n">fullDF</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">inFile</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    :meta private:</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">inFile</span><span class="p">)):</span>
+        <span class="k">raise</span> <span class="ne">NameError</span><span class="p">(</span>
+            <span class="s2">&quot;Please call process_unit_conversion, or generate config file</span><span class="se">\n</span><span class="si">%s</span><span class="s2">&quot;</span>
+            <span class="o">%</span> <span class="p">(</span><span class="n">inFile</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Start fixing signal+units...&quot;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">inTable</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">inFile</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">converters</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;signal&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">})</span>
+    <span class="c1"># Use signal if tp_signal is empty (keep same name) - if you want you can filter yourself later</span>
+    <span class="n">empty_map_cond</span> <span class="o">=</span> <span class="p">(</span><span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;to_signal&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">())</span> <span class="o">|</span> <span class="p">(</span><span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;to_signal&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;mapped&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">inTable</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">empty_map_cond</span><span class="p">,</span> <span class="s2">&quot;to_signal&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">inTable</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">empty_map_cond</span><span class="p">,</span> <span class="s2">&quot;signal&quot;</span><span class="p">]</span>
+    <span class="n">inTable</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">empty_map_cond</span><span class="p">,</span> <span class="s2">&quot;mapped&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">fullDF</span>
+    <span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;unit&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">inTable</span><span class="p">[</span><span class="s2">&quot;unit&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+    <span class="n">numConvert</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span>
+        <span class="n">inTable</span><span class="p">[</span>
+            <span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">,</span> <span class="s2">&quot;to_signal&quot;</span><span class="p">,</span> <span class="s2">&quot;multiple_by&quot;</span><span class="p">,</span> <span class="s2">&quot;additive_b0&quot;</span><span class="p">,</span> <span class="s2">&quot;mapped&quot;</span><span class="p">]</span>
+        <span class="p">],</span>
+        <span class="n">how</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">,</span>
+        <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">],</span>
+    <span class="p">)</span>
+
+    <span class="n">no_map</span> <span class="o">=</span> <span class="n">numConvert</span><span class="p">[</span><span class="n">numConvert</span><span class="p">[</span><span class="s2">&quot;to_signal&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">()]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">no_map</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;WARN :: There are </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">no_map</span><span class="p">)</span><span class="si">}</span><span class="s2"> records without mapping&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">no_map</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span>
+            <span class="s2">&quot;Those are the common signal+unit unmapped:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span>
+            <span class="n">no_map</span><span class="p">[[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;unit&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(),</span>
+        <span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">NameError</span><span class="p">(</span><span class="s2">&quot;No mapping found for some of the input signals&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Convert</span>
+    <span class="n">numConvert</span><span class="o">.</span><span class="n">multiple_by</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">numConvert</span><span class="o">.</span><span class="n">multiple_by</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s2">&quot;coerce&quot;</span><span class="p">)</span>
+    <span class="n">numConvert</span><span class="o">.</span><span class="n">additive_b0</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">numConvert</span><span class="o">.</span><span class="n">additive_b0</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s2">&quot;coerce&quot;</span><span class="p">)</span>
+    <span class="n">numConvert</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">numConvert</span><span class="o">.</span><span class="n">multiple_by</span><span class="o">.</span><span class="n">isna</span><span class="p">(),</span> <span class="s2">&quot;multiple_by&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># Default 1</span>
+    <span class="n">numConvert</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">numConvert</span><span class="o">.</span><span class="n">additive_b0</span><span class="o">.</span><span class="n">isna</span><span class="p">(),</span> <span class="s2">&quot;additive_b0&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># Default 0</span>
+    <span class="n">numConvert</span><span class="p">[</span><span class="s2">&quot;value_00&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">numConvert</span><span class="p">[</span><span class="s2">&quot;value_0&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">numConvert</span><span class="o">.</span><span class="n">multiple_by</span> <span class="o">+</span> <span class="n">numConvert</span><span class="o">.</span><span class="n">additive_b0</span>
+    <span class="p">)</span>
+    <span class="n">numConvert</span> <span class="o">=</span> <span class="n">numConvert</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span>
+        <span class="n">columns</span><span class="o">=</span><span class="p">{</span>
+            <span class="s2">&quot;value_0&quot;</span><span class="p">:</span> <span class="s2">&quot;value_0.original&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;value_00&quot;</span><span class="p">:</span> <span class="s2">&quot;value_0&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;signal&quot;</span><span class="p">:</span> <span class="s2">&quot;signal.original&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;to_signal&quot;</span><span class="p">:</span> <span class="s2">&quot;signal&quot;</span><span class="p">,</span>
+        <span class="p">}</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;multiple_by&quot;</span><span class="p">,</span> <span class="s2">&quot;additive_b0&quot;</span><span class="p">,</span> <span class="s2">&quot;value_0.original&quot;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">numConvert</span>
+
+
+<div class="viewcode-block" id="SuggestionResult">
+<a class="viewcode-back" href="../../ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult">[docs]</a>
+<span class="k">class</span><span class="w"> </span><span class="nc">SuggestionResult</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A class that holds unit suggestion linear transformation</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">bias</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="n">factor</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="n">distance</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="n">opposite_transformation</span><span class="p">:</span> <span class="nb">bool</span>
+    <span class="n">description</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">target_unit</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">group_size</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">current_median</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="n">expected_median</span><span class="p">:</span> <span class="nb">float</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">direction</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span>
+        <span class="n">_bias</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">_factor</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">_distance</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">_desc</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">_target</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">_grp_size</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+        <span class="n">_current_median</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">_expected_median</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+    <span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bias</span> <span class="o">=</span> <span class="n">_bias</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">factor</span> <span class="o">=</span> <span class="n">_factor</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">distance</span> <span class="o">=</span> <span class="n">_distance</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">opposite_transformation</span> <span class="o">=</span> <span class="n">direction</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="n">_desc</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">target_unit</span> <span class="o">=</span> <span class="n">_target</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">group_size</span> <span class="o">=</span> <span class="n">_grp_size</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">current_median</span> <span class="o">=</span> <span class="n">_current_median</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">expected_median</span> <span class="o">=</span> <span class="n">_expected_median</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">ss</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;Size: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">group_size</span><span class="si">}</span><span class="s2">, bias: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">bias</span><span class="si">}</span><span class="s2">, factor:</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">factor</span><span class="si">}</span><span class="s2">, distance_from_target_median: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">distance</span><span class="si">}</span><span class="s2">, target_unit:</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">target_unit</span><span class="si">}</span><span class="s2">, guested_unit: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">description</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;, current_fixed: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">current_median</span><span class="si">}</span><span class="s2">, expected: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">expected_median</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">opposite_transformation</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">ss</span> <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;, reversed_transform!&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">ss</span></div>
+
+
+
+<div class="viewcode-block" id="find_best_unit_suggestion">
+<a class="viewcode-back" href="../../ETL_Infra.html#ETL_Infra.unit_conversions.find_best_unit_suggestion">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">find_best_unit_suggestion</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span>
+    <span class="n">allow_op</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="n">diff_threshold_percentage</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">,</span>
+    <span class="n">diff_threshold_ratio</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span>
+    <span class="n">min_grp_size</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">500</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">|</span> <span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="n">SuggestionResult</span><span class="p">]]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Function that recieves dataframe with multiple signals, units and breaks down results by each group of signal,unit to rank of most suitable</span>
+<span class="sd">    units linear transformation [bias + factor] for this group. IT will also return the distance from expected median value of target unit</span>
+
+<span class="sd">    :param df: DataFrame input with signal, value_0 column</span>
+<span class="sd">    :param allow_op: If true will allow to test also the opposite transformation of the linear suggestion.</span>
+<span class="sd">    :param diff_threshold_percentage: How much in percentage [0-1] difference from best match continue to suggest other options</span>
+<span class="sd">    :param min_grp_size: Group size that below this value we will ignore</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">all_sigs_config</span> <span class="o">=</span> <span class="n">read_signals_defs</span><span class="p">()</span>
+    <span class="n">current_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span>
+    <span class="n">signal_value_stats_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s2">&quot;rep_signals&quot;</span><span class="p">,</span> <span class="s2">&quot;signals_prctile.cfg&quot;</span><span class="p">),</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span>
+    <span class="p">)</span>
+    <span class="n">unit_suggestion_cfg</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s2">&quot;rep_signals&quot;</span><span class="p">,</span> <span class="s2">&quot;unit_suggestions.cfg&quot;</span><span class="p">),</span>
+        <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span>
+        <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;bias&quot;</span><span class="p">,</span> <span class="s2">&quot;factor&quot;</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="p">],</span>
+    <span class="p">)</span>
+
+    <span class="n">subset</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="s2">&quot;unit&quot;</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
+        <span class="n">subset</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;unit&quot;</span><span class="p">)</span>
+    <span class="n">res_full</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+    <span class="n">skip_cols</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span><span class="s2">&quot;pid&quot;</span><span class="p">,</span> <span class="s2">&quot;signal&quot;</span><span class="p">])</span>
+    <span class="n">additional_cols</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+        <span class="nb">filter</span><span class="p">(</span>
+            <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">skip_cols</span>
+            <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;time_&quot;</span><span class="p">))</span>
+            <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;value_&quot;</span><span class="p">)),</span>
+            <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span>
+        <span class="p">)</span>
+    <span class="p">)</span>
+    <span class="n">first_tm</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">grp_name</span> <span class="o">=</span> <span class="s2">&quot;GROUP_COLS&quot;</span>
+    <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">additional_cols</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">first_tm</span><span class="p">:</span>
+            <span class="n">df</span><span class="p">[</span><span class="n">grp_name</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">col</span><span class="si">}</span><span class="s2">:&quot;</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">df</span><span class="p">[</span><span class="n">grp_name</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">grp_name</span><span class="p">]</span> <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;|</span><span class="si">{</span><span class="n">col</span><span class="si">}</span><span class="s2">:&quot;</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+        <span class="n">first_tm</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">additional_cols</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">subset</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="n">grp_name</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">group_key</span><span class="p">,</span> <span class="n">group_df</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="n">subset</span><span class="p">):</span>
+        <span class="n">grp_size</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">group_df</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">grp_size</span> <span class="o">&lt;</span> <span class="n">min_grp_size</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Skip </span><span class="si">{</span><span class="n">group_key</span><span class="si">}</span><span class="s2"> too small </span><span class="si">{</span><span class="n">grp_size</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="n">res_full</span><span class="p">[</span><span class="n">group_key</span><span class="p">]</span> <span class="o">=</span> <span class="n">find_best_unit_suggestion_to_group</span><span class="p">(</span>
+            <span class="n">group_df</span><span class="p">,</span>
+            <span class="kc">None</span><span class="p">,</span>
+            <span class="n">allow_op</span><span class="p">,</span>
+            <span class="n">diff_threshold_percentage</span><span class="p">,</span>
+            <span class="n">diff_threshold_ratio</span><span class="p">,</span>
+            <span class="n">signal_value_stats_df</span><span class="p">,</span>
+            <span class="n">unit_suggestion_cfg</span><span class="p">,</span>
+            <span class="n">all_sigs_config</span><span class="p">,</span>
+            <span class="n">group_key</span><span class="p">,</span>
+        <span class="p">)</span>
+    <span class="k">return</span> <span class="n">res_full</span></div>
+
+
+
+<div class="viewcode-block" id="try_get_quantile">
+<a class="viewcode-back" href="../../ETL_Infra.html#ETL_Infra.unit_conversions.try_get_quantile">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">try_get_quantile</span><span class="p">(</span>
+    <span class="n">signal_value_stats_df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">prc</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">signal_name</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span> <span class="o">|</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="n">signal_value_stats_df_</span> <span class="o">=</span> <span class="n">signal_value_stats_df</span><span class="p">[</span>
+        <span class="n">signal_value_stats_df</span><span class="p">[</span><span class="s2">&quot;q&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">prc</span>
+    <span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">signal_value_stats_df_</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;Warning, no reference for signal </span><span class="si">{</span><span class="n">signal_name</span><span class="si">}</span><span class="s2"> to suggest unit transformation&quot;</span><span class="p">,</span>
+            <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">target_median</span> <span class="o">=</span> <span class="n">signal_value_stats_df_</span><span class="p">[</span><span class="s2">&quot;reference&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">target_median</span></div>
+
+
+
+<div class="viewcode-block" id="find_best_unit_suggestion_to_group">
+<a class="viewcode-back" href="../../ETL_Infra.html#ETL_Infra.unit_conversions.find_best_unit_suggestion_to_group">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">find_best_unit_suggestion_to_group</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span>
+    <span class="n">optional_factors</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="nb">float</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">allow_op</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="n">diff_threshold_percentage</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">,</span>
+    <span class="n">diff_threshold_ratio</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span>
+    <span class="n">signal_value_stats_df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">unit_suggestion_cfg</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">signal_info</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">SignalInfo</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">group_name</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">SuggestionResult</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Function that recieve dataframe with raw value and optional tranformation Tuple [bias, factor] and chooses best</span>
+
+<span class="sd">    :param df: DataFrame input with signal, value_0 column</span>
+<span class="sd">    :param optional_factors: List of options for linear tranformations - Each tuple is based on [bias, factor]</span>
+<span class="sd">    :param allow_op: If true will allow to test also the opposite transformation of the linear suggestion.</span>
+<span class="sd">    :param diff_threshold_percentage: How much in percentage [0-1] difference from best match continue to suggest other options</span>
+<span class="sd">    :param signal_value_stats_df: A dataframe with signal and percentile stats - median value. If not given will read again from resources directroy.</span>
+<span class="sd">    :param unit_suggestion_cfg: A dataframe with signal unit suggestion transormations for each signal,unit. If not given will read again from resources directroy.</span>
+<span class="sd">    :param signal_info: An object that holds signals information, what is the target unit. If None, will read from resource directory</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">current_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">signal_value_stats_df</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">signal_value_stats_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s2">&quot;rep_signals&quot;</span><span class="p">,</span> <span class="s2">&quot;signals_prctile.cfg&quot;</span><span class="p">),</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span>
+        <span class="p">)</span>
+    <span class="n">signal_name</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">optional_factors</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">optional_factors</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="c1"># print(f&#39;Reading suggestion from config file&#39;,flush=True)</span>
+        <span class="k">if</span> <span class="n">unit_suggestion_cfg</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">unit_suggestion_cfg</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s2">&quot;rep_signals&quot;</span><span class="p">,</span> <span class="s2">&quot;unit_suggestions.cfg&quot;</span><span class="p">),</span>
+                <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span>
+                <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;bias&quot;</span><span class="p">,</span> <span class="s2">&quot;factor&quot;</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="p">],</span>
+            <span class="p">)</span>
+        <span class="n">unit_suggestion_cfg</span> <span class="o">=</span> <span class="n">unit_suggestion_cfg</span><span class="p">[</span>
+            <span class="n">unit_suggestion_cfg</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">signal_name</span>
+        <span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">unit_suggestion_cfg</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># type: ignore</span>
+            <span class="nb">print</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Warning, no options, optional_factors is empty for </span><span class="si">{</span><span class="n">signal_name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+                <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="n">optional_factors</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+            <span class="n">unit_suggestion_cfg</span><span class="p">[[</span><span class="s2">&quot;bias&quot;</span><span class="p">,</span> <span class="s2">&quot;factor&quot;</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span> <span class="c1"># type: ignore</span>
+        <span class="p">)</span>
+
+    <span class="n">grp_size</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+    <span class="n">prc</span> <span class="o">=</span> <span class="mf">0.5</span>
+    <span class="n">signal_value_stats_df</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">signal_value_stats_df</span><span class="p">[</span><span class="n">signal_value_stats_df</span><span class="p">[</span><span class="s2">&quot;signal&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">signal_name</span><span class="p">]</span>
+        <span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)[[</span><span class="s2">&quot;q&quot;</span><span class="p">,</span> <span class="s2">&quot;value_0&quot;</span><span class="p">]]</span>
+        <span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;value_0&quot;</span><span class="p">:</span> <span class="s2">&quot;reference&quot;</span><span class="p">})</span>
+    <span class="p">)</span>
+    <span class="n">target_median</span> <span class="o">=</span> <span class="n">try_get_quantile</span><span class="p">(</span><span class="n">signal_value_stats_df</span><span class="p">,</span> <span class="n">prc</span><span class="p">,</span> <span class="n">signal_name</span><span class="p">)</span> <span class="c1"># type: ignore</span>
+    <span class="k">if</span> <span class="n">target_median</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">target_median</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">prc</span> <span class="o">=</span> <span class="mf">0.9</span>
+        <span class="n">target_median</span> <span class="o">=</span> <span class="n">try_get_quantile</span><span class="p">(</span><span class="n">signal_value_stats_df</span><span class="p">,</span> <span class="n">prc</span><span class="p">,</span> <span class="n">signal_name</span><span class="p">)</span> <span class="c1"># type: ignore</span>
+
+    <span class="k">if</span> <span class="n">target_median</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">target_median</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;WARN: signal </span><span class="si">{</span><span class="n">signal_name</span><span class="si">}</span><span class="s2"> has quantile </span><span class="si">{</span><span class="n">target_median</span><span class="si">}</span><span class="s2"> - skipping&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">if</span> <span class="n">prc</span> <span class="o">!=</span> <span class="mf">0.5</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;INFO ::Comparing quantile </span><span class="si">{</span><span class="n">prc</span><span class="si">}</span><span class="s2"> for signal </span><span class="si">{</span><span class="n">signal_name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">current_median</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;value_0&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="n">prc</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">current_median</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;Current quantile </span><span class="si">{</span><span class="n">prc</span><span class="si">}</span><span class="s2"> for </span><span class="si">{</span><span class="n">signal_name</span><span class="si">}</span><span class="s2"> is 0 - skipping unit suggestion&quot;</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="c1"># Iterate over all options and find best &quot;match&quot;, closest. Compare if there are more then one good option:</span>
+    <span class="n">opt_rank</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="p">[]</span>
+    <span class="p">)</span>  <span class="c1"># tuple of index+1 in optional_factors, distance or -(index+1) for opposite</span>
+    <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">tp</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">optional_factors</span><span class="p">):</span>
+        <span class="n">idx</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">bias</span><span class="p">,</span> <span class="n">factor</span><span class="p">,</span> <span class="n">desription</span> <span class="o">=</span> <span class="n">tp</span>
+        <span class="k">if</span> <span class="n">bias</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">factor</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">continue</span>  <span class="c1"># I already have this option</span>
+        <span class="n">fixed_median</span> <span class="o">=</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">current_median</span> <span class="o">+</span> <span class="n">bias</span>
+        <span class="n">opt_distance</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">target_median</span> <span class="o">-</span> <span class="n">fixed_median</span><span class="p">)</span>
+        <span class="n">opt_rank</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">idx</span><span class="p">,</span> <span class="n">opt_distance</span><span class="p">,</span> <span class="n">fixed_median</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">allow_op</span><span class="p">:</span>
+            <span class="c1"># Let&#39;s check opposite transformation:</span>
+            <span class="n">fixed_median</span> <span class="o">=</span> <span class="p">(</span><span class="n">current_median</span> <span class="o">-</span> <span class="n">bias</span><span class="p">)</span> <span class="o">/</span> <span class="n">factor</span>
+            <span class="n">opt_distance</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">target_median</span> <span class="o">-</span> <span class="n">fixed_median</span><span class="p">)</span>
+            <span class="n">opt_rank</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="o">-</span><span class="n">idx</span><span class="p">,</span> <span class="n">opt_distance</span><span class="p">,</span> <span class="n">fixed_median</span><span class="p">])</span>
+    <span class="c1"># Last Option - treat it as [0,1] - means no bias, no factor so keep as is.</span>
+    <span class="n">opt_distance</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">current_median</span> <span class="o">-</span> <span class="n">target_median</span><span class="p">)</span>
+    <span class="n">opt_rank</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="kc">None</span><span class="p">,</span> <span class="n">opt_distance</span><span class="p">,</span> <span class="n">current_median</span><span class="p">])</span>
+    <span class="c1"># Sort by distance</span>
+    <span class="n">opt_rank</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">opt_rank</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="c1"># Let&#39;s choose best option and see if the next one is far enough behind</span>
+    <span class="c1"># Filter diff_threshold_ratio from opt_rank:</span>
+    <span class="k">if</span> <span class="n">target_median</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">opt_rank</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+            <span class="nb">filter</span><span class="p">(</span>
+                <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">(</span>
+                    <span class="nb">max</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">/</span> <span class="n">target_median</span><span class="p">,</span> <span class="n">target_median</span> <span class="o">/</span> <span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+                    <span class="o">&lt;=</span> <span class="n">diff_threshold_ratio</span>
+                    <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span>
+                    <span class="k">else</span> <span class="kc">False</span>
+                <span class="p">),</span>
+                <span class="n">opt_rank</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">opt_rank</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;No suitable unit found for signal </span><span class="si">{</span><span class="n">signal_name</span><span class="si">}</span><span class="s2"> - </span><span class="si">{</span><span class="n">group_name</span><span class="si">}</span><span class="s2"> - all options does not fit. expected median </span><span class="si">{</span><span class="n">target_median</span><span class="si">}</span><span class="s2">, current median: </span><span class="si">{</span><span class="n">current_median</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="p">)</span>
+
+    <span class="n">_</span><span class="p">,</span> <span class="n">best_option_distance</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">opt_rank</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">till_idx</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">best_option_distance</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">till_idx</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">opt_rank</span><span class="p">):</span>
+        <span class="n">till_idx</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">best_option_distance</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">opt_rank</span><span class="p">[</span><span class="n">till_idx</span><span class="p">]</span>
+        <span class="n">best_option_distance</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span>
+            <span class="n">best_option_distance</span><span class="p">,</span> <span class="mi">5</span>
+        <span class="p">)</span>  <span class="c1"># Since previous was 0, don&#39;t allow more than 5</span>
+
+    <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">opt_tp</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">opt_rank</span><span class="p">[</span><span class="n">till_idx</span><span class="p">:]):</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">opt_dist</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">opt_tp</span>
+        <span class="k">if</span> <span class="n">best_option_distance</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="k">if</span> <span class="n">opt_dist</span> <span class="o">/</span> <span class="n">best_option_distance</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">&gt;</span> <span class="n">diff_threshold_percentage</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">till_idx</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">opt_rank</span> <span class="o">=</span> <span class="n">opt_rank</span><span class="p">[:</span><span class="n">till_idx</span><span class="p">]</span>
+    <span class="c1"># Now return opt_rank in this format: [direction:bool, bias, factor, distance]</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">target_unit</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">signal_info</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">signal_name</span> <span class="ow">in</span> <span class="n">signal_info</span><span class="p">:</span>
+        <span class="n">si</span> <span class="o">=</span> <span class="n">signal_info</span><span class="p">[</span><span class="n">signal_name</span><span class="p">]</span>
+        <span class="n">target_unit</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">si</span><span class="o">.</span><span class="n">units</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">fixed_median</span> <span class="ow">in</span> <span class="n">opt_rank</span><span class="p">:</span>
+        <span class="n">bias</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">factor</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">idx</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">access_idx</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+            <span class="n">bias</span> <span class="o">=</span> <span class="n">optional_factors</span><span class="p">[</span><span class="n">access_idx</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">factor</span> <span class="o">=</span> <span class="n">optional_factors</span><span class="p">[</span><span class="n">access_idx</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+            <span class="n">description</span> <span class="o">=</span> <span class="n">optional_factors</span><span class="p">[</span><span class="n">access_idx</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">description</span> <span class="o">+=</span> <span class="s2">&quot; Reversed&quot;</span>
+        <span class="n">opt_res</span> <span class="o">=</span> <span class="n">SuggestionResult</span><span class="p">(</span>
+            <span class="n">idx</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">,</span>
+            <span class="n">bias</span><span class="p">,</span>
+            <span class="n">factor</span><span class="p">,</span>
+            <span class="n">distance</span><span class="p">,</span>
+            <span class="n">description</span><span class="p">,</span>
+            <span class="n">target_unit</span><span class="p">,</span>
+            <span class="n">grp_size</span><span class="p">,</span>
+            <span class="n">fixed_median</span><span class="p">,</span>
+            <span class="n">target_median</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="n">res</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">opt_res</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">res</span></div>
+
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="c1"># get parameters</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
+        <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Prepare signals for load. Convert units&quot;</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s2">&quot;--raw_pkl&quot;</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;raw pkl file &#39;id signal date value unit&#39;&quot;</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;--out_table&quot;</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;updated conversion table&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s2">&quot;--samples_per_signal&quot;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s2">&quot;number of samples presented from each signal unit combination&quot;</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+    <span class="n">fullDF</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">raw_pkl</span><span class="p">)</span>
+    <span class="n">fullDF</span> <span class="o">=</span> <span class="n">fullDF</span><span class="p">[</span><span class="n">fullDF</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">notna</span><span class="p">()]</span>
+    <span class="n">process_unit_conversion</span><span class="p">(</span>
+        <span class="n">fullDF</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">out_table</span><span class="p">,</span> <span class="n">samples_per_signal</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">samples_per_signal</span>
+    <span class="p">)</span>
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MES Python API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ETL_Infra.unit_conversions</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Medial Earlysign.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

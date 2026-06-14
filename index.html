@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Medial EarlySign ETL documentation &#8212; MES Python API  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=2bf1fcf8" />
+    
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ETL_Infra data retrieval" href="data_fetcher/data_fethcer.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="data_fetcher/data_fethcer.html" title="ETL_Infra data retrieval"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">MES Python API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Medial EarlySign ETL documentation</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <p>Github: <a class="reference external" href="https://github.com/Medial-EarlySign/MR_Tools">https://github.com/Medial-EarlySign/MR_Tools</a></p>
+<section id="medial-earlysign-etl-documentation">
+<h1>Medial EarlySign ETL documentation<a class="headerlink" href="#medial-earlysign-etl-documentation" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data_fetcher/data_fethcer.html">ETL_Infra data retrieval</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_fetcher/data_fethcer.html#module-data_fetcher.db_fetcher">ETL_Infra.data_fetcher.db_fetcher module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_fetcher/data_fethcer.html#data_fetcher.db_fetcher.db_fetcher"><code class="docutils literal notranslate"><span class="pre">db_fetcher()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_fetcher/data_fethcer.html#module-data_fetcher.files_fetcher">ETL_Infra.data_fetcher.files_fetcher module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_fetcher/data_fethcer.html#data_fetcher.files_fetcher.big_files_fetcher"><code class="docutils literal notranslate"><span class="pre">big_files_fetcher()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_fetcher/data_fethcer.html#data_fetcher.files_fetcher.files_fetcher"><code class="docutils literal notranslate"><span class="pre">files_fetcher()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_fetcher/data_fethcer.html#data_fetcher.files_fetcher.list_directory_files"><code class="docutils literal notranslate"><span class="pre">list_directory_files()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ETL_Infra.html">ETL_Infra package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ETL_Infra.html#module-ETL_Infra.etl_process">ETL_Infra.etl_process module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.etl_process.create_train_signal"><code class="docutils literal notranslate"><span class="pre">create_train_signal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.etl_process.finish_prepare_load"><code class="docutils literal notranslate"><span class="pre">finish_prepare_load()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.etl_process.generate_labs_mapping_and_units_config"><code class="docutils literal notranslate"><span class="pre">generate_labs_mapping_and_units_config()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.etl_process.map_and_fix_units"><code class="docutils literal notranslate"><span class="pre">map_and_fix_units()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.etl_process.prepare_dicts"><code class="docutils literal notranslate"><span class="pre">prepare_dicts()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.etl_process.prepare_final_signals"><code class="docutils literal notranslate"><span class="pre">prepare_final_signals()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_Infra.html#module-plot_graph">ETL_Infra.plot_graph module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#plot_graph.get_plotly_js"><code class="docutils literal notranslate"><span class="pre">get_plotly_js()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#plot_graph.plot_graph"><code class="docutils literal notranslate"><span class="pre">plot_graph()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_Infra.html#module-ETL_Infra.unit_conversions">ETL_Infra.etl_unit_conversions module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult"><code class="docutils literal notranslate"><span class="pre">SuggestionResult</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.bias"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.bias</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.current_median"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.current_median</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.description"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.description</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.distance"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.distance</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.expected_median"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.expected_median</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.factor"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.factor</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.group_size"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.group_size</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.opposite_transformation"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.opposite_transformation</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.SuggestionResult.target_unit"><code class="docutils literal notranslate"><span class="pre">SuggestionResult.target_unit</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.find_best_unit_suggestion"><code class="docutils literal notranslate"><span class="pre">find_best_unit_suggestion()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.find_best_unit_suggestion_to_group"><code class="docutils literal notranslate"><span class="pre">find_best_unit_suggestion_to_group()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="ETL_Infra.html#ETL_Infra.unit_conversions.try_get_quantile"><code class="docutils literal notranslate"><span class="pre">try_get_quantile()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="algomarker-api-documentation">
+<h1>AlgoMarker API documentation<a class="headerlink" href="#algomarker-api-documentation" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="AlgoMarker.html">AlgoMarker package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="AlgoMarker.html#module-AlgoMarker">AlgoMarker module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="AlgoMarker.html#AlgoMarker.AlgoMarker"><code class="docutils literal notranslate"><span class="pre">AlgoMarker</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#AlgoMarker.AlgoMarker.calculate"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.calculate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#AlgoMarker.AlgoMarker.discovery"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.discovery()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#AlgoMarker.AlgoMarker.dispose"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.dispose()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#AlgoMarker.AlgoMarker.clear_data"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.clear_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#AlgoMarker.AlgoMarker.add_data"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.add_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#id0"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.add_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#id1"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.calculate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#id2"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.clear_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#AlgoMarker.AlgoMarker.create_request_json"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.create_request_json()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#id3"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.discovery()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#id4"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.dispose()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="AlgoMarker.html#AlgoMarker.AlgoMarker.get_name"><code class="docutils literal notranslate"><span class="pre">AlgoMarker.get_name()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="medpython-api-documentation">
+<h1>MedPython API documentation<a class="headerlink" href="#medpython-api-documentation" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="MedPython.html">MedPython package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="MedPython.html#module-med">MedPython module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Bootstrap"><code class="docutils literal notranslate"><span class="pre">Bootstrap</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_max_diff_working_point"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_max_diff_working_point()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_score_bins"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_score_bins()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_score_min_samples"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_score_min_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_score_resolution"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_score_resolution()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_use_score_working_points"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_use_score_working_points()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_working_point_FPR"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_working_point_FPR()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_working_point_PR"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_working_point_PR()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_working_point_SENS"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_working_point_SENS()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_working_point_Score"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_working_point_Score()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_ROC_working_point_TOPN"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_ROC_working_point_TOPN()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_nbootstrap"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_nbootstrap()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_GET_sample_per_pid"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_GET_sample_per_pid()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_max_diff_working_point"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_max_diff_working_point()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_score_bins"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_score_bins()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_score_min_samples"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_score_min_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_score_resolution"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_score_resolution()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_use_score_working_points"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_use_score_working_points()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_working_point_FPR"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_working_point_FPR()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_working_point_PR"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_working_point_PR()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_working_point_SENS"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_working_point_SENS()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_working_point_Score"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_working_point_Score()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_ROC_working_point_TOPN"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_ROC_working_point_TOPN()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_nbootstrap"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_nbootstrap()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.MEDPY_SET_sample_per_pid"><code class="docutils literal notranslate"><span class="pre">Bootstrap.MEDPY_SET_sample_per_pid()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_max_diff_working_point"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_max_diff_working_point</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_score_bins"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_score_bins</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_score_min_samples"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_score_min_samples</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_score_resolution"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_score_resolution</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_use_score_working_points"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_use_score_working_points</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_working_point_FPR"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_working_point_FPR</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_working_point_PR"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_working_point_PR</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_working_point_SENS"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_working_point_SENS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_working_point_Score"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_working_point_Score</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.ROC_working_point_TOPN"><code class="docutils literal notranslate"><span class="pre">Bootstrap.ROC_working_point_TOPN</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.bootstrap_cohort"><code class="docutils literal notranslate"><span class="pre">Bootstrap.bootstrap_cohort()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.get_cohort_from_arg"><code class="docutils literal notranslate"><span class="pre">Bootstrap.get_cohort_from_arg()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.init_from_str"><code class="docutils literal notranslate"><span class="pre">Bootstrap.init_from_str()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.nbootstrap"><code class="docutils literal notranslate"><span class="pre">Bootstrap.nbootstrap</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.parse_cohort_file"><code class="docutils literal notranslate"><span class="pre">Bootstrap.parse_cohort_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.parse_cohort_line"><code class="docutils literal notranslate"><span class="pre">Bootstrap.parse_cohort_line()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.sample_per_pid"><code class="docutils literal notranslate"><span class="pre">Bootstrap.sample_per_pid</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Bootstrap.thisown"><code class="docutils literal notranslate"><span class="pre">Bootstrap.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.CommonLib"><code class="docutils literal notranslate"><span class="pre">CommonLib</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.CommonLib.print_auc_performance"><code class="docutils literal notranslate"><span class="pre">CommonLib.print_auc_performance()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.CommonLib.read_predictor_from_file"><code class="docutils literal notranslate"><span class="pre">CommonLib.read_predictor_from_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.CommonLib.shuffleMatrix"><code class="docutils literal notranslate"><span class="pre">CommonLib.shuffleMatrix()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.CommonLib.thisown"><code class="docutils literal notranslate"><span class="pre">CommonLib.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Dictionary"><code class="docutils literal notranslate"><span class="pre">Dictionary</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Dictionary.get_members_to_all_sets"><code class="docutils literal notranslate"><span class="pre">Dictionary.get_members_to_all_sets()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Dictionary.id"><code class="docutils literal notranslate"><span class="pre">Dictionary.id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Dictionary.name"><code class="docutils literal notranslate"><span class="pre">Dictionary.name()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Dictionary.prep_sets_lookup_table"><code class="docutils literal notranslate"><span class="pre">Dictionary.prep_sets_lookup_table()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Dictionary.section_id"><code class="docutils literal notranslate"><span class="pre">Dictionary.section_id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Dictionary.thisown"><code class="docutils literal notranslate"><span class="pre">Dictionary.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.FeatureAttr"><code class="docutils literal notranslate"><span class="pre">FeatureAttr</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.MEDPY_GET_denorm_mean"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.MEDPY_GET_denorm_mean()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.MEDPY_GET_denorm_sdv"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.MEDPY_GET_denorm_sdv()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.MEDPY_GET_imputed"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.MEDPY_GET_imputed()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.MEDPY_GET_normalized"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.MEDPY_GET_normalized()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.MEDPY_SET_denorm_mean"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.MEDPY_SET_denorm_mean()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.MEDPY_SET_denorm_sdv"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.MEDPY_SET_denorm_sdv()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.MEDPY_SET_imputed"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.MEDPY_SET_imputed()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.MEDPY_SET_normalized"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.MEDPY_SET_normalized()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.asSerializable"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.denorm_mean"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.denorm_mean</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.denorm_sdv"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.denorm_sdv</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.imputed"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.imputed</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.normalized"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.normalized</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.FeatureAttr.thisown"><code class="docutils literal notranslate"><span class="pre">FeatureAttr.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Features"><code class="docutils literal notranslate"><span class="pre">Features</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_GET_attributes"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_GET_attributes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_GET_data"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_GET_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_GET_global_serial_id_cnt"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_GET_global_serial_id_cnt()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_GET_pid_pos_len"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_GET_pid_pos_len()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_GET_samples"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_GET_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_GET_tags"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_GET_tags()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_GET_time_unit"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_GET_time_unit()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_GET_weights"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_GET_weights()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_SET_global_serial_id_cnt"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_SET_global_serial_id_cnt()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.MEDPY_SET_time_unit"><code class="docutils literal notranslate"><span class="pre">Features.MEDPY_SET_time_unit()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.append_samples"><code class="docutils literal notranslate"><span class="pre">Features.append_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.asSerializable"><code class="docutils literal notranslate"><span class="pre">Features.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.attributes"><code class="docutils literal notranslate"><span class="pre">Features.attributes</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.clear"><code class="docutils literal notranslate"><span class="pre">Features.clear()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.data"><code class="docutils literal notranslate"><span class="pre">Features.data</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.filter"><code class="docutils literal notranslate"><span class="pre">Features.filter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.get_as_matrix"><code class="docutils literal notranslate"><span class="pre">Features.get_as_matrix()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.get_crc"><code class="docutils literal notranslate"><span class="pre">Features.get_crc()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.get_feature_names"><code class="docutils literal notranslate"><span class="pre">Features.get_feature_names()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.get_max_serial_id_cnt"><code class="docutils literal notranslate"><span class="pre">Features.get_max_serial_id_cnt()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.get_pid_len"><code class="docutils literal notranslate"><span class="pre">Features.get_pid_len()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.get_pid_pos"><code class="docutils literal notranslate"><span class="pre">Features.get_pid_pos()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.get_samples"><code class="docutils literal notranslate"><span class="pre">Features.get_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.global_serial_id_cnt"><code class="docutils literal notranslate"><span class="pre">Features.global_serial_id_cnt</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.init_all_samples"><code class="docutils literal notranslate"><span class="pre">Features.init_all_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.init_pid_pos_len"><code class="docutils literal notranslate"><span class="pre">Features.init_pid_pos_len()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.insert_samples"><code class="docutils literal notranslate"><span class="pre">Features.insert_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.pid_pos_len"><code class="docutils literal notranslate"><span class="pre">Features.pid_pos_len</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.print_csv"><code class="docutils literal notranslate"><span class="pre">Features.print_csv()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.read_from_csv_mat"><code class="docutils literal notranslate"><span class="pre">Features.read_from_csv_mat()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.samples"><code class="docutils literal notranslate"><span class="pre">Features.samples</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.set_as_matrix"><code class="docutils literal notranslate"><span class="pre">Features.set_as_matrix()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.set_time_unit"><code class="docutils literal notranslate"><span class="pre">Features.set_time_unit()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.split_by_fold"><code class="docutils literal notranslate"><span class="pre">Features.split_by_fold()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.tags"><code class="docutils literal notranslate"><span class="pre">Features.tags</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.thisown"><code class="docutils literal notranslate"><span class="pre">Features.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.time_unit"><code class="docutils literal notranslate"><span class="pre">Features.time_unit</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.version"><code class="docutils literal notranslate"><span class="pre">Features.version()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.weights"><code class="docutils literal notranslate"><span class="pre">Features.weights</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Features.write_as_csv_mat"><code class="docutils literal notranslate"><span class="pre">Features.write_as_csv_mat()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.IdSamples"><code class="docutils literal notranslate"><span class="pre">IdSamples</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.MEDPY_GET_id"><code class="docutils literal notranslate"><span class="pre">IdSamples.MEDPY_GET_id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.MEDPY_GET_samples"><code class="docutils literal notranslate"><span class="pre">IdSamples.MEDPY_GET_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.MEDPY_GET_split"><code class="docutils literal notranslate"><span class="pre">IdSamples.MEDPY_GET_split()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.MEDPY_SET_id"><code class="docutils literal notranslate"><span class="pre">IdSamples.MEDPY_SET_id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.MEDPY_SET_split"><code class="docutils literal notranslate"><span class="pre">IdSamples.MEDPY_SET_split()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.asSerializable"><code class="docutils literal notranslate"><span class="pre">IdSamples.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.id"><code class="docutils literal notranslate"><span class="pre">IdSamples.id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.same_as"><code class="docutils literal notranslate"><span class="pre">IdSamples.same_as()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.samples"><code class="docutils literal notranslate"><span class="pre">IdSamples.samples</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.set_split"><code class="docutils literal notranslate"><span class="pre">IdSamples.set_split()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.split"><code class="docutils literal notranslate"><span class="pre">IdSamples.split</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.IdSamples.thisown"><code class="docutils literal notranslate"><span class="pre">IdSamples.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Logger"><code class="docutils literal notranslate"><span class="pre">Logger</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Logger.add_file"><code class="docutils literal notranslate"><span class="pre">Logger.add_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Logger.init_all_files"><code class="docutils literal notranslate"><span class="pre">Logger.init_all_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Logger.init_all_levels"><code class="docutils literal notranslate"><span class="pre">Logger.init_all_levels()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Logger.init_file"><code class="docutils literal notranslate"><span class="pre">Logger.init_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Logger.init_level"><code class="docutils literal notranslate"><span class="pre">Logger.init_level()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Logger.init_out"><code class="docutils literal notranslate"><span class="pre">Logger.init_out()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Logger.thisown"><code class="docutils literal notranslate"><span class="pre">Logger.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Mat"><code class="docutils literal notranslate"><span class="pre">Mat</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_Normalize_Cols"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_Normalize_Cols()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_Normalize_Rows"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_Normalize_Rows()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_avg"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_avg()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_missing_value"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_missing_value()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_ncols"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_ncols()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_normalized_flag"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_normalized_flag()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_nrows"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_nrows()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_row_ids"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_row_ids()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_signals"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_signals()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_std"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_std()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_GET_transposed_flag"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_GET_transposed_flag()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_SET_missing_value"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_SET_missing_value()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_SET_normalized_flag"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_SET_normalized_flag()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_SET_row_ids"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_SET_row_ids()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.MEDPY_SET_transposed_flag"><code class="docutils literal notranslate"><span class="pre">Mat.MEDPY_SET_transposed_flag()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.add_cols"><code class="docutils literal notranslate"><span class="pre">Mat.add_cols()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.add_rows"><code class="docutils literal notranslate"><span class="pre">Mat.add_rows()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.asSerializable"><code class="docutils literal notranslate"><span class="pre">Mat.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.avg"><code class="docutils literal notranslate"><span class="pre">Mat.avg</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.clear"><code class="docutils literal notranslate"><span class="pre">Mat.clear()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.get_col"><code class="docutils literal notranslate"><span class="pre">Mat.get_col()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.get_cols_avg_std"><code class="docutils literal notranslate"><span class="pre">Mat.get_cols_avg_std()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.get_numpy_copy"><code class="docutils literal notranslate"><span class="pre">Mat.get_numpy_copy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.get_numpy_view_unsafe"><code class="docutils literal notranslate"><span class="pre">Mat.get_numpy_view_unsafe()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.get_row"><code class="docutils literal notranslate"><span class="pre">Mat.get_row()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.get_sub_mat"><code class="docutils literal notranslate"><span class="pre">Mat.get_sub_mat()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.get_sub_mat_by_flags"><code class="docutils literal notranslate"><span class="pre">Mat.get_sub_mat_by_flags()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.is_valid"><code class="docutils literal notranslate"><span class="pre">Mat.is_valid()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.load"><code class="docutils literal notranslate"><span class="pre">Mat.load()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.load_numpy"><code class="docutils literal notranslate"><span class="pre">Mat.load_numpy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.load_transposed"><code class="docutils literal notranslate"><span class="pre">Mat.load_transposed()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.missing_value"><code class="docutils literal notranslate"><span class="pre">Mat.missing_value</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.ncols"><code class="docutils literal notranslate"><span class="pre">Mat.ncols</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.normalize"><code class="docutils literal notranslate"><span class="pre">Mat.normalize()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.normalized_flag"><code class="docutils literal notranslate"><span class="pre">Mat.normalized_flag</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.nrows"><code class="docutils literal notranslate"><span class="pre">Mat.nrows</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.read_from_bin_file"><code class="docutils literal notranslate"><span class="pre">Mat.read_from_bin_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.read_from_csv_file"><code class="docutils literal notranslate"><span class="pre">Mat.read_from_csv_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.resize"><code class="docutils literal notranslate"><span class="pre">Mat.resize()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.row_ids"><code class="docutils literal notranslate"><span class="pre">Mat.row_ids</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.set_signals"><code class="docutils literal notranslate"><span class="pre">Mat.set_signals()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.set_val"><code class="docutils literal notranslate"><span class="pre">Mat.set_val()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.signals"><code class="docutils literal notranslate"><span class="pre">Mat.signals</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.std"><code class="docutils literal notranslate"><span class="pre">Mat.std</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.test"><code class="docutils literal notranslate"><span class="pre">Mat.test()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.thisown"><code class="docutils literal notranslate"><span class="pre">Mat.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.transpose"><code class="docutils literal notranslate"><span class="pre">Mat.transpose()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.transposed_flag"><code class="docutils literal notranslate"><span class="pre">Mat.transposed_flag</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.write_to_bin_file"><code class="docutils literal notranslate"><span class="pre">Mat.write_to_bin_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.write_to_csv_file"><code class="docutils literal notranslate"><span class="pre">Mat.write_to_csv_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Mat.zero"><code class="docutils literal notranslate"><span class="pre">Mat.zero()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.MedConvert"><code class="docutils literal notranslate"><span class="pre">MedConvert</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.MedConvert.create_index"><code class="docutils literal notranslate"><span class="pre">MedConvert.create_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.MedConvert.create_rep"><code class="docutils literal notranslate"><span class="pre">MedConvert.create_rep()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.MedConvert.init_load_params"><code class="docutils literal notranslate"><span class="pre">MedConvert.init_load_params()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.MedConvert.thisown"><code class="docutils literal notranslate"><span class="pre">MedConvert.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Model"><code class="docutils literal notranslate"><span class="pre">Model</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.MEDPY_GET_features"><code class="docutils literal notranslate"><span class="pre">Model.MEDPY_GET_features()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.MEDPY_GET_predictor"><code class="docutils literal notranslate"><span class="pre">Model.MEDPY_GET_predictor()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.MEDPY_GET_verbosity"><code class="docutils literal notranslate"><span class="pre">Model.MEDPY_GET_verbosity()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.MEDPY_SET_verbosity"><code class="docutils literal notranslate"><span class="pre">Model.MEDPY_SET_verbosity()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_age"><code class="docutils literal notranslate"><span class="pre">Model.add_age()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_feature_generator"><code class="docutils literal notranslate"><span class="pre">Model.add_feature_generator()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_feature_generator_to_set"><code class="docutils literal notranslate"><span class="pre">Model.add_feature_generator_to_set()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_feature_generators"><code class="docutils literal notranslate"><span class="pre">Model.add_feature_generators()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_feature_processor_to_set"><code class="docutils literal notranslate"><span class="pre">Model.add_feature_processor_to_set()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_gender"><code class="docutils literal notranslate"><span class="pre">Model.add_gender()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_imputers"><code class="docutils literal notranslate"><span class="pre">Model.add_imputers()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_normalizers"><code class="docutils literal notranslate"><span class="pre">Model.add_normalizers()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_post_processors_json_string_to_model"><code class="docutils literal notranslate"><span class="pre">Model.add_post_processors_json_string_to_model()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_pre_processors_json_string_to_model"><code class="docutils literal notranslate"><span class="pre">Model.add_pre_processors_json_string_to_model()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_process_to_set"><code class="docutils literal notranslate"><span class="pre">Model.add_process_to_set()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.add_rep_processor_to_set"><code class="docutils literal notranslate"><span class="pre">Model.add_rep_processor_to_set()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.apply"><code class="docutils literal notranslate"><span class="pre">Model.apply()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.apply_feature_processors"><code class="docutils literal notranslate"><span class="pre">Model.apply_feature_processors()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.apply_model_change"><code class="docutils literal notranslate"><span class="pre">Model.apply_model_change()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.asSerializable"><code class="docutils literal notranslate"><span class="pre">Model.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.calc_contribs"><code class="docutils literal notranslate"><span class="pre">Model.calc_contribs()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.calc_feature_contribs_conditional"><code class="docutils literal notranslate"><span class="pre">Model.calc_feature_contribs_conditional()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.clear"><code class="docutils literal notranslate"><span class="pre">Model.clear()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.collect_and_add_virtual_signals"><code class="docutils literal notranslate"><span class="pre">Model.collect_and_add_virtual_signals()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.debug_rep_processor_signal"><code class="docutils literal notranslate"><span class="pre">Model.debug_rep_processor_signal()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.delete_feature_processor_by_index"><code class="docutils literal notranslate"><span class="pre">Model.delete_feature_processor_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.delete_post_processor_by_index"><code class="docutils literal notranslate"><span class="pre">Model.delete_post_processor_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.delete_rep_processor_by_index"><code class="docutils literal notranslate"><span class="pre">Model.delete_rep_processor_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.dprint_process"><code class="docutils literal notranslate"><span class="pre">Model.dprint_process()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.features"><code class="docutils literal notranslate"><span class="pre">Model.features</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.filter_rep_processors"><code class="docutils literal notranslate"><span class="pre">Model.filter_rep_processors()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.fit_for_repository"><code class="docutils literal notranslate"><span class="pre">Model.fit_for_repository()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.generate_all_features"><code class="docutils literal notranslate"><span class="pre">Model.generate_all_features()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.get_all_features_names"><code class="docutils literal notranslate"><span class="pre">Model.get_all_features_names()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.get_model_arch_json"><code class="docutils literal notranslate"><span class="pre">Model.get_model_arch_json()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.get_model_processors_info"><code class="docutils literal notranslate"><span class="pre">Model.get_model_processors_info()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.get_model_version_info"><code class="docutils literal notranslate"><span class="pre">Model.get_model_version_info()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.get_model_weights_info"><code class="docutils literal notranslate"><span class="pre">Model.get_model_weights_info()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.get_required_signal_names"><code class="docutils literal notranslate"><span class="pre">Model.get_required_signal_names()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.init_from_json_file"><code class="docutils literal notranslate"><span class="pre">Model.init_from_json_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.init_from_json_file_with_alterations"><code class="docutils literal notranslate"><span class="pre">Model.init_from_json_file_with_alterations()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.learn"><code class="docutils literal notranslate"><span class="pre">Model.learn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.learn_and_apply_feature_processors"><code class="docutils literal notranslate"><span class="pre">Model.learn_and_apply_feature_processors()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.learn_feature_generators"><code class="docutils literal notranslate"><span class="pre">Model.learn_feature_generators()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.learn_feature_processors"><code class="docutils literal notranslate"><span class="pre">Model.learn_feature_processors()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.learn_rep_processors"><code class="docutils literal notranslate"><span class="pre">Model.learn_rep_processors()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.make_predictor"><code class="docutils literal notranslate"><span class="pre">Model.make_predictor()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.predictor"><code class="docutils literal notranslate"><span class="pre">Model.predictor</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.print_feature_generator_by_index"><code class="docutils literal notranslate"><span class="pre">Model.print_feature_generator_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.print_feature_processor_by_index"><code class="docutils literal notranslate"><span class="pre">Model.print_feature_processor_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.print_post_processor_by_index"><code class="docutils literal notranslate"><span class="pre">Model.print_post_processor_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.print_rep_processor_by_index"><code class="docutils literal notranslate"><span class="pre">Model.print_rep_processor_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.quick_learn_rep_processors"><code class="docutils literal notranslate"><span class="pre">Model.quick_learn_rep_processors()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.read_from_file"><code class="docutils literal notranslate"><span class="pre">Model.read_from_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.set_predictor"><code class="docutils literal notranslate"><span class="pre">Model.set_predictor()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.thisown"><code class="docutils literal notranslate"><span class="pre">Model.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.train_post_processor_by_index"><code class="docutils literal notranslate"><span class="pre">Model.train_post_processor_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.train_rep_processor_by_index"><code class="docutils literal notranslate"><span class="pre">Model.train_rep_processor_by_index()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.verbosity"><code class="docutils literal notranslate"><span class="pre">Model.verbosity</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.write_feature_matrix"><code class="docutils literal notranslate"><span class="pre">Model.write_feature_matrix()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Model.write_to_file"><code class="docutils literal notranslate"><span class="pre">Model.write_to_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.ModelStage"><code class="docutils literal notranslate"><span class="pre">ModelStage</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.ModelStage.thisown"><code class="docutils literal notranslate"><span class="pre">ModelStage.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.PidRepository"><code class="docutils literal notranslate"><span class="pre">PidRepository</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.MEDPY_GET_pids"><code class="docutils literal notranslate"><span class="pre">PidRepository.MEDPY_GET_pids()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.clear"><code class="docutils literal notranslate"><span class="pre">PidRepository.clear()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.dict"><code class="docutils literal notranslate"><span class="pre">PidRepository.dict</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.dict_name"><code class="docutils literal notranslate"><span class="pre">PidRepository.dict_name()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.dict_prep_sets_lookup_table"><code class="docutils literal notranslate"><span class="pre">PidRepository.dict_prep_sets_lookup_table()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.dict_section_id"><code class="docutils literal notranslate"><span class="pre">PidRepository.dict_section_id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.export_to_numpy"><code class="docutils literal notranslate"><span class="pre">PidRepository.export_to_numpy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.finish_load_data"><code class="docutils literal notranslate"><span class="pre">PidRepository.finish_load_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.free"><code class="docutils literal notranslate"><span class="pre">PidRepository.free()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.get_lut_from_regex"><code class="docutils literal notranslate"><span class="pre">PidRepository.get_lut_from_regex()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.get_sig"><code class="docutils literal notranslate"><span class="pre">PidRepository.get_sig()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.init"><code class="docutils literal notranslate"><span class="pre">PidRepository.init()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.is_categorical"><code class="docutils literal notranslate"><span class="pre">PidRepository.is_categorical()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.list_signals"><code class="docutils literal notranslate"><span class="pre">PidRepository.list_signals()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.load_from_json"><code class="docutils literal notranslate"><span class="pre">PidRepository.load_from_json()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.load_from_json_str"><code class="docutils literal notranslate"><span class="pre">PidRepository.load_from_json_str()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.loadsig"><code class="docutils literal notranslate"><span class="pre">PidRepository.loadsig()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.loadsig_pids"><code class="docutils literal notranslate"><span class="pre">PidRepository.loadsig_pids()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.pids"><code class="docutils literal notranslate"><span class="pre">PidRepository.pids</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.read_all"><code class="docutils literal notranslate"><span class="pre">PidRepository.read_all()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.read_all_i"><code class="docutils literal notranslate"><span class="pre">PidRepository.read_all_i()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.sig_description"><code class="docutils literal notranslate"><span class="pre">PidRepository.sig_description()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.sig_id"><code class="docutils literal notranslate"><span class="pre">PidRepository.sig_id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.sig_type"><code class="docutils literal notranslate"><span class="pre">PidRepository.sig_type()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.switch_to_in_mem"><code class="docutils literal notranslate"><span class="pre">PidRepository.switch_to_in_mem()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.thisown"><code class="docutils literal notranslate"><span class="pre">PidRepository.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PidRepository.uget"><code class="docutils literal notranslate"><span class="pre">PidRepository.uget()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Predictor"><code class="docutils literal notranslate"><span class="pre">Predictor</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_GET_features_count"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_GET_features_count()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_GET_model_features"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_GET_model_features()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_GET_normalize_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_GET_normalize_for_learn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_GET_normalize_for_predict"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_GET_normalize_for_predict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_GET_normalize_y_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_GET_normalize_y_for_learn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_GET_transpose_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_GET_transpose_for_learn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_GET_transpose_for_predict"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_GET_transpose_for_predict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_SET_features_count"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_SET_features_count()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_SET_model_features"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_SET_model_features()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_SET_normalize_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_SET_normalize_for_learn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_SET_normalize_for_predict"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_SET_normalize_for_predict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_SET_normalize_y_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_SET_normalize_y_for_learn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_SET_transpose_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_SET_transpose_for_learn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.MEDPY_SET_transpose_for_predict"><code class="docutils literal notranslate"><span class="pre">Predictor.MEDPY_SET_transpose_for_predict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.asSerializable"><code class="docutils literal notranslate"><span class="pre">Predictor.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.calc_feature_contribs"><code class="docutils literal notranslate"><span class="pre">Predictor.calc_feature_contribs()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.export_predictor"><code class="docutils literal notranslate"><span class="pre">Predictor.export_predictor()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.features_count"><code class="docutils literal notranslate"><span class="pre">Predictor.features_count</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.learn"><code class="docutils literal notranslate"><span class="pre">Predictor.learn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.make_predictor"><code class="docutils literal notranslate"><span class="pre">Predictor.make_predictor()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.model_features"><code class="docutils literal notranslate"><span class="pre">Predictor.model_features</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.normalize_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.normalize_for_learn</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.normalize_for_predict"><code class="docutils literal notranslate"><span class="pre">Predictor.normalize_for_predict</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.normalize_y_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.normalize_y_for_learn</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.predict"><code class="docutils literal notranslate"><span class="pre">Predictor.predict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.thisown"><code class="docutils literal notranslate"><span class="pre">Predictor.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.transpose_for_learn"><code class="docutils literal notranslate"><span class="pre">Predictor.transpose_for_learn</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.transpose_for_predict"><code class="docutils literal notranslate"><span class="pre">Predictor.transpose_for_predict</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Predictor.write_predictor_to_file"><code class="docutils literal notranslate"><span class="pre">Predictor.write_predictor_to_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.PredictorTypes"><code class="docutils literal notranslate"><span class="pre">PredictorTypes</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.PredictorTypes.thisown"><code class="docutils literal notranslate"><span class="pre">PredictorTypes.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Sample"><code class="docutils literal notranslate"><span class="pre">Sample</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_GET_id"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_GET_id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_GET_outcome"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_GET_outcome()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_GET_outcomeTime"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_GET_outcomeTime()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_GET_prediction"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_GET_prediction()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_GET_split"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_GET_split()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_GET_time"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_GET_time()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_SET_id"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_SET_id()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_SET_outcome"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_SET_outcome()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_SET_outcomeTime"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_SET_outcomeTime()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_SET_prediction"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_SET_prediction()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_SET_split"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_SET_split()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.MEDPY_SET_time"><code class="docutils literal notranslate"><span class="pre">Sample.MEDPY_SET_time()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.asSerializable"><code class="docutils literal notranslate"><span class="pre">Sample.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.id"><code class="docutils literal notranslate"><span class="pre">Sample.id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.outcome"><code class="docutils literal notranslate"><span class="pre">Sample.outcome</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.outcomeTime"><code class="docutils literal notranslate"><span class="pre">Sample.outcomeTime</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.parse_from_string"><code class="docutils literal notranslate"><span class="pre">Sample.parse_from_string()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.prediction"><code class="docutils literal notranslate"><span class="pre">Sample.prediction</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.print_"><code class="docutils literal notranslate"><span class="pre">Sample.print_()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.split"><code class="docutils literal notranslate"><span class="pre">Sample.split</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.thisown"><code class="docutils literal notranslate"><span class="pre">Sample.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.time"><code class="docutils literal notranslate"><span class="pre">Sample.time</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sample.write_to_string"><code class="docutils literal notranslate"><span class="pre">Sample.write_to_string()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.SampleFilter"><code class="docutils literal notranslate"><span class="pre">SampleFilter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleFilter.asSerializable"><code class="docutils literal notranslate"><span class="pre">SampleFilter.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleFilter.filter"><code class="docutils literal notranslate"><span class="pre">SampleFilter.filter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleFilter.from_name"><code class="docutils literal notranslate"><span class="pre">SampleFilter.from_name()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleFilter.from_name_params"><code class="docutils literal notranslate"><span class="pre">SampleFilter.from_name_params()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleFilter.from_type"><code class="docutils literal notranslate"><span class="pre">SampleFilter.from_type()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleFilter.from_type_params"><code class="docutils literal notranslate"><span class="pre">SampleFilter.from_type_params()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleFilter.thisown"><code class="docutils literal notranslate"><span class="pre">SampleFilter.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.SampleVectorAdaptor"><code class="docutils literal notranslate"><span class="pre">SampleVectorAdaptor</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleVectorAdaptor.append"><code class="docutils literal notranslate"><span class="pre">SampleVectorAdaptor.append()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleVectorAdaptor.append_vec"><code class="docutils literal notranslate"><span class="pre">SampleVectorAdaptor.append_vec()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleVectorAdaptor.nSplits"><code class="docutils literal notranslate"><span class="pre">SampleVectorAdaptor.nSplits()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleVectorAdaptor.override_splits"><code class="docutils literal notranslate"><span class="pre">SampleVectorAdaptor.override_splits()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.SampleVectorAdaptor.thisown"><code class="docutils literal notranslate"><span class="pre">SampleVectorAdaptor.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Samples"><code class="docutils literal notranslate"><span class="pre">Samples</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.MEDPY_GET_idSamples"><code class="docutils literal notranslate"><span class="pre">Samples.MEDPY_GET_idSamples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.MEDPY_GET_time_unit"><code class="docutils literal notranslate"><span class="pre">Samples.MEDPY_GET_time_unit()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.MEDPY_SET_time_unit"><code class="docutils literal notranslate"><span class="pre">Samples.MEDPY_SET_time_unit()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.MEDPY__from_df"><code class="docutils literal notranslate"><span class="pre">Samples.MEDPY__from_df()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.MEDPY__from_df_adaptor"><code class="docutils literal notranslate"><span class="pre">Samples.MEDPY__from_df_adaptor()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.MEDPY__to_df"><code class="docutils literal notranslate"><span class="pre">Samples.MEDPY__to_df()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.append"><code class="docutils literal notranslate"><span class="pre">Samples.append()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.asSerializable"><code class="docutils literal notranslate"><span class="pre">Samples.asSerializable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.clear"><code class="docutils literal notranslate"><span class="pre">Samples.clear()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.dilute"><code class="docutils literal notranslate"><span class="pre">Samples.dilute()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.export_to_sample_vec"><code class="docutils literal notranslate"><span class="pre">Samples.export_to_sample_vec()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.filter_by_bt"><code class="docutils literal notranslate"><span class="pre">Samples.filter_by_bt()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.get_attributes"><code class="docutils literal notranslate"><span class="pre">Samples.get_attributes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.get_categs"><code class="docutils literal notranslate"><span class="pre">Samples.get_categs()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.get_ids"><code class="docutils literal notranslate"><span class="pre">Samples.get_ids()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.get_predictions_size"><code class="docutils literal notranslate"><span class="pre">Samples.get_predictions_size()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.get_preds"><code class="docutils literal notranslate"><span class="pre">Samples.get_preds()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.get_str_attributes"><code class="docutils literal notranslate"><span class="pre">Samples.get_str_attributes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.get_str_attributes_by_name"><code class="docutils literal notranslate"><span class="pre">Samples.get_str_attributes_by_name()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.get_y"><code class="docutils literal notranslate"><span class="pre">Samples.get_y()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.idSamples"><code class="docutils literal notranslate"><span class="pre">Samples.idSamples</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.import_from_sample_vec"><code class="docutils literal notranslate"><span class="pre">Samples.import_from_sample_vec()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.insertRec"><code class="docutils literal notranslate"><span class="pre">Samples.insertRec()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.insert_preds"><code class="docutils literal notranslate"><span class="pre">Samples.insert_preds()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.nSamples"><code class="docutils literal notranslate"><span class="pre">Samples.nSamples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.nSplits"><code class="docutils literal notranslate"><span class="pre">Samples.nSplits()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.normalize"><code class="docutils literal notranslate"><span class="pre">Samples.normalize()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.override_splits"><code class="docutils literal notranslate"><span class="pre">Samples.override_splits()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.read_from_bin_file"><code class="docutils literal notranslate"><span class="pre">Samples.read_from_bin_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.read_from_file"><code class="docutils literal notranslate"><span class="pre">Samples.read_from_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.same_as"><code class="docutils literal notranslate"><span class="pre">Samples.same_as()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.set_samples"><code class="docutils literal notranslate"><span class="pre">Samples.set_samples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.sort_by_id_date"><code class="docutils literal notranslate"><span class="pre">Samples.sort_by_id_date()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.split_train_test"><code class="docutils literal notranslate"><span class="pre">Samples.split_train_test()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.subtract"><code class="docutils literal notranslate"><span class="pre">Samples.subtract()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.thisown"><code class="docutils literal notranslate"><span class="pre">Samples.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.time_unit"><code class="docutils literal notranslate"><span class="pre">Samples.time_unit</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.version"><code class="docutils literal notranslate"><span class="pre">Samples.version()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.write_to_bin_file"><code class="docutils literal notranslate"><span class="pre">Samples.write_to_bin_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Samples.write_to_file"><code class="docutils literal notranslate"><span class="pre">Samples.write_to_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Sig"><code class="docutils literal notranslate"><span class="pre">Sig</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.date"><code class="docutils literal notranslate"><span class="pre">Sig.date()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.days"><code class="docutils literal notranslate"><span class="pre">Sig.days()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.hours"><code class="docutils literal notranslate"><span class="pre">Sig.hours()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.minutes"><code class="docutils literal notranslate"><span class="pre">Sig.minutes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.months"><code class="docutils literal notranslate"><span class="pre">Sig.months()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.thisown"><code class="docutils literal notranslate"><span class="pre">Sig.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.time"><code class="docutils literal notranslate"><span class="pre">Sig.time()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.timeU"><code class="docutils literal notranslate"><span class="pre">Sig.timeU()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.val"><code class="docutils literal notranslate"><span class="pre">Sig.val()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Sig.years"><code class="docutils literal notranslate"><span class="pre">Sig.years()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Split"><code class="docutils literal notranslate"><span class="pre">Split</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Split.MEDPY_GET_nsplits"><code class="docutils literal notranslate"><span class="pre">Split.MEDPY_GET_nsplits()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Split.MEDPY_GET_pid2split"><code class="docutils literal notranslate"><span class="pre">Split.MEDPY_GET_pid2split()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Split.clear"><code class="docutils literal notranslate"><span class="pre">Split.clear()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Split.nsplits"><code class="docutils literal notranslate"><span class="pre">Split.nsplits</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Split.pid2split"><code class="docutils literal notranslate"><span class="pre">Split.pid2split</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Split.read_from_file"><code class="docutils literal notranslate"><span class="pre">Split.read_from_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Split.thisown"><code class="docutils literal notranslate"><span class="pre">Split.thisown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Split.write_to_file"><code class="docutils literal notranslate"><span class="pre">Split.write_to_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.Time"><code class="docutils literal notranslate"><span class="pre">Time</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="MedPython.html#med.Time.thisown"><code class="docutils literal notranslate"><span class="pre">Time.thisown</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="MedPython.html#med.logger_use_stdout"><code class="docutils literal notranslate"><span class="pre">logger_use_stdout()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="#">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Medial EarlySign ETL documentation</a></li>
+<li><a class="reference internal" href="#algomarker-api-documentation">AlgoMarker API documentation</a></li>
+<li><a class="reference internal" href="#medpython-api-documentation">MedPython API documentation</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="data_fetcher/data_fethcer.html"
+                          title="next chapter">ETL_Infra data retrieval</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="data_fetcher/data_fethcer.html" title="ETL_Infra data retrieval"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">MES Python API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Medial EarlySign ETL documentation</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Medial Earlysign.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

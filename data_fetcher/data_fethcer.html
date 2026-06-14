@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ETL_Infra data retrieval &#8212; MES Python API  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/classic.css?v=2bf1fcf8" />
+    
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ETL_Infra package" href="../ETL_Infra.html" />
+    <link rel="prev" title="Medial EarlySign ETL documentation" href="../index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../ETL_Infra.html" title="ETL_Infra package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Medial EarlySign ETL documentation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MES Python API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ETL_Infra data retrieval</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="etl-infra-data-retrieval">
+<h1>ETL_Infra data retrieval<a class="headerlink" href="#etl-infra-data-retrieval" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<section id="module-data_fetcher.db_fetcher">
+<span id="etl-infra-data-fetcher-db-fetcher-module"></span><h2>ETL_Infra.data_fetcher.db_fetcher module<a class="headerlink" href="#module-data_fetcher.db_fetcher" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="data_fetcher.db_fetcher.db_fetcher">
+<span class="sig-prename descclassname"><span class="pre">data_fetcher.db_fetcher.</span></span><span class="sig-name descname"><span class="pre">db_fetcher</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">db</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sql_query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_batch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_mapper</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/data_fetcher/db_fetcher.html#db_fetcher"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_fetcher.db_fetcher.db_fetcher" title="Link to this definition">¶</a></dt>
+<dd><p>A helper function to retrieve data from DB in batches.</p>
+<p>This will add sorting of the query by “pid” to allow fetching in batches</p>
+<p>and continue from where we stoped. It will store last patient id</p>
+<p>we reached in each batch under batch_mapper</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>db</strong> (<em>DB_Access</em>) – The database object DB_Access</p></li>
+<li><p><strong>sql_query</strong> (<em>str</em>) – The sql query to fetch results</p></li>
+<li><p><strong>batch_size</strong> (<em>int</em>) – The size of the batch, number of rows to read from each batch</p></li>
+<li><p><strong>start_batch</strong> (<em>int</em>) – The starting point, to continue exection from the middle</p></li>
+<li><p><strong>batch_mapper</strong> (<em>Dict</em><em>[</em><em>int</em><em>, </em><em>str</em><em>]</em>) – A dictionary to map batch starting point to last patient id read in that batch</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>lazy data iterator to retrieve the data</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><em>Generator</em>[<em>DataFrame</em>, None, None]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-data_fetcher.files_fetcher">
+<span id="etl-infra-data-fetcher-files-fetcher-module"></span><h2>ETL_Infra.data_fetcher.files_fetcher module<a class="headerlink" href="#module-data_fetcher.files_fetcher" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="data_fetcher.files_fetcher.big_files_fetcher">
+<span class="sig-prename descclassname"><span class="pre">data_fetcher.files_fetcher.</span></span><span class="sig-name descname"><span class="pre">big_files_fetcher</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">files</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_parser</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">has_header</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_batch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/data_fetcher/files_fetcher.html#big_files_fetcher"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_fetcher.files_fetcher.big_files_fetcher" title="Link to this definition">¶</a></dt>
+<dd><p>A helper function to create data generator from list of big files.</p>
+<p>The batching is done in the level of #rows. So “1” means process 1 row, 0 - no batches, read all</p>
+<p>It will read several files till it reaches “batch_size” or part of 1</p>
+<p>file if the file is bigger than “batch_size”</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>files</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – list of file paths to process</p></li>
+<li><p><strong>batch_size</strong> (<em>int</em>) – the batch size in number of rows to process</p></li>
+<li><p><strong>file_parser</strong> (<em>Callable</em><em>[</em><em>[</em><em>str</em><em>, </em><em>int</em><em>, </em><em>int</em><em>]</em><em>, </em><em>Generator</em><em>[</em><em>DataFrame</em><em>, </em><em>None</em><em>, </em><em>None</em><em>]</em><em>]</em>) – a function to “read” each file path into dataframe with at least “pid” column
+The function recieves file path, number of lines to read from (batch_size) the file and how many lines to skip from file (start_from)
+usefull when we want to continue run from the middle in big file. Example reading with pandas:
+df_i=pd.read_csv($FILE_PATH, skiprows=start_from_row, chunksize=batch_size)</p></li>
+<li><p><strong>has_header</strong> (<em>bool</em>) – A flag to indicate if file contains header</p></li>
+<li><p><strong>start_batch</strong> (<em>int</em>) – Staring position of the batch</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>a lazy data generator to fetch the Dataframes</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><em>Generator</em>[<em>DataFrame</em>, None, None]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="data_fetcher.files_fetcher.files_fetcher">
+<span class="sig-prename descclassname"><span class="pre">data_fetcher.files_fetcher.</span></span><span class="sig-name descname"><span class="pre">files_fetcher</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">files</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_parser</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_batch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/data_fetcher/files_fetcher.html#files_fetcher"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_fetcher.files_fetcher.files_fetcher" title="Link to this definition">¶</a></dt>
+<dd><p>A helper function to create data generator from list of files.</p>
+<p>The batching is done in the level of each file.</p>
+<p>So “1” means process each file in separate batch, 0 - no batches</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>files</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – list of file paths to process</p></li>
+<li><p><strong>batch_size</strong> (<em>int</em>) – the batch size in number of files to process</p></li>
+<li><p><strong>file_parser</strong> (<em>Callable</em><em>[</em><em>[</em><em>str</em><em>]</em><em>, </em><em>DataFrame</em><em>]</em>) – a function to “read” each file path into dataframe with at least “pid” column</p></li>
+<li><p><strong>start_batch</strong> (<em>int</em>) – Staring position of the batch</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>a lazy data generator to fetch the Dataframes</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><em>Generator</em>[<em>DataFrame</em>, None, None]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="data_fetcher.files_fetcher.list_directory_files">
+<span class="sig-prename descclassname"><span class="pre">data_fetcher.files_fetcher.</span></span><span class="sig-name descname"><span class="pre">list_directory_files</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_search</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/data_fetcher/files_fetcher.html#list_directory_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#data_fetcher.files_fetcher.list_directory_files" title="Link to this definition">¶</a></dt>
+<dd><p>A helper function to list all files in directory that matches a certain regex</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>base_path</strong> (<em>str</em>) – the directory path</p></li>
+<li><p><strong>file_search</strong> (<em>str</em>) – the regex to search in the directory</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>list of files matches the regex</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><em>List</em>[str]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">ETL_Infra data retrieval</a><ul>
+<li><a class="reference internal" href="#module-data_fetcher.db_fetcher">ETL_Infra.data_fetcher.db_fetcher module</a><ul>
+<li><a class="reference internal" href="#data_fetcher.db_fetcher.db_fetcher"><code class="docutils literal notranslate"><span class="pre">db_fetcher()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-data_fetcher.files_fetcher">ETL_Infra.data_fetcher.files_fetcher module</a><ul>
+<li><a class="reference internal" href="#data_fetcher.files_fetcher.big_files_fetcher"><code class="docutils literal notranslate"><span class="pre">big_files_fetcher()</span></code></a></li>
+<li><a class="reference internal" href="#data_fetcher.files_fetcher.files_fetcher"><code class="docutils literal notranslate"><span class="pre">files_fetcher()</span></code></a></li>
+<li><a class="reference internal" href="#data_fetcher.files_fetcher.list_directory_files"><code class="docutils literal notranslate"><span class="pre">list_directory_files()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="../index.html"
+                          title="previous chapter">Medial EarlySign ETL documentation</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="../ETL_Infra.html"
+                          title="next chapter">ETL_Infra package</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/data_fetcher/data_fethcer.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../ETL_Infra.html" title="ETL_Infra package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Medial EarlySign ETL documentation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MES Python API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ETL_Infra data retrieval</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Medial Earlysign.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>
